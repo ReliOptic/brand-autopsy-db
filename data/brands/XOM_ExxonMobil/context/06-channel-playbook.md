@@ -4,138 +4,121 @@
 
 ---
 
-## 1. Channel Strategy Matrix
+## Channel Matrix
 
-| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
-|---|---|---|---|---|---|
-| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
-| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
-| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
-| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
-| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
-| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
-
----
-
-## 2. Channel Tone Variations
-
-ExxonMobil's core voice adjusts by channel while maintaining brand coherence.
-
-| Channel | Formality | Key Adjustment |
-|---|---|---|
-| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
-| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
-| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
-| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
-| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
-| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+| Channel | Primary Audience | Content Type | Posting Frequency (estimated) | KPI |
+|---------|-----------------|--------------|-------------------------------|-----|
+| **ExxonMobil.com (corporate)** | Investors, regulators, media, industrial buyers | Investor relations, newsroom, sustainability, careers | Ongoing (news-driven) | Investor page traffic, press release pick-up, career application volume |
+| **LinkedIn (ExxonMobil)** | Institutional investors, energy professionals, policy audience, B2B buyers | Production milestones, technology announcements, sustainability progress, executive thought leadership | 5–10 posts/week (estimated) | Follower growth, engagement rate, media pick-up from posts |
+| **Twitter/X (ExxonMobil)** | Media, investors, policy audience | Breaking news, earnings, crisis response, real-time industry commentary | 3–7 posts/week (estimated) | Impressions, journalist engagement, investor inquiry |
+| **YouTube (Mobil 1 The Grid)** | Automotive enthusiasts, professional mechanics, motorsport fans | Motorsport content, vehicle partnership features, how-to engine care | 2–4 videos/month (estimated) | View count, subscriber growth, watchthrough rate |
+| **Instagram (Mobil 1)** | Automotive enthusiasts, consumers 18–45 | Racing photography, Corvette content, vehicle lifestyle imagery | Daily or near-daily (estimated) | Follower growth, engagement rate, product page referral traffic |
+| **Investor Relations microsite** | Institutional investors, analysts, retail shareholders | 10-K/10-Q filings, earnings call recordings, investor presentations, dividend history | Quarterly cadence + event-driven | Analyst coverage, institutional shareholder base stability |
 
 ---
 
-## 3. Cross-Channel Synergy Map
+## Tone Variations by Channel
 
-### Route A — Product/Service Launch Sequence
+### LinkedIn (ExxonMobil Corporate)
+- Authoritative and data-anchored
+- Milestone-led headlines: "ExxonMobil's Guyana operations reach X BOE/day"
+- No consumer promotions; no product pricing
+- Executive posts use first-person professional tone with data support
+- Response to regulatory/climate commentary is factual and measured, never defensive or combative
+- (observed on ExxonMobil LinkedIn presence)
 
-```
-[Company Announcement (Website + Newsroom)]
-        |
-        v
-[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
-        |                                          |
-        v                                          v
-[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
-        |
-        v
-[Sales team — Direct outreach with launch context]
-```
+### Twitter/X (ExxonMobil)
+- Shorter, more declarative versions of press release headlines
+- Crisis communications appear here first for speed — factual, safety-first
+- Earnings announcement excerpts with link to full release
+- No engagement with hostile replies on sensitive topics (policy, climate litigation)
+- (observed on ExxonMobil Twitter/X presence)
 
-### Route B — Thought Leadership Pipeline
+### YouTube (Mobil 1 The Grid)
+- Entirely distinct voice from corporate brand — performance, excitement, enthusiasm
+- Racing footage, driver interviews, pit crew content, vehicle review partnerships
+- "Mobil 1 The Grid" YouTube channel had 120,000+ subscribers as of 2023 (estimated, based on publicly observable channel metrics)
+- Long-form content (5–20 minutes) targeting engaged automotive enthusiasts, not casual viewers
+- (observed on Mobil 1 The Grid YouTube channel)
 
-```
-[Research / White Paper (Website)]
-        |
-        v
-[LinkedIn — Key findings + executive commentary]
-        |
-        v
-[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
-        |
-        v
-[Sales enablement — Research as conversation starter]
-```
-
-### Route C — Earnings and Financial Communications
-
-```
-[SEC Filing (EDGAR) + IR Press Release]
-        |
-        v
-[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
-        |
-        v
-[LinkedIn — CEO/executive commentary post]
-        |
-        v
-[Media pickup → Analyst reports → Investor sentiment cycle]
-```
+### Instagram (Mobil 1)
+- High-contrast photography: dark backgrounds, racing imagery, vehicle close-ups
+- Caption style: short, punchy, performance-forward ("Full throttle. Full protection.")
+- OEM partnership content uses co-branding — Corvette, NASCAR team logos alongside Mobil 1
+- Hashtag strategy: #Mobil1 #BornOnTheTrack #CorvetteZ06 #NASCARonNBC
+- (observed on Mobil 1 Instagram presence)
 
 ---
 
-## 4. Channel-Specific Prohibitions
+## Cross-Channel Synergy Routes
 
-### Company Website
-- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
-- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+1. **Earnings → LinkedIn → IR website**: Quarterly earnings are released via press release, then excerpted in LinkedIn posts, then linked to the full IR page for detailed review. This three-step funnel moves institutional audiences from awareness (LinkedIn) to depth (IR website) in a single content cycle.
 
-### LinkedIn
-- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
-- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+2. **Racing event → Instagram → YouTube → Mobil 1 product page**: A NASCAR race weekend generates live Instagram content (race day posts) which points to a full race recap on YouTube (Mobil 1 The Grid), which includes a product recommendation CTA linking to the Mobil 1 product selector on mobil.com. This is a full consumer conversion funnel from event to purchase intent.
 
-### Twitter / X
-- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
-
-### IR / SEC
-- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
-- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+3. **Sustainability Report → LinkedIn articles → media pitch → exxonmobil.com**: Annual Sustainability Report publication triggers a LinkedIn article series from ExxonMobil executives (breaking key findings into digestible posts), which is simultaneously pitched to energy and ESG media for third-party coverage, driving traffic back to the full report on exxonmobil.com.
 
 ---
 
-## 5. Crisis Response Protocol
+## Channel Prohibitions
 
-### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+1. **No price advertising on corporate ExxonMobil channels**: Commodity fuel pricing is set by market forces and varies by region. Publishing prices on corporate channels creates customer expectation management issues and is inconsistent with institutional B2B communications. (T4_INFERRED)
 
-**Response sequence:**
-1. Internal assessment and scoping (T+0 to T+24h)
-2. Official statement on company website / newsroom (T+24h)
-3. Direct customer notification via email (T+24-48h)
-4. Remedy program implementation
-5. Ongoing status updates until resolution
+2. **No unmoderated social media engagement on climate or litigation topics**: Due to the sensitivity of ongoing climate litigation (multiple state AGs and municipalities have filed or sought legal action against oil majors), ExxonMobil's social media communications are structured to avoid real-time open debate on these topics. Official statements are made through press releases and legal filings. (T4_INFERRED from legal risk framework; T3_SECONDARY_RELIABLE for litigation context)
 
-### Scenario 2 — Regulatory or Legal Action
+3. **No corporate ExxonMobil brand presence on TikTok as primary channel**: The short-form, youth-oriented, algorithmically unpredictable nature of TikTok is inconsistent with ExxonMobil's institutional brand voice and audience. Mobil 1 could have organic presence via automotive creators, but ExxonMobil corporate brand content is not optimized for this format. (T4_INFERRED)
 
-**Response sequence:**
-1. Legal review of public statement content (T+0 to T+48h)
-2. Official statement on company website acknowledging the proceeding
-3. SEC filing disclosure as required (8-K if material)
-4. Ongoing compliance communications through appropriate channels
-
-### Scenario 3 — Reputation / Social Media Issue
-
-**Response sequence:**
-1. Monitor and assess severity (T+0 to T+72h)
-2. If media pickup exceeds threshold: factual clarification on website
-3. If social-only: studied silence as default; response only if factual correction is required
-4. Resolution through operational action, not communications alone
+4. **No earnings-period social media speculation**: During the period before quarterly earnings announcements, forward-looking social media content that could be construed as selective disclosure is prohibited under SEC Regulation FD. ExxonMobil's IR team manages a quiet period before earnings. (T4_INFERRED from SEC Regulation FD requirements)
 
 ---
 
-## 6. Steal Sheet — 3 Transferable Principles
+## Crisis Communications Protocol
 
-**1. Align channel formality with audience expectations.**
-ExxonMobil's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+### Scenario 1: Refinery Incident or Spill
 
-**2. Use financial communications as a credibility asset.**
-ExxonMobil's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+**Trigger**: News report or social media post about an incident at an ExxonMobil facility.
 
-**3. Build a cross-channel sequence, not parallel silos.**
-ExxonMobil's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.
+**Response sequence**:
+1. Within 2 hours: acknowledge the incident via press release with confirmed factual information only; prioritize safety status of personnel
+2. Within 24 hours: update with environmental remediation actions taken; reference regulatory agency notification compliance
+3. Ongoing: regular factual updates until incident is resolved; avoid speculative cause statements until investigation is complete
+4. No social media engagement on the incident outside of official statement links
+
+**Prohibited language**: Do not use "minor incident" or "no significant impact" until verified by independent assessment. Understatement of environmental incidents has legal and regulatory implications. (T4_INFERRED from environmental incident communications best practices)
+
+### Scenario 2: Climate Litigation Development
+
+**Trigger**: Court filing, legal ruling, or state AG announcement targeting ExxonMobil.
+
+**Response sequence**:
+1. Legal team reviews and approves all public statements before release
+2. Press release: factual summary of the legal development; ExxonMobil's stated position
+3. No social media engagement outside of official statement link; no executive commentary on open litigation
+4. Investor communications updated to reflect material litigation development in next available filing
+
+**Prohibited language**: Do not characterize plaintiff motivations or make predictions about case outcomes. Legal proceedings are reported factually. (T4_INFERRED from legal risk framework)
+
+### Scenario 3: Oil Price Collapse / Earnings Miss
+
+**Trigger**: Significant oil price decline or quarterly earnings below analyst consensus.
+
+**Response sequence**:
+1. Earnings release per normal quarterly cadence with full context on market conditions
+2. Conference call allows analyst Q&A to address specific concerns
+3. No preemptive guidance or mid-quarter earnings commentary outside of formal processes
+4. Dividend commitment reinforced to institutional audience if financial position allows
+
+**Prohibited language**: Do not promise specific future earnings, production, or return levels that would constitute material forward guidance outside of SEC-compliant processes. (T4_INFERRED from SEC disclosure requirements)
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. The IR microsite as a permanently open institutional sales channel.**
+ExxonMobil's Investor Relations microsite functions as a 24/7 institutional sales presentation — accessible to any analyst, journalist, or large investor at any time without requiring a sales call. Earnings releases, quarterly filings, investor presentation decks, and the dividend history record are all immediately accessible. Transferable structure: for any B2B company, the equivalent of an IR microsite is a "proof vault" — a public-facing collection of third-party validations, case studies, financial stability indicators, and operational track records that a buyer can review independently. This converts outbound sales effort into inbound credibility.
+
+**2. Sub-brand channel independence prevents voice contamination.**
+Mobil 1's social channels (Instagram, YouTube) operate with a consumer-entertainment voice completely separate from ExxonMobil's institutional LinkedIn. The teams, editorial guidelines, and audiences do not overlap. If Mobil 1's consumer voice bled into corporate ExxonMobil's institutional channels, it would undermine credibility with institutional investors and regulators. Transferable structure: when a parent company owns brands serving radically different audiences, maintain separate channel accounts with separate community management teams and separate editorial approval chains.
+
+**3. Crisis communication speed is a brand asset.**
+In the energy sector, where an incident at one company affects the stock prices of all peers, the speed of ExxonMobil's first statement after an incident is itself a trust signal. A fast, factual, measured first statement controls the narrative before it is filled by speculation. Transferable structure: draft crisis communication templates for your three most likely failure scenarios — product recall, data breach, executive misconduct — before they happen. Pre-approved factual templates reduce response time from days to hours.

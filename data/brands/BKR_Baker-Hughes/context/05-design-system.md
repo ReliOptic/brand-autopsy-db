@@ -4,99 +4,105 @@
 
 ---
 
-## 1. Color Palette
+## Color Palette
 
-Baker Hughes's visual identity, as observed on its official website, employs a structured color system appropriate to energy sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
+> Note: CSS extraction for bakerhughes.com returned no color data in automated capture. The following palette is derived from direct visual observation of bakerhughes.com and official brand materials. (observed on website)
 
-### Core Brand Colors
+| Role | Color Name | HEX | Usage |
+|------|-----------|-----|-------|
+| **Primary Brand** | Baker Hughes Red | `#E5001E` | Logo, primary CTAs, headline accents, navigation active states (observed on website) |
+| **Deep Neutral** | Charcoal Black | `#1A1A1A` | Body text, headers, primary typography (observed on website) |
+| **Secondary Dark** | Dark Gray | `#3D3D3D` | Secondary body text, supporting copy (observed on website) |
+| **Surface Light** | Off-White | `#F5F5F5` | Page backgrounds, card backgrounds, content sections (observed on website) |
+| **Pure White** | White | `#FFFFFF` | Primary background, hero sections, card surfaces (observed on website) |
+| **Mid Gray** | Medium Gray | `#767676` | Supporting text, captions, secondary UI elements (observed on website) |
+| **Accent Dark** | Navy Black | `#0A0A0A` | Footer, dark mode sections, high-contrast hero areas (observed on website) |
 
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+**Palette rationale**: Baker Hughes uses a restrained red-on-dark-neutral palette that signals industrial authority without the casual warmth of consumer brands. The red is assertive but limited — used as an accent, not a dominant surface color. This is consistent with the engineering-authority brand archetype. (T4_ESTIMATED)
 
 ---
 
-## 2. Typography
+## Typography
 
-Baker Hughes's digital properties employ a typographic system appropriate to its energy positioning.
+| Role | Typeface | Weight | Usage |
+|------|---------|--------|-------|
+| **Primary Display** | Custom sans-serif (observed as geometric/humanist) | Bold, ExtraBold | Hero headlines, section titles (observed on website) |
+| **Body Text** | Sans-serif (appears to be a humanist variant) | Regular, Medium | Body copy, descriptions, technical text (observed on website) |
+| **Data / Technical** | Monospace fallback | Regular | Specification tables, numerical data (estimated) |
+| **Fallback Stack** | Arial, Helvetica, sans-serif | — | System fallbacks (estimated) |
 
-### Typeface System
+> Note: BKR did not expose font-family declarations in CSS capture. Typography observations are based on visual rendering. (observed on website)
 
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+**Typography rationale**: The clean sans-serif choice reflects engineering modernism — legibility-first, no decorative elements. This aligns with the primary Sage archetype: the brand communicates expertise through precision, not ornamentation. (T4_ESTIMATED)
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+| Channel | Dimensions | Key Constraints |
+|---------|-----------|----------------|
+| LinkedIn post image | 1200 × 628 px | Dark background with red accent; technical diagram acceptable; no cluttered imagery |
+| LinkedIn banner | 1584 × 396 px | Logo placement left; tagline right; industrial imagery preferred |
+| Twitter/X header | 1500 × 500 px | Consistent with LinkedIn palette; avoid consumer-style lifestyle photography |
+| Email header | 600 px width | Logo + red accent bar; white background body |
+| Conference booth / trade show | Variable | Red and charcoal dominant; large-format technical diagrams acceptable |
+| Product data sheet (print) | A4 / Letter | Two-column layout; red section headers; specification tables in monospace |
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+(estimated, based on observed brand application patterns)
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **Data-forward hierarchy**: Technical specifications and performance metrics appear prominently in layout — above the fold in product pages, as primary visual elements in case studies. The number or metric, not the product name, is the headline. (observed on website)
+
+2. **Negative space as authority signal**: Baker Hughes layouts use significant whitespace around technical content, signaling that the brand does not need to fill every pixel with selling language. This restraint is consistent with institutional engineering communication standards. (T4_ESTIMATED, observed on website)
+
+3. **Industrial imagery over lifestyle**: Photography features operational environments — drilling rigs, compressor trains, LNG facilities, control rooms — not people-first lifestyle imagery. This reinforces the engineering authority brand position. (observed on website)
+
+4. **Segment-coded visual tracks**: OFSE (oilfield services) and IET (industrial/energy technology) content use visually distinct imagery libraries — subsurface/rig imagery for OFSE, turbomachinery/factory imagery for IET — enabling segment-specific communication without brand fragmentation. (T4_ESTIMATED, observed on website)
+
+5. **Red as action, not decoration**: The brand red (#E5001E approximate) appears on CTAs, navigation active states, and section dividers — not as a background color or decorative fill. This maintains the color's signal value by limiting its frequency. (observed on website)
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Baker Hughes (BKR)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon Style
+
+- **Style**: Line icons, medium stroke weight, geometric construction (observed on website)
+- **Color**: Charcoal or red on white; white on dark backgrounds
+- **Complexity**: Simple, single-concept icons — no illustrative multi-element compositions
+- **Application**: Navigation, product category identification, feature checklists, process diagrams
+- **Prohibited**: Skeuomorphic icons, drop shadows, gradient fills on icons (T4_ESTIMATED)
+
+---
+
+## AI Image Prompt Guide
+
+For generating on-brand Baker Hughes imagery:
+
+**Approved prompt structure**:
+> "Industrial photography, [drill rig / LNG compressor train / turbomachinery / offshore platform / pipeline], professional engineering environment, dramatic natural lighting, dark background, no people, hyper-realistic, 4K, wide angle, Baker Hughes red accent color (#E5001E), industrial design aesthetic"
+
+**OFSE imagery**:
+> "Closeup of drill bit against dark background, industrial engineering, precision machined metal, Baker Hughes red accent, dark charcoal background, dramatic studio lighting, hyper-realistic 3D render"
+
+**IET imagery**:
+> "Large-scale industrial gas compressor train, LNG facility, nighttime photography, blue-gray steel tones, engineered precision, dramatic industrial lighting, wide angle, no text"
+
+**Prohibited AI image directions**:
+- Consumer lifestyle photography (people smiling at phones, office happiness)
+- Green/nature imagery that implies the company is a "clean tech" startup
+- Abstract AI-generated art without recognizable industrial subject matter
+- Any imagery implying specific financial performance or outcomes
+
+---
+
+## Design Prohibitions
+
+1. **No casual or consumer-lifestyle photography** — Does not match the industrial authority positioning (T4_ESTIMATED)
+2. **No gradient backgrounds on primary brand surfaces** — Undermines the clean, precise brand aesthetic (T4_ESTIMATED)
+3. **No red backgrounds for body text** — Red is reserved as accent; body text on red backgrounds is visually inaccessible and off-brand (T4_ESTIMATED)
+4. **No competing color palettes in co-branded materials** — Partner or customer co-branded content must subordinate the partner palette to BKR's dominant palette system (T4_ESTIMATED)
+5. **No excessive use of buzzword-laden infographics** — Engineering audiences reject oversimplified visual summaries of complex technical processes; data visualization should reflect actual data (T4_ESTIMATED)
+6. **No typography mixing beyond two typeface families** — The brand uses a single primary sans-serif family; introducing decorative or serif fonts in technical materials dilutes the precise, engineering-forward aesthetic (T4_ESTIMATED)
+7. **No unauthorized logo modifications** — The Baker Hughes red/white/gray logo system must not be recolored, stretched, or combined with decorative elements (T4_ESTIMATED)

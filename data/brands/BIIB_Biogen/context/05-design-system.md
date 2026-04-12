@@ -1,102 +1,111 @@
-# 05. Design System — Biogen (BIIB)
+# 05. Design System — Biogen Inc. (BIIB)
 
 > **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 1. Color Palette
+## Color Palette
 
-Biogen's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
+> CSS extraction for Biogen.com returned color data. The following palette is derived from that data combined with direct visual observation. (observed on website; CSS data extracted from biogen.com)
 
-### Core Brand Colors
+| Role | Color Name | HEX | Count in CSS | Usage |
+|------|-----------|-----|-------------|-------|
+| **Primary Brand Blue** | Biogen Blue | `#537BAA` | 48 | Primary brand color, navigation elements, CTAs, key accents (observed on website) |
+| **Deep Navy** | Biogen Navy | `#1B3982` | 12 | Headers, dark section backgrounds, corporate identity elements (observed on website) |
+| **Brand Purple** | Biogen Purple | `#7E0B6D` | 10 | Secondary accent, disease awareness campaigns, visual differentiation (observed on website) |
+| **Deep Dark** | Near Black | `#212529` | 32 | Primary body text, dark UI elements (observed on website) |
+| **Mid Blue-Gray** | Slate Blue | `#57667E` | 7 | Supporting text, secondary UI elements (observed on website) |
+| **Light Blue** | Pale Blue | `#A2BDDD` | 6 | Backgrounds, hover states, light accents (observed on website) |
+| **Surface Light** | Light Gray | `#F0F2F5` | 7 | Section backgrounds, card surfaces (observed on website) |
+| **White** | White | `#FFFFFF` | — | Primary background, content areas (observed on website) |
 
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+**Palette rationale**: The blue-navy-purple combination is distinctively neuroscientific — blue conveys trust and medical authority, while the purple signals the brain and neurological differentiation, distinguishing Biogen from typical pharma blue-on-white palettes. The palette communicates specialized medical authority with scientific depth rather than generic healthcare accessibility. (T4_ESTIMATED)
 
 ---
 
-## 2. Typography
+## Typography
 
-Biogen's digital properties employ a typographic system appropriate to its health care positioning.
+CSS extraction identified the following fonts used on Biogen.com: (observed on website, CSS data)
 
-### Typeface System
+| Role | Typeface | Weight | Usage |
+|------|---------|--------|-------|
+| **Primary Display** | DIN OT Bold / DIN OT Medium | Bold, Medium | Headlines, product names, key brand statements (observed on website) |
+| **Secondary / Body** | proxima-nova | Regular, SemiBold | Body copy, navigation, UI elements (observed on website) |
+| **Condensed / Supporting** | franklin-gothic-urw-cond | Regular | Supporting text, labels, compact display (observed on website) |
+| **Serif Accent** | baskerville-urw | Regular | Editorial contexts, long-form reading (observed on website) |
+| **Body Alternative** | open-sans, poppins | Regular | Supporting body text (observed on website) |
+| **System Fallbacks** | Arial, Helvetica, sans-serif | — | Fallback stack (observed on website) |
 
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+**Typography rationale**: DIN OT is an industrial modernist typeface with scientific precision associations — widely used in pharmaceutical and technology contexts. Proxima Nova is a humanist geometric sans-serif that balances readability with contemporary design authority. Together, they signal scientific precision (DIN) with human accessibility (Proxima Nova). (T4_ESTIMATED)
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+| Channel | Dimensions | Key Constraints |
+|---------|-----------|----------------|
+| LinkedIn post image | 1200 × 628 px | Biogen blue or navy dominant; brain/neuroscience imagery; scientific or patient photography |
+| LinkedIn banner | 1584 × 396 px | Logo left; science or patient imagery right; no promotional claims |
+| Email header | 600 px width | Biogen blue bar; DIN OT headline; white background body; ISI (Important Safety Information) formatting for HCP emails |
+| HCP detail aid (digital) | iPad-optimized, 1024 × 768 px | Approved promotional content only; ISI must be accessible; all claims sourced to PI/label |
+| Disease state website (patient) | Responsive web | Accessible contrast ratios; plain language; multilingual capability; WCAG 2.1 AA compliance |
+| Conference materials | Variable | Blue-navy dominant; scientific imagery; data visualization; Biogen and product brand lock-up |
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+(estimated, based on observed Biogen brand application)
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **Science-first visual hierarchy**: Clinical data, trial endpoints, and biomarker graphics are primary visual elements — not product photography. The scientific evidence is the hero of HCP-directed materials. (T4_ESTIMATED, observed on Biogen.com HCP sections)
+
+2. **Patient humanity as counterweight to scientific formalism**: Patient photography and caregiver imagery balance the scientific visual register — the human impact of neurological disease is always present alongside the data. (observed on Biogen.com)
+
+3. **Brain and neuroscience imagery as category signal**: Stylized brain visualizations, neuron network graphics, and MRI-inspired imagery establish the neuroscience category consistently across brand touchpoints. (observed on Biogen.com)
+
+4. **Purple as the Alzheimer's/neurodegeneration visual marker**: Within the Biogen palette, the purple (#7E0B6D) functions as the neurodegeneration/Alzheimer's visual signal — distinct from the MS blue, creating visual segmentation within the neuroscience portfolio. (T4_ESTIMATED, based on observed Biogen brand application)
+
+5. **Important Safety Information accessibility**: All promotional digital and print materials must display ISI (Important Safety Information) in a format that is clearly visible and accessible — not buried in fine print. This is both regulatory requirement and brand trust signal. (T4_ESTIMATED — FDA promotional material requirements)
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Biogen (BIIB)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon Style
+
+- **Style**: Clean geometric line icons; some filled variants for navigation (observed on website)
+- **Color**: Biogen blue (#537BAA) or white on dark backgrounds
+- **Complexity**: Simple, single-concept icons for navigation; more complex data visualization graphics acceptable in clinical content
+- **Application**: Disease area identification, pipeline stage indicators, patient resource navigation, feature identification
+- **Prohibited**: Overly clinical iconography that creates a sterile rather than human brand feel (T4_ESTIMATED)
+
+---
+
+## AI Image Prompt Guide
+
+For generating on-brand Biogen imagery:
+
+**Neuroscience science imagery**:
+> "Abstract neural network visualization, blue and purple tones, deep navy background, glowing synaptic connections, scientific data aesthetic, 4K, photorealistic render, no text, Biogen blue (#537BAA) and purple (#7E0B6D) color palette"
+
+**Patient and caregiver imagery**:
+> "Elderly person with family member in a warm indoor setting, natural light, hopeful mood, candid photography style, diverse representation, no medical equipment in frame, soft focus background, human warmth"
+
+**Clinical science imagery**:
+> "MRI brain scan visualization, blue gradient, scientific analysis context, clinical precision, dark background, data visualization overlay, no personally identifiable information"
+
+**Prohibited AI image directions**:
+- Any imagery suggesting specific patient outcomes or treatment success
+- Stock imagery of obviously staged "patient testimonials"
+- Generic pharmaceutical stock photos of pill bottles or syringes (not relevant to Biogen's biologic therapies)
+- Brain imagery that implies fear or horror (avoid horror-genre neural imagery)
+
+---
+
+## Design Prohibitions
+
+1. **No promotional claims without ISI** — All HCP-directed promotional materials require Important Safety Information; omitting ISI violates FDA promotional requirements (T4_ESTIMATED — regulatory compliance)
+2. **No off-label indication imagery** — Imagery suggesting patient populations or disease indications not included in FDA-approved labeling cannot appear in promotional materials (T4_ESTIMATED — FDA compliance)
+3. **No mixing Aduhelm and Leqembi brand identities** — These are distinct products with distinct approval histories; visual conflation creates regulatory and credibility risk (T4_ESTIMATED)
+4. **No accessibility violations** — Color combinations must meet WCAG 2.1 AA minimum contrast ratios; patient-facing content must be screen-reader accessible (T4_ESTIMATED — accessibility compliance)
+5. **No competitor product imagery without legal review** — Comparative visual demonstrations require legal and regulatory review before use in promotional materials (T4_ESTIMATED)
+6. **No use of fear-based brain degeneration imagery in consumer-facing content** — Imagery of brain decay or severe neurological deterioration in patient-facing advertising creates anxiety without serving the informational purpose; clinical context only (T4_ESTIMATED)
+7. **No purple (Alzheimer's palette) in MS-specific materials** — Palette segmentation between disease areas must be maintained to avoid patient confusion about indication specificity (T4_ESTIMATED)

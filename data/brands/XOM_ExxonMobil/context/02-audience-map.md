@@ -6,79 +6,111 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in integrated oil & gas and adjacent industries. (T4_INFERRED from ExxonMobil's segment structure) |
-| **Occupation segments** | Plant managers, operations directors, technical engineers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in ExxonMobil's 10-K geographic segment reporting. (SEC 10-K) |
+ExxonMobil serves multiple distinct customer segments across its business units. The ICP framework below addresses the primary revenue-generating segments.
+
+| Dimension | Corporate / Industrial Segment | Consumer / Retail Segment |
+|-----------|-------------------------------|--------------------------|
+| **Who** | National oil companies, utilities, industrial manufacturers, airlines, shipping companies, agricultural operations, petrochemical processors | Individual vehicle owners, auto repair shops, fleet operators, automotive OEMs |
+| **Scale** | Enterprise procurement, multi-year supply contracts, $10M–$1B+ annual spend (estimated) | Individual retail transactions ($25–$100), independent auto shops (estimated) |
+| **Geography** | Global — Asia-Pacific largest growth market per 10-K; North America, Europe also significant | North America primary; global Mobil 1 brand presence in motorsport markets |
+| **Decision driver** | Supply security, specification compliance, price-per-unit at volume, counterparty financial stability | Product performance claims, brand trust, OEM approvals, motorsport association |
+| **Switching cost** | High — supply contracts, infrastructure integration, specification qualification processes | Moderate — brand loyalty strong in premium lubricant segment; retailer shelf placement matters |
 
 ---
 
-## Core Personas
+## Persona 1: The National Energy Procurement Director
 
-### Persona 1 — Enterprise Decision-Maker
+**Profile**: Senior procurement officer at a national oil company, utility, or government energy agency in Asia-Pacific or the Middle East. Responsible for multi-year fuel and feedstock supply contracts. Reports to CFO or Minister of Energy.
 
-- **Age / Occupation**: 42, VP-level or director in a ExxonMobil customer organization
-- **Core pain**: Needs reliable integrated oil & gas solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **ExxonMobil selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Pain points**:
+- Supply disruption risk from geopolitical events in producing regions
+- Regulatory compliance across multiple jurisdictions for fuel specifications
+- Currency and price volatility exposure in long-term contracts
+- Counterparty insolvency risk with smaller independent suppliers
 
----
+**Gain from ExxonMobil**:
+- Institutional counterparty stability — ExxonMobil held an S&P credit rating of AA- as of 2023 (official, ExxonMobil investor relations)
+- Specification-compliant product delivery with third-party quality documentation
+- Global logistics infrastructure capable of supply flexibility across multiple ports of call
 
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with ExxonMobil's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **ExxonMobil selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Purchase triggers**:
+- Existing supplier failure or capacity reduction
+- New industrial facility requiring long-term feedstock supply agreement
+- Government policy change requiring cleaner fuel specifications
 
 ---
 
-### Persona 3 — Financial Stakeholder / Investor
+## Persona 2: The Independent Auto Repair Shop Owner
 
-- **Age / Occupation**: 50, institutional investor or analyst covering Energy
-- **Core pain**: Needs to evaluate ExxonMobil's financial performance, competitive positioning, and risk factors for investment decisions.
-- **ExxonMobil selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
-- **Churn risk**: Driven by financial performance relative to sector benchmarks.
-- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+**Profile**: Owner-operator of an independent auto service center in North America. Manages 5–15 vehicle bays. Purchases motor oil in bulk from regional distributors. Product recommendations drive consumer brand selection.
+
+**Pain points**:
+- OEM warranty compliance concerns — needs oil that meets manufacturer specifications
+- Liability exposure if a recommended product causes engine damage
+- Margin pressure from chain competitors (Jiffy Lube, Valvoline Instant Oil Change)
+- Inventory complexity from managing multiple viscosity grades and OEM specs
+
+**Gain from Mobil 1**:
+- GM dexos1 Gen 3, BMW LL-04, Mercedes-Benz 229.5, and other OEM approvals reduce liability exposure (official, Mobil 1 product approvals page)
+- Mobil 1's premium positioning supports higher service ticket pricing
+- Strong consumer brand recognition reduces need to justify product choice to customers
+
+**Purchase triggers**:
+- OEM introduces new specification mandating full-synthetic oil
+- Customer specifically requests Mobil 1 by name
+- Distributor promotional pricing on case-quantity Mobil 1 orders
 
 ---
 
-## Purchase Journey — AARRR Framework
+## Persona 3: The Institutional Energy Equity Portfolio Manager
 
-| Stage | ExxonMobil's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | ExxonMobil total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Profile**: Portfolio manager at a large asset management firm with energy sector allocation. Manages $500M–$10B+ equity portfolio. Evaluates ExxonMobil as a core energy holding versus integrated oil peers (BP, Shell, Chevron, TotalEnergies).
+
+**Pain points**:
+- Uncertainty around long-term value of fossil fuel assets under energy transition scenarios
+- ESG mandate pressure from institutional clients limiting fossil fuel exposure
+- Capital allocation discipline concerns following historical large acquisition spending
+- Regulatory and litigation risk across global operating jurisdictions
+
+**Gain from ExxonMobil**:
+- Dividend per share growth sustained for 41+ consecutive years as of 2023 (official, ExxonMobil investor relations)
+- Pioneer Natural Resources acquisition ($59.5B, closed October 2023) substantially expands low-cost Permian Basin position (official, ExxonMobil press release, October 2023)
+- Low Carbon Solutions segment provides energy transition strategic narrative for ESG-conscious allocations
+
+**Purchase triggers**:
+- Energy sector rotation driven by oil price outlook
+- Post-Pioneer integration milestones demonstrating synergy realization
+- Quarterly earnings beats with upward production guidance revisions
 
 ---
 
-## Anti-Persona — Who ExxonMobil Is Not For
+## Anti-Persona: The Pure-Play Renewables Investor
 
-| Type | Characteristics | Why ExxonMobil Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | ExxonMobil's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | ExxonMobil's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | ExxonMobil's full value is realized through deeper operational integration and sustained partnership. |
+**Profile**: ESG-mandate institutional investor or individual investor seeking pure renewable energy exposure only. Evaluates wind, solar, and battery storage companies exclusively.
+
+**Why ExxonMobil does not serve this audience**: ExxonMobil's FY2023 10-K discloses that the substantial majority of capital expenditure is directed toward oil, gas, and chemical operations. The Low Carbon Solutions segment, while growing, represents a small fraction of total capital deployment as of FY2023. (SEC 10-K FY2023; T4_INFERRED for proportional characterization) This audience requires mandate-pure renewable investment that ExxonMobil does not represent. Attempting to position ExxonMobil to this audience creates brand credibility risk without conversion upside.
+
+---
+
+## AARRR Purchase Journey — Industrial Fuel Customer
+
+| Stage | Description | ExxonMobil Mechanism |
+|-------|-------------|----------------------|
+| **Acquisition** | Procurement team identifies need for new or replacement energy supplier | Trade publications, industry conferences (CERAWeek), ExxonMobil direct sales team outreach |
+| **Activation** | RFP process, product specification review, financial counterparty assessment | ExxonMobil commercial team submits technical specification packages; credit rating and 10-K financial disclosures support counterparty assessment |
+| **Retention** | Multi-year supply contract with volume commitments and price adjustment mechanisms | Long-term supply agreements, dedicated account management, operational integration (pipeline access, terminal agreements) creates high switching cost |
+| **Revenue** | Contract pricing × volume; spot market sales for non-contracted volume | Commodity price pass-through structures with margin on refining spread and chemical conversion |
+| **Referral** | Institutional peer networks — procurement officers share supplier performance at industry associations | Industry association participation; joint venture partnerships with national oil companies create reference relationships |
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-ExxonMobil's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. Segment audiences by decision mode, not by industry vertical.**
+ExxonMobil's institutional procurement buyers and retail consumers make fundamentally different decisions — one on supply security and counterparty credit, the other on OEM approval and brand trust. The brand architecture separates these audiences: the ExxonMobil corporate brand addresses institutional buyers while the Mobil 1 sub-brand addresses consumers. Transferable structure: when a single corporate entity serves radically different decision modes, consider sub-brand architectures that allow each audience to receive a tailored value signal without the parent brand being pulled in contradictory directions simultaneously.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-ExxonMobil's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. OEM approvals as distribution moat.**
+Mobil 1's accumulation of OEM approvals (GM, BMW, Mercedes-Benz, Porsche, Corvette factory fill) creates distribution lock-in at the retail and professional service level. Repair shops and consumers who need OEM-compliant oil must choose from an approved list — and Mobil 1 is consistently on it. Transferable structure: in regulated or specification-driven markets, investing in third-party certification and OEM or partner approval programs is a distribution strategy, not merely a quality signal.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In energy markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Dividend consistency as investable brand equity.**
+ExxonMobil's 41+ consecutive years of dividend growth functions as a trust signal for institutional investors that no single earnings call can establish or destroy. The consistency of the signal — not its magnitude — is the differentiator against peers. Transferable structure: identify a measurable commitment your organization can sustain consistently over multiple years and make it a public, trackable promise. The longevity of the commitment compounds its trust value in ways that one-time announcements cannot.

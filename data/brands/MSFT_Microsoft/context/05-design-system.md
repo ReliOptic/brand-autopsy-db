@@ -4,99 +4,103 @@
 
 ---
 
-## 1. Color Palette
+## CSS Data Summary
 
-Microsoft's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+CSS data collected from microsoft.com/ko-kr. Primary colors extracted include Microsoft Blue (#0067B8, count: 100), Azure Sky Blue (#3AA0FA, count: 88), Fluent Gray (#757575, count: 56), and Microsoft Navy (#243A5E, count: 43). Full font stack confirmed: primary typeface is Segoe UI with Arial/Helvetica system fallbacks. (data/raw/MSFT/css_data.json, status 200)
 
 ---
 
-## 2. Typography
+## Color Palette
 
-Microsoft's digital properties employ a typographic system appropriate to its information technology positioning.
+Microsoft's design system is governed by the Fluent Design System, officially published and available to developers and partners. (official, fluent2.microsoft.design)
 
-### Typeface System
+| Color | HEX | Usage | Source |
+|-------|-----|-------|--------|
+| **Microsoft Blue** | `#0067B8` | Primary brand color; primary CTAs; hyperlinks; product logos; Windows flag blue segment | (observed on microsoft.com; CSS data count: 100) |
+| **Azure Sky Blue** | `#3AA0FA` | Secondary interactive elements; Azure product brand; hover states; data visualization accent | (observed on microsoft.com; CSS data count: 88) |
+| **Fluent Gray** | `#757575` | Body text secondary; icon fills; disabled states | (observed on microsoft.com; CSS data count: 56) |
+| **Microsoft Navy** | `#243A5E` | Dark backgrounds; premium positioning sections; Azure enterprise marketing | (observed on microsoft.com; CSS data count: 43) |
+| **Fluent Cyan** | `#50E6FF` | Azure brand accent; cloud service iconography; highlight elements | (observed on microsoft.com; CSS data count: 43) |
+| **Near-Black** | `#171717` | Primary body text; high-contrast text on light backgrounds | (observed on microsoft.com; CSS data count: 23) |
+| **Warning Amber** | `#FFB900` | Caution states in security dashboard UI; attention indicators | (observed on microsoft.com; CSS data count: 5) |
+| **Error Red** | `#D83B01` | Error states; critical security alerts; destructive action confirmations | (observed on microsoft.com; CSS data count: 3) |
+| **Off-White** | `#F2F2F2` | Section background alternation; card backgrounds on white pages | (observed on microsoft.com; CSS data count: 26) |
 
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+**Note on the Windows logo**: The four-color Windows flag (blue, red, yellow, green) is a product-specific brand mark, not part of the corporate color system. It appears on Windows product pages and retail packaging. (observed on microsoft.com/windows)
 
 ---
 
-## 3. Channel Specifications
+## Typography
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+Microsoft's primary typeface system is built around **Segoe UI** — a humanist sans-serif designed by Steve Matteson and commissioned by Microsoft for use across Windows and Office beginning with Vista (2007). (official, Microsoft typography documentation)
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+| Role | Typeface | Weight / Style | Notes |
+|------|----------|----------------|-------|
+| **Display headings** | Segoe UI | Light (300) or Regular (400) at large sizes | Large, open letterforms; generous tracking; conveys approachability at display scale |
+| **Body text** | Segoe UI | Regular (400) | Optimized for screen readability; used across microsoft.com and Office applications |
+| **UI elements** | Segoe UI | Semibold (600) for labels; Regular for body | Consistent across Windows 11, Microsoft 365 web apps |
+| **Code / monospace** | Consolas | Regular (400) | Microsoft-designed monospace font; default in Visual Studio and VS Code; also appears in developer documentation |
+| **System fallback** | Arial → Helvetica Neue → sans-serif | — | Standard web fallback stack; CSS data confirms Arial as first fallback |
+| **Icon font** | MWF-FLUENT-ICONS | Custom | Microsoft Web Framework icon font; vector icons for navigation, product UI, and marketing materials. (CSS data confirmed) |
 
 ---
 
-## 5. Design Prohibitions
+## Channel Specifications
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+| Channel | Dimensions | Specifications |
+|---------|------------|----------------|
+| **LinkedIn (Microsoft)** | 1200×627px posts; 1128×191px banner | Fluent-consistent blue gradient or product screenshot; Segoe UI type treatment |
+| **YouTube (Microsoft)** | 1280×720px or 1920×1080px thumbnails | Azure blue or product-specific color treatment; white Segoe UI headline |
+| **Twitter/X** | 1200×675px | News-format cards; blue primary; minimal photography |
+| **microsoft.com hero** | 1600×600px (estimated) | Full-bleed photography with gradient overlay; left-aligned headline in Segoe UI Light |
+| **Azure marketing** | Various; dark navy (#243A5E) dominant | Data visualization heavy; cyan (#50E6FF) accent on dark background |
+| **Print / Event (Ignite, Build)** | A0 poster, banner stands | Microsoft Blue primary; large Segoe UI display; product icon grids |
+| **Developer documentation** | Web responsive | White background; left navigation; Consolas code blocks; minimal imagery |
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Microsoft (MSFT)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Layout Principles
+
+1. **Fluent Design: depth, motion, material, light**: Microsoft's Fluent Design System (officially published at fluent2.microsoft.design) governs all product and marketing design. The four principles are: depth (layering and shadow), motion (purposeful animation), material (translucency in UI), and light (adaptive lighting effects). (official, Microsoft Fluent Design System documentation)
+
+2. **Left-aligned narrative with visual right**: Microsoft's marketing pages consistently place headline and CTA on the left, with a product screenshot, illustration, or photography on the right. This layout mirrors F-pattern reading and positions the call-to-action early in the visual scan path. (observed on microsoft.com hero sections)
+
+3. **Card-based content architecture**: Microsoft.com and all Microsoft 365 product pages use card-based layouts for feature displays, case studies, and resource libraries. Each card is visually independent with an icon, headline, short description, and link. This modular architecture scales across screen sizes and allows rapid content updates without layout redesign. (observed on microsoft.com)
+
+4. **Data visualization as a product feature signal**: Azure's marketing pages use live-looking dashboard screenshots and animated data visualizations as primary product imagery. The message is implicit: the product produces clarity from data. (observed on azure.microsoft.com)
+
+5. **Whitespace as enterprise trust signal**: Microsoft's enterprise product pages (Azure, Microsoft 365 Enterprise, Dynamics 365) use more generous whitespace than consumer product pages. Whitespace signals deliberateness and quality in enterprise contexts where buyers are evaluating multi-year commitments. (observed on microsoft.com/enterprise vs. microsoft.com/store)
+
+---
+
+## Icon Style
+
+- **Fluent Icons**: Microsoft's open-source Fluent Icon set (available on GitHub at github.com/microsoft/fluentui-system-icons) contains 1,800+ icons in filled and regular variants. Style: rounded corners, consistent stroke weight, optimized for 20px and 24px sizes. (official, GitHub microsoft/fluentui-system-icons)
+- **Product logos**: Microsoft 365, Teams, OneDrive, Azure, and Xbox each have distinct product mark designs within the Fluent visual language. All use the Microsoft color palette and share the Segoe typeface for wordmarks. (observed on microsoft.com products)
+- **The Windows flag**: Four colored squares (blue, red, green, yellow) in a perspective grid form. Registered trademark; used exclusively for Windows product branding. (official, Windows brand guidelines)
+
+---
+
+## AI Image Prompt Guide
+
+For generating brand-consistent imagery in research and analysis contexts:
+
+**Corporate Microsoft / Empowerment**:
+> "Professional photograph of a diverse team collaborating around a large monitor showing a Microsoft Teams meeting, modern office environment with natural light, Microsoft Blue accent colors in branding visible in background, editorial documentary style"
+
+**Azure / Cloud Technology**:
+> "Abstract digital visualization of interconnected data nodes over a dark navy (#243A5E) background, cyan (#50E6FF) accent light trails, representing cloud infrastructure, no text, cinematic wide-angle, technology editorial style"
+
+**Developer / GitHub**:
+> "Young software engineer at dual monitors with VS Code IDE open showing green syntax highlighting, dark theme editor, casual office environment, authentic candid photography style, no staged poses"
+
+---
+
+## Design Prohibitions
+
+1. **No use of Segoe UI in non-Microsoft licensed contexts**: Segoe UI is a Microsoft proprietary typeface and is not licensed for use by third parties outside of Windows system contexts. Brand analysis materials referencing Microsoft's design use system-safe alternatives. (T4_INFERRED from Microsoft typeface licensing terms)
+2. **No rainbow or consumer-playful color treatments on Azure or enterprise pages**: Azure's enterprise positioning uses a restrained blue-navy-cyan palette. Injecting consumer-playful color treatments undermines the enterprise trust signal. (T4_INFERRED from observed design pattern separation)
+3. **No mixing of product logos across product contexts**: The Teams icon should not appear in Azure product materials unless the integration is explicit and accurate. Cross-product logo mixing creates false product capability claims. (T4_INFERRED from brand standards)
+4. **No unauthorized Copilot character imagery**: Microsoft's Copilot AI product uses a specific butterfly/sparkle icon. Unauthorized derivative or parody versions of this mark in brand analysis materials could create trademark liability. (T4_INFERRED from trademark protection standards)
+5. **No competitor product screenshots in comparative marketing materials**: Placing a Google Workspace or Slack screenshot alongside Microsoft 365 in a direct visual comparison creates advertising claim liability unless the comparison is independently verified and labeled as a comparison. (T4_INFERRED from advertising standards)
+6. **No dark patterns in UI design that conflict with Microsoft's accessibility commitments**: Microsoft has published accessibility commitments (WCAG 2.1 AA compliance across Microsoft 365) and has a Disability Answer Desk. Design that contradicts these commitments creates reputational risk. (official, Microsoft Accessibility documentation)

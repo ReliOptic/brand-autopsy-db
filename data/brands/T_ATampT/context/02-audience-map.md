@@ -1,4 +1,4 @@
-# 02. Audience Map — AT&T (T)
+# 02. Audience Map — AT&T Inc. (T)
 
 > **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
@@ -6,79 +6,99 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in integrated telecommunication services. B2C: End consumers of communication services products and services. (T4_INFERRED from AT&T's segment structure) |
-| **Occupation segments** | Media buyers, content creators, advertisers, subscribers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in AT&T's 10-K geographic segment reporting. (SEC 10-K) |
+AT&T serves a broad consumer and business audience across wireless, broadband, and enterprise connectivity. The ICP varies significantly by segment.
+
+| Dimension | Consumer Wireless | Consumer Broadband (Fiber) | Enterprise/Business |
+|-----------|------------------|---------------------------|---------------------|
+| **Who they are** | US wireless subscribers across all demographics | Homeowners and renters in AT&T Fiber footprint areas | Businesses from SMB to large enterprise and government agencies |
+| **Geography** | Nationwide US; strong in South, Southeast, Midwest (legacy wireline states) | Fiber footprint: 23M+ locations passed as of FY2023, concentrated in AT&T legacy service territory | Nationwide; government/FirstNet has specific agency relationships |
+| **Demographics** | 18–65+ across all income levels; particularly strong in suburban and rural markets where AT&T wireline heritage is strongest | Homeowners; suburban; income levels where $55–$80/mo fiber pricing is accessible | SMB to large enterprise; government agencies and first responder organizations |
+| **Decision driver** | Price, network coverage, phone upgrade offers | Internet speed, reliability, bundle savings with wireless | SLA, uptime guarantees, dedicated support, compliance |
+| **Churn profile** | Monthly postpaid wireless churn approximately 0.8–1.0% per disclosed metrics (SEC 10-K FY2023) | Fiber subscriber churn lower than DSL/cable equivalents (estimated from AT&T fiber growth disclosures) | Long-term contracts; RFP-driven enterprise relationships |
 
 ---
 
-## Core Personas
+## Three Primary Personas
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1: Darnell Jackson — The Family Plan Manager
 
-- **Age / Occupation**: 42, VP-level or director in a AT&T customer organization
-- **Core pain**: Needs reliable integrated telecommunication services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **AT&T selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Role**: 38-year-old suburban Atlanta homeowner, manages the family's four-line AT&T wireless plan plus AT&T Fiber home internet. Works in logistics management. Primary decision-maker for household connectivity. (T4_INFERRED representative persona)
 
----
+**Pain points**:
+- Monthly bill creep: individual lines, phone payment plans, international add-ons, and insurance accumulate into a larger-than-expected monthly total.
+- AT&T customer service contact requires significant time investment for billing disputes or plan changes.
+- T-Mobile and Verizon promotional offers continuously compete for switching consideration, particularly on phone upgrade deals.
 
-### Persona 2 — Technical Specialist / End User
+**Gain triggers**:
+- AT&T Fiber bundle discount reduces combined wireless + internet monthly cost.
+- Upgrade offers (free or discounted iPhone with trade-in) are highly compelling for family plans with multiple upgrade-eligible lines.
+- FirstNet enrollment qualifies for any eligible first-responder family members, adding plan value.
 
-- **Age / Occupation**: 35, technical professional who interacts with AT&T's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **AT&T selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Brand touchpoints**: AT&T retail stores (visited for device upgrades), att.com (account management), AT&T customer service (app and phone), AT&T advertising (TV/streaming, social media).
 
 ---
 
-### Persona 3 — Consumer / Retail Customer
+### Persona 2: Sarah Kowalski — The Small Business Owner
 
-- **Age / Occupation**: 38, consumer who interacts with AT&T's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **AT&T selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
+**Role**: Owner of a 12-person HVAC service company in suburban Dallas, age 46. Uses AT&T for 12 business wireless lines, a business internet connection at the office, and tablet connectivity for field technicians. (T4_INFERRED representative persona)
 
----
+**Pain points**:
+- Managing 12 wireless lines requires an accessible online account portal that saves time vs. calling customer service.
+- Field technician connectivity reliability is mission-critical — a dropped connection during a service call creates customer friction.
+- AT&T Business pricing feels opaque; she is not confident she has the best available business rate.
 
-## Purchase Journey — AARRR Framework
+**Gain triggers**:
+- AT&T Business account manager proactively identifies billing optimization that reduces her monthly spend.
+- FirstNet eligibility for one employee who is also a volunteer firefighter adds plan value.
+- Mobile device management features reduce the IT overhead of managing 12 employee devices.
 
-| Stage | AT&T's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
-| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
-| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
-| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
-| **Revenue** | AT&T total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Brand touchpoints**: AT&T Business portal, dedicated AT&T Business account manager, att.com/smallbusiness.
 
 ---
 
-## Anti-Persona — Who AT&T Is Not For
+### Persona 3: Robert Chen — The Government IT Director
 
-| Type | Characteristics | Why AT&T Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | AT&T's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | AT&T's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | AT&T's full value is realized through deeper operational integration and sustained partnership. |
+**Role**: IT director for a mid-size county sheriff's office, age 54. Manages the agency's FirstNet deployment, public safety mobile communications, and enterprise network contracts. (T4_INFERRED representative persona)
+
+**Pain points**:
+- Public safety communications reliability is a life-safety matter; any network outage creates immediate operational and legal accountability.
+- Budget cycles require multi-year contract commitments that limit flexibility to respond to technology changes.
+- Integration between FirstNet mobile network and legacy CAD (computer-aided dispatch) and radio systems requires vendor coordination.
+
+**Gain triggers**:
+- FirstNet's dedicated Band 14 spectrum provides priority access during disasters and major events — a feature no commercial carrier can replicate.
+- AT&T's FirstNet account management team understands public safety operational requirements, not just telecommunications sales.
+- Federal cost-sharing and grant programs for FirstNet deployment reduce the budget impact of migration.
+
+**Brand touchpoints**: FirstNet.com, AT&T FirstNet account management team, federal and state public safety technology conferences, FirstNet Authority partnership communications.
+
+---
+
+## AARRR Purchase Journey (Consumer Wireless)
+
+| Stage | Description | AT&T Touchpoint |
+|-------|-------------|-----------------|
+| **Awareness** | Consumer sees AT&T 5G advertising or receives direct mail promotion in AT&T Fiber expansion area | TV advertising, digital advertising, direct mail, in-store signage |
+| **Acquisition** | Consumer visits AT&T retail store or att.com to compare plans; initiates port-in or new line activation | AT&T retail store; att.com; authorized dealer; trade-in promotion |
+| **Activation** | Line activated; device set up; AutoPay and paperless billing enrolled | AT&T store associate; att.com setup wizard; myAT&T app |
+| **Retention** | Consumer manages account, adds lines, upgrades device on installment plan | myAT&T app; att.com account center; annual upgrade eligibility offers |
+| **Referral** | Consumer recommends AT&T to family member; adds line to family plan | AT&T referral program; family plan add-a-line promotions |
+
+---
+
+## Anti-Persona
+
+**The Network-Performance-First Power User in a T-Mobile Mid-Band Market**: A technology early adopter in a major metro area (Chicago, New York, Los Angeles) who prioritizes network speed above all else, benchmarks carriers on Ookla and PCMag, and is highly sensitive to promotional pricing. In markets where T-Mobile's nationwide mid-band 5G coverage is denser than AT&T's current mid-band buildout, this persona is likely to choose on network performance data rather than AT&T's brand heritage or fiber bundle offering. AT&T's brand narrative of "reliability" is less compelling to a persona who benchmarks on raw throughput. (T4_INFERRED from carrier competitive dynamics; T3_SECONDARY_RELIABLE, Ookla and PCMag network speed testing methodology)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-AT&T's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. The bundle creates a switching moat that single-product acquisition cannot.**
+AT&T's wireless + fiber bundle converts a telecom purchase into a household infrastructure decision. A customer who bundles wireless and fiber with AT&T faces two simultaneous switching decisions to leave — both of which must be resolved before a competitor can acquire them. Transferable principle: any two-product subscription business that can create a bundled discount and a shared account interface has structurally reduced its churn rate beyond what either product's standalone value could achieve.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-AT&T's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. FirstNet demonstrates how a government mandate can become a brand differentiator.**
+AT&T's public safety network obligation (from its 2017 FirstNet contract) was a regulatory requirement that AT&T has converted into a brand asset — using it as evidence of network reliability and national infrastructure commitment in consumer-facing advertising. Transferable principle: regulatory obligations that competitors are not subject to can be converted from compliance costs into brand differentiation claims.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In communication services markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Suburban and rural retention is underrated as a competitive moat.**
+AT&T's wireline heritage states (Texas, Florida, California, Midwest) provide a geographic concentration of loyal customers who grew up with AT&T service. In suburban and rural markets where AT&T's fiber buildout is active, the brand has a customer relationship foundation that cable and alternative broadband providers must spend heavily to displace. Transferable principle: geographic density of existing customer relationships is a retention moat that is often undervalued relative to acquisition-oriented brand metrics.

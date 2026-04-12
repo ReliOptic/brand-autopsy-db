@@ -65,7 +65,7 @@ The strategic core of this positioning is the **biologic complexity moat**. Unli
 2. **"Safe"** (unqualified) — All biologics carry risk profiles. Unqualified safety claims are both regulatory violations and legally indefensible. (T4_INFERRED from regulatory and legal posture)
 3. **"Revolutionary" / "Breakthrough"** (self-applied) — FDA's "Breakthrough Therapy Designation" is a regulatory term of art; Amgen uses it precisely when earned, not as marketing language. (observed on amgen.com pipeline)
 4. **"Affordable"** — Amgen's pricing for branded biologics is premium by definition; affordability messaging is redirected to patient assistance programs, not pricing claims. (T4_INFERRED from brand communications audit)
-5. **"Better than [competitor by name]"** — Head-to-head comparative claims require specific clinical trial data and FDA approval for the claim. (T4_INFERRED from regulatory and legal posture)
+5. **Direct comparative superiority claims against named competitors** — Head-to-head comparative claims require specific clinical trial data and FDA approval for the claim. Amgen's copy avoids superiority framing without approved head-to-head data. (T4_INFERRED from regulatory and legal posture)
 
 ---
 

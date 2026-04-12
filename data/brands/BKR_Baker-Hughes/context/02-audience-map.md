@@ -6,79 +6,106 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in oil & gas equipment & services and adjacent industries. (T4_INFERRED from Baker Hughes's segment structure) |
-| **Occupation segments** | Plant managers, operations directors, technical engineers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Baker Hughes's 10-K geographic segment reporting. (SEC 10-K) |
+| Dimension | Description |
+|-----------|-------------|
+| **Industry** | Oil and gas (upstream, midstream, LNG), industrial energy, petrochemicals, power generation |
+| **Organization type** | National oil companies (NOCs), international oil companies (IOCs), independent operators, LNG project developers, industrial plant operators |
+| **Geography** | Middle East (Saudi Arabia, UAE, Kuwait), North America (US onshore/offshore, Canada), Asia-Pacific (Australia LNG, Southeast Asia), Africa (deepwater), Europe (North Sea) |
+| **Buyer role** | Drilling engineers, completions engineers, reservoir engineers, plant operations managers, procurement directors, chief technology officers, sustainability officers |
+| **Buying trigger** | New well development program, production optimization initiative, LNG facility construction, compressor replacement cycle, regulatory emissions compliance requirement |
 
 ---
 
-## Core Personas
+## Primary Personas
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1: The NOC Drilling Engineer
 
-- **Age / Occupation**: 42, VP-level or director in a Baker Hughes customer organization
-- **Core pain**: Needs reliable oil & gas equipment & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Baker Hughes selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Role**: Senior Drilling Engineer, National Oil Company, Middle East
+**Organization size**: 50,000+ employees; multi-billion-barrel proven reserve base (estimated)
 
----
+**Pain**:
+- Non-productive time (NPT) events caused by downhole tool failures increase well cost and delay production targets
+- Procurement processes require demonstrated technical performance data, not vendor claims
+- Regulatory and government scrutiny of well costs demands defensible technology selection
 
-### Persona 2 — Technical Specialist / End User
+**Gain**:
+- Reduced NPT through reliable drill bits, measurement-while-drilling (MWD) tools, and completion systems
+- Technical documentation and case study data that justifies technology selection to internal committees
+- Long-term service relationship with a provider who understands specific reservoir geology
 
-- **Age / Occupation**: 35, technical professional who interacts with Baker Hughes's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Baker Hughes selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Buying trigger**: New field development program, existing tool performance falling below benchmarks, regulatory deadline for emissions-compliant drilling fluids
 
----
-
-### Persona 3 — Financial Stakeholder / Investor
-
-- **Age / Occupation**: 50, institutional investor or analyst covering Energy
-- **Core pain**: Needs to evaluate Baker Hughes's financial performance, competitive positioning, and risk factors for investment decisions.
-- **Baker Hughes selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
-- **Churn risk**: Driven by financial performance relative to sector benchmarks.
-- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+**Channel**: Direct technical sales, field engineering support, NOC-focused technical conferences (ADIPEC, SPE) (observed, bakerhughes.com events)
 
 ---
 
-## Purchase Journey — AARRR Framework
+### Persona 2: The LNG Project Developer
 
-| Stage | Baker Hughes's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Baker Hughes total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Role**: VP Projects, LNG Development, Asia-Pacific operator
+**Organization size**: Major IOC or state-owned LNG developer (estimated)
+
+**Pain**:
+- LNG liquefaction projects require turbomachinery and compression systems with decade-long reliability records
+- Capital expenditure on compressor trains runs into hundreds of millions of dollars; vendor selection is effectively irreversible at project sanction
+- Energy transition pressure requires demonstrating lower-carbon LNG production processes to equity partners
+
+**Gain**:
+- Proven turbomachinery technology from the GE Oil & Gas heritage with verifiable global installation base
+- Integrated project execution capability that reduces the number of vendors to coordinate
+- Access to emissions-reduction technology (electric drives, waste heat recovery) that supports low-carbon LNG positioning
+
+**Buying trigger**: Final investment decision (FID) on new LNG train, existing compressor end-of-life, ESG reporting requirements from equity partners
+
+**Channel**: Major project tendering, direct executive sales, LNG industry conferences (Gastech, LNG Producer-Consumer Conference) (observed, bakerhughes.com events)
 
 ---
 
-## Anti-Persona — Who Baker Hughes Is Not For
+### Persona 3: The Industrial Sustainability Officer
 
-| Type | Characteristics | Why Baker Hughes Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Baker Hughes's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Baker Hughes's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Baker Hughes's full value is realized through deeper operational integration and sustained partnership. |
+**Role**: Director of Sustainability, Large Industrial Manufacturer, Europe
+**Organization size**: Major industrial company with publicly stated Scope 1 emissions reduction commitments (estimated)
+
+**Pain**:
+- Methane and CO2 emissions from industrial processes face increasing regulatory reporting requirements and carbon pricing exposure
+- Existing emissions monitoring infrastructure may be insufficient for new regulatory requirements (e.g., EU Methane Regulation)
+- Board and investor pressure to demonstrate measurable, verifiable progress on decarbonization targets
+
+**Gain**:
+- Sensing and emissions-detection technology (Waygate Technologies product line) that provides verifiable, auditable emissions data
+- Carbon capture compression solutions that make CCS projects technically and economically viable
+- Supplier relationship with a company that has both engineering credibility and demonstrated ESG reporting capability
+
+**Buying trigger**: EU Methane Regulation compliance deadline, Scope 1 target reset cycle, new industrial plant construction requiring emissions infrastructure
+
+**Channel**: Industrial trade shows, ESG-focused investor relations, direct sustainability consulting engagement (observed, bakerhughes.com sustainability section)
+
+---
+
+## AARRR Purchase Journey
+
+| Stage | Customer Action | BKR Mechanism |
+|-------|----------------|---------------|
+| **Acquisition** | Engineer searches for drill bit performance data, LNG compressor specifications, or emissions sensing capability | Technical white papers, SPE paper publications, engineering.bakerhughes.com technical library (observed) |
+| **Activation** | First technical engagement — field trial, product demonstration, or tendering response | Field engineering team site visit, technology demonstration center, detailed tender response with case study data (observed, bakerhughes.com) |
+| **Retention** | Ongoing service contracts, tool rental agreements, long-term service agreements (LTSAs) | Dedicated field service engineers, remote monitoring and diagnostics, contractual performance SLAs (official, BKR investor presentations) |
+| **Referral** | Engineer recommends BKR to colleague at another operator or sister company | SPE technical paper co-authorship, reference customer program, NOC-to-NOC knowledge sharing forums (T4_ESTIMATED) |
+| **Revenue** | Multi-year integrated services contract or major equipment supply contract | Integrated well construction contracts, long-term turbomachinery LTSAs, IET project contracts (SEC 10-K FY2023) |
+
+---
+
+## Anti-Persona
+
+The commodity procurement officer seeking the lowest-price drill bit or the most aggressive discount on completion fluids. Baker Hughes's technology-premium positioning and integrated service model are structurally incompatible with pure commodity procurement. Customers who evaluate solely on unit price without weighting NPT reduction, technical support quality, or total well cost fall outside the intended audience for BKR's value proposition. (T4_ESTIMATED, based on observed BKR positioning and investor communications)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Baker Hughes's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. Build technical content that the buyer's procurement committee will accept as evidence.**
+NOC and IOC procurement processes require defensible technology selection documentation. BKR's SPE papers and field performance case studies serve as pre-built procurement justification for the engineer who recommends the vendor. Transferable structure: create content formats that match the internal approval documents your buyers are required to produce — if buyers submit technical evaluation reports, publish data in the format those reports require.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Baker Hughes's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Segment audiences by energy value chain position, not just company size.**
+A drilling engineer at a small independent operator and one at Saudi Aramco have different technical problems, procurement processes, and risk tolerances — but both respond to engineering-credibility signals. BKR segments by workflow position (drilling, completion, production, processing, LNG) rather than purely by company size. Transferable: in complex B2B markets, workflow-position segmentation often produces more actionable personas than firmographic segmentation alone.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In energy markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Earn referral through technical co-authorship.**
+Publishing SPE technical papers with customer engineers creates institutional referral pathways that no advertising budget can replicate. The customer becomes a co-author and de facto reference. Transferable: identify industry associations or peer-review venues where your buyers publish, and create co-authorship or co-presentation opportunities with reference customers.

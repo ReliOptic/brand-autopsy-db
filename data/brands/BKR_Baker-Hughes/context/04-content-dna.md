@@ -6,118 +6,102 @@
 
 ## Content Pillars
 
-Baker Hughes's content strategy reflects its positioning in the Oil & Gas Equipment & Services segment of Energy. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
-
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "Baker Hughes understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for oil & gas equipment & services requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with Baker Hughes." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+| Pillar | Estimated Share | Description | Example Format |
+|--------|----------------|-------------|----------------|
+| **Engineering Performance & Innovation** | ~35% (estimated) | Technical case studies, white papers, product performance data demonstrating NPT reduction, efficiency gains, and reliability metrics | SPE technical papers, field performance reports, product specification sheets |
+| **Energy Transition & Sustainability** | ~25% (estimated) | LNG-as-transition-fuel content, carbon capture technology, methane detection, hydrogen compression, emissions reduction data | Annual sustainability report, IET segment investor materials, energy transition white papers |
+| **Industry Thought Leadership** | ~20% (estimated) | Energy market analysis, drilling technology trends, decarbonization pathway research, energy transition commentary from BKR executives | LinkedIn long-form posts from CEO Lorenzo Simonelli, industry conference presentations, energy outlook publications |
+| **Company News & Operations** | ~12% (estimated) | Contract wins, technology milestones, partnership announcements, major project deliveries | Press releases, bakerhughes.com newsroom, LinkedIn company updates |
+| **People & Culture** | ~8% (estimated) | Employee spotlights, STEM education partnerships, diversity and inclusion programs, community investment | Instagram, LinkedIn employee features, sustainability report people sections |
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
+**Hook 1: The Performance Metric Lead**
+Open with a specific, verifiable performance outcome from a field deployment.
+> "In a recent deepwater Gulf of Mexico application, Baker Hughes's [technology] reduced non-productive time by [X]% compared to the previous tool run — translating to [Y] days recovered per well." (observed pattern, bakerhughes.com case studies)
+The performance number does the work. The reader's question becomes: "Could this apply to my operation?"
 
-Opens with a recognizable industry challenge or pain point before presenting Baker Hughes's perspective.
+**Hook 2: The Energy Transition Tension Frame**
+Acknowledge the contradiction the customer lives with daily.
+> "The world needs more energy. The world also needs lower emissions. Baker Hughes builds technology for both." (observed pattern, official BKR brand communications)
+This hook validates the customer's dilemma rather than dismissing it, positioning BKR as a partner in navigating complexity rather than a vendor selling a solution to a simple problem.
 
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+**Hook 3: The Engineering Heritage Signal**
+Use historical depth as a credibility anchor before introducing new technology.
+> "With more than 160 years of energy technology history — from the first drill bit to the latest LNG compression train — Baker Hughes brings institutional knowledge to every project." (T4_ESTIMATED, based on observed BKR heritage communications)
+Heritage signals de-risk technology adoption for conservative NOC and IOC procurement teams.
 
-### Hook 2 — Data-Driven Insight
+**Hook 4: The Market Data Opening**
+Lead with an industry-level data point that frames the customer's challenge before introducing the solution.
+> "Global LNG demand is projected to grow by [X]% through 2040. Baker Hughes's turbomachinery portfolio has been specified in [Y]% of LNG trains commissioned in the last decade." (T4_ESTIMATED, based on observed BKR investor presentation patterns)
+The market context establishes relevance before the product claim.
 
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+**Hook 5: The Regulatory Reality Frame**
+Use incoming regulatory requirements as the hook for emissions and sensing technology content.
+> "As methane regulations tighten across the US, EU, and major producing regions, operators need sensing infrastructure that meets new disclosure standards. Waygate Technologies provides..." (T4_ESTIMATED, based on observed BKR emissions technology content)
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | Baker Hughes Pattern | What Baker Hughes Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+**CTA 1: Technical Consultation Request**
+> "Speak with a Baker Hughes engineer about your specific application." (observed on bakerhughes.com)
+Not a sales call — an engineering conversation. Reduces the perceived commercial pressure for a technical buyer.
+
+**CTA 2: Case Study Download**
+> "Download the full field performance report." (observed on bakerhughes.com)
+Provides the technical documentation that buyers need for internal procurement justification. Content consumption as a sales step.
+
+**CTA 3: Conference / Event Engagement**
+> "Meet Baker Hughes engineers at [SPE/ADIPEC/Gastech]. Schedule a technical meeting." (observed on bakerhughes.com events section)
+In-person technical engagement remains the primary closing mechanism for major oilfield services contracts; digital CTAs channel into it.
 
 ---
 
-## Tone & Mood Guide
+## Tone and Mood Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to energy sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — Baker Hughes as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Mood | Example Approach |
+|-----------|------|------|-----------------|
+| **Technical white paper / SPE publication** | Precise, peer-level, citation-heavy | Authoritative, collegial | Engineering data with methodology disclosure; peer-review standard language |
+| **Energy transition thought leadership** | Measured, forward-looking, solutions-oriented | Constructive, serious | Acknowledge energy complexity; present BKR capability as part of a systemic solution |
+| **Major contract / milestone announcement** | Professional, confident, concise | Confident, restrained | Facts first: project scope, customer (if disclosed), technology deployed; minimal superlatives |
+| **STEM education / employee content** | Warm, human, purposeful | Hopeful, grounded | Individual stories; specific impact; no corporate jargon |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. **Do not publish unverified performance claims.** All efficiency gains, NPT reduction figures, and emissions metrics must be sourced from documented field deployments or peer-reviewed studies. Fabricated or estimated performance data exposed in a B2B technical market destroys credibility irreversibly. (T4_ESTIMATED, based on observed BKR content standards)
+2. **Do not characterize competitor technology as inferior without metric basis.** In markets where Baker Hughes and SLB, Halliburton, or others compete for the same contract, comparative claims must cite specific, verifiable metrics. (observed, LEGAL_RISK_WRITING_POLICY.md principles)
+3. **Do not use casual or humor-driven content in technical contexts.** The core buyer (drilling engineer, NOC procurement director) evaluates vendors on engineering credibility; levity in technical content undermines this signal. (T4_ESTIMATED)
+4. **Do not conflate oilfield services content with industrial/IET content.** The OFSE and IET buyer personas are distinct; content that blends drilling engineering and LNG compressor specifications without clear segment labeling confuses both audiences. (T4_ESTIMATED)
+5. **Do not make forward-looking market predictions as assertions.** Energy market projections (LNG demand, oil price, transition timelines) must be attributed to third-party research sources, not presented as BKR's own forecasts without qualification. (T4_ESTIMATED)
+6. **Do not use political language around climate or energy policy.** BKR serves customers across the geopolitical spectrum, including NOCs in countries with diverse views on climate policy. Content should frame the energy transition in terms of technology capability and economic opportunity, not policy advocacy. (T4_ESTIMATED)
 
 ---
 
 ## Hashtag Strategy
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #BKR | Financial and investor community | Moderate (estimated) |
-| #BakerHughes | Brand-level social engagement | Varies (estimated) |
-| #EInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Context | Primary Hashtags | Secondary Hashtags |
+|---------|-----------------|-------------------|
+| Energy transition content | #EnergyTransition #Decarbonization #CleanEnergy | #CarbonCapture #Hydrogen #LNG |
+| Oilfield services content | #OilandGas #OilfieldServices #Drilling | #Completions #WellIntegrity #Reservoir |
+| Corporate / thought leadership | #BakerHughes #EnergyTechnology #Sustainability | #SPE #ADIPEC #Gastech |
+| People and culture | #LifeAtBakerHughes #STEM #Engineering | #Diversity #WomenInEnergy |
+
+(T4_ESTIMATED, based on observed BKR LinkedIn and social media patterns)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-Baker Hughes's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. Let field data be your marketing.**
+Baker Hughes's most persuasive content is not produced by a marketing department — it is field performance data from actual deployments, published through SPE and similar technical venues. The company's role is to ensure that data is captured, formatted for technical audiences, and accessible. Transferable: in any B2B market where buyers have technical expertise, the path from content to credibility runs through verifiable performance data, not brand storytelling.
 
-**2. Use data as a credibility anchor.**
-In energy markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in oil & gas equipment & services face X challenge" backed by a cited statistic is stronger than the assertion alone.
+**2. Separate content tracks for distinct buyer personas.**
+OFSE content (drilling, completion, production) and IET content (turbomachinery, LNG, CCS) serve buyers with incompatible technical vocabularies and purchase triggers. BKR maintains distinct content libraries for each. Transferable: resist the instinct to produce "unified" content that addresses multiple personas simultaneously — the result is typically content that resonates with no one deeply.
 
-**3. Separate thought leadership from product marketing.**
-Baker Hughes's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**3. Frame regulatory change as a capability showcase, not a compliance burden.**
+Incoming methane regulations, emissions reporting requirements, and carbon pricing are framed in BKR content as an opportunity to demonstrate Waygate Technologies sensing capability, not as a burden imposed on the industry. Transferable: when regulatory changes create new customer needs, publish capability content ahead of the compliance deadline — be the company that helps buyers understand what they need, not just one of many vendors responding to an RFP.
