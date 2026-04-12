@@ -67,21 +67,21 @@ def _load_css_data(ticker: str) -> str:
     """Load crawled CSS data for a company."""
     css_path = DATA_DIR / "raw" / ticker / "css_data.json"
     if not css_path.exists():
-        return "CSS 데이터 없음 (크롤링 실패 또는 미수집)"
+        return "No CSS data available (crawl failed or not collected)"
 
     with open(css_path, encoding="utf-8") as f:
         data = json.load(f)
 
     if "error" in data:
-        return f"CSS 크롤링 실패: {data['error']}"
+        return f"CSS crawl failed: {data['error']}"
 
     parts = [f"URL: {data.get('url', 'N/A')}"]
     if data.get("colors"):
-        parts.append("추출된 컬러:")
+        parts.append("Extracted colors:")
         for c in data["colors"][:15]:
-            parts.append(f"  {c['hex']} (사용 {c['count']}회)")
+            parts.append(f"  {c['hex']} (used {c['count']} times)")
     if data.get("fonts"):
-        parts.append(f"추출된 폰트: {', '.join(data['fonts'][:10])}")
+        parts.append(f"Extracted fonts: {', '.join(data['fonts'][:10])}")
 
     return "\n".join(parts)
 
@@ -92,7 +92,7 @@ def _load_collected_data(ticker: str) -> str:
     parts = []
 
     # CSS data
-    parts.append("### CSS 추출 데이터")
+    parts.append("### CSS Extraction Data")
     parts.append(_load_css_data(ticker))
 
     # SEC data (if exists)
@@ -100,14 +100,14 @@ def _load_collected_data(ticker: str) -> str:
     if sec_path.exists():
         with open(sec_path, encoding="utf-8") as f:
             sec = json.load(f)
-        parts.append(f"\n### SEC 10-K 데이터\n{json.dumps(sec, indent=2, ensure_ascii=False)[:3000]}")
+        parts.append(f"\n### SEC 10-K Data\n{json.dumps(sec, indent=2, ensure_ascii=False)[:3000]}")
 
     # Social data (if exists)
     social_path = raw_dir / "social_data.json"
     if social_path.exists():
         with open(social_path, encoding="utf-8") as f:
             social = json.load(f)
-        parts.append(f"\n### SNS 데이터\n{json.dumps(social, indent=2, ensure_ascii=False)[:3000]}")
+        parts.append(f"\n### Social Media Data\n{json.dumps(social, indent=2, ensure_ascii=False)[:3000]}")
 
     return "\n\n".join(parts)
 
@@ -117,8 +117,8 @@ def _load_sec_data(ticker: str) -> str:
     sec_path = DATA_DIR / "raw" / ticker / "sec_10k.json"
     if not sec_path.exists():
         return (
-            "SEC 10-K 데이터 없음 (미수집). "
-            f"EDGAR에서 직접 확인: https://www.sec.gov/cgi-bin/browse-edgar?"
+            "SEC 10-K data not available. "
+            f"Check directly on EDGAR: https://www.sec.gov/cgi-bin/browse-edgar?"
             f"action=getcompany&CIK={ticker}&type=10-K&dateb=&owner=include&count=10"
         )
 
@@ -199,10 +199,10 @@ class AnalysisEngine:
 
         # Company context
         company_context = (
-            f"회사명: {name}\n"
-            f"티커: {ticker}\n"
-            f"섹터: {sector}\n"
-            f"산업: {industry}\n"
+            f"Company: {name}\n"
+            f"Ticker: {ticker}\n"
+            f"Sector: {sector}\n"
+            f"Industry: {industry}\n"
         )
 
         results = {}

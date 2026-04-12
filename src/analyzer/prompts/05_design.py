@@ -1,72 +1,74 @@
 """Layer 5: Design System analysis prompt."""
 
-TEMPLATE = """# 05. 디자인 시스템 해부 — {brand_name}
+TEMPLATE = """# 05. Design System Autopsy — {brand_name}
 
-## Layer 1 분석 결과 (보이스/아키타입)
+## Layer 1 Analysis Result (Voice/Archetype)
 {layer1_result}
 
-## CSS 자동 추출 데이터
+## CSS Auto-Extraction Data
 {css_data}
 
-## 수집 데이터 (웹사이트, 앱, 마케팅 자산 관찰)
+## Collected Data (Website, app, marketing asset observations)
 {collected_data}
 
-## 출력 형식
+## Output Format
 
 ```markdown
-# 05. 디자인 시스템 명세 — {brand_name}
+# 05. Design System Spec — {brand_name}
 
-## 컬러 팔레트
+> **Disclaimer**: Color codes and typography data are extracted from the brand's official website CSS at the time of analysis (observed). Design principle interpretations are this project's analysis of observable patterns. Sources: (CSS extraction), (official brand guide), (observed), (estimated).
 
-| 용도 | 색상명 | HEX | 사용처 |
-|------|--------|-----|--------|
-| Primary | [이름] | #XXXXXX | [구체적 사용처] |
-| Secondary | [이름] | #XXXXXX | [사용처] |
-| Accent | [이름] | #XXXXXX | [사용처] |
-| Neutral Light | [이름] | #XXXXXX | [사용처] |
-| Neutral Dark | [이름] | #XXXXXX | [사용처] |
-| White | [이름] | #XXXXXX | [사용처] |
-(최소 5색, 최대 10색)
+## Color Palette
 
-**컬러 원칙**: [이 브랜드의 컬러 사용 핵심 규칙 2~3개]
+| Role | Color Name | HEX | Usage |
+|------|-----------|-----|-------|
+| Primary | [Name] | #XXXXXX | [Specific usage] |
+| Secondary | [Name] | #XXXXXX | [Usage] |
+| Accent | [Name] | #XXXXXX | [Usage] |
+| Neutral Light | [Name] | #XXXXXX | [Usage] |
+| Neutral Dark | [Name] | #XXXXXX | [Usage] |
+| White | [Name] | #XXXXXX | [Usage] |
+(Minimum 5, maximum 10 colors)
 
-## 타이포그래피
+**Color Principles**: [2-3 core color usage rules for this brand]
 
-| 용도 | 폰트 | Weight | 사이즈 규칙 |
-|------|------|--------|-------------|
-| 헤드라인 | [폰트명] | [Weight] | [사이즈 규칙] |
-| 본문 | [폰트명] | [Weight] | [사이즈 규칙] |
-| 캡션 | [폰트명] | [Weight] | [사이즈 규칙] |
-| 한국어 대응 | [폰트명] | [Weight] | [사이즈 규칙] |
+## Typography
 
-## 채널별 규격
+| Role | Font | Weight | Size Rules |
+|------|------|--------|-----------|
+| Headline | [Font name] | [Weight] | [Size rules] |
+| Body | [Font name] | [Weight] | [Size rules] |
+| Caption | [Font name] | [Weight] | [Size rules] |
+| CJK Fallback | [Font name] | [Weight] | [Size rules] |
 
-| 채널 | 사이즈 (px) | 안전영역 마진 | 비고 |
-|------|------------|--------------|------|
-(최소 5개 채널)
+## Channel Specifications
 
-## 레이아웃 원칙
-- [원칙 1]
-- [원칙 2]
-- [원칙 3]
-(최소 4개)
+| Channel | Size (px) | Safe Area Margin | Notes |
+|---------|----------|-----------------|-------|
+(Minimum 5 channels)
 
-## 아이콘 & 일러스트 스타일
-- 스타일: [구체적 묘사]
-- 색상: [사용 규칙]
-- 금지: [하지 말 것]
+## Layout Principles
+- [Principle 1]
+- [Principle 2]
+- [Principle 3]
+(Minimum 4)
 
-## AI 이미지 생성 프롬프트 가이드
+## Icon & Illustration Style
+- Style: [Specific description]
+- Colors: [Usage rules]
+- Prohibited: [What not to do]
+
+## AI Image Generation Prompt Guide
 ```
-스타일 키워드: [키워드]
-톤: [톤 묘사]
-금지 요소: [금지]
-선호 요소: [선호]
+Style keywords: [keywords]
+Tone: [tone description]
+Prohibited elements: [prohibitions]
+Preferred elements: [preferences]
 ```
 
-## 디자인 금지사항
-- [금지1]
-- [금지2]
-(최소 6개)
+## Design Prohibitions
+- [Prohibition 1]
+- [Prohibition 2]
+(Minimum 6)
 ```
 """

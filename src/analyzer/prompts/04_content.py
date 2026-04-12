@@ -1,63 +1,65 @@
 """Layer 4: Content DNA analysis prompt."""
 
-TEMPLATE = """# 04. 콘텐츠 DNA 해부 — {brand_name}
+TEMPLATE = """# 04. Content DNA Autopsy — {brand_name}
 
-## Layer 1-3 분석 결과
+## Layer 1-3 Analysis Results
 {previous_layers}
 
-## 수집 데이터 (SNS 캡션, 블로그, 뉴스레터 등)
+## Collected Data (Social captions, blog, newsletter, etc.)
 {collected_data}
 
-## 출력 형식
+## Output Format
 
 ```markdown
-# 04. 콘텐츠 DNA — {brand_name}
+# 04. Content DNA — {brand_name}
 
-## 콘텐츠 필러 (3~5개)
+> **Disclaimer**: This analysis is based on publicly available content (official website, social media, press releases). Content pattern observations are based on publicly visible posts at the time of analysis. Sources: (official), (observed on social), (estimated).
 
-| 필러 | 비중 | 목적 | 대표 콘텐츠 예시 |
-|------|------|------|----------------|
-| [필러1] | XX% | [브랜딩/전환/교육/커뮤니티] | [실제 콘텐츠 제목/형식] |
-| [필러2] | XX% | [목적] | [예시] |
-| [필러3] | XX% | [목적] | [예시] |
+## Content Pillars (3-5)
 
-## 훅(Hook) 패턴
+| Pillar | Share | Purpose | Representative Content Example |
+|--------|-------|---------|-------------------------------|
+| [Pillar 1] | XX% | [Branding/Conversion/Education/Community] | [Actual content title/format] |
+| [Pillar 2] | XX% | [Purpose] | [Example] |
+| [Pillar 3] | XX% | [Purpose] | [Example] |
 
-| 패턴 | 사용 빈도 | 예시 |
-|------|----------|------|
-| [질문형/숫자형/도발형/공감형/선언형] | 높음/중간 | "[실제 훅 예시]" |
-(최소 4개 패턴)
+## Hook Patterns
 
-## CTA 패턴
+| Pattern | Frequency | Example |
+|---------|----------|---------|
+| [Question/Number/Provocative/Empathy/Declaration] | High/Medium | "[Actual hook example]" |
+(Minimum 4 patterns)
 
-| CTA 유형 | 문구 패턴 | 배치 위치 |
-|----------|----------|----------|
-| [전환/참여/공유/구독] | "[실제 CTA 문구]" | [위치] |
-(최소 3개)
+## CTA Patterns
 
-## 톤 & 무드 가이드
+| CTA Type | Copy Pattern | Placement |
+|----------|-------------|-----------|
+| [Conversion/Engagement/Share/Subscribe] | "[Actual CTA copy]" | [Location] |
+(Minimum 3)
 
-| 상황 | 톤 | 예시 카피 |
-|------|-----|---------|
-| 신제품 런칭 | [톤 묘사] | "[카피]" |
-| 위기/사과 | [톤 묘사] | "[카피]" |
-| 일상 포스팅 | [톤 묘사] | "[카피]" |
-| 프로모션 | [톤 묘사] | "[카피]" |
+## Tone & Mood Guide
 
-## 콘텐츠 금지사항
-- [하지 말아야 할 콘텐츠 유형과 이유]
-(최소 5개)
+| Situation | Tone | Example Copy |
+|-----------|------|-------------|
+| New Product Launch | [Tone description] | "[Copy]" |
+| Crisis/Apology | [Tone description] | "[Copy]" |
+| Everyday Post | [Tone description] | "[Copy]" |
+| Promotion | [Tone description] | "[Copy]" |
 
-## 해시태그 전략
-- **브랜드 해시태그**: [고정 해시태그]
-- **캠페인 해시태그**: [시즌/캠페인별]
-- **커뮤니티 해시태그**: [UGC 유도용]
+## Content Prohibitions
+- [Content types to avoid and the reason why]
+(Minimum 5)
+
+## Hashtag Strategy
+- **Brand Hashtags**: [Fixed hashtags]
+- **Campaign Hashtags**: [Seasonal/campaign-specific]
+- **Community Hashtags**: [UGC-driving]
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
-1. **"[교훈]"** [설명]
-2. **"[교훈]"** [설명]
-3. **"[교훈]"** [설명]
+### Steal Sheet — 3 Things a Marketer Can Steal
+1. **"[Lesson]"** [Explanation]
+2. **"[Lesson]"** [Explanation]
+3. **"[Lesson]"** [Explanation]
 ```
 """

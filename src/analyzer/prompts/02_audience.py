@@ -1,65 +1,67 @@
 """Layer 2: Audience Map analysis prompt."""
 
-TEMPLATE = """# 02. 타겟 & 페르소나 해부 — {brand_name}
+TEMPLATE = """# 02. Target & Persona Autopsy — {brand_name}
 
-아래 수집 데이터와 Layer 1(브랜드 정체성) 분석 결과를 기반으로 오디언스 맵을 작성하라.
+Based on the collected data and Layer 1 (Brand Identity) analysis below, create the audience map.
 
-## Layer 1 분석 결과
+## Layer 1 Analysis Result
 {layer1_result}
 
-## 수집 데이터
+## Collected Data
 {collected_data}
 
-## 출력 형식
+## Output Format
 
 ```markdown
-# 02. 오디언스 맵 — {brand_name}
+# 02. Audience Map — {brand_name}
+
+> **Disclaimer**: This analysis is based on publicly available information and is intended for brand strategy research purposes only. Persona profiles are analytical constructs based on observable data, not statements about actual individuals. Sources: (official), (observed), (estimated).
 
 ## ICP (Ideal Customer Profile)
 
-| 항목 | 정의 |
-|------|------|
-| 인구통계 | [연령, 성별, 소득, 교육, 직업] |
-| 지리 | [주요 시장, 도시/교외, 글로벌 분포] |
-| 심리 | [가치관, 라이프스타일, 관심사] |
-| 행동 | [미디어 소비, 구매 패턴, 브랜드 충성도] |
-| 기술 사용 | [디바이스, 플랫폼, 앱 사용 패턴] |
+| Dimension | Definition |
+|-----------|-----------|
+| Demographics | [Age, gender, income, education, occupation] |
+| Geography | [Primary markets, urban/suburban, global distribution] |
+| Psychographics | [Values, lifestyle, interests] |
+| Behavior | [Media consumption, purchase patterns, brand loyalty] |
+| Technology | [Devices, platforms, app usage patterns] |
 
-## 핵심 페르소나 (3개)
+## Core Personas (3)
 
-### 페르소나 1: [이름]
-- **나이/직업**: [구체적]
-- **한 줄 소개**: "[이 사람이 이 브랜드를 쓰는 이유]"
-- **Pain Point**: [해결하려는 문제]
-- **Gain Point**: [얻으려는 가치]
-- **미디어 습관**: [주로 사용하는 채널/콘텐츠]
-- **구매 트리거**: [무엇이 구매를 결정하게 하는가]
-- **이탈 트리거**: [무엇이 이 브랜드를 떠나게 하는가]
+### Persona 1: [Name]
+- **Age/Occupation**: [Specific]
+- **One-liner**: "[Why this person uses this brand]"
+- **Pain Point**: [Problem they're solving]
+- **Gain Point**: [Value they're seeking]
+- **Media Habits**: [Primary channels/content]
+- **Purchase Trigger**: [What drives the purchase decision]
+- **Churn Trigger**: [What would make them leave]
 
-### 페르소나 2: [이름]
-(동일 구조)
+### Persona 2: [Name]
+(Same structure)
 
-### 페르소나 3: [이름]
-(동일 구조)
+### Persona 3: [Name]
+(Same structure)
 
-## 구매 여정 (AARRR)
+## Purchase Journey (AARRR)
 
-| 단계 | 터치포인트 | 핵심 메시지 | 전환 장벽 |
-|------|-----------|------------|----------|
-| Acquisition | [첫 접점] | [첫인상 메시지] | [진입 장벽] |
-| Activation | [첫 가치 경험] | [Aha moment] | [온보딩 마찰] |
-| Retention | [재방문 이유] | [유지 메시지] | [이탈 요인] |
-| Revenue | [결제 시점] | [가격 정당화] | [가격 저항] |
-| Referral | [추천 동기] | [공유 메시지] | [추천 장벽] |
+| Stage | Touchpoint | Key Message | Conversion Barrier |
+|-------|-----------|-------------|-------------------|
+| Acquisition | [First contact] | [First impression message] | [Entry barrier] |
+| Activation | [First value experience] | [Aha moment] | [Onboarding friction] |
+| Retention | [Reason to return] | [Retention message] | [Churn factor] |
+| Revenue | [Payment moment] | [Price justification] | [Price resistance] |
+| Referral | [Referral motivation] | [Sharing message] | [Referral barrier] |
 
-## Anti-Persona (이 브랜드가 거부하는 고객)
-- [의도적으로 타겟하지 않는 고객 유형과 그 이유]
+## Anti-Persona (Customers This Brand Rejects)
+- [Customer types intentionally not targeted and the strategic reason why]
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
-1. **"[교훈]"** [설명]
-2. **"[교훈]"** [설명]
-3. **"[교훈]"** [설명]
+### Steal Sheet — 3 Things a Marketer Can Steal
+1. **"[Lesson]"** [Explanation]
+2. **"[Lesson]"** [Explanation]
+3. **"[Lesson]"** [Explanation]
 ```
 """

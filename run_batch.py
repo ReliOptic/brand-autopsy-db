@@ -31,6 +31,7 @@ Prerequisites:
 import argparse
 import csv
 import json
+import shutil
 import sys
 import asyncio
 from pathlib import Path
@@ -74,8 +75,14 @@ def show_status():
             else:
                 css_fail += 1
 
-            # Analysis
+            # Analysis — check both ticker/ and TICKER_Company-Name/ folder formats
             identity = brands_dir / ticker / "context" / "01-brand-identity.md"
+            if not identity.exists() and brands_dir.exists():
+                # Look for TICKER_* prefixed folder
+                for d in brands_dir.iterdir():
+                    if d.is_dir() and d.name.startswith(f"{ticker}_"):
+                        identity = d / "context" / "01-brand-identity.md"
+                        break
             if identity.exists():
                 analyzed += 1
                 sectors[sector]["analyzed"] += 1
@@ -127,7 +134,17 @@ def recrawl_failed():
     asyncio.run(batch_crawl())
 
 
-def run_analysis(ticker=None, sector=None, limit=None, all_companies=False):
+def _archive_old_analysis(ticker):
+    """Archive existing analysis before regeneration."""
+    brand_dir = DATA_DIR / "brands" / ticker / "context"
+    archive_dir = DATA_DIR / "brands" / ticker / "archive" / "v1-ko"
+    if brand_dir.exists() and not archive_dir.exists():
+        archive_dir.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(brand_dir, archive_dir)
+        print(f"  Archived old analysis to {archive_dir}")
+
+
+def run_analysis(ticker=None, sector=None, limit=None, all_companies=False, force=False):
     """Run LLM analysis."""
     import os
     if not os.getenv("ANTHROPIC_API_KEY"):
@@ -156,11 +173,14 @@ def run_analysis(ticker=None, sector=None, limit=None, all_companies=False):
     if limit:
         targets = targets[:limit]
 
-    # Skip already analyzed
+    # Skip already analyzed (or archive and re-run if --force)
     remaining = []
     for t in targets:
         existing = DATA_DIR / "brands" / t["ticker"] / "context" / "01-brand-identity.md"
         if existing.exists():
+            if force:
+                _archive_old_analysis(t["ticker"])
+                remaining.append(t)
             continue
         remaining.append(t)
 
@@ -213,6 +233,7 @@ def run_validate():
         1: "01-brand-identity.md", 2: "02-audience-map.md",
         3: "03-competitive-landscape.md", 4: "04-content-dna.md",
         5: "05-design-system.md", 6: "06-channel-playbook.md",
+        7: "07-financial-anatomy.md", 8: "08-legal-review.md",
     }
 
     total_pass, total_fail = 0, 0
@@ -244,6 +265,7 @@ def main():
     parser.add_argument("--status", action="store_true", help="Show status dashboard")
     parser.add_argument("--validate", action="store_true", help="Validate existing")
     parser.add_argument("--recrawl", action="store_true", help="Re-crawl failed CSS")
+    parser.add_argument("--force", action="store_true", help="Force regeneration of already-analyzed brands")
     args = parser.parse_args()
 
     if args.status:
@@ -253,7 +275,7 @@ def main():
     elif args.recrawl:
         recrawl_failed()
     else:
-        run_analysis(args.ticker, args.sector, args.limit, args.all)
+        run_analysis(args.ticker, args.sector, args.limit, args.all, force=args.force)
 
 
 if __name__ == "__main__":

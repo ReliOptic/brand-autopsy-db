@@ -1,72 +1,74 @@
 """Layer 1: Brand Identity analysis prompt."""
 
-TEMPLATE = """# 01. 브랜드 정체성 해부 — {brand_name}
+TEMPLATE = """# 01. Brand Identity Autopsy — {brand_name}
 
-아래 수집 데이터를 기반으로, 이 브랜드의 정체성을 해부하라.
+Based on the collected data below, dissect this brand's identity.
 
-## 수집 데이터
+## Collected Data
 {collected_data}
 
-## 출력 형식 (이 구조를 정확히 따를 것)
+## Output Format (follow this structure exactly)
 
 ```markdown
-# 01. 브랜드 정체성 해부 — {brand_name}
+# 01. Brand Identity Autopsy — {brand_name}
 
-## 존재 이유 (Why)
-> 이 브랜드가 없어지면 세상에서 사라지는 것:
+> **Disclaimer**: This analysis is based on publicly available information and is intended for brand strategy research purposes only. It does not constitute investment, legal, or business advice. All claims are tagged with their source type: (official), (observed on website), (SEC filing), or (estimated).
+
+## Raison d'Etre (Why)
+> If this brand disappeared, what the world would lose:
 >
-> "[한 문장으로 정의]"
+> "[Define in one sentence]"
 
-## 브랜드 약속
-> 고객이 비용을 지불한 뒤 반드시 얻는 것:
+## Brand Promise
+> What customers are guaranteed to receive after paying:
 >
-> "[구체적 약속]"
+> "[Specific promise]"
 
-## 포지셔닝 문장
-> [타겟]에게 [경쟁 대안] 대비 [차별점]을 제공하는 [카테고리]이다.
+## Positioning Statement
+> For [target], compared to [competitive alternatives], we provide [differentiator] as a [category].
 >
-> "[완성된 포지셔닝 문장]"
+> "[Completed positioning statement]"
 
-## 브랜드 아키타입
+## Brand Archetype
 
-| 구분 | 아키타입 | 행동 지침 |
-|------|----------|-----------|
-| Primary | [12 아키타입 중 선택] | [구체적 행동 방침] |
-| Secondary | [12 아키타입 중 선택] | [구체적 행동 방침] |
+| Type | Archetype | Behavioral Guideline |
+|------|-----------|---------------------|
+| Primary | [Select from 12 archetypes] | [Specific behavioral principle] |
+| Secondary | [Select from 12 archetypes] | [Specific behavioral principle] |
 
-(12 아키타입: Innocent, Everyman, Hero, Outlaw, Explorer, Creator, Ruler, Magician, Lover, Caregiver, Jester, Sage)
+(12 Archetypes: Innocent, Everyman, Hero, Outlaw, Explorer, Creator, Ruler, Magician, Lover, Caregiver, Jester, Sage)
 
-## 보이스 매트릭스
+## Voice Matrix
 
-| 축 | 범위 | 우리 위치 | 예시 문장 |
-|----|------|-----------|-----------|
-| 격식 ↔ 캐주얼 | 1=법률문서 / 10=친구대화 | X/10 | "[실제 브랜드 카피 인용]" |
-| 권위적 ↔ 동료적 | 1=교수강의 / 10=동료조언 | X/10 | "[실제 브랜드 카피 인용]" |
-| 감성적 ↔ 이성적 | 1=시적표현 / 10=데이터인용 | X/10 | "[실제 브랜드 카피 인용]" |
-| 절제 ↔ 과장 | 1=언더스테이트먼트 / 10=최상급 | X/10 | "[실제 브랜드 카피 인용]" |
+| Axis | Range | Position | Example Sentence |
+|------|-------|----------|-----------------|
+| Formal ↔ Casual | 1=Legal doc / 10=Friend chat | X/10 | "[Actual brand copy quote]" |
+| Authoritative ↔ Peer | 1=Professor lecture / 10=Peer advice | X/10 | "[Actual brand copy quote]" |
+| Emotional ↔ Rational | 1=Poetic / 10=Data-driven | X/10 | "[Actual brand copy quote]" |
+| Restrained ↔ Bold | 1=Understatement / 10=Superlative | X/10 | "[Actual brand copy quote]" |
 
-## 금지어 리스트
-- "[단어]" — [금지 이유]
-(최소 5개)
+## Banned Words
+- "[Word]" — [Reason for ban]
+(Minimum 5)
 
-## 필수어 리스트
-- "[단어/구문]" — [사용 이유]
-(최소 5개)
+## Required Words
+- "[Word/Phrase]" — [Reason for use]
+(Minimum 5)
 
-## 슬로건 / 태그라인
+## Slogans / Taglines
 
-| 용도 | 문구 |
-|------|------|
-| 메인 슬로건 | "[슬로건]" |
-| 서브 태그라인 | "[태그라인]" |
-| 해시태그 세트 | [공식 해시태그 나열] |
+| Purpose | Copy |
+|---------|------|
+| Main Slogan | "[Slogan]" |
+| Sub Tagline | "[Tagline]" |
+| Hashtag Set | [List official hashtags] |
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
+### Steal Sheet — 3 Things a Marketer Can Steal
 
-1. **"[핵심 교훈 제목]"** [구체적 설명 + 적용 방법]
-2. **"[핵심 교훈 제목]"** [구체적 설명 + 적용 방법]
-3. **"[핵심 교훈 제목]"** [구체적 설명 + 적용 방법]
+1. **"[Key Lesson Title]"** [Specific explanation + how to apply]
+2. **"[Key Lesson Title]"** [Specific explanation + how to apply]
+3. **"[Key Lesson Title]"** [Specific explanation + how to apply]
 ```
 """

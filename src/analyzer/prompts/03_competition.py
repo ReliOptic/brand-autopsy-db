@@ -1,70 +1,72 @@
 """Layer 3: Competitive Landscape analysis prompt."""
 
-TEMPLATE = """# 03. 경쟁 지형 해부 — {brand_name}
+TEMPLATE = """# 03. Competitive Landscape Autopsy — {brand_name}
 
-## Layer 1-2 분석 결과
+## Layer 1-2 Analysis Results
 {previous_layers}
 
-## 수집 데이터
+## Collected Data
 {collected_data}
 
-## 동일 섹터 기업 목록 (비교 대상)
+## Same-Sector Companies (Comparison Set)
 {sector_companies}
 
-## 출력 형식
+## Output Format
 
 ```markdown
-# 03. 경쟁 지형 — {brand_name}
+# 03. Competitive Landscape — {brand_name}
 
-## 경쟁 구도 매트릭스
+> **Disclaimer**: This competitive analysis is based on publicly available information (official websites, SEC filings, press releases). Competitive positioning assessments represent this project's interpretation of observable market data, not definitive market judgments. Sources: (official), (SEC 10-K), (observed), (estimated).
 
-| 경쟁사 | 관계 | 포지셔닝 차이 | 그들의 강점 | 우리의 우위 |
-|--------|------|-------------|------------|-----------|
-| [경쟁사1] | 직접경쟁 | [1줄 요약] | [구체적] | [구체적] |
-| [경쟁사2] | 직접경쟁 | [1줄 요약] | [구체적] | [구체적] |
-| [경쟁사3] | 간접경쟁 | [1줄 요약] | [구체적] | [구체적] |
-| [경쟁사4] | 대체재 | [1줄 요약] | [구체적] | [구체적] |
-(최소 4개)
+## Competitive Matrix
 
-## 포지셔닝 맵
+| Competitor | Relationship | Positioning Difference | Their Strength | Our Advantage |
+|-----------|-------------|----------------------|---------------|---------------|
+| [Competitor 1] | Direct | [1-line summary] | [Specific, sourced] | [Specific, sourced] |
+| [Competitor 2] | Direct | [1-line summary] | [Specific, sourced] | [Specific, sourced] |
+| [Competitor 3] | Indirect | [1-line summary] | [Specific, sourced] | [Specific, sourced] |
+| [Competitor 4] | Substitute | [1-line summary] | [Specific, sourced] | [Specific, sourced] |
+(Minimum 4. All comparative claims must cite observable metrics, not value judgments.)
 
-### 축 1: [산업 관련 축] (예: 가격 ↔ 프리미엄)
-### 축 2: [산업 관련 축] (예: 기능 중심 ↔ 경험 중심)
+## Positioning Map
 
-| 브랜드 | 축1 위치 | 축2 위치 | 핵심 차별점 |
-|--------|---------|---------|-----------|
-(5개 이상 배치)
+### Axis 1: [Industry-relevant axis] (e.g., Price ↔ Premium)
+### Axis 2: [Industry-relevant axis] (e.g., Function-focused ↔ Experience-focused)
 
-## 배틀카드 (Top 3 경쟁사)
+| Brand | Axis 1 Position | Axis 2 Position | Key Differentiator |
+|-------|----------------|----------------|-------------------|
+(5+ brands positioned. Base positions on observable evidence.)
 
-### vs [경쟁사1]
-- **그들의 주장**: "[경쟁사가 강조하는 것]"
-- **우리의 반론**: "[우리가 더 나은 이유]"
-- **약점 공략**: "[그들의 취약 지점]"
-- **주의할 점**: "[그들이 우리보다 나은 부분]"
+## Battle Cards (Top 3 Competitors)
 
-### vs [경쟁사2]
-(동일 구조)
+### vs [Competitor 1]
+- **Their claim**: "[What the competitor emphasizes]" (source)
+- **Our counter**: "[Observable advantage]" (source)
+- **Vulnerability**: "[Their observable weak point]" (source)
+- **Caution**: "[Where they observably outperform]" (source)
 
-### vs [경쟁사3]
-(동일 구조)
+### vs [Competitor 2]
+(Same structure)
 
-## 위협 & 기회
+### vs [Competitor 3]
+(Same structure)
 
-| 유형 | 내용 | 시급성 |
-|------|------|--------|
-| 위협 | [구체적] | 높음/중간/낮음 |
-| 기회 | [구체적] | 높음/중간/낮음 |
-(각 3개 이상)
+## Threats & Opportunities
 
-## 차별화 요약
-> 한 문장: "[이 브랜드만의 유일한 차별점]"
+| Type | Description | Urgency |
+|------|------------|---------|
+| Threat | [Specific, sourced] | High/Medium/Low |
+| Opportunity | [Specific, sourced] | High/Medium/Low |
+(Minimum 3 each)
+
+## Differentiation Summary
+> One sentence: "[This brand's unique differentiator based on observable evidence]"
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
-1. **"[교훈]"** [설명]
-2. **"[교훈]"** [설명]
-3. **"[교훈]"** [설명]
+### Steal Sheet — 3 Things a Marketer Can Steal
+1. **"[Lesson]"** [Explanation]
+2. **"[Lesson]"** [Explanation]
+3. **"[Lesson]"** [Explanation]
 ```
 """

@@ -1,57 +1,59 @@
 """Layer 6: Channel Playbook analysis prompt."""
 
-TEMPLATE = """# 06. 채널 운영 해부 — {brand_name}
+TEMPLATE = """# 06. Channel Operations Autopsy — {brand_name}
 
-## Layer 1-5 분석 결과
+## Layer 1-5 Analysis Results
 {previous_layers}
 
-## 수집 데이터 (채널별 관찰)
+## Collected Data (Channel-specific observations)
 {collected_data}
 
-## 출력 형식
+## Output Format
 
 ```markdown
-# 06. 채널 플레이북 — {brand_name}
+# 06. Channel Playbook — {brand_name}
 
-## 채널별 전략 매트릭스
+> **Disclaimer**: Channel strategy observations are based on publicly visible content across the brand's official social media accounts and website at the time of analysis. Posting frequencies and engagement patterns are estimates based on observable data. Sources: (official account), (observed), (estimated).
 
-| 채널 | 역할 | 톤 조정 | 게시 빈도 | 핵심 KPI | 콘텐츠 유형 |
-|------|------|---------|----------|---------|-----------|
-| Instagram | [역할] | [보이스 매트릭스 대비 조정] | [빈도] | [KPI] | [유형] |
-| YouTube | [역할] | [조정] | [빈도] | [KPI] | [유형] |
-| Twitter/X | [역할] | [조정] | [빈도] | [KPI] | [유형] |
-| LinkedIn | [역할] | [조정] | [빈도] | [KPI] | [유형] |
-| TikTok | [역할] | [조정] | [빈도] | [KPI] | [유형] |
-| 이메일/뉴스레터 | [역할] | [조정] | [빈도] | [KPI] | [유형] |
-| 공식 웹사이트/블로그 | [역할] | [조정] | [빈도] | [KPI] | [유형] |
-(최소 5개 채널)
+## Channel Strategy Matrix
 
-## 채널별 톤 변주
+| Channel | Role | Tone Adjustment | Posting Frequency | Key KPI | Content Type |
+|---------|------|----------------|-------------------|---------|-------------|
+| Instagram | [Role] | [Adjustment vs Voice Matrix] | [Frequency] | [KPI] | [Type] |
+| YouTube | [Role] | [Adjustment] | [Frequency] | [KPI] | [Type] |
+| Twitter/X | [Role] | [Adjustment] | [Frequency] | [KPI] | [Type] |
+| LinkedIn | [Role] | [Adjustment] | [Frequency] | [KPI] | [Type] |
+| TikTok | [Role] | [Adjustment] | [Frequency] | [KPI] | [Type] |
+| Email/Newsletter | [Role] | [Adjustment] | [Frequency] | [KPI] | [Type] |
+| Official Website/Blog | [Role] | [Adjustment] | [Frequency] | [KPI] | [Type] |
+(Minimum 5 channels)
 
-| 채널 | 격식↔캐주얼 | 권위↔동료 | 감성↔이성 | 절제↔과장 | 변주 이유 |
-|------|-----------|----------|----------|----------|----------|
-(Layer 1 보이스 매트릭스 기준값 대비 채널별 ±2 이내 조정)
+## Channel Tone Variations
 
-## 채널 간 시너지 맵
-- [채널A] → [채널B]: [어떤 콘텐츠가 어떻게 흘러가는지]
-- [채널B] → [채널C]: [흐름]
-(최소 3개 시너지 루트)
+| Channel | Formal↔Casual | Authority↔Peer | Emotional↔Rational | Restrained↔Bold | Reason |
+|---------|-------------|---------------|-------------------|----------------|--------|
+(Based on Layer 1 Voice Matrix baseline, adjusted ±2 per channel)
 
-## 채널별 금지사항
-| 채널 | 금지 사항 |
-|------|----------|
-(채널별 최소 2개)
+## Cross-Channel Synergy Map
+- [Channel A] → [Channel B]: [How content flows between them]
+- [Channel B] → [Channel C]: [Flow]
+(Minimum 3 synergy routes)
 
-## 위기 대응 채널 프로토콜
-| 위기 유형 | 1차 대응 채널 | 메시지 톤 | 응답 시간 목표 |
-|----------|-------------|----------|-------------|
-(최소 3개 시나리오)
+## Channel-Specific Prohibitions
+| Channel | Prohibitions |
+|---------|-------------|
+(Minimum 2 per channel)
+
+## Crisis Response Channel Protocol
+| Crisis Type | Primary Response Channel | Message Tone | Response Time Target |
+|------------|------------------------|-------------|---------------------|
+(Minimum 3 scenarios)
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
-1. **"[교훈]"** [설명]
-2. **"[교훈]"** [설명]
-3. **"[교훈]"** [설명]
+### Steal Sheet — 3 Things a Marketer Can Steal
+1. **"[Lesson]"** [Explanation]
+2. **"[Lesson]"** [Explanation]
+3. **"[Lesson]"** [Explanation]
 ```
 """
