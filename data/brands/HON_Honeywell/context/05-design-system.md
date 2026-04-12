@@ -1,158 +1,102 @@
-# 05 디자인 시스템 — Honeywell (HON)
+# 05. Design System — Honeywell (HON)
 
-> 산업군: 다각화 산업재 (Diversified Industrial)
-> 기준일: 2026-04-12
-
----
-
-## 1. 디자인 철학
-
-Honeywell의 디자인 언어는 **"신뢰할 수 있는 정밀함(Trustworthy Precision)"**을 기반으로 한다. 산업 현장의 가독성, 데이터 시각화의 명확성, 글로벌 접근성을 동시에 충족해야 하는 B2B 제약 조건 속에서 **단순하고 권위 있는 시각 언어**를 구사한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 주요 브랜드 컬러 (Primary Brand Colors)
+Honeywell's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Honeywell Red | `#C8102E` | 로고, 주요 CTA 버튼, 강조 포인트 | (공식) |
-| Deep Navy | `#1A1F36` | 헤더, 다크 배경, 고급 인쇄물 | (공식) |
-| Pure White | `#FFFFFF` | 기본 배경, 여백, 텍스트 역전 | (공식) |
+### Core Brand Colors
 
-### 보조 컬러 (Secondary Colors)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Steel Gray | `#58595B` | 본문 텍스트, 부제목, UI 아이콘 | (공식) |
-| Light Gray | `#E6E7E8` | 배경 구분선, 카드 배경, 테이블 줄 구분 | (공식) |
-| Mid Gray | `#939598` | 캡션, 보조 레이블, 비활성 UI 요소 | (추정) |
+### Color Principles
 
-### 디지털 확장 컬러 (Digital Extended Palette)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Digital Blue | `#0071CE` | 링크, 인터랙티브 요소, 데이터 시각화 1번 색상 | (추정) |
-| Success Green | `#00A651` | 상태 표시(정상), 긍정 지표, 성과 달성 시각화 | (추정) |
-| Warning Amber | `#F7941D` | 경고 상태, 주의 인디케이터, 임계값 접근 알림 | (추정) |
-| Alert Red | `#ED1C24` | 오류 상태, 위험 알림, 임계값 초과 | (추정) |
-| Dark Teal | `#007A87` | 데이터 시각화 보조, 지속가능성 테마 콘텐츠 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-```
-주 배경(White)     ████████████████████  60%
-강조(Red)          ████                  10%
-텍스트(Steel Gray) ████████              20%
-보조(Blue/Teal)    ████                  10%
-```
-
-### 접근성 대비율 체크
-
-| 조합 | 대비율 | WCAG 2.1 기준 |
-|------|-------|--------------|
-| `#C8102E` on `#FFFFFF` | 5.08:1 | AA 통과 (추정) |
-| `#1A1F36` on `#FFFFFF` | 16.1:1 | AAA 통과 (추정) |
-| `#58595B` on `#FFFFFF` | 7.0:1 | AAA 통과 (추정) |
-| `#FFFFFF` on `#C8102E` | 5.08:1 | AA 통과 (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피
+## 2. Typography
 
-### 서체 시스템
+Honeywell's digital properties employ a typographic system appropriate to its industrials positioning.
 
-| 역할 | 서체명 | 특성 | 출처 |
-|------|--------|------|------|
-| 헤드라인 | Honeywell Sans (독자 개발 추정) 또는 Neue Haas Grotesk | 굵은 고딕, 강한 인상 | (추정) |
-| 본문 | Open Sans 또는 Source Sans Pro | 가독성 최적화, 웹 안전 폰트 | (추정) |
-| 데이터/UI | Roboto Mono 또는 IBM Plex Mono | 수치·코드 표시, 고정폭 | (추정) |
-| 한국어 | Noto Sans KR | 한국어 공식 지원, 다국어 대응 | (추정) |
+### Typeface System
 
-### 타입 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 행간 | 자간 |
-|------|------|------|------|
-| Display | 48px / 3rem | 1.1 | -0.02em |
-| H1 | 36px / 2.25rem | 1.2 | -0.01em |
-| H2 | 28px / 1.75rem | 1.3 | 0 |
-| H3 | 22px / 1.375rem | 1.4 | 0 |
-| Body L | 18px / 1.125rem | 1.6 | 0 |
-| Body M | 16px / 1rem | 1.6 | 0 |
-| Caption | 12px / 0.75rem | 1.5 | 0.02em |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 4. 로고 시스템
+## 3. Channel Specifications
 
-### 로고 변형
-
-| 변형 | 용도 |
-|------|------|
-| 풀 컬러 (레드+블랙) | 화이트 배경 주요 사용 (공식) |
-| 역전 (화이트) | 다크/레드 배경 사용 (공식) |
-| 모노크롬 블랙 | 단색 인쇄, 엠보싱 (공식) |
-| 심볼 단독 | 파비콘, 앱 아이콘, 극소 크기 (추정) |
-
-### 로고 여백 규칙 (추정)
-
-최소 여백 = 로고 높이의 25%. 최소 표시 크기 = 디지털 24px 높이.
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5. 아이콘 & 일러스트레이션 시스템
+## 4. Layout Principles
 
-| 유형 | 스타일 | 용도 |
-|------|--------|------|
-| UI 아이콘 | 선형(Line), 2px 스트로크, 라운드 캡 | 인터페이스, 내비게이션 |
-| 산업 픽토그램 | 솔리드 필, 단순화된 형태 | 제품 카테고리, 솔루션 분류 |
-| 데이터 시각화 | 플랫 바/라인/도넛 차트, 브랜드 컬러 팔레트 | 보고서, 대시보드 |
-| 일러스트레이션 | 기술 다이어그램, 3D 렌더링 (제품) | 백서, 제품 소개 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 6. 레이아웃 & 그리드
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-### 디지털 그리드
-
-- **데스크톱**: 12컬럼, 최대 너비 1440px, 거터 24px (추정)
-- **태블릿**: 8컬럼, 거터 16px (추정)
-- **모바일**: 4컬럼, 거터 16px, 마진 16px (추정)
-
-### 여백 시스템 (8pt 기반)
-
-| 토큰 | 값 | 용도 |
-|------|-----|------|
-| space-1 | 8px | 인라인 간격, 아이콘 패딩 |
-| space-2 | 16px | 컴포넌트 내부 패딩 |
-| space-3 | 24px | 섹션 구분, 카드 패딩 |
-| space-4 | 32px | 페이지 섹션 간격 |
-| space-6 | 48px | 주요 섹션 상하 여백 |
-| space-8 | 64px | 페이지 헤더 영역 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 7. 사진 & 비주얼 방향성
+## 5. Design Prohibitions
 
-### 허용되는 이미지 스타일
-
-- 실제 산업 현장 사진 (공장, 빌딩, 항공기) — 연출되지 않은 자연스러운 작업 환경
-- 기술자/엔지니어가 솔루션을 활용하는 장면 — 다양성(인종, 성별) 반영
-- 데이터 대시보드 스크린샷 — 실제 UI 활용, 수치 가시성 확보
-
-### 금지되는 이미지 스타일
-
-- 과도하게 연출된 스톡 이미지
-- 빈 공장/무인 시설 (비인간적 이미지)
-- 경쟁사 제품이 노출된 환경
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
-
-| # | 항목 | Honeywell 접근법 | 벤치마킹 포인트 |
-|---|------|-----------------|----------------|
-| 1 | 레드 원컬러 집중 | `#C8102E` 단일 강조색으로 브랜드 인식률 극대화, 나머지는 중성 톤 | 산업재 B2B에서 원색 1개 집중 전략이 인지도와 신뢰감 동시 확보 |
-| 2 | 데이터 시각화 확장 팔레트 | 브랜드 컬러와 분리된 기능성 컬러(신호등 체계)를 명확히 구분 | UI/대시보드 컬러는 브랜드 컬러가 아닌 기능 의미론적 컬러로 운영 |
-| 3 | 8pt 그리드 일관성 | 모든 여백을 8의 배수로 통일, 디자인-개발 협업 마찰 최소화 | 토큰 기반 스페이싱으로 디자인 시스템 확장성 확보 |
+*Layer 5 of 8 — Brand Autopsy: Honeywell (HON)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

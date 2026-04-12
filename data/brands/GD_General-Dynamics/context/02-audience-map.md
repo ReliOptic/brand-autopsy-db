@@ -1,88 +1,84 @@
-# 02 오디언스 맵 — General Dynamics (GD)
+# 02. Audience Map — General Dynamics (GD)
 
-## 오디언스 계층 구조
-
-```
-Primary (직접 구매 결정권자)
-├── 미 국방부 (DoD) 조달 담당관
-├── 해군 시스템 사령부 (NAVSEA)
-├── 육군 획득 사령부 (ASA(ALT))
-└── 주요 동맹국 국방 장관실 (FMS 채널)
-
-Secondary (영향력 행사자)
-├── 의회 군사위원회 / 세출위원회
-├── 싱크탱크 (CSBA, CSIS, RAND)
-├── 방산 전문 미디어 (Defense News, Breaking Defense)
-└── 투자자 / 기관 주주
-
-Tertiary (최종 사용자 / 오피니언 리더)
-├── 현역 군인 (조종사, 잠수함 승조원, 기갑 병사)
-├── Gulfstream 기업 항공 구매 담당자
-└── 방산 엔지니어 채용 후보군
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1: 방위 획득 관료 — "제독 김준혁"
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | 해군 획득 프로그램 관리자, 대령급 (추정) |
-| 나이 | 48세 |
-| 배경 | 해군사관학교 출신, 핵추진 잠수함 20년 경력 |
-| 주요 목표 | 예산 범위 내 최고 성능 플랫폼 적기 인도 |
-| 핵심 고통점 | 납기 지연, 비용 초과, 의회 감사 부담 |
-| 정보 소스 | DoD 공식 브리핑, Jane's Defence Weekly, NAVSEA 내부 보고서 |
-| 의사결정 기준 | 검증된 성능 기록, 계약 이행 이력, 유지보수 지원 체계 |
-| GD와의 접점 | Electric Boat Virginia급/Columbia급 계약 협상 |
-| 핵심 메시지 | "검증된 플랫폼, 예측 가능한 납기, 전주기 지원" |
-
-**페르소나 인사이트:** 이 오디언스는 리스크 회피 성향이 극단적으로 높다. 혁신보다 신뢰성을, 가격보다 성능을 우선시한다. 의회 보고서에 인용될 수 있는 데이터 포인트를 원한다.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from General Dynamics's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in General Dynamics's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: 기업 항공 구매 담당자 — "CFO 박수연"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | 글로벌 500대 기업 CFO / 기업 항공 위원회 의장 (추정) |
-| 나이 | 52세 |
-| 배경 | MBA(와튼), 금융업 25년, 전용기 운영 10년 경력 |
-| 주요 목표 | 임원진 이동 효율성 극대화 + 브랜드 이미지 유지 |
-| 핵심 고통점 | 운영 비용 정당화, ESG 보고 부담, 가용성(availability) 보장 |
-| 정보 소스 | Aviation International News, 동종업계 CFO 네트워크 |
-| 의사결정 기준 | 총 운영 비용(TCO), 기내 생산성, 완성도, 브랜드 지위 |
-| GD와의 접점 | Gulfstream G700/G800 구매 협상 |
-| 핵심 메시지 | "비행 중에도 비즈니스가 멈추지 않는 유일한 사무실" |
+### Persona 1 — Enterprise Decision-Maker
 
-**페르소나 인사이트:** Gulfstream은 GD 포트폴리오에서 유일하게 감성 언어가 허용되는 서브브랜드다. 이 페르소나는 생산성·지위·신뢰성의 삼각형을 원한다.
+- **Age / Occupation**: 42, VP-level or director in a General Dynamics customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **General Dynamics selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: 동맹국 국방 장관 보좌관 — "브리게이드 장군 Ahmed Al-Rashid"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | 중동 주요 동맹국 공군 획득 본부장 (추정) |
-| 나이 | 55세 |
-| 배경 | 미국 국방대(NDU) 연수, F-16 조종사 출신 |
-| 주요 목표 | 자국 방위 산업 육성(offset) + 전략적 억지력 강화 |
-| 핵심 고통점 | 기술이전 제한, 미 의회 FMS 승인 불확실성, 현지 지원 인프라 부족 |
-| 정보 소스 | DSCA 공지, 미 대사관 방산 담당관, IDEX/Paris Air Show |
-| 의사결정 기준 | 기술이전 범위, 현지 유지보수 지원, 정치적 승인 가능성 |
-| GD와의 접점 | Abrams 전차 FMS, 지역 기술지원센터 설립 협상 |
-| 핵심 메시지 | "파트너 국가의 방위 자립을 함께 구축하는 장기 동반자" |
-
-**페르소나 인사이트:** 이 페르소나는 거래가 아닌 관계를 산다. GD의 장기 프레즌스와 기술이전 의지가 경쟁사와의 차별점이다.
+- **Age / Occupation**: 35, technical professional who interacts with General Dynamics's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **General Dynamics selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 관여 모델
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 행동 | GD 대응 전략 |
-|------|------|-------------|
-| 인식 (Awareness) | RFI 발행, 전시회 참관 | 백서·기술 브리핑 자료 선배포 |
-| 평가 (Evaluation) | 제안서 검토, 레퍼런스 콜 | 실전 이행 사례 데이터 팩 제공 |
-| 결정 (Decision) | 계약 협상 | 전담 프로그램 관리자 배정 |
-| 사용 (Usage) | 운용·유지보수 | 전주기 지원(Life Cycle Support) 계약 |
-| 옹호 (Advocacy) | 의회 증언, 동맹 추천 | 고객 성공 사례 공동 발표 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate General Dynamics's financial performance, competitive positioning, and risk factors for investment decisions.
+- **General Dynamics selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | General Dynamics's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | General Dynamics total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who General Dynamics Is Not For
+
+| Type | Characteristics | Why General Dynamics Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | General Dynamics's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | General Dynamics's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | General Dynamics's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+General Dynamics's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+General Dynamics's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

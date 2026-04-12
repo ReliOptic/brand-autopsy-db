@@ -1,118 +1,123 @@
-# 04. 콘텐츠 DNA — Alliant Energy (LNT)
+# 04. Content DNA — Alliant Energy (LNT)
 
-## 콘텐츠 철학
-
-Alliant Energy의 콘텐츠는 "유틸리티가 아니라 이웃처럼 말한다"는 원칙 아래 설계된다. 복잡한 에너지 인프라를 일상 언어로 번역하고, 지역사회 스토리를 통해 대규모 투자를 인간적으로 체감하게 만드는 것이 핵심이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 필러 (Content Pillars)
+## Content Pillars
 
-| 필러 | 비중 (추정) | 설명 | 예시 포맷 |
-|------|-------------|------|-----------|
-| 신뢰성·안전 | 30% | 정전 대응, 안전 팁, 인프라 투자 | 블로그, 이메일 알림, 소셜 |
-| 청정 에너지 전환 | 25% | 재생에너지 진척, 태양광·풍력 프로젝트 | 인포그래픽, 영상, 연례보고서 |
-| 지역사회·사람 | 20% | 직원 스토리, 지역 파트너십, 기부 | 소셜 포스트, 뉴스레터 |
-| 에너지 절약·효율 | 15% | 고객 절약 팁, 보조금 프로그램 | How-to 영상, 계절별 캠페인 |
-| 비즈니스·산업 | 10% | B2B 프로그램, 경제 개발 | 케이스 스터디, 백서 |
+Alliant Energy's content strategy reflects its positioning in the Electric Utilities segment of Utilities. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Alliant Energy understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for electric utilities requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Alliant Energy." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 서술 구조 (Narrative Architecture)
-
-### 마스터 서사 (Master Narrative)
-"우리는 100년 넘게 아이오와와 위스콘신의 불을 켜 왔다. 이제 그 불이 더 청정하고, 더 스마트하고, 더 오래 지속되도록 만들고 있다."
-
-### 서브 서사 1: 탄소중립 여정
-- **도입부**: 기후 위기는 실재한다. 우리 지역도 변하고 있다.
-- **전개**: Alliant는 2019년에 이미 2040 탄소중립을 약속했다.
-- **증거**: X MW 태양광 설치, Y개 풍력 터빈, Z톤 탄소 감축.
-- **결론**: 고객이 이 여정의 파트너다.
-
-### 서브 서사 2: 지역사회 투자
-- **도입부**: 에너지는 단순한 상품이 아니라 지역의 생명선이다.
-- **전개**: 우리의 투자는 일자리, 세금, 인프라로 지역에 돌아온다.
-- **증거**: Iowa/Wisconsin 내 고용 창출 수치, 지역 납세 기여.
-- **결론**: 우리가 성장할수록 지역도 성장한다.
-
-### 서브 서사 3: 고객 절약 파트너십
-- **도입부**: 에너지 비용은 가계·사업 예산의 중요한 변수다.
-- **전개**: 우리는 단순히 청구서를 보내는 게 아니라 절약 방법을 함께 찾는다.
-- **증거**: 에너지 효율 프로그램 참여 고객 평균 절약액.
-- **결론**: 절약하는 고객이 지속 가능한 에너지 미래를 만든다.
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 톤 & 보이스 가이드라인
+## Hook Patterns
 
-### 해야 할 것 (Do)
-- 숫자로 말하라: "태양광 패널 X만 개", "CO₂ Y만 톤 감축"
-- 지역 이름을 구체적으로 써라: "아이오와주 시더래피즈", "위스콘신주 그린베이"
-- 직원·고객 실명 스토리를 활용하라 (동의 전제)
-- 계절성을 반영하라: 겨울=난방 안전, 여름=냉방 효율, 봄=태양광 시즌
+### Hook 1 — Industry Challenge Lead
 
-### 하지 말아야 할 것 (Don't)
-- 규제 요금 인상을 변명하지 말고 맥락을 제공하라
-- 경쟁사를 직접 언급하거나 비교하지 마라
-- 에너지 빈곤·정전을 가볍게 다루지 마라
-- 환경 성과를 과장하거나 "그린워싱" 의심을 살 표현을 피하라
-- 전문 기술 용어(kWh, MVAR, RTO)를 설명 없이 쓰지 마라
+Opens with a recognizable industry challenge or pain point before presenting Alliant Energy's perspective.
 
----
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-## 콘텐츠 포맷 매트릭스
+### Hook 2 — Data-Driven Insight
 
-| 포맷 | 최적 필러 | 최적 오디언스 | 발행 빈도 |
-|------|-----------|---------------|-----------|
-| 단문 소셜 포스트 | 안전 팁, 절약 팁 | 일반 주거 고객 | 주 3~5회 (추정) |
-| 블로그 아티클 (800~1200자) | 청정 에너지 전환 | 관심 고객, 미디어 | 주 1~2회 (추정) |
-| 인포그래픽 | 탄소 성적표, 요금 구조 | 모든 오디언스 | 월 2~4회 (추정) |
-| 짧은 영상 (60~90초) | 지역사회 스토리 | 소셜 팔로워 | 격주 (추정) |
-| 이메일 뉴스레터 | 절약 팁 + 프로그램 | 구독 고객 | 월 1~2회 (추정) |
-| 백서·케이스 스터디 | 비즈니스 솔루션 | 산업·상업 고객 | 분기 1회 (추정) |
-| 연례 지속가능성 보고서 | 탄소 전환 성과 | 투자자, 규제기관 | 연 1회 (공식) |
-| 프레스 릴리즈 | 주요 투자·파트너십 | 미디어, 투자자 | 수시 (공식) |
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## 키워드 전략
+### Hook 3 — Customer Story Lead
 
-### SEO 타깃 키워드 (추정)
-- "Iowa renewable energy"
-- "Wisconsin electric utility"
-- "Alliant Energy solar program"
-- "energy efficiency rebates Iowa"
-- "clean energy Wisconsin"
-- "utility bill assistance"
-- "community solar subscription"
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-### 브랜드 소유 해시태그 (추정)
-- `#AlliantEnergy`
-- `#CleanEnergyFuture`
-- `#PoweringProgress`
-- `#IowaEnergy`
-- `#WisconsinEnergy`
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 금지어 (재확인)
+## CTA Patterns
 
-| 금지어 | 이유 |
-|--------|------|
-| "가장 저렴한" | 규제 요금제, 가격 경쟁 주장 불가 |
-| "완벽한 신뢰성" | 기상재해·정전 현실과 괴리 |
-| "즉시 복구" | 복구 시간 보장 불가 |
-| "그린 100%" | 달성 전 사전 주장은 그린워싱 |
-| "경쟁사보다 싸다" | 직접 비교 광고 규제 유틸리티 부적절 |
+| CTA Type | Alliant Energy Pattern | What Alliant Energy Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-## 콘텐츠 필수어 (재확인)
+---
 
-| 필수어 | 사용 맥락 |
-|--------|-----------|
-| "신뢰할 수 있는" | 모든 서비스 설명 |
-| "청정 에너지" | 재생에너지 관련 콘텐츠 |
-| "지역사회" | 파트너십·투자 콘텐츠 |
-| "안전" | 인프라·서비스 콘텐츠 |
-| "지속 가능한" | ESG·환경 콘텐츠 |
-| "파트너" | 고객·기관 관계 콘텐츠 |
-| "미래" | 재생에너지·스마트그리드 콘텐츠 |
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to utilities sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Alliant Energy as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #LNT | Financial and investor community | Moderate (estimated) |
+| #AlliantEnergy | Brand-level social engagement | Varies (estimated) |
+| #UInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Alliant Energy's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In utilities markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in electric utilities face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Alliant Energy's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

@@ -1,146 +1,84 @@
-# 02 오디언스 맵 — Super Micro Computer (SMCI)
+# 02. Audience Map — Supermicro (SMCI)
 
-## 오디언스 계층 구조
-
-```
-1차 오디언스: 구매 결정권자 (Technical Buyer + Economic Buyer)
-2차 오디언스: 기술 평가자 (Influencer / Evaluator)
-3차 오디언스: 최종 사용자 (End User / Operator)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 데이터센터 인프라 아키텍트 "박성훈"
-
-| 항목 | 내용 |
-|------|------|
-| 직함 | 시니어 인프라 아키텍트 / 클라우드 인프라 리드 |
-| 연령 | 35~45세 (추정) |
-| 소속 | 대형 CSP(클라우드 서비스 제공사) 또는 하이퍼스케일 데이터센터 기업 |
-| 소득 | 연봉 1억 2천만 원 이상 (추정) |
-| 학력 | 컴퓨터공학·전기전자 석사 이상 (추정) |
-| 지역 | 서울·수도권, 미국 실리콘밸리, 싱가포르 (추정) |
-
-**Pain Points**
-- GPU 서버 납기 지연 → AI 프로젝트 일정 차질
-- 전력 밀도 증가로 냉각 설계 재검토 필요
-- 벤더 락인(vendor lock-in) 리스크 최소화
-- 감사 이슈 이후 슈퍼마이크로 공급망 신뢰성 재평가 필요 (추정)
-
-**동기 / 목표**
-- NVIDIA H100/H200 GPU 서버를 경쟁사보다 빠르게 확보
-- TCO 최적화로 예산 집행 정당화
-- 표준화된 랙 유닛 설계로 운영 효율 극대화
-
-**미디어 소비 패턴**
-- AnandTech, ServeTheHome, Tom's Hardware 정기 열람 (추정)
-- LinkedIn 기술 아티클, NVIDIA GTC 세션 시청
-- 구매 전 레퍼런스 콜(reference call) 필수
-
-**브랜드 접점**
-- 공식 데이터시트, 컨피규레이터(configurator) 도구
-- 파트너 채널 SE(Sales Engineer) 미팅
-- SC(Supercomputing) 컨퍼런스 부스
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in technology hardware, storage & peripherals and adjacent industries. (T4_INFERRED from Supermicro's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Supermicro's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — AI 스타트업 CTO "김지은"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | CTO / VP of Engineering |
-| 연령 | 30~40세 (추정) |
-| 소속 | AI 모델 개발·MLOps 스타트업 (시리즈 B~C) |
-| 소득 | 연봉 1억 5천만 원 + 스톡옵션 (추정) |
-| 학력 | CS/AI 석박사 또는 FAANG 출신 (추정) |
-| 지역 | 서울 강남·판교, 샌프란시스코 베이에어리어 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**Pain Points**
-- GPU 서버 초기 투자비용 vs. 클라우드 온디맨드 비용 트레이드오프
-- 빠른 스케일업을 위한 모듈형 서버 아키텍처 필요
-- 소규모 팀으로 하드웨어 운영 부담 최소화
-- 벤더 재무 리스크(SMCI 감사 이슈) 평가 필요 (추정)
-
-**동기 / 목표**
-- 온프레미스 GPU 클러스터로 클라우드 대비 40~60% 비용 절감 (추정)
-- NVIDIA DGX-ready 검증 서버 빠른 도입
-- 향후 IPO/Series D 전 인프라 안정성 확보
-
-**미디어 소비 패턴**
-- Twitter/X 기술 커뮤니티, Hacker News (추정)
-- AI/ML 컨퍼런스(NeurIPS, ICML) 참가
-- 동료 CTO 슬랙 채널, 벤처 포트폴리오사 네트워크 (추정)
-
-**브랜드 접점**
-- NVIDIA 파트너 추천 경로를 통한 첫 접촉 (추정)
-- 온라인 컨피규레이터, 빠른 견적 요청
-- 기술 블로그·벤치마크 레포트
+- **Age / Occupation**: 42, VP-level or director in a Supermicro customer organization
+- **Core pain**: Needs reliable technology hardware, storage & peripherals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Supermicro selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 엔터프라이즈 IT 조달 담당자 "이상민"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | IT 인프라 팀장 / 서버 조달 담당 부장 |
-| 연령 | 40~52세 (추정) |
-| 소속 | 금융·제조·공공기관 대기업 IT 부서 |
-| 소득 | 연봉 8천만~1억 원 (추정) |
-| 학력 | 공학 학사, IT 관련 자격증 보유 (추정) |
-| 지역 | 서울·부산·대전 등 국내 주요 도시 (추정) |
-
-**Pain Points**
-- RFP 기반 조달 프로세스에서 다수 벤더 비교 부담
-- SMCI 회계 이슈로 인한 내부 리스크 컴플라이언스 승인 어려움 (추정)
-- 5년 이상 장기 유지보수·부품 수급 안정성 요구
-- 총무·재무 부서 설득을 위한 명확한 TCO 자료 필요
-
-**동기 / 목표**
-- 검증된 벤더에서 표준 규격 서버 안정적 조달
-- Dell EMC·HPE 대비 15~25% 비용 절감 근거 확보 (추정)
-- 국내 공인 파트너사를 통한 공식 계약·보증
-
-**미디어 소비 패턴**
-- 가트너·IDC 리서치 리포트 참조
-- 국내 IT 전문지(전자신문, 아이티데일리) 정기 구독 (추정)
-- 벤더 주관 세미나·웨비나 참석
-
-**브랜드 접점**
-- 국내 공식 리셀러·SI 파트너 채널
-- 공식 한국어 제품 카탈로그·보증 문서
-- 슈퍼마이크로 코리아 영업팀 (추정)
+- **Age / Occupation**: 35, technical professional who interacts with Supermicro's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Supermicro selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 | 구매력 | 기술 이해도 | 우선순위 |
-|---------|------|--------|------------|---------|
-| 하이퍼스케일/CSP | 소 | 매우 높음 | 매우 높음 | 1순위 |
-| AI 스타트업 | 중 | 중~높음 | 높음 | 2순위 |
-| 엔터프라이즈 IT | 대 | 중~높음 | 중간 | 3순위 |
-| HPC/연구기관 | 소 | 중간 | 매우 높음 | 4순위 |
-| 엣지/임베디드 | 중 | 낮음~중간 | 중~높음 | 5순위 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Supermicro's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Supermicro selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 (Buyer Journey)
+## Purchase Journey — AARRR Framework
 
-```
-인지(Awareness)
-  └─ NVIDIA 파트너 에코시스템 추천, 컨퍼런스 노출
-      ↓
-검토(Consideration)
-  └─ 데이터시트 비교, 컨피규레이터 사용, 레퍼런스 체크
-      ↓
-평가(Evaluation)
-  └─ PoC/파일럿 서버 도입, SE 기술 미팅, TCO 분석
-      ↓
-구매(Purchase)
-  └─ 파트너 채널 또는 직접 구매, 커스텀 빌드 주문
-      ↓
-유지(Retention)
-  └─ 펌웨어 업데이트, 보증 연장, 신모델 업그레이드 사이클
-```
+| Stage | Supermicro's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Supermicro total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Supermicro Is Not For
+
+| Type | Characteristics | Why Supermicro Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Supermicro's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Supermicro's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Supermicro's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Supermicro's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Supermicro's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

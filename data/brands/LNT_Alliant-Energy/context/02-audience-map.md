@@ -1,91 +1,84 @@
-# 02. 오디언스 맵 — Alliant Energy (LNT)
+# 02. Audience Map — Alliant Energy (LNT)
 
-## 오디언스 세그먼트 개요
-
-Alliant Energy의 고객은 규제 유틸리티 특성상 선택권이 제한되어 있으나, 커뮤니케이션·프로그램 참여·브랜드 인식 차원에서 세분화가 유효하다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 아이오와 농촌 가정주부 — "수잔 헨더슨"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 52세 |
-| 거주지 | 아이오와주 시더래피즈 근교 농촌 (추정) |
-| 직업 | 파트타임 보조교사 + 농장 운영 보조 |
-| 연 가구소득 | $55,000 ~ $70,000 (추정) |
-| 에너지 관심도 | 중간 — 요금 고지서 절약에 민감, 태양광 관심 초기 단계 |
-| 주요 통증점 | 겨울 난방비 급등, 정전 시 농장 장비 피해 우려 |
-| 선호 채널 | 우편 청구서, 전화 고객센터, 지역 신문 광고 |
-| 브랜드 인식 | "항상 거기 있었던" 인프라, 신뢰하지만 특별히 좋아하진 않음 |
-
-**핵심 메시지 방향**: 에너지 절약 팁·보조금 프로그램 강조, 정전 복구 속도 서약, 농촌 커뮤니티 투자 스토리
-
-**동기 유발 언어**: "청구서 절약", "겨울 준비", "지역 농장 지원", "빠른 복구"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electric utilities and adjacent industries. (T4_INFERRED from Alliant Energy's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Alliant Energy's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 위스콘신 밀레니얼 기후 활동가 — "마르쿠스 라이트"
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 33세 |
-| 거주지 | 위스콘신주 매디슨 시내 아파트 (추정) |
-| 직업 | 환경 NGO 커뮤니케이션 매니저 |
-| 연 소득 | $48,000 ~ $62,000 (추정) |
-| 에너지 관심도 | 매우 높음 — 태양광 구독, EV 충전, 탄소발자국 추적 |
-| 주요 통증점 | 재생에너지 전환 속도 불만, 석탄 발전소 폐쇄 지연 비판 |
-| 선호 채널 | Twitter/X, LinkedIn, 환경 단체 뉴스레터, 팟캐스트 |
-| 브랜드 인식 | "말보다 행동이 느린 유틸리티" — 회의적이나 참여 의지 있음 |
-
-**핵심 메시지 방향**: 재생에너지 투자 수치·진척도 투명 공개, 석탄 폐쇄 로드맵, 커뮤니티 솔라 프로그램 접근성
-
-**동기 유발 언어**: "탄소 감축 수치", "폐쇄 일정", "청정 100%", "지역 태양광 참여"
+- **Age / Occupation**: 42, VP-level or director in a Alliant Energy customer organization
+- **Core pain**: Needs reliable electric utilities solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Alliant Energy selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 중소 제조업 CFO — "다이앤 청"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 47세 |
-| 거주지 | 아이오와주 워털루 산업단지 인근 (추정) |
-| 직업 | 식품가공 중소기업 CFO |
-| 연 사업 전기요금 | $180,000 ~ $400,000 (추정) |
-| 에너지 관심도 | 매우 높음 — 전력 비용이 COGS의 12~18% 차지 |
-| 주요 통증점 | 수요 피크 요금 급등, 전력 신뢰성 (생산 라인 정지 손실), 탄소 보고 의무화 대응 |
-| 선호 채널 | Key Account Manager 직접 미팅, B2B 뉴스레터, 에너지 컨퍼런스 |
-| 브랜드 인식 | 전략적 파트너로 인식하고 싶으나 "규제 독점이라 선택지 없음" 인식 공존 |
-
-**핵심 메시지 방향**: 수요 반응(DR) 프로그램 ROI, 그린 전력 구매 옵션(PPA), 전용 비즈니스 지원팀, Scope 2 탄소 보고 지원
-
-**동기 유발 언어**: "비용 절감", "공급 안정성", "탄소 보고 간소화", "맞춤형 요금제"
+- **Age / Occupation**: 35, technical professional who interacts with Alliant Energy's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Alliant Energy selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 비중 | 수익 기여 | 브랜드 민감도 | 전환 리스크 |
-|----------|-----------|-----------|---------------|-------------|
-| 농촌 주거 고객 | 35% (추정) | 중간 | 낮음 | 낮음 (규제) |
-| 도시 환경 의식 고객 | 20% (추정) | 낮음~중간 | 높음 | 낮음 (규제) |
-| 중소 상업·산업 고객 | 25% (추정) | 높음 | 중간 | 낮음 (규제) |
-| 대형 산업 고객 | 10% (추정) | 매우 높음 | 중간 | 중간 (이전 가능) |
-| 저소득층 주거 고객 | 10% (추정) | 낮음 | 중간 | 낮음 (규제) |
+- **Age / Occupation**: 50, institutional investor or analyst covering Utilities
+- **Core pain**: Needs to evaluate Alliant Energy's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Alliant Energy selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스별 콘텐츠 우선순위
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 1순위 메시지 | 2순위 메시지 | 금기 메시지 |
-|----------|-------------|-------------|-------------|
-| 농촌 가정 | 요금 절약·보조금 | 정전 복구 속도 | 복잡한 기술 용어 |
-| 환경 의식 밀레니얼 | 재생에너지 진척 수치 | 커뮤니티 솔라 | 석탄 미화 표현 |
-| 중소 산업 CFO | 비용 절감 ROI | 공급 신뢰성 SLA | 요금 인상 일방 통보 |
-| 저소득층 | 지원 프로그램 접근성 | 에너지 효율 무료 지원 | 복잡한 신청 절차 설명 |
+| Stage | Alliant Energy's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Alliant Energy total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Alliant Energy Is Not For
+
+| Type | Characteristics | Why Alliant Energy Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Alliant Energy's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Alliant Energy's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Alliant Energy's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Alliant Energy's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Alliant Energy's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In utilities markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

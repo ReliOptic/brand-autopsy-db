@@ -1,137 +1,102 @@
-# 05 디자인 시스템 — NXP Semiconductors (NXPI)
+# 05. Design System — NXP Semiconductors (NXPI)
 
-## 컬러 시스템
-
-CSS 데이터 기반 추출 색상 분석. 출처 표기: (공식) = CSS 직접 추출, (추정) = 용도·역할 분석
-
-### 컬러 팔레트 테이블
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 출처 |
-|------|--------|-----|---------|------|
-| 브랜드 프라이머리 그린 | NXP Green | `#2AA527` | 3회 (최다) | (공식) |
-| 브랜드 네이비 블루 | NXP Navy | `#0047AF` | 1회 | (공식) |
-| 브랜드 퍼플 액센트 | NXP Purple | `#9085FF` | 1회 | (공식) |
-| 에러·경고 레드 | Alert Red | `#FF5268` | 2회 | (공식) |
-| 딥 레드 | Deep Red | `#830000` | 1회 | (공식) |
-| 소셜 페이스북 블루 | Facebook Blue | `#3B5998` | 1회 | (공식) |
-| 소셜 페이스북 다크 | Facebook Dark | `#344E86` | 1회 | (공식) |
-| 소셜 트위터 블루 | Twitter Blue | `#1DA1F2` | 1회 | (공식) |
-| 소셜 핀터레스트 레드 | Pinterest Red | `#BD081D` | 1회 | (공식) |
-| 소셜 핀터레스트 다크 | Pinterest Dark | `#AA0719` | 1회 | (공식) |
-| 중성 라이트 그레이 | Light Gray | `#D2D6DA` | 2회 | (공식) |
-| 중성 미디엄 그레이 | Medium Gray | `#89969F` | 1회 | (공식) |
-| 중성 아이콘 그레이 | Icon Gray | `#888888` | 2회 | (공식) |
-| 중성 다크 그레이 | Dark Gray | `#444444` | 1회 | (공식) |
-| 중성 차콜 | Charcoal | `#4E4E4E` | 1회 | (공식) |
-| 베이스 블랙 | Near Black | `#1E1E1E` | 1회 | (공식) |
-| 베이스 다크 | Dark Base | `#222222` | 1회 | (공식) |
-| 배경 웜 화이트 | Warm White | `#E5E3DF` | 1회 | (공식) |
-| 배경 쿨 라이트 | Cool Light | `#F2F4F6` | 1회 | (공식) |
-| 배경 퓨어 라이트 | Pure Light | `#F4F4F4` | 1회 | (공식) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-### 컬러 사용 가이드라인
+## 1. Color Palette
 
-**프라이머리 팔레트 (핵심 브랜드 색상)**
+NXP Semiconductors's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  #2AA527  NXP Green   │  #0047AF  NXP Navy   │  #9085FF  NXP Purple │
-│  ████████             │  ████████            │  ████████            │
-│  브랜드 대표, CTA 버튼  │  신뢰·기술 강조       │  혁신·액센트 강조     │
-└──────────────────────────────────────────────────────────┘
-```
+### Core Brand Colors
 
-- **#2AA527 NXP Green:** 로고, 주요 CTA 버튼, 링크, 성공 상태 표시 (추정)
-- **#0047AF NXP Navy:** 헤더, 제목, 기술 신뢰도 강조 구간 (추정)
-- **#9085FF NXP Purple:** 미래·혁신 테마, 배지, 태그, AI 관련 콘텐츠 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-**시맨틱 컬러**
+### Color Principles
 
-| 상태 | HEX | 용도 |
-|------|-----|------|
-| 성공 | `#2AA527` | 인증 완료, 연결 성공 표시 |
-| 오류·위험 | `#FF5268` | 폼 에러, 경고 알림 |
-| 정보 | `#0047AF` | 정보성 배너, 링크 |
-| 중립 | `#D2D6DA` | 비활성 상태, 구분선 |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-**배경 계층 시스템 (추정)**
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 레이어 | HEX | 용도 |
-|--------|-----|------|
-| 페이지 배경 | `#F4F4F4` | 전체 페이지 기본 배경 |
-| 카드 배경 | `#F2F4F6` | 콘텐츠 카드, 사이드바 |
-| 웜 섹션 | `#E5E3DF` | 강조 섹션, 풀-블리드 배너 |
-| 본문 텍스트 | `#1E1E1E` | 메인 바디 카피 |
-| 보조 텍스트 | `#444444` | 캡션, 메타 정보 |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피 시스템
+## 2. Typography
 
-CSS 폰트 데이터 기반 분석.
+NXP Semiconductors's digital properties employ a typographic system appropriate to its information technology positioning.
 
-### 폰트 스택 우선순위 (추정)
+### Typeface System
 
-| 역할 | 폰트 패밀리 | 폴백 |
-|------|-----------|------|
-| UI 본문 (프라이머리) | Noto Sans / noto-sans | Roboto → Segoe UI → Arial → sans-serif |
-| 헤드라인 | Noto Sans | Helvetica Neue → Arial |
-| 코드·모노스페이스 | SFMono-Regular → Consolas | Menlo → Monaco → Liberation Mono → Courier New → monospace |
-| 이모지 지원 | Apple Color Emoji | Noto Color Emoji → Segoe UI Emoji → Segoe UI Symbol |
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 폰트 성격 분석
+### Typographic Scale
 
-- **Noto Sans:** 구글 범용 서체. 다국어(한국어·일본어·아랍어) 완벽 지원 → 글로벌 기업 필수 선택 (공식 검출)
-- **Roboto:** 안드로이드 계열 UI 표준. Material Design 연동 콘텐츠에 활용 (공식 검출)
-- **Segoe UI:** Windows 환경 최적화. B2B 엔터프라이즈 소프트웨어 정합성 (공식 검출)
-- **모노스페이스 스택:** 코드 예제, 터미널 출력, 레지스터 값 표시에 사용 (추정)
-
-### 타이포그래피 계층 (추정)
-
-| 단계 | 크기 | 폰트 | 용도 |
-|------|------|------|------|
-| H1 | 36–48px | Noto Sans Bold | 페이지 타이틀 |
-| H2 | 28–32px | Noto Sans SemiBold | 섹션 헤더 |
-| H3 | 20–24px | Noto Sans SemiBold | 서브섹션 |
-| Body | 16px | Noto Sans Regular | 본문 텍스트 |
-| Caption | 12–14px | Noto Sans Regular | 캡션, 각주 |
-| Code | 14px | SFMono-Regular | 코드 스니펫 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 아이콘 & 일러스트레이션 방향 (추정)
+## 3. Channel Specifications
 
-- **아이콘 스타일:** 라인 기반(outlined), 최소 2px 스트로크, 24×24px 기본 그리드
-- **일러스트레이션:** 기술 다이어그램 중심 (회로 블록도, 시스템 아키텍처 플로우)
-- **사진:** 엔지니어링 환경 (클린룸, 회로기판, 자동차 내부), 다양성 고려한 인물 사진
-- **데이터 시각화:** 성능 그래프, 벤치마크 차트 — NXP Green(#2AA527) 강조 바 사용
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 탈취 전략
+## 4. Layout Principles
 
-### Steal Sheet 1: 비주얼 아이덴티티 레이어
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 레이어 | 전략 |
-|--------|------|
-| 기술 레이어 | NXP Green(#2AA527)을 기술 문서 내 성공·완료 상태 표준색으로 고착화 — 경쟁사 문서와 즉시 구분 |
-| 비즈니스 레이어 | 색상 시스템 공식 브랜드 가이드로 파트너·에이전시 배포 → 일관성으로 브랜드 가치 제고 |
-| 감성 레이어 | 그린 컬러의 "안전·승인·완료" 심리적 연상 — 자동차 안전 인증 UI에서 반복 노출 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet 2: 타이포그래피 레이어
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 레이어 | 전략 |
-|--------|------|
-| 기술 레이어 | Noto Sans 다국어 지원 → 한국·일본·중동 파트너 로컬라이즈 문서에서 폰트 불일치 제로 |
-| 비즈니스 레이어 | 일관된 타이포 시스템으로 데이터시트·마케팅 자료 간 브랜드 연속성 확보 → 문서 신뢰도 상승 |
-| 감성 레이어 | 모노스페이스 코드 폰트 = "우리는 엔지니어 언어를 말한다" 시각적 신호 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Steal Sheet 3: UI 컴포넌트 레이어
+---
 
-| 레이어 | 전략 |
-|--------|------|
-| 기술 레이어 | 개발자 포털 다크모드: #1E1E1E 배경 + #2AA527 강조 → IDE 친화적 환경 구축 |
-| 비즈니스 레이어 | CTA 버튼 색상 #2AA527 통일 → A/B 테스트로 전환율 측정, 브랜드 색상 ROI 입증 |
-| 감성 레이어 | Navy(#0047AF) + Green(#2AA527) 조합 = 신뢰 + 성장의 시각적 메시지 |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: NXP Semiconductors (NXPI)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

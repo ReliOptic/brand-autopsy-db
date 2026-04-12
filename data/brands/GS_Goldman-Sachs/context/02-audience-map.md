@@ -1,118 +1,84 @@
-# 02 오디언스 맵 — Goldman Sachs (GS)
+# 02. Audience Map — Goldman Sachs (GS)
 
-> 섹터: 금융 / 투자은행 | 대상: B2B 기관 + UHNW 개인
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-Tier 1 — 전략적 핵심 클라이언트
-├── 국부펀드 / 연기금 (SWF, Pension)
-├── 글로벌 500대 기업 CFO / CEO
-└── 사모펀드 · 헤지펀드 GP
-
-Tier 2 — 성장 세그먼트
-├── 유니콘 스타트업 창업자 (IPO 파이프라인)
-├── UHNW 개인 ($30M+ 순자산)
-└── 국가·지방정부 재무부
-
-Tier 3 — 인식 형성 오디언스
-├── 금융 미디어·애널리스트
-├── 규제기관·정책입안자
-└── 채용 타겟 (탑 MBA / 퀀트 PhD)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 정의
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: "The Architect" — 기관 투자자
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | David Kang (강도윤) |
-| 직함 | CIO, 국민연금공단 해외투자실 (추정 합성 페르소나) |
-| 나이 | 52세 |
-| 자산 규모 | 운용 AUM $800B+ |
-| 주요 고민 | 저금리 탈피, 대체자산 수익률, ESG 규제 대응 |
-| GS와의 접점 | 글로벌 M&A 자문, 구조화 상품, GS AM 위탁운용 |
-| 의사결정 기준 | 실적 트랙레코드, 규제 준수, 장기 관계 신뢰 |
-| 정보 소비 | GS Global Macro Research, IMF 보고서, FT |
-| 두려움 | 펀드 언더퍼폼 → 정치적 책임 |
-| GS에 기대하는 것 | "우리가 모르는 것을 먼저 알려줘라" |
-
-### 페르소나 2: "The Builder" — 테크 창업자 / Pre-IPO
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | Priya Nair |
-| 직함 | Co-Founder & CEO, B2B SaaS 유니콘 (ARR $400M) |
-| 나이 | 38세 |
-| 자산 규모 | 지분 가치 $1.2B (추정) |
-| 주요 고민 | IPO 타이밍, 창업자 주식 유동화, 세금 최적화 |
-| GS와의 접점 | IPO 주관사 선정, PWM 개인 자산관리 |
-| 의사결정 기준 | 인맥 소개, 딜 실행력, 글로벌 투자자 배분 능력 |
-| 정보 소비 | LinkedIn, 창업자 네트워크, GS Marquee 플랫폼 |
-| 두려움 | 상장 후 주가 붕괴, 창업자 브랜드 손상 |
-| GS에 기대하는 것 | "최고의 투자자에게 우리 스토리를 팔아라" |
-
-### 페르소나 3: "The Steward" — 패밀리오피스 / UHNW
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | Heinrich von Brandt |
-| 직함 | Principal, 3세대 유럽 패밀리오피스 |
-| 나이 | 61세 |
-| 자산 규모 | 가문 순자산 €2.8B (추정) |
-| 주요 고민 | 세대 간 자산 이전, 지정학 리스크 헤지, 프라이버시 |
-| GS와의 접점 | GS Private Wealth Management, 맞춤형 구조화 상품 |
-| 의사결정 기준 | 재량 보장, 최소 40년 관계, 담당 MD 개인 신뢰 |
-| 정보 소비 | 비공개 GS 브리핑, 개인 네트워크, Economist |
-| 두려움 | 가문 자산 노출, 규제 불확실성, 담당자 이직 |
-| GS에 기대하는 것 | "우리 존재가 세상에 알려지지 않게 해줘라" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in investment banking & brokerage. B2C: End consumers of financials products and services. (T4_INFERRED from Goldman Sachs's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Goldman Sachs's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 3. 오디언스 매트릭스
+## Core Personas
 
-| 세그먼트 | 규모 | GS 침투율 | 수익 기여 | 성장성 |
-|----------|------|-----------|-----------|--------|
-| 글로벌 기업 IB | 대 | 높음 | ★★★★★ | 보통 |
-| 사모펀드 | 중 | 매우 높음 | ★★★★★ | 높음 |
-| 국부펀드·연기금 | 소 | 높음 | ★★★★☆ | 보통 |
-| 테크 IPO 파이프라인 | 중 | 높음 | ★★★★☆ | 매우 높음 |
-| UHNW 개인 | 소 | 중간 | ★★★☆☆ | 높음 |
-| 중견 기업 | 대 | 낮음 | ★★☆☆☆ | 낮음 |
+### Persona 1 — Enterprise Decision-Maker
 
----
-
-## 4. 오디언스별 핵심 메시지 프레임
-
-| 오디언스 | 공포 기반 메시지 | 열망 기반 메시지 |
-|----------|----------------|----------------|
-| 기관 CIO | "놓친 기회의 비용은 포트폴리오 전체를 위협한다" | "우리의 네트워크가 곧 당신의 알파다" |
-| Pre-IPO CEO | "잘못된 주관사 선택은 상장 후 3년을 결정한다" | "최고의 IPO는 단 한 번의 기회다" |
-| 패밀리오피스 | "가문의 유산은 한 세대의 실수로 사라질 수 있다" | "100년의 지혜가 당신의 자산을 지킨다" |
+- **Age / Occupation**: 42, VP-level or director in a Goldman Sachs customer organization
+- **Core pain**: Needs reliable investment banking & brokerage solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Goldman Sachs selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 5. 구매 여정 (Decision Journey)
+### Persona 2 — Technical Specialist / End User
 
-```
-인식 → 검토 → 평가 → 선정 → 관계 심화
- ↓        ↓       ↓       ↓        ↓
-GS      GS     경쟁사  GS MD   Cross-
-Research Marquee  비교   미팅    Sell
-보고서   플랫폼         (핵심)   확장
-```
+- **Age / Occupation**: 35, technical professional who interacts with Goldman Sachs's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Goldman Sachs selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 6. 안티-페르소나 (Anti-Persona)
+### Persona 3 — Consumer / Retail Customer
 
-GS가 명시적으로 타겟하지 않는 세그먼트:
+- **Age / Occupation**: 38, consumer who interacts with Goldman Sachs's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Goldman Sachs selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
-- **소매 개인투자자** ($1M 미만 순자산) — Marcus 철수 이후 완전 배제
-- **단기 투기 트레이더** — 관계 기반 비즈니스 모델과 불일치
-- **스타트업 초기 단계** ($100M ARR 미만) — 딜 규모 요건 미충족
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Goldman Sachs's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Goldman Sachs total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Goldman Sachs Is Not For
+
+| Type | Characteristics | Why Goldman Sachs Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Goldman Sachs's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Goldman Sachs's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Goldman Sachs's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Goldman Sachs's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Goldman Sachs's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

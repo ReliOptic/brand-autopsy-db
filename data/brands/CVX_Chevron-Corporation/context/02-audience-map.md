@@ -1,108 +1,84 @@
-# CVX 오디언스 맵 — Audience Map
+# 02. Audience Map — Chevron Corporation (CVX)
 
-## 오디언스 레이어 구조
-
-```
-[기관투자자 / 애널리스트]
-        ↓
-[B2B 산업 고객 / 정부]
-        ↓
-[일반 소비자 / 지역사회]
-        ↓
-[내부 임직원 / 파트너]
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 기관 투자자 — "스테이크홀더 마이클"
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 마이클 황 (Michael Hwang) |
-| 나이 | 52세 |
-| 직책 | 연기금 CIO / 에너지 섹터 포트폴리오 매니저 |
-| 거주지 | 뉴욕, 서울, 싱가포르 (글로벌 순환 근무) |
-| 자산 운용 규모 | $5B+ 에너지 포트폴리오 |
-| 핵심 관심사 | 배당 수익률, FCF 안정성, ESG 등급, 지정학 리스크 헤징 |
-| 정보 소비 채널 | Bloomberg Terminal, IR 자료, Wall Street Journal, 애널리스트 컨퍼런스 콜 |
-| CVX 접점 | 연간 보고서, 투자자 데이(Investor Day), CVX IR 팀 직접 미팅 |
-| 핵심 페인포인트 | 에너지 전환 불확실성, 유가 변동성, ESG 규제 강화 |
-| CVX에 기대하는 것 | 일관된 배당 성장, 자사주 매입, 저탄소 로드맵 명확화 |
-| 결정 트리거 | FCF Yield > 8%, 배당 연속 인상 이력, 신용등급 AA 유지 |
-
-**브랜드 메시지 핵심 (이 페르소나용)**
-> "CVX는 에너지 전환의 불확실성 속에서도 주주에게 일관된 가치를 돌려주는 유일한 통합 메이저다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in integrated oil & gas and adjacent industries. (T4_INFERRED from Chevron Corporation's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Chevron Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 산업 B2B 고객 — "조달 담당 박 팀장"
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박지훈 |
-| 나이 | 44세 |
-| 직책 | 국내 정유/석화 기업 원자재 조달 팀장 |
-| 거주지 | 울산, 서울 |
-| 주요 구매 품목 | 원유(WTI/Brent 연동), LNG, 윤활유 베이스오일 |
-| 핵심 관심사 | 공급 안정성, 가격 경쟁력, 장기 계약 유연성 |
-| 정보 소비 채널 | PLATTS, ICIS, 업계 컨퍼런스, CVX 영업 담당자 |
-| CVX 접점 | 장기 공급 계약, CVX Lubricants 카탈로그, 기술 지원 서비스 |
-| 핵심 페인포인트 | 공급망 차질, 계약 조건 경직성, 대체 공급처 확보 어려움 |
-| CVX에 기대하는 것 | 안정적 물량 보장, 기술 지원, 유연한 계약 조건 |
-| 결정 트리거 | 공급 연속성 SLA, 가격 인덱싱 투명성, 현지 지원 체계 |
-
-**브랜드 메시지 핵심 (이 페르소나용)**
-> "CVX는 공급망이 흔들릴 때도 약속한 물량을 지키는 파트너다."
+- **Age / Occupation**: 42, VP-level or director in a Chevron Corporation customer organization
+- **Core pain**: Needs reliable integrated oil & gas solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Chevron Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 정책/여론 영향자 — "그린 액티비스트 김 연구원"
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김소연 |
-| 나이 | 34세 |
-| 직책 | 기후 싱크탱크 선임 연구원 / 미디어 코멘테이터 |
-| 거주지 | 서울, 제네바 (원격 근무) |
-| 핵심 관심사 | Scope 3 배출량 감축, 화석연료 보조금 철폐, 에너지 정의 |
-| 정보 소비 채널 | Nature, Reuters Climate, Carbon Tracker, X(트위터), LinkedIn |
-| CVX 접점 | CVX ESG 보고서, CDP 공시, 주주총회 결의안 |
-| 핵심 페인포인트 | CVX의 저탄소 목표 모호성, Scope 3 미포함 넷제로 선언 |
-| CVX에 기대하는 것 | Scope 3 포함 구체적 감축 로드맵, 신재생 투자 확대 |
-| 결정 트리거 | 검증 가능한 단기 마일스톤, 독립적 제3자 감사 결과 |
-| CVX가 이 페르소나를 다루는 방식 (추정) | 선제적 ESG 소통, 투명성 강화, 비판 무마보다 대화 프레임 |
-
-**브랜드 메시지 핵심 (이 페르소나용)**
-> "CVX는 완벽하지 않지만, 전환 과정에서 가장 솔직하게 소통하는 에너지 기업이 되겠다."
+- **Age / Occupation**: 35, technical professional who interacts with Chevron Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Chevron Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 우선순위 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 오디언스 세그먼트 | 영향력 | 관여도 | 우선순위 |
-|-----------------|--------|--------|---------|
-| 기관투자자 | 최고 | 높음 | P1 |
-| 미국/글로벌 정부·규제기관 | 최고 | 중간 | P1 |
-| 산업 B2B 고객 | 높음 | 높음 | P2 |
-| 임직원 (60,000명+) | 높음 | 높음 | P2 |
-| 미디어·애널리스트 | 중간 | 높음 | P2 |
-| 기후·NGO 활동가 | 중간 | 낮음 | P3 |
-| 일반 소비자 | 낮음 | 낮음 | P4 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Energy
+- **Core pain**: Needs to evaluate Chevron Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Chevron Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스별 핵심 메시지 매핑
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 핵심 메시지 | 증거 포인트 |
-|---------|-----------|-----------|
-| 투자자 | "안정적 수익 + 전환 옵션 보유" | 배당 36년 연속 인상 (공식), FCF $15B+ |
-| B2B 고객 | "공급 신뢰성 + 기술 파트너십" | 글로벌 정제 용량, Oronite 첨가제 기술 |
-| 정부/규제 | "에너지 안보 기여 + 세금 납부" | 미국 내 생산량 1위권, 고용 창출 |
-| 임직원 | "성장 기회 + 의미 있는 일" | IDEA 프로그램, 안전 문화 |
-| 미디어 | "투명한 데이터 제공 + 전문성" | CDP 공시, 연간 ESG 보고서 |
+| Stage | Chevron Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Chevron Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Chevron Corporation Is Not For
+
+| Type | Characteristics | Why Chevron Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Chevron Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Chevron Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Chevron Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Chevron Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Chevron Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In energy markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

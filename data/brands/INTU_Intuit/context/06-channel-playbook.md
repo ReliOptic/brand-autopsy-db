@@ -1,83 +1,141 @@
-# 06. 채널 플레이북 — 인튜이트 (Intuit / INTU)
+# 06. Channel Playbook — Intuit (INTU)
 
-## 채널 전략 개요
-
-인튜이트의 채널 전략은 **계절성 의도 포착(Seasonal Intent Capture)** 을 중심으로 설계된다. 세금 시즌(1~4월)에 유입 채널을 집중 가동하고, 비시즌에는 소기업 오너 대상 리텐션·교육 콘텐츠로 브랜드를 유지한다. 채널 간 데이터 연결(Credit Karma → TurboTax → QuickBooks)이 크로스셀의 핵심 인프라다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 역할 & 전술 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 주요 목적 | 핵심 KPI | 시즌 집중도 |
-|------|-----------|----------|------------|
-| Google SEA (검색광고) | 세금 시즌 의도 포착, 즉시 전환 | CPA, ROAS | 1~4월 극도 집중 |
-| SEO (유기 검색) | 연중 교육 콘텐츠, 장기 신뢰 구축 | 오가닉 트래픽, 키워드 순위 | 연중 (피크 2~3월) |
-| TV·OTT 광고 | 브랜드 인지, 세금 시즌 점유율 방어 | 브랜드 회상률, 검색 증분 | 1~4월, 연말 |
-| YouTube | 튜토리얼·온보딩 교육, SEO 보조 | 시청 완료율, 채널 구독 | 연중 (시즌 전 집중) |
-| 이메일 마케팅 | 기존 고객 리텐션, 업셀, 시즌 리마인더 | 오픈율, 클릭율, 업셀 전환 | 1~4월, 11~12월 |
-| 앱스토어 (iOS/Android) | B2C 신규 유입, 리뷰 기반 신뢰 | 다운로드 수, 평점, 리뷰 수 | 세금 시즌 |
-| LinkedIn | SMB 오너·CFO 너처링, B2B 리드 | 리드 전환, 콘텐츠 인게이지먼트 | 연중 |
-| Instagram / TikTok | 브랜드 인지, 2030 납세자 접점 | 팔로워 증가, 도달, 저장 | 세금 시즌 |
-| 파트너 채널 (ProAdvisor) | SMB 추천 전환, 리텐션 보조 | 파트너 추천 전환율 | 연중 |
-| 인앱 알림 (Push/In-app) | 업셀, 기능 교육, 시즌 리마인더 | 열람율, 업그레이드 전환율 | 세금 시즌, 마감 전 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 채널 레이어별 Steal Sheet
+## 2. Channel Tone Variations
 
-### Layer 1 — 유입 채널 (Acquisition)
+Intuit's core voice adjusts by channel while maintaining brand coherence.
 
-**Steal Sheet — 유입에서 훔쳐갈 3가지**
-
-**1. "세금 달력 역산 광고 스케줄"로 경쟁사보다 먼저 점유율을 선점하라**
-TurboTax는 세금 마감(4월 15일) 기준 8주 전부터 Google SEA 입찰가를 단계적으로 높이고, D-30부터 TV·OTT 예산을 폭발적으로 집행한다(추정, iSpot.tv 광고 추적 데이터 기반). 경쟁사가 같은 시기에 같은 키워드를 노리기 때문에, 피크 8주 전 선점이 CPA를 30~50% 낮춘다(추정, SEM 업계 시즌 캠페인 분석). **액션**: 우리 산업의 연간 의도 피크를 찾고, 피크 8주 전 SEO 콘텐츠 발행 → 4주 전 유료 광고 집행 → 피크 2주 전 브랜드 광고 집중의 3단계 역산 스케줄을 작성하라.
-
-**2. 앱스토어 리뷰를 세일즈 카피로 전환하라**
-TurboTax·QuickBooks 앱스토어 리뷰의 5성 패턴("직접 해봤는데 정말 쉬웠다", "환급 예상보다 많이 받았다")을 랜딩페이지 소셜 프루프로 재활용한다(추정, 제품 페이지 분석). 광고비 없이 검증된 신뢰 언어를 확보하는 방법이다. **액션**: 우리 앱·서비스의 리뷰를 카테고리별로 분류하고(속도, 신뢰, 환급/가치, 쉬움), 가장 빈도 높은 패턴을 랜딩페이지 H2·소셜 프루프 섹션에 직접 인용하라.
-
-**3. Credit Karma 무료 서비스로 TurboTax 유입 파이프라인을 구축하라**
-신용점수 조회를 위해 Credit Karma에 가입한 사용자는 세금 시즌에 TurboTax 할인 코드를 받는다(공식, 인튜이트 크로스셀 구조). 무료 서비스가 유료 제품의 가장 저렴한 유입 채널이 된다. **액션**: 우리 무료 티어·리드마그넷에서 유료 전환까지의 최단 경로를 설계하고, 무료 사용자에게 "다음 유료 단계"를 명확히 보이게 하라.
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### Layer 2 — 활성화·리텐션 채널 (Activation & Retention)
+## 3. Cross-Channel Synergy Map
 
-**Steal Sheet — 리텐션에서 훔쳐갈 3가지**
+### Route A — Product/Service Launch Sequence
 
-**1. "전년도 데이터 자동 이월"을 리텐션 무기로 설계하라**
-TurboTax는 매년 세금 시즌 초반에 "지난해 신고 내용을 불러올게요" 이메일을 발송한다(공식, 제품 경험 기반). 사용자는 새로 입력하는 수고 없이 전년도 데이터를 이어 쓸 수 있다는 이유만으로 이탈을 포기한다(추정). 리텐션의 핵심은 "남아있을 이유"가 아니라 "떠나기 귀찮은 이유"다. **액션**: 우리 제품에서 "재가입 시 재입력해야 하는 데이터 목록"을 작성하고, 그것을 자동 저장·이월하는 기능을 리텐션 1순위 개발 과제로 올려라.
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-**2. ProAdvisor 생태계를 리텐션 방어막으로 활용하라**
-QuickBooks 사용자의 담당 회계사가 QuickBooks ProAdvisor 인증을 보유하면, 고객이 Xero로 이탈할 때 회계사와의 협업 파일도 함께 잃는다(공식 파트너 구조 기반). 회계사가 플랫폼을 바꾸지 않는 한 고객도 남는다. **액션**: 우리 B2B 제품의 "대리인 사용자"(회계사, IT 담당자, 관리자)를 식별하고, 그들을 위한 전용 기능·인증·혜택을 설계해 간접 리텐션 방어망을 구축하라.
+### Route B — Thought Leadership Pipeline
 
-**3. 이메일 시퀀스를 "세금 달력 기반 드립 캠페인"으로 전환하라**
-인튜이트는 세금 마감 D-60부터 D-1까지 8~12단계 이메일 시퀀스를 운영한다(추정, Mailchimp + TurboTax 통합 구조 기반). 각 이메일은 마감까지 남은 시간과 사용자의 신고 진행 상태에 따라 개인화된다. 행동 기반 트리거 이메일은 일반 뉴스레터 대비 클릭율이 3~5배 높다(추정, 이메일 마케팅 업계 메타분석). **액션**: 우리 핵심 전환 이벤트(마감일, 갱신일, 업그레이드 시점)를 중심으로 역산 드립 시퀀스를 설계하고, 사용자 행동 데이터로 발송 타이밍을 트리거화하라.
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### Layer 3 — 수익화 채널 (Monetization)
+## 4. Channel-Specific Prohibitions
 
-**Steal Sheet — 수익화에서 훔쳐갈 3가지**
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**1. 인앱 업셀을 "공포 제거 도구"로 포지셔닝하라**
-TurboTax의 "전문가 검토 추가" 업셀은 "$49 추가"가 아니라 "IRS 감사 시 전문가가 대신 대응해 드립니다"로 제시된다(공식 제품 UI 기반). 가격이 아니라 제거되는 위험으로 업셀을 프레임하면 전환율이 올라간다(추정, CRO 연구 기반). **액션**: 우리 업셀 항목의 설명을 "추가 기능"에서 "제거되는 리스크"로 전면 재작성하라. "Premium — $X/월"이 아니라 "Premium — [구체적 공포] 걱정 없음"으로.
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**2. 번들 가격을 "개별 구매 합산"과 비교해 항상 보여줘라**
-인튜이트는 TurboTax + 전문가 검토 + 감사 방어를 번들로 묶어 "개별 구매 시 $XX, 번들은 $XX"로 제시한다(추정, 가격 페이지 분석). 앵커링 효과로 번들이 합리적 선택처럼 보인다. **액션**: 우리 가격 페이지에 "개별 구매 합산가 vs. 번들가"를 명시하고, 절감액을 달러·퍼센트로 동시에 표시하라.
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-**3. 환급 수령 시점을 크로스셀의 황금 타이밍으로 활용하라**
-세금 환급금이 계좌에 들어오는 순간은 사용자의 재무 관련 구매 의향이 연중 가장 높은 시점이다(추정, 소비자 금융 행동 연구 기반). Credit Karma는 이 시점에 고수익 예금·투자 상품 추천을 집중한다(추정, 크로스셀 구조 분석). **액션**: 우리 제품의 "사용자 재무 성공 순간"(환급, 계약 완료, 결제 완료)을 찾아 그 직후 30분 이내에 크로스셀 메시지를 노출하라. 타이밍이 맥락이다.
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 예산 배분 가이드 (추정, 인튜이트 마케팅 지출 패턴 기반)
+## 5. Crisis Response Protocol
 
-| 채널 그룹 | 연간 예산 비중 | 시즌 집중 | 비시즌 |
-|-----------|--------------|-----------|--------|
-| 퍼포먼스 마케팅 (SEA, 앱스토어) | ~40% | 70% | 30% |
-| 브랜드 광고 (TV, OTT, 디스플레이) | ~25% | 60% | 40% |
-| 콘텐츠·SEO | ~15% | 40% | 60% |
-| 이메일·CRM | ~10% | 50% | 50% |
-| 파트너·ProAdvisor | ~10% | 30% | 70% |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-> 모든 수치는 공개 IR·광고 추적 도구 기반 추정값이며 실제 인튜이트 내부 수치와 다를 수 있음.
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Intuit's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Intuit's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Intuit's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

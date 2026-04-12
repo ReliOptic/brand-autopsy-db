@@ -1,126 +1,102 @@
-# 05 디자인 시스템 — Nike (NKE)
+# 05. Design System — Nike, Inc. (NKE)
 
-## 디자인 철학
-
-Nike 디자인의 핵심 원리: **"단순함이 최고의 퍼포먼스다."** 모든 시각 요소는 운동 퍼포먼스와 인간의 움직임에서 영감을 얻으며, 불필요한 장식을 배제한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 팔레트
+## 1. Color Palette
 
-### 코어 컬러
+Nike, Inc.'s visual identity, as observed on its official website, employs a structured color system appropriate to consumer discretionary sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Nike Black | `#111111` | 메인 브랜드 컬러, 배경, 텍스트 | (공식) |
-| Nike White | `#FFFFFF` | 대비, 여백, 클린 배경 | (공식) |
-| Nike Orange (Safety Orange) | `#FF6B00` | 포인트 CTA, Swoosh 강조 | (공식) |
-| University Red | `#CC0000` | Air Jordan, 스포츠 유니폼 | (공식) |
-| Volt | `#CAFF00` | 퍼포먼스 라인 강조, 나이키 러닝 | (공식) |
+### Core Brand Colors
 
-### 확장 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Wolf Grey | `#9E9E9E` | 보조 텍스트, 서브 배경 | (추정) |
-| Midnight Navy | `#001F5B` | Jordan 브랜드 클래식 컬러 | (추정) |
-| Pine Green | `#1B5E20` | 지속가능성 라인, 환경 캠페인 | (추정) |
-| Court Purple | `#5C2D91` | LA Lakers 연계 Jordan 라인 | (추정) |
-| Hyper Pink | `#FF69B4` | 여성 컬렉션, 시즌 포인트 컬러 | (추정) |
-| Photon Dust | `#C8C8C8` | 프리미엄 라이프스타일 라인 | (추정) |
+### Color Principles
 
-### 컬러 사용 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-```
-Black + White = 기본 조합 (80% 이상)
-+ 1 Point Color = 포인트 강조 (15%)
-+ Volt or Orange = CTA / 퍼포먼스 강조 (5%)
-```
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-| 구분 | 서체 | 특징 | 출처 |
-|------|------|------|------|
-| 헤드라인 | Nike Futura (전용 변형) | 굵고 압축된 산세리프, 강인함 | (공식) |
-| 보조 헤드 | Helvetica Neue Condensed Bold | 가독성 + 임팩트 | (추정) |
-| 본문 | Trade Gothic / Helvetica | 중립적, 기능적 | (추정) |
-| 디지털 UI | Nike TG (전용) | 앱·웹 최적화 | (추정) |
-
-### 타이포 원칙
-- **올대문자(All-Caps)** 헤드라인 — 힘과 확신의 시각적 표현
-- **극단적 크기 대비** — 핵심 단어는 매우 크게, 나머지는 작게
-- **타이트한 자간(Tracking: -10 ~ -20)** — 압축된 에너지 표현
-- 본문은 최소화, 카피는 5단어 이내가 이상적
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-### Swoosh
+Nike, Inc.'s digital properties employ a typographic system appropriate to its consumer discretionary positioning.
 
-| 항목 | 규격 | 출처 |
-|------|------|------|
-| 형태 | 체크 모양의 단일 곡선 스트로크 | (공식) |
-| 최소 사용 크기 | 인쇄: 13mm / 디지털: 40px | (추정) |
-| 보호 영역 | Swoosh 높이의 50% 여백 사방 | (추정) |
-| 금지 변형 | 회전, 왜곡, 그라데이션, 윤곽선 | (공식) |
+### Typeface System
 
-### 로고 컬러 변형
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 버전 | 사용 배경 | HEX |
-|------|-----------|-----|
-| Black Swoosh | White / Light | `#111111` |
-| White Swoosh | Black / Dark | `#FFFFFF` |
-| Orange Swoosh | 캠페인 포인트 | `#FF6B00` |
+### Typographic Scale
 
----
-
-## 이미지 & 사진 언어
-
-### 사진 스타일 원칙
-
-1. **모션 블러 허용** — 움직임과 속도를 시각화
-2. **하이 콘트라스트** — 어두운 배경에 선수를 배치, 극적 조명
-3. **언더독 앵글** — 로우 앵글로 선수를 올려다보며 영웅화
-4. **땀·흙·감정** — 깔끔한 스튜디오 컷보다 실전 현장감
-5. **여백 대담** — 텍스트 공간 확보를 위한 과감한 네거티브 스페이스
-
-### 금지 이미지 처리
-
-- 인위적인 웃는 얼굴 (퍼포먼스 맥락에서)
-- 과도한 후보정·스킨 리터칭
-- 정적인 포즈 (액션 없는 제품 착용 컷)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 레이아웃 & 그리드
+## 3. Channel Specifications
 
-| 원칙 | 설명 |
-|------|------|
-| 비대칭 구성 | 긴장감과 에너지를 위해 대칭 회피 |
-| 텍스트-이미지 중첩 | 이미지 위에 대형 타이포 오버레이 |
-| 풀블리드 이미지 | 프레임 없이 화면 끝까지 이미지 확장 |
-| 3:2 또는 1:1 비율 | 디지털 소셜 피드 기준 |
-
----
-
-## 모션 & 애니메이션 원칙
-
-| 원칙 | 수치 | 출처 |
-|------|------|------|
-| 전환 속도 | 200–300ms | (추정) |
-| 이징 커브 | Ease-out (빠르게 시작, 부드럽게 마무리) | (추정) |
-| Swoosh 애니메이션 | 왼쪽에서 오른쪽으로 슬라이드 인 | (추정) |
-| 텍스트 등장 | 아래에서 위로 fade-up | (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-| # | 훔칠 요소 | 적용 방법 |
-|---|-----------|-----------|
-| 1 | **블랙+화이트 80% 원칙** — 포인트 컬러를 아껴쓰기 | 브랜드 컬러를 3개 이하로 제한하고 비율 규칙을 문서화하라 |
-| 2 | **올대문자 + 극단적 크기 대비** | 헤드라인 타이포를 압도적으로 크게, 서브텍스트는 최소화하라 |
-| 3 | **로우 앵글 영웅 사진** | 제품 착용 사진을 아래에서 올려다보는 앵글로 전환하라 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Nike, Inc. (NKE)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

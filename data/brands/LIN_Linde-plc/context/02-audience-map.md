@@ -1,95 +1,84 @@
-# 02. 오디언스 맵 — Linde plc (LIN)
+# 02. Audience Map — Linde plc (LIN)
 
-## 오디언스 계층 구조
-
-```
-Primary (직접 구매·계약)
-├── 대형 산업 고객 (철강·화학·정유)
-├── 의료기관 (병원·제약사)
-└── 에너지 전환 파트너 (수소·CCUS 프로젝트)
-
-Secondary (영향력·추천)
-├── 엔지니어링 컨설턴트 / EPC사
-├── 규제기관·정부 (에너지정책)
-└── ESG 투자자·애널리스트
-
-Tertiary (인식·채용)
-├── 공학·화학 전공 취업 준비생
-└── 일반 대중 (지속가능성 관심층)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 박철수 (공정 구매 책임자)
-
-| 항목 | 내용 |
-|------|------|
-| 나이·직책 | 48세, 국내 대형 철강사 원료/공정가스 구매팀장 |
-| 지역 | 포항·광양 공장 거점 |
-| 학력 | 화학공학 학사 |
-| 연봉 (추정) | 8,000만~1억 원 |
-| 핵심 목표 | 연간 산소·질소·아르곤 공급 계약 비용 최적화, 공급 중단 제로 |
-| 주요 고통 | 공급 단절 리스크, 계약 갱신 협상 압박, ESG 보고서용 탄소 배출 데이터 요구 |
-| 정보 탐색 채널 | 업계 전시회(가스텍), 공급사 영업 미팅, LinkedIn |
-| 브랜드 기대 | 안정적 공급망 + 탄소발자국 리포팅 툴 제공 |
-| 구매 결정 요인 | 공급 신뢰성 > 가격 > 기술 지원 > ESG 데이터 제공 |
-| 린데 접점 | 장기 공급 계약, 현장 탱크 임대, 전담 기술 영업 담당자 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in industrial gases and adjacent industries. (T4_INFERRED from Linde plc's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Linde plc's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — Sarah Mitchell (에너지전환 프로젝트 디렉터)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직책 | 39세, 유럽계 에너지 메이저 수소사업 개발 디렉터 |
-| 지역 | 네덜란드 암스테르담 |
-| 학력 | 화학공학 석사 + MBA |
-| 연봉 (추정) | €130,000~160,000 |
-| 핵심 목표 | 2030년까지 그린수소 전해조 플랜트 3기 상업화 |
-| 주요 고통 | CAPEX 불확실성, 규제 인허가 지연, 수소 순도 보증 공급사 부족 |
-| 정보 탐색 채널 | Hydrogen Europe 컨퍼런스, 업계 백서, LinkedIn Pulse |
-| 브랜드 기대 | 턴키 수소 공급 솔루션 + 공동 R&D + 인증 지원 |
-| 구매 결정 요인 | 기술 역량 > 레퍼런스 > 규제 대응 지원 > 가격 |
-| 린데 접점 | 수소 플랜트 EPC 제안, HYLA 모빌리티 협업, 공동 특허 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Linde plc customer organization
+- **Core pain**: Needs reliable industrial gases solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Linde plc selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — Dr. 이지은 (병원 의료가스 관리자)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직책 | 44세, 상급종합병원 의공학팀 수석 |
-| 지역 | 서울 |
-| 학력 | 의용공학 석사 |
-| 연봉 (추정) | 7,000만~8,500만 원 |
-| 핵심 목표 | 의료용 산소·아산화질소 24/7 무중단 공급, 의약품 GMP 컴플라이언스 |
-| 주요 고통 | 긴급 수술 중 공급 차질 공포, 복잡한 규제 문서화, 노후 설비 교체 예산 |
-| 정보 탐색 채널 | 병원 의공학 협회, 공급사 정기 점검 보고서 |
-| 브랜드 기대 | 의약품 등급 인증 + 24시간 콜센터 + 예측 유지보수 |
-| 구매 결정 요인 | 안전·인증 > 공급 연속성 > 응답 속도 > 가격 |
-| 린데 접점 | 의료가스 설비 임대, 정기 안전 점검, 디지털 모니터링 서비스 |
+- **Age / Occupation**: 35, technical professional who interacts with Linde plc's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Linde plc selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스별 핵심 메시지 매핑
+### Persona 3 — Financial Stakeholder / Investor
 
-| 오디언스 | 핵심 메시지 | 증거 포인트 |
-|---------|-----------|-----------|
-| 산업 구매 책임자 | "공정 멈춤 없는 공급 보장" | SLA 99.9%+, 글로벌 네트워크 |
-| 에너지전환 디렉터 | "수소 경제 첫 파트너" | 수소 플랜트 200+ 운영 실적 (추정) |
-| 의료기관 관리자 | "생명을 지키는 가스, 한 치의 오차 없이" | 의약품 등급 인증, ISO 13485 |
-| ESG 투자자 | "탄소중립 전환 가장 빠른 산업가스사" | Scope 1·2 감축 로드맵 공개 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Materials
+- **Core pain**: Needs to evaluate Linde plc's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Linde plc selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 고객 여정 단계별 콘텐츠 니즈
+## Purchase Journey — AARRR Framework
 
-| 단계 | 니즈 | 콘텐츠 형식 |
-|------|------|-----------|
-| 인식 | 산업가스 공급 리스크 인지 | 업계 리포트, 웨비나 |
-| 고려 | 공급사 비교 | 기술 백서, 케이스스터디 |
-| 결정 | 계약 조건·SLA 검토 | ROI 계산기, 제안서 |
-| 사용 | 운영 최적화 | 디지털 대시보드, 정기 리포트 |
-| 충성 | 계약 갱신·확장 | 전담 계정 매니저, 전략 리뷰 |
+| Stage | Linde plc's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Linde plc total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Linde plc Is Not For
+
+| Type | Characteristics | Why Linde plc Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Linde plc's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Linde plc's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Linde plc's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Linde plc's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Linde plc's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In materials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

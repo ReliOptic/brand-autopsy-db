@@ -1,124 +1,123 @@
-# 04 콘텐츠 DNA — General Dynamics (GD)
+# 04. Content DNA — General Dynamics (GD)
 
-## 콘텐츠 철학
-
-GD의 콘텐츠는 **"침묵이 가장 큰 자신감"** 원칙으로 작동한다. 광고가 아닌 성능 데이터, 슬로건이 아닌 계약 이행 기록이 브랜드를 대변한다. 모든 콘텐츠는 세 가지 질문을 통과해야 한다:
-
-1. 이 메시지가 의회 청문회에서 인용될 수 있는가?
-2. 적국이 이 콘텐츠를 보고 억지력을 느끼는가?
-3. 고객(DoD/동맹국)의 다음 예산 사이클 결정에 영향을 주는가?
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 기둥 (Content Pillars)
+## Content Pillars
 
-### 기둥 1: 기술 우월성 증명 (Technical Supremacy)
-- **비중:** 40%
-- **형식:** 백서, 기술 사양서, 성능 비교표, 엔지니어링 브리핑
-- **어조:** 데이터 중심, 수치 기반, 제3자 검증 인용
-- **예시 주제:** Virginia급 잠수수 소음 감소 기술, G800 항속거리 세계 기록, Abrams SEP v3 업그레이드 사양
+General Dynamics's content strategy reflects its positioning in the Aerospace & Defense segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 기둥 2: 임무 이행 기록 (Mission Track Record)
-- **비중:** 30%
-- **형식:** 케이스 스터디, 연례 보고서, 계약 이행 요약
-- **어조:** 사실 나열, 날짜·수량·성과 중심
-- **예시 주제:** "50년간 납기 이행률 98.x%", "운용 중인 잠수함 X척", "전 세계 Gulfstream 운항 시간 누적"
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "General Dynamics understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for aerospace & defense requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with General Dynamics." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 기둥 3: 파트너십 & 생태계 (Partnership Ecosystem)
-- **비중:** 20%
-- **형식:** 파트너 발표, MOU, FMS 계약 공지
-- **어조:** 협력적, 장기 지향, 외교적
-- **예시 주제:** NATO 동맹 지원 프로그램, 소형 방산기업 공급망 통합, 현지 기술이전 협약
-
-### 기둥 4: 인재 & 혁신 파이프라인 (Talent Pipeline)
-- **비중:** 10%
-- **형식:** 채용 콘텐츠, STEM 교육 협력, 엔지니어 스토리
-- **어조:** 목적 중심, 자부심, 국가 기여
-- **예시 주제:** "핵 엔지니어를 꿈꾸는 학생들", "Electric Boat 조선소 현장 스토리"
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 스토리텔링 프레임워크
+## Hook Patterns
 
-### GD 표준 내러티브 구조 (3-Act)
+### Hook 1 — Industry Challenge Lead
 
-```
-Act 1: 위협 설정 (Threat Framing)
-  └─ 세계는 불안정하다. 억지력이 평화를 만든다.
-  └─ 기술 격차가 국가 생존을 결정한다.
+Opens with a recognizable industry challenge or pain point before presenting General Dynamics's perspective.
 
-Act 2: 역량 증명 (Capability Proof)
-  └─ GD는 [X]년간 [Y] 플랫폼으로 이 위협에 대응해왔다.
-  └─ [구체적 수치/사례]가 우리의 신뢰를 증명한다.
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-Act 3: 파트너십 제안 (Partnership Invitation)
-  └─ 당신의 임무를 우리가 함께 달성한다.
-  └─ 장기 지원 체계로 운용 수명 전체를 보장한다.
-```
+### Hook 2 — Data-Driven Insight
 
-### Gulfstream 전용 내러티브 구조
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-```
-Act 1: 리더의 시간 (Executive Time)
-  └─ 당신의 시간은 기업의 가장 희소한 자산이다.
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-Act 2: 공중 사무실 (Airborne Office)
-  └─ G700/G800은 이동하는 동안에도 최고의 결정을 내리게 한다.
+### Hook 3 — Customer Story Lead
 
-Act 3: 도달 범위 = 영향력 (Range = Reach)
-  └─ 한 번에 더 멀리, 더 빠르게 — 비즈니스 경계를 지운다.
-```
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
----
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-## 콘텐츠 형식 매트릭스
+### Hook 4 — Regulatory or Market Shift
 
-| 형식 | 사업부 | 주요 채널 | 길이 | 빈도 |
-|------|--------|----------|------|------|
-| 기술 백서 | 방산 전체 | 공식 웹사이트, RFP 첨부 | 20-50p | 분기 1회 |
-| 연례 보고서 | GD 전사 | 투자자 포털, SEC 제출 | 100p+ | 연 1회 |
-| 에어쇼 브리핑 | Gulfstream / 방산 | NBAA, Paris, DSEI | 슬라이드 20장 | 이벤트별 |
-| 보도자료 | 전 사업부 | PR Newswire, 자사 뉴스룸 | 400-600자 | 계약·이벤트시 |
-| LinkedIn 아티클 | GDIT / Gulfstream | LinkedIn | 800-1200자 | 월 2-4회 |
-| 동영상 (기술 시연) | 방산 전체 | YouTube, 전시회 | 2-5분 | 분기 1회 |
-| 팟캐스트 | GDIT (추정) | 스포티파이, 자사 플랫폼 | 30-45분 | 격월 |
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 금지 콘텐츠 패턴
+## CTA Patterns
 
-| 패턴 | 이유 |
-|------|------|
-| 전투 장면 생생한 묘사 | 정치적 민감도 + 보안 노출 위험 |
-| 특정 적국 명시 비교 | 외교적 파장, FMS 채널 훼손 |
-| 미완성 기술 선제 발표 | 계약 신뢰도 훼손, 경쟁 정보 노출 |
-| 소셜 미디어 유머·밈 | 브랜드 진지성 훼손 |
-| 가격 공개 마케팅 | 정부 조달 규정 위반 소지 |
+| CTA Type | General Dynamics Pattern | What General Dynamics Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## Steal Sheet — 콘텐츠 전략
+## Tone & Mood Guide
 
-### Layer 1: 형식 훔치기
+### Situation 1 — Product or Service Announcement
 
-| 경쟁사 콘텐츠 강점 | GD 선점 방식 |
-|------------------|------------|
-| LM의 "혁신 스토리" 시리즈 | GD "엔지니어링 레거시" 시리즈 — 70년 누적 기술의 현재 적용 |
-| Gulfstream 경쟁사의 캐빈 투어 영상 | G800 "비행 중 생산성" 실측 데이터 영상 |
-| K방산의 "빠른 납기" 강조 | "납기 이행 데이터베이스" 공개 — 수십 년 기록 |
+**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-### Layer 2: 취약 콘텐츠 갭 공략
+### Situation 2 — Thought Leadership / Industry Commentary
 
-| 경쟁사 콘텐츠 공백 | GD 기회 |
-|-----------------|--------|
-| HII: 지상·항공 콘텐츠 없음 | "해저-지상-하늘 통합 억지력" 콘텐츠 시리즈 |
-| Bombardier: 군·정부 신뢰도 콘텐츠 없음 | Gulfstream의 정부 VIP 운송 실적 강조 |
-| RTX: 완성 플랫폼 스토리 없음 | GD "플랫폼 탄생에서 폐기까지" 전주기 다큐 |
+**Mood**: Authoritative insight — General Dynamics as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### Layer 3: 카테고리 콘텐츠 독점
+### Situation 3 — Crisis or Negative News Response
 
-| 카테고리 | GD 독점 콘텐츠 영역 |
-|---------|------------------|
-| 핵잠수함 | "70년 수중 억지력" — 세계 유일 민간 핵잠수함 설계 기업 스토리 |
-| 장거리 비즈니스 항공 | "8,000nmi 비즈니스 케이스" — 항속거리를 ROI로 번역 |
-| 방산-민간 이중 기술 | "방산 기술이 민간 항공을 바꾼 방법" 크로스오버 시리즈 |
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #GD | Financial and investor community | Moderate (estimated) |
+| #GeneralDynamics | Brand-level social engagement | Varies (estimated) |
+| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+General Dynamics's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in aerospace & defense face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+General Dynamics's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

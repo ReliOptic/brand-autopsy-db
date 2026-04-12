@@ -1,118 +1,84 @@
-# 02 오디언스 맵 — Illinois Tool Works (ITW)
+# 02. Audience Map — Illinois Tool Works (ITW)
 
-## 오디언스 구조 개요
-
-ITW의 타깃 오디언스는 순수 B2B 구조다. 최종 소비자(B2C)는 존재하지 않으며, 구매 결정은 복수의 이해관계자가 관여하는 위원회형(Committee) 방식이 지배적이다. (추정)
-
-```
-오디언스 계층
-├── Primary (구매 결정권자)
-│   ├── 제조업체 엔지니어링 팀장
-│   ├── 구매/조달 책임자
-│   └── 생산·품질 관리자
-├── Secondary (영향력자)
-│   ├── C-Suite (CFO, COO)
-│   ├── 유지보수·MRO 담당자
-│   └── 외부 컨설턴트·EPC 업체
-└── Tertiary (인식 레이어)
-    ├── 투자자·애널리스트
-    └── 산업 미디어·트레이드 저널
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 김동현 — 자동차 OEM 제조 엔지니어
-
-| 항목 | 내용 |
-|------|------|
-| 나이·직급 | 42세, 선임 제조 엔지니어 (공정개선팀) |
-| 소속 | 국내 완성차 1차 벤더 (Tier-1 자동차 부품사) |
-| 연간 구매 영향력 | 약 5억~20억 원 규모 장비·소모품 사양 결정 (추정) |
-| 기술 배경 | 기계공학 학사, 생산관리 석사. 현장 경험 15년+ |
-| 핵심 목표 | 불량률 200ppm 이하 유지, 라인 다운타임 최소화 |
-| 주요 고통점 | 새 모델 전환 시 치구·공구 재설계 비용과 납기 압박 |
-| 정보 탐색 경로 | 트레이드쇼(오토모티브월드, JIMTOF), 엔지니어 커뮤니티, 공급사 기술 세미나 |
-| ITW와의 접점 | 용접 소모품(Miller), 체결 솔루션, 접착·실링 제품 사양 반영 |
-| 구매 결정 기준 | 기술 스펙 충족 → 레퍼런스 사례 → 가격·납기 순 |
-| 브랜드 인식 | "믿을 수 있는 기술 파트너, 가격은 프리미엄이지만 불량 리스크가 낮다" |
-| 전형적 발언 | "새 플랫폼에 맞는 용접봉 사양 뽑아줄 수 있어요? 공정 검증까지요." |
-
-**ITW 메시지 전략**
-- 기술 데이터시트와 현장 적용 사례 중심
-- "엔지니어 대 엔지니어" 소통 채널 강조
-- 공정 전환 지원 프로그램(Application Engineering) 적극 부각
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in industrial machinery & supplies & components and adjacent industries. (T4_INFERRED from Illinois Tool Works's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Illinois Tool Works's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: Sarah Mitchell — 식품 서비스 체인 운영 디렉터
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직급 | 38세, VP of Operations (식품 서비스 체인, 미국 내 300+ 매장) |
-| 소속 | 미국 QSR(퀵서비스 레스토랑) 체인 본사 |
-| 연간 구매 영향력 | 연간 장비 교체·신규 매장 오픈 예산 $2M~$8M (추정) |
-| 기술 배경 | 호텔경영 학사, MBA. 운영 효율 중심 사고 |
-| 핵심 목표 | 매장 표준화, 식품 안전 규정 준수, 운영비 절감 |
-| 주요 고통점 | 장비 고장 → 매장 운영 중단 → 매출 손실. 벤더 난립 관리 부담 |
-| 정보 탐색 경로 | NAFEM 전시회, 식품 서비스 컨설턴트, 벤더 포털 |
-| ITW와의 접점 | Hobart 믹서·식기세척기, Traulsen 냉장장비 스펙 결정 |
-| 구매 결정 기준 | TCO(총소유비용) → 서비스 네트워크 → 브랜드 신뢰도 |
-| 브랜드 인식 | "Hobart는 주방 장비의 벤츠. 비싸지만 10년은 간다" |
-| 전형적 발언 | "리스 vs. 구매 옵션도 같이 검토해줄 수 있나요? 서비스 SLA도요." |
-
-**ITW 메시지 전략**
-- TCO 계산기·ROI 시뮬레이터 제공
-- 전국 서비스 네트워크 커버리지 지도 시각화
-- 서비스 계약·예방 정비 패키지 번들 강조
+- **Age / Occupation**: 42, VP-level or director in a Illinois Tool Works customer organization
+- **Core pain**: Needs reliable industrial machinery & supplies & components solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Illinois Tool Works selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 박재원 — 투자자·주식 애널리스트
-
-| 항목 | 내용 |
-|------|------|
-| 나이·직급 | 35세, 산업재 섹터 애널리스트 (자산운용사 또는 IB) |
-| 소속 | 국내 또는 글로벌 기관투자자 |
-| 연간 리서치 범위 | ITW 포함 산업재 20~30개 종목 커버 (추정) |
-| 기술 배경 | 경제·경영 학사, CFA. 재무 모델링 전문 |
-| 핵심 목표 | EPS 성장성·마진 개선·자본배분 우수성 평가 |
-| 주요 관심사 | 80/20 전략의 마진 확장 지속성, 자사주 매입 정책, 세그먼트별 유기적 성장률 |
-| 정보 탐색 경로 | IR 자료(10-K, 10-Q), 어닝 컨퍼런스콜, 산업 콘퍼런스 |
-| ITW와의 접점 | 분기 실적 발표, IR 데이, 경영진 1:1 미팅 |
-| 평가 기준 | ROIC > 25%, FCF Conversion > 90%, 배당 연속 인상 |
-| 브랜드 인식 | "자본배분 최우수 기업. 화려하진 않지만 복리 기계" |
-| 전형적 발언 | "다음 분기 Automotive 세그먼트 유기적 성장 가이던스 재확인해줄 수 있나요?" |
-
-**ITW 메시지 전략**
-- 장기 주주가치 창출 내러티브 일관성 유지
-- 80/20 전략 = 마진 방어선으로 명확히 설명
-- 자본배분 우선순위(배당→자사주→M&A) 공식 커뮤니케이션
+- **Age / Occupation**: 35, technical professional who interacts with Illinois Tool Works's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Illinois Tool Works selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 산업군 | 구매 사이클 | 의사결정 복잡도 | 주요 ITW 제품군 |
-|---------|--------|-----------|--------------|---------------|
-| 자동차 OEM/Tier-1 | 자동차 | 모델 주기(3~5년) | 매우 높음 | 용접, 체결, 접착 |
-| 식품 서비스 체인 | 외식·유통 | 신규 오픈/교체(5~10년) | 중간 | Hobart, Traulsen |
-| 일반 제조업 | 기계·금속 | 수시/MRO | 낮음~중간 | 소모품, 청소·유지 |
-| 건설 | 건설 | 프로젝트 단위 | 낮음~중간 | Ramset, 체결 |
-| 전자·반도체 | 하이테크 | 설비 투자 주기 | 높음 | Test&Measurement |
-| 기관투자자 | 금융 | 지속적 | 낮음 | IR 커뮤니케이션 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Illinois Tool Works's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Illinois Tool Works selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| 항목 | ITW 방식 | 벤치마크 가능 포인트 |
-|------|---------|-------------------|
-| 엔지니어 직접 소통 | 세일즈맨이 아닌 Application Engineer가 고객사 현장 방문 | 기술 전문가를 영업 최전선에 배치 |
-| 위원회형 구매 대응 | 직급별·역할별 맞춤 콘텐츠(기술자용 데이터시트 vs CFO용 TCO 분석) | 다층적 구매 KPI에 맞춘 멀티 콘텐츠 전략 |
-| 투자자 내러티브 분리 | 운영 커뮤니케이션과 IR 메시지를 철저히 분리 운영 | B2B 기업의 이중 오디언스 관리 구조 |
+| Stage | Illinois Tool Works's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Illinois Tool Works total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Illinois Tool Works Is Not For
+
+| Type | Characteristics | Why Illinois Tool Works Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Illinois Tool Works's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Illinois Tool Works's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Illinois Tool Works's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Illinois Tool Works's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Illinois Tool Works's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

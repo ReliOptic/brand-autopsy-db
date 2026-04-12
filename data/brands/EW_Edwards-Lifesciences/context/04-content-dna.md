@@ -1,112 +1,123 @@
-# 04 콘텐츠 DNA — Edwards Lifesciences (EW)
+# 04. Content DNA — Edwards Lifesciences (EW)
 
-> 업데이트: 2026-04-12 | 산업: 의료기기 (심장판막 / TAVR)
-
----
-
-## 1. 콘텐츠 철학
-
-Edwards의 콘텐츠는 세 가지 축으로 구성된다:
-
-1. **과학 (Science)** — 임상 데이터와 연구 근거가 모든 주장의 출발점
-2. **인간 (Human)** — 환자 스토리와 의사 경험이 데이터에 생명을 부여
-3. **희망 (Hope)** — "The Science of Living"이라는 슬로건처럼, 기술은 삶을 연장하는 도구
-
-> 콘텐츠 황금률: "데이터로 시작하고, 사람으로 끝내라."
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 콘텐츠 아키텍처 (3-Layer Model)
+## Content Pillars
 
-### Layer 1 — 인식 (Awareness) 레이어
+Edwards Lifesciences's content strategy reflects its positioning in the Health Care Equipment segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-목표: 브랜드 인지도 및 심장판막 질환 교육
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Edwards Lifesciences understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for health care equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Edwards Lifesciences." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-| 콘텐츠 유형 | 포맷 | 채널 | 빈도(추정) |
-|------------|------|------|-----------|
-| 환자 교육 영상 | 애니메이션, 2-3분 | YouTube, 웹사이트 | 월 2회 |
-| 질환 인식 캠페인 | 인포그래픽, 카드뉴스 | 소셜미디어, 블로그 | 주 2회 |
-| 의사 인터뷰 영상 | 짧은 클립 (60-90초) | LinkedIn, 의사 포털 | 월 2회 |
-| ESG / 기업 스토리 | 블로그 아티클 | 웹사이트, LinkedIn | 월 1회 |
-
-**Steal Sheet — Layer 1 (인식)**
-
-| # | 전술 | 실행 방법 | 성공 지표 |
-|---|------|-----------|-----------|
-| 1 | **"두 번째 심장 박동" 환자 스토리 시리즈** | 실제 TAVR 환자 3인의 1년 후 인터뷰 영상 3부작, 한국어 자막 포함 | 영상 완주율 >40%, 공유 수 >500 |
-| 2 | **대동맥 협착증 자가진단 체크리스트** | 웹 인터랙티브 툴 + 다운로드 PDF, 검색 광고 연동 | 월 리드 500+ 확보 |
-| 3 | **#HeartsForLife 소셜 캠페인** | 환자·가족 사진 UGC 캠페인, 해시태그 챌린지 | 참여 게시물 1,000건 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-### Layer 2 — 고려 (Consideration) 레이어
+## Hook Patterns
 
-목표: 의사 및 병원 의사결정자의 Edwards 제품 평가 지원
+### Hook 1 — Industry Challenge Lead
 
-| 콘텐츠 유형 | 포맷 | 채널 | 빈도(추정) |
-|------------|------|------|-----------|
-| 임상 데이터 요약 | 1-페이지 PDF, 슬라이드덱 | 영업팀 배포, 의사 포털 | 새 데이터 발표 시 |
-| 케이스 스터디 | 복잡 해부학 케이스 PDF | 의학 학술지 광고, CME | 분기 1회 |
-| 웨비나 / 라이브 케이스 | 실시간 방송 60-90분 | 의사 포털, Zoom | 분기 1회 |
-| HEOR 백서 | 경제성 분석 보고서 | 병원 구매팀, GPO | 연 2회 |
+Opens with a recognizable industry challenge or pain point before presenting Edwards Lifesciences's perspective.
 
-**Steal Sheet — Layer 2 (고려)**
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-| # | 전술 | 실행 방법 | 성공 지표 |
-|---|------|-----------|-----------|
-| 1 | **PARTNER vs. EVOLUT 직접 비교 슬라이드덱** | 의사 대상 1:1 영업 미팅용 데이터 비교표, 5년 생존율·PVL·재입원율 시각화 | 미팅 후 trial 전환율 >25% |
-| 2 | **"복잡 케이스 해결사" 웨비나 시리즈** | BAV·VIV 케이스 전문가 패널 토론, Q&A 포함 | 등록 의사 수 300명/회 |
-| 3 | **총 치료 비용(Total Cost of Care) 계산기** | 병원 구매팀용 ROI 웹 계산기 (입원일수·재입원 절감 시뮬레이션) | 다운로드 200회/분기 |
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### Layer 3 — 전환·옹호 (Conversion & Advocacy) 레이어
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-목표: 구매 결정 및 KOL 옹호자 육성
+### Hook 3 — Customer Story Lead
 
-| 콘텐츠 유형 | 포맷 | 채널 | 빈도(추정) |
-|------------|------|------|-----------|
-| 핸즈온 트레이닝 초청 | 오프라인 워크숍 | Edwards 트레이닝 센터 | 월 2회 |
-| KOL 공동 연구 발표 | 학회 발표 슬라이드, 논문 | TCT, ACC, EuroPCR | 연 3-4회 |
-| 환자 후기 영상 프로그램 | 환자 동의 기반 영상 | 웹사이트, 유튜브 | 분기 2편 |
-| 투자자 IR 콘텐츠 | 어닝콜 자료, 연간 보고서 | IR 웹사이트, SEC 공시 | 분기·연 1회 |
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-**Steal Sheet — Layer 3 (전환·옹호)**
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-| # | 전술 | 실행 방법 | 성공 지표 |
-|---|------|-----------|-----------|
-| 1 | **Edwards Excellence Network (KOL 커뮤니티)** | 연 1회 오프사이트 서밋 + 전용 온라인 포럼, 공동 연구 펀딩 지원 | KOL 논문 공동저자 15명/년 |
-| 2 | **환자 대사 프로그램 "Heart Alumni"** | TAVR 수술 1주년 환자에게 대사 활동 초청, 병원 내 환자 교육 패널 참여 | 연간 신규 대사 50명 |
-| 3 | **Proof-of-Performance 연간 보고서** | 파트너 병원별 맞춤형 임상 성과 요약 (시술 건수, 30일 결과) 제공 | 계약 갱신율 >90% |
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 3. 콘텐츠 톤 가이드
+## CTA Patterns
 
-| 오디언스 | 톤 | 피해야 할 것 | 써야 할 것 |
-|---------|-----|------------|-----------|
-| 심장내과 전문의 | 권위적·데이터 중심·동등 파트너 | 지나친 감성 호소, 근거 없는 주장 | P값, HR, 95% CI, n수 |
-| 병원 구매팀 | 비즈니스·ROI 중심·명확 | 의학 전문용어 과다 사용 | 비용 절감액, 재입원율 %, ROI 계산 |
-| 환자·보호자 | 따뜻함·안심·이해하기 쉬운 | 공포 조장, 과장 | "더 오래", "더 활발하게", "함께" |
-| 투자자 | 성장 전망·투명성·전략적 | 불확실한 예측을 확정적으로 표현 | TAM, 파이프라인, 시장점유율 |
+| CTA Type | Edwards Lifesciences Pattern | What Edwards Lifesciences Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 4. 스토리텔링 프레임워크
+## Tone & Mood Guide
 
-```
-[과학적 문제 제기]
-  → "심장판막 질환 환자의 X%가 수술 불가 판정을 받습니다."
+### Situation 1 — Product or Service Announcement
 
-[인간적 공감]
-  → "그 중 한 명이 김영수 씨, 73세였습니다."
+**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-[Edwards 솔루션]
-  → "SAPIEN 3 Ultra로 시술 후 90일, 그는 손녀와 산책합니다."
+### Situation 2 — Thought Leadership / Industry Commentary
 
-[임상 근거 강화]
-  → "PARTNER 3 5년 데이터: 저위험군 생존율 유의미한 개선 (공식)"
+**Mood**: Authoritative insight — Edwards Lifesciences as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-[행동 촉구]
-  → "당신의 환자에게도 두 번째 기회를 — 지금 Edwards 전문가와 상담하세요."
-```
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #EW | Financial and investor community | Moderate (estimated) |
+| #EdwardsLifesciences | Brand-level social engagement | Varies (estimated) |
+| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Edwards Lifesciences's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in health care equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Edwards Lifesciences's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

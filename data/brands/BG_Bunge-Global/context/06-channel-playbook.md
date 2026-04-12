@@ -1,108 +1,141 @@
-# 06. 채널 플레이북 — Bunge Global (BG)
+# 06. Channel Playbook — Bunge Global (BG)
 
-> 섹터: 소비재 — 애그리비즈니스 | 티커: BG (NYSE)
-
----
-
-## 1. 채널 전략 개요
-
-Bunge는 B2B 중심 기업으로 **직접 영업 채널**과 **디지털 콘텐츠 채널**이 핵심이다. 소비자 직접 채널(B2C) 비중은 극히 낮으며, 주요 커뮤니케이션 대상은 농가·식품 제조업체·투자자·정책 입안자다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 주요 오디언스 | 목적 | 우선순위 | 콘텐츠 빈도 |
-|------|-------------|------|---------|------------|
-| 기업 웹사이트 | 전체 이해관계자 | 브랜드 허브, IR | 최우선 | 상시 업데이트 |
-| LinkedIn | 투자자, B2B 파트너, 인재 | 사고 리더십, 채용 | 높음 | 주 3~5회 (추정) |
-| IR 전용 포털 | 기관 투자자, 애널리스트 | 재무 공시, 실적 | 최우선 | 분기별 |
-| 이메일 뉴스레터 | 농가, 바이어, 투자자 | 시장 인사이트 | 높음 | 월 2회 (추정) |
-| 산업 컨퍼런스 | 곡물 트레이더, 정책 입안자 | 네트워킹, 포지셔닝 | 높음 | 연 10~15회 (추정) |
-| X (Twitter) | 애널리스트, 미디어 | 실시간 공시, 뉴스 | 중간 | 주 2~3회 (추정) |
-| YouTube | 파트너, ESG 관심자 | 케이스 스터디 영상 | 중간 | 월 1~2회 (추정) |
-| 직접 영업팀 | 대형 농가, 식품 제조업체 | 계약, 관계 유지 | 최우선 | 상시 |
-| 현지 에이전트 | 소규모 농가 | 계약 체결, 지원 | 높음 | 상시 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 3. 채널별 콘텐츠 가이드
+## 2. Channel Tone Variations
 
-### 3-1. LinkedIn (핵심 디지털 채널)
+Bunge Global's core voice adjusts by channel while maintaining brand coherence.
 
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 | 약 180,000+ (추정) |
-| 주요 포스트 유형 | 시장 인사이트, ESG 성과, 파트너 스토리, 채용 공고 |
-| 최적 포스트 길이 | 150~300자 + 이미지/인포그래픽 (추정) |
-| 해시태그 전략 | #FoodSecurity #Sustainability #Agribusiness #SupplyChain |
-| 게시 최적 시간 | 화·수·목 오전 7~9시 (UTC-5 기준) (추정) |
-| 금지 콘텐츠 | 가격 예측, 경쟁사 직접 언급, 정치적 발언 |
-
----
-
-### 3-2. 기업 웹사이트
-
-| 항목 | 내용 |
-|------|------|
-| 주요 섹션 | About, Businesses, Sustainability, Investors, Careers |
-| SEO 핵심 키워드 | grain trading, oilseed processing, food supply chain (추정) |
-| 랜딩 페이지 우선순위 | IR 페이지 > 지속가능성 > 사업 소개 |
-| 업데이트 주기 | 뉴스 섹션 주 2회, IR 분기별, ESG 연 1회 보고서 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3-3. 직접 영업 채널
+## 3. Cross-Channel Synergy Map
 
-| 항목 | 내용 |
-|------|------|
-| 영업 구조 | 지역별 영업 본부 → 국가별 영업팀 → 현지 에이전트 (추정) |
-| 핵심 도구 | CRM 시스템, 디지털 트레이딩 플랫폼, 모바일 앱 |
-| 농가 지원 프로그램 | 금융 솔루션, 보관 서비스, 기술 지원 (공식) |
-| 바이어 지원 | 공급 계약 커스터마이징, 물류 코디네이션, ESG 문서화 |
+### Route A — Product/Service Launch Sequence
+
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## 4. 캠페인 캘린더 (연간 템플릿)
+## 4. Channel-Specific Prohibitions
 
-| 시기 | 캠페인 주제 | 핵심 채널 | 목표 오디언스 |
-|------|-----------|-----------|--------------|
-| Q1 (1~3월) | 연간 실적 발표 + 전략 업데이트 | IR 포털, LinkedIn, X | 투자자, 애널리스트 |
-| Q2 (4~6월) | 지속가능성 보고서 발간 | 웹사이트, LinkedIn, 이메일 | ESG 투자자, NGO |
-| Q2 (5~6월) | 남반구 수확 시즌 시장 인사이트 | 이메일, 영업팀 | 농가, 바이어 |
-| Q3 (7~9월) | 북반구 수확 시즌 가이드 | 이메일, 현지 에이전트 | 농가 |
-| Q3 (9월) | UN 총회·지속가능성 포럼 연계 | LinkedIn, 컨퍼런스 | 정책 입안자, ESG |
-| Q4 (10~12월) | 연간 시장 전망 + 파트너 스토리 | YouTube, LinkedIn, 이메일 | 전체 이해관계자 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
----
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-## 5. 위기 커뮤니케이션 채널 프로토콜
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 위기 유형 | 1차 채널 | 메시지 책임자 | 응답 시간 |
-|----------|---------|--------------|----------|
-| 공급망 사고 | 기업 웹사이트 보도자료 | CCO (추정) | 4시간 이내 |
-| 재무·회계 이슈 | IR 포털 + SEC 공시 | CFO, IR팀 (추정) | 즉시 (규정 준수) |
-| ESG·환경 논란 | 웹사이트 + 미디어 브리핑 | CEO, CSO (추정) | 24시간 이내 |
-| 노동·인권 이슈 | 공식 성명 + 직접 이해관계자 소통 | CEO (추정) | 48시간 이내 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 6. Steal Sheet — 채널 레이어별 3선
+## 5. Crisis Response Protocol
 
-### Steal Sheet A: LinkedIn 사고 리더십 강화
-- **기회**: 곡물 트레이딩 업계에서 LinkedIn 전문 콘텐츠 공급이 부족 (추정)
-- **액션**: 임원진 개인 계정 활성화 — CEO·CSO가 월 4회 이상 시장 전망·ESG 칼럼 게시
-- **전술**: "Bunge Perspectives" 시리즈 론칭, 슬라이드 인포그래픽 포맷
-- **KPI**: 팔로워 수 20% 증가, 포스트 평균 인게이지먼트율 3% 이상 (추정)
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-### Steal Sheet B: 농가 대상 모바일 앱 채널 고도화
-- **기회**: 브라질·인도 농가의 스마트폰 보급률 급증, 디지털 채널 접점 확대 가능 (추정)
-- **액션**: Bunge 모바일 앱 내 시장 가격 알림·물류 현황 실시간 추적 기능 강화
-- **전술**: 앱 내 농가 커뮤니티 포럼, 현지어 지원(포르투갈어·힌디어·우크라이나어)
-- **KPI**: 월간 활성 사용자(MAU) 30% 증가, 앱 경유 계약 체결 비율 (추정)
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### Steal Sheet C: ESG 투자자 전용 IR 뉴스레터
-- **기회**: ESG 스크리닝 투자자가 분기 보고서 외 정기 업데이트를 요구 (추정)
-- **액션**: "Bunge Sustainability Pulse" 월간 뉴스레터 — 탄소 감축 진척, 산림 보호 데이터, RSPO 인증 현황
-- **전술**: MSCI·Sustainalytics 등 평가 기관 제출 자료와 연동, 구독 신청 IR 페이지 상단 배치
-- **KPI**: 기관 투자자 구독자 500명 이상, ESG 등급 상향 기여도 (추정)
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Bunge Global's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Bunge Global's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Bunge Global's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

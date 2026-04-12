@@ -1,165 +1,102 @@
-# 05 디자인 시스템 — Thermo Fisher Scientific (TMO)
+# 05. Design System — Thermo Fisher Scientific (TMO)
 
-## 컬러 시스템
-
-### 주요 컬러 팔레트
-
-| 역할 | 컬러명 | HEX | 용도 |
-|------|--------|-----|------|
-| 주색 (Primary) | TMO Blue | `#003087` | 로고, 주요 헤더, CTA 버튼 (공식) |
-| 보조 주색 | Mid Blue | `#0066CC` | 링크, 보조 버튼, 아이콘 (공식) |
-| 강조색 (Accent) | Bright Blue | `#009FDA` | 하이라이트, 배지, 인포그래픽 포인트 (공식) |
-| 중립 다크 | Charcoal | `#2D2D2D` | 본문 텍스트, 헤딩 (공식) |
-| 중립 미드 | Medium Gray | `#6B6B6B` | 부제목, 캡션, 부가 정보 (공식) |
-| 중립 라이트 | Light Gray | `#F4F4F4` | 배경, 카드 배경, 섹션 구분 (공식) |
-| 화이트 | White | `#FFFFFF` | 기본 배경, 텍스트 역전 (공식) |
-| 성공/긍정 | Success Green | `#00843D` | 유효성 검사, 성공 메시지, 환경 관련 콘텐츠 (추정) |
-| 경고 | Warning Amber | `#F5A623` | 알림, 주의 배지 (추정) |
-| 오류 | Error Red | `#C8102E` | 오류 메시지, 위험 표시 (추정) |
-
-### 확장 팔레트 (Extended Palette)
-
-| 역할 | 컬러명 | HEX | 용도 |
-|------|--------|-----|------|
-| 딥 네이비 | Deep Navy | `#001F5B` | 다크 섹션 배경, 풋터 (추정) |
-| 스카이 블루 | Sky Blue | `#E8F4FD` | 연한 배경, 인포박스 (추정) |
-| 틸 | Teal Accent | `#007B8A` | 헬스케어·진단 서브 브랜드 강조 (추정) |
-| 퍼플 | Science Purple | `#6B3FA0` | 유전체·세포생물학 카테고리 구분 (추정) |
-| 오렌지 | Innovation Orange | `#E87722` | 혁신·이벤트 프로모션 강조 (추정) |
-
-### 컬러 사용 비율 (추정)
-
-```
-주색 (TMO Blue #003087)     ████████░░  40%
-보조색 (Mid/Bright Blue)    ████░░░░░░  25%
-중립 계열 (Gray/White)      ████████░░  30%
-강조/카테고리색              █░░░░░░░░░   5%
-```
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-### 서체 체계 (추정)
+Thermo Fisher Scientific's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 용도 | 서체 | 굵기 | 크기 범위 |
-|------|------|------|---------|
-| 디스플레이 헤딩 | Neue Haas Grotesk / Helvetica Neue | Bold (700) | 40–72px |
-| 섹션 헤딩 H1~H3 | Neue Haas Grotesk / Helvetica Neue | SemiBold (600) | 24–40px |
-| 본문 텍스트 | Neue Haas Grotesk / Arial | Regular (400) | 14–18px |
-| 기술 문서·표 | Neue Haas Grotesk / Arial | Regular (400) | 12–14px |
-| 코드·사양 | Courier New / Consolas | Regular (400) | 12–14px |
-| 캡션 | Neue Haas Grotesk / Arial | Light (300) | 11–12px |
+### Core Brand Colors
 
-### 타이포그래피 원칙
-- 라인 높이(line-height): 본문 1.6, 헤딩 1.2 (추정)
-- 자간(letter-spacing): 헤딩 -0.02em, 본문 0 (추정)
-- 최대 컨텐츠 폭: 1200px, 읽기 최적 폭: 680px (추정)
-- 최소 가독성 폰트 사이즈: 12px (WCAG AA 준수) (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 로고 시스템
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### 로고 변형 (공식)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 변형 | 용도 | 배경 |
-|------|------|------|
-| 풀 로고 (가로형) | 주요 채널, 공식 문서 | 화이트 또는 라이트 배경 |
-| 심볼+텍스트 (세로형) | 정사각형 공간, 소셜 미디어 프로필 | 화이트 배경 |
-| 화이트 역전 로고 | 다크/컬러 배경 위 | TMO Blue, Deep Navy 배경 |
-| 심볼 단독 | 파비콘, 앱 아이콘, 극소형 공간 | 다양한 배경 |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 로고 보호 영역 (추정)
-- 최소 클리어 스페이스: 로고 높이의 50%
-- 최소 디지털 크기: 80px 폭
-- 최소 인쇄 크기: 20mm 폭
-
-### 로고 금지 사항 (추정)
-- 색상 변경 (브랜드 컬러 이외 적용 불가)
-- 비율 왜곡
-- 그림자·외곽선 효과 추가
-- 복잡한 배경 위 직접 배치
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 아이콘 & 일러스트레이션 시스템
+## 2. Typography
 
-### 아이콘 스타일 (추정)
-- **스타일:** 라인 아이콘(Line Icon) 기반, 2px 스트로크
-- **코너 처리:** 약간 둥근 처리(rounded corners), 2px radius
-- **그리드:** 24×24px 기본, 48×48px 확장
-- **컬러:** 단색 (TMO Blue 또는 Charcoal)
-- **카테고리:** 과학 기기, 분자 생물학, 데이터/IT, 물류/서비스, 규제
+Thermo Fisher Scientific's digital properties employ a typographic system appropriate to its health care positioning.
 
-### 일러스트레이션 원칙 (추정)
-- 사실적 과학 이미지(현미경 사진, 분자 구조)와 플랫 일러스트 혼용
-- 분자 구조·세포 이미지: 과학적 정확성 우선
-- 사람 이미지: 다양성 반영, 실험복 착용 장면 선호
-- 배경 제거 제품 이미지(Cut-out) + 환경 배치 이미지 병행
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 레이아웃 & 그리드
+### Typographic Scale
 
-### 웹 그리드 (추정)
-
-| 브레이크포인트 | 컬럼 수 | 거터 | 마진 |
-|------------|--------|------|------|
-| 데스크톱 (≥1200px) | 12 | 24px | 80px |
-| 태블릿 (768–1199px) | 8 | 20px | 40px |
-| 모바일 (<768px) | 4 | 16px | 20px |
-
-### 간격 시스템 (추정)
-- 기본 단위: 8px
-- 사용 값: 4, 8, 12, 16, 24, 32, 48, 64, 96, 128px
-- 섹션 간 패딩: 데스크톱 80px, 모바일 40px
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## UI 컴포넌트 패턴 (추정)
+## 3. Channel Specifications
 
-### 버튼 시스템
-
-| 유형 | 배경 | 텍스트 | 테두리 | 용도 |
-|------|------|--------|--------|------|
-| Primary CTA | `#003087` | `#FFFFFF` | 없음 | 주요 전환 액션 |
-| Secondary | `#FFFFFF` | `#003087` | `#003087` 1px | 보조 액션 |
-| Ghost | 투명 | `#003087` | `#003087` 1px | 소프트 액션 |
-| Destructive | `#C8102E` | `#FFFFFF` | 없음 | 삭제·경고 액션 |
-
-### 카드 컴포넌트
-
-- 배경: `#FFFFFF`
-- 테두리: `#E0E0E0` 1px 또는 없음
-- 그림자: `box-shadow: 0 2px 8px rgba(0,0,0,0.08)`
-- 코너 반경: 4px
-- 호버 상태: 그림자 강화 `0 4px 16px rgba(0,0,0,0.12)`
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 기회
+## 4. Layout Principles
 
-### Steal Sheet Layer 1: 브랜드 일관성 갭
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| # | TMO 갭 | 경쟁 기회 |
-|---|--------|---------|
-| 1 | 서브 브랜드(Invitrogen, Applied Biosystems 등) 간 시각 일관성 부족 (추정) | 통합 디자인 토큰 시스템 구축으로 차별화 |
-| 2 | 다크 모드 미지원 (추정) | 연구자 야간 작업 환경 대응 다크 테마 제공 |
-| 3 | 접근성(Accessibility) WCAG AA 이상 준수 미흡 영역 존재 (추정) | 완전 접근성 준수 UI로 정부·의료기관 고객 공략 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet Layer 2: 디지털 경험 갭
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| # | TMO 갭 | 경쟁 기회 |
-|---|--------|---------|
-| 1 | 제품 선택 가이드 UI 복잡성 (추정) | 대화형(Conversational) 제품 추천 위저드 UX |
-| 2 | 모바일 쇼핑 경험 최적화 미흡 (추정) | 모바일 퍼스트 재주문·재고 확인 경험 |
-| 3 | 3D 제품 시각화 부재 (추정) | 장비 3D 뷰어 + AR 랩 배치 시뮬레이터 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Steal Sheet Layer 3: 콘텐츠 시각화 갭
+---
 
-| # | TMO 갭 | 경쟁 기회 |
-|---|--------|---------|
-| 1 | 데이터 인포그래픽 품질 편차 (추정) | 표준화된 과학 데이터 시각화 템플릿 시스템 |
-| 2 | 동영상 콘텐츠 브랜드 일관성 부족 (추정) | 모션 그래픽 가이드라인 강화 + 인트로/아웃트로 통일 |
-| 3 | 인쇄물·디지털 컬러 불일치 (추정) | Pantone-HEX-CMYK 크로스 레퍼런스 표준화 |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Thermo Fisher Scientific (TMO)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

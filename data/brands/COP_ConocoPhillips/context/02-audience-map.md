@@ -1,120 +1,84 @@
-# ConocoPhillips (COP) — 오디언스 맵
+# 02. Audience Map — ConocoPhillips (COP)
 
-## 오디언스 계층 구조
-
-```
-1차 오디언스: 기관 투자자 / 애널리스트
-2차 오디언스: 산업 파트너 / B2B 고객
-3차 오디언스: 정책 입안자 / 규제 기관
-4차 오디언스: 지역사회 / ESG 이해관계자
-5차 오디언스: 잠재 직원 / 산업 인재
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 기관 투자자 — "마거릿"
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-**이름:** 마거릿 챔버스 (Margaret Chambers)
-**나이:** 52세
-**직책:** 대형 연기금 포트폴리오 매니저 (에너지 섹터 담당)
-**위치:** 뉴욕 / 런던 (공식 투자자 미팅 기반)
-**운용 자산:** $15B+ 포트폴리오 내 에너지 비중 12% (추정)
-
-**심리 프로파일**
-- 수익률·배당 성장·FCF 전환율을 1순위 KPI로 관리
-- ESG 리스크 점수가 투자 의사결정에 직접 영향 (UNPRI 서명 기관)
-- 에너지 전환 규제 강화에 따른 좌초 자산 리스크를 지속 모니터링
-- 변동성보다 예측 가능한 자본 배분 정책 선호
-
-**정보 소비 채널**
-- IR 발표자료·10-K·8-K (공식 SEC 공시)
-- Bloomberg Terminal, FactSet
-- Goldman Sachs / Morgan Stanley 에너지 섹터 리포트
-- CERAWeek 등 업계 컨퍼런스
-
-**핵심 니즈**
-1. 유가 변동 시나리오별 손익분기 생산원가 투명 공시
-2. 배당+자사주 매입 조합의 주주 환원 프레임
-3. 탄소 중립 로드맵과 현금흐름 임팩트 수치화
-
-**COP에 대한 기대 메시지**
-> "낮은 생산원가 구조로 유가 사이클을 견디며, 어떤 환경에서도 주주 환원을 유지한다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in oil & gas exploration & production and adjacent industries. (T4_INFERRED from ConocoPhillips's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in ConocoPhillips's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 에너지 업계 파트너 — "리암"
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-**이름:** 리암 오설리반 (Liam O'Sullivan)
-**나이:** 44세
-**직책:** 대형 엔지니어링·건설(EPC) 기업 비즈니스 개발 VP
-**위치:** 휴스턴, 텍사스
-**파트너십 규모:** 단일 계약 $200M~$2B 규모 프로젝트 (추정)
-
-**심리 프로파일**
-- 장기 계약 안정성과 반복 발주 관계를 최우선시
-- COP의 다음 FID(최종 투자 결정) 프로젝트 파이프라인을 항상 모니터링
-- 안전 문화·HSE 규정 준수가 입찰 자격의 전제 조건임을 인식
-- 기술 혁신(자동화·디지털화)을 계약 경쟁력으로 활용
-
-**정보 소비 채널**
-- COP 공급업체 포털 / 입찰 공고
-- SPE(석유 엔지니어 협회) 기술 논문
-- 업계 트레이드 미디어 (Upstream, Oil & Gas Journal)
-- LinkedIn 업계 네트워크
-
-**핵심 니즈**
-1. 명확한 프로젝트 스케줄과 조기 공급망 참여 기회
-2. COP 기술 표준·HSE 요건 사전 숙지
-3. 장기 MOU 또는 선호 공급업체 자격 획득 경로
-
-**COP에 대한 기대 메시지**
-> "COP는 명확한 기준과 예측 가능한 프로세스를 가진 최고의 발주처다."
+- **Age / Occupation**: 42, VP-level or director in a ConocoPhillips customer organization
+- **Core pain**: Needs reliable oil & gas exploration & production solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **ConocoPhillips selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: ESG·정책 이해관계자 — "소피아"
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-**이름:** 소피아 렌달 (Sofia Rendall)
-**나이:** 38세
-**직책:** 국제 기후 NGO 에너지 정책 디렉터
-**위치:** 브뤼셀 / 워싱턴 D.C.
-**영향력:** EU 탄소 규제·미국 IRA 관련 정책 자문 참여 (추정)
-
-**심리 프로파일**
-- 탄소 집약도 감축 약속의 이행 여부를 정량적으로 추적
-- 메탄 배출 강도, CCUS 투자 규모를 핵심 지표로 평가
-- 그린워싱 발언에 매우 민감, 공시 데이터와 실제 행동의 불일치 포착
-- E&P 기업이 에너지 전환에서 건설적 역할을 할 수 있다는 조건부 인정
-
-**정보 소비 채널**
-- COP 지속가능성 보고서 (GRI·SASB·TCFD 기준)
-- IEA·IPCC 공식 보고서
-- Carbon Tracker, RMI 분석 리포트
-- Financial Times, Reuters 에너지 전환 섹션
-
-**핵심 니즈**
-1. 메탄 배출 실측 데이터와 제3자 검증 결과
-2. 2030/2050 탄소 감축 경로의 구체적 마일스톤
-3. 지역사회 영향 평가 및 원주민 협의 프로세스 공개
-
-**COP에 대한 기대 메시지**
-> "말뿐이 아닌 검증된 수치로 기후 약속을 증명하라."
+- **Age / Occupation**: 35, technical professional who interacts with ConocoPhillips's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **ConocoPhillips selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 주요 관심사 | 핵심 채널 | 메시지 톤 |
-|---------|-----------|---------|---------|
-| 기관 투자자 | FCF, 배당, 생산원가 | IR 자료, 블룸버그 | 수치 중심, 보수적 |
-| 소매 투자자 | 배당 안정성, 주가 | 실적 발표, CNBC | 접근성, 장기 스토리 |
-| EPC 파트너 | 프로젝트 파이프라인 | 공급업체 포털 | 기술적, 절차적 |
-| 정부·규제기관 | 세수, 에너지 안보 | 정책 브리핑 | 공식적, 데이터 기반 |
-| ESG 이해관계자 | 메탄, CCUS, DEI | 지속가능성 보고서 | 투명, 수치 검증 |
-| 잠재 인재 | 기술 도전, 경력 | LinkedIn, 채용 사이트 | 혁신적, 성장 지향 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Energy
+- **Core pain**: Needs to evaluate ConocoPhillips's financial performance, competitive positioning, and risk factors for investment decisions.
+- **ConocoPhillips selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | ConocoPhillips's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | ConocoPhillips total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who ConocoPhillips Is Not For
+
+| Type | Characteristics | Why ConocoPhillips Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | ConocoPhillips's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | ConocoPhillips's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | ConocoPhillips's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+ConocoPhillips's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+ConocoPhillips's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In energy markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,139 +1,84 @@
-# 02. 오디언스 맵 — Ciena (CIEN)
+# 02. Audience Map — Ciena (CIEN)
 
-> 출처 표기: (공식) = ciena.com 확인, (추정) = CSS/공개 데이터 기반 추론
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-Ciena의 구매 사이클은 장기(6~24개월), 다중 이해관계자 구조다. (추정)
-
-| 세그먼트 | 규모 비중 (추정) | 결정 권한 |
-|----------|----------------|-----------|
-| 통신사 (Tier 1/2/3) | 55% | 최종 구매 승인 |
-| 클라우드 하이퍼스케일러 | 20% | 기술 사양 주도 |
-| 정부·국방·공공기관 | 10% | 장기 계약, 보안 우선 |
-| 케이블·MSO | 10% | CAPEX 사이클 주도 |
-| 엔터프라이즈·금융 | 5% | 전용선·저지연 요구 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 이창민 — 네트워크 아키텍트
-
-**기본 정보**
-- 나이: 42세 (추정)
-- 직책: 수석 네트워크 아키텍트, 국내 Tier 1 통신사
-- 경력: 광전송 엔지니어링 18년
-- 교육: 전기전자공학 석사
-
-**핵심 목표**
-- 급증하는 5G 백홀·프론트홀 트래픽 처리 인프라 확보
-- 400G → 800G 전환 로드맵 수립
-- 단일 벤더 의존도 분산, 멀티벤더 환경 관리
-
-**고통점 (Pain Points)**
-- 스펙트럼 효율 한계 — 기존 장비로 트래픽 폭증 대응 불가
-- 운영팀의 수동 프로비저닝 병목
-- CAPEX 예산 삭감 압박에서 성능 타협 없이 TCO 절감 요구
-
-**정보 소비 행태**
-- 기술 백서, IEEE 논문, OFC/ECOC 컨퍼런스 자료 (추정)
-- Ciena의 WaveLogic 데이터시트 정독
-- 내부 PoC 결과 데이터 > 마케팅 자료
-
-**구매 여정 트리거**
-- 경쟁사 장비 EOL 공지 → 교체 평가 착수
-- 트래픽 예측치 초과 → 긴급 용량 확장
-
-**메시지 키**
-> "WaveLogic 6의 800G 스펙트럼 효율로 동일 광섬유에서 2배 용량 — PoC 데이터로 검증하세요"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in communications equipment and adjacent industries. (T4_INFERRED from Ciena's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Ciena's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 박지수 — CTO / VP of Engineering
+## Core Personas
 
-**기본 정보**
-- 나이: 50세 (추정)
-- 직책: CTO, 아시아 태평양 클라우드 하이퍼스케일러 리전
-- 경력: 네트워크·인프라 임원 25년
-- 교육: 컴퓨터공학 박사
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표**
-- 데이터센터 간 연결(DCI) 비용 최소화하며 레이턴시 SLA 준수
-- AI/ML 워크로드 급증에 대응하는 탄력적 네트워크 구축
-- 자동화 수준 향상 — 사람 개입 없는 네트워크 운영(ZTO)
-
-**고통점**
-- DCI 대역폭 비용이 클라우드 총비용의 20~30% 차지 (추정)
-- 이기종 벤더 환경에서 단일 오케스트레이션 불가
-- 인력 부족 — 고도 숙련 광 엔지니어 채용 어려움
-
-**정보 소비 행태**
-- 가트너·IDC 분석 리포트, 경쟁사 비교 벤치마크
-- CTO 서밋, OCP Summit 발표자료
-- 임원진 대상 ROI 계산기, 비즈니스 케이스 문서
-
-**구매 여정 트리거**
-- AI 인프라 투자 결정 → DCI 용량 재평가
-- 경쟁 클라우드 사업자 대비 레이턴시 격차 감지
-
-**메시지 키**
-> "Blue Planet의 AI 기반 자동화로 운영 인력 30% 절감, DCI CAPEX를 40% 최적화" (추정 수치)
+- **Age / Occupation**: 42, VP-level or director in a Ciena customer organization
+- **Core pain**: Needs reliable communications equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Ciena selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 김도현 — 조달·공급망 관리자
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-- 나이: 38세 (추정)
-- 직책: 네트워크 장비 조달 매니저, 국내 케이블 MSO
-- 경력: IT 조달·벤더 관리 12년
-- 교육: 경영학 학사, SCM 자격증
-
-**핵심 목표**
-- 예산 내 최대 성능·수명주기 확보
-- 벤더 계약 리스크 최소화 (EOL, 지원 단절)
-- 내부 기술팀과 재무팀 양쪽 요구사항 충족
-
-**고통점**
-- 기술 스펙과 예산 사이의 갭 — 아키텍트는 최신 원하고 CFO는 동결
-- 멀티벤더 RFP 프로세스의 복잡성·시간 소모
-- TCO 계산 근거 부족 — 5년 운영비 예측 어려움
-
-**정보 소비 행태**
-- 벤더 제공 TCO 계산기, RFP 응답 문서
-- G2, Gartner Peer Insights 리뷰
-- 내부 재무팀과의 협력, CFO 승인 자료 작성
-
-**구매 여정 트리거**
-- 연간 예산 사이클 시작 (Q4)
-- 기존 장비 유지보수 비용 급등
-
-**메시지 키**
-> "Ciena의 5년 TCO 계산기로 유지보수·운영비 포함 실질 비용을 CFO에게 설명하세요"
+- **Age / Occupation**: 35, technical professional who interacts with Ciena's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Ciena selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 구매 위원회 구조 (추정)
+### Persona 3 — Financial Stakeholder / Investor
 
-```
-최종 결재: CFO / CEO (ROI, 예산)
-       ↑
-기술 승인: CTO / VP Engineering (아키텍처 적합성)
-       ↑
-평가 주도: 네트워크 아키텍트 (기술 PoC, 스펙 검증)
-       ↑
-조달 관리: 구매팀 (계약, 벤더 리스크)
-```
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Ciena's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Ciena selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 4. 고객 여정 단계별 콘텐츠 매핑
+## Purchase Journey — AARRR Framework
 
-| 단계 | 인식 | 평가 | 결정 | 도입 | 확장 |
-|------|------|------|------|------|------|
-| 트리거 | 트래픽 폭증 경보 | 경쟁사 PoC 비교 | 이사회 승인 | 구축 지원 | 추가 용량 |
-| 콘텐츠 | 트렌드 리포트 | 기술 백서·데이터시트 | ROI 케이스 | 배포 가이드 | 확장 로드맵 |
-| 채널 | LinkedIn·이벤트 | ciena.com·세미나 | 영업팀 직접 | 기술지원 | 계정 매니저 |
+| Stage | Ciena's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Ciena total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Ciena Is Not For
+
+| Type | Characteristics | Why Ciena Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Ciena's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Ciena's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Ciena's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Ciena's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Ciena's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

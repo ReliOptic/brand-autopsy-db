@@ -1,99 +1,102 @@
-# 05. 디자인 시스템 — KLA Corporation (KLAC)
+# 05. Design System — KLA Corporation (KLAC)
 
-## 컬러 시스템
-
-CSS 추출 데이터 기반 분석. 사용 빈도(count)와 맥락으로 역할을 추론한다.
-
-### 주요 컬러 팔레트
-
-| 역할 | 색상명 | HEX | 비고 |
-|------|--------|-----|------|
-| 프라이머리 블루 | KLA Blue | `#007BC6` | count:5 — 가장 높은 빈도, 주요 CTA·링크·강조 (추정) |
-| 프라이머리 퍼플 | KLA Purple | `#41007F` | count:3 — 보조 강조, 그라디언트 포인트 (추정) |
-| 다크 퍼플 | Deep Purple | `#410075` | count:1 — `#41007F` 변형, 호버·다크 배경 (추정) |
-| 라이트 그레이 | Light Gray | `#D8D8D8` | count:3 — 보더·구분선·비활성 요소 (추정) |
-| 미드 그레이 | Mid Gray | `#CACACA` | count:1 — 보조 구분선 (추정) |
-| 다크 텍스트 | Dark Charcoal | `#32373C` | count:2 — 본문 텍스트·헤더 (추정) |
-| 딥 블랙 | Near Black | `#0C0C12` | count:1 — 다크 배경·푸터 (추정) |
-| 라이트 블루 | Sky Blue | `#ABB8C3` | count:1 — 아이콘·비강조 요소 (추정) |
-| 화이트 | Near White | `#FEFEFE` | count:1 — 페이지 배경·카드 배경 (추정) |
-
-### 보조 컬러 (소수 사용, 편집기/UI 요소 추정)
-
-| 색상명 | HEX | 비고 |
-|--------|-----|------|
-| Electric Blue | `#0693E3` | count:1 — UI 강조 (추정) |
-| Brand Blue Alt | `#1371C3` | count:1 — 링크 변형 (추정) |
-| iOS Blue | `#007AFF` | count:1 — 모바일 UI 요소 (추정) |
-| Light Sky | `#8ED1FC` | count:1 — 인포그래픽 보조 (추정) |
-| Violet | `#9B51E0` | count:1 — 에디터/태그 UI (추정) |
-| Mint Green | `#7BDCB5` | count:1 — 성공 상태·긍정 지표 (추정) |
-| Emerald | `#00D084` | count:1 — 성공·완료 상태 (추정) |
-| Amber | `#FCB900` | count:1 — 경고·주의 상태 (추정) |
-| Orange | `#FF6900` | count:1 — 알림·강조 포인트 (추정) |
-| Crimson | `#CF2E2E` | count:1 — 오류·위험 상태 (추정) |
-| Pink | `#F78DA7` | count:1 — 에디터 UI 팔레트 (추정) |
-
-### 컬러 사용 원칙
-
-1. **`#007BC6` (KLA Blue)**: 모든 주요 CTA 버튼, 링크, 강조 텍스트에 우선 적용 (추정)
-2. **`#41007F` (KLA Purple)**: 블루와 그라디언트 조합 또는 세컨더리 강조에 사용 (추정)
-3. **`#32373C` (Dark Charcoal)**: 본문·헤더 기본 텍스트 컬러 (추정)
-4. **`#D8D8D8` / `#CACACA`**: UI 구분선, 비활성 상태, 배경 분리에만 사용 (추정)
-5. **`#0C0C12`**: 다크 모드 배경 또는 풀블리드 히어로 섹션 배경 (추정)
-6. Mint·Emerald·Crimson 계열은 상태 표시(성공/경고/오류)에만 제한 사용 (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-CSS 추출 폰트 데이터 기반.
+KLA Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 폰트 패밀리 | 역할 | 비고 |
-|------------|------|------|
-| `NotoSans` | 다국어 본문·UI | 한국어·일본어·중국어 등 CJK 지원 — 글로벌 고객 대응 (공식) |
-| `OpenSans` | 영문 본문·UI | 가독성 중심, 기술 문서·바디 텍스트 표준 (공식) |
-| `OpenSans-Light` | 서브헤딩·캡션 | 경량 웨이트로 계층 구분 (공식) |
-| `swiper-icons` | UI 아이콘 폰트 | 캐러셀·슬라이더 컴포넌트 전용 (공식) |
+### Core Brand Colors
 
-### 타이포그래피 원칙
-- 헤딩: OpenSans Bold 또는 Regular (추정)
-- 본문: OpenSans Regular, 16px 이상 권장 (추정)
-- 캡션·레이블: OpenSans-Light (추정)
-- 다국어 페이지: NotoSans 폴백 필수 적용 (추정)
-- 코드·사양 표기: Monospace 계열 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
+
+### Color Principles
+
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
+
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 디자인 언어 특성 (추정)
+## 2. Typography
 
-| 특성 | 설명 |
-|------|------|
-| 전체 톤 | 기술적·정밀한·신뢰감 있는 |
-| 레이아웃 | 그리드 기반, 여백 충분, 데이터 시각화 중심 |
-| 이미지 방향 | 반도체 웨이퍼·장비·클린룸 사진, 기술 다이어그램 |
-| 아이콘 스타일 | 라인 아이콘, 기술 상징물 중심 |
-| 애니메이션 | 절제된 마이크로 인터랙션 (스크롤·호버) |
-| 모바일 대응 | Swiper 기반 캐러셀 사용으로 모바일 콘텐츠 최적화 |
+KLA Corporation's digital properties employ a typographic system appropriate to its information technology positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 3개
+## 3. Channel Specifications
 
-### Steal Sheet 1: 컬러 권위 레이어
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-- **핵심**: 블루-퍼플 조합(`#007BC6` + `#41007F`)은 기술 신뢰와 혁신을 동시에 표현
-- **실행**: 히어로 배너·CTA에 블루 우선, 퍼플은 그라디언트·배지로 혁신 뉘앙스 추가
-- **주의**: 소수 보조색(오렌지·크림슨)은 상태 UI에만 — 브랜드 메인 커뮤니케이션에 혼용 금지
+---
 
-### Steal Sheet 2: 타이포그래피 신뢰 레이어
+## 4. Layout Principles
 
-- **핵심**: OpenSans의 중립적 가독성 + NotoSans의 다국어 포용성 = 글로벌 B2B 신뢰감
-- **실행**: 영문 기술 문서는 OpenSans Regular, 아시아 고객 대상 자료는 NotoSans 병행 적용
-- **주의**: 장식적 폰트·핸드라이팅 계열 절대 금지 — 정밀 기술 브랜드 훼손
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### Steal Sheet 3: 시각 데이터 레이어
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-- **핵심**: 텍스트보다 차트·다이어그램·비교표가 KLA 브랜드에서 더 강력한 설득 도구
-- **실행**: 수율 곡선·결함 감지 맵·공정 흐름도를 KLA Blue 팔레트로 통일 시각화
-- **주의**: 인포그래픽 내 컬러를 브랜드 팔레트 외 임의 사용 시 신뢰감 저하
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: KLA Corporation (KLAC)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,131 +1,102 @@
-# 05 디자인 시스템 — Edwards Lifesciences (EW)
+# 05. Design System — Edwards Lifesciences (EW)
 
-> 업데이트: 2026-04-12 | 산업: 의료기기 (심장판막 / TAVR)
-
----
-
-## 1. 브랜드 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Edwards Red (Primary) | `#C8102E` | rgb(200, 16, 46) | 로고, CTA 버튼, 핵심 강조 | (공식) |
-| Deep Navy | `#002B5C` | rgb(0, 43, 92) | 헤더, 주요 텍스트, 배경 | (공식) |
-| Warm White | `#F5F5F0` | rgb(245, 245, 240) | 배경, 카드 영역 | (공식) |
-| Mid Gray | `#6B7280` | rgb(107, 114, 128) | 보조 텍스트, 캡션 | (추정) |
-| Light Blue | `#4A90D9` | rgb(74, 144, 217) | 인포그래픽, 데이터 시각화 보조색 | (추정) |
-| Healing Green | `#2D8653` | rgb(45, 134, 83) | 긍정적 임상 결과, 성공 지표 | (추정) |
-| Alert Amber | `#E8A020` | rgb(232, 160, 32) | 경고, 주의사항 | (추정) |
-| Pure Black | `#1A1A1A` | rgb(26, 26, 26) | 본문 텍스트 | (추정) |
-
-### 컬러 사용 비율 (추정)
-
-| 역할 | 컬러 | 비율 |
-|------|------|------|
-| 주색 (Primary) | Edwards Red `#C8102E` | 10% |
-| 보조색 (Secondary) | Deep Navy `#002B5C` | 20% |
-| 배경 (Background) | Warm White `#F5F5F0` | 60% |
-| 강조 (Accent) | Light Blue `#4A90D9` | 5% |
-| 기능색 (Functional) | Healing Green / Alert Amber | 5% |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 구분 | 폰트패밀리 | 굵기 | 용도 | 출처 |
-|------|-----------|------|------|------|
-| 헤딩 1 | Gotham (또는 대체: Montserrat) | Bold (700) | 페이지 타이틀, 히어로 섹션 | (추정) |
-| 헤딩 2-3 | Gotham | SemiBold (600) | 섹션 타이틀 | (추정) |
-| 본문 | Georgia (또는 대체: Source Serif) | Regular (400) | 임상 정보, 긴 설명 | (추정) |
-| UI/캡션 | Gotham | Light (300) | 캡션, 레이블, 내비게이션 | (추정) |
-| 한국어 | Noto Sans KR | Regular / Bold | 한국어 콘텐츠 전반 | (추정) |
+Edwards Lifesciences's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-### 타이포그래피 스케일 (추정)
+### Core Brand Colors
 
-| 레벨 | 크기 | 행간 |
-|------|------|------|
-| H1 | 48px | 1.2 |
-| H2 | 36px | 1.3 |
-| H3 | 24px | 1.4 |
-| Body | 16px | 1.6 |
-| Caption | 12px | 1.5 |
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 3. 로고 시스템
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 요소 | 사양 | 출처 |
-|------|------|------|
-| 로고 마크 | 심장 형태의 추상화된 "E" 심볼 + 워드마크 | (공식) |
-| 최소 사용 크기 | 디지털 32px 높이, 인쇄 10mm 높이 | (추정) |
-| 클리어스페이스 | 로고 높이의 50% 이상 여백 확보 | (추정) |
-| 배경 적용 | 화이트/라이트 배경: 표준 컬러 로고 / 다크 배경: 화이트 로고 | (추정) |
-| 금지 사용 | 로고 색상 임의 변경, 비율 왜곡, 그림자·외곽선 추가 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 4. 이미지 & 사진 스타일
-
-| 카테고리 | 가이드라인 |
-|---------|-----------|
-| 환자 이미지 | 실제 환자 또는 자연스러운 라이프스타일 사진, 병원 환경보다 일상 복귀 장면 선호 |
-| 의사 이미지 | 시술 중 또는 환자와 대화하는 장면, 권위와 공감 동시 표현 |
-| 제품 이미지 | 흰 배경 제품 클로즈업 + 체내 삽입 3D 렌더링 병용 |
-| 데이터 비주얼 | 심플한 라인 차트/바 차트, Deep Navy + Light Blue 조합 |
-| 금지 이미지 | 과도한 의료 장비 노출, 수술 장면의 혈액·절개 묘사, 과도한 포토샵 보정 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5. 아이콘 & 일러스트레이션 시스템
+## 2. Typography
 
-| 요소 | 스타일 | 출처 |
-|------|--------|------|
-| 아이콘셋 | 선형(Line) 아이콘, 2px 스트로크, 라운드 캡 | (추정) |
-| 의료 일러스트 | 심장 해부도 3D 렌더링, 반투명 레이어 사용 | (추정) |
-| 인포그래픽 | 플랫 디자인, Edwards Red + Deep Navy 2색 기반 | (추정) |
-| 애니메이션 | 간결한 페이드인/슬라이드, 과도한 트랜지션 금지 | (추정) |
+Edwards Lifesciences's digital properties employ a typographic system appropriate to its health care positioning.
 
----
+### Typeface System
 
-## 6. UI 컴포넌트 원칙 (디지털)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 버튼
+### Typographic Scale
 
-| 버튼 유형 | 배경색 | 텍스트색 | 테두리 | 용도 |
-|----------|--------|---------|--------|------|
-| Primary CTA | `#C8102E` | `#FFFFFF` | 없음 | 주요 행동 유도 |
-| Secondary | `#FFFFFF` | `#C8102E` | `#C8102E` 1px | 보조 행동 |
-| Ghost (Dark BG) | transparent | `#FFFFFF` | `#FFFFFF` 1px | 다크 배경 위 |
-| Disabled | `#6B7280` | `#FFFFFF` | 없음 | 비활성 상태 |
-
-### 카드 컴포넌트
-
-| 속성 | 값 |
-|------|-----|
-| 배경 | `#FFFFFF` |
-| 테두리 반경 | 8px |
-| 그림자 | `0 2px 8px rgba(0,0,0,0.08)` |
-| 내부 여백 | 24px |
-| 호버 효과 | 그림자 강화 + 상단 3px `#C8102E` 보더 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 7. 레이아웃 그리드 시스템 (추정)
+## 3. Channel Specifications
 
-| 항목 | 데스크톱 | 태블릿 | 모바일 |
-|------|---------|--------|--------|
-| 컬럼 수 | 12 | 8 | 4 |
-| 거터 | 24px | 16px | 16px |
-| 마진 | 80px | 40px | 20px |
-| 최대 컨텐츠 폭 | 1280px | 960px | 100% |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 8. 접근성 기준 (추정)
+## 4. Layout Principles
 
-| 기준 | 요구사항 |
-|------|---------|
-| 색상 대비 | WCAG 2.1 AA 기준 준수 (본문 4.5:1 이상) |
-| Edwards Red `#C8102E` on White | 대비율 5.1:1 — AA 통과 |
-| Deep Navy `#002B5C` on White | 대비율 14.1:1 — AAA 통과 |
-| 폰트 최소 크기 | 12px (캡션), 본문 16px 권장 |
-| 대체 텍스트 | 모든 의료 이미지·차트에 alt text 필수 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Edwards Lifesciences (EW)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

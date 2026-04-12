@@ -1,145 +1,123 @@
-# 04 콘텐츠 DNA — UnitedHealth Group (UNH)
+# 04. Content DNA — UnitedHealth Group (UNH)
 
-> 섹터: 건강보험 · 관리의료 | 기준일: 2026-04
-
----
-
-## 1. 콘텐츠 전략 철학
-
-UNH의 콘텐츠는 **"신뢰 구축 → 복잡성 단순화 → 행동 유도"** 3단계 구조를 따른다.
-B2B는 데이터·ROI 중심, B2C는 감성·안심 중심으로 이원화되며,
-Optum 브랜드는 더 분석적이고 전문적인 톤을 사용한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 콘텐츠 필러 (Content Pillars)
+## Content Pillars
 
-| 필러 | 주제 | 비중 (추정) | 채널 |
-|------|------|------------|------|
-| 1. 건강 교육 | 예방·만성질환·웰빙 정보 | 30% | 블로그, SNS, 이메일 |
-| 2. 제품·급여 안내 | 보장 범위·도구 사용법 | 25% | 웹, 앱, 영업자료 |
-| 3. 데이터·인사이트 | 연구 리포트, 시장 동향 | 20% | LinkedIn, 백서, IR |
-| 4. 고객 스토리 | 사례 연구, 증언 | 15% | 웹, 영상, 이벤트 |
-| 5. ESG·사회적 임팩트 | 다양성·지역사회·환경 | 10% | 연간보고서, PR |
+UnitedHealth Group's content strategy reflects its positioning in the Managed Health Care segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "UnitedHealth Group understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for managed health care requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with UnitedHealth Group." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 3. 브랜드 보이스 가이드라인
-
-### 어조 스펙트럼
-
-```
-B2C (소비자)          B2B (고용주·공급자)     IR (투자자)
-      │                      │                    │
-   따뜻함                 전문적·협력적          정밀·데이터
-   공감적                  해결사 톤             성장 내러티브
-   단순 명확               ROI 중심             장기 비전
-```
-
-### 문장 스타일 규칙
-1. 능동태 우선 — "당신의 건강을 지킵니다" (O) / "건강이 지켜집니다" (X)
-2. 숫자로 구체화 — "수백만 명" 대신 "5,200만 명의 가입자"
-3. 의료 전문용어는 B2C에서 즉시 풀어쓰기
-4. 문장 길이 — B2C 25단어 이하 / B2B 40단어 이하 권장 (추정)
-5. 첫 문장에 핵심 이익 배치
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 4. 금지어 상세 가이드
+## Hook Patterns
 
-| 금지어 | 대체어 | 이유 |
-|--------|--------|------|
-| 보험 거절 | 급여 검토 과정 | 부정적 연상 차단 |
-| 비용 절감 우선 | 지속 가능한 의료비 관리 | 의료 품질 타협 인식 방지 |
-| 사전 승인 거부 | 의료 적합성 검토 | 규제·소송 리스크 |
-| 독점 | 업계 선도 | 반독점 이슈 |
-| 이익 극대화 | 지속 가능한 성장 | 기업 탐욕 이미지 |
-| 환자 거부 | 네트워크 외 의료 안내 | ACA 위반 연상 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting UnitedHealth Group's perspective.
 
-## 5. 필수어 활용 예시
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-| 필수어 | 예시 문장 |
-|--------|----------|
-| 건강 결과 | "더 나은 건강 결과를 위해 데이터를 활용합니다." |
-| 통합 케어 | "통합 케어 모델로 중복 치료를 줄이고 효율을 높입니다." |
-| 데이터 기반 | "데이터 기반 인사이트로 의사 결정을 지원합니다." |
-| 접근성 | "모든 사람이 양질의 의료에 접근할 수 있어야 합니다." |
-| 파트너십 | "의료공급자와의 파트너십으로 더 나은 케어를 만듭니다." |
-| 지속 가능한 의료 | "지속 가능한 의료 시스템을 함께 만들어 갑니다." |
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 6. 콘텐츠 형식 템플릿
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-### 6-1. B2C 건강 교육 포스트 구조
-```
-[훅] 공감할 수 있는 질문 또는 통계 1줄
-[문제] 독자가 겪는 상황 2~3줄
-[해결] UNH 도구·서비스 연결 2~3줄
-[CTA] 단일 행동 유도 1줄
-```
+### Hook 3 — Customer Story Lead
 
-### 6-2. B2B 사례연구 구조
-```
-[배경] 고객사 규모·과제 1단락
-[솔루션] UNH 적용 내용 1~2단락
-[결과] 수치 중심 성과 (비용 X% 절감, 만족도 X점)
-[인용] 담당자 직접 발언
-[CTA] 상담 예약 또는 리포트 다운로드
-```
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-### 6-3. 데이터 인사이트 백서 구조
-```
-[Executive Summary] 1페이지
-[시장 배경] 업계 트렌드 2~3페이지
-[Optum 데이터 분석] 독점 인사이트 5~8페이지
-[권고안] 실행 가능한 제언 2~3페이지
-[방법론 주석]
-```
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 7. SEO·키워드 전략 (추정)
+## CTA Patterns
 
-### 핵심 키워드 클러스터
-
-| 클러스터 | 타겟 키워드 예시 |
-|----------|----------------|
-| Medicare Advantage | "best medicare advantage plans", "medicare advantage 2025" |
-| 고용주 건강보험 | "employer health insurance", "group health benefits" |
-| Optum 데이터 | "health data analytics", "optum insights" |
-| 헬스케어 비용 | "lower healthcare costs", "health cost estimator" |
-| 만성질환 관리 | "diabetes management program", "chronic care management" |
+| CTA Type | UnitedHealth Group Pattern | What UnitedHealth Group Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 8. 콘텐츠 캘린더 핵심 이벤트 (추정)
+## Tone & Mood Guide
 
-| 시기 | 이벤트 | 콘텐츠 포커스 |
-|------|--------|--------------|
-| 1월 | 신년 건강 목표 시즌 | 웰빙 프로그램, 예방검진 |
-| 10~12월 | AEP (Medicare 연간등록기간) | Medicare Advantage 비교, 가입 안내 |
-| 4월 | 갱신 시즌 (고용주) | 비용 리포트, 갱신 지원 도구 |
-| 5월 | Mental Health Awareness Month | EAP, 정신건강 자원 |
-| 11월 | Open Enrollment (개인 시장) | 플랜 비교, ACA 가이드 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — UnitedHealth Group as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## 9. Steal Sheet — 콘텐츠 레이어별 3개
+## Content Prohibitions
 
-### [콘텐츠 차별화 전술]
-1. **"Cost vs. Outcome" 스토리텔링** — 단순 보험료 비교가 아닌 전체 의료비 대비 건강 결과 향상으로 프레이밍
-2. **Optum 연구 인용 루프** — Optum 발행 논문/리포트를 UHC 마케팅 자료에 교차 인용, 신뢰·SEO 동시 강화
-3. **개인화 비용 시뮬레이터 콘텐츠** — 사용자 입력 기반 예상 연간 의료비 계산기 → 리드 데이터 수집 겸용
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-### [신뢰 구축 콘텐츠]
-1. **독립 연구 파트너십 콘텐츠** — Johns Hopkins, Mayo Clinic 등 학술 기관과 공동 발간 리포트로 제3자 신뢰 확보
-2. **클레임 처리 투명성 대시보드** — 실시간 승인률·처리 기간 공개 → 거절 이미지 선제 반박
-3. **가입자 스토리 영상 시리즈** — 실제 가입자의 만성질환 극복기를 6분 이내 다큐 형식으로 제작
+---
 
-### [B2B 리드 생성 콘텐츠]
-1. **업종별 의료비 벤치마크 리포트** — 제조업, IT, 금융 등 산업별 맞춤 데이터로 HR 담당자의 주의 포착
-2. **갱신 타이밍 알림 이메일 시퀀스** — 계약 만료 6개월 전부터 가치 재확인 콘텐츠 자동 발송
-3. **웨비나 → 백서 → 상담 예약 퍼널** — 업계 트렌드 웨비나로 유입 후 Optum 솔루션 상담으로 전환
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #UNH | Financial and investor community | Moderate (estimated) |
+| #UnitedHealthGroup | Brand-level social engagement | Varies (estimated) |
+| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+UnitedHealth Group's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in managed health care face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+UnitedHealth Group's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

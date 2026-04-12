@@ -1,123 +1,123 @@
-# 콘텐츠 DNA — Agilent Technologies (A)
+# 04. Content DNA — Agilent Technologies (A)
 
-## 브랜드 스토리 코어
-
-**핵심 내러티브 (공식 기반)**
-Agilent는 1999년 Hewlett-Packard에서 분사하여 측정 과학의 전통을 계승했다.
-"Dare to Know"는 단순한 슬로건이 아니라 과학자들이 알려지지 않은 것을 두려워하지 말고 탐구하라는 철학적 선언이다.
-브랜드는 기기를 파는 것이 아니라 발견(discovery)을 가능하게 하는 인프라를 판다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 기둥 (Content Pillars)
+## Content Pillars
 
-| 기둥 | 비중 (추정) | 설명 | 대표 포맷 |
-|------|------------|------|-----------|
-| 과학적 전문성 | 40% | 애플리케이션 노트, 방법론 가이드 | PDF, 웨비나 |
-| 고객 성공 스토리 | 25% | 사용 사례, ROI 증거 | 케이스 스터디, 영상 |
-| 사고 리더십 | 20% | 업계 트렌드, 규제 변화 예측 | 블로그, 백서 |
-| 제품 교육 | 15% | 기기 사용법, 소프트웨어 튜토리얼 | 짧은 동영상, e-러닝 |
+Agilent Technologies's content strategy reflects its positioning in the Life Sciences Tools & Services segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Agilent Technologies understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for life sciences tools & services requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Agilent Technologies." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 톤 & 보이스 가이드라인
-
-### 공식 채널 (웹사이트, 백서, 애플리케이션 노트)
-- 3인칭 객관 서술 선호
-- 수치와 단위 명확 표기 (예: 감도 0.1 pg/mL, RSD < 1%)
-- 수동태보다 능동태 권장
-- 과장 표현 금지 → 검증된 데이터로 대체
-
-### 소셜 미디어 (LinkedIn, Twitter/X)
-- 1인칭 복수("우리 과학자들은…") 허용
-- 질문형 도입부로 호기심 유발
-- 해시태그: #DareToKnow, #LifeSciences, #Analytical Chemistry (공식)
-- 이모지 최소화 (전문성 유지)
-
-### 이메일 마케팅
-- 제목: 숫자·구체적 혜택 포함 (예: "신규 LC-MS 방법으로 분석 시간 40% 단축")
-- 본문: 역피라미드 구조 (핵심 → 상세 → CTA)
-- CTA 1개 원칙
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 포맷별 명세
+## Hook Patterns
 
-### 애플리케이션 노트 구조 (공식 템플릿 기반)
-```
-1. 요약 (Abstract) — 3~5문장
-2. 도전 과제 (Challenge)
-3. 솔루션 (Solution) — 기기·소모품·소프트웨어 조합
-4. 실험 조건 (Experimental) — 재현 가능한 수준의 상세
-5. 결과 및 토의 (Results & Discussion)
-6. 결론 (Conclusion)
-7. 참고문헌
-```
+### Hook 1 — Industry Challenge Lead
 
-### 케이스 스터디 구조 (추정)
-```
-1. 고객 배경 (1단락)
-2. 해결해야 할 문제
-3. Agilent 솔루션 도입 과정
-4. 정량적 성과 (수치 필수)
-5. 고객 인용문 (Quote)
-6. 다음 단계 / 확장 계획
-```
+Opens with a recognizable industry challenge or pain point before presenting Agilent Technologies's perspective.
 
----
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-## 키워드 전략 (SEO / SEM)
+### Hook 2 — Data-Driven Insight
 
-### 핵심 클러스터
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-| 클러스터 | 대표 키워드 | 경쟁 강도 (추정) |
-|----------|------------|----------------|
-| 기기 카테고리 | HPLC system, GC-MS, ICP-MS | 높음 |
-| 애플리케이션 | pharmaceutical HPLC method, water analysis GC | 중간 |
-| 규정 준수 | 21 CFR Part 11 software, GMP analytical | 중간 |
-| 소모품 | ZORBAX column, Agilent cartridge | 낮음 (브랜드) |
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-### 롱테일 기회 (추정)
-- "HPLC method transfer pharmaceutical validation"
-- "ICP-MS environmental water heavy metals"
-- "OpenLAB CDS 21 CFR Part 11 compliance"
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 캘린더 패턴 (추정)
+## CTA Patterns
 
-| 시기 | 이벤트 | 콘텐츠 집중 |
-|------|--------|------------|
-| 1~2월 | 新연도 예산 집행 시즌 | TCO 비교, 투자 정당화 자료 |
-| 3~4월 | PITTCON 학회 | 신제품 런칭, 기술 발표 |
-| 6월 | ASMS 학회 (MS 특화) | MS 솔루션 집중 캠페인 |
-| 9~10월 | EuroAnalysis, BCEIA | 유럽·아시아 규제 업데이트 |
-| 11~12월 | 연말 예산 소진 시즌 | 빠른 납기, 재고 보유 강조 |
+| CTA Type | Agilent Technologies Pattern | What Agilent Technologies Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## Steal Sheet — 콘텐츠 전략 레이어
+## Tone & Mood Guide
 
-### Steal Sheet Layer 1: 애플리케이션 노트 활용
+### Situation 1 — Product or Service Announcement
 
-| 전술 | 실행 방법 | 기대 효과 |
-|------|-----------|-----------|
-| 방법 라이브러리 SEO | 검색 가능한 방법 데이터베이스 구축 | 오가닉 리드 창출 |
-| 규제 변화 선제 대응 | 신규 규정 발효 30일 전 방법 노트 배포 | 업계 권위 확립 |
-| 경쟁사 기기 전환 노트 | "Waters ACQUITY → Agilent UHPLC" 방법 이전 가이드 | 전환 장벽 제거 |
+**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-### Steal Sheet Layer 2: 영상 콘텐츠
+### Situation 2 — Thought Leadership / Industry Commentary
 
-| 전술 | 실행 방법 | 기대 효과 |
-|------|-----------|-----------|
-| 60초 기기 팁 시리즈 | YouTube Shorts / LinkedIn 짧은 영상 | 사용자 기술 향상, 충성도 |
-| 고객 인터뷰 시리즈 | 저명 연구자와 공동 촬영 | 사회적 증거(social proof) |
-| 라이브 데모 웨비나 | 월 1회 신규 방법 실시간 시연 | MQL 창출 |
+**Mood**: Authoritative insight — Agilent Technologies as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### Steal Sheet Layer 3: 사고 리더십
+### Situation 3 — Crisis or Negative News Response
 
-| 전술 | 실행 방법 | 기대 효과 |
-|------|-----------|-----------|
-| 연례 트렌드 리포트 | "State of Analytical Science" 백서 | PR, 언론 인용 |
-| 규제 가이드 시리즈 | FDA·EMA 업데이트 해설 블로그 | 규정 준수 세그먼트 진입 |
-| 과학자 커뮤니티 포럼 | 사용자 Q&A 플랫폼 운영 | 충성 고객 커뮤니티 구축 |
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #A | Financial and investor community | Moderate (estimated) |
+| #AgilentTechnologies | Brand-level social engagement | Varies (estimated) |
+| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Agilent Technologies's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in life sciences tools & services face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Agilent Technologies's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

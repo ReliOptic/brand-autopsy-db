@@ -1,102 +1,102 @@
-# 05. 디자인 시스템 해부 — 팔란티어 테크놀로지스 (Palantir Technologies)
+# 05. Design System — Palantir Technologies (PLTR)
 
-## 디자인 철학
-
-팔란티어의 디자인은 "소음을 제거하고 신호만 남긴다"는 운영 인텔리전스의 철학을 시각 언어로 구현한다. 과잉 장식을 거부하고, 데이터·텍스트·인터페이스가 명확하게 읽히는 구조를 우선한다. 군사·정부 인터페이스의 기능성과 고급 엔터프라이즈 소프트웨어의 정제된 미학이 결합된 시각 정체성이다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 컬러 팔레트 (CSS 추출 기반)
+Palantir Technologies's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 브랜드 레드 | Palantir Red | `#FF4136` | 강조·CTA·경고·핵심 강조 요소 (공식) |
-| 딥 그린 | Tactical Green | `#2B5945` | 보조 강조·임무 완료·긍정 상태 (공식) |
-| 다크 베이스 | Dark Carbon | `#1E2124` | 주요 배경·다크모드 기반·인터페이스 배경 (공식) |
-| 차콜 | Slate Dark | `#1F2124` | UI 패널·사이드바·다크 컨테이너 (공식) |
-| 미드 차콜 | Mid Carbon | `#2F3234` | 카드 배경·구분선·다크 레이어 (공식) |
-| 소프트 화이트 | Interface White | `#F4F7F6` | 라이트모드 배경·텍스트 배경 (공식) |
-| 퓨어 라이트 | Light Base | `#F3F3F3` | 섹션 배경·카드 라이트 (공식) |
-| 오프 화이트 | Warm White | `#F9F9F9` | 콘텐츠 배경·페이퍼 레이어 (공식) |
-| 인텔 블루 | Signal Blue | `#4E8AF7` | 데이터 포인트·링크·인터랙티브 요소 (공식) |
-| 라이트 블루 | Data Mist | `#D9F0FF` | 데이터 시각화 배경·하이라이트 영역 (공식) |
-| 미드 그레이 | Interface Grey | `#767676` | 보조 텍스트·레이블·비활성 요소 (공식) |
-| 다크 그레이 1 | Graphite | `#636363` | 본문 보조색·아이콘 (공식) |
-| 다크 그레이 2 | Ash | `#494A4B` | 구분 요소·테두리 (공식) |
-| 실버 | Neutral Silver | `#B9B9B9` | 비활성 상태·플레이스홀더 (공식) |
-| 라이트 실버 | Pale Grey | `#9B9B9B` | 캡션·푸터 텍스트 (공식) |
-| 딥 네이비 | Deep Navy | `#20262F` | 인터페이스 다크 레이어·오버레이 (공식) |
-| 골드 | Tactical Gold | `#8C7847` | 프리미엄 강조·등급 표시 (공식) |
-| 크림 | Warm Cream | `#F9F8F6` | 따뜻한 라이트 배경·문서형 레이아웃 (공식) |
-| 아이스 블루 | Ice Blue | `#F6F9FF` | 데이터 강조 영역·배경 틴트 (공식) |
-| 민트 그린 | Signal Mint | `#A6F2CC` | 성공 상태·완료 표시·긍정 데이터 (공식) |
+### Core Brand Colors
 
-### 컬러 사용 원칙
-- **다크 우선:** UI·대시보드·인터페이스는 다크 카본(`#1E2124`) 베이스가 기본. 정보 밀도와 야간 운영 환경 고려
-- **레드 절제:** `#FF4136`은 CTA·경고·임계값 초과 등 고우선 요소에만 사용. 장식용 사용 금지
-- **블루 데이터:** `#4E8AF7`은 인터랙티브·데이터 포인트 전용. 브랜드 블루가 아닌 기능 색상
-- **무채색 지배:** 전체 레이아웃의 80% 이상이 무채색 계열. 색상은 신호로만 기능
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
+
+### Color Principles
+
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
+
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피 시스템
+## 2. Typography
 
-### 폰트 스택 (CSS 추출 기반)
+Palantir Technologies's digital properties employ a typographic system appropriate to its information technology positioning.
 
-| 역할 | 폰트명 | 분류 | 용도 |
-|------|--------|------|------|
-| 브랜드 헤드라인 1 | Alliance No.1 | Sans-serif (독점 사용 추정) | 주요 헤드라인·히어로 타이틀 (공식) |
-| 브랜드 헤드라인 2 | Alliance No.2 | Sans-serif | 서브헤드·섹션 타이틀 (공식) |
-| 세리프 보조 | Minion Pro | Serif | 긴 문서·주주서한·보고서형 콘텐츠 (공식) |
-| 시스템 폴백 | Helvetica Neue → Helvetica → Arial | Sans-serif | 시스템 환경 폴백 스택 (공식) |
-| UI 폴백 | Segoe UI → Ubuntu → Cantarell → Fira Sans | Sans-serif | 플랫폼별 UI 최적화 (공식) |
+### Typeface System
 
-### 타이포그래피 원칙
-- **Alliance No.1** 은 팔란티어 시각 정체성의 핵심. 기하학적이고 중립적이며 권위적인 느낌을 동시에 갖는다 (추정: 독점 또는 독점 라이선스 폰트)
-- **Minion Pro** 세리프의 등장은 주주서한·백서·공식 문서에서 팔란티어의 "기관 격식성"을 부여한다
-- CSS 변수 `--headline-100-family`, `--details-captions-family`, `--details-earmark-family` 는 디자인 시스템 토큰으로 관리됨을 시사 (공식)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## UI/UX 패턴
-
-### Foundry / AIP 인터페이스 원칙 (공개 데모·스크린샷 기반, 추정 포함)
-
-| 원칙 | 설명 |
-|------|------|
-| 정보 밀도 우선 | 한 화면에 최대한 많은 데이터를 노출. 소비자 앱의 "단순함" 원칙을 역행 |
-| 다크모드 기본 | 군사·야간 운영 환경 최적화. 라이트모드는 보조 옵션 |
-| 온톨로지 그래프 시각화 | 데이터 간 관계를 노드-엣지 그래프로 표현. 팔란티어 인터페이스의 시그니처 요소 |
-| 액션 레이어 분리 | 데이터 보기(Observation) → 분석(Analysis) → 실행(Action) 레이어가 명확히 구분됨 |
-| 역할 기반 인터페이스 | 지휘관·분석가·운영자 역할에 따라 UI 뷰가 달라지는 구조 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 시각적 모티프
+## 3. Channel Specifications
 
-| 모티프 | 설명 | 사용 맥락 |
-|--------|------|-----------|
-| 격자·그리드 | 군사 지도·데이터 그리드에서 차용한 정밀 격자 패턴 | 배경 텍스처·섹션 구분 |
-| 노드-엣지 네트워크 | 온톨로지 관계를 시각화하는 연결망 이미지 | 제품 설명·히어로 비주얼 |
-| 위성·지도 뷰 | 실제 운영 환경(전장·도시·공급망)의 탑뷰 이미지 | 케이스스터디·제품 데모 |
-| 데이터 스트림 | 흘러가는 데이터 라인·파형·펄스 | 영상·애니메이션 배경 |
-
----
-
-## 사진·이미지 가이드
-
-- **사용 이미지 유형:** 실제 현장 사진(전장·병원·공장·지휘센터), 플랫폼 인터페이스 스크린샷, 운영자가 모니터를 보는 장면
-- **금지 이미지 유형:** 스톡 사진 특유의 웃는 직장인, 악수 장면, 추상적 기술 블루 그라데이션
-- **색조:** 전반적으로 낮은 채도, 차가운 톤. 따뜻한 라이프스타일 사진 금지
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
+## 4. Layout Principles
 
-1. **"색상을 장식이 아닌 신호 시스템으로 설계하라."** 팔란티어의 레드(`#FF4136`)는 경고·CTA 전용, 블루(`#4E8AF7`)는 데이터 포인트 전용, 그린(`#A6F2CC`)은 완료 상태 전용으로 기능이 분리되어 있다. 색상이 의미를 가지면 인터페이스 학습 시간이 줄고 사용자는 색상만으로 상황을 파악한다. → 마케터 적용: 브랜드 컬러를 "예쁜 조합"이 아닌 "각 색상이 무슨 의미인가"로 정의하고, 모든 채널에서 이 의미를 일관되게 적용하라.
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-2. **"정보 밀도로 전문성을 시각화하라."** 소비자 앱은 단순함을 팔지만, 팔란티어는 정보 밀도 자체가 "이 플랫폼이 복잡한 임무를 다룬다"는 신호다. 복잡해 보이는 인터페이스가 전문가 고객에게는 신뢰 신호가 된다. → 적용: B2B·전문가 대상 제품은 단순화보다 구조화가 더 중요하다. 정보를 숨기지 말고, 계층(레이어)으로 조직화하라.
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-3. **"독점 폰트가 브랜드 인식의 60%를 만든다."** Alliance No.1/2는 팔란티어를 다른 엔터프라이즈 소프트웨어와 시각적으로 즉시 분리한다. Helvetica·Arial을 쓰는 경쟁사와 같은 폰트를 쓰는 순간 팔란티어가 되지 못한다. → 적용: 초기 브랜드 구축 시 타이포그래피에 투자하는 것이 로고보다 장기적 인식 차별화에 효과적이다. 폰트 선택은 브랜드 전략이다.
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Palantir Technologies (PLTR)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

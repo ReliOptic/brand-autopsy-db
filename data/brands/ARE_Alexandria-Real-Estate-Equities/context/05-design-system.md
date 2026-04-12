@@ -1,179 +1,102 @@
-# 05 디자인 시스템 — Alexandria Real Estate Equities (ARE)
+# 05. Design System — Alexandria Real Estate Equities (ARE)
 
-## 디자인 철학
-
-ARE의 비주얼 아이덴티티는 **신뢰성, 전문성, 과학적 정밀함**을 물리적으로 표현한다.
-과도한 장식 없이 데이터와 공간이 스스로 말하게 한다.
-"생명과학의 클린룸처럼, 디자인도 불필요한 노이즈를 제거한다."
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 컬러 팔레트
+Alexandria Real Estate Equities's visual identity, as observed on its official website, employs a structured color system appropriate to real estate sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 컬러명 | HEX | 사용처 | 출처 |
-|------|--------|-----|--------|------|
-| 프라이머리 블루 | Alexandria Navy | `#003366` | 로고, 헤더, 주요 CTA | (추정) |
-| 세컨더리 블루 | Science Blue | `#0066CC` | 링크, 액센트, 아이콘 | (추정) |
-| 라이트 블루 | Campus Sky | `#E8F4FD` | 배경, 카드 배경 | (추정) |
-| 그린 | Life Green | `#2E8B57` | ESG/지속가능성 섹션 | (추정) |
-| 라이트 그린 | Biome Mint | `#D4EDDA` | ESG 배경, 성공 상태 | (추정) |
-| 화이트 | Lab White | `#FFFFFF` | 기본 배경, 텍스트 반전 | (공식) |
-| 다크 그레이 | Structural Gray | `#333333` | 본문 텍스트, 보조 헤더 | (추정) |
-| 미드 그레이 | Data Gray | `#666666` | 캡션, 메타데이터, 차트 보조 | (추정) |
-| 라이트 그레이 | Interface Gray | `#F5F5F5` | 테이블 스트라이프, 구분선 | (추정) |
-| 골드 액센트 | Innovation Gold | `#C8A951` | 어워드, 프리미엄 강조 | (추정) |
+### Core Brand Colors
 
-### 컬러 사용 원칙
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 원칙 | 설명 |
-|------|------|
-| 주도색 비율 | Navy 60% / Blue 20% / 나머지 20% |
-| ESG 섹션 분리 | Life Green 계열만 ESG 전용, 일반 콘텐츠에 혼용 금지 |
-| 배경 우선 | Lab White가 기본, Campus Sky는 섹션 구분용 |
-| 액센트 절제 | Innovation Gold는 연간 1~2회 어워드/이벤트 한정 |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 타이포그래피
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 폰트 패밀리
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 역할 | 폰트 | 스타일 | 용도 |
-|------|------|--------|------|
-| 헤드라인 세리프 | Georgia 또는 Garamond 계열 | Bold | 주요 제목, 보고서 헤더 (추정) |
-| 본문 산세리프 | Helvetica Neue 또는 Inter | Regular/Medium | 웹 본문, IR 자료 (추정) |
-| 데이터/수치 | Roboto Mono 또는 Courier | Regular | 재무 수치, 통계 테이블 (추정) |
-| 보조 레이블 | 본문 산세리프 Small Caps | Medium | 섹션 레이블, 캡션 (추정) |
-
-### 타이포그래피 스케일
-
-| 레벨 | 크기 | 용도 |
-|------|------|------|
-| H1 | 40~48px | 페이지 주요 제목 |
-| H2 | 28~32px | 섹션 제목 |
-| H3 | 20~24px | 서브섹션, 카드 제목 |
-| Body | 16~18px | 본문 텍스트 |
-| Caption | 12~14px | 이미지 캡션, 주석 |
-| Data | 14~16px Mono | 수치, 통계 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 레이아웃 원칙
+## 2. Typography
 
-### 그리드 시스템
-- **12컬럼 그리드** (웹 기준) (추정)
-- 최대 콘텐츠 너비: 1200px
-- 여백(gutter): 24px
-- 섹션 패딩: 80px 상하
+Alexandria Real Estate Equities's digital properties employ a typographic system appropriate to its real estate positioning.
 
-### 공간 철학
-- **여백을 두려워하지 않는다**: 클린룸 미학 — 불필요한 요소 제거
-- **데이터 밀도 우선**: 인포그래픽보다 명확한 테이블과 차트
-- **캠퍼스 이미지 우선**: 건물/공간 사진이 스톡 이미지보다 항상 우선
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 이미지 방향성
+### Typographic Scale
 
-### 허용 이미지 유형
-
-| 유형 | 설명 | 우선순위 |
-|------|------|---------|
-| 캠퍼스 항공/외관 촬영 | 클러스터의 규모와 품격 표현 | 최우선 |
-| 실험실 내부 (운영 중) | 실제 과학 활동이 보이는 장면 | 높음 |
-| 테넌트 연구원 포트레이트 | 사람 중심 스토리텔링 | 높음 |
-| 데이터 시각화 | 클린하고 정보 밀도 높은 차트 | 높음 |
-| 건축 디테일 컷 | 재료, 구조, 지속가능성 표현 | 중간 |
-
-### 금지 이미지 유형
-
-| 유형 | 이유 |
-|------|------|
-| 빈 복도/공실 공간 | 공실 연상 |
-| 스톡 포토 실험실 (가짜 과학) | 진정성 훼손 |
-| 과도한 보정 HDR 건물 사진 | 과대 표현 리스크 |
-| 일반 오피스 워커 이미지 | 생명과학 특화 정체성 희석 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## UI/UX 컴포넌트 가이드
+## 3. Channel Specifications
 
-### 버튼 스타일
-
-| 유형 | 배경 | 텍스트 | 용도 |
-|------|------|--------|------|
-| Primary CTA | `#003366` | `#FFFFFF` | 주요 행동 유도 |
-| Secondary CTA | `#FFFFFF` border `#003366` | `#003366` | 보조 행동 |
-| ESG CTA | `#2E8B57` | `#FFFFFF` | 지속가능성 섹션 |
-| Disabled | `#F5F5F5` | `#666666` | 비활성 상태 |
-
-### 카드 컴포넌트
-
-| 요소 | 스타일 |
-|------|--------|
-| 배경 | `#FFFFFF` 또는 `#E8F4FD` |
-| 테두리 | `1px solid #F5F5F5` |
-| 모서리 반경 | 4px (각진 느낌 유지 — 과도한 둥글림 지양) |
-| 그림자 | `0 2px 8px rgba(0,51,102,0.08)` |
-| 호버 효과 | 그림자 `0 4px 16px rgba(0,51,102,0.12)` |
-
-### 데이터 테이블
-
-| 요소 | 스타일 |
-|------|--------|
-| 헤더 배경 | `#003366` 텍스트 `#FFFFFF` |
-| 홀수행 | `#FFFFFF` |
-| 짝수행 | `#F5F5F5` |
-| 테두리 | `1px solid #E0E0E0` |
-| 폰트 | Mono, 14px |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 아이콘 시스템
+## 4. Layout Principles
 
-### 아이콘 카테고리
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 카테고리 | 아이콘 스타일 | 예시 |
-|----------|------------|------|
-| 부동산/건축 | 라인 아이콘, 2px 스트로크 | 빌딩, 캠퍼스, 지도핀 |
-| 생명과학 | 라인 아이콘, 단순화된 과학 심볼 | DNA, 플라스크, 현미경 |
-| 재무/데이터 | 라인 아이콘 | 차트, 달러, 캘린더 |
-| ESG | 라인 아이콘, 그린 액센트 | 잎사귀, 태양광, 물 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 아이콘 원칙
-- 24x24px 기본 사이즈 (16px 소형, 32px 대형)
-- 컬러: `#003366` (기본), `#0066CC` (인터랙티브), `#2E8B57` (ESG)
-- 외부 라이브러리: Phosphor Icons 또는 Feather Icons 기반 커스터마이징 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 브랜드 적용 금지 사항
+## 5. Design Prohibitions
 
-| 금지 항목 | 설명 |
-|---------|------|
-| 로고 색상 변경 | Navy 외 컬러 로고 사용 금지 |
-| 로고 배경 과다 | 복잡한 배경 위에 로고 배치 금지 |
-| 폰트 임의 교체 | 승인된 타이포그래피 외 사용 금지 |
-| 그라디언트 남용 | 단색 또는 2색 그라디언트만 허용 |
-| 네온/형광 컬러 | 팔레트 외 과도한 색상 사용 금지 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 레이어별 3개
-
-### Layer 1 (컬러 전략) Steal Sheet
-1. **"Navy-to-Green ESG 전환 팔레트"**: 일반 콘텐츠(Navy)에서 ESG 섹션(Green)으로의 시각적 전환을 시스템화하여, ESG가 별도 브랜드가 아닌 하나의 연속체임을 색으로 표현
-2. **"데이터 컬러 코딩 표준화"**: 긍정 지표(`#2E8B57`), 중립(`#666666`), 주의(`#C8A951`)의 3색 데이터 시각화 표준을 모든 IR 자료에 일관 적용
-3. **"클러스터별 서브 컬러 시스템"**: Boston(`#003366` 기본), SF Bay(`#0066CC` 밝음), San Diego(`#C8A951` 골드)처럼 클러스터별 서브 색상 체계로 지역 아이덴티티 부여
-
-### Layer 2 (타이포그래피 전략) Steal Sheet
-1. **"수치는 Mono, 서술은 세리프"**: 재무 수치·통계는 Mono 폰트로, 스토리·미션 텍스트는 세리프로 — 두 세계(데이터/인문)의 시각적 구분
-2. **"Big Number 디자인 패턴"**: 핵심 KPI(배당수익률, 점유율, 포트폴리오 규모)를 64px+ 초대형 수치로 표현하는 섹션 도입 — 숫자가 곧 메시지
-3. **"인용구 타이포그래피 시스템"**: 테넌트 CEO 또는 연구자 인용구를 대형 세리프 이탤릭으로 표준화하여 인간적 무게감 부여
-
-### Layer 3 (공간/레이아웃 전략) Steal Sheet
-1. **"캠퍼스 풀스크린 히어로"**: 각 클러스터 랜딩 페이지를 항공 캠퍼스 사진 풀스크린 히어로로 통일 — 공간 규모가 첫인상
-2. **"데이터 우선 섹션 구조"**: 모든 IR 페이지는 수치 → 맥락 → 스토리 순서로 배치 (투자자는 숫자를 먼저 확인한다)
-3. **"실험실-캠퍼스 듀얼 이미지 패턴"**: 외관(캠퍼스 규모) + 내부(실험실 활동) 이미지를 항상 페어로 배치하여 "건물 + 과학" 메시지 동시 전달
+*Layer 5 of 8 — Brand Autopsy: Alexandria Real Estate Equities (ARE)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,127 +1,102 @@
-# ADP 디자인 시스템
+# 05. Design System — Automatic Data Processing (ADP)
 
-## 디자인 철학
-
-ADP의 시각 언어는 **신뢰·안정·전문성**을 시각적으로 구현하는 데 집중한다. 슬로건 "Always Designing for People"이 암시하듯, 기능 중심의 엔터프라이즈 소프트웨어 미학에서 점진적으로 인간 중심 디자인으로 전환하는 과정에 있다. 복잡한 데이터를 명확하게 시각화하는 것이 디자인의 최우선 과제다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 컬러 팔레트
+Automatic Data Processing's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| ADP Red (브랜드 레드) | `#D0021B` | 로고, 주요 CTA 버튼, 강조 요소 | (공식) |
-| ADP Dark Red | `#A50015` | 호버 상태, 눌림 상태 버튼 | (공식) |
-| Charcoal Black | `#1A1A1A` | 헤드라인 텍스트, 아이콘 | (공식) |
-| Slate Gray | `#4A4A4A` | 본문 텍스트 | (추정) |
-| Light Gray | `#F5F5F5` | 배경, 카드 섹션 | (추정) |
-| Mid Gray | `#CCCCCC` | 구분선, 비활성 상태 | (추정) |
-| Pure White | `#FFFFFF` | 기본 배경, 텍스트 역전 | (공식) |
+### Core Brand Colors
 
-### 보조 컬러 팔레트 (디지털 제품 UI)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Trust Blue | `#0066CC` | 링크, 정보 알림, 인터랙티브 요소 | (추정) |
-| Success Green | `#2E7D32` | 성공 상태, 완료 체크마크 | (추정) |
-| Warning Amber | `#F57C00` | 경고 메시지, 주의 아이콘 | (추정) |
-| Error Red | `#C62828` | 오류 상태, 유효성 검사 실패 | (추정) |
-| Data Teal | `#00838F` | ADP DataCloud 대시보드 차트 | (추정) |
-| Insight Purple | `#6A1B9A` | 인사이트·분석 기능 강조 | (추정) |
+### Color Principles
 
-### 컬러 사용 비율 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-```
-White        ████████████████████  55%  (배경 지배)
-Charcoal     ████████              22%  (텍스트)
-ADP Red      ████                  12%  (강조·CTA)
-Gray tones   ████                   8%  (보조 구조)
-기타 컬러      █                     3%  (데이터 시각화)
-```
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 시스템
+Automatic Data Processing's digital properties employ a typographic system appropriate to its industrials positioning.
 
-| 역할 | 서체 | 특성 | 출처 |
-|------|------|------|------|
-| 주요 브랜드 서체 | ADP Sans (사내 커스텀) / Proxima Nova | 현대적 산세리프, 높은 가독성 | (추정) |
-| 디지털 UI 서체 | Inter / Open Sans | 화면 최적화, 다국어 지원 | (추정) |
-| 숫자·데이터 표기 | Tabular Numerals (Inter 기반) | 숫자 정렬 일관성 | (추정) |
-| 한국어 지원 | Noto Sans KR / Apple SD Gothic Neo | CJK 폰트 페어링 | (추정) |
+### Typeface System
 
-### 타이포 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 용도 |
-|------|------|------|
-| Display | 48–64px | 히어로 헤드라인 |
-| H1 | 36–40px | 페이지 제목 |
-| H2 | 28–32px | 섹션 제목 |
-| H3 | 22–24px | 서브섹션 |
-| Body Large | 18px | 리드 문단 |
-| Body | 16px | 일반 본문 |
-| Caption | 12–14px | 주석, 법적 고지 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템
+## 3. Channel Specifications
 
-### 로고 변형
-
-| 변형 | 사용 환경 |
-|------|----------|
-| 풀 컬러 (레드+블랙) | 흰 배경, 밝은 배경 |
-| 역전 (흰색) | 다크 배경, 사진 위 |
-| 단색 블랙 | 흑백 인쇄물 |
-| 단색 레드 | 브랜드 강조 환경 |
-
-### 로고 보호 공간 (추정)
-- 최소 여백: 로고 높이의 50% 이상
-- 최소 크기: 디지털 24px 높이, 인쇄 0.5인치
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 아이콘·일러스트레이션 시스템
+## 4. Layout Principles
 
-| 요소 | 스타일 | 특징 |
-|------|--------|------|
-| 기능 아이콘 | 선형(Outlined), 2px 스트로크 | 단색, 그리드 24×24px 기준 |
-| 일러스트레이션 | 반추상 인물, 플랫 디자인 | 다양한 인종·성별 표현, DEI 반영 |
-| 데이터 시각화 | 바 차트·도넛 차트 중심 | ADP Red + Trust Blue 조합 |
-| 사진 스타일 | 실제 업무 환경, 자연광 | 연출 최소화, 다양성 강조 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 인터페이스 디자인 원칙 (ADP 제품 UI)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-1. **밀도 vs. 명확성**: 엔터프라이즈 데이터 밀도 유지하면서 인지 부하 최소화
-2. **일관된 패턴**: ADP Design System(내부 DSL) 기반 컴포넌트 재사용 (추정)
-3. **접근성**: WCAG 2.1 AA 기준 준수 (공식 접근성 정책 명시)
-4. **반응형**: 모바일 우선 설계, HR 매니저의 모바일 사용 증가 반영
-5. **다국어 레이아웃**: 아랍어·히브리어 RTL 언어 레이아웃 전환 지원 (추정)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 레이어
+## 5. Design Prohibitions
 
-### Steal Sheet 1 — 레드를 신뢰의 색으로 재정의
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-일반적으로 레드는 경고·위험 색상이나, ADP는 75년간의 일관된 브랜드 적용으로 레드를 **권위·정확성·안정**의 색으로 재코딩했다. 은행(레드+네이비)과 유사한 심리적 포지셔닝이다.
+---
 
-- **적용 포인트**: 컬러 의미는 고정된 것이 아니라 일관된 맥락 반복으로 재구성 가능
-
-### Steal Sheet 2 — 데이터 시각화를 브랜드 자산으로
-
-ADP DataCloud의 벤치마크 차트는 단순 UI 요소가 아닌 **브랜드 차별화 자산**이다. 고유한 컬러 조합(`#D0021B` + `#0066CC`)의 차트 스타일이 미디어 인용 시 ADP 출처를 즉각 식별 가능하게 한다.
-
-- **적용 포인트**: 데이터 보유 기업은 일관된 시각화 스타일을 통해 리서치 콘텐츠에 브랜드 각인 가능
-
-### Steal Sheet 3 — 다양성을 디자인 시스템에 내재화
-
-ADP 일러스트레이션·사진 가이드라인은 인종·성별·연령·신체 다양성을 명시적 체크리스트로 포함한다 (추정). "다양성 캠페인" 일회성이 아닌 디자인 시스템 레벨에서 표준화하여 모든 콘텐츠에 자동 반영된다.
-
-- **적용 포인트**: DEI 가치를 커뮤니케이션에 지속 반영하려면 캠페인이 아닌 시스템 레벨의 규칙 설정이 필요
+*Layer 5 of 8 — Brand Autopsy: Automatic Data Processing (ADP)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

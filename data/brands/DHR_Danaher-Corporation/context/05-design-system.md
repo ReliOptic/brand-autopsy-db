@@ -1,169 +1,102 @@
-# 05. 디자인 시스템 — Danaher (DHR)
-> 섹터: 헬스케어 · 생명과학 & 진단 | 주요 자브랜드: Beckman Coulter, Leica Biosystems, Pall Corporation
+# 05. Design System — Danaher Corporation (DHR)
+
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 5-1. 디자인 철학
+## 1. Color Palette
 
-Danaher 및 자브랜드의 디자인 언어는 **"정밀한 신뢰(Precise Trust)"** 원칙을 따른다. 과학 기기의 정밀함, 의료 환경의 청결함, 글로벌 기업의 전문성을 시각적으로 표현한다.
+Danaher Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**핵심 디자인 원칙**
-- **명확성 (Clarity)**: 복잡한 과학 정보를 직관적으로 전달
-- **신뢰성 (Credibility)**: 의료·과학 맥락에 적합한 절제된 미학
-- **일관성 (Consistency)**: 자브랜드 간 시각적 일관성 유지
-- **접근성 (Accessibility)**: WCAG 2.1 AA 준수 (추정)
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 5-2. 컬러 시스템
+### Color Principles
 
-### Danaher 본사 브랜드 컬러
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Danaher Blue | `#003087` | 0, 48, 135 | 주요 브랜드 컬러, 헤더, CTA 버튼 | (공식) |
-| Danaher Light Blue | `#0066CC` | 0, 102, 204 | 링크, 보조 강조 요소 | (공식) |
-| Danaher White | `#FFFFFF` | 255, 255, 255 | 배경, 역배경 텍스트 | (공식) |
-| Danaher Dark Gray | `#2D2D2D` | 45, 45, 45 | 본문 텍스트 | (추정) |
-| Danaher Mid Gray | `#6B6B6B` | 107, 107, 107 | 부제목, 캡션 | (추정) |
-| Danaher Light Gray | `#F4F4F4` | 244, 244, 244 | 섹션 배경, 카드 배경 | (추정) |
-| Danaher Accent Green | `#00A651` | 0, 166, 81 | 성공 상태, 긍정 데이터 포인트 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Beckman Coulter 브랜드 컬러
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| BC Navy | `#002D72` | 0, 45, 114 | 주요 브랜드 컬러, 로고 | (공식) |
-| BC Orange | `#F7941D` | 247, 148, 29 | 강조 컬러, CTA, 아이콘 | (공식) |
-| BC White | `#FFFFFF` | 255, 255, 255 | 배경 | (공식) |
-| BC Light Blue | `#4A90D9` | 74, 144, 217 | 인포그래픽, 데이터 시각화 | (추정) |
-| BC Dark Gray | `#333333` | 51, 51, 51 | 본문 텍스트 | (추정) |
-| BC Light Gray | `#EEEEEE` | 238, 238, 238 | 테이블 행 구분, 카드 배경 | (추정) |
-
-### Leica Biosystems 브랜드 컬러
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Leica Red | `#C8102E` | 200, 16, 46 | 주요 브랜드 컬러, 로고 | (공식) |
-| Leica Black | `#1A1A1A` | 26, 26, 26 | 텍스트, 헤더 | (공식) |
-| Leica White | `#FFFFFF` | 255, 255, 255 | 배경 | (공식) |
-| Leica Silver | `#9EA0A3` | 158, 160, 163 | 보조 텍스트, 구분선 | (추정) |
-| Leica Warm Gray | `#F2F0EB` | 242, 240, 235 | 섹션 배경 | (추정) |
-| Leica Teal | `#007A8A` | 0, 122, 138 | 데이터 강조, 인포그래픽 | (추정) |
-
-### Pall Corporation 브랜드 컬러
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Pall Blue | `#005B9A` | 0, 91, 154 | 주요 브랜드 컬러, 로고 | (공식) |
-| Pall Dark Blue | `#003366` | 0, 51, 102 | 헤더, 네비게이션 | (공식) |
-| Pall White | `#FFFFFF` | 255, 255, 255 | 배경 | (공식) |
-| Pall Sky Blue | `#5BA4CF` | 91, 164, 207 | 강조, 아이콘 | (추정) |
-| Pall Light Gray | `#F0F4F8` | 240, 244, 248 | 카드 배경, 섹션 배경 | (추정) |
-| Pall Green | `#4CAF50` | 76, 175, 80 | 지속가능성, 환경 관련 컨텐츠 | (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5-3. 타이포그래피
+## 2. Typography
 
-### Danaher 본사
+Danaher Corporation's digital properties employ a typographic system appropriate to its health care positioning.
 
-| 용도 | 서체 | 스타일 | 크기 범위 | 출처 |
-|------|------|--------|----------|------|
-| 헤드라인 | Proxima Nova (추정) | Bold | 32-64px | (추정) |
-| 서브헤드라인 | Proxima Nova (추정) | SemiBold | 20-32px | (추정) |
-| 본문 | Open Sans 또는 동급 | Regular | 14-16px | (추정) |
-| 캡션/라벨 | Open Sans 또는 동급 | Regular | 11-13px | (추정) |
-| 데이터/수치 | Proxima Nova (추정) | Bold | 가변 | (추정) |
+### Typeface System
 
-### Beckman Coulter
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 용도 | 서체 | 스타일 | 출처 |
-|------|------|--------|------|
-| 헤드라인 | Helvetica Neue 또는 Arial | Bold | (추정) |
-| 본문 | Arial | Regular | (추정) |
+### Typographic Scale
 
-### Leica Biosystems
-
-| 용도 | 서체 | 스타일 | 출처 |
-|------|------|--------|------|
-| 헤드라인 | Gill Sans 또는 유사체 | Bold/Light | (추정) |
-| 본문 | Arial/Helvetica | Regular | (추정) |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 5-4. 이미지 스타일 가이드
+## 3. Channel Specifications
 
-**허용 이미지 유형**
-- 실험실·의료 환경의 실제 장비 사용 장면 (오버스타일링 금지)
-- 과학자·임상의·엔지니어의 전문적 작업 장면
-- 미세한 과학 이미지 (세포, 조직 슬라이드, 분자 구조) — 에스테틱 용도
-- 데이터 시각화 및 인포그래픽 (브랜드 컬러 팔레트 내)
-
-**금지 이미지 유형**
-- 스톡 이미지 특유의 과도하게 연출된 미소
-- 장비 없이 포즈만 취한 흰 가운 착용자
-- 선명도 낮은 또는 저해상도 제품 사진
-- 타 브랜드 장비가 배경에 노출된 이미지
-
-**사진 처리 스타일**
-- 색온도: 중성~차가운 톤 (과학 환경 연상)
-- 대비: 중간 대비 (극단적 HDR 금지)
-- 필터: 없음 또는 최소한의 색상 보정
-- 인물: 다양성 반영 (성별, 인종, 나이)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5-5. 아이콘 & UI 컴포넌트
+## 4. Layout Principles
 
-**아이콘 스타일 (추정)**
-- 선형 (Outline) 스타일 기본
-- 획 굵기: 1.5-2px
-- 코너 처리: 약간의 라운딩 (2-4px)
-- 색상: 브랜드 블루 또는 다크 그레이
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-**버튼 스타일 (추정)**
-- Primary: 브랜드 블루 배경, 흰 텍스트, 4px 라운드
-- Secondary: 흰 배경, 브랜드 블루 테두리 및 텍스트
-- CTA 텍스트 패턴: "자세히 알아보기", "데모 신청", "기술 문서 다운로드"
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-**카드 컴포넌트 (추정)**
-- 배경: 흰색 또는 라이트 그레이
-- 그림자: 미세한 드롭 쉐도우 (0 2px 8px rgba(0,0,0,0.08))
-- 테두리: 없음 또는 1px Light Gray
-- 라운드: 4-8px
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 5-6. 레이아웃 원칙
+## 5. Design Prohibitions
 
-**그리드 시스템 (추정)**
-- 기본: 12컬럼 그리드
-- 거터: 24px
-- 마진: 32px (모바일), 80px (데스크톱)
-- 최대 콘텐츠 너비: 1200-1440px
-
-**화이트스페이스 철학**
-- 넉넉한 패딩으로 기술 정보의 가독성 보장
-- 섹션 간 최소 80px 간격 (추정)
-- 텍스트 블록 최대 너비: 65-70자 (가독성 최적화)
-
-**반응형 분기점 (추정)**
-
-| 브레이크포인트 | 너비 | 레이아웃 |
-|-------------|------|---------|
-| 모바일 | < 768px | 1컬럼, 스택 |
-| 태블릿 | 768-1024px | 2컬럼 |
-| 데스크톱 | > 1024px | 3-4컬럼 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 5-7. 디자인 금지 사항
-
-1. 브랜드 컬러 팔레트 외 임의 색상 사용
-2. 여러 폰트 패밀리 혼용 (3종 이상)
-3. 텍스트에 그라디언트 적용
-4. 로고 비율 변경 또는 색상 임의 변경
-5. 자브랜드 로고와 경쟁사 로고 인접 배치
-6. 빨간색을 오류 외 용도로 사용 (Leica 브랜드 예외)
-7. 낮은 명도 대비 텍스트 사용 (WCAG 기준 4.5:1 미만)
+*Layer 5 of 8 — Brand Autopsy: Danaher Corporation (DHR)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

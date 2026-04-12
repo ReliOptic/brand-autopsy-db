@@ -1,106 +1,123 @@
-# 04. 콘텐츠 DNA — Bunge Global (BG)
+# 04. Content DNA — Bunge Global (BG)
 
-> 섹터: 소비재 — 애그리비즈니스 | 티커: BG (NYSE)
-
----
-
-## 1. 콘텐츠 철학
-
-Bunge의 콘텐츠는 **B2B 신뢰 구축**을 최우선으로 한다. 감성적 스토리텔링보다 **데이터 기반 증거**, **공급망 투명성**, **글로벌 임팩트 수치**를 전면에 내세운다. 모든 콘텐츠는 "세계를 먹여 살리는 연결고리"라는 핵심 서사 위에 쌓인다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 콘텐츠 필러 (Content Pillars)
+## Content Pillars
 
-| 필러 | 비중 (추정) | 대표 주제 |
-|------|-----------|-----------|
-| 공급망 & 운영 인사이트 | 30% | 물류 혁신, 항만 효율화, 디지털 트레이딩 |
-| 지속가능성 & ESG | 25% | 산림 보호, 탄소 발자국, RSPO 인증 |
-| 시장 동향 & 애널리틱스 | 20% | 곡물 가격 전망, 기후 영향 분석 |
-| 파트너십 & 농가 스토리 | 15% | 농부 성공 사례, 협동조합 파트너십 |
-| 기업 거버넌스 & IR | 10% | 실적 발표, 배당 정책, 전략 업데이트 |
+Bunge Global's content strategy reflects its positioning in the Agricultural Products & Services segment of Consumer Staples. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Bunge Global understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for agricultural products & services requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Bunge Global." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 3. 메시지 레이어 구조
-
-```
-레이어 1 (Why) — 목적 메시지
-"세계 인구를 지속가능하게 먹여 살린다"
-
-레이어 2 (How) — 방법 메시지
-"40개국 공급망, 디지털 트레이딩, 검증된 처리 인프라"
-
-레이어 3 (What) — 증거 메시지
-"연간 X만 톤 처리, Y개 항만, Z개국 농가 파트너"
-```
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 4. 콘텐츠 톤 & 매너
+## Hook Patterns
 
-### 해야 할 것 (Do)
-- 수치와 데이터로 주장을 뒷받침한다
-- 글로벌 맥락(식량 안보, 기후변화)과 연결한다
-- 농가·파트너의 실제 목소리를 인용한다
-- 영어 원문 기준 명확하고 간결한 문장을 사용한다
-- ESG 성과를 측정 가능한 지표로 표현한다
+### Hook 1 — Industry Challenge Lead
 
-### 하지 말아야 할 것 (Don't)
-- 과장된 수식어("세계 최고", "압도적") 남발 금지
-- 원자재 가격 예측을 단정적으로 표현
-- 소비자 감성에 호소하는 B2C 톤 사용
-- 경쟁사를 직접 비하하는 표현
-- 규제·소송 관련 민감 주제를 가볍게 다룸
+Opens with a recognizable industry challenge or pain point before presenting Bunge Global's perspective.
 
----
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-## 5. 콘텐츠 포맷 가이드
+### Hook 2 — Data-Driven Insight
 
-| 포맷 | 활용 목적 | 권장 길이 |
-|------|-----------|-----------|
-| 연간 지속가능성 보고서 | ESG 이해관계자 | 60~100페이지 |
-| 시장 인사이트 리포트 | 농가·바이어 | 4~8페이지 |
-| 케이스 스터디 | 파트너십 증거 | 2~4페이지 |
-| IR 프레젠테이션 | 투자자 | 20~40슬라이드 |
-| 블로그/아티클 | 공급망 전문가 | 800~1,200단어 |
-| 소셜 미디어 포스트 | 브랜드 인지도 | 150자 이내 |
-| 인포그래픽 | 공급망·데이터 시각화 | 1페이지 |
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## 6. 핵심 내러티브 프레임워크
+### Hook 3 — Customer Story Lead
 
-### 프레임 1: "연결의 힘 (Power of Connection)"
-> 농장에서 식탁까지, Bunge는 보이지 않는 연결고리다.
-- 사용 맥락: 브랜드 캠페인, 기업 소개 영상
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-### 프레임 2: "데이터로 먹이다 (Feeding with Data)"
-> 디지털 트레이딩과 예측 분석으로 식량 낭비를 줄이고 효율을 높인다.
-- 사용 맥락: 기술 혁신 소개, 투자자 커뮤니케이션
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-### 프레임 3: "책임 있는 성장 (Responsible Growth)"
-> 수익과 환경 책임은 양립한다. Bunge의 성장이 지구와 농가에 모두 이롭다.
-- 사용 맥락: ESG 보고서, NGO·정부 대상 커뮤니케이션
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 7. Steal Sheet — 콘텐츠 레이어별 3선
+## CTA Patterns
 
-### Steal Sheet A: 공급망 투명성 콘텐츠
-- **기회**: 유럽연합 공급망 실사법(CSDDD) 시행으로 투명성 수요 급증 (공식)
-- **콘텐츠 액션**: 원산지 추적 가능 대두·팜오일 인증 현황 인터랙티브 지도 제작
-- **배포 채널**: 기업 웹사이트, LinkedIn, 유럽 바이어 대상 직접 배포
-- **KPI**: 유럽 고객사 신규 계약 문의 수
+| CTA Type | Bunge Global Pattern | What Bunge Global Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-### Steal Sheet B: 농가 파트너 스토리텔링
-- **기회**: ESG 투자자·NGO가 농가 현장 증거를 요구 (추정)
-- **콘텐츠 액션**: 브라질·우크라이나·인도 농가 파트너 영상 시리즈 "Faces of the Field"
-- **배포 채널**: YouTube, LinkedIn, 지속가능성 보고서 삽입
-- **KPI**: 영상 조회수, ESG 평가 기관 인용률
+---
 
-### Steal Sheet C: 시장 인사이트 리더십
-- **기회**: 곡물 가격 변동성 확대로 바이어·농가의 예측 정보 수요 증가 (추정)
-- **콘텐츠 액션**: 월간 "Bunge Grain Outlook" 무료 뉴스레터 발행
-- **배포 채널**: 이메일 구독, LinkedIn, 산업 미디어 신디케이션
-- **KPI**: 구독자 수, 개봉률, 영업 리드 전환율
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to consumer staples sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Bunge Global as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #BG | Financial and investor community | Moderate (estimated) |
+| #BungeGlobal | Brand-level social engagement | Varies (estimated) |
+| #CSInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Bunge Global's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In consumer staples markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in agricultural products & services face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Bunge Global's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

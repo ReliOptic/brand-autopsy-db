@@ -1,108 +1,84 @@
-# 02. 오디언스 맵 — Intuitive Surgical (ISRG)
+# 02. Audience Map — Intuitive Surgical (ISRG)
 
-> **카테고리**: 헬스케어 / 로봇 수술 시스템
-
----
-
-## 1. 오디언스 레이어 구조
-
-```
-Primary (구매 결정권)
-├── 외과의 (Surgeons) — 핵심 사용자·옹호자
-└── 병원 경영진 / C-Suite — 구매 승인권자
-
-Secondary (영향력 행사자)
-├── 의료기기 조달 위원회
-├── 수술실 간호사·임상 직원
-└── 보험사·지불자 (Payers)
-
-Tertiary (최종 수혜자)
-├── 환자 (일반 대중)
-└── 환자 가족·간병인
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 김지훈 — "증거를 요구하는 개척자"
-
-| 항목 | 내용 |
-|------|------|
-| **역할** | 상급종합병원 비뇨기과 과장, 교수직 겸임 |
-| **연령** | 48세 |
-| **경력** | 로봇 수술 경험 15년, 전립선 절제술 연간 200+ 케이스 |
-| **목표** | 합병증률 최소화, SCI 논문 게재, 레지던트 교육 |
-| **고충** | 구형 da Vinci Xi의 햅틱 피드백 부재; 신규 시스템 도입 예산 확보 어려움 |
-| **정보 채널** | JAMA Surgery, EAU 학회, 동료 외과의 네트워크, Intuitive 웹캐스트 |
-| **의사결정 기준** | 피어-리뷰 임상 데이터 > 핸즈온 트레이닝 경험 > 비용 |
-| **브랜드 관계** | 헤비 유저이자 KOL(Key Opinion Leader); Intuitive 행사 연자 활동 |
-| **핵심 메시지** | "da Vinci 5의 Force Feedback 센서가 조직 손상률을 줄인다는 데이터를 보여줘" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Intuitive Surgical's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Intuitive Surgical's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 박수연 — "ROI를 계산하는 의사결정자"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| **역할** | 300병상 규모 지역 거점병원 원장 (내과 전문의 출신) |
-| **연령** | 55세 |
-| **경력** | 병원 행정 12년, 2기관 da Vinci 도입 이력 |
-| **목표** | 병원 수익성 개선, 지역 환자 유출 방지, 간호사 이직률 감소 |
-| **고충** | 로봇 수술 시스템 구매가($1.5M+) vs. 실제 케이스 볼륨 불확실성; 소모품 비용 구조 |
-| **정보 채널** | HFMA 컨퍼런스, 헬스케어 CFO 네트워크, Intuitive 영업팀 프레젠테이션 |
-| **의사결정 기준** | 3~5년 ROI 계산 > 의료진 요청 강도 > 경쟁 병원 동향 |
-| **브랜드 관계** | 구매 게이트키퍼; 가격 협상 주도 |
-| **핵심 메시지** | "로봇 수술 도입 후 평균 재원일수 X% 감소, 환자 회전율 Y% 향상" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Intuitive Surgical customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Intuitive Surgical selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 이미래 — "정보를 찾는 환자"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| **역할** | 직장암 진단 후 수술 옵션을 조사 중인 환자 |
-| **연령** | 42세 |
-| **직업** | IT 스타트업 마케터 |
-| **목표** | 최소한의 회복 기간으로 일상 복귀; 흉터·합병증 최소화 |
-| **고충** | 로봇 수술 정보의 전문용어 장벽; 비용·보험 적용 여부 불투명 |
-| **정보 채널** | 네이버 지식인, 환자 커뮤니티(대장암카페), 병원 홈페이지, YouTube 수술 설명 영상 |
-| **의사결정 기준** | 담당의 추천 > 커뮤니티 후기 > 회복 기간 데이터 |
-| **브랜드 관계** | 간접 소비자; "da Vinci로 수술받았다"는 신뢰 신호로 병원 선택 |
-| **핵심 메시지** | "작은 절개, 빠른 회복, 집으로 더 빨리" |
+- **Age / Occupation**: 35, technical professional who interacts with Intuitive Surgical's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Intuitive Surgical selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스별 커뮤니케이션 우선순위
+### Persona 3 — Consumer / Retail Customer
 
-| 오디언스 | 핵심 니즈 | 콘텐츠 타입 | 채널 |
-|---------|---------|------------|------|
-| 외과의 | 임상 근거, 기술 우월성 | 학술 논문, 웨비나, 핸즈온 트레이닝 | PubMed, 학회, Intuitive.com |
-| 병원 경영진 | ROI, 경쟁 포지셔닝 | 비즈니스 케이스, 백서 | 영업팀, HFMA, 의료경영 컨퍼런스 |
-| 조달위원회 | 총소유비용(TCO), 규제 준수 | RFP 지원 문서, 비교표 | 직접 영업, 제안서 |
-| 수술실 간호사 | 사용 편의성, 안전 프로토콜 | 교육 자료, 인증 프로그램 | Intuitive Learning, 원내 교육 |
-| 환자 | 안전성, 회복 속도 | 환자 스토리, FAQ, 병원 선택 가이드 | 병원 웹사이트, YouTube, SNS |
+- **Age / Occupation**: 38, consumer who interacts with Intuitive Surgical's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Intuitive Surgical selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 구매 여정 (B2B — 병원 도입)
+## Purchase Journey — AARRR Framework
 
-```
-인식 (Awareness)
-→ 학회 발표·논문에서 da Vinci 5 인지
+| Stage | Intuitive Surgical's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Intuitive Surgical total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-관심 (Interest)
-→ 외과의가 경영진에 도입 제안 / Intuitive 영업팀 접촉
+---
 
-평가 (Evaluation)
-→ 핸즈온 트레이닝, 레퍼런스 사이트 방문, ROI 분석
+## Anti-Persona — Who Intuitive Surgical Is Not For
 
-구매 협상 (Decision)
-→ 조달위원회 검토, 계약 조건 협상 (시스템 + 소모품 번들)
+| Type | Characteristics | Why Intuitive Surgical Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Intuitive Surgical's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Intuitive Surgical's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Intuitive Surgical's full value is realized through deeper operational integration and sustained partnership. |
 
-도입 (Adoption)
-→ 설치, 임상 트레이닝, 첫 케이스 지원
+---
 
-옹호 (Advocacy)
-→ KOL 양성, 학회 연자 활동, 레퍼런스 고객화
-```
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Intuitive Surgical's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Intuitive Surgical's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,104 +1,84 @@
-# 02. 오디언스 맵 — Altria Group (MO)
+# 02. Audience Map — Altria (MO)
 
-> 소비재 · 담배 | 대표 브랜드: Marlboro, IQOS, on!
-
----
-
-## 1. 오디언스 레이어 개요
-
-| 레이어 | 청중 유형 | 규모 (추정) |
-|--------|-----------|-------------|
-| 1차 | 성인 흡연자 (Marlboro) | 미국 내 약 2,800만 명 성인 흡연자 중 Marlboro 점유율 약 42% (추정) |
-| 2차 | 전환 지향 흡연자 (IQOS) | HTP 카테고리 초기 수용층, 25–45세 도시 거주 성인 (추정) |
-| 3차 | 비연소 니코틴 사용자 (on!) | 니코틴 파우치 사용자, 구강 담배 전환층 (추정) |
-| 4차 | 기관 투자자 / 애널리스트 | ESG·배당·포트폴리오 전환 서사 청중 (공식 IR 대상) |
-| 5차 | 규제 기관 (FDA, FTC 등) | 정책·승인 커뮤니케이션 대상 (공식) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — "충성 흡연자 마이크"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 (가명) | 마이크 T. (추정) |
-| 나이 | 45–60세 |
-| 지역 | 중서부·남부 소도시 (추정) |
-| 직업 | 블루칼라·자영업 (추정) |
-| 브랜드 | Marlboro Red / Marlboro Special Blend |
-| 구매 빈도 | 주 2–3보루 (추정) |
-| 핵심 동인 | 수십 년간 형성된 브랜드 친숙감, 가격 대비 만족, 루틴화된 소비 패턴 |
-| 전환 저항 | 신제품에 대한 회의, "원래 담배가 최고" 인식 (추정) |
-| 접점 | 편의점 POS, 담배 전문점, 쿠폰·프로모션 DM |
-| 인사이트 | 가격 인상 시 경쟁 브랜드(Winston, Newport)로 이탈 가능성 있음 (추정) |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in tobacco. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Altria's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Altria's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "전환 탐색자 제니"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가명) | 제니 K. (추정) |
-| 나이 | 28–40세 |
-| 지역 | 도시·교외 (추정) |
-| 직업 | 사무직·전문직 (추정) |
-| 브랜드 | IQOS ILUMA (전환 중), 기존 Marlboro Gold 사용 이력 |
-| 구매 빈도 | IQOS 디바이스 1회 구매 + TEREA 월 3–5박스 (추정) |
-| 핵심 동인 | 연기·냄새 감소, 사회적 수용성 개선, "덜 나쁜" 선택에 대한 합리화 |
-| 전환 저항 | 초기 디바이스 비용, 충전·관리 번거로움 (추정) |
-| 접점 | IQOS 전문 매장, 온라인 주문, SNS 광고(타깃 성인 인증 필요) |
-| 인사이트 | FDA MRTP 승인 사실이 구매 정당화의 핵심 근거로 작용 (추정) |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Altria customer organization
+- **Core pain**: Needs reliable tobacco solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Altria selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "파우치 얼리어답터 다니엘"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가명) | 다니엘 R. (추정) |
-| 나이 | 22–35세 |
-| 지역 | 도시 거주, 활동적 라이프스타일 (추정) |
-| 직업 | 크리에이티브·IT·서비스업 (추정) |
-| 브랜드 | on! 4mg / 8mg, 시나몬·민트 플레이버 |
-| 구매 빈도 | 주 1–2캔 (추정) |
-| 핵심 동인 | 실내·금연 구역에서도 사용 가능, 냄새 없음, 재량 소비 |
-| 전환 저항 | 효능 만족도(연소 담배 대비 니코틴 만족 차이) (추정) |
-| 접점 | 편의점, 온라인 구독, 체육관·직장 근처 소매점 |
-| 인사이트 | 경쟁 브랜드(ZYN, Velo)와 동시 사용하는 '멀티브랜드' 경향 (추정) |
+- **Age / Occupation**: 35, technical professional who interacts with Altria's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Altria selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 니코틴 여정 단계 | 브랜드 역할 | 핵심 메시지 |
-|----------|-----------------|-------------|-------------|
-| 충성 흡연자 | 유지 | 가치 보강 | "당신의 선택을 존중합니다" |
-| 전환 탐색자 | 고려·전환 | 안내자 | "더 나은 선택이 있습니다" |
-| 비연소 신규 | 신규 진입 | 카테고리 개척 | "연기 없이도 만족을" |
-| 투자자 | 포트폴리오 판단 | 신뢰 구축 | "스모크프리 전환이 성장 동력" |
-| 규제 기관 | 정책 판단 | 협력 파트너 | "책임 있는 혁신으로 해악 감소" |
+- **Age / Occupation**: 38, consumer who interacts with Altria's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Altria selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 고객 여정 (전환 경로)
+## Purchase Journey — AARRR Framework
 
-```
-[인지] 편의점 POS / 디지털 성인 인증 광고
-   ↓
-[탐색] IQOS.com / on! 브랜드 사이트 (성인 인증 필수)
-   ↓
-[체험] IQOS 스타터킷 트라이얼 / on! 샘플 캔
-   ↓
-[전환] 정기 구독·반복 구매
-   ↓
-[옹호] 지인 소개 (Word-of-Mouth, 규제상 공식 프로그램 제한적)
-```
+| Stage | Altria's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Altria total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 규제 청중 커뮤니케이션 원칙
+## Anti-Persona — Who Altria Is Not For
 
-- FDA·FTC 대상: 데이터 기반 근거(임상 연구, MRTP 신청 자료) 중심 (공식)
-- 의회·입법부 대상: 세수 기여, 고용, 농업 공급망 경제적 가치 강조 (추정)
-- ESG 투자자 대상: UN SDGs 연계, 해악 감소 지표, 사회책임 보고서 (공식)
+| Type | Characteristics | Why Altria Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Altria's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Altria's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Altria's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Altria's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Altria's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

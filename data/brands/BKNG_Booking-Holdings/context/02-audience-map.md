@@ -1,143 +1,84 @@
-# 02. 오디언스 맵 — Booking Holdings (BKNG)
-> 섹터: 소비재 / 온라인 여행 | 대상 브랜드: Booking.com · Priceline · Kayak
+# 02. Audience Map — Booking Holdings (BKNG)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 핵심 타겟 세그먼트 개요
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 규모(추정) | 주요 브랜드 | 전환 가치 |
-|---------|-----------|-----------|---------|
-| 밀레니얼 경험 탐색자 | 전체 예약의 ~38% (추정) | Booking.com | 높음 — 반복 예약 |
-| 가족 여행 기획자 | 전체 예약의 ~27% (추정) | Booking.com, Agoda | 매우 높음 — 객단가 |
-| 비즈니스 출장자 | 전체 예약의 ~18% (추정) | Booking.com, Priceline | 높음 — 빈도 |
-| 가성비 추구 여행자 | 전체 예약의 ~12% (추정) | Priceline, Kayak | 중간 — 마진 낮음 |
-| 아시아 신흥 여행자 | 전체 예약의 ~5% 성장 중 (추정) | Agoda | 급성장 — 미래 가치 |
-
----
-
-## 2. 페르소나 상세
-
-### 페르소나 1: 소현 (도시형 밀레니얼 여행자)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 29세 |
-| 직업 | 콘텐츠 마케터 |
-| 거주지 | 서울 마포구 |
-| 소득 | 연 4,200만 원 (추정) |
-| 여행 빈도 | 연 4~6회 (국내 2회 + 해외 2~4회) |
-| 주요 채널 | Booking.com 앱, 인스타그램, 유튜브 여행 채널 |
-
-**동기 & 목표**
-- 인스타그램에 올릴 만한 "인생 숙소" 발견
-- 여행 준비 시간 최소화 — 원클릭 예약 선호
-- 지니어스 레벨 유지로 추가 할인 확보
-
-**고통 포인트**
-- 예약 후 실제 숙소와 사진 불일치 경험으로 리뷰 신뢰도 불안
-- 성수기 좋은 숙소 매진 — FOMO 심각
-- 가격 비교에 드는 시간 낭비 느낌
-
-**브랜드 접점**
-- 발견: 인스타그램 광고 → Booking.com 앱
-- 예약: 앱 내 '검증된 리뷰' + 무료 취소 옵션 확인 후 결정
-- 사후: 리뷰 작성 → 지니어스 포인트 적립
-
-**메시지 공명 포인트**
-> "진짜 여행자들의 진짜 리뷰. 당신이 꿈꾸던 그 숙소, 지금 예약하세요."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in hotels, resorts & cruise lines. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Booking Holdings's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Booking Holdings's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 준혁 (가족 여행 기획 담당 아빠)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 41세 |
-| 직업 | 중소기업 팀장 |
-| 거주지 | 경기도 수원 |
-| 가족 구성 | 배우자 + 초등학생 자녀 2명 |
-| 소득 | 연 7,500만 원 (추정) |
-| 여행 빈도 | 연 2~3회 (가족 여행 중심) |
-| 주요 채널 | Booking.com PC/앱, 네이버, 카카오 |
+### Persona 1 — Enterprise Decision-Maker
 
-**동기 & 목표**
-- 아이들이 좋아할 수영장·놀이시설 갖춘 리조트 발견
-- 예산 초과 없이 가족 모두 만족시키는 예약
-- 무료 취소 정책으로 일정 변경 리스크 최소화
-
-**고통 포인트**
-- 아이 동반 가능 숙소 필터링이 번거로움
-- 성수기 가격 급등으로 예산 초과 불안
-- 체크인/체크아웃 시간 유연성 부족
-
-**브랜드 접점**
-- 발견: 네이버 검색 → Booking.com 가족 여행 랜딩페이지
-- 예약: 가족룸 필터 + 수영장 시설 확인 + 리뷰 정독
-- 사후: 자녀 동반 리뷰 상세 작성 (커뮤니티 기여형)
-
-**메시지 공명 포인트**
-> "온 가족이 행복한 여행. 무료 취소로 마음 놓고 예약하세요."
+- **Age / Occupation**: 42, VP-level or director in a Booking Holdings customer organization
+- **Core pain**: Needs reliable hotels, resorts & cruise lines solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Booking Holdings selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 지연 (절약형 디지털 노마드)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 34세 |
-| 직업 | 프리랜서 개발자 |
-| 거주지 | 고정 거주지 없음 (월 1~2회 이동) |
-| 소득 | 연 6,000만 원 (추정) |
-| 여행 빈도 | 월 1~3회 (장기 체류 중심) |
-| 주요 채널 | Kayak, Booking.com 앱, 구글 호텔 |
-
-**동기 & 목표**
-- 와이파이 좋은 숙소 + 작업 공간 확보
-- Kayak으로 최저가 항공+숙박 패키지 탐색
-- 장기 체류 할인 (7박 이상) 극대화
-
-**고통 포인트**
-- 숙소별 와이파이 속도 정보 불명확
-- 장기 체류 할인 정책이 브랜드마다 달라 혼란
-- Priceline 오파크 딜 — 숙소 확인 전 결제 불안
-
-**브랜드 접점**
-- 발견: Kayak 가격 추적 알림 → Priceline 오파크 딜 비교
-- 예약: Booking.com 장기 체류 필터 + 비즈니스 시설 확인
-- 사후: 작업 환경 중심 상세 리뷰 → 디지털 노마드 커뮤니티 공유
-
-**메시지 공명 포인트**
-> "더 오래, 더 저렴하게. 장기 체류 특가로 세계를 내 작업실로."
+- **Age / Occupation**: 35, technical professional who interacts with Booking Holdings's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Booking Holdings selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 고객 여정 맵 (Customer Journey Map)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인식 → 탐색 → 비교 → 예약 → 여행 중 → 사후
- │        │       │       │        │        │
-SNS     앱 검색  가격    원클릭   앱 지원   리뷰 작성
-광고    리뷰 확인 비교    예약     체크인    포인트 적립
-메일   지도 탐색 필터    확정 메일 현지 팁   재예약 유도
-```
-
-| 여정 단계 | 핵심 접점 | 주요 마찰 | BKNG 솔루션 |
-|---------|----------|---------|-----------|
-| 인식 | SNS 광고, 검색 | 경쟁 브랜드 광고 노출 | 리타겟팅 + 개인화 광고 |
-| 탐색 | 앱/웹 검색 | 옵션 과부하 | AI 추천 + 큐레이션 |
-| 비교 | 가격 비교 도구 | 타 OTA와 가격 동일 | 지니어스 독점 할인 강조 |
-| 예약 | 결제 화면 | 결제 이탈 | 원클릭 결제 + 무료 취소 |
-| 여행 중 | 앱 알림 | 문제 발생 시 지원 부재 | 24/7 고객지원 강조 |
-| 사후 | 이메일, 앱 | 리뷰 작성 귀찮음 | 간편 리뷰 + 포인트 인센티브 |
+- **Age / Occupation**: 38, consumer who interacts with Booking Holdings's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Booking Holdings selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 지역별 타겟 특성
+## Purchase Journey — AARRR Framework
 
-| 지역 | 주요 세그먼트 | 선호 브랜드 | 문화적 특성 |
-|------|------------|-----------|-----------|
-| 유럽 | 배낭여행자, 단기 휴가 | Booking.com (공식) | 자유 여행, 독립성 중시 |
-| 북미 | 가족 여행, 비즈니스 | Priceline, Kayak (공식) | 로열티 프로그램 중시 |
-| APAC | 신혼여행, 럭셔리 추구 | Agoda, Booking.com (공식) | 위챗/라인 연동 선호 |
-| 중동/아프리카 | 럭셔리 리조트 | Booking.com (추정) | 프라이버시·프리미엄 강조 |
-| 라틴아메리카 | 가족·단체 여행 | Booking.com (추정) | 소셜 추천 신뢰도 높음 |
+| Stage | Booking Holdings's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Booking Holdings total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Booking Holdings Is Not For
+
+| Type | Characteristics | Why Booking Holdings Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Booking Holdings's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Booking Holdings's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Booking Holdings's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Booking Holdings's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Booking Holdings's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

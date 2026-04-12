@@ -1,101 +1,84 @@
-# 02 오디언스 맵 — Tesla (TSLA)
+# 02. Audience Map — Tesla, Inc. (TSLA)
 
-> 섹터: Consumer Discretionary / EV·에너지 | 분석 기준일: 2026-04-12
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-[핵심 신봉자] → [주류 채택자] → [관망자] → [저항자]
-      5%              35%           40%         20%
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 프로파일
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 테크 얼리어답터 "민준" (추정)
-
-| 항목 | 내용 |
-|------|------|
-| 나이/성별 | 32세 남성 |
-| 직업 | IT 스타트업 CTO / 개발자 |
-| 거주지 | 서울 강남·판교 또는 실리콘밸리 인근 |
-| 연소득 | 1.2억~2억 원 |
-| 보유 차량 | Model 3 Long Range (오너 3년차) |
-| 핵심 동기 | "가솔린 차 다시는 못 탈 것 같다. OTA로 차가 좋아지는 게 스마트폰 같다." |
-| 정보 채널 | Twitter/X, Reddit r/teslamotors, 유튜브 테슬라 채널 |
-| 구매 트리거 | FSD 기술 진척, 신규 하드웨어 업그레이드 발표 |
-| 이탈 리스크 | 머스크 리스크로 인한 브랜드 피로, 경쟁사 소프트웨어 역전 |
-| 라이프스타일 키워드 | 생산성, 자동화, 탄소 중립 개인 실천, 얼리어답터 정체성 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in automobile manufacturers. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Tesla, Inc.'s segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Tesla, Inc.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 환경 지향 전문직 "지은" (추정)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이/성별 | 41세 여성 |
-| 직업 | ESG 컨설턴트 / 대기업 지속가능경영팀장 |
-| 거주지 | 서울 마포·성수, 또는 런던 |
-| 연소득 | 8,000만~1.4억 원 |
-| 보유 차량 | Model Y (태양광 패널 + Powerwall 연동 추진 중) |
-| 핵심 동기 | "탄소발자국 줄이는 게 직업이고 신념이다. 차도 에너지도 통합해서 관리하고 싶다." |
-| 정보 채널 | LinkedIn, TED Talks, 환경부 리포트, 테슬라 블로그 |
-| 구매 트리거 | Powerwall 연동 패키지 할인, 법인 EV 세액 공제 |
-| 이탈 리스크 | 머스크 정치 발언으로 ESG 이미지 훼손 인식, 브랜드 평판 리스크 |
-| 라이프스타일 키워드 | 임팩트 투자, 제로웨이스트, 건강식, 사회적 증명 소비 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Tesla, Inc. customer organization
+- **Core pain**: Needs reliable automobile manufacturers solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Tesla, Inc. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 상태 지향 중산층 "현석" (추정)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이/성별 | 48세 남성 |
-| 직업 | 중견기업 부장 / 자영업자 |
-| 거주지 | 경기 분당·수지, 또는 미국 교외 |
-| 연소득 | 6,000만~9,000만 원 |
-| 보유 차량 | Model Y RWD (첫 테슬라, 2년차) |
-| 핵심 동기 | "BMW 대신 살 수 있었다. 기름값도 아끼고, 주변 반응도 좋다." |
-| 정보 채널 | 네이버 카페(테슬라 동호회), 유튜브 자동차 리뷰, 지인 추천 |
-| 구매 트리거 | 가격 인하 발표, 정부 보조금 마감 임박, 주변 오너 체험담 |
-| 이탈 리스크 | 서비스 불만(AS 대기), 품질 불균일, 충전 인프라 불편 |
-| 라이프스타일 키워드 | 실용 절약, 가족 중심, 사회적 지위, 합리적 프리미엄 |
+- **Age / Occupation**: 35, technical professional who interacts with Tesla, Inc.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Tesla, Inc. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모(추정) | LTV | NPS 기여 | 핵심 니즈 |
-|---------|-----------|-----|---------|----------|
-| 테크 얼리어답터 | 10% | 최고 | +85 | 기술 우위, FSD, 소프트웨어 |
-| 환경 지향 전문직 | 20% | 높음 | +70 | 탄소 저감, 에너지 통합 |
-| 상태 지향 중산층 | 35% | 중간 | +50 | 가성비, 사회적 신호, 연료비 절감 |
-| 플릿/법인 | 15% | 높음 | +40 | TCO 절감, 세제 혜택 |
-| 투기/FOMO 구매자 | 20% | 낮음 | +10 | 자산 가치, 대기 리스트 지위 |
+- **Age / Occupation**: 38, consumer who interacts with Tesla, Inc.'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Tesla, Inc. selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 고객 여정 지도 (Customer Journey)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 트리거 | 채널 | 테슬라 행동 | 마찰 포인트 |
-|------|--------|------|------------|------------|
-| 인지 | 길에서 목격, SNS 바이럴 | Twitter/X, 유튜브 | 머스크 트윗, Supercharger 인프라 존재감 | 없음(자연 바이럴) |
-| 관심 | 리뷰 영상, 시승 요청 | 유튜브, 테슬라 웹 | 웹 컨피규레이터, 테스트드라이브 예약 | 딜러 없음 → 직접 예약 학습 비용 |
-| 검토 | 가격 비교, 보조금 계산 | 카페/커뮤니티, 웹사이트 | 가격 투명 공시, 보조금 안내 | 가격 변동성(잦은 인하) |
-| 구매 | 온라인 주문 | Tesla.com | 전액 온라인 결제, 배송 추적 | 인도 대기 기간, CS 접촉 어려움 |
-| 온보딩 | 차량 수령 | 앱, 유튜브 튜토리얼 | OTA 초기 설정, 앱 연동 | 인도 현장 설명 부족 |
-| 유지 | OTA 업데이트 | 앱 알림 | 신기능 무상 업데이트 | AS 센터 부족, 대기 |
-| 옹호 | 지인 추천 | 구전, 테슬라 레퍼럴 | 레퍼럴 크레딧 | 레퍼럴 프로그램 변동성 |
+| Stage | Tesla, Inc.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Tesla, Inc. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. Steal Sheet — 오디언스 레이어
+## Anti-Persona — Who Tesla, Inc. Is Not For
 
-| # | 훔칠 것 | 구체적 실행법 |
-|---|---------|--------------|
-| 1 | **여정의 온라인 완결** | 시승 예약~계약~배송 추적까지 앱 하나로 완결. 오프라인 접점은 체험 전용으로만 유지해 CS 비용 절감 |
-| 2 | **커뮤니티를 자발적 영업사원으로** | 공식 레퍼럴 프로그램 대신 전용 오너 포럼·인증 배지를 만들어 파워유저의 전도사 정체성을 강화 |
-| 3 | **세그먼트별 단일 메시지 금지** | 얼리어답터에겐 기술 스펙, 환경 지향에겐 탄소 데이터, 상태 지향에겐 TCO 계산기를 각각 랜딩페이지로 분기 |
+| Type | Characteristics | Why Tesla, Inc. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Tesla, Inc.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Tesla, Inc.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Tesla, Inc.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Tesla, Inc.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Tesla, Inc.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

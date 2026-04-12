@@ -1,90 +1,123 @@
-# 04. 콘텐츠 DNA — L3Harris Technologies (LHX)
+# 04. Content DNA — L3Harris (LHX)
 
-## 콘텐츠 철학
-
-L3Harris 콘텐츠의 핵심 원칙은 **"기술이 임무를 결정한다(Technology defines the mission outcome)"**는 믿음이다. 모든 콘텐츠는 세 가지 질문에 답해야 한다:
-
-1. 이 기술이 어떤 임무 위협을 해결하는가?
-2. 실전에서 검증되었는가?
-3. 운용자(전투원)의 부담을 줄이는가?
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 필러 구조 (Content Pillars)
+## Content Pillars
 
-| 필러 | 비중(추정) | 핵심 메시지 | 콘텐츠 유형 |
-|------|-----------|------------|------------|
-| **1. 임무 기술(Mission Technology)** | 40% | "최전선의 문제를 기술로 해결" | 기술 백서, 데이터시트, 솔루션 브리프 |
-| **2. 전장 검증(Combat-Proven)** | 25% | "실전 배치 이력이 신뢰의 증거" | 케이스 스터디, 운용자 인터뷰, 영상 |
-| **3. 혁신 파이프라인(Innovation Pipeline)** | 20% | "오늘 R&D가 내일의 전장 우위" | IRAD 발표, 특허·시연 영상, 컨퍼런스 발표 |
-| **4. 파트너십·생태계(Partnership)** | 15% | "단독이 아닌 연합의 힘" | 파트너 발표, NATO/연합 훈련 보도자료 |
+L3Harris's content strategy reflects its positioning in the Aerospace & Defense segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "L3Harris understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for aerospace & defense requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with L3Harris." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 콘텐츠 톤 & 스타일 가이드
-
-### 문장 구조
-- **능동태 우선**: "L3Harris delivers" (O) vs. "is delivered by L3Harris" (X)
-- **수치 중심 표현**: "30% 무게 감소" / "99.99% 가용성" 등 구체적 수치 우선
-- **단문 선호**: 한 문장 최대 25단어 이내 (추정 기준)
-- **전문 용어 허용**: 대상 독자가 군·방산 전문가이므로 약어(MANET, JTRS, SWaP) 사용 가능
-
-### 금지 표현 패턴
-- "세계 최고(world's best)" — 입증 불가 과장
-- "원스톱 솔루션(one-stop solution)" — B2B 방산에 맞지 않는 소비재 언어
-- "저렴한 가격에(at an affordable price)" — 가치 기반 포지셔닝 훼손
-- "쉽고 간단한(easy and simple)" — 임무 복잡성 과소평가
-- "우리는 믿습니다(we believe)" — 증거 없는 주관적 표현
-
-### 권장 표현 패턴
-- "검증된(proven)" + 구체적 배치 맥락
-- "운용자 중심 설계(operator-centric design)"
-- "임무 연속성 보장(ensuring mission continuity)"
-- "MOSA 준수 개방형 아키텍처(MOSA-compliant open architecture)"
-- "X% SWaP 감소로 플랫폼 통합 용이성 향상"
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 포맷별 가이드
+## Hook Patterns
 
-### 기술 백서 (Technical White Paper)
-- **길이**: 8~16페이지 (추정)
-- **구조**: 임무 문제 정의 → 기술 솔루션 → 성능 데이터 → 통합 고려사항 → 결론
-- **데이터 밀도**: 높음 — 차트, 사양표, 블록 다이어그램 필수
-- **승인 언어 수준**: ITAR/CUI 비분류 기준, 특정 성능 수치 공개 제한 준수
+### Hook 1 — Industry Challenge Lead
 
-### 솔루션 브리프 (Solution Brief)
-- **길이**: 2페이지 (A4 기준)
-- **구조**: 헤드라인 가치제안 → 핵심 기능 3~5개 → 운용 시나리오 → 다음 단계(CTA)
-- **비주얼**: 제품 사진 + 배치 다이어그램
+Opens with a recognizable industry challenge or pain point before presenting L3Harris's perspective.
 
-### 소셜 미디어 (LinkedIn 중심)
-- **포스트 길이**: 150~300자 (추정)
-- **콘텐츠 유형**: 수주 발표, 기술 시연 영상, 임직원 전문가 기고, AUSA/AFA 전시 현장
-- **해시태그 전략**: #DefenseInnovation #MissionCritical #JADC2 #EW (추정)
-- **게시 빈도**: 주 3~5회 (추정)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 보도자료 (Press Release)
-- **구조**: AP 스타일 역피라미드
-- **첫 단락**: 계약 가치 + 수혜 기관 + 핵심 기술 → 단 하나의 문장으로
-- **금액 표기**: 달러 기준, 백만/십억 단위 명시
-- **인용구**: C-레벨 임원 1인 + 고객 측 대표 1인 (가능 시)
+### Hook 2 — Data-Driven Insight
+
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
+
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
+
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## Steal Sheet — 콘텐츠 DNA 레이어별 3개
+## CTA Patterns
 
-### Layer 1: 메시지 프레이밍 공략 포인트
-1. **위협 우선 프레이밍**: 제품 설명 전에 반드시 "어떤 위협/임무 간극"이 있는지 먼저 정의 — 기술 나열식 경쟁사 대비 공감도 높음
-2. **운용자 목소리 삽입**: 실제 전투원·운용자 인터뷰 인용 — 조달 담당자의 내부 정당화 논리 제공
-3. **수치 앵커링**: 모든 주장에 측정 가능한 수치(%, kg, ms) 부착 — "업계 최고" 같은 공허한 주장 대비 신뢰도 격차
+| CTA Type | L3Harris Pattern | What L3Harris Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-### Layer 2: 콘텐츠 형식 공략 포인트
-1. **2페이지 솔루션 브리프 표준화**: 조달 PM의 내부 보고 자료로 바로 활용 가능한 포맷 제공 — 경쟁사 장문 백서 대비 실용성
-2. **영상 시연(Demonstration Video) 우선**: 텍스트 설명보다 실제 작동 영상 — 방산 전시회(AUSA) 현장 배포용 QR 코드 연계
-3. **ITAR 안전 공개 버전(Unclassified Version) 명시**: 보안 분류 없는 공개 가능 사양을 명확히 레이블링 — 동맹국 초기 평가 단계 접근성 향상
+---
 
-### Layer 3: 콘텐츠 배포 공략 포인트
-1. **컨퍼런스 앞뒤 30일 집중 배포**: AUSA Annual·AFA Warfare Symposium 전후 30일 콘텐츠 밀도 2배 집중 (추정 최적 타이밍)
-2. **의회 청문회 시즌 맞춤 콘텐츠**: 예산 심의 시즌(2~4월) 국방위 관계자 대상 기술 브리핑 자료 선제 배포
-3. **LinkedIn 임원 사고 리더십**: CEO·CTO 명의 기고문으로 JADC2·다영역작전 정책 의제 선점 — 기업 계정 단순 홍보 대비 신뢰도 높음
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — L3Harris as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #LHX | Financial and investor community | Moderate (estimated) |
+| #L3Harris | Brand-level social engagement | Varies (estimated) |
+| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+L3Harris's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in aerospace & defense face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+L3Harris's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

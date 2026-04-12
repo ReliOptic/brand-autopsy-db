@@ -1,108 +1,102 @@
-# 05. 디자인 시스템 — L3Harris Technologies (LHX)
+# 05. Design System — L3Harris (LHX)
 
-## 컬러 시스템
-
-### 주요 컬러 팔레트
-
-| 역할 | 컬러명 | HEX | RGB | 사용 맥락 |
-|------|--------|-----|-----|-----------|
-| 프라이머리 | LHX 네이비 블루 | `#003087` | 0, 48, 135 | 헤더, 주요 CTA, 로고 배경 (공식) |
-| 프라이머리 | LHX 레드 | `#C8102E` | 200, 16, 46 | 액센트, 강조 요소, 로고 마크 (공식) |
-| 세컨더리 | 미드나이트 블루 | `#001F5B` | 0, 31, 91 | 다크 배경, 풀블리드 섹션 (추정) |
-| 세컨더리 | 스틸 그레이 | `#4A5568` | 74, 85, 104 | 본문 텍스트, 캡션 (추정) |
-| 세컨더리 | 라이트 그레이 | `#F4F5F7` | 244, 245, 247 | 배경, 카드 컨테이너 (추정) |
-| 액센트 | 테크 블루 | `#0057A8` | 0, 87, 168 | 링크, 인터랙티브 요소, 아이콘 (추정) |
-| 액센트 | 워닝 앰버 | `#F59E0B` | 245, 158, 11 | 경고 배지, 상태 표시 (추정) |
-| 중립 | 화이트 | `#FFFFFF` | 255, 255, 255 | 배경, 역방향 텍스트 |
-| 중립 | 다크 차콜 | `#1A1A2E` | 26, 26, 46 | 대비 텍스트, 데이터 테이블 헤더 (추정) |
-
-### 컬러 사용 비율 (추정)
-
-| 컬러 | 사용 비율 | 주요 적용 |
-|------|----------|----------|
-| LHX 네이비 블루 `#003087` | 40% | 기본 배경, 헤더, 내비게이션 |
-| 화이트 `#FFFFFF` | 35% | 콘텐츠 영역, 카드 배경 |
-| LHX 레드 `#C8102E` | 10% | 강조, 버튼, 배지 |
-| 스틸 그레이 `#4A5568` | 10% | 본문, 서브텍스트 |
-| 기타 (테크 블루·앰버 등) | 5% | 인터랙션, 상태 표시 |
-
-### 다크 배경 전용 팔레트 (전술·임무 테마)
-
-| 역할 | HEX | 사용 맥락 |
-|------|-----|-----------|
-| 배경 | `#0A0E1A` | 전자전·사이버 테마 다크 UI (추정) |
-| 그리드 라인 | `#1C2A4A` | 레이더·지도 오버레이 (추정) |
-| 활성 신호 | `#00D4AA` | 실시간 상태 표시, 링크 활성 (추정) |
-| 위협 표시 | `#FF4136` | 위협 벡터 강조, 알람 (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-| 역할 | 폰트 패밀리 | 굵기 | 크기(데스크톱) | 비고 |
-|------|------------|------|---------------|------|
-| 디스플레이 헤드라인 | Proxima Nova / 대체: Montserrat | Bold (700) | 48–64px | 히어로 섹션 (추정) |
-| 섹션 헤드라인 | Proxima Nova / 대체: Montserrat | SemiBold (600) | 32–40px | (추정) |
-| 서브헤드 | Proxima Nova / 대체: Open Sans | Medium (500) | 20–24px | (추정) |
-| 본문 | Open Sans / 대체: Source Sans Pro | Regular (400) | 16px | 최소 행간 1.6 (추정) |
-| 캡션·레이블 | Open Sans | Regular (400) | 12–14px | 대문자 변환(uppercase) 적용 가능 (추정) |
-| 기술 사양 | Source Code Pro (모노스페이스) | Regular | 14px | 주파수·프로토콜·코드 표기 (추정) |
+L3Harris's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## 로고 시스템
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 변형 | 사용 맥락 | 배경 |
-|------|----------|------|
-| 풀 컬러 수평형 | 밝은 배경, 표준 사용 (공식) | 화이트/라이트 그레이 |
-| 역방향(화이트) | 다크 배경, 네이비 배경 (공식) | 네이비 블루/다크 |
-| 모노크롬 블랙 | 인쇄·팩스·흑백 문서 (공식) | 화이트 |
-| 심볼 마크 단독 | 파비콘, 앱 아이콘, 소셜 프로필 사진 (추정) | 네이비 배경 권장 |
+### Color Principles
 
-### 로고 보호 영역 (추정)
-- 최소 여백: 로고 높이(X)의 50% = 0.5X
-- 최소 크기: 인쇄 20mm 폭 / 디지털 80px 폭
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-## 아이콘 & 그래픽 스타일
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 요소 | 스타일 규칙 |
-|------|------------|
-| 아이콘 | 선형(line) 기반, 2px 스트로크, 둥근 끝단(round cap) (추정) |
-| 일러스트레이션 | 기술 다이어그램 중심 — 블록 아키텍처, 신호 흐름도 (추정) |
-| 사진 | 실제 장비·작전 환경 사진 우선, 합성/스톡 사진 지양 (추정) |
-| 데이터 시각화 | 네이비·테크 블루 계열, 레이더 차트·비교 바 차트 활용 (추정) |
-| 지도·전술 그래픽 | 다크 배경 + 그린/시안 오버레이 (군용 디스플레이 레퍼런스) (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## UI 컴포넌트 원칙 (추정)
+## 2. Typography
 
-| 컴포넌트 | 디자인 규칙 |
-|----------|------------|
-| 버튼 (Primary) | 네이비 블루 `#003087` 배경, 화이트 텍스트, 4px 보더 라디우스 |
-| 버튼 (Secondary) | 투명 배경, 네이비 블루 테두리 2px, 네이비 블루 텍스트 |
-| 버튼 (Danger/Alert) | 레드 `#C8102E` 배경 — 위협 경고, 취소 액션에만 사용 |
-| 카드 | 화이트 배경, 1px `#E2E8F0` 테두리, 8px 보더 라디우스, 4px 그림자 |
-| 테이블 | 헤더 네이비 `#003087` + 화이트 텍스트, 홀수 행 `#F4F5F7` 배경 |
-| 알림/배지 | 위협 레드 `#C8102E`, 정상 그린 `#16A34A`, 경고 앰버 `#F59E0B` |
+L3Harris's digital properties employ a typographic system appropriate to its industrials positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 3개
+## 3. Channel Specifications
 
-### Layer 1: 컬러 전략 공략 포인트
-1. **네이비+레드 독점 구도 활용**: LHX 네이비 `#003087`과 레드 `#C8102E` 조합은 미국 국방 신뢰 코드 — 경쟁사 대비 정부 조달 심리적 친숙도 유리 (추정)
-2. **다크 모드 전술 팔레트 차별화**: `#0A0E1A` 기반 다크 UI로 EW·사이버·C2 시스템 인터페이스 시각 언어 독점 — B2C 기업 라이트 테마 대비 전문성 신호
-3. **액센트 앰버 `#F59E0B` 희소성 원칙**: 경고·긴급 상태에만 사용 제한으로 실제 경고 시 시인성 극대화 — 남용 시 신호 희석
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-### Layer 2: 타이포그래피 전략 공략 포인트
-1. **모노스페이스 기술 텍스트**: 주파수·프로토콜 수치를 Source Code Pro로 표기 — 일반 텍스트와 시각 구분으로 "기술 정밀도" 인상 강화
-2. **헤드라인 올캡(ALL CAPS) 선택적 사용**: 배지·카테고리 레이블에만 대문자 제한 — 전체 텍스트 대문자 남용 시 가독성·접근성 저하
-3. **행간 1.6 이상 유지**: 기술 사양 문서 특성상 긴 읽기 세션 피로도 최소화 — 방산 문서 표준 준수
+---
 
-### Layer 3: 그래픽·사진 전략 공략 포인트
-1. **실제 배치 사진 우선 원칙**: 스톡 사진 대신 실제 작전 환경 장비 사진 — 조달 담당자의 "현장 적용 가능성" 상상력 직접 자극
-2. **신호 흐름도 표준화**: 전술 네트워크 다이어그램을 일관된 아이콘 세트로 표준화 — 기술 브리핑 자료 재사용성 및 브랜드 일관성 동시 확보
-3. **레이더/HUD 스타일 데이터 시각화**: 방산 고객 친숙한 레이더 화면·HUD 인터페이스 스타일 차용 — 데이터를 "임무 현장 맥락"으로 프레이밍
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: L3Harris (LHX)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

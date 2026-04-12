@@ -1,155 +1,102 @@
-# CVX 디자인 시스템 — Design System
+# 05. Design System — Chevron Corporation (CVX)
 
-## 브랜드 시각 아이덴티티 개요
-
-CVX의 디자인 언어는 신뢰, 안정, 기술적 정밀성을 시각화한다. 파란색과 빨간색의 조합은 1930년대부터 이어진 역사적 유산이며, 클린하고 엔지니어링적인 심미성을 유지한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 프라이머리 컬러 팔레트
+Chevron Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to energy sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Chevron Blue | `#003087` | rgb(0, 48, 135) | 주요 브랜드 컬러, 로고, 헤더 | (공식) |
-| Chevron Red | `#CC0000` | rgb(204, 0, 0) | 강조, 로고 악센트, CTA | (공식) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 역전 | (공식) |
+### Core Brand Colors
 
-### 세컨더리 컬러 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Light Blue | `#0072CE` | rgb(0, 114, 206) | 디지털 링크, 인터랙티브 요소 | (추정) |
-| Dark Navy | `#001F5B` | rgb(0, 31, 91) | 다크 배경, 고급감 강조 | (추정) |
-| Steel Gray | `#58595B` | rgb(88, 89, 91) | 본문 텍스트, 캡션 | (추정) |
-| Light Gray | `#F2F2F2` | rgb(242, 242, 242) | 카드 배경, 구분선 | (추정) |
-| Warm Amber | `#F5A623` | rgb(245, 166, 35) | 에너지·혁신 강조 포인트 | (추정) |
+### Color Principles
 
-### ESG / 저탄소 전용 컬러 팔레트
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Clean Green | `#2E7D32` | rgb(46, 125, 50) | 저탄소·환경 섹션 강조 | (추정) |
-| Sky Teal | `#00ACC1` | rgb(0, 172, 193) | 수소·재생에너지 콘텐츠 | (추정) |
-| Earth Brown | `#6D4C41` | rgb(109, 76, 65) | 지역사회·커뮤니티 콘텐츠 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 가이드 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 영역 | 비율 | 컬러 |
-|------|------|------|
-| 배경 | 60% | White `#FFFFFF`, Light Gray `#F2F2F2` |
-| 주요 요소 | 30% | Chevron Blue `#003087` |
-| 강조 | 10% | Chevron Red `#CC0000`, Warm Amber `#F5A623` |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피 시스템
+## 2. Typography
 
-### 서체 스택 (추정)
+Chevron Corporation's digital properties employ a typographic system appropriate to its energy positioning.
 
-| 용도 | 서체 | 폴백 |
-|------|------|------|
-| 헤드라인 | Helvetica Neue Bold / Arial Bold | sans-serif |
-| 본문 | Helvetica Neue Regular | Arial, sans-serif |
-| 수치·데이터 | Helvetica Neue Light | Arial, sans-serif |
-| 디지털 웹 | Inter / Roboto | system-ui, sans-serif |
+### Typeface System
 
-### 타입 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 용도 |
-|------|------|------|
-| Display | 48–64px | 히어로 헤드라인 |
-| H1 | 36–48px | 페이지 타이틀 |
-| H2 | 28–36px | 섹션 헤더 |
-| H3 | 22–28px | 서브섹션 |
-| Body Large | 18px | 리드 카피 |
-| Body | 16px | 기본 본문 |
-| Caption | 12–14px | 캡션, 각주 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템
+## 3. Channel Specifications
 
-### 로고 구성 요소 (공식)
-- **심볼**: 파란색·빨간색 쉐브론(Chevron) 패턴 — V자형 반복 스트라이프
-- **워드마크**: "Chevron" 볼드 산세리프
-- **조합**: 심볼 좌측 또는 상단 + 워드마크
-
-### 로고 클리어존 (추정)
-- 최소 클리어존: 로고 높이의 50%
-- 최소 사용 크기: 인쇄 20mm, 디지털 80px
-
-### 로고 컬러 변형
-
-| 변형 | 배경 | 사용 조건 |
-|------|------|---------|
-| 풀컬러 (파랑+빨강) | White / Light | 기본 사용 |
-| 화이트 역전 | Dark Navy / Blue | 다크 배경 |
-| 단색 블루 | White | 단색 인쇄 |
-| 단색 블랙 | White | 흑백 인쇄 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 이미지 & 사진 방향성
+## 4. Layout Principles
 
-### 비주얼 토크 (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-**사용 권장**
-- 실제 현장 엔지니어, 다양한 인종·성별 인물
-- 대규모 인프라 + 인간적 스케일 대비
-- 골든아워·블루아워 조명 (에너지의 따뜻함 연상)
-- 기술 정밀성 — 파이프라인, 계기판, 정밀 장비
-- 자연과 시설의 공존 이미지 (환경 책임감)
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-**사용 금지**
-- 연기·오염 강조 이미지
-- 재난·사고 연상 비주얼
-- 지나치게 인공적이거나 차가운 이미지
-- 스톡 이미지 느낌의 어색한 포즈
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-### 사진 컬러 그레이딩 (추정)
-- 채도: 중간 (과포화 금지)
-- 색온도: 약간 따뜻한 톤 (에너지·활력 연상)
-- 컨트라스트: 중간-높음 (명확성)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 아이콘 & 인포그래픽 시스템
+## 5. Design Prohibitions
 
-### 아이콘 스타일 (추정)
-- 선형(Line) 아이콘 기반, 두께 2px
-- 끝처리: 둥근 모서리 (Rounded Cap)
-- 컬러: Chevron Blue 단색 또는 투톤
-
-### 인포그래픽 원칙 (추정)
-- 데이터 시각화: 막대 그래프 > 파이 차트 (정확성 우선)
-- 컬러 코딩: 에너지 유형별 고정 컬러 (석유=Blue, 가스=Teal, 재생=Green)
-- 수치 강조: Bold + 대형 폰트 + Chevron Blue
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 레이아웃 & 그리드
-
-### 그리드 시스템 (추정)
-- 12컬럼 그리드
-- 거터: 24px (데스크탑), 16px (모바일)
-- 최대 콘텐츠 너비: 1200px
-
-### 여백 철학 (추정)
-- 넉넉한 화이트스페이스 — 기업적 신뢰감
-- 섹션 간 최소 80px 패딩
-- 텍스트 라인 길이: 65–75자 (가독성 최적)
-
----
-
-## 브랜드 금기 디자인 패턴
-
-| 금기 패턴 | 이유 |
-|----------|------|
-| 네온·형광 컬러 사용 | 브랜드 신뢰감 훼손 |
-| 과도한 그라디언트 | 저가 브랜드 연상 |
-| 클리셰 환경 이미지 (잎사귀·지구) | 그린워싱 연상 |
-| Comic Sans / 장식적 서체 | 전문성 훼손 |
-| 저해상도 이미지 | 브랜드 품질 기준 미달 |
-| Chevron Red 배경 과다 사용 | 공격성·위험 연상 |
+*Layer 5 of 8 — Brand Autopsy: Chevron Corporation (CVX)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

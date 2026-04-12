@@ -1,145 +1,84 @@
-# 02 오디언스 맵 — Baxter International (BAX)
+# 02. Audience Map — Baxter International (BAX)
 
-## 오디언스 계층 구조
-
-```
-1차 오디언스: 의료 전문가 (HCP)
-  ├─ 중환자실 의사·간호사
-  ├─ 신장 전문의·투석 간호사
-  ├─ 외과의·마취과 의사
-  └─ 임상 약사·영양사
-
-2차 오디언스: 병원·의료 시스템
-  ├─ 병원 구매·공급망 관리자
-  ├─ CMO / CNO / CFO
-  └─ GPO (Group Purchasing Organization) 담당자
-
-3차 오디언스: 환자·보호자
-  ├─ 만성신부전 환자 (가정 투석)
-  ├─ 중증 외상·수술 후 회복 환자
-  └─ 보호자·가족 케어기버
-
-4차 오디언스: 투자자·규제 기관
-  ├─ 기관 투자자 (NYSE: BAX)
-  ├─ FDA / EMA / PMDA
-  └─ ESG 분석가
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 박지훈 (중환자실 수간호사)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직책 | 상급 종합병원 ICU 수간호사 (경력 14년) |
-| 지역 | 서울 |
-| 교육 | 간호학 석사 |
-| 연봉 | 약 6,500만 원 (추정) |
-
-**하루 루틴**
-오전 7시 인계 → 환자 12명 상태 확인 → 정맥주사·영양 솔루션 투여 프로토콜 감독 → 오후 의료팀 라운드 참여 → 재고·기기 점검 → 야간 인계.
-
-**핵심 Pain Points**
-- 다기관 기기 브랜드 혼재로 인한 프로토콜 오류 리스크
-- 공급망 불안정 (소모품 재고 부족)
-- 신규 간호사 교육 부담
-
-**BAX와의 접점**
-- SIGMA Spectrum 주입 펌프 일상적 사용
-- Clinimix 영양 솔루션 투여
-- 제품 교육 세션 참여 (연 2회)
-
-**구매 영향력**
-의사 결정자(병원 구매팀)에게 제품 피드백 전달하는 핵심 인플루언서. 직접 구매권 없으나 브랜드 충성도 형성의 핵심.
-
-**콘텐츠 선호**
-임상 프로토콜 가이드, 기기 사용 팁 영상, 동료 간호사 케이스 스터디.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Baxter International's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Baxter International's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 김미경 (병원 공급망 디렉터)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 47세 |
-| 직책 | 대형 병원 그룹 공급망 & 구매 디렉터 |
-| 지역 | 부산 |
-| 교육 | 경영학 학사 + 의료경영 MBA |
-| 연봉 | 약 9,000만 원 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**하루 루틴**
-공급업체 미팅 → 계약 갱신 협상 → 재고 대시보드 검토 → CFO 보고 → GPO 컨퍼런스 콜.
-
-**핵심 Pain Points**
-- 단일 공급업체 의존 리스크 vs. 멀티벤더 관리 복잡성
-- 가격 압박 (DRG 수가 하락)
-- 규제 변경에 따른 제품 교체 비용
-
-**BAX와의 접점**
-- 연간 대규모 IV 솔루션·투석 소모품 계약
-- BAX 영업팀과 분기별 QBR (Quarterly Business Review)
-- GPO 계약을 통한 간접 구매
-
-**구매 영향력**
-최종 계약 서명권자. ROI·TCO 데이터, 공급 안정성 보증 문서 요구.
-
-**콘텐츠 선호**
-경제성 분석 백서, 공급 안정성 리포트, 규제 준수 체크리스트.
+- **Age / Occupation**: 42, VP-level or director in a Baxter International customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Baxter International selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 이상훈 (가정 복막투석 환자)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 62세 |
-| 직책 | 은퇴 교사 (현재 가정 투석 중) |
-| 지역 | 대전 |
-| 교육 | 대학 졸업 |
-| 월 의료비 | 약 40~80만 원 (추정, 건강보험 적용 후) |
-
-**하루 루틴**
-오전 기상 → CAPD/APD 투석 기기(HomeChoice Claria) 세팅 → 4~6시간 교환 사이클 대기 → 식이 관리 → 신장내과 월 1회 외래.
-
-**핵심 Pain Points**
-- 기기 조작 복잡성, 감염(복막염) 공포
-- 가족에게 부담을 주는 심리적 죄책감
-- 공급 소모품(투석액) 정기 배송 불안
-
-**BAX와의 접점**
-- HomeChoice Claria APD 시스템 사용 (공식 주력 제품)
-- BAX 환자 지원 서비스 (24시간 콜센터, 간호사 방문)
-- 온라인 환자 커뮤니티 참여
-
-**구매 영향력**
-제품 선택은 신장 전문의가 결정하나, 브랜드 경험이 의사의 처방 유지에 영향. 환자 리텐션 = 수익 연속성.
-
-**콘텐츠 선호**
-쉬운 한국어 사용 설명서, 동영상 튜토리얼, 환자 커뮤니티 후기.
+- **Age / Occupation**: 35, technical professional who interacts with Baxter International's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Baxter International selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 오디언스 세그먼트 | 의사결정 영향력 | 브랜드 접점 빈도 | 콘텐츠 유형 | 채널 |
-|------------------|--------------|----------------|-------------|------|
-| ICU 간호사·의사 | 높음 (추천) | 매일 | 임상 가이드, 트레이닝 | LinkedIn, 학술대회, 이메일 |
-| 병원 구매 디렉터 | 최고 (결정) | 분기 | 경제성 자료, 계약서 | 영업팀, GPO 포털 |
-| 신장 전문의 | 높음 (처방) | 주 1회 | 임상 데이터, KOL 발표 | 학술지, 컨퍼런스 |
-| 가정 투석 환자 | 중간 (재처방 영향) | 매일 | 교육 영상, 지원 자료 | 웹사이트, 모바일 앱, 콜센터 |
-| 기관 투자자 | 낮음 (간접) | 분기 | IR 자료, ESG 리포트 | IR 포털, 컨퍼런스 |
+- **Age / Occupation**: 38, consumer who interacts with Baxter International's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Baxter International selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스 여정 맵 (환자 보호자 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 고려 → 처방·도입 → 사용 → 재처방·충성
- |         |          |           |          |
-브랜드 인지  의사 상담   병원 처방    일상 사용   지속 지원
- 없음       의사 추천   BAX 기기    홈케어      환자 프로그램
-            위주       도입        지원 서비스   리뉴얼 계약
-```
+| Stage | Baxter International's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Baxter International total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Baxter International Is Not For
+
+| Type | Characteristics | Why Baxter International Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Baxter International's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Baxter International's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Baxter International's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Baxter International's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Baxter International's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

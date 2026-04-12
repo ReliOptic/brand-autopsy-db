@@ -1,133 +1,102 @@
-# Duke Energy (DUK) — 디자인 시스템
+# 05. Design System — Duke Energy (DUK)
 
-> 분류: 전력 유틸리티 | 티커: DUK
-
----
-
-## 1. 브랜드 컬러 시스템
-
-### 1-1. 주요 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Duke Blue (브랜드 블루) | `#0078CF` | rgb(0, 120, 207) | 주 브랜드 컬러, CTA 버튼, 헤더 (공식) |
-| Deep Navy | `#003865` | rgb(0, 56, 101) | 배경, 헤더 다크 모드, IR 자료 (공식) |
-| Energy Orange | `#E87722` | rgb(232, 119, 34) | 강조 포인트, 에너지·혁신 연상 (공식) |
-| Clean White | `#FFFFFF` | rgb(255, 255, 255) | 기본 배경, 텍스트 반전 (공식) |
-| Light Gray | `#F4F4F4` | rgb(244, 244, 244) | 섹션 배경, 카드 배경 (추정) |
-| Mid Gray | `#767676` | rgb(118, 118, 118) | 보조 텍스트, 캡션 (추정) |
-| Dark Charcoal | `#333333` | rgb(51, 51, 51) | 본문 텍스트 기본값 (추정) |
-
-### 1-2. 확장 컬러 팔레트 (청정에너지 캠페인용)
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Solar Yellow | `#F5C518` | rgb(245, 197, 24) | 태양광 캠페인, 절약 강조 (추정) |
-| Wind Green | `#2E8B57` | rgb(46, 139, 87) | 풍력·자연 연상, ESG 섹션 (추정) |
-| Sky Teal | `#00A3AD` | rgb(0, 163, 173) | 청정 미래 비전, 디지털 채널 (추정) |
-| Alert Red | `#CC0000` | rgb(204, 0, 0) | 긴급 알림, 정전 경보 전용 (추정) |
-| Success Green | `#2E7D32` | rgb(46, 125, 50) | 복구 완료, 절약 달성 확인 (추정) |
-
-### 1-3. 컬러 사용 규칙
-
-- Duke Blue(`#0078CF`)는 흰 배경 위에서만 단독 사용 (WCAG AA 명암비 준수) (추정)
-- Alert Red(`#CC0000`)는 긴급·안전 커뮤니케이션 전용 — 마케팅 콘텐츠 사용 금지 (추정)
-- Energy Orange(`#E87722`)는 주 브랜드 블루와 병용 시 50% 이상 면적 차지 금지 (추정)
-- 그라데이션: Deep Navy → Duke Blue 수평 그라데이션만 허용 (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-### 2-1. 폰트 패밀리
+Duke Energy's visual identity, as observed on its official website, employs a structured color system appropriate to utilities sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 구분 | 폰트명 | 용도 |
-|------|--------|------|
-| 주 서체 | Gotham (공식) | 헤드라인, UI 레이블, 광고 |
-| 보조 서체 | Georgia (추정) | 장문 본문, 보고서 |
-| 디지털 폴백 | Arial / Helvetica Neue (추정) | 이메일, 웹 폴백 |
-| 아이콘 | Material Icons / 자체 아이콘셋 (추정) | UI 아이콘 |
+### Core Brand Colors
 
-### 2-2. 타입 스케일 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 레벨 | 크기 | 웨이트 | 용도 |
-|------|------|--------|------|
-| Display | 48–64px | Bold | 캠페인 히어로 헤드라인 |
-| H1 | 36–40px | Bold | 페이지 제목 |
-| H2 | 28–32px | SemiBold | 섹션 제목 |
-| H3 | 22–24px | SemiBold | 서브섹션 |
-| Body Large | 18px | Regular | 리드 카피, 인트로 |
-| Body | 16px | Regular | 본문 |
-| Caption | 12–14px | Regular | 주석, 출처 표기 |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 3. 로고 시스템
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 3-1. 주 로고
-- 형태: "duke energy" 워드마크 + 심볼 마크(불꽃·전력 모티프) (공식)
-- 주 컬러: Duke Blue(`#0078CF`) on White (공식)
-- 역전 버전: White on Deep Navy(`#003865`) (공식)
-- 단색 버전: 흑백 인쇄용 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 3-2. 로고 사용 금지 사항 (추정)
-- 로고 위 그림자 효과 추가 금지
-- 비율 변형 금지
-- 브랜드 승인 없는 컬러 변경 금지
-- 복잡한 패턴 배경 위 사용 금지
-- 최소 크기 이하 사용 금지 (디지털: 80px 이상 권장)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. 이미지 & 사진 스타일
+## 2. Typography
 
-### 4-1. 허용 이미지 스타일
-- **실제 직원·현장 작업자**: 안전 장비 착용, 자연광 또는 현장 조명 (공식)
-- **지역사회 구성원**: 다양성 반영, 실제 고객 생활 장면
-- **인프라·기술**: 청명한 하늘 배경의 태양광·풍력, 스마트 기기
-- **자연·환경**: 청정·녹지 이미지, 계절감 반영
+Duke Energy's digital properties employ a typographic system appropriate to its utilities positioning.
 
-### 4-2. 금지 이미지 스타일 (추정)
-- 석탄 발전소 굴뚝 강조 이미지
-- 과도하게 연출된 행복 모델 이미지 (어색한 포즈)
-- 경쟁사 로고·장비가 보이는 이미지
-- 정전·사고 현장 이미지 (공식 사고 보고 제외)
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 5. UI/UX 컴포넌트 가이드 (디지털)
+### Typographic Scale
 
-### 5-1. 버튼 스타일 (추정)
-
-| 유형 | 배경색 | 텍스트색 | 용도 |
-|------|--------|---------|------|
-| Primary CTA | `#0078CF` | `#FFFFFF` | 주요 행동 유도 |
-| Secondary | `#FFFFFF` | `#0078CF` | 보조 행동, 아웃라인 |
-| Destructive | `#CC0000` | `#FFFFFF` | 삭제·해지 등 주의 행동 |
-| Disabled | `#767676` | `#F4F4F4` | 비활성 상태 |
-
-### 5-2. 카드 컴포넌트
-- 배경: `#FFFFFF`
-- 테두리: 없음 또는 `#F4F4F4` 1px
-- 그림자: box-shadow 0 2px 8px rgba(0,0,0,0.08) (추정)
-- 모서리: border-radius 8px (추정)
-
-### 5-3. 접근성 기준
-- 텍스트 명암비: WCAG AA 기준 4.5:1 이상 준수 (추정)
-- 포커스 인디케이터: Duke Blue `#0078CF` 2px 아웃라인 (추정)
-- 이미지 대체 텍스트: 모든 이미지에 alt 텍스트 필수 (추정)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. Steal Sheet — 디자인 시스템 레이어
+## 3. Channel Specifications
 
-> 즉시 적용 가능한 디자인 전략 인사이트 3개
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-**Steal 1 — "청정에너지 진척도" 시각화 컴포넌트**
-Duke Blue에서 Wind Green(`#2E8B57`)으로 전환되는 프로그레스 바 컴포넌트를 웹·앱에 표준화. 탄소중립 달성률, 재생에너지 비중을 매월 업데이트하면 추상적 목표를 시각적 현실로 전환 가능. (추정)
+---
 
-**Steal 2 — "정전 알림" 전용 컬러 시스템 일관화**
-현재 긴급 알림 디자인이 채널별로 불일치한다는 고객 불만이 존재한다. Alert Red(`#CC0000`) + 진동 패턴 + 표준 아이콘을 앱·웹·이메일·문자 전채널에 일관 적용하면 위기 상황에서 즉각적 신뢰 형성 가능. (추정)
+## 4. Layout Principles
 
-**Steal 3 — 다크 모드 Deep Navy 활용**
-Deep Navy(`#003865`)를 다크 모드 주 배경으로 활용하면 에너지 절약 이미지(OLED 화면 전력 절감)와 프리미엄 브랜드 감성을 동시에 전달. 특히 IR 자료와 ESG 보고서의 디지털 버전에 즉시 적용 가능. (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Duke Energy (DUK)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

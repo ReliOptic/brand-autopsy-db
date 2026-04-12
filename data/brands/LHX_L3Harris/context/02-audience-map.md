@@ -1,83 +1,84 @@
-# 02. 오디언스 맵 — L3Harris Technologies (LHX)
+# 02. Audience Map — L3Harris (LHX)
 
-## 오디언스 계층 구조
-
-```
-1차 의사결정자 (Primary Decision-Makers)
-├── 미 국방부 조달 관료 / 프로그램 매니저 (PM)
-├── 미군 각 군 사령부 전력 소요 담당자
-└── 동맹국 국방부 획득 당국 (FMS/DCS 채널)
-
-2차 영향자 (Secondary Influencers)
-├── 국방·안보 분야 의회 위원회 (HASC, SASC)
-├── 방산 분석가 / 씽크탱크 (CSIS, RAND, MITRE)
-└── 시스템 통합업체 (Lockheed, Boeing — 파트너 겸 경쟁자)
-
-3차 이해관계자 (Tertiary Stakeholders)
-├── 기관투자자 / 방산 섹터 애널리스트
-├── 방산 전문 미디어 (Defense News, Breaking Defense)
-└── 잠재 인력 풀 (엔지니어링·STEM 졸업생, 군 전역자)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1: 프로그램 매니저 — "폴 커티스"
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | 미 육군 전술통신 프로그램 오피스 PM (GS-15 또는 O-6급) |
-| 연령 | 48세 (추정) |
-| 위치 | 워싱턴 D.C. 인근, 포트 벨보어 (추정) |
-| 배경 | 전직 통신 장교 20년 + 조달 전문 교육(DAU 수료) |
-| 핵심 임무 | JTRS 후속 전술무선 사업 소요 정의 및 계약 관리 |
-| 핵심 고통점 | 예산 삭감 압력 / 납기 지연 위험 / 상호운용성 미달 리스크 |
-| 정보 소비 채널 | DAF/DoD 공문, Defense News, AUSA 컨퍼런스, LinkedIn |
-| 구매 동기 | 검증된 납기 이력, MIL-SPEC 인증, 통합 지원 체계 |
-| L3Harris 접점 | 전술통신 솔루션(FALCON IV), MUOS 호환 단말기 |
-| 핵심 메시지 키워드 | "전장 검증", "DoD 승인", "납기 준수", "수명주기 지원" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from L3Harris's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in L3Harris's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: 동맹국 획득 담당자 — "토마스 베르그만"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | 독일 연방국방부(BMVg) 획득국 선임 담당관 (추정) |
-| 연령 | 52세 (추정) |
-| 위치 | 본, 독일 (추정) |
-| 배경 | 기계공학 박사 + NATO 표준화 위원회 참여 경력 |
-| 핵심 임무 | Bundeswehr 디지털화 프로그램(DigiLw) 장비 선정 |
-| 핵심 고통점 | NATO 상호운용성 요건 충족 / 기술이전 조건 협상 / 미국 수출통제(ITAR) 리스크 |
-| 정보 소비 채널 | NATO 표준 문서, DSEI·Eurosatory 전시회, 국방부 기술 브리핑 |
-| 구매 동기 | NATO STANAG 준수, 현지 산업 참여(offset), 장기 MRO 계약 |
-| L3Harris 접점 | AN/PRC-163 다대역 단말기, Wescam MX 시리즈 EO/IR 시스템 |
-| 핵심 메시지 키워드 | "NATO 인증", "상호운용성", "기술이전", "현지화 지원" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a L3Harris customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **L3Harris selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: 방산 섹터 애널리스트 — "제니퍼 오'브라이언"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | 월스트리트 방산·항공우주 섹터 수석 애널리스트 (추정) |
-| 연령 | 39세 (추정) |
-| 위치 | 뉴욕, NY (추정) |
-| 배경 | MBA(Wharton) + CFA, 전직 국방부 예산 분석관 |
-| 핵심 임무 | LHX 주식 커버리지, 분기 실적·수주잔고 모델링 |
-| 핵심 고통점 | 프로그램 취소 리스크 파악 / 마진 개선 가시성 / NGAD·JADC2 수혜 여부 판단 |
-| 정보 소비 채널 | 10-K/10-Q, 실적발표 컨퍼런스콜, DoD R-2 예산 문서 |
-| 구매 동기(커버리지 포인트) | FCF 전환율, 수주잔고 성장률, 프리미엄 포트폴리오 비중 |
-| L3Harris 접점 | IR 자료실, CEO 로드쇼, AUSA/AFA 전시회 발표 |
-| 핵심 메시지 키워드 | "수주잔고", "마진 확장", "포트폴리오 최적화", "프리미엄 솔루션 비중" |
+- **Age / Occupation**: 35, technical professional who interacts with L3Harris's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **L3Harris selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 메시지 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 오디언스 | 핵심 가치제안 | 증거 포인트 | 행동 유도(CTA) |
-|----------|--------------|------------|----------------|
-| 군 PM | 임무 연속성 보장 + 납기 신뢰성 | MIL-SPEC 인증, LRIP 실적 | 기술 브리핑 요청 |
-| 동맹국 획득 | NATO 호환 + 현지화 | STANAG 인증, 오프셋 실적 | FMS/DCS 협의 착수 |
-| 기관투자자 | 성장 가시성 + 마진 방어 | 수주잔고 $23B+(공식), FCF 가이던스 | IR 컨퍼런스 참여 |
-| 방산 미디어 | 기술 혁신 뉴스 | 특허 출원 수, 시연 영상 | 미디어 브리핑 |
-| STEM 인재 | 임무 의미 + 기술 도전 | 프로그램 다양성, 교육 지원 | 채용 이벤트 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate L3Harris's financial performance, competitive positioning, and risk factors for investment decisions.
+- **L3Harris selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | L3Harris's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | L3Harris total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who L3Harris Is Not For
+
+| Type | Characteristics | Why L3Harris Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | L3Harris's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | L3Harris's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | L3Harris's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+L3Harris's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+L3Harris's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

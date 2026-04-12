@@ -1,95 +1,141 @@
-# 06 채널 플레이북 — Edwards Lifesciences (EW)
+# 06. Channel Playbook — Edwards Lifesciences (EW)
 
-> 업데이트: 2026-04-12 | 산업: 의료기기 (심장판막 / TAVR)
-
----
-
-## 1. 채널 전략 개요
-
-Edwards의 채널 전략은 **B2B2C 이중 구조**로 운영된다:
-- **B2B 레인**: 의사·병원·구매팀 → 임상 신뢰 구축
-- **B2C 레인**: 환자·보호자 → 질환 인식·치료 결정 지원
-
-> 핵심 원칙: 채널별 규제 준수(의료기기 광고법, FDA/MFDS 가이드라인)를 전제로 콘텐츠 최적화
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널별 역할 및 전술 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 주요 오디언스 | 목표 | 콘텐츠 유형 | KPI |
-|------|------------|------|------------|-----|
-| 웹사이트 (edwards.com) | 의사, 환자, 투자자 | 정보 허브, 리드 전환 | 제품 페이지, 임상 자료, 환자 교육 | 세션 수, 자료 다운로드, 문의 수 |
-| 의사 포털 (HCP Portal) | 심장내과·흉부외과 전문의 | 임상 근거 제공, 교육 | 임상 데이터 PDF, 웨비나, 케이스 라이브러리 | 로그인 MAU, 자료 다운로드 |
-| LinkedIn | 의사, 병원 관리자, 투자자, 구직자 | 브랜드 권위, 채용, B2B 리드 | 임상 연구 요약, KOL 인터뷰, 기업 뉴스 | 팔로워 수, 게시물 도달, 클릭률 |
-| YouTube | 환자, 보호자, 의사 | 교육 영상, 환자 스토리 | TAVR 애니메이션, 환자 후기, 술기 영상 | 조회수, 구독자, 완주율 |
-| 학술 저널 광고 | 심장내과 전문의 | 임상 데이터 노출 | 1-페이지 임상 요약, QR 연동 | 광고 인지율, QR 스캔 수 |
-| 학술대회 (TCT, ACC, EuroPCR 등) | 인터벤션 전문의, KOL | 라이브 케이스, 관계 구축 | 부스 전시, 심포지엄 스폰서, 핸즈온 랩 | 부스 방문자, 리드 카드 수집 |
-| 이메일 (HCP 뉴스레터) | 등록 의사 | 최신 임상 데이터 배포 | 월간 뉴스레터, 이벤트 초청 | 오픈율, CTR, 구독 유지율 |
-| 직접 영업 (FSR) | 의사, 병원 구매팀 | 관계 심화, 계약 | 맞춤형 슬라이드덱, HEOR 자료 | 미팅 건수, 파이프라인 전환율 |
-| 환자 지원 프로그램 | 환자, 보호자 | 치료 결정 지원, 신뢰 | 환자 가이드북, 핫라인, 커뮤니티 | 등록 환자 수, 만족도 NPS |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 3. 채널별 Steal Sheet
+## 2. Channel Tone Variations
 
-### Steal Sheet A — 디지털 채널 (웹 + 소셜)
+Edwards Lifesciences's core voice adjusts by channel while maintaining brand coherence.
 
-| # | 전술 | 실행 방법 | 성공 지표 |
-|---|------|-----------|-----------|
-| 1 | **SEO 기반 환자 교육 허브 구축** | "대동맥 협착증 증상", "TAVR 수술 비용", "심장판막 수술 회복" 등 장기 키워드 40개 타겟팅, 월 2편 롱폼 블로그 발행 | 오가닉 트래픽 YoY +30%, 환자 문의 폼 전환율 2% |
-| 2 | **LinkedIn 임상 데이터 카드뉴스 시리즈** | PARTNER 시리즈 주요 결과를 5장 이미지 카드뉴스로 월 2회 발행, 의사 팔로워 타겟 광고 병행 | 게시물 노출 50만/월, 의사 팔로워 +500/월 |
-| 3 | **YouTube "심장 이야기" 시리즈** | 환자 1명 + 담당의 1명 세트 인터뷰, 10분 내외, 한국어 자막, 분기 1편 | 조회수 10만/편, 구독자 +1,000/분기 |
-
----
-
-### Steal Sheet B — 의사·HCP 채널
-
-| # | 전술 | 실행 방법 | 성공 지표 |
-|---|------|-----------|-----------|
-| 1 | **월간 HCP 이메일 "Clinical Digest"** | PARTNER/EVOQUE/PASCAL 최신 데이터 요약 + 다음달 학회 일정 + 웨비나 초청, HTML 이메일, 개인화 이름 삽입 | 오픈율 >35%, CTR >8% |
-| 2 | **"Difficult Case Challenge" 웨비나** | 복잡 해부학 케이스 2건 발표 + 패널 토론, 참가 의사 CME 포인트 제공 (해당 국가 규정 준수) | 등록 300명, 라이브 출석률 60% |
-| 3 | **Edwards Academy 온라인 커리큘럼** | SAPIEN 3 Ultra 기초-고급 모듈 8개, 자기주도 학습, 수료증 발급 | 커리큘럼 완료율 50%, 신규 시술 의사 50명/년 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### Steal Sheet C — 오프라인·이벤트 채널
+## 3. Cross-Channel Synergy Map
 
-| # | 전술 | 실행 방법 | 성공 지표 |
-|---|------|-----------|-----------|
-| 1 | **TCT/EuroPCR 핸즈온 시뮬레이터 부스** | 실물 크기 심장 모형 시뮬레이터로 SAPIEN 배치 체험, 참가자 접수 후 개인 피드백 리포트 제공 | 시뮬레이터 체험 100명/행사, 리드 카드 80건 |
-| 2 | **Regional Physician Summit (국내 도시 순회)** | 서울·부산·대구 순회, 반일 심포지엄, 신규 임상 데이터 발표 + 환자 케이스 토론 + 네트워킹 디너 | 도시당 참가 80명, 사후 제품 문의 30건 |
-| 3 | **병원 내 환자 교육 세미나 지원** | 파트너 병원에 환자 설명회 키트(슬라이드, 책자, 모형) 무상 제공, 현장 Edwards 임상 교육팀 파견 | 파트너 병원 20개소, 세미나 참가 환자 500명/년 |
+### Route A — Product/Service Launch Sequence
+
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## 4. 콘텐츠 달력 프레임워크 (연간)
+## 4. Channel-Specific Prohibitions
 
-| 분기 | 주요 테마 | 핵심 이벤트 연계 | 채널 강조 |
-|------|----------|----------------|-----------|
-| Q1 (1-3월) | 심장 건강의 달 (2월 World Heart Day 연계) | ACC 학술대회 | 환자 소셜 캠페인, 학술대회 콘텐츠 |
-| Q2 (4-6월) | TAVR 혁신 / 신제품 파이프라인 | EuroPCR | HCP 웨비나, LinkedIn 임상 데이터 |
-| Q3 (7-9월) | 환자 스토리 시즌 / 삶의 질 | 없음 (비수기) | YouTube 환자 후기, 웹사이트 SEO |
-| Q4 (10-12월) | TCT 연계 데이터 발표 / 연말 성과 정리 | TCT, AHA | 학술대회 부스, IR 연간 보고서 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
----
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-## 5. 채널별 규제 준수 체크리스트
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 채널 | 준수 사항 |
-|------|---------|
-| 환자 대상 디지털 광고 | MFDS 의료기기 광고 사전 심의 필요 (한국), 제품명·적응증 표기 기준 준수 |
-| 의사 대상 콘텐츠 | 허가된 적응증(On-label) 정보만 배포, Off-label 내용 포함 시 법무 검토 필수 |
-| 소셜 미디어 환자 후기 | 서면 동의서 확보, 개인정보 비식별화, 과장 표현 제거 |
-| 학술대회 스폰서십 | 공정경쟁 규약(KOPIA/KHIDI) 준수, 강사료·교통비 기준 내 지원 |
-| 이메일 마케팅 | 수신 동의 기반, 수신 거부 옵션 명시, 개인정보보호법 준수 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 6. 채널 성과 측정 프레임워크
+## 5. Crisis Response Protocol
 
-| 레이어 | 핵심 KPI | 측정 도구 | 목표 (추정) |
-|--------|---------|---------|------------|
-| 인식 | 웹사이트 오가닉 세션, 브랜드 검색량 | Google Analytics, Search Console | YoY +25% |
-| 고려 | HCP 포털 MAU, 웨비나 등록수, 자료 다운로드 | Salesforce Marketing Cloud, Marketo | MAU 2,000명 |
-| 전환 | 영업 미팅 전환율, 신규 시술 의사 수 | CRM (Salesforce) | 전환율 >20% |
-| 옹호 | NPS (환자·의사), KOL 논문 공동저자 수 | 설문, 논문 데이터베이스 | NPS >60 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Edwards Lifesciences's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Edwards Lifesciences's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Edwards Lifesciences's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

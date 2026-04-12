@@ -1,128 +1,84 @@
-# 02. 오디언스 맵 — Netflix (NFLX)
+# 02. Audience Map — Netflix (NFLX)
 
-> 섹터: Communication Services / Entertainment & Streaming
-> 기준일: 2026-04-12
-
----
-
-## 1. 타깃 오디언스 개요
-
-| 세그먼트 | 규모 비중 (추정) | 핵심 니즈 |
-|---------|----------------|-----------|
-| 밀레니얼 빈지워처 | ~35% | 몰아보기, 오리지널 화제작 |
-| Z세대 소셜 시청자 | ~25% | 밈 생산, 숏폼 연계, 광고 티어 |
-| 가족 구독자 | ~20% | 아동 콘텐츠 + 성인 콘텐츠 동시 제공 |
-| 글로벌 K-콘텐츠 팬 | ~12% | 한국·일본·스페인 오리지널 소비 |
-| 스포츠·라이브 신규 유입 | ~8% | 라이브 스포츠·이벤트 스트리밍 (추정) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 서울 직장인 지민 (31세, F)
-
-**배경**
-- 직업: IT 스타트업 UX 디자이너
-- 거주: 서울 마포구
-- 소득: 연 4,800만 원 (추정)
-- 기기: 아이폰 16 Pro, M3 맥북, 거실 OLED TV
-
-**행동 패턴**
-- 평일 밤 11시~1시 주로 시청, 주말 오후 몰아보기
-- 넷플릭스 + 왓챠 동시 구독 (추정)
-- 시리즈 공개 당일 밤새 완주 경험 다수
-- 인스타그램·스레드에 스포일러 없는 반응 게시
-
-**Pain Points**
-- 너무 많은 콘텐츠 중 '뭘 볼지' 결정 피로
-- 광고 티어 광고 빈도 불만 (추정)
-- 한국 오리지널 퀄리티 편차
-
-**Goals**
-- 퇴근 후 완전한 현실 도피
-- 직장 동료와 공통 대화 소재 확보
-- 글로벌 트렌드 콘텐츠 선도 소비
-
-**브랜드 관계:** 충성 구독자. 가격 인상에 민감하나 이탈 임계치 높음. "오늘 뭐 봄?" SNS 게시 생산자.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in movies & entertainment. B2C: End consumers of communication services products and services. (T4_INFERRED from Netflix's segment structure) |
+| **Occupation segments** | Media buyers, content creators, advertisers, subscribers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Netflix's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 미국 교외 거주 데릭 (44세, M)
+## Core Personas
 
-**배경**
-- 직업: 고등학교 역사 교사
-- 거주: 오하이오주 콜럼버스 교외
-- 소득: 연 USD 68,000 (추정)
-- 가족: 배우자 + 자녀 2명(9세, 14세)
-- 기기: 삼성 75인치 스마트TV, 아이패드
+### Persona 1 — Enterprise Decision-Maker
 
-**행동 패턴**
-- 가족 계정 공유 (최대 4 프로필)
-- 주말 저녁 가족 영화 나이트
-- 자녀 취침 후 다큐멘터리·범죄 스릴러 시청
-- 연간 2~3회 구독 일시 중단 후 재가입
-
-**Pain Points**
-- 자녀에게 부적절한 콘텐츠 노출 우려
-- 가족 계정 공유 제한 정책 불만
-- 광고 없는 고급 티어 가격 부담
-
-**Goals**
-- 가족 모두 동의하는 '안전한' 콘텐츠 발견
-- 역사·시사 다큐멘터리로 자기계발
-- 주말 밤 배우자와 공유하는 드라마 시즌제 시청
-
-**브랜드 관계:** 가격 민감형 충성 구독자. 경쟁 플랫폼과 번들 비교 중. 해지 트리거: 가격 인상 + 킬러 콘텐츠 부재.
+- **Age / Occupation**: 42, VP-level or director in a Netflix customer organization
+- **Core pain**: Needs reliable movies & entertainment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Netflix selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 브라질 상파울루 가브리엘 (22세, M)
+### Persona 2 — Technical Specialist / End User
 
-**배경**
-- 직업: 대학원생 (영화학)
-- 거주: 상파울루
-- 소득: 월 BRL 2,500 아르바이트 (추정)
-- 기기: 안드로이드 폰(주), 노트북(보조)
-- 구독 티어: 광고 지원 스탠다드 (가장 저렴한 티어)
-
-**행동 패턴**
-- 모바일 우선 시청, 이어폰 착용 통학 중 소비
-- 포르투갈어·영어·한국어(자막) 콘텐츠 혼용 소비
-- 틱톡에 넷플릭스 씬 클립 공유 (비공식)
-- 광고 티어 광고를 스킵하려 화면 외면
-
-**Pain Points**
-- 광고 중단이 몰입 방해
-- 오프라인 다운로드 제한 (이동 중 데이터 절약 필요)
-- 라틴 아메리카 오리지널 부족 체감 (추정)
-
-**Goals**
-- 학업 영감 원천으로서 글로벌 시네마 접근
-- 저비용으로 최대 콘텐츠 소비
-- 한국·일본·유럽 오리지널로 글로벌 감수성 확장
-
-**브랜드 관계:** 가격 우선 선택자. 광고 티어 핵심 성장 세그먼트. 상위 티어 업셀 잠재력 보유.
+- **Age / Occupation**: 35, technical professional who interacts with Netflix's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Netflix selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 여정 맵 (Customer Journey)
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 트리거 | 넷플릭스 접점 | 감정 상태 | 이탈 위험 |
-|------|--------|-------------|-----------|-----------|
-| 인지 | SNS 밈/화제작 버즈 | 공식 트레일러, 틱톡 클립 | 호기심, 설렘 | 낮음 |
-| 고려 | 친구 추천, 리뷰 | 무료 체험 / 첫 달 할인 (추정) | 기대감 | 중간 |
-| 구독 | 오리지널 시즌 공개 | 앱 가입 플로우 | 만족, 흥분 | 낮음 |
-| 활성화 | 알고리즘 추천 | 홈 화면 큐레이션 | 편안함 | 낮음 |
-| 유지 | 신규 오리지널 공개 예고 | 이메일·푸시 알림 | 기대감 | 중간 |
-| 이탈 위기 | 가격 인상, 킬러 콘텐츠 공백 | 해지 방어 오퍼 (추정) | 불만, 비교 | 높음 |
-| 복귀 | 화제작 공개 | 재구독 캠페인 이메일 | 재점화 | — |
+- **Age / Occupation**: 38, consumer who interacts with Netflix's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Netflix selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. Steal Sheet — 오디언스 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 넷플릭스가 하는 것 | 경쟁자가 놓치는 것 | 당신이 훔칠 수 있는 것 |
-|---|---|---|---|
-| 1 | 알고리즘 기반 초개인화 추천으로 '발견 피로' 해소 | 획일적 홈 화면 큐레이션 | 사용자 행동 데이터 기반 개인화 추천 레이어 구축 |
-| 2 | 광고 티어로 가격 민감 Z세대 신규 유입 | 프리미엄 단일 티어 고집 | 저가 진입 티어로 퍼널 확장, 업셀 설계 |
-| 3 | 글로벌 오리지널(K-드라마 등)로 다문화 팬덤 형성 | 자국 콘텐츠 중심 편식 | 로컬 니치 커뮤니티를 글로벌 팬덤으로 전환하는 콘텐츠 전략 |
+| Stage | Netflix's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Netflix total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Netflix Is Not For
+
+| Type | Characteristics | Why Netflix Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Netflix's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Netflix's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Netflix's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Netflix's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Netflix's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In communication services markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

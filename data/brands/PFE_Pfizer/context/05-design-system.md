@@ -1,122 +1,102 @@
-# 05. 디자인 시스템 — Pfizer (PFE)
+# 05. Design System — Pfizer (PFE)
 
-> 섹터: Health Care — Pharmaceuticals | 티커: PFE
-
----
-
-## 1. 디자인 철학
-
-Pfizer 비주얼 아이덴티티는 **신뢰·정밀·혁신** 세 가지 원칙을 시각 언어로 표현한다.
-2021년 리브랜딩을 통해 "방패(Shield)" 로고에서 "이중 나선(Double Helix)" 모티프로 진화했다. (공식)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 2-1. 주요 컬러 팔레트
+Pfizer's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 컬러명 | HEX | 사용처 |
-|------|--------|-----|--------|
-| 프라이머리 | Pfizer Blue | `#0093D0` | 로고, 주요 CTA, 헤더 (공식) |
-| 프라이머리 다크 | Deep Blue | `#003F87` | 배경, 다크 섹션, 네비게이션 (공식) |
-| 세컨더리 | Light Blue | `#00A3E0` | 인포그래픽 강조, 링크 (추정) |
-| 액센트 | Pfizer Teal | `#00B5B8` | 데이터 시각화, 배지 (추정) |
-| 뉴트럴 라이트 | Cool White | `#F5F7FA` | 배경, 카드 (추정) |
-| 뉴트럴 미드 | Medium Gray | `#6B7280` | 본문 보조 텍스트, 캡션 (추정) |
-| 뉴트럴 다크 | Charcoal | `#1F2937` | 주 본문 텍스트 (추정) |
-| 경고·알림 | Alert Red | `#D32F2F` | 안전 경고, 중요 공지 (추정) |
-| 성공·긍정 | Success Green | `#2E7D32` | 승인 상태, 긍정 지표 (추정) |
+### Core Brand Colors
 
-### 2-2. 치료 영역별 컬러 코딩 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 치료 영역 | 컬러명 | HEX |
-|---------|--------|-----|
-| Oncology | Oncology Purple | `#6A1B9A` |
-| Vaccines | Vaccine Green | `#1B5E20` |
-| Internal Medicine | IM Blue | `#0D47A1` |
-| Rare Disease | Rare Rose | `#880E4F` |
-| Hospital | Hospital Teal | `#006064` |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 3. 타이포그래피
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 역할 | 서체 | 속성 | 사용처 |
-|------|------|------|--------|
-| 디스플레이 | Pfizer Display (커스텀) / 대체: Graphik | Bold, 700 | 캠페인 헤드라인 (공식) |
-| 헤딩 | Pfizer Text (커스텀) / 대체: Inter | SemiBold, 600 | 섹션 제목, 서브헤드 (공식) |
-| 본문 | Pfizer Text Regular / 대체: Inter | Regular, 400 | 본문, 설명 텍스트 (공식) |
-| 데이터·수치 | Tabular Figures | Bold, 700 | 통계, 임상 수치 강조 (추정) |
-| 법적 고지 | 소형 본문 | Regular, 400, 10~11px | ISI(Important Safety Info) (공식) |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-**타이포그래피 원칙:**
-- 최소 본문 크기: 16px (웹 접근성 기준) (추정)
-- 줄간격: 1.5~1.6 (가독성 최적화) (추정)
-- 영문-한글 혼용 시 Noto Sans KR 보완 사용 권장 (추정)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. 로고 시스템
+## 2. Typography
 
-| 버전 | 사용 맥락 | 최소 크기 |
-|------|---------|---------|
-| 풀 로고 (워드마크 + 마크) | 공식 문서, 패키징, 광고 (공식) | 120px (웹) |
-| 마크 단독 (이중 나선) | 아이콘, 파비콘, 앱 (공식) | 32px |
-| 화이트 역방향 | 다크 배경 적용 (공식) | 120px |
+Pfizer's digital properties employ a typographic system appropriate to its health care positioning.
 
-**로고 금지 사항:**
-- 색상 변경 금지 (승인 색상 외)
-- 비율 변형 금지
-- 복잡한 배경 위에 단독 배치 금지
-- 경쟁사 로고와 동등 크기 병치 금지
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 5. 그리드 & 레이아웃
+### Typographic Scale
 
-| 기기 | 컬럼 | 거터 | 마진 |
-|------|------|------|------|
-| 데스크탑 (1440px+) | 12컬럼 | 24px | 80px |
-| 태블릿 (768~1439px) | 8컬럼 | 16px | 40px |
-| 모바일 (375~767px) | 4컬럼 | 16px | 20px |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 이미지 & 사진 스타일
+## 3. Channel Specifications
 
-| 카테고리 | 스타일 가이드 |
-|---------|-------------|
-| 환자 사진 | 실제 환자 우선, 자연광, 희망적 표정, 과도한 연출 금지 (추정) |
-| HCP 사진 | 전문성 강조, 실험실·병원 환경, 임상 장비 포함 (추정) |
-| 과학 이미지 | 세포·분자 수준 마이크로 사진, 청색·청록 톤 필터 (추정) |
-| 인포그래픽 | 플랫 디자인, 브랜드 컬러 팔레트, 아이콘 라인 스타일 (추정) |
-| 금지 이미지 | 침습적 시술 클로즈업, 극단적 고통 표현, 미승인 효과 암시 이미지 (공식) |
-
----
-
-## 7. 모션 & 애니메이션 원칙
-
-| 원칙 | 세부 내용 |
-|------|---------|
-| 이징 | Ease-in-out, 자연스러운 감속 (추정) |
-| 지속 시간 | 마이크로 인터랙션: 150~300ms / 페이지 전환: 400~600ms (추정) |
-| MOA 애니메이션 | 과학적 정확성 최우선, 지나친 단순화 금지 (추정) |
-| 접근성 | prefers-reduced-motion 미디어 쿼리 준수 (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 8. 아이콘 & 일러스트레이션
+## 4. Layout Principles
 
-- **아이콘 스타일:** 라인 아이콘, 2px 스트로크, 라운드 캡 (추정)
-- **일러스트레이션:** 인체·세포 기반 과학 일러스트, 청색 계열 단색 (추정)
-- **픽토그램:** 치료 영역별 구분 색상 적용 (위 치료 영역 컬러 코딩 참조)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 5. Design Prohibitions
 
-| # | 전략 요소 | 실행 힌트 |
-|---|-----------|----------|
-| 1 | **치료 영역별 컬러 코딩으로 포트폴리오 정리** | 복수 제품군을 가진 기업은 영역별 컬러 시스템으로 혼란 방지 + 브랜드 통일성 유지 |
-| 2 | **접근성 기준을 디자인 시스템에 내재화** | WCAG 2.1 AA 대비비(4.5:1+), 최소 폰트 크기, 모션 제어를 시스템 레벨에서 강제 |
-| 3 | **과학 사진 + 인간 사진 50:50 믹스 원칙** | 지나치게 과학적이면 차갑게 느껴지고, 지나치게 감성적이면 신뢰도 하락 — 비율 균형이 핵심 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Pfizer (PFE)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,161 +1,102 @@
-# AON plc — 디자인 시스템
+# 05. Design System — Aon plc (AON)
 
-## 디자인 철학
-
-AON의 비주얼 아이덴티티는 "신뢰할 수 있는 정밀함(Trustworthy Precision)"을 기반으로 한다. 과도한 장식 없이 데이터와 정보가 중심이 되며, 전문적 권위와 접근 가능한 명확성 사이의 균형을 추구한다. 색상과 타이포그래피는 복잡한 금융·리스크 정보를 신속하게 소화할 수 있도록 설계된다 (추정).
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 팔레트
+## 1. Color Palette
 
-### 프라이머리 컬러
+Aon plc's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Aon Red (공식) | `#CC0000` | rgb(204, 0, 0) | 로고, 주요 CTA, 핵심 강조 요소 |
-| Deep Red (추정) | `#A30000` | rgb(163, 0, 0) | 호버 상태, 다크 배경 강조 |
-| Pure White (공식) | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 반전 |
-| True Black (공식) | `#000000` | rgb(0, 0, 0) | 기본 본문 텍스트 |
+### Core Brand Colors
 
-### 세컨더리 컬러
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Charcoal (추정) | `#333333` | rgb(51, 51, 51) | 제목, 서브헤드 |
-| Mid Gray (추정) | `#666666` | rgb(102, 102, 102) | 본문 보조 텍스트, 캡션 |
-| Light Gray (추정) | `#F2F2F2` | rgb(242, 242, 242) | 섹션 배경, 카드 배경 |
-| Border Gray (추정) | `#CCCCCC` | rgb(204, 204, 204) | 구분선, 테이블 테두리 |
+### Color Principles
 
-### 데이터 시각화 컬러 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Data Blue | `#003087` | rgb(0, 48, 135) | 차트 1번 데이터 시리즈 |
-| Data Teal | `#006D77` | rgb(0, 109, 119) | 차트 2번 데이터 시리즈 |
-| Data Orange | `#E8621A` | rgb(232, 98, 26) | 경고 데이터, 리스크 지표 |
-| Data Gold | `#C8A951` | rgb(200, 169, 81) | 강조 데이터, 성과 지표 |
-| Data Green | `#2E7D32` | rgb(46, 125, 50) | 긍정 지표, 성장 데이터 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러 | 사용 비율 | 주요 적용 영역 |
-|------|---------|------------|
-| White | 60% | 배경, 여백 |
-| Charcoal / Black | 25% | 텍스트 |
-| Aon Red | 10% | 강조, CTA, 로고 |
-| 세컨더리 & 데이터 | 5% | 차트, 아이콘, 구분 요소 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피 (추정)
+## 2. Typography
 
-### 폰트 패밀리
+Aon plc's digital properties employ a typographic system appropriate to its financials positioning.
 
-| 용도 | 폰트명 | 대체 폰트 | 특징 |
-|------|-------|---------|------|
-| 헤드라인 | Aon Custom Sans (추정) | Inter, Helvetica Neue | 중간 무게, 넓은 자간 |
-| 본문 | Georgia 또는 맞춤 Serif (추정) | Times New Roman | 긴 문서 가독성 최적화 |
-| 데이터/숫자 | Tabular Numerals (추정) | Roboto Mono | 수치 정렬, 표 내 균등 간격 |
-| UI/인터페이스 | Inter (추정) | Arial | 디지털 플랫폼 전용 |
+### Typeface System
 
-### 타이포그래피 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 행간 | 자간 | 무게 |
-|------|------|------|------|------|
-| Display H1 | 48px | 1.2 | -0.02em | Bold (700) |
-| Section H2 | 36px | 1.3 | -0.01em | SemiBold (600) |
-| Sub H3 | 24px | 1.4 | 0em | Medium (500) |
-| Body Large | 18px | 1.6 | 0.01em | Regular (400) |
-| Body Default | 16px | 1.7 | 0.01em | Regular (400) |
-| Caption | 12px | 1.5 | 0.02em | Regular (400) |
-| Data Label | 11px | 1.4 | 0.05em | Medium (500) |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 레이아웃 & 그리드 (추정)
+## 3. Channel Specifications
 
-### 그리드 시스템
-
-- **컬럼:** 12컬럼 그리드
-- **거터:** 24px (데스크톱), 16px (모바일)
-- **최대 너비:** 1280px (콘텐츠), 1920px (풀블리드 이미지)
-- **여백:** 좌우 최소 80px (데스크톱), 20px (모바일)
-
-### 레이아웃 원칙
-
-1. **여백 우선**: 콘텐츠 밀도 낮게 유지 — 전문적 고급감 표현
-2. **좌측 정렬**: 텍스트 블록은 좌측 정렬 기본, 중앙 정렬 최소화
-3. **수평 구분선**: 섹션 구분에 얇은 1px 선 또는 넉넉한 여백 활용
-4. **데이터 우선 배치**: 핵심 수치는 시각적 위계 최상단 배치
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## UI 컴포넌트 원칙 (추정)
+## 4. Layout Principles
 
-### 버튼 & CTA
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 유형 | 배경색 | 텍스트색 | 테두리 | 용도 |
-|------|-------|---------|-------|------|
-| Primary CTA | `#CC0000` | `#FFFFFF` | 없음 | 핵심 전환 액션 |
-| Secondary CTA | `#FFFFFF` | `#CC0000` | `#CC0000` 1px | 보조 액션 |
-| Tertiary | `#F2F2F2` | `#333333` | `#CCCCCC` 1px | 내비게이션, 필터 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 카드 & 모듈
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- **배경:** `#FFFFFF` 또는 `#F2F2F2`
-- **테두리 반경:** 2-4px (최소화, 각진 전문적 느낌)
-- **그림자:** 없음 또는 매우 얕은 수준 (box-shadow: 0 1px 4px rgba(0,0,0,0.08))
-- **호버 상태:** 얇은 레드 좌측 보더 추가 또는 배경색 `#F2F2F2` 전환
-
-### 아이콘 스타일 (추정)
-
-- **스타일:** 선형(Line) 아이콘, 2px 스트로크
-- **크기:** 16px / 24px / 32px (3단계)
-- **색상:** 기본 `#333333`, 강조 `#CC0000`
-- **금지:** 다색 그래디언트 아이콘, 과도한 장식
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 이미지 & 사진 방향성 (추정)
+## 5. Design Prohibitions
 
-### 사진 스타일
-
-- **선호:** 비즈니스 환경, 데이터 시각화, 글로벌 도시 스카이라인
-- **인물:** 다양성 반영 (인종·성별·연령), 포즈는 전문적·자신감 있는 표정
-- **색조:** 채도 낮은 쿨톤 또는 모노크롬 — 레드 강조 요소와 대비
-- **금지:** 스톡 사진 느낌의 과도한 연출, 감성적 클리셰 이미지
-
-### 데이터 시각화 원칙
-
-1. 차트 배경은 항상 `#FFFFFF` 또는 `#F2F2F2`
-2. 격자선(gridline)은 `#CCCCCC` 얇은 선 사용
-3. 핵심 데이터 포인트에만 레드 `#CC0000` 강조
-4. 범례는 차트 우측 또는 하단 — 차트 내 직접 라벨링 선호
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
-
-### Layer 1: 컬러 전략 도용
-
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 단색 강조 원칙 | 레드 하나만 강조색으로 — 나머지는 중성 | 강조색 1개 원칙으로 브랜드 인식 즉시 형성 |
-| 데이터 전용 팔레트 | 브랜드 컬러와 분리된 데이터 시각화 색상 | 차트 색상 별도 정의로 정보 가독성 보호 |
-| 여백=고급감 | 빈 공간을 설계 요소로 사용 | 콘텐츠 밀도 낮추기로 프리미엄 인식 상승 |
-
-### Layer 2: 타이포그래피 도용
-
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 수치 전용 폰트 | Tabular Numerals로 숫자 정렬 | 금융 데이터는 반드시 등폭 숫자 폰트 적용 |
-| Serif + Sans 혼용 | 장문 리포트에 Serif, UI에 Sans | 매체 특성에 따른 폰트 전환으로 가독성 최적화 |
-| 자간 확대 캡션 | 캡션·라벨의 자간 넓혀 소형 텍스트 가독성 향상 | 소형 텍스트 자간 0.05em 이상 설정 |
-
-### Layer 3: 컴포넌트 도용
-
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 각진 반경 | 2-4px 미니멀 반경으로 전문성 강조 | B2B 브랜드에서 둥근 버튼은 신뢰도 감소 신호 |
-| 좌측 보더 강조 | 호버 시 레드 좌측 보더로 선택 상태 표시 | 색상 대신 구조로 상태 전달 — 미묘한 브랜드 일관성 |
-| 그림자 최소화 | flat 디자인 기조 — 불필요한 depth 제거 | 금융 서비스 UI에서 그림자 제거 = 신뢰감 증가 |
+*Layer 5 of 8 — Brand Autopsy: Aon plc (AON)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

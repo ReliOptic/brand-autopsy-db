@@ -1,164 +1,84 @@
-# 02. 오디언스 맵 — Abbott Laboratories (ABT)
+# 02. Audience Map — Abbott Laboratories (ABT)
 
-## 오디언스 계층 구조
-
-```
-Primary (직접 구매결정권)
-├── 의료 전문가 (HCP) — 처방·기기 선택
-└── 병원·검사기관 조달 담당자 (B2B)
-
-Secondary (영향력 행사)
-├── 환자 및 보호자
-└── 보험사·정부 기관
-
-Tertiary (브랜드 인식)
-├── 투자자·애널리스트
-└── 미디어·KOL
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1: HCP — 당뇨 전문 내분비내과 의사
+## Ideal Customer Profile (ICP)
 
-**이름**: 박재훈 (가상 인물, 추정)
-**나이**: 45세
-**직책**: 대학병원 내분비내과 부교수 겸 당뇨 클리닉 책임의
-**근무지**: 서울 소재 상급종합병원
-
-### 인구통계
-| 항목 | 내용 |
-|------|------|
-| 학력 | 의학박사 (MD, PhD) |
-| 경력 | 임상 18년, 연구 12년 |
-| 월 환자 수 | 약 400~500명 |
-| 디지털 활용 | EMR 완전 통합, 의학저널 앱 구독 |
-
-### 핵심 목표
-- 환자 HbA1c 개선율 극대화
-- 외래 진료 효율화 (CGM 데이터 자동 리포팅)
-- 최신 임상 가이드라인 준수 및 논문 실적
-
-### 페인포인트
-- 환자 자가 혈당 측정 일지 신뢰도 부족
-- 당뇨 합병증 조기 발견 지연
-- 보험 급여 기준 복잡성으로 인한 처방 장벽
-
-### 정보 습득 채널
-- NEJM, Diabetes Care, Lancet Diabetes & Endocrinology
-- 대한당뇨병학회 학술대회
-- Abbott 의료진 포털 (LibreView)
-- 동료 의사 추천 (KOL 영향 매우 큼)
-
-### 브랜드와의 접점
-- FreeStyle Libre 처방 → 환자 데이터 모니터링
-- Alinity 혈액검사 시스템 활용
-- Abbott 주관 CME 심포지엄 참석
-
-### 구매 결정 트리거
-> "임상 데이터가 명확하고, 환자 컴플라이언스가 높으며, 급여 처리가 간편해야 처방한다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Abbott Laboratories's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Abbott Laboratories's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: 환자 — 제2형 당뇨 관리 중인 직장인
+## Core Personas
 
-**이름**: 이수진 (가상 인물, 추정)
-**나이**: 52세
-**직업**: 중견기업 마케팅 부장
-**거주지**: 경기도 성남시
+### Persona 1 — Enterprise Decision-Maker
 
-### 인구통계
-| 항목 | 내용 |
-|------|------|
-| 진단 이력 | 제2형 당뇨 진단 7년차 |
-| 동반 질환 | 고혈압, 경도 비만 (BMI 27) |
-| 보험 | 직장가입자 건강보험 + 민간 실손보험 |
-| 디지털 활용 | 스마트폰 헤비유저, 건강 앱 3개 이상 사용 |
-
-### 핵심 목표
-- 일상적 혈당 관리로 합병증 예방
-- 직장 생활과 건강 관리 양립
-- 바늘 공포 없는 편리한 측정 방법
-
-### 페인포인트
-- 기존 채혈식 혈당 측정의 통증·번거로움
-- 식후 혈당 스파이크 원인 파악 어려움
-- 당뇨 관련 사회적 낙인 의식
-
-### 정보 습득 채널
-- 주치의 권유 (최우선)
-- 네이버 건강 카페, 당뇨 커뮤니티
-- YouTube 건강 채널
-- 약국 약사 상담
-
-### 브랜드와의 접점
-- FreeStyle Libre 2/3 착용 (팔뚝 부착형 센서)
-- LibreLink 앱 일상 활용
-- Abbott Ensure/Glucerna 제품 병행 섭취
-
-### 구매 결정 트리거
-> "의사 선생님이 추천했고, 스마트폰으로 바로 확인 가능하며, 더 이상 손가락 찌르지 않아도 된다는 점이 결정적이었다."
+- **Age / Occupation**: 42, VP-level or director in a Abbott Laboratories customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Abbott Laboratories selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: 병원 조달 담당자 — 대형 병원 진단검사 구매팀장
+### Persona 2 — Technical Specialist / End User
 
-**이름**: 최민준 (가상 인물, 추정)
-**나이**: 39세
-**직책**: 상급종합병원 의료기기 구매팀장
-**근무지**: 부산 소재 500병상 이상 종합병원
-
-### 인구통계
-| 항목 | 내용 |
-|------|------|
-| 학력 | 경영학 석사 |
-| 경력 | 의료기기 조달 15년 |
-| 연간 예산 관할 | 약 80억 원 규모 (추정) |
-| 구매 프로세스 | 공개입찰 + 수의계약 혼용 |
-
-### 핵심 목표
-- TCO(총소유비용) 최소화
-- 임상과 교수진 요구사항 충족
-- 공급 안정성 및 AS 보장
-- 규제·인증 서류 완비
-
-### 페인포인트
-- 벤더 다변화 요구와 기존 플랫폼 호환성 충돌
-- 시약·소모품 가격 인상 압박
-- 긴급 조달 시 공급망 리스크
-
-### 정보 습득 채널
-- KIMES (국제의료기기·병원설비전시회)
-- Abbott Korea 영업대표 미팅
-- 타 병원 구매담당자 네트워크
-- 조달청 나라장터
-
-### 브랜드와의 접점
-- Alinity ci/ci-s 시리즈 계약 협상
-- 연간 시약 공급 계약 갱신
-- 장비 유지보수 SLA 협의
-
-### 구매 결정 트리거
-> "임상팀이 만족하고, 납기·AS가 안정적이며, 3년 TCO 비교에서 합리적이면 계약한다."
+- **Age / Occupation**: 35, technical professional who interacts with Abbott Laboratories's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Abbott Laboratories selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 우선순위 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 구매 영향력 | 브랜드 감도 | 우선순위 |
-|----------|------------|------------|---------|
-| HCP (전문의) | 매우 높음 | 높음 | ★★★★★ |
-| 병원 조달담당자 | 높음 | 중간 | ★★★★☆ |
-| 환자·보호자 | 중간 (CGM 직구매 증가) | 매우 높음 | ★★★★☆ |
-| 보험사·정부 | 높음 (급여 결정) | 낮음 | ★★★☆☆ |
-| 투자자 | 간접적 | 낮음 | ★★☆☆☆ |
+- **Age / Occupation**: 38, consumer who interacts with Abbott Laboratories's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Abbott Laboratories selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스별 핵심 메시지
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 핵심 메시지 |
-|----------|------------|
-| HCP | "임상적으로 검증된 데이터로 환자 아웃컴을 개선하십시오." |
-| 환자 | "더 자유롭게, 더 건강하게 — 손가락 채혈 없이 삶을 즐기세요." |
-| 조달담당자 | "Abbott의 통합 플랫폼으로 운영 효율과 임상 신뢰를 동시에." |
-| 보험사 | "CGM 급여 확대는 합병증 예방으로 장기 의료비를 절감합니다." |
+| Stage | Abbott Laboratories's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Abbott Laboratories total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Abbott Laboratories Is Not For
+
+| Type | Characteristics | Why Abbott Laboratories Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Abbott Laboratories's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Abbott Laboratories's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Abbott Laboratories's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Abbott Laboratories's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Abbott Laboratories's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

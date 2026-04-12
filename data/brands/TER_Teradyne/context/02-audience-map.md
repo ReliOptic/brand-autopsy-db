@@ -1,120 +1,84 @@
-# 02 오디언스 맵 — Teradyne (TER)
+# 02. Audience Map — Teradyne (TER)
 
-## 타깃 오디언스 개요
-
-Teradyne의 주요 고객은 반도체 제조사, 전자 기기 OEM, 자동차 부품 업체, 방위산업체, 그리고 산업 자동화를 도입하는 제조업체다 (추정). 의사결정은 대부분 기술팀과 구매팀의 공동 평가를 통해 이루어지는 복잡한 B2B 구매 프로세스를 따른다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 반도체 테스트 엔지니어 — "정밀함을 추구하는 정예"
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김민준 |
-| 직책 | 수석 테스트 엔지니어 |
-| 소속 | 국내 대형 반도체 파운드리 (삼성전자·SK하이닉스 유형) |
-| 연령 | 35~45세 |
-| 학력 | 전자공학·반도체공학 석사 이상 (추정) |
-| 경력 | 10~20년 반도체 테스트 분야 |
-
-**핵심 목표**
-- 웨이퍼 및 패키지 테스트 수율 최대화
-- 테스트 시간 단축으로 생산 처리량(throughput) 향상
-- 새로운 공정 노드(3nm, 2nm)에 대응하는 테스트 솔루션 확보
-
-**핵심 고통 포인트**
-- 첨단 공정 노드로 갈수록 테스트 난이도와 비용 급증
-- 테스트 장비의 긴 납기(lead time)로 인한 생산 계획 차질
-- 레거시 테스터와 신규 디바이스 간 호환성 문제
-
-**정보 소비 채널**
-- IEEE Spectrum, Semiconductor Digest 등 기술 저널
-- SEMICON, ITC 등 업계 컨퍼런스
-- 공급사 기술 웨비나 및 애플리케이션 노트
-
-**구매 영향력**
-- 기술 사양 정의 및 평가에 결정적 권한 보유
-- 최종 발주는 구매팀이지만 기술 승인 없으면 진행 불가
-
-**메시지 키**
-> "나노미터 단위의 정밀도가 수율을 결정합니다. Teradyne과 함께 차세대 노드를 정복하세요."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductor materials & equipment and adjacent industries. (T4_INFERRED from Teradyne's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Teradyne's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 구매·조달 이사 — "ROI를 계산하는 전략가"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이수현 |
-| 직책 | 제조장비 구매 이사 |
-| 소속 | 글로벌 전자 OEM (애플·삼성전자 유형 협력사) |
-| 연령 | 40~55세 |
-| 학력 | 경영학·산업공학 학사/석사 (추정) |
-| 경력 | 15년 이상 구매·공급망 관리 |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표**
-- 장비 총소유비용(TCO) 최소화
-- 공급업체 다변화로 단일 소스 리스크 제거
-- 납기·유지보수 SLA 준수율 극대화
-
-**핵심 고통 포인트**
-- 테스트 장비 가격 협상에서 정보 비대칭
-- 유지보수 계약 및 부품 조달 비용의 예측 불가
-- 글로벌 공급망 불안정에 따른 납기 리스크
-
-**정보 소비 채널**
-- Supply Chain Management Review, Procurement Leaders
-- 업계 벤더 비교 보고서
-- 내부 엔지니어링팀 기술 평가 리포트
-
-**구매 영향력**
-- 최종 계약 조건 협상 및 발주 권한 보유
-- 기술 평가 완료 후 비용·조건 최적화 주도
-
-**메시지 키**
-> "검증된 신뢰성과 투명한 유지보수 비용. Teradyne은 당신의 TCO 계산식을 바꿉니다."
+- **Age / Occupation**: 42, VP-level or director in a Teradyne customer organization
+- **Core pain**: Needs reliable semiconductor materials & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Teradyne selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 자동화 도입 공장장 — "변화를 이끄는 실행가"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박정호 |
-| 직책 | 스마트팩토리 추진 공장장 |
-| 소속 | 중견 자동차 부품 제조업체 |
-| 연령 | 45~58세 |
-| 학력 | 기계공학·산업공학 학사 (추정) |
-| 경력 | 20년 이상 생산·제조 현장 관리 |
-
-**핵심 목표**
-- 협동 로봇(Universal Robots) 도입으로 인건비 절감 및 생산성 향상
-- 사람-로봇 협업 환경에서 안전 사고 제로 달성
-- 기존 라인 최소 변경으로 자동화 ROI 조기 실현
-
-**핵심 고통 포인트**
-- 자동화 도입 후 현장 작업자 재교육 및 저항 관리
-- 협동 로봇의 프로그래밍 난이도와 유지보수 인력 부족
-- 도입 초기 투자비용 대비 ROI 불확실성
-
-**정보 소비 채널**
-- 한국로봇산업협회, KOTRA 스마트팩토리 자료
-- 산업부 스마트제조 컨퍼런스
-- Universal Robots 공식 교육 프로그램 및 사례 영상
-
-**구매 영향력**
-- 자동화 도입 방향 결정 및 예산 요청 권한
-- 현장 실증 결과를 토대로 확대 도입 여부 결정
-
-**메시지 키**
-> "UR 협동 로봇은 코드 없이도 시작할 수 있습니다. 오늘 현장을 바꾸세요."
+- **Age / Occupation**: 35, technical professional who interacts with Teradyne's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Teradyne selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 여정 단계별 콘텐츠 전략
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 인식 | 고려 | 평가 | 구매 | 재구매/확장 |
-|------|------|------|------|------|-------------|
-| 주요 질문 | "왜 지금 바꿔야 하나?" | "어떤 솔루션이 있나?" | "Teradyne이 최선인가?" | "조건이 맞는가?" | "더 넓힐 수 있나?" |
-| 콘텐츠 유형 | 업계 트렌드 리포트, 웨비나 | 제품 브로슈어, 비교 가이드 | 케이스 스터디, ROI 계산기 | 제안서, 데모 | 확장 솔루션 안내, 업그레이드 프로그램 |
-| 채널 | LinkedIn, 기술 저널 | 웹사이트, 이메일 | 영업팀 미팅, 기술 평가 | 직접 영업 | 고객 성공팀, 뉴스레터 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Teradyne's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Teradyne selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Teradyne's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Teradyne total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Teradyne Is Not For
+
+| Type | Characteristics | Why Teradyne Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Teradyne's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Teradyne's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Teradyne's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Teradyne's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Teradyne's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

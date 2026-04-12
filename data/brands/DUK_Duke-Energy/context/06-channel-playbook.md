@@ -1,173 +1,141 @@
-# Duke Energy (DUK) — 채널 플레이북
+# 06. Channel Playbook — Duke Energy (DUK)
 
-> 분류: 전력 유틸리티 | 티커: DUK
-
----
-
-## 1. 채널 아키텍처 개요
-
-| 채널 레이어 | 채널 목록 | 주요 목적 |
-|-----------|---------|---------|
-| 오운드 (Owned) | 웹사이트, 모바일 앱, 이메일, 뉴스룸 | 정보 제공, 셀프서비스, 신뢰 구축 |
-| 언드 (Earned) | 언론 보도, 리뷰, SNS 언급 | 브랜드 신뢰도, 도달 확장 |
-| 페이드 (Paid) | 디지털 광고, TV, 옥외 광고 | 인지도, 전환, 정책 지지 |
-| 파트너 (Partner) | 지자체, 비영리, 에너지스타 | 지역사회 신뢰, 정책 협력 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널별 상세 플레이북
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 채널 1: 공식 웹사이트 (dukeenergy.com)
+## 2. Channel Tone Variations
 
-**역할**: 모든 고객 여정의 허브 — 정보 탐색, 계정 관리, 서비스 신청 (공식)
+Duke Energy's core voice adjusts by channel while maintaining brand coherence.
 
-**주요 섹션 구조** (추정)
-- 홈: 정전 지도 바로가기, 계절별 에너지 팁 배너
-- 고객 서비스: 요금 납부, 자동이체, 사용량 조회
-- 에너지 절약: 리베이트 프로그램, 에너지 감사 신청
-- 청정에너지: 태양광 옵션, 커뮤니티 태양광, EV 충전
-- 뉴스룸: 보도자료, 임원 인터뷰, ESG 업데이트
-- IR: 재무 보고서, 주주 자료, Investor Day 아카이브
-
-**KPI** (추정)
-- 셀프서비스 완료율: 목표 70%+
-- 모바일 전환율: 목표 60%+
-- 챗봇 해결율: 목표 50%+
-
-**콘텐츠 빈도**: 뉴스룸 주 2–3회, 에너지 팁 주 1회 (추정)
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 채널 2: 모바일 앱
+## 3. Cross-Channel Synergy Map
 
-**역할**: 일상적 고객 접점 — 사용량 모니터링, 정전 알림, 요금 납부 (공식)
+### Route A — Product/Service Launch Sequence
 
-**핵심 기능** (공식)
-- 실시간 전기 사용량 및 비용 추적
-- 정전 신고 및 복구 진행 알림
-- 요금 납부 및 예산 청구 설정
-- 에너지 절약 팁 개인화 추천
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-**푸시 알림 전략** (추정)
-| 알림 유형 | 발송 조건 | 빈도 |
-|---------|---------|------|
-| 정전 발생 | 즉시 | 상황 발생 시 |
-| 복구 완료 | 즉시 | 상황 완료 시 |
-| 청구서 발행 | 월 1회 | 정기 |
-| 절약 목표 달성 | 달성 시 | 비정기 |
-| 폭염·한파 에너지 팁 | 기상 임계값 도달 시 | 비정기 |
+### Route B — Thought Leadership Pipeline
 
-**KPI** (추정)
-- MAU(월간 활성 사용자): 서비스 구역 가구의 35%+ 목표
-- 앱스토어 평점: 4.0/5.0 이상 유지
-- 푸시 알림 오픈율: 25%+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
----
+### Route C — Earnings and Financial Communications
 
-### 채널 3: 이메일 마케팅
-
-**역할**: 관계 유지, 프로그램 안내, 위기 커뮤니케이션 (추정)
-
-**세그먼트별 이메일 전략**
-
-| 세그먼트 | 발송 빈도 | 주요 콘텐츠 |
-|---------|---------|-----------|
-| 주거 고객 일반 | 월 2회 | 에너지 팁, 리베이트 안내 |
-| 고사용량 고객 | 월 1회 | 절약 프로그램 집중 안내 |
-| 저소득층 지원 대상 | 분기 1회 | LIHEAP, 보조 프로그램 안내 |
-| EV 소유자 | 월 1회 | EV 요금제, 충전 팁 |
-| C&I 고객 | 월 1회 | 수요 반응, PPA, 에너지 감사 |
-| 투자자·주주 | 분기 1회 | 실적 요약, ESG 하이라이트 |
-
-**이메일 성과 기준** (추정)
-- 오픈율: 25–30% (유틸리티 업계 평균 대비)
-- 클릭률: 3–5%
-- 해지율: 0.2% 이하 유지
-
----
-
-### 채널 4: X (구 Twitter) / Facebook / Instagram
-
-**역할별 채널 포지셔닝**
-
-| 플랫폼 | 주요 역할 | 콘텐츠 스타일 | 발행 빈도 |
-|--------|---------|-------------|---------|
-| X (Twitter) | 실시간 정전 업데이트, 위기 커뮤니케이션 | 간결, 링크 중심 | 일 1–3회 + 이벤트 시 수시 |
-| Facebook | 지역사회 스토리, 프로그램 안내 | 친근, 이미지+텍스트 | 일 1회 |
-| Instagram | 청정에너지 비주얼, 직원 스토리 | 감성 이미지, 릴스 | 주 3–4회 |
-| LinkedIn | B2B, 채용, ESG, 임원 thought leadership | 전문적, 데이터 기반 | 주 2–3회 |
-| YouTube | 교육 영상, 캠페인 필름, IR 발표 | 중·장편, 자막 필수 | 월 2–4회 |
-
-**SNS 응답 SLA** (추정)
-- 정전 관련 문의: 30분 이내
-- 일반 고객 문의: 4시간 이내
-- 민원·불만: 2시간 이내, 개인 DM으로 전환
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 채널 5: 언론·PR (Earned Media)
+## 4. Channel-Specific Prohibitions
 
-**타깃 미디어 목록** (추정)
-- 전국지: Wall Street Journal, Bloomberg, Reuters (에너지·금융 섹션)
-- 지역지: Charlotte Observer, News & Observer (노스캐롤라이나)
-- 전문지: Utility Dive, Energy Wire, S&P Global Platts
-- 방송: 지역 NBC/CBS/ABC 계열사
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**PR 메시지 계층** (추정)
-1. 1순위: 청정에너지 전환 진척 및 투자
-2. 2순위: 지역사회 경제 기여 (일자리, 세수)
-3. 3순위: 운영 신뢰성·안전 기록
-4. 4순위: 고객 에너지 절약 지원
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**위기 커뮤니케이션 프로토콜** (추정)
-- 대형 정전 발생 시 60분 이내 초기 성명 발표
-- 환경 사고 시 CEO 직접 대응 원칙
-- 언론 보도 모니터링: 24/7 (서드파티 서비스 활용)
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 채널 6: 투자자 커뮤니케이션 (IR)
+## 5. Crisis Response Protocol
 
-**주요 IR 채널** (공식)
-- 분기 실적 발표 컨퍼런스 콜
-- Investor Day (연 1회)
-- SEC 공시 (10-K, 10-Q, 8-K)
-- ESG / 지속가능성 보고서 (연 1회)
-- IR 전용 웹페이지
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-**IR 커뮤니케이션 톤** (추정)
-- 보수적이고 수치 기반
-- 리스크 요소 투명하게 공시
-- 청정에너지 전환 CAPEX 가시성 강조
-- 배당 정책 일관성 메시지 유지
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
----
+### Scenario 2 — Regulatory or Legal Action
 
-## 3. 채널 통합 캠페인 프레임워크
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### 캠페인 예시: 여름 에너지 절약 캠페인 (추정)
+### Scenario 3 — Reputation / Social Media Issue
 
-| 단계 | 채널 | 메시지 | 타이밍 |
-|------|------|--------|--------|
-| 인지 | TV, 디지털 광고 | "올여름, 스마트하게 절약하세요" | 6월 초 |
-| 관심 | 이메일, SNS | 절약 팁 시리즈 + 리베이트 안내 | 6월 중–7월 |
-| 행동 | 앱, 웹사이트 | 리베이트 신청 CTA, 에너지 감사 예약 | 7월 |
-| 유지 | 앱 푸시, 이메일 | 절약 달성 축하 + 다음 단계 안내 | 8월 |
-| 옹호 | SNS | 고객 절약 스토리 UGC 공유 | 8–9월 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 4. Steal Sheet — 채널 플레이북 레이어
+## 6. Steal Sheet — 3 Transferable Principles
 
-> 즉시 적용 가능한 채널 전략 인사이트 3개
+**1. Align channel formality with audience expectations.**
+Duke Energy's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-**Steal 1 — "정전 라이브 스레드" X(트위터) 표준화**
-정전 발생 시 X에 단일 스레드를 열고 복구 단계별 업데이트를 리플로 추가하는 "라이브 스레드" 형식을 채택. 고객이 하나의 URL을 북마크하면 전체 경과를 추적 가능. 불안을 투명성으로 전환하는 가장 빠른 채널 활용법. (추정)
+**2. Use financial communications as a credibility asset.**
+Duke Energy's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-**Steal 2 — LinkedIn CEO 사설 시리즈**
-분기 1회 CEO 또는 CSO(최고지속가능성책임자)가 청정에너지 전환의 구체적 진척과 도전을 솔직하게 서술하는 LinkedIn 롱폼 포스트 발행. 투자자·규제 기관·직원 세 오디언스를 하나의 콘텐츠로 동시 공략. 비용 제로, 신뢰 최대. (추정)
-
-**Steal 3 — EV 소유자 전용 채널 세그먼트 선점**
-EV 보급 가속화로 전력 수요가 급증하는 세그먼트. EV 전용 요금제 안내, 심야 충전 팁, 홈 충전기 리베이트를 묶은 EV 전용 이메일 트랙과 앱 내 EV 대시보드를 선제적으로 구축하면 고사용량 고객을 충성 고객으로 전환 가능. (추정)
+**3. Build a cross-channel sequence, not parallel silos.**
+Duke Energy's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

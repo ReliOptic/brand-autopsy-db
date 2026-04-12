@@ -1,112 +1,84 @@
-# AIG 오디언스 맵
+# 02. Audience Map — American International Group (AIG)
 
-## 오디언스 개요
-
-AIG의 타깃 오디언스는 개인 소비자보다 기업·기관 고객에 집중된다. 글로벌 다국적 기업, 중견·중소기업, 고액 자산가(HNWI), 금융기관 등이 핵심 세그먼트를 형성한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 글로벌 CFO — 박재원 (52세)
-
-| 항목 | 내용 |
-|------|------|
-| 직함 | 다국적 제조기업 CFO |
-| 위치 | 서울 본사, 해외 출장 월 2회 |
-| 연수입 | 3억 원 이상 (추정) |
-| 교육 | MBA (Wharton 또는 INSEAD) |
-| 주요 책임 | 기업 리스크 관리, 보험 포트폴리오 최적화, 규제 준수 |
-| 핵심 고민 | 공급망 중단, 사이버 리스크, 기후 리스크로 인한 손실 노출 |
-| AIG 접점 | 기업재산보험, 배상책임보험, D&O 보험 |
-| 정보 채널 | WSJ, Financial Times, LinkedIn, 업계 컨퍼런스 |
-| 의사결정 기준 | 글로벌 커버리지 범위, 클레임 처리 속도, 언더라이팅 전문성 |
-| AIG에 기대하는 것 | 복잡한 다국적 리스크를 단일 창구로 관리하는 능력 |
-| 불만 포인트 | 복잡한 약관, 클레임 처리 지연, 담당자 잦은 교체 |
-
-**브랜드 메시지 포인트:** "80개국 이상의 네트워크로 어디서나 동일한 수준의 보호를 제공합니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in multi-line insurance. B2C: End consumers of financials products and services. (T4_INFERRED from American International Group's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in American International Group's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 스타트업 CRO — 이수진 (38세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | 핀테크 스타트업 최고리스크책임자 (CRO) |
-| 위치 | 서울 강남, 원격근무 병행 |
-| 연수입 | 1.2억 원 (추정) |
-| 교육 | 서울대 경제학, CFA |
-| 주요 책임 | 사이버 리스크, E&O 보험, 임원 배상책임 |
-| 핵심 고민 | 데이터 유출, 규제 변화, 시리즈 투자자 요구 보험 조건 충족 |
-| AIG 접점 | 사이버보험, E&O 보험, D&O 보험 |
-| 정보 채널 | LinkedIn, TechCrunch, Slack 커뮤니티, 스타트업 네트워크 |
-| 의사결정 기준 | 디지털 온보딩 편의성, 가격 투명성, 맞춤 커버리지 |
-| AIG에 기대하는 것 | 빠른 언더라이팅, 디지털 클레임 처리, 스타트업 특화 상품 |
-| 불만 포인트 | 대기업 중심 상품 설계, 디지털 경험 미흡, 상담 절차 복잡 |
+### Persona 1 — Enterprise Decision-Maker
 
-**브랜드 메시지 포인트:** "빠르게 성장하는 기업의 속도에 맞춘 유연한 리스크 커버리지."
+- **Age / Occupation**: 42, VP-level or director in a American International Group customer organization
+- **Core pain**: Needs reliable multi-line insurance solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **American International Group selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 고액 자산가 — 최민준 (61세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | 부동산·사모펀드 투자자 (개인) |
-| 위치 | 서울 용산, 해외 별장 보유 |
-| 순자산 | 200억 원 이상 (추정) |
-| 교육 | 연세대 법학, 미국 로스쿨 LL.M. |
-| 주요 관심사 | 고가 자산 보호, 개인 배상책임, 여행·항공기 보험 |
-| 핵심 고민 | 자산 가치 하락, 소송 리스크, 상속세·자산 이전 |
-| AIG 접점 | Private Client Group, 고가 주택·미술품 보험, 개인 우산보험 |
-| 정보 채널 | 프라이빗 뱅킹 네트워크, 가족오피스 어드바이저, Forbes |
-| 의사결정 기준 | 화이트글러브 서비스, 전담 어드바이저, 신속한 클레임 처리 |
-| AIG에 기대하는 것 | 나만의 리스크 프로파일을 이해하는 전담 전문가 |
-| 불만 포인트 | 표준화된 응대, 대기 시간, 담당자 전문성 편차 |
-
-**브랜드 메시지 포인트:** "당신의 독특한 자산과 라이프스타일을 이해하는 전담 보험 파트너."
+- **Age / Occupation**: 35, technical professional who interacts with American International Group's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **American International Group selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 | 수익 기여도 | 성장성 | 전략 우선순위 |
-|----------|------|------------|--------|--------------|
-| 글로벌 다국적 기업 | 소 | 최고 | 중 | 1순위 (추정) |
-| 중견기업 (Mid-market) | 중 | 높음 | 높음 | 2순위 (추정) |
-| 고액 자산가 (HNWI) | 소 | 높음 | 중 | 3순위 (추정) |
-| 금융기관·재보험사 | 소 | 높음 | 중 | 3순위 (추정) |
-| 스타트업·테크기업 | 대 | 중 | 매우 높음 | 4순위 (추정) |
-| 일반 개인 소비자 | 매우 대 | 낮음 | 낮음 | 전략 축소 (추정) |
+- **Age / Occupation**: 38, consumer who interacts with American International Group's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **American International Group selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 구매 여정 (B2B 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인식 → 탐색 → 평가 → 협상 → 계약 → 갱신
- │        │        │        │        │        │
-브로커   RFP    비교견적   조건협의   정책서명   클레임경험
-컨퍼런스  웹사이트  언더라이터  법무검토   온보딩   관계관리
-```
-
-### 핵심 의사결정자 (DMU)
-
-| 역할 | 영향력 | AIG 접점 전략 |
-|------|--------|--------------|
-| CFO / CRO | 최종 승인권 | C-suite 세미나, 전담 임원 배치 |
-| 리스크 매니저 | 기술적 평가 | 언더라이터 직접 미팅, 기술 자료 제공 |
-| 보험 브로커 | 추천·중개 | 브로커 파트너십, 교육 프로그램 |
-| 법무팀 | 약관 검토 | 명확한 약관, 법무 지원 서비스 |
+| Stage | American International Group's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | American International Group total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 오디언스 페인 포인트 요약
+## Anti-Persona — Who American International Group Is Not For
 
-| 페인 포인트 | 해당 세그먼트 | AIG 응답 방식 |
-|------------|--------------|--------------|
-| 글로벌 커버리지 일관성 부재 | 다국적 기업 | 글로벌 프로그램 통합 관리 |
-| 사이버 리스크 증가 | 테크·스타트업 | 전문 사이버 언더라이팅 |
-| 클레임 처리 지연 | 전 세그먼트 | 클레임 디지털화, SLA 보장 |
-| 상품 복잡성 | 중견기업 | 모듈형 상품 설계 (추정) |
-| 프리미엄 자산 맞춤화 부족 | HNWI | Private Client Group 전담팀 |
+| Type | Characteristics | Why American International Group Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | American International Group's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | American International Group's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | American International Group's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+American International Group's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+American International Group's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

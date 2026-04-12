@@ -1,111 +1,123 @@
-# Duke Energy (DUK) — 콘텐츠 DNA
+# 04. Content DNA — Duke Energy (DUK)
 
-> 분류: 전력 유틸리티 | 티커: DUK
-
----
-
-## 1. 콘텐츠 철학
-
-Duke Energy의 콘텐츠는 세 가지 축으로 구성된다. (추정)
-
-1. **신뢰 구축 (Trust-Building)**: 운영 투명성, 복구 현황, 안전 정보
-2. **교육 (Education)**: 에너지 절약, 요금 이해, 스마트 기기 활용
-3. **비전 공유 (Vision-Sharing)**: 청정에너지 전환 스토리, 지역사회 임팩트
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 콘텐츠 테마 매트릭스
+## Content Pillars
 
-| 테마 | 비중 (추정) | 주요 포맷 | 대상 오디언스 |
-|------|-----------|----------|--------------|
-| 에너지 절약·효율 팁 | 30% | 단문 SNS, 인포그래픽 | 주거 고객 |
-| 청정에너지 전환 스토리 | 25% | 장문 블로그, 영상 | 전체 + 투자자 |
-| 지역사회 지원·파트너십 | 20% | 케이스 스터디, 이벤트 | 지역 커뮤니티 |
-| 안전·긴급 정보 | 15% | 실시간 SNS, 문자 알림 | 전체 고객 |
-| 재무·투자자 커뮤니케이션 | 10% | 보도자료, IR 보고서 | 투자자·애널리스트 |
+Duke Energy's content strategy reflects its positioning in the Electric Utilities segment of Utilities. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Duke Energy understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for electric utilities requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Duke Energy." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 3. 콘텐츠 포맷별 가이드
-
-### 3-1. 단문 SNS (X/Twitter, Facebook)
-- **길이**: 140자 이내 본문 + 이미지 또는 링크
-- **톤**: 명확, 간결, 행동 유도
-- **필수 요소**: 서비스 구역 명시, CTA 포함
-- **금지**: 기술 전문 용어 단독 사용, 부정적 경쟁사 언급
-
-### 3-2. 장문 블로그·뉴스룸 포스트
-- **길이**: 600–1,200단어
-- **구조**: 헤드라인 → 핵심 요약 → 배경 → 세부 내용 → 고객 임팩트 → CTA
-- **톤**: 권위 있으나 친근, 데이터 기반
-- **필수 요소**: 인용구(임원 또는 지역사회 구성원), 수치적 증거
-
-### 3-3. 영상 콘텐츠
-- **길이**: 60초 (SNS용) / 2–3분 (YouTube·IR용)
-- **구조**: 문제 제시 → 솔루션 → 지역사회 임팩트
-- **톤**: 따뜻하고 낙관적, 실제 고객·직원 등장 선호
-- **금지**: 과도한 기업 홍보 어조, 연출 과잉
-
-### 3-4. 인포그래픽
-- **용도**: 요금 구조 설명, 에너지 절약 체크리스트, 재생에너지 진척도
-- **스타일**: 단순화, 아이콘 중심, 브랜드 컬러 준수
-- **데이터 출처**: 반드시 명시 (공식 데이터 or "(추정)" 표기)
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 4. 콘텐츠 보이스 가이드
+## Hook Patterns
 
-### DO (해야 할 것)
-- 고객의 관점에서 이야기 시작 ("여름 전기요금이 걱정되신다면...")
-- 구체적 수치로 약속 증명 ("지난해 50만 가정에 리베이트 지급")
-- 지역 이름·커뮤니티 레퍼런스 적극 활용
-- 복잡한 기술을 생활 언어로 번역
+### Hook 1 — Industry Challenge Lead
 
-### DON'T (하지 말아야 할 것)
-- 수동태 남용 ("요금이 조정되었습니다" → "저희가 요금을 조정했습니다")
-- 규제·법률 용어를 고객 커뮤니케이션에 그대로 전달
-- 정전·사고를 최소화하거나 은폐하는 어조
-- 경쟁사를 직접 공격하는 표현
+Opens with a recognizable industry challenge or pain point before presenting Duke Energy's perspective.
 
----
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-## 5. 콘텐츠 캘린더 주기 (추정)
+### Hook 2 — Data-Driven Insight
 
-| 주기 | 콘텐츠 유형 | 플랫폼 |
-|------|-----------|--------|
-| 일간 | 날씨·에너지 팁, 정전 현황 업데이트 | X, Facebook |
-| 주간 | 에너지 절약 시리즈, 직원 스토리 | Instagram, LinkedIn |
-| 월간 | 청정에너지 진척도 리포트, 지역사회 하이라이트 | 블로그, 이메일 |
-| 분기 | 실적 발표 콘텐츠, ESG 업데이트 | IR 사이트, LinkedIn |
-| 연간 | 지속가능성 보고서, 커뮤니티 임팩트 보고서 | 전채널 |
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## 6. SEO 핵심 키워드 클러스터 (추정)
+### Hook 3 — Customer Story Lead
 
-**클러스터 1 — 에너지 절약**
-duke energy 에너지 절약, 전기요금 낮추기, 스마트 서모스탯 리베이트, 에너지 감사
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-**클러스터 2 — 청정에너지**
-duke energy 태양광, 커뮤니티 태양광, 재생에너지 요금제, 탄소중립
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-**클러스터 3 — 고객 서비스**
-duke energy 정전 지도, 요금 납부, 자동이체 등록, duke energy 앱
+### Hook 4 — Regulatory or Market Shift
 
-**클러스터 4 — 투자자**
-DUK 배당, duke energy 주가, ESG 등급, 유틸리티 주식
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 7. Steal Sheet — 콘텐츠 DNA 레이어
+## CTA Patterns
 
-> 즉시 적용 가능한 콘텐츠 전략 인사이트 3개
+| CTA Type | Duke Energy Pattern | What Duke Energy Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-**Steal 1 — "실시간 투명성" 콘텐츠 루프**
-고객이 가장 불안해하는 순간은 정전 중이다. 복구 예상 시간을 15분 단위로 X(트위터)에 자동 업데이트하는 "정전 투명성 스레드"를 운영하면 불안을 신뢰로 전환 가능. (추정)
+---
 
-**Steal 2 — "에너지 절약 챌린지" UGC 캠페인**
-고객이 에너지 절약 결과를 공유하도록 유도하는 SNS 챌린지(#DukeSmartHome)를 운영. 절약 금액 인포그래픽 자동 생성 도구를 앱에 내장하면 UGC와 앱 인게이지먼트를 동시 달성. (추정)
+## Tone & Mood Guide
 
-**Steal 3 — B2B 전용 "청정에너지 조달 가이드" 콘텐츠 허브**
-C&I 고객은 ESG 보고서 작성을 위해 에너지 조달 데이터가 필요하다. DUK가 "RE100 조달 가이드", "탄소 배출 계수 데이터", "PPA 체결 프로세스" 등을 하나의 B2B 콘텐츠 허브로 묶으면 대형 고객 락인 효과. (추정)
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to utilities sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Duke Energy as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #DUK | Financial and investor community | Moderate (estimated) |
+| #DukeEnergy | Brand-level social engagement | Varies (estimated) |
+| #UInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Duke Energy's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In utilities markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in electric utilities face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Duke Energy's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

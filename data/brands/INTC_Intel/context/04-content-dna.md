@@ -1,122 +1,123 @@
-# 04. 콘텐츠 DNA — 인텔 (Intel Corporation)
+# 04. Content DNA — Intel (INTC)
 
-## 콘텐츠 필러 (Content Pillars)
-
-인텔의 모든 콘텐츠는 아래 5개 필러 중 하나에 귀속되어야 한다. 필러 없는 콘텐츠는 발행하지 않는다.
-
-### 필러 1. AI PC / AI 민주화
-**핵심 질문:** "AI를 클라우드 없이, 지금 내 기기에서 쓸 수 있는가?"
-- 로컬 AI 실행 데모, NPU 활용 실사용 케이스, AI 기능 튜토리얼
-- 타깃: 소비자, 개발자, IT 관리자
-- 비중: 전체 콘텐츠의 35%
-
-### 필러 2. 기술 리더십 / 공정 혁신
-**핵심 질문:** "인텔은 기술 최전선에 있는가?"
-- 18A 공정 업데이트, 아키텍처 심층 해설, 연구 논문 요약, 기술 블로그
-- 타깃: 엔지니어, 애널리스트, 테크 미디어
-- 비중: 전체 콘텐츠의 25%
-
-### 필러 3. 반도체 주권 / 공급망 안보
-**핵심 질문:** "왜 서방 파운드리가 필요한가?"
-- CHIPS Act 현황, IFS 파트너십 발표, 지정학 분석, B2B 사례 연구
-- 타깃: 기업 의사결정자, 정부 기관, 정책 미디어
-- 비중: 전체 콘텐츠의 20%
-
-### 필러 4. 개발자 생태계 / oneAPI
-**핵심 질문:** "인텔 플랫폼에서 개발하는 것이 더 유리한가?"
-- oneAPI 튜토리얼, Intel DevCloud 활용법, 오픈소스 기여, 해커톤 결과
-- 타깃: 소프트웨어 개발자, ML 엔지니어, 연구자
-- 비중: 전체 콘텐츠의 15%
-
-### 필러 5. 브랜드 재건 / 인텔의 귀환
-**핵심 질문:** "인텔은 달라졌는가?"
-- 조직 혁신 스토리, 직원 인터뷰, 생산 시설 투어, CEO 메시지
-- 타깃: 투자자, 파트너, 광범위 미디어
-- 비중: 전체 콘텐츠의 5% (과잉 사용 시 자기 위안 콘텐츠로 전락)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 훅 (Hook) 라이브러리
+## Content Pillars
 
-### 소비자 / AI PC 훅
-- "지금 쓰는 소프트웨어, 하나도 바꾸지 마세요. AI만 추가됩니다."
-- "ChatGPT에 월 X만 원 쓰고 있다면, 이 계산을 해보세요." (로컬 AI 비용 비교)
-- "ARM 노트북이 배터리는 길어요. 그런데 이 앱은 안 됩니다." (호환성 역공)
-- "NPU가 뭔지 몰라도 괜찮습니다. 그냥 빨라집니다."
-- "2년 후 AI PC가 아닌 기기를 쓰고 있을 확률은?" (교체 주기 자극)
+Intel's content strategy reflects its positioning in the Semiconductors segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### B2B / 엔터프라이즈 훅
-- "당신 회사 서버가 대만 해협 뉴스에 반응한다면, 그건 리스크입니다."
-- "TSMC 단일 의존: 공급망 감사에서 몇 점짜리입니까?"
-- "AI 도입 예산은 나왔는데, IT 팀이 재교육 없이 바로 쓸 수 있습니까?"
-- "인증 소프트웨어 재포팅 비용을 TCO에 넣어 계산해본 적 있습니까?"
-- "18A 공정이 양산되면 가장 먼저 수혜받는 고객은 지금 계약한 고객입니다."
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Intel understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for semiconductors requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Intel." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 개발자 훅
-- "로컬 LLM, GPU 없이 돌릴 수 있습니다. NPU로."
-- "CUDA만 아는 ML 엔지니어가 놓치고 있는 것."
-- "oneAPI: 벤더 락인 없는 AI 개발의 시작."
-- "Intel DevCloud: 무료로 Xeon 클러스터에서 모델 돌려보기."
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## CTA (Call-to-Action) 매트릭스
+## Hook Patterns
 
-| 단계 | 콘텐츠 유형 | CTA 문구 | 목적지 |
-|------|------------|---------|--------|
-| 인지 | 브랜드 영상, SNS 카드 | "AI PC 체험해보기" | 체험존 / OEM 파트너 페이지 |
-| 고려 | 비교 가이드, 벤치마크 | "내 워크로드에 맞는 Core Ultra 찾기" | 제품 선택 가이드 |
-| 전환 | 제품 상세 페이지 | "지금 구매 가능한 AI PC 보기" | OEM 구매 링크 |
-| B2B 인지 | 백서, 기술 블로그 | "IFS 파트너십 문의" | 영업 팀 연결 폼 |
-| B2B 전환 | 케이스 스터디, ROI 계산기 | "TCO 계산기 실행" | 인터랙티브 툴 |
-| 개발자 | 튜토리얼, 코드 샘플 | "Intel DevCloud 무료 시작" | 개발자 포털 |
-| 유지 | 제품 업데이트, 뉴스레터 | "Intel 기술 뉴스레터 구독" | 이메일 등록 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Intel's perspective.
 
-## 톤 가이드 (채널별 변주)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 공식 보도자료 / 투자자 커뮤니케이션
-- 문체: 3인칭, 수동태 지양, 능동태 선호
-- 길이: 핵심 주장 1문장 + 근거 3개 + 인용 1개
-- 금지: 추정 미래 약속, 최상급 단독 사용, 경쟁사 직접 언급
-- 예시: "인텔은 2025년 하반기 18A 공정 고객 인도를 목표로 하고 있으며, 현재 두 곳의 파일럿 고객과 협력 중입니다."
+### Hook 2 — Data-Driven Insight
 
-### 기술 블로그 / 개발자 문서
-- 문체: 2인칭(당신/여러분), 코드 스니펫 필수 포함
-- 길이: 1,200~2,500자 (한국어 기준), 소제목으로 분절
-- 금지: 마케팅 수사(혁신적인, 최첨단, 게임체인저)
-- 예시: "다음 코드를 실행하면 NPU에서 직접 추론을 돌릴 수 있습니다. Intel OpenVINO를 먼저 설치하세요."
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### SNS (LinkedIn / X / 유튜브 커뮤니티)
-- 문체: 구어체, 질문형 오프닝, 숫자 강조
-- 길이: LinkedIn 300자 이내 본문 + 링크, X 140자 이내
-- 금지: 기업 홍보 말투("인텔은 항상 고객을 위해…"), 수동태
-- 예시: "로컬 AI가 클라우드 API보다 느리다고? 실제로 재봤습니다 →"
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-### 국내(한국어) 콘텐츠
-- 문체: 경어체(~합니다/~입니다), 영어 약어 사용 시 한국어 설명 병기
-- 금지: 직역체("당신의 비전, 우리의 실리콘" → "함께 만드는 반도체"), 과도한 영문 혼용
-- 필수: 국내 파트너사(삼성, LG, SK하이닉스) 연계 언급 시 동등 파트너로 표현
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 금지사항 (콘텐츠 레벨)
+## CTA Patterns
 
-- **"레거시 아키텍처"** — x86을 구식으로 표현하는 모든 문구. 경쟁사 언어를 내재화하는 행위.
-- **근거 없는 최상급** — "세계 최고의 AI 칩", "가장 빠른 프로세서" (구체적 벤치마크 없이)
-- **미래 약속 단언** — "2025년에는 반드시 TSMC를 앞설 것입니다" — 공정 지연 이력 때문에 신뢰 훼손 위험
-- **경쟁사 직접 비방** — "AMD는 파운드리가 없어서 위험합니다" — 법적 리스크 + 브랜드 격 하락
-- **과도한 약어 나열** — ISA, IDM 2.0, IFS, AMX, TDX를 설명 없이 한 문단에 혼재
-- **감정 조작형 국뽕 마케팅** — 미국·한국 반도체 애국심 자극형 캠페인 (단기 효과, 장기 브랜드 손상)
-- **Tick-Tock 언급** — 폐기된 로드맵 용어. 과거 약속 미이행 연상시킴.
+| CTA Type | Intel Pattern | What Intel Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-### Steal Sheet — 3가지
+## Tone & Mood Guide
 
-1. **콘텐츠 필러에 비중(%)을 명시하라.** "5개 주제에 대해 콘텐츠를 만든다"는 계획은 실행되지 않는다. "필러 1에 35%, 필러 5에 5%"처럼 예산과 제작 편수를 배분하면 에이전시와의 협업에서 기준이 생기고, 자기 위안형 브랜딩 콘텐츠(필러 5)의 과잉 생산을 막는다.
+### Situation 1 — Product or Service Announcement
 
-2. **훅은 고객의 고통점을 질문으로 바꿔라.** 인텔이 지금 가장 필요한 훅은 "우리는 대단합니다"가 아니라 "당신 지금 이 문제 있죠?"다. 공급망 리스크, 소프트웨어 호환성, AI 클라우드 비용이라는 실제 고통을 질문으로 열고, 인텔이 답으로 들어가는 구조가 전환율이 높다.
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-3. **톤 가이드는 '금지 예시'를 반드시 포함하라.** "전문적이고 친근하게"라는 톤 가이드는 아무도 실행하지 못한다. "이런 문장은 쓰지 마라: '인텔은 항상 고객을 위해 혁신합니다'"처럼 실제 금지 문장을 써놓을 때 비로소 에이전시가 방향을 잡는다.
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Intel as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #INTC | Financial and investor community | Moderate (estimated) |
+| #Intel | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Intel's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in semiconductors face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Intel's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

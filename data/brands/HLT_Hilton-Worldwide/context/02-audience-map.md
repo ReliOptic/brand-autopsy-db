@@ -1,119 +1,84 @@
-# 02 오디언스 맵 — Hilton Worldwide (HLT)
+# 02. Audience Map — Hilton Worldwide (HLT)
 
-## 타겟 오디언스 개요
-
-Hilton의 핵심 타겟은 **비즈니스 여행자**, **어플루언트 레저 여행자**, **밀레니얼·Z세대 경험 추구자**로 구성된다. Hilton Honors 멤버십 1억 7천만+ 명이 주요 인게이지먼트 풀이다 (공식).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 비즈니스 트래블러 "성과형 박준혁"
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박준혁 |
-| 나이 | 38세 |
-| 직업 | IT 기업 영업본부장 |
-| 연소득 | 1억 2천만 원 (추정) |
-| 여행 빈도 | 연 40~60박 출장 (추정) |
-| 주요 거점 | 서울, 싱가포르, 뉴욕 |
-| 힐튼 티어 | Hilton Honors Gold / Diamond (추정) |
-
-**핵심 니즈**
-- 체크인 마찰 제로 — 디지털 키·앱 체크인 필수
-- 안정적인 고속 WiFi (영상 회의 기준)
-- 포인트 적립 극대화 (출장비 처리 후 개인 여행 활용)
-- 늦은 체크아웃 유연성
-
-**페인 포인트**
-- 피크 시즌 업그레이드 불인정
-- 포인트 유효기간 정책 변경에 대한 불안
-- 각 브랜드간 앱 경험 불일치 (추정)
-
-**메시지 각도**
-> "출장은 일상. 힐튼 호너스가 그 일상을 보상으로 바꿉니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in hotels, resorts & cruise lines. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Hilton Worldwide's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Hilton Worldwide's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 어플루언트 레저 여행자 "럭셔리 탐험가 이수연"
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이수연 |
-| 나이 | 45세 |
-| 직업 | 의사 (개인 클리닉 원장) |
-| 연소득 | 3억 원+ (추정) |
-| 여행 빈도 | 연 3~5회 해외 레저 (추정) |
-| 선호 브랜드 | Waldorf Astoria, Conrad (공식 브랜드) |
-| 동반자 유형 | 배우자 또는 친한 친구 |
-
-**핵심 니즈**
-- 개인화된 컨시어지 서비스
-- 로컬 문화 몰입 경험 (요리 클래스, 프라이빗 투어)
-- 스파·웰니스 시설 수준
-- 소셜 미디어에 올릴 수 있는 심미적 공간
-
-**페인 포인트**
-- 럭셔리 브랜드임에도 표준화된 느낌
-- 사전 요청 미이행 (알레르기·침대 유형 등)
-- 가격 대비 차별화 체감 부족 (추정)
-
-**메시지 각도**
-> "같은 도시, 다른 차원의 경험. Waldorf Astoria에서만 가능합니다."
+- **Age / Occupation**: 42, VP-level or director in a Hilton Worldwide customer organization
+- **Core pain**: Needs reliable hotels, resorts & cruise lines solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Hilton Worldwide selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 밀레니얼 경험 추구자 "여행 콘텐츠 크리에이터 김민준"
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김민준 |
-| 나이 | 29세 |
-| 직업 | 프리랜서 콘텐츠 크리에이터 / 마케터 |
-| 연소득 | 5,000만~7,000만 원 (추정) |
-| 여행 빈도 | 연 10~15회 (국내외 혼합) |
-| 선호 브랜드 | Canopy, Tempo, Curio Collection (공식 브랜드) |
-| 플랫폼 | Instagram, TikTok, YouTube |
-
-**핵심 니즈**
-- 인스타그래머블 디자인·루프탑·아트
-- 빠른 디지털 온보딩 (QR 체크인, 모바일 키)
-- 로컬 F&B 파트너십 (지역 맛집 협업)
-- 예산 대비 경험 밀도 (가성비 + 감성)
-
-**페인 포인트**
-- 과잉 포멀한 직원 인터랙션
-- 포인트 시스템 복잡성 이해 장벽
-- 표준화된 아침 뷔페 (지역색 부족) (추정)
-
-**메시지 각도**
-> "도착하는 순간부터 콘텐츠가 시작됩니다. #StayHilton"
+- **Age / Occupation**: 35, technical professional who interacts with Hilton Worldwide's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Hilton Worldwide selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 (추정) | LTV 우선순위 | 채널 친화도 |
-|---------|------------|------------|------------|
-| 비즈니스 트래블러 | 전체 객실 점유의 40~50% (추정) | ★★★★★ | 이메일, 앱 푸시, LinkedIn |
-| 어플루언트 레저 | 전체 매출의 25~30% (추정) | ★★★★☆ | 잡지 광고, 컨시어지, 직접 예약 |
-| 밀레니얼/Z세대 | 성장률 최고 세그먼트 (추정) | ★★★☆☆ | TikTok, Instagram, OTA |
-| 가족 여행자 | 성수기 집중 (추정) | ★★★☆☆ | Facebook, 가족 패키지 이메일 |
-| 장기 투숙객 | Home2·Homewood 주력 (추정) | ★★★★☆ | 직접 예약, 기업 계약 |
+- **Age / Occupation**: 38, consumer who interacts with Hilton Worldwide's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Hilton Worldwide selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 힐튼 호너스 멤버십 깔때기
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 첫 투숙 → 앱 다운로드 → Honors 가입(무료) → 실버(10박) → 골드(40박) → 다이아몬드(60박)
-```
+| Stage | Hilton Worldwide's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Hilton Worldwide total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-- 총 멤버 수: 1억 7,500만+ (공식, 2023년 기준)
-- 다이아몬드 멤버 비중: 전체의 약 1% (추정)
-- 포인트 사용처: 무료 숙박, 아마존·월마트 상품권, 경험 패키지 (공식)
+---
+
+## Anti-Persona — Who Hilton Worldwide Is Not For
+
+| Type | Characteristics | Why Hilton Worldwide Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Hilton Worldwide's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Hilton Worldwide's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Hilton Worldwide's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Hilton Worldwide's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Hilton Worldwide's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

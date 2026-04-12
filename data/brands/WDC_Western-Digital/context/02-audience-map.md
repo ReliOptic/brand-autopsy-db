@@ -1,87 +1,84 @@
-# 02 오디언스 맵 — Western Digital (WDC)
+# 02. Audience Map — Western Digital (WDC)
 
-## 오디언스 세그먼트 개요
-
-Western Digital은 소비자(B2C)부터 하이퍼스케일 클라우드(B2B)까지 4개 주요 세그먼트를 동시에 공략한다.
-
-| 세그먼트 | 비중 (추정) | 주요 채널 | 구매 동인 |
-|---------|-----------|---------|---------|
-| 일반 소비자 | 30% | 이커머스, 리테일 | 가격·용량·브랜드 친숙도 |
-| 크리에이터·게이머 | 20% | 전문 리테일, 유튜브 | 속도·내구성·외관 |
-| SMB/IT 관리자 | 25% | 채널 파트너, VAR | 호환성·보증·TCO |
-| 엔터프라이즈·CSP | 25% | 직판, OEM | 용량 밀도·RAS·QoS |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 디지털 크리에이터 "지원"
-
-| 항목 | 내용 |
-|------|------|
-| 나이/직업 | 28세, 유튜브 영상 편집자 겸 사진작가 |
-| 거주지 | 서울 마포구 (추정) |
-| 주요 기기 | MacBook Pro M3, 미러리스 카메라, DJI 드론 |
-| 스토리지 니즈 | 4K RAW 영상 1TB+/월 생성, 빠른 편집 속도, 포터블 백업 |
-| 구매 기준 | 읽기 속도 > 가격 > 브랜드 신뢰 |
-| 통증 포인트 | 파일 전송 속도 병목, 드라이브 파손 경험 |
-| WD 접점 | WD Black P50 Game Drive SSD, SanDisk Extreme Pro |
-| 메시지 키워드 | "순식간에", "절대 잃지 않는", "어디서든" |
-
-**행동 패턴:** 유튜브 리뷰·벤치마크 영상으로 제품 선별 → 쿠팡/아마존 구매 → 언박싱 콘텐츠 공유. WD Black 색상·포장 디자인에 민감하다.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in technology hardware, storage & peripherals and adjacent industries. (T4_INFERRED from Western Digital's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Western Digital's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — IT 인프라 관리자 "현수"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이/직업 | 42세, 중견기업 IT 팀장 |
-| 거주지 | 경기도 분당 (추정) |
-| 관리 환경 | 온프레미스 NAS 12베이, VMware 클러스터, 직원 300명 |
-| 스토리지 니즈 | 연간 갱신 계획, 5년 보증, RMA 속도 |
-| 구매 기준 | 호환성 > 보증/지원 > 가격 |
-| 통증 포인트 | 예산 승인 프로세스, 벤더 지원 품질, 부품 재고 |
-| WD 접점 | WD Red Pro, WD Gold, My Cloud EX 시리즈 |
-| 메시지 키워드 | "검증된", "5년 보증", "24/7 지원" |
+### Persona 1 — Enterprise Decision-Maker
 
-**행동 패턴:** Gartner·IDC 리포트 참조 → RFP/견적 비교 → 채널 파트너(삼성SDS, 다우기술 등) 경유 구매. 기술 백서·호환성 목록 필수 확인.
+- **Age / Occupation**: 42, VP-level or director in a Western Digital customer organization
+- **Core pain**: Needs reliable technology hardware, storage & peripherals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Western Digital selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 하이퍼스케일 스토리지 아키텍트 "Sarah"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이/직업 | 36세, 북미 CSP 스토리지 엔지니어 |
-| 거주지 | 시애틀 (추정) |
-| 관리 환경 | 페타바이트급 오브젝트 스토리지, Ceph/OpenStack |
-| 스토리지 니즈 | 용량 밀도, TCO/PB, 전력 효율, NVMe-oF 지원 |
-| 구매 기준 | TCO > 용량 밀도 > 벤더 로드맵 신뢰 |
-| 통증 포인트 | NAND 공급 안정성, 펌웨어 QA, 배송 리드타임 |
-| WD 접점 | Ultrastar DC HC560, WD Gold, OEM NAND 공급 |
-| 메시지 키워드 | "엑사바이트 스케일", "TCO 최적화", "공급망 신뢰성" |
-
-**행동 패턴:** OFC/Flash Memory Summit 컨퍼런스에서 벤더 접촉 → 파일럿 랙 테스트 90일 → 연간 계약 협상. 기술 로드맵 6개월 공개 요구.
+- **Age / Occupation**: 35, technical professional who interacts with Western Digital's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Western Digital selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 여정 맵 (공통 4단계)
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 트리거 | WD 접점 | 핵심 메시지 |
-|------|--------|---------|-----------|
-| 인지 (Awareness) | 용량 부족, 기기 구매 | SNS 광고, 유튜브 리뷰 | "데이터는 당신의 삶입니다" |
-| 고려 (Consideration) | 스펙 비교, 리뷰 탐색 | 공식 웹, 비교 페이지 | "업계 최고 내구성·속도 보증" |
-| 구매 (Purchase) | 프로모션, 번들 | 이커머스, 채널 파트너 | "지금 구매 = 5년 안심" |
-| 충성 (Loyalty) | 업그레이드, 용량 확장 | 마이 클라우드 앱, 뉴스레터 | "WD 생태계로 함께 성장" |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Western Digital's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Western Digital selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 세그먼트별 메시지 우선순위
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 1순위 | 2순위 | 3순위 |
-|---------|------|------|------|
-| 일반 소비자 | 가격·용량 | 브랜드 신뢰 | 디자인 |
-| 크리에이터·게이머 | 속도 | 내구성 | 외관·색상 |
-| SMB IT | 호환성·보증 | 지원 품질 | TCO |
-| 엔터프라이즈·CSP | TCO | 공급 안정성 | 기술 로드맵 |
+| Stage | Western Digital's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Western Digital total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Western Digital Is Not For
+
+| Type | Characteristics | Why Western Digital Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Western Digital's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Western Digital's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Western Digital's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Western Digital's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Western Digital's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

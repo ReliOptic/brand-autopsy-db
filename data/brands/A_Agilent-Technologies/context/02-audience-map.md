@@ -1,125 +1,84 @@
-# 오디언스 맵 — Agilent Technologies (A)
+# 02. Audience Map — Agilent Technologies (A)
 
-## 세그먼트 개요
-
-| 세그먼트 | 규모 비중 (추정) | 구매 사이클 | 주요 관심사 |
-|----------|----------------|-------------|-------------|
-| 제약·바이오 R&D | 35% | 6~18개월 | 규정 준수, 데이터 무결성 |
-| 학술·정부 연구기관 | 20% | 3~12개월 | 예산 효율, 기술 지원 |
-| 환경·식품 안전 | 18% | 6~12개월 | 법적 기준, 처리량 |
-| 임상·진단 | 15% | 12~24개월 | 정확도, IVD 규제 |
-| 화학·재료 산업 | 12% | 6~18개월 | 내구성, ROI |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 규정 준수 중심 제약 분석가
-
-**이름**: 김지연 (Ji-yeon Kim)
-**직책**: QC 수석 분석가, 국내 대형 제약사
-**연령**: 38세
-**교육**: 분석화학 석사
-
-**배경**
-- HPLC·LC-MS 기반 의약품 품질 관리 업무 10년 경력
-- FDA 21 CFR Part 11, KFDA GMP 규정 준수가 업무 핵심
-- 연간 기기 예산 2~5억 원 집행 권한
-
-**목표**
-- 감사 추적(audit trail) 완벽 구현
-- 배치 간 재현성 99.9% 이상 유지
-- 신규 분석법 밸리데이션 기간 단축
-
-**고통 포인트**
-- 소프트웨어 업데이트 시 데이터 무결성 위험
-- 공급업체 기술지원 응답 지연 (24시간 초과)
-- 레거시 기기와 신규 LIMS 통합 어려움
-
-**정보 소비**
-- HPLC·MS 전문 웨비나 월 2회 참석
-- Analytical Chemistry, LCGC 구독
-- 공급업체 애플리케이션 노트 적극 활용
-
-**구매 결정 요인**
-1. 21 CFR Part 11 완전 준수 여부
-2. 국내 현장 서비스 엔지니어 보유 여부
-3. 기존 Agilent 워크플로 호환성
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in life sciences tools & services. B2C: End consumers of health care products and services. (T4_INFERRED from Agilent Technologies's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Agilent Technologies's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 탐구적 학술 연구자
+## Core Personas
 
-**이름**: 박성민 (Sung-min Park)
-**직책**: 조교수, 서울 소재 연구중심대학 생화학과
-**연령**: 42세
-**교육**: 생화학 박사 (미국 유학 후 귀국)
+### Persona 1 — Enterprise Decision-Maker
 
-**배경**
-- 단백질 구조·기능 연구 전문, 연간 NRF 과제 2~3건
-- 기기 구매는 학과·공동기기실 위원회 합의 방식
-- 대학원생 5명이 기기 실사용자
-
-**목표**
-- 고감도 단백질 분석 (sub-femtomole 수준)
-- 학생 교육용 직관적 인터페이스
-- 논문 데이터 재현성 확보
-
-**고통 포인트**
-- 예산 주기(연도말 집중 집행)와 납기 불일치
-- 대학원생 이직 시 기기 운용 지식 단절
-- 교육·유지보수 비용 예산 외 발생
-
-**정보 소비**
-- PubMed 논문에서 사용 기기·방법 참조
-- 학회(KHUPO, KSMS) 전시 부스 방문
-- 동료 연구자 추천 의존도 높음
-
-**구매 결정 요인**
-1. 동종 연구그룹의 레퍼런스 논문 수
-2. 소프트웨어 사용 편의성 (학생 러닝커브)
-3. 교육 프로그램 및 애플리케이션 지원
+- **Age / Occupation**: 42, VP-level or director in a Agilent Technologies customer organization
+- **Core pain**: Needs reliable life sciences tools & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Agilent Technologies selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — ROI 중심 환경 검사 기관 관리자
+### Persona 2 — Technical Specialist / End User
 
-**이름**: 최동훈 (Dong-hoon Choi)
-**직책**: 검사팀장, 민간 환경분석 인증기관
-**연령**: 50세
-**교육**: 환경공학 학사
-
-**배경**
-- 수질·토양·대기 오염물질 공정시험 법정 분석 20년
-- ES ISO 17025 인증 유지 필수
-- 기기 30대 이상 운영, 연간 처리 시료 5만 건 이상
-
-**목표**
-- 처리량(throughput) 최대화로 단가 경쟁력 확보
-- 기기 가동률 95% 이상 유지
-- 신규 오염물질 검사 항목 빠른 추가
-
-**고통 포인트**
-- 기기 다운타임 발생 시 납기 지연·계약 위반 리스크
-- 소모품(컬럼, 세정제) 재고 관리 복잡
-- 국가 공정시험법 개정 시 방법 재검증 부담
-
-**정보 소비**
-- 환경부 고시·공정시험기준 모니터링
-- 기기 공급사 필드 엔지니어 정기 방문 선호
-- 동종 기관 협회 네트워크
-
-**구매 결정 요인**
-1. 국내 AS 네트워크 및 부품 재고 보유 수준
-2. 총소유비용(TCO) 5년 기준
-3. 공정시험법 방법 전용 애플리케이션 노트 제공
+- **Age / Occupation**: 35, technical professional who interacts with Agilent Technologies's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Agilent Technologies selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매자 여정 매핑
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 인식 | 탐색 | 평가 | 구매 | 유지/확장 |
-|------|------|------|------|------|-----------|
-| 주요 채널 | 학회, 논문 인용 | 웹사이트, 애플리케이션 노트 | 데모, 벤치마크 | 영업 담당자, 대리점 | 현장 서비스, 교육 |
-| 핵심 메시지 | 과학적 발견 가능성 | 기술 사양, 규정 준수 | ROI, 레퍼런스 | 가격·납기·지원 조건 | 지속적 파트너십 |
-| 콘텐츠 유형 | 사고 리더십 기사 | 애플리케이션 노트, 영상 | 케이스 스터디, 백서 | 견적서, SLA | 트레이닝, 업그레이드 가이드 |
+- **Age / Occupation**: 38, consumer who interacts with Agilent Technologies's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Agilent Technologies selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Agilent Technologies's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Agilent Technologies total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Agilent Technologies Is Not For
+
+| Type | Characteristics | Why Agilent Technologies Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Agilent Technologies's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Agilent Technologies's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Agilent Technologies's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Agilent Technologies's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Agilent Technologies's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,126 +1,84 @@
-# 02. 오디언스 맵 — Air Products (APD)
+# 02. Audience Map — Air Products (APD)
 
-## 오디언스 세그먼트 개요
-
-Air Products의 주요 오디언스는 B2B 산업 구매자, 정책·금융 의사결정자, ESG 투자자로 3개 레이어로 구분된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 산업 공정 엔지니어링 리더
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 김민준 — 정유·석유화학 플랜트 VP
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 48세 |
-| 직함 | VP of Process Engineering, 대형 정유사 |
-| 지역 | 울산 / 싱가포르 / 텍사스 (글로벌 플랜트 운영) |
-| 교육 | 화학공학 석사 |
-| 예산 권한 | 연간 가스 공급 계약 $50M~$200M 규모 |
-
-**핵심 목표**
-- 플랜트 가동률 99.9% 이상 유지
-- 수소·질소·산소 공급 중단 없는 연속 운영 보장
-- 탈탄소 규제 대응을 위한 저탄소 수소 전환 로드맵 수립
-
-**핵심 불안**
-- 가스 공급 중단으로 인한 플랜트 셧다운 (손실 추정 일당 수억 원)
-- 신기술 도입 시 기존 공정 호환성 리스크
-- 계약 만료 후 공급사 교체 시 전환 비용
-
-**정보 소비 채널**
-- 기술 백서 (White Paper), 사례 연구 (Case Study)
-- 산업 컨퍼런스 (ACHEMA, Gastech)
-- 동료 엔지니어 레퍼런스
-
-**Air Products와의 관계**
-- 장기 공급 계약 (15~20년) 파트너
-- 기술 지원팀과 상시 협업
-- 신규 프로젝트 사전 타당성 검토 단계부터 참여 요구
-
-**메시지 키**
-> "공급 신뢰성은 협상 불가 조건이다. 나머지는 기술로 증명하라."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in industrial gases and adjacent industries. (T4_INFERRED from Air Products's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Air Products's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 에너지 전환 전략가
+## Core Personas
 
-### 페르소나: Sarah Mitchell — 국영 에너지 기업 CDO
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직함 | Chief Decarbonization Officer, 유럽 국영 에너지 기업 |
-| 지역 | 런던 / 베를린 / 암스테르담 |
-| 교육 | 에너지정책 MBA + 환경공학 학사 |
-| 예산 권한 | 그린수소 인프라 투자 €500M~€2B |
-
-**핵심 목표**
-- 2030 탄소중립 중간 목표 달성
-- 수소 가치사슬 내 파트너십 확보 (생산-운송-저장-활용)
-- EU 택소노미 적합 프로젝트 포트폴리오 구성
-
-**핵심 불안**
-- 녹색 수소 단가 경쟁력 (그레이 수소 대비 여전히 높은 비용)
-- 대규모 프로젝트 실행 파트너의 신뢰성 검증
-- 규제 변화에 따른 프로젝트 지연 리스크
-
-**정보 소비 채널**
-- IEA, BloombergNEF 리포트
-- 세계경제포럼(WEF), COP 관련 행사
-- LinkedIn 전략 커뮤니티
-
-**Air Products와의 관계**
-- 대형 합작 프로젝트(JV) 파트너 후보
-- NEOM 프로젝트 등 레퍼런스 사례 주목
-- 지분 투자 구조 협의 가능성
-
-**메시지 키**
-> "약속이 아닌 실행 이력으로 평가한다. 세계 최대 규모가 기준점이다."
+- **Age / Occupation**: 42, VP-level or director in a Air Products customer organization
+- **Core pain**: Needs reliable industrial gases solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Air Products selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: ESG·기관 투자자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 이지현 — 국민연금 ESG 포트폴리오 매니저
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직함 | Senior Portfolio Manager, ESG & Infrastructure |
-| 지역 | 서울 |
-| 교육 | 경제학 박사, CFA, CAIA |
-| 운용 규모 | ESG 인프라 펀드 $3B+ |
-
-**핵심 목표**
-- 장기 안정 배당 + 자본 이득 균형
-- TCFD 기준 기후 리스크 공시 충족
-- 수소 경제 관련 인프라 자산 비중 확대
-
-**핵심 불안**
-- 수소 프로젝트 IRR 불확실성 (보조금 의존 구조)
-- 그린워싱 논란에 따른 포트폴리오 평판 리스크
-- 장기 계약 기반 현금흐름 예측 가능성
-
-**정보 소비 채널**
-- SEC 공시, 연간 지속가능성 보고서
-- IR 데이, 기관투자자 컨퍼런스
-- MSCI ESG Rating, S&P Global CSA
-
-**Air Products와의 관계**
-- 주주로서 경영진 전략 신뢰도 모니터링
-- 수소 인프라 CAPEX 집행 속도 및 수익성 검증
-- ESG 등급 상향 트리거 요인 추적
-
-**메시지 키**
-> "수소는 테마가 아니라 인프라다. 장기 계약 기반 현금흐름이 전부다."
+- **Age / Occupation**: 35, technical professional who interacts with Air Products's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Air Products selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 레이어 요약
+### Persona 3 — Financial Stakeholder / Investor
 
-| 레이어 | 세그먼트 | 핵심 동인 | 주요 채널 |
-|--------|---------|---------|---------|
-| L1 | 산업 운영 | 공급 신뢰성, 기술 지원 | 기술 문서, 현장 미팅 |
-| L2 | 에너지 전환 전략 | 탈탄소 실행력, JV 역량 | 컨퍼런스, 전략 리포트 |
-| L3 | 자본 시장 | 수익성, ESG 등급, 배당 | IR, 공시, 지속가능성 보고서 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Materials
+- **Core pain**: Needs to evaluate Air Products's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Air Products selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Air Products's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Air Products total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Air Products Is Not For
+
+| Type | Characteristics | Why Air Products Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Air Products's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Air Products's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Air Products's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Air Products's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Air Products's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In materials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

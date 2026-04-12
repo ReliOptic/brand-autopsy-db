@@ -1,117 +1,84 @@
-# 02. 오디언스 맵 — Berkshire Hathaway (BRK.B)
+# 02. Audience Map — Berkshire Hathaway (BRK.B)
 
-> 섹터: 금융 — 다각화 복합기업 | 티커: BRK.B
-
----
-
-## 1. 오디언스 개요
-
-버크셔 해서웨이의 오디언스는 단순한 주식 투자자를 넘어, 워런 버핏의 철학을 삶의 원칙으로 삼는 **가치투자 신봉자 집단**이다. 구매 결정은 빠른 수익이 아닌 철학적 정렬(alignment)에 기반한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 페르소나 3인
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 오마하 순례자 (The Omaha Pilgrim)
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박성민 (45세) |
-| 직업 | 중견기업 CFO |
-| 자산 규모 | 금융자산 10억~30억 원 (추정) |
-| 보유 형태 | BRK.B 직접 보유 + 국내 가치주 포트폴리오 |
-| 정보 채널 | 버핏 주주 서한 원문, 가치투자 커뮤니티, 경제 서적 |
-| 핵심 욕구 | 철학적 확신, 복리 수익, 자녀에게 물려줄 자산 |
-| 고통점 | 단기 변동성 심리적 압박, 주변의 "왜 버크셔만 사냐" 압력 |
-| 연간 주총 참석 여부 | 오마하 연례 주총 최소 1회 참석 목표 (추정) |
-| 버크셔 선택 이유 | "버핏 서한 읽고 10년 후 내 돈을 맡길 수 있다고 확신했다" |
-
-**행동 패턴**
-- 버크셔 주총 동영상 전체 시청
-- 분기 13-F 제출 즉시 포트폴리오 분석
-- 주변인에게 가치투자 전도 성향
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in multi-sector holdings. B2C: End consumers of financials products and services. (T4_INFERRED from Berkshire Hathaway's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Berkshire Hathaway's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 은퇴 설계자 (The Legacy Builder)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이정숙 (58세) |
-| 직업 | 은퇴 전 공기업 임원 |
-| 자산 규모 | 금융자산 5억~15억 원 (추정) |
-| 보유 형태 | IRP·연금 계좌 내 BRK.B + 배당주 |
-| 정보 채널 | 재무설계사 상담, 경제 신문, 유튜브 가치투자 채널 |
-| 핵심 욕구 | 원금 보전, 인플레이션 방어, 안정적 복리 |
-| 고통점 | 배당 미지급에 대한 불안, 복잡한 지주구조 이해 어려움 |
-| 버크셔 선택 이유 | "60년 동안 한 번도 손실 낸 적 없다는 역사가 가장 큰 이유" |
+### Persona 1 — Enterprise Decision-Maker
 
-**행동 패턴**
-- 분기 실적 발표보다 연간 주주 서한 중심으로 판단
-- 단기 뉴스에 반응하지 않고 5년 단위 리뷰
-- 자녀에게 버크셔 주식 증여 계획 수립
+- **Age / Occupation**: 42, VP-level or director in a Berkshire Hathaway customer organization
+- **Core pain**: Needs reliable multi-sector holdings solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Berkshire Hathaway selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 알파 추구 전환자 (The Convert)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김도현 (32세) |
-| 직업 | IT 스타트업 개발자 |
-| 자산 규모 | 금융자산 5,000만~2억 원 (추정) |
-| 보유 형태 | S&P500 ETF + BRK.B 소량 + 테크주 |
-| 정보 채널 | 유튜브, 레딧 r/ValueInvesting, 트위터/X 투자 계정 |
-| 핵심 욕구 | 시장 수익률 초과, 테크 거품 헷지, 장기 학습 |
-| 고통점 | 버크셔가 "지루하다"는 동료 압박, 빠른 성과 욕구와 철학 사이 갈등 |
-| 버크셔 선택 이유 | "FAANG 거품 이후 안전자산 필요성 느껴 버핏 서한 읽기 시작" |
-
-**행동 패턴**
-- 버크셔 투자 비중을 점진적으로 높이는 중
-- 버핏의 애플 투자 사례를 기술주 투자 정당화에 활용
-- 커뮤니티에서 "나도 전환했다" 경험담 공유 성향
+- **Age / Occupation**: 35, technical professional who interacts with Berkshire Hathaway's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Berkshire Hathaway selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 | 투자 기간 | 주요 동기 | 전환 허들 |
-|----------|------|-----------|-----------|-----------|
-| 코어 가치투자자 | 소수 고충성 | 10년+ | 철학 정렬 | 거의 없음 |
-| 은퇴 자산 관리자 | 중간 | 5~20년 | 안전성·복리 | 배당 부재 우려 |
-| ETF 병행 투자자 | 대형 저충성 | 3~7년 | 분산·헷지 | 지주구조 복잡성 |
-| 기관·연기금 | 소수 대형 | 5년+ | 벤치마크 추적 | 유동성 제한 |
-| 철학 입문자 | 성장 세그먼트 | 초기 | 버핏 학습 | 진입 가격 심리 |
+- **Age / Occupation**: 38, consumer who interacts with Berkshire Hathaway's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Berkshire Hathaway selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 오디언스 여정 맵 (Customer Journey)
+## Purchase Journey — AARRR Framework
 
-```
-인식(Awareness)
-  └─ 버핏 인터뷰·서적 접촉 → "이 사람 말이 맞는 것 같다"
-
-고려(Consideration)
-  └─ 주주 서한 정독 → 13-F 분석 → 버크셔 사업 구조 이해
-
-구매(Purchase)
-  └─ BRK.B 첫 매수 (BRK.A 가격 부담으로 B 선택)
-
-충성(Loyalty)
-  └─ 주가 하락 시 추가 매수 → 오마하 주총 참석 고려
-
-전도(Advocacy)
-  └─ 주변인에게 버핏 서한 권유 → SNS 가치투자 콘텐츠 공유
-```
+| Stage | Berkshire Hathaway's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Berkshire Hathaway total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 오디언스 페인 포인트 & 버크셔 응답
+## Anti-Persona — Who Berkshire Hathaway Is Not For
 
-| 페인 포인트 | 버크셔의 암묵적 응답 |
-|-------------|----------------------|
-| "배당금을 왜 안 주냐" | 재투자 복리가 배당보다 세후 수익률 높음 (추정 IRR 비교) |
-| "버핏 사후 어떻게 되냐" | 시스템·문화 내재화, 후계자 조용한 준비 (공식) |
-| "지주구조가 너무 복잡하다" | 주주 서한의 평이한 언어로 투명성 제공 |
-| "성장이 느리다" | 복리 60년 CAGR ~20%가 S&P500 압도 (공식) |
-| "현금이 너무 많이 쌓인다" | "좋은 딜이 없으면 기다린다"는 원칙 재확인 |
+| Type | Characteristics | Why Berkshire Hathaway Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Berkshire Hathaway's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Berkshire Hathaway's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Berkshire Hathaway's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Berkshire Hathaway's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Berkshire Hathaway's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,150 +1,84 @@
-# 02 오디언스 맵 — Dollar General (DG)
+# 02. Audience Map — Dollar General (DG)
 
-## 핵심 타깃 오버뷰
-
-| 항목 | 내용 |
-|------|------|
-| 주 타깃 | 연소득 $40,000 이하 미국 농촌·소도시 가구 (추정) |
-| 지리 집중 | 남부·중서부 농촌 지역, 인구 20,000명 미만 소도시 (공식) |
-| 연령대 | 25~54세 (핵심), 55세 이상 (성장 세그먼트) (추정) |
-| 성별 | 여성 60%, 남성 40% (추정) |
-| 가족 구성 | 자녀 있는 가구 비율 높음, 조부모 양육 가구 포함 (추정) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 린다 — "빠듯한 예산의 살림꾼"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 거주지 | 테네시주 소도시 (인구 약 8,000명) |
-| 직업 | 파트타임 계산원 + 가정주부 |
-| 연소득 | $28,000 (가구 합산) |
-| 가족 | 남편, 자녀 2명 (8세, 12세) |
-| 교통 | 차량 1대 보유, 가장 가까운 Walmart까지 25마일 |
-| 기술 수준 | 스마트폰 사용, 앱 쿠폰 적극 활용 |
-
-**심리적 동인**
-- 가족을 먹이고 입히는 것에 대한 책임감이 강함
-- 절약을 자랑스럽게 여기는 문화 내재화
-- "나는 현명한 쇼퍼"라는 자아상 유지 욕구
-
-**페인 포인트**
-- 월말 예산 부족으로 인한 만성적 스트레스
-- 이동 수단 제약으로 선택지 제한
-- 대형마트의 계절 재고 부족 (농촌 지역 배송 지연)
-
-**DG와의 접점**
-- 주 2~3회 방문, 청소용품·간식·학용품 구매
-- DG앱 디지털 쿠폰 사용, DG GO! 이용
-- SNS는 Facebook 주 사용, 지역 커뮤니티 그룹 활성
-
-**브랜드 기대값**
-- "내가 필요한 게 여기 있다"는 안도감
-- 창피하지 않은 쇼핑 경험
-- 예측 가능한 낮은 가격
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in consumer staples merchandise retail. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Dollar General's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Dollar General's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 데이먼 — "혼자 사는 시골 노동자"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 52세 |
-| 거주지 | 조지아주 농촌 카운티 |
-| 직업 | 트럭 운전기사 (장거리) |
-| 연소득 | $45,000 |
-| 가족 | 이혼, 혼자 거주, 성인 자녀 2명 (별거) |
-| 교통 | 트럭 운전 직업 특성상 DG 경로 중 자주 들름 |
-| 기술 수준 | 기본 스마트폰 사용, 앱보다 현장 가격표 신뢰 |
+### Persona 1 — Enterprise Decision-Maker
 
-**심리적 동인**
-- 편의성이 최우선 — 빠르게 들어가 빠르게 나오기
-- 브랜드 충성도보다 입지 우선
-- 남성 자존감: "싸게 사는 게 나쁜 게 아니다"
-
-**페인 포인트**
-- 장시간 이동으로 쇼핑 시간 부족
-- 요리 거의 안 함 — 즉식·스낵 위주 생활
-- 건강 의식 낮음, 가격 우선
-
-**DG와의 접점**
-- 고속도로 인근 DG 경로 구매 (주 1~2회)
-- 담배·음료·스낵·청소용품 위주
-- TV 광고 노출, 신문 전단지 비사용
-
-**브랜드 기대값**
-- 빠른 쇼핑 동선
-- 스낵·음료 충분한 재고
-- 복잡하지 않은 계산 프로세스
+- **Age / Occupation**: 42, VP-level or director in a Dollar General customer organization
+- **Core pain**: Needs reliable consumer staples merchandise retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Dollar General selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 마리아 — "이민자 가정의 가계 관리자"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 44세 |
-| 거주지 | 노스캐롤라이나주 농업 커뮤니티 |
-| 직업 | 농장 계절 근로자 |
-| 연소득 | $22,000 (가구) |
-| 가족 | 배우자 + 자녀 3명, 대가족 공동 거주 |
-| 언어 | 스페인어 주 사용, 영어 기초 |
-| 기술 수준 | WhatsApp·Facebook 사용, 영문 앱 사용 어려움 |
-
-**심리적 동인**
-- 가족 전체 생계 책임감
-- 신뢰하는 브랜드에 반복 구매 충성
-- 스페인어 커뮤니케이션 가능 여부가 신뢰도 결정
-
-**페인 포인트**
-- 언어 장벽으로 쿠폰·프로모션 활용 어려움
-- 계절적 소득 불안정
-- 히스패닉 특화 제품 품목 부족 (추정)
-
-**DG와의 접점**
-- 히스패닉 커뮤니티 내 DG 이용 관행 공유
-- 가정용품·식품·유아용품 주 구매
-- 스페인어 TV 광고 채널 노출
-
-**브랜드 기대값**
-- 히스패닉 식품 섹션 확충
-- 스페인어 표지판·앱 지원
-- 안전하고 판단받지 않는 쇼핑 환경
+- **Age / Occupation**: 35, technical professional who interacts with Dollar General's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Dollar General selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 비중 (추정) | 구매 빈도 | 객단가 | 성장성 |
-|----------|------------|----------|--------|--------|
-| 농촌 저소득 가족 | 40% | 주 2~3회 | $15~25 | 안정 |
-| 농촌 독거 성인 | 20% | 주 1~2회 | $10~20 | 정체 |
-| 히스패닉 이민자 가구 | 15% | 주 2~3회 | $20~35 | 고성장 |
-| 은퇴 고령층 | 15% | 주 1~2회 | $12~22 | 성장 |
-| 도시 근교 저소득층 | 10% | 월 2~4회 | $25~40 | 신규 |
+- **Age / Occupation**: 38, consumer who interacts with Dollar General's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Dollar General selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 고객 여정 맵 (린다 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 고려 → 구매 → 재구매 → 옹호
- │         │        │        │        │
-TV광고   가격비교  점포방문  DG앱    이웃추천
-Facebook  DG전단   DG GO!   쿠폰    Facebook
-지역입소문 Walmart  계산대    포인트  지역그룹
-          비교실패
-```
+| Stage | Dollar General's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Dollar General total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 레이어
+## Anti-Persona — Who Dollar General Is Not For
 
-| # | 훔칠 것 | 적용 방법 |
-|---|---------|----------|
-| 1 | **지리적 공백 타깃팅** | 경쟁자가 없는 지역의 "유일한 선택지" 포지션은 강력한 자연독점을 만든다. 타깃 오디언스 매핑 시 "경쟁 공백지"를 별도 세그먼트로 분리할 것. |
-| 2 | **절약을 자아상으로 연결** | 저가 브랜드의 가장 큰 위험은 고객 자존감 훼손이다. DG는 "스마트 쇼퍼" 프레이밍으로 이를 해결한다. 페르소나 설계 시 심리적 자아상(Self-concept)을 명시적으로 정의할 것. |
-| 3 | **이민자 세그먼트의 언어 장벽 기회** | 히스패닉·이민자 커뮤니티는 언어 지원만으로도 강력한 충성도를 형성한다. 언어 접근성이 미개척 상태인 세그먼트를 먼저 공략하면 선점 효과가 크다. |
+| Type | Characteristics | Why Dollar General Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Dollar General's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Dollar General's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Dollar General's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Dollar General's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Dollar General's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

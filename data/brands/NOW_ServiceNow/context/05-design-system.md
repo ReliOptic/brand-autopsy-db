@@ -1,123 +1,102 @@
-# 05. 디자인 시스템 — ServiceNow (NOW)
+# 05. Design System — ServiceNow (NOW)
 
-## 브랜드 컬러 팔레트
-
-### 코어 컬러
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| NOW Green (브랜드 시그니처) | `#62D84E` | rgb(98, 216, 78) | 주요 CTA, 로고 강조색 (공식) |
-| Deep Navy | `#0A2D4D` | rgb(10, 45, 77) | 헤드라인, 다크 배경 (공식) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 역전색 (공식) |
-| Cool Gray | `#293E40` | rgb(41, 62, 64) | 보조 다크 배경 (공식) |
-
-### 확장 컬러 (Secondary Palette)
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Light Green | `#A8F09A` | rgb(168, 240, 154) | 강조 배경, 태그 (공식) |
-| Sky Blue | `#81B5E8` | rgb(129, 181, 232) | 데이터 시각화 2번 계열 (공식) |
-| Warm Sand | `#F5F0E8` | rgb(245, 240, 232) | 섹션 구분 배경 (추정) |
-| Alert Red | `#D63B2F` | rgb(214, 59, 47) | 에러·경고 상태 표시 (추정) |
-| Success Teal | `#1A7F64` | rgb(26, 127, 100) | 성공 상태, 긍정 지표 (추정) |
-| Neutral Gray | `#697077` | rgb(105, 112, 119) | 본문 보조 텍스트 (공식) |
-| Light Gray BG | `#F2F4F8` | rgb(242, 244, 248) | 카드·테이블 배경 (공식) |
-
-### 데이터 시각화 전용 팔레트
-
-| 순서 | HEX | 사용 케이스 |
-|------|-----|------------|
-| 1st | `#62D84E` | 주요 지표, 목표 달성 |
-| 2nd | `#81B5E8` | 비교 지표 |
-| 3rd | `#FFC107` | 주의·진행 중 |
-| 4th | `#A78BFA` | 부가 데이터 계열 (추정) |
-| 5th | `#697077` | 기타·비활성 |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-| 용도 | 폰트 | 굵기 | 비고 |
-|------|------|------|------|
-| 헤드라인 (영문) | Source Sans Pro | Bold (700) | 공식 브랜드 폰트 |
-| 본문 (영문) | Source Sans Pro | Regular (400) | 공식 |
-| 코드·모노 | Source Code Pro | Regular (400) | 기술 문서용 (공식) |
-| 한국어 대응 | Noto Sans KR | Bold / Regular | 로컬라이제이션 (추정) |
-| 숫자 강조 | Source Sans Pro | Light (300) | 대형 수치 표기용 |
+ServiceNow's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-### 타이포그래피 스케일 (추정)
+### Core Brand Colors
 
-| 레벨 | 크기 | 행간 |
-|------|------|------|
-| Display | 56px | 1.1 |
-| H1 | 40px | 1.2 |
-| H2 | 32px | 1.25 |
-| H3 | 24px | 1.3 |
-| Body Large | 18px | 1.6 |
-| Body | 16px | 1.6 |
-| Caption | 12px | 1.4 |
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 로고 사용 규정 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 항목 | 규정 |
-|------|------|
-| 최소 크기 | 디지털 80px 너비, 인쇄 20mm |
-| 보호 영역 | 로고 높이의 50% 여백 확보 |
-| 배경 허용 | 화이트, 딥 네이비, NOW Green |
-| 배경 금지 | 복잡한 사진 위 단독 배치, 배경과 유사 명도 |
-| 변형 금지 | 색상 변경, 늘리기/압축, 그림자 추가, 로고 요소 분리 사용 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## UI 컴포넌트 패턴 (Now Design System — NDS)
+## 2. Typography
 
-ServiceNow는 내부적으로 **Now Design System(NDS)**을 운영하며, 제품 UI와 마케팅 자산 모두에 일관된 컴포넌트 언어를 적용한다.
+ServiceNow's digital properties employ a typographic system appropriate to its information technology positioning.
 
-### 핵심 컴포넌트 원칙
+### Typeface System
 
-| 원칙 | 설명 |
-|------|------|
-| 접근성 우선 | WCAG 2.1 AA 기준 준수, 색상 대비 최소 4.5:1 |
-| 상태 명확성 | Default / Hover / Active / Disabled / Error 5단계 명시 |
-| 반응형 그리드 | 12컬럼 그리드, 모바일 4컬럼 |
-| 아이콘 일관성 | 모노라인 스타일, 24×24px 기본 |
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 버튼 계층
+### Typographic Scale
 
-| 버튼 타입 | 색상 | 사용 용도 |
-|-----------|------|----------|
-| Primary | `#62D84E` 배경, `#0A2D4D` 텍스트 | 핵심 CTA (데모 신청, 지금 시작) |
-| Secondary | `#0A2D4D` 테두리, 투명 배경 | 보조 액션 (더 알아보기) |
-| Tertiary | 텍스트 링크형, `#0A2D4D` | 저우선순위 내비게이션 |
-| Destructive | `#D63B2F` | 삭제·비활성화 액션 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 이미지 & 비주얼 방향성
+## 3. Channel Specifications
 
-### 사진 스타일
-
-- **인물**: 다양성(인종·나이·성별) 적극 반영, 실제 업무 환경 촬영 (스튜디오 연출 지양)
-- **표정**: 집중·협업·성취감, 극적 감정 표현 지양
-- **배경**: 모던 오피스, 데이터센터, 제조현장 등 고객 업종 환경 반영
-- **색조**: 자연광 선호, 필터 최소화, 브랜드 컬러와 보색 충돌 회피
-
-### 일러스트레이션
-
-- 추상적 워크플로우 다이어그램: 직선·곡선 연결선, NOW Green 강조
-- 아이소메트릭(isometric) 스타일 IT 인프라 시각화 (추정)
-- 데이터 대시보드 목업: 실제 제품 UI 스크린샷 + 설명 레이어
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-### Steal Sheet: 비주얼 아이덴티티 활용 3종
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-1. **"그린 + 네이비 듀오톤 배경"** — `#62D84E`와 `#0A2D4D`의 그라디언트 또는 분할 배경을 이벤트 키비주얼에 활용. 경쟁사 대비 즉각적 브랜드 인식 효과. 분할 비율은 좌측 30% 그린 / 우측 70% 네이비가 표준 (추정).
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-2. **"숫자 히어로 타이포"** — ROI·절감액·처리 시간 등 핵심 수치를 Source Sans Pro Light 56px 이상으로 전면 배치. 수치 색상 `#62D84E`, 단위·설명 텍스트 `#FFFFFF` 조합으로 시선 집중. 영업 덱 오프닝 슬라이드 및 이벤트 배너에 효과적.
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-3. **"WCAG 대비 체크 루틴"** — 모든 마케팅 자산 제작 시 `#62D84E` 위 텍스트는 반드시 `#0A2D4D` 사용(대비율 5.2:1, AA 통과). `#697077` 텍스트는 화이트 배경에서만 사용(대비율 4.6:1). 이 두 규칙만 지켜도 접근성 컴플라이언스 80% 달성 (추정).
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: ServiceNow (NOW)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

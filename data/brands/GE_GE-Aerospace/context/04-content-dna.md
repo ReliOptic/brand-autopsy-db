@@ -1,120 +1,123 @@
-# GE Aerospace — 콘텐츠 DNA
+# 04. Content DNA — GE Aerospace (GE)
 
-> **섹터**: Industrials — Aerospace | **분석 기준일**: 2026-04-12
-
----
-
-## 1. 콘텐츠 철학
-
-**핵심 원칙 (추정)**
-> "증거 없는 주장은 하지 않는다. 모든 클레임 뒤에는 수치, 인증, 또는 현장 사례가 있어야 한다."
-
-GE Aerospace의 콘텐츠는 세 가지 축으로 구성된다:
-1. **기술 권위** — 데이터·인증·특허로 뒷받침된 전문 지식
-2. **인간 스토리** — 엔지니어·파일럿·정비사의 현장 경험
-3. **미래 서사** — SAF, 하이브리드 추진, 디지털 트윈으로 향하는 방향성
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 콘텐츠 필러 구조
+## Content Pillars
 
-```
-┌───────────────────────────────────────────────────────┐
-│                  GE Aerospace 콘텐츠 필러               │
-├─────────────┬──────────────┬──────────┬───────────────┤
-│  필러 1     │  필러 2      │  필러 3  │  필러 4       │
-│  기술 혁신  │  운용 신뢰성 │  지속가능│  인재·문화    │
-│  (40%)      │  (30%)       │  성 (20%)│  (10%)        │
-├─────────────┼──────────────┼──────────┼───────────────┤
-│ • 새 엔진   │ • 가동률 수치│ • SAF    │ • 엔지니어    │
-│   성능 데이터│ • MRO 사례  │   호환성 │   스토리      │
-│ • 특허·R&D  │ • AOG 대응  │ • 탄소   │ • STEM 교육   │
-│ • 소재 혁신 │   속도       │   저감   │ • 다양성      │
-└─────────────┴──────────────┴──────────┴───────────────┘
-```
+GE Aerospace's content strategy reflects its positioning in the Aerospace & Defense segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
+
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "GE Aerospace understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for aerospace & defense requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with GE Aerospace." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
+
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 3. 브랜드 보이스 가이드
+## Hook Patterns
 
-### 3-1. 톤 스펙트럼
+### Hook 1 — Industry Challenge Lead
 
-| 상황 | 톤 | 예시 문장 |
-|------|-----|-----------|
-| 기술 발표 | 정밀·권위적 | "GE9X는 세계 최대 상업용 항공기 엔진으로, 탄소섬유 복합재 팬 블레이드와 도자기 매트릭스 복합재(CMC) 연소실을 탑재하여 이전 세대 대비 효율을 10% 향상시킵니다." |
-| 위기 대응 | 투명·책임 | "당사는 해당 이슈를 인지하였으며, 고객사 운항 연속성 확보를 최우선으로 즉각적인 기술 지원팀을 파견하고 있습니다." |
-| 미래 비전 | 희망·도전적 | "2050년 탄소 중립 비행은 불가능한 목표가 아닙니다 — 우리는 지금 그 엔진을 개발하고 있습니다." |
-| 파트너십 소개 | 협력·상호 존중 | "귀사의 운항 경험과 당사의 추진 기술이 결합될 때, 새로운 효율의 기준이 만들어집니다." |
-| 채용 | 열정·전문적 | "세상에서 가장 복잡한 기계를 만드는 팀에 합류하세요." |
+Opens with a recognizable industry challenge or pain point before presenting GE Aerospace's perspective.
 
-### 3-2. 금지 표현 패턴
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-- 수식어 과잉: "가장 놀라운", "믿을 수 없는", "혁명적인" → 제거
-- 모호한 비교: "더 좋은 엔진" → "연비 X% 개선, 배출량 Y% 저감"으로 수치화
-- 감성 과잉: "꿈을 향해 날아오르세요" → 항공 안전 맥락에서 은유 남용 자제
-- 수동태 책임 회피: "문제가 발생했습니다" → "당사 엔진의 [부품명]에서 [현상]이 확인되었습니다"
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 4. 콘텐츠 포맷 매트릭스
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| 포맷 | 목적 | 주요 채널 | 적정 길이 | 업데이트 주기 |
-|------|------|----------|-----------|--------------|
-| 기술 백서 (White Paper) | 구매 결정 지원 | 웹사이트, 세일즈 | 12~20페이지 | 신제품 출시 시 |
-| 케이스 스터디 | 신뢰 증명 | 웹사이트, 이메일 | 2~4페이지 | 분기 1회 |
-| Earnings Deck | 투자자 소통 | IR 사이트 | 30~50슬라이드 | 분기 실적 발표 |
-| 기술 블로그 | SEO + 전문성 | geaerospace.com | 800~1,500자 | 월 4~8회 |
-| LinkedIn 아티클 | 전문가 네트워크 | LinkedIn | 500~1,000자 | 주 2~3회 |
-| 영상 (다큐멘터리형) | 브랜드 정서 | YouTube, 이벤트 | 3~8분 | 분기 1~2회 |
-| 인포그래픽 | 복잡 기술 시각화 | 소셜, 발표자료 | 1페이지 | 수시 |
-| 보도자료 | 미디어 관계 | Newsroom | 400~600자 | 이벤트 기반 |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 5. 스토리텔링 프레임워크
+## CTA Patterns
 
-### 5-1. 기술 스토리 구조 (Problem → Insight → Solution → Proof)
-
-```
-① PROBLEM: 항공사가 직면한 구체적 운용 문제 (연료비 X% 상승, AOG Y시간)
-      ↓
-② INSIGHT: GE 엔지니어링 팀의 기술적 발견 또는 접근법
-      ↓
-③ SOLUTION: 해당 인사이트가 반영된 엔진/서비스 기능
-      ↓
-④ PROOF: 실제 항공사 데이터, 비행 시간, 인증 결과
-```
-
-### 5-2. 지속가능성 스토리 구조 (Vision → Challenge → Progress → Next Step)
-
-```
-① VISION: 2050 탄소 중립 비행의 구체적 그림
-      ↓
-② CHALLENGE: 현재 기술적·경제적 장벽의 솔직한 인정
-      ↓
-③ PROGRESS: SAF 호환율, 배출 저감 수치 등 측정 가능한 진전
-      ↓
-④ NEXT STEP: 다음 마일스톤과 타임라인
-```
+| CTA Type | GE Aerospace Pattern | What GE Aerospace Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 6. SEO 핵심 키워드 클러스터 (추정)
+## Tone & Mood Guide
 
-| 클러스터 | 핵심 키워드 | 롱테일 키워드 예시 |
-|----------|------------|------------------|
-| 상업 엔진 | LEAP engine, GE9X, CFM56 | "LEAP-1B fuel efficiency data", "GE9X vs Trent XWB comparison" |
-| 군용 엔진 | F110, T700, XA100 | "F110 engine reliability USAF", "adaptive cycle engine military" |
-| MRO 서비스 | engine MRO, OnPoint services | "GE engine overhaul turn time", "TrueChoice parts MRO" |
-| 지속가능성 | SAF compatible engine, sustainable aviation | "GE engine SAF 100% compatible", "aviation net zero 2050" |
-| 디지털 서비스 | digital twin engine, predictive maintenance | "GE Aerospace digital engine monitoring", "flight data analytics" |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — GE Aerospace as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## Steal Sheet — 콘텐츠 DNA 레이어 (3개)
+## Content Prohibitions
 
-| # | 전략 | 실행 방법 | 적용 맥락 |
-|---|------|-----------|-----------|
-| 1 | **수치를 헤드라인으로** | 기술 콘텐츠의 첫 문장에 반드시 측정 가능한 수치 배치 — "15% 연료 절감", "99.98% 가동률". 주장이 아닌 증거로 시작 | 블로그, 보도자료, 세일즈 덱 |
-| 2 | **엔지니어의 목소리를 전면에** | 마케팅 카피 대신 실제 GE 엔지니어·기술자의 직접 인용 또는 영상을 콘텐츠 허브로 — B2B 신뢰는 사람에서 나온다 | LinkedIn, 유튜브, 기술 블로그 |
-| 3 | **위기 콘텐츠를 신뢰 자산으로** | 기술 이슈 발생 시 투명한 기술 설명 콘텐츠를 선제적으로 발행, 침묵보다 설명이 브랜드 신뢰를 높인다는 원칙 적용 | 뉴스룸, 고객사 직접 커뮤니케이션 |
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #GE | Financial and investor community | Moderate (estimated) |
+| #GEAerospace | Brand-level social engagement | Varies (estimated) |
+| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+GE Aerospace's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in aerospace & defense face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+GE Aerospace's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

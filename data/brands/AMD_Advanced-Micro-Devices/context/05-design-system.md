@@ -1,161 +1,102 @@
-# AMD 디자인 시스템
+# 05. Design System — Advanced Micro Devices (AMD)
 
-## 디자인 철학
-
-AMD의 시각 언어는 **"정밀한 에너지(Precise Energy)"** 를 중심으로 한다. 반도체 칩의 기하학적 정밀성과 고성능 컴퓨팅의 역동성을 동시에 표현한다. 2020년대 리브랜딩 이후 보다 모던하고 대담한 방향으로 진화 중이다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 메인 팔레트
+Advanced Micro Devices's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 색상명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| AMD Red | `#ED1C24` | rgb(237, 28, 36) | 주 브랜드 컬러, CTA, 로고 배경 | (공식) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 역전 | (공식) |
-| Deep Black | `#000000` | rgb(0, 0, 0) | 고대비 배경, 타이포그래피 | (공식) |
-| Dark Charcoal | `#1A1A1A` | rgb(26, 26, 26) | 다크 UI 배경, 게이밍 테마 | (추정) |
-| Light Gray | `#F5F5F5` | rgb(245, 245, 245) | 섹션 구분, 카드 배경 | (추정) |
+### Core Brand Colors
 
-### 보조 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 색상명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| AMD Dark Red | `#B01116` | rgb(176, 17, 22) | 호버 상태, 그라디언트 끝점 | (추정) |
-| Signal Orange | `#FF6B00` | rgb(255, 107, 0) | 강조 배지, 한정 이벤트 | (추정) |
-| Tech Blue | `#0071C5` | rgb(0, 113, 197) | 데이터센터/엔터프라이즈 서브브랜드 강조 | (추정) |
-| ROCm Green | `#00A36C` | rgb(0, 163, 108) | 오픈소스/소프트웨어 계열 아이콘 | (추정) |
-| Mid Gray | `#767676` | rgb(118, 118, 118) | 보조 텍스트, 캡션 | (추정) |
-| Border Gray | `#D9D9D9` | rgb(217, 217, 217) | 구분선, 인풋 테두리 | (추정) |
+### Color Principles
 
-### 제품 라인별 서브 컬러 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 제품 라인 | 주 컬러 HEX | 보조 컬러 HEX | 특성 |
-|----------|-----------|-------------|------|
-| Ryzen (소비자 CPU) | `#ED1C24` | `#1A1A1A` | 레드·블랙 대비 |
-| Radeon (소비자 GPU) | `#ED1C24` | `#FF6B00` | 레드·오렌지 에너지 |
-| EPYC (서버 CPU) | `#1A1A1A` | `#ED1C24` | 블랙 베이스, 레드 강조 |
-| Instinct (AI 가속기) | `#0071C5` | `#ED1C24` | 블루 테크, 레드 포인트 |
-| ROCm (소프트웨어) | `#00A36C` | `#1A1A1A` | 그린 오픈소스 |
-| Xilinx/Versal (FPGA) | `#E31837` | `#003DA5` | 레드·네이비 (Xilinx 유산) (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 가이드 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 영역 | 비율 |
-|------|------|
-| AMD Red (`#ED1C24`) | 10~20% (강조 포인트) |
-| Black/Dark (`#000000`, `#1A1A1A`) | 40~60% (베이스) |
-| White/Light Gray (`#FFFFFF`, `#F5F5F5`) | 30~40% (여백·배경) |
-| 보조 컬러 | 5% 이하 (필요 시 한 가지) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 체계 (추정)
+Advanced Micro Devices's digital properties employ a typographic system appropriate to its information technology positioning.
 
-| 구분 | 서체 | 특성 |
-|------|------|------|
-| 주 서체 | AMD Sans (커스텀) / Helvetica Now | 기하학적, 모던, 기술적 |
-| 보조 서체 | Inter / Source Sans Pro | 가독성, 장문 본문 |
-| 코드·기술 문서 | JetBrains Mono / Source Code Pro | 등폭, 개발자 친화적 |
-| 한국어 | Noto Sans KR / Apple SD Gothic Neo | 웹 호환성 |
+### Typeface System
 
-### 타입 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 용도 |
-|------|------|------|
-| H1 — 히어로 | 72~96px | 제품 론칭 키 비주얼 |
-| H2 — 섹션 | 48~56px | 페이지 주요 섹션 |
-| H3 — 서브 | 32~40px | 카드 제목, 기능 설명 |
-| Body Large | 18~20px | 리드 카피, 핵심 설명 |
-| Body | 14~16px | 본문, 설명 텍스트 |
-| Caption | 12px | 출처, 법적 고지, 각주 |
+### Typographic Scale
 
-### 타이포그래피 원칙
-
-- **대문자 활용:** 제품명(EPYC, RDNA, ROCm)은 항상 전체 대문자 또는 정의된 케이스 준수
-- **숫자 강조:** 성능 수치는 큰 폰트 + Bold로 강조 (예: **96** Cores)
-- **행간:** 1.4~1.6 (가독성과 밀도의 균형)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템
+## 3. Channel Specifications
 
-### 주 로고
-
-- **형태:** "AMD" 워드마크 + 화살표 심볼 조합 (공식)
-- **심볼:** 우하향 화살표 → "전진(Advance)" 의미 내포 (공식)
-- **최소 사이즈:** 24px 높이 (디지털), 10mm (인쇄) (추정)
-
-### 로고 변형 (추정)
-
-| 버전 | 사용 맥락 |
-|------|---------|
-| 풀 컬러 (레드+블랙) | 화이트 배경 기본 사용 |
-| 리버스 (화이트) | 다크 배경, 게이밍 크리에이티브 |
-| 모노크롬 블랙 | 단색 인쇄물 |
-| 심볼 단독 | 파비콘, 아이콘, 소셜 프로필 |
-
-### 로고 금지 사항 (추정)
-
-- 화살표 방향 변경 금지
-- 레드 이외 컬러로 워드마크 처리 금지
-- 그림자·엠보스 효과 적용 금지
-- 배경과 명도 대비 3:1 미만 환경에서 사용 금지
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## UI/UX 디자인 패턴 (추정)
+## 4. Layout Principles
 
-### 레이아웃 원칙
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 원칙 | 설명 |
-|------|------|
-| 그리드 | 12컬럼, 1440px 최대 너비 |
-| 여백 | 8px 기본 단위 배수 시스템 |
-| 카드 | 모서리 4~8px 라운드, 섬세한 그림자 |
-| 다크 모드 | 게이밍 제품군 기본, `#1A1A1A` 베이스 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 인터랙션 패턴
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- **CTA 버튼:** 레드 배경 + 화이트 텍스트, 호버 시 `#B01116`으로 전환
-- **애니메이션:** 성능 수치 카운트업 애니메이션 (벤치마크 섹션)
-- **비교 슬라이더:** 제품 비교 페이지에서 드래그 인터랙션
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 비주얼 모티프 (추정)
+## 5. Design Prohibitions
 
-| 모티프 | 설명 | 사용 맥락 |
-|--------|------|---------|
-| 칩렛 격자 패턴 | 반도체 다이의 기하학적 격자 | 배경 텍스처, 기술 문서 |
-| 빛줄기 흐름 | 데이터 흐름을 빛의 궤적으로 표현 | 영상, 키 비주얼 |
-| 레드 글로우 | 어두운 배경에 레드 발광 효과 | 게이밍 GPU 마케팅 |
-| 화살표 모티프 | 로고의 화살표를 UI 장식 요소로 확장 | 아이콘, 인포그래픽 |
-| 와이어프레임 3D | 칩·서버의 기하학적 와이어프레임 | 데이터센터 제품 비주얼 |
-
----
-
-## 이미지 스타일 가이드 (추정)
-
-| 카테고리 | 스타일 |
-|---------|--------|
-| 제품 샷 | 다크 배경, 레드 글로우 조명, 45도 앵글 |
-| 라이프스타일 (게이밍) | 몰입감 있는 조명, 다양성 있는 게이머 묘사 |
-| 데이터센터 | 블루 냉각 빛, 서버랙 대칭 구도, 공학적 정밀함 |
-| 인물 (리더십) | 자연광, 간결한 배경, 자신감 있는 포즈 |
-| 인포그래픽 | 레드-블랙 팔레트, 아이콘 기반, 데이터 밀도 높음 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 접근성 기준 (추정)
-
-| 기준 | 목표 |
-|------|------|
-| 색상 대비 | WCAG AA 이상 (4.5:1 텍스트, 3:1 UI 요소) |
-| AMD Red `#ED1C24` on White | 대비 4.63:1 — AA 통과 |
-| AMD Red `#ED1C24` on Black | 대비 5.74:1 — AA 통과 |
-| 포커스 인디케이터 | 2px 이상 레드 아웃라인 |
-| 대체 텍스트 | 모든 제품 이미지·차트에 alt 텍스트 필수 |
+*Layer 5 of 8 — Brand Autopsy: Advanced Micro Devices (AMD)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

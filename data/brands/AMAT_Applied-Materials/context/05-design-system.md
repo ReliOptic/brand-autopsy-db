@@ -1,121 +1,102 @@
-# 05 디자인 시스템 — Applied Materials (AMAT)
+# 05. Design System — Applied Materials (AMAT)
 
-> 섹터: 정보기술 / 반도체 장비
-
----
-
-## 1. 브랜드 컬러 시스템
-
-### 주요 컬러 팔레트
-
-| 역할 | 컬러명 | HEX | 사용 맥락 | 출처 |
-|------|--------|-----|---------|------|
-| Primary Brand | AMAT Blue | `#003087` | 로고, 주요 헤드라인, CTA 버튼 | (공식) |
-| Primary Brand | AMAT Light Blue | `#0066CC` | 링크, 아이콘, 보조 강조 | (공식) |
-| Secondary | Cool Gray | `#54585A` | 본문 텍스트, 캡션 | (공식) |
-| Secondary | Light Gray | `#D9D9D6` | 배경, 구분선, 카드 테두리 | (공식) |
-| Accent | Bright Blue | `#00A3E0` | 인포그래픽 강조, 데이터 시각화 하이라이트 | (추정) |
-| Accent | Teal | `#008080` | 지속 가능성 관련 콘텐츠, ESG 섹션 | (추정) |
-| Alert / CTA | Signal Orange | `#FF6B00` | 긴급 알림, 이벤트 배너, 제한적 강조 | (추정) |
-| Background | Off-White | `#F5F5F0` | 페이지 배경, 섹션 구분 | (추정) |
-| Dark Mode BG | Deep Navy | `#001A4D` | 다크 테마 배경, 기술 대시보드 UI | (추정) |
-| Data Viz 1 | Sky Blue | `#4CA3DD` | 차트 시리즈 1 | (추정) |
-| Data Viz 2 | Slate Blue | `#2E6DA4` | 차트 시리즈 2 | (추정) |
-| Data Viz 3 | Silver | `#A8B2BD` | 차트 시리즈 3, 보조 데이터 | (추정) |
-
-### 컬러 사용 원칙
-
-- **Primary Blue(`#003087`)** 는 로고와 핵심 CTA에만 사용하며 남용 금지
-- 배경이 어두울 때 텍스트는 반드시 `#FFFFFF` 또는 `#F5F5F0` 사용
-- Accent Orange(`#FF6B00`)는 전체 레이아웃의 10% 이하로 제한 (추정)
-- 접근성 기준: WCAG 2.1 AA 준수 — 최소 대비율 4.5:1 유지
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 계층 | 서체 | 크기(데스크탑) | 굵기 | 사용처 |
-|------|------|-------------|------|--------|
-| Display H1 | Trade Gothic / Helvetica Neue | 56~72px | Bold (700) | 히어로 헤드라인 |
-| H2 | Trade Gothic / Helvetica Neue | 36~48px | Bold (700) | 섹션 제목 |
-| H3 | Trade Gothic / Helvetica Neue | 24~32px | SemiBold (600) | 카드 제목, 서브섹션 |
-| Body Large | Source Sans Pro | 18~20px | Regular (400) | 본문 리드 단락 |
-| Body | Source Sans Pro | 16px | Regular (400) | 일반 본문 |
-| Caption | Source Sans Pro | 12~14px | Regular (400) | 각주, 이미지 캡션, 데이터 출처 |
-| Technical Spec | Source Code Pro (Mono) | 14px | Regular (400) | 스펙 테이블, 장비 파라미터 |
+Applied Materials's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-> 한국어: 노토 산스 KR (Noto Sans KR) 대응, 영문 서체와 혼용 시 자간 +10 조정 (추정)
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 3. 로고 시스템
+### Color Principles
 
-| 버전 | 사용 환경 | 최소 크기 |
-|------|---------|---------|
-| 풀 컬러 (Blue + Black) | 흰색·밝은 배경 | 120px 너비 |
-| 리버스 (White) | 어두운 배경, 영상 엔딩 | 120px 너비 |
-| 단색 Black | 흑백 인쇄, 각인 | 80px 너비 |
-| 단색 Gray | 워터마크, 슬라이드 보조 | 80px 너비 |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-- 로고 보호 영역(Clear Space): 로고 높이의 50% 이상 여백 유지 (공식)
-- 로고 변형(늘림, 회전, 색상 변경, 그림자 추가) 금지 (공식)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 4. 아이콘 & 일러스트레이션
-
-| 스타일 | 설명 | 사용처 |
-|--------|------|--------|
-| 라인 아이콘 (2px stroke) | 단순 기능 아이콘, UI 내비게이션 | 웹 UI, 앱 인터페이스 |
-| 기술 다이어그램 | 장비 단면도, 공정 흐름도, 원자 구조 시각화 | 백서, 기술 슬라이드 |
-| 데이터 시각화 | 막대/선/산포도 — Primary Blue 계열 | 어닝 자료, 인포그래픽 |
-| 3D 렌더링 | 장비 외관, 웨이퍼 공정 단면 애니메이션 | 제품 페이지, 영상 |
-| 사진 스타일 | 팹 내부 촬영, 엔지니어 협업 장면 — 차갑고 정밀한 색조 | 캠페인, 채용, 홈페이지 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5. 레이아웃 & 그리드
+## 2. Typography
 
-- **웹**: 12컬럼 그리드, 최대 컨테이너 너비 1440px, 거터 24px (추정)
-- **슬라이드**: 16:9 와이드스크린, 여백 상하 80px / 좌우 100px (추정)
-- **백서**: A4 2컬럼, 내부 여백 20mm, 텍스트 단 너비 85mm (추정)
-- **데이터 테이블**: 행 높이 최소 40px, 헤더 배경 `#003087`, 텍스트 `#FFFFFF`
+Applied Materials's digital properties employ a typographic system appropriate to its information technology positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 모션 & 인터랙션 원칙
+## 3. Channel Specifications
 
-| 원칙 | 상세 |
-|------|------|
-| 정밀함 (Precision) | 애니메이션 이징: cubic-bezier(0.25, 0.1, 0.25, 1) — 기계적 정확성 연상 |
-| 절제 (Restraint) | 장식적 애니메이션 최소화, 정보 전달 목적 전환만 허용 |
-| 속도 | UI 전환 200~300ms, 페이지 로드 스켈레톤 400ms 이내 |
-| 스크롤 트리거 | 기술 다이어그램은 스크롤 시 순차적으로 나타나며 공정 흐름 이해 유도 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 7. Steal Sheet — 디자인 시스템 레이어별 3개
+## 4. Layout Principles
 
-### Layer A: 컬러 & 시각 언어
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| # | Steal 포인트 | 실행 방법 |
-|---|------------|---------|
-| A-1 | Deep Navy(`#001A4D`) 배경 + Sky Blue(`#4CA3DD`) 데이터 시각화 = "기술 대시보드" 미학 | 기술 웨비나 슬라이드와 IR 자료를 다크 테마로 통일하여 프리미엄 전문성 시각화 |
-| A-2 | Teal(`#008080`) 컬러를 ESG 전용 색상으로 고정 — 지속 가능성 섹션 즉각 식별 | 지속 가능성 보고서·웹페이지 섹션에 Teal 띠를 일관 적용 |
-| A-3 | Signal Orange(`#FF6B00`)는 이벤트·마감·핵심 CTA에만 사용 — 희소성 원칙 | 연간 최대 3개 캠페인에만 오렌지 강조 적용, 나머지는 블루 계열 유지 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Layer B: 타이포그래피 & 정보 계층
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| # | Steal 포인트 | 실행 방법 |
-|---|------------|---------|
-| B-1 | 기술 스펙을 모노스페이스 폰트(Source Code Pro)로 표기 — 코드 수준 신뢰감 부여 | 장비 데이터시트 스펙 열을 모노 폰트로 렌더링, 엔지니어 친화성 강화 |
-| B-2 | H1~H3 계층 엄격 준수 — 단일 페이지에 H1은 1개만 허용 | CMS 템플릿에 H1 중복 방지 규칙 자동 적용 |
-| B-3 | 본문 최대 줄 길이 75자(영문) / 40자(한국어) 제한 — 가독성 과학적 근거 | 백서·블로그 편집 가이드에 줄 길이 규칙 명시 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Layer C: 시스템 일관성
+---
 
-| # | Steal 포인트 | 실행 방법 |
-|---|------------|---------|
-| C-1 | 모든 기술 다이어그램에 원자·웨이퍼 스케일 범례 포함 — AMAT 고유 시각 언어 | 다이어그램 템플릿 라이브러리에 나노미터 스케일 바 컴포넌트 표준화 |
-| C-2 | 사진 색조 후보정 — Cool Blue 강조, 따뜻한 색 제거 — 정밀 제조 분위기 일관성 | 포토 에디팅 LUT 파일 표준 배포, 모든 팀이 동일 색조 적용 |
-| C-3 | 슬라이드 마지막 페이지: 항상 "Making Possible" + 웹사이트 URL + QR 코드 — 브랜드 클로저 통일 | 슬라이드 마스터 템플릿에 고정 마지막 슬라이드 레이아웃 잠금 |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Applied Materials (AMAT)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

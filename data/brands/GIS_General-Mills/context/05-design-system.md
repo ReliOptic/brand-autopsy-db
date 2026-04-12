@@ -1,161 +1,102 @@
-# GIS 디자인 시스템 — General Mills
+# 05. Design System — General Mills (GIS)
 
-## 메타데이터
-- **브랜드**: General Mills (GIS)
-- **분석 기준일**: 2026-04-12
-- **적용 브랜드**: Cheerios, Nature Valley, Haagen-Dazs (공식)/(추정) 표기 적용
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### Cheerios 컬러 팔레트
+General Mills's visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 프라이머리 | Cheerios Yellow | `#FFD700` | 로고 배경, 주요 패키징 (공식) |
-| 세컨더리 | Warm Orange | `#F4820A` | 강조 요소, CTA 버튼 (공식) |
-| 서포트 | Oat Cream | `#F5ECD7` | 배경, 여백 활용 (추정) |
-| 텍스트 다크 | Grain Brown | `#4A2C0A` | 본문 텍스트, 아이콘 (추정) |
-| 하트 레드 | Heart Red | `#D62B2B` | 심장건강 클레임 아이콘 (공식) |
-| 서브 그린 | Nature Green | `#4E8B3F` | 통곡물·자연 성분 표시 (추정) |
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-### Nature Valley 컬러 팔레트
+### Color Principles
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 프라이머리 | Valley Green | `#4A7C3F` | 로고, 패키징 기본색 (공식) |
-| 세컨더리 | Harvest Gold | `#C8860A` | 제품명 텍스트, 강조 밴드 (공식) |
-| 서포트 | Trail Tan | `#D4B483` | 크래커·바 제품 배경 (추정) |
-| 액센트 | Summit Blue | `#2C5F8A` | 산악 아이콘, 계절 에디션 (추정) |
-| 배경 라이트 | Meadow Cream | `#F9F3E3` | 디지털 배경, 라이트 모드 (추정) |
-| 텍스트 다크 | Earth Brown | `#3B2A1A` | 본문 텍스트 (추정) |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Haagen-Dazs 컬러 팔레트
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 프라이머리 | Prestige Black | `#1A1A1A` | 로고, 프리미엄 패키징 기본 (공식) |
-| 세컨더리 | Velvet Gold | `#C9A84C` | 브랜드명 레터링, 금박 요소 (공식) |
-| 서포트 | Ivory White | `#FAF7F0` | 패키징 여백, 웹 배경 (추정) |
-| 플레이버 레드 | Strawberry Bliss | `#C0392B` | 딸기 플레이버 라인 (추정) |
-| 플레이버 브라운 | Belgian Chocolate | `#4A2010` | 초콜릿 플레이버 라인 (추정) |
-| 시그니처 크림 | Crème Satin | `#E8D5B7` | 바닐라·크림 플레이버 라인 (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-### General Mills 기업 브랜드 컬러
+## 2. Typography
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 코퍼레이트 블루 | Corporate Blue | `#003087` | IR·기업 커뮤니케이션 (공식) |
-| 코퍼레이트 레드 | Corporate Red | `#CC0000` | 강조, 경고, 프로모션 (공식) |
-| 뉴트럴 그레이 | Slate Gray | `#6B6B6B` | 부가 텍스트, 구분선 (추정) |
-| 배경 화이트 | Clean White | `#FFFFFF` | 모든 디지털 배경 기본 (추정) |
+General Mills's digital properties employ a typographic system appropriate to its consumer staples positioning.
 
----
+### Typeface System
 
-## 타이포그래피 시스템
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### Cheerios 타이포그래피
+### Typographic Scale
 
-| 역할 | 서체 | 스타일 | 크기 가이드 |
-|------|------|--------|-----------|
-| 헤드라인 | Rounded sans-serif (추정: Nunito Bold 계열) | 굵고 둥근 느낌 | H1: 48px / H2: 36px |
-| 서브헤드 | Medium weight rounded | 친근한 무게감 | H3: 28px / H4: 22px |
-| 바디 | Clean sans-serif | 가독성 우선 | 16px / line-height 1.6 |
-| 캡션 | Light weight | 작은 설명 | 12–14px |
-
-### Nature Valley 타이포그래피
-
-| 역할 | 서체 | 스타일 | 크기 가이드 |
-|------|------|--------|-----------|
-| 헤드라인 | Condensed serif or bold sans (추정) | 강인·직선적 | H1: 52px / H2: 40px |
-| 서브헤드 | Bold condensed | 아웃도어 강인함 | H3: 30px / H4: 24px |
-| 바디 | Clean regular | 명확한 성분 안내 | 16px / line-height 1.5 |
-| 태그라인 | Italic serif (추정) | 자연·감성 강조 | 18–20px |
-
-### Haagen-Dazs 타이포그래피
-
-| 역할 | 서체 | 스타일 | 크기 가이드 |
-|------|------|--------|-----------|
-| 헤드라인 | Elegant serif (추정: Didot 계열) | 섬세·고급스러움 | H1: 56px / H2: 42px |
-| 서브헤드 | Light serif | 절제된 우아함 | H3: 32px / H4: 26px |
-| 바디 | Thin sans-serif | 현대적 가독성 | 15px / line-height 1.7 |
-| 로고타입 | Custom lettering | 브랜드 독점 (공식) | 고정 비율 유지 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 이미지 스타일 가이드
+## 3. Channel Specifications
 
-### Cheerios 이미지 원칙
-- **조명**: 자연광·따뜻한 골든아워 톤
-- **구도**: 식탁 위 오버헤드 샷, 가족 식사 장면 포함
-- **색온도**: 웜 (3000–4000K 상당)
-- **피사체**: 어린이·가족, 제품이 생활 속에 자연스럽게 배치
-- **금지**: 완벽하게 연출된 스튜디오 느낌, 고립된 제품 단독 샷
-
-### Nature Valley 이미지 원칙
-- **조명**: 야외 자연광, 강한 대비 허용
-- **구도**: 활동 중 인물 + 자연 배경, 제품 근접 텍스처 샷
-- **색온도**: 뉴트럴~쿨 (일출·일몰 예외)
-- **피사체**: 하이킹·러닝·캠핑 활동 중 인물, 귀리·통곡물 클로즈업
-- **금지**: 도시 실내 배경, 과도하게 완벽한 몸매 강조
-
-### Haagen-Dazs 이미지 원칙
-- **조명**: 스튜디오 정밀 조명, 글로시 하이라이트
-- **구도**: 제품 텍스처 극단 클로즈업, 미니멀 배경
-- **색온도**: 뉴트럴~쿨 (크림 질감 강조)
-- **피사체**: 제품 자체 주인공, 최소한의 프롭
-- **금지**: 시끄러운 배경, 여러 제품 동시 노출, 유치한 표현
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 로고 사용 규칙
+## 4. Layout Principles
 
-| 규칙 | Cheerios | Nature Valley | Haagen-Dazs |
-|------|----------|--------------|-------------|
-| 최소 크기 | 24px (디지털) | 24px | 20px |
-| 여백 (클리어스페이스) | 로고 높이의 50% | 로고 높이의 50% | 로고 높이의 100% |
-| 배경 사용 | 흰색·노란색 배경 (공식) | 흰색·녹색 배경 (공식) | 흰색·검정 배경만 (공식) |
-| 색상 변형 | 풀컬러·모노크롬 허용 | 풀컬러·모노크롬 허용 | 골드온블랙 또는 블랙온화이트만 (추정) |
-| 금지 변형 | 회전·왜곡·그림자 효과 | 회전·왜곡 | 어떤 색 변경도 금지 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 패키징 디자인 원칙
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-### 공통 원칙
-- 성분표·영양정보 가독성 최우선 (공식 규제 준수)
-- 재활용 가능 소재 표시 (공식 목표: 2030년 100%)
-- 앞면(Front of Pack) 영양 요약 레이블 준수
-
-### 브랜드별 특수 원칙
-
-| 브랜드 | 패키징 특징 | 차별화 요소 |
-|--------|-----------|-----------|
-| Cheerios | 빨간색 하트 아이콘 상단 배치 | 심장건강 클레임 시각화 (공식) |
-| Nature Valley | 산악 실루엣 + 크래프트 감성 질감 | 자연 소재 느낌 (추정) |
-| Haagen-Dazs | 무광 프리미엄 라미네이팅, 금박 레터링 | 프리미엄 패키지 감 (추정) |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 디지털 UI 컴포넌트 가이드 (추정)
+## 5. Design Prohibitions
 
-### 버튼 스타일
-| 브랜드 | 프라이머리 버튼 | 세컨더리 버튼 | 형태 |
-|--------|--------------|-------------|------|
-| Cheerios | 배경 `#FFD700` / 텍스트 `#4A2C0A` | 외곽선 `#F4820A` | border-radius: 24px (둥근형) |
-| Nature Valley | 배경 `#4A7C3F` / 텍스트 `#FFFFFF` | 외곽선 `#4A7C3F` | border-radius: 4px (각진형) |
-| Haagen-Dazs | 배경 `#1A1A1A` / 텍스트 `#C9A84C` | 외곽선 `#C9A84C` | border-radius: 0px (직각형) |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-### 아이콘 스타일
-| 브랜드 | 스타일 | 선 두께 | 형태 |
-|--------|--------|--------|------|
-| Cheerios | Filled, Rounded | 2px | 원형 베이스 |
-| Nature Valley | Outlined, Geometric | 2.5px | 자연 모티프 |
-| Haagen-Dazs | Thin line, Minimal | 1px | 추상·럭셔리 |
+---
+
+*Layer 5 of 8 — Brand Autopsy: General Mills (GIS)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

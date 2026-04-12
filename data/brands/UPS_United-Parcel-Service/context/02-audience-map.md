@@ -1,138 +1,84 @@
-# UPS 오디언스 맵
+# 02. Audience Map — United Parcel Service (UPS)
 
-## 오디언스 개요
-
-UPS는 B2B(기업 고객)와 B2C(소비자) 양방향 시장을 동시에 공략하는 복합 오디언스 구조를 가진다. 매출의 약 70%가 B2B에서 발생한다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 박지수 — 중소기업 이커머스 운영자
-
-**기본 정보**
-- 나이: 38세
-- 직책: 의류 브랜드 대표 / 운영 총괄
-- 회사 규모: 직원 12명, 월 주문 건수 약 3,000건
-- 채널: 자사몰 + 스마트스토어 병행 운영
-
-**목표**
-- 반품율 최소화 및 고객 불만 선제 차단
-- 배송비 절감을 통한 마진 개선
-- 해외 직구 역직구 채널 개척 (미국, 일본)
-
-**페인포인트**
-- 성수기(블랙프라이데이, 연말) 배송 지연으로 인한 고객 CS 폭증
-- 국제 배송 시 관세·통관 복잡성 이해 부족
-- 배송사별 단가 협상 시 협상력 부족
-
-**UPS와의 접점**
-- UPS My Choice for Business 포털 사용 (공식)
-- UPS Store에서 소량 국제 배송 처리 (공식)
-- 계절별 볼륨 딜 협상 필요
-
-**구매 결정 기준**
-신뢰성 > 가격 > 통합 관리 편의성 순
-
-**메시지 반응 키워드**
-"배송 추적 자동화", "국제 통관 대행", "볼륨 할인", "반품 솔루션"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in air freight & logistics and adjacent industries. (T4_INFERRED from United Parcel Service's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in United Parcel Service's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이동현 — 대기업 글로벌 공급망 관리자
+## Core Personas
 
-**기본 정보**
-- 나이: 45세
-- 직책: SCM 팀장 (Supply Chain Manager)
-- 회사: 제조업 대기업, 연매출 5,000억 원 이상
-- 소재지: 서울 / 출장 빈도 높음
+### Persona 1 — Enterprise Decision-Maker
 
-**목표**
-- 부품 조달 리드타임 단축 (JIT 생산 지원)
-- 다국가 물류 비용 통합 관리 및 가시성 확보
-- 컴플라이언스 리스크 최소화 (수출입 규정 준수)
-
-**페인포인트**
-- 특정 국가 통관 지연으로 생산 라인 중단 위기
-- 물류 파트너 분산으로 인한 데이터 사일로
-- C-레벨 보고용 물류 KPI 대시보드 부재
-
-**UPS와의 접점**
-- UPS Supply Chain Solutions 계약 파트너 (공식)
-- UPS Worldship / CampusShip API 연동 (공식)
-- 전담 어카운트 매니저 배정
-
-**구매 결정 기준**
-통합 가시성 > SLA 준수율 > 글로벌 커버리지 > 가격
-
-**메시지 반응 키워드**
-"엔드-투-엔드 가시성", "SLA 보장", "API 연동", "컴플라이언스 자동화"
+- **Age / Occupation**: 42, VP-level or director in a United Parcel Service customer organization
+- **Core pain**: Needs reliable air freight & logistics solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **United Parcel Service selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 최수진 — 개인 소비자 (헤비 온라인 쇼퍼)
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-- 나이: 29세
-- 직업: 마케터 / 1인 가구
-- 거주지: 서울 마포구
-- 쇼핑 빈도: 월 8~15건, 해외 직구 포함
-
-**목표**
-- 해외 직구 상품의 안전하고 빠른 수령
-- 부재 시 배송 유연성 (재배달, 픽업 포인트 변경)
-- 반품 프로세스의 간편함
-
-**페인포인트**
-- 국제 배송 중 분실 또는 파손 경험
-- 통관 지연 시 현황 파악 어려움
-- 반품 라벨 출력 및 드롭오프 장소 접근성
-
-**UPS와의 접점**
-- UPS My Choice 앱 사용 (공식)
-- UPS Access Point 픽업 활용 (공식)
-- 이커머스 플랫폼 배송 옵션으로 간접 접촉
-
-**구매 결정 기준**
-편의성 > 투명성 > 속도 > 가격
-
-**메시지 반응 키워드**
-"배송 일정 조정", "픽업 포인트", "실시간 추적", "안전 포장"
+- **Age / Occupation**: 35, technical professional who interacts with United Parcel Service's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **United Parcel Service selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 추정 | 매출 기여 | 성장성 | 핵심 니즈 |
-|---|---|---|---|---|
-| 대기업 B2B (연계약) | 소수 고객 | 높음 | 중간 | 통합 SCM, 글로벌 커버리지 |
-| 중소기업 B2B (이커머스) | 수십만 | 중간 | 높음 | 비용 효율, 국제 배송 간소화 |
-| 헬스케어 기업 | 소수 전문 고객 | 성장 중 | 매우 높음 | 콜드체인, 규제 준수 |
-| 일반 소비자 (B2C) | 수백만 | 낮음 | 중간 | 편의성, 투명성 |
-| 정부·기관 | 소수 | 안정적 | 낮음 | 보안, 신뢰성 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate United Parcel Service's financial performance, competitive positioning, and risk factors for investment decisions.
+- **United Parcel Service selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 고객 여정 맵 (B2B 중소기업 기준)
+## Purchase Journey — AARRR Framework
 
-```
-[인지] 검색/추천 → [고려] 가격비교·리뷰 → [결정] 볼륨 견적·계약
-    ↓                      ↓                        ↓
-UPS 광고/SEO          UPS.com 비교 도구          어카운트 매니저 상담
-    
-[사용] 일상 배송 운영 → [충성] 장기 계약 갱신 → [옹호] 파트너 추천
-    ↓                        ↓                       ↓
-Worldship 대시보드        볼륨 인센티브             케이스 스터디 참여
-```
+| Stage | United Parcel Service's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | United Parcel Service total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 오디언스 특성 (추정)
+## Anti-Persona — Who United Parcel Service Is Not For
 
-| 지역 | 주요 오디언스 | 특이사항 |
-|---|---|---|
-| 북미 | B2B 전 세그먼트, B2C | UPS 홈그라운드, 시장점유율 최고 |
-| 유럽 | 제조업 B2B, 이커머스 | FedEx와 DHL과 치열한 경쟁 |
-| 아시아태평양 | 수출입 기업, 이커머스 | 알리바바 생태계와의 경쟁 고려 |
-| 중남미 | 중소 수출기업 | 통관 복잡성 페인포인트 극대화 |
-| 중동·아프리카 | 고성장 신흥 시장 | 인프라 갭, 파트너십 모델 의존 |
+| Type | Characteristics | Why United Parcel Service Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | United Parcel Service's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | United Parcel Service's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | United Parcel Service's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+United Parcel Service's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+United Parcel Service's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

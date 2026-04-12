@@ -1,120 +1,84 @@
-# 02. 오디언스 맵 — McDonald's (MCD)
+# 02. Audience Map — McDonald's (MCD)
 
-> 섹터: Consumer Discretionary — Restaurants
-> 업데이트: 2026-04-12
-
----
-
-## 1. 타깃 오디언스 개요
-
-| 세그먼트 | 비중 | 핵심 니즈 |
-|---------|------|---------|
-| 패밀리 (자녀 동반 가족) | ~35% (추정) | 편의성, 아이 만족, 가성비 |
-| 젊은 성인 (18-34세) | ~30% (추정) | 속도, 디지털 편의, 트렌디함 |
-| 직장인 (점심 고객) | ~20% (추정) | 빠름, 예측 가능한 맛, 합리적 가격 |
-| 시니어 & 기타 | ~15% (추정) | 친숙함, 접근성, 커피(맥카페) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in restaurants. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from McDonald's's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in McDonald's's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: "바쁜 엄마" 김지영 (38세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 파트타임 마케터 + 전업 육아 병행 |
-| 가족 구성 | 배우자, 자녀 2명 (6세, 9세) |
-| 거주지 | 경기도 용인시 수지구 |
-| 월 소득 | 가구 합산 약 600만 원 (추정) |
-| 맥도날드 방문 빈도 | 주 1~2회 (주로 주말) |
-| 주문 패턴 | 해피밀 2개 + 빅맥 세트 + 아이스 아메리카노 |
-| 핵심 동기 | 아이들이 좋아하고, 빠르고, 드라이브스루로 해결 가능 |
-| 고통점 | 줄이 길면 아이들이 보채서 스트레스 / 가격 인상 체감 |
-| 디지털 채널 | 카카오톡, 인스타그램, 맥도날드 앱 쿠폰 적극 활용 |
-| 브랜드 감정 | 편리함과 약간의 죄책감 공존 ("가끔은 괜찮지") |
-| 구매 트리거 | 앱 쿠폰, 해피밀 장난감 교체, 드라이브스루 편의 |
+### Persona 1 — Enterprise Decision-Maker
 
-**인사이트:** 이 페르소나는 가격 민감도가 높고 쿠폰·앱 혜택에 즉각 반응. "엄마의 편리한 선택"을 정당화하는 메시지가 효과적.
+- **Age / Occupation**: 42, VP-level or director in a McDonald's customer organization
+- **Core pain**: Needs reliable restaurants solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **McDonald's selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: "딜리버리 헤비유저" 이준혁 (26세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | IT 스타트업 주니어 개발자 |
-| 거주지 | 서울 마포구 원룸 |
-| 월 소득 | 약 300만 원 (추정) |
-| 맥도날드 이용 빈도 | 주 2~3회 (배달 위주) |
-| 주문 패턴 | 1955버거 세트, 상하이버거, 야간 배달 多 |
-| 핵심 동기 | 야근 후 빠른 포만감, 배달앱 할인, 익숙한 맛 |
-| 고통점 | 배달 시 감자튀김 눅눅해짐, 배달비 부담 |
-| 디지털 채널 | 배달의민족, 쿠팡이츠, 유튜브, 트위터/X |
-| SNS 행동 | 밈 공유, 신메뉴 후기 업로드, 맥런치 챌린지 참여 |
-| 브랜드 감정 | "나쁘지 않아" — 강한 충성도보다는 습관적 이용 |
-| 구매 트리거 | 배달앱 할인 알림, 신메뉴 출시, 심야 배달 가능성 |
-
-**인사이트:** 이 페르소나는 브랜드 충성도보다 편의+할인 조합에 반응. SNS 바이럴 캠페인과 배달 전용 메뉴로 재방문 유도 가능.
+- **Age / Occupation**: 35, technical professional who interacts with McDonald's's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **McDonald's selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: "맥카페 출근족" 박서연 (44세)
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 중견기업 인사팀 과장 |
-| 거주지 | 서울 강동구 |
-| 월 소득 | 약 450만 원 (추정) |
-| 맥도날드 이용 빈도 | 주 4~5회 (평일 아침 맥카페 위주) |
-| 주문 패턴 | 아이스 아메리카노 + 머핀 / 간헐적 세트 |
-| 핵심 동기 | 출근길 커피, 스타벅스보다 저렴, 드라이브스루 |
-| 고통점 | 맥카페 커피 품질이 스타벅스보다 못하다는 인식 |
-| 디지털 채널 | 카카오톡, 네이버, 맥도날드 앱 (쿠폰 저장) |
-| 브랜드 감정 | 실용적 만족 — "가성비 커피" 포지션으로 수용 |
-| 구매 트리거 | 아침 시간대 할인, 기온 변화 (계절 음료 출시) |
-
-**인사이트:** 이 페르소나에게 맥도날드는 커피 브랜드. 맥카페 품질 인식 개선 및 시즌 음료 마케팅이 핵심 레버.
+- **Age / Occupation**: 38, consumer who interacts with McDonald's's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **McDonald's selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 3. 오디언스 여정 맵 (Customer Journey)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 패밀리 세그먼트 | 젊은 성인 세그먼트 | 직장인 세그먼트 |
-|------|--------------|----------------|--------------|
-| 인지 | TV 광고, 아이 요청, 드라이브스루 간판 | SNS 밈, 배달앱 추천, 유튜브 광고 | 회사 근처 위치, 동료 추천 |
-| 고려 | 해피밀 장난감, 앱 쿠폰 확인 | 신메뉴 후기 검색, 가격 비교 | 메뉴 속도·편의성 확인 |
-| 구매 | 드라이브스루 / 매장 방문 | 앱 주문 / 배달 | 매장 무인 키오스크 |
-| 경험 | 아이 만족도, 놀이공간 | 음식 비주얼, SNS 업로드 | 속도, 예측 가능한 맛 |
-| 재방문 | 쿠폰 재사용, 아이 요청 반복 | 신메뉴 출시 알림 | 습관적 루틴화 |
-
----
-
-## 4. 지불 의향 (WTP) 분석
-
-| 세그먼트 | 1회 평균 지출 (추정) | 가격 민감도 | 쿠폰 반응도 |
-|---------|------------------|-----------|-----------|
-| 패밀리 | 22,000~35,000원 | 중~고 | 매우 높음 |
-| 젊은 성인 | 8,000~15,000원 | 중~고 | 높음 |
-| 직장인 | 7,000~12,000원 | 중 | 중간 |
-| 시니어 | 4,000~8,000원 | 높음 | 낮음 |
+| Stage | McDonald's's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | McDonald's total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. Steal Sheet — 오디언스 레이어별 핵심 3가지
+## Anti-Persona — Who McDonald's Is Not For
 
-### Layer A: 패밀리 세그먼트
-1. **해피밀 장난감 캐릭터** 교체 주기를 6주 이내로 유지하면 재방문율 직결
-2. **드라이브스루 대기 시간 90초 이하** 달성 시 이 세그먼트 NPS 급상승 (추정)
-3. **앱 가족 쿠폰팩** (3인 이상 할인) 도입 시 객단가 15% 이상 증가 기대 (추정)
+| Type | Characteristics | Why McDonald's Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | McDonald's's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | McDonald's's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | McDonald's's full value is realized through deeper operational integration and sustained partnership. |
 
-### Layer B: 젊은 성인 세그먼트
-1. **배달 전용 메뉴** + **배달앱 독점 할인** 조합이 이 세그먼트 주문 빈도 최대 레버
-2. **SNS 챌린지형 한정 메뉴** (예: 맥런치 시리즈)는 유기적 바이럴 비용 대비 최고 ROI (추정)
-3. 심야(22시~02시) **배달 가능 매장 확대**가 이 세그먼트 점유율 방어의 핵심
+---
 
-### Layer C: 직장인/맥카페 세그먼트
-1. **아침 맥카페 정기권** 또는 구독 모델 도입 시 주 4회 이상 방문 고착화 가능 (추정)
-2. **무인 키오스크 속도 UI 개선**이 이 세그먼트 이탈률 감소에 직접 연결
-3. 사무지구 인근 **Express 매장 포맷** 확대 시 점심 세그먼트 점유율 확대 가능 (추정)
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+McDonald's's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+McDonald's's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

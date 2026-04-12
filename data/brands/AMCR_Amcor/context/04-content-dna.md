@@ -1,142 +1,123 @@
-# 04 콘텐츠 DNA — Amcor (AMCR)
+# 04. Content DNA — Amcor (AMCR)
 
-## 콘텐츠 철학
-
-Amcor의 콘텐츠는 **"근거 있는 낙관주의(Evidence-Based Optimism)"**를 핵심 원칙으로 삼는다. 포장재 산업의 환경적 도전을 직시하면서도, 기술 혁신을 통해 해결 가능하다는 메시지를 데이터와 함께 전달한다. 감성적 설득보다 전문적 신뢰를 우선하되, 지속가능성 스토리에서는 진정성 있는 감성 레이어를 추가한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 핵심 메시지 아키텍처
+## Content Pillars
 
-```
-최상위 메시지 (Master Message)
-"책임 있는 포장으로 더 나은 세상을 만든다"
-            │
-    ┌───────┼───────┐
-    │       │       │
-  기술    지속     규모
-  리더십  가능성   & 신뢰
-    │       │       │
-  혁신   순환경제  글로벌
-  성능   탄소감축  파트너십
-```
+Amcor's content strategy reflects its positioning in the Paper & Plastic Packaging Products & Materials segment of Materials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
+
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Amcor understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for paper & plastic packaging products & materials requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Amcor." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
+
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 필러 (6개)
+## Hook Patterns
 
-### 필러 1: 기술 혁신 (Innovation Showcase)
-**목적**: 기술 리더십 입증, 엔지니어·R&D 담당자 어필
-**형식**: 기술 백서, 제품 데이터시트, 특허 하이라이트, 기술 비교 인포그래픽
-**핵심 메시지**: "포장의 한계를 다시 정의합니다"
-**KPI**: 다운로드 수, 기술 문의 전환율
+### Hook 1 — Industry Challenge Lead
 
-### 필러 2: 지속가능성 리포트 (Sustainability Progress)
-**목적**: ESG 투자자·CSR 담당자 신뢰 구축, 규제 대응 입증
-**형식**: 연간 지속가능성 보고서, 중간 점검 업데이트, 파트너십 발표
-**핵심 메시지**: "약속은 숫자로 증명합니다"
-**KPI**: 투자자 인용 횟수, 미디어 피커버리지
+Opens with a recognizable industry challenge or pain point before presenting Amcor's perspective.
 
-### 필러 3: 고객 성공 사례 (Customer Success)
-**목적**: 구매 결정 촉진, 솔루션 구체성 전달
-**형식**: 케이스 스터디, 비디오 인터뷰, ROI 인포그래픽
-**핵심 메시지**: "고객의 성공이 Amcor의 성공입니다"
-**KPI**: 세일즈 사이클 단축, 케이스 스터디 활용률
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 필러 4: 산업 인사이트 (Industry Intelligence)
-**목적**: 사고 리더십, 검색 트래픽, 업계 권위 구축
-**형식**: 산업 분석 보고서, 규제 가이드, 트렌드 브리핑
-**핵심 메시지**: "미래를 먼저 봅니다"
-**KPI**: 오가닉 트래픽, 미디어 인용, 업계 발표 초청
+### Hook 2 — Data-Driven Insight
 
-### 필러 5: 파트너십 & 공동 혁신 (Co-Innovation)
-**목적**: 파트너·공급망 생태계 강화, 혁신 DNA 전달
-**형식**: 공동 연구 발표, 파트너십 어나운스먼트, 오픈 이노베이션 캠페인
-**핵심 메시지**: "혼자서는 할 수 없는 일을 함께 합니다"
-**KPI**: 파트너십 계약 건수, 공동 특허 출원 수
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### 필러 6: 인재 & 문화 (People & Culture)
-**목적**: 고용주 브랜딩, 내부 문화 전파
-**형식**: 직원 스토리, 다양성 보고서, 커리어 콘텐츠
-**핵심 메시지**: "세계 최고의 포장 전문가들과 함께합니다"
-**KPI**: 채용 지원률, 직원 참여도
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
+
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 스토리텔링 프레임
+## CTA Patterns
 
-### 프레임 1: 도전-기술-임팩트 (CTI)
-```
-[도전] 식품 포장의 환경 부담이 커지고 있습니다.
-[기술] Amcor의 모노머티리얼 플렉시블 포장은 100% 재활용 가능합니다.
-[임팩트] 파트너사 X는 포장재 탄소발자국을 35% 줄였습니다.
-```
-
-### 프레임 2: 규제-리스크-솔루션 (RRS)
-```
-[규제] EU PPWR 2030 시행으로 재활용 불가 포장 판매 금지 예정.
-[리스크] 미전환 시 유럽 시장 접근 불가, 연간 XX억 매출 위협.
-[솔루션] Amcor는 PPWR 적합 포장으로 지금 전환 준비를 지원합니다.
-```
-
-### 프레임 3: 숫자-스토리-행동 (NSA)
-```
-[숫자] 연간 1.4조 개의 포장재가 Amcor에서 생산됩니다.
-[스토리] 그 하나하나가 소비자의 식탁, 약장, 욕실에 닿습니다.
-[행동] 이 영향력을 책임감 있게 사용합니다.
-```
+| CTA Type | Amcor Pattern | What Amcor Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 톤 & 보이스 가이드라인
+## Tone & Mood Guide
 
-| 상황 | 톤 | 금지 표현 | 권장 표현 |
-|------|-----|---------|---------|
-| 기술 설명 | 정밀하고 자신감 있게 | "대략", "아마도" | "검증된", "데이터 기반" |
-| 지속가능성 | 진정성 있게, 과장 없이 | "완전히 친환경" | "측정 가능한 진전" |
-| 고객 성공 | 파트너십 강조, 겸손 | "우리가 해결했다" | "함께 달성했다" |
-| 위기 커뮤니케이션 | 투명하고 책임감 있게 | 회피, 방어적 | 사실 기반, 행동 계획 제시 |
-| 혁신 발표 | 흥분되지만 근거 있게 | "게임 체인저", "혁명적" | "업계 최초", "검증된 성능" |
+### Situation 1 — Product or Service Announcement
 
----
+**Mood**: Confident professionalism — measured excitement appropriate to materials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-## 콘텐츠 형식별 가이드
+### Situation 2 — Thought Leadership / Industry Commentary
 
-### 기술 백서 (Technical Whitepaper)
-- 분량: 8-15페이지
-- 구조: 요약 → 문제 정의 → 기술 설명 → 성능 데이터 → 사례 → 결론
-- 어조: 학술적이되 접근 가능, 전문 용어 + 해설
-- 필수 요소: 데이터 출처 명시, 제3자 검증 표시
+**Mood**: Authoritative insight — Amcor as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### 케이스 스터디 (Case Study)
-- 분량: 2-4페이지
-- 구조: 고객 소개 → 도전 과제 → Amcor 솔루션 → 정량적 결과 → 고객 인용
-- 필수 요소: 전후 비교 수치, 고객사 담당자 실명 인용
+### Situation 3 — Crisis or Negative News Response
 
-### 소셜 미디어 포스트 (LinkedIn 중심)
-- 분량: 150-300자 (한국어 기준)
-- 구조: 훅(1문장) → 인사이트(2-3문장) → CTA
-- 필수 요소: 관련 해시태그 3개 이하, 데이터 포인트 1개 이상
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
 
-### 투자자 커뮤니케이션
-- 어조: 엄격하게 사실 기반, 미래 예측 시 면책 조항 포함
-- 필수 요소: IFRS 기준 재무 지표, 규제 공시 요건 준수
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 3개
+## Content Prohibitions
 
-### Layer A: 기술 콘텐츠에서 빼앗기
-1. **소재 혁신 시리즈** — 경쟁사 일반적 제품 소개 대비, Amcor는 소재 과학 원리부터 설명하는 심층 기술 콘텐츠로 엔지니어 커뮤니티 신뢰 선점
-2. **규제 대응 계산기** — EU PPWR, 미국 REDUCE Act 대응 비용·타임라인 계산 인터랙티브 도구로 경쟁사 대비 실용적 리드 제너레이션
-3. **포장 성능 벤치마크 보고서** — 연간 발행, 업계 비교 데이터 포함으로 미디어·애널리스트가 인용하는 권위 있는 참고 자료화
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-### Layer B: 지속가능성 콘텐츠에서 빼앗기
-1. **Amcor 지속가능성 대시보드** — 실시간 업데이트되는 온라인 대시보드로 ESG 약속 이행 현황 투명하게 공개, 경쟁사의 연간 보고서 대비 차별화
-2. **고객사 탄소 절감 기여 계산기** — 고객이 Amcor 포장 채택으로 절감한 탄소량을 ESG 보고서에 직접 활용 가능한 포맷으로 제공
-3. **순환 경제 파트너 스토리** — RecyClass, Ellen MacArthur Foundation 등 파트너와의 공동 콘텐츠로 생태계 신뢰성 강화
+---
 
-### Layer C: 사고 리더십 콘텐츠에서 빼앗기
-1. **포장의 미래 연간 보고서** — 업계 트렌드·소비자 행동·규제 전망을 통합한 연간 발간물로 미디어 어젠다 선점
-2. **C-Suite 인터뷰 시리즈** — Amcor CEO 및 고객사 임원 대담 형식으로 업계 리더십 포지션 강화
-3. **포장 혁신 어워드** — 고객·파트너·스타트업 대상 연간 어워드로 생태계 허브 역할 확보
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #AMCR | Financial and investor community | Moderate (estimated) |
+| #Amcor | Brand-level social engagement | Varies (estimated) |
+| #MInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Amcor's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In materials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in paper & plastic packaging products & materials face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Amcor's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

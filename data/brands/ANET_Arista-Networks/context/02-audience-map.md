@@ -1,140 +1,84 @@
-# 02 — Audience Map
-## Arista Networks (ANET)
+# 02. Audience Map — Arista Networks (ANET)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Audience Segmentation Overview
+## Ideal Customer Profile (ICP)
 
-Arista's buyer landscape spans hyperscale cloud operators, large enterprise IT organizations, and financial services firms with extreme latency requirements. The buying motion is predominantly technical-led with executive sponsorship required for seven-figure deals.
-
----
-
-## 2. Primary Audience Segments
-
-| Segment | Description | Deal Size | Buying Cycle |
-|---|---|---|---|
-| Hyperscale / Cloud Operators | AWS, Microsoft, Meta, Google network engineering teams | $10M–$500M+ | 12–36 months; multi-year refresh cycles (estimated) |
-| Large Enterprise IT | Fortune 1000 data center and campus network teams | $500K–$20M | 9–18 months (estimated) |
-| Financial Services | HFT firms, exchanges, tier-1 banks requiring ultra-low latency | $1M–$50M | 6–24 months (estimated) |
-| Service Providers / Telcos | Regional and national carriers deploying IP/optical infrastructure | $2M–$100M | 12–36 months (estimated) |
-| Federal / Government | Defense and civilian agencies requiring DISA STIG-compliant networking | $500K–$30M | 18–48 months (estimated) |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in communications equipment and adjacent industries. (T4_INFERRED from Arista Networks's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Arista Networks's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 3. Buyer Personas
+## Core Personas
 
-### Persona 1 — Ravi Krishnamurthy
-**Title:** Principal Network Architect  
-**Company Type:** Hyperscale cloud operator (US West Coast)  
-**Location:** Sunnyvale, California, USA  
-**Ethnicity / Background:** South Asian-American; first-generation immigrant; BS Computer Engineering from IIT Bombay, MS from UC San Diego  
-**Age:** 38  
-**Gender:** Male  
+### Persona 1 — Enterprise Decision-Maker
 
-**Day-to-Day Reality:**
-Ravi owns the spine-leaf fabric design for a 50,000-server data center. He evaluates switching ASICs, writes internal RFCs, and mentors junior network engineers. He attends NANOG and reads IETF drafts before they publish. His Slack is full of BGP EVPN threads.
-
-**Goals:**
-- Achieve sub-500ns port-to-port latency for distributed AI training clusters
-- Reduce OPEX by consolidating NOS management under a single API-driven platform
-- Future-proof fabric for 800G and beyond
-
-**Pain Points:**
-- Vendor roadmap opacity around next-gen ASIC availability
-- Inconsistent feature parity between software releases on different hardware SKUs
-- Difficulty justifying switching costs internally when legacy infrastructure still "works"
-
-**Information Sources:**
-NANOG mailing list, IETF working group archives, arista.com/en/eos, internal benchmarking labs, peer recommendations at Interop/Cisco Live
-
-**Buying Authority:** Technical veto power; final recommendation to VP Engineering (estimated)
-
-**Arista Message That Resonates:** "EOS feature parity across all platforms. One codebase. Real streaming telemetry. No forked NOS."
+- **Age / Occupation**: 42, VP-level or director in a Arista Networks customer organization
+- **Core pain**: Needs reliable communications equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Arista Networks selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### Persona 2 — Amara Osei-Bonsu
-**Title:** Director of IT Infrastructure  
-**Company Type:** Pan-African commercial bank headquartered in Accra, Ghana with operations across 12 countries  
-**Location:** Accra, Ghana  
-**Ethnicity / Background:** Ghanaian; MBA from University of Cape Town; CCNP-certified  
-**Age:** 44  
-**Gender:** Female  
+### Persona 2 — Technical Specialist / End User
 
-**Day-to-Day Reality:**
-Amara oversees network, compute, and storage for 3,200 employees across 12 country offices. She manages a small team of 6 network engineers, reports to the CTO, and must justify every major infrastructure spend to a board risk committee. Regulatory compliance (Bank of Ghana ICT directives) shapes every procurement decision.
-
-**Goals:**
-- Modernize branch connectivity to SD-WAN-capable edge while maintaining high availability
-- Reduce mean time to resolution (MTTR) for network incidents across distributed offices
-- Deploy zero-trust segmentation to meet central bank cybersecurity mandates
-
-**Pain Points:**
-- Limited local Arista partner support and professional services presence in West Africa
-- Total cost of ownership concerns when USD-denominated equipment is imported
-- Skills gap on her team for advanced EOS automation and Python scripting
-
-**Information Sources:**
-Gartner Magic Quadrant reports, regional technology summits (AfricaCom), peer CTO networks, Arista partner briefings, LinkedIn
-
-**Buying Authority:** Decision-maker for sub-$2M; escalates above to CTO and board for larger investments (estimated)
-
-**Arista Message That Resonates:** "CloudVision reduces the operational burden on lean teams — AI-driven anomaly detection catches issues before users notice."
+- **Age / Occupation**: 35, technical professional who interacts with Arista Networks's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Arista Networks selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### Persona 3 — Erik Lindqvist
-**Title:** Senior Network Engineer  
-**Company Type:** Nordic financial exchange and clearing house  
-**Location:** Stockholm, Sweden  
-**Ethnicity / Background:** Swedish; MSc in Computer Science from KTH Royal Institute of Technology  
-**Age:** 31  
-**Gender:** Male  
+### Persona 3 — Financial Stakeholder / Investor
 
-**Day-to-Day Reality:**
-Erik maintains the ultra-low-latency trading fabric that processes millions of order transactions per second. Microseconds matter — a 1µs regression in switching latency directly impacts market maker profitability and client SLAs. He tests switch configurations in a lab environment before any production change and maintains a rigid change management calendar.
-
-**Goals:**
-- Maintain consistent cut-through switching latency below 300ns for order routing
-- Implement hitless ISSU (In-Service Software Upgrade) to eliminate maintenance windows
-- Integrate real-time flow telemetry with in-house risk monitoring dashboards via gRPC
-
-**Pain Points:**
-- Complex regulatory approval process for infrastructure changes under ESMA/MiFID II
-- Limited flexibility to trial pre-GA EOS releases in regulated production environments
-- Vendor support response times that don't match the exchange's 24/7/365 operational model
-
-**Information Sources:**
-IEEE 802.1 working groups, internal network performance benchmarking, Arista technical support portal, STAC Research benchmarks, direct engagement with Arista SEs
-
-**Buying Authority:** Strong technical influencer; procurement authority rests with Head of Technology Infrastructure (estimated)
-
-**Arista Message That Resonates:** "7130 Series: deterministic latency, hardware-timestamped telemetry, and ISSU — built for environments where downtime is not an option."
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Arista Networks's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Arista Networks selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 4. Negative Personas (who Arista does NOT target)
+## Purchase Journey — AARRR Framework
 
-| Persona Type | Reason for Exclusion |
-|---|---|
-| SMB IT Generalist (< 100 employees) | Arista's price point and complexity exceed SMB requirements; Meraki/UniFi serve this market |
-| Consumer / Prosumer Networker | No consumer product line; brand is entirely B2B |
-| Managed Service Provider (low-margin, commodity) | Margin structure incompatible with Arista's price tier unless upselling to enterprise clients |
-
----
-
-## 5. Buying Committee Map (Enterprise Deal)
-
-| Role | Influence Level | Primary Concern | Arista Talking Point |
-|---|---|---|---|
-| Network Architect / Engineer | High (technical veto) | Feature completeness, EOS quality, API programmability | EOS single codebase, gRPC telemetry, open BGP EVPN |
-| VP / Director of IT Infrastructure | High (budget owner) | TCO, vendor risk, operational complexity | CloudVision OPEX reduction, hitless upgrades |
-| CISO | Medium (security gate) | Zero-trust, CVE posture, compliance | Arista MSS (Multi-domain Segmentation Service), DANZ |
-| CFO / Procurement | Medium (cost control) | CapEx, payment terms, 3-year TCO | Reference customer ROI data, total cost vs. Cisco |
-| CEO / CTO | Low (strategic sign-off on large deals) | Strategic vendor alignment, innovation roadmap | AI-driven networks, partnership with hyperscalers |
+| Stage | Arista Networks's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Arista Networks total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 6. Audience Insight Summary
+## Anti-Persona — Who Arista Networks Is Not For
 
-> Arista's core buyer is skeptical of marketing, highly technical, and already familiar with competitor architectures. The brand earns trust through engineering credibility — detailed technical documentation, transparent EOS release notes, and NANOG-level discourse — rather than through emotional campaigns. Reaching Ravi, Amara, and Erik requires peer-to-peer channels, not broadcast media. (estimated)
+| Type | Characteristics | Why Arista Networks Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Arista Networks's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Arista Networks's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Arista Networks's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Arista Networks's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Arista Networks's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

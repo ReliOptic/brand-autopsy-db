@@ -1,170 +1,141 @@
-# RTX Corporation — 채널 플레이북
+# 06. Channel Playbook — RTX Corporation (RTX)
 
-## 채널 전략 개요
-
-RTX는 B2G·B2B 중심 기업으로, 대중 소비재 브랜드와 달리 소셜 미디어보다 직접 영업·이벤트·전문 미디어 채널의 비중이 압도적으로 높다. 채널 전략은 "신뢰 형성(Trust) → 관계 심화(Relationship) → 계약 전환(Conversion)"의 장기 퍼널 구조로 설계된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 맵
+## 1. Channel Strategy Matrix
 
-| 채널 유형 | 채널명 | 주요 역할 | 오디언스 |
-|----------|--------|----------|---------|
-| 직접 영업 | 정부 계정 매니저, BD팀 | 계약 전환 | 국방 조달, 항공사 구매 |
-| 이벤트 | 에어쇼, AUSA, MRO 컨퍼런스 | 관계 구축, 시연 | 방산·항공 전문가 |
-| 디지털 | rtx.com | 기술 정보 허브 | 모든 B2B/B2G |
-| 소셜 | LinkedIn, X(Twitter), YouTube | 브랜드 인식, 채용 | 업계 전문가, 투자자 |
-| PR | 보도자료, 전문 미디어 | 신뢰성 구축 | 미디어, 정부 관계자 |
-| IR | 어닝콜, IR 데이, 보고서 | 투자자 신뢰 | 기관 투자자, 애널리스트 |
-| 파트너 채널 | OEM·정부 공동 마케팅 | 시장 확장 | 파트너 생태계 |
-
----
-
-## 채널별 상세 전략
-
-### 1. 에어쇼 & 국방 전시회 (최우선 채널)
-
-**역할**: RTX 최대 단일 마케팅 투자 채널. 계약 발표·기술 시연·고객 관계의 핵심 장.
-
-| 항목 | 내용 |
-|------|------|
-| 주요 이벤트 | Paris Air Show, Farnborough, Dubai Airshow, AUSA, Singapore Airshow |
-| 콘텐츠 형식 | 프레스킷, 기술 브리핑, VIP 투어, 정적 전시 + 영상 루프 |
-| KPI | 언론 노출 건수, 미팅 수, 서명된 MoU·계약 건수 |
-| 특이사항 | 에어쇼 수주 발표는 주가에 직접 영향 → 사전 IR 조율 필수 |
-
-**운영 원칙**:
-- 에어쇼 6개월 전 콘텐츠 캘린더 확정
-- 사업부별 별도 부스 + RTX 마스터 브랜드 통합 존 운영
-- 미디어 전용 브리핑룸 확보 (주요 에어쇼 기준)
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. rtx.com — 기업 웹사이트
+## 2. Channel Tone Variations
 
-**역할**: 모든 B2B/B2G 탐색의 시작점. 기술 정보·수주 현황·ESG 데이터의 단일 허브.
+RTX Corporation's core voice adjusts by channel while maintaining brand coherence.
 
-| 항목 | 내용 |
-|------|------|
-| 주요 섹션 | 사업부 소개, 제품 포트폴리오, 뉴스룸, IR, 커리어, 지속가능성 |
-| SEO 우선 키워드 | "defense systems", "jet engines", "avionics", "missile defense" (추정) |
-| 전환 목표 | 제품 문의 폼, 공급업체 등록, IR 구독, 채용 지원 |
-| 기술 스택 | Adobe Experience Manager 추정 (대형 방산 기업 표준, 추정) |
-
-**최적화 원칙**:
-- 사업부 페이지는 각 오디언스의 기술적 깊이에 맞춘 이중 레이어(요약 + 기술 상세)
-- 뉴스룸: 보도자료 발행 즉시 웹 업데이트 (24시간 이내)
-- 접근성: WCAG 2.1 AA 준수, 다국어(영어·프랑스어·아랍어·일본어 최소, 추정)
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. LinkedIn
+## 3. Cross-Channel Synergy Map
 
-**역할**: RTX의 사실상 가장 중요한 소셜 채널. 채용·사고 리더십·B2B 관계 구축.
-
-| 항목 | 내용 |
-|------|------|
-| 팔로워 | 약 100만+ (2024 추정) |
-| 게시 빈도 | 주 3–5회 (추정) |
-| 콘텐츠 믹스 | 60% 기술·혁신, 20% 인재·문화, 10% 수주 발표, 10% ESG |
-| 임원 활동 | CEO Gregory Hayes → Chris Calio 명의 아티클 발행 (공식 확인) |
-| 광고 활용 | Sponsored Content (채용 + 브랜드 인지) |
-
-**전술**:
-- 에어쇼·수주 발표 당일 LinkedIn 동시 발행
-- 엔지니어 스포트라이트 시리즈로 인재 브랜딩 강화
-- 임원 개인 계정 활성화로 사고 리더십 신뢰도 제고
-
----
-
-### 4. YouTube
-
-**역할**: 기술 시연·브랜드 필름·임무 스토리의 아카이브 채널.
-
-| 항목 | 내용 |
-|------|------|
-| 구독자 | 약 5만+ (2024 추정) |
-| 콘텐츠 유형 | 제품 기술 영상, 에어쇼 하이라이트, 엔지니어 인터뷰, 애니메이션 설명 |
-| 업로드 빈도 | 월 2–4회 (추정) |
-| 전략적 역할 | 구매 고려 단계 잠재 고객의 심층 정보 탐색 지원 |
-
----
-
-### 5. X (구 Twitter)
-
-**역할**: 뉴스 속보 배포·에어쇼 실시간 업데이트·미디어 관계 채널.
-
-| 항목 | 내용 |
-|------|------|
-| 팔로워 | 약 20만+ (2024 추정) |
-| 게시 빈도 | 주 5–10회 (추정) |
-| 콘텐츠 | 보도자료 링크, 에어쇼 라이브, 수주 발표, 업계 이슈 반응 |
-| 리스크 | 방산 이슈 관련 공개 비판 노출 → 소셜 리스닝 필수 |
-
----
-
-### 6. 전문 미디어 & PR
-
-**주요 타깃 미디어 (추정)**:
-
-| 미디어 | 분야 | 우선순위 |
-|--------|------|---------|
-| Aviation Week & Space Technology | 항공우주 전반 | 최고 |
-| Defense News | 방산 정책·계약 | 최고 |
-| Jane's Defence Weekly | 방산 기술·분석 | 높음 |
-| Flight International | 민항·항공기 | 높음 |
-| Reuters / AP (방산 담당기자) | 일반 보도 | 높음 |
-| Wall Street Journal (방산 섹션) | 투자자·대중 | 중간 |
-
-**PR 운영 원칙**:
-- 수주 발표·계약 체결은 보도자료 + 임원 인용구 필수 첨부
-- 위기 이슈(GTF 리콜 등) 시 "사실 기반 단계적 공개" 원칙 준수
-- 기자 전용 미디어 포털 운영 (고해상도 사진·영상 자료실, 추정)
-
----
-
-### 7. IR (투자자 관계) 채널
-
-**역할**: 기관 투자자·애널리스트 대상 재무 신뢰 구축.
-
-| 항목 | 내용 |
-|------|------|
-| 분기 어닝콜 | CEO + CFO 공동 진행, 웹캐스트 공개 (공식) |
-| IR Day | 연 1회 사업부별 심층 발표 (공식) |
-| 보고서 | 연간 보고서, Proxy Statement, ESG 보고서 (공식) |
-| SEC 공시 | 10-K, 10-Q, 8-K 즉시 공개 (법적 의무, 공식) |
-
----
-
-## 채널 통합 퍼널
+### Route A — Product/Service Launch Sequence
 
 ```
-[인식] 에어쇼 노출 + LinkedIn 아티클 + 미디어 보도
-        ↓
-[관심] rtx.com 방문 + YouTube 기술 영상 시청
-        ↓
-[고려] 백서 다운로드 + 웨비나 참석 + 직접 영업 미팅
-        ↓
-[평가] 기술 브리핑 + 레퍼런스 고객 접촉 + RFP 응답
-        ↓
-[계약] 정부 계정 매니저 / BD팀 직접 클로징
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## Steal Sheet — 채널 레이어별 3가지 전술
+## 4. Channel-Specific Prohibitions
 
-### 레이어 1: 도달 (Reach)
-1. **에어쇼 사전 티저 캠페인**: 에어쇼 2주 전 LinkedIn + X에서 카운트다운 시리즈 — "Watch this space" 형식으로 기대감 조성
-2. **업계 미디어 독점 사전 공개**: Aviation Week·Defense News에 수주 발표 독점 제공 → 에어쇼 당일 동시 공개로 언론 픽업 극대화
-3. **임원 LinkedIn 아티클 주기화**: 분기 1회 CEO/사업부장 명의 지정학·기술 트렌드 아티클 → 업계 공유 유도
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-### 레이어 2: 참여 (Engagement)
-1. **기술 Q&A 웨비나**: 에어쇼 발표 후 2주 내 고객 대상 온라인 기술 브리핑 개최 → 영업 파이프라인 직접 연결
-2. **LinkedIn 폴 & 인터랙티브**: 항공우주·안보 트렌드 관련 설문 게시 → 알고리즘 도달 증폭 + 오디언스 인사이트 수집
-3. **YouTube 플레이리스트 구조화**: "How It Works" / "Mission Stories" / "Sustainability" 시리즈로 구독자 자연 재방문 유도
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### 레이어 3: 전환 (Conversion)
-1. **콘텐츠 게이팅 전략**: 심층 백서·TCO 계산기는 이메일 등록 게이팅 → 영업 리드 자동 CRM 연동
-2. **에어쇼 미팅 사전 예약 시스템**: 웹사이트 통합 캘린더로 에어쇼 전 VIP 미팅 슬롯 사전 확보
-3. **구매 결정자 대상 개인화 뉴스레터**: 세그먼트별(방산/민항/투자자) 월간 큐레이션 이메일 — 수주 소식·기술 업데이트·IR 이슈 맞춤 제공
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+
+---
+
+## 5. Crisis Response Protocol
+
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+RTX Corporation's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+RTX Corporation's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+RTX Corporation's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

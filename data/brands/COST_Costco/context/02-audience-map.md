@@ -1,120 +1,84 @@
-# 02 오디언스 맵 — Costco Wholesale (COST)
+# 02. Audience Map — Costco (COST)
 
-## 타겟 오디언스 개요
-
-Costco의 회원 기반은 **중산층 가구** 중심이나, 실제로는 소득 스펙트럼이 넓다. 핵심은 "가성비를 아는 현명한 소비자"라는 자기 정체성이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 알뜰한 가족 부양자
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 김민준 (44세, 수원 거주)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 중견기업 과장, 맞벌이 가구 |
-| 가구 구성 | 배우자 + 자녀 2명 (초등학생) |
-| 연간 소득 | 7,500만 원 (추정) |
-| Costco 방문 빈도 | 월 2~3회 |
-| 회원권 등급 | Executive (연 11만 원) (공식) |
-| 주요 구매 품목 | 휴지·세제 등 생필품, 냉동식품, 간식류, 타이어 |
-
-**심리 프로파일**
-- 가족을 위한 지출에 죄책감 없이 소비하고 싶은 욕구
-- "내가 현명한 가장"이라는 자기 이미지 강화
-- 대형 카트에 쌓이는 물건이 주는 성취감
-- 재구매 주기가 긴 생필품은 대용량으로 한 번에 해결하고 싶음
-
-**불편 포인트**
-- 주차장 혼잡 및 대기 시간
-- 대용량 구매 후 보관 공간 부족
-- 온라인 주문의 배송비 및 복잡한 UI (추정)
-
-**Costco와의 접점**
-- 주말 가족 나들이 코스로 Costco 방문 (쇼핑 + 푸드코트)
-- 카카오톡 채널 또는 지인 추천으로 핫딜 정보 수집
-- Kirkland Signature에 대한 강한 신뢰감 보유
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in consumer staples merchandise retail. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Costco's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Costco's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 가성비 추구 1인 가구 직장인
+## Core Personas
 
-### 페르소나: 이서연 (29세, 서울 마포구 거주)
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | IT 스타트업 마케터 |
-| 가구 구성 | 1인 |
-| 연간 소득 | 4,200만 원 (추정) |
-| Costco 방문 빈도 | 월 1회 (지인 회원권 동반) |
-| 회원권 등급 | 비회원 → 지인 동반 |
-| 주요 구매 품목 | 와인, 냉동 피자, 견과류, 화장품 샘플 사이즈 |
-
-**심리 프로파일**
-- SNS에서 "Costco 핫템" 정보를 적극 소비
-- 대용량이 부담스럽지만 단위 가격의 합리성에 설득됨
-- 푸드코트 핫도그+음료 $1.50 콤보에 강한 브랜드 친밀감 보유
-- 연회비 대비 혜택이 불분명하다는 인식으로 가입 주저
-
-**불편 포인트**
-- 혼자 대용량 소비 어려움 → 지인과 나눔 구매
-- 회원가입 진입 장벽 (연회비 선결제)
-- 매장 내 온라인 픽업 동선 불편 (추정)
-
-**Costco와의 접점**
-- 인스타그램·틱톡 "코스트코 꿀템" 콘텐츠
-- 지인 회원과 동반 방문 후 충성 고객 전환 가능성 높음
-- Costco 자체 앱보다 네이버 블로그 리뷰 신뢰
+- **Age / Occupation**: 42, VP-level or director in a Costco customer organization
+- **Core pain**: Needs reliable consumer staples merchandise retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Costco selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 소규모 자영업자 / 소호 오너
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 박철수 (51세, 인천 거주)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 카페 운영 (직원 3명) |
-| 가구 구성 | 배우자 + 성인 자녀 1명 |
-| 연간 소득 | 6,000만 원 (사업 수익 기준, 추정) |
-| Costco 방문 빈도 | 주 1~2회 (사업용 + 개인용) |
-| 회원권 등급 | Business Executive |
-| 주요 구매 품목 | 원두 대용량, 유제품, 종이 포장재, 청소용품 |
-
-**심리 프로파일**
-- Costco = 소규모 B2B 조달처로 인식
-- 대형 마트 대비 단위 가격 절감이 사업 수익성에 직결
-- 식재료 품질 안정성이 최우선 (납품처 신뢰)
-- 개인 구매와 사업용 구매를 같은 방문에 병행
-
-**불편 포인트**
-- Business 회원 전용 혜택이 한국 시장에서 불분명 (추정)
-- 대용량 재고 관리 부담
-- 특정 카테고리 한국 미출시 (수입 식재료 등)
-
-**Costco와의 접점**
-- 자영업자 커뮤니티(카페24 카페, 소상공인 포럼) 내 구매 팁 공유
-- 정기 방문으로 특정 직원과 신뢰 관계 형성 (추정)
-- 미국 본사 웹사이트 직구 비교 정보 탐색 (추정)
+- **Age / Occupation**: 35, technical professional who interacts with Costco's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Costco selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 | 구매빈도 | 객단가 | 회원 유지율 |
-|----------|------|----------|--------|------------|
-| 가족 가구 (3~5인) | 최대 | 높음 | 중상 | 매우 높음 |
-| DINK (맞벌이 무자녀) | 중 | 중 | 높음 | 높음 |
-| 1인 가구 | 성장 | 낮음 | 낮음 | 낮음 |
-| 소규모 사업자 | 중 | 매우 높음 | 최고 | 높음 |
-| 시니어 (60+) | 중 | 중 | 중 | 매우 높음 |
+- **Age / Occupation**: 38, consumer who interacts with Costco's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Costco selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 회원 유지 동인 (추정)
+## Purchase Journey — AARRR Framework
 
-1. **Executive 리워드 2% 캐시백** — 연회비 이상의 캐시백 수령 시 논리적 탈퇴 불가
-2. **Kirkland 품질 신뢰** — 대체 불가 자체 브랜드 의존도
-3. **푸드코트 의례** — 방문마다 반복되는 저가 핫도그·피자 경험
-4. **보물찾기 심리** — 매달 바뀌는 한정 입고 품목에 대한 기대감
-5. **100% 환불 정책** — 구매 리스크 제로 인식
+| Stage | Costco's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Costco total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Costco Is Not For
+
+| Type | Characteristics | Why Costco Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Costco's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Costco's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Costco's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Costco's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Costco's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

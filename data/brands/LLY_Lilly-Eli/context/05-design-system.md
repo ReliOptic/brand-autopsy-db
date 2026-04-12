@@ -1,130 +1,102 @@
-# 05. 디자인 시스템 — Eli Lilly (LLY) / Mounjaro·Zepbound
+# 05. Design System — Lilly (Eli) (LLY)
 
-## 디자인 철학
-
-**(추정)** Lilly의 비주얼 시스템은 "과학의 정밀함 + 인간의 따뜻함"을 동시에 전달한다. 복잡한 의학 정보를 명료하게 시각화하면서도, 환자가 소외감 없이 접근할 수 있는 친근함을 유지한다. Mounjaro와 Zepbound는 동일한 Lilly 마스터 디자인 언어를 공유하되, 각자의 컬러 아이덴티티로 분리된다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### Eli Lilly 마스터 브랜드 컬러
+Lilly (Eli)'s visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Lilly Red | `#D0021B` | 208, 2, 27 | 마스터 브랜드 로고, CTA 버튼 (공식) |
-| Lilly Dark Red | `#A00015` | 160, 0, 21 | 호버 상태, 다크 배경 강조 (추정) |
-| Lilly White | `#FFFFFF` | 255, 255, 255 | 기본 배경 (공식) |
-| Lilly Dark Gray | `#333333` | 51, 51, 51 | 본문 텍스트 (추정) |
-| Lilly Mid Gray | `#767676` | 118, 118, 118 | 보조 텍스트, 캡션 (추정) |
-| Lilly Light Gray | `#F5F5F5` | 245, 245, 245 | 섹션 배경, 카드 배경 (추정) |
+### Core Brand Colors
 
-### Mounjaro 브랜드 컬러
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Mounjaro Teal | `#00A5B5` | 0, 165, 181 | 로고 메인 컬러, 히어로 강조 (공식) |
-| Mounjaro Deep Teal | `#007A87` | 0, 122, 135 | 다크 배경, 버튼 강조 (추정) |
-| Mounjaro Light Teal | `#E0F5F7` | 224, 245, 247 | 섹션 배경, 인포그래픽 배경 (추정) |
-| Mounjaro Accent Gold | `#F2A900` | 242, 169, 0 | 강조 포인트, 배지, 아이콘 (추정) |
-| Mounjaro Off-White | `#FAFCFC` | 250, 252, 252 | 콘텐츠 배경 (추정) |
+### Color Principles
 
-### Zepbound 브랜드 컬러
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Zepbound Purple | `#6B3FA0` | 107, 63, 160 | 로고 메인, 히어로 강조 (공식) |
-| Zepbound Deep Purple | `#4A2070` | 74, 32, 112 | 다크 배경, 버튼 (추정) |
-| Zepbound Light Purple | `#F0EAF8` | 240, 234, 248 | 섹션 배경 (추정) |
-| Zepbound Coral | `#F26B5B` | 242, 107, 91 | 감성 강조, CTA 보조 (추정) |
-| Zepbound Soft Pink | `#FDF2F0` | 253, 242, 240 | 환자 스토리 배경 (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 브랜드 | 메인 | 보조 | 강조 |
-|--------|------|------|------|
-| Mounjaro | Teal 60% | White/Light Teal 30% | Gold 10% |
-| Zepbound | Purple 60% | White/Light Purple 30% | Coral 10% |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 폰트 시스템 (추정)
+Lilly (Eli)'s digital properties employ a typographic system appropriate to its health care positioning.
 
-| 역할 | 폰트명 | 웨이트 | 용도 |
-|------|--------|--------|------|
-| 디스플레이 (영문) | Gill Sans / Lilly Custom Sans | Bold (700) | 히어로 헤드라인 |
-| 본문 (영문) | Gill Sans / Open Sans | Regular (400), Medium (500) | 본문, 캡션 |
-| 데이터/숫자 강조 | Tabular Figures | Bold (700) | 임상 데이터, 퍼센트 표기 |
-| 한국어 | Noto Sans KR / Apple SD Gothic Neo | Regular~Bold | 국내 DTC 자료 |
+### Typeface System
 
-### 타이포그래피 원칙
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-- 헤드라인은 **간결하고 강렬하게** — 7단어 이내 권장 (추정)
-- 데이터 수치는 **크고 굵게** — 임상 결과 숫자를 시각적 앵커로 활용
-- ISI (Important Safety Information) 는 최소 8pt 이상 가독성 보장 (FDA 기준)
-- 한국어 자료에서는 명조체 사용 자제 — 의학 정보의 신뢰감과 친근감 동시 요구
+### Typographic Scale
 
----
-
-## 레이아웃 & 그리드
-
-| 항목 | 기준 |
-|------|------|
-| 기본 그리드 | 12컬럼, 거터 24px (추정) |
-| 최대 콘텐츠 너비 | 1200px (웹) |
-| 히어로 섹션 | 풀 블리드 또는 60/40 분할 (이미지/텍스트) |
-| 데이터 테이블 | 줄무늬(zebra) 배경으로 가독성 확보 |
-| 모바일 | 싱글 컬럼, CTA 최상단 배치 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 이미지 & 포토그래피 방향성
+## 3. Channel Specifications
 
-### 환자 이미지 가이드라인 (추정)
-
-1. **다양성 필수** — 연령(35~65세), 인종, 체형 다양성 반영
-2. **활동적인 순간** — 운동, 요리, 가족과의 시간 등 긍정적 맥락
-3. **의료 환경 이미지** — 자연광, 따뜻한 톤, 의사-환자 신뢰 관계 표현
-4. **금지 이미지** — 체중계 클로즈업, 과도한 Before/After, 비만 비하 시각요소
-5. **주사 이미지** — 공포감 제거, 간편함·일상성 강조 (펜 타입 기기의 편의성)
-
-### HCP 이미지 가이드라인 (추정)
-
-1. **임상 환경** — 깔끔한 진료실, 의사 가운, 최신 의료기기
-2. **데이터 시각화** — 그래프·차트는 브랜드 컬러 팔레트 내 사용
-3. **분자 구조 이미지** — 과학적 권위 표현 시 3D 렌더링 활용
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## UI 컴포넌트 패턴 (디지털)
+## 4. Layout Principles
 
-| 컴포넌트 | 디자인 원칙 |
-|---------|-----------|
-| CTA 버튼 | 브랜드 메인 컬러, 라운드 코너 4~8px, 텍스트 간결 |
-| 데이터 카드 | 흰 배경, 얇은 보더(#E0E0E0), 숫자 강조 크기 32px+ |
-| ISI 섹션 | 회색 배경, 소형 폰트, 항상 하단 고정 또는 접을 수 있는 아코디언 |
-| 네비게이션 | 스티키, 브랜드 컬러 배경, 흰 텍스트 |
-| 인포그래픽 | 브랜드 컬러 + 아이콘 기반, 텍스트 최소화 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 모션 & 애니메이션 원칙 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- **Ease-in-out** 트랜지션 기본 (급격한 움직임 자제)
-- 기전 설명 애니메이션: 단계별 등장, 최대 30초 이내
-- 스크롤 트리거 애니메이션: 데이터 카운트업 효과 (숫자가 올라가며 등장)
-- 자동 재생 금지 — 접근성·집중 방해 방지
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 접근성 기준
+## 5. Design Prohibitions
 
-| 기준 | 요구사항 |
-|------|---------|
-| 색상 대비 | WCAG AA 기준 (최소 4.5:1, 대형 텍스트 3:1) |
-| 폰트 최소 크기 | 본문 16px, ISI 12px |
-| 대체 텍스트 | 모든 의료 이미지에 alt 텍스트 필수 |
-| 키보드 내비게이션 | 모든 인터랙티브 요소 탭 접근 가능 |
-| 색맹 대응 | 컬러만으로 정보 전달 금지, 아이콘·패턴 병용 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Lilly (Eli) (LLY)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

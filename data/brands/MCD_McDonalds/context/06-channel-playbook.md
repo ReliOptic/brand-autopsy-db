@@ -1,143 +1,141 @@
-# 06. 채널 플레이북 — McDonald's (MCD)
+# 06. Channel Playbook — McDonald's (MCD)
 
-> 섹터: Consumer Discretionary — Restaurants
-> 업데이트: 2026-04-12
-
----
-
-## 1. 채널 전략 개요
-
-McDonald's의 채널 전략은 **"디지털 퍼스트, 옴니채널 실행"**이다. 앱을 중심으로 모든 오프라인·온라인 접점을 연결하며, 로열티 프로그램(MyMcDonald's Rewards)이 채널 통합의 허브 역할을 한다. (공식)
-
-**채널 우선순위 (추정):**
-1. 자사 앱 (최고 우선순위 — 데이터·로열티 통제권)
-2. 드라이브스루 (매출 비중 최대 채널)
-3. 매장 키오스크
-4. 배달앱 (쿠팡이츠, 배달의민족)
-5. SNS (브랜드 인지도·화제성)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널별 세부 전략
+## 1. Channel Strategy Matrix
 
-### 2-1. 자사 앱 (McDonald's Korea App)
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 기능 | 모바일 주문, 쿠폰, 로열티 포인트, 매장 찾기 |
-| 푸시 알림 전략 | 쿠폰 만료 임박, 신메뉴 출시, 점심시간 타이밍 알림 |
-| 개인화 수준 | 주문 이력 기반 추천 (추정) |
-| 목표 MAU | 국내 500만+ (추정) |
-| 전환 레버 | 앱 전용 할인 (앱에서만 받을 수 있는 쿠폰) |
-| KPI | MAU, 쿠폰 사용률, 재주문율, 앱 주문 비중 |
-
-**운영 원칙:**
-- 앱 전용 혜택을 오프라인 대비 최소 10% 이상 유리하게 설계 (추정)
-- 게이미피케이션 요소 (스탬프·배지)로 재방문 동기 부여
-- 개인정보 수집 범위 최소화 + 투명한 동의 프로세스
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2-2. 드라이브스루 (Drive-Thru)
+## 2. Channel Tone Variations
 
-| 항목 | 내용 |
-|------|------|
-| 전략적 중요도 | 국내 QSR 중 드라이브스루 매장 수 최다 (추정) |
-| 평균 대기 목표 | 주문~수령 90초 이하 (추정) |
-| 디지털 통합 | 모바일 선주문 → 드라이브스루 픽업 |
-| AI 활용 | 주문 예측 AI, 날씨 기반 메뉴 추천 (일부 글로벌 매장) (추정) |
-| 매출 기여 | 전체 매출의 40~50% (추정) |
-| 한국 특이사항 | 교외·로드사이드 입지 집중 → 차량 의존도 높은 가족 세그먼트 주력 채널 |
+McDonald's's core voice adjusts by channel while maintaining brand coherence.
 
----
-
-### 2-3. 매장 키오스크
-
-| 항목 | 내용 |
-|------|------|
-| 도입 현황 | 전 매장 키오스크 설치 완료 (공식, 2019년 이후) |
-| UI 언어 | 한국어 기본, 영어·중국어·일본어 전환 지원 (추정) |
-| 업셀 기능 | "함께 주문하면 어떨까요?" 자동 추천 (추정) |
-| 결제 방식 | 카드, 카카오페이, 네이버페이, 삼성페이, 현금 |
-| 접근성 | 휠체어 접근 가능 높이 설계, 시니어 모드 UI (추정) |
-| KPI | 키오스크 주문 비중, 업셀 성공률, 대기 시간 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 2-4. 배달 채널 (배달의민족·쿠팡이츠)
+## 3. Cross-Channel Synergy Map
 
-| 항목 | 내용 |
-|------|------|
-| 입점 플랫폼 | 배달의민족, 쿠팡이츠 (공식) |
-| 배달 전용 전략 | 배달 전용 할인, 플랫폼 독점 메뉴 일부 운영 (추정) |
-| 리스크 | 배달비 부담, 음식 품질 저하 (눅눅한 감자) |
-| 대응책 | 배달 전용 포장재, "배달 최적화 메뉴" 큐레이션 (추정) |
-| 배달 매출 비중 | 전체의 15~20% (추정, 코로나 이후 상승) |
-| 수수료 구조 | 플랫폼 수수료 10~20% (업계 일반 기준) (추정) |
+### Route A — Product/Service Launch Sequence
 
----
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-### 2-5. SNS 채널별 전략
+### Route B — Thought Leadership Pipeline
 
-| 채널 | 팔로워 규모 (추정) | 콘텐츠 믹스 | 게시 빈도 | 핵심 KPI |
-|------|----------------|-----------|---------|---------|
-| 인스타그램 | 국내 50만+ | 제품 사진 60%, 이벤트 25%, UGC 15% | 주 3~4회 | 도달, 저장, 팔로워 증가 |
-| 페이스북 | 국내 100만+ | 프로모션 50%, 이벤트 30%, 스토리 20% | 주 5회 | 링크 클릭, 공유, 앱 설치 |
-| 유튜브 | 국내 30만+ | TV 광고, 메뉴 소개, 브랜드 스토리 | 월 2~4회 | 조회수, 시청 시간, 구독자 |
-| X (트위터) | 국내 5만+ | 밈 대응, 실시간 이벤트, 고객 소통 | 수시 | 멘션, RT, 트렌딩 |
-| 카카오톡 채널 | 국내 200만+ | 쿠폰, 신메뉴 알림, 이벤트 | 주 2~3회 | 메시지 오픈율, 쿠폰 사용 |
-| 틱톡 | 국내 10만+ | 숏폼 제품, 챌린지, 직원 POV | 주 2~3회 | 조회수, 공유, 챌린지 참여 |
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
----
+### Route C — Earnings and Financial Communications
 
-## 3. 미디어 믹스 & 예산 배분 (추정)
-
-| 채널 유형 | 예산 비중 (추정) | 목적 |
-|---------|--------------|------|
-| TV·OOH (옥외광고) | 35% | 브랜드 인지도, 대규모 캠페인 |
-| 디지털 (소셜+검색+배너) | 40% | 퍼포먼스, 전환, 리타겟팅 |
-| 앱·CRM (쿠폰·푸시) | 15% | 재방문·로열티 |
-| 인플루언서·PR | 10% | 화제성·신뢰도 |
-
----
-
-## 4. 로열티 프로그램: MyMcDonald's Rewards
-
-| 항목 | 내용 |
-|------|------|
-| 운영 방식 | 구매금액 기반 포인트 적립 (공식) |
-| 리워드 구조 | 1,500원당 100포인트, 1,500포인트 = 무료 음료 (추정) |
-| 가입 채널 | 앱 전용 |
-| 한국 가입자 수 | 200만~400만 (추정) |
-| 핵심 효과 | 재방문 주기 단축, 앱 MAU 증가, 개인화 데이터 확보 |
-| 개선 기회 | 티어 시스템 도입 (골드·플래티넘 등) 미비 (추정) |
-
----
-
-## 5. 위기 커뮤니케이션 채널 프로토콜 (추정)
-
-| 위기 유형 | 1차 대응 채널 | 시간 기준 | 메시지 톤 |
-|---------|-----------|---------|---------|
-| 식품 안전 이슈 | 공식 보도자료 + 홈페이지 | 2시간 이내 | 사실 중심, 사과, 조치 명시 |
-| SNS 부정 바이럴 | X(트위터) + 인스타 스토리 | 30분 이내 모니터링 | 공감적, 비방어적 |
-| 가격 인상 논란 | 카카오톡 공식 채널 + 앱 공지 | 당일 | 가치 중심 설명 |
-| 직원 관련 이슈 | 내부 채널 우선 + 외부 성명 | 24시간 이내 | 책임감 있고 진정성 있게 |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## 6. Steal Sheet — 채널 플레이북 레이어별 핵심 3가지
+## 4. Channel-Specific Prohibitions
 
-### Layer A: 앱 & 디지털 로열티
-1. **앱 전용 쿠폰이 재방문율의 핵심 드라이버** — 앱 미사용 고객 대비 앱 사용 고객의 방문 빈도가 2배 이상 (추정)
-2. **푸시 알림 최적 시간:** 평일 11시 30분 (점심 직전), 금요일 오후 5시 (주말 계획 시점) — 오픈율 최대 (추정)
-3. **로열티 티어 시스템 부재가 현재 최대 개선 기회** — 버거킹 Royal Perks 대비 경쟁 열위 구간 (추정)
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-### Layer B: 오프라인 & 드라이브스루
-1. **드라이브스루 속도 10초 단축 시 시간당 처리량 15% 증가** — 운영 효율과 고객 만족의 가장 직접적 연결고리 (추정)
-2. **키오스크 업셀 알고리즘 개선**(날씨·시간대 연동)으로 객단가 평균 8~12% 상승 가능 (추정)
-3. **드라이브스루 AI 주문 인식 시스템** 도입 시 주문 에러율 30% 감소 및 속도 개선 — 글로벌 파일럿 결과 기반 (추정)
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### Layer C: 배달 & 신규 채널
-1. **배달 전용 "크리스피 프라이 보장" 포장 혁신**이 배달 세그먼트 재주문율 결정적 레버 (추정)
-2. **틱톡 챌린지 캠페인은 투자 대비 도달 효율이 TV 광고의 5~8배** — Z세대 신규 고객 유입 최적 채널 (추정)
-3. **카카오톡 채널 메시지의 쿠폰 오픈율이 이메일 대비 10배** — 한국 시장에서 카카오 채널이 사실상 CRM의 핵심 (추정)
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+
+---
+
+## 5. Crisis Response Protocol
+
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+McDonald's's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+McDonald's's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+McDonald's's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

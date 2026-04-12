@@ -1,129 +1,84 @@
-# 02 오디언스 맵 — Jabil (JBL)
+# 02. Audience Map — Jabil (JBL)
 
-> 분석 기준일: 2026-04-12 | 데이터 출처: 공개 정보 기반 (추정)
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-[1차] C-레벨 의사결정자 (CPO, COO, CTO)
-      ↓
-[2차] 공급망·운영 관리자 (VP of Supply Chain, Operations Director)
-      ↓
-[3차] 엔지니어링·개발 팀 (Product Engineer, Hardware Architect)
-      ↓
-[4차] 조달·구매 담당자 (Procurement Manager, Sourcing Specialist)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 박준혁 — 전략적 의사결정자
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | CPO (Chief Product Officer), 대형 전자기기 제조사 |
-| 연령 | 48세 |
-| 경력 | 25년, 하드웨어 엔지니어링 → 제품 전략 |
-| 회사 규모 | 연매출 5조 원 이상 글로벌 기업 |
-| 위치 | 서울 / 싱가포르 (이중 거점) |
-
-**핵심 Pain Points**
-- 지정학적 리스크로 인한 단일 공급망 취약성
-- 제품 출시 일정 지연 → 시장 기회 상실
-- ESG 규제 강화로 인한 공급망 투명성 요구
-
-**핵심 Goals**
-- 멀티-리전 제조 역량 확보
-- Time-to-Market 단축
-- 규정 준수 가능한 공급망 파트너 확보
-
-**Jabil과의 접점**
-- 업계 콘퍼런스(CES, Hannover Messe) 참석 시 접촉
-- LinkedIn 사고 리더십 콘텐츠 소비
-- RFP 프로세스를 통한 공식 평가
-
-**메시지 키워드**: 전략적 파트너십, 리스크 분산, 확장성, 검증된 실적
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electronic manufacturing services and adjacent industries. (T4_INFERRED from Jabil's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Jabil's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이수민 — 운영 최적화 전문가
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 역할 | VP of Supply Chain, 의료기기 스타트업 |
-| 연령 | 37세 |
-| 경력 | 12년, 물류·SCM 전문 |
-| 회사 규모 | Series C, 직원 500명 |
-| 위치 | 보스턴 |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 Pain Points**
-- FDA 규제 대응을 위한 제조 파트너 적합성 검증
-- 소량 다품종 생산 시 비용 효율 확보
-- 급격한 수요 변동 대응 유연성 부족
-
-**핵심 Goals**
-- 규제 준수 제조 역량(ISO 13485, FDA 21 CFR) 확보
-- NPI(신제품 도입) 프로세스 가속화
-- 재고 최소화 + 납기 준수
-
-**Jabil과의 접점**
-- 산업별 백서 및 케이스 스터디 검색
-- Jabil Healthcare 전문 페이지 탐색
-- 기술 웨비나 참여
-
-**메시지 키워드**: 규제 준수, 유연한 제조, 의료 전문성, NPI 지원
+- **Age / Occupation**: 42, VP-level or director in a Jabil customer organization
+- **Core pain**: Needs reliable electronic manufacturing services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Jabil selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 김태영 — 기술 혁신 주도자
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 역할 | Hardware Architect, 자율주행 스타트업 |
-| 연령 | 31세 |
-| 경력 | 7년, PCBA 설계 → 시스템 통합 |
-| 회사 규모 | Series A, 직원 80명 |
-| 위치 | 산호세 |
-
-**핵심 Pain Points**
-- 프로토타입 → 양산 전환 시 설계 무결성 유지
-- 고난이도 소재·공정(LiDAR 모듈, 고밀도 PCBA) 제조 파트너 부재
-- 빠른 이터레이션 사이클 지원 가능한 파트너 필요
-
-**핵심 Goals**
-- DFM(Design for Manufacturability) 조기 피드백
-- 파일럿 → 대량 생산까지 원스톱 지원
-- IP 보호 신뢰 가능한 파트너십
-
-**Jabil과의 접점**
-- GitHub·기술 블로그에서 제조 인사이트 소비
-- Jabil Engineering 포털 탐색
-- 엔지니어 레퍼런스 기반 추천
-
-**메시지 키워드**: DFM, 프로토타입 지원, 기술 전문성, IP 보호, 신속한 스케일업
+- **Age / Occupation**: 35, technical professional who interacts with Jabil's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Jabil selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 의사결정 권한 | 정보 탐색 채널 | 핵심 관심사 | 구매 사이클 |
-|----------|--------------|---------------|------------|------------|
-| C-레벨 | 최종 승인 | 업계 리포트, 경영진 네트워크 | ROI, 리스크, 전략적 적합성 | 12~24개월 |
-| VP/Director | 평가·추천 | 웹사이트, 백서, 웨비나 | 운영 효율, 규제 준수, 유연성 | 6~12개월 |
-| 엔지니어링 | 기술 검증 | 기술 문서, 포럼, 레퍼런스 | 기술 역량, DFM, 납기 | 3~6개월 |
-| 조달/구매 | 공급사 선정 | RFP, 가격 비교, 인증 현황 | 비용, 납기, 인증 | 3~6개월 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Jabil's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Jabil selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 4. 구매 여정 단계별 콘텐츠 니즈
+## Purchase Journey — AARRR Framework
 
-| 단계 | 페르소나 활성도 | 필요 콘텐츠 유형 |
-|------|---------------|----------------|
-| 인식(Awareness) | C-레벨 > VP | 사고 리더십, 업계 트렌드 리포트 |
-| 고려(Consideration) | VP > 엔지니어 | 케이스 스터디, 역량 백서, 웨비나 |
-| 평가(Evaluation) | 엔지니어 > 조달 | 기술 사양서, 인증 문서, RFP 대응 |
-| 결정(Decision) | C-레벨 + 조달 | ROI 계산기, 레퍼런스 고객, 계약 조건 |
-| 유지(Retention) | VP + 엔지니어 | 성과 리포트, 신기술 업데이트, QBR |
+| Stage | Jabil's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Jabil total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Jabil Is Not For
+
+| Type | Characteristics | Why Jabil Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Jabil's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Jabil's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Jabil's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Jabil's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Jabil's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

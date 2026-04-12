@@ -1,97 +1,84 @@
-# 02. 오디언스 맵 — 팔란티어 테크놀로지스 (Palantir Technologies)
+# 02. Audience Map — Palantir Technologies (PLTR)
 
-## 오디언스 개요
-
-팔란티어의 오디언스는 단일 소비자가 아닌 복수의 의사결정 레이어로 구성된다. 최종 구매 승인자(정부 CIO·기업 CFO), 플랫폼 실사용자(운영 분석가·데이터 팀), 외부 지지자(개인 투자자·방위산업 생태계)가 각기 다른 메시지를 요구한다. 팔란티어는 이 세 레이어를 동시에 관리하는 다층 커뮤니케이션 구조를 운용한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1 — 국방·정보기관 의사결정자
+## Ideal Customer Profile (ICP)
 
-**이름:** 박준혁 (가상)
-**직함:** 국방부 정보화기획관 / 미 육군 G-6 상당 포지션
-**나이:** 48세
-**배경:** 20년 이상 공공 조달 및 정보시스템 운영 경력. 예산 승인권 보유. 기술보다 임무 완수 결과에 집중하며, 실패 시 정치적 책임을 지는 구조에 처해 있다.
-
-**핵심 목표:**
-- 다수 정보 소스를 통합해 실시간 상황 인식(Situational Awareness) 확보
-- 감사·보안 요건을 충족하면서 배포 속도 유지
-- 벤더 종속 리스크 최소화
-
-**핵심 불안:**
-- "이 플랫폼이 실전에서 실패하면 내 경력이 끝난다."
-- "기술 팀은 쓸 수 있는데 감사관이 이해하지 못하면 예산이 잘린다."
-- "민감 데이터가 외부 클라우드에 노출되면 보안 침해로 처리된다."
-
-**Palantir 접점:** Gotham 플랫폼 도입 제안서, 현장 배포 성공 사례 발표, 국방부 계약 갱신 협상
-
-**팔란티어가 이 페르소나에게 하는 말:**
-> "우리는 20년간 CIA·NSA·미 육군과 함께 실전에서 검증된 플랫폼을 운용해왔습니다. 감사 가능하고, 분류 환경에서 작동하며, 운영자가 AI 권고를 실시간으로 실행하는 구조입니다." (공식 정부 솔루션 페이지 톤 기반)
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in application software and adjacent industries. (T4_INFERRED from Palantir Technologies's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Palantir Technologies's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 대기업 최고데이터책임자 (CDO / Chief Data Officer)
+## Core Personas
 
-**이름:** 이서연 (가상)
-**직함:** 글로벌 제조·에너지 기업 CDO
-**나이:** 42세
-**배경:** McKinsey·BCG 출신 또는 데이터 엔지니어링 배경의 C-레벨. 디지털 전환 예산 결정권 보유. 이사회에 ROI를 증명해야 하는 압박 하에 있다.
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표:**
-- 공급망·생산·물류 데이터를 단일 운영 뷰로 통합
-- AI 도입 속도를 높이되 데이터 거버넌스 리스크를 통제
-- "AI 세탁"이 아닌 실질적 운영 개선 수치 확보
-
-**핵심 불안:**
-- "Databricks·Snowflake로 수억 원을 썼는데 아직 BI 보고서밖에 없다."
-- "현장 운영자가 도구를 안 쓰면 AI 투자가 전부 낭비된다."
-- "경쟁사가 AI로 의사결정 속도를 높이는 동안 우리는 데이터 정제만 하고 있다."
-
-**Palantir 접점:** Foundry 플랫폼 도입 워크숍, AIPCon 발표 영상, 산업별 ROI 케이스스터디
-
-**팔란티어가 이 페르소나에게 하는 말:**
-> "Foundry의 온톨로지는 데이터 레이크가 아닙니다. 운영 현실을 디지털로 복제해 운영자가 AI 권고를 버튼 하나로 실행하는 레이어입니다. 배포 후 90일 내 운영 개선 지표가 나옵니다." (공식 Foundry 제품 페이지 및 고객 사례 기반, 추정 포함)
+- **Age / Occupation**: 42, VP-level or director in a Palantir Technologies customer organization
+- **Core pain**: Needs reliable application software solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Palantir Technologies selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 개인 투자자 / 리테일 투자자 (PLTR 주주)
+### Persona 2 — Technical Specialist / End User
 
-**이름:** 김민준 (가상)
-**직함:** 30대 직장인, PLTR 장기 보유 개인 투자자
-**나이:** 33세
-**배경:** AI·방위산업 테마 투자에 관심. Reddit(r/PLTR), X(구 트위터) 팔란티어 커뮤니티 활동. Alex Karp의 주주서한과 인터뷰를 정기적으로 추적한다.
-
-**핵심 목표:**
-- Palantir가 AI 시대의 핵심 인프라 기업이 될 것이라는 확신 유지
-- AIP·USAID 계약·정부 수주 뉴스로 보유 근거 강화
-- 기관 투자자보다 앞선 서사 이해로 심리적 우위 확보
-
-**핵심 불안:**
-- "주가가 PER 200배인데 이 밸류에이션을 정당화할 성장이 나오는가?"
-- "정부 계약 의존도가 너무 높아 민간 성장이 느리면 어쩌나?"
-- "경쟁사(Palantir를 모방하는 AI 스타트업)가 빠르게 따라오고 있다."
-
-**Palantir 접점:** Alex Karp 주주서한, CNBC·Bloomberg 인터뷰, X(트위터) 공식 계정, AIPCon 유튜브 라이브
-
-**팔란티어가 이 페르소나에게 하는 말:**
-> "우리는 미국과 동맹국이 이기기를 원합니다. 그것이 우리의 사업이자 사명입니다. 단기 분기 실적이 아니라 문명의 방향에 베팅하십시오." (Alex Karp 주주서한 톤 기반, 추정 포함)
+- **Age / Occupation**: 35, technical professional who interacts with Palantir Technologies's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Palantir Technologies selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 페르소나 | 주요 채널 | 핵심 메시지 | 전환 장벽 | 콘텐츠 포맷 |
-|----------|-----------|------------|-----------|------------|
-| 국방·정보기관 의사결정자 | 직접 영업·RFP·컨퍼런스 | 실전 검증·보안 컴플라이언스 | 조달 절차·보안 인증 | 케이스스터디·기술 백서 |
-| 대기업 CDO | AIPCon·Foundry 워크숍·파트너 | 온톨로지·운영 ROI·배포 속도 | 기존 데이터 스택 전환 비용 | 라이브 데모·ROI 리포트 |
-| 개인 투자자 | X·유튜브·주주서한·Reddit | 미션·AI 인프라 지위·성장 서사 | 밸류에이션 신뢰·실적 변동성 | CEO 인터뷰·주주서한·컨퍼런스콜 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Palantir Technologies's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Palantir Technologies selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
+## Purchase Journey — AARRR Framework
 
-1. **"구매자와 사용자를 분리해 각각의 언어로 말하라."** Palantir는 계약 승인자(CIO·장관급)에게 임무·보안·정치적 안전을 이야기하고, 실사용자(분석가·운영자)에게 플랫폼 속도·자율성을 이야기한다. 같은 제품을 두 개의 다른 가치 제안으로 포장한다. → 마케터 적용: B2B 제품은 구매 승인자·실사용자·IT 평가자를 위한 별도 메시지 아키텍처를 설계하고, 각 레이어에 맞는 콘텐츠 포맷을 분리 운용하라.
+| Stage | Palantir Technologies's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Palantir Technologies total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-2. **"팬 커뮤니티를 브랜드 앰배서더 군단으로 활용하라."** PLTR 개인 투자자 커뮤니티(Reddit·X)는 Palantir가 직접 운영하지 않아도 수주 뉴스·CEO 발언을 자발적으로 전파한다 (추정: 팬덤 마케팅 효과). CEO의 강렬한 발언이 커뮤니티의 밈·인용구로 재생산된다. → 적용: CEO·창업자를 브랜드 스피커로 적극 노출하고, 팬이 공유하고 싶어하는 선언적·논쟁적 문장을 의도적으로 설계하라.
+---
 
-3. **"오디언스의 정체성에 베팅하게 만들어라."** PLTR 주주는 단순 투자자가 아니라 '미국·서방 문명의 승리'에 베팅한 사람이라는 정체성을 팔란티어가 부여한다 (Karp 주주서한 기반). 브랜드 충성도가 재무적 이해관계와 이념적 정체성을 동시에 포함한다. → 적용: 제품을 구매하면 '어떤 사람이 되는가'를 서사화하면 이탈률이 낮아지고 자발적 전도가 발생한다.
+## Anti-Persona — Who Palantir Technologies Is Not For
+
+| Type | Characteristics | Why Palantir Technologies Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Palantir Technologies's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Palantir Technologies's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Palantir Technologies's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Palantir Technologies's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Palantir Technologies's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

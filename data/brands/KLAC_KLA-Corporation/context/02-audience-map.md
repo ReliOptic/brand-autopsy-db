@@ -1,101 +1,84 @@
-# 02. 오디언스 맵 — KLA Corporation (KLAC)
+# 02. Audience Map — KLA Corporation (KLAC)
 
-## 타깃 오디언스 개요
-
-KLA의 주요 고객은 글로벌 반도체 제조업체(팹), EDA·소재 파트너사, 그리고 반도체 장비 구매 결정에 관여하는 기술·재무 의사결정자다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 파운드리 공정 엔지니어 — "수율을 지키는 사람"
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 김민준 |
-| 직함 | 수석 공정 제어 엔지니어 |
-| 소속 | 대형 파운드리 (TSMC·삼성전자·SK하이닉스 급) |
-| 나이 | 35–48세 (추정) |
-| 지역 | 한국·대만·미국 오레곤 (추정) |
-
-**핵심 목표**
-- 양산 라인 수율 극대화 (목표 99%+)
-- 결함 조기 검출로 웨이퍼 스크랩 비용 절감
-- 차세대 노드 전환(3nm → 2nm) 시 공정 안정화
-
-**페인 포인트**
-- 새 노드에서 기존 검사 장비가 분해능 한계 도달
-- 다수 장비 벤더의 데이터 파편화로 통합 분석 어려움
-- 공정 이상 발생 시 빠른 원인 추적(Root Cause) 도구 부족
-
-**구매 관여도**: 강력한 기술 평가자·추천자 / 최종 결정권은 VP급 이상
-
-**KLA와의 접점**: 제품 데모, 기술 세미나, 현장 FAE 지원
-
-**메시지 핵심**: "더 빠른 결함 감지 → 더 높은 수율 → 더 낮은 비용"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductor materials & equipment and adjacent industries. (T4_INFERRED from KLA Corporation's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in KLA Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 반도체 장비 구매 VP — "ROI를 증명해야 하는 사람"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | Sarah Chen |
-| 직함 | VP of Equipment Engineering |
-| 소속 | 통합 반도체 기업(IDM) 또는 대형 파운드리 |
-| 나이 | 45–58세 (추정) |
-| 지역 | 미국·일본·유럽 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표**
-- 자본 장비 예산 내 최대 기술 경쟁력 확보
-- 장비 벤더 포트폴리오 간소화 및 통합 지원 체계 구축
-- 경영진에게 투자 수익률(ROI) 명확히 보고
-
-**페인 포인트**
-- 고가 장비 도입 후 실제 수율 개선 효과 측정의 어려움
-- 복수 벤더 관리로 인한 지원·유지보수 복잡성
-- 기술 로드맵 불확실성 (장비 수명 vs. 노드 전환 속도)
-
-**구매 관여도**: 최종 의사결정자 / 예산 승인권 보유
-
-**KLA와의 접점**: 경영진 브리핑, 연간 파트너십 리뷰, 컨퍼런스(SEMICON)
-
-**메시지 핵심**: "검증된 ROI, 단일 벤더 통합 솔루션, 장기 로드맵 파트너십"
+- **Age / Occupation**: 42, VP-level or director in a KLA Corporation customer organization
+- **Core pain**: Needs reliable semiconductor materials & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **KLA Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 반도체 스타트업 CTO — "첫 팹 라인을 세우는 사람"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | Arjun Mehta |
-| 직함 | CTO / Co-founder |
-| 소속 | 차세대 칩 스타트업 (AI 가속기·포토닉스 등) |
-| 나이 | 32–42세 (추정) |
-| 지역 | 미국 실리콘밸리·이스라엘·인도 (추정) |
-
-**핵심 목표**
-- 소량 다품종 생산 라인에서 결함 없이 첫 테이프아웃 성공
-- 투자자에게 제조 가능성(Manufacturability) 증명
-- 대형 파운드리 파트너와의 기술 호환성 확보
-
-**페인 포인트**
-- KLA 장비는 대형 팹 기준 설계 → 소규모 운영에 진입 장벽 높음
-- 내부 공정 제어 전문 인력 부족
-- 계측 데이터를 빠르게 해석할 분석 역량 미비
-
-**구매 관여도**: 기술 평가 + 최종 결정 모두 담당 / 예산 민감
-
-**KLA와의 접점**: 기술 블로그, 스타트업 파트너 프로그램, 온라인 세미나
-
-**메시지 핵심**: "전문가 수준의 공정 제어를 소규모 팀도 활용 가능하게"
+- **Age / Occupation**: 35, technical professional who interacts with KLA Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **KLA Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 우선순위 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 매출 기여도 | 성장 잠재력 | 메시지 복잡도 |
-|----------|------------|------------|--------------|
-| 대형 파운드리 (TSMC·삼성) | 최고 (추정) | 중 | 고 |
-| IDM (인텔·마이크론) | 높음 (추정) | 중 | 고 |
-| 후공정(Advanced Packaging) | 중 (추정) | 최고 | 중 |
-| 반도체 스타트업 | 낮음 (추정) | 높음 | 중 |
-| 정부·연구기관 | 낮음 (추정) | 중 | 저 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate KLA Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
+- **KLA Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | KLA Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | KLA Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who KLA Corporation Is Not For
+
+| Type | Characteristics | Why KLA Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | KLA Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | KLA Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | KLA Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+KLA Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+KLA Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

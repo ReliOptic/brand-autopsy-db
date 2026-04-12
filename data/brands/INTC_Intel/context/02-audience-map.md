@@ -1,118 +1,84 @@
-# 02. 오디언스 맵 — 인텔 (Intel Corporation)
+# 02. Audience Map — Intel (INTC)
 
-## ICP (Ideal Customer Profile)
-
-### B2B / 엔터프라이즈 ICP
-- **기업 규모:** 직원 500명 이상, IT 예산 연 50억 원 이상
-- **직함:** CTO, IT 인프라 총괄, 조달 책임자, 데이터센터 아키텍트
-- **산업:** 클라우드/하이퍼스케일러, 금융, 제조, 공공·국방, 통신
-- **핵심 니즈:** x86 소프트웨어 자산 보호, 공급망 다변화(탈 TSMC 단일 의존), 컴플라이언스·보안 인증(ISO, CC, NIST)
-- **구매 트리거:** AI 워크로드 확장, 데이터센터 전력 효율 개선, 정부 반도체 조달 요건 충족
-- **탈락 조건:** 전적으로 ARM 기반 스택으로 이동 완료한 기업, 비용 최소화만이 목표인 소규모 스타트업
-
-### 소비자 ICP
-- **연령/직군:** 25~45세, 지식 노동자(개발자, 콘텐츠 크리에이터, 기업 직장인)
-- **지역:** 북미·유럽·동아시아(한국·일본·대만) 주요 도시
-- **구매 채널:** OEM 브랜드(Dell, HP, Lenovo, 삼성) 경유 간접 구매
-- **핵심 니즈:** 기존 Windows 앱 호환 유지, 배터리 효율 개선, AI 기능(실시간 번역, 배경 제거, 코드 자동완성) 즉시 활용
-- **구매 트리거:** PC 교체 주기(3~5년), AI 기능 체험 계기(ChatGPT, Copilot 활용 시작), 회사 지급 기기 교체
-- **탈락 조건:** Apple 생태계 완전 이전 사용자, 게이밍 전용 데스크톱 구매자(GPU 중심 의사결정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 3개
+## Ideal Customer Profile (ICP)
 
-### 페르소나 A — "인프라 수호자" 이상훈 (47세, 대기업 IT 인프라 본부장)
-
-**배경:** 금융권 계열사 IT 인프라 총괄. 20년간 x86 서버·PC 환경을 운영해왔다. 직원 3,000명의 워크스테이션과 온프레미스 서버 200대를 관리. 매년 감사에서 보안 컴플라이언스를 증명해야 한다.
-
-**목표:**
-- AI 워크로드(사내 LLM, 이상 탐지 모델) 도입을 최소 마이그레이션 비용으로 실현
-- 공급망 단일 장애점 제거 (TSMC 집중 리스크 분산)
-- 이사회에 "AI 대응 완료"를 보고할 수 있는 구체적 증거 확보
-
-**고통점:**
-- "ARM으로 전환하면 사내 ERP·레거시 앱 수백 개를 다시 포팅해야 한다. 비용과 시간이 없다."
-- "AI 칩 구매 예산은 나오는데, 어떤 벤더가 5년 후에도 살아있을지 모르겠다."
-- "인텔 18A가 실제로 나올지, 아니면 또 지연될지 시장 보도가 너무 엇갈린다."
-
-**인텔과의 접점:** Intel vPro 플랫폼, Xeon Scalable, IFS 파운드리 기술 세미나, Intel Technology Summit 초청
-
-**메시지 핵심:** "당신이 지금까지 구축한 소프트웨어 자산은 그대로입니다. AI만 추가하면 됩니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from Intel's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Intel's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 B — "AI PC 얼리어답터" 박지원 (32세, 스타트업 시니어 개발자)
+## Core Personas
 
-**배경:** 서울 강남 소재 SaaS 스타트업 백엔드 개발자. 맥북 M2를 3년째 쓰고 있으나, 사내 Windows 기반 협업 툴과 Docker 호환성 문제로 불편함을 겪고 있다. 개인 프로젝트용 AI 코딩 어시스턴트(GitHub Copilot, Cursor)를 매일 사용.
+### Persona 1 — Enterprise Decision-Maker
 
-**목표:**
-- AI 코딩 어시스턴트를 로컬 NPU로 오프라인 실행해 API 비용 절감
-- Windows + macOS 이중 환경 없이 단일 기기로 개발 환경 통합
-- 폼팩터 가벼운 노트북으로 사무실·카페 이동 효율화
-
-**고통점:**
-- "인텔 NPU가 실제로 얼마나 빠른지 체감 비교가 없다. 벤치마크 수치는 많은데 내 워크플로에 의미 있는지 모르겠다."
-- "Core Ultra 브랜드 라인업이 너무 복잡하다. Ultra 5, Ultra 7, Ultra 9… 뭘 사야 하는지 30분 읽어도 모르겠다."
-- "MacBook 배터리 대비 Windows 노트북 배터리가 여전히 불안하다는 인식이 있다."
-
-**인텔과의 접점:** YouTube 테크 리뷰 채널, GitHub 블로그, Intel Developer Zone, 유튜버 협업 언박싱
-
-**메시지 핵심:** "로컬 AI. 클라우드 비용 없이. 내 코드에 바로."
+- **Age / Occupation**: 42, VP-level or director in a Intel customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Intel selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 C — "조달 의사결정자" 김현정 (52세, 공공기관 정보화사업 팀장)
+### Persona 2 — Technical Specialist / End User
 
-**배경:** 중앙부처 산하 공공기관 정보화 사업 팀장. 연간 PC 교체 사업 300~500대, 서버 인프라 조달을 담당. 국가 디지털 전환 사업의 일환으로 AI 기반 민원 처리 시스템 도입을 검토 중.
-
-**목표:**
-- 국내 제조·인증 기준을 충족하는 AI 인프라 조달 (CC 인증, 국가정보원 보안 가이드라인)
-- 예산 내에서 5년 이상 유지보수 가능한 벤더 선택
-- 국산화·주권 반도체 요건 충족 시 가산점 획득
-
-**고통점:**
-- "중국산 부품이 포함된 서버를 납품받았다가 감사 지적을 받은 적이 있다. 원산지 증빙이 복잡하다."
-- "AI 서버 조달 기준이 아직 확립되지 않아 내부 품의서 작성이 어렵다."
-- "인텔 IFS가 미국 팹이라는 건 알겠는데, 한국 조달 시장에서 실제 어떤 인증·문서를 제공하는지 모른다."
-
-**인텔과의 접점:** 조달청 나라장터, 공공 IT 전시회(스마트클라우드쇼), 국내 파트너사(삼성전자, LG CNS) 경유, 벤더 제안설명회
-
-**메시지 핵심:** "지정학적으로 검증된 공급망. 국내 조달 기준 완비."
+- **Age / Occupation**: 35, technical professional who interacts with Intel's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Intel selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## AARRR 퍼널
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 지표 | 인텔의 현재 접근 | 개선 기회 |
-|------|------|-----------------|-----------|
-| **Acquisition** | OEM 채널 통한 PC 출하량, IFS 파일럿 계약 수 | "Intel Inside" OEM 협업, 개발자 이벤트 | AI PC 체험존 확대, 유튜버 협업 강화 |
-| **Activation** | Core Ultra 기기 첫 AI 기능 사용률, Xeon 클러스터 첫 AI 워크로드 실행 | Intel Developer Zone 문서 | 온보딩 가이드 단순화, NPU 퀵스타트 키트 |
-| **Retention** | 동일 플랫폼 차세대 업그레이드율, 구독형 소프트웨어(oneAPI) 갱신율 | 기술 지원, 에코시스템 파트너십 | 인텔 플랫폼 로열티 프로그램 부재가 약점 |
-| **Revenue** | ASP(평균판가) 방어율, IFS 계약 단가 | Xeon 고마진 유지, Core Ultra 프리미엄 포지셔닝 | AI 가속 기능 프리미엄 가격화 명확화 |
-| **Referral** | 개발자 커뮤니티 추천, OEM 파트너 재계약율 | Intel Partner Alliance | 공개 성공 사례(Case Study) 부족, 강화 필요 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Intel's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Intel selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## Anti-Persona (배제 대상)
+## Purchase Journey — AARRR Framework
 
-**"완전 ARM 전환 완료 기업"**
-- Apple Silicon 기반 맥 환경으로 100% 이전한 개발 조직
-- Qualcomm Snapdragon X 기반 Windows on ARM으로 표준화한 IT 부서
-- x86 호환성을 전혀 필요로 하지 않는 신생 클라우드 네이티브 스타트업
-
-**"극단적 가격 민감 소비자"**
-- Chromebook, 저가 ARM 태블릿 시장을 목표로 하는 세그먼트
-- 기능보다 절대 가격이 의사결정의 100%인 구매자
-
-**왜 배제하는가:** 인텔의 핵심 가치(호환성, 신뢰성, 기술 리더십)는 이들에게 가격 프리미엄을 정당화하지 못한다. 마케팅 예산과 세일즈 리소스를 여기에 투입하면 단가만 낮아지고 브랜드 포지션이 훼손된다.
+| Stage | Intel's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Intel total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-### Steal Sheet — 3가지
+## Anti-Persona — Who Intel Is Not For
 
-1. **B2B에서 "지정학 리스크"를 페르소나 고통점으로 코딩하라.** 조달 담당자(페르소나 C)의 가장 큰 고통은 "감사에서 걸리는 것"이다. 인텔은 원산지·보안 인증 문서를 브랜드 콘텐츠로 전환해 조달 담당자의 품의서 작성을 도와주는 콘텐츠를 만들어야 한다. 제품을 파는 콘텐츠보다 "구매 결정을 방어하는 콘텐츠"가 B2B에서 전환율이 높다.
+| Type | Characteristics | Why Intel Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Intel's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Intel's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Intel's full value is realized through deeper operational integration and sustained partnership. |
 
-2. **개발자 페르소나에게는 벤치마크 대신 워크플로 데모를 제공하라.** 박지원(페르소나 B)은 TOPS 수치가 아니라 "내 Cursor AI가 얼마나 빠르게 응답하는지"를 원한다. 실제 개발자 워크플로(코드 자동완성, 로컬 LLM 실행, 이미지 생성) 기반 실사용 영상이 스펙시트보다 10배 효과적이다.
+---
 
-3. **Anti-Persona를 명시함으로써 ICP를 더 선명하게 만들어라.** "우리는 모두를 위한 칩이 아니다"라고 말할 수 있을 때, 남아있는 ICP에 대한 메시지 집중도가 올라간다. 인텔은 ARM 시장에 대한 방어적 메시지를 멈추고, "x86이 필요한 이유가 있는 사람들"에게 자원을 집중해야 한다.
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Intel's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Intel's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

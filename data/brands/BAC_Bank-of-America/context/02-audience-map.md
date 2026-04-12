@@ -1,94 +1,84 @@
-# 02 오디언스 맵 — Bank of America (BAC)
+# 02. Audience Map — Bank of America (BAC)
 
-## 오디언스 세그먼트 개요
-
-| 세그먼트 | 규모 추정 | 수익 기여도 | 전략 우선순위 |
-|----------|-----------|-------------|---------------|
-| 소매 개인 고객 | ~46M 명 (공식) | 중간 | 대량·디지털 전환 |
-| 부유층·고액자산가 (HNW) | ~3M 명 (추정) | 높음 | Merrill 연계 심화 |
-| 중소기업 (SMB) | ~3M+ 개사 (공식) | 높음 | 대출·현금관리 |
-| 대기업·기관 | 수천 개사 (추정) | 매우 높음 | IB·트레이딩·트레저리 |
-| 글로벌 기관투자자 | 다수 (추정) | 매우 높음 | BofA Securities |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 디지털 네이티브 밀레니얼 — "지민"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 32세 |
-| 직업 | 테크 스타트업 마케터 |
-| 연소득 | $75,000 |
-| 거주지 | 샌프란시스코 |
-| 금융 목표 | 주택 구입 자금 저축, 투자 입문 |
-| 주요 채널 | 모바일 앱, Instagram, YouTube |
-| 페인포인트 | 복잡한 금융 상품, 지점 방문 불편, 수수료 불투명 |
-| BAC 접점 | Erica AI, 모바일 뱅킹, Preferred Rewards |
-| 핵심 메시지 | "앱 하나로 모든 금융을 연결하세요" |
-| 이탈 리스크 | 핀테크(Chime, SoFi) 이동 가능성 높음 (추정) |
-
-**구매 동기**: 편의성, 투명한 수수료, 투자 교육 콘텐츠
-**브랜드 기대치**: 즉각적 응답, 직관적 UX, 보상 프로그램
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in diversified banks. B2C: End consumers of financials products and services. (T4_INFERRED from Bank of America's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Bank of America's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 자산관리 니즈 보유 X세대 — "마이클"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 48세 |
-| 직업 | 중견기업 CFO |
-| 자산 규모 | $850,000 (투자 포함) |
-| 거주지 | 시카고 |
-| 금융 목표 | 은퇴 설계, 자녀 교육 자금, 세금 최적화 |
-| 주요 채널 | 개인 FA 상담, 웹 포털, 이메일 |
-| 페인포인트 | 파편화된 자산 현황, 복잡한 세금 구조 |
-| BAC 접점 | Merrill Lynch Advisor, Private Bank |
-| 핵심 메시지 | "당신의 전체 재정 그림을 하나로" |
-| 이탈 리스크 | JP Morgan Private Client, Fidelity (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**구매 동기**: 전문성, 통합 자산 뷰, 세금 효율성
-**브랜드 기대치**: 개인 FA의 프로액티브 연락, 맞춤 리포트
+- **Age / Occupation**: 42, VP-level or director in a Bank of America customer organization
+- **Core pain**: Needs reliable diversified banks solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Bank of America selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 성장기 중소기업 대표 — "수진"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 41세 |
-| 직업 | 이커머스 브랜드 창업자/CEO |
-| 연매출 | $2.5M |
-| 거주지 | 애틀랜타 |
-| 금융 목표 | 운전자본 확보, 급여 자동화, 글로벌 결제 |
-| 주요 채널 | 비즈니스 뱅킹 앱, 담당 RM 이메일 |
-| 페인포인트 | 느린 대출 심사, 글로벌 환전 비용, 현금흐름 가시성 부족 |
-| BAC 접점 | Business Advantage, Cash Flow Monitor |
-| 핵심 메시지 | "비즈니스 성장을 위한 금융 파트너" |
-| 이탈 리스크 | Chase Business, Mercury Bank (추정) |
-
-**구매 동기**: 빠른 승인, 글로벌 결제, 현금흐름 도구
-**브랜드 기대치**: 전담 RM, 디지털 대출 프로세스
+- **Age / Occupation**: 35, technical professional who interacts with Bank of America's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Bank of America selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 고객 여정 지도 (소매 개인 고객 기준)
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 인지 | 고려 | 결정 | 온보딩 | 리텐션 |
-|------|------|------|------|--------|--------|
-| 채널 | TV/OOH, 소셜 | 웹사이트, 리뷰 | 지점/앱 가입 | 모바일 설정 | Erica, 리워드 |
-| 니즈 | "큰 은행이 필요해" | "수수료 비교" | "계좌 개설 절차" | "앱 사용법" | "혜택 극대화" |
-| 감정 | 중립·인지 | 비교 피로 | 결정 불안 | 기대 | 만족·충성 |
-| BAC 액션 | 브랜드 광고 | 비교 콘텐츠 제공 | 온라인 가입 간소화 | 웰컴 시퀀스 | Preferred Rewards |
+- **Age / Occupation**: 38, consumer who interacts with Bank of America's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Bank of America selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 전략 | 실행 방법 | 적용 가능 업종 |
-|---|------|-----------|---------------|
-| 1 | **세그먼트별 AI 접점 차별화** | Erica는 소매에, 별도 B2B 도구는 SMB에 특화 배치해 동일 플랫폼에서 세그먼트 경험을 분리 | SaaS, 핀테크 |
-| 2 | **여정 단계별 페인포인트 콘텐츠** | '고려' 단계에서 수수료 비교표·계산기를 선제 제공해 이탈 방지 | 보험, 리테일 금융 |
-| 3 | **상위 세그먼트 업셀 트리거** | 자산 임계값 도달 시 Merrill 전환 제안처럼 세그먼트 이동을 자동 트리거로 설계 | 프리미엄 서비스, 구독 비즈니스 |
+| Stage | Bank of America's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Bank of America total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Bank of America Is Not For
+
+| Type | Characteristics | Why Bank of America Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Bank of America's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Bank of America's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Bank of America's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Bank of America's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Bank of America's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

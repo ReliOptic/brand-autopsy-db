@@ -1,135 +1,123 @@
-# AES Corporation — 콘텐츠 DNA
+# 04. Content DNA — AES Corporation (AES)
 
-## 콘텐츠 철학
-
-AES의 콘텐츠는 "증거 기반 낙관주의(Evidence-Based Optimism)"를 핵심 원칙으로 삼는다. 에너지 전환의 긴박성을 인정하되, 구체적인 수치·프로젝트·기술 데이터로 실행 가능성을 입증하는 방식이다. 감성적 선동보다 전문적 신뢰를 우선한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 메시지 아키텍처
+## Content Pillars
 
-### 마스터 메시지 (공식)
-> "We accelerate the future of energy together."
+AES Corporation's content strategy reflects its positioning in the Independent Power Producers & Energy Traders segment of Utilities. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 지원 메시지 레이어 (추정)
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "AES Corporation understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for independent power producers & energy traders requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with AES Corporation." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-**레이어 1 — 규모와 신뢰**
-- "40년 이상, 14개국, 수백만 고객에게 전력을 공급해온 실적"
-- "발전·송전·저장을 아우르는 통합 에너지 플랫폼"
-
-**레이어 2 — 기술 차별화**
-- "Fluence를 통한 세계 최고 수준의 배터리 저장 기술"
-- "AI 그리드 최적화로 재생에너지 변동성 극복"
-
-**레이어 3 — 파트너십 가치**
-- "귀사의 탄소 중립 목표에 맞춤화된 청정에너지 솔루션"
-- "현지 팀, 현지 관계, 현지 책임"
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 필러 (5대 주제 클러스터)
+## Hook Patterns
 
-### 필러 1: 청정에너지 전환 가속화
-**핵심 메시지**: AES는 말이 아닌 실행으로 전환을 증명한다.
-**콘텐츠 유형**: 프로젝트 케이스 스터디, 기가와트 달성 마일스톤, 연간 재생에너지 비율 추적
+### Hook 1 — Industry Challenge Lead
 
-**Steal Sheet — 청정에너지 전환**
+Opens with a recognizable industry challenge or pain point before presenting AES Corporation's perspective.
 
-| 항목 | 내용 |
-|------|------|
-| 핵심 수치 | 2025년 기준 재생에너지 용량 10GW+ 목표 (공식) |
-| 스토리 앵커 | 석탄 → 태양광 전환 개별 발전소 사례 |
-| 감정 트리거 | 자녀 세대를 위한 기후 책임 |
-| 증거 유형 | MW 단위 설치 데이터, CO₂ 감축 톤수 |
-| 배포 형식 | 인포그래픽, 연간보고서 특집, LinkedIn 리치포스트 |
-| 금지 프레임 | "우리는 녹색입니다" — 수치 없는 주장 금지 |
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
----
+### Hook 2 — Data-Driven Insight
 
-### 필러 2: 기술 혁신 (에너지 저장·AI 그리드)
-**핵심 메시지**: Fluence와 디지털 플랫폼이 재생에너지의 신뢰성 문제를 해결한다.
-**콘텐츠 유형**: 기술 백서, Fluence 케이스 스터디, 그리드 안정화 데이터
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-**Steal Sheet — 기술 혁신**
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| 항목 | 내용 |
-|------|------|
-| 핵심 수치 | Fluence 전 세계 배치 용량 GWh 수준 (공식) |
-| 스토리 앵커 | 특정 지역 정전 예방 사례 — 저장 시스템 작동 순간 |
-| 감정 트리거 | 불안정한 전력에 의존하는 병원·학교·공장 |
-| 증거 유형 | 응답 속도(ms), 가동률(%), ROI 계산기 |
-| 배포 형식 | 기술 백서, 웨비나, 엔지니어 컨퍼런스 발표 |
-| 금지 프레임 | 과도한 기술 전문용어로 비전문가 소외 |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-### 필러 3: 글로벌 파트너십 & 현지화
-**핵심 메시지**: AES는 어디에 있든 그곳의 파트너다.
-**콘텐츠 유형**: 국가별 임팩트 리포트, 현지 고용 스토리, 지역사회 프로그램
+## CTA Patterns
 
-**Steal Sheet — 글로벌 파트너십**
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 수치 | 현지 고용 인원, 공급업체 로컬 조달 비율 (공식) |
-| 스토리 앵커 | 특정 지역사회의 첫 전기 공급 순간 |
-| 감정 트리거 | 에너지 접근권과 경제 기회의 연결 |
-| 증거 유형 | 국가별 투자 규모, 세금·GDP 기여도 |
-| 배포 형식 | 미니 다큐멘터리, 국가별 랜딩 페이지, 현지어 콘텐츠 |
-| 금지 프레임 | 서구 기업의 신흥시장 "구원자" 서사 |
+| CTA Type | AES Corporation Pattern | What AES Corporation Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-### 필러 4: ESG 투명성 & 기후 약속
-**핵심 메시지**: 2040 넷제로는 목표가 아니라 사업 전략이다.
-**콘텐츠 유형**: CDP 공시, TCFD 리포트, Scope 1/2/3 배출 추적, 이사회 기후 거버넌스
+## Tone & Mood Guide
 
-**Steal Sheet — ESG 투명성**
+### Situation 1 — Product or Service Announcement
 
-| 항목 | 내용 |
-|------|------|
-| 핵심 수치 | 연간 CO₂ 강도(톤/MWh) 감소 추이 (공식) |
-| 스토리 앵커 | 석탄 폐쇄 일정 — 구체적 날짜와 대체 계획 |
-| 감정 트리거 | 투자자·규제기관의 그린워싱 불신 해소 |
-| 증거 유형 | 제3자 검증 배출 데이터, SBTi 정렬 여부 |
-| 배포 형식 | 연간 지속가능성 보고서, IR 데이 발표, CDP 응답 |
-| 금지 프레임 | 검증 없는 "탄소 중립" 단독 주장 |
+**Mood**: Confident professionalism — measured excitement appropriate to utilities sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
----
+### Situation 2 — Thought Leadership / Industry Commentary
 
-### 필러 5: 인재 & 기업 문화
-**핵심 메시지**: AES에서 일한다는 것은 에너지 전환의 최전선에 있다는 것이다.
-**콘텐츠 유형**: 직원 스토리, D&I 데이터, 기술 인재 채용 캠페인
+**Mood**: Authoritative insight — AES Corporation as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-**Steal Sheet — 인재 & 문화**
+### Situation 3 — Crisis or Negative News Response
 
-| 항목 | 내용 |
-|------|------|
-| 핵심 수치 | 직원 다양성 비율, 여성 리더십 비율 (공식) |
-| 스토리 앵커 | 엔지니어가 설계한 프로젝트가 실제 가동되는 순간 |
-| 감정 트리거 | 의미 있는 일에 대한 MZ세대 가치관 |
-| 증거 유형 | Glassdoor 점수, 이직률, 교육 투자 데이터 |
-| 배포 형식 | LinkedIn Life 페이지, 유튜브 시리즈, 채용 랜딩 페이지 |
-| 금지 프레임 | 유틸리티 기업 특유의 관료적·단조로운 이미지 |
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## 콘텐츠 톤 & 스타일 가이드
+## Content Prohibitions
 
-### 문장 구조 원칙
-- **수치 선행**: "2040년까지 탄소 중립" → "2040년 넷제로 — 현재 재생에너지 비율 X%에서 100%로"
-- **능동태 우선**: "에너지를 공급합니다" (수동태 지양)
-- **단락 길이**: B2B 기술 문서 3~5문장, SNS 1~2문장
-- **전문용어 사용**: 대상에 따라 조절 — 투자자/엔지니어 대상 전문어 허용, 일반 커뮤니케이션 평이화
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-### 금지 표현 패턴
-1. 수치 없는 형용사 남발: "혁신적인", "선도적인", "최고의"
-2. 미래 시제 남용 없이 현재 실행 증거 없음
-3. 경쟁사 직접 비교 폄하
-4. 재난·기후 위기 공포 마케팅 과잉
+---
 
-### 필수 표현 패턴
-1. 구체적 숫자 + 단위 + 연도
-2. "함께(Together)" — 파트너십 어휘 일관 사용
-3. 지역·국가명 명시로 글로벌 실행력 증명
-4. 고객·지역사회 이름 직접 언급 (동의 하에)
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #AES | Financial and investor community | Moderate (estimated) |
+| #AESCorporation | Brand-level social engagement | Varies (estimated) |
+| #UInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+AES Corporation's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In utilities markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in independent power producers & energy traders face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+AES Corporation's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

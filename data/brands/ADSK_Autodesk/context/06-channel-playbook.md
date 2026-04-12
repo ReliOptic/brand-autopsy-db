@@ -1,109 +1,141 @@
-# 06. 채널 플레이북 — Autodesk (ADSK)
+# 06. Channel Playbook — Autodesk (ADSK)
 
-> 상태 표기: (공식) = 공개 자료 근거 / (추정) = 분석·추론
-
----
-
-## 6-1. 채널 전략 개요
-
-Autodesk의 채널 믹스는 **인바운드 교육 콘텐츠 + 파트너 영업 채널 + 커뮤니티 플라이휠** 삼각 구조로 운영된다.
-직접 영업(Direct)과 리셀러(Reseller) 채널이 공존하며, 엔터프라이즈는 Account Executive가 직접 커버한다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 6-2. 채널 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 주요 목적 | 타깃 페르소나 | 핵심 KPI |
-|------|-----------|-------------|----------|
-| autodesk.com (공식) | 제품 정보·구독 전환 | 전 페르소나 | 방문자→체험판 전환율 |
-| YouTube (공식) | 교육·인지도 | 엔지니어, 설계사 | 조회수, 구독자, 시청 완료율 |
-| LinkedIn (공식) | B2B 사상 리더십·채용 | 구매 담당자, 매니저 | 팔로워 증가, 콘텐츠 참여율 |
-| Instagram (공식) | 비주얼 인스피레이션 | 크리에이터, 학생 | 도달 범위, 저장 수 |
-| X(Twitter) (공식) | 제품 업데이트·이벤트 알림 | 얼리어답터, 커뮤니티 | 언급량, 클릭률 |
-| Autodesk Community (공식) | 리텐션·지지자 육성 | 기존 사용자 | 게시물 수, 해결된 질문 수 |
-| Autodesk University (공식) | 연간 플래그십·교육 | 전문가 전체 | 참석자 수, 세션 평점 |
-| 파트너·리셀러 채널 (공식) | 중소기업 판매 커버리지 | SMB 구매 담당 | 파트너 매출 기여율 |
-| 이메일 뉴스레터 (추정) | 리드 육성·갱신 유도 | 기존 트라이얼·구독자 | 오픈율, 클릭률, 갱신율 |
-| Paid Search / Display (추정) | 경쟁사 전환 유도 | 경쟁사 검색 유저 | CPC, 전환 비용 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 6-3. 플랫폼별 전술 가이드
+## 2. Channel Tone Variations
 
-### YouTube
-- **콘텐츠 믹스**: 튜토리얼 60% / 제품 데모 20% / 고객 스토리 20% (추정)
-- **업로드 주기**: 주 3~5편 (추정)
-- **채널 전략**: 제품별 서브채널 운영 (Autodesk Fusion, Autodesk Revit 등) (공식)
-- **CTA**: 영상 내 무료 체험판 링크, 커뮤니티 포럼 유도
+Autodesk's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
+
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
+
+---
+
+## 4. Channel-Specific Prohibitions
+
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
 ### LinkedIn
-- **콘텐츠 믹스**: 사상 리더십 아티클 40% / 제품 업데이트 30% / 고객 성공 30% (추정)
-- **게시 주기**: 주 4~5회 (추정)
-- **광고 활용**: LinkedIn Sponsored Content로 AEC·D&M 직군 타깃팅 (추정)
-- **직원 앰배서더**: 제품 매니저·엔지니어의 개인 포스팅 장려 (추정)
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### Autodesk Community (포럼)
-- **운영 방식**: Autodesk 직원 + 인증 전문가(Expert Elite) 공동 답변 (공식)
-- **게임화**: 포인트·배지 시스템으로 기여 독려 (공식)
-- **콘텐츠 재활용**: 포럼 베스트 답변 → 공식 KB(지식 베이스) 전환 (추정)
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### 이메일 자동화 (추정)
-- **트라이얼 온보딩 시퀀스**: D+0, D+3, D+7, D+14, D+30 터치포인트
-- **갱신 리마인더**: 만료 90/60/30/7일 전 단계적 발송
-- **세그먼트**: 제품별 / 역할별 / 산업별 개인화
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 6-4. 바이어 여정별 채널 활성화
+## 5. Crisis Response Protocol
 
-| 단계 | 채널 | 콘텐츠 유형 |
-|------|------|------------|
-| 인식 | YouTube, LinkedIn, Paid Search | 트렌드 아티클, 제품 소개 영상 |
-| 관심 | autodesk.com, 블로그, 웨비나 | 기능 비교, 고객 사례 |
-| 평가 | 무료 체험, 영업팀 데모, 파트너 | ROI 계산기, 기술 백서 |
-| 구매 | 직접 영업, 리셀러, autodesk.com | 견적, 라이선스 유연성 설명 |
-| 온보딩 | 이메일, YouTube, Community | 시작 가이드, 튜토리얼 시리즈 |
-| 확장 | Account Executive, 이메일 | 신제품·업셀 제안 |
-| 옹호 | Community, AU, 소셜 | 사용자 작업물 showcase, 인증 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
----
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-## 6-5. 파트너 채널 구조
+### Scenario 2 — Regulatory or Legal Action
 
-```
-Autodesk
-├── Authorized Reseller (공식)
-│   ├── 볼륨 라이선스 판매
-│   └── 1차 기술 지원 제공
-├── Autodesk Authorized Training Center, ATC (공식)
-│   ├── 공인 교육 과정 운영
-│   └── 인증 시험 준비
-├── Autodesk Developer Network, ADN (공식)
-│   ├── API 기반 플러그인 개발
-│   └── Autodesk App Store 배포
-└── System Integrator (SI) / Consulting Partner (추정)
-    ├── 엔터프라이즈 구현·마이그레이션
-    └── BIM/디지털 트윈 컨설팅
-```
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 6-6. 채널 성과 벤치마크 (추정)
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 채널 | 업계 평균 | Autodesk 추정 수준 |
-|------|----------|-------------------|
-| 이메일 오픈율 | 20~25% | 25~30% (기술 전문가 대상 고관여) |
-| 트라이얼→유료 전환율 | 5~15% | 10~20% (고착도 높은 전문 소프트웨어) |
-| YouTube 구독자 | 참고치 없음 | 글로벌 합산 200만+ (공식 확인 가능) |
-| LinkedIn 팔로워 | 참고치 없음 | 300만+ (공식) |
-| 커뮤니티 월간 활성 사용자 | 참고치 없음 | 수십만 명 규모 (추정) |
+**1. Align channel formality with audience expectations.**
+Autodesk's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+Autodesk's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 6-7. Steal Sheet — 채널 플레이북 레이어
-
-| # | 훔칠 것 | 구체적 적용법 |
-|---|---------|--------------|
-| 1 | **제품별 YouTube 서브채널 분리 운영** | 메인 채널 외에 제품명 채널을 별도 운영하면 알고리즘 추천 최적화 + 검색 점유율 확대. 구독자가 관심 제품만 팔로우 가능해 관련성 높은 피드 형성 |
-| 2 | **Expert Elite 프로그램으로 커뮤니티 비용 구조 혁신** | 파워 유저에게 배지·조기 접근·이벤트 초대를 제공하는 대신 포럼 답변·튜토리얼 작성을 유도. 고품질 UGC를 거의 무료로 생산하는 구조 |
-| 3 | **파트너 채널을 교육 자산으로 강화** | 리셀러에게 단순 판매 권한만 주는 대신, 공인 교육(ATC) 자격을 부여해 부가가치 서비스 판매 가능하게 함 → 파트너 이탈 방지 + 시장 교육 커버리지 확장을 동시에 달성 |
+**3. Build a cross-channel sequence, not parallel silos.**
+Autodesk's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

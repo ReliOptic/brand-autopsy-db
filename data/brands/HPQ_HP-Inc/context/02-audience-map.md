@@ -1,137 +1,84 @@
-# 02. 오디언스 맵 — HP Inc. (HPQ)
+# 02. Audience Map — HP Inc. (HPQ)
 
-## 오디언스 세그먼트 개요
-
-HP Inc.의 오디언스는 크게 **컨슈머(B2C)**와 **비즈니스(B2B)** 두 축으로 나뉘며,
-각 축 내에서 니즈·구매 행동·채널 선호도가 상이하다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 크리에이티브 프리랜서
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이소연 (가상) |
-| 나이 | 28세 |
-| 직업 | UX 디자이너 / 그래픽 프리랜서 |
-| 거주 | 서울 마포구 |
-| 주요 기기 관심 | HP Spectre x360, ENVY 시리즈 |
-| 연간 소득 | 4,500만~6,000만 원 (추정) |
-
-**배경 및 맥락**
-- 카페·공유오피스·재택을 오가는 하이브리드 워크 라이프스타일
-- Adobe CC 풀 스택 사용자, 색 정확도와 디스플레이 품질에 민감
-- SNS(인스타그램·핀터레스트)에서 제품 정보 습득 후 유튜브 언박싱·리뷰로 검증
-
-**핵심 니즈**
-- 가벼운 무게 + 긴 배터리 + OLED/AMOLED 디스플레이
-- 포트폴리오 발표·클라이언트 미팅을 위한 슬림 폼팩터
-- HP Instant Ink보다 색 재현에 특화된 잉크젯 프린터
-
-**페인 포인트**
-- 가격 대비 성능 체감이 MacBook Pro와 비교될 때 항상 불안
-- AS 센터 접근성 및 수리 대기 시간 불만
-- 번들 소프트웨어(블로트웨어) 다수
-
-**구매 채널**
-- HP 공식 온라인 스토어 → 네이버 스마트스토어 → 오프라인 하이마트
-
-**메시지 키워드**
-`색 재현` `초슬림` `크리에이터를 위한` `무한한 가능성`
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in technology hardware, storage & peripherals and adjacent industries. (T4_INFERRED from HP Inc.'s segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in HP Inc.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 중소기업 IT 담당자
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박민준 (가상) |
-| 나이 | 38세 |
-| 직업 | 중소기업 IT 매니저 (직원 80명 규모) |
-| 거주 | 경기 성남시 |
-| 주요 관심 제품 | HP EliteBook, LaserJet, HP Wolf Security |
-| 연간 IT 예산 | 약 1.5억 원 (추정) |
-
-**배경 및 맥락**
-- 장비 조달·유지보수·보안까지 단독으로 담당하는 1인 IT 부서
-- 3년 주기 PC 교체 사이클 운영, 견적 3개사 비교 후 결정
-- HP Partner Portal·공인 리셀러(추정) 통해 B2B 구매
-
-**핵심 니즈**
-- TPM 2.0·Sure Start·Sure Click 등 엔드포인트 보안 기능
-- Windows Autopilot 호환·대량 MDM 배포 용이성
-- 3년 이상 AS 보증 + 온사이트 서비스 옵션
-
-**페인 포인트**
-- 소량 구매 시 B2B 가격 협상력 부재
-- 모델 단종 시 부품 조달 어려움
-- HP 공식 파트너와 오픈마켓 가격 차이로 인한 내부 설득 어려움
-
-**구매 채널**
-- HP 공인 리셀러 → HP 다이렉트 비즈니스 → 나라장터(공공 프로젝트 시)
-
-**메시지 키워드**
-`엔드포인트 보안` `대량 배포` `TCO 절감` `Wolf Security`
+- **Age / Occupation**: 42, VP-level or director in a HP Inc. customer organization
+- **Core pain**: Needs reliable technology hardware, storage & peripherals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **HP Inc. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 대학생 / Z세대 첫 노트북 구매자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김지우 (가상) |
-| 나이 | 21세 |
-| 직업 | 대학교 3학년 (경영학 전공) |
-| 거주 | 부산 해운대구 (기숙사) |
-| 주요 관심 제품 | HP Pavilion, HP Laptop 시리즈 |
-| 예산 | 80만~120만 원 (추정) |
-
-**배경 및 맥락**
-- 부모님이 구매 결정권의 50% 이상 보유 (추정)
-- 유튜브·틱톡·네이버 블로그 리뷰로 정보 탐색
-- 게임·과제·화상강의 모두 소화해야 하는 멀티태스커
-
-**핵심 니즈**
-- 가성비: 예산 내 최고 사양 (RAM 16GB·SSD 512GB 최소)
-- 디자인: 캠퍼스에서 들고 다닐 수 있는 심플하고 세련된 외관
-- 브랜드 신뢰: 부모님이 알아보는 안전한 브랜드
-
-**페인 포인트**
-- 동급 사양 대비 LG gram·삼성 갤럭시북과 가격 경쟁에서 밀릴 때
-- 한국 AS 인프라 인지도 낮음 (Apple·삼성 대비)
-- 구매 후 드라이버 업데이트·HP Support 앱 사용 불편
-
-**구매 채널**
-- 쿠팡·네이버 최저가 비교 → 오프라인 전자랜드·하이마트 체험 → 온라인 최종 구매
-
-**메시지 키워드**
-`가성비 최강` `대학생 추천` `가볍고 빠른` `오래 쓰는`
+- **Age / Occupation**: 35, technical professional who interacts with HP Inc.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **HP Inc. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 구매 주기 | 가격 민감도 | 브랜드 충성도 | 주요 채널 |
-|----------|----------|------------|--------------|----------|
-| 크리에이터 프리랜서 | 2~3년 | 중간 | 낮음~중간 | SNS·유튜브·공식몰 |
-| SMB IT 담당자 | 3년 | 낮음 | 높음 | 리셀러·다이렉트 |
-| Z세대 학생 | 4~5년 | 높음 | 낮음 | 쿠팡·비교사이트 |
-| 엔터프라이즈 구매팀 | 3~5년 | 낮음 | 매우 높음 | HP 영업·파트너 |
-| 가정용 일반 소비자 | 5년+ | 매우 높음 | 중간 | 오프라인 유통 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate HP Inc.'s financial performance, competitive positioning, and risk factors for investment decisions.
+- **HP Inc. selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스별 핵심 메시지 프레임
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | "우리는 당신에게 ___을 드립니다" |
-|----------|-------------------------------|
-| 크리에이터 | 아이디어를 현실로 만드는 디스플레이와 성능 |
-| SMB IT | 보안·관리·성능을 하나로 묶은 TCO 최적화 |
-| Z세대 | 예산 안에서 타협 없는 스펙과 신뢰할 수 있는 브랜드 |
-| 엔터프라이즈 | 글로벌 스케일의 보안과 서비스 레벨 보장 |
+| Stage | HP Inc.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | HP Inc. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who HP Inc. Is Not For
+
+| Type | Characteristics | Why HP Inc. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | HP Inc.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | HP Inc.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | HP Inc.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+HP Inc.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+HP Inc.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

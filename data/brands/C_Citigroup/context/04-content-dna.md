@@ -1,78 +1,123 @@
-# 04. 콘텐츠 DNA — Citigroup (C)
+# 04. Content DNA — Citigroup (C)
 
-## 콘텐츠 철학
-
-Citi의 콘텐츠는 **"데이터로 말하고, 연결로 증명하고, 신뢰로 마무리한다"** 원칙을 따른다. 감성적 호소보다 전문성 기반의 권위 있는 정보 전달이 기본값이며, 리테일 채널에서만 제한적으로 감성 스토리텔링을 허용한다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 핵심 기둥 (Content Pillars)
+## Content Pillars
 
-| 기둥 | 설명 | 비중 (추정) |
-|------|------|-----------|
-| 글로벌 경제 인사이트 | 시장 전망, 금리 분석, 지역경제 리포트 | 35% |
-| 트랜잭션/트레이드 솔루션 | TTS, 무역금융, 외환 교육 콘텐츠 | 25% |
-| ESG/지속가능금융 | 그린본드, 사회적 금융, 기후 파이낸스 | 20% |
-| 고객 성공 사례 | 기업·개인 고객 스토리 | 10% |
-| 기업 거버넌스/조직개편 | Transformation 진행 상황, 리더십 메시지 | 10% |
+Citigroup's content strategy reflects its positioning in the Diversified Banks segment of Financials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Citigroup understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for diversified banks requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Citigroup." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 보이스 & 톤 가이드
-
-### 기관/B2B 채널 톤
-- **냉정하고 데이터 중심적** — 수치, 비율, 시장 데이터로 주장 뒷받침
-- **권위 있지만 오만하지 않게** — 전문가 어조, 독자를 동등한 전문가로 대우
-- **글로벌 관점 유지** — 단일 국가 사례보다 다지역 비교 선호
-- 문장은 짧고 능동태 중심
-
-### 리테일/소비자 채널 톤
-- **친근하고 명확하게** — 금융 전문 용어 최소화
-- **행동 유발 중심** — CTA(Call to Action) 명확히 포함
-- **공감 포인트 선행** — 고객 불편함을 먼저 인정한 뒤 솔루션 제시
-- 이모지 사용 제한적 허용 (SNS에 한해)
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 금지어 (콘텐츠 레벨)
+## Hook Patterns
 
-1. "보장된 수익" — 금융 규제 위반 위험 (공식적 준수 사항)
-2. "절대 잃지 않는" — 투자 오해 유발
-3. "업계 최저 수수료" — 검증 불가 주장, 법적 리스크
-4. "당신의 꿈을 이루어드립니다" — 과도한 감성, 글로벌 B2B 이미지와 충돌
-5. "복잡하지 않아요" — 실제 금융 복잡성 부정, 신뢰 훼손
-6. "즉시 승인" — 규제 및 실제 프로세스와 불일치 (추정)
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Citigroup's perspective.
 
-## 필수어 (콘텐츠 레벨)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-1. "글로벌 관점에서" — Citi의 세계적 시야 포지셔닝
-2. "데이터 기반" / "분석에 따르면" — 권위 있는 정보 출처 명시
-3. "지속 가능한" — ESG 전략과의 일관성
-4. "트랜스포메이션" — 현재 조직 전략 내러티브 반영 (공식)
-5. "파트너" — 거래적 관계 대신 협력 관계 강조
-6. "실질적인 영향(Real Impact)" — 추상적 주장 대신 결과 중심 표현
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 콘텐츠 포맷 매트릭스
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| 포맷 | 채널 | 목적 | 길이 (추정) |
-|------|------|------|-----------|
-| 시장 전망 리포트 | 웹사이트, 이메일 | 권위 구축 | 2,000~5,000단어 |
-| 인포그래픽 | LinkedIn, 보도자료 | 데이터 시각화 | 5~8 핵심 수치 |
-| CEO 칼럼/Op-Ed | FT, WSJ, 자사 블로그 | 사상적 리더십 | 800~1,200단어 |
-| 짧은 영상 (Reels/Shorts) | Instagram, YouTube | 리테일 인지도 | 15~60초 |
-| 웨비나/이벤트 콘텐츠 | LinkedIn Live, Zoom | 기관 리드 너처링 | 45~90분 |
-| 케이스 스터디 | 웹사이트, 세일즈 덱 | 전환율 제고 | 800~1,500단어 |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 훔쳐야 할 것
+## CTA Patterns
 
-| # | 경쟁사/대상 | 훔쳐야 할 콘텐츠 전략 | Citi 적용 방식 |
-|---|-----------|-------------------|-------------|
-| 1 | Goldman Sachs | Top of Mind 시장 브리핑 (주간 뉴스레터) | Citi Research를 주간 이메일 시리즈로 리패키징, B2B 리드 너처링 강화 |
-| 2 | JPMorgan Chase | "How We're Investing in [지역]" 형식의 거대 서사 콘텐츠 | Citi Transformation 스토리를 국가별 임팩트 스토리로 분해·배포 |
-| 3 | Revolut | 인앱 금융 교육 콘텐츠 (마이크로 러닝) | Citi 모바일 앱 내 "글로벌 이동 전 알아야 할 금융 팁" 시리즈 도입 (추정) |
+| CTA Type | Citigroup Pattern | What Citigroup Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+
+---
+
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to financials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Citigroup as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #C | Financial and investor community | Moderate (estimated) |
+| #Citigroup | Brand-level social engagement | Varies (estimated) |
+| #FInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Citigroup's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In financials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in diversified banks face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Citigroup's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

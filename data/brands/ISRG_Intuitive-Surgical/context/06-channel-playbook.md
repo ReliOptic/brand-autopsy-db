@@ -1,148 +1,141 @@
-# 06. 채널 플레이북 — Intuitive Surgical (ISRG)
+# 06. Channel Playbook — Intuitive Surgical (ISRG)
 
-> **카테고리**: 헬스케어 / 로봇 수술 시스템
-
----
-
-## 1. 채널 전략 원칙
-
-| 원칙 | 설명 |
-|------|------|
-| **채널 목적 분리** | 각 채널은 오디언스 세그먼트와 퍼널 단계에 명확히 배정 |
-| **규제 우선** | 의료기기 광고 규제(FDA, 식약처) 준수가 콘텐츠보다 우선 |
-| **KOL 증폭** | 외과의 오피니언 리더의 자발적 공유가 최고 신뢰 신호 |
-| **데이터 기반 최적화** | Intuitive Hub 데이터와 채널 퍼포먼스를 연동 (추정) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널 맵
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+Intuitive Surgical's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-Owned (소유 채널)
-├── intuitive.com (공식 웹사이트)
-├── Intuitive Learning Portal (교육 플랫폼)
-├── 이메일 뉴스레터 (외과의 / 병원 관리자 세분화)
-└── 고객 포털 (MyIntuitive) — 추정
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-Earned (획득 채널)
-├── 의학 저널 (JAMA, NEJM, Lancet 등 게재)
-├── 학회 발표 (AUA, AAGL, STS, ESMO 등)
-├── 의료 전문 미디어 (MedPage Today, Healio)
-└── KOL SNS 공유 (외과의 개인 LinkedIn / X)
+### Route B — Thought Leadership Pipeline
 
-Paid (유료 채널)
-├── LinkedIn Ads (병원 경영진, 외과의 타겟)
-├── 의학 저널 디지털 광고
-├── 컨퍼런스 스폰서십
-└── YouTube Pre-roll (환자 교육 콘텐츠)
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-Partner (파트너 채널)
-├── 병원 파트너 웹사이트 / 인트라넷
-├── 의과대학·레지던시 프로그램
-└── 의료기기 유통 파트너 (일부 지역)
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 3. 채널별 세부 플레이북
+## 4. Channel-Specific Prohibitions
 
-### 3-1. intuitive.com
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| **주요 오디언스** | 외과의, 병원 경영진, 환자·가족 |
-| **핵심 목적** | 제품 정보 허브, 리드 생성, 임상 근거 라이브러리 |
-| **콘텐츠 유형** | 제품 페이지, 임상 데이터, 환자 스토리, 트레이닝 정보, 투자자 관계 |
-| **SEO 우선 키워드** | "robotic surgery", "da Vinci", "minimally invasive surgery", "surgical robotics" (추정) |
-| **CTA 구조** | 외과의: "트레이닝 신청" / 병원: "데모 요청" / 환자: "da Vinci 병원 찾기" |
-| **업데이트 주기** | 제품 페이지 분기, 임상 데이터 월간, 뉴스 주간 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### 3-2. LinkedIn
-
-| 항목 | 내용 |
-|------|------|
-| **주요 오디언스** | 외과의, 병원 C-Suite, 의료기기 업계 종사자 |
-| **핵심 목적** | 브랜드 권위 구축, B2B 리드 너처링, KOL 앰플리피케이션 |
-| **콘텐츠 믹스** | 임상 연구 요약 40% / 외과의 인터뷰 30% / 제품 업데이트 20% / 기업 문화 10% |
-| **게시 빈도** | 주 3~4회 (추정) |
-| **유료 전략** | Sponsored Content — 병원 규모·직함 타겟팅; InMail — C-Suite 직접 접근 |
-| **KPI** | 팔로워 수, 게시물 도달률, 웨비나 등록 전환율 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 3-3. YouTube
+## 5. Crisis Response Protocol
 
-| 항목 | 내용 |
-|------|------|
-| **주요 오디언스** | 환자·가족 (일반 대중), 수련의·레지던트 |
-| **핵심 목적** | 환자 교육, 수술 시스템 데모, 외과의 트레이닝 보조 |
-| **콘텐츠 유형** | 수술 하이라이트 영상, 환자 스토리, 제품 기능 설명, 외과의 인터뷰 |
-| **영상 길이** | 환자 교육: 2~4분 / 외과의 데모: 5~15분 / KOL 인터뷰: 10~20분 |
-| **SEO 전략** | 수술명 + "robotic" 키워드 조합 타이틀 (추정) |
-| **주의사항** | 실제 수술 영상은 의료 전문가 대상 연령 제한 설정 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
----
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### 3-4. 학술·학회 채널
+### Scenario 2 — Regulatory or Legal Action
 
-| 항목 | 내용 |
-|------|------|
-| **주요 오디언스** | 외과의, 임상 연구자, 의대 교수 |
-| **핵심 목적** | 임상 근거 생산·유통, KOL 관계 강화, 카테고리 리더십 확인 |
-| **채널 유형** | AUA Annual Meeting, AAGL Global Congress, STS Annual Meeting, ESA Congress 등 |
-| **참여 방식** | 기업 부스, 심포지엄 스폰서, 라이브 수술 데모, 연구비 지원 |
-| **콘텐츠 출구** | 학회 발표 → 논문 → 웹사이트 임상 데이터 라이브러리 → 영업팀 자료 |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
----
+### Scenario 3 — Reputation / Social Media Issue
 
-### 3-5. 이메일 뉴스레터
-
-| 세그먼트 | 주제 | 빈도 | 출처 |
-|---------|------|------|------|
-| **외과의** | 신규 임상 데이터, 트레이닝 일정, 제품 업데이트 | 격주 | 추정 |
-| **병원 경영진** | ROI 케이스 스터디, 시장 트렌드, 규제 뉴스 | 월간 | 추정 |
-| **레지던트·수련의** | 교육 자료, 시뮬레이션 기회, 커리어 스토리 | 월간 | 추정 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 4. 퍼널별 채널 배정
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 퍼널 단계 | 목표 | 주요 채널 |
-|---------|------|---------|
-| **인식 (Awareness)** | 카테고리·브랜드 인지 | 학회 스폰서십, LinkedIn Ads, YouTube |
-| **관심 (Interest)** | 제품·임상 정보 탐색 | intuitive.com, YouTube 데모, 이메일 |
-| **평가 (Consideration)** | 경쟁 비교, ROI 분석 | 영업팀 직접 접촉, 백서, 웨비나 |
-| **구매 (Decision)** | 도입 계약 | 영업팀, 고객 포털, 레퍼런스 사이트 방문 |
-| **옹호 (Advocacy)** | KOL 활동, 구전 | LinkedIn KOL 공유, 학회 연자, 환자 커뮤니티 |
+**1. Align channel formality with audience expectations.**
+Intuitive Surgical's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+Intuitive Surgical's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 5. 금지어 / 필수어 (채널 레이어)
-
-### 금지어
-
-1. **"지금 바로 구매하세요"** — 의료기기 직접 소비자 판매 유도 표현 규제
-2. **"임상 결과 100% 보장"** — 채널 불문 청구 과장 금지
-3. **"경쟁사 제품 사용은 위험"** — 근거 없는 경쟁사 비방
-4. **"모든 환자에게 적합"** — 적응증 제한 무시한 일반화
-5. **"즉각적인 효과"** — 치료 결과 즉시성 과장
-
-### 필수어
-
-1. **"외과의와 상담하세요(Consult your surgeon)"** — 환자 대상 모든 채널에 필수
-2. **"임상적으로 검증된(Clinically validated)"** — 제품 소개 콘텐츠 필수 수식어
-3. **"개인 결과는 다를 수 있습니다(Individual results may vary)"** — 환자 스토리 면책
-4. **"FDA 승인(FDA-approved)"** — 미국 시장 콘텐츠 적응증 명시
-5. **"외과의 훈련 필요(Surgeon training required)"** — 제품 소개 시 필수 포함
-
----
-
-## 6. Steal Sheet — 채널 레이어
-
-| # | 인사이트 | 액션 |
-|---|---------|------|
-| 1 | Intuitive는 학회 채널을 임상 데이터 생산-유통의 핵심 파이프라인으로 운영 → 경쟁사는 독립 연구자 지원 프로그램으로 학회 외 임상 근거 생성 경로 확보 필요 | 독립 연구 그랜트 프로그램 론칭으로 제3자 임상 근거 풀 확대 |
-| 2 | LinkedIn에서 KOL 외과의의 개인 게시물이 기업 공식 계정보다 높은 신뢰도·도달률 보유 → KOL 소셜 앰플리피케이션 프로그램 체계화가 최고 ROI 채널 | 외과의 소셜 콘텐츠 지원 키트(이미지, 데이터 카드) 제공 |
-| 3 | 환자 채널(YouTube, 병원 웹사이트)은 "da Vinci로 수술받을 수 있는 병원 찾기"로 수요를 파트너 병원에 전달하는 구조 → 경쟁사는 환자 직접 채널에서 병원 선택 가이드 콘텐츠로 수요 창출 가능 | 로봇 수술 병원 비교 가이드 콘텐츠 + 병원 파트너 연계 CTA 구축 |
+**3. Build a cross-channel sequence, not parallel silos.**
+Intuitive Surgical's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

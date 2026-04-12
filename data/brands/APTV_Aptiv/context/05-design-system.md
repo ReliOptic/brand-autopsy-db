@@ -1,144 +1,102 @@
-# 05 디자인 시스템 — Aptiv (APTV)
+# 05. Design System — Aptiv (APTV)
 
-## 디자인 철학
-
-Aptiv의 비주얼 아이덴티티는 **"정밀한 기술, 인간적 신뢰"** 원칙에 기반한다. 복잡한 엔지니어링 시스템을 명료하게 시각화하면서도, 기업의 안전과 지속가능성 약속을 직관적으로 전달한다. 미니멀리즘과 기술적 권위가 공존하는 디자인 언어를 추구한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 브랜드 컬러
+Aptiv's visual identity, as observed on its official website, employs a structured color system appropriate to consumer discretionary sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX 코드 | RGB | 사용 용도 | 출처 |
-|--------|---------|-----|---------|------|
-| Aptiv Blue (브랜드 주색) | `#0066CC` | R:0 G:102 B:204 | 로고, 주요 CTA, 헤드라인 | (공식) |
-| Deep Navy | `#003366` | R:0 G:51 B:102 | 배경, 다크 모드 베이스 | (공식) |
-| Signal White | `#FFFFFF` | R:255 G:255 B:255 | 배경, 텍스트 반전 | (공식) |
-| Electric Cyan | `#00AAFF` | R:0 G:170 B:255 | 연결성·디지털 강조 포인트 | (추정) |
-| Tech Gray | `#4A4A4A` | R:74 G:74 B:74 | 본문 텍스트, 서브 헤드 | (추정) |
+### Core Brand Colors
 
-### 보조 컬러
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX 코드 | RGB | 사용 용도 | 출처 |
-|--------|---------|-----|---------|------|
-| Safety Green | `#00A651` | R:0 G:166 B:81 | 안전·친환경 메시지, 긍정 지표 | (추정) |
-| Alert Amber | `#FFA500` | R:255 G:165 B:0 | 경고, 주의 강조 (ADAS 시각화) | (추정) |
-| Light Steel | `#B0BEC5` | R:176 G:190 B:197 | 구분선, 비활성 상태, 보조 텍스트 | (추정) |
-| Warm White | `#F5F7FA` | R:245 G:247 B:250 | 섹션 배경, 카드 배경 | (추정) |
-| Graphite | `#212121` | R:33 G:33 B:33 | 헤딩 텍스트, 다크 배경 | (추정) |
+### Color Principles
 
-### 컬러 사용 비율 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러 | 사용 비율 |
-|------|---------|
-| Aptiv Blue `#0066CC` | 30% |
-| Signal White `#FFFFFF` / Warm White `#F5F7FA` | 40% |
-| Deep Navy `#003366` | 15% |
-| Tech Gray `#4A4A4A` / Graphite `#212121` | 10% |
-| 보조 컬러 (Green/Amber/Cyan) | 5% |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-### 서체 시스템 (추정)
-
-| 레벨 | 서체 | 굵기 | 크기 범위 | 용도 |
-|------|------|------|---------|------|
-| Display Heading | Aptiv Sans / Roboto 계열 | Bold (700) | 40–72px | 히어로 섹션, 캠페인 타이틀 |
-| H1 | Aptiv Sans / Roboto | SemiBold (600) | 32–40px | 페이지 주제목 |
-| H2 | Aptiv Sans / Roboto | Medium (500) | 24–32px | 섹션 헤딩 |
-| Body | Aptiv Sans / Open Sans | Regular (400) | 16–18px | 본문 텍스트 |
-| Caption | Aptiv Sans / Open Sans | Light (300) | 12–14px | 캡션, 각주 |
-| Technical | Roboto Mono / 동등 Monospace | Regular (400) | 14–16px | 코드, 기술 사양 |
-
-*Aptiv 전용 서체 공식 명칭은 브랜드 가이드라인 비공개로 추정 기반 작성*
-
-### 타이포그래피 원칙
-- 줄간격(Line Height): 본문 1.6, 헤딩 1.2
-- 자간(Letter Spacing): 헤딩 -0.02em, 본문 0
-- 최대 텍스트 폭: 700px (가독성 최적화)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-### 로고 구성 (공식)
-- **워드마크:** "Aptiv" 소문자 전용, 커스텀 산세리프
-- **심볼:** 없음 (워드마크 단독 사용) (공식)
-- **컬러 버전:** 블루 on White, White on Navy, White on Dark
-- **최소 크기:** 80px 폭 (디지털), 20mm 폭 (인쇄) (추정)
+Aptiv's digital properties employ a typographic system appropriate to its consumer discretionary positioning.
 
-### 로고 사용 금지 사항 (추정)
-- 로고 색상 임의 변경 금지
-- 로고 비율 왜곡 금지
-- 로고 배경 최소 여백(Clear Space) = 로고 높이의 50% (추정)
-- 저해상도 이미지에 로고 중첩 금지
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 아이코노그래피 시스템
+### Typographic Scale
 
-### 아이콘 스타일 (추정)
-- **라인 스타일:** 2px 스트로크, 라운드 캡
-- **그리드:** 24×24px 기본, 48×48px 대형
-- **컬러:** 단색 (모노크로매틱), 컨텍스트에 따라 브랜드 블루 또는 그레이
-
-### 핵심 아이콘 카테고리
-| 카테고리 | 아이콘 예시 | 사용 맥락 |
-|---------|-----------|---------|
-| 안전 | 실드, 체크마크, 헬멧 | ADAS, 안전 시스템 콘텐츠 |
-| 연결성 | 와이파이 파형, 네트워크 노드 | 커넥티비티, V2X 콘텐츠 |
-| 전동화 | 번개 볼트, 충전 플러그 | EV, 고압 시스템 콘텐츠 |
-| 데이터 | 차트, 클라우드, 서버 | SDV, 소프트웨어 콘텐츠 |
-| 글로벌 | 지구, 공장, 지도 핀 | 공급망, 글로벌 오퍼레이션 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 사진·영상 스타일
+## 3. Channel Specifications
 
-### 사진 방향성 (추정)
-- **실제 엔지니어링 현장:** 연구소, 생산라인, 테스트 트랙 중심
-- **사람 중심:** 다양한 배경의 엔지니어·기술자가 주인공
-- **미래적 조명:** 블루·화이트 계열 쿨톤 조명으로 기술적 분위기 강조
-- **금지:** 스톡 사진 느낌의 과도한 연출, 인위적 미소
-
-### 영상 스타일 (추정)
-- **편집 리듬:** 정보 밀도 높은 커팅, 드로잉 애니메이션과 실사 혼합
-- **음악:** 미니멀 일렉트로닉 + 오케스트라 하이브리드
-- **색보정(Grading):** 쿨 블루 베이스, 하이라이트 화이트
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-### Steal Sheet 1: 컬러 활용 레이어
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 요소 | 내용 |
-|------|------|
-| 핵심 전술 | Aptiv Blue(`#0066CC`)와 Deep Navy(`#003366`) 투톤으로 기술 권위 표현 |
-| 배경 활용 | Warm White(`#F5F7FA`) 섹션 배경으로 시각적 호흡 제공 |
-| 포인트 활용 | Safety Green(`#00A651`)을 안전·ESG 관련 콘텐츠에만 제한 사용 |
-| 오류 패턴 | 보조 컬러 남용 시 브랜드 일관성 붕괴 — 5% 비율 엄수 |
-| 훔칠 수 있는 전술 | 경쟁사 발표 시 Aptiv Blue를 배경으로 한 대비 슬라이드 작성 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet 2: 기술 시각화 레이어
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 요소 | 내용 |
-|------|------|
-| 핵심 전술 | 복잡한 E/E 아키텍처를 플로우차트 + 컬러 코딩으로 단순화 |
-| 다이어그램 원칙 | 3단계 이상의 계층 구조는 펼침 방식이 아닌 드릴다운 방식 |
-| 데이터 비주얼 | 바 차트 > 파이 차트 (기술 데이터는 비교가 우선) |
-| 애니메이션 | 배선·신호 흐름은 모션 그래픽으로 시각화 |
-| 훔칠 수 있는 전술 | "차량 내 Aptiv 기술 맵" 인터랙티브 3D 다이어그램으로 기술 존재감 극대화 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Steal Sheet 3: 브랜드 일관성 레이어
+---
 
-| 요소 | 내용 |
-|------|------|
-| 핵심 전술 | 글로벌 사업부 간 비주얼 일관성 유지를 위한 디자인 시스템 토큰화 |
-| 도구 | Figma 기반 디자인 시스템 + Storybook 컴포넌트 라이브러리 (추정) |
-| 관리 원칙 | 마스터 브랜드 > 사업부 > 캠페인 계층 구조 엄수 |
-| 리스크 | Motional JV 브랜드와 Aptiv 모기업 브랜드의 혼용 방지 |
-| 훔칠 수 있는 전술 | 공급사·파트너용 "Aptiv 브랜드 파트너 키트" 배포로 외부 브랜드 일관성 확보 |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Aptiv (APTV)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

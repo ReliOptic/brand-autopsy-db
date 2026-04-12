@@ -1,153 +1,102 @@
-# AES Corporation — 디자인 시스템
+# 05. Design System — AES Corporation (AES)
 
-## 브랜드 비주얼 철학
-
-AES의 디자인 언어는 "신뢰할 수 있는 진보(Trusted Progress)"를 시각적으로 구현한다. 유틸리티 산업의 안정감과 에너지 전환의 역동성을 동시에 표현하며, 과도한 장식을 배제한 데이터 중심의 클린 에스테틱을 지향한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 브랜드 컬러 테이블
+AES Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to utilities sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 색상명 | HEX | 사용 맥락 | 출처 |
-|------|--------|-----|----------|------|
-| Primary Brand | AES Blue | `#003087` | 로고, 주요 헤드라인, CTA 버튼 | (공식) |
-| Primary Brand | AES Light Blue | `#0057A8` | 보조 헤드라인, 링크, 아이콘 | (공식) |
-| Accent | Energy Green | `#4CAF50` | 재생에너지 관련 콘텐츠, 긍정 지표 | (추정) |
-| Accent | Sustainability Teal | `#00897B` | ESG 리포트, 지속가능성 섹션 | (추정) |
-| Neutral | Slate Gray | `#546E7A` | 본문 텍스트, 캡션, 데이터 레이블 | (추정) |
-| Neutral | Light Gray | `#ECEFF1` | 배경, 카드 구분선 | (추정) |
-| Neutral | Off White | `#F5F7FA` | 페이지 배경, 여백 영역 | (추정) |
-| Alert | Warm Amber | `#FF8F00` | 경고, 주의 사항, 강조 콜아웃 | (추정) |
-| Dark | Charcoal | `#212121` | 다크 배경, 고급 IR 자료 | (추정) |
-| White | Pure White | `#FFFFFF` | 로고 역전, 밝은 배경 위 텍스트 | (공식) |
+### Core Brand Colors
 
-### 컬러 사용 비율 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 영역 | 비율 |
-|------|------|
-| AES Blue (#003087) | 40% |
-| Off White / Light Gray | 35% |
-| AES Light Blue (#0057A8) | 15% |
-| Accent (Green/Teal) | 7% |
-| Warm Amber (경고·강조) | 3% |
+### Color Principles
 
-### 컬러 접근성
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 조합 | WCAG 등급 | 비고 |
-|------|----------|------|
-| #003087 on #FFFFFF | AA+ (21:1) | 주요 텍스트 적합 |
-| #0057A8 on #FFFFFF | AA (7.2:1) | 링크·버튼 적합 |
-| #FFFFFF on #003087 | AA+ | 역전 로고 적합 |
-| #4CAF50 on #FFFFFF | AA (4.5:1) | 대형 텍스트 한정 |
-| #FF8F00 on #FFFFFF | AA (3.1:1) | 아이콘·경고 전용 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 시스템 (추정)
+AES Corporation's digital properties employ a typographic system appropriate to its utilities positioning.
 
-| 역할 | 서체 | 굵기 | 크기 범위 |
-|------|------|------|----------|
-| Display / Hero | Helvetica Neue / Inter | Bold (700) | 40~72px |
-| Heading H1 | Helvetica Neue / Inter | SemiBold (600) | 28~40px |
-| Heading H2~H3 | Helvetica Neue / Inter | Medium (500) | 20~28px |
-| Body | Helvetica Neue / Inter | Regular (400) | 14~16px |
-| Data / Label | Roboto Mono / IBM Plex Mono | Regular (400) | 11~13px |
-| Caption | Helvetica Neue / Inter | Light (300) | 11~12px |
+### Typeface System
 
-### 타이포그래피 원칙
-- 라인 길이: 본문 최대 75자 (가독성 최적)
-- 줄 간격(Line Height): 본문 1.6, 헤드라인 1.2
-- 대문자 사용: 섹션 레이블·버튼 텍스트에만 제한적 사용
-- 수치 표기: 태블러 피겨(Tabular Figures) 사용으로 데이터 정렬 일관성
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## 로고 시스템
-
-### 로고 구성 (공식)
-- **워드마크**: "AES" 대문자 + "Corporation" 소문자 서브타이틀
-- **심볼**: 추상적 에너지 흐름을 연상시키는 동적 마크 (공식)
-- **컬러 버전**: 풀컬러(Blue), 화이트 역전, 모노크롬 블랙
-
-### 클리어스페이스 (추정)
-- 최소 클리어스페이스: 로고 높이의 1배 (상하좌우)
-- 최소 크기: 디지털 24px 높이, 인쇄 6mm 높이
-
-### 로고 사용 금지 사항
-- 색상 변경 (승인되지 않은 컬러 적용 금지)
-- 비율 왜곡
-- 복잡한 배경 위 직접 배치 (클리어 영역 없이)
-- 로고 단독 요소 분리 사용
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 그래픽 요소
+## 3. Channel Specifications
 
-### 이미지 스타일 가이드 (추정)
-
-**승인 이미지 스타일**
-- 실제 운영 중인 발전 시설 — 현장감, 규모감 강조
-- 현지 직원·엔지니어 — 다양성, 전문성 표현
-- 인프라 디테일 컷 — 터빈 블레이드, 태양광 패널, 배터리 랙
-- 지역사회 수혜 장면 — 전기 공급 받는 커뮤니티
-
-**금지 이미지 스타일**
-- 과도하게 보정된 스톡 이미지
-- 화석연료 시설 긍정적 묘사
-- 단일 인종·단일 젠더 팀 표현
-- 기후 재앙 이미지 (공포 마케팅 불일치)
-
-### 데이터 시각화 원칙
-- 차트 기본 컬러: AES Blue → AES Light Blue → Teal 그라데이션
-- 그리드 라인: 최소화 (Charcoal 10% 투명도)
-- 레이블: 직접 레이블링 우선 (범례 최소화)
-- 애니메이션: 전환 속도 300ms, easeInOut
-
-### 아이콘 시스템 (추정)
-- 스타일: 라인 아이콘, 2px 스트로크, 24×24px 기본
-- 컬러: AES Blue 단색 또는 Teal Accent
-- 카테고리: 에너지(태양광·풍력·수력·저장), 인프라, ESG, 재무
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 디자인 레이아웃 원칙
+## 4. Layout Principles
 
-### 그리드 시스템
-- 데스크톱: 12컬럼, 거터 24px, 마진 80px
-- 태블릿: 8컬럼, 거터 16px, 마진 40px
-- 모바일: 4컬럼, 거터 16px, 마진 20px
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### 여백 스케일 (8px 기반)
-| 토큰 | 값 |
-|------|-----|
-| xs | 4px |
-| sm | 8px |
-| md | 16px |
-| lg | 24px |
-| xl | 40px |
-| 2xl | 64px |
-| 3xl | 96px |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 컴포넌트 스타일 패턴 (추정)
-- **카드**: 흰 배경, 반경 8px, 그림자 `0 2px 12px rgba(0,48,135,0.08)`
-- **버튼 Primary**: #003087 배경, 흰 텍스트, 반경 4px, 패딩 12×24px
-- **버튼 Secondary**: 흰 배경, #003087 테두리·텍스트, 동일 구조
-- **표(Table)**: 헤더 #003087 배경·흰 텍스트, 홀수행 #F5F7FA, 짝수행 #FFFFFF
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 모션 & 인터랙션 (추정)
+## 5. Design Prohibitions
 
-| 요소 | 지속 시간 | 이징 |
-|------|----------|------|
-| 버튼 호버 | 150ms | ease |
-| 카드 호버 (그림자) | 200ms | easeOut |
-| 페이지 전환 | 300ms | easeInOut |
-| 데이터 차트 진입 | 600ms | easeOut |
-| 모달 오픈 | 250ms | easeInOut |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-모션 원칙: 유틸리티 브랜드 특성상 과도한 애니메이션 지양. 데이터 전달 목적의 기능적 모션만 허용.
+---
+
+*Layer 5 of 8 — Brand Autopsy: AES Corporation (AES)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

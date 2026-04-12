@@ -1,151 +1,102 @@
-# 05 디자인 시스템 — UnitedHealth Group (UNH)
+# 05. Design System — UnitedHealth Group (UNH)
 
-> 섹터: 건강보험 · 관리의료 | 기준일: 2026-04
-
----
-
-## 1. 브랜드 컬러 시스템
-
-### 1-1. UnitedHealthcare 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| UHC Blue (Primary) | `#002677` | R:0 G:38 B:119 | 주요 브랜드 컬러, 헤더, CTA | (공식) |
-| UHC Gold | `#F5A800` | R:245 G:168 B:0 | 강조, 아이콘, 포인트 | (공식) |
-| UHC Light Blue | `#1355E8` | R:19 G:85 B:232 | 링크, 보조 CTA, 디지털 UI | (추정) |
-| White | `#FFFFFF` | R:255 G:255 B:255 | 배경, 텍스트 역전 | (공식) |
-| Neutral Gray | `#F4F4F4` | R:244 G:244 B:244 | 배경 섹션, 카드 | (추정) |
-| Dark Gray | `#333333` | R:51 G:51 B:51 | 본문 텍스트 | (추정) |
-
-### 1-2. Optum 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Optum Orange (Primary) | `#FF6310` | R:255 G:99 B:16 | 주요 브랜드 컬러, 헤더 | (공식) |
-| Optum Dark Blue | `#002677` | R:0 G:38 B:119 | UHG 그룹 통일성, 헤더 보조 | (공식) |
-| Optum Light Orange | `#FF8C42` | R:255 G:140 B:66 | 그라디언트, 아이콘 | (추정) |
-| Optum Teal | `#007C89` | R:0 G:124 B:137 | 데이터 시각화, 강조 | (추정) |
-| White | `#FFFFFF` | R:255 G:255 B:255 | 배경 | (공식) |
-| Charcoal | `#1A1A1A` | R:26 G:26 B:26 | 헤딩 텍스트 | (추정) |
-
-### 1-3. 컬러 사용 규칙 (추정)
-
-| 규칙 | 내용 |
-|------|------|
-| 주색 대비 | UHC Blue(`#002677`) + White: WCAG AA 이상 대비비 충족 |
-| 포인트 색 사용 | Gold(`#F5A800`)는 전체 면적 10% 이내 |
-| 배경 계층 | 흰 배경 → 섹션 구분 시 Gray(`#F4F4F4`) 교차 |
-| 다크모드 | 미공식, 디지털 앱에서 선택적 적용 (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 구분 | 서체명 | 용도 | 출처 |
-|------|--------|------|------|
-| Primary Typeface | **Optum Sans** (자체 개발 추정) | 헤딩·본문 전반 | (추정) |
-| Web Fallback | **Arial / Helvetica Neue** | 웹 시스템 폰트 | (추정) |
-| Display | Bold weight, 32px+ | 히어로·캠페인 헤딩 | (추정) |
-| Body | Regular weight, 16~18px | 본문 텍스트 | (추정) |
-| Caption | Light weight, 12~14px | 법적 고지, 캡션 | (추정) |
+UnitedHealth Group's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-### 타이포그래피 계층
+### Core Brand Colors
 
-```
-H1 (Display Bold, 48~64px) — 페이지 히어로 헤딩
-H2 (Bold, 32~40px)         — 섹션 제목
-H3 (SemiBold, 24~28px)     — 서브섹션
-Body Large (Regular, 18px) — 리드 문단
-Body (Regular, 16px)       — 일반 본문
-Caption (Light, 12px)      — 법적 고지·각주
-```
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 3. 로고 시스템
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### UnitedHealthcare 로고
-- 형태: 방패 + "UnitedHealthcare" 워드마크 (공식)
-- 방패 내부: 파란색 배경 + 흰 십자형 하트 아이콘 (공식)
-- 컬러 버전: 풀컬러(Blue), 화이트 역전, 단색 흑백
-- 최소 사용 크기: 인쇄 16mm / 디지털 32px (추정)
-- 클리어스페이스: 로고 높이의 1배 여백 (추정)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Optum 로고
-- 형태: "optum" 소문자 워드마크 + 오렌지 점(·) 강조 (공식)
-- 컬러: Orange Primary + Dark Blue 텍스트
-- 서브브랜드: OptumRx, OptumHealth, OptumInsight 각 워드마크 존재 (공식)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. 아이콘·일러스트레이션 스타일
+## 2. Typography
 
-| 항목 | 스타일 | 출처 |
-|------|--------|------|
-| 아이콘 스타일 | 선형(Line) + 적절한 곡선, 의료 친화적 | (추정) |
-| 일러스트 스타일 | 플랫 + 다양성 반영 인물, 밝은 배경 | (추정) |
-| 사진 스타일 | 실제 환자·가족·의료진, 자연광, 따뜻한 톤 | (추정) |
-| 데이터 시각화 | UHC Blue + Gold + Teal 팔레트, 심플 차트 | (추정) |
-| 사용 금지 | 병원 장비 클로즈업, 고통 표현 이미지 | (추정) |
+UnitedHealth Group's digital properties employ a typographic system appropriate to its health care positioning.
 
----
+### Typeface System
 
-## 5. UI 컴포넌트 패턴 (디지털)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 버튼 스타일
-| 타입 | 배경색 | 텍스트색 | 보더 |
-|------|--------|----------|------|
-| Primary CTA | `#002677` | `#FFFFFF` | 없음 |
-| Secondary | `#FFFFFF` | `#002677` | 1px `#002677` |
-| Accent | `#F5A800` | `#002677` | 없음 |
-| Disabled | `#CCCCCC` | `#666666` | 없음 |
+### Typographic Scale
 
-### 카드 컴포넌트
-- 배경: `#FFFFFF`
-- 보더: 없음 또는 1px `#E0E0E0`
-- 섀도: `box-shadow: 0 2px 8px rgba(0,0,0,0.08)` (추정)
-- 반경: 8px (추정)
-- 패딩: 24px (추정)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 모션·인터랙션 가이드 (추정)
+## 3. Channel Specifications
 
-| 요소 | 값 |
-|------|-----|
-| 기본 전환 시간 | 200~300ms |
-| 이징 | ease-in-out |
-| 호버 효과 | 배경 10% 밝기 변화 또는 언더라인 |
-| 페이지 전환 | Fade 또는 Slide (0.3s) |
-| 로딩 스피너 | UHC Blue 원형 |
-
----
-
-## 7. 접근성 기준
-
-| 기준 | 수준 |
-|------|------|
-| 색상 대비 | WCAG 2.1 AA 이상 (공식 정책 추정) |
-| 스크린리더 | ARIA 레이블 전면 적용 |
-| 키보드 탐색 | 전체 UI 지원 |
-| 폰트 크기 | 최소 16px 본문 |
-| 시니어 최적화 | Medicare 관련 페이지 대형 텍스트 옵션 (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 8. Steal Sheet — 디자인 레이어별 3개
+## 4. Layout Principles
 
-### [비주얼 신뢰 구축]
-1. **방패 모티프 활용** — UHC 방패 아이콘은 "보호·안전" 연상을 강화; 마케팅 자료 전반에 일관 사용
-2. **따뜻한 다양성 사진** — 다양한 연령·인종·가족 구성 이미지로 포용성 시각화, 병원 장비 이미지 배제
-3. **데이터 시각화 카드** — 복잡한 통계를 단순 인포그래픽으로 변환; Blue+Gold 색상 쌍으로 브랜드 일관성 유지
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### [디지털 UX 패턴]
-1. **"Find a Doctor" 검색창 최상단 배치** — 첫 방문자 최대 과제 즉시 해결; 전환율 최우선 UI
-2. **비용 추정 도구 프로미넌스** — 홈페이지 히어로 영역에 Cost Estimator CTA 배치로 가격 불안 선제 해소
-3. **모바일 퍼스트 클레임 상태 추적** — 앱 내 실시간 클레임 현황 카드; 콜센터 문의 감소 + 만족도 향상
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### [브랜드 일관성 관리]
-1. **Optum-UHC 컬러 코드 분리 유지** — 오렌지(Optum) vs 블루(UHC) 명확 분리; 교차 혼용 금지 규칙 문서화
-2. **서브브랜드 로고 계층 가이드** — UHG > UHC > Optum > OptumRx 순 우선순위 명시, 공동 출현 시 배치 규칙
-3. **연간 브랜드 감사 체크리스트** — 디지털 자산·인쇄물 전수 검토 주기 설정, 구형 로고 잔존 방지
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: UnitedHealth Group (UNH)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

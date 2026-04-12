@@ -1,150 +1,84 @@
-# 02. 오디언스 맵 — Visa (V)
+# 02. Audience Map — Visa Inc. (V)
 
-## 오디언스 구조 개요
-
-Visa는 4-party 네트워크 구조상 **직접 소비자에게 판매하지 않으며**, 이슈어(은행·핀테크)와 어콰이어러(PSP·밴)를 통해 최종 사용자에게 도달한다. 따라서 오디언스는 B2B2C 레이어로 구분된다.
-
-```
-Visa
- ├── B2B 레이어 1: 금융기관 (이슈어 / 어콰이어러)
- ├── B2B 레이어 2: 가맹점 / 기업 결제 팀
- ├── B2B 레이어 3: 핀테크 / 개발자 (Visa Developer Platform)
- └── B2C 레이어:   카드소지자 (최종 소비자)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 글로벌 이슈어 뱅커
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-**이름**: 김민준 (추정 복합 페르소나)
-**직책**: 국내 시중은행 카드사업부 부장 / 글로벌 이슈어 파트너십 담당
-**연령**: 42세
-**근무지**: 서울 여의도
-
-**배경**
-- 15년 경력의 카드/결제 전문 뱅커
-- Visa와의 라이선스 계약 및 포트폴리오 전략을 담당
-- 연간 수천억 원 규모의 Visa 인터체인지·네트워크 수수료 예산을 관리
-- Mastercard, UnionPay와의 경쟁 카드 발급 비중 결정에 영향력 보유
-
-**핵심 고민**
-- Visa 발급 비중 확대 시 인터체인지 수익 구조 최적화
-- 탭투페이·토큰화 전환 비용 부담
-- BNPL·디지털 지갑 확산에 따른 카드 relevance 감소 우려
-- 규제 환경(한국 여전법, 가맹점수수료 상한제) 변화 대응
-
-**정보 소비 채널**
-- Visa Business News 레터, 파이낸셜타임스, 금융감독원 공고
-- Visa 연례 파트너 서밋 (공식)
-- 사내 리서치팀 브리핑
-
-**의사결정 기준**
-1. 네트워크 가용성 SLA (99.999% uptime) (공식)
-2. 사기율(fraud rate) 벤치마크 대비 성과
-3. Visa 공동 마케팅 지원금(Co-op fund) 규모
-4. 경쟁사 대비 인터체인지 구조 유리성
-
-**브랜드와의 관계**
-- Visa를 인프라 파트너로 인식, 감성적 애착보다 계약·성과 중심
-- Visa의 글로벌 네트워크 효과를 핵심 선택 이유로 꼽음
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in transaction & payment processing services. B2C: End consumers of financials products and services. (T4_INFERRED from Visa Inc.'s segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Visa Inc.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 이커머스 CFO / 결제 전략 담당자
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-**이름**: Sarah Chen (추정 복합 페르소나)
-**직책**: 동남아 이커머스 스케일업 CFO / VP Finance
-**연령**: 35세
-**근무지**: 싱가포르
-
-**배경**
-- Series C 단계 이커머스 플랫폼의 재무 총괄
-- 월 GMV $50M, 결제 전환율 1%p 개선 = $5M 매출 영향
-- Stripe, Adyen, PayPal과 Visa Direct, Visa B2B Connect 비교 검토 중
-- 동남아 여러 국가의 결제 규제 환경 동시 대응 필요
-
-**핵심 고민**
-- 결제 실패율(decline rate) 최소화
-- 크로스보더 거래의 환전 손실(FX spread) 축소
-- 사기 거래 차지백(chargeback) 비용 관리
-- 새로운 결제 수단(지갑, QR, BNPL) 통합 복잡성
-
-**정보 소비 채널**
-- Visa Insights 리포트, Stripe Atlas 블로그, Economist
-- Fintech 컨퍼런스 (Money20/20 Asia)
-- 동종 업계 CFO 네트워크, LinkedIn
-
-**의사결정 기준**
-1. API 통합 난이도 및 SDK 품질
-2. 결제 승인율(authorization rate) 데이터
-3. 분쟁 해결 속도 및 차지백 보호 수준
-4. 글로벌 확장 시 커버리지 범위
-
-**브랜드와의 관계**
-- Visa 브랜드 자체보다 Visa 네트워크 위에서 제공되는 솔루션(Visa Direct 등) 관심
-- 직접 계약보다 Adyen 등 어콰이어러를 통한 간접 관계가 많음
+- **Age / Occupation**: 42, VP-level or director in a Visa Inc. customer organization
+- **Core pain**: Needs reliable transaction & payment processing services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Visa Inc. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 밀레니얼 글로벌 소비자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-**이름**: 박지수 (추정 복합 페르소나)
-**직책**: 콘텐츠 크리에이터 / 프리랜서 디자이너
-**연령**: 28세
-**근무지**: 서울 마포구 (해외 출장 연 4-6회)
-
-**배경**
-- 디지털 네이티브, 현금 거의 미사용
-- 신용카드 2장 (Visa + 국내 페이), 애플페이 연동
-- 해외 구독 서비스(Netflix, Adobe, Spotify) 모두 Visa 카드 자동결제
-- 여행 시 Visa 수용 여부를 숙박·식당 선택 기준으로 활용
-
-**핵심 니즈**
-- 해외 어디서나 끊김 없는 결제 경험
-- 실시간 거래 알림·소비 내역 관리
-- 해외 결제 시 추가 수수료 최소화
-- 분실/도용 시 즉각적인 카드 정지 및 보상
-
-**정보 소비 채널**
-- 인스타그램, 유튜브 (여행·라이프스타일 채널)
-- 카드 혜택 비교 앱, 네이버 카페 (신용카드 갤러리)
-- 카드사 앱 푸시 알림
-
-**의사결정 기준**
-1. 해외 수용 범위("여기서 Visa 되나요?")
-2. 여행·쇼핑 혜택(마일리지, 캐시백, 라운지)
-3. 카드사 앱 UX 품질
-4. 친구 추천·SNS 후기
-
-**브랜드와의 관계**
-- "Visa = 해외에서 되는 카드"의 암묵적 신뢰
-- Visa 브랜드 직접 인지보다 카드사 브랜드를 먼저 인식
-- 보안 사고·거절 한 번에 브랜드 신뢰 급락 위험
+- **Age / Occupation**: 35, technical professional who interacts with Visa Inc.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Visa Inc. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 주요 니즈 | Visa 접점 | 전환 장벽 |
-|---------|----------|-----------|----------|
-| 글로벌 이슈어 | 네트워크 성과, 공동마케팅 | 파트너 서밋, 전담 AM | 계약 갱신 주기, 인터체인지 구조 협상 |
-| 이커머스 CFO | 승인율, FX, API | Visa Developer, Direct | 기술 통합 복잡성, 어콰이어러 경유 |
-| 핀테크 개발자 | API, SDK, 샌드박스 | Visa Developer Platform | 온보딩 복잡성, 문서 품질 |
-| 밀레니얼 소비자 | 편의, 혜택, 보안 | 카드사 앱, SNS 광고 | 카드사에 가려진 Visa 인지도 |
-| 기업 구매 담당 | B2B 결제 효율화 | Visa B2B Connect | ERP 연동, 관행적 수표/이체 선호 |
+- **Age / Occupation**: 38, consumer who interacts with Visa Inc.'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Visa Inc. selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 전략 | 실행 방법 | 적용 난이도 |
-|---|------|-----------|------------|
-| 1 | **B2B2C 레이어 분리** 오디언스 전략 | 파트너(이슈어)용 메시지와 최종소비자용 메시지를 완전히 분리 설계 | 중 |
-| 2 | **개발자 커뮤니티 직접 육성** | Developer Portal + 해커톤으로 핀테크 스타트업을 얼리어답터로 전환 | 중 |
-| 3 | **소비자 인지도 = 카드사 브랜드 위임** | 최종 소비자에게는 카드사를 통한 co-branding 의존, 직접 광고는 신뢰·보안 메시지에 집중 | 하 |
+| Stage | Visa Inc.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Visa Inc. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Visa Inc. Is Not For
+
+| Type | Characteristics | Why Visa Inc. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Visa Inc.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Visa Inc.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Visa Inc.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Visa Inc.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Visa Inc.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,121 +1,84 @@
-# 02. 오디언스 맵 — IBM
+# 02. Audience Map — IBM (IBM)
 
-## 오디언스 개요
-
-IBM의 핵심 고객은 B2C 소비자가 아닌 기업 의사결정자(B2B)다. 구매 주기는 6개월~3년이며, 단일 담당자가 아닌 위원회(committee) 구조로 결정된다. 따라서 IBM의 오디언스 맵은 '직책별 페인포인트'와 '구매 여정의 단계별 메시지'를 분리해야 한다.
-
-## 1차 오디언스 (Primary)
-
-| 세그먼트 | 직책 | 규모 | 핵심 관심사 |
-|----------|------|------|------------|
-| 기술 의사결정자 | CIO, CTO, IT 아키텍트 | 500인 이상 기업 | 인프라 안정성, 마이그레이션 리스크, 벤더 의존도 |
-| 비즈니스 의사결정자 | CEO, CFO, CDO | 글로벌 기업 | AI ROI, 디지털 전환 속도, 규제 컴플라이언스 |
-| 기술 실무자 | 개발자, 데이터 사이언티스트, DevOps | 엔터프라이즈·공공기관 | 오픈소스 호환성, API 편의성, 문서 품질 |
-
-## 2차 오디언스 (Secondary)
-
-| 세그먼트 | 특성 | 접점 채널 |
-|----------|------|----------|
-| IT 컨설턴트·SI 파트너 | IBM 솔루션 재판매·구현 | 파트너 포털, IBM PartnerWorld |
-| 정부·공공기관 조달 담당자 | 보안·컴플라이언스 우선 | 공공조달 입찰, 정부 세미나 |
-| 학계·연구기관 | IBM Research 협력, AI 논문 | IBM Research 블로그, 학술 컨퍼런스 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1 — 김정호 CIO (한국 금융권)
+## Ideal Customer Profile (ICP)
 
-**기본 정보**
-- 나이: 52세 / 직책: 국내 중견 은행 CIO / 경력: IT 20년, 현직 5년
-- 예산 권한: 연간 IT 예산 500억 원 이상 (추정)
-- 보고 라인: CEO 직속, 이사회 IT 리스크 위원회 위원
-
-**목표 (Goals)**
-- 레거시 코볼(COBOL) 메인프레임 시스템을 단계적으로 현대화하되, 무중단 서비스 유지
-- 금융위원회 마이데이터·오픈뱅킹 규제를 충족하는 클라우드 아키텍처 구축
-- AI 도입으로 여신 심사·사기 탐지 자동화, 인건비 절감 실적 CEO 보고
-
-**페인포인트 (Pain Points)**
-- 메인프레임 전문 인력 고령화, 내부 기술 부채 악화
-- 퍼블릭 클라우드 전환 시 금융 감독원 규제(망 분리) 충돌
-- AWS·MS Azure 영업팀의 공격적 제안에 내부 압력 증가, 최종 책임은 자신에게 귀결
-
-**IBM과의 관계**
-- 현재 IBM z시리즈 메인프레임 운영 중 (공식, 계약 갱신 예정)
-- watsonx 도입 검토 중이나 사내 데이터 거버넌스 정책 미비로 보류
-- IBM Consulting 현대화 프로젝트 RFP 준비 단계
-
-**메시지 키**
-> "귀행의 z시리즈 인프라를 그대로 유지하면서, Red Hat OpenShift로 신규 AI 워크로드를 병렬 운영하는 하이브리드 경로입니다. 망 분리 규정 내에서 작동합니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in it consulting & other services and adjacent industries. (T4_INFERRED from IBM's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in IBM's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — Sarah Chen, Global CDO (북미 제조업)
+## Core Personas
 
-**기본 정보**
-- 나이: 45세 / 직책: Fortune 500 자동차 부품 제조사 CDO / 경력: 데이터 사이언스 15년
-- 예산 권한: 연간 디지털 혁신 예산 $80M (추정)
-- 보고 라인: CEO 직속, 이사회 기술위원회 분기 보고
+### Persona 1 — Enterprise Decision-Maker
 
-**목표 (Goals)**
-- 공급망 AI 예측 모델로 재고 최적화, 리드타임 30% 단축 목표
-- 생성형 AI 도입 시 지적재산권 및 데이터 유출 리스크 최소화
-- 멀티클라우드(AWS + Azure + 온프레미스) 환경의 데이터 거버넌스 단일화
-
-**페인포인트 (Pain Points)**
-- ChatGPT 류 공개 LLM 사용 시 기업 기밀 데이터 학습 우려로 이사회 제동
-- 각 사업부가 개별 AI 도구를 도입해 데이터 사일로 심화, 통합 대시보드 부재
-- AI 모델 편향(bias) 감사 요구가 EU AI Act 시행으로 현실화
-
-**IBM과의 관계**
-- watsonx.governance 파일럿 진행 중 (추정)
-- IBM Consulting AI 거버넌스 워크숍 참가 경험
-- Red Hat OpenShift 기반 데이터 패브릭 구축 제안 검토 중
-
-**메시지 키**
-> "watsonx.governance는 어떤 클라우드 환경에서도 AI 모델의 편향, 표류, 설명 가능성을 실시간 모니터링합니다. EU AI Act 감사 준비를 자동화할 수 있습니다."
+- **Age / Occupation**: 42, VP-level or director in a IBM customer organization
+- **Core pain**: Needs reliable it consulting & other services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **IBM selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 박준영 개발자/아키텍트 (IT 서비스 기업)
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-- 나이: 34세 / 직책: IBM 파트너사 선임 클라우드 아키텍트 / 경력: 7년
-- 스택: Red Hat OpenShift, Kubernetes, Python, Ansible
-- 커뮤니티: GitHub 활성 기여자, KubeCon 참가 경험
-
-**목표 (Goals)**
-- IBM 파트너 자격(Gold)으로 국내 공공 클라우드 사업 수주 확대
-- watsonx.ai API를 활용한 고객사 맞춤형 AI 어플리케이션 개발 역량 확보
-- 오픈소스 기여 이력으로 개인 커리어 전문성 구축
-
-**페인포인트 (Pain Points)**
-- IBM 기술 문서가 방대하고 버전 간 불일치가 잦아 학습 곡선 가파름
-- watsonx API 요금 체계 복잡, 프로젝트 예산 산정 어려움
-- AWS Lambda·Google Cloud Run 대비 IBM Code Engine의 커뮤니티 생태계 빈약
-
-**IBM과의 관계**
-- IBM PartnerWorld 등록 파트너, 연간 기술 인증 갱신
-- IBM Developer 블로그·튜토리얼 주요 소비자
-- IBM Think 컨퍼런스 온라인 참가 경험
-
-**메시지 키**
-> "IBM Developer 무료 Lite 계정으로 watsonx.ai를 바로 테스트하세요. OpenShift 경험이 있다면 배포 파이프라인은 이미 익숙한 구조입니다."
+- **Age / Occupation**: 35, technical professional who interacts with IBM's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **IBM selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 여정별 메시지 매핑
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 트리거 | IBM 제공 콘텐츠 | CTA |
-|------|--------|-----------------|-----|
-| 인지 (Awareness) | 규제 변화, 경쟁사 AI 도입 소식 | 산업별 트렌드 리포트, IBM Institute for Business Value 연구 | 리포트 다운로드 |
-| 검토 (Consideration) | RFP 준비, 벤더 비교 | 기술 백서, 고객 사례 연구, ROI 계산기 | 데모 신청 |
-| 결정 (Decision) | 이사회 승인 절차, 예산 확정 | 레퍼런스 콜, IBM Garage 파일럿 설계 | 컨설팅 미팅 |
-| 온보딩 (Onboarding) | 계약 완료 후 구현 | IBM Consulting 프로젝트, 기술 교육, 인증 프로그램 | 성공 사례 공동 발행 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate IBM's financial performance, competitive positioning, and risk factors for investment decisions.
+- **IBM selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
-### Steal Sheet — 3가지
+---
 
-1. **직책별 언어를 분리하라.** CIO에게는 "가용성 99.999%", CDO에게는 "AI 편향 감사 자동화", 개발자에게는 "OpenShift 네이티브 배포"라고 말한다. 같은 솔루션이지만 청중에 따라 완전히 다른 문장을 쓴다. B2B 브랜드의 가장 흔한 실수는 CIO 언어로 개발자 문서를 쓰는 것이다.
+## Purchase Journey — AARRR Framework
 
-2. **위원회 구매 구조를 콘텐츠 설계에 반영하라.** IBM은 단일 DM(Decision Maker)이 아니라 CIO+CFO+법무팀이 동시에 설득돼야 계약이 난다. IBM의 산업별 케이스 스터디가 'CEO 인용문 + 재무 ROI + 기술 아키텍처 다이어그램'을 한 문서에 담는 이유다. 각 직책이 원하는 '증거'를 하나의 자산에 레이어링하라.
+| Stage | IBM's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | IBM total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-3. **파트너 생태계를 2차 오디언스로 설계하라.** IBM 제품을 최종 기업에 구현하는 건 IBM Consulting 또는 파트너 SI다. 파트너의 기술 자신감이 높을수록 판매 전환율이 오른다. IBM Developer, PartnerWorld, 기술 인증 프로그램은 파트너를 '세일즈 인력'으로 전환하는 브랜드 투자다.
+---
+
+## Anti-Persona — Who IBM Is Not For
+
+| Type | Characteristics | Why IBM Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | IBM's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | IBM's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | IBM's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+IBM's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+IBM's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

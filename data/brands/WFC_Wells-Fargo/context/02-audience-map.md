@@ -1,88 +1,84 @@
-# 02. 오디언스 맵 — Wells Fargo (WFC)
+# 02. Audience Map — Wells Fargo (WFC)
 
-## 세그먼트 개요
-
-| 세그먼트 | 규모 비중 (추정) | 수익 기여도 (추정) |
-|---------|--------------|----------------|
-| 리테일 개인 고객 | 45% | 30% |
-| 중소기업 (SMB) | 25% | 28% |
-| 대기업·기관 | 15% | 30% |
-| 자산관리 고객 (HNW) | 10% | 10% |
-| 모기지·주택금융 고객 | 5% | 2% |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 마리아 로드리게스 — "성실한 첫 세대 건축자"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 34세 |
-| 직업 | 초등학교 교사 |
-| 거주지 | 텍사스 주 샌안토니오 (히스패닉 커뮤니티) |
-| 연소득 | $52,000 (추정) |
-| 금융 목표 | 첫 주택 구입, 자녀 대학 저축(529 플랜) |
-| 고민 | 학자금 대출 잔액 + 주택 구입 자금 부족, 영어·스페인어 이중 언어 서비스 필요 |
-| 선호 채널 | 모바일 앱, 스페인어 고객센터, 지역 지점 |
-| WFC와의 접점 | 체킹 어카운트, 모기지 사전 심사, 교육적 금융 콘텐츠 |
-| 핵심 메시지 | "당신의 꿈을 향해, 우리가 함께합니다 — Juntos llegamos lejos" |
-| 통증 포인트 | 복잡한 서류, 문화적 신뢰 부족, 이전 스캔들 기억 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in diversified banks. B2C: End consumers of financials products and services. (T4_INFERRED from Wells Fargo's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Wells Fargo's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 제임스 오코너 — "성장 가속 SMB 오너"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 47세 |
-| 직업 | 건설 하청업체 대표 (직원 28명) |
-| 거주지 | 오하이오 주 콜럼버스 |
-| 연매출 | $3.2M (추정) |
-| 금융 목표 | 운전자본 신용한도 확보, 장비 파이낸싱, 비즈니스 체킹 최적화 |
-| 고민 | 계절적 현금흐름 변동, SBA 대출 절차 복잡성, 은행 담당자 잦은 교체 |
-| 선호 채널 | 전담 비즈니스 뱅커, 온라인 포털, 전화 상담 |
-| WFC와의 접점 | 비즈니스 체킹, SBA 대출, 페이롤 서비스 |
-| 핵심 메시지 | "당신의 비즈니스가 성장할 때, Wells Fargo가 그 옆에 있습니다" |
-| 통증 포인트 | 느린 대출 심사, 지점 통폐합, 기업 스캔들 연상 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Wells Fargo customer organization
+- **Core pain**: Needs reliable diversified banks solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Wells Fargo selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 수잔 첸 — "은퇴 준비 자산관리 고객"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 58세 |
-| 직업 | 반도체 기업 시니어 엔지니어 (은퇴 3년 전) |
-| 거주지 | 캘리포니아 주 산호세 |
-| 순자산 | $1.8M (추정, 주택 포함) |
-| 금융 목표 | 401(k) 롤오버, 세금 효율적 인출 전략, 유산 계획 |
-| 고민 | 시장 변동성 불안, 수수료 투명성, 신탁 서비스 필요 |
-| 선호 채널 | 전담 자산관리 어드바이저, 대면 미팅, Wells Fargo Advisors 포털 |
-| WFC와의 접점 | Wells Fargo Advisors, Private Bank, 유언신탁 서비스 |
-| 핵심 메시지 | "수십 년의 노력, 이제는 함께 지켜갑니다" |
-| 통증 포인트 | 과거 스캔들로 인한 수탁자 신뢰 의문, 고액 수수료 |
+- **Age / Occupation**: 35, technical professional who interacts with Wells Fargo's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Wells Fargo selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 고객 여정 맵 (리테일 세그먼트)
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 접점 | 고객 감정 | WFC 목표 |
-|------|------|---------|---------|
-| 인지 | TV 광고, 소셜 미디어, 추천 | 호기심 / 과거 불신 | 신뢰 재건 메시지 노출 |
-| 탐색 | 웹사이트, 앱스토어 리뷰, 지점 방문 | 비교·검토 | 비교 우위 정보 제공 |
-| 전환 | 계좌 개설 (온라인/지점) | 기대감 / 절차 피로 | 마찰 최소화 온보딩 |
-| 사용 | 모바일 앱, ATM, 고객센터 | 일상적 신뢰 | 고빈도 접점 품질 유지 |
-| 심화 | 대출·투자 상품 크로스셀 | 재무 불안감 | 맞춤 금융 솔루션 제시 |
-| 옹호 | 리뷰 작성, 추천 | 만족 / 실망 | NPS 관리, 불만 조기 해소 |
+- **Age / Occupation**: 38, consumer who interacts with Wells Fargo's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Wells Fargo selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 지역별 오디언스 집중도 (추정)
+## Purchase Journey — AARRR Framework
 
-| 지역 | 특징 | 전략 우선순위 |
-|------|------|------------|
-| 캘리포니아 | 아시아계·히스패닉 고농도, 테크 종사자 | 다국어 서비스, 웰스 어드바이저리 |
-| 텍사스 | 히스패닉 성장 시장, SMB 밀집 | 스페인어 마케팅, SBA 대출 |
-| 중서부 | 전통적 리테일 고객, 농업 금융 | 지점 네트워크 유지, 농업 대출 |
-| 북동부 | 기업 금융, 고액 자산가 | 기관 서비스, Private Bank |
+| Stage | Wells Fargo's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Wells Fargo total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Wells Fargo Is Not For
+
+| Type | Characteristics | Why Wells Fargo Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Wells Fargo's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Wells Fargo's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Wells Fargo's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Wells Fargo's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Wells Fargo's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

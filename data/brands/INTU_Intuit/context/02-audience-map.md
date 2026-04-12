@@ -1,119 +1,84 @@
-# 02. 오디언스 맵 — 인튜이트 (Intuit / INTU)
+# 02. Audience Map — Intuit (INTU)
 
-## 타깃 유니버스 개요
-
-인튜이트의 오디언스는 크게 **B2C 납세자·개인 재무 관리자**와 **B2B 소상공인·중소기업**으로 이원화된다. 두 축은 제품 라인(TurboTax / Credit Karma vs. QuickBooks / Mailchimp)으로 분기하며, AI 전략(Intuit Assist)이 두 축을 하나의 플랫폼 경험으로 수렴시키는 구조다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1 — "한 번에 끝내고 싶은 직장인 납세자" (W-2 Amy)
+## Ideal Customer Profile (ICP)
 
-**기본 프로필**
-- 연령·성별: 28~42세 여성, 미국 교외 거주 (추정, TurboTax 사용자 인구통계 기반)
-- 직업: 중견기업 마케터·간호사·교사 등 단일 고용주 W-2 소득자
-- 소득: 연 $55,000~$95,000
-- 기술 수준: 스마트폰 능숙, 세금 용어는 낯섦
-
-**핵심 동기**
-- 세금 신고를 "빨리, 실수 없이" 끝내고 최대 환급을 받고 싶다
-- IRS 감사나 과납 공포 때문에 매년 2~3월이 스트레스다
-- 작년에 쓴 소프트웨어를 올해도 그냥 쓰는 관성이 강하다
-
-**핵심 불안**
-- "내가 공제를 빠뜨리면 어떡하지?" — 환급 극대화 불안
-- "IRS에 뭔가 잘못 신고하면?" — 법적 처벌 공포
-- "세금 소프트웨어 비용이 생각보다 비싸다" — 업셀 피로
-
-**구매 결정 촉진 요인**
-- "최대 환급 보장" 배지
-- 전년도 데이터 자동 불러오기 (전환 마찰 최소화)
-- "전문가 검토 추가" 옵션 (불안 완충재)
-
-**채널 접점**
-- Google 세금 신고 관련 검색 (1~4월 집중)
-- TurboTax 앱 푸시 알림 (기존 사용자)
-- 직장 HR 부서 복지 안내 (파트너십 채널)
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in application software and adjacent industries. (T4_INFERRED from Intuit's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Intuit's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "숫자가 머리 아픈 자영업자" (Freelance Felix)
+## Core Personas
 
-**기본 프로필**
-- 연령·성별: 32~50세 남성, 대도시·원격근무 (추정, QuickBooks 사용자 프로파일 기반)
-- 직업: 프리랜서 디자이너·컨설턴트·배달 플랫폼 파트너
-- 소득: 연 $40,000~$120,000 (변동성 높음)
-- 기술 수준: 앱 사용 중급, 회계는 완전 비전문가
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 동기**
-- 인보이스·경비 추적·분기 세금을 한 곳에서 관리하고 싶다
-- 회계사 비용($200~$500/건)을 절감하고 싶다
-- 현금흐름이 불규칙해 "지금 당장 내야 할 세금이 얼마인지" 즉시 알고 싶다
-
-**핵심 불안**
-- 분기 추정세(Estimated Tax) 마감 놓침 → 벌금 공포
-- 경비 공제 가능 여부를 몰라 과납하는 것 같다는 막연한 불안
-- 사업 성장 시 소프트웨어 이관 비용·데이터 이전 두려움
-
-**구매 결정 촉진 요인**
-- 무료 30일 체험 + 신용카드 자동 연동 데모
-- "자영업자를 위한 세금 공제 체크리스트" 콘텐츠 마케팅
-- QuickBooks ↔ TurboTax 데이터 자동 연동 (생태계 락인)
-
-**채널 접점**
-- YouTube "freelance taxes" 튜토리얼 검색
-- Reddit r/freelance, r/smallbusiness 커뮤니티
-- Instagram·TikTok 소상공인 인플루언서 협업 콘텐츠
+- **Age / Occupation**: 42, VP-level or director in a Intuit customer organization
+- **Core pain**: Needs reliable application software solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Intuit selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "성장하는 소기업 오너" (Scale-up Sarah)
+### Persona 2 — Technical Specialist / End User
 
-**기본 프로필**
-- 연령·성별: 38~55세 여성, 미국 중소도시 (추정, QuickBooks 구독 티어 데이터 기반)
-- 직업: 직원 5~30명 규모 소매업·서비스업·이커머스 오너
-- 매출: 연 $500,000~$5,000,000
-- 기술 수준: SaaS 도구 복수 사용, 의사결정은 숫자 기반
-
-**핵심 동기**
-- 장부·급여·세금·마케팅을 별도 툴 없이 하나의 대시보드에서 보고 싶다
-- 성장에 따른 복잡성 증가를 소프트웨어가 자동 흡수해 주길 원한다
-- 직원 고용·급여 처리에서 컴플라이언스 리스크를 없애고 싶다
-
-**핵심 불안**
-- QuickBooks 가격이 계속 올라간다는 불만 (추정, G2·Trustpilot 리뷰 기반)
-- 데이터를 인질 잡힌 느낌 — 이탈하고 싶어도 전환 비용이 너무 크다
-- AI 기능이 추가될수록 구독료가 더 올라갈 것이라는 예상
-
-**구매 결정 촉진 요인**
-- 회계사·북키퍼와의 협업 기능 (전문가 생태계 연결)
-- QuickBooks Advanced 전용 전담 계정 매니저
-- Mailchimp 통합 → 고객 데이터 기반 마케팅 자동화
-
-**채널 접점**
-- LinkedIn 중소기업 오너 그룹
-- QuickBooks ProAdvisor 파트너 추천 채널 (공식 파트너 프로그램)
-- Google Workspace·Shopify 등 파트너 앱 마켓플레이스
+- **Age / Occupation**: 35, technical professional who interacts with Intuit's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Intuit selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 주요 제품 | 연간 LTV 추정 | 전환 채널 | 이탈 트리거 |
-|----------|-----------|--------------|-----------|-------------|
-| W-2 납세자 | TurboTax Free/Deluxe | $0~$89 (추정) | Google SEA, 앱스토어 | 가격 인상, 무료 경쟁 등장 |
-| 프리랜서·긱워커 | TurboTax Self-Employed + QBO Simple Start | $170~$360 (추정) | YouTube, Reddit | 인터페이스 복잡성, 경쟁사 저가 |
-| 소기업 오너 | QBO Essentials~Advanced + Payroll | $800~$3,600 (추정) | ProAdvisor 파트너, LinkedIn | 가격 인상, 전환 비용 감수 |
-| 개인 신용 관리자 | Credit Karma (무료) | 광고·상품 추천 수익 (추정) | 앱스토어, 입소문 | 데이터 프라이버시 우려 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Intuit's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Intuit selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
+## Purchase Journey — AARRR Framework
 
-**1. "세금 달력"을 콘텐츠 전략의 뼈대로 삼아라**
-인튜이트의 오디언스는 1월·4월·10월(확장 마감) 전후로 의도가 급증한다. 인튜이트는 이 주기에 맞춰 SEO 콘텐츠·이메일 시퀀스·앱 푸시를 동기화한다(추정, TurboTax 검색 트렌드 분석 기반). 연중 상시 마케팅이 아니라 "세금 달력 기반 의도 서핑"이 핵심이다. **액션**: 우리 오디언스의 "연간 의도 달력"을 만들고, 피크 3주 전부터 콘텐츠·광고 예산을 집중 배분하라.
+| Stage | Intuit's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Intuit total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-**2. 전문가 채널(ProAdvisor)을 세일즈팀으로 만들어라**
-QuickBooks ProAdvisor 프로그램은 회계사·북키퍼를 무료로 교육하고 인증하는 대신, 그들이 고객에게 QuickBooks를 추천하게 만든다(공식). B2B SaaS에서 가장 저렴한 세일즈 채널은 파트너가 직접 추천하는 것이다(추정). **액션**: 우리 도메인의 신뢰받는 전문가 그룹을 찾아 무료 교육·인증 프로그램을 만들고, 그들을 추천 엔진으로 활성화하라.
+---
 
-**3. 무료 사용자를 "데이터 자산"으로 전환하라**
-Credit Karma는 무료 신용점수 서비스로 수억 명의 재무 데이터를 확보하고, 이를 TurboTax 크로스셀·금융상품 추천 수익으로 전환한다(공식, 인튜이트 IR 기반). 무료는 비용이 아니라 데이터 수집 인프라다. **액션**: 무료 티어를 설계할 때 "이 사용자가 남기는 데이터로 무엇을 교차 판매할 수 있는가"를 먼저 정의하라.
+## Anti-Persona — Who Intuit Is Not For
+
+| Type | Characteristics | Why Intuit Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Intuit's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Intuit's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Intuit's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Intuit's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Intuit's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

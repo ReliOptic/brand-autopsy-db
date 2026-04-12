@@ -1,117 +1,141 @@
-# 06. 채널 플레이북 — Citigroup (C)
+# 06. Channel Playbook — Citigroup (C)
 
-## 채널 전략 개요
-
-Citi의 채널 전략은 **고객 세그먼트별 차별화된 진입점**과 **공통된 브랜드 경험의 일관성** 사이의 균형을 추구한다. 기관 고객은 고접촉(High-Touch) 채널 중심, 리테일 고객은 디지털 퍼스트 + 물리적 보완 구조를 따른다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 역할 정의
+## 1. Channel Strategy Matrix
 
-| 채널 | 주 세그먼트 | 역할 | KPI |
-|------|-----------|------|-----|
-| 공식 웹사이트 (citigroup.com / citi.com) | 전체 | 신뢰 앵커, 정보 허브 | 방문자수, 세션 시간, 전환율 |
-| Citi 모바일 앱 | 리테일 | 일상 금융 인터페이스 | DAU, 기능 사용율, 앱스토어 평점 |
-| Citi Velocity | ICG (기관) | 트레이딩·리서치 플랫폼 | 로그인 빈도, 거래량 |
-| LinkedIn | ICG, HNW | 사상적 리더십, B2B 브랜딩 | 팔로워, 게시물 참여율 |
-| Twitter/X | 전체 | 신속 공지, 위기 커뮤니케이션 | 응답 속도, 언급량 |
-| Instagram | 리테일 (밀레니얼) | 감성 브랜딩, 리워드 홍보 | 팔로워, 저장수, 링크 클릭 |
-| YouTube | 리테일, ICG | 교육 콘텐츠, 브랜드 광고 | 시청 시간, 구독자 |
-| 이메일 뉴스레터 | ICG, HNW | 리드 너처링, 리서치 배포 | 오픈율, 클릭율 |
-| 지점 (Branch) | 리테일, HNW | 고접촉 서비스, 신뢰 구축 | 방문자, 계좌 개설수 |
-| Citi Private Bank 채널 | HNW | 초고액 자산가 전용 (초청제) | AUM, 고객 유지율 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 채널별 콘텐츠 운영 원칙
+## 2. Channel Tone Variations
 
-### 공식 웹사이트
+Citigroup's core voice adjusts by channel while maintaining brand coherence.
 
-**목적:** 브랜드 신뢰의 최종 앵커, 모든 캠페인의 랜딩 목적지
-
-- 홈페이지 히어로: 분기별 갱신, 전략 메시지와 연동 (추정)
-- 리서치 허브: Citi GPS 보고서, 시장 전망 정기 발행 (공식)
-- 접근성: WCAG 2.1 AA 준수 의무 (공식)
-- 다국어: 영어 기본, 현지 언어 지원 국가별 상이 (추정)
-
-**금지 콘텐츠:** 경쟁사 직접 언급, 미확인 수익률 수치 게시
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
+
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
+
+---
+
+## 4. Channel-Specific Prohibitions
+
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
 ### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**목적:** 기관 고객 및 인재 유치를 위한 사상적 리더십 채널
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-- 게시 빈도: 주 3~5회 (추정)
-- 최적 포맷: 인사이트 아티클, 리더 코멘터리, 인포그래픽
-- 해시태그 전략: #GlobalFinance #TreasuryManagement #Sustainability #CitiTransformation (추정)
-- CEO/임원 개인 계정 연계: Jane Fraser 공식 계정 활발 운영 (공식)
-
-**금지 행동:** 경쟁사 비방, 규제 관련 사건에 대한 즉흥 코멘트
-
----
-
-### Instagram
-
-**목적:** 밀레니얼·Z세대 리테일 고객 브랜드 인지도 및 리워드 프로그램 홍보
-
-- 게시 빈도: 주 4~7회 (추정)
-- 최적 포맷: Reels(15~30초), 캐러셀, 스토리 폴(Poll)
-- 비주얼 일관성: Citi Blue + 화이트 배경 기조, 라이프스타일 이미지
-- 스토리 활용: 한정 혜택, Q&A, 설문
-
-**금지 행동:** 과도한 금융 전문 용어, 법적 면책 없는 수익률 언급
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 이메일 뉴스레터 (기관 타깃)
+## 5. Crisis Response Protocol
 
-**목적:** ICG·HNW 고객 대상 Citi 리서치 및 마켓 인사이트 정기 배포
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-- 발행 주기: 주 1회 (시장 브리핑), 분기 1회 (심층 리포트) (추정)
-- 구조: 헤드라인 → 핵심 데이터 3개 → 풀 리포트 링크 → CTA
-- 개인화: 구독자 지역·산업 기반 세그먼트 분류 (추정)
-- A/B 테스트: 제목줄 및 전송 시간 최적화 (추정)
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
----
+### Scenario 2 — Regulatory or Legal Action
 
-### Citi 모바일 앱
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-**목적:** 리테일 고객의 일상적 금융 활동 인터페이스이자 교차 판매 채널
+### Scenario 3 — Reputation / Social Media Issue
 
-- 핵심 기능: 계좌 조회, 이체, 카드 관리, 리워드 확인 (공식)
-- 알림 전략: 거래 알림 즉시 발송, 혜택 알림 최적 타이밍 (추정)
-- 마찰 제거: 로그인 3단계 이내, 주요 기능 2탭 이내 접근 (추정)
-- 교차 판매 트리거: 해외 결제 감지 시 → 글로벌 카드 업그레이드 제안 (추정)
-
----
-
-## 위기 커뮤니케이션 프로토콜
-
-| 상황 | 1차 채널 | 대응 시간 | 메시지 원칙 |
-|------|---------|---------|-----------|
-| 서비스 장애 | Twitter/X + 앱 배너 | 30분 이내 (추정) | 사실 인정 → 복구 예상 시간 → 보상 안내 |
-| 규제 이슈/벌금 | 공식 보도자료 + 웹사이트 | 당일 (추정) | 법적 문구 준수, CEO 또는 CCO 서명 |
-| 시장 혼란 시 | LinkedIn + 이메일 | 영업일 기준 24시간 (추정) | 안정화 메시지, 고객 자산 보호 강조 |
-| SNS 부정 이슈 확산 | Twitter/X + 고객센터 연동 | 1~2시간 (추정) | 공감 우선, 개인 정보 보호 절차 안내 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## Steal Sheet — 채널 레이어별 훔쳐야 할 것
+## 6. Steal Sheet — 3 Transferable Principles
 
-| # | 경쟁사/대상 | 훔쳐야 할 채널 전략 | Citi 적용 방식 |
-|---|-----------|------------------|-------------|
-| 1 | JPMorgan Chase | "The Daily Chase" 형식의 일일 시장 브리핑 LinkedIn 시리즈 | "Citi Morning Brief" 시리즈 도입 — 아시아 개장 전 타이밍 공략으로 JPM 대비 시차 우위 확보 (추정) |
-| 2 | Revolut | 앱 내 교육 콘텐츠 + 게이미피케이션 (배지, 스트릭) | Citi 앱에 "글로벌 여행자 금융 챌린지" 기능 추가로 Z세대 참여율 제고 (추정) |
-| 3 | Goldman Sachs | 고급 초청 포럼 (Sustain, Global Macro Conference) 콘텐츠 에코시스템 | Citi GPS 리포트를 중심으로 연간 "Citi Global Outlook Summit" 이벤트 콘텐츠 허브 구축 (추정) |
+**1. Align channel formality with audience expectations.**
+Citigroup's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+Citigroup's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 채널 성과 벤치마크 (추정)
-
-| 채널 | 업계 평균 | Citi 목표 | 비고 |
-|------|---------|---------|------|
-| 이메일 오픈율 (금융) | 21~25% | 30% 이상 | 개인화 강화 전제 (추정) |
-| LinkedIn 게시물 참여율 | 0.5~1.0% | 1.5% 이상 | 리서치 콘텐츠 중심 (추정) |
-| 앱스토어 평점 | 4.0/5.0 | 4.5/5.0 이상 | UX 지속 개선 전제 (추정) |
-| 모바일 앱 월간 활성 사용자 유지율 | 60~70% | 80% 이상 | 교차 판매 기능 연계 (추정) |
+**3. Build a cross-channel sequence, not parallel silos.**
+Citigroup's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

@@ -1,124 +1,84 @@
-# 02. 오디언스 맵 — Citigroup (C)
+# 02. Audience Map — Citigroup (C)
 
-## 오디언스 세그먼트 개요
-
-Citigroup의 고객군은 크게 기관/법인 고객(ICG), 리테일 고객(PBWM), 정부/공공 섹터로 3분된다. (공식 사업부 구조 기반)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 글로벌 CFO — "권 전무"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 권재원 (가명) |
-| 나이 | 52세 |
-| 직책 | 중견 제조업 그룹 CFO |
-| 연 매출 규모 | 5,000억 원 이상 기업 |
-| 국적/거점 | 한국 (서울 본사, 해외 법인 7개국 운영) |
-
-**핵심 니즈:**
-- 다국가 외환 헤징 및 현금 집중 관리 (Cash Pooling)
-- 해외 법인 간 자금이체 수수료 최소화
-- 무역금융 L/C 발행 및 트랜잭션 서비스
-
-**고통점:**
-- 기존 거래 은행의 해외 네트워크 공백 (동남아, 중동)
-- 환율 변동성 대응을 위한 실시간 정보 부재
-- 규제 컴플라이언스 부담 증가
-
-**Citi 선택 이유:** 전 세계 160개국 이상 실물 지점·법인 네트워크, TTS(Treasury and Trade Solutions) 서비스 (공식)
-
-**커뮤니케이션 채널:** LinkedIn, Financial Times, Citi 전담 RM(Relationship Manager), Citi Velocity 플랫폼 (공식)
-
-**의사결정 키워드:** 안정성, 글로벌 커버리지, 컴플라이언스, ROE 최적화
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in diversified banks. B2C: End consumers of financials products and services. (T4_INFERRED from Citigroup's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Citigroup's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 고액자산가 — "박 대표"
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박민지 (가명) |
-| 나이 | 45세 |
-| 직책 | 테크 스타트업 창업자 (EXIT 완료) |
-| 투자 가능 자산 | USD 5M 이상 |
-| 국적/거점 | 한국계 미국 시민권자, 싱가포르 거주 |
-
-**핵심 니즈:**
-- 다국가 자산 관리 및 세무 최적화
-- 프라이빗 뱅킹 수준의 맞춤형 포트폴리오
-- 패밀리 오피스 서비스 및 차세대 자산 이전
-
-**고통점:**
-- 국가 간 세법 복잡성 (미국 FATCA, 싱가포르 세제)
-- 유동성 높은 자산과 대안투자 간 균형 유지
-- 익명성과 보안에 대한 민감도
-
-**Citi 선택 이유:** Citi Private Bank의 글로벌 Ultra-HNW 서비스, 전담 팀 배정 (공식)
-
-**커뮤니케이션 채널:** Citi Private Bank 전담 고문, 초청 세미나, 개인 연락 (추정)
-
-**의사결정 키워드:** 독점성, 재량권, 글로벌 접근성, 세대 간 자산 이전
+- **Age / Occupation**: 42, VP-level or director in a Citigroup customer organization
+- **Core pain**: Needs reliable diversified banks solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Citigroup selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 도시 밀레니얼 — "이지은"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이지은 (가명) |
-| 나이 | 31세 |
-| 직책 | 글로벌 IT 기업 마케팅 매니저 |
-| 거주지 | 서울 / 뉴욕 (업무상 잦은 이동) |
-| 연 소득 | USD 80,000 ~ 120,000 |
-
-**핵심 니즈:**
-- 해외 결제 수수료 없는 신용카드 (Citi Premier 계열)
-- 국가 간 이동 중 24시간 뱅킹 접근성
-- 마일리지·리워드 프로그램 최적화
-
-**고통점:**
-- 국내 은행 앱의 해외 사용 제한
-- 환전 수수료 및 ATM 수수료 이중 부과
-- 고객센터 연결 지연 및 영어 서비스 불편
-
-**Citi 선택 이유:** Citi 리워드 신용카드 시리즈, 글로벌 ATM 수수료 면제 혜택, Citi 앱 해외 사용성 (공식)
-
-**커뮤니케이션 채널:** Instagram, YouTube, Citi 모바일 앱 푸시, 이메일 뉴스레터
-
-**의사결정 키워드:** 편의성, 혜택 가성비, 디지털 경험, 수수료 투명성
+- **Age / Occupation**: 35, technical professional who interacts with Citigroup's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Citigroup selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 비중 (추정) | 수익 기여도 (추정) | 주요 접점 |
-|----------|----------------|------------------|----------|
-| 기관/법인 (ICG) | 15% | 55% | RM, Citi Velocity, IB 딜 |
-| 고액자산가 (Private Bank) | 5% | 20% | 전담 고문, 초청 행사 |
-| 리테일/소비자 (PBWM) | 80% | 25% | 앱, 지점, 카드 |
-
----
-
-## 오디언스 여정 맵 (리테일 기준)
-
-```
-인지 → 탐색 → 비교 → 가입 → 사용 → 충성 → 추천
- ↓       ↓       ↓       ↓       ↓       ↓       ↓
-SNS광고  앱스토어  비교사이트  온보딩   카드결제  리워드   친구초대
-유튜브   웹검색   리뷰확인   지점방문  해외ATM  재신청   소셜공유
-```
+- **Age / Occupation**: 38, consumer who interacts with Citigroup's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Citigroup selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 핵심 오디언스 인사이트
+## Purchase Journey — AARRR Framework
 
-1. **ICG 고객:** 은행을 "서비스 제공자"가 아닌 "전략적 인프라"로 인식. 전환 비용이 높아 진입 장벽이 곧 경쟁 해자 (추정)
-2. **Private Bank 고객:** 브랜드 명성보다 담당자 개인 신뢰를 우선시. RM 이직 시 고객 이탈 리스크 존재 (추정)
-3. **리테일 고객:** Citi를 "글로벌 생활 인프라"로 포지셔닝 시 이탈률 감소 효과 (추정)
+| Stage | Citigroup's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Citigroup total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Citigroup Is Not For
+
+| Type | Characteristics | Why Citigroup Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Citigroup's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Citigroup's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Citigroup's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Citigroup's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Citigroup's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

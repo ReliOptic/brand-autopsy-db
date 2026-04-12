@@ -1,119 +1,84 @@
-# 02 오디언스 맵 — PayPal (PYPL)
+# 02. Audience Map — PayPal (PYPL)
 
-## 오디언스 세그먼트 개요
-
-| 세그먼트 | 규모(추정) | 수익 기여도(추정) |
-|----------|-----------|-----------------|
-| 개인 소비자 (P2P) | 2억+ 계좌 | 중 |
-| 소상공인 (SMB) | 3천만+ 판매자 | 높음 |
-| 대형 이커머스 | 수천 개 엔터프라이즈 | 매우 높음 |
-| 개발자/플랫폼 | Braintree 기반 수만 | 높음 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 디지털 노마드 프리랜서 — "김지훈"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 29세 |
-| 직업 | UI/UX 프리랜서 디자이너 |
-| 거주지 | 서울 / 원격 근무, 연 2-3회 해외 체류 |
-| 연소득 | 약 5,000만 원 (추정) |
-| 주요 기기 | MacBook Pro, iPhone 15 |
-| PayPal 사용 이유 | 해외 클라이언트로부터 달러 수금, 환전 최소화 |
-| 핵심 니즈 | 빠른 수금, 낮은 환전 수수료, 세금 기록 관리 |
-| 불만 포인트 | 수수료 불투명, 계정 동결 경험, CS 응답 지연 |
-| 브랜드 인식 | "불편하지만 해외 결제엔 어쩔 수 없이 써야 해" (추정) |
-| 경쟁 서비스 | Wise, Payoneer |
-
-**김지훈이 듣고 싶은 메시지:**
-> "해외 수금, 이제 수수료 걱정 없이 즉시 받으세요."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in transaction & payment processing services. B2C: End consumers of financials products and services. (T4_INFERRED from PayPal's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in PayPal's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이커머스 창업자 — "박소연"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 35세 |
-| 직업 | 핸드메이드 액세서리 쇼핑몰 운영 (Etsy + 자사몰) |
-| 거주지 | 부산 |
-| 월 거래액 | 약 800만 원 (추정) |
-| 주요 기기 | Windows PC, Galaxy S24 |
-| PayPal 사용 이유 | 해외 구매자 결제 수단 제공, Etsy 정산 연동 |
-| 핵심 니즈 | 구매자 보호 분쟁 최소화, 정산 속도, 환율 안정성 |
-| 불만 포인트 | 분쟁 시 판매자 불리한 구조, 계정 제한 |
-| 브랜드 인식 | "글로벌 판매엔 필수지만 피곤하다" (추정) |
-| 경쟁 서비스 | Stripe, Shopify Payments |
+### Persona 1 — Enterprise Decision-Maker
 
-**박소연이 듣고 싶은 메시지:**
-> "판매자도 보호받아야 합니다. PayPal 판매자 보호 프로그램."
+- **Age / Occupation**: 42, VP-level or director in a PayPal customer organization
+- **Core pain**: Needs reliable transaction & payment processing services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **PayPal selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 테크 스타트업 CTO — "이민준"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직업 | SaaS 스타트업 공동창업자 겸 CTO |
-| 거주지 | 서울 강남 |
-| 팀 규모 | 개발자 12명 |
-| 주요 기기 | MacBook Pro, 다중 클라우드 환경 |
-| PayPal 사용 이유 | Braintree API로 글로벌 결제 인프라 구축 |
-| 핵심 니즈 | API 안정성, 문서 품질, 99.9% 가동률, 웹훅 신뢰성 |
-| 불만 포인트 | Braintree vs PayPal 이중 브랜딩 혼란, 구 API 레거시 |
-| 브랜드 인식 | "Stripe보다 문서가 덜 세련됐지만 글로벌 커버리지는 낫다" (추정) |
-| 경쟁 서비스 | Stripe, Adyen |
-
-**이민준이 듣고 싶은 메시지:**
-> "글로벌 200개국, 단일 API로 연결하세요."
+- **Age / Occupation**: 35, technical professional who interacts with PayPal's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **PayPal selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 여정 맵 (Consumer)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인지 → 고려 → 첫 사용 → 반복 사용 → 옹호
-  |         |          |           |          |
-eBay결제  가입프로세스  P2P송금   자동결제등록  지인추천
-구글검색   수수료비교   카드연동   Venmo연동   리뷰작성
-앱스토어   보안인증    첫구매보호  리워드적립   소셜공유
-```
+- **Age / Occupation**: 38, consumer who interacts with PayPal's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **PayPal selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스 여정 맵 (판매자/SMB)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 통합 → 첫 거래 → 성장 → 의존
-  |        |         |        |       |
-마케팅채널  API연동   첫정산   볼륨증가  전용AM배정
-파트너사    문서검토  분쟁처리  수수료협상 엔터프라이즈
-플러그인    테스트환경 CS경험  대시보드활용 장기계약
-```
-
----
-
-## 세대별 채택률 (추정)
-
-| 세대 | 채택률 | 주요 사용 목적 |
-|------|--------|--------------|
-| Z세대 (18-27) | 중간 | Venmo P2P, 인앱 결제 |
-| 밀레니얼 (28-43) | 높음 | 이커머스, 프리랜서 수금 |
-| X세대 (44-59) | 중간-높음 | 이베이, 해외직구 |
-| 베이비부머 (60+) | 낮음-중간 | 자녀에게 송금, eBay 구매 |
+| Stage | PayPal's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | PayPal total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 오디언스 강도 (추정)
+## Anti-Persona — Who PayPal Is Not For
 
-| 지역 | 강도 | 주요 동인 |
-|------|------|---------|
-| 북미 | ★★★★★ | Venmo 생태계, eBay 레거시 |
-| 서유럽 | ★★★★☆ | 이커머스 결제, 크로스보더 |
-| 동남아 | ★★★☆☆ | 프리랜서 수금, 해외 쇼핑 |
-| 한국 | ★★☆☆☆ | 해외 서비스 결제, 프리랜서 |
-| 중국 | ★☆☆☆☆ | 규제로 제한적 |
+| Type | Characteristics | Why PayPal Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | PayPal's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | PayPal's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | PayPal's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+PayPal's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+PayPal's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

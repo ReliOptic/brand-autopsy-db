@@ -1,143 +1,84 @@
-# 02 오디언스 맵 — Honeywell (HON)
+# 02. Audience Map — Honeywell (HON)
 
-> 산업군: 다각화 산업재 (Diversified Industrial)
-> 기준일: 2026-04-12
-
----
-
-## 1. 타깃 오디언스 개요
-
-Honeywell의 구매 의사결정은 **다층적 B2B 구조**로 이루어진다. 최종 사용자(현장 엔지니어)부터 C-레벨 경영진, 조달 담당자까지 각기 다른 니즈와 언어를 가진다. 아래는 핵심 3개 페르소나로 압축한 오디언스 맵이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 정의
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 박성민 — 플랜트 운영 엔지니어
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직위 | 시니어 공정 엔지니어, 국내 대형 석유화학 플랜트 |
-| 학력 | 화학공학 학사 (추정) |
-| 소득 | 연 7,000~9,000만 원 (추정) |
-| 위치 | 울산, 여수 등 산업단지 인근 거주 |
-
-**역할 및 책임**
-현장 제어 시스템(DCS/SCADA) 유지보수, 설비 가동률 극대화, 안전 규정 준수 감독
-
-**핵심 Pain Points**
-- 레거시 제어 시스템과 신규 소프트웨어의 통합 복잡성
-- 비계획 다운타임 발생 시 생산 손실 압박
-- 글로벌 벤더 기술 지원의 느린 응답속도
-
-**구매 영향력**
-기술 사양 결정에 강한 영향력, 최종 승인은 설비 관리 팀장 이상
-
-**선호 채널**
-기술 백서, 유지보수 매뉴얼, 전문 전시회(KBC, ACHEMA), 벤더 기술 세미나
-
-**브랜드와의 접점**
-Honeywell Process Solutions 제품군(Experion PKS, Uniformance), 현장 기술지원팀
-
-**핵심 메시지 키워드**
-신뢰성, 가동률(Uptime), 예지보전(Predictive Maintenance), 통합 호환성
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in industrial conglomerates and adjacent industries. (T4_INFERRED from Honeywell's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Honeywell's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 김지현 — 건물 자산 관리 디렉터
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 45세 |
-| 직위 | 빌딩 운영 & 에너지 관리 디렉터, 대형 복합 부동산 개발사 |
-| 학력 | 건축공학 또는 경영학 석사 (추정) |
-| 소득 | 연 1억 2,000만~1억 8,000만 원 (추정) |
-| 위치 | 서울 강남/여의도 오피스 근무 |
+### Persona 1 — Enterprise Decision-Maker
 
-**역할 및 책임**
-건물 에너지 비용 절감, 탄소중립 목표 이행, 입주사 쾌적성 유지, ESG 보고 데이터 확보
-
-**핵심 Pain Points**
-- 에너지 비용 급등 및 탄소세 도입 대응
-- 다수 건물의 BMS 데이터 통합 관리 어려움
-- ESG 공시 의무화에 따른 정량 데이터 부족
-
-**구매 영향력**
-솔루션 후보군 선정 및 내부 제안 주도, CFO/CEO 최종 승인
-
-**선호 채널**
-업계 컨퍼런스(Greenbuild, Smart Building Summit), LinkedIn, ROI 계산기, 케이스 스터디
-
-**브랜드와의 접점**
-Honeywell Building Technologies(Forge Energy Optimization, Niagara Framework)
-
-**핵심 메시지 키워드**
-에너지 절감, 탄소중립, ESG 성과, 운영 비용 ROI, 스마트 빌딩
+- **Age / Occupation**: 42, VP-level or director in a Honeywell customer organization
+- **Core pain**: Needs reliable industrial conglomerates solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Honeywell selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 이상훈 — 항공사 MRO 조달 팀장
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 50세 |
-| 직위 | 항공기 부품 & MRO 조달 시니어 매니저, 국적 항공사 |
-| 학력 | 항공기계 또는 산업공학 학사 (추정) |
-| 소득 | 연 9,000만~1억 2,000만 원 (추정) |
-| 위치 | 인천 국제공항 인근 오피스 |
-
-**역할 및 책임**
-항공기 부품(엔진, 항법 시스템) 조달 협상, 공급망 리스크 관리, 규제 기관(국토부/FAA) 적합성 확보
-
-**핵심 Pain Points**
-- 부품 공급 지연으로 인한 항공기 AOG(Aircraft On Ground) 리스크
-- 부품 진위 및 품질 보증 복잡성
-- 글로벌 공급망 가격 변동성
-
-**구매 영향력**
-공급사 자격 심사 및 계약 협상 주도, 기술팀과 공동 결정
-
-**선호 채널**
-항공 전시회(Singapore Airshow, MRO Americas), 공식 OEM 카탈로그, 인증 문서, 전담 Account Manager
-
-**브랜드와의 접점**
-Honeywell Aerospace Technologies(엔진, APU, 항법·통신 시스템, 지상 지원 장비)
-
-**핵심 메시지 키워드**
-OEM 인증, 공급 안정성, 규제 적합성, 기술 지원, Total Cost of Ownership
+- **Age / Occupation**: 35, technical professional who interacts with Honeywell's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Honeywell selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 페르소나 | 의사결정 단계 | 주요 관심 지표 | 콘텐츠 형식 선호 |
-|----------|-------------|--------------|----------------|
-| 박성민 (플랜트 엔지니어) | 기술 검증 → 사양 제안 | MTBF, 가동률, 통합 복잡도 | 기술 백서, 데모 영상, 매뉴얼 |
-| 김지현 (빌딩 디렉터) | 솔루션 탐색 → 내부 제안 | 에너지 절감률, 탄소 감축량, ROI | 케이스 스터디, ROI 계산기, 인포그래픽 |
-| 이상훈 (MRO 조달) | 공급사 자격 심사 → 계약 | 납기, 인증 상태, TCO | OEM 카탈로그, 인증서, AM 미팅 |
-
----
-
-## 4. 오디언스별 구매 여정 (Buyer Journey)
-
-```
-인식(Awareness) → 고려(Consideration) → 결정(Decision) → 유지(Retention)
-```
-
-| 단계 | 박성민 | 김지현 | 이상훈 |
-|------|--------|--------|--------|
-| 인식 | 산업 전시회, 동료 추천 | LinkedIn 광고, 컨퍼런스 | AM 접촉, 입찰 공고 |
-| 고려 | 기술 세미나, POC 테스트 | 케이스 스터디, ROI 시뮬레이션 | 기술 평가, 레퍼런스 체크 |
-| 결정 | 팀장 승인, 기술 사양 제출 | CFO/CEO 보고, 예산 승인 | 계약 협상, 인증 검토 |
-| 유지 | 유지보수 계약, 업그레이드 | 연간 성과 리뷰, 확장 계약 | 장기 공급 협약, 기술 지원 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Honeywell's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Honeywell selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 항목 | Honeywell 접근법 | 벤치마킹 포인트 |
-|---|------|-----------------|----------------|
-| 1 | 페르소나 분화 | 현장 기술자 / 경영 의사결정자 / 조달 전문가를 별도 메시지 레인으로 분리 | 단일 B2B 메시지 탈피, 역할별 언어 최적화 |
-| 2 | 통합 Pain Point | 각 페르소나의 핵심 고통을 제품 기능이 아닌 '비즈니스 결과'로 연결 | 기능 나열 대신 결과 언어(ROI, 가동률, 탄소감축)로 전환 |
-| 3 | 채널-페르소나 정렬 | 기술자에게는 기술 문서, 경영진에게는 ROI 도구, 조달에게는 인증 자료 | 콘텐츠 형식을 오디언스 의사결정 맥락에 정렬 |
+| Stage | Honeywell's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Honeywell total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Honeywell Is Not For
+
+| Type | Characteristics | Why Honeywell Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Honeywell's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Honeywell's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Honeywell's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Honeywell's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Honeywell's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

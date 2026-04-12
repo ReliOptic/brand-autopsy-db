@@ -1,120 +1,84 @@
-# 02 오디언스 맵 — Ameriprise Financial (AMP)
+# 02. Audience Map — Ameriprise Financial (AMP)
 
-## 타깃 시장 개요
-
-Ameriprise는 **대중 부유층(Mass Affluent)** 및 **고자산가(High Net Worth)** 개인을 핵심 고객으로 정의한다.
-투자 가능 자산 $100,000 ~ $5,000,000 구간이 주요 수익 기반이다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 세그먼트 매트릭스
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 투자 가능 자산 | 주요 니즈 | 채널 선호 |
-|---------|--------------|----------|----------|
-| Mass Market | ~$100K 미만 | 저축·부채 관리 | 디지털 셀프서비스 |
-| Mass Affluent | $100K~$1M | 은퇴 계획·자산 증식 | 어드바이저 + 디지털 혼합 |
-| High Net Worth | $1M~$5M | 세금 최적화·상속 | 전담 어드바이저 |
-| Ultra HNW | $5M+ | 패밀리 오피스 서비스 | 프라이빗 뱅킹 수준 (추정) |
-
----
-
-## 페르소나
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in asset management & custody banks. B2C: End consumers of financials products and services. (T4_INFERRED from Ameriprise Financial's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Ameriprise Financial's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 은퇴 준비 베이비부머 — "계획적인 칼"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 칼 (Karl) |
-| 나이 | 58세 |
-| 직업 | 중견기업 엔지니어링 매니저 |
-| 거주지 | 미네소타주 교외 (추정) |
-| 투자 자산 | $650,000 |
-| 가족 | 기혼, 자녀 2명 (대학 졸업) |
-| 목표 | 65세 은퇴, 연 $80K 소득 유지, 배우자 의료비 대비 |
-| 불안 | 인플레이션으로 저축 가치 하락, 시장 폭락 타이밍 |
-| 정보 습득 | WSJ, Morningstar, 어드바이저 대면 미팅 |
-| 브랜드 관계 | 10년 이상 Ameriprise 어드바이저와 관계 유지 (추정) |
-| 핵심 메시지 | "당신의 계획은 이미 충분히 견고합니다. 함께 점검해봅시다." |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Ameriprise Financial customer organization
+- **Core pain**: Needs reliable asset management & custody banks solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Ameriprise Financial selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 자산 축적기 밀레니얼 — "야심찬 레이첼"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 레이첼 (Rachel) |
-| 나이 | 38세 |
-| 직업 | 테크 기업 시니어 프로덕트 매니저 |
-| 거주지 | 텍사스주 오스틴 |
-| 투자 자산 | $280,000 (주택 자산 별도) |
-| 가족 | 동거 파트너, 자녀 1명 계획 중 |
-| 목표 | 55세 조기 은퇴(FIRE), 자녀 교육 펀드 마련 |
-| 불안 | RSU/스톡옵션 세금 처리, 시간 부족으로 포트폴리오 방치 |
-| 정보 습득 | Reddit r/personalfinance, LinkedIn, 팟캐스트 |
-| 브랜드 관계 | 로보어드바이저 이용 후 복잡성 증가로 전문 어드바이저 탐색 (추정) |
-| 핵심 메시지 | "복잡한 세금·투자 문제, 전문가가 처리하는 동안 당신은 커리어에 집중하세요." |
+- **Age / Occupation**: 35, technical professional who interacts with Ameriprise Financial's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Ameriprise Financial selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 상속·이전 준비 사업가 — "성공한 마르코스"
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 마르코스 (Marcos) |
-| 나이 | 52세 |
-| 직업 | 중소기업 오너 (제조업) |
-| 거주지 | 플로리다주 탬파 |
-| 투자 자산 | $2,100,000 (사업체 가치 별도) |
-| 가족 | 기혼, 자녀 3명 |
-| 목표 | 사업체 매각 후 세금 최소화, 자녀에게 자산 이전 |
-| 불안 | 사업 매각 후 갑작스러운 유동성 관리, 상속세 |
-| 정보 습득 | 세무사·변호사 네트워크, 동료 사업주 추천 |
-| 브랜드 관계 | 세무사 소개로 Ameriprise 어드바이저 접촉 (추정) |
-| 핵심 메시지 | "사업 매각 그 다음, 자산이 다음 세대까지 이어지도록 설계합니다." |
+- **Age / Occupation**: 38, consumer who interacts with Ameriprise Financial's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Ameriprise Financial selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 고객 여정 맵 (Customer Journey)
+## Purchase Journey — AARRR Framework
 
-```
-인식(Awareness) → 고려(Consideration) → 전환(Conversion) → 온보딩(Onboarding) → 유지(Retention) → 옹호(Advocacy)
-     ↓                    ↓                    ↓                    ↓                    ↓                  ↓
-광고·검색·추천        웨비나·콘텐츠          어드바이저 첫 면담        재무 플랜 수립          연간 리뷰·리포트        지인 소개·리뷰
-```
-
----
-
-## 고객 페인 포인트 우선순위
-
-| 순위 | 페인 포인트 | 타깃 세그먼트 |
-|------|------------|-------------|
-| 1 | 은퇴 자금 충분성 불확실 | Mass Affluent, HNW |
-| 2 | 세금 최적화 전략 부재 | HNW, 사업주 |
-| 3 | 시장 변동성 공포 | 전 세그먼트 |
-| 4 | 복잡한 금융 상품 이해 어려움 | Mass Affluent |
-| 5 | 어드바이저 신뢰성 검증 어려움 | 신규 고객 |
+| Stage | Ameriprise Financial's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Ameriprise Financial total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 행동 세그먼트 (Behavioral Segmentation)
+## Anti-Persona — Who Ameriprise Financial Is Not For
 
-| 유형 | 특징 | AMP 접근법 |
-|------|------|-----------|
-| DIY 투자자 | 셀프 리서치, 낮은 수수료 민감 | 교육 콘텐츠 → 복잡성 증가 시 전환 유도 |
-| 위임형 | 전문가 의존, 관계 중시 | 어드바이저 매칭 프로그램 |
-| 하이브리드 | 디지털+어드바이저 혼용 | 옴니채널 통합 경험 제공 |
-| 이벤트 드리븐 | 결혼·출산·은퇴 등 라이프이벤트로 진입 | 트리거 기반 마케팅 |
+| Type | Characteristics | Why Ameriprise Financial Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Ameriprise Financial's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Ameriprise Financial's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Ameriprise Financial's full value is realized through deeper operational integration and sustained partnership. |
 
 ---
 
-## 지역 분포 (추정)
+## Steal Sheet — 3 Transferable Principles
 
-| 지역 | 고객 비중 | 특이사항 |
-|------|----------|---------|
-| 중서부 | ~25% | 본사 소재지, 어드바이저 네트워크 밀도 높음 |
-| 남부 | ~22% | 은퇴 이주 수요 증가 |
-| 북동부 | ~20% | HNW 고객 밀도 |
-| 서부 | ~18% | 테크 종사자 신흥 수요 |
-| 기타 | ~15% | — |
+**1. Segment your audience by risk tolerance, not just demographics.**
+Ameriprise Financial's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Ameriprise Financial's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

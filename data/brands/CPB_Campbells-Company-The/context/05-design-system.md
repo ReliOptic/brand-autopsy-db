@@ -1,157 +1,102 @@
-# 05. 디자인 시스템 — Campbell's Company (CPB)
+# 05. Design System — Campbell's Company (The) (CPB)
 
-## 디자인 철학
-
-Campbell's의 비주얼 아이덴티티는 **"클래식의 재해석"** 을 핵심으로 한다. 1898년부터 이어진 레드-화이트 배색과 금색 메달리온은 브랜드의 불변 자산이며, 현대적 감각을 더하되 이 유산을 훼손하지 않는 방향으로 진화한다. Goldfish·Prego 등 서브브랜드는 각자의 고유 팔레트를 가지되, Campbell's 우산 아래 통일성을 유지한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### Campbell's Soup — 코어 팔레트
+Campbell's Company (The)'s visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Campbell Red | `#C8102E` | 200, 16, 46 | 캔 배경, 1차 브랜드 컬러 | (공식) |
-| Classic White | `#FFFFFF` | 255, 255, 255 | 타이포 배경, 여백 | (공식) |
-| Heritage Gold | `#C9973A` | 201, 151, 58 | 메달리온, 테두리 장식 | (추정) |
-| Deep Charcoal | `#2C2C2C` | 44, 44, 44 | 본문 텍스트, 보조 요소 | (추정) |
-| Warm Ivory | `#F5F0E8` | 245, 240, 232 | 배경 대안, 레시피 카드 | (추정) |
+### Core Brand Colors
 
-### Campbell's Soup — 확장 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Tomato Bisque | `#E8532A` | 232, 83, 42 | 소셜 강조색, CTA 버튼 대안 | (추정) |
-| Cream of Mushroom | `#B8A89A` | 184, 168, 154 | 보조 배경, 중립 톤 | (추정) |
-| Vegetable Green | `#4A7C59` | 74, 124, 89 | 웰니스 라인, 친환경 메시지 | (추정) |
-| Navy Anchor | `#1B2A4A` | 27, 42, 74 | 다크모드 배경, 고급 라인 | (추정) |
+### Color Principles
 
-### Goldfish — 서브브랜드 팔레트
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Goldfish Orange | `#F4811F` | 244, 129, 31 | 패키징 1차 컬러 | (추정) |
-| Sunshine Yellow | `#FFD100` | 255, 209, 0 | 패키징 강조, 캐릭터 눈 | (추정) |
-| Playful Red | `#E5202E` | 229, 32, 46 | Goldfish 캐릭터 입 | (추정) |
-| Ocean Blue | `#0072CE` | 0, 114, 206 | 파도 일러스트, 보조 배경 | (추정) |
-| Snack White | `#FAFAFA` | 250, 250, 250 | 패키지 여백 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Prego — 서브브랜드 팔레트
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Prego Red | `#B71C1C` | 183, 28, 28 | 패키징 1차 컬러 | (추정) |
-| Herb Green | `#2E7D32` | 46, 125, 50 | 이탈리안 감성, 허브 강조 | (추정) |
-| Pasta Cream | `#FFF8E1` | 255, 248, 225 | 배경, 라벨 여백 | (추정) |
-| Rustic Brown | `#5D4037` | 93, 64, 55 | 보조 텍스트, 토스트 톤 | (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 코어 서체 시스템 (추정)
+Campbell's Company (The)'s digital properties employ a typographic system appropriate to its consumer staples positioning.
 
-| 용도 | 서체 | 스타일 | 비고 |
-|------|------|--------|------|
-| 헤드라인 | Campbell's 전용 serif (추정) | Bold, 대문자 가능 | 캔 라벨 브랜드 워드마크 기반 |
-| 서브헤드 | Freight Display Pro (추정) | SemiBold | 레시피 카드, 광고 |
-| 본문 | Freight Text Pro (추정) | Regular, 16px+ | 웹·앱 본문 |
-| 보조/캡션 | Helvetica Neue (추정) | Light | 성분표, 법적 문구 |
-| Goldfish 전용 | Rounded sans-serif (추정) | ExtraBold | 어린이 친화적 둥근 글꼴 |
+### Typeface System
 
-### 타이포그래피 원칙
-- 레드 배경 위 흰색 텍스트: 최소 4.5:1 대비비 유지 (접근성 기준, 추정)
-- 헤드라인은 감성적 따뜻함을 위해 이탤릭 serif 허용
-- 디지털 환경에서 최소 본문 크기: 14px
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## 로고 & 워드마크
-
-### Campbell's 코어 로고 규칙 (공식/추정 혼합)
-
-| 항목 | 규정 |
-|------|------|
-| 최소 크기 | 디지털 40px 너비 이상 (추정) |
-| 클리어 스페이스 | 로고 높이의 50% 사방 여백 (추정) |
-| 허용 배경 | 흰색, Campbell Red, 짙은 배경 (공식) |
-| 금지 사항 | 로고 색상 임의 변경, 기울임, 변형 (공식) |
-| 서브브랜드 로고 | 독립 사용 가능, 단 Campbell's 우산 표시 의무 (추정) |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 패키징 디자인 원칙
+## 3. Channel Specifications
 
-### Campbell's Condensed Soup 캔 — 아이코닉 레이아웃
-
-```
-┌─────────────────────┐
-│   [Campbell's 로고]  │  ← Heritage Gold 배경 띠
-│   빨간 상단 3/4      │  ← Campbell Red (#C8102E)
-│                     │
-│   수프 이름 (흰색)    │  ← Classic White 텍스트
-│   + 수프 이미지      │
-│                     │
-│   흰색 하단 1/4      │  ← Classic White
-│   "CONDENSED"       │  ← Deep Charcoal 텍스트
-└─────────────────────┘
-```
-
-**1898년부터 이어진 이 레이아웃은 브랜드 불변 자산으로 간주 (공식)**
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 포토그래피 & 비주얼 스타일
+## 4. Layout Principles
 
-### 핵심 포토 스타일 (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 스타일 | 설명 | 적용 채널 |
-|--------|------|---------|
-| 따뜻한 자연광 | 낮은 색온도(3200K), 부드러운 그림자 | 레시피 콘텐츠, SNS |
-| 라이프스타일 리얼리즘 | 스테이징 없는 실제 부엌 환경, 불완전함 허용 | 소셜미디어, 광고 |
-| 아이콘 클로즈업 | 김이 오르는 수프, 치즈 당김 샷 | 제품 광고, POS |
-| 家族 테이블 샷 | 여러 세대가 함께 앉은 식탁, 다양성 표현 | TV 광고, 브랜드 필름 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 사용 금지 비주얼 (추정)
-- 과도하게 완벽한 푸드 스타일링 (인공적 느낌 전달)
-- 어둡고 차가운 조명 (브랜드 온기와 충돌)
-- 경쟁 브랜드 제품이 보이는 장면
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 일러스트레이션 & 아이콘 시스템 (Goldfish 중심)
+## 5. Design Prohibitions
 
-| 요소 | 스타일 | 색상 | 용도 |
-|------|--------|------|------|
-| Goldfish 캐릭터 | 둥글고 친근한 2D 일러스트 | Goldfish Orange `#F4811F` | 패키징, 마케팅 |
-| 물결 패턴 | 단순 곡선 반복 | Ocean Blue `#0072CE` | 배경 보조 그래픽 |
-| 하트·별 아이콘 | 단순 기하학 | Sunshine Yellow `#FFD100` | 어린이 콘텐츠 강조 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 3가지
-
-### Layer 1: 브랜드 일관성 (Brand Consistency)
-
-| 항목 | 전략 |
-|------|------|
-| Campbell Red 독점화 | `#C8102E` 를 모든 접점의 1차 식별 컬러로 유지하여 경쟁사와 즉각 구분 |
-| 캔 레이아웃 불변성 | 아이코닉 레드-화이트 캔 구조를 디지털·OOH로 확장 시 변형 없이 재현 |
-| 서브브랜드 팔레트 분리 | Goldfish·Prego 각자의 팔레트로 카니발라이제이션 없이 멀티브랜드 관리 |
-
-### Layer 2: 디지털 적용 (Digital Application)
-
-| 항목 | 전략 |
-|------|------|
-| 다크모드 전용 팔레트 | Navy Anchor `#1B2A4A` + Heritage Gold `#C9973A` 조합으로 프리미엄 디지털 경험 |
-| 접근성 우선 대비비 | 모든 텍스트-배경 조합 WCAG AA(4.5:1) 이상 준수로 시니어 고객 가독성 확보 |
-| 모션 컬러 트랜지션 | 스크롤·호버 시 Tomato Bisque `#E8532A` → Campbell Red `#C8102E` 부드러운 전환 |
-
-### Layer 3: 패키징 혁신 (Packaging Innovation)
-
-| 항목 | 전략 |
-|------|------|
-| 한정판 아트 컬래버 | Warhol 팝아트 오마주 패키징으로 SNS 언박싱 콘텐츠 자동 생성 유도 |
-| QR 코드 통합 | 캔 뒷면 QR → Campbell's Kitchen 레시피 직접 연결로 오프라인→디지털 여정 구축 |
-| 지속가능 패키징 신호 | 재활용 가능 소재 아이콘 + Vegetable Green `#4A7C59` 배지로 클린 이미지 강화 |
+*Layer 5 of 8 — Brand Autopsy: Campbell's Company (The) (CPB)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

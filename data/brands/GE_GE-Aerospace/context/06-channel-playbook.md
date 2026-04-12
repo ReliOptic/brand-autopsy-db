@@ -1,174 +1,141 @@
-# GE Aerospace — 채널 플레이북
+# 06. Channel Playbook — GE Aerospace (GE)
 
-> **섹터**: Industrials — Aerospace | **분석 기준일**: 2026-04-12
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 채널 전략 개요
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+GE Aerospace's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│               GE Aerospace 채널 구조 (추정)                   │
-├──────────────────┬──────────────────┬────────────────────── ┤
-│   Owned Media    │   Earned Media   │    Paid Media         │
-├──────────────────┼──────────────────┼───────────────────────┤
-│ • geaerospace.com│ • Aviation Week  │ • LinkedIn Ads        │
-│ • LinkedIn Page  │ • Jane's Defence │ • Google B2B 검색     │
-│ • YouTube        │ • Reuters/AP     │ • Aviation 전문지 광고 │
-│ • Newsroom       │ • 포브스 기술 섹션│ • 컨퍼런스 스폰서십   │
-│ • Email (CRM)    │ • 팟캐스트 출연  │ • 프로그래매틱 리타겟 │
-└──────────────────┴──────────────────┴───────────────────────┘
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
 ```
 
-**채널 우선순위 원칙 (추정)**: Owned → Earned → Paid 순으로 투자 우선순위 설정. 신뢰 기반 산업에서 미디어 출연과 직접 고객 접점이 광고 노출보다 효과적.
-
----
-
-## 2. 채널별 전술 가이드
-
----
-
-### 채널 1: geaerospace.com (공식 웹사이트)
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 기술 허브, 구매 결정 지원, SEO 거점 |
-| 주요 섹션 | 제품 카탈로그 / 서비스 포트폴리오 / 뉴스룸 / IR / 채용 |
-| KPI | 기술 문서 다운로드 수, RFQ(견적 요청) 전환율, 세션 시간 |
-| 콘텐츠 빈도 | 블로그 월 4~8편, 보도자료 이벤트 기반, 제품 페이지 분기 업데이트 (추정) |
-| SEO 우선 키워드 | "commercial jet engine", "LEAP engine efficiency", "GE9X specs" |
-| 최적화 포인트 | 기술 사양 페이지의 구조화 데이터(Schema.org) 적용, 모바일 퍼스트 |
-
----
-
-### 채널 2: LinkedIn
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | B2B 전문가 네트워크, 채용 브랜딩, 기술 사상 리더십 |
-| 팔로워 규모 | 약 80만+ (추정, 2026년 기준) |
-| 게시 빈도 | 주 3~5회 (추정) |
-| 최적 포맷 | 엔지니어 스토리 영상, 기술 인포그래픽, 수치 중심 캐러셀, 임원 아티클 |
-| 최적 시간 | 화~목 오전 7~9시 (미 동부 기준) (추정) |
-| 금지 콘텐츠 | 일반적 동기부여 포스트, 경쟁사 직접 언급, 과도한 자사 홍보 |
-| 광고 활용 | Sponsored Content (기술 백서 리드젠), Message Ads (행사 초청) |
-
-**LinkedIn 콘텐츠 믹스 (추정)**
+### Route B — Thought Leadership Pipeline
 
 ```
-기술 혁신 스토리   ██████████████  40%
-엔지니어/인재 소개 ████████        25%
-회사 뉴스·수주     ██████          20%
-지속가능성         ████            15%
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
 ```
 
----
-
-### 채널 3: YouTube
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 기술 영상 허브, 장기 SEO 자산, 브랜드 스토리텔링 |
-| 채널명 | GE Aerospace (공식) |
-| 주요 시리즈 | 엔진 해부(How It Works), 엔지니어 인터뷰, 테스트셀 영상 |
-| 게시 빈도 | 월 2~4편 (추정) |
-| 최적 길이 | 기술 설명 3~6분, 브랜드 다큐 5~10분 (추정) |
-| SEO 전략 | 영어 자막 + 다국어 자막 제공, 챕터 마커 필수 |
-| 성과 지표 | 시청 시간, 기술 영상 완료율, 웹사이트 전환 링크 클릭 |
-
----
-
-### 채널 4: X (구 Twitter)
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 뉴스 속보 배포, 항공 전문가 커뮤니티 소통, 위기 초기 대응 |
-| 게시 빈도 | 주 3~7회 (추정) |
-| 최적 포맷 | 수치 중심 단문, 기술 영상 클립, 실적 발표 인용 |
-| 해시태그 | #GEAerospace #Aviation #Aerospace #SAF #DefenseTech (추정) |
-| 금지 | 감정적 반응, 정치적 입장 표명, 경쟁사 트윗 인용 공격 |
-| 위기 프로토콜 | 이슈 인지 후 2시간 내 초기 대응 트윗, 이후 공식 성명으로 연결 (추정) |
-
----
-
-### 채널 5: 이메일 / CRM
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 직접 고객 관계 유지, 구매 여정 너처링, 계약 갱신 지원 |
-| 세그먼트 | 항공사 구매팀 / MRO 파트너 / 방산 조달 / 투자자 / 채용 후보 |
-| 발송 빈도 | 월 1~2회 뉴스레터 + 이벤트 기반 트리거 이메일 (추정) |
-| 최적 제목 패턴 | 수치 포함 ("LEAP 15% 연료 절감의 숨겨진 데이터") 또는 질문형 |
-| A/B 테스트 | 제목, CTA 버튼 텍스트, 기술 상세 vs. 요약 포맷 |
-| KPI | 오픈율 25%+ (B2B 항공 업계 벤치마크), CTR 4%+ (추정) |
-
----
-
-### 채널 6: 산업 컨퍼런스 & 이벤트
-
-| 이벤트명 | 유형 | 주기 | GE 역할 | 목적 |
-|----------|------|------|---------|------|
-| Paris Air Show | 무역박람회 | 격년 (홀수년) | 부스 + 키노트 (공식) | 신제품 발표, 수주 계약 |
-| Dubai Airshow | 무역박람회 | 격년 (홀수년) | 부스 + 발표 (공식) | 중동·아태 시장 공략 |
-| MRO Americas | 기술 컨퍼런스 | 연 1회 | 스폰서십 + 기술 세션 (추정) | MRO 파트너 관계 |
-| AUSA Annual | 방산 박람회 | 연 1회 | 부스 + 브리핑 (추정) | 방산 조달청 소통 |
-| Singapore Airshow | 무역박람회 | 격년 (짝수년) | 부스 (추정) | 아태 시장 |
-| Farnborough Airshow | 무역박람회 | 격년 (짝수년) | 부스 + 계약 발표 (공식) | 유럽 시장, 수주 PR |
-
-**이벤트 콘텐츠 원칙 (추정)**
-- 행사 전: 예고 콘텐츠 (티저 영상, LinkedIn 카운트다운)
-- 행사 중: 실시간 LinkedIn/X 업데이트, 라이브 기술 세션
-- 행사 후: 요약 케이스 스터디, 수주 보도자료, 후속 이메일
-
----
-
-### 채널 7: Investor Relations (IR)
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 투자자·분석가 신뢰 구축, 주가 내러티브 관리 |
-| 주요 자산 | 분기 실적 발표, 연간 보고서, Capital Markets Day |
-| 메시지 핵심 | 수주 잔고(Backlog), 마진 개선, 현금 창출, 항공 회복 수요 |
-| 채널 | IR 전용 페이지, Earnings Call 웹캐스트, SEC 공시 (공식) |
-| 분사 후 서사 | "GE Aerospace로의 집중이 주주 가치를 극대화한다" (추정) |
-
----
-
-## 3. 채널 통합 캘린더 프레임워크 (추정)
+### Route C — Earnings and Financial Communications
 
 ```
-분기별 리듬:
-
-1월: 연간 전략 발표 (IR) + LinkedIn 기술 트렌드 시리즈 시작
-3월: MRO Americas 대응 콘텐츠 집중
-4월: Q1 실적 발표 (IR) + 기술 백서 배포
-6월: Paris/Farnborough (격년) 대비 제품 캠페인
-7월: Q2 실적 발표 + 지속가능성 리포트
-9월: 방산 이벤트 시즌 (AUSA 등) 대응
-10월: Q3 실적 발표 + 연간 MRO 파트너 서밋
-11월: Dubai Airshow (격년) + 연말 ESG 성과 발표
-12월: 연간 기술 리뷰 콘텐츠 + 내년 로드맵 티저
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 4. 채널별 KPI 대시보드 (추정)
+## 4. Channel-Specific Prohibitions
 
-| 채널 | 핵심 KPI | 목표 벤치마크 | 측정 도구 |
-|------|---------|--------------|-----------|
-| 웹사이트 | 기술 문서 다운로드, RFQ 전환 | 전환율 2%+ | Google Analytics |
-| LinkedIn | 팔로워 성장률, 게시물 참여율 | 참여율 2%+ | LinkedIn Analytics |
-| YouTube | 시청 완료율, 구독자 성장 | 완료율 40%+ | YouTube Studio |
-| 이메일 | 오픈율, CTR, 해지율 | 오픈 25%+, CTR 4%+ | Salesforce/HubSpot |
-| 이벤트 | 미팅 수, 리드 전환, 계약 금액 | 이벤트당 50+ 미팅 | CRM |
-| 보도자료 | 픽업 미디어 수, 도달 독자 | 주요 항공 미디어 5개+ | Cision/Meltwater |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## Steal Sheet — 채널 플레이북 레이어 (3개)
+## 5. Crisis Response Protocol
 
-| # | 전략 | 실행 방법 | 적용 맥락 |
-|---|------|-----------|-----------|
-| 1 | **에어쇼를 연간 콘텐츠 앵커로 활용** | Paris/Farnborough/Dubai 등 주요 에어쇼를 중심으로 분기 콘텐츠 캘린더를 역산 설계 — 행사 전 6주부터 후 2주까지 멀티채널 동기화 캠페인 실행 | 채널 통합 기획, 콘텐츠 팀 스프린트 |
-| 2 | **LinkedIn 임원 계정을 브랜드 앰플리파이어로** | CEO·CTO 개인 LinkedIn을 통해 기업 계정 도달 불가 영역의 임원 네트워크에 기술 리더십 메시지 전파, 개인 목소리로 기업 메시지 신뢰도 제고 | 기술 발표, 수주 뉴스, 지속가능성 입장 |
-| 3 | **위기 채널 우선순위 사전 정의** | 기술 이슈·안전 사건 발생 시 X(초기 인지) → 웹사이트 Newsroom(공식 성명) → 고객사 직접 이메일(관계 관리) 순의 채널 에스컬레이션 프로토콜을 평시에 수립 | 위기 커뮤니케이션 매뉴얼 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+GE Aerospace's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+GE Aerospace's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+GE Aerospace's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

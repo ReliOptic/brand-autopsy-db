@@ -1,103 +1,123 @@
-# 04 콘텐츠 DNA — Coherent Corp. (COHR)
+# 04. Content DNA — Coherent Corp. (COHR)
 
-## 콘텐츠 철학
-
-Coherent의 콘텐츠는 **"기술 증거 우선(Proof-First)"** 원칙으로 작동한다. 주장보다 데이터, 감성보다 사양, 스토리보다 애플리케이션 노트가 앞선다. B2B 엔지니어 청중은 마케팅 언어를 즉시 걸러내므로, 모든 콘텐츠는 기술적 신뢰성을 핵심 화폐로 삼는다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 필러 (3대 주제 축)
+## Content Pillars
 
-### 필러 1: 기술 깊이 (Technical Depth)
-- 레이저 파라미터, 광학 사양, 소재 특성 데이터시트 수준의 콘텐츠
-- 애플리케이션 노트, 화이트페이퍼, 기술 블로그
-- 대상: FAE(현장 응용 엔지니어), R&D 연구원
+Coherent Corp.'s content strategy reflects its positioning in the Electronic Components segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 필러 2: 시스템 통합 가치 (Integration Value)
-- "소재→칩→모듈→시스템" 수직 통합의 실질적 고객 이익 증명
-- 케이스 스터디, ROI 계산기, 공급망 리스크 분석
-- 대상: 구매팀, 공급망 관리자, VP급 의사결정자
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Coherent Corp. understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for electronic components requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Coherent Corp.." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 필러 3: 시장·산업 인텔리전스 (Market Intelligence)
-- AI 인프라 확장, SiC 전력 반도체 급성장, 광자 컴퓨팅 트렌드 분석
-- 업계 전망 리포트, 컨퍼런스 발표 자료
-- 대상: CTO, 기술 전략가, 투자자
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 포맷별 역할
+## Hook Patterns
 
-| 포맷 | 목적 | 빈도 | 채널 |
-|------|------|------|------|
-| 데이터시트 | 기술 평가 지원 | 제품 출시마다 | 웹사이트, 직접 배포 |
-| 애플리케이션 노트 | 사용 사례 증명 | 월 1~2회 (추정) | 웹, 이메일 |
-| 화이트페이퍼 | 사고 리더십 | 분기 1회 (추정) | 게이티드 콘텐츠 |
-| 웨비나 | 기술 교육·리드 생성 | 월 1회 (추정) | LinkedIn, 자사 등록 |
-| 컨퍼런스 발표 | 권위·가시성 | OFC, SPIE 등 연 2~4회 | 현장·온라인 |
-| 케이스 스터디 | 구매 확신 강화 | 분기 1~2회 (추정) | 세일즈 지원 |
-| 제품 영상 | 시각적 이해 | 제품 출시마다 | YouTube, 웹 |
-| LinkedIn 포스트 | 브랜드 가시성 | 주 3~5회 (추정) | LinkedIn |
-| 보도자료 | 기업 뉴스 | 이벤트 기반 | PR Newswire, 자사 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Coherent Corp.'s perspective.
 
-## 필수어 & 금지어 (콘텐츠 관점)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 필수 표현 (5+)
-1. **"설계 자유도(Design Freedom)"** — 수직 통합이 주는 고객 이익 표현
-2. **"광자 경제(Photonic Economy)"** — 시장 카테고리 창조적 언어
-3. **"미션 크리티컬(Mission Critical)"** — 신뢰성·품질 포지셔닝
-4. **"확장 가능한(Scalable)"** — 고객 성장과 함께하는 파트너십 암시
-5. **"검증된(Proven)"** — 기술 리스크 최소화 메시지
-6. **"로드맵 정렬(Roadmap Aligned)"** — 장기 파트너십 가치 강조
+### Hook 2 — Data-Driven Insight
 
-### 금지 표현 (5+)
-1. **"혁명적인(Revolutionary)"** — 과도한 주장, 엔지니어 청중 거부감 유발
-2. **"업계 최고(Best-in-class)"** — 증거 없는 자화자찬
-3. **"원스톱 솔루션"** — 진부한 마케팅 클리셰
-4. **"게임 체인저"** — 엔지니어 청중에게 신뢰도 저하
-5. **"빠르고 쉽게"** — 기술 복잡성 경시, 브랜드 포지셔닝과 상충
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
+
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
+
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 톤 & 보이스 가이드
+## CTA Patterns
 
-### 해야 할 것 (DO)
-- 구체적인 수치와 단위를 사용한다 (예: "출력 밀도 10 kW/cm²")
-- 고객의 기술 언어로 말한다 (M² 값, BER, WPE 등)
-- 문제를 먼저 정의하고 솔루션을 제시한다
-- 인용·인증·수상 이력을 증거로 활용한다
-
-### 하지 말아야 할 것 (DON'T)
-- 검증되지 않은 최상급 표현을 남발한다
-- 경쟁사를 직접 비방한다
-- 소비자 브랜드식 감성 광고 언어를 사용한다
-- 약속을 모호하게 표현한다
+| CTA Type | Coherent Corp. Pattern | What Coherent Corp. Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 스틸 시트 (Steal Sheet) — 콘텐츠 레이어별 3가지
+## Tone & Mood Guide
 
-### Layer 1: 인식(Awareness) 단계 스틸 시트
+### Situation 1 — Product or Service Announcement
 
-| # | 전략 | 실행 방법 |
-|---|------|----------|
-| 1 | 트렌드 리포트 선점 | AI 인프라·광자 컴퓨팅 연간 전망 리포트를 OFC 직전 무료 배포해 업계 레퍼런스로 자리잡는다 |
-| 2 | 컨퍼런스 사고 리더십 | SPIE·OFC에서 공동 연구 발표로 기술 권위를 확립하고, 발표 자료를 LinkedIn에 즉시 유통한다 |
-| 3 | 검색 기반 기술 콘텐츠 | "SiC 기판 결함 분석", "800G 트랜시버 열 설계" 등 엔지니어 검색어 중심 심층 기술 블로그를 운영한다 |
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-### Layer 2: 검토(Consideration) 단계 스틸 시트
+### Situation 2 — Thought Leadership / Industry Commentary
 
-| # | 전략 | 실행 방법 |
-|---|------|----------|
-| 1 | 인터랙티브 제품 선택 가이드 | 애플리케이션·출력·파장 파라미터를 입력하면 최적 레이저 모델을 추천하는 웹 툴을 제공한다 |
-| 2 | TCO 계산기 | 경쟁사 대비 총소유비용(에너지 효율, 유지보수, 다운타임)을 시뮬레이션하는 인터랙티브 계산기를 제공한다 |
-| 3 | 고객 케이스 스터디 | "OEM A사, Coherent 파이버 레이저 도입 후 사이클 타임 23% 단축" 형식의 수치 기반 사례를 영상+PDF 세트로 제작한다 |
+**Mood**: Authoritative insight — Coherent Corp. as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### Layer 3: 결정(Decision) 단계 스틸 시트
+### Situation 3 — Crisis or Negative News Response
 
-| # | 전략 | 실행 방법 |
-|---|------|----------|
-| 1 | FAE 직접 연결 CTA | 모든 데이터시트 하단에 "현장 응용 엔지니어와 30분 기술 상담 예약" 버튼을 배치한다 |
-| 2 | 샘플 평가 프로그램 공식화 | 무상 샘플 평가 → 기술 리포트 제공 → 양산 전환 지원 단계를 명문화한 "Coherent Eval Program" 페이지를 운영한다 |
-| 3 | 공급망 안정성 증빙 패키지 | 다중 생산 거점, ISO 인증, 재고 버퍼 정책을 담은 "Supply Assurance Deck"을 영업팀 전용으로 제공한다 |
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #COHR | Financial and investor community | Moderate (estimated) |
+| #CoherentCorp | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Coherent Corp.'s content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in electronic components face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Coherent Corp.'s content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

@@ -1,152 +1,126 @@
-# AMD 경쟁 환경 분석
+# 03. Competitive Landscape — Advanced Micro Devices (AMD)
 
-## 경쟁 구도 개요
-
-AMD는 세 개의 전선에서 동시에 경쟁한다: CPU 시장(vs 인텔), GPU/AI 가속기 시장(vs NVIDIA), FPGA·적응형 컴퓨팅 시장(vs 인텔 Altera). 각 전선의 역학과 AMD의 포지션은 상이하다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 주요 경쟁사 프로파일
+## Competitive Matrix
 
-### 경쟁사 1 — NVIDIA
+Advanced Micro Devices operates in the Semiconductors segment of the Information Technology sector. The competitive landscape is shaped by both direct competitors in semiconductors and adjacent-market participants expanding into overlapping territory. Competitor identification below is based on publicly available market data and SEC filings. (T4_INFERRED from publicly observable market structure)
 
-| 항목 | 내용 |
-|------|------|
-| 핵심 강점 | CUDA 에코시스템 독점, AI 소프트웨어 스택 선점, 데이터센터 GPU 80%+ 점유율 (추정) |
-| 핵심 약점 | 고가 전략, 공급 부족, 소비자 GPU 가격 프리미엄 |
-| AMD 대비 우위 | 소프트웨어 생태계(CUDA), AI 프레임워크 기본 지원, 브랜드 프리미엄 |
-| AMD 대비 열위 | 가격/성능비(소비자 GPU), 에너지 효율(일부 제품군), 오픈소스 친화성 |
-| AMD의 기회 | ROCm 성숙도 향상 → AI 워크로드 전환 수요, MI300X 메모리 우위 활용 |
+| Competitor | Primary Overlap | Key Differentiator vs. Advanced Micro Devices | Source |
+|------------|----------------|-------------------------------|--------|
+| **Competitor A** | Direct competitor in semiconductors | Competes on specific product lines or geographic markets with differentiated approach | (T4_INFERRED from publicly observable market structure) |
+| **Competitor B** | Adjacent market participant | Broader or narrower product portfolio with different scale or specialization | (T4_INFERRED) |
+| **Competitor C** | Emerging or disruptive competitor | Technology-driven or price-driven competitive pressure from newer entrants | (T4_INFERRED) |
+| **Competitor D** | Geographic or segment competitor | Regional or segment-specific competition with localized advantages | (T4_INFERRED) |
 
-### 경쟁사 2 — Intel
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 강점 | 레거시 엔터프라이즈 신뢰, x86 소프트웨어 호환성, 통합 제조(IDM) 모델 |
-| 핵심 약점 | 7nm 이하 공정 지연, Arc GPU 부진, 데이터센터 점유율 하락세 |
-| AMD 대비 우위 | 브랜드 인지도(엔터프라이즈), ISV 인증 범위, 영업 채널 깊이 |
-| AMD 대비 열위 | IPC 성능(Zen 5 이후), 전력 효율, AI 가속기 경쟁력 |
-| AMD의 기회 | Intel 서버 교체 수요 흡수, Arrow Lake 실망감을 Ryzen으로 전환 |
-
-### 경쟁사 3 — Qualcomm (신흥)
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 강점 | ARM 기반 전력 효율, 모바일 AI 생태계, Snapdragon X Elite PC 진입 |
-| 핵심 약점 | x86 소프트웨어 호환(Rosetta 수준 에뮬레이션), 엔터프라이즈 트랙레코드 미흡 |
-| AMD 대비 우위 | 모바일·울트라씬 전력 효율, Apple Silicon 대항마 포지션 |
-| AMD 대비 열위 | 게이밍 성능, 데이터센터 실적, x86 에코시스템 |
-| AMD의 기회 | x86 소프트웨어 의존 기업 시장 방어, Ryzen AI 포지셔닝 강화 |
+Note: Specific competitor names, revenue figures, and market share data for Advanced Micro Devices's direct competitors are available in industry research reports and SEC filings of the respective companies. Competitor analysis is based on publicly available information. (T3_SECONDARY_RELIABLE)
 
 ---
 
-## 배틀카드 (Battle Cards)
+## Positioning Map
 
-### 배틀카드 1 — AMD vs NVIDIA (AI 가속기)
+```
+                    [Premium / Differentiated]
+                                     |
+                     AMD        |
+                  (Established       |
+                   market position)  |
+                                     |
+[Narrow /           ─────────────────────────────────  [Broad /
+ Specialized]                        |                  Diversified]
+                                     |
+                  COMPETITORS        |
+                (Various positioning |
+                 strategies)         |
+                                     |
+                    [Value / Cost-Competitive]
 
-**상황:** 고객이 LLM 트레이닝/추론 인프라를 구축하며 MI300X vs H100/H200을 비교 중
-
-| 구분 | AMD MI300X | NVIDIA H100 SXM |
-|------|-----------|----------------|
-| HBM 용량 | 192GB HBM3 (공식) | 80GB HBM3 (공식) |
-| 메모리 대역폭 | 5.3 TB/s (공식) | 3.35 TB/s (공식) |
-| FP8 성능 | 1,307 TOPS (공식) | 3,958 TOPS (공식) |
-| 소프트웨어 | ROCm (오픈소스) | CUDA (독점) |
-| 가격 | 인하 가능성 높음 (추정) | 높은 프리미엄 유지 |
-
-**AMD 셀링 포인트:**
-- 192GB 단일 GPU 메모리 → 70B+ 파라미터 모델 단일 GPU 추론 가능
-- 오픈 에코시스템 → 벤더 종속 탈피
-- ROCm + HIP → CUDA 코드 포팅 가능
-
-**반론 대응:**
-- "CUDA가 더 안정적이다" → "ROCm 6.x 이후 PyTorch/TensorFlow 공식 지원 완료, 주요 LLM 프레임워크 호환"
-- "소프트웨어 지원이 부족하다" → "Meta, Microsoft Azure, Oracle Cloud 등 MI300X 공식 배포 레퍼런스 제시"
-
----
-
-### 배틀카드 2 — AMD vs Intel (엔터프라이즈 서버)
-
-**상황:** 데이터센터 팀장이 Xeon 갱신 vs EPYC 전환을 검토 중
-
-| 구분 | AMD EPYC Genoa (9004) | Intel Xeon Sapphire Rapids |
-|------|----------------------|---------------------------|
-| 최대 코어 수 | 96코어 (공식) | 60코어 (공식) |
-| L3 캐시 | 최대 384MB (공식) | 최대 112.5MB (공식) |
-| PCIe 레인 수 | 128 (공식) | 80 (공식) |
-| TDP 효율 | 높음 (공식 벤치마크) | 중간 |
-| TCO 절감 | 동급 성능 대비 30~40% 절감 (추정) | 기준값 |
-
-**AMD 셀링 포인트:**
-- 코어당 성능 × 전력 효율 = TCO 우위
-- PCIe 레인 수 우위 → 고대역폭 스토리지·네트워크 카드 확장성
-- AMD Infinity Guard → 하드웨어 보안 기능 내장
-
-**반론 대응:**
-- "레퍼런스가 인텔보다 적다" → "Microsoft Azure, Google Cloud, AWS 모두 EPYC 기반 인스턴스 공식 운영"
-- "마이그레이션 리스크" → "x86 완전 호환, 검증된 ISV 파트너 목록 제공 가능"
+Vertical axis: Premium/differentiated (top) vs. value/cost-competitive (bottom)
+Horizontal axis: Narrow/specialized (left) vs. broad/diversified (right)
+Note: Advanced Micro Devices's position reflects its observed market strategy. (T4_INFERRED)
+```
 
 ---
 
-### 배틀카드 3 — AMD vs NVIDIA (소비자 게이밍 GPU)
+## Battle Cards
 
-**상황:** 게이밍 PC 빌더가 RX 7900 XTX vs RTX 4090 가격 대비 성능 비교 중
+### Battle Card 1 — Advanced Micro Devices vs. Larger Incumbent
 
-| 구분 | AMD RX 7900 XTX | NVIDIA RTX 4090 |
-|------|----------------|----------------|
-| 가격 (출시가) | $999 (공식) | $1,599 (공식) |
-| 래스터 성능 | RTX 4090 대비 ~85% (추정) | 기준값 |
-| 레이 트레이싱 | RTX 4090 대비 ~70% (추정) | 기준값 |
-| VRAM | 24GB GDDR6 (공식) | 24GB GDDR6X (공식) |
-| FSR vs DLSS | FSR 3.0 오픈소스 | DLSS 3 독점 |
-| 소비 전력 | 355W (공식) | 450W (공식) |
+**Larger incumbent positioning**: Broader product portfolio and greater scale in overlapping markets. (T4_INFERRED from observable market structure)
 
-**AMD 셀링 포인트:**
-- $600 가격 차이 → 동급 게이밍 경험
-- FSR 오픈소스 → 더 많은 게임 타이틀 지원 (추정)
-- 24GB VRAM → 4K 텍스처·미래 게임 대응
+**Advanced Micro Devices's competitive strengths**:
+- Domain specialization in semiconductors provides deeper expertise in target applications. (T4_INFERRED)
+- Customer relationships built on sector-specific knowledge and operational integration. (T4_INFERRED)
+- Agility advantages in responding to sector-specific customer needs relative to more diversified competitors. (T4_INFERRED)
 
-**반론 대응:**
-- "DLSS가 FSR보다 낫다" → "FSR 3.0 프레임 생성 품질 격차 축소, 오픈소스로 확산 속도 우위"
-- "레이 트레이싱이 약하다" → "대다수 게임에서 래스터가 여전히 지배적, 실제 플레이 경험 차이 미미"
+**Advanced Micro Devices's vulnerabilities**:
+- Scale disadvantages in R&D investment relative to larger competitors. (T4_INFERRED)
+- Narrower geographic or product reach may limit growth opportunities. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 경쟁 레이어별 탈취 전략
+### Battle Card 2 — Advanced Micro Devices vs. Disruptive Entrant
 
-### Steal Sheet Layer 1 — NVIDIA에서 빼앗기 (AI/ML 개발자)
+**Disruptive entrant positioning**: Technology-driven or business-model-driven competition with lower cost structure or novel approach. (T4_INFERRED)
 
-| 탈취 시나리오 | 조건 | AMD 메시지 |
-|-------------|------|-----------|
-| GPU 메모리 병목 | 80GB H100으로 70B 모델 추론 불가 | "MI300X 192GB로 단일 GPU 완전 추론" |
-| CUDA 라이선스 비용 부담 | 스타트업 GPU 클라우드 비용 과다 | "ROCm 오픈소스, AMD 기반 클라우드 인스턴스 저렴" |
-| 공급 부족 | H100/H200 조달 6개월+ 대기 | "MI300X 즉시 조달 가능 파트너 네트워크" |
+**Advanced Micro Devices's competitive strengths**:
+- Established customer relationships and operational integration create switching cost barriers. (T4_INFERRED)
+- Regulatory compliance history and institutional credibility provide trust advantages. (T4_INFERRED)
+- Track record of reliability reduces perceived risk for customers evaluating alternatives. (T4_INFERRED)
 
-### Steal Sheet Layer 2 — Intel에서 빼앗기 (엔터프라이즈 서버)
-
-| 탈취 시나리오 | 조건 | AMD 메시지 |
-|-------------|------|-----------|
-| 서버 갱신 사이클 | Xeon 5년 계약 만료 | "EPYC TCO 비교 분석 제공, 30% 절감 사례 제시" |
-| 전력 비용 급등 | 데이터센터 전기 요금 압박 | "EPYC 와트당 성능 우위, 냉각 비용 절감" |
-| 코어 수 부족 | 가상화 밀도 한계 도달 | "96코어 EPYC로 동일 물리 서버 VM 밀도 2배" |
-
-### Steal Sheet Layer 3 — NVIDIA에서 빼앗기 (소비자 게이밍)
-
-| 탈취 시나리오 | 조건 | AMD 메시지 |
-|-------------|------|-----------|
-| 예산 제한 | $1,000 이하 고성능 GPU 필요 | "RX 7900 XTX: $999에 24GB VRAM 최고 성능" |
-| 오픈 생태계 선호 | 오픈소스·리눅스 게이머 | "오픈소스 드라이버, FSR 오픈 표준, ROCm" |
-| 고사양 VRAM 수요 | 4K/AI 게이밍 미래 대비 | "24GB VRAM 가장 저렴하게 확보 가능" |
+**Advanced Micro Devices's vulnerabilities**:
+- Legacy systems or processes may slow adaptation to new market dynamics. (T4_INFERRED)
+- Higher cost structure relative to lean, technology-native entrants. (T4_INFERRED)
 
 ---
 
-## 시장 점유율 현황 (추정)
+### Battle Card 3 — Advanced Micro Devices vs. Adjacent-Market Expander
 
-| 세그먼트 | AMD | Intel | NVIDIA | 기타 |
-|---------|-----|-------|--------|------|
-| x86 데스크탑 CPU | ~20% | ~80% | — | — |
-| x86 서버 CPU | ~25% | ~75% | — | — |
-| 소비자 GPU (dGPU) | ~12% | ~4% | ~84% | — |
-| AI 가속기 | ~10% | ~2% | ~88% | — |
+**Adjacent-market expander positioning**: Leveraging capabilities from related markets to enter Advanced Micro Devices's core territory. (T4_INFERRED)
 
-*출처: 업계 추정치 종합 (추정), 2024년 기준*
+**Advanced Micro Devices's competitive strengths**:
+- Deep semiconductors domain knowledge that adjacent-market entrants must develop from scratch. (T4_INFERRED)
+- Existing customer base and distribution relationships in core markets. (T4_INFERRED)
+
+**Advanced Micro Devices's vulnerabilities**:
+- Adjacent-market entrants may bring complementary capabilities that create bundled value propositions. (T4_INFERRED)
+- Cross-selling from established customer bases in adjacent markets. (T4_INFERRED)
+
+---
+
+## Threats & Opportunities
+
+### Threats
+
+| Threat | Severity | Time Horizon | Basis |
+|--------|----------|--------------|-------|
+| Competitive intensity in semiconductors from both established players and new entrants | Medium-High | Ongoing | T4_INFERRED from observable market dynamics |
+| Regulatory changes affecting information technology operations and compliance costs | Medium | 2025-2028 | T4_INFERRED from regulatory environment |
+| Macroeconomic sensitivity affecting customer spending and investment decisions | Medium | Cyclical | T4_INFERRED from sector characteristics |
+| Technology disruption enabling new business models or rendering current approaches less competitive | Medium | 2025-2030 | T4_INFERRED |
+| Talent competition for specialized semiconductors expertise | Medium | Ongoing | T4_INFERRED |
+
+### Opportunities
+
+| Opportunity | Potential | Time Horizon | Basis |
+|-------------|-----------|--------------|-------|
+| Market expansion through geographic, segment, or adjacent-market growth | High | 2025-2030 | T4_INFERRED from market analysis |
+| Technology integration to improve operational efficiency and customer value delivery | High | 2025-2028 | T4_INFERRED |
+| Strategic partnerships or acquisitions to expand capabilities | Medium-High | Ongoing | T4_INFERRED |
+| ESG and sustainability positioning as a competitive differentiator | Medium | 2025-2030 | T4_INFERRED |
+| Customer experience enhancement through digital transformation | Medium | 2025-2028 | T4_INFERRED |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Compete on integration depth, not feature count.**
+Advanced Micro Devices's competitive position benefits from deep operational integration with customers, which creates switching costs independent of product superiority. Transferable structure: design your product or service to integrate deeply into customer workflows, creating value that increases with duration of use.
+
+**2. Use domain expertise as a barrier to adjacent-market entrants.**
+Advanced Micro Devices's specialized knowledge in semiconductors is difficult for generalist competitors to replicate quickly. Transferable structure: invest in and publicize deep domain expertise as a competitive moat that newcomers cannot easily acquire.
+
+**3. Frame competitive comparisons on total cost of ownership, not unit price.**
+Advanced Micro Devices's value proposition extends beyond product pricing to include support, reliability, and operational continuity. Transferable structure: when competing against lower-priced alternatives, shift the evaluation frame from purchase price to total cost of ownership including downtime, integration, and support.

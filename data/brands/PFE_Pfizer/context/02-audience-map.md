@@ -1,116 +1,84 @@
-# 02. 오디언스 맵 — Pfizer (PFE)
+# 02. Audience Map — Pfizer (PFE)
 
-> 섹터: Health Care — Pharmaceuticals | 티커: PFE
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-Pfizer는 B2B(의료 전문가·기관)와 B2C(환자·보호자) 이중 구조를 가진다.
-규제 환경상 최종 소비자 직접 광고(DTC)는 미국·뉴질랜드에서만 허용된다. (공식)
-
-| 세그먼트 | 비중(추정) | 커뮤니케이션 채널 |
-|---------|----------|----------------|
-| 의료 전문가 (HCP) | 45% | 학술지, 의학 컨퍼런스, Sales Rep |
-| 병원·기관 구매자 (GPO/IDN) | 20% | B2B 텐더, Key Account Management |
-| 환자 및 보호자 | 20% | DTC 광고(미국), 환자 지원 프로그램 |
-| 정부·규제기관 | 10% | 정책 로비, 공중보건 파트너십 |
-| 투자자·애널리스트 | 5% | IR, 연간 보고서, 실적 발표 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: Dr. 박지현 — 종양내과 전문의
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직책 | 서울 대형 병원 종양내과 부교수 |
-| 학력 | 의학박사, 미국 MD Anderson 펠로우십 수료 |
-| 주요 관심사 | 최신 ADC(항체-약물 접합체) 임상 데이터, 치료 가이드라인 업데이트 |
-| 정보 소비 패턴 | NEJM·Lancet Oncology 구독, ASCO 연례 학술대회 참석, PubMed 일일 검색 |
-| Pain Point | 효능은 있으나 독성 프로파일이 불명확한 신약 도입 결정 부담 |
-| Pfizer 접점 | Medical Science Liaison 방문, Seagen ADC 파이프라인 웨비나 |
-| 구매 영향력 | 처방 결정권 직접 보유 — 높음 |
-| 브랜드 기대 | 정확한 임상 데이터, 빠른 메디컬 어페어즈 응답, 학술 지원 |
-
-**메시지 프레임:** "최신 임상 근거로 당신의 환자 치료 결정을 지원합니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in pharmaceuticals. B2C: End consumers of health care products and services. (T4_INFERRED from Pfizer's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Pfizer's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이수진 — 유방암 생존자 & 환자 옹호자
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 51세 |
-| 직업 | 프리랜서 번역가, 유방암 환자 커뮤니티 운영 |
-| 진단 이력 | HER2+ 유방암 진단 후 3년 관해 중 |
-| 주요 관심사 | 재발 예방 옵션, 부작용 관리, 의료비 지원 |
-| 정보 소비 패턴 | 네이버 카페, 유튜브 의학 채널, Pfizer 환자 지원 웹사이트 |
-| Pain Point | 고가 표적 치료제 본인부담금, 장기 부작용 불확실성 |
-| Pfizer 접점 | Ibrance 환자 지원 프로그램, SNS 인식 캠페인 |
-| 구매 영향력 | 처방 결정에 간접 영향 — 의사에게 특정 치료 요청 가능 |
-| 브랜드 기대 | 접근 가능한 언어, 정서적 공감, 경제적 지원 정보 |
+### Persona 1 — Enterprise Decision-Maker
 
-**메시지 프레임:** "당신의 치료 여정 전 단계에서 Pfizer가 함께합니다."
+- **Age / Occupation**: 42, VP-level or director in a Pfizer customer organization
+- **Core pain**: Needs reliable pharmaceuticals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Pfizer selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: James Thornton — 글로벌 제약 펀드 매니저
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직책 | 뉴욕 대형 자산운용사 헬스케어 섹터 수석 애널리스트 |
-| 주요 관심사 | 파이프라인 가시성, 특허 절벽 리스크, M&A 시너지, EPS 성장률 |
-| 정보 소비 패턴 | SEC 8-K/10-K 파일링, Pfizer IR 웹캐스트, Bloomberg Terminal, 애널리스트 컨센서스 |
-| Pain Point | COVID 매출 급감 이후 핵심 성장 드라이버 불명확성 |
-| Pfizer 접점 | JPMorgan Healthcare Conference, 분기 실적 콜, Seagen 인수 효과 분석 |
-| 구매 영향력 | 대규모 포지션 결정 — 주가·자본비용에 직접 영향 |
-| 브랜드 기대 | 투명한 파이프라인 업데이트, 명확한 자본 배분 전략, 실행 신뢰도 |
-
-**메시지 프레임:** "Pfizer의 과학 파이프라인은 장기 주주 가치 창출의 엔진입니다."
+- **Age / Occupation**: 35, technical professional who interacts with Pfizer's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Pfizer selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 여정 맵 (HCP 중심)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인식 (Awareness)
-  └─ 학술지 광고, 컨퍼런스 부스, MSL 초기 접촉
-      ↓
-고려 (Consideration)
-  └─ 임상 데이터 리뷰, 동료 의견 청취, 웨비나 참석
-      ↓
-처방 결정 (Decision)
-  └─ 치료 가이드라인 검토, 보험 급여 확인, MSL 상세 Q&A
-      ↓
-지속 처방 (Retention)
-  └─ 환자 결과 모니터링, 부작용 보고 지원, 학술 업데이트
-      ↓
-옹호 (Advocacy)
-  └─ 학술 발표, KOL 활동, 동료에게 치료 경험 공유
-```
+- **Age / Occupation**: 38, consumer who interacts with Pfizer's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Pfizer selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 오디언스별 핵심 메시지 매트릭스
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 핵심 니즈 | Pfizer 메시지 | 증거 포인트 |
-|---------|----------|--------------|-----------|
-| HCP (종양내과) | 임상 우월성 | "ADC 기술로 정밀 종양 치료" | DESTINY-Breast 데이터 (공식) |
-| HCP (내과) | 심혈관 위험 관리 | "Eliquis로 뇌졸중 예방" | ARISTOTLE 임상시험 결과 (공식) |
-| 환자 | 치료 접근성 | "환자 지원 프로그램으로 부담 경감" | Pfizer RxPathways 프로그램 (공식) |
-| 기관 구매자 | 비용 효율 | "장기 치료 비용 절감" | 약물경제학 분석 자료 (추정) |
-| 투자자 | 성장 가시성 | "파이프라인 60개+ 신약 후보" | 연간 보고서 R&D 파이프라인 (공식) |
+| Stage | Pfizer's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Pfizer total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Anti-Persona — Who Pfizer Is Not For
 
-| # | 전략 요소 | 실행 힌트 |
-|---|-----------|----------|
-| 1 | **이중 구조 커뮤니케이션 설계** | HCP용(과학 데이터 중심)과 환자용(감성 공감 중심) 메시지를 분리 제작, 동일 브랜드 우산 아래 운용 |
-| 2 | **투자자 페르소나에 파이프라인 스토리 연결** | IR 자료에 '파이프라인 시각화 타임라인' 삽입 → 성장 불확실성 불안 해소 |
-| 3 | **환자 여정 맵으로 콘텐츠 갭 식별** | 각 여정 단계별 콘텐츠 존재 여부 감사 후 빈 단계 우선 채우기 |
+| Type | Characteristics | Why Pfizer Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Pfizer's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Pfizer's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Pfizer's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Pfizer's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Pfizer's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,172 +1,141 @@
-# 06. 채널 플레이북 — Eli Lilly (LLY) / Mounjaro·Zepbound
+# 06. Channel Playbook — Lilly (Eli) (LLY)
 
-## 채널 전략 개요
-
-Lilly의 채널 전략은 **이중 트랙** 구조다:
-- **HCP 트랙**: 의사·약사 대상 과학적 설득 (메디컬 어페어, 영업 담당자, 학회)
-- **DTC 트랙**: 환자·보호자 대상 인식 전환 및 처방 요청 유도
-
-두 트랙은 상호 강화 구조로 설계되며, HCP가 설득되면 환자의 처방 요청에 긍정적으로 반응하고, 환자 수요가 높아지면 HCP의 처방 빈도가 증가한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 우선순위 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 대상 | 중요도 | 투자 비중 (추정) | 역할 |
-|------|------|--------|--------------|------|
-| HCP 직접 영업 (MSL/MR) | 내분비·비만 전문의 | ★★★★★ | 35% | 처방 결정의 핵심 관문 |
-| TV/OTT DTC 광고 | 환자·일반 대중 | ★★★★★ | 25% | 대규모 인지도 형성 |
-| 디지털 (검색/디스플레이) | 정보 탐색 환자 | ★★★★☆ | 15% | 처방 의향 전환 |
-| 의학 학술 채널 (학회, 저널) | HCP | ★★★★☆ | 10% | 과학적 신뢰도 구축 |
-| 소셜 미디어 | 환자, 인플루언서 | ★★★☆☆ | 8% | 커뮤니티 인식 확산 |
-| 환자 지원 프로그램 | 처방 환자 | ★★★★☆ | 5% | 순응도·유지율 향상 |
-| 기타 (PR, 이벤트) | 미디어, 정책 | ★★★☆☆ | 2% | 사회적 의제 설정 |
-
----
-
-## 채널별 상세 플레이북
-
-### 채널 1 — HCP 직접 영업 (MSL / Medical Representative)
-
-**목적**: 전문의에게 임상 데이터 전달, 처방 신뢰 구축, 처방 장벽 해소
-
-| 항목 | 내용 |
-|------|------|
-| 주요 접점 | 병원 방문, 학술 심포지엄, 1:1 디테일링 |
-| 핵심 메시지 | SURPASS/SURMOUNT 데이터 요약, Head-to-head 비교, 부작용 프로파일 |
-| 콘텐츠 도구 | 디지털 디테일링 태블릿, 임상 요약 카드, 처방 가이드 |
-| KPI | 처방 전환율, 신규 처방 의사 수, 월별 처방 건수 |
-| 빈도 | 상위 처방 의사: 월 2회 이상 / 일반: 분기 1회 이상 (추정) |
-
-**Steal Sheet — HCP 영업 채널**
-
-| # | 전술 | 실행 방법 |
-|---|------|---------|
-| 1 | **데이터 우선 도입부** | 첫 30초에 임상 수치 제시 — "22.5% vs 14.9%, 어떤 데이터가 더 설득력 있으십니까?" |
-| 2 | **처방 시뮬레이터 태블릿 앱** | 환자 프로파일 입력 시 예상 HbA1c·체중 감소 시뮬레이션 제공 |
-| 3 | **사후 지원 키트 제공** | 처방 후 환자에게 줄 수 있는 주사 가이드·부작용 관리 카드 세트 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 채널 2 — TV / OTT DTC 광고
+## 2. Channel Tone Variations
 
-**목적**: 광범위한 환자 인지도 형성, 의사 상담 행동 유도
+Lilly (Eli)'s core voice adjusts by channel while maintaining brand coherence.
 
-| 항목 | 내용 |
-|------|------|
-| 주요 플랫폼 | 지상파/케이블 TV, 유튜브 프리롤, Netflix/Disney+ 광고 |
-| 광고 포맷 | 60초 스토리텔링 + 30초 리마인더, 15초 숏폼 |
-| 핵심 메시지 | "Talk to your doctor about Mounjaro/Zepbound" (처방 요청 유도) |
-| ISI 처리 | 하단 자막 + 빠른 보이스오버 (FDA 필수) |
-| 타겟 시청 시간대 | 오전 건강 정보 프로그램, 저녁 뉴스 앞뒤, 주말 오후 (추정) |
-| KPI | 브랜드 인지도 증가율, 의사 상담 요청 증가율, 처방 신규 환자 수 |
-
-**Steal Sheet — TV/OTT 채널**
-
-| # | 전술 | 실행 방법 |
-|---|------|---------|
-| 1 | **감성 오프닝 + 과학 마무리** | 첫 15초: 환자 일상 감성 장면 → 중반: 기전 설명 애니메이션 → 마지막: 데이터 수치 강조 |
-| 2 | **실제 환자 (배우 아님) 증언** | FDA 가이드라인 내에서 실제 환자 스토리 활용 — 신뢰도 증폭 |
-| 3 | **QR코드 + URL 병행 제시** | 광고 말미에 mounjaro.com QR 제시 — TV→디지털 전환 유도 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 채널 3 — 디지털 (검색광고 / 디스플레이 / 프로그래매틱)
+## 3. Cross-Channel Synergy Map
 
-**목적**: 처방 의향 단계 환자 포착, 경쟁사 브랜드 검색에서 전환
-
-| 항목 | 내용 |
-|------|------|
-| 주요 플랫폼 | Google Ads, 네이버 검색광고, 카카오 디스플레이, Meta |
-| 키워드 전략 | "GLP-1 당뇨약", "비만 주사 치료", "오젬픽 대안", "체중 감량 처방" (추정) |
-| 랜딩 페이지 | 적응증별 맞춤 LP — 당뇨 환자용 / 비만 환자용 분리 |
-| 리타겟팅 | 웹사이트 방문자 → 30일 내 처방 유도 광고 재노출 |
-| KPI | CTR, LP 전환율, 의사 찾기 기능 사용률, 처방 요청 폼 제출 수 |
-
-**Steal Sheet — 디지털 채널**
-
-| # | 전술 | 실행 방법 |
-|---|------|---------|
-| 1 | **경쟁 키워드 방어 입찰** | "오젬픽", "위고비" 검색 시 Mounjaro/Zepbound 비교 광고 노출 — "이중 기전, 더 큰 감소폭" |
-| 2 | **"의사 찾기" 기능 LP 통합** | 광고 클릭 → LP 내 "내 근처 처방 가능 의사 찾기" 즉시 노출 — 전환 마찰 최소화 |
-| 3 | **데이터 기반 개인화 배너** | 사용자 인구통계 + 방문 이력 기반으로 "당뇨 관리 중이신가요?" vs "체중이 고민이신가요?" 메시지 분기 |
-
----
-
-### 채널 4 — 소셜 미디어
-
-**목적**: 브랜드 커뮤니티 형성, 비만 스티그마 해소, 바이럴 인식 확산
-
-| 항목 | 내용 |
-|------|------|
-| 주요 플랫폼 | 인스타그램, 유튜브, 틱톡, 카카오스토리 (국내) |
-| 계정 분리 | LillyMed (HCP 교육 중심) / Zepbound (환자 커뮤니티 중심) |
-| 콘텐츠 믹스 | 교육 60% / 환자 스토리 25% / 브랜드 뉴스 15% (추정) |
-| 인플루언서 전략 | 의사 KOL (5만+ 팔로워) + 환자 마이크로 인플루언서 (1만~5만) 병행 |
-| 규제 준수 | 모든 스폰서 콘텐츠에 #ad #sponsored 표기, ISI 링크 포함 |
-| KPI | 팔로워 증가율, 저장·공유율, 댓글 감성 분석, 의사 상담 유입 |
-
-**Steal Sheet — 소셜 미디어 채널**
-
-| # | 전술 | 실행 방법 |
-|---|------|---------|
-| 1 | **"Biology, Not Willpower" 해시태그 캠페인** | 비만 스티그마 해소 시리즈 — 전문의 인터뷰 릴스, 환자 공감 카드뉴스, UGC 리포스트 |
-| 2 | **데이터 숏폼 (TikTok/Reels)** | "22.5%가 뭔지 알아?" — 일상 오브젝트로 체중 감소 시각화, 15~30초 |
-| 3 | **KOL 의사 라이브 Q&A** | 월 1회 인스타 라이브 — 비만·당뇨 전문의가 팔로워 질문 실시간 답변, 브랜드 간접 노출 |
-
----
-
-### 채널 5 — 학술 & 의학 채널
-
-**목적**: HCP 과학적 신뢰 구축, 오피니언 리더 포섭
-
-| 항목 | 내용 |
-|------|------|
-| 주요 채널 | ADA, EASD, 대한당뇨병학회, 대한비만학회 학술대회 |
-| 콘텐츠 형식 | 학술 포스터, 심포지엄 발표, 저널 광고, Lilly Medical Affairs 웹사이트 |
-| KOL 관리 | Advisory Board 운영, 연구 지원, 학회 발표 기회 제공 |
-| 디지털 학술 | PubMed 광고, Doximity (미국), 메디게이트 (국내) |
-| KPI | 논문 인용 수, 학회 심포지엄 참석 의사 수, KOL 처방 영향력 |
-
----
-
-### 채널 6 — 환자 지원 프로그램 (PSP)
-
-**목적**: 처방 환자의 순응도·유지율 향상, 약가 장벽 해소
-
-| 항목 | 내용 |
-|------|------|
-| 프로그램명 (미국) | Lilly Cares Foundation / Mounjaro Savings Card (공식) |
-| 혜택 | 자격 충족 환자 대상 월 최대 $25 코페이 (공식) |
-| 국내 현황 | 환자 지원 프로그램 도입 검토 중 (추정) |
-| 콘텐츠 지원 | 주사 교육 영상, 부작용 관리 가이드, 앱 기반 리마인더 |
-| KPI | 리필율, 3개월·6개월 유지율, 고객센터 문의 감소율 |
-
----
-
-## 채널 통합 메시지 아키텍처
+### Route A — Product/Service Launch Sequence
 
 ```
-마스터 메시지: "이중 기전으로 대사 건강을 되찾다"
-         │
-         ├── HCP 채널: "GIP+GLP-1 이중 기전 — SURMOUNT-1 72주 22.5% 체중 감소"
-         │
-         ├── 환자 DTC: "삶을 되찾으세요. 의사에게 Zepbound를 물어보세요."
-         │
-         ├── 소셜: "비만은 의지 문제가 아닙니다. 생물학입니다."
-         │
-         └── PSP: "치료를 시작하는 데 비용이 장벽이 되지 않도록"
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널 성과 측정 프레임워크
+## 4. Channel-Specific Prohibitions
 
-| 단계 | 지표 | 측정 도구 |
-|------|------|---------|
-| 인지 (Awareness) | 브랜드 인지도, 광고 도달률 | 브랜드 트래킹 서베이, GRP |
-| 관심 (Interest) | 웹사이트 방문, 검색량 증가 | Google Analytics, 네이버 트렌드 |
-| 고려 (Consideration) | 의사 찾기 사용, LP 체류시간 | UTM 추적, 히트맵 |
-| 처방 (Conversion) | 신규 처방 건수, NRx | IMS/IQVIA 처방 데이터 |
-| 유지 (Retention) | 리필율, 6개월 유지율 | PSP 데이터, 약국 청구 데이터 |
-| 옹호 (Advocacy) | NPS, UGC 생성, 지인 추천율 | 환자 서베이, 소셜 리스닝 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+
+---
+
+## 5. Crisis Response Protocol
+
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Lilly (Eli)'s channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Lilly (Eli)'s IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Lilly (Eli)'s channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

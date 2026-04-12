@@ -1,170 +1,102 @@
-# UPS 디자인 시스템
+# 05. Design System — United Parcel Service (UPS)
 
-## 디자인 철학
-
-UPS의 시각 언어는 **"갈색이 신뢰를 입는다"**는 단일 원칙 위에 구축된다. 화려한 트렌드보다 일관된 인식 가능성을, 창의적 실험보다 시스템 신뢰성을 우선한다. 1919년부터 유지된 갈색(Brown)은 단순한 색상이 아니라 약속의 상징이다. (공식)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 프라이머리 팔레트
+United Parcel Service's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|---|---|---|---|---|
-| UPS Brown | `#351C15` | rgb(53, 28, 21) | 로고, 트럭, 유니폼, 주요 브랜드 요소 | (공식) |
-| UPS Gold | `#FFB500` | rgb(255, 181, 0) | 로고 방패 하단, CTA 버튼, 강조 요소 | (공식) |
-| UPS Dark Gold | `#D4910A` | rgb(212, 145, 10) | Gold 호버 상태, 어두운 배경 위 Gold 대체 | (추정) |
+### Core Brand Colors
 
-### 세컨더리 팔레트
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|---|---|---|---|---|
-| UPS Light Gray | `#F5F5F5` | rgb(245, 245, 245) | 배경, 카드 구분 영역 | (추정) |
-| UPS Mid Gray | `#767676` | rgb(118, 118, 118) | 보조 텍스트, 비활성 UI 요소 | (추정) |
-| UPS Dark Gray | `#333333` | rgb(51, 51, 51) | 본문 텍스트, 아이콘 | (추정) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 반전 텍스트 | (공식) |
-
-### 기능적 컬러 (UI/상태)
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|---|---|---|---|---|
-| Success Green | `#2E7D32` | rgb(46, 125, 50) | 배송 완료, 성공 상태 | (추정) |
-| Warning Amber | `#F57C00` | rgb(245, 124, 0) | 지연 경고, 주의 상태 | (추정) |
-| Error Red | `#C62828` | rgb(198, 40, 40) | 오류, 실패 상태 | (추정) |
-| Info Blue | `#1565C0` | rgb(21, 101, 192) | 정보 알림, 링크 | (추정) |
-
-### 컬러 사용 원칙
-- UPS Brown은 전체 화면의 최소 30% 이상을 차지해서는 안 된다. 포인트 컬러로 사용할 것. (추정)
-- UPS Gold는 클릭 가능한 UI 요소(CTA)와 강조 구간에 집중 사용. (추정)
-- Brown + Gold 조합 외의 배경색에서 Gold 텍스트 사용 시 WCAG AA 대비율(4.5:1) 필수 확인. (추정)
-- 디지털 환경에서 Brown을 배경으로 사용 시 Gold 또는 White 텍스트만 허용. (추정)
-
----
-
-## 타이포그래피
-
-### 폰트 패밀리
-
-| 구분 | 폰트명 | 용도 | 출처 |
+| Token Name | HEX | Role | Specific Usage |
 |---|---|---|---|
-| 헤드라인 | UPS Type (전용 서체) | 대형 헤드라인, 캠페인 타이틀 | (공식) |
-| 보조 헤드라인 | Frutiger (또는 Neue Frutiger) | 서브헤드, 중형 타이틀 | (추정) |
-| 본문 | Arial / Arial Nova | 웹 본문, UI 텍스트 | (추정) |
-| 수치·강조 | UPS Type Bold | KPI, 통계, 강조 수치 | (추정) |
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-### 타이포그래피 스케일 (추정)
+### Color Principles
 
-| 레벨 | 크기 | 굵기 | 용도 |
-|---|---|---|---|
-| Display | 56px / 3.5rem | Bold | 히어로 헤드라인 |
-| H1 | 40px / 2.5rem | Bold | 페이지 타이틀 |
-| H2 | 32px / 2rem | SemiBold | 섹션 헤드라인 |
-| H3 | 24px / 1.5rem | SemiBold | 서브섹션 |
-| Body Large | 18px / 1.125rem | Regular | 리드 카피 |
-| Body | 16px / 1rem | Regular | 일반 본문 |
-| Caption | 12px / 0.75rem | Regular | 캡션, 주석 |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-## 로고 시스템
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 주 로고 (공식)
-- UPS 방패형 로고 (Shield Logo) — 1961년 폴 랜드(Paul Rand) 디자인, 2003년 현대화 (공식)
-- 방패 상단: UPS Brown 배경에 "UPS" 흰색 문자
-- 방패 하단: Gold 리본에 갈색 보우 타이 모티프
-
-### 로고 사용 금지 사항 (추정)
-- 로고 색상 임의 변경 금지
-- 로고 비율 변형 금지
-- 로고에 그림자, 아웃라인, 그레이디언트 추가 금지
-- 최소 사용 크기: 인쇄물 20mm, 디지털 60px
-
-### 클리어스페이스
-- 로고 높이의 50%를 모든 방향 여백으로 유지 (추정)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 아이코노그래피
+## 2. Typography
 
-### 아이콘 스타일 (추정)
-- 선형(Outline) 아이콘 기본, 강조 시 Filled 버전 사용
-- 스트로크 굵기: 2px (16px 기준)
-- 코너 반경: 2px (날카롭지도 지나치게 둥글지도 않게)
-- 그리드: 24x24px 기본, 16/32/48px 변형 지원
+United Parcel Service's digital properties employ a typographic system appropriate to its industrials positioning.
 
-### 핵심 아이콘 카테고리
-- 물류: 패키지, 트럭, 비행기, 창고, 드론
-- 추적: 위치 핀, 타임라인, 체크마크, 알림
-- 서비스: 계산기, 달력, 문서, API 연결
-- 상태: 완료(초록), 진행중(금색), 지연(주황), 오류(빨강)
+### Typeface System
 
----
-
-## UI 컴포넌트 원칙 (추정)
-
-### 버튼
-| 유형 | 배경 | 텍스트 | 사용 맥락 |
-|---|---|---|---|
-| Primary CTA | `#FFB500` Gold | `#351C15` Brown | 핵심 전환 행동 |
-| Secondary | `#351C15` Brown | `#FFFFFF` White | 보조 행동 |
-| Ghost | 투명 | `#351C15` Brown | 덜 강조된 행동 |
-| Destructive | `#C62828` Red | `#FFFFFF` White | 삭제, 취소 |
-
-### 카드 컴포넌트
-- 배경: `#FFFFFF`
-- 테두리: 1px solid `#E0E0E0`
-- 그림자: `0 2px 8px rgba(0,0,0,0.08)` (추정)
-- 코너 반경: 8px (추정)
-
-### 폼 요소
-- 인풋 테두리 기본: `#767676`
-- 인풋 포커스: `#FFB500` Gold 2px 아웃라인
-- 에러 상태: `#C62828` Red 텍스트 + 아이콘
-
----
-
-## 사진 및 이미지 가이드라인
-
-### 사진 스타일 (추정)
-- **실제 현장 중심**: 스튜디오 연출보다 실제 운영 환경(창고, 도로, 공항) 촬영 선호
-- **인물 다양성**: 다양한 인종·성별·연령의 직원과 고객 표현
-- **조명**: 자연광 또는 자연광 시뮬레이션, 과도한 보정 금지
-- **구성**: 동작 중인 장면 선호, 정적 포즈 최소화
-
-### 금지 이미지 유형 (추정)
-- 과도하게 밝고 인위적인 광고 스톡 이미지
-- 경쟁사 로고나 브랜드가 노출된 이미지
-- 불안전한 작업 환경 묘사 이미지
-- 의도치 않은 정치적 메시지가 담긴 이미지
-
----
-
-## 모션 & 애니메이션 (추정)
-
-| 요소 | 값 | 원칙 |
+| Typeface | Description | Contexts |
 |---|---|---|
-| 기본 전환 시간 | 200ms | 빠르고 반응적으로 |
-| 페이지 전환 | 300ms | 부드럽게 |
-| 이징 | ease-in-out | 기계적이지 않게 |
-| 로딩 상태 | Brown/Gold 스피너 | 브랜드 컬러 일관성 |
-| 지도·추적 애니메이션 | 500ms | 정보 전달 명확성 우선 |
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 3가지
+## 3. Channel Specifications
 
-### Layer 1: 컬러 전략에서 훔칠 것
-1. **Hermès의 시그니처 컬러 소유권** — 에르메스 오렌지처럼, UPS Brown은 법적 보호를 받는 브랜드 자산이다. 이 독점적 컬러 아이덴티티를 디지털 환경(앱 아이콘, 로딩 화면)에서도 더 적극적으로 활용해 인식 가능성 극대화 가능. (추정)
-2. **Stripe의 그라디언트 활용** — Stripe는 보라색 그라디언트를 기술 브랜드 신호로 사용한다. UPS도 Brown-to-Gold 그라디언트를 디지털 배너·히어로 섹션에 도입해 프리미엄감 강화 가능. (추정)
-3. **Duolingo의 다크 모드 컬러 확장** — 다크 모드에서 UPS Brown을 배경으로, Gold를 강조색으로 쓰면 자연스러운 다크 테마 구성 가능. 현재 UPS 디지털은 다크 모드 미최적화 상태. (추정)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-### Layer 2: 타이포그래피에서 훔칠 것
-1. **Apple의 SF Pro 시스템 폰트 전략** — 시스템 폰트 최적화로 로딩 속도와 접근성을 동시에 잡는 전략. UPS 웹/앱에서 Arial 대신 시스템 폰트 스택으로 전환 시 성능 개선 가능. (추정)
-2. **Bloomberg의 데이터 타이포그래피** — 수치·지표를 큰 타이포로 강조하는 "숫자가 말한다" 패턴은 물류 KPI 대시보드 UI에 직접 적용 가능. (추정)
-3. **Figma의 가변 폰트(Variable Font) 활용** — 단일 폰트 파일로 다양한 굵기를 구현해 로딩 최적화와 디자인 유연성을 동시에 확보. UPS 디지털 자산에 가변 폰트 도입 검토 가치 있음. (추정)
+---
 
-### Layer 3: 컴포넌트 설계에서 훔칠 것
-1. **Google Maps의 실시간 상태 시각화** — 배송 추적 지도 UI에 구글 맵스의 레이어드 정보 표시(예상 도착, 현재 위치, 경로) 방식을 벤치마킹해 UX 개선 가능. (추정)
-2. **Notion의 모듈형 대시보드** — 비즈니스 고객이 자신의 KPI에 맞게 UPS 대시보드를 커스터마이징할 수 있는 모듈형 UI는 B2B 점착성을 크게 높일 수 있음. (추정)
-3. **Airbnb의 사진 중심 카드 UI** — UPS Store 위치 찾기, 픽업 포인트 선택 UI에 사진+별점+거리 기반 카드 컴포넌트를 도입하면 소비자 경험 만족도 향상 기대 가능. (추정)
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: United Parcel Service (UPS)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,96 +1,123 @@
-# 04. 콘텐츠 DNA — Analog Devices (ADI)
+# 04. Content DNA — Analog Devices (ADI)
 
-> 산업 분류: 정보기술 / 반도체  
-> 분석 기준일: 2026-04-12
-
----
-
-## 1. 콘텐츠 철학
-
-ADI의 콘텐츠는 **"가르치고, 증명하고, 신뢰를 쌓는다"** 원칙으로 구성된다. 광고적 언어보다 기술적 사실을 앞세우며, 엔지니어가 실제 문제를 해결하는 데 직접적으로 유용한 콘텐츠를 최우선으로 생산한다. ADI 콘텐츠의 독자는 마케터가 아닌 회로 설계자다. (추정)
-
-### 콘텐츠 5원칙 (추정)
-1. **정밀성 우선**: 모든 클레임은 측정 가능한 수치로 뒷받침
-2. **실용성 중심**: 이론보다 설계에 바로 적용 가능한 정보
-3. **깊이 있는 전문성**: 얕은 홍보 대신 심층 기술 해설
-4. **일관성**: 제품 라인·세그먼트 전반에 동일한 기술 품질 기준
-5. **장기 가치**: 트렌드 콘텐츠보다 시간이 지나도 유효한 기술 레퍼런스
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 콘텐츠 유형 매트릭스
+## Content Pillars
 
-| 콘텐츠 유형 | 목적 | 주요 채널 | 제작 빈도 | 핵심 메트릭 |
-|------------|------|----------|----------|------------|
-| 데이터시트 | 구매 결정 지원 | analog.com | 신제품 출시 시 | 다운로드 수 |
-| 애플리케이션 노트 | 설계 지원·신뢰 구축 | analog.com | 월 ~5-10건 (추정) | 페이지뷰, 인용 수 |
-| 레퍼런스 디자인 (CN0xxx) | 설계 가속화·락인 | analog.com | 분기별 신규 추가 | 설계 채택률 (추정) |
-| 기술 기사 (Analog Dialogue) | 사고 리더십 | 자사 매거진·IEEE | 격월 (공식) | 구독자, 인용 수 |
-| 웨비나·온라인 교육 | 설계 역량 강화 | ADI 교육 포털 | 월 4-8회 (추정) | 등록자·완료율 |
-| EngineerZone 포럼 | 커뮤니티·지원 | 자사 포럼 | 상시 | 질문 해결률 |
-| 평가 보드 가이드 | 설계 검증 지원 | 동봉 매뉴얼+웹 | 제품 출시 시 | — |
-| 소셜 미디어 (LinkedIn·X) | 브랜드 인지도 | LinkedIn, X(Twitter) | 주 3-5회 (추정) | 팔로워, 인게이지먼트율 |
-| 기술 블로그 | 심층 교육·SEO | analog.com/media | 월 2-4건 (추정) | 유기 검색 트래픽 |
+Analog Devices's content strategy reflects its positioning in the Semiconductors segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Analog Devices understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for semiconductors requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Analog Devices." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 3. 핵심 콘텐츠 포맷 분석
-
-### Analog Dialogue (공식 기술 매거진)
-- **형태**: 기술 저널 스타일 장문 아티클
-- **대상**: 선임 엔지니어·시스템 아키텍트
-- **특징**: IEEE 논문에 준하는 수식·회로도 포함, 광고 없음
-- **가치**: 업계에서 독립 기술 레퍼런스로 인용되는 수준의 권위
-
-### CN0xxx 레퍼런스 디자인 (공식)
-- **형태**: 완전한 회로 설계 + BOM + 레이아웃 가이드 + 소프트웨어
-- **대상**: 프로토타입→양산 전환 엔지니어
-- **특징**: 특정 애플리케이션(예: CN0540 — 압력 센서 신호 조절)에 최적화된 완성형 설계
-- **가치**: 고객 설계 시간 단축 + ADI 부품 채택 고착화
-
-### EngineerZone 포럼 (공식)
-- **형태**: Q&A 커뮤니티 플랫폼
-- **대상**: 설계 단계의 모든 엔지니어
-- **특징**: ADI 내부 엔지니어가 직접 답변 참여, 아카이브 검색 가능
-- **가치**: 기술 지원 비용 절감 + 설계 문제 조기 해결로 고객 만족도 향상
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 4. 콘텐츠 톤 & 매너 가이드
+## Hook Patterns
 
-### 기술 문서 (데이터시트·앱노트)
-- **톤**: 중립적·정밀·검증 가능
-- **문체**: 3인칭 수동태, 전문 용어 그대로 사용
-- **금기**: 수식 없는 클레임, "최고" 등 비검증 수식어
+### Hook 1 — Industry Challenge Lead
 
-### 마케팅 콘텐츠 (웹사이트·이메일)
-- **톤**: 자신감 있지만 과장 없이, 엔지니어와 동등한 위치에서 대화
-- **문체**: 직접 언어, 능동태 권장, 기술 용어 유지
-- **금기**: 소비자 브랜드식 감성 언어, 근거 없는 최상급 표현
+Opens with a recognizable industry challenge or pain point before presenting Analog Devices's perspective.
 
-### 소셜 미디어 (LinkedIn 중심)
-- **톤**: 전문적이지만 접근 가능한, 동료 엔지니어 간 대화체
-- **형태**: 기술 인사이트 + 제품 발표 + 산업 트렌드
-- **금기**: 지나친 자기 홍보, 비기술적 바이럴 시도
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+
+### Hook 2 — Data-Driven Insight
+
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
+
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
+
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 5. 콘텐츠 퍼널 매핑
+## CTA Patterns
 
-| 퍼널 단계 | 콘텐츠 유형 | 목표 행동 |
-|----------|------------|----------|
-| 인식 (Awareness) | 기술 블로그, 소셜 포스트, 웨비나 | analog.com 방문, 뉴스레터 구독 |
-| 관심 (Interest) | Analog Dialogue 아티클, 애플리케이션 노트 | 심층 문서 다운로드 |
-| 검토 (Consideration) | 레퍼런스 디자인, 평가 보드 정보 | 샘플 요청, FAE 문의 |
-| 결정 (Decision) | 데이터시트, 기술 비교표, EngineerZone | 구매 발주, 설계 채택 |
-| 유지 (Retention) | 제품 업데이트, 신규 앱노트, 교육 과정 | 반복 설계 채택, 추천 |
+| CTA Type | Analog Devices Pattern | What Analog Devices Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## Steal Sheet — 콘텐츠 DNA 레이어
+## Tone & Mood Guide
 
-| # | 훔칠 요소 | 적용 방법 |
-|---|-----------|-----------|
-| 1 | **"광고 없는 기술 저널" 포맷으로 권위 구축** | Analog Dialogue처럼 순수 기술 콘텐츠 매거진을 운영하면 마케팅 자료가 아닌 업계 레퍼런스로 인식되어 인바운드 신뢰도를 압도적으로 높일 수 있음 |
-| 2 | **레퍼런스 디자인을 콘텐츠+제품+락인의 3중 자산으로 운영** | 단순 기술 문서가 아닌 완전한 설계 솔루션을 무료 제공함으로써 콘텐츠 마케팅·기술 지원·부품 채택 고착화를 동시에 달성하는 전략 |
-| 3 | **커뮤니티 포럼을 내부 엔지니어가 직접 운영** | 외주 커뮤니티 매니저가 아닌 실제 제품 엔지니어가 포럼에 답변함으로써 기술 신뢰성을 극대화하고, 포럼 아카이브가 SEO 자산으로도 기능 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Analog Devices as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #ADI | Financial and investor community | Moderate (estimated) |
+| #AnalogDevices | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Analog Devices's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in semiconductors face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Analog Devices's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

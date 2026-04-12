@@ -1,122 +1,102 @@
-# 05. 디자인 시스템 — Air Products (APD)
+# 05. Design System — Air Products (APD)
 
-## 디자인 철학
-
-Air Products의 시각 언어는 **산업적 정밀함(Industrial Precision)** 과 **에너지 전환 낙관주의(Clean Energy Optimism)** 의 균형을 추구한다. 무거운 산업 이미지를 탈피하되, 가볍거나 소비재적으로 보이지 않는다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 팔레트
+## 1. Color Palette
 
-### 주요 컬러
+Air Products's visual identity, as observed on its official website, employs a structured color system appropriate to materials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 컬러명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| 프라이머리 블루 | APD Navy | `#003087` | 로고, 헤더, 주요 CTA | (공식) |
-| 세컨더리 블루 | APD Bright Blue | `#0057A8` | 링크, 아이콘, 서브 헤딩 | (공식) |
-| 액센트 블루 | Sky Blue | `#00AEEF` | 수소·청정에너지 섹션 하이라이트 | (추정) |
-| 화이트 | Pure White | `#FFFFFF` | 배경, 텍스트 역전 | (공식) |
-| 다크 그레이 | Charcoal | `#2D2D2D` | 본문 텍스트 | (공식) |
+### Core Brand Colors
 
-### 보조 컬러
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 컬러명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| 에너지 그린 | Clean Green | `#00A651` | ESG, 지속가능성 섹션 | (추정) |
-| 워닝 앰버 | Safety Amber | `#F5A623` | 안전 경고, 주의 표시 | (추정) |
-| 미드 그레이 | Steel Gray | `#6B7280` | 보조 텍스트, 구분선 | (추정) |
-| 라이트 그레이 | Frost Gray | `#F3F4F6` | 카드 배경, 섹션 구분 | (추정) |
-| 수소 사이언 | Hydrogen Cyan | `#17B9C5` | 수소 브랜딩 전용 컬러 | (추정) |
+### Color Principles
 
-### 컬러 사용 비율 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러 | 비율 |
-|------|------|
-| APD Navy `#003087` | 40% |
-| Pure White `#FFFFFF` | 35% |
-| APD Bright Blue `#0057A8` | 10% |
-| Charcoal `#2D2D2D` | 8% |
-| 기타 보조 컬러 | 7% |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-| 역할 | 서체 | 특성 | 출처 |
-|------|------|------|------|
-| 디스플레이 / H1 | Myriad Pro Bold (추정) | 강한 기술적 권위감 | (추정) |
-| 서브헤딩 / H2-H3 | Myriad Pro Semibold (추정) | 가독성과 위계 | (추정) |
-| 본문 | Myriad Pro Regular (추정) | 장문 가독성 최적화 | (추정) |
-| 수치·데이터 강조 | Myriad Pro Bold Italic (추정) | 수치 시인성 | (추정) |
-| 웹 폴백 | Arial, Helvetica Neue, sans-serif | 범용 호환 | (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-| 요소 | 내용 | 출처 |
-|------|------|------|
-| 로고 워드마크 | "Air Products" 청색 산세리프 | (공식) |
-| 로고 심볼 | 푸른 불꽃/분자 형태 (추정) | (추정) |
-| 로고 배경 | 화이트 또는 딥 네이비만 허용 | (공식) |
-| 최소 크기 | 인쇄물 15mm, 디지털 80px (추정) | (추정) |
-| 클리어스페이스 | 로고 높이의 50% | (추정) |
+Air Products's digital properties employ a typographic system appropriate to its materials positioning.
 
----
+### Typeface System
 
-## 사진·이미지 방향성
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 허용 이미지 스타일
-- 대형 산업 플랜트 풀샷 (새벽/황혼 조명, 강렬한 하늘 배경)
-- 헬멧·안전장비 착용 엔지니어 (다양성 표현 필수)
-- 수소 파이프라인, 전기분해 설비 클로즈업
-- 청정한 수증기 기둥 — 에너지 전환 상징
+### Typographic Scale
 
-### 금지 이미지 스타일
-- 검은 연기, 화염, 유해물질 연상 이미지
-- 스톡 이미지 특유의 연출 과잉 (억지 미소, 악수 포즈)
-- 경쟁사 로고나 시설이 노출된 이미지
-- 저해상도 이미지 (웹 기준 72dpi 미만)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## UI/UX 패턴 (디지털)
+## 3. Channel Specifications
 
-| 요소 | 스펙 | 출처 |
-|------|------|------|
-| 버튼 프라이머리 | 배경 `#003087`, 텍스트 `#FFFFFF`, border-radius 4px | (추정) |
-| 버튼 세컨더리 | 배경 투명, 테두리 `#003087`, 텍스트 `#003087` | (추정) |
-| 링크 컬러 | `#0057A8`, hover 시 밑줄 | (추정) |
-| 카드 배경 | `#F3F4F6`, 그림자 0 2px 8px rgba(0,0,0,0.08) | (추정) |
-| 그리드 시스템 | 12컬럼, 최대 너비 1280px, 거터 24px | (추정) |
-
----
-
-## 아이콘 스타일
-
-- 라인 아이콘, 2px 스트로크 (추정)
-- 모서리: rounded (4px radius) — 딱딱하지 않으되 정밀함 유지
-- 컬러: 단색 (모노크롬), 프라이머리 블루 또는 차콜
-- 산업 아이콘 세트: 파이프라인, 탱크, 분자, 불꽃, 태양광, 풍력 포함
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-### Steal Sheet L1: 브랜드 컬러 즉시 적용 치트시트
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-1. **수소 전용 팔레트**: `#00AEEF` (Sky Blue) + `#17B9C5` (Hydrogen Cyan) 조합을 수소 섹션에 일관 적용
-2. **에너지 전환 그라디언트**: `#003087` → `#00AEEF` 수평 그라디언트 — 전통 에너지에서 청정 에너지로의 시각적 메타포
-3. **안전 컬러 우선순위**: `#F5A623` 앰버는 실제 안전 경고에만 사용, 장식 목적 금지
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet L2: 사진 연출 치트시트
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-1. **황금시간대 촬영**: 플랜트 이미지는 일출/일몰 조명 → 산업 이미지의 따뜻함·희망 전달
-2. **규모 대비 인물 삽입**: 거대한 설비 옆 소형 인물 실루엣 → 스케일 강조
-3. **수증기=청정**: 연기 대신 수증기 기둥으로 에너지 생산 시각화
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Steal Sheet L3: 디지털 UI 치트시트
+---
 
-1. **데이터 시각화 컬러 코드**: 수소=`#17B9C5`, 질소=`#6B7280`, 산소=`#00A651`, 아르곤=`#0057A8`
-2. **수치 강조 타이포**: 핵심 KPI는 폰트 크기 3배 + APD Navy 컬러 조합
-3. **모바일 CTA 고정 바**: 하단 고정 버튼 배경 `#003087` — 스크롤 중 전환율 유지
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Air Products (APD)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,96 +1,84 @@
-# 02 오디언스 맵 — Edwards Lifesciences (EW)
+# 02. Audience Map — Edwards Lifesciences (EW)
 
-> 업데이트: 2026-04-12 | 산업: 의료기기 (심장판막 / TAVR)
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-| 세그먼트 | 비중(추정) | 주요 접점 |
-|----------|-----------|-----------|
-| 심장내과·흉부외과 전문의 | 40% | 학술대회, 의학저널, CME, 직접 영업 |
-| 병원 구매위원회 (GPO / IDN) | 20% | 입찰, 가치 기반 계약, 의료 경제성 자료 |
-| 환자 및 보호자 | 25% | 웹사이트, 환자 지원 프로그램, SNS |
-| 의료 행정·보험 결정권자 | 10% | 급여 근거 자료, HEOR 연구 |
-| 투자자 / 애널리스트 | 5% | IR 자료, 실적 발표, ESG 보고서 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Edwards Lifesciences's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Edwards Lifesciences's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 박민준 — 심장내과 인터벤션 전문의
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 48세 |
-| 직함 | 서울 상급종합병원 심장내과 부교수, TAVR 시술 팀장 |
-| 지역 | 한국 서울 |
-| 교육 | 의학박사, 미국 Mayo Clinic 펠로우십 수료 |
-| 연간 TAVR 시술 건수 | 120건 (추정) |
-| **핵심 목표** | 시술 성공률 극대화, 최신 임상 데이터 확보, 레지던트·펠로우 교육 |
-| **페인 포인트** | 복잡 해부학(bicuspid AV) 환자에서 기존 디바이스 한계, 급여 사전승인 지연, 최신 디바이스 접근성 |
-| **정보 채널** | JACC, EuroIntervention, TCT/EuroPCR 학술대회, Edwards 의사 포털 |
-| **구매 영향력** | 디바이스 선택의 1차 의사결정자 |
-| **Edwards 접점** | SAPIEN 3 Ultra RESILIA 주 사용자, PARTNER 시험 데이터 신뢰 |
-| **메시지 키** | "임상 근거가 가장 강력한 TAVR — PARTNER 시리즈 5개년 데이터" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Edwards Lifesciences customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Edwards Lifesciences selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 이수연 — 대학병원 의료기기 구매팀장
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직함 | 수도권 상급종합병원 의료장비·재료 구매팀장 |
-| 지역 | 한국 경기도 |
-| 교육 | 경영학 석사, 병원행정사 자격 |
-| 관리 예산 | 연간 심장 디바이스 구매 예산 80억 원 (추정) |
-| **핵심 목표** | 예산 내 최고 임상 효과 달성, 공급 안정성 확보, 규제 컴플라이언스 |
-| **페인 포인트** | 고가 TAVR 디바이스 수가 대비 비용, 복수 공급업체 관리 복잡성, 보험 급여 변경 리스크 |
-| **정보 채널** | 조달청 입찰 공고, 병원 경영 세미나, Edwards 어카운트 매니저 |
-| **구매 영향력** | 최종 계약·가격 협상 권한 |
-| **Edwards 접점** | 가치 기반 계약, HEOR 자료 수령, 공급망 SLA 검토 |
-| **메시지 키** | "TAVR 재입원율 감소로 총 비용(Total Cost of Care) 절감 — 경제성 데이터 제공" |
+- **Age / Occupation**: 35, technical professional who interacts with Edwards Lifesciences's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Edwards Lifesciences selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 최영희 — 대동맥 협착증 환자 보호자
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 58세 (환자 부친 79세) |
-| 직함 | 자영업자 (카페 운영) |
-| 지역 | 부산 |
-| **상황** | 부친이 중증 대동맥 협착증 진단, 외과 수술 고위험군 판정 후 TAVR 권유 받음 |
-| **핵심 목표** | 부친의 수술 안전성 확인, 합병증 위험 이해, 회복 기간 및 삶의 질 예측 |
-| **페인 포인트** | 의학 용어 이해 어려움, TAVR vs. 수술 선택 불안, 비용·보험 급여 여부 불확실 |
-| **정보 채널** | 네이버 블로그, 유튜브 의학 채널, Edwards 환자 웹사이트, 병원 환자 상담사 |
-| **구매 영향력** | 간접적 — 의사 권고 수용 여부에 영향, 병원 선택 결정 |
-| **Edwards 접점** | edwards.com 환자 교육 자료, TAVR 애니메이션 영상, 환자 후기 영상 |
-| **메시지 키** | "아버지께 새로운 심장 박동을 — 최소 침습으로 더 빠른 회복, 더 긴 삶" |
+- **Age / Occupation**: 38, consumer who interacts with Edwards Lifesciences's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Edwards Lifesciences selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 3. 고객 여정 맵 (의사 세그먼트)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 행동 | Edwards 접점 | 핵심 메시지 |
-|------|------|-------------|-------------|
-| 인식 (Awareness) | 학술지 논문 열람, 학회 참석 | 저널 광고, 심포지엄 스폰서 | PARTNER 시리즈 최신 데이터 |
-| 고려 (Consideration) | 경쟁 디바이스 비교, 피어 상담 | 의사 포털, 1:1 영업 미팅 | 기술 우위 + 임상 근거 |
-| 결정 (Decision) | 디바이스 선택, 병원 계약 | 핸즈온 트레이닝, 임상 지원팀 | 안전성·시술 편의성 |
-| 사용 (Usage) | 시술 진행, 결과 추적 | 임상 데이터 시스템, 애프터케어 | 지속적 교육·지원 |
-| 옹호 (Advocacy) | 동료 추천, 학회 발표 | KOL 프로그램, 연구 지원 | 공동 임상 연구 파트너십 |
+| Stage | Edwards Lifesciences's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Edwards Lifesciences total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 4. 고객 여정 맵 (환자/보호자 세그먼트)
+## Anti-Persona — Who Edwards Lifesciences Is Not For
 
-| 단계 | 행동 | Edwards 접점 | 핵심 메시지 |
-|------|------|-------------|-------------|
-| 인식 | 증상 검색, 진단 후 정보 탐색 | 환자 웹사이트, SEO 콘텐츠 | "TAVR이란 무엇인가" 교육 |
-| 고려 | 병원·의사 비교, 치료법 이해 | 환자 교육 영상, 안내 책자 | 최소 침습·빠른 회복 |
-| 결정 | 치료 동의, 병원 예약 | 환자 지원 핫라인 | 안심·신뢰 |
-| 치료 후 | 회복 추적, 재활 | 회복 가이드, 커뮤니티 | 삶의 질 향상 스토리 |
-| 옹호 | 환자 후기 공유 | 소셜 미디어, 영상 후기 프로그램 | 희망·감사의 이야기 |
+| Type | Characteristics | Why Edwards Lifesciences Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Edwards Lifesciences's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Edwards Lifesciences's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Edwards Lifesciences's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Edwards Lifesciences's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Edwards Lifesciences's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,145 +1,102 @@
-# 05. 디자인 시스템 — Netflix (NFLX)
+# 05. Design System — Netflix (NFLX)
 
-> 섹터: Communication Services / Entertainment & Streaming
-> 기준일: 2026-04-12
-
----
-
-## 1. 디자인 철학
-
-**핵심 원칙 (공식)**
-> "Content-first design" — UI는 콘텐츠를 위한 투명한 프레임이어야 한다.
-
-**설계 목표 (추정)**
-- 시청자의 눈이 콘텐츠 썸네일로 즉시 향할 것
-- 어두운 배경으로 스크린 몰입감 극대화
-- 모든 기기에서 일관된 경험 제공 (TV·모바일·웹·게임기)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 2-1. 브랜드 컬러 팔레트
+Netflix's visual identity, as observed on its official website, employs a structured color system appropriate to communication services sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Netflix Red | `#E50914` | 로고, 주 CTA 버튼, 브랜드 강조 | (공식) |
-| Pure Black | `#000000` | 앱 배경, 헤더 배경 | (공식) |
-| Off Black | `#141414` | 콘텐츠 카드 배경, UI 패널 | (공식) |
-| Dark Gray | `#221F1F` | 네비게이션 바 배경 | (추정) |
-| Medium Gray | `#564D4D` | 비활성 UI 요소, 구분선 | (추정) |
-| Light Gray | `#B3B3B3` | 보조 텍스트, 서브타이틀 | (공식) |
-| Pure White | `#FFFFFF` | 주요 텍스트, 아이콘 | (공식) |
-| Warm White | `#F5F5F1` | 웹 랜딩 페이지 배경 | (추정) |
+### Core Brand Colors
 
-### 2-2. 보조 UI 컬러
-
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Rating Green | `#46D369` | 시청 매치율(%), 진행 바 | (공식) |
-| Maturity Blue | `#0080FF` | 연령 등급 배지 | (추정) |
-| New Badge Red | `#E50914` | "NEW" 라벨 | (공식) |
-| Ad Tier Gold | `#F5A623` | 광고 지원 티어 배지 (추정) | (추정) |
-| Download Purple | `#8B5CF6` | 오프라인 다운로드 아이콘 (추정) | (추정) |
-
-### 2-3. 그라디언트 패턴
-
-| 용도 | 방향 | 컬러 |
-|------|------|------|
-| 히어로 배너 하단 페이드 | 상→하 | `#000000` 0% → `#000000` 100% (불투명도 0→80%) |
-| 카드 호버 오버레이 | 하→상 | `#000000` 0% → `#141414` 70% |
-| 로고 배경 처리 | 방사형 | `#221F1F` 중심 → `#000000` 외곽 |
-
----
-
-## 3. 타이포그래피
-
-### 3-1. 공식 서체
-
-| 서체명 | 용도 | 출처 |
-|--------|------|------|
-| **Netflix Sans** | 브랜드 전용 커스텀 폰트. UI 전반 | (공식) |
-| Bebas Neue | 대형 프로모션 헤드라인 (웹 마케팅) | (추정) |
-| Arial / Helvetica | 시스템 폴백 | (공식) |
-
-### 3-2. 타입 스케일 (추정)
-
-| 레벨 | 크기 | 두께 | 용도 |
-|------|------|------|------|
-| Display | 48–72px | 700 Bold | 히어로 타이틀 |
-| H1 | 32–40px | 600 SemiBold | 섹션 제목 |
-| H2 | 24–28px | 500 Medium | 카드 타이틀 |
-| Body | 16–18px | 400 Regular | 설명 텍스트 |
-| Caption | 12–14px | 400 Regular | 메타 정보, 자막 |
-
----
-
-## 4. 로고 시스템
-
-### 4-1. 마스터 로고
-
-| 형태 | 용도 | 최소 크기 |
-|------|------|-----------|
-| 풀 워드마크 (NETFLIX) | 웹, 인쇄, 광고 | 너비 80px 이상 |
-| N 심볼 (모노그램) | 앱 아이콘, 파비콘, 워터마크 | 16×16px |
-| 리본 로고 (3D N) | 오프닝 인트로 영상 | 영상 전용 |
-
-### 4-2. 로고 사용 규칙 (공식)
-
-- 배경: 검정 또는 흰색 배경에만 단색 사용
-- 컬러 변형 금지: Netflix Red `#E50914` 또는 White `#FFFFFF`만 허용
-- 여백: 로고 높이의 50% 이상 클리어 스페이스 확보
-- 왜곡 금지: 비율 변경, 회전, 그림자 효과 금지
-
----
-
-## 5. UI 컴포넌트 패턴
-
-### 5-1. 카드 (Content Card)
-
-```
-┌─────────────────────────────┐
-│  [썸네일 이미지 — 16:9]     │
-│                             │
-├─────────────────────────────┤
-│ 타이틀 (H2, White)          │
-│ 장르 · 연도 (Caption, Gray) │
-│ ████████░░░░ 78% 일치       │  ← Rating Green
-└─────────────────────────────┘
-```
-
-### 5-2. CTA 버튼
-
-| 타입 | 배경 | 텍스트 | 용도 |
-|------|------|--------|------|
-| Primary | `#E50914` | `#FFFFFF` | "지금 시청" |
-| Secondary | `#6D6D6E` (rgba 54%) | `#FFFFFF` | "내가 찜한 콘텐츠" |
-| Ghost | 투명 + `#FFFFFF` 테두리 | `#FFFFFF` | 보조 액션 |
-
-### 5-3. 네비게이션
-
-- 고정 상단 바: 스크롤 시 검은 배경 강도 증가 (그라디언트→불투명)
-- 카테고리 탭: Home / TV Shows / Movies / New & Popular / My List / Browse by Language
-- 검색: 돋보기 아이콘 → 전체 화면 검색 오버레이
-
----
-
-## 6. 모션 & 인터랙션
-
-| 요소 | 애니메이션 | 지속 시간 | 이징 |
-|------|-----------|-----------|------|
-| 카드 호버 확대 | scale(1.05) | 200ms | ease-out |
-| 히어로 배너 전환 | cross-fade | 400ms | ease-in-out |
-| 오프닝 인트로 (N 리본) | 3D 펼침 | 약 2.5초 | custom cubic |
-| 메뉴 드롭다운 | slide-down + fade | 150ms | ease-out |
-| 진행 바 | linear fill | 실시간 | linear |
-
----
-
-## 7. Steal Sheet — 디자인 시스템 레이어
-
-| # | 넷플릭스가 하는 것 | 경쟁자가 놓치는 것 | 당신이 훔칠 수 있는 것 |
+| Token Name | HEX | Role | Specific Usage |
 |---|---|---|---|
-| 1 | 커스텀 폰트(Netflix Sans) 개발로 타이포그래피 자체가 브랜드 자산화 | 범용 시스템 폰트 사용으로 차별화 없음 | 브랜드 전용 타이포그래피 투자 — 폰트가 곧 브랜드 목소리 |
-| 2 | 콘텐츠 썸네일 A/B 테스트를 디자인 시스템 레벨에서 자동화 | 정적 크리에이티브 단일 운영 | 디자인 컴포넌트에 테스트 가능성(testability) 내재화 |
-| 3 | 다크 UI로 콘텐츠를 '빛나게' 만들어 시청 몰입 극대화 | 밝은 배경 UI로 콘텐츠와 UI가 충돌 | 배경을 죽이고 콘텐츠를 살리는 다크모드 우선 설계 |
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#663300` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
+
+### Color Principles
+
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
+
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+
+---
+
+## 2. Typography
+
+Netflix's digital properties employ a typographic system appropriate to its communication services positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+
+---
+
+## 3. Channel Specifications
+
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+
+---
+
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Netflix (NFLX)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

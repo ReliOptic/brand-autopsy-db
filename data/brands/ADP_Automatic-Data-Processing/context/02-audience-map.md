@@ -1,130 +1,84 @@
-# ADP 오디언스 맵
+# 02. Audience Map — Automatic Data Processing (ADP)
 
-## 세그먼트 개요
-
-ADP는 기업 규모·역할·지역에 따라 다층적 오디언스를 보유한다. 의사결정 경로가 길고 복수의 구매 영향자가 존재하는 B2B 특성이 강하다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 소기업 오너-운영자
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 박지수 — "혼자 다 하는 사장님"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직함 | 대표이사 / 실질적 HR 담당자 |
-| 기업 규모 | 직원 12명, 음식료 유통 스타트업 |
-| 주요 도구 | 엑셀, 카카오워크, 네이버 스마트스토어 |
-| 연간 급여 예산 | 약 4억 원 (추정) |
-
-**핵심 고통점**
-- 매월 급여일 전 2~3일을 급여 계산·세금 신고에 소비
-- 4대보험·근로기준법 개정 사항을 실시간으로 파악하기 어려움
-- 직원 채용 시 계약서 표준화 부재로 분쟁 위험 노출
-- IT 전담 인력 없음 → 복잡한 소프트웨어 학습 부담 거부
-
-**구매 동기**
-- 급여 자동화로 월 10시간 이상 절약
-- 세무사 비용 절감
-- "내가 실수해서 직원한테 미안한 상황" 방지
-
-**채널 접점**
-- 네이버 블로그 검색, 유튜브 세금·노무 콘텐츠
-- 소상공인 커뮤니티(아프리카TV, 번개장터 셀러 카페)
-- 지인 추천 비중 높음
-
-**ADP 제품 매핑** → RUN Powered by ADP
-
-**메시지 톤** — 쉽고 빠름, 비용 절감, 실수 없는 급여
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in human resource & employment services and adjacent industries. (T4_INFERRED from Automatic Data Processing's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Automatic Data Processing's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 중견기업 HR 매니저
+## Core Personas
 
-### 페르소나: 김태영 — "KPI에 치이는 HR팀장"
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 45세 |
-| 직함 | HR팀장 (부장급) |
-| 기업 규모 | 직원 350명, 제조·수출 중견기업 |
-| 주요 도구 | SAP SuccessFactors(일부), 사내 그룹웨어 |
-| 연간 HR 예산 | 약 15억 원 (추정) |
-
-**핵심 고통점**
-- 해외 법인(베트남·인도네시아) 급여·컴플라이언스 통합 관리 부재
-- 성과평가·승진 사이클이 엑셀 기반으로 운영되어 데이터 신뢰성 낮음
-- 경영진의 인력 데이터 요구(이직률·평균 재직기간)에 실시간 대응 불가
-- IT 부서와의 시스템 연동 프로젝트가 6개월째 지연
-
-**구매 동기**
-- 단일 플랫폼으로 국내+해외 법인 급여 통합
-- 경영진 보고용 HR 대시보드 자동 생성
-- 컨설팅·구현 파트너십 포함한 온보딩 지원
-
-**채널 접점**
-- LinkedIn HR 그룹, SHRM 한국 지부 세미나
-- 업계 컨퍼런스(HR Tech Korea, 한국인사관리협회)
-- 벤더 RFP 과정에서 ADP 영업팀 인바운드
-
-**ADP 제품 매핑** → Workforce Now + GlobalView HCM
-
-**메시지 톤** — 통합·가시성·컴플라이언스 보장·ROI 증명
+- **Age / Occupation**: 42, VP-level or director in a Automatic Data Processing customer organization
+- **Core pain**: Needs reliable human resource & employment services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Automatic Data Processing selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 대기업 CFO/CHRO
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 이민경 — "리스크를 가장 두려워하는 임원"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 52세 |
-| 직함 | CFO 겸 부문 CHRO (그룹사 관리) |
-| 기업 규모 | 직원 4,200명 (국내+해외 18개국) |
-| 주요 도구 | SAP HCM, Oracle ERP |
-| 연간 HR+급여 처리 예산 | 약 120억 원 (추정) |
-
-**핵심 고통점**
-- 글로벌 급여 오류 발생 시 노동부 조사·언론 리스크
-- ESG 공시 의무화로 인력 데이터 정확성·감사 가능성 요구 급증
-- 현 벤더(SAP)의 커스터마이징 비용이 연간 20억 원 이상 소요 (추정)
-- GDPR·PIPA 등 다중 데이터 보호 규제 동시 준수
-
-**구매 동기**
-- 99.9% 급여 정확도 SLA 보장
-- 감사 대비 데이터 추적성(audit trail) 완비
-- 글로벌 단일 벤더로 복잡성·비용 구조 단순화
-
-**채널 접점**
-- Gartner·Forrester 리서치 보고서
-- ADP 임원급 세미나·Executive Briefing Center
-- 전략 컨설팅사(맥킨지·딜로이트) 레퍼런스
-
-**ADP 제품 매핑** → Vantage HCM + GlobalView HCM + ADP DataCloud
-
-**메시지 톤** — 리스크 제거·글로벌 신뢰·TCO 최적화·전략적 파트너십
+- **Age / Occupation**: 35, technical professional who interacts with Automatic Data Processing's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Automatic Data Processing selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 | 의사결정자 | 구매 사이클 | 주요 관심사 |
-|---------|------|-----------|-----------|-----------|
-| 소기업 (1~49인) | 전체 고객 수 기준 최다 | 오너 본인 | 2~4주 | 가격·편의성·속도 |
-| 중견기업 (50~999인) | 매출 기여 핵심 | HR팀장 + CFO | 3~6개월 | 통합·컴플라이언스·ROI |
-| 대기업 (1,000인+) | 고단가 계약 | CHRO + CFO + CIO | 6~18개월 | 리스크·글로벌·감사 |
-| PEO 이용 고객 | ADP TotalSource 대상 | 소기업 오너 | 1~2개월 | 고용주 책임 이전 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Automatic Data Processing's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Automatic Data Processing selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 단계별 콘텐츠 매핑
+## Purchase Journey — AARRR Framework
 
-| 단계 | 오디언스 행동 | ADP 콘텐츠 역할 |
-|------|-------------|----------------|
-| 인식 (Awareness) | 급여 오류·세금 신고 실수로 문제 인식 | 블로그·유튜브 교육 콘텐츠, 업계 벤치마크 데이터 |
-| 고려 (Consideration) | 벤더 비교, RFP 작성, 데모 요청 | 제품 비교표, 고객 사례 연구, ROI 계산기 |
-| 결정 (Decision) | 내부 승인, 계약 협상 | 임원 브리핑, SLA 문서, 구현 로드맵 |
-| 온보딩 (Onboarding) | 시스템 이전, 직원 교육 | 전담 구현 파트너, 24/7 지원 채널 |
-| 확장 (Expansion) | 추가 모듈 도입, 타 법인 확대 | 고객 성공 매니저, 신기능 웨비나 |
+| Stage | Automatic Data Processing's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Automatic Data Processing total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Automatic Data Processing Is Not For
+
+| Type | Characteristics | Why Automatic Data Processing Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Automatic Data Processing's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Automatic Data Processing's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Automatic Data Processing's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Automatic Data Processing's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Automatic Data Processing's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

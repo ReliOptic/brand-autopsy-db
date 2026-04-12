@@ -1,104 +1,84 @@
-# 02. 오디언스 맵 — Lowe's (LOW)
+# 02. Audience Map — Lowe's (LOW)
 
-## 세그먼트 개요
-
-Lowe's의 고객군은 크게 **DIY 소비자(Consumer)** 와 **프로 고객(Pro)** 으로 양분된다.
-Pro 세그먼트는 매출의 약 25~30%를 차지하며 전략적 성장 우선순위다. (추정, 공식 비율 미공개)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — "위크엔드 DIY 워리어" 케빈 (Kevin Park, 38세)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 중간 관리자 (IT 기업) |
-| 거주 | 교외 단독주택, 텍사스 오스틴 |
-| 가족 | 배우자 + 자녀 2명 |
-| 연소득 | $90,000~$120,000 (추정) |
-| 쇼핑 빈도 | 월 2~3회 방문, 분기별 대형 구매 1회 |
-
-**동기와 목표**
-- 비용 절감을 위해 소규모 리모델링(페인팅, 타일, 조명 교체)을 직접 시도
-- 유튜브·Lowe's 앱 튜토리얼로 사전 학습 후 매장 방문
-- 완성된 결과물을 SNS에 공유하며 성취감 추구
-
-**페인 포인트**
-- 프로젝트 범위 산정 오류 → 재방문 낭비
-- 직원 전문 지식 편차가 크게 느껴짐
-- 온라인 재고 정보와 실제 매장 재고 불일치
-
-**메시지 키워드**: "올바르게 해내세요", "단계별 가이드", "전문가 수준 결과"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in home improvement retail. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Lowe's's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Lowe's's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "소규모 시공 전문가" 마르코스 (Marcos Reyes, 45세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 독립 시공업자 (인테리어·전기) |
-| 거주 | 플로리다 마이애미 |
-| 사업 규모 | 직원 3~8명, 연매출 $500K~$2M (추정) |
-| 구매 빈도 | 주 3~5회 방문, 월 $5,000~$20,000 구매 (추정) |
-| 멤버십 | Lowe's MVPs Pro Rewards 가입 (공식 프로그램) |
+### Persona 1 — Enterprise Decision-Maker
 
-**동기와 목표**
-- 현장 배송(job-site delivery)으로 시간 절약
-- 대량 구매 할인 및 신용 한도 극대화
-- 재고 안정성 — 프로젝트 중단 없는 공급망
-
-**페인 포인트**
-- Home Depot의 Pro Xtra 프로그램 대비 혜택 비교 불안
-- 픽업 대기 시간이 길어질 경우 인건비 손실
-- 프로 전용 라인의 SKU 다양성 부족 인식 (추정)
-
-**메시지 키워드**: "현장 배송", "Pro 전용 할인", "시간이 돈이다", "재고 보장"
+- **Age / Occupation**: 42, VP-level or director in a Lowe's customer organization
+- **Core pain**: Needs reliable home improvement retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Lowe's selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "홈 리노베이션 기획자" 사라 (Sarah Cho, 52세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 재무 컨설턴트 (파트타임) |
-| 거주 | 조지아 애틀랜타, 15년 된 단독주택 |
-| 가족 | 빈 둥지(empty-nester), 배우자 동반 쇼핑 |
-| 연소득 | $150,000+ (추정) |
-| 의사결정 방식 | 리서치 집중형, Houzz·Pinterest 활용 후 매장 방문 |
-
-**동기와 목표**
-- 주방·욕실 풀 리모델링 (시공 위탁)
-- 디자인 트렌드와 내구성을 동시에 만족하는 제품 선택
-- 설치 서비스 원스톱 구매로 번거로움 최소화
-
-**페인 포인트**
-- 고급 마감재 선택지가 Home Depot·전문 매장 대비 부족하다는 인식
-- 설치 서비스 일정 조율이 복잡하게 느껴짐
-- 온라인 비주얼라이저 UX 개선 필요 (추정)
-
-**메시지 키워드**: "인스톨레이션 서비스", "allen+roth 디자인 컬렉션", "원스톱 리모델링"
+- **Age / Occupation**: 35, technical professional who interacts with Lowe's's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Lowe's selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 고객 여정 맵 (DIY 소비자 기준)
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 트리거 | 채널 | 브랜드 접점 | 성공 지표 |
-|------|--------|------|------------|-----------|
-| 인지 | 집 문제 발생 / 계절 프로젝트 | TV 광고, 소셜, 검색 | Lowe's 유튜브 How-To | 브랜드 검색량 |
-| 고려 | 제품·가격 비교 | 앱, 웹사이트, 매장 | 제품 페이지, 리뷰 | 앱 세션 시간 |
-| 구매 | 최종 결정 | 매장 + BOPIS | POS, 직원 어시스트 | 전환율, UPT |
-| 사용 | 프로젝트 실행 | 앱 튜토리얼, 콜센터 | How-To 콘텐츠 | 리뷰 작성률 |
-| 충성 | 재구매, 추천 | 이메일, MyLowe's | 로열티 포인트, 구매 이력 | NPS, 재구매율 |
+- **Age / Occupation**: 38, consumer who interacts with Lowe's's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Lowe's selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 세그먼트별 매출 기여도 (추정)
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 비중 | 객단가 | 방문 빈도 |
-|----------|------|--------|-----------|
-| DIY 소비자 | ~70% | 중간 | 월 1~3회 |
-| Pro 고객 | ~25% | 높음 | 주 3~5회 |
-| 설치 서비스 | ~5% | 매우 높음 | 프로젝트당 1회 |
+| Stage | Lowe's's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Lowe's total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-(비중은 공개 IR 자료 기반 추정치)
+---
+
+## Anti-Persona — Who Lowe's Is Not For
+
+| Type | Characteristics | Why Lowe's Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Lowe's's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Lowe's's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Lowe's's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Lowe's's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Lowe's's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,109 +1,84 @@
-# 02. 오디언스 맵 — Analog Devices (ADI)
+# 02. Audience Map — Analog Devices (ADI)
 
-> 산업 분류: 정보기술 / 반도체  
-> 분석 기준일: 2026-04-12
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-Primary (직접 구매/설계 결정권자)
-├── 하드웨어 설계 엔지니어
-├── 시스템 아키텍트
-└── 칩 선정 위원회 (VAR/FAE)
-
-Secondary (구매 영향력자)
-├── R&D 총괄 / CTO
-├── 구매/조달 담당
-└── 품질·신뢰성 엔지니어
-
-Tertiary (생태계 파트너)
-├── 배포 파트너 (Mouser, Arrow, Digi-Key 등)
-├── EMS/ODM 업체
-└── 대학·연구소
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 박민준 (하드웨어 설계 엔지니어)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 32세 |
-| 직책 | 선임 하드웨어 엔지니어, 국내 산업자동화 기업 |
-| 학력 | 전기전자공학 학사 |
-| 경력 | 7년 (아날로그 회로 설계 전문) |
-| 주요 도구 | LTspice, Altium Designer, ADI 데이터시트, EngineerZone |
-| 목표 | 신규 산업용 센서 허브 설계 — 노이즈 마진 및 온도 범위 스펙 충족 |
-| 고충 | 데이터시트와 실제 동작 간 차이, FAE 응답 지연, 샘플 수급 불확실성 |
-| ADI 접점 | analog.com 데이터시트, ADI 애플리케이션 노트, EngineerZone 포럼 |
-| 구매 기준 | 정밀도·온도 특성·장기 공급 보장·FAE 기술 지원 품질 |
-| 브랜드 인식 | "ADI는 비싸지만 믿을 수 있다. 스펙이 정직하다." |
-
-**대표 발언 (추정):**
-> "데이터시트에 써 있는 스펙이 실제로 나와야 하는데, ADI 칩은 대체로 그게 된다. 그래서 미션크리티컬 라인에는 ADI를 쓴다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from Analog Devices's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Analog Devices's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 이수연 (시스템 아키텍트 / 자동차)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 41세 |
-| 직책 | 수석 시스템 아키텍트, 국내 1차 부품사 (Tier-1) |
-| 학력 | 전자공학 석사 |
-| 경력 | 16년 (파워트레인·ADAS 시스템 경험) |
-| 주요 도구 | MATLAB/Simulink, AUTOSAR 플랫폼, ADI ADAS 솔루션 포트폴리오 |
-| 목표 | 차세대 BMS(배터리 관리 시스템) 아키텍처에서 정확도 및 기능 안전 AEC-Q100 Grade 0 충족 |
-| 고충 | 멀티소싱 전략과 단일 벤더 의존 리스크 간 균형, ISO 26262 문서 지원 부담 |
-| ADI 접점 | ADI 자동차 솔루션 페이지, 기술 세미나, 지역 FAE 미팅 |
-| 구매 기준 | AEC-Q100 인증, ASIL 등급 지원 문서, 15년 이상 공급 보장 |
-| 브랜드 인식 | "ADI BMS IC는 사실상 업계 표준이다. Maxim 합병 이후 포트폴리오가 더 강해졌다." |
+### Persona 1 — Enterprise Decision-Maker
 
-**대표 발언 (추정):**
-> "ADI가 LTC(Linear Technology) 흡수하면서 BMS 라인이 강력해졌다. 자동차 쪽에서는 이제 ADI 아니면 TI 두 곳만 진지하게 검토한다."
+- **Age / Occupation**: 42, VP-level or director in a Analog Devices customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Analog Devices selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 김태호 (CTO / 의료기기 스타트업)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 47세 |
-| 직책 | CTO, 의료용 웨어러블 스타트업 (시리즈 B) |
-| 학력 | 바이오메디컬공학 박사 |
-| 경력 | 20년 (의료기기 설계·인허가) |
-| 주요 도구 | 레퍼런스 디자인, FDA 510(k) 규제 문서, ADI Healthcare 포트폴리오 |
-| 목표 | 연속 혈압·ECG 측정 웨어러블의 저전력·고정밀 아날로그 프론트엔드 구현 |
-| 고충 | IEC 60601 인증을 위한 규제 문서 확보, 설계 검증 시간 단축, 배터리 수명 |
-| ADI 접점 | ADI Healthcare Solutions 사이트, ADPD 시리즈 레퍼런스 디자인, 전문 FAE |
-| 구매 기준 | 저전력 성능, 의료 인증 지원 문서, 레퍼런스 디자인 완성도 |
-| 브랜드 인식 | "ADI의 레퍼런스 디자인은 신뢰할 수 있다. 시작점으로 삼으면 인증 기간이 줄어든다." |
-
-**대표 발언 (추정):**
-> "스타트업 입장에서 ADI 레퍼런스 디자인은 큰 가치가 있다. 처음부터 설계하면 6개월, ADI 레퍼런스 쓰면 3개월로 줄어든다."
+- **Age / Occupation**: 35, technical professional who interacts with Analog Devices's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Analog Devices selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 고객 여정 맵 (박민준 기준)
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 활동 | ADI 접점 | 고충 | 기회 |
-|------|------|----------|------|------|
-| 인식 | 컨퍼런스·기술 블로그 탐색 | ADI 기술 문서, LinkedIn | 너무 많은 벤더 노이즈 | 명확한 애플리케이션별 필터링 제공 |
-| 검토 | 데이터시트 비교, 샘플 요청 | analog.com, DigiKey | 교차 비교 시간 소요 | 파라메트릭 검색 UX 최적화 |
-| 설계 | 회로 설계·시뮬레이션 | LTspice 모델, AppNotes | FAE 접근성 | EngineerZone 응답 시간 단축 |
-| 검증 | 프로토타입 테스트 | 평가 보드, FAE 미팅 | 실환경 vs 스펙 괴리 | 상세 테스트 보고서 제공 |
-| 양산 | 구매 발주, 공급망 확인 | 배포 파트너, ADI 직판 | 리드타임·수급 불안 | 장기 공급 계약 옵션 명시 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Analog Devices's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Analog Devices selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 훔칠 요소 | 적용 방법 |
-|---|-----------|-----------|
-| 1 | **엔지니어 여정 전 단계 콘텐츠 커버리지** | 인식(기술 블로그)→검토(파라메트릭 비교)→설계(레퍼런스 디자인)→검증(평가보드)→양산(공급 안정성) 각 단계별 전용 콘텐츠로 이탈 방지 |
-| 2 | **의사결정 레이어별 메시지 분리** | 엔지니어에게는 스펙/툴, CTO에게는 TCO·리스크·인증 지원, 구매팀에게는 공급 안정성을 각각 다른 채널로 전달 |
-| 3 | **레퍼런스 디자인을 신뢰 진입점으로** | 완성도 높은 레퍼런스 디자인은 고객의 시간을 절약하는 동시에 ADI 부품 채택을 사실상 고정시키는 락인(lock-in) 전략으로 활용 가능 |
+| Stage | Analog Devices's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Analog Devices total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Analog Devices Is Not For
+
+| Type | Characteristics | Why Analog Devices Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Analog Devices's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Analog Devices's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Analog Devices's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Analog Devices's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Analog Devices's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

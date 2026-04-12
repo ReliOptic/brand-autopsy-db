@@ -1,160 +1,84 @@
-# 02 오디언스 맵 — ON Semiconductor (onsemi)
+# 02. Audience Map — ON Semiconductor (ON)
 
-## 오디언스 계층 구조
-
-```
-Primary (직접 구매·설계 결정권)
-├── 하드웨어 엔지니어 / 시스템 설계자
-├── 전력 전자 엔지니어
-└── 반도체 구매 담당자 (Procurement)
-
-Secondary (영향력 행사자)
-├── 제품 관리자 (OEM / Tier-1)
-├── FAE (Field Application Engineer) 파트너
-└── 학술·연구 기관 엔지니어
-
-Tertiary (인식·평판 형성자)
-├── 투자자·애널리스트
-├── 산업 미디어·기술 블로거
-└── 정책 입안자 (친환경 규제 연계)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세 프로필
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 김민준 — EV 파워트레인 설계 엔지니어
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 34세 |
-| 직급 | 선임 하드웨어 엔지니어 |
-| 소속 | 국내 대형 자동차 OEM Tier-1 공급사 |
-| 학력 | 전기전자공학 석사 |
-| 거주지 | 경기도 화성시 |
-| 연봉 | 약 7,500만 원 (추정) |
-
-**핵심 책임**
-- 전기차 인버터 및 OBC(On-Board Charger) 설계
-- SiC MOSFET 소자 선정 및 열 해석
-- AEC-Q100 인증 요건 충족 검증
-
-**목표 및 동기**
-- 더 낮은 스위칭 손실로 EV 주행거리 연장
-- 개발 기간 단축을 위한 레퍼런스 디자인 확보
-- 신뢰할 수 있는 장기 공급망 보장
-
-**페인 포인트**
-- SiC 소자 공급 부족 및 리드타임 불확실성
-- 데이터시트와 실제 성능 간 괴리
-- 열 설계 최적화를 위한 SPICE 모델 품질 부족
-
-**정보 탐색 경로**
-- onsemi 공식 기술 문서, 애플리케이션 노트
-- IEEE 논문, PCIM Europe 세미나
-- LinkedIn 기술 커뮤니티, 국내 전자 엔지니어 포럼
-
-**구매 결정 트리거**
-- EliteSiC™ 레퍼런스 디자인 패키지 제공 여부
-- 로컬 FAE 기술 지원 가능 여부
-- BOM 단가 대비 손실 절감 ROI 계산서
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from ON Semiconductor's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in ON Semiconductor's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: Sarah Chen — 산업 자동화 구매 매니저
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 41세 |
-| 직급 | Senior Procurement Manager |
-| 소속 | 독일계 산업용 드라이브 제조사 미국 법인 |
-| 학력 | 공급망관리 MBA |
-| 거주지 | Detroit, Michigan, USA |
-| 연봉 | 약 $120,000 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 책임**
-- 전력 반도체 BOM 원가 협상 및 공급사 다변화
-- 장기 공급 계약(LTA) 체결 및 재고 리스크 관리
-- ESG 공급망 감사 대응
-
-**목표 및 동기**
-- 단일 공급사 의존도 탈피, 듀얼소싱 전략 실행
-- 부품 단가 절감 목표 달성 (연간 3~5%)
-- 공급 연속성 보장으로 생산 라인 중단 방지
-
-**페인 포인트**
-- 반도체 수급 불안정으로 인한 생산 계획 차질
-- 대체 소자 검증에 소요되는 엔지니어링 시간·비용
-- ESG 보고를 위한 공급사 탄소 배출 데이터 확보 어려움
-
-**정보 탐색 경로**
-- onsemi 공급망 포털, Authorized Distributor(Arrow, Mouser)
-- Gartner 공급망 리포트, IHS Markit 반도체 시황
-- 산업 박람회 (electronica, SPS)
-
-**구매 결정 트리거**
-- 3년 이상 LTA 가격 고정 옵션 제공
-- 공급사 ESG 인증서 및 탄소 발자국 데이터
-- 대체 소자 크로스레퍼런스 툴 제공
+- **Age / Occupation**: 42, VP-level or director in a ON Semiconductor customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **ON Semiconductor selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 박정훈 — 클린에너지 스타트업 CTO
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직급 | CTO / 공동창업자 |
-| 소속 | 태양광 인버터 스타트업 (Series A, 직원 45명) |
-| 학력 | 전력전자 박사 수료 |
-| 거주지 | 서울 성수동 |
-| 연봉 | 약 1억 2,000만 원 + 스톡옵션 (추정) |
-
-**핵심 책임**
-- 솔라 마이크로인버터 하드웨어 아키텍처 결정
-- 부품 선정 및 초기 양산 BOM 확정
-- 투자자 대상 기술 차별화 내러티브 구성
-
-**목표 및 동기**
-- 변환 효율 99% 이상 달성으로 경쟁사 대비 우위 확보
-- 스타트업에 적합한 소량 구매·빠른 샘플링 프로세스
-- 글로벌 인증(UL, CE) 획득에 유리한 부품 생태계
-
-**페인 포인트**
-- 최소 주문 수량(MOQ) 장벽으로 초기 단계 샘플링 부담
-- FAE 지원이 대기업 고객에 집중되어 스타트업 접근성 낮음
-- 빠른 설계 반복을 위한 SPICE 모델·평가 보드 가용성 부족
-
-**정보 탐색 경로**
-- onsemi 개발자 포털, GitHub 레퍼런스 코드
-- YouTube 기술 웨비나, Reddit r/electronics
-- 국내 스타트업 기술 네트워크, TIPS 프로그램 연계 멘토
-
-**구매 결정 트리거**
-- 무료 평가 보드 및 온라인 설계 툴 접근
-- 스타트업 전용 FAE 멘토링 프로그램 존재 여부
-- DigiKey/Mouser 소량 재고 즉시 가용성
+- **Age / Occupation**: 35, technical professional who interacts with ON Semiconductor's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **ON Semiconductor selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 여정 매핑
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 행동 | onsemi 접점 |
-|------|------|------------|
-| 인지 | 기술 트렌드 리서치, 학술지·컨퍼런스 탐색 | 기술 블로그, 웨비나, 전시회 부스 |
-| 고려 | 데이터시트 비교, 경쟁사 벤치마크 | 제품 선택 가이드, 비교 툴, 앱 노트 |
-| 평가 | 샘플 주문, SPICE 시뮬레이션, 열 테스트 | 평가 보드, SPICE 모델, FAE 지원 |
-| 구매 | BOM 확정, 공급사 계약 | 배포망(Arrow·Avnet), LTA 협상 |
-| 충성 | 설계 최적화, 신제품 적용 확대 | 뉴스레터, 기술 업데이트, 고객사 케이스스터디 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate ON Semiconductor's financial performance, competitive positioning, and risk factors for investment decisions.
+- **ON Semiconductor selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 지역별 오디언스 특성 (추정)
+## Purchase Journey — AARRR Framework
 
-| 지역 | 핵심 수직 시장 | 우선 채널 |
-|------|-------------|---------|
-| 한국 | EV Tier-1, 배터리 관리 | FAE 직접 지원, 기술 세미나 |
-| 중국 | 전기차, 태양광 인버터 | 배포망, WeChat 기술 커뮤니티 |
-| 독일 | 산업 드라이브, 풍력 | 전시회(electronica), 기술 백서 |
-| 미국 | 데이터센터, EV 충전 | 웨비나, 온라인 설계 툴 |
-| 인도 | 태양광, 2·3륜 EV | 비용 효율 레퍼런스 디자인 |
+| Stage | ON Semiconductor's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | ON Semiconductor total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who ON Semiconductor Is Not For
+
+| Type | Characteristics | Why ON Semiconductor Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | ON Semiconductor's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | ON Semiconductor's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | ON Semiconductor's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+ON Semiconductor's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+ON Semiconductor's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

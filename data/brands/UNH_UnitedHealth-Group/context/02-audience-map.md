@@ -1,127 +1,84 @@
-# 02 오디언스 맵 — UnitedHealth Group (UNH)
+# 02. Audience Map — UnitedHealth Group (UNH)
 
-> 섹터: 건강보험 · 관리의료 | 기준일: 2026-04
-
----
-
-## 1. 오디언스 세그먼트 전체 지도
-
-```
-B2B 세그먼트                         B2C 세그먼트
-├── 대기업 고용주 (500인+)             ├── 개인/가족 가입자
-├── 중소기업 고용주 (2~499인)          ├── Medicare 수혜자 (65세+)
-├── 연방·주 정부 (Medicaid/Medicare)  ├── Medicaid 저소득 수혜자
-├── 병원·의료공급자 네트워크            ├── 만성질환 환자
-├── 약국·PBM 파트너                   └── 디지털헬스 얼리어답터
-└── 투자자·애널리스트
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 A — "책임 HR 관리자" (B2B)
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김지현 (가상) |
-| 나이 | 42세 |
-| 직책 | 대기업 HR 본부장 |
-| 회사 규모 | 직원 3,000명, 제조업 |
-| 주요 고민 | 복리후생 비용 증가, 직원 건강관리 ROI 증명, 갱신 협상 |
-| 정보 탐색 채널 | LinkedIn, 업계 컨퍼런스, 브로커/컨설턴트 추천 |
-| 의사결정 기준 | 네트워크 폭, 클레임 처리 속도, 데이터 리포팅 도구, 가격 |
-| UNH 접점 | UnitedHealthcare Employer solutions, Optum EAP |
-| 핵심 메시지 | "비용 예측 가능성 + 직원 생산성 향상" |
-| 페인 포인트 | 사전승인 지연, 복잡한 청구, 공급자 네트워크 제한 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in managed health care. B2C: End consumers of health care products and services. (T4_INFERRED from UnitedHealth Group's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in UnitedHealth Group's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 B — "은퇴 준비 시니어" (B2C · Medicare)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박영수 (가상) |
-| 나이 | 67세 |
-| 직업 | 은퇴 교사 |
-| 거주지 | 중소도시 |
-| 주요 고민 | 만성질환(고혈압·당뇨) 관리비용, 처방약 보장, 이동수단 |
-| 정보 탐색 채널 | TV, 직접 우편, 가족 추천, 주치의 |
-| 의사결정 기준 | 주치의 네트워크 포함 여부, 처방약 tier, 월 보험료 |
-| UNH 접점 | AARP Medicare Advantage (UHC 제공, 공식) |
-| 핵심 메시지 | "신뢰할 수 있는 의사와 함께, 추가 비용 없이" |
-| 페인 포인트 | 복잡한 약관, 보장 범위 혼란, 디지털 접근성 부족 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a UnitedHealth Group customer organization
+- **Core pain**: Needs reliable managed health care solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **UnitedHealth Group selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 C — "데이터 중심 병원 CFO" (공급자 파트너)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이준혁 (가상) |
-| 나이 | 51세 |
-| 직책 | 지역 병원 시스템 CFO |
-| 조직 규모 | 병상 800개, 연 환자 120만 명 |
-| 주요 고민 | 환급률 협상, 가치 기반 계약, 행정 부담 감소 |
-| 정보 탐색 채널 | AHA 컨퍼런스, Optum 세미나, 업계 리포트 |
-| 의사결정 기준 | 청구 처리 속도, 분석 도구 품질, 계약 조건 투명성 |
-| UNH 접점 | OptumInsight 데이터 플랫폼, 가치기반계약(VBC) |
-| 핵심 메시지 | "함께 비용은 낮추고, 결과는 높인다" |
-| 페인 포인트 | 청구 거절률, 복잡한 사전승인, 계약 불투명성 |
+- **Age / Occupation**: 35, technical professional who interacts with UnitedHealth Group's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **UnitedHealth Group selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 매트릭스 — 영향력 × 수익성
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 수익 기여도 | 브랜드 영향력 | 전략적 우선순위 |
-|----------|------------|--------------|----------------|
-| 대기업 고용주 | 최상 | 높음 | 1순위 |
-| Medicare Advantage | 최상 | 높음 | 1순위 |
-| 정부(Medicaid) | 상 | 중간 | 2순위 |
-| 중소기업 고용주 | 중 | 중간 | 2순위 |
-| 의료공급자 | 중 | 매우 높음 | 1순위 (신뢰 형성) |
-| 개인 가입자 | 중 | 높음 | 3순위 |
-| 투자자 | 낮음(직접) | 매우 높음 | 2순위 |
+- **Age / Occupation**: 38, consumer who interacts with UnitedHealth Group's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **UnitedHealth Group selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 고객 여정 맵 (Medicare Advantage 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인식 → 검토 → 가입 → 이용 → 갱신/이탈
- │         │        │        │        │
-TV광고    비교도구  에이전트  앱/콜센터 만족도
-우편DM    의사추천  온라인폼  클레임   갱신인센티브
-가족권유   AEP이벤트 약국방문  케어코치  경쟁사비교
-```
-
----
-
-## 5. 오디언스별 핵심 메시지 요약
-
-| 오디언스 | 핵심 메시지 1줄 |
-|----------|----------------|
-| 대기업 HR | "비용 예측 가능성과 직원 웰빙을 동시에 달성하는 유일한 파트너" |
-| 시니어 개인 | "당신이 신뢰하는 의사와 함께, 더 건강한 내일" |
-| 정부 파트너 | "Medicaid·Medicare 성과를 데이터로 증명하는 관리형 케어" |
-| 의료공급자 | "행정 부담은 줄이고, 환자 케어에 집중할 수 있도록" |
-| 투자자 | "다각화된 헬스케어 플랫폼의 지속 가능한 성장" |
+| Stage | UnitedHealth Group's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | UnitedHealth Group total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 6. Steal Sheet — 오디언스 레이어별 3개
+## Anti-Persona — Who UnitedHealth Group Is Not For
 
-### [대기업 고용주]
-1. **"Total Cost of Care 리포트"** 제공 — 단순 보험료 비교를 넘어 전체 의료비 구조 가시화
-2. **Well-being ROI 계산기** 제공 — EAP·건강프로그램의 생산성 향상 효과를 수치로 제시
-3. **전담 Account Executive** 배정 — 갱신 3개월 전부터 맞춤형 리텐션 시퀀스 가동
+| Type | Characteristics | Why UnitedHealth Group Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | UnitedHealth Group's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | UnitedHealth Group's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | UnitedHealth Group's full value is realized through deeper operational integration and sustained partnership. |
 
-### [Medicare 시니어]
-1. **AARP 공동 브랜딩** 활용 — 신뢰 기관과의 연계로 브랜드 친숙도 즉시 제고
-2. **처방약 비용 시뮬레이터** — 가입 전 실제 연간 약값 예측 제공, 불안 해소
-3. **주치의 네트워크 검색 도구** — "내 의사가 포함되나요?" 첫 번째 질문에 즉각 답변
+---
 
-### [의료공급자]
-1. **청구 자동화 도구(Optum)** 강조 — 행정 FTE 절감 수치(추정 20~30%) 제시
-2. **가치기반계약 성과 대시보드** — 공급자가 실시간으로 계약 KPI 추적 가능
-3. **임상 데이터 공유 프로그램** — OptumInsight 분석 접근권을 협력 인센티브로 제공
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+UnitedHealth Group's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+UnitedHealth Group's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

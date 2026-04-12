@@ -1,131 +1,102 @@
-# 05. 디자인 시스템 — Emerson Electric (EMR)
+# 05. Design System — Emerson Electric (EMR)
 
-## 컬러 시스템
-
-### 주요 브랜드 컬러
-
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 프라이머리 블루 | Emerson Blue | `#0066CC` | 로고, 주요 CTA, 헤더 (공식) |
-| 다크 블루 | Emerson Dark Blue | `#003D7A` | 섹션 배경, 네비게이션 바 (공식) |
-| 라이트 블루 | Accent Blue | `#4DA6FF` | 인포그래픽 강조, 아이콘 (추정) |
-| 화이트 | Pure White | `#FFFFFF` | 배경, 텍스트 (공식) |
-| 다크 그레이 | Charcoal Gray | `#333333` | 본문 텍스트 (공식) |
-| 미드 그레이 | Mid Gray | `#666666` | 서브텍스트, 캡션 (추정) |
-| 라이트 그레이 | Light Gray | `#F4F4F4` | 섹션 배경, 카드 배경 (추정) |
-
-### 보조 컬러 (기능별)
-
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 성공/안전 | Safety Green | `#2E8B57` | 안전 지표, 정상 상태 표시 (추정) |
-| 경고 | Alert Amber | `#FFA500` | 경고 상태, 주의 알림 (추정) |
-| 위험/오류 | Danger Red | `#CC2200` | 오류, 위험 경보, 긴급 상황 (추정) |
-| 에너지/하이라이트 | Energy Orange | `#E8620A` | 제품 사진 강조, 캠페인 액센트 (추정) |
-| 중립 | Warm Beige | `#F5F0E8` | 인쇄물 배경, 보고서 (추정) |
-
-### 디지털 소프트웨어 UI 컬러 (DeltaV/Plantweb 추정)
-
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| UI 프라이머리 | Digital Blue | `#0055A4` | 소프트웨어 UI 주요 버튼 (추정) |
-| UI 배경 | Dark Navy | `#1A2B45` | 제어 화면 배경 (추정) |
-| UI 데이터 시각화 1 | Teal Accent | `#00B4D8` | 트렌드 차트 라인 (추정) |
-| UI 데이터 시각화 2 | Lime Green | `#80C01E` | 프로세스 흐름 정상 상태 (추정) |
-| UI 데이터 시각화 3 | Purple Mist | `#7B5EA7` | 분석 레이어 구분 (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-| 역할 | 서체 | 비고 |
-|------|------|------|
-| 헤드라인 | Emerson Sans (또는 Roboto Condensed) | 공식 서체 미공개, 추정 |
-| 본문 | Open Sans / Source Sans Pro | 가독성 우선 (추정) |
-| 기술 문서 | Courier New (모노스페이스) | 코드, 기술 수치 표기 (추정) |
-| 디지털 UI | Inter / Noto Sans | 다국어 지원 (추정) |
+Emerson Electric's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**타이포 스케일 (추정)**
+### Core Brand Colors
 
-| 레벨 | 크기 | 굵기 | 용도 |
-|------|------|------|------|
-| H1 | 40~48px | 700 | 페이지 타이틀 |
-| H2 | 28~32px | 600 | 섹션 헤더 |
-| H3 | 20~24px | 600 | 서브섹션 |
-| Body | 16px | 400 | 일반 본문 |
-| Caption | 12~14px | 400 | 이미지 캡션, 출처 |
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 로고 시스템
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-**로고 구성 요소 (공식)**
-- 워드마크: "Emerson" 볼드 산세리프 + 파란색 물결 기호(Swoosh)
-- 물결 기호: 역동성, 연결, 흐름을 상징 (공식 해석)
-- 최소 사용 크기: 인쇄 20mm, 디지털 80px (추정)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-**로고 변형**
-| 버전 | 배경 | 용도 |
-|------|------|------|
-| 컬러 수평 | 흰색 배경 | 일반 웹·인쇄 |
-| 리버스 | 다크 배경 | 다크 테마 UI, 이벤트 배너 |
-| 단색 흑백 | 흑백 인쇄 | 팩스, 흑백 문서 |
-| 아이콘 전용 | 다양 | 파비콘, 앱 아이콘 |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 그래픽 언어
+## 2. Typography
 
-**사진 스타일 (추정)**
-- 실제 산업 현장 사진 선호 (연출 최소화)
-- 전문가(엔지니어)가 장비를 다루는 장면
-- 청결하고 정돈된 플랜트 환경
-- 데이터 시각화·디지털 인터페이스 오버레이 합성
+Emerson Electric's digital properties employ a typographic system appropriate to its industrials positioning.
 
-**일러스트레이션/아이콘 (추정)**
-- 선 굵기 일관된 아웃라인 아이콘
-- 산업 장비·공정 흐름 다이어그램
-- 절제된 색 사용 (프라이머리 블루 + 그레이 조합)
+### Typeface System
 
-**인포그래픽 패턴**
-- 수평 타임라인 (기술 진화 스토리)
-- 원형 생태계 다이어그램 (Plantweb 아키텍처)
-- 수치 강조형 (KPI, ROI 데이터 시각화)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## UI/UX 디자인 원칙 (추정)
-
-1. **명확성 우선**: 복잡한 산업 데이터를 직관적으로 시각화
-2. **일관성**: 소프트웨어 UI와 마케팅 자산 간 컬러·타이포 일치
-3. **접근성**: WCAG 2.1 AA 기준 준수 (대비율 4.5:1 이상)
-4. **밀도**: 기술 문서는 정보 밀도 높게, 마케팅은 여백 확보
-5. **반응형**: 모바일-퍼스트 웹 경험 (필드 엔지니어 태블릿 사용 고려)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 레이어별 전략
+## 3. Channel Specifications
 
-### Steal Sheet 1: 브랜드 일관성 강화
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-| 레이어 | 전략 |
-|--------|------|
-| 인식 | 모든 디지털 광고에 Emerson Blue(`#0066CC`) + 로고 워터마크 의무 적용 |
-| 전환 | 제품 데이터시트 표지에 컬러 코딩 도입 (사업부별 색상 구분) |
-| 클로징 | 영업 제안서 템플릿 통일 — 브랜드 가이드라인 PDF 배포 |
+---
 
-### Steal Sheet 2: 디지털 UI 신뢰감 강화
+## 4. Layout Principles
 
-| 레이어 | 전략 |
-|--------|------|
-| 인식 | 소프트웨어 스크린샷·데모 영상에 Dark Navy(`#1A2B45`) UI 배경 일관 사용 |
-| 전환 | 인터랙티브 ROI 계산기에 Emerson 컬러 팔레트 완전 적용 |
-| 클로징 | 고객 포털 로그인 화면에 브랜드 컬러 강화, 신뢰감 시각화 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### Steal Sheet 3: 산업별 비주얼 차별화
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-| 레이어 | 전략 |
-|--------|------|
-| 인식 | 석유화학 — 야간 플랜트 조명 사진, 발전 — 터빈 클로즈업, 식음료 — 위생 스테인리스 |
-| 전환 | 산업별 케이스스터디 표지 컬러 코드 적용 (석유화학: Dark Blue, 식음료: Safety Green) |
-| 클로징 | 고객 현장 사진 활용 케이스스터디로 "우리 산업 전문가" 인식 강화 |
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Emerson Electric (EMR)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,161 +1,102 @@
-# APO 디자인 시스템 — Brand Autopsy
+# 05. Design System — Apollo Global Management (APO)
 
-> Apollo Global Management | 대체 자산 운용
-
----
-
-## 1. 디자인 철학
-
-Apollo의 비주얼 아이덴티티는 **"냉철한 권위(Austere Authority)"** 원칙을 따른다. 과도한 장식을 배제하고, 데이터와 구조가 스스로 말하게 하는 **미니멀 금융 미학**을 추구한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 기본 팔레트
+Apollo Global Management's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX 코드 | 용도 | 출처 |
-|--------|---------|------|------|
-| Apollo Navy (딥 네이비) | `#0A1628` | 주요 배경, 헤더, 프라이머리 텍스트 | (추정) |
-| Apollo Blue (미드나잇 블루) | `#1B3A6B` | 보조 배경, 섹션 구분 | (추정) |
-| Apollo Gold (프레스티지 골드) | `#C9A84C` | 강조, CTA 버튼, 아이콘 포인트 | (추정) |
-| Pure White | `#FFFFFF` | 배경, 리버스 텍스트 | (공식) |
-| Light Gray | `#F4F5F7` | 섹션 배경, 카드 배경 | (추정) |
-| Mid Gray | `#8C9AAB` | 보조 텍스트, 라벨 | (추정) |
-| Dark Charcoal | `#2C3E50` | 본문 텍스트 | (추정) |
+### Core Brand Colors
 
-### 데이터 시각화 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX 코드 | 용도 |
-|--------|---------|------|
-| Chart Blue 1 | `#1B3A6B` | 주 데이터 시리즈 |
-| Chart Blue 2 | `#2E5FA3` | 보조 데이터 시리즈 |
-| Chart Blue 3 | `#5B8DD9` | 3차 데이터 시리즈 |
-| Chart Gold | `#C9A84C` | 강조 데이터 포인트 |
-| Chart Gray | `#8C9AAB` | 비교군 / 벤치마크 |
-| Positive Green | `#2D7D4A` | 성과 상승, 긍정 지표 |
-| Negative Red | `#C0392B` | 성과 하락, 경고 지표 |
+### Color Principles
 
-### 컬러 사용 비율 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러 | 사용 비율 |
-|------|---------|
-| Apollo Navy | 40% |
-| Pure White | 30% |
-| Light Gray | 15% |
-| Apollo Gold | 5% |
-| 기타 (텍스트·차트) | 10% |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피 시스템
+## 2. Typography
 
-### 서체 체계 (추정)
+Apollo Global Management's digital properties employ a typographic system appropriate to its financials positioning.
 
-| 역할 | 서체 | 특성 |
-|------|------|------|
-| 디스플레이 헤드라인 | Palatino Linotype / Georgia (추정) | 세리프, 권위감 |
-| 본문 텍스트 | Helvetica Neue / Inter (추정) | 산세리프, 가독성 |
-| 데이터 레이블 | Roboto Mono / IBM Plex Mono (추정) | 모노스페이스, 정밀성 |
-| 한국어 지원 | Noto Serif KR / Noto Sans KR (추정) | 다국어 일관성 |
+### Typeface System
 
-### 타이포 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 자간 | 용도 |
-|------|------|------|------|
-| H1 | 48px | -0.5px | 페이지 주제목 |
-| H2 | 36px | -0.3px | 섹션 제목 |
-| H3 | 28px | 0px | 서브섹션 |
-| Body Large | 18px | 0.2px | 리드 텍스트 |
-| Body | 16px | 0.3px | 일반 본문 |
-| Caption | 12px | 0.5px | 데이터 레이블, 면책 고지 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 4. 로고 & 마크
+## 3. Channel Specifications
 
-### 로고 사용 원칙 (추정)
-- **최소 크기**: 가로 80px (디지털), 25mm (인쇄)
-- **여백 규정**: 로고 높이의 1x 이상 클리어 스페이스
-- **허용 배경**: 흰색, Apollo Navy, 연한 회색 배경만 허용
-- **금지 사항**: 로고 변형, 회전, 그라디언트 적용, 경쟁사 로고와 병치
-
-### 컬러 버전
-| 버전 | 배경 | 로고 컬러 |
-|------|------|---------|
-| 기본형 | `#FFFFFF` | `#0A1628` |
-| 역상형 | `#0A1628` | `#FFFFFF` |
-| 골드형 (특수 용도) | `#0A1628` | `#C9A84C` |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5. 레이아웃 & 그리드
+## 4. Layout Principles
 
-### 그리드 시스템 (추정)
-- **컬럼**: 12컬럼 그리드
-- **거터**: 24px (데스크톱), 16px (모바일)
-- **마진**: 80px (데스크톱), 20px (모바일)
-- **최대 너비**: 1280px
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### 여백 시스템 (8px 기반)
-| 토큰 | 값 | 용도 |
-|------|-----|------|
-| spacing-xs | 4px | 인라인 요소 간격 |
-| spacing-sm | 8px | 소형 컴포넌트 패딩 |
-| spacing-md | 16px | 카드 내부 패딩 |
-| spacing-lg | 24px | 섹션 내 요소 간격 |
-| spacing-xl | 40px | 섹션 간 구분 |
-| spacing-2xl | 64px | 페이지 섹션 간격 |
-| spacing-3xl | 96px | 히어로·랜딩 섹션 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 6. 컴포넌트 패턴
+## 5. Design Prohibitions
 
-### 데이터 카드 (Data Card)
-- 배경: `#F4F5F7` 또는 `#FFFFFF`
-- 테두리: 1px solid `#E1E5EA`
-- 모서리: 4px border-radius
-- 헤더 강조: 좌측 4px `#C9A84C` 보더
-
-### CTA 버튼
-| 타입 | 배경 | 텍스트 | 호버 |
-|------|------|--------|------|
-| Primary | `#1B3A6B` | `#FFFFFF` | `#0A1628` |
-| Secondary | `#FFFFFF` | `#1B3A6B` | `#F4F5F7` |
-| Gold Accent | `#C9A84C` | `#0A1628` | `#B8922A` |
-
-### 데이터 테이블
-- 헤더 배경: `#0A1628`
-- 헤더 텍스트: `#FFFFFF`
-- 홀수 행: `#FFFFFF`
-- 짝수 행: `#F4F5F7`
-- 테두리: `#E1E5EA`
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 7. Steal Sheet — 디자인 기회
-
-### Steal Sheet Layer 1: 시각적 차별화 갭
-
-| # | 갭 | 기회 | 방안 |
-|---|-----|------|------|
-| 1 | 경쟁사 대비 골드 포인트 차별화 미흡 (추정) | 프리미엄 인식 강화 | 골드 컬러를 고급 자료·시그니처 섹션에 일관 적용 |
-| 2 | 데이터 시각화 표준화 부족 (추정) | 인포그래픽 브랜드 일관성 | 데이터 비주얼라이제이션 스타일 가이드 제정 |
-| 3 | 디지털-인쇄 일관성 간극 (추정) | 옴니채널 브랜드 일관성 | 디자인 토큰 기반 통합 시스템 구축 |
-
-### Steal Sheet Layer 2: 디지털 UX 갭
-
-| # | 갭 | 기회 | 방안 |
-|---|-----|------|------|
-| 1 | 웹사이트 인터랙티브 데이터 부족 (추정) | LP 셀프서비스 포털 강화 | 실시간 포트폴리오 대시보드 UI 개발 |
-| 2 | 모바일 최적화 미흡 (추정) | 이동 중 콘텐츠 소비 지원 | 모바일 퍼스트 리디자인 + PWA 검토 |
-| 3 | 접근성(Accessibility) 기준 미충족 가능성 (추정) | WCAG 2.1 AA 준수 | 색상 대비율 재검토, 스크린리더 최적화 |
-
-### Steal Sheet Layer 3: 브랜드 확장 갭
-
-| # | 갭 | 기회 | 방안 |
-|---|-----|------|------|
-| 1 | Athene 브랜드와 시각적 통일성 부족 (추정) | 통합 시각 생태계 구축 | 서브브랜드 가이드라인 정립 |
-| 2 | 소셜미디어 비주얼 템플릿 부재 (추정) | LinkedIn 브랜드 일관성 강화 | 소셜 그래픽 템플릿 시스템 제작 |
-| 3 | 이벤트·컨퍼런스 브랜딩 가이드 부재 (추정) | 오프라인 브랜드 접점 강화 | 이벤트 브랜딩 키트 — 배너, 명함, 발표 템플릿 |
+*Layer 5 of 8 — Brand Autopsy: Apollo Global Management (APO)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

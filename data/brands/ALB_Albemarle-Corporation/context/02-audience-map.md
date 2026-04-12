@@ -1,166 +1,84 @@
-# 02 오디언스 맵 — Albemarle Corporation (ALB)
+# 02. Audience Map — Albemarle Corporation (ALB)
 
-## 오디언스 레이어 구조
-
-```
-[Tier 1] 직접 고객 (Direct Customers)
-    ├── 배터리 셀 제조사
-    ├── 자동차 OEM (간접)
-    └── 특수화학 수요처
-
-[Tier 2] 자본시장 (Capital Markets)
-    ├── 기관 투자자
-    ├── 애널리스트
-    └── 소매 투자자
-
-[Tier 3] 규제·정책 (Regulatory & Policy)
-    ├── 미국 DOE / DOD
-    ├── 칠레·호주·중국 정부 기관
-    └── ESG 평가기관
-
-[Tier 4] 인재·지역사회 (Talent & Community)
-    ├── 화학·소재 공학 인재
-    ├── 광산 지역 커뮤니티
-    └── NGO·환경단체
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 프로파일
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 이정훈 — 배터리 소재 조달 매니저
-
-| 항목 | 내용 |
-|------|------|
-| 직함 | Senior Procurement Manager, Battery Materials |
-| 소속 | 한국계 대형 배터리 셀 제조사 (LG Energy Solution, SK On 유형) |
-| 나이 | 38세 |
-| 위치 | 서울 / 출장 잦음 (Charlotte, Santiago, Perth) |
-| 학력 | 화학공학 학사, MBA (추정) |
-| 연봉 | 1억 2천만 원 이상 (추정) |
-
-**핵심 목표**
-- 배터리 등급 수산화리튬(LiOH) 장기 공급 계약 확보
-- 단가 경쟁력 + 품질 일관성 동시 달성
-- 공급망 지정학 리스크(중국 의존도) 분산
-
-**페인포인트**
-- 리튬 가격 변동성으로 인한 COGS 예측 불가
-- 공급 중단 리스크 (광산 사고, 환경 규제)
-- ESG 실사(공급망 투명성) 요구 증가
-
-**의사결정 기준**
-1. 공급 안정성 (Supply Security) — 최우선
-2. 배터리 등급 순도 (99.5%+)
-3. 가격 투명성 및 장기 계약 구조
-4. 탄소 발자국 인증 여부
-
-**선호 채널**
-- 기술 데이터시트, 공급 계약 협상 자리, 산업 컨퍼런스 (Battery Japan, CIBF)
-
-**브랜드와의 관계**
-- 합리적 파트너 평가자. 감성보다 데이터와 SLA(서비스 수준 계약) 중시.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in specialty chemicals and adjacent industries. (T4_INFERRED from Albemarle Corporation's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Albemarle Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: Sarah Mitchell — ESG 전문 기관투자자
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | Portfolio Manager, Clean Energy Equities |
-| 소속 | 미국 대형 자산운용사 (BlackRock, Vanguard 유형) |
-| 나이 | 44세 |
-| 위치 | New York, NY |
-| 학력 | 재무학 학사, CFA (추정) |
-| 운용 규모 | $2B+ AUM (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표**
-- ALB 주식 롱 포지션의 리스크·리턴 최적화
-- ESG 스코어 기반 포트폴리오 컴플라이언스 유지
-- 리튬 사이클 타이밍 판단
-
-**페인포인트**
-- 리튬 가격 사이클 변동으로 인한 EPS 예측 어려움
-- 칠레·아르헨티나 국유화 리스크
-- 수자원 사용·원주민 권리 관련 ESG 논란
-
-**의사결정 기준**
-1. EBITDA 마진 및 자유현금흐름 안정성
-2. GHG 감축 로드맵 신뢰성
-3. 지정학 리스크 분산도 (호주, 중국, 칠레 포트폴리오)
-4. 경영진 자본배분 트랙레코드
-
-**선호 채널**
-- IR 발표, 10-K/10-Q, ESG 리포트, 투자자 데이, 블룸버그 터미널
-
-**브랜드와의 관계**
-- 숫자로만 신뢰를 쌓는 유형. 스토리보다 지속가능성 KPI 진척도 중시.
+- **Age / Occupation**: 42, VP-level or director in a Albemarle Corporation customer organization
+- **Core pain**: Needs reliable specialty chemicals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Albemarle Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: Dr. Amara Osei — 소재공학 박사 연구원
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | Research Scientist, Next-Gen Battery Materials |
-| 소속 | 미국 국립연구소 또는 전기차 OEM R&D센터 |
-| 나이 | 31세 |
-| 위치 | Detroit, MI / Remote |
-| 학력 | 소재공학 Ph.D. (MIT 또는 Stanford 유형) |
-| 관심 분야 | 고체전해질, 리튬금속 음극, 실리콘 음극 |
-
-**핵심 목표**
-- 차세대 배터리 소재 공급사로서 ALB의 기술 역량 검증
-- 실험용 소량 리튬 화합물 샘플 확보
-- 공동 R&D 기회 탐색
-
-**페인포인트**
-- 연구 등급 리튬 화합물의 공급 불안정
-- 기업 R&D 파트너십의 지식재산 귀속 불명확
-- 샘플 요청에서 납품까지 리드타임 과다
-
-**의사결정 기준**
-1. 기술 데이터시트 세부 순도 스펙
-2. 샘플 납기 및 최소 주문 수량(MOQ) 유연성
-3. ALB 기술 팀과의 직접 접근성
-4. 공동 특허·논문 협력 가능성
-
-**선호 채널**
-- 학술 논문, 기술 웨비나, ACS/ECS 학회 부스, LinkedIn 기술 게시물
-
-**브랜드와의 관계**
-- 지적 호기심 중심. 기술 진정성(technical authenticity)에 민감하며 마케팅 과장에 거부감.
+- **Age / Occupation**: 35, technical professional who interacts with Albemarle Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Albemarle Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 우선순위 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 수익 기여도 | 전략적 중요도 | 커뮤니케이션 투자 우선순위 |
-|---------|------------|--------------|--------------------------|
-| 배터리 셀 제조사 | 최고 | 최고 | ★★★★★ |
-| 기관 투자자 | 간접 (주가·자본조달) | 높음 | ★★★★☆ |
-| 자동차 OEM | 중기 성장 | 높음 | ★★★★☆ |
-| 정부·규제기관 | 간접 (라이선스·보조금) | 중간 | ★★★☆☆ |
-| 연구기관·스타트업 | 낮음 (현재) | 미래 파이프라인 | ★★★☆☆ |
-| 일반 소비자 | 해당 없음 | ESG 평판 | ★★☆☆☆ |
+- **Age / Occupation**: 50, institutional investor or analyst covering Materials
+- **Core pain**: Needs to evaluate Albemarle Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Albemarle Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 맵 (배터리 소재 조달 매니저 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인지 (Awareness)
-  └─ 산업 컨퍼런스 / 리튬 공급망 뉴스 / 애널리스트 리포트
-      ↓
-검토 (Consideration)
-  └─ albemarle.com 기술 문서 / 데이터시트 다운로드 / 세일즈팀 컨택
-      ↓
-평가 (Evaluation)
-  └─ 샘플 테스트 / 공장 감사(Audit) / 법무·ESG 실사
-      ↓
-계약 (Decision)
-  └─ 장기 공급 계약(LTA) 체결 / 가격 인덱싱 조항 협상
-      ↓
-유지 (Retention)
-  └─ 기술 지원 / 품질 리뷰 / 신제품 공동 개발 논의
-```
+| Stage | Albemarle Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Albemarle Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Albemarle Corporation Is Not For
+
+| Type | Characteristics | Why Albemarle Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Albemarle Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Albemarle Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Albemarle Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Albemarle Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Albemarle Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In materials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

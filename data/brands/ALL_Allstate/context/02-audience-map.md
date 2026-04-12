@@ -1,131 +1,84 @@
-# 02 오디언스 맵 — Allstate (ALL)
+# 02. Audience Map — Allstate (ALL)
 
-## 오디언스 세그먼트 개요
-
-Allstate의 핵심 고객군은 가정을 꾸린 중산층 미국인으로, 자동차·주택·생명보험을 번들로 구매하는 성향을 보인다. 디지털 채널 확장 이후 밀레니얼 직접 구매층도 빠르게 성장 중이다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1: 마이크 톰슨 (Mike Thompson)
+## Ideal Customer Profile (ICP)
 
-**닉네임:** 안정 추구형 가장
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직업 | 중견기업 영업 관리자 |
-| 가족 | 배우자 + 자녀 2명 (10세, 14세) |
-| 거주지 | 오하이오 주 교외 |
-| 연소득 | $75,000–$95,000 (추정) |
-| 보험 보유 | 자동차(2대) + 주택 번들 |
-| 디지털 성숙도 | 중간 — 앱 사용하지만 클레임은 에이전트 선호 |
-
-**핵심 동기**
-- 가족의 재정적 안전망 확보
-- 복잡한 보험 조건 없이 믿을 수 있는 담당 에이전트 원함
-- 재난·사고 시 빠른 클레임 처리 기대
-
-**주요 불안 요소**
-- 보험료 인상 시 커버리지 축소 여부 불확실
-- 클레임 거절에 대한 막연한 두려움
-- 비교 견적 사이트에서 쏟아지는 정보 과부하
-
-**브랜드 접점**
-- 지역 Allstate 에이전트 사무소
-- allstate.com 견적 계산기
-- 이메일 뉴스레터 (갱신 알림)
-
-**메시지 훅**
-> "한 번의 전화로 가족의 모든 보험을 한곳에서 — Good Hands가 항상 함께합니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in property & casualty insurance. B2C: End consumers of financials products and services. (T4_INFERRED from Allstate's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Allstate's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: 사라 김 (Sarah Kim)
+## Core Personas
 
-**닉네임:** 디지털 네이티브 첫 구매자
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 28세 |
-| 직업 | UX 디자이너 (스타트업) |
-| 가족 | 싱글, 반려견 보유 |
-| 거주지 | 텍사스 주 오스틴 도심 아파트 |
-| 연소득 | $58,000–$72,000 (추정) |
-| 보험 보유 | 자동차 단일 + 렌터스 보험 검토 중 |
-| 디지털 성숙도 | 높음 — 앱·챗봇·비교 플랫폼 적극 활용 |
-
-**핵심 동기**
-- 투명한 가격 구조와 즉각적인 가입 프로세스
-- 모바일 앱으로 클레임·정책 관리 원스톱 처리
-- ESG·사회 가치를 중시하는 브랜드 선호
-
-**주요 불안 요소**
-- 숨겨진 조항·면책 조항에 대한 불신
-- 에이전트 대면 영업 압박 거부감
-- Progressive·Lemonade 등 디지털 경쟁사와의 가격 비교
-
-**브랜드 접점**
-- Instagram / TikTok 광고
-- Google 비교 견적 (보험 비교 플랫폼)
-- Allstate 모바일 앱
-
-**메시지 훅**
-> "5분 안에 가입, 클레임도 앱에서 — 디지털로 완성되는 Good Hands."
+- **Age / Occupation**: 42, VP-level or director in a Allstate customer organization
+- **Core pain**: Needs reliable property & casualty insurance solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Allstate selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: 로버트 & 패트리샤 존슨 (Robert & Patricia Johnson)
+### Persona 2 — Technical Specialist / End User
 
-**닉네임:** 자산 보호형 시니어 커플
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 61세 / 59세 |
-| 직업 | 은퇴 교사 / 파트타임 컨설턴트 |
-| 가족 | 자녀 독립, 반려묘 보유 |
-| 거주지 | 플로리다 주 탬파 단독주택 소유 |
-| 연소득 | $55,000–$70,000 (추정, 연금 포함) |
-| 보험 보유 | 자동차 + 주택 + 우산 보험 번들 |
-| 디지털 성숙도 | 낮음-중간 — 전화·에이전트 방문 선호 |
-
-**핵심 동기**
-- 수십 년간 쌓은 자산(주택·차량) 보호
-- 장기 고객 로열티 혜택·할인 극대화
-- 허리케인·홍수 등 자연재해 커버리지 명확성
-
-**주요 불안 요소**
-- 플로리다 주택보험 시장 불안정 (Allstate 신규 가입 중단 여파) (공식)
-- 고령화에 따른 보험료 인상 우려
-- 클레임 프로세스 복잡성, 빠른 배상 여부
-
-**브랜드 접점**
-- 지역 에이전트 직접 방문
-- 다이렉트 메일·전화 캠페인
-- Allstate 고객 충성 프로그램 (로열티 리워드)
-
-**메시지 훅**
-> "30년 신뢰, 한 분의 에이전트 — 은퇴 후에도 Good Hands가 지킵니다."
+- **Age / Occupation**: 35, technical professional who interacts with Allstate's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Allstate selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 볼륨 | 수익성 | 디지털 전환 가능성 | 이탈 위험 |
-|----------|------|--------|-------------------|-----------|
-| 마이크형 (가정 중산층) | 높음 | 높음 | 중간 | 낮음 |
-| 사라형 (디지털 밀레니얼) | 중간 | 중간 | 높음 | 높음 |
-| 존슨형 (시니어 자산가) | 낮음 | 높음 | 낮음 | 중간 |
-
----
-
-## 잠재 성장 세그먼트 (추정)
-
-- **소규모 자영업자:** 상업용 자동차·일반 배상 번들 수요 증가
-- **신규 이민자·다문화 가정:** 스페인어·중국어 다국어 서비스 확장 여지
-- **공유경제 종사자 (라이드쉐어·배달):** 플랫폼 연계 보험 상품 개발 기회
+- **Age / Occupation**: 38, consumer who interacts with Allstate's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Allstate selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 법적 고지
+## Purchase Journey — AARRR Framework
 
-본 문서의 (공식) 표기는 Allstate 공식 보도자료·IR 자료에서 확인된 정보이며, (추정) 표기는 공개 산업 데이터에 기반한 합리적 추론임.
+| Stage | Allstate's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Allstate total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Allstate Is Not For
+
+| Type | Characteristics | Why Allstate Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Allstate's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Allstate's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Allstate's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Allstate's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Allstate's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

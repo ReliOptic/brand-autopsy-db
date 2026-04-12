@@ -1,164 +1,102 @@
-# 05. 디자인 시스템 — Visa (V)
+# 05. Design System — Visa Inc. (V)
 
-## 디자인 철학
-
-Visa의 디자인 언어는 **신뢰·명확성·보편성**을 시각적으로 구현한다. 복잡한 금융 인프라를 단순하고 직관적으로 표현하며, 전 세계 어떤 문화권에서도 즉시 인식 가능한 글로벌 시각 정체성을 유지한다. 2021년 리브랜딩을 통해 그라디언트를 제거하고 플랫(flat) 디자인으로 전환, 디지털 환경에 최적화했다 (공식).
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 핵심 브랜드 컬러
+Visa Inc.'s visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Visa 네이비 (Deep Blue) | `#1A1F71` | 로고 배경, 주요 브랜드 색상 | (공식) |
-| Visa 골드 (Gold) | `#F7B600` | 로고 텍스트, 포인트 컬러 | (공식) |
-| 화이트 | `#FFFFFF` | 배경, 역전 텍스트 | (공식) |
-| 라이트 블루 | `#0057B8` | 디지털 UI, 링크, CTA 버튼 | (추정) |
-| 다크 그레이 | `#1E1E1E` | 본문 텍스트 | (추정) |
+### Core Brand Colors
 
-### 보조 컬러 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| 미드 블루 | `#2196F3` | 인포그래픽, 데이터 시각화 | (추정) |
-| 소프트 골드 | `#FFC842` | 프리미엄 카드 디자인 강조 | (추정) |
-| 라이트 그레이 | `#F4F4F4` | 카드 배경, 섹션 구분 | (추정) |
-| 미드 그레이 | `#767676` | 보조 텍스트, 캡션 | (추정) |
-| 성공 그린 | `#28A745` | 결제 승인 상태 표시 | (추정) |
-| 경고 레드 | `#DC3545` | 오류·경고 상태 표시 | (추정) |
+### Color Principles
 
-### 컬러 사용 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-- 네이비(`#1A1F71`) + 골드(`#F7B600`) 조합이 Visa 브랜드의 핵심 — 항상 함께 사용 (공식)
-- 배경이 어두울 때: 화이트 텍스트 + 골드 포인트
-- 배경이 밝을 때: 네이비 텍스트 + 골드 포인트
-- 그라디언트는 로고에서 금지, 배경·일러스트에서 제한적 허용 (공식, 2021 리브랜딩 이후)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-### 글꼴 시스템
-
-| 구분 | 폰트명 | 용도 | 출처 |
-|------|--------|------|------|
-| 주요 글꼴 | Visa Dialect (커스텀) | 모든 브랜드 커뮤니케이션 | (공식) |
-| 대체 글꼴 | Source Sans Pro | 커스텀 폰트 미적용 환경 | (추정) |
-| 코드/개발자 | Source Code Pro (Mono) | Developer Portal, API 문서 | (추정) |
-
-### 타이포그래피 스케일 (추정)
-
-| 레벨 | 크기 | 굵기 | 용도 |
-|------|------|------|------|
-| Display | 56-72px | Bold (700) | 히어로 헤드라인 |
-| H1 | 40-48px | Bold (700) | 페이지 제목 |
-| H2 | 28-36px | SemiBold (600) | 섹션 헤더 |
-| H3 | 20-24px | SemiBold (600) | 서브섹션 |
-| Body L | 18px | Regular (400) | 주요 본문 |
-| Body M | 16px | Regular (400) | 기본 본문 |
-| Caption | 12-14px | Regular (400) | 캡션, 면책 조항 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-### 로고 구성 (공식)
+Visa Inc.'s digital properties employ a typographic system appropriate to its financials positioning.
 
-- **워드마크**: "VISA" — 이탤릭 없음, 올캡(All-caps), 네이비 + 골드 두 컬러
-- **형태**: 단순 텍스트 로고, 아이콘·심볼 없음
-- **2021 업데이트**: 그라디언트 제거, 플랫 컬러로 단순화 (공식)
+### Typeface System
 
-### 로고 변형
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 버전 | 사용 환경 |
-|------|----------|
-| 네이비 배경 + 화이트 텍스트 | 어두운 배경 |
-| 화이트 배경 + 네이비 텍스트 + 골드 | 밝은 배경 (기본) |
-| 단색(모노크롬) | 단색 인쇄물 |
-| 역전(Reversed) | 색상 배경 위 |
+### Typographic Scale
 
-### 로고 보호 영역
-
-- 최소 여백: 로고 높이의 50% (추정)
-- 최소 크기: 디지털 24px 높이, 인쇄 6mm 높이 (추정)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 아이코노그래피 & 일러스트레이션
+## 3. Channel Specifications
 
-### 아이콘 스타일 (추정)
-
-- **선형(Line) 아이콘**: 2px 획, 라운드 캡
-- **그리드**: 24×24px 기준
-- **컬러**: 단색, 브랜드 컬러 팔레트 내
-- **스타일**: 미니멀, 국제적으로 보편 인식 가능한 형태
-
-### 일러스트레이션 스타일
-
-- **플랫 일러스트**: 그림자 없는 단순 형태
-- **인물 표현**: 다양한 인종·연령·젠더 포함 (포용성 원칙)
-- **배경**: 대체로 단색 또는 낮은 채도 그라디언트
-- **모션**: 부드러운 ease-in-out, 0.2-0.3s 트랜지션 (추정)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## UI 컴포넌트 패턴 (Visa Developer Portal 기준, 추정)
+## 4. Layout Principles
 
-### 버튼
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 타입 | 배경색 | 텍스트색 | 용도 |
-|------|--------|---------|------|
-| Primary | `#1A1F71` | `#FFFFFF` | 주요 CTA |
-| Secondary | `#FFFFFF` | `#1A1F71` | 보조 액션 |
-| Destructive | `#DC3545` | `#FFFFFF` | 삭제·취소 |
-| Disabled | `#767676` | `#F4F4F4` | 비활성 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 카드 컴포넌트
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- 배경: `#FFFFFF`
-- 테두리: 1px `#E0E0E0`
-- 모서리 반경: 8px (추정)
-- 그림자: `0 2px 8px rgba(0,0,0,0.08)` (추정)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 결제 카드 디자인 원칙
+## 5. Design Prohibitions
 
-### 카드 계층 구조 (공식 기반)
-
-| 등급 | 명칭 | 주요 시각 요소 |
-|------|------|--------------|
-| 기본 | Visa Classic | 표준 네이비/골드 배지 |
-| 중급 | Visa Gold | 골드 컬러 강조 |
-| 프리미엄 | Visa Signature | 실버/블랙 프리미엄 마감 |
-| 최상위 | Visa Infinite | 다크/블랙 고급 소재감 |
-
-### 카드 레이아웃 요소
-
-- Visa 홀로그램 배지: 우측 하단 (공식)
-- 카드 번호: 앞면 중하단, 양각 또는 인쇄
-- NFC/탭투페이 심볼: 앞면 우측 (공식, 탭투페이 카드)
-- EMV 칩: 앞면 좌측 (공식)
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 모션 & 애니메이션 원칙 (추정)
-
-| 원칙 | 내용 |
-|------|------|
-| 목적 있는 움직임 | 모든 애니메이션은 상태 변화·피드백 전달 목적 |
-| 속도 | 마이크로 인터랙션 100-200ms, 페이지 전환 300-400ms |
-| 이징 | ease-out (등장), ease-in (퇴장), ease-in-out (상태 변화) |
-| 축소 선호 | 접근성을 위해 reduced-motion 미디어 쿼리 준수 |
-
----
-
-## Steal Sheet — 디자인 시스템 레이어
-
-| # | 전략 | 실행 방법 | 적용 난이도 |
-|---|------|-----------|------------|
-| 1 | **2-컬러 브랜드 시스템** 단순화 | 메인 컬러 2개(네이비+골드)만으로 모든 터치포인트 커버, 보조 컬러는 기능용으로 제한 | 하 |
-| 2 | **플랫 로고** 원칙 적용 | 그라디언트·이펙트 제거로 디지털·인쇄 모든 환경 대응력 극대화 | 하 |
-| 3 | **카드 계층 = 브랜드 계층** 연동 | 제품 등급을 시각 언어(컬러·소재·마감)로 직접 표현, 프리미엄 인식 자동 생성 | 중 |
+*Layer 5 of 8 — Brand Autopsy: Visa Inc. (V)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

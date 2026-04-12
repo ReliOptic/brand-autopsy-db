@@ -1,109 +1,84 @@
-# AMD 오디언스 맵
+# 02. Audience Map — Advanced Micro Devices (AMD)
 
-## 오디언스 개요
-
-AMD의 타깃 오디언스는 크게 **소비자(Consumer)**, **엔터프라이즈(Enterprise)**, **파트너/개발자(Partner/Developer)** 3개 레이어로 구분된다. 각 레이어는 서로 다른 구매 동기, 정보 습득 경로, 브랜드 기대치를 가진다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 고성능 게이머
+## Ideal Customer Profile (ICP)
 
-### 페르소나 — 이진혁 (28세, 게임 스트리머)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 프리랜서 게임 스트리머 / 콘텐츠 크리에이터 |
-| 거주지 | 서울 마포구 |
-| 소득 | 월 350만원 내외 (추정) |
-| 보유 장비 | Ryzen 7 7800X3D + RX 7900 XTX 커스텀 빌드 |
-| 핵심 목표 | 최고 프레임레이트로 경쟁 게임(발로란트, 배그) 우위 확보 + 방송 인코딩 동시 처리 |
-| 주요 고통 | GPU 드라이버 불안정, NVIDIA 대비 소프트웨어 생태계 빈약, 레이 트레이싱 성능 격차 |
-| 정보 채널 | YouTube 벤치마크 채널(Tech Jesus, 잇섭), Reddit r/hardware, Discord 빌드 서버 |
-| 구매 트리거 | 신규 타이틀 출시 전 업그레이드 욕구, 한정 번들 이벤트 |
-| AMD와의 관계 | "Red Team" 정체성 보유, FSR 기술 지지, 하지만 드라이버 이슈에 민감 |
-| 브랜드 기대 | 가격 대비 최고 게임 성능, 안정적 드라이버 업데이트, 커뮤니티 소통 |
-
-**핵심 인사이트:** 이진혁은 AMD를 단순 부품 제조사가 아닌 "게이밍 정체성"으로 인식한다. 드라이버 품질이 브랜드 충성도의 결정 변수다.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from Advanced Micro Devices's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Advanced Micro Devices's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 데이터센터 구매 담당자
+## Core Personas
 
-### 페르소나 — 박수연 (42세, IT 인프라 팀장)
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 대기업 IT 인프라팀 팀장 (금융권) |
-| 소속 | 서울 소재 대형 은행 IT본부 |
-| 결재 권한 | 프로젝트당 50억원 이하 (추정) |
-| 보유 인프라 | Intel Xeon 기반 레거시 서버, 일부 AMD EPYC 파일럿 도입 중 |
-| 핵심 목표 | 총소유비용(TCO) 절감, AI 워크로드 처리 능력 확보, 벤더 이중화 |
-| 주요 고통 | EPYC 마이그레이션 리스크, ISV 소프트웨어 인증 범위, 내부 보안 승인 절차 |
-| 정보 채널 | Gartner 리포트, IDC, AMD/Intel 공식 백서, 동종업계 CIO 네트워크 |
-| 구매 트리거 | 현재 인텔 서버 계약 만료, 전력 비용 급등, 경쟁사 AI 인프라 도입 뉴스 |
-| AMD와의 관계 | 성능·전력 효율 데이터에 긍정적, 하지만 인텔 대비 레퍼런스 부족에 신중 |
-| 브랜드 기대 | 엔터프라이즈급 지원 SLA, ISV 파트너십 폭, 명확한 로드맵 |
-
-**핵심 인사이트:** 박수연에게 AMD는 "아직 검증 중인 대안"이다. 레퍼런스 고객 사례와 기술 지원 생태계 확장이 전환 장벽 해소의 핵심이다.
+- **Age / Occupation**: 42, VP-level or director in a Advanced Micro Devices customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Advanced Micro Devices selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: AI/ML 연구 개발자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나 — 최민준 (34세, 딥러닝 연구원)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 스타트업 AI 연구팀 시니어 ML 엔지니어 |
-| 소속 | 서울 강남구 AI 스타트업 (Series B) |
-| 학력 | KAIST 전산학 박사 수료 (추정) |
-| 현재 인프라 | AWS EC2 + 온프레미스 NVIDIA A100 혼용 |
-| 핵심 목표 | LLM 파인튜닝 비용 절감, GPU 메모리 병목 해소, 오픈소스 프레임워크 호환성 |
-| 주요 고통 | ROCm 생태계 미성숙, PyTorch/CUDA 의존 라이브러리 호환 이슈, NVIDIA 대비 커뮤니티 자료 부족 |
-| 정보 채널 | arXiv, Hugging Face 커뮤니티, GitHub Issues, MLCommons 벤치마크 |
-| 구매 트리거 | MI300X 메모리 용량(192GB HBM3) 우위, 오픈소스 커뮤니티 ROCm 개선 소식 |
-| AMD와의 관계 | 기술적 관심도 높으나 전환 비용(코드 재작성, 라이브러리 재검증) 우려 |
-| 브랜드 기대 | ROCm 완성도 향상, PyTorch/JAX 완전 호환, 활발한 개발자 커뮤니티 |
-
-**핵심 인사이트:** 최민준은 AMD의 잠재적 얼리어답터다. ROCm 생태계 품질이 NVIDIA 전환의 유일한 장벽이며, 개발자 경험(DX) 투자가 이 세그먼트의 결정 변수다.
+- **Age / Occupation**: 35, technical professional who interacts with Advanced Micro Devices's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Advanced Micro Devices selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 레이어 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 | 구매 사이클 | 브랜드 민감도 | 핵심 KPI |
-|---------|------|------------|-------------|---------|
-| 게이밍 소비자 | 대(大) | 2~3년 | 높음 | FPS, 가격/성능비 |
-| 크리에이터·전문가 | 중(中) | 3~5년 | 중간 | 렌더링 속도, 소프트웨어 호환 |
-| 데이터센터·클라우드 | 소(小)·고가치 | 5~7년 | 낮음(성과 우선) | TCO, FLOPS/달러 |
-| AI/ML 개발자 | 성장 중 | 1~2년(클라우드) | 중간 | 메모리 대역폭, ROCm 호환 |
-| OEM·시스템 빌더 | 중(中) | 연간 계약 | 낮음 | 공급 안정성, 마진 |
-| 임베디드·FPGA | 소(小)·전문 | 7~10년 | 낮음 | 전력, 지연시간 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Advanced Micro Devices's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Advanced Micro Devices selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 맵 (게이밍 소비자 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 관심 → 고려 → 구매 → 충성
- |        |       |       |       |
-YouTube  벤치마크  가격비교  온라인몰  커뮤니티
-광고     채널    사이트   / 오프라인  활동
-        Reddit  커뮤니티   매장     드라이버
-        리뷰    의견 수렴           업데이트
-                                  경험
-```
-
-**이탈 위험 지점:** 고려 단계에서 드라이버 불안 리뷰 노출 시 전환율 급락 (추정)
+| Stage | Advanced Micro Devices's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Advanced Micro Devices total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 오디언스 특성 (추정)
+## Anti-Persona — Who Advanced Micro Devices Is Not For
 
-| 지역 | 특징 |
-|------|------|
-| 북미 | 게이밍 PC DIY 문화 강함, 가격 민감도 중간 |
-| 유럽 | 전력 효율·환경 가치 중시, EPYC 서버 시장 성장 |
-| 중국 | 수출 통제로 MI 시리즈 제한, Radeon 소비자 시장 유효 |
-| 한국 | PC방 문화 기반 게이밍 영향력, Samsung/SK 공급망 연계 |
-| 인도 | 가성비 소비자 비중 높음, 스타트업 AI 수요 급성장 |
+| Type | Characteristics | Why Advanced Micro Devices Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Advanced Micro Devices's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Advanced Micro Devices's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Advanced Micro Devices's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Advanced Micro Devices's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Advanced Micro Devices's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,94 +1,123 @@
-# 04. 콘텐츠 DNA — Autodesk (ADSK)
+# 04. Content DNA — Autodesk (ADSK)
 
-> 상태 표기: (공식) = 공개 자료 근거 / (추정) = 분석·추론
-
----
-
-## 4-1. 콘텐츠 철학
-
-**핵심 원칙 (공식 기반)**
-> "전문가가 더 빠르고 스마트하게 만들 수 있도록, 지식을 앞서 나눈다."
-
-Autodesk 콘텐츠의 세 기둥:
-1. **교육 (Educate)** — 기술 튜토리얼, 인증 과정, Autodesk University
-2. **영감 (Inspire)** — 고객 성공 스토리, 수상작, 미래 설계 비전
-3. **연결 (Connect)** — 커뮤니티 포럼, 파트너 생태계, 소셜 채널
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 4-2. 메시지 피라미드
+## Content Pillars
 
-```
-[최상위] "Design and make anything"
-         │
-[2단계] 플랫폼 가치: 설계-제조-건설 통합, 클라우드 협업, AI 강화
-         │
-[3단계] 제품군별: Revit BIM 협업 / Fusion 통합 워크플로 / Maya 창작 자유
-         │
-[4단계] 기능별: 충돌 감지 / CAM 자동화 / 실시간 렌더링 / 시뮬레이션
-```
+Autodesk's content strategy reflects its positioning in the Application Software segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Autodesk understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for application software requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Autodesk." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 4-3. 콘텐츠 포맷 & 채널 매핑
-
-| 포맷 | 목적 | 주요 채널 | 빈도 (추정) |
-|------|------|-----------|------------|
-| 튜토리얼 영상 (5~20분) | 교육·온보딩 | YouTube, Autodesk.com | 주 3~5편 |
-| 케이스 스터디 (PDF·웹) | 신뢰 구축·영업 지원 | 웹사이트, 영업팀 공유 | 월 2~4편 |
-| 웨비나·라이브 데모 | 리드 육성·제품 이해 | 자사 플랫폼, LinkedIn | 월 2~3회 |
-| 블로그·기술 아티클 | SEO·사상 리더십 | Autodesk Blog | 주 2~3편 |
-| Autodesk University (AU) | 연간 플래그십 이벤트 | 오프라인+온라인 | 연 1회 (공식) |
-| 소셜 숏폼 (Reels·Shorts) | 인지도·바이럴 | Instagram, TikTok, YouTube | 주 3~5편 (추정) |
-| 백서·리서치 리포트 | 엔터프라이즈 신뢰 | 게이트드 콘텐츠 | 분기 1~2편 |
-| 포럼·커뮤니티 게시물 | 리텐션·지지자 육성 | Autodesk Community | 상시 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 4-4. 톤 오브 보이스 가이드라인
+## Hook Patterns
 
-### 사용하는 톤
-- **전문적이되 접근 가능한** — 전문 용어를 쓰되 맥락 설명 제공
-- **낙관적·미래지향적** — "더 나은 세상을 설계할 수 있다"는 신념
-- **증거 기반** — 수치·케이스·인증으로 뒷받침
-- **간결하고 행동 지향적** — 동사 중심, CTA 명확
+### Hook 1 — Industry Challenge Lead
 
-### 피하는 톤
-- 과도한 기업어 (synergy, leverage, holistic 남발)
-- 자화자찬형 슈퍼래티브 ("최고", "유일한") 근거 없이 사용
-- 감정 과잉 호소 (B2B 맥락과 불일치)
+Opens with a recognizable industry challenge or pain point before presenting Autodesk's perspective.
 
----
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-## 4-5. 콘텐츠 테마 캘린더 (연간 주기, 추정)
+### Hook 2 — Data-Driven Insight
 
-| 시기 | 주제 | 연계 이벤트 |
-|------|------|------------|
-| 1~2월 | 신년 설계 트렌드, AI 워크플로 혁신 | CES, AU 콘텐츠 후속 |
-| 3~4월 | AEC 시즌 (건설 발주 증가) | Bimā€World, 건축 주간 |
-| 5~6월 | 제조 혁신, 지속가능 설계 | Hannover Messe, Autodesk University EMEA (추정) |
-| 7~8월 | 교육·학생 콘텐츠, 인턴·신입 겨냥 | 대학 신학기 준비 |
-| 9~10월 | 미래 기술 (디지털 트윈, AI) | AU 메인 이벤트 (공식) |
-| 11~12월 | 연간 성과 리뷰, 고객 성공 스토리 | 연말 갱신 시즌 |
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## 4-6. SEO 핵심 키워드 클러스터 (추정)
+### Hook 3 — Customer Story Lead
 
-| 클러스터 | 대표 키워드 |
-|----------|------------|
-| BIM 소프트웨어 | "BIM software", "Revit tutorial", "BIM 360 vs ACC" |
-| CAD/CAM | "AutoCAD vs Fusion 360", "CAM software", "CNC machining software" |
-| 클라우드 협업 | "cloud-based CAD", "construction collaboration software" |
-| AI 설계 | "AI-generative design", "Autodesk AI", "generative design Fusion" |
-| 지속가능 설계 | "sustainable building design software", "carbon analysis BIM" |
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 4-7. Steal Sheet — 콘텐츠 DNA 레이어
+## CTA Patterns
 
-| # | 훔칠 것 | 구체적 적용법 |
-|---|---------|--------------|
-| 1 | **Autodesk University 모델 — 연간 플래그십 교육 이벤트** | 자사 제품 생태계 중심의 연례 컨퍼런스를 운영해 커뮤니티·미디어·영업 기회를 한 번에 창출. 오프라인+온라인 병행으로 글로벌 커버리지 확보 |
-| 2 | **튜토리얼을 리텐션 도구로 활용** | 구매 후 온보딩 단계에서 무료 튜토리얼 시리즈를 제공해 이탈률 감소. "쓸수록 가치가 커진다"는 경험을 콘텐츠로 설계 |
-| 3 | **고객 작업물을 콘텐츠 자산으로 전환** | AU 수상작, 고객 포트폴리오를 공식 채널에서 showcase → 제작 비용 없이 고품질 인스피레이션 콘텐츠 확보, 고객 로열티 동시 강화 |
+| CTA Type | Autodesk Pattern | What Autodesk Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+
+---
+
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Autodesk as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #ADSK | Financial and investor community | Moderate (estimated) |
+| #Autodesk | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Autodesk's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in application software face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Autodesk's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

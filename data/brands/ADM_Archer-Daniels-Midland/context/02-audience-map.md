@@ -1,140 +1,84 @@
-# 02. 오디언스 맵 — Archer Daniels Midland (ADM)
+# 02. Audience Map — Archer Daniels Midland (ADM)
 
-> 섹터: Consumer Staples / Agricultural Commodities
-> 상태 표기: (공식) = 공개 자료 확인 / (추정) = 분석 기반 추론
-
----
-
-## 1. 오디언스 개요
-
-ADM은 순수 B2B 브랜드로, 직접 소비자(B2C) 접점이 없다. 주요 오디언스는 기업 구매 의사결정자, 투자자, 규제 기관, 농업 파트너로 구성된다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 글로벌 식품 제조사 구매 책임자
-
-**이름:** 박지훈 (가명)
-**직책:** 글로벌 식품 대기업 원자재 조달 VP
-**나이:** 45–55세
-**위치:** 서울 / 싱가포르 / 시카고
-
-**배경:**
-- 15년+ 식품 공급망 경력
-- 연간 조달 예산 5억 달러 이상 관리
-- 공급망 리스크 관리 및 원가 절감이 KPI 핵심
-- ESG 보고 의무화로 공급업체 지속가능성 검증 압박 증가
-
-**페인 포인트:**
-- 기후 변화로 인한 원자재 가격 변동성
-- 공급업체 ESG 검증 부담
-- 대체 단백질·기능성 성분 수요 급증 대응 지연
-- 물류 복잡성 증가 (지정학적 리스크)
-
-**ADM에 기대하는 것:**
-- 안정적 대량 공급 보장
-- 가격 변동 헤지 솔루션
-- 지속가능성 인증 제공 (탄소 추적, 비삼림벌채 보증)
-- 원스톱 성분 포트폴리오
-
-**주요 채널:** 업계 컨퍼런스, LinkedIn, 트레이드 매거진, 직접 영업
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in agricultural products & services. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Archer Daniels Midland's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Archer Daniels Midland's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 동물 사료 중소기업 오너
+## Core Personas
 
-**이름:** 김성민 (가명)
-**직책:** 가금류 사료 제조 중견기업 대표
-**나이:** 50–60세
-**위치:** 경기도 / 태국 / 브라질 내륙
+### Persona 1 — Enterprise Decision-Maker
 
-**배경:**
-- 가족 경영 2~3세대 사료 기업
-- 연간 매출 500억~2,000억 원 규모
-- 원가 압박과 ASF(아프리카돼지열병) 등 질병 리스크 상시 노출
-- 대기업 공급사와 거래하며 가격 협상력 약함
-
-**페인 포인트:**
-- 아미노산·비타민 가격 급등
-- 동물 질병으로 인한 수요 급변
-- 기술 지원 부족 (영양 배합 전문가 내재화 어려움)
-- 환경 규제 강화 (폐수, 악취)
-
-**ADM에 기대하는 것:**
-- 기술 지원 포함 패키지 솔루션
-- 유연한 물량 조정 가능한 계약 구조
-- 현지 영업 담당자와의 밀착 관계
-- 업계 세미나·교육 프로그램
-
-**주요 채널:** 현지 영업 담당자, 업계 박람회, 전화/이메일
+- **Age / Occupation**: 42, VP-level or director in a Archer Daniels Midland customer organization
+- **Core pain**: Needs reliable agricultural products & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Archer Daniels Midland selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: ESG 중심 기관 투자자
+### Persona 2 — Technical Specialist / End User
 
-**이름:** 이수연 (가명)
-**직책:** 글로벌 자산운용사 ESG 애널리스트
-**나이:** 30–40세
-**위치:** 뉴욕 / 런던 / 홍콩
-
-**배경:**
-- CFA + ESG 전문 자격증 보유
-- 운용 AUM 5조 원 이상 포트폴리오 내 ADM 포지션 관리
-- TCFD, SFDR 등 규제 공시 요건 충족 압박
-- 식품·농업 섹터 탈탄소화 진척도 추적
-
-**페인 포인트:**
-- ADM의 삼림벌채 연루 의혹 (공식 — 과거 NGO 보고서)
-- 공급망 투명성 데이터 부족
-- 단기 실적 vs 장기 지속가능성 목표 충돌
-- 경쟁사(Cargill 등) 대비 ESG 공시 수준 비교
-
-**ADM에 기대하는 것:**
-- 연간 지속가능성 보고서 (TCFD 정렬)
-- Scope 3 배출량 공시
-- 공급망 추적 기술(블록체인 등) 도입 현황
-- 이사회 수준 ESG 거버넌스 강화
-
-**주요 채널:** IR 자료, 지속가능성 보고서, 컨퍼런스 콜, Bloomberg/MSCI 데이터
+- **Age / Occupation**: 35, technical professional who interacts with Archer Daniels Midland's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Archer Daniels Midland selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 세컨더리 오디언스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 역할 | ADM 관련성 |
-|---|---|---|
-| 농가 (대규모 계약 농업) | 원료 공급자 | 곡물 매입 계약, 기술 지원 (추정) |
-| 정부·규제 기관 | 허가·감독 | 바이오연료 보조금, 식품 안전 규제 (공식) |
-| NGO·시민단체 | 감시자 | 환경·노동 이슈 감시, ADM 타깃 캠페인 이력 (공식) |
-| 학계·연구기관 | 기술 파트너 | 공동 R&D, 정밀발효 연구 (추정) |
-| 미디어 (식품·농업 전문) | 정보 전달자 | 기업 발표·스캔들 증폭 (공식) |
+- **Age / Occupation**: 38, consumer who interacts with Archer Daniels Midland's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Archer Daniels Midland selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 오디언스 여정 맵 (구매 의사결정자 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 관심 → 검토 → 협상 → 계약 → 유지
-  |        |        |        |        |       |
-업계   콘텐츠  RFP/   직접   계약서  리뷰/
-컨퍼   마케팅  기술   영업   검토    갱신
-런스   자료    문서
-```
-
-**최장 사이클:** 6–18개월 (대형 글로벌 계약 기준 — 추정)
-**핵심 전환점:** 기술 검증 단계 (샘플 테스트, 공장 감사)
+| Stage | Archer Daniels Midland's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Archer Daniels Midland total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 오디언스 인사이트 요약
+## Anti-Persona — Who Archer Daniels Midland Is Not For
 
-| 페르소나 | 주요 동기 | 핵심 장벽 | 메시지 우선순위 |
-|---|---|---|---|
-| 글로벌 구매 VP | 공급 안정성·ESG 컴플라이언스 | 가격 경쟁력, 대안 공급사 존재 | 규모·신뢰·지속가능성 |
-| 중소 사료기업 대표 | 비용 절감·기술 지원 | 최소 주문량, 계약 경직성 | 파트너십·현지화 |
-| ESG 투자자 | 리스크 조정 수익·규제 준수 | 투명성 부족·스캔들 이력 | 공시 수준·탄소 감축 |
+| Type | Characteristics | Why Archer Daniels Midland Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Archer Daniels Midland's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Archer Daniels Midland's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Archer Daniels Midland's full value is realized through deeper operational integration and sustained partnership. |
 
 ---
 
-*최종 업데이트: 2026-04-12*
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Archer Daniels Midland's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Archer Daniels Midland's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

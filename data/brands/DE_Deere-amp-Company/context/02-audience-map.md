@@ -1,143 +1,84 @@
-# 02. 오디언스 맵 — Deere & Company / John Deere (DE)
+# 02. Audience Map — Deere & Company (DE)
 
-## 타겟 오디언스 개요
-
-John Deere의 구매 의사결정은 **다층 B2B/B2C 혼합 구조**다. 소규모 가족농(오퍼레이터·구매자 동일인)부터 대형 농업법인 CFO, 건설 플릿 매니저, 임업 회사 조달 담당자까지 폭넓게 분포한다. 정밀농업 플랫폼(Operations Center) 도입으로 **농업 데이터 관리자(Ag Data Manager)**라는 새로운 의사결정 레이어도 부상 중이다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 가족농 계승자 "초록 민재"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박민재 (35세, 남성) |
-| 직함 | 3대째 쌀·콩 농가 경영자 |
-| 근무지 | 충청남도 당진, 논 80ha 규모 |
-| 경력 | 귀농 8년, 부친에게 John Deere 트랙터 물려받음 |
-| 소득 | 연 8,000만~1억 2,000만 원 (추정) |
-| 학력 | 농업계열 전문대 졸업 |
-
-**목표**
-- 부친 세대의 장비 자산(John Deere 8R 트랙터)을 최신 정밀농업 기술로 업그레이드
-- 인건비 절감을 위해 자율주행 트랙터 도입 검토
-- 에이커당 수확량을 5년 내 15% 향상
-
-**페인 포인트**
-- 장비 고장 시 농번기 일정 전체가 무너진다
-- 정밀농업 기술 도입 비용이 너무 높다는 인식
-- 딜러 서비스 센터가 원거리에 있어 긴급 수리 대응 느림
-
-**브랜드 인식**
-- John Deere = "아버지가 쓰던 브랜드, 믿을 수 있다" — 세대 계승 충성도 핵심
-- 가격 대비 가치 면에서 국산 브랜드(LS, 대동)와 비교하지만 최종 선택은 Deere (추정)
-
-**정보 수집 채널**
-- 농업 커뮤니티(농민신문, 카페), 딜러 방문, 농기계 전시회(KIEMSTA), 유튜브 농업 채널
-
-**핵심 메시지 훅**
-> "아버지의 기계, 나의 데이터로 더 멀리."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in agricultural & farm machinery and adjacent industries. (T4_INFERRED from Deere & Company's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Deere & Company's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 대형 농업법인 운영 책임자 "스마트 지훈"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 최지훈 (47세, 남성) |
-| 직함 | 농업법인 운영이사 / 장비 총괄 |
-| 소속 | 전라남도 기반 1,000ha 규모 미곡종합처리장 운영 법인 |
-| 관리 장비 수 | 트랙터·이앙기·콤바인 포함 30여 대 |
-| 소득 | 연 1억~1억 5,000만 원 (추정) |
-| 학력 | 농업경영학 학사 |
+### Persona 1 — Enterprise Decision-Maker
 
-**목표**
-- John Deere Operations Center로 전 장비 실시간 모니터링 통합
-- 자율주행 트랙터 도입으로 고령 운전원 의존도 50% 감축
-- 정밀 파종·시비 데이터 기반 비료 비용 20% 절감
-
-**페인 포인트**
-- 다브랜드 장비 혼재 시 데이터 플랫폼 파편화
-- 고령화로 숙련 운전원 구하기 어렵고 인건비 급등
-- 경영진(투자자)에게 장비 투자 ROI를 수치로 증명해야 하는 부담
-
-**브랜드 인식**
-- John Deere = "데이터가 있는 플랫폼" — Operations Center의 텔레매틱스 기능 높이 평가
-- 초기 투자 비용이 높지만 생산성 향상 수치가 의사결정 근거가 됨 (추정)
-
-**정보 수집 채널**
-- John Deere 딜러 어카운트 매니저, 농업기술원 세미나, 스마트팜 전시회, LinkedIn
-
-**핵심 메시지 훅**
-> "1,000헥타르를 혼자 관리할 수 있는 유일한 플랫폼."
+- **Age / Occupation**: 42, VP-level or director in a Deere & Company customer organization
+- **Core pain**: Needs reliable agricultural & farm machinery solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Deere & Company selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 글로벌 농업 투자 그룹 CTO "테크 준영"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이준영 (51세, 남성) |
-| 직함 | 글로벌 농업 투자 그룹 아시아 CTO |
-| 소속 | 호주·브라질·미국 대규모 곡물 농장 운영 컨소시엄 |
-| 예산 권한 | 장비·기술 투자 단독 결재 300만 달러 이하 (추정) |
-| 소득 | 연 3억~4억 원 (추정) |
-| 언어 | 한국어·영어·포르투갈어 병용 |
-
-**목표**
-- 완전 자율주행 트랙터(AutoTrac) 도입으로 브라질 대두 농장 무인화 로드맵 수립
-- See & Spray 기술로 농약 비용 50% 이상 절감 실현
-- 농장별 수확 데이터를 통합 분석해 투자 포트폴리오 수익률 극대화
-
-**페인 포인트**
-- 대규모 농장의 원격 자율운행 장비에 대한 사이버 보안 리스크
-- 현지 딜러 기술 역량이 첨단 장비 도입 속도를 따라가지 못함
-- 경쟁사(CNH Industrial / Case IH) 자율화 솔루션과의 비교 압박
-
-**브랜드 인식**
-- John Deere = "농업 기술의 최전선" — CES 자율 트랙터 공개로 기술 기업 이미지 급상승 (공식)
-- 오픈 API 생태계 요구 — 타사 데이터와의 연동 가능성이 의사결정 핵심 기준 (추정)
-
-**정보 수집 채널**
-- John Deere 글로벌 어카운트 팀, World Agri-Tech 컨퍼런스, 농업 기술 백서, MIT 농업기술 리포트
-
-**핵심 메시지 훅**
-> "지구 반대편 농장도, John Deere 플랫폼으로 오늘 밤 내가 관리한다."
+- **Age / Occupation**: 35, technical professional who interacts with Deere & Company's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Deere & Company selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 레이어 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 레이어 | 세그먼트 | 주요 관심사 | John Deere 접점 |
-|--------|---------|------------|----------------|
-| L1 오퍼레이터 | 가족농·소농 운전원 | 조작성·내구성·서비스 접근성 | 딜러 시연, 유튜브 농업 채널 |
-| L2 구매결정자 | 농업법인 운영이사, 조달팀장 | 생산성·TCO·정밀농업 플랫폼 | 딜러 영업, 백서, Operations Center 데모 |
-| L3 경영진 | CFO, 농업투자 그룹 CTO | ROI·자율화·데이터 통합 | 임원급 어카운트, 글로벌 컨퍼런스 |
-| L4 채널 파트너 | John Deere 딜러, 리스사 | 마진·재고·기술 교육 지원 | 딜러 포털, John Deere University (추정) |
-| L5 인플루언서 | 농업 유튜버, 스마트팜 미디어 | 독점 시승·기술 체험 정보 | 프레스 이벤트, Ag Influencer 프로그램 (추정) |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Deere & Company's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Deere & Company selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 (B2B/B2C 의사결정 깔때기)
+## Purchase Journey — AARRR Framework
 
-```
-인식 (Awareness)
-  └─ 농기계 전시회 노출, 유튜브 농업 채널 리뷰, 세대 계승 구전
-       │
-필요 인식 (Need Recognition)
-  └─ 기존 장비 노후화, 인건비 상승, 정밀농업 보조금 정책 확대
-       │
-정보 탐색 (Consideration)
-  └─ John Deere vs CNH/Case IH vs AGCO/Fendt vs 국산 브랜드 사양 비교
-  └─ 딜러 방문, 시연 요청, Operations Center 무료 체험
-       │
-평가 (Evaluation)
-  └─ 에이커당 생산성 수치, 딜러 서비스 반경 확인, 금융 조건 협상
-       │
-구매 (Purchase)
-  └─ John Deere Financial 리스·할부 또는 직구매 (공식)
-       │
-사용 후 관계 (Loyalty)
-  └─ Operations Center 구독, AutoTrac 업그레이드, JDLink 텔레매틱스, 재구매
-```
+| Stage | Deere & Company's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Deere & Company total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Deere & Company Is Not For
+
+| Type | Characteristics | Why Deere & Company Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Deere & Company's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Deere & Company's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Deere & Company's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Deere & Company's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Deere & Company's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

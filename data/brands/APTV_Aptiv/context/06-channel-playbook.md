@@ -1,174 +1,141 @@
-# 06 채널 플레이북 — Aptiv (APTV)
+# 06. Channel Playbook — Aptiv (APTV)
 
-## 채널 전략 개요
-
-Aptiv는 B2B 기업으로서 소비자 직접 채널보다 **산업 전문 미디어, IR 채널, 기술 컨퍼런스, 디지털 전문가 네트워크**에 채널 예산을 집중한다. 각 채널은 특정 오디언스 세그먼트와 구매 여정 단계에 최적화된 역할을 수행한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 우선순위 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 오디언스 | 구매 여정 단계 | 투자 우선순위 |
-|------|---------|-------------|------------|
-| LinkedIn | OEM 임원, 투자자, 엔지니어 인재 | 인지~고려 | ★★★★★ |
-| 기업 웹사이트 / IR 포털 | 투자자, OEM 기술팀 | 고려~결정 | ★★★★★ |
-| 산업 컨퍼런스 (CES, IAA) | OEM 아키텍트, 미디어 | 인지~고려 | ★★★★☆ |
-| 기술 미디어 (Automotive News, SAE) | OEM 엔지니어, 공급망 | 고려 | ★★★★☆ |
-| X (구 Twitter) | 투자자, 테크 커뮤니티 | 인지 | ★★★☆☆ |
-| YouTube | 엔지니어 인재, 기술 커뮤니티 | 인지~고려 | ★★★☆☆ |
-| 팟캐스트 (게스트 출연) | 투자자, 기술 리더 | 인지 | ★★★☆☆ |
-| 이메일 뉴스레터 | 기존 고객, OEM 파트너 | 유지 | ★★★★☆ |
-| 규제기관 채널 | NHTSA, UNECE, EU | 관계 구축 | ★★★★☆ |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 채널별 상세 플레이북
+## 2. Channel Tone Variations
 
-### 채널 1: LinkedIn
+Aptiv's core voice adjusts by channel while maintaining brand coherence.
 
-**역할:** 사고 리더십 허브, B2B 인지도 구축, 인재 유치
-
-**계정 구조:**
-- 메인 기업 페이지: Aptiv PLC (공식)
-- 임원 개인 계정 활성화: CEO, CTO, 사업부 수장 (추정)
-- Motional 별도 페이지 운영 (공식)
-
-**콘텐츠 믹스 (추정):**
-| 콘텐츠 유형 | 비중 | 예시 |
-|-----------|------|------|
-| 사고 리더십 아티클 | 35% | SDV 전환 인사이트, 임원 오피니언 |
-| 기술 인사이트 | 25% | 엔지니어링 혁신, 특허 발표 |
-| 문화·채용 | 20% | 엔지니어 스토리, 직장 문화 |
-| 제품·솔루션 발표 | 15% | 파트너십, 신기술 출시 |
-| ESG·지속가능성 | 5% | 탄소 감축 목표, 다양성 지표 |
-
-**게시 빈도:** 주 4–5회 (추정)
-**최적 게시 시간:** 화~목 오전 8–10시 (미국 동부 기준) (추정)
-**KPI:** 팔로워 증가율, 임프레션 대비 인게이지먼트율, 채용 지원 전환율
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 채널 2: 기업 웹사이트 / IR 포털
+## 3. Cross-Channel Synergy Map
 
-**역할:** 신뢰의 앵커 포인트, 투자자 정보 허브, OEM 기술 리소스
+### Route A — Product/Service Launch Sequence
 
-**핵심 페이지 구조 (추정):**
-- `/solutions` — 사업부별 솔루션 소개
-- `/technology` — 기술 역량 및 R&D 인사이트
-- `/investors` — IR 자료, 실적 발표, SEC 공시
-- `/sustainability` — ESG 리포트, 탄소 목표
-- `/careers` — 글로벌 채용 포털
-- `/newsroom` — 보도자료, 미디어 키트
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-**SEO 핵심 키워드 (추정):**
-- "software defined vehicle architecture"
-- "automotive high voltage wiring systems"
-- "ADAS system integration"
-- "EV electrification solutions tier 1"
-- "connected vehicle platform"
+### Route B — Thought Leadership Pipeline
 
-**콘텐츠 업데이트 원칙:**
-- 분기 실적 자료: 발표 당일 즉시 업로드
-- 기술 백서: 분기 1회 신규 발행
-- 뉴스룸: 주 1회 이상 업데이트
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
----
+### Route C — Earnings and Financial Communications
 
-### 채널 3: 산업 컨퍼런스
-
-**주요 참가 이벤트 (공식/추정):**
-
-| 이벤트 | 시기 | 역할 | 목표 오디언스 |
-|--------|------|------|------------|
-| CES (Consumer Electronics Show) | 매년 1월 | 키노트/부스 | 미디어, 투자자, 기술 파트너 |
-| IAA Mobility | 격년 9월 | 전시 부스, 프레스 컨퍼런스 | OEM, 공급사, 미디어 |
-| Automotive Tech Week | 연 1회 | 패널 스피커 | OEM 엔지니어, 스타트업 |
-| SAE World Congress | 매년 4월 | 기술 논문 발표 | 엔지니어링 커뮤니티 |
-| Autonomy Summit | 연 1회 (추정) | 자율주행 세션 | 자율주행 기술 커뮤니티 |
-
-**컨퍼런스 콘텐츠 전략:**
-- 발표 6주 전: 티저 콘텐츠 LinkedIn 게시
-- 발표 당일: 실시간 소셜 커버리지
-- 발표 1주 후: 풀 세션 영상 YouTube 업로드 + 요약 백서
-
----
-
-### 채널 4: 산업 전문 미디어
-
-**주요 타깃 미디어 (추정):**
-
-| 미디어 | 유형 | 타깃 오디언스 | 접근 전략 |
-|--------|------|------------|---------|
-| Automotive News | 업계 신문 | OEM/공급사 임원 | 독점 인터뷰, 기고문 |
-| SAE International | 기술 저널 | 엔지니어, R&D | 기술 논문, 공동 연구 |
-| Wards Auto | 산업 분석 | 제품 기획, 마케팅 | 데이터 제공, 논평 |
-| The Verge / TechCrunch | 테크 미디어 | 투자자, 기술 대중 | 자율주행 뉴스 배포 |
-| Reuters / Bloomberg | 금융 미디어 | 투자자, 애널리스트 | 실적·전략 뉴스 |
-
-**미디어 관계 원칙:**
-- 독점 제공: 주요 발표는 한 매체에 독점 제공 후 전체 배포
-- 데이터 협력: 독자적 연구 데이터를 미디어에 선제 제공하여 언론 영향력 확보
-- 기자 브리핑: 분기 1회 정기 기자 간담회 (추정)
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 채널 5: X (구 Twitter)
+## 4. Channel-Specific Prohibitions
 
-**역할:** 실시간 뉴스 배포, 투자자·애널리스트 접점, 기술 커뮤니티 참여
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**콘텐츠 전략:**
-- 실적 발표 실시간 중계 (라이브 트윗)
-- 특허·기술 발표 즉시 배포
-- 컨퍼런스 참가 실시간 커버리지
-- 업계 트렌드 큐레이션 리트윗
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**게시 빈도:** 주 3–4회 (추정)
-**KPI:** 팔로워 수, 실적 발표 날 트윗 노출 수, 미디어 픽업 건수
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
----
-
-## 채널 통합 캘린더 프레임워크
-
-### 분기별 채널 리듬 (추정)
-
-| 활동 | 1월 | 2월 | 3월 | 4월 | 5월 | 6월 |
-|------|-----|-----|-----|-----|-----|-----|
-| 실적 발표 | | Q4 | | | Q1 | |
-| 컨퍼런스 | CES | | | SAE | | |
-| 백서 발행 | | | Q1 WP | | | Q2 WP |
-| ESG 리포트 | | | | 연간 | | |
-| LinkedIn 캠페인 | 상시 | 상시 | 상시 | 상시 | 상시 | 상시 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## Steal Sheet — 채널 플레이북 레이어
+## 5. Crisis Response Protocol
 
-### Steal Sheet 1: LinkedIn 사고 리더십 레이어
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-| 요소 | 내용 |
-|------|------|
-| 핵심 전술 | CEO·CTO 개인 계정으로 기업 페이지보다 3–5배 높은 유기적 도달 확보 |
-| 콘텐츠 형식 | 카루셀 포스트: 기술 개념을 5–7장 슬라이드로 압축 |
-| 인게이지먼트 전술 | "당신의 OEM은 SDV 전환에 얼마나 준비됐나?" 설문 폴 활용 |
-| 측정 | 오가닉 리치 > 팔로워 수를 주 KPI로 설정 |
-| 훔칠 수 있는 전술 | 경쟁사 발표 직후 30분 내 Aptiv 관점의 인사이트 코멘트 게시 — 뉴스 앵커링 효과 |
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### Steal Sheet 2: 컨퍼런스 전후 채널 활성화 레이어
+### Scenario 2 — Regulatory or Legal Action
 
-| 요소 | 내용 |
-|------|------|
-| 핵심 전술 | 컨퍼런스 참가 전 6주 '카운트다운' 콘텐츠로 기대감 형성 |
-| 부스 디지털 통합 | QR 코드로 현장 방문자를 즉시 웹사이트 리드 폼으로 연결 |
-| 사후 활용 | 발표 세션 클립을 5–10개로 편집, 90일 소셜 콘텐츠 원천으로 활용 |
-| 측정 | 컨퍼런스 전·후 2주 웹사이트 트래픽 비교 (리프트 측정) |
-| 훔칠 수 있는 전술 | 경쟁사 발표 세션에 임원을 파견해 Q&A에서 Aptiv 관점을 자연스럽게 삽입 |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### Steal Sheet 3: IR·투자자 채널 레이어
+### Scenario 3 — Reputation / Social Media Issue
 
-| 요소 | 내용 |
-|------|------|
-| 핵심 전술 | 실적 발표 스크립트에 SDV 매출 비중·성장률을 독립 KPI로 명시 |
-| 애널리스트 관계 | Morgan Stanley, Goldman 자동차 섹터 애널리스트와 분기 1회 비공개 브리핑 (추정) |
-| 투자자 데이터 | 소프트웨어·서비스 ARR(연간 반복 매출) 지표 별도 공시로 밸류에이션 리레이팅 유도 |
-| 측정 | 애널리스트 목표주가 변화, 기관 투자자 보유 비중 변화 |
-| 훔칠 수 있는 전술 | "Aptiv SDV 전환 대시보드" 인베스터 데이 전용 인터랙티브 슬라이드로 기술 기업 밸류에이션 프레이밍 강화 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Aptiv's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Aptiv's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Aptiv's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

@@ -1,137 +1,84 @@
-# 02. 오디언스 맵 — Estée Lauder Companies (EL)
+# 02. Audience Map — Estée Lauder Companies (The) (EL)
 
-## 타겟 오디언스 개요
-
-EL 포트폴리오는 단일 타겟이 아닌 **브랜드별 세그먼트 분리 전략**을 구사한다. 연령·소득·뷰티 관여도에 따라 4개 주요 세그먼트로 구분되며, 브랜드 간 교차 구매(cross-brand journey)가 전략적으로 설계되어 있다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 3개
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — "클래식 인베스터" (Clinique / EL 플래그십)
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박서연 |
-| 나이 | 42세 |
-| 직업 | 중견기업 마케팅 이사 |
-| 소득 | 연 8,000만원+ |
-| 거주 | 서울 서초구 |
-| 뷰티 지출 | 월 25–40만원 |
-| 주 구매 채널 | 백화점 카운터, 브랜드 공식몰 |
-| SNS | 인스타그램 (팔로우 위주, 게시 적음) |
-
-**심리적 동기**
-- 스킨케어를 투자로 인식 — "좋은 크림 하나가 시술보다 낫다"
-- 성분 라벨을 읽고 피부과 전문의 의견을 검색하는 정보 탐색자
-- 브랜드 헤리티지와 임상 데이터를 신뢰 지표로 활용
-
-**페인 포인트**
-- 과대 광고에 지쳐 있음 — "효과 없는 제품에 돈 쓰기 싫다"
-- 피부 노화 징후(탄력, 색소침착)에 대한 실질적 솔루션 요구
-- 번거로운 루틴보다 효율적인 멀티태스킹 제품 선호
-
-**구매 트리거**
-- 백화점 뷰티 어드바이저의 1:1 컨설팅
-- 피부과 전문의 추천 또는 임상 연구 인용 콘텐츠
-- Advanced Night Repair 리뉴얼 캠페인
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in personal care products. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Estée Lauder Companies (The)'s segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Estée Lauder Companies (The)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "크리에이티브 익스프레서" (MAC)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이도윤 |
-| 나이 | 26세 |
-| 직업 | 프리랜서 콘텐츠 크리에이터 |
-| 소득 | 연 3,500만원 (변동) |
-| 거주 | 서울 마포구 |
-| 뷰티 지출 | 월 10–20만원 (립·아이 집중) |
-| 주 구매 채널 | 올리브영, MAC 공식몰, 무신사 뷰티 |
-| SNS | 인스타그램·틱톡 활발, 팔로워 12K |
+### Persona 1 — Enterprise Decision-Maker
 
-**심리적 동기**
-- 메이크업 = 자기표현의 도구이자 콘텐츠 소재
-- 프로 아티스트가 쓰는 제품을 쓴다는 자부심
-- 뉴 컬러·콜라보 출시에 즉각 반응하는 얼리어답터
-
-**페인 포인트**
-- 지속력 부족한 제품에 실망 — 촬영 중 번짐이 최대 불만
-- 쉐이드 레인지가 좁으면 관심 즉시 이탈
-- 가격 상승에 민감하지만 "프로 용품"이면 납득
-
-**구매 트리거**
-- 인플루언서 GRWM(Get Ready With Me) 영상
-- 한정판 패키지 및 아티스트 콜라보
-- 틱톡 바이럴 립 컬러 (#MACLipstick 트렌드)
+- **Age / Occupation**: 42, VP-level or director in a Estée Lauder Companies (The) customer organization
+- **Core pain**: Needs reliable personal care products solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Estée Lauder Companies (The) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "럭셔리 큐레이터" (La Mer / Jo Malone)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 최민준 |
-| 나이 | 38세 |
-| 직업 | 스타트업 공동창업자 (Series B) |
-| 소득 | 연 2억원+ |
-| 거주 | 서울 강남구 / 제주 세컨드홈 |
-| 뷰티·라이프스타일 지출 | 월 100만원+ |
-| 주 구매 채널 | 해외 직구, 신세계 강남 럭셔리 카운터, 선물 구매 |
-| SNS | 인스타그램 (큐레이션형, 팔로워 3K) |
-
-**심리적 동기**
-- 제품이 아닌 **경험과 스토리**에 투자
-- La Mer의 Max Huber 오리진 스토리, Jo Malone의 레이어링 철학에 공감
-- 선물용 구매 비중 높음 — 본인 과시보다 취향 표현
-
-**페인 포인트**
-- 온라인 채널의 비인격적 경험에 실망 — 오프라인 VIP 서비스 기대
-- 위조품 리스크로 인해 공식 채널 외 구매 기피
-- 브랜드가 "대중화"되면 이탈 고려 (희소성 훼손 민감)
-
-**구매 트리거**
-- 하이엔드 백화점 VIP 행사 초대
-- 한정판 선물 패키징 (Jo Malone 크리스마스 컬렉션)
-- 유명 호텔 어메니티로 첫 접촉 후 구매 전환
+- **Age / Occupation**: 35, technical professional who interacts with Estée Lauder Companies (The)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Estée Lauder Companies (The) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 연령 | 소득 | 관여도 | 핵심 브랜드 | 주 채널 |
-|----------|------|------|--------|-------------|---------|
-| 클래식 인베스터 | 35–55 | 고소득 | 스킨케어 High | EL, Clinique | 백화점, 공식몰 |
-| 크리에이티브 익스프레서 | 18–30 | 중간 | 메이크업 High | MAC | 올리브영, SNS |
-| 럭셔리 큐레이터 | 30–50 | 초고소득 | 전체 Ultra | La Mer, Jo Malone | 백화점 VIP, 해외직구 |
-| 뷰티 입문자 | 15–24 | 낮음 | 입문 Low | Clinique, MAC | 드럭스토어, 온라인 |
-
----
-
-## 구매 여정 (Customer Journey)
-
-```
-인지 → 탐색 → 비교 → 첫 구매 → 재구매 → 브랜드 앰배서더
-  │        │       │        │          │           │
-인플루언서  리뷰·  백화점   소용량     정기구독   커뮤니티
-SNS광고   성분분석  체험    트라이얼   세트 업셀  후기 작성
-```
+- **Age / Occupation**: 38, consumer who interacts with Estée Lauder Companies (The)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Estée Lauder Companies (The) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 브랜드 간 교차 여정 (추정)
+## Purchase Journey — AARRR Framework
 
-| 진입 브랜드 | 업셀 경로 | 최종 목표 브랜드 |
-|-------------|-----------|-----------------|
-| Clinique | 스킨케어 효능 신뢰 구축 후 | EL 플래그십 |
-| MAC | 뷰티 관여도 상승 후 | EL 플래그십, Jo Malone |
-| EL 플래그십 | 소득·취향 성숙 후 | La Mer |
-| Jo Malone | 향수 입문 후 라이프스타일 확장 | La Mer, EL 특별판 |
+| Stage | Estée Lauder Companies (The)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Estée Lauder Companies (The) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 출처 표기
-- 페르소나 프로파일: 한국 뷰티 소비자 조사 기반 (추정)
-- 세그먼트 매트릭스: EL 글로벌 마케팅 전략 공개 자료 참조 (추정)
-- 구매 여정: 업계 표준 모델 적용 (추정)
+## Anti-Persona — Who Estée Lauder Companies (The) Is Not For
+
+| Type | Characteristics | Why Estée Lauder Companies (The) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Estée Lauder Companies (The)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Estée Lauder Companies (The)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Estée Lauder Companies (The)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Estée Lauder Companies (The)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Estée Lauder Companies (The)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

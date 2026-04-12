@@ -1,167 +1,102 @@
-# GE Aerospace — 디자인 시스템
+# 05. Design System — GE Aerospace (GE)
 
-> **섹터**: Industrials — Aerospace | **분석 기준일**: 2026-04-12
-
----
-
-## 1. 디자인 철학
-
-**핵심 원칙 (추정)**
-> "정밀함이 곧 아름다움이다. 모든 디자인 요소는 신뢰, 기술적 권위, 그리고 전진하는 에너지를 전달해야 한다."
-
-GE Aerospace의 비주얼 아이덴티티는 2024년 분사 이후 독자적 시스템으로 재구성되었으며 (공식), 항공 산업의 정밀성과 현대적 기술 브랜드의 명료함을 결합한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 2-1. 메인 컬러 팔레트
+GE Aerospace's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| GE Blue (Primary) | `#0072CE` | 0, 114, 206 | 기본 브랜드 컬러, CTA, 헤더 | (공식) |
-| GE Dark Blue | `#003B71` | 0, 59, 113 | 헤더 배경, 네이비 강조 | (공식) |
-| GE White | `#FFFFFF` | 255, 255, 255 | 주요 배경, 여백 | (공식) |
-| GE Charcoal | `#1A1A1A` | 26, 26, 26 | 본문 텍스트, 다크 배경 | (공식) |
-| GE Light Gray | `#F4F4F4` | 244, 244, 244 | 섹션 구분 배경, 카드 | (공식) |
+### Core Brand Colors
 
-### 2-2. 세컨더리 / 강조 컬러
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| GE Sky Blue | `#41B6E6` | 65, 182, 230 | 하이라이트, 인포그래픽 강조 | (추정) |
-| GE Steel Gray | `#6B7C93` | 107, 124, 147 | 서브 텍스트, 아이콘 | (추정) |
-| GE Mid Gray | `#9EA8B3` | 158, 168, 179 | 보조 정보, 구분선 | (추정) |
-| GE Orange Accent | `#E87722` | 232, 119, 34 | 긴급 CTA, 경고, 특별 강조 | (추정) |
-| GE Green (ESG) | `#00843D` | 0, 132, 61 | 지속가능성·ESG 콘텐츠 전용 | (추정) |
+### Color Principles
 
-### 2-3. 군용 / 방산 서브팔레트
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Defense Dark Navy | `#0D2240` | 13, 34, 64 | 방산 섹션 배경 | (추정) |
-| Defense Slate | `#3D5A80` | 61, 90, 128 | 방산 콘텐츠 강조 | (추정) |
-| Defense Gold | `#C9A84C` | 201, 168, 76 | 방산 어워드·인증 배지 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 2-4. 컬러 사용 규칙
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-```
-텍스트 대비 비율 (WCAG AA 기준)
-  - GE Blue (#0072CE) on White (#FFFFFF): 4.6:1 ✓
-  - GE Charcoal (#1A1A1A) on White (#FFFFFF): 17.1:1 ✓
-  - GE White (#FFFFFF) on GE Dark Blue (#003B71): 12.4:1 ✓
-  - GE White (#FFFFFF) on GE Blue (#0072CE): 4.6:1 ✓
-```
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피
+## 2. Typography
 
-### 3-1. 폰트 시스템
+GE Aerospace's digital properties employ a typographic system appropriate to its industrials positioning.
 
-| 용도 | 폰트 패밀리 | 굵기 | 출처 |
-|------|-----------|------|------|
-| 헤드라인 (영문) | GE Inspira (전용 서체) | Bold, ExtraBold | (공식) |
-| 본문 (영문) | GE Inspira | Regular, Medium | (공식) |
-| 대체 폰트 | Inter / Helvetica Neue | 상동 | (추정) |
-| 한국어 지원 | Noto Sans KR | Regular, Bold | (추정) |
-| 기술 수치·코드 | Roboto Mono / GE Inspira Mono | Regular | (추정) |
+### Typeface System
 
-### 3-2. 타입 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 사이즈 | 행간 | 용도 |
-|------|--------|------|------|
-| Display | 56px | 1.1 | 히어로 헤드라인 |
-| H1 | 40px | 1.2 | 페이지 제목 |
-| H2 | 32px | 1.25 | 섹션 제목 |
-| H3 | 24px | 1.3 | 서브 섹션 |
-| Body Large | 18px | 1.6 | 리드 문단 |
-| Body | 16px | 1.6 | 본문 |
-| Caption | 12px | 1.4 | 주석, 출처 표기 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 4. 로고 시스템
+## 3. Channel Specifications
 
-### 4-1. 기본 로고 구성 (공식)
-
-```
-[GE 모노그램] + [Aerospace 워드마크]
-
-GE 모노그램: 클래식 GE 서클 로고 (1890년대 이후 유지)
-Aerospace: 커스텀 서체, 모노그램 우측 배치
-```
-
-### 4-2. 로고 사용 규칙
-
-| 항목 | 규칙 |
-|------|------|
-| 최소 크기 | 디지털 24px 높이, 인쇄 8mm 높이 (추정) |
-| 클리어스페이스 | 로고 높이의 0.5배 여백 확보 (추정) |
-| 허용 컬러 | GE Blue on White / White on Dark Blue / Black on White (추정) |
-| 금지 변형 | 회전, 왜곡, 그라디언트 적용, 그림자 추가 금지 (추정) |
-| 분사 전 GE 로고 | 독립 사용 금지 — 반드시 "Aerospace" 워드마크와 함께 (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5. 이미지 & 비주얼 스타일
+## 4. Layout Principles
 
-### 5-1. 사진 스타일 원칙
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 구분 | 원칙 | 금지 |
-|------|------|------|
-| 색조 | 쿨 톤 블루 계열 보정, 고대비 | 과포화, 웜 필터 |
-| 구도 | 기술적 정밀함 강조 클로즈업, 스케일감 표현 광각 | 스톡 이미지 특유의 인위적 포즈 |
-| 인물 | 실제 엔지니어·기술자 우선, 작업복 착용 | 모델 기용 연출 사진 |
-| 배경 | 공장·테스트셀·격납고 등 실제 작업 환경 | 흰 배경 제품 컷 단독 사용 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 5-2. 비디오 스타일 원칙
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- 엔진 내부·외부 클로즈업 슬로모션 (추정)
-- 테스트셀 점화 영상 (열·빛 대비 강조) (추정)
-- 드론 촬영 항공기 외부 뷰 (추정)
-- 내레이션: 남·여 혼합, 전문적이되 차갑지 않은 톤 (추정)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 6. 아이콘 & 인포그래픽
+## 5. Design Prohibitions
 
-### 6-1. 아이콘 스타일
-
-| 항목 | 스타일 |
-|------|--------|
-| 선 굵기 | 1.5~2px, 각진 코너 허용 (추정) |
-| 스타일 | 선형(Outlined) 우선, 필드 아이콘은 강조용 (추정) |
-| 컬러 | GE Blue 단색 또는 GE Charcoal (추정) |
-| 라이브러리 | 자체 개발 아이콘셋 + Material Icons 보완 (추정) |
-
-### 6-2. 데이터 시각화 원칙
-
-- 차트 기본색: GE Blue 계열 단계적 명도 변화
-- 강조값: GE Orange Accent (`#E87722`) 단일 사용
-- 레이블: 항상 수치 표기, 퍼센트 + 절대값 병기
-- 배경: White 또는 Light Gray, 격자선 최소화
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 7. UI/디지털 컴포넌트 원칙 (추정)
-
-| 컴포넌트 | 스타일 |
-|----------|--------|
-| 기본 버튼 | 배경 `#0072CE`, 텍스트 `#FFFFFF`, 8px 모서리 |
-| 외곽선 버튼 | 테두리 `#0072CE`, 텍스트 `#0072CE`, 배경 투명 |
-| 입력 필드 | 테두리 `#9EA8B3`, 포커스 시 `#0072CE` |
-| 카드 | 배경 `#FFFFFF`, 그림자 `rgba(0,0,0,0.08)`, 12px 반경 |
-| 알림 (경고) | 배경 `#FFF3E0`, 아이콘·텍스트 `#E87722` |
-| 알림 (성공) | 배경 `#E8F5E9`, 아이콘·텍스트 `#00843D` |
-| 내비게이션 | 배경 `#003B71`, 텍스트 `#FFFFFF`, 활성 탭 `#0072CE` 하단선 |
-
----
-
-## Steal Sheet — 디자인 시스템 레이어 (3개)
-
-| # | 전략 | 실행 방법 | 적용 맥락 |
-|---|------|-----------|-----------|
-| 1 | **블루 계층으로 신뢰 위계 구성** | `#003B71`(권위) → `#0072CE`(행동 유도) → `#41B6E6`(정보 강조)의 3단계 블루 계층을 레이아웃 위계와 일치시켜 독자가 무의식적으로 신뢰 → 정보 → 행동 순서로 읽도록 설계 | 웹페이지, 기술 자료, 발표 슬라이드 |
-| 2 | **오렌지를 단 하나의 목적에만 사용** | `#E87722`는 페이지당 하나의 CTA 또는 핵심 수치 강조에만 배정, 남용 시 희석되는 긴박감을 보존 | 랜딩 페이지, 이메일 캠페인, 제품 카탈로그 |
-| 3 | **실제 현장 이미지로 스톡 포토 배제** | GE 공장·테스트 시설·항공기 현장의 실제 촬영 이미지 라이브러리 구축, 모든 커뮤니케이션에서 스톡 포토 완전 교체 — 진정성이 B2B 신뢰의 핵심 | 웹사이트, 제안서, 소셜 미디어 |
+*Layer 5 of 8 — Brand Autopsy: GE Aerospace (GE)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

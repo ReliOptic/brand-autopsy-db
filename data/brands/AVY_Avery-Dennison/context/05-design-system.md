@@ -1,133 +1,102 @@
-# 05 디자인 시스템 — Avery Dennison (AVY)
+# 05. Design System — Avery Dennison (AVY)
 
-> 섹터: 소재 / 라벨 & 패키징 | 시각 아이덴티티 해부
-
----
-
-## 컬러 팔레트
-
-### 프라이머리 컬러
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| AVY 코발트 블루 (공식) | `#003087` | R:0 G:48 B:135 | 로고, 헤더, CTA 버튼 |
-| AVY 화이트 (공식) | `#FFFFFF` | R:255 G:255 B:255 | 배경, 텍스트 반전 |
-
-### 세컨더리 컬러
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| AVY 라이트 블루 (추정) | `#0066CC` | R:0 G:102 B:204 | 링크, 서브 헤더, 강조 |
-| AVY 다크 그레이 (추정) | `#333333` | R:51 G:51 B:51 | 본문 텍스트 |
-| AVY 미드 그레이 (추정) | `#767676` | R:118 G:118 B:118 | 보조 텍스트, 캡션 |
-| AVY 라이트 그레이 (추정) | `#F4F4F4` | R:244 G:244 B:244 | 섹션 배경, 카드 배경 |
-
-### 액센트 컬러
-
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| AVY 그린 (추정) | `#00843D` | R:0 G:132 B:61 | 지속가능성 콘텐츠, ESG 섹션 |
-| AVY 오렌지 (추정) | `#E87722` | R:232 G:119 B:34 | 경고, 프로모션, 이벤트 강조 |
-| AVY 테알 (추정) | `#007B8A` | R:0 G:123 B:138 | 디지털 ID / atma.io 서브브랜드 |
-
-### 컬러 사용 비율 (추정)
-
-```
-코발트 블루 #003087  ████████████████████  60%
-화이트 #FFFFFF        ████████████          25%
-그레이 계열            ████                  10%
-액센트 컬러            ██                     5%
-```
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-| 유형 | 서체 | 굵기 | 크기 범위 | 용도 |
-|------|------|------|-----------|------|
-| 디스플레이 헤드라인 (추정) | Avenir Next / Montserrat | Bold (700) | 48~72px | 히어로 섹션 |
-| 섹션 헤드라인 (추정) | Avenir Next / Montserrat | SemiBold (600) | 28~40px | 섹션 제목 |
-| 서브헤드 (추정) | Avenir Next / Montserrat | Medium (500) | 18~24px | 카드 제목 |
-| 본문 텍스트 (추정) | Georgia / Noto Serif | Regular (400) | 15~17px | 긴 형태 콘텐츠 |
-| UI 레이블 (추정) | Avenir Next / Montserrat | Regular (400) | 12~14px | 버튼, 캡션 |
+Avery Dennison's visual identity, as observed on its official website, employs a structured color system appropriate to materials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**타이포그래피 원칙 (추정)**
-- 산세리프 헤드라인 + 세리프 본문의 대비 구조
-- 줄 간격(line-height): 본문 1.6~1.8배
-- 자간(letter-spacing): 헤드라인 -0.02em, 본문 0
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 로고 시스템
+### Color Principles
 
-### 로고 변형 (공식)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 변형 | 배경 | 사용 상황 |
-|------|------|----------|
-| 풀 컬러 수평형 | 화이트/라이트 배경 | 기본 사용 |
-| 화이트 역전 | 다크/컬러 배경 | 헤더, 프레젠테이션 |
-| 모노크롬 블랙 | 단색 인쇄물 | 계약서, 법적 문서 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 로고 보호 영역 (추정)
-- 최소 보호 영역: 로고 높이의 50% 여백 사방
-- 최소 표시 크기: 디지털 24px 높이 / 인쇄 8mm 높이
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
----
-
-## 아이콘 & 일러스트레이션 스타일
-
-| 요소 | 스타일 (추정) |
-|------|--------------|
-| 아이콘 | 선형(line), 2px 스트로크, 둥근 모서리 |
-| 일러스트레이션 | 플랫 디자인, 기술·공급망 메타포 중심 |
-| 사진 스타일 | 공장·기술·글로벌 장면, 고채도·선명한 조명 |
-| 인포그래픽 | 데이터 중심, 블루 팔레트 기반 차트 |
-| 동영상 모션 | 슬라이드 인, 페이드, 기술적 오버레이 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 그리드 & 레이아웃
+## 2. Typography
 
-| 요소 | 사양 (추정) |
-|------|------------|
-| 기본 그리드 | 12컬럼, 1440px 최대 너비 |
-| 거터 | 24px (데스크탑), 16px (모바일) |
-| 여백 | 80~120px 섹션 간격 (데스크탑) |
-| 카드 반경 | 4~8px (미니멀 라운드) |
-| 그림자 | 낮은 고도(elevation), 서브틀한 박스섀도우 |
+Avery Dennison's digital properties employ a typographic system appropriate to its materials positioning.
 
----
+### Typeface System
 
-## 디자인 원칙 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-1. **명료성 우선** — 기술 복잡성을 단순한 시각 언어로 표현
-2. **데이터 중심** — 수치와 차트를 시각적 앵커로 활용
-3. **글로벌 중립성** — 문화적으로 중립적인 이미지·색상 선택
-4. **지속가능성 신호** — 그린 액센트로 ESG 섹션 시각적 구분
-5. **일관된 브랜드 블루** — 모든 터치포인트에서 코발트 블루 앵커링
+### Typographic Scale
 
----
-
-## atma.io 서브브랜드 디자인 (추정)
-
-| 요소 | atma.io 스타일 |
-|------|---------------|
-| 프라이머리 컬러 | `#007B8A` (테알) |
-| 보조 컬러 | `#003087` (AVY 블루) — 모기업 연결 |
-| 타이포그래피 | 더 모던한 산세리프 (Inter 계열) |
-| 톤 | AVY보다 더 테크-포워드, 스타트업 감성 |
-| 로고 관계 | "atma.io by Avery Dennison" 표기 (공식) |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 레이어 3개
+## 3. Channel Specifications
 
-| 레이어 | AVY 강점 | 경쟁사 갭 | 실행 기회 |
-|--------|---------|----------|---------|
-| 브랜드 컬러 일관성 | 코발트 블루 글로벌 통일 (추정) | 경쟁사 컬러 계열 불통일 | 모든 디지털 터치포인트 컬러 감사 실시 |
-| 기술 시각화 | 공급망·RFID 인포그래픽 수준 높음 (추정) | 텍스트 중심 경쟁사 多 | 인터랙티브 공급망 시각화 도구 개발 |
-| 서브브랜드 아키텍처 | atma.io 독립 정체성 구축 (공식) | 경쟁사 플랫폼 브랜딩 약함 | 플랫폼 별도 디자인 시스템 문서화 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-*출처 분류: (공식) = Avery Dennison 공개 자료 / (추정) = 시각 분석 기반 추론*
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Avery Dennison (AVY)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

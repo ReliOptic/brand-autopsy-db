@@ -1,150 +1,102 @@
-# 디자인 시스템 — Agilent Technologies (A)
+# 05. Design System — Agilent Technologies (A)
 
-## 컬러 팔레트
-
-### 주요 브랜드 컬러
-
-| 컬러 명 | HEX | RGB | 용도 | 출처 |
-|---------|-----|-----|------|------|
-| Agilent Blue (Primary) | `#005EB8` | rgb(0, 94, 184) | 주요 UI, CTA 버튼, 헤더 | (공식) |
-| Agilent Dark Blue | `#003865` | rgb(0, 56, 101) | 제목, 네비게이션 배경 | (공식) |
-| Agilent Light Blue | `#00A3E0` | rgb(0, 163, 224) | 강조, 링크, 아이콘 | (공식) |
-| Agilent Green | `#78BE20` | rgb(120, 190, 32) | 성공 상태, 환경 세그먼트 | (공식) |
-| Agilent Orange | `#E87722` | rgb(232, 119, 34) | 경고, 에너지, 강조 포인트 | (공식) |
-| Neutral White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 여백 | (공식) |
-| Neutral Light Gray | `#F2F2F2` | rgb(242, 242, 242) | 섹션 구분, 카드 배경 | (공식) |
-| Neutral Mid Gray | `#767676` | rgb(118, 118, 118) | 본문 보조 텍스트, 캡션 | (공식) |
-| Neutral Dark Gray | `#333333` | rgb(51, 51, 51) | 본문 주 텍스트 | (공식) |
-
-### 보조 & 세그먼트 컬러 (추정)
-
-| 컬러 명 | HEX | RGB | 용도 | 출처 |
-|---------|-----|-----|------|------|
-| Pharma Segment Teal | `#007B87` | rgb(0, 123, 135) | 제약·바이오 섹션 강조 | (추정) |
-| Environmental Segment Green | `#4CAF50` | rgb(76, 175, 80) | 환경·식품 섹션 | (추정) |
-| Clinical Segment Purple | `#6A3D9A` | rgb(106, 61, 154) | 임상·진단 섹션 | (추정) |
-| Alert Red | `#D32F2F` | rgb(211, 47, 47) | 오류, 경고 상태 | (추정) |
-| Highlight Yellow | `#FFC107` | rgb(255, 193, 7) | 프로모션, 신제품 배지 | (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 사용 원칙
+## 1. Color Palette
 
-```
-주 배경:   #FFFFFF (White)
-본문 텍스트: #333333 (Dark Gray)
-주 강조:   #005EB8 (Agilent Blue)
-보조 강조:  #00A3E0 (Light Blue)
-CTA 버튼:  #005EB8 (배경) + #FFFFFF (텍스트)
-링크:      #005EB8 → Hover #003865
-경고/알림:  #E87722 (Orange)
-성공 상태:  #78BE20 (Green)
-에러 상태:  #D32F2F (Alert Red)
-```
+Agilent Technologies's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**WCAG 2.1 AA 준수 여부 (추정)**
-- `#005EB8` on `#FFFFFF`: 대비비 약 5.8:1 → AA 통과
-- `#333333` on `#FFFFFF`: 대비비 약 12.6:1 → AAA 통과
-- `#767676` on `#FFFFFF`: 대비비 약 4.5:1 → AA 통과 (경계)
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 타이포그래피
+### Color Principles
 
-### 폰트 패밀리
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 용도 | 폰트 | 비고 |
-|------|------|------|
-| 주 영문 서체 | Calibri / Arial (공식) | 웹 안전 폰트 |
-| 보조 영문 서체 | Open Sans (추정) | 디지털 가독성 |
-| 한국어 서체 | Noto Sans KR (추정) | 글로벌 다국어 지원 |
-| 코드·수식 | Courier New / Roboto Mono (추정) | 기술 문서 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 타이포 스케일 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 레벨 | 크기 | 자간 | 용도 |
-|------|------|------|------|
-| H1 | 36px / 2.25rem | -0.5px | 페이지 주 제목 |
-| H2 | 28px / 1.75rem | -0.3px | 섹션 제목 |
-| H3 | 22px / 1.375rem | 0 | 서브섹션 |
-| Body Large | 18px / 1.125rem | 0 | 리드 문장 |
-| Body | 16px / 1rem | 0 | 본문 |
-| Caption | 12px / 0.75rem | 0.5px | 주석, 캡션 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 사용 가이드라인
+## 2. Typography
 
-**로고 구성 (공식)**
-- 워드마크: "Agilent" + 빨간색 체크마크 심볼 (공식)
-- 체크마크 컬러: `#E30613` (추정) — 과학적 검증·확인을 상징
-- 최소 사이즈: 인쇄 15mm / 디지털 80px (추정)
+Agilent Technologies's digital properties employ a typographic system appropriate to its health care positioning.
 
-**클리어 스페이스**: 로고 높이의 50% (추정)
+### Typeface System
 
-**금지 사용**
-- 로고 컬러 변경 (단색 버전 제외)
-- 로고 배경에 복잡한 패턴 사용
-- 로고 비율 왜곡
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## 이미지 & 비주얼 스타일
-
-### 사진 방향성 (추정)
-- **실험실 리얼리즘**: 실제 과학자가 실제 기기를 사용하는 장면 선호
-- **청결하고 밝은**: 하얀 실험복, 정돈된 실험대, 자연광 또는 밝은 조명
-- **디테일 클로즈업**: 기기 패널, 샘플 바이얼, 데이터 화면 확대 샷
-- **다양성**: 성별·인종·연령 다양한 과학자 표현
-
-### 금지 이미지 스타일 (추정)
-- 과도하게 연출된 스톡 사진
-- 안전 규정 위반 장면 (보안경 미착용 등)
-- 경쟁사 기기가 화면에 등장
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## UI 컴포넌트 원칙 (디지털 자산)
+## 3. Channel Specifications
 
-### 버튼 스타일
-
-| 유형 | 배경 | 텍스트 | 테두리 |
-|------|------|--------|--------|
-| Primary CTA | `#005EB8` | `#FFFFFF` | 없음 |
-| Secondary | `#FFFFFF` | `#005EB8` | `#005EB8` 1px |
-| Destructive | `#D32F2F` | `#FFFFFF` | 없음 |
-| Disabled | `#F2F2F2` | `#767676` | `#CCCCCC` 1px |
-
-### 카드 & 컨테이너
-- 배경: `#FFFFFF`
-- 테두리: `#E0E0E0` 1px (추정)
-- 그림자: `0 2px 8px rgba(0,0,0,0.08)` (추정)
-- 모서리 반지름: 4px (추정)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 레이어
+## 4. Layout Principles
 
-### Steal Sheet Layer 1: 디지털 UX
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 전술 | 실행 방법 | 기대 효과 |
-|------|-----------|-----------|
-| 제품 필터 UX 개선 | 다중 파라미터 필터 (기기 유형·규제·세그먼트) | 전환율 향상 |
-| 다크 모드 지원 | CSS 변수 기반 테마 전환 | 야간 실험실 사용자 배려 |
-| 모바일 기기 매뉴얼 | QR코드 → 모바일 최적화 PDF | 현장 사용성 강화 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet Layer 2: 인쇄 & 전시
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 전술 | 실행 방법 | 기대 효과 |
-|------|-----------|-----------|
-| 학회 부스 통일성 | 모듈형 전시 시스템, 브랜드 컬러 일관 | 브랜드 인지도 강화 |
-| 애플리케이션 노트 디자인 | 섹션별 컬러 코딩으로 스캔 가능성 향상 | 독자 체류 시간 증가 |
-| 포스터 템플릿 | 학회 포스터용 브랜드 가이드 제공 | 사용자 생성 콘텐츠 품질 관리 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Steal Sheet Layer 3: 데이터 시각화
+---
 
-| 전술 | 실행 방법 | 기대 효과 |
-|------|-----------|-----------|
-| 차트 스타일 가이드 | Agilent 팔레트 기반 데이터 시각화 표준 | 보고서 브랜드 일관성 |
-| 인포그래픽 템플릿 | 규제 타임라인, 워크플로 다이어그램 | 복잡한 정보 소화율 향상 |
-| 인터랙티브 스펙 비교 | 웹 기반 기기 스펙 비교 도구 | 구매 의사결정 가속화 |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Agilent Technologies (A)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

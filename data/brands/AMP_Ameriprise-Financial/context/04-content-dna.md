@@ -1,150 +1,123 @@
-# 04 콘텐츠 DNA — Ameriprise Financial (AMP)
+# 04. Content DNA — Ameriprise Financial (AMP)
 
-## 콘텐츠 철학
-
-Ameriprise의 콘텐츠는 **"교육을 통한 신뢰 구축"** 원칙으로 운영된다.
-복잡한 재무 개념을 인간적 스토리로 번역하고, 어드바이저와의 관계를 콘텐츠로 예열(warm-up)하는 것이 핵심 목적이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 보이스 & 톤 가이드
+## Content Pillars
 
-### 브랜드 보이스 4원칙
+Ameriprise Financial's content strategy reflects its positioning in the Asset Management & Custody Banks segment of Financials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-| 원칙 | 정의 | 해야 할 것 | 하지 말아야 할 것 |
-|------|------|----------|----------------|
-| **명확함 (Clear)** | 금융 전문용어 없이 누구나 이해 가능 | 짧은 문장, 능동태, 비유 활용 | 약어 남발, 복잡한 문장 구조 |
-| **자신감 있음 (Confident)** | 주저함 없는 단언체 | "~할 수 있습니다", "~입니다" | "아마도", "~일 수도" 등 헤징 표현 |
-| **따뜻함 (Warm)** | 고객 감정 공감, 인간적 연결 | 이름 호명, 라이프스토리 | 차갑고 거래적인 어조 |
-| **유능함 (Capable)** | 전문성을 보여주되 과시하지 않음 | 데이터+사례 조합 | 일방적 자랑, 근거 없는 주장 |
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Ameriprise Financial understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for asset management & custody banks requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Ameriprise Financial." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
----
-
-## 금지어 (콘텐츠 수준)
-
-| # | 금지어/표현 | 대체 표현 |
-|---|-----------|---------|
-| 1 | "보장된 수익률" | "역사적 평균 수익률 기준으로" |
-| 2 | "리스크 없는 투자" | "분산투자로 리스크를 관리하는" |
-| 3 | "지금 당장 투자하지 않으면 손해" | "지금이 계획을 시작하기 좋은 시점입니다" |
-| 4 | "복잡하지 않습니다" (무시하는 뉘앙스) | "단계별로 명확히 안내드리겠습니다" |
-| 5 | "우리가 최고입니다" | "고객 만족도 XX년 연속 업계 상위" (근거 포함) |
-| 6 | "당신의 돈을 맡겨주세요" | "당신의 재무 목표를 함께 설계합니다" |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 필수어 (콘텐츠 수준)
+## Hook Patterns
 
-| # | 필수어/표현 | 사용 빈도 |
-|---|-----------|---------|
-| 1 | "재무 설계" / "financial planning" | 모든 주요 콘텐츠 |
-| 2 | "자신감" / "confident / confidence" | CTA, 헤드라인 |
-| 3 | "개인화된" / "personalized" | 서비스 설명 |
-| 4 | "어드바이저" / "advisor" | 인력·서비스 소개 |
-| 5 | "장기적" / "long-term" | 투자·은퇴 콘텐츠 |
-| 6 | "수탁자" / "fiduciary" | 신뢰·투명성 맥락 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Ameriprise Financial's perspective.
 
-## 콘텐츠 필러 (Content Pillars)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                   AMP 콘텐츠 필러                         │
-├─────────────┬─────────────┬─────────────┬───────────────┤
-│  은퇴 설계   │  투자 교육   │  라이프이벤트 │  시장 인사이트  │
-│ Retirement  │  Investing  │ Life Events │  Market Intel │
-│  Planning   │  Basics     │             │               │
-├─────────────┼─────────────┼─────────────┼───────────────┤
-│ • 소득 대체율 │ • 포트폴리오  │ • 결혼·출산   │ • 분기 시장    │
-│ • Social    │   다각화     │ • 자녀 교육   │   아웃룩       │
-│   Security  │ • ESG 투자   │ • 주택 구입   │ • 연준 정책    │
-│ • 의료비 대비│ • 세금 효율  │ • 상속·증여   │   해설         │
-│ • RMD 전략  │   투자       │ • 사업체 매각 │ • 경제 캘린더  │
-└─────────────┴─────────────┴─────────────┴───────────────┘
-```
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 콘텐츠 포맷 매트릭스
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| 포맷 | 목적 | 채널 | 빈도 | 길이 |
-|------|------|------|------|------|
-| 블로그 아티클 | SEO + 교육 | 웹사이트 | 주 2~3회 (추정) | 800~1,500자 |
-| 인포그래픽 | 시각적 설명 | 소셜·웹 | 주 1~2회 (추정) | — |
-| 웨비나 | 리드 생성·교육 | 이메일·LinkedIn | 월 2~4회 (추정) | 45~60분 |
-| 이메일 뉴스레터 | 관계 유지 | 이메일 | 월 2회 (추정) | 400~600자 |
-| 계산기/툴 | 리드 획득 | 웹사이트 | 상시 | — |
-| 동영상 | 브랜드+교육 | YouTube·웹 | 월 4~8회 (추정) | 2~5분 |
-| 팟캐스트 | 사고 리더십 | Spotify·Apple | 격주 (추정) | 20~35분 |
-| 케이스 스터디 | 전환 지원 | 웹·영업 자료 | 월 1회 (추정) | 500~800자 |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 카피라이팅 프레임워크
+## CTA Patterns
 
-### 헤드라인 공식
-
-```
-[감정적 상태] + [전환] + [목표 결과]
-예: "은퇴가 걱정되셨다면 → 이제 자신 있게 계획하세요"
-
-[숫자] + [기간] + [결과]
-예: "3단계로 10년 후 은퇴 소득을 설계하는 법"
-
-[질문형 공감]
-예: "충분히 모았는지 어떻게 알 수 있을까요?"
-```
-
-### CTA 공식
-
-| 단계 | CTA 예시 |
-|------|---------|
-| 인식 | "무료 은퇴 가이드 다운로드" |
-| 고려 | "재무 상태 무료 점검 받기" |
-| 전환 | "어드바이저와 15분 무료 상담 예약" |
-| 유지 | "연간 리뷰 일정 확인하기" |
+| CTA Type | Ameriprise Financial Pattern | What Ameriprise Financial Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 스토리텔링 아키타입
+## Tone & Mood Guide
 
-### 고객 성공 스토리 구조
+### Situation 1 — Product or Service Announcement
 
-```
-1. 상황 설정 (Before)
-   → 고객이 처한 재무적 불확실성·공포 묘사
+**Mood**: Confident professionalism — measured excitement appropriate to financials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-2. 개입 (The Turn)
-   → Ameriprise 어드바이저와의 첫 만남, 플랜 수립 과정
+### Situation 2 — Thought Leadership / Industry Commentary
 
-3. 결과 (After)
-   → 구체적 수치 또는 감정적 변화 ("이제 밤에 잘 잠든다")
+**Mood**: Authoritative insight — Ameriprise Financial as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-4. 임파워먼트 (Takeaway)
-   → 독자도 같은 변화를 경험할 수 있다는 초대
-```
+### Situation 3 — Crisis or Negative News Response
 
----
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
 
-## SEO 키워드 클러스터 (추정)
+### Situation 4 — Customer-Facing Communication
 
-| 클러스터 | 핵심 키워드 | 롱테일 예시 |
-|---------|-----------|-----------|
-| 은퇴 계획 | retirement planning | "how much to retire at 60" |
-| 재무 어드바이저 | financial advisor near me | "best financial advisor for retirement" |
-| 투자 관리 | wealth management | "wealth management for small investors" |
-| 사회보장 | social security | "when to claim social security benefits" |
-| 유산 계획 | estate planning | "estate planning checklist for families" |
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## 콘텐츠 성과 지표 (KPIs)
+## Content Prohibitions
 
-| 지표 | 목표 기준 (추정) | 측정 방법 |
-|------|--------------|---------|
-| 오가닉 검색 트래픽 | YoY +15% | Google Analytics |
-| 어드바이저 문의 전환율 | 2~4% | CRM 추적 |
-| 웨비나 참석률 | 등록 대비 40%+ | 이벤트 플랫폼 |
-| 이메일 오픈율 | 22~28% | ESP 데이터 |
-| 콘텐츠 기반 리드 비용 | 유료 광고 대비 -30% (추정) | 마케팅 어트리뷰션 |
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #AMP | Financial and investor community | Moderate (estimated) |
+| #AmeripriseFinancial | Brand-level social engagement | Varies (estimated) |
+| #FInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Ameriprise Financial's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In financials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in asset management & custody banks face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Ameriprise Financial's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

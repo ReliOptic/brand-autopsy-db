@@ -1,102 +1,84 @@
-# 02 오디언스 맵 — Coherent Corp. (COHR)
+# 02. Audience Map — Coherent Corp. (COHR)
 
-## 타겟 오디언스 개요
-
-Coherent의 고객은 B2B 중심으로, 고도로 기술적인 구매 의사결정 구조를 가진다. 주요 산업은 데이터통신, 반도체 제조, 산업용 레이저 가공, 방산·항공, 의료·생명과학이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 데이터센터 광학 아키텍트
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김민준 (가명) |
-| 직함 | 하이퍼스케일러 광네트워크 인프라 아키텍트 |
-| 연령 | 38~48세 |
-| 소속 | 대형 클라우드 사업자 또는 통신사 (추정) |
-| 학력 | 전기공학·광공학 석사 이상 (추정) |
-| 핵심 KPI | 데이터센터 간 전송 대역폭, 와트당 비트 효율, 공급망 리드타임 |
-| 구매 결정권 | 중간 (기술 평가 주도, 최종 승인은 VP급) |
-| 정보 채널 | OFC 컨퍼런스, IEEE 저널, 공급업체 기술 세미나, LinkedIn |
-| 핵심 고통점 | 400G→800G→1.6T 전환 속도 압박, 소비전력 규제 강화, 단일 공급사 의존 리스크 |
-| Coherent와의 접점 | 광트랜시버 모듈(QSFP-DD, OSFP), 실리콘 포토닉스 솔루션 |
-
-**구매 동기:** "검증된 대량 양산 능력과 기술 로드맵 가시성이 벤더 선택의 최우선 기준이다. 가격보다 납기 안정성과 차세대 규격 대응 속도가 더 중요하다." (추정)
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electronic components and adjacent industries. (T4_INFERRED from Coherent Corp.'s segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Coherent Corp.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 반도체 공정 엔지니어
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이수진 (가명) |
-| 직함 | 반도체 장비사 레이저 공정 개발 선임 엔지니어 |
-| 연령 | 32~42세 |
-| 소속 | 반도체 장비 제조사 (ASML, KLA, Lam Research 계열사 등) (추정) |
-| 학력 | 물리학·재료공학 박사 또는 석사 (추정) |
-| 핵심 KPI | 공정 수율, 레이저 빔 품질(M² 값), 장비 가동률(MTBF) |
-| 구매 결정권 | 높음 (기술 사양 직접 규정) |
-| 정보 채널 | SPIE Photonics West, Applied Physics Letters, 공급사 애플리케이션 노트 |
-| 핵심 고통점 | EUV 보조 공정용 레이저 출력 한계, 소재 일관성, 긴 검증 사이클 |
-| Coherent와의 접점 | UV/DUV 레이저, 반도체 소재(SiC, GaAs 기판), CO₂ 레이저 |
-
-**구매 동기:** "소재부터 빔 특성까지 수직 통합된 공급사만이 우리의 나노미터 단위 요구를 충족할 수 있다. 샘플 평가→양산까지의 기술 지원 체계가 결정적이다." (추정)
+- **Age / Occupation**: 42, VP-level or director in a Coherent Corp. customer organization
+- **Core pain**: Needs reliable electronic components solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Coherent Corp. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 산업용 레이저 가공 구매 담당자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박철호 (가명) |
-| 직함 | 자동차/항공 부품 제조사 생산기술팀 팀장 |
-| 연령 | 42~55세 |
-| 소속 | Tier-1 자동차 부품사 또는 항공 구조물 제조사 (추정) |
-| 학력 | 기계공학·산업공학 학사~석사 (추정) |
-| 핵심 KPI | 가공 사이클 타임, 장비 다운타임, TCO(총소유비용) |
-| 구매 결정권 | 높음 (CapEx 예산 내 직접 집행) |
-| 정보 채널 | LASER World of PHOTONICS, Fabtech, 국내 레이저 전시회, 딜러 네트워크 |
-| 핵심 고통점 | 고출력 파이버 레이저 A/S 응답 시간, 배터리/EV 부품 신소재 가공 적합성 |
-| Coherent와의 접점 | 고출력 파이버 레이저(kW급), CO₂ 레이저, 다이렉트 다이오드 레이저 |
-
-**구매 동기:** "생산 라인 정지는 곧 손실이다. 가격 차이보다 서비스 SLA와 예비 부품 재고 가용성이 벤더 충성도를 결정한다." (추정)
+- **Age / Occupation**: 35, technical professional who interacts with Coherent Corp.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Coherent Corp. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 | 기술 성숙도 | 구매 사이클 | 전략 우선순위 |
-|----------|------|------------|------------|--------------|
-| 하이퍼스케일러 / AI 인프라 | 매우 큰 | 최고 | 연간 계획 기반 | 최우선 |
-| 반도체 장비사 | 큰 | 최고 | 프로젝트 단위 | 높음 |
-| 산업 레이저 가공 | 중간 | 높음 | 분기~연간 | 중간 |
-| 방산·항공우주 | 중간 | 높음 | 장기 계약 | 높음 |
-| 의료·생명과학 | 작음 | 중간 | 느린 규제 기반 | 중간 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Coherent Corp.'s financial performance, competitive positioning, and risk factors for investment decisions.
+- **Coherent Corp. selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 (B2B 공통)
+## Purchase Journey — AARRR Framework
 
-```
-인식(Awareness)
-  → 기술 문제 정의 & 공급사 롱리스트 작성
-  → Coherent 기술 문서·애플리케이션 노트 검색
+| Stage | Coherent Corp.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Coherent Corp. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-검토(Consideration)
-  → 기술 세미나 참석 또는 FAE 미팅 요청
-  → 샘플/데모 평가 (6~18개월)
+---
 
-결정(Decision)
-  → 가격·납기·SLA 협상
-  → 구매팀 + 기술팀 공동 승인
+## Anti-Persona — Who Coherent Corp. Is Not For
 
-충성(Loyalty)
-  → 애프터마켓 소모품·유지보수 계약
-  → 차세대 로드맵 공동 개발
-```
+| Type | Characteristics | Why Coherent Corp. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Coherent Corp.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Coherent Corp.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Coherent Corp.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Coherent Corp.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Coherent Corp.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

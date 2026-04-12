@@ -1,134 +1,141 @@
-# 06. 채널 플레이북 — HP Inc. (HPQ)
+# 06. Channel Playbook — HP Inc. (HPQ)
 
-## 채널 전략 개요
-
-HP Inc.는 **온라인 D2C(Direct-to-Consumer)** 와 **리셀러/유통 파트너** 이중 채널 구조를 운영한다.
-한국 시장에서는 공식 온라인 스토어·네이버 스마트스토어·오프라인 양판점이 주요 접점이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 레이어 맵
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+HP Inc.'s core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-인지 (Awareness)
-    └── 유튜브 광고 / 네이버 배너 / 인스타그램 / 틱톡
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-고려 (Consideration)
-    └── HP 공식 사이트 / 네이버 블로그 리뷰 / 유튜브 리뷰어
+### Route B — Thought Leadership Pipeline
 
-전환 (Conversion)
-    └── HP 공식 스토어 / 네이버 스마트스토어 / 쿠팡 / 하이마트 / 전자랜드
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-리텐션 (Retention)
-    └── HP Instant Ink 구독 / HP+ / 이메일 뉴스레터 / My HP 앱
+### Route C — Earnings and Financial Communications
 
-옹호 (Advocacy)
-    └── HP 파트너 프로그램 / 리뷰 인센티브 / UGC 캠페인
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## Steal Sheet — 채널별 3-레이어 전략
+## 4. Channel-Specific Prohibitions
 
-### Steal Sheet Layer 1: 유기적 검색 & 콘텐츠 (SEO/블로그)
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 전략 | 실행 방법 | KPI |
-|------|---------|-----|
-| 네이버 블로그 SEO 선점 | "AI 노트북 추천 2025", "HP EliteBook vs ThinkPad" 등 비교 키워드 공략 | 월간 검색 유입 |
-| 지식iN 파트너 활용 | HP 공인 답변자 통해 "기업용 노트북 추천" 질문 대응 | 노출·클릭 |
-| 유튜브 SEO | "HP Spectre 리뷰", "HP 잉크젯 설치 방법" 롱테일 키워드 공략 | 조회수·구독자 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**빼앗기 포인트**: Lenovo·Dell이 강한 B2B 비교 검색에서 HP 케이스 스터디 콘텐츠로 역전
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### Steal Sheet Layer 2: 유료 퍼포먼스 마케팅
-
-| 전략 | 실행 방법 | KPI |
-|------|---------|-----|
-| 네이버 쇼핑 광고 | 카테고리별 최상단 노출 입찰 (노트북·프린터·잉크) | ROAS |
-| 유튜브 트루뷰 | 경쟁사 리뷰 영상 전 pre-roll 광고 집행 | CTR·전환율 |
-| 리타겟팅 | HP 제품 페이지 방문자 대상 Meta·카카오 리타겟팅 | 전환율·CPA |
-
-**빼앗기 포인트**: Apple 검색광고 키워드("맥북 대신")에 HP Spectre 비교 광고 집행
-
-### Steal Sheet Layer 3: 파트너 & 오프라인 채널
-
-| 전략 | 실행 방법 | KPI |
-|------|---------|-----|
-| 리셀러 인센티브 강화 | HP Partner First 포인트·리베이트 확대 (추정) | 파트너 매출 기여율 |
-| 하이마트 POP 강화 | 체험 존·전담 플래너 배치로 경쟁사 대비 체류 시간 확보 | 오프라인 전환율 |
-| 기업 직접 영업 | 100인 이상 기업 대상 HP 영업팀 직접 어프로치·파일럿 제공 | 파이프라인 규모 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널별 콘텐츠 가이드
+## 5. Crisis Response Protocol
 
-### 유튜브 (YouTube)
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-| 항목 | 가이드 |
-|------|-------|
-| 영상 유형 | 제품 스토리 (2~5분) / 언박싱 (5~10분) / 튜토리얼 (3~8분) |
-| 톤 | 에너지 있고 명확, 스펙 나열 지양 |
-| 썸네일 | `#165DBA` 강조색 + 제품 클로즈업 + 한글 키카피 |
-| 업로드 주기 | 주 1~2회 (공식 채널 기준, 추정) |
-| CTA | 영상 내 카드·엔드스크린으로 공식 스토어 연결 |
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### 인스타그램 (Instagram)
+### Scenario 2 — Regulatory or Legal Action
 
-| 항목 | 가이드 |
-|------|-------|
-| 포맷 | 릴스 우선 / 카루셀(비교·스펙) / 정방형(감성 라이프스타일) |
-| 톤 | 라이프스타일 중심, 사람과 기기의 조화 |
-| 해시태그 | `#HPKorea` `#AInotebook` `#HPSpectre` `#지속가능` (추정) |
-| 업로드 주기 | 주 3~5회 |
-| 협업 | 크리에이터·유학생·스타트업 파운더 인플루언서 |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### 네이버 스마트스토어 & 쇼핑
+### Scenario 3 — Reputation / Social Media Issue
 
-| 항목 | 가이드 |
-|------|-------|
-| 상품명 최적화 | 카테고리 키워드 + 모델명 + 핵심 스펙 (예: "HP Spectre x360 OLED 울트라북 AI PC") |
-| 대표 이미지 | 화이트 배경 제품 컷 + 라이프스타일 컷 교차 |
-| 가격 전략 | 공식 권장소비자가 대비 할인 명시로 체감 가치 강화 |
-| 리뷰 관리 | 구매 후 리뷰 요청 자동화·포토 리뷰 인센티브 |
-
-### 이메일 마케팅
-
-| 항목 | 가이드 |
-|------|-------|
-| 세그먼트 | 제품 카테고리별 (PC 구매자 / 잉크 구독자 / B2B 리드) |
-| 발송 주기 | 주 1회 프로모션 + 월 1회 인사이트 뉴스레터 (추정) |
-| 제목 전략 | 숫자·혜택 명시 ("Instant Ink 첫 달 무료") |
-| 개인화 | 구매 이력 기반 소모품·업그레이드 추천 |
-
-### 링크드인 (LinkedIn) — B2B 전용
-
-| 항목 | 가이드 |
-|------|-------|
-| 콘텐츠 유형 | 케이스 스터디 / 산업별 리포트 / HP Wolf Security 위협 인텔리전스 |
-| 톤 | 전문적·권위 있는 어조, 데이터 중심 |
-| 팔로워 타겟 | CIO·IT 매니저·구매 담당자 |
-| 광고 | LinkedIn InMail — 기업 규모·직책 타겟팅으로 EliteBook 리드 확보 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 채널 성과 지표 프레임워크
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 단계 | 지표 | 목표값 (추정) |
-|------|------|------------|
-| 인지 | 도달 / 노출 / 브랜드 검색량 | 분기별 +10% 성장 |
-| 고려 | 사이트 방문 / 제품 페이지 체류시간 | 2분 30초 이상 |
-| 전환 | 장바구니 추가율 / 구매 전환율 | 전환율 3% 이상 |
-| 리텐션 | Instant Ink 구독 유지율 / 재구매율 | 구독 유지 80%+ |
-| 옹호 | NPS / 리뷰 평점 / UGC 수 | NPS 40+, 평점 4.3+ |
+**1. Align channel formality with audience expectations.**
+HP Inc.'s channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+HP Inc.'s IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 한국 시장 특화 채널 우선순위
-
-| 우선순위 | 채널 | 이유 |
-|---------|------|------|
-| 1순위 | 네이버 (검색·쇼핑·블로그) | 한국 검색 점유율 60%+ (추정) |
-| 2순위 | 유튜브 | 제품 리뷰·비교 콘텐츠 소비 1위 플랫폼 |
-| 3순위 | 카카오 (톡채널·선물하기) | 국민 메신저 기반 프로모션 |
-| 4순위 | 인스타그램 | Z세대·크리에이터 타겟 |
-| 5순위 | 오프라인 (하이마트·전자랜드) | 고가 제품 체험 구매 여전히 유효 |
+**3. Build a cross-channel sequence, not parallel silos.**
+HP Inc.'s channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

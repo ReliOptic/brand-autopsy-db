@@ -1,78 +1,84 @@
-# 02 오디언스 맵 — First Solar (FSLR)
+# 02. Audience Map — First Solar (FSLR)
 
-## 타깃 오디언스 개요
-
-First Solar는 순수 B2B 기업이다. 최종 소비자(가정용 태양광 구매자)가 아닌 **유틸리티 회사, 독립 발전사업자(IPP), 대형 기업 PPA 구매자, 정책 입안자**가 핵심 오디언스다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1 — 유틸리티 발전소 조달 책임자
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (추정) | 마이클 하트만 (Michael Hartman) |
-| 직책 | 대형 유틸리티사 재생에너지 조달 VP |
-| 연령 | 45–58세 |
-| 소속 | 미국 남서부·남동부 IOU(Investor-Owned Utility) |
-| 주요 KPI | LCOE 최적화, 계통 안정성, 20년 모듈 보증 이행율 |
-| 핵심 고민 | 중국산 모듈 공급망 리스크, UFLPA 관세 불확실성, IRA 세액공제 적격 제품 확보 |
-| 정보 채널 | Wood Mackenzie 리포트, SEPA 컨퍼런스, 직접 영업 미팅 |
-| First Solar 선택 이유 | 미국산 적격(IRA 10% ADD-ON), CdTe 열 성능 우위(고온 환경), 수명주기 보증 |
-| 구매 결정 요소 | 장기 공급 계약 안정성 > 가격 > 기술 성능 |
-| 브랜드 기대 | 신뢰할 수 있는 산업 파트너, 데이터 기반 커뮤니케이션 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from First Solar's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in First Solar's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2 — 독립 발전사업자(IPP) 프로젝트 파이낸스 팀장
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (추정) | 사라 첸 (Sarah Chen) |
-| 직책 | 중견 IPP 프로젝트 파이낸스 디렉터 |
-| 연령 | 35–48세 |
-| 소속 | 100–500MW 규모 태양광 포트폴리오 운용 IPP |
-| 주요 KPI | IRR, 프로젝트 금융 조달 용이성, 보험사 수용성 |
-| 핵심 고민 | 뱅커빌리티(Bankability) — 금융기관이 승인하는 모듈 브랜드 여부, 모듈 성능 보증 보험 |
-| 정보 채널 | Bloomberg NEF, PV Tech, REFF Wall Street, 직접 기술 실사 |
-| First Solar 선택 이유 | 최고 수준의 뱅커빌리티, 모듈 성능 보증 명성, 미국 법원 관할권 내 분쟁 해결 |
-| 구매 결정 요소 | 금융기관 승인 여부 > 장기 공급 안정성 > LCOE |
-| 브랜드 기대 | 리스크 관리 파트너, 투명한 ESG 공시 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a First Solar customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **First Solar selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3 — 기업 ESG 조달 담당자 (C&I 구매자)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (추정) | 제니퍼 오코네르 (Jennifer O'Connor) |
-| 직책 | Fortune 500 기업 지속가능성 & 에너지 조달 이사 |
-| 연령 | 38–52세 |
-| 소속 | 데이터센터·제조업·유통 대기업 |
-| 주요 KPI | Scope 2 탄소 감축 목표, RE100 이행율, PPA 비용 경쟁력 |
-| 핵심 고민 | 공급망 ESG 실사(CSRD, SEC 기후공시), 재활용 가능 패널 요건 |
-| 정보 채널 | Rocky Mountain Institute, GreenBiz, 컨설턴트(Deloitte/EY 지속가능성팀) |
-| First Solar 선택 이유 | 산업 최저 수준 탄소 발자국, 엔드오브라이프 재활용 프로그램, 공급망 투명성 |
-| 구매 결정 요소 | ESG 보고서 적합성 > 탄소 발자국 증명 > 비용 |
-| 브랜드 기대 | 지속가능성 신뢰 파트너, 감사 가능한 공급망 데이터 제공 |
+- **Age / Occupation**: 35, technical professional who interacts with First Solar's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **First Solar selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 우선순위 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 영향력 | 구매력 | 성장성 | 우선순위 |
-|---------|--------|--------|--------|---------|
-| 유틸리티 조달 | 최상 | 최상 | 중 | 1순위 |
-| IPP 파이낸스 | 상 | 상 | 상 | 2순위 |
-| C&I ESG 구매자 | 중 | 중 | 최상 | 3순위 |
-| 정책 입안자 / 규제 기관 | 상 | 낮음 | 중 | 4순위 |
-| 일반 투자자 (IR) | 중 | 낮음 | 중 | 5순위 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate First Solar's financial performance, competitive positioning, and risk factors for investment decisions.
+- **First Solar selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스별 핵심 메시지 매핑
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 핵심 메시지 |
-|---------|------------|
-| 유틸리티 조달 | "IRA 적격 미국산 모듈, 20년 공급 안정성, CdTe 고온 성능 우위" |
-| IPP 파이낸스 | "최고 등급 뱅커빌리티, 글로벌 금융기관 승인, 모듈 성능 보증 보험 지원" |
-| C&I ESG | "산업 최저 탄소 발자국, 100% 엔드오브라이프 재활용, CSRD 대응 공급망 투명성" |
+| Stage | First Solar's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | First Solar total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who First Solar Is Not For
+
+| Type | Characteristics | Why First Solar Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | First Solar's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | First Solar's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | First Solar's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+First Solar's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+First Solar's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

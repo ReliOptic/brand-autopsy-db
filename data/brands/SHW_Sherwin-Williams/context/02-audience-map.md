@@ -1,101 +1,84 @@
-# SHW 오디언스 맵 — Sherwin-Williams
+# 02. Audience Map — Sherwin-Williams (SHW)
 
-## 타깃 오디언스 개요
-
-Sherwin-Williams는 크게 **전문 시공 B2B** 세그먼트와 **소비자 DIY B2C** 세그먼트로 이원화된 오디언스 구조를 보유한다. 전자는 매출의 약 60% 이상을 차지하며(추정), 후자는 브랜드 인지도와 감성적 연결의 핵심 드라이버다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 세그먼트 지도
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 규모 비중 | 핵심 니즈 | 구매 동기 |
-|---------|---------|---------|---------|
-| 전문 도장업자·시공사 | ~55% (추정) | 커버리지, 내구성, 납기 | 제품 신뢰성·대리점 접근성 |
-| 주거용 DIY 소비자 | ~25% (추정) | 색상 선택, 사용 용이성 | 인테리어 변화 욕구 |
-| 건축·인테리어 전문가 | ~12% (추정) | 색채 컨설팅, 프리미엄 마감 | 클라이언트 만족, 포트폴리오 |
-| 산업·상업 발주처 | ~8% (추정) | 대량 공급, 특수 코팅 스펙 | 규정 준수·장기 계약 |
-
----
-
-## 페르소나
-
-### 페르소나 1: 박민준 — 전문 도장업자 (B2B)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직업 | 10년 경력 독립 도장업자, 소규모 팀 운영 |
-| 거주지 | 수도권 경기 지역 (추정 유사 해외 시장 한국 대응) |
-| 학력 | 전문대 졸업, 도장기능사 자격증 보유 |
-| 연소득 | 약 6,500만~8,000만 원 (추정) |
-| **핵심 목표** | 시공 품질 유지 + 일정 내 납품 + 재고 관리 효율화 |
-| **페인 포인트** | 저품질 페인트로 인한 재시공 비용, 납품 지연, 색상 배치 오류 |
-| **정보 채널** | 도장업 커뮤니티 포럼, 대리점 영업사원, 유튜브 시공 영상 |
-| **브랜드 기대** | "한 번 발라도 완벽한 커버리지, 빠른 건조, 믿을 수 있는 재고" |
-| **구매 결정 요인** | 제품 일관성, 납기 안정성, 기술 지원 가용성 |
-| **SHW와 접점** | 전문가 매장 Pro Desk, 계정 담당자 방문, 앱 기반 주문 |
-
-**한 줄 인사이트**: 박민준에게 SHW는 "작업이 틀어지지 않게 해주는 파트너"다. 감성보다 신뢰성과 효율이 핵심 구매 언어다.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in specialty chemicals and adjacent industries. (T4_INFERRED from Sherwin-Williams's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Sherwin-Williams's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이지연 — 주거용 DIY 소비자 (B2C)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 34세 |
-| 직업 | 마케팅 매니저, 맞벌이 가정 |
-| 거주지 | 서울 마포구 아파트 (추정) |
-| 학력 | 4년제 대학 졸업 |
-| 연소득 | 약 5,500만 원 (추정) |
-| **핵심 목표** | 아이방·거실 리모델링을 합리적 예산 내에서 직접 완성하기 |
-| **페인 포인트** | 색상 선택 불확실성, 마감 실패 두려움, 냄새·VOC 걱정 |
-| **정보 채널** | 인스타그램, 핀터레스트, 유튜브 인테리어 채널, ColorSnap 앱 |
-| **브랜드 기대** | "색상 고르는 것부터 마무리까지 쉽고 예쁘게" |
-| **구매 결정 요인** | 색상 다양성, 저VOC, 셀프 도장 용이성, 비주얼 레퍼런스 풍부함 |
-| **SHW와 접점** | ColorSnap 앱, 소셜미디어 광고, 홈 임프루브먼트 리테일러 |
+### Persona 1 — Enterprise Decision-Maker
 
-**한 줄 인사이트**: 이지연에게 SHW는 "내 공간을 내 손으로 바꾸는 자신감"을 주는 브랜드다. 비주얼 영감과 실패 불안 제거가 관건이다.
+- **Age / Occupation**: 42, VP-level or director in a Sherwin-Williams customer organization
+- **Core pain**: Needs reliable specialty chemicals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Sherwin-Williams selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 정현우 — 건축·인테리어 디자이너 (전문가 B2B)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직업 | 중소형 인테리어 디자인 스튜디오 운영, 상업·주거 겸업 |
-| 거주지 | 서울 성수동 (추정) |
-| 학력 | 디자인 학과 졸업, 해외 연수 경험 |
-| 연소득 | 약 9,000만 원 (추정) |
-| **핵심 목표** | 클라이언트 브리프를 색채 언어로 정밀하게 구현 + 차별화된 포트폴리오 구축 |
-| **페인 포인트** | 시공 후 색상 괴리, 마감 품질 불일치, 색채 컨설팅 레퍼런스 부족 |
-| **정보 채널** | Architectural Digest, Dezeen, SHW Colormix 트렌드 보고서, 업계 네트워크 |
-| **브랜드 기대** | "팬톤 대응 정밀 색상 재현 + 고급 마감재 라인업" |
-| **구매 결정 요인** | 색상 정밀도, 마감 다양성(무광~고광), 프리미엄 제품 라인 접근성 |
-| **SHW와 접점** | Emerald 프리미엄 라인, 전문가 프로그램, ColorSnap Pro, 트렌드 보고서 |
-
-**한 줄 인사이트**: 정현우에게 SHW는 "클라이언트 앞에서 틀리지 않게 해주는 색채 백과사전"이다. 정밀성과 트렌드 레퍼런스가 충성도를 결정한다.
+- **Age / Occupation**: 35, technical professional who interacts with Sherwin-Williams's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Sherwin-Williams selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 고객 여정 맵 요약
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | B2C (이지연) 터치포인트 | B2B (박민준) 터치포인트 |
-|------|----------------------|----------------------|
-| 인지 | 소셜미디어 광고, 핀터레스트 | 업계 커뮤니티, 영업 방문 |
-| 탐색 | ColorSnap 앱, 유튜브 튜토리얼 | 제품 카탈로그, Pro Desk 상담 |
-| 구매 | 홈 리테일러, 공식 매장 | 계정 담당자, 온라인 B2B 주문 |
-| 사용 | 시공 가이드, 고객센터 | 기술 지원 전화, 현장 방문 |
-| 옹호 | 인스타그램 완성샷 공유 | 재주문 + 동료 추천 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Materials
+- **Core pain**: Needs to evaluate Sherwin-Williams's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Sherwin-Williams selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 지역별 주요 시장 비중 (추정)
+## Purchase Journey — AARRR Framework
 
-| 지역 | 비중 |
-|------|------|
-| 북미 (미국·캐나다) | ~75% |
-| 라틴아메리카 | ~12% |
-| 유럽·중동·아프리카 | ~8% |
-| 아시아태평양 | ~5% |
+| Stage | Sherwin-Williams's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Sherwin-Williams total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Sherwin-Williams Is Not For
+
+| Type | Characteristics | Why Sherwin-Williams Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Sherwin-Williams's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Sherwin-Williams's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Sherwin-Williams's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Sherwin-Williams's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Sherwin-Williams's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In materials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

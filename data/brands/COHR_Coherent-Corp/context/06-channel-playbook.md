@@ -1,116 +1,141 @@
-# 06 채널 플레이북 — Coherent Corp. (COHR)
+# 06. Channel Playbook — Coherent Corp. (COHR)
 
-## 채널 전략 개요
-
-Coherent의 채널 전략은 **"기술 신뢰 구축 → 직접 영업 전환"** 경로를 따른다. 디지털 채널은 인지도·리드 생성 역할을 하고, 현장 FAE(Field Application Engineer) 및 대리점 네트워크가 최종 전환을 담당한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 역할 및 전략
+## 1. Channel Strategy Matrix
 
-### 1. 웹사이트 (coherent.com)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 기술 레퍼런스 허브, 제품 탐색, 리드 캡처 |
-| 핵심 페이지 | 제품 카탈로그, 애플리케이션 노트, 케이스 스터디, 파트너 포털 |
-| CTA 우선순위 | 데이터시트 다운로드 → FAE 상담 예약 → 샘플 요청 |
-| SEO 타겟 키워드 | "SiC substrate", "800G transceiver", "fiber laser cutting" (추정) |
-| 개선 기회 | 제품 비교 툴, 파라미터 기반 필터 강화 (추정) |
-
-**스틸 시트 1 — 웹사이트 레이어**
-
-| # | 전략 | 실행 |
-|---|------|------|
-| 1 | 기술 파라미터 검색 강화 | 파장·출력·애플리케이션 필터로 제품을 즉시 찾는 엔지니어 경험 구축 |
-| 2 | 게이티드 콘텐츠 리드 퍼널 | 화이트페이퍼·애플리케이션 노트를 이메일 등록 후 다운로드 제공해 MQL 수집 |
-| 3 | FAE 직결 예약 위젯 | 각 제품 페이지에 Calendly 형식의 "30분 기술 상담" 인라인 예약 배치 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. LinkedIn
+## 2. Channel Tone Variations
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | B2B 브랜드 인지도, 채용 브랜딩, 사고 리더십 |
-| 팔로워 규모 | 추정 10만~20만 명 (추정) |
-| 게시 빈도 | 주 3~5회 (추정) |
-| 고성과 콘텐츠 유형 | 기술 인포그래픽, 컨퍼런스 발표 영상 클립, 채용 스토리 |
-| 타겟 오디언스 | 광공학 엔지니어, 반도체 구매 담당자, 데이터센터 아키텍트 |
-| 광고 활용 | Sponsored Content로 화이트페이퍼 다운로드 캠페인 집행 (추정) |
+Coherent Corp.'s core voice adjusts by channel while maintaining brand coherence.
 
-**스틸 시트 2 — LinkedIn 레이어**
-
-| # | 전략 | 실행 |
-|---|------|------|
-| 1 | 임원 사고 리더십 콘텐츠 | CTO·VP 명의의 "AI 인프라가 광트랜시버 시장을 재편하는 3가지 이유" 형식 연재 |
-| 2 | 기술 인포그래픽 시리즈 | 매주 "Photonics Explained" 브랜드 시리즈로 복잡한 기술을 1장 시각화 |
-| 3 | 고객 성공 영상 스니펫 | 케이스 스터디에서 30초 하이라이트 클립 추출해 LinkedIn Native Video로 게시 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. 컨퍼런스·전시회 (이벤트 채널)
+## 3. Cross-Channel Synergy Map
 
-| 행사명 | 개최 시기 | 역할 | 참여 형태 |
-|--------|----------|------|----------|
-| OFC (Optical Fiber Communication) | 매년 3월 | 광통신 리드 생성 | 부스 전시 + 논문 발표 (추정) |
-| SPIE Photonics West | 매년 1~2월 | 기술 권위 확립 | 논문 발표 + 스폰서십 (추정) |
-| LASER World of PHOTONICS | 격년 (홀수년 6월) | 산업 레이저 영업 | 부스 전시 + 라이브 데모 (추정) |
-| Semicon West | 매년 7월 | 반도체 소재 영업 | 부스 전시 (추정) |
-| Fabtech | 매년 11월 | 산업 가공 시장 | 부스 전시 (추정) |
+### Route A — Product/Service Launch Sequence
 
-**스틸 시트 3 — 이벤트 레이어**
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-| # | 전략 | 실행 |
-|---|------|------|
-| 1 | 사전 예약 미팅 시스템 | 전시 6주 전 LinkedIn·이메일로 "부스 1:1 기술 상담 사전 예약" 캠페인 집행, 현장 혼잡 최소화 |
-| 2 | 라이브 데모 → 디지털 연장 | 전시 데모 영상을 즉시 촬영해 이벤트 종료 24시간 내 LinkedIn·YouTube 배포 |
-| 3 | 컨퍼런스 리드 즉시 너처링 | 명함·QR 스캔 리드를 72시간 내 FAE 배정 이메일로 연결하는 자동화 시퀀스 구축 |
+### Route B — Thought Leadership Pipeline
 
----
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-### 4. 이메일·마케팅 자동화
+### Route C — Earnings and Financial Communications
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 리드 너처링, 기존 고객 크로스셀, 제품 출시 알림 |
-| 세그먼트 기준 | 산업(광통신/레이저/반도체), 구매 단계, 지역 (추정) |
-| 핵심 시퀀스 | 웰컴(3통) → 기술 교육(4통) → FAE 상담 CTA(1통) (추정) |
-| 발송 빈도 | 월 2~4회 (추정) |
-| KPI | 오픈율, 클릭률, FAE 상담 전환율 |
-
----
-
-### 5. 유튜브 / 영상 채널
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 제품 데모, 기술 교육, 브랜드 스토리텔링 |
-| 콘텐츠 유형 | 제품 소개 영상, 애플리케이션 데모, 웨비나 아카이브 |
-| 최적 길이 | 기술 데모 3~8분, 웨비나 요약 15~20분 (추정) |
-| SEO 전략 | 영상 제목에 제품 모델명·파라미터 포함 (추정) |
-
----
-
-## 채널 우선순위 매트릭스
-
-| 채널 | 인지도 기여 | 리드 생성 | 전환 기여 | 투자 우선순위 |
-|------|------------|----------|----------|--------------|
-| 웹사이트 | 중 | 높음 | 높음 | 최우선 |
-| 직접 영업·FAE | 낮음 | 낮음 | 최고 | 최우선 |
-| 컨퍼런스·전시 | 높음 | 높음 | 중 | 높음 |
-| LinkedIn | 높음 | 중 | 낮음 | 높음 |
-| 이메일 자동화 | 낮음 | 중 | 높음 | 중간 |
-| 유튜브 | 중 | 낮음 | 낮음 | 중간 |
-| 대리점 채널 | 낮음 | 중 | 높음 | 높음 |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## 지역별 채널 조정
+## 4. Channel-Specific Prohibitions
 
-| 지역 | 추가 채널 | 특이사항 |
-|------|----------|---------|
-| 북미 | Salesforce 기반 CRM 통합, 직접 영업 우위 | FAE 밀도 가장 높음 (추정) |
-| 유럽 | LASER 전시회, 독일어·프랑스어 로컬라이제이션 | GDPR 준수 이메일 운영 필수 |
-| 한국·일본 | 현지 대리점 파트너 채널 강화, 기술 세미나 자체 개최 | 삼성·SK하이닉스·소니 공급 관계 레버리지 (추정) |
-| 중국 | WeChat 공식 계정, 바이두 SEO | 지정학적 수출 규제 리스크 모니터링 필수 (추정) |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+
+---
+
+## 5. Crisis Response Protocol
+
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Coherent Corp.'s channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Coherent Corp.'s IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Coherent Corp.'s channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

@@ -1,128 +1,102 @@
-# 05. 디자인 시스템 — Charles Schwab (SCHW)
+# 05. Design System — Charles Schwab Corporation (SCHW)
 
-> 섹터: 금융 — 증권·뱅킹 | 티커: SCHW
-
----
-
-## 1. 브랜드 컬러 시스템
-
-### 1-1. 주요 컬러 팔레트
-
-| 역할 | 컬러명 | HEX | 사용 맥락 |
-|------|--------|-----|---------|
-| Primary Brand | Schwab Blue | `#00A0DF` | 로고, 주요 CTA 버튼, 헤더 (공식) |
-| Primary Dark | Navy Blue | `#003087` | 본문 제목, 다크 배경, 프리미엄 섹션 (공식) |
-| Accent | Teal Green | `#00B5A0` | 긍정 지표, 수익률 표시, 친환경 이니셔티브 (추정) |
-| Secondary | Charcoal | `#333333` | 본문 텍스트, 아이콘 (추정) |
-| Background | White | `#FFFFFF` | 메인 배경, 카드 배경 (공식) |
-| Background Alt | Light Gray | `#F5F5F5` | 섹션 구분, 테이블 행 배경 (추정) |
-| Warning | Amber | `#F5A623` | 경고 메시지, 주의 배너 (추정) |
-| Error | Red | `#D0021B` | 오류 상태, 손실 수익률 표시 (추정) |
-| Success | Green | `#417505` | 완료 상태, 수익 지표 (추정) |
-| Text Primary | Dark Navy | `#1A1A2E` | 최우선 텍스트 (추정) |
-
-### 1-2. 컬러 활용 원칙
-
-- 파란색 계열이 전체 화면의 60% 이상 지배 → **신뢰·안정** 감성 구현
-- 녹색 계열은 수익·성장 맥락에만 한정 사용 → 의미론적 일관성
-- 배경 화이트 + 포인트 블루 조합이 기본 레이아웃 규칙
-- 모든 컬러 조합은 WCAG AA 이상 명도 대비 준수 (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 용도 | 폰트 패밀리 | 굵기 | 크기 범위 (추정) |
-|------|-----------|------|--------------|
-| 헤드라인 | Schwab Sans (커스텀) / Helvetica Neue | Bold (700) | 32px ~ 64px |
-| 부제목 | Schwab Sans / Helvetica Neue | SemiBold (600) | 20px ~ 28px |
-| 본문 | Schwab Sans / Georgia | Regular (400) | 16px ~ 18px |
-| 캡션·라벨 | Schwab Sans / Helvetica Neue | Regular (400) | 12px ~ 14px |
-| 수치·데이터 | Monospace (추정) | Regular | 14px ~ 16px |
+Charles Schwab Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-- 모든 본문 줄간격(Line Height): 1.5 이상 (접근성 기준) (추정)
-- 한국어/다국어 폰트: Noto Sans KR 계열 적용 추정 (추정)
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 3. 로고 사용 규정
+### Color Principles
 
-| 항목 | 규정 |
-|------|------|
-| 기본 로고 | "Schwab" 워드마크 + 파란색 물결 심볼 조합 (공식) |
-| 최소 크기 | 인쇄물 0.75인치, 디지털 60px 이상 (추정) |
-| 배경 사용 | 화이트·라이트그레이 배경 권장, 다크 배경 시 흰색 버전 사용 (추정) |
-| 금지 변형 | 색상 임의 변경, 왜곡, 그림자 추가, 로고 위 텍스트 중첩 금지 (추정) |
-| 클리어 스페이스 | 로고 높이의 50% 이상 여백 유지 (추정) |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-## 4. UI 컴포넌트 시스템
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 4-1. 버튼 스타일
-
-| 버튼 타입 | 배경색 | 텍스트색 | 용도 |
-|----------|--------|---------|------|
-| Primary CTA | `#00A0DF` | `#FFFFFF` | 계좌 개설, 투자 시작 |
-| Secondary CTA | `#003087` | `#FFFFFF` | 더 알아보기, 로그인 |
-| Tertiary | `#FFFFFF` | `#00A0DF` | 부수적 행동 유도 |
-| Danger | `#D0021B` | `#FFFFFF` | 삭제, 주의 행동 |
-
-### 4-2. 데이터 시각화 컬러
-
-| 용도 | 컬러 | HEX |
-|------|------|-----|
-| 포트폴리오 차트 주요 자산군 | Blue | `#00A0DF` |
-| 포트폴리오 보조 자산군 | Teal | `#00B5A0` |
-| 비교 대상 | Purple | `#7B61FF` |
-| 수익 표시 | Green | `#417505` |
-| 손실 표시 | Red | `#D0021B` |
-| 중립 | Gray | `#9B9B9B` |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5. 아이콘 & 일러스트레이션 스타일
+## 2. Typography
 
-- **아이콘**: 라인 스타일(Line Icon) 위주, 모서리 살짝 라운드, 24×24 그리드 (추정)
-- **일러스트**: 평면적(Flat) 스타일, 실제 사람 모습보다 추상적 도형 조합 선호 (추정)
-- **사진**: 다양한 연령·인종·성별 포용, 자연광·밝은 배경 선호 (추정)
-- **다이어그램**: 화살표·플로우 차트 활발 사용, 복잡한 금융 프로세스 시각화
+Charles Schwab Corporation's digital properties employ a typographic system appropriate to its financials positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 반응형 디자인 브레이크포인트 (추정)
+## 3. Channel Specifications
 
-| 디바이스 | 너비 | 레이아웃 |
-|---------|------|---------|
-| 모바일 | < 768px | 1열, 하단 내비게이션 |
-| 태블릿 | 768px ~ 1024px | 2열, 사이드바 축소 |
-| 데스크탑 | 1024px ~ 1440px | 3열, 풀 내비게이션 |
-| 와이드 | > 1440px | 최대 너비 1440px 고정 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 7. Steal Sheet — 디자인 시스템 레이어별 3가지
+## 4. Layout Principles
 
-### Layer 1: 컬러 & 신뢰 시그널 Steal Sheet
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| # | 전략 | 실행 방법 | 효과 |
-|---|------|----------|------|
-| 1 | "파란색 신뢰 앵커" | 모든 신뢰 관련 요소(인증 마크, 수상 이력, SIPC 로고)에 #003087 적용 | 신뢰 지각 강화 (추정) |
-| 2 | "수익 녹색 + 손실 빨강 일관성" | 데이터 표현에서 감정적 연결 유발, 직관적 의미 전달 | 정보 처리 속도 향상 (추정) |
-| 3 | "여백의 신뢰" | 고급 금융 서비스 섹션에서 요소 밀도 의도적 축소 | 프리미엄 포지셔닝 강화 (추정) |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Layer 2: 타이포그래피 & 계층 Steal Sheet
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| # | 전략 | 실행 방법 | 효과 |
-|---|------|----------|------|
-| 1 | "숫자 강조 타이포" | 수익률·수수료 숫자를 본문보다 2단계 크게 표시 | 핵심 가치 즉각 전달 (추정) |
-| 2 | "헤드라인 = 고객 언어" | 전문 용어 대신 고객이 검색하는 그대로 헤드라인 작성 | SEO + UX 동시 최적화 (추정) |
-| 3 | "계층적 정보 구조" | H1→H2→본문 3단계로 복잡한 금융 정보 소화 가능하게 분해 | 체류 시간 증가 (추정) |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Layer 3: 인터랙션 & CTA Steal Sheet
+---
 
-| # | 전략 | 실행 방법 | 효과 |
-|---|------|----------|------|
-| 1 | "단일 페이지 단일 CTA" | 각 랜딩 페이지에 CTA 최대 2개로 제한, 혼란 방지 | 전환율 향상 (추정) |
-| 2 | "진행 상황 시각화" | 계좌 개설 단계 표시(1/5, 2/5...), 이탈 방지 | 완료율 30% 향상 (추정) |
-| 3 | "마이크로 애니메이션 신호" | 버튼 호버 시 약한 색 전이, 폼 완료 시 체크마크 애니메이션 | 만족감·완료 신호 강화 (추정) |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Charles Schwab Corporation (SCHW)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

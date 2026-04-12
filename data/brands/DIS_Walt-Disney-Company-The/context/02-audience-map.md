@@ -1,139 +1,84 @@
-# 오디언스 맵 — The Walt Disney Company (DIS)
+# 02. Audience Map — Walt Disney Company (The) (DIS)
 
-## 타깃 오디언스 개요
-
-Disney의 오디언스는 단일 세그먼트가 아닌 **세대 연속체(Generational Continuum)**로 구성된다. 부모가 어린 시절 경험한 Disney를 자녀에게 물려주는 세대 간 충성도 순환이 핵심 메커니즘이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 꿈을 키우는 어린이
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 지유 (8세, 초등학교 2학년)
-
-**인구통계**
-- 연령: 6~12세
-- 거주: 도시·교외 지역, 중산층 이상 가정
-- 디바이스: 부모의 스마트폰·태블릿, 가정용 스마트TV
-
-**심리통계**
-- 핵심 욕구: 놀이, 상상, 영웅 동일시
-- 두려움: 소외감, 재미없음, 다름
-- 꿈: 공주·영웅·우주비행사 되기
-- 미디어 습관: Disney+ 오리지널, YouTube 클립, 학교 친구들 사이의 유행 콘텐츠
-
-**Disney와의 접점**
-- Disney+ 애니메이션 시리즈 (공식)
-- 테마파크 방문 시 캐릭터 미팅 (공식)
-- 학용품·의류 등 라이선스 굿즈
-- 가족 영화관 관람
-
-**행동 트리거**
-- "친구들이 다 봤다"는 사회적 증거
-- 좋아하는 캐릭터의 새 에피소드 공개
-- 생일·방학 시즌 테마파크 방문 요청
-
-**브랜드 메시지 키**
-> "네가 꿈꾸는 모든 것이 이곳에 있어"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in movies & entertainment. B2C: End consumers of communication services products and services. (T4_INFERRED from Walt Disney Company (The)'s segment structure) |
+| **Occupation segments** | Media buyers, content creators, advertisers, subscribers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Walt Disney Company (The)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 추억을 소환하는 밀레니얼 부모
+## Core Personas
 
-### 페르소나: 수진 (38세, 맞벌이 부부, 자녀 2명)
+### Persona 1 — Enterprise Decision-Maker
 
-**인구통계**
-- 연령: 32~45세
-- 직업: 중간관리직, 프리랜서, 전문직
-- 가계소득: 연 6,000만 원~1.2억 원 (추정)
-- 거주: 수도권 아파트
-
-**심리통계**
-- 핵심 욕구: 자녀와의 quality time, 어린 시절 향수, '좋은 부모' 정체성 확인
-- 고통점: 스크린 타임 죄책감, 콘텐츠 품질 불신, 바쁜 일정
-- 가치관: 교육적 가치와 재미의 동시 충족, 안전한 콘텐츠 환경
-- 미디어 습관: Disney+ 가족 계정, SNS(Instagram·YouTube), 포털 뉴스
-
-**Disney와의 접점**
-- Disney+ 가족 구독 결정권자 (공식)
-- 테마파크·크루즈 예약 의사결정자 (공식)
-- 어린 시절 Disney 영화의 라이브액션 리메이크 관람
-- 자녀 생일 파티 Disney 테마 기획
-
-**행동 트리거**
-- "내가 어릴 때 봤던" 노스탤지어 자극 마케팅
-- 자녀의 캐릭터 최애 형성 후 굿즈 구매 요청
-- 연말·여름방학 가족여행 계획
-
-**브랜드 메시지 키**
-> "당신의 어린 시절 마법을, 이제 아이들과 함께"
+- **Age / Occupation**: 42, VP-level or director in a Walt Disney Company (The) customer organization
+- **Core pain**: Needs reliable movies & entertainment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Walt Disney Company (The) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 마니아 팬덤 성인 소비자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 준혁 (27세, Marvel·Star Wars 팬, 싱글)
-
-**인구통계**
-- 연령: 18~35세
-- 직업: IT 개발자, 콘텐츠 크리에이터, 대학원생
-- 가계소득: 연 3,000만 원~5,000만 원 (추정)
-- 거주: 1인 가구, 도시 거주
-
-**심리통계**
-- 핵심 욕구: 심층 세계관 탐구, 팬덤 커뮤니티 소속감, 콜렉팅
-- 고통점: MCU 피로감, 콘텐츠 과부하, 정식 굿즈 가격 부담
-- 정체성: "나는 그냥 팬이 아니라 진정한 팬"
-- 미디어 습관: Disney+·Hulu, Reddit, YouTube 딥다이브, 트위터/X 팬 계정
-
-**Disney와의 접점**
-- Disney+ 개인 구독 (공식)
-- Marvel·Star Wars 극장 개봉작 첫째 날 관람
-- 피규어·한정판 굿즈 구매 (ShopDisney, LEGO, Funko)
-- 팬덤 이벤트 (D23 Expo, 코믹콘)
-
-**행동 트리거**
-- 예고편·포스트크레딧 씬 공개
-- 한정판 컬렉터블 발매
-- 팬 이론 커뮤니티 화제성
-- D23 발표 이벤트
-
-**브랜드 메시지 키**
-> "세계관은 끝나지 않는다. 다음 챕터가 시작된다"
+- **Age / Occupation**: 35, technical professional who interacts with Walt Disney Company (The)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Walt Disney Company (The) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 연령대 | 주요 접점 | 연간 지출 추정 | 충성도 |
-|---------|--------|-----------|--------------|--------|
-| 어린이 (지유형) | 4~12세 | TV/스트리밍, 굿즈 | 부모 의존 | 중 |
-| 밀레니얼 부모 (수진형) | 30~45세 | 구독, 테마파크, 굿즈 | $500~$3,000+ (추정) | 매우 높음 |
-| 마니아 팬덤 (준혁형) | 18~35세 | 스트리밍, 굿즈, 극장 | $200~$1,500 (추정) | 높음 |
-| 시니어/조부모 | 55세+ | 테마파크 동행, 고전 영화 | $300~$2,000 (추정) | 중 |
-| 글로벌 신흥시장 | 전 연령 | Disney+ 스트리밍 | $50~$200 (추정) | 성장 중 |
+- **Age / Occupation**: 38, consumer who interacts with Walt Disney Company (The)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Walt Disney Company (The) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스 인사이트
+## Purchase Journey — AARRR Framework
 
-**세대 루프 메커니즘** (추정)
-1. 어린이가 Disney 콘텐츠를 소비하며 애착 형성
-2. 성인이 된 후 자녀에게 동일 경험 제공 욕구
-3. 리메이크·속편을 통해 기존 팬과 신규 팬 동시 포획
-4. 테마파크에서 3세대가 함께 경험하는 "Disney 순례" 완성
-
-**지불 의향(WTP) 구조** (추정)
-- 테마파크 입장료: 성인 1인 $109~$189/일 (공식)
-- Disney+ 구독: 월 $7.99(광고포함)~$13.99(광고없음) (공식)
-- 크루즈: 1인 $500~$5,000+ (추정)
-- 굿즈 연간 지출: 열혈 팬 기준 $300~$2,000 (추정)
+| Stage | Walt Disney Company (The)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Walt Disney Company (The) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Anti-Persona — Who Walt Disney Company (The) Is Not For
 
-| 번호 | 훔쳐올 전략 | 실행 방법 | 적용 대상 |
-|------|------------|-----------|-----------|
-| 1 | **세대 루프 설계**: 현재 어린이 고객이 미래의 부모 고객이 되도록 첫 접촉 경험을 설계 | 어린이 대상 경험의 품질을 최우선화, 부모가 "내 아이에게도 이 경험을"이라고 말하게 만드는 감동 포인트 삽입 | 아동 대상 서비스, 교육, 식품·소비재 브랜드 |
-| 2 | **노스탤지어 트리거 마케팅**: 성인 고객의 어린 시절 기억을 자극하여 감성적 구매 동기 형성 | 레거시 콘텐츠의 현대적 재해석, 원작 팬을 위한 이스터에그와 신규 팬을 위한 진입점 병렬 설계 | 리브랜딩 기업, 헤리티지 제품 재출시, OTT·게임 |
-| 3 | **팬덤 커뮤니티를 마케팅 엔진으로 전환**: 열혈 팬(준혁형)이 자발적으로 콘텐츠를 생산·공유하도록 희소성·독점성 자극 | 한정판 굿즈, 얼리액세스, 팬 이벤트 초대권 등으로 "특별한 팬"의 정체성 강화, UGC 생태계 조성 | 게임, 애니메이션, K-팝, 스포츠 브랜드 |
+| Type | Characteristics | Why Walt Disney Company (The) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Walt Disney Company (The)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Walt Disney Company (The)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Walt Disney Company (The)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Walt Disney Company (The)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Walt Disney Company (The)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In communication services markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

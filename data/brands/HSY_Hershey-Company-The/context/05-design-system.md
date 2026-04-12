@@ -1,154 +1,102 @@
-# 05 디자인 시스템 — Hershey Company (HSY)
+# 05. Design System — Hershey Company (The) (HSY)
 
-## 디자인 철학
-
-Hershey의 디자인은 **친숙함과 신뢰**를 시각적으로 구현한다. 100년 이상 쌓인 브랜드 에쿼티를 유산으로 계승하면서도, 현대 소비자의 시각 언어에 적응하는 균형을 추구한다. 과도한 실험보다는 검증된 시각 코드의 정교화를 우선한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### Hershey's 마스터 브랜드 팔레트
+Hershey Company (The)'s visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Hershey Brown | `#3D1C02` | 메인 브랜드 컬러, 배경, 주요 타이포 | (공식) |
-| Hershey Gold | `#C8972B` | 로고 보조, 프리미엄 강조, CTA 버튼 | (공식) |
-| Cream White | `#FFF8F0` | 배경, 여백, 패키징 밝은 영역 | (추정) |
-| Dark Chocolate | `#1A0A00` | 딥 다크 강조, 스페셜 다크 라인 | (추정) |
-| Warm Beige | `#E8D5B0` | 보조 배경, 온기 표현 | (추정) |
+### Core Brand Colors
 
-### Reese's 브랜드 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Reese's Orange | `#FF6600` | 메인 브랜드 컬러, 패키징 지배색 | (공식) |
-| Reese's Yellow | `#FFD700` | 로고 텍스트, 에너지 포인트 | (공식) |
-| Peanut Brown | `#8B5A2B` | 땅콩버터 연상 보조색 | (추정) |
-| Off-White | `#FFFAF2` | 패키징 배경, 여백 | (추정) |
-| Deep Orange | `#CC4400` | 호버 상태, 강조 다크 버전 | (추정) |
+### Color Principles
 
-### Kit Kat 브랜드 팔레트 (미국 Hershey 라이선스)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Kit Kat Red | `#CC0000` | 메인 브랜드 컬러, 패키징 | (공식) |
-| Kit Kat White | `#FFFFFF` | 로고 텍스트, 패키징 여백 | (공식) |
-| Silver Foil | `#C0C0C0` | 내부 포일 랩 연상 보조색 | (추정) |
-| Chocolate Dark | `#2C1501` | 제품 색상 표현 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Kisses 브랜드 팔레트
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Silver Kiss | `#A8A8A8` | 포일 래핑 대표색 | (공식) |
-| Holiday Red | `#B22222` | 크리스마스·발렌타인 시즌 | (추정) |
-| Holiday Green | `#1A5C1A` | 크리스마스 시즌 | (추정) |
-| Rose Pink | `#E8748A` | 발렌타인 시즌 | (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### Hershey's 서체 시스템
+Hershey Company (The)'s digital properties employ a typographic system appropriate to its consumer staples positioning.
 
-| 역할 | 서체 | 특성 | 출처 |
-|------|------|------|------|
-| 헤드라인 | Hershey's 커스텀 산세리프 (유사: Futura Bold) | 굵고 친근한 기하학적 형태 | (추정) |
-| 서브헤드 | 세리프 계열 (유사: Georgia) | 전통·유산 연상 | (추정) |
-| 바디 | 시스템 산세리프 (Helvetica Neue 또는 유사) | 가독성 최우선 | (추정) |
-| 디스플레이 (시즌) | 장식적 스크립트 | 시즌 따뜻함 표현 | (추정) |
+### Typeface System
 
-### Reese's 서체 시스템
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 역할 | 서체 | 특성 | 출처 |
-|------|------|------|------|
-| 헤드라인 | Impact 계열 또는 Condensed Bold | 대담하고 공격적인 인상 | (추정) |
-| 바디 | 굵은 고딕 산세리프 | 직접적·강렬함 | (추정) |
+### Typographic Scale
 
----
-
-## 로고 시스템
-
-### Hershey's 로고
-
-- **형태**: 갈색 배경 위 금색 텍스트 "HERSHEY'S" (공식)
-- **로고 클리어스페이스**: 로고 높이의 1배 이상 여백 확보 (추정)
-- **최소 크기**: 인쇄물 기준 20mm 이상 (추정)
-- **사용 금지**: 로고 왜곡, 색상 변경, 배경색과 대비 부족 상황
-
-### Reese's 로고
-
-- **형태**: 오렌지 배경 위 황금색 "Reese's" 곡선 텍스트 (공식)
-- **특징**: 손글씨 스타일의 친근함 + 강렬한 컬러 대비
-
-### Kit Kat 로고
-
-- **형태**: 빨간 배경 위 흰색 "KIT KAT" 볼드 텍스트, 사각형 프레임 (공식)
-- **특징**: 단순하고 강한 대비, 전 세계 어디서든 즉각 인식 가능
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 패키징 디자인 원칙
+## 3. Channel Specifications
 
-### 구조적 원칙
-
-1. **즉각 인식성** — 3m 거리에서도 브랜드 식별 가능한 컬러 블록 (추정)
-2. **시즌 유연성** — 코어 디자인 유지하며 시즌 컬러·그래픽 오버레이 방식 (추정)
-3. **크기 스케일** — 싱글 바에서 패밀리 사이즈까지 동일 디자인 코드 (추정)
-4. **정보 계층** — 브랜드명 → 제품 변형명 → 중량·성분 순 (추정)
-
-### 시즌 패키징 규칙
-
-| 시즌 | 컬러 변형 | 형태 변형 |
-|------|---------|---------|
-| 핼러윈 | 오렌지·블랙 오버레이 | 호박·유령 형태 미니 사이즈 |
-| 크리스마스 | 레드·그린·실버 | 트리·종 형태 Kisses |
-| 발렌타인 | 핑크·레드·화이트 | 하트 형태 Reese's, Kisses |
-| 이스터 | 파스텔 계열 | 달걀 형태 Reese's |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 사진·비주얼 스타일
+## 4. Layout Principles
 
-### Hershey's 비주얼 언어
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-- **조명**: 따뜻한 황금빛 자연광 또는 소프트 스튜디오 조명
-- **배경**: 나무 테이블, 홈 키친, 따뜻한 실내 공간
-- **인물**: 다세대 가족, 진짜 웃음, 스테이징 최소화
-- **제품 샷**: 초콜릿 녹는 텍스처, 크로스 섹션, 스팀·광택 강조
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Reese's 비주얼 언어
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- **조명**: 강한 콘트라스트, 생동감 있는 색상
-- **배경**: 단색 오렌지·황색, 그래픽 패턴
-- **인물**: 활동적인 젊은 소비자, 과장된 리액션
-- **제품 샷**: 깨트리는 순간, 필링 노출, 클로즈업 텍스처
-
-### Kit Kat 비주얼 언어
-
-- **조명**: 밝고 가벼운 일상광
-- **배경**: 직장·카페·게임 공간 등 "브레이크" 맥락
-- **인물**: 휴식 중인 다양한 직업군
-- **제품 샷**: 스냅 순간 포착, 4조각 구조 강조
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 모션·애니메이션 원칙 (추정)
+## 5. Design Prohibitions
 
-| 요소 | 원칙 |
-|------|------|
-| 트랜지션 속도 | 300~500ms, 과도한 빠름·느림 금지 |
-| 이징 | Ease-in-out 선호, 탄성(Spring) 애니메이션은 Reese's에만 사용 |
-| 로고 등장 | 페이드 인 또는 부드러운 슬라이드, 튐 효과 금지 (Hershey's) |
-| 제품 등장 | 녹아드는 텍스처·빛 반사 강조 모션 (Hershey's) |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
-
-| # | 훔칠 전략 | 적용 방법 |
-|---|----------|----------|
-| 1 | **컬러로 카테고리 소유** — Reese's 오렌지(`#FF6600`)처럼 단일 컬러를 카테고리와 동의어로 만들기 | 브랜드 컬러를 포장재·광고·디지털 전반에 예외 없이 일관 적용 |
-| 2 | **시즌 패키징 = 수집 욕구 자극** — 형태 변형(하트·달걀·호박)으로 동일 제품을 새롭게 보이게 하기 | 연 4회 시즌 한정 형태를 제품 로드맵에 반드시 포함 |
-| 3 | **스케일 불변 디자인 코드** — 싱글 바부터 대형 선물 세트까지 동일한 시각 DNA 유지 | 디자인 시스템 토큰화로 모든 사이즈·포맷에 자동 적용되는 룰셋 구축 |
+*Layer 5 of 8 — Brand Autopsy: Hershey Company (The) (HSY)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

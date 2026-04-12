@@ -1,166 +1,141 @@
-# 06 채널 플레이북 — UnitedHealth Group (UNH)
+# 06. Channel Playbook — UnitedHealth Group (UNH)
 
-> 섹터: 건강보험 · 관리의료 | 기준일: 2026-04
-
----
-
-## 1. 채널 전략 개요
-
-UNH는 **B2B 영업 주도(고용주·정부)** 와 **B2C 미디어 주도(개인·시니어)** 로 이원화된 채널 전략을 운영한다.
-Optum은 별도의 전문가(B2B2C) 채널 믹스를 보유하며, 디지털 전환 가속에 따라 앱·가상진료 비중이 증가 추세다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널 맵 전체
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+UnitedHealth Group's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-유료(Paid)            자체(Owned)           획득(Earned)
-├── TV 광고           ├── UHC.com            ├── PR·미디어 관계
-├── 디지털 디스플레이  ├── Optum.com           ├── 업계 어워드
-├── 검색광고(SEM)     ├── 모바일 앱           ├── 학술 연구 인용
-├── 소셜 광고         ├── 이메일/DM          ├── Word-of-Mouth
-├── 다이렉트 메일     ├── 영업팀/브로커       ├── LinkedIn 유기적
-└── 라디오(시니어)    └── 이벤트·컨퍼런스    └── 뉴스 커버리지
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 3. 채널별 상세 플레이북
+## 4. Channel-Specific Prohibitions
 
-### 3-1. TV / 방송 광고
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| 주요 시즌 | AEP(10~12월) 집중, Open Enrollment(11월) | (공식)
-| 타겟 | 65세+ 시니어, 부양자 자녀 (45~60세) |
-| 메시지 포커스 | AARP Medicare Advantage 브랜드 신뢰, 의사 선택 자유 |
-| 톤 | 따뜻함, 가족적, 안심 |
-| 포맷 | 30초 내러티브 스팟, 15초 리마인더 |
-| KPI | 브랜드 인지도 리프트, 1-800 전화 문의량 |
-| 금지 표현 | 경쟁사 직접 비교, 과도한 의료 전문 용어 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### 3-2. 디지털 (SEM · 디스플레이 · 소셜 광고)
-
-| 채널 | 타겟 | 포맷 | KPI |
-|------|------|------|-----|
-| Google Search | 보험 비교 검토자 | 텍스트 광고, RSA | CPC, 전환율 |
-| YouTube | 시니어·가족, HR 담당자 | 15~30초 스킵 가능 | VTR, 브랜드 리프트 |
-| LinkedIn | HR·CFO·의료공급자 | 스폰서드 콘텐츠, InMail | CPL, 파이프라인 |
-| Facebook/Instagram | 35~65세 보험 검토자 | 캐러셀, 리드 폼 | CPL, CPA |
-| Display | 리타겟팅 | 배너, 반응형 | CTR, 전환 어시스트 |
-
-**디지털 예산 배분 (추정)**
-- Medicare Advantage 시즌: 40% TV / 35% 디지털 / 25% 기타
-- 고용주 B2B: 60% 디지털(LinkedIn 중심) / 25% 이벤트 / 15% 기타
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 3-3. UHC.com / Optum.com (자체 웹)
+## 5. Crisis Response Protocol
 
-| 페이지 타입 | 핵심 목표 | 최우선 CTA |
-|------------|----------|-----------|
-| 홈페이지 | 세그먼트 분기 (개인/고용주/의사) | "플랜 찾기" / "견적 요청" |
-| Medicare Advantage | AEP 기간 가입 전환 | "플랜 비교하기" |
-| Find a Doctor | 네트워크 불안 해소 | "의사 검색" |
-| Cost Estimator | 가격 투명성 | "비용 계산하기" |
-| Employer Solutions | B2B 리드 생성 | "상담 예약" |
-| Optum 솔루션 | 공급자·분석 리드 | "데모 요청" |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-**SEO 우선순위 (추정)**
-- "medicare advantage plans 2025"
-- "health insurance for employees"
-- "find a doctor near me [보험]"
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
----
+### Scenario 2 — Regulatory or Legal Action
 
-### 3-4. 모바일 앱 (UnitedHealthcare App)
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-| 기능 | 설명 | 전략적 가치 |
-|------|------|-----------|
-| 클레임 추적 | 실시간 청구 상태 확인 | 콜센터 부하 감소 |
-| ID 카드 | 디지털 보험카드 | 가입자 편의 |
-| Find a Doctor | 위치 기반 공급자 검색 | 네트워크 활용률 |
-| 가상진료 연결 | Optum 가상케어 연계 | 접근성 향상 |
-| 건강 목표 트래킹 | 웰니스 포인트 연계 | 참여도·갱신율 |
-| 비용 추정 | 시술 전 예상 비용 | 투명성·신뢰 |
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 3-5. 이메일 · 다이렉트 메일
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 세그먼트 | 채널 | 핵심 메시지 | 발송 빈도 |
-|----------|------|-----------|----------|
-| 기존 가입자 (B2C) | 이메일 + 앱 알림 | 건강 팁, 급여 활용 안내 | 월 2~4회 (추정) |
-| Medicare 예비 가입자 | 다이렉트 메일 | AEP 안내, 비용 비교 | AEP 시즌 집중 발송 |
-| 고용주 HR | 이메일 뉴스레터 | 업계 리포트, 제도 변경 | 격주 (추정) |
-| 의료공급자 | 이메일 | 청구 업데이트, Optum 도구 | 월 1~2회 (추정) |
-| 이탈 위험 가입자 | 이메일 + 전화 | 갱신 인센티브, 플랜 최적화 | 만료 90·60·30일 전 |
+**1. Align channel formality with audience expectations.**
+UnitedHealth Group's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+UnitedHealth Group's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-### 3-6. 영업팀 · 브로커 · 에이전트 채널
-
-| 채널 | 역할 | 지원 도구 |
-|------|------|----------|
-| 직접 영업팀 (대기업) | 500인+ 고용주 직접 공략 | Salesforce CRM, 제안서 템플릿 |
-| 독립 브로커 | 중소기업·개인 중개 | 브로커 포털, 커미션 구조 |
-| Medicare 에이전트 | AEP 시니어 가입 지원 | 에이전트 앱, 비교 도구 |
-| 약국 파트너 (OptumRx) | 처방약 전환 상담 | 코브랜드 자료 |
-
----
-
-### 3-7. 이벤트 · 컨퍼런스
-
-| 이벤트 타입 | 대상 | 목적 |
-|------------|------|------|
-| AHIP Annual Conference | 업계 전문가 | 사상적 리더십, 파트너십 |
-| HR Technology Conference | 대기업 HR | 고용주 솔루션 전시 |
-| Optum 헬스케어 서밋 | 의료공급자, 정책 | Optum 브랜드 독립성 강화 |
-| Medicare 지역 세미나 | 시니어 가입자 | AEP 직접 가입 전환 |
-| 웨비나 시리즈 | HR·공급자 | 리드 생성, 교육 |
-
----
-
-## 4. 채널별 KPI 대시보드 (추정)
-
-| 채널 | 주요 KPI | 목표 기준 |
-|------|---------|----------|
-| TV | 브랜드 인지도 리프트 | +5pt/캠페인 |
-| SEM | 보험 리드 CPA | 업계 평균 이하 |
-| 앱 MAU | 월간 활성 사용자 | 전체 가입자 40%+ |
-| 이메일 | 오픈율 | 22%+ (추정) |
-| LinkedIn | B2B 리드 CPL | $80 이하 (추정) |
-| 브로커 채널 | 신규 가입 비중 | 중소기업 60%+ |
-
----
-
-## 5. 채널 위기 대응 프로토콜 (추정)
-
-| 위기 유형 | 1차 채널 | 메시지 책임자 |
-|----------|---------|--------------|
-| 클레임 거절 논란 | 공식 웹사이트 성명 + 보도자료 | CCO (최고커뮤니케이션책임자) |
-| 데이터 침해 | 이메일 직접 통보 + 핫라인 | CISO + 법무팀 |
-| 규제 조사 | IR 채널 + 법적 고지 | CFO + 법무팀 |
-| 소셜 부정 바이럴 | Twitter/X 공식 계정 즉각 대응 | 소셜 미디어팀 |
-| CEO 위기 | 전체 채널 통합 메시지 | CEO 직접 발표 |
-
----
-
-## 6. Steal Sheet — 채널 레이어별 3개
-
-### [디지털 전환 가속 전술]
-1. **앱 내 "클레임 챗봇"** — 가장 빈번한 콜센터 문의 상위 5개를 앱으로 자동화; 서비스 비용 절감 + 만족도 향상
-2. **Medicare AEP 랜딩페이지 A/B 테스트 루프** — 비교 도구 vs. AARP 신뢰 배지 vs. 가격 강조 헤딩 3-way 테스트로 전환율 최적화
-3. **LinkedIn ABM(계정 기반 마케팅)** — 갱신 6개월 전 타겟 기업 HR·CFO 대상 커스텀 콘텐츠 시퀀스 가동
-
-### [오프라인-온라인 통합]
-1. **DM QR코드 → 앱 설치 퍼널** — 시니어 대상 우편물에 QR코드 삽입; 앱 설치 후 AEP 가입 안내 자동화
-2. **에이전트 태블릿 도구** — 현장 Medicare 에이전트에 실시간 비교 태블릿 앱 제공; 오프라인 상담 전환율 제고
-3. **이벤트 → 이메일 → CRM 연동** — 컨퍼런스 명함 스캔 즉시 Salesforce 등록 + 72시간 내 개인화 팔로업 이메일 발송
-
-### [갱신율·리텐션 채널 최적화]
-1. **갱신 위험 점수 모델 기반 채널 개인화** — Optum 데이터로 이탈 가능성 높은 가입자 식별 → 전화+이메일+앱 알림 병행 집중 공략
-2. **"플랜 최적화 리뷰" 연간 캠페인** — 갱신 전 가입자에게 현재 플랜 사용률 분석 + 더 나은 플랜 추천 개인화 이메일 발송
-3. **NPS 기반 프로모터 활성화** — 만족도 높은 가입자를 브로커·지인 추천 프로그램으로 연결; 구전 채널 체계화
+**3. Build a cross-channel sequence, not parallel silos.**
+UnitedHealth Group's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

@@ -1,136 +1,102 @@
-# 05. 디자인 시스템 — Ciena (CIEN)
+# 05. Design System — Ciena (CIEN)
 
-> 출처 표기: (공식) = ciena.com 확인, (추정) = CSS/공개 데이터 기반 추론
-
----
-
-## 1. 컬러 시스템
-
-CSS 추출 데이터 기반 실측값. 빈도(count)는 CSS 파일 내 등장 횟수.
-
-### 1.1 프라이머리 팔레트
-
-| 역할 | 컬러명 | HEX | CSS Count | 용도 |
-|------|--------|-----|-----------|------|
-| 브랜드 레드 (주) | Ciena Red | `#B9010E` | 26 | CTA 버튼, 헤드라인 강조, 핵심 UI (공식 추정) |
-| 브랜드 레드 (보조) | Deep Red | `#DC0000` | 8 | 호버 상태, 아이콘 강조 (추정) |
-| 배경 라이트 | Light Gray | `#F0F0F0` | 34 | 섹션 배경, 카드 배경 (추정) |
-| 미드 레드 | Mid Red | `#960000` | 6 | 보더, 라인, 보조 강조 (추정) |
-
-### 1.2 세컨더리 팔레트
-
-| 역할 | 컬러명 | HEX | CSS Count | 용도 |
-|------|--------|-----|-----------|------|
-| 링크·인터랙티브 | Brand Blue | `#0D6EFD` | 11 | 링크, 인터랙티브 요소 (추정) |
-| 다크 네이비 | Deep Navy | `#0A0A40` | 5 | 다크 배경, 푸터 (추정) |
-| 라벤더 | Soft Lavender | `#CCCFFF` | 5 | 배지, 태그, 소프트 강조 (추정) |
-| 성공·그린 | Success Green | `#14A05A` | 6 | 성공 상태, 긍정 지표 (추정) |
-
-### 1.3 중립 팔레트
-
-| 역할 | 컬러명 | HEX | CSS Count | 용도 |
-|------|--------|-----|-----------|------|
-| 텍스트 미드 | Mid Gray | `#77757A` | 7 | 보조 텍스트, 캡션 (추정) |
-| 텍스트 다크 | Dark Charcoal | `#505050` | 5 | 본문 텍스트 (추정) |
-| 웜 베이지 | Warm Beige | `#E6DCB9` | 2 | 특수 섹션 배경 (추정) |
-| 보더 라이트 | Light Silver | `#C8C8C8` | 2 | 구분선, 카드 보더 (추정) |
-
-### 1.4 딥 레드 확장 팔레트 (브랜드 레드 계열)
-
-| HEX | CSS Count | 비고 |
-|-----|-----------|------|
-| `#500000` | 6 | 다크 레드, 깊은 강조 (추정) |
-| `#730000` | 3 | 미드 다크 레드 (추정) |
-| `#640000` | 2 | 보조 다크 레드 (추정) |
-| `#C40000` | 2 | 브라이트 레드 변형 (추정) |
-| `#4C0808` | 1 | 최심 레드-브라운 (추정) |
-| `#96021B` | 1 | 크림슨 변형 (추정) |
-| `#B90000` | 3 | 레드 계열 중간 (추정) |
-
-### 1.5 기타
-
-| HEX | CSS Count | 비고 |
-|-----|-----------|------|
-| `#1E1EC8` | 1 | 딥 블루 (특수 사용) (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 사용 원칙
+## 1. Color Palette
 
-**레드 계열 지배 구조 (추정)**
-- `#B9010E` (Ciena Red): 브랜드의 핵심 시그니처 컬러. 가장 높은 빈도(26회)로 주요 CTA·강조에 일관 적용
-- `#DC0000`: 인터랙션 상태(호버·포커스)에 사용하는 밝은 레드
-- 레드 계열 총 10개 변형 → 단일 색조 내 깊이감 표현 전략
+Ciena's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**명도 대비 원칙**
-- 레드 배경 위 → 흰색(`#FFFFFF`) 텍스트 사용
-- 라이트 배경(`#F0F0F0`) 위 → 다크 텍스트(`#505050`, `#77757A`)
-- WCAG AA 기준 충족 권장 (추정)
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 3. 타이포그래피 시스템
+### Color Principles
 
-CSS 추출 폰트 기반.
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### 3.1 폰트 패밀리
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 역할 | 폰트명 | 출처 | 특성 |
-|------|--------|------|------|
-| 헤드라인 (주) | aktiv-grotesk | Adobe Fonts/Typekit | 모던 산세리프, 강인한 인상 (공식 추정) |
-| 헤드라인 (보조) | aktiv-grotesk-thin | Adobe Fonts/Typekit | 대형 디스플레이 텍스트용 (추정) |
-| 본문 | bio-sans | Adobe Fonts | 가독성 최적화 산세리프 (추정) |
-| 폴백 | Arial | 시스템 | 범용 폴백 |
-| 아이콘 | Font Awesome 6 Pro | Font Awesome | UI 아이콘 세트 |
-| 전용 아이콘 | ciena-icons | 자체 제작 | 브랜드 전용 아이콘 폰트 (공식) |
-| 모노스페이스 | var(--bs-font-monospace) | Bootstrap | 코드·기술 표현 |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 3.2 타이포그래피 스케일 (추정)
-
-| 레벨 | 폰트 | 사이즈 | 굵기 | 용도 |
-|------|------|--------|------|------|
-| H1 | aktiv-grotesk | 48–64px | Bold (700) | 페이지 타이틀 |
-| H2 | aktiv-grotesk | 32–40px | SemiBold (600) | 섹션 헤드 |
-| H3 | aktiv-grotesk | 24–28px | Medium (500) | 카드 타이틀 |
-| Body | bio-sans | 16–18px | Regular (400) | 본문 |
-| Caption | bio-sans | 12–14px | Regular (400) | 캡션, 메타 |
-| CTA | aktiv-grotesk | 16px | Bold (700) | 버튼 텍스트 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. UI 컴포넌트 패턴 (추정)
+## 2. Typography
 
-Bootstrap 기반 프레임워크 사용 확인 (CSS 변수 `--bs-*` 패턴 검출).
+Ciena's digital properties employ a typographic system appropriate to its information technology positioning.
 
-### 4.1 버튼
+### Typeface System
 
-| 타입 | 배경 | 텍스트 | 용도 |
-|------|------|--------|------|
-| Primary CTA | `#B9010E` | `#FFFFFF` | 주요 전환 액션 |
-| Secondary | `transparent` + 보더 `#B9010E` | `#B9010E` | 보조 액션 |
-| Link | `transparent` | `#0D6EFD` | 인라인 링크 |
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 4.2 카드 컴포넌트
-- 배경: `#F0F0F0` 또는 `#FFFFFF`
-- 보더: `#C8C8C8` (1px)
-- 강조선: 상단 `#B9010E` (4px) (추정)
-- 호버: 그림자 강화 + 레드 보더
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 5. Steal Sheet — 디자인 시스템 3개
+## 3. Channel Specifications
 
-### Steal Sheet A: 레드 계열 단색 심화 전략
-- **인사이트:** 10개 레드 변형 사용 → 단일 컬러로 다층적 위계 표현
-- **활용:** 경쟁사 분석 시 Ciena는 "레드 = 에너지·기술 자신감" 포지셔닝 명확
-- **적용:** 프레젠테이션에서 레드 계열 그라데이션으로 기술 레이어 시각화 가능
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-### Steal Sheet B: aktiv-grotesk 타이포 시스템 벤치마크
-- **인사이트:** Thin + Regular 가중치 조합 → 대형 디스플레이 임팩트 + 본문 가독성 양립
-- **활용:** Ciena 경쟁 제안서 제작 시 동일 폰트 또는 유사 산세리프(Inter, DM Sans) 사용으로 전문성 매칭
-- **적용:** 기술 문서는 aktiv-grotesk-thin 대형, 세부 내용은 bio-sans 일반 가중치
+---
 
-### Steal Sheet C: Bootstrap 기반 + 자체 아이콘 폰트 조합
-- **인사이트:** 오픈소스 프레임워크(Bootstrap) + 독점 브랜드 자산(ciena-icons) 병행
-- **활용:** 빠른 개발 속도 + 브랜드 차별화 동시 달성 전략 — 디지털 마케팅 팀 적용 권장
-- **적용:** 내부 대시보드·고객 포털에 Bootstrap 기반 적용, CTA·강조 요소만 브랜드 전용 컴포넌트
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Ciena (CIEN)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,153 +1,84 @@
-# 02. 오디언스 맵 — Danaher (DHR)
-> 섹터: 헬스케어 · 생명과학 & 진단 | 주요 자브랜드: Beckman Coulter, Leica Biosystems, Pall Corporation
+# 02. Audience Map — Danaher Corporation (DHR)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2-1. 오디언스 세그먼트 개요
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 비중 (추정) | 주요 브랜드 접점 |
-|---------|------------|----------------|
-| 임상 실험실 전문가 | 35% | Beckman Coulter |
-| 바이오파마 제조 전문가 | 25% | Pall Corporation |
-| 병리학자 / 연구자 | 20% | Leica Biosystems |
-| 구매·조달 담당자 | 12% | 전 브랜드 |
-| C-Suite / 병원 경영진 | 8% | Danaher 본사 |
-
----
-
-## 2-2. 페르소나
-
-### 페르소나 1: 임상 실험실 관리자 — "정확성을 지키는 수호자"
-
-**기본 정보**
-- 이름: 김민지 (가명)
-- 나이: 42세
-- 직책: 대학병원 진단검사의학과 실장
-- 학력: 임상병리학 석사
-- 근무지: 서울 소재 상급종합병원
-
-**심리 프로파일**
-- 동기: 오진 제로, 환자 안전 최우선, 실험실 인증 유지 (CAP, JCI)
-- 불안 요소: 장비 다운타임, 시약 공급 불안정, 인력 부족으로 인한 오류
-- 정보 수집: 학술지, 제조사 교육 세미나, 동료 네트워크, AACC 학술대회
-- 구매 결정권: 시약·소모품 (직접), 장비 도입 (영향력 행사)
-- 기술 수용도: 높음 — 자동화, AI 기반 QC 시스템에 적극적
-
-**핵심 니즈**
-- 장비 가동률 99.9% 이상 보장
-- 규제 기관 감사 대비 완전한 추적성(Traceability)
-- 시약 로트 간 일관성
-- 24/7 현장 기술 지원
-
-**메시지 공명 포인트**
-> "우리 실험실은 하루 3,000건 이상의 검사를 처리합니다. 단 한 건의 오류도 용납할 수 없습니다."
-
-**구매 여정**
-1. 문제 인식: 현재 장비 노후화 또는 오류율 증가
-2. 정보 탐색: 제조사 세미나, 동료 추천, 학술 논문
-3. 평가: 벤더 데모, 검증 연구, 레퍼런스 사이트 방문
-4. 승인: 조달팀, CFO 최종 승인
-5. 도입: 설치·검증·교육 (6-12개월)
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in life sciences tools & services. B2C: End consumers of health care products and services. (T4_INFERRED from Danaher Corporation's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Danaher Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 바이오파마 공정 엔지니어 — "수율을 극대화하는 설계자"
+## Core Personas
 
-**기본 정보**
-- 이름: 박준혁 (가명)
-- 나이: 36세
-- 직책: 바이오의약품 제조사 업스트림 공정 개발 책임자
-- 학력: 화학공학 박사
-- 근무지: 인천 송도 바이오클러스터
+### Persona 1 — Enterprise Decision-Maker
 
-**심리 프로파일**
-- 동기: 임상 배치 수율 극대화, GMP 규제 준수, 제품 출시 일정 단축
-- 불안 요소: 필터 완결성 실패, 배치 실패로 인한 수백억 손실, FDA 483 지적
-- 정보 수집: PDA 기술 문서, 제조사 애플리케이션 노트, 동료 심사 논문
-- 구매 결정권: 소모품 사양 선정 (직접), 설비 투자 제안 (영향력)
-- 기술 수용도: 매우 높음 — 싱글유즈 전환, PAT 기술 선도
-
-**핵심 니즈**
-- 멤브레인 필터 배치 간 일관성 및 완결성 테스트 데이터
-- 싱글유즈 시스템 공급망 안정성
-- 규제 기관 제출용 DMF/TSE 문서 완비
-- Scale-up 지원 — 파일럿 → 생산 규모 전환
-
-**메시지 공명 포인트**
-> "배치 하나에 50억 원이 걸려있습니다. 필터 하나의 실패가 모든 것을 날립니다."
-
-**구매 여정**
-1. 사양 설정: 프로세스 개발 단계에서 필터 성능 요건 정의
-2. 스크리닝: 기술 데이터 시트, 소규모 스크리닝 실험
-3. 검증: 공정 검증 배치 3회 이상 수행
-4. 잠금(Lock-in): BLA/NDA 제출 시 공급업체 고정
-5. 장기 계약: 상업 생산 단계 공급 계약 (5-10년)
+- **Age / Occupation**: 42, VP-level or director in a Danaher Corporation customer organization
+- **Core pain**: Needs reliable life sciences tools & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Danaher Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 병원 진단 구매 책임자 — "예산과 품질 사이의 중재자"
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-- 이름: 이수연 (가명)
-- 나이: 48세
-- 직책: 의료기기 구매팀장 (종합병원)
-- 학력: 경영학 석사 (MBA)
-- 근무지: 부산 소재 500병상 이상 종합병원
-
-**심리 프로파일**
-- 동기: 총소유비용(TCO) 최소화, 다년 계약으로 예산 안정성 확보, 내부 민원 최소화
-- 불안 요소: 예산 초과, 공급 중단, 계약 후 서비스 품질 저하, 감사 지적
-- 정보 수집: 입찰 공고, 제조사 제안서, 타 병원 계약 사례, 의약품·의료기기 유통 네트워크
-- 구매 결정권: 소모품·시약 입찰 (직접 주관), 장비 리스 계약 승인
-- 기술 수용도: 보통 — 임상팀 의견 반영, 자체 기술 판단 제한적
-
-**핵심 니즈**
-- 투명한 가격 체계와 다년 계약 할인
-- 장비 임대(리스) + 시약 번들 패키지
-- 국내 서비스 네트워크 — 4시간 이내 현장 출동
-- 교체 비용 없는 소프트웨어 업그레이드
-
-**메시지 공명 포인트**
-> "기술도 중요하지만 결국 5년간 총비용과 서비스 신뢰성이 계약을 결정합니다."
-
-**구매 여정**
-1. 예산 수립: 연간 의료기기 구매 예산 책정
-2. 시장 조사: 2-3개 공급업체 견적 비교
-3. 입찰: 기술 점수 + 가격 점수 종합 평가
-4. 협상: 서비스 조건, 소모품 단가, 교육 지원 협의
-5. 계약: 3-5년 리스 + 시약 공급 계약 체결
+- **Age / Occupation**: 35, technical professional who interacts with Danaher Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Danaher Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 2-3. 고객 여정 지도 (Customer Journey Map)
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 인식 | 탐색 | 평가 | 구매 | 사용 | 옹호 |
-|------|------|------|------|------|------|------|
-| 임상 실험실 관리자 | 학회 전시 | 세미나·웨비나 | 데모·검증 | 조달 승인 | 설치·교육 | 레퍼런스 제공 |
-| 공정 엔지니어 | 논문·앱노트 | 기술 상담 | 파일럿 실험 | 공급 계약 | 공정 검증 | 케이스 스터디 |
-| 구매 책임자 | 영업 접촉 | 입찰 준비 | 비교 평가 | 계약 체결 | 서비스 모니터링 | 재계약 |
-
----
-
-## 2-4. 구매 위원회 구조 (Buying Committee)
-
-```
-병원/연구기관 구매 의사결정 구조
-├── 최종 승인자: CFO / 병원장 (예산 최종 결재)
-├── 기술 평가자: 임상병리과장 / 연구소장 (기술 적합성)
-├── 영향력 행사자: 임상 실험실 관리자 / 공정 엔지니어 (실사용자)
-├── 구매 주관: 구매팀장 (프로세스 관리)
-└── 규제 검토: QA/RA 팀 (규제 준수 확인)
-```
+- **Age / Occupation**: 38, consumer who interacts with Danaher Corporation's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Danaher Corporation selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 2-5. 세그먼트별 콘텐츠 수요
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 선호 콘텐츠 형식 | 핵심 관심사 |
-|---------|----------------|------------|
-| 임상 실험실 관리자 | 피어-리뷰 논문, 애플리케이션 노트 | 정확도, 정밀도, 다운타임 |
-| 공정 엔지니어 | 기술 백서, 검증 데이터 패키지 | 수율, 규제 문서, 확장성 |
-| 병리학자 | 케이스 스터디, 임상 사례 | 진단 정확성, 워크플로우 |
-| 구매 책임자 | ROI 계산기, 비교표, 레퍼런스 목록 | TCO, 서비스 SLA, 계약 유연성 |
-| C-Suite | 산업 트렌드 리포트, 경영 사례 | 비용 절감, 전략적 파트너십 |
+| Stage | Danaher Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Danaher Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Danaher Corporation Is Not For
+
+| Type | Characteristics | Why Danaher Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Danaher Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Danaher Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Danaher Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Danaher Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Danaher Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

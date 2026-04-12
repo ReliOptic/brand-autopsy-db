@@ -1,102 +1,84 @@
-# 02. 오디언스 맵 — Charles Schwab (SCHW)
+# 02. Audience Map — Charles Schwab Corporation (SCHW)
 
-> 섹터: 금융 — 증권·뱅킹 | 티커: SCHW
-
----
-
-## 1. 타겟 오디언스 개요
-
-| 세그먼트 | 규모 추정 | 우선순위 |
-|---------|----------|---------|
-| 자기주도 개인 투자자 (DIY) | 전체 계좌의 ~55% (추정) | 최우선 |
-| 자문 의존형 투자자 | 전체 계좌의 ~30% (추정) | 핵심 |
-| 고액 자산가 (HNW, $1M+) | 전체 계좌의 ~15% (추정) | 수익 기여 핵심 |
-| 독립 투자 자문사 (RIA) | 약 7,500개 이상 파트너사 (공식) | B2B 전략 축 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 자립형 밀레니얼 투자자 — "스스로 하는 민준"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 32세 |
-| 직업 | IT 스타트업 시니어 개발자 |
-| 거주지 | 서울 마포구 (미국 기준: 시애틀 또는 오스틴) |
-| 자산 규모 | 투자 가능 자산 $50,000~$150,000 (추정) |
-| 투자 경험 | 5년, ETF·개별 주식 위주 |
-| 주요 플랫폼 | Schwab.com, thinkorswim, 모바일 앱 |
-| 핵심 동기 | 조기 은퇴(FIRE), 시장 수익률 이상의 포트폴리오 구성 |
-| 페인포인트 | 복잡한 옵션 UI, 세금 최적화 기능 부족 |
-| 브랜드 기대 | 수수료 $0, 강력한 리서치 도구, 빠른 앱 |
-| 메시지 키 | "당신이 선택한 방식으로, 당신의 속도로" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in investment banking & brokerage. B2C: End consumers of financials products and services. (T4_INFERRED from Charles Schwab Corporation's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Charles Schwab Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 자문 의존형 베이비부머 — "든든한 노후를 준비하는 정숙"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 58세 |
-| 직업 | 공립학교 교사 (은퇴 5년 전) |
-| 거주지 | 교외 지역 (미국 기준: 오하이오주 콜럼버스) |
-| 자산 규모 | 투자 가능 자산 $300,000~$700,000 (추정) |
-| 투자 경험 | 10년 이상, 주로 뮤추얼펀드·401(k) |
-| 주요 채널 | 대면 지점 + 전화 상담 + 슈왑 자문 서비스 |
-| 핵심 동기 | 안정적 은퇴 소득, 자녀 상속 플랜 |
-| 페인포인트 | 복잡한 온라인 UI, 시장 변동성에 대한 불안 |
-| 브랜드 기대 | 신뢰할 수 있는 인간 자문사, 명확한 은퇴 로드맵 |
-| 메시지 키 | "당신 곁에서 함께 계획하겠습니다" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Charles Schwab Corporation customer organization
+- **Core pain**: Needs reliable investment banking & brokerage solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Charles Schwab Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 고액 자산가 위임형 투자자 — "바쁜 사업가 현우"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 47세 |
-| 직업 | 중견 제조업 오너 |
-| 거주지 | 강남구 (미국 기준: 달라스 또는 마이애미) |
-| 자산 규모 | 순자산 $2,000,000 이상 (추정) |
-| 투자 경험 | 15년, 직접 투자보다 위임 선호 |
-| 주요 채널 | Schwab Private Client + 전담 자문사 |
-| 핵심 동기 | 자산 보존·세금 최소화·사업 승계 플랜 |
-| 페인포인트 | 개인화 부족, 은행 수준의 통합 서비스 미흡 |
-| 브랜드 기대 | 전담 팀, 종합 자산관리(Wealth Management), 신속한 응대 |
-| 메시지 키 | "당신의 복잡한 재정을 단순하게" |
+- **Age / Occupation**: 35, technical professional who interacts with Charles Schwab Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Charles Schwab Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 고객 여정 맵 (DIY 투자자 기준)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인식(Awareness)
-  └─ 구글 검색 "수수료 없는 주식 투자" / SNS 광고 / 구전
-       ↓
-관심(Consideration)
-  └─ Schwab.com 탐색 / 유튜브 슈왑 리뷰 / 비교 사이트 확인
-       ↓
-계좌 개설(Onboarding)
-  └─ 온라인 15분 계좌 개설 / 초기 입금 / 앱 다운로드
-       ↓
-첫 투자(First Trade)
-  └─ 교육 콘텐츠 (Schwab Learning Center) / 모의 투자
-       ↓
-충성 고객(Retention)
-  └─ 자동 투자 설정 / 리서치 도구 활용 / 추천인 프로그램
-       ↓
-업셀(Upsell)
-  └─ Schwab Intelligent Portfolios (로보어드바이저) → 자문 서비스 전환
-```
+- **Age / Occupation**: 38, consumer who interacts with Charles Schwab Corporation's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Charles Schwab Corporation selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 잠재 오디언스 (비고객)
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 전환 장벽 | 공략 메시지 |
-|---------|----------|------------|
-| Robinhood 사용 MZ세대 | 모바일 UX 차이, 소셜 트레이딩 없음 | 리서치·안정성 우위 강조 |
-| Fidelity 기존 고객 | 스위칭 비용, 계좌 이전 번거로움 | 이전 지원 + 인센티브 |
-| 은행 예금만 하는 소극적 저축자 | 투자 리터러시 부족 | Schwab Learning Center 교육 마케팅 |
-| 해외 교포 투자자 | 언어 장벽, 세금 신고 복잡성 | 다국어 지원 + 해외 계좌 가이드 |
+| Stage | Charles Schwab Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Charles Schwab Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Charles Schwab Corporation Is Not For
+
+| Type | Characteristics | Why Charles Schwab Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Charles Schwab Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Charles Schwab Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Charles Schwab Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Charles Schwab Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Charles Schwab Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

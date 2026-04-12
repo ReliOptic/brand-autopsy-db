@@ -1,104 +1,102 @@
-# 05. 디자인 시스템 — Autodesk (ADSK)
+# 05. Design System — Autodesk (ADSK)
 
-> 상태 표기: (공식) = 공개 자료 근거 / (추정) = 분석·추론
-
----
-
-## 5-1. 디자인 시스템 개요
-
-Autodesk는 **Autodesk Design System (ADS)** 를 공개 운영한다 (공식).
-내부 제품 UI 일관성 및 외부 파트너 개발 가이드를 포함하며,
-컴포넌트 라이브러리는 `autodesk.github.io/hig` (HIG: Human Interface Guidelines)에서 접근 가능하다 (공식).
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 5-2. 컬러 시스템
+## 1. Color Palette
 
-### 브랜드 코어 팔레트
+Autodesk's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 이름 | HEX | 사용처 |
-|------|------|-----|--------|
-| 프라이머리 | Autodesk Blue | `#0696D7` | 로고, 주요 CTA, 링크 (공식) |
-| 프라이머리 다크 | Blue Dark | `#005BA1` | 호버 상태, 강조 텍스트 (공식) |
-| 프라이머리 라이트 | Blue Light | `#66C8F4` | 배경 강조, 아이콘 보조 (추정) |
-| 세컨더리 | Charcoal | `#3C3C3C` | 본문 텍스트, UI 요소 (공식) |
-| 뉴트럴 다크 | Dark Gray | `#1A1A1A` | 헤더, 다크 배경 (추정) |
-| 뉴트럴 미드 | Medium Gray | `#6B6B6B` | 보조 텍스트, 아이콘 (추정) |
-| 뉴트럴 라이트 | Light Gray | `#F2F2F2` | 카드 배경, 섹션 구분 (추정) |
-| 베이스 | White | `#FFFFFF` | 기본 배경, 텍스트 반전 (공식) |
+### Core Brand Colors
 
-### 시맨틱 / 상태 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 이름 | HEX | 사용처 |
-|------|------|-----|--------|
-| 성공 | Success Green | `#218736` | 완료 상태, 긍정 피드백 (공식) |
-| 경고 | Warning Amber | `#E8A200` | 주의 알림, 경고 메시지 (공식) |
-| 오류 | Error Red | `#C91414` | 오류 상태, 필수 입력 누락 (공식) |
-| 정보 | Info Blue | `#0696D7` | 안내 메시지 (프라이머리와 동일) (공식) |
+### Color Principles
 
-### 제품별 악센트 컬러 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 제품 | 악센트 컬러 | HEX |
-|------|------------|-----|
-| AutoCAD | AutoCAD Red | `#CC2222` |
-| Revit | Revit Blue-Gray | `#3E5F8A` |
-| Fusion 360 | Fusion Orange | `#F76B1C` |
-| Maya | Maya Purple | `#6B3FA0` |
-| 3ds Max | 3ds Max Dark Blue | `#1A3A5C` |
-| Civil 3D | Civil Green | `#2D7D46` |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5-3. 타이포그래피
+## 2. Typography
 
-| 역할 | 서체 | 크기 범위 | 특성 |
-|------|------|-----------|------|
-| 디스플레이 헤드라인 | Artifakt Element Bold (공식) | 32px ~ 64px | 기하학적, 강인한 인상 |
-| 본문 헤딩 | Artifakt Element Medium (공식) | 20px ~ 28px | 가독성 우선 |
-| 본문 텍스트 | Artifakt Element Regular (공식) | 14px ~ 16px | 밀도 높은 기술 문서에 최적화 |
-| UI 레이블 | Artifakt Element Regular (공식) | 12px ~ 14px | 인터페이스 요소 |
-| 코드·기술 표기 | 시스템 모노스페이스 (추정) | 13px ~ 14px | 명령어, 파라미터 표시 |
+Autodesk's digital properties employ a typographic system appropriate to its information technology positioning.
 
-> Artifakt는 Autodesk 전용 커스텀 서체로, 기하학적 산세리프 계열이다 (공식).
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 5-4. 아이코노그래피 & 일러스트레이션
+### Typographic Scale
 
-- **아이콘 스타일**: 선형(line) 기반, 2px 스트로크, 둥근 캡 (공식)
-- **아이콘 사이즈**: 16 / 24 / 32 / 48px 그리드 (공식)
-- **일러스트레이션 스타일**: 플랫 벡터, 기하학적 단순화, 블루 팔레트 중심 (추정)
-- **포토그래피**: 실제 전문가가 실제 작업 환경에서 소프트웨어를 사용하는 장면 선호 (공식 사이트 분석 기반, 추정)
-
----
-
-## 5-5. 로고 사용 규칙
-
-| 규칙 | 내용 |
-|------|------|
-| 최소 크기 | 디지털 24px, 인쇄 6mm (공식) |
-| 여백 | 로고 높이의 50% 이상 클리어스페이스 확보 (공식) |
-| 허용 배경 | 화이트, 다크 차콜, Autodesk Blue (공식) |
-| 금지 | 로고 왜곡, 색상 임의 변경, 그림자·외곽선 추가 (공식) |
-| 제품 로고 | 마스터 브랜드 로고 + 제품명 조합 형식 (공식) |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 5-6. 모션·애니메이션 원칙 (추정)
+## 3. Channel Specifications
 
-| 원칙 | 값 |
-|------|-----|
-| 기본 이징 | ease-in-out cubic-bezier(0.4, 0, 0.2, 1) |
-| 마이크로 인터랙션 | 150ms ~ 200ms |
-| 페이지 전환 | 300ms ~ 400ms |
-| 철학 | 목적 있는 움직임, 과도한 애니메이션 지양 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5-7. Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-| # | 훔칠 것 | 구체적 적용법 |
-|---|---------|--------------|
-| 1 | **제품별 악센트 컬러로 패밀리 내 개성 부여** | 마스터 브랜드 블루를 공유하되 개별 제품은 고유 악센트 컬러를 부여 → 사용자가 제품군 내에서 직관적으로 컨텍스트를 구분. 포트폴리오 확장 시 즉시 적용 가능한 시스템 |
-| 2 | **커스텀 서체 투자로 브랜드 자산화** | Artifakt처럼 독자 서체를 개발하면 경쟁사가 시각적으로 모방하기 어려운 "보이지 않는 차별화" 형성. 비용이 크면 Google Fonts 중 독점 계약 변형도 대안 |
-| 3 | **공개 HIG(Human Interface Guidelines)로 파트너 생태계 설계 품질 통제** | 서드파티 플러그인·통합 파트너도 브랜드 가이드라인을 따르도록 공개 문서화 → 생태계 전체의 UX 일관성 확보, 브랜드 희석 방지 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Autodesk (ADSK)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

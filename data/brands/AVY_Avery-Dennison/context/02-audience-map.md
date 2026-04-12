@@ -1,118 +1,84 @@
-# 02 오디언스 맵 — Avery Dennison (AVY)
+# 02. Audience Map — Avery Dennison (AVY)
 
-> 섹터: 소재 / 라벨 & 패키징 | B2B 중심 다층 구매자 구조
-
----
-
-## 오디언스 계층 개요
-
-```
-Level 1: 전략적 의사결정자 (C-Suite / VP)
-Level 2: 실무 구매자 (조달·엔지니어링·마케팅)
-Level 3: 최종 사용자 (공장 운영자, 창고 담당자)
-Level 4: 간접 영향자 (규제기관, ESG 투자자, 소비자 단체)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 공급망 혁신 임원 (Supply Chain Innovation Director)
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 김민준 (추정) |
-| 직함 | 공급망 혁신 디렉터, 글로벌 소비재 기업 |
-| 나이 | 42~52세 |
-| 위치 | 서울 / 싱가포르 / 뉴저지 |
-| 학력 | 산업공학 또는 경영학 석사 |
-| **핵심 고통점** | 공급망 불투명성 → 위조품 침투, 재고 손실, 규정 미준수 리스크 |
-| **핵심 목표** | 엔드투엔드 제품 추적가능성 확보, ESG 보고 데이터 자동화 |
-| **의사결정 기준** | ROI 명확성, 기존 ERP 통합 용이성, 공급업체 신뢰도 |
-| **선호 채널** | LinkedIn, 산업 컨퍼런스(RFID Journal Live, Labelexpo), 백서 |
-| **AVY 관련성** | atma.io 플랫폼 + RFID 라벨 통합 솔루션 주요 구매자 |
-| **트리거 메시지** | "공급망 전체를 한 플랫폼에서 추적하세요 — 라벨 하나로 시작됩니다" |
-
-**구매 여정 단계별 니즈**
-
-| 단계 | 니즈 | AVY 대응 콘텐츠 |
-|------|------|-----------------|
-| 인식 | 업계 트렌드 파악 | 산업 리포트, 사례 연구 |
-| 고려 | 기술 사양 비교 | 기술 백서, POC 제안 |
-| 결정 | ROI 검증 | TCO 계산기, 레퍼런스 고객 |
-| 유지 | 시스템 최적화 | 고객 성공 프로그램, API 문서 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in paper & plastic packaging products & materials and adjacent industries. (T4_INFERRED from Avery Dennison's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Avery Dennison's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 패키징 조달 매니저 (Packaging Procurement Manager)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | Sarah Chen (추정) |
-| 직함 | 글로벌 패키징 조달 매니저, 식음료 대기업 |
-| 나이 | 35~45세 |
-| 위치 | 시카고 / 암스테르담 |
-| 학력 | 공급망 관리 또는 화학공학 학사 |
-| **핵심 고통점** | 원가 압박 + 지속가능성 의무화 동시 충족, 공급업체 다변화 필요 |
-| **핵심 목표** | 재활용 가능 라벨 소재로 전환, 단가 절감, 리드타임 최소화 |
-| **의사결정 기준** | 가격·성능 균형, 식품 안전 인증 보유, 글로벌 공급 안정성 |
-| **선호 채널** | 업계 트레이드쇼(Pack Expo), 조달 플랫폼, 공급업체 직접 미팅 |
-| **AVY 관련성** | LGM(Label & Graphic Materials) 부문 핵심 고객 |
-| **트리거 메시지** | "재활용 인증 소재, 전 세계 어디서나 동일한 품질" |
+### Persona 1 — Enterprise Decision-Maker
 
-**페인 포인트 깊이 분석**
-
-```
-극심한 고통
-    │
-    ├── 규제 압박: EU 포장재 규정(PPWR) 준수 시한 도래 (공식 규제)
-    ├── ESG 목표: 2030 100% 재활용 가능 포장 약속 이행 압박
-    └── 원가: 인플레이션으로 소재 단가 15~25% 상승 (추정)
-```
+- **Age / Occupation**: 42, VP-level or director in a Avery Dennison customer organization
+- **Core pain**: Needs reliable paper & plastic packaging products & materials solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Avery Dennison selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 의류 브랜드 상품 디렉터 (Apparel Merchandising Director)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | Tomás Rivera (추정) |
-| 직함 | 상품·소싱 디렉터, 패스트패션 / 스포츠웨어 브랜드 |
-| 나이 | 38~48세 |
-| 위치 | 뉴욕 / 바르셀로나 / 방콕 |
-| 학력 | 패션 디자인 또는 국제 비즈니스 학사 |
-| **핵심 고통점** | 위조품 급증, 사이즈 라벨 언어별 다품종 관리, 소비자 투명성 요구 |
-| **핵심 목표** | 브랜드 진위 보호, 디지털 제품 여권(DPP) 준수, 소비자 연결 경험 |
-| **의사결정 기준** | 디자인 유연성, NFC/QR 기능 통합, 생산 속도 |
-| **선호 채널** | WWD·Sourcing Journal, 패션 테크 행사, 인스타그램(트렌드 감지) |
-| **AVY 관련성** | RBIS 부문 — 행 태그, 우븐 라벨, RFID 봉제 태그 |
-| **트리거 메시지** | "브랜드 태그 하나로 진위 확인부터 소비자 스토리텔링까지" |
+- **Age / Occupation**: 35, technical professional who interacts with Avery Dennison's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Avery Dennison selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 구매력 | 전환 속도 | AVY 침투율 | 우선순위 |
-|----------|--------|-----------|-----------|---------|
-| 글로벌 소비재(CPG) | 매우 높음 | 느림(장기계약) | 높음 (추정) | ★★★★★ |
-| 의류·패션 리테일 | 높음 | 중간 | 매우 높음 (추정) | ★★★★★ |
-| 식음료 제조 | 높음 | 느림 | 높음 (추정) | ★★★★☆ |
-| 의료·제약 | 중간 | 매우 느림 | 성장 중 (추정) | ★★★☆☆ |
-| 물류·유통 | 중간 | 중간 | 중간 (추정) | ★★★☆☆ |
-| 중소 인쇄업체 | 낮음 | 빠름 | 낮음 (추정) | ★★☆☆☆ |
+- **Age / Occupation**: 50, institutional investor or analyst covering Materials
+- **Core pain**: Needs to evaluate Avery Dennison's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Avery Dennison selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 위원회 영향력 지도
+## Purchase Journey — AARRR Framework
 
-```
-최종 결재권 ──────────────────────── CFO / CPO (비용·전략)
-             │
-전략 승인 ───┼──── Supply Chain VP / Head of Sustainability
-             │
-실무 평가 ───┼──── 조달 매니저 / 엔지니어링 리드
-             │
-일상 사용 ───┴──── 공장 운영자 / 창고 담당자
-```
+| Stage | Avery Dennison's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Avery Dennison total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-*출처 분류: (공식) = Avery Dennison 공개 자료 / (추정) = 시장 분석 기반 추론*
+## Anti-Persona — Who Avery Dennison Is Not For
+
+| Type | Characteristics | Why Avery Dennison Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Avery Dennison's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Avery Dennison's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Avery Dennison's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Avery Dennison's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Avery Dennison's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In materials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

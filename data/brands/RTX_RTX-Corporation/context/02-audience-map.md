@@ -1,101 +1,84 @@
-# RTX Corporation — 오디언스 맵
+# 02. Audience Map — RTX Corporation (RTX)
 
-## 오디언스 개요
-
-RTX는 B2G(정부·군), B2B(항공사·OEM), B2C(간접: 일반 대중·투자자) 세 레이어에 걸친 복합 오디언스 구조를 가진다. 의사결정 사이클이 수년~수십 년에 달하는 장기 조달 시장이 핵심이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 국방 조달 책임자
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박민준 준장 (가상) |
-| 직책 | 방위사업청 / 미 국방부 조달국 선임 담당관 |
-| 연령 | 48세 |
-| 경력 | 군 20년 + 방산 조달 8년 |
-| 소속 기관 | 동맹국 국방부 또는 미 DoD (공식 고객군) |
-| 주요 KPI | 프로그램 예산 준수, 일정 이행, 운용 가용률 |
-| 정보 채널 | Jane's Defence, Defense News, 국방부 내부 브리핑, AUSA·Farnborough 전시회 |
-| 핵심 니즈 | 검증된 플랫폼 성능, 수명주기 지원(MRO), 수출 통제(ITAR) 준수, 상호운용성 |
-| 페인포인트 | 예산 삭감 압력, 공급망 지연, 사이버 취약점 노출, 정치적 조달 리스크 |
-| RTX 접점 | Raytheon 미사일 시스템, Collins 항전 장비, 정부 계정 매니저 직접 접촉 |
-| 구매 트리거 | 위협 환경 변화, 노후 장비 교체 주기, 동맹국 표준화 요구 |
-| 메시지 키 | "Proven in combat. Trusted by allies." |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from RTX Corporation's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in RTX Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 항공사 기술 구매 담당
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | Sarah Kowalski (가상) |
-| 직책 | Senior VP, Fleet & Technical Operations (대형 항공사) |
-| 연령 | 44세 |
-| 소속 | 북미 또는 유럽 메이저 항공사 (추정 고객군) |
-| 주요 KPI | 항공기 운항률(OTP), 엔진 정비 비용, 연료 효율 개선율 |
-| 정보 채널 | Aviation Week, IATA 보고서, MRO Americas, Paris Air Show |
-| 핵심 니즈 | GTF 엔진 내구성, Collins 기내 연결성 업그레이드, 24/7 AOG 지원 |
-| 페인포인트 | GTF 파우더 메탈 이슈 관련 AOG 급증 (2023–2024 실제 이슈, 공식), 부품 조달 리드타임 |
-| RTX 접점 | Pratt & Whitney 필드 서비스 엔지니어, Collins MRO 네트워크 |
-| 구매 트리거 | 신형 기종 도입 결정(A320neo 계열), 장기 엔진 서비스 계약(LTSA) 갱신 |
-| 메시지 키 | "Maximum dispatch reliability. Minimum lifecycle cost." |
+- **Age / Occupation**: 42, VP-level or director in a RTX Corporation customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **RTX Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 기관 투자자 / ESG 애널리스트
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김지수 (가상) |
-| 직책 | 선임 포트폴리오 매니저, 글로벌 방산·항공우주 섹터 |
-| 연령 | 38세 |
-| 소속 | 국내외 연기금·자산운용사 (추정 투자자군) |
-| 주요 KPI | TSR(총주주수익률), EBITDA 마진, 수주잔고(Backlog) 성장률, ESG 등급 |
-| 정보 채널 | RTX IR Day, 분기 실적 발표, Bloomberg, S&P ESG 리포트 |
-| 핵심 니즈 | 사업부별 마진 분리 투명성, 방산 수요 지속성, SAF(지속가능항공유) 전략 |
-| 페인포인트 | GTF 리콜 비용 불확실성, 방산 매출 집중도(미 정부 의존), 금리 상승 시 자본배분 |
-| RTX 접점 | 분기 어닝콜, IR 컨퍼런스, ESG 보고서 |
-| 구매 트리거 | 방산 예산 증액 사이클, 에어쇼 수주 발표, 배당 인상 발표 |
-| 메시지 키 | "Durable growth. Disciplined capital returns." |
+- **Age / Occupation**: 35, technical professional who interacts with RTX Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **RTX Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 의사결정 권한 | 구매 사이클 | 주요 채널 | RTX 사업부 |
-|----------|--------------|------------|----------|-----------|
-| 미 연방정부 (DoD, DHS) | 최고 | 3–10년 | 직접 영업·로비 | Raytheon |
-| 동맹국 정부 (FMS) | 높음 | 5–15년 | 외교채널·에어쇼 | Raytheon + Collins |
-| 상업 항공사 | 높음 | 5–20년 (기단 교체) | MRO 계약·에어쇼 | P&W + Collins |
-| 항공기 OEM (보잉·에어버스) | 높음 | 플랫폼 선정 시 1회 | 기술 파트너십 | P&W + Collins |
-| 기관 투자자 | 간접 | 분기별 | IR·컨퍼런스 | RTX Corp |
-| 일반 대중 | 없음 | N/A | PR·소셜 | RTX Corp |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate RTX Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
+- **RTX Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스별 메시지 우선순위
+## Purchase Journey — AARRR Framework
 
-### 국방 고객
-1. 임무 성공 보장 (Mission Assurance)
-2. 수명주기 지원 연속성
-3. 동맹국 상호운용성
-4. 사이버 복원력
+| Stage | RTX Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | RTX Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-### 상업 항공 고객
-1. 연료 효율 / 탄소 절감
-2. 운항률 극대화
-3. 서비스 네트워크 글로벌 커버리지
-4. 총소유비용(TCO) 최적화
+---
 
-### 투자자
-1. 수주잔고 건전성 ($206B+, 2023 공식)
-2. 자유현금흐름 성장
-3. 사업 포트폴리오 균형 (방산/민항 50:50 추정)
-4. ESG·지속가능성 진전
+## Anti-Persona — Who RTX Corporation Is Not For
+
+| Type | Characteristics | Why RTX Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | RTX Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | RTX Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | RTX Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+RTX Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+RTX Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

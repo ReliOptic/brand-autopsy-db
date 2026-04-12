@@ -1,110 +1,84 @@
-# CDW 오디언스 맵
+# 02. Audience Map — CDW Corporation (CDW)
 
-## 핵심 타깃 세그먼트
-
-CDW는 수직 시장별로 전담 사업부를 운영한다. 주요 세그먼트: Corporate(기업), Public(공공·교육·의료), Small Business, UK·캐나다 등 해외 법인.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 엔터프라이즈 IT 디렉터 — "안정형 의사결정자"
+## Ideal Customer Profile (ICP)
 
-**이름:** 박준혁 (가상, 추정)
-**직책:** IT 인프라 디렉터, 대기업 (직원 1,000명+)
-**나이:** 42–52세
-**산업:** 금융·제조·리테일
-
-#### 핵심 페인포인트
-- 레거시 인프라 현대화 예산 확보의 어려움
-- 멀티벤더 환경의 복잡한 라이센스 관리
-- 보안 컴플라이언스 요건 충족
-- 조달 리드타임 단축 압박
-
-#### 구매 동기
-- 단일 창구(single vendor) 조달로 행정 부담 감소
-- 인증된 파트너의 기술 보증
-- 볼륨 계약을 통한 TCO 절감
-
-#### CDW와의 접점
-- 전담 어카운트 매니저 주 1회 미팅
-- RFQ/RFP 지원, 맞춤형 견적
-- CDW.com 기업 포털 및 PunchOut
-
-#### 메시지 키워드
-"통합", "컴플라이언스", "TCO 절감", "전담 지원"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in technology distributors and adjacent industries. (T4_INFERRED from CDW Corporation's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in CDW Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 공공기관 조달 담당자 — "규정 준수형 구매자"
+## Core Personas
 
-**이름:** 이수진 (가상, 추정)
-**직책:** IT 조달 계장, 지방자치단체·연방기관
-**나이:** 35–48세
-**산업:** 공공행정·교육·국방
+### Persona 1 — Enterprise Decision-Maker
 
-#### 핵심 페인포인트
-- GSA 스케줄·SEWP 계약 준수 의무
-- 예산 연도 마감 전 집행 압박
-- 감사 대응을 위한 문서화 요건
-- 정치적 민감도로 인한 보수적 의사결정
-
-#### 구매 동기
-- 계약 차량(contract vehicle) 활용으로 조달 간소화
-- 정부 인증 제품 목록(TAA 준수 등)
-- 투명한 가격 및 문서 제공
-
-#### CDW와의 접점
-- CDW·G (Government) 전담 채널
-- NASPO, SLED 계약 활용
-- 정부 전용 카탈로그 및 이메일 뉴스레터
-
-#### 메시지 키워드
-"계약 준수", "투명성", "신속 납품", "감사 대응"
+- **Age / Occupation**: 42, VP-level or director in a CDW Corporation customer organization
+- **Core pain**: Needs reliable technology distributors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **CDW Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 중소기업 IT 총괄 — "원스톱 해결사"
+### Persona 2 — Technical Specialist / End User
 
-**이름:** 김태호 (가상, 추정)
-**직책:** IT 매니저 겸 시스템 관리자, 중소기업 (직원 50–250명)
-**나이:** 30–42세
-**산업:** 전문 서비스·스타트업·로컬 리테일
-
-#### 핵심 페인포인트
-- IT 인력 부족으로 모든 것을 혼자 처리
-- 제한된 예산 내 최대 성능 확보
-- 벤더 선정 및 비교에 소요되는 시간
-- 사이버보안 위협 대응 역량 부재
-
-#### 구매 동기
-- 빠른 배송과 즉시 사용 가능한 구성
-- 중소기업 전용 번들·할인
-- 전화 한 통으로 해결되는 기술 지원
-
-#### CDW와의 접점
-- CDW.com 셀프서비스 주문
-- 전화·채팅 영업 상담
-- 이메일 프로모션 및 플래시 딜
-
-#### 메시지 키워드
-"간편함", "즉시 사용", "가성비", "신속 배송"
+- **Age / Occupation**: 35, technical professional who interacts with CDW Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **CDW Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 구매 결정권 | 기술 깊이 | 관계 중요도 | 가격 민감도 |
-|----------|------------|-----------|------------|------------|
-| 엔터프라이즈 IT 디렉터 | 높음 | 높음 | 매우 높음 | 중간 |
-| 공공기관 조달 담당자 | 중간 | 중간 | 높음 | 높음 |
-| 중소기업 IT 총괄 | 높음 | 중간 | 중간 | 높음 |
-| C-레벨 임원(CIO/CTO) | 매우 높음 | 낮음~중간 | 높음 | 낮음 |
-| 의료 IT 관리자 | 높음 | 높음 | 높음 | 중간 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate CDW Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
+- **CDW Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
-## 구매 여정 단계별 콘텐츠 니즈
+---
 
-| 단계 | 니즈 | CDW 대응 콘텐츠 |
-|------|------|----------------|
-| 인식(Awareness) | 트렌드 파악, 문제 정의 | 백서, 업계 리포트, 웨비나 |
-| 고려(Consideration) | 솔루션 비교, 기술 검증 | 제품 비교표, 케이스 스터디, ROI 계산기 |
-| 결정(Decision) | 견적, 계약, 조달 승인 | 맞춤 견적서, 계약 차량 안내, 금융 옵션 |
-| 사용(Retention) | 운영 지원, 갱신 알림 | 라이프사이클 관리 서비스, 갱신 알림 이메일 |
+## Purchase Journey — AARRR Framework
+
+| Stage | CDW Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | CDW Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who CDW Corporation Is Not For
+
+| Type | Characteristics | Why CDW Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | CDW Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | CDW Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | CDW Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+CDW Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+CDW Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

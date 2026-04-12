@@ -1,130 +1,84 @@
-# 오디언스 맵 — Alphabet / Google (GOOGL)
+# 02. Audience Map — Alphabet Inc. (Class A) (GOOGL)
 
-> 섹터: 커뮤니케이션 서비스 — 인터넷/검색/클라우드
-> 기준일: 2026-04-12
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-| 세그먼트 | 규모 추정 | 주요 제품 | 수익 기여도 |
-|----------|-----------|-----------|-------------|
-| 일반 소비자 | 40억+ 명 (추정) | Search, Maps, YouTube, Gmail | 광고 수익의 ~60% |
-| 중소기업 (SMB) | 1억+ 사업자 (추정) | Google Ads, Workspace, Maps | 광고 수익의 ~25% |
-| 대기업 / 엔터프라이즈 | 수만 개 기업 (추정) | GCP, Workspace Enterprise, CCAI | 클라우드 매출 전체 |
-| 개발자 | 수천만 명 (추정) | Android, Firebase, GCP, Gemini API | 플랫폼 생태계 |
-| 콘텐츠 크리에이터 | 5,000만+ 채널 (공식) | YouTube, AdSense | 광고 수익의 ~15% |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 정보 탐색형 소비자 — "박지현 (32세)"
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 마케팅 팀장, 서울 강남 소재 중견기업 |
-| 디지털 리터러시 | 높음 — 멀티탭 검색, AI 도구 병행 사용 |
-| 주요 사용 제품 | Google Search, Maps, YouTube, Gmail, Gemini |
-| 하루 Google 접점 | 평균 47회 (추정, 내부 데이터 기반) |
-| 핵심 니즈 | 빠른 답변, 신뢰할 수 있는 정보, 업무 생산성 |
-| 불만 포인트 | 광고 과다, AI 답변의 부정확성, 개인정보 우려 |
-| 전환 리스크 | Perplexity AI, ChatGPT Search로 이탈 가능성 중간 |
-| 메시지 키 | "AI가 당신 대신 조사합니다" |
-
-**행동 패턴**
-- 아침 출근 중 YouTube Shorts 소비
-- 점심시간 Google Maps로 맛집 검색
-- 업무 중 Gmail + Google Meet 상시 사용
-- 야간 Gemini로 리포트 초안 작성
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in interactive media & services. B2C: End consumers of communication services products and services. (T4_INFERRED from Alphabet Inc. (Class A)'s segment structure) |
+| **Occupation segments** | Media buyers, content creators, advertisers, subscribers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Alphabet Inc. (Class A)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 스타트업 창업자 — "김민준 (28세)"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | B2B SaaS 스타트업 CTO 겸 공동창업자 |
-| 소재지 | 서울 성수동, 글로벌 시장 타겟 |
-| 주요 사용 제품 | GCP (Compute Engine, BigQuery), Firebase, Gemini API, Google Workspace |
-| 월간 GCP 지출 | 약 $3,000~8,000 (추정) |
-| 핵심 니즈 | 비용 예측 가능성, 스케일링 용이성, Gemini API 성능 |
-| 불만 포인트 | AWS 대비 생태계 미성숙, 엔터프라이즈 영업 지원 부족 |
-| 경쟁 대안 | AWS, Azure, Anthropic API + Vercel 스택 |
-| 메시지 키 | "Google의 인프라를 스타트업 가격으로" |
+### Persona 1 — Enterprise Decision-Maker
 
-**행동 패턴**
-- GitHub Actions + GCP Cloud Run 자동화 파이프라인
-- BigQuery로 사용자 행동 분석
-- Google I/O 연례 콘퍼런스 필참
-- Hacker News, Reddit /r/googlecloud 커뮤니티 활동
+- **Age / Occupation**: 42, VP-level or director in a Alphabet Inc. (Class A) customer organization
+- **Core pain**: Needs reliable interactive media & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Alphabet Inc. (Class A) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 글로벌 엔터프라이즈 IT 의사결정자 — "이수진 (45세)"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 제조 대기업 CDO (Chief Digital Officer) |
-| 조직 규모 | 임직원 15,000명, 글로벌 12개국 운영 |
-| 주요 사용 제품 | Google Cloud (Vertex AI, CCAI), Workspace Enterprise, Duet AI |
-| 연간 Google 지출 | 약 $500만~2,000만 (추정) |
-| 핵심 니즈 | 보안 컴플라이언스, 멀티클라우드 호환성, AI ROI 증명 |
-| 불만 포인트 | Microsoft 365 생태계 이탈 비용, Google 영업팀 응답 속도 |
-| 경쟁 대안 | Microsoft Azure + Copilot 통합 스위트 |
-| 메시지 키 | "엔터프라이즈급 AI, 검증된 보안으로" |
-
-**구매 여정**
-1. 내부 IT 팀 기술 검증 (PoC 6주)
-2. 보안/컴플라이언스 감사
-3. 벤더 영업팀 협상 (3~6개월)
-4. 파일럿 → 전사 롤아웃
+- **Age / Occupation**: 35, technical professional who interacts with Alphabet Inc. (Class A)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Alphabet Inc. (Class A) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 여정 지도 (Consumer)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인식 → 탐색 → 고려 → 전환 → 유지 → 옹호
-  |        |        |        |        |       |
-Google   Google  YouTube  Google  Gmail  리뷰/
-Ads      Search  광고     계정    Daily  추천
-Display  결과    리뷰     생성    사용   공유
-```
+- **Age / Occupation**: 38, consumer who interacts with Alphabet Inc. (Class A)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Alphabet Inc. (Class A) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 세그먼트별 Steal Sheet
+## Purchase Journey — AARRR Framework
 
-### Steal Sheet — 일반 소비자 레이어
-
-| # | 전술 | 실행 방법 |
-|---|------|-----------|
-| 1 | AI 답변 품질 우위 강조 | 경쟁사 오류 사례와 Google AI Overviews 정확도 비교 콘텐츠 |
-| 2 | 생태계 락인 강화 | Pixel + Workspace + YouTube Premium 번들 할인 캠페인 |
-| 3 | 프라이버시 투명성 마케팅 | "내 데이터 관리" 대시보드 전면 광고, Apple과 차별화 |
-
-### Steal Sheet — SMB 레이어
-
-| # | 전술 | 실행 방법 |
-|---|------|-----------|
-| 1 | ROI 계산기 제공 | Google Ads 예상 수익 시뮬레이터 (업종별 맞춤) |
-| 2 | 무료 온보딩 크레딧 | GCP $300 크레딧 + Workspace 3개월 무료 번들 |
-| 3 | 지역 밀착 마케팅 | "내 주변 비즈니스 AI 성공 사례" 유튜브 시리즈 |
-
-### Steal Sheet — 엔터프라이즈 레이어
-
-| # | 전술 | 실행 방법 |
-|---|------|-----------|
-| 1 | 마이크로소프트 비교 배틀카드 | TCO 5년 비교 + 보안 인증 현황 문서 제공 |
-| 2 | Vertex AI PoC 가속 프로그램 | 전담 엔지니어 배정, 6주 PoC → 8주로 단축 보장 |
-| 3 | 컴플라이언스 패스트트랙 | ISO 27001·SOC 2·GDPR 체크리스트 자동화 툴 제공 |
+| Stage | Alphabet Inc. (Class A)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Alphabet Inc. (Class A) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 오디언스 인사이트 요약
+## Anti-Persona — Who Alphabet Inc. (Class A) Is Not For
 
-- **검색 충성도**: Google 검색 순 사용자의 평균 주간 세션 수 23회 (추정)
-- **AI 채택률**: Gemini 월간 활성 사용자 15억+ (2026년 추정, Alphabet CEO 발언 기반)
-- **이탈 신호**: ChatGPT 주간 활성 사용자 3억+ — 검색 대체 행동 증가 중
-- **고령층 진입**: 50대+ YouTube 사용 시간 연 18% 성장 (추정)
+| Type | Characteristics | Why Alphabet Inc. (Class A) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Alphabet Inc. (Class A)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Alphabet Inc. (Class A)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Alphabet Inc. (Class A)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Alphabet Inc. (Class A)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Alphabet Inc. (Class A)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In communication services markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

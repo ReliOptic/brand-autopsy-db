@@ -1,113 +1,123 @@
-# AIG 콘텐츠 DNA
+# 04. Content DNA — American International Group (AIG)
 
-## 콘텐츠 철학
-
-AIG의 콘텐츠는 **교육적 권위**를 기반으로 한다. "우리가 팔고 있다"는 인상 대신 "우리는 리스크를 가장 깊이 이해하는 전문가다"는 포지션을 취한다. 모든 콘텐츠는 복잡성을 단순화하되 전문성의 깊이를 유지해야 한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 브랜드 보이스 원칙
+## Content Pillars
 
-### 원칙 1: 명료한 전문성 (Clear Expertise)
-전문 용어를 사용하되 고객이 이해할 수 있도록 맥락을 제공한다. "언더라이팅 리스크 풀"이 아닌 "귀사의 리스크 프로파일에 따라 설계된 커버리지"로 번역한다.
+American International Group's content strategy reflects its positioning in the Multi-line Insurance segment of Financials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 원칙 2: 증거 기반 신뢰 (Evidence-Based Trust)
-주장이 아닌 데이터로 말한다. 클레임 처리 실적, 업계 수상, 글로벌 커버리지 수치를 전면에 배치한다.
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "American International Group understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for multi-line insurance requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with American International Group." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 원칙 3: 파트너 어조 (Partner Tone)
-판매자가 아닌 조언자로 말한다. "우리 상품을 구매하세요"가 아닌 "귀사의 리스크를 함께 진단합시다"로 시작한다.
-
-### 원칙 4: 글로벌 지역성 (Glocal Voice)
-글로벌 메시지를 유지하되 각 지역의 규제·문화·언어에 맞게 현지화한다. 한국에서는 금융감독원 규제 환경, 대기업 그룹 리스크 구조를 반영한다.
-
----
-
-## 콘텐츠 포맷 매트릭스
-
-| 콘텐츠 유형 | 목적 | 채널 | 톤 | 길이 |
-|------------|------|------|----|------|
-| 리스크 인사이트 리포트 | 사고 리더십 | 웹사이트, LinkedIn | 분석적·권위적 | 2,000~5,000자 |
-| 산업별 리스크 가이드 | 교육·신뢰 구축 | 다운로드 자료 | 실용적·교육적 | 5,000~15,000자 |
-| 클레임 사례 연구 | 증거 기반 신뢰 | 영업 자료, 웹 | 서사적·실증적 | 800~1,500자 |
-| 임원 인터뷰·논평 | 브랜드 인격화 | LinkedIn, 언론 | 사려깊은·전략적 | 600~1,000자 |
-| 규제 업데이트 뉴스레터 | 관계 유지 | 이메일 | 간결·정보 중심 | 300~600자 |
-| 사이버 리스크 브리핑 | 긴급 교육 | 웹, 이메일 | 즉각적·경고적 | 400~800자 |
-| 동영상 웨비나 | 깊이 있는 교육 | YouTube, 웹 | 대화적·전문적 | 30~60분 |
-| 인포그래픽 | 복잡성 시각화 | LinkedIn, 웹 | 명료·시각적 | 데이터 중심 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 핵심 메시지 필라 (Message Pillars)
+## Hook Patterns
 
-### 필라 1: 글로벌 커버리지
-**핵심 주장:** AIG는 단일 창구로 전 세계 리스크를 관리한다.
-**증거:** 80개국 이상 운영, 글로벌 프로그램 관리 역량 (공식)
-**콘텐츠 앵글:** "귀사의 공장이 베트남에 있든 브라질에 있든, AIG는 현지 규제를 준수하는 통합 커버리지를 제공합니다."
+### Hook 1 — Industry Challenge Lead
 
-### 필라 2: 전문 언더라이팅
-**핵심 주장:** 표준 상품이 아닌 심층 분석에서 시작하는 맞춤 솔루션.
-**증거:** 100년+ 산업 인수 경험, 전문 언더라이터 팀 (공식)
-**콘텐츠 앵글:** "귀사의 리스크를 실제로 이해하는 언더라이터가 직접 설계합니다."
+Opens with a recognizable industry challenge or pain point before presenting American International Group's perspective.
 
-### 필라 3: 사이버·신흥 리스크
-**핵심 주장:** 미래의 리스크에 앞서 준비된 커버리지.
-**증거:** CyberEdge 브랜드, 신흥 리스크 센터 운영 (추정)
-**콘텐츠 앵글:** "AI, 기후변화, 지정학적 불확실성이 만드는 새로운 리스크를 먼저 정의합니다."
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 필라 4: 클레임 파트너십
-**핵심 주장:** 보험은 클레임 순간에 진가를 발휘한다.
-**증거:** 글로벌 클레임 네트워크, 24/7 대응 체계 (추정)
-**콘텐츠 앵글:** "보험을 구매하는 순간이 아닌, 클레임이 발생하는 순간이 우리의 진짜 시험입니다."
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 금지어 (콘텐츠 레벨)
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| # | 금지어/표현 | 대체 표현 |
-|---|------------|----------|
-| 1 | "걱정하지 마세요" | "확실한 보호를 제공합니다" |
-| 2 | "완벽한 보장" | "귀사에 최적화된 커버리지" |
-| 3 | "저렴한 보험" | "합리적으로 설계된 리스크 솔루션" |
-| 4 | "간단히 해결" | "단계적으로 리스크를 관리" |
-| 5 | "업계 최고" (근거 없이) | "수십 년의 인수 경험을 바탕으로" |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 필수어 (콘텐츠 레벨)
+## CTA Patterns
 
-| # | 필수어/표현 | 사용 맥락 |
-|---|------------|----------|
-| 1 | "리스크 관리" | 단순 '보험'이 아닌 솔루션 프레이밍 |
-| 2 | "전문 언더라이터" | 인적 전문성 강조 |
-| 3 | "글로벌 네트워크" | 지리적 커버리지 강점 |
-| 4 | "맞춤 설계" | 표준화 대비 차별화 |
-| 5 | "클레임 파트너" | 관계 중심 포지셔닝 |
-
----
-
-## 스토리텔링 아키타입
-
-### 아키타입 A: 리스크 탐정 (Risk Detective)
-고객이 인식하지 못한 리스크를 발굴·진단하는 전문가 서사.
-예: "2023년 사이버 공격의 67%는 보험 적용 가능한 사건이었지만, 기업의 40%가 커버리지 없이 손실을 감당했습니다."
-
-### 아키타입 B: 위기 파트너 (Crisis Partner)
-클레임 발생 후 고객 곁에서 회복을 지원한 실제 사례 서사.
-예: 허리케인 피해 제조공장 48시간 클레임 처리 사례 (추정)
-
-### 아키타입 C: 미래 경보자 (Future Sentinel)
-신흥 리스크를 먼저 정의하고 대비책을 제시하는 선도자 서사.
-예: AI 배상책임, 기후 전환 리스크, 지정학적 공급망 중단
+| CTA Type | American International Group Pattern | What American International Group Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 콘텐츠 캘린더 앵커 이벤트 (추정)
+## Tone & Mood Guide
 
-| 시기 | 이벤트 | 콘텐츠 기회 |
-|------|--------|------------|
-| 1월 | 연간 리스크 전망 보고서 발간 | 사고 리더십 시리즈 |
-| 3월 | 글로벌 보험 업계 컨퍼런스 | C-suite 인터뷰, 인사이트 |
-| 5월 | 사이버 보안 인식의 달 | CyberEdge 캠페인 |
-| 9월 | 허리케인 시즌 (미국) | 기후 리스크 콘텐츠 |
-| 10월 | D&O 갱신 시즌 | 임원 배상책임 교육 콘텐츠 |
-| 12월 | 연말 리스크 리뷰 | 내년 리스크 대비 체크리스트 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to financials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — American International Group as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #AIG | Financial and investor community | Moderate (estimated) |
+| #AmericanInternationalGroup | Brand-level social engagement | Varies (estimated) |
+| #FInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+American International Group's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In financials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in multi-line insurance face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+American International Group's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

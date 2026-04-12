@@ -1,151 +1,84 @@
-# 02 오디언스 맵 — Aptiv (APTV)
+# 02. Audience Map — Aptiv (APTV)
 
-## 오디언스 세분화 개요
-
-Aptiv는 순수 B2B 기업으로, 최종 소비자가 아닌 OEM, Tier-2 공급사, 규제기관, 기술 파트너, 투자자를 핵심 오디언스로 삼는다. 각 세그먼트는 서로 다른 의사결정 구조와 정보 니즈를 가진다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1 — OEM 파워트레인 아키텍트
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-**이름:** 김도현 (가명)
-**직함:** 수석 차량 아키텍트, 글로벌 완성차 OEM (현대/GM/스텔란티스 유형)
-**나이:** 45세 (추정)
-**근무지:** 한국 또는 미국 디트로이트 (추정)
-
-**배경:**
-- 기계공학 또는 전기공학 석사 이상
-- 차량 전기전자(E/E) 아키텍처 설계 10년+ 경력
-- SDV 전환 프로젝트 책임자로 임명
-- 연간 수십억 달러 규모의 공급사 소싱 의사결정에 관여
-
-**핵심 고민:**
-- 소프트웨어 정의 차량 전환 시 기존 하드웨어 공급망 연속성 확보
-- 고압 배선 시스템의 무게·비용·안정성 3각 균형
-- 자율주행 센서 퓨전 시 전자기 간섭(EMC) 최소화
-- 공급사 단일화 리스크 vs. 전문화 파트너 역량 극대화
-
-**Aptiv에 기대하는 것:**
-- 차량 플랫폼 전체를 아우르는 E/E 아키텍처 설계 역량
-- 조기 공동 개발(co-development) 참여 및 NRE 분담
-- 글로벌 생산 기지 네트워크를 통한 공급 안정성
-
-**정보 소비 채널:**
-- SAE International 기술 논문
-- Aptiv 엔지니어링 백서 및 기술 세미나
-- 업계 컨퍼런스 (CES, IAA Mobility)
-
-**구매 결정 트리거:**
-- ADAS 레벨업 로드맵 발표
-- EV 플랫폼 신규 프로젝트 RFQ 개시
-- 경쟁사 공급 불안 사태 발생
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in automotive parts & equipment. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Aptiv's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Aptiv's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2 — 모빌리티 테크 투자자
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-**이름:** Sarah Chen (가명)
-**직함:** 포트폴리오 매니저, 글로벌 테크 성장 펀드
-**나이:** 38세 (추정)
-**근무지:** 뉴욕 또는 샌프란시스코 (추정)
-
-**배경:**
-- MBA + CFA 보유
-- 모빌리티·반도체·소프트웨어 섹터 전문
-- AUM $2B+ 포트폴리오 내 자동차 기술 섹터 비중 관리
-- ESG 스코어링 의무 적용 펀드 운용
-
-**핵심 고민:**
-- 전통 자동차 공급사 vs. 순수 테크 기업 밸류에이션 갭 해소 여부
-- Aptiv의 소프트웨어 매출 비중 확대 속도
-- Motional 자율주행 사업화 타임라인 및 캐쉬번
-- 중국 OEM 성장에 따른 지역 믹스 리스크
-
-**Aptiv에 기대하는 것:**
-- 소프트웨어·서비스 매출 비중의 명확한 공시
-- 자율주행 부문 분리 상장 또는 가치 실현 경로 제시
-- 탄소 중립 로드맵과 ESG 지표 투명성
-
-**정보 소비 채널:**
-- Aptiv IR 자료 (연간보고서, 실적발표)
-- Bloomberg, Reuters 산업 분석
-- Morgan Stanley, Goldman Sachs 섹터 리포트
-
-**구매 결정 트리거:**
-- 소프트웨어 매출 가이던스 상향
-- 대형 OEM과의 장기 플랫폼 계약 발표
-- ADAS 규제 강화 뉴스 (NCAP 업데이트 등)
+- **Age / Occupation**: 42, VP-level or director in a Aptiv customer organization
+- **Core pain**: Needs reliable automotive parts & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Aptiv selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3 — 공장 자동화 조달 담당자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-**이름:** Marco Bianchi (가명)
-**직함:** 글로벌 소싱 디렉터, 유럽계 OEM 1차 공급사
-**나이:** 42세 (추정)
-**근무지:** 독일 뮌헨 또는 체코 (추정)
-
-**배경:**
-- 공급망 관리·구매 전문 15년+
-- IATF 16949 및 ISO 26262 인증 요건 숙지
-- 유럽·동유럽·멕시코 다국적 조달 네트워크 운영
-- 연간 조달 예산 $500M+ 관리 (추정)
-
-**핵심 고민:**
-- 커넥터·배선 하네스 단가 압박 속 품질 기준 유지
-- 지역 공급망 내재화(Reshoring) 요구 증가
-- 원자재 가격 변동성(구리, 알루미늄) 헤징
-- ESG 공급망 실사(CSRD) 의무화에 따른 공급사 검증 부담
-
-**Aptiv에 기대하는 것:**
-- 글로벌 생산 네트워크를 통한 Just-in-Time 납기 보장
-- 장기 가격 안정성 계약 구조
-- 공급사 ESG 스코어카드 및 탄소 발자국 데이터 제공
-
-**정보 소비 채널:**
-- Aptiv 공급사 포털 및 기술 문서
-- 업계 조달 컨퍼런스 (Automotive Purchasing Summit)
-- LinkedIn 전문가 네트워크
-
-**구매 결정 트리거:**
-- 신규 플랫폼 소싱 사이클 개시
-- 기존 공급사 품질 이슈 발생
-- 지역화 인센티브 정책 변화 (IRA, CBAM 등)
+- **Age / Occupation**: 35, technical professional who interacts with Aptiv's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Aptiv selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 의사결정 권한 | 관계 깊이 | 메시지 우선순위 |
-|---------|------------|---------|--------------|
-| OEM 파워트레인 아키텍트 | 최종 기술 승인 | 장기 공동 개발 | 기술 역량·아키텍처 통합 |
-| 모빌리티 테크 투자자 | 자본 배분 | 분기별 IR 접점 | 성장성·수익성·ESG |
-| 공장 조달 담당자 | 공급사 선정 | 연간 계약 갱신 | 비용·품질·납기 안정성 |
-| 규제기관 (NHTSA, UNECE) | 규정 제정 | 로비·표준화 협력 | 안전 데이터·표준 준수 |
-| 소프트웨어 엔지니어 (인재) | 없음 (채용 대상) | 없음 | 기술 도전·문화·보상 |
+- **Age / Occupation**: 38, consumer who interacts with Aptiv's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Aptiv selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 구매 여정 단계별 메시지
+## Purchase Journey — AARRR Framework
 
-### 1단계: 인지 (Awareness)
-- 메시지: "모빌리티 전환의 기술 기반은 Aptiv가 설계합니다"
-- 채널: 업계 미디어, 컨퍼런스 키노트, LinkedIn 사고 리더십
+| Stage | Aptiv's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Aptiv total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-### 2단계: 고려 (Consideration)
-- 메시지: "E/E 아키텍처 설계부터 소프트웨어 통합까지 단일 파트너"
-- 채널: 기술 백서, 케이스 스터디, 엔지니어링 세미나
+---
 
-### 3단계: 결정 (Decision)
-- 메시지: "검증된 글로벌 공급망과 공동 개발 역량"
-- 채널: RFQ 대응, 기술 제안서, 파일럿 프로젝트
+## Anti-Persona — Who Aptiv Is Not For
 
-### 4단계: 유지 (Retention)
-- 메시지: "플랫폼 파트너로서 차량 생애주기 전반 지원"
-- 채널: 전담 계정 관리, 기술 지원 포털, 정기 사업 리뷰
+| Type | Characteristics | Why Aptiv Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Aptiv's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Aptiv's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Aptiv's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Aptiv's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Aptiv's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,162 +1,141 @@
-# SHW 채널 플레이북 — Sherwin-Williams
+# 06. Channel Playbook — Sherwin-Williams (SHW)
 
-## 채널 전략 개요
-
-Sherwin-Williams의 채널 전략은 **전문가(B2B) 심층 관계 채널**과 **소비자(B2C) 영감 중심 채널**을 분리 운영하면서, ColorSnap 앱과 매장 네트워크를 공통 허브로 삼아 통합한다. 디지털-피지컬 옴니채널 일관성 유지가 핵심 운영 원칙이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 아키텍처
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+Sherwin-Williams's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-┌─────────────────────────────────────────────┐
-│               OWNED CHANNELS                │
-│  웹사이트  │  ColorSnap 앱  │  Pro Desk      │
-│  B2B 포털 │  이메일 뉴스레터│  물리 매장     │
-└─────────────────────────────────────────────┘
-        ↕ 데이터·콘텐츠 일관성 연동
-┌─────────────────────────────────────────────┐
-│               EARNED CHANNELS               │
-│  PR·미디어  │  인테리어 블로거│  건축 전문지  │
-│  소셜 UGC  │  시공 커뮤니티 │  Color Awards │
-└─────────────────────────────────────────────┘
-        ↕ 앰플리파이어
-┌─────────────────────────────────────────────┐
-│               PAID CHANNELS                 │
-│  검색 광고 │  소셜 광고     │  OOH·잡지 광고│
-│  리타겟팅  │  인플루언서    │  홈쇼핑 채널  │
-└─────────────────────────────────────────────┘
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널별 상세 플레이북
+## 4. Channel-Specific Prohibitions
 
-### 채널 1: 공식 웹사이트 (sherwin-williams.com)
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| 주요 목적 | 색상 탐색 허브, 제품 정보, 매장 찾기, ColorSnap 진입점 |
-| 주 오디언스 | B2C 홈오너 + 인테리어 디자이너 + B2B 발주 검토자 |
-| 핵심 기능 | 컬러 팔레트 탐색, 제품 비교, 가상 방 시뮬레이터, Pro 계정 관리 |
-| 콘텐츠 믹스 | 60% 제품·색상 탐색 / 25% 교육 콘텐츠 / 15% 인스피레이션 |
-| KPI | 방문당 색상 탐색 수, ColorSnap 전환율, 매장 찾기 클릭수 |
-| 업데이트 주기 | Color of the Year: 연 1회 대규모 / 제품 업데이트: 수시 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**Steal Sheet — 웹사이트**
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 레이어 | 빼앗을 기회 | 실행 전술 |
-|--------|-----------|---------|
-| **제품** | 경쟁사 웹에서 색상 고민 중인 사용자 유입 | 색상명 SEO 최적화, 비교 랜딩 페이지 운영 |
-| **서비스** | 방문자를 ColorSnap 앱 전환으로 락인 | 첫 방문 앱 다운로드 인센티브(무료 색상 샘플 쿠폰) |
-| **관계** | Pro 계정 가입 유도로 B2B 관계 디지털화 | Pro 계정 전용 가격·재고 우선 접근 메시지 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 채널 2: ColorSnap 앱 (iOS / Android)
+## 5. Crisis Response Protocol
 
-| 항목 | 내용 |
-|------|------|
-| 주요 목적 | 색상 선택 불안 제거, 구매 전환 가속, 브랜드 일상 접점 확보 |
-| 주 오디언스 | B2C 스마트폰 사용 홈오너, 디지털 네이티브 DIY |
-| 핵심 기능 | AR 가상 도색, 사진 색상 추출, 컬러 팔레트 저장, 매장 연결 |
-| 콘텐츠 믹스 | 80% 기능형(탐색·저장·공유) / 20% 영감 푸시 알림 |
-| KPI | MAU, 세션당 색상 저장 수, 앱→매장 전환율 |
-| 업데이트 주기 | 주요 기능: 분기 1회 / Color of the Year: 연 1회 (추정) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-**Steal Sheet — 모바일 앱**
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-| 레이어 | 빼앗을 기회 | 실행 전술 |
-|--------|-----------|---------|
-| **제품** | Behr·Benjamin Moore 앱 사용자 전환 | AR 기능 우위 강조 디지털 광고 |
-| **서비스** | 색상 선택 후 바로 온라인 주문 연결 | 앱 내 원클릭 구매 + 당일 픽업 연동 |
-| **관계** | 앱 저장 팔레트를 매장 방문과 연결 | "저장한 색상 매장에서 즉시 조색" 기능 |
+### Scenario 2 — Regulatory or Legal Action
 
----
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### 채널 3: 인스타그램 (@sherwinwilliams)
+### Scenario 3 — Reputation / Social Media Issue
 
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 | 약 120만+ (추정, 2024년 기준) |
-| 주요 목적 | 브랜드 영감·라이프스타일 이미지 구축, 소비자 감성 연결 |
-| 주 오디언스 | 18-45세 여성 홈오너·인테리어 관심자 중심 (추정) |
-| 콘텐츠 믹스 | 40% Before&After / 30% 인스피레이션 공간샷 / 20% UGC 리그램 / 10% 제품 |
-| 포스팅 빈도 | 피드 주 3-4회 / 스토리 매일 / 릴스 주 1-2회 (추정) |
-| 해시태그 전략 | #SherwinWilliams #ColorLove #AskSherwinWilliams #ColorOfTheYear |
-| KPI | 인게이지먼트율, 스토리 탭어웨이율, 링크인바이오 클릭수 |
-
-**Steal Sheet — 인스타그램**
-
-| 레이어 | 빼앗을 기회 | 실행 전술 |
-|--------|-----------|---------|
-| **제품** | Dulux·Benjamin Moore 팔로워 전환 | Color of the Year 해시태그 크로스 캡처 광고 |
-| **서비스** | UGC 캠페인으로 오가닉 바이럴 | "#내집변신챌린지" 시즌 캠페인, 수상자 리그램 |
-| **관계** | 인테리어 인플루언서 파트너십 심화 | 마이크로 인플루언서(5만~20만) 전속 컬래버 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 채널 4: 전문가 Pro Desk & B2B 포털
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 항목 | 내용 |
-|------|------|
-| 주요 목적 | 전문 시공사·발주처 장기 관계 유지, 대량 주문 효율화 |
-| 주 오디언스 | 도장업자, 건설사, 인테리어 시공 전문가 |
-| 핵심 기능 | 계정 담당자 배정, Pro 가격 제공, 기술 지원 핫라인, 재고 우선권 |
-| 콘텐츠 믹스 | 70% 제품·스펙·주문 / 20% 기술 교육 / 10% 업계 트렌드 |
-| KPI | 계정 재구매율, 평균 주문 규모, 기술 지원 해결 시간 |
-| 업데이트 주기 | 제품 카탈로그: 반기 / 가격: 분기 (추정) |
+**1. Align channel formality with audience expectations.**
+Sherwin-Williams's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-**Steal Sheet — Pro 채널**
+**2. Use financial communications as a credibility asset.**
+Sherwin-Williams's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-| 레이어 | 빼앗을 기회 | 실행 전술 |
-|--------|-----------|---------|
-| **제품** | PPG·RPM 거래 전문가 전환 | 첫 계정 개설 시 대량 할인 프로모션 |
-| **서비스** | 납기 불안 해소로 소규모 업체 락인 | "당일 조색·당일 픽업" 보장 서비스 메시지 |
-| **관계** | 장기 계약 인센티브로 이탈 방지 | 연간 구매 규모 기반 티어 로열티 프로그램 |
-
----
-
-### 채널 5: 유튜브 (Sherwin-Williams 공식 채널)
-
-| 항목 | 내용 |
-|------|------|
-| 구독자 규모 | 약 30만+ (추정, 2024년 기준) |
-| 주요 목적 | 교육 콘텐츠로 신뢰 구축, DIY 구매 결정 지원, SEO 트래픽 확보 |
-| 주 오디언스 | DIY 입문자~중급자, 전문가 기술 업그레이드 희망자 |
-| 콘텐츠 믹스 | 50% How-To 시공 가이드 / 30% 제품 리뷰·비교 / 20% 트렌드 인스피레이션 |
-| 포스팅 빈도 | 주 1-2회 (추정) |
-| 평균 영상 길이 | How-To: 5-15분 / 트렌드: 2-5분 (추정) |
-| KPI | 시청 완주율, 구독자 증가율, 영상→웹사이트 전환율 |
-
-**Steal Sheet — 유튜브**
-
-| 레이어 | 빼앗을 기회 | 실행 전술 |
-|--------|-----------|---------|
-| **제품** | "페인트 칠하는 법" 검색 사용자 유입 | 경쟁사 제품명 포함 비교 How-To 영상 SEO |
-| **서비스** | 시공 실패 후 SHW 전환 유도 | "페인트 실패 복구법" 시리즈 제작 |
-| **관계** | 시청자를 ColorSnap 앱·매장으로 전환 | 영상 설명란 색상 코드 + 매장 링크 필수 삽입 |
-
----
-
-## 채널 통합 운영 원칙
-
-1. **컬러 코드 일관성**: 모든 채널에서 동일한 SW 코드·색상명 사용
-2. **크로스채널 여정 설계**: 인스타(발견) → 앱(탐색) → 웹(결정) → 매장(구매)
-3. **B2B/B2C 메시지 분리**: 동일 제품도 채널에 따라 어조·포맷 최적화
-4. **시즌 캘린더 동기화**: Color of the Year 런칭 시 전 채널 동시 발화
-5. **데이터 통합**: 앱·웹·매장 데이터 CRM 연동으로 개인화 메시지 강화 (추정)
-
----
-
-## 채널별 예산 배분 (추정)
-
-| 채널 | 예산 비중 |
-|------|---------|
-| 디지털 광고 (검색·소셜) | ~40% |
-| 전통 광고 (TV·OOH·인쇄) | ~25% |
-| 콘텐츠 제작 (영상·사진) | ~15% |
-| 인플루언서·파트너십 | ~10% |
-| PR·이벤트 | ~10% |
-
-> 모든 예산 비중은 업계 유사 브랜드 벤치마크 기반 추정치이며 실제 수치와 다를 수 있다. (추정)
+**3. Build a cross-channel sequence, not parallel silos.**
+Sherwin-Williams's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

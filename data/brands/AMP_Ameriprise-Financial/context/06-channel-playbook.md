@@ -1,210 +1,141 @@
-# 06 채널 플레이북 — Ameriprise Financial (AMP)
+# 06. Channel Playbook — Ameriprise Financial (AMP)
 
-## 채널 전략 개요
-
-Ameriprise의 채널 전략은 **"어드바이저 관계를 디지털로 예열하고, 디지털을 어드바이저로 전환"** 하는
-하이브리드 옴니채널 모델이다. 모든 채널은 최종적으로 어드바이저 상담 예약(Conversion)을 향해 설계된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 우선순위 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 전략적 중요도 | 주요 목적 | 타깃 세그먼트 |
-|------|------------|---------|-------------|
-| 웹사이트 (ameriprise.com) | ★★★★★ | 교육·전환·SEO 허브 | 전 세그먼트 |
-| 유료 검색 (Google Ads) | ★★★★★ | 인텐트 기반 리드 획득 | Mass Affluent~HNW |
-| 이메일 마케팅 | ★★★★☆ | 관계 육성·유지 | 기존 고객·잠재 고객 |
-| LinkedIn | ★★★★☆ | B2B·사고 리더십·어드바이저 리크루팅 | HNW·사업주 |
-| TV/CTV | ★★★★☆ | 브랜드 인지도 | Mass Affluent 50대+ |
-| YouTube | ★★★☆☆ | 교육 콘텐츠·브랜드 | 밀레니얼~젠X |
-| Facebook/Instagram | ★★★☆☆ | 리타겟팅·라이프스타일 | 35~65세 |
-| 팟캐스트 | ★★★☆☆ | 사고 리더십 | 전문직·사업주 |
-| 어드바이저 직접 채널 | ★★★★★ | 전환·유지·추천 | 전 세그먼트 |
-| 이벤트/웨비나 | ★★★☆☆ | 리드 생성·교육 | Mass Affluent~HNW |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 채널별 플레이북
+## 2. Channel Tone Variations
+
+Ameriprise Financial's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 채널 1: 웹사이트 (ameriprise.com)
+## 3. Cross-Channel Synergy Map
 
-**역할**: 모든 채널의 허브. SEO 트래픽 수신, 교육 제공, 어드바이저 찾기 도구 제공.
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 랜딩 페이지 | 홈, 은퇴 계획, 투자, 어드바이저 찾기, 계산기 |
-| 주요 CTA | "어드바이저 찾기", "무료 상담 예약", "은퇴 준비도 체크" |
-| 콘텐츠 빈도 | 블로그 주 2~3회, 툴/계산기 상시 (추정) |
-| SEO 전략 | 은퇴 계획·재무 어드바이저 관련 롱테일 키워드 중심 |
-| 전환 최적화 | 어드바이저 매칭 퍼널, 챗봇 보조 (추정) |
-
-**Steal Sheet — 웹사이트**
-
-| 레이어 | 훔칠 전술 | 적용 우선순위 |
-|--------|---------|------------|
-| 전략 | Fidelity식 인터랙티브 계산기 생태계 구축 | 높음 |
-| 메시지 | "당신과 비슷한 상황의 고객이 어떻게 했는지" 소셜 프루프 강화 | 중간 |
-| 전술 | Schwab의 진단형 퀴즈 → 어드바이저 매칭 퍼널 적용 | 높음 |
-
----
-
-### 채널 2: 유료 검색 (SEM / Google Ads)
-
-**역할**: 고인텐트 검색어 포착. "재무 어드바이저", "은퇴 계획" 등 구매 의도가 명확한 트래픽 획득.
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 키워드 그룹 | 브랜드, 경쟁사 방어, 은퇴 계획, 재무 어드바이저, 투자 관리 |
-| 광고 형식 | 반응형 검색 광고(RSA), 성과 최대화(PMax) |
-| 랜딩 페이지 | 서비스별 전용 LP, 어드바이저 찾기 도구 |
-| 예산 배분 | 브랜드 20% / 비브랜드 70% / 경쟁사 10% (추정) |
-| 주요 지표 | CPL, 어드바이저 상담 예약 전환율 |
-
-**Steal Sheet — 유료 검색**
-
-| 레이어 | 훔칠 전술 | 적용 우선순위 |
-|--------|---------|------------|
-| 전략 | 경쟁사 키워드 방어 강화 (Edward Jones 등 이탈 트래픽 포착) | 높음 |
-| 메시지 | "수탁자 의무 준수" 광고 문구로 신뢰 차별화 | 중간 |
-| 전술 | 라이프이벤트 트리거 키워드 (결혼, 은퇴, 상속) 세그먼트 확장 | 높음 |
-
----
-
-### 채널 3: 이메일 마케팅
-
-**역할**: 잠재 고객 육성(Lead Nurturing) 및 기존 고객 관계 유지.
-
-| 항목 | 내용 |
-|------|------|
-| 주요 시퀀스 | 신규 리드 웰컴 시리즈 (5~7통), 은퇴 교육 드립, 시장 뉴스레터 |
-| 발송 빈도 | 뉴스레터 월 2회, 트리거 이메일 이벤트 기반 (추정) |
-| 개인화 수준 | 세그먼트별 콘텐츠 분기 (나이·자산·관심사) (추정) |
-| 주요 KPI | 오픈율 22~28%, CTR 2~4%, 어드바이저 요청 전환 (추정) |
-| 도구 | Salesforce Marketing Cloud 추정 (추정) |
-
-**Steal Sheet — 이메일**
-
-| 레이어 | 훔칠 전술 | 적용 우선순위 |
-|--------|---------|------------|
-| 전략 | 어드바이저 서명 발송 (기관 브랜드 → 인간 브랜드) | 높음 |
-| 메시지 | "당신의 포트폴리오가 이 시장 변동에서 어떻게 됐는지" 개인화 트리거 | 높음 |
-| 전술 | 생일·기념일·라이프이벤트 자동화 트리거 이메일 | 중간 |
-
----
-
-### 채널 4: LinkedIn
-
-**역할**: HNW·사업주 대상 사고 리더십 구축. 어드바이저 리크루팅 병행.
-
-| 항목 | 내용 |
-|------|------|
-| 계정 유형 | 기업 페이지 + 어드바이저 개인 프로필 활성화 |
-| 콘텐츠 유형 | 시장 인사이트, 재무 설계 팁, 어드바이저 스토리, 채용 |
-| 광고 형식 | Sponsored Content, InMail, Lead Gen Forms |
-| 타깃팅 | 직함(CFO, 사업주, 임원), 소득 수준, 은퇴 관심사 |
-| 발행 빈도 | 주 3~5회 (추정) |
-
-**Steal Sheet — LinkedIn**
-
-| 레이어 | 훔칠 전술 | 적용 우선순위 |
-|--------|---------|------------|
-| 전략 | 어드바이저 개인 브랜드 콘텐츠 지원 프로그램 (Employee Advocacy) | 높음 |
-| 메시지 | 사업체 매각·승계 계획 특화 콘텐츠로 사업주 세그먼트 직접 공략 | 높음 |
-| 전술 | Lead Gen Form 연동 "사업주 재무 가이드" 다운로드 캠페인 | 중간 |
-
----
-
-### 채널 5: TV / CTV (Connected TV)
-
-**역할**: 브랜드 인지도 구축. 50대+ 대중 부유층에 감정적 브랜드 서사 전달.
-
-| 항목 | 내용 |
-|------|------|
-| 편성 전략 | 뉴스, 재무 프로그램, 골프/테니스 스포츠 중계 (추정) |
-| CTV 플랫폼 | Hulu, Peacock, YouTube TV (추정) |
-| 크리에이티브 전략 | 은퇴 후 삶의 모습 감성 스토리, 어드바이저 신뢰 서사 |
-| 스팟 길이 | 15초 브랜드 리마인더 + 30초 스토리 드리븐 |
-| 측정 | 브랜드 리프트, 어드바이저 검색량 상관 분석 (추정) |
-
-**Steal Sheet — TV/CTV**
-
-| 레이어 | 훔칠 전술 | 적용 우선순위 |
-|--------|---------|------------|
-| 전략 | CTV + 검색 리타겟팅 연동 (TV 노출 후 SEM 강화) | 높음 |
-| 메시지 | "은퇴 후의 나" 감성 서사에 구체적 숫자 결합 (설득력 강화) | 중간 |
-| 전술 | QR코드 CTV 광고로 어드바이저 상담 직접 연결 | 중간 |
-
----
-
-### 채널 6: 어드바이저 직접 채널 (Human Channel)
-
-**역할**: 최종 전환 및 장기 유지의 핵심. 모든 디지털 채널의 종착점.
-
-| 항목 | 내용 |
-|------|------|
-| 접점 유형 | 대면 미팅, 화상 상담, 전화, 어드바이저 개인 웹사이트 |
-| 지원 툴 | CRM (Salesforce 추정), 재무 플래닝 소프트웨어, 디지털 서명 |
-| 첫 상담 구조 | Discovery(니즈 파악) → 플랜 제안 → 계약 (추정) |
-| 유지 구조 | 연간 리뷰, 시장 이벤트 아웃리치, 생일/기념일 터치 |
-| 어드바이저 마케팅 지원 | 브랜드 자산 라이브러리, 로컬 광고 보조금 (추정) |
-
-**Steal Sheet — 어드바이저 채널**
-
-| 레이어 | 훔칠 전술 | 적용 우선순위 |
-|--------|---------|------------|
-| 전략 | 어드바이저별 디지털 퍼스널 브랜딩 플랫폼 제공 (미니 사이트) | 높음 |
-| 메시지 | 첫 상담 전 사전 재무 진단 리포트 자동 발송 (예열) | 높음 |
-| 전술 | 상담 후 72시간 내 맞춤 팔로업 이메일 자동화 | 중간 |
-
----
-
-## 채널 통합 퍼널 맵
+### Route A — Product/Service Launch Sequence
 
 ```
-[인식 단계]
-TV/CTV 브랜드 광고 → YouTube 교육 영상 → 팟캐스트 스폰서십
-          ↓
-[고려 단계]
-유료 검색 광고 → 웹사이트 랜딩 → 계산기/툴 사용 → 이메일 가입
-          ↓
-[육성 단계]
-이메일 드립 시퀀스 → LinkedIn 리타겟팅 → 웨비나 초대
-          ↓
-[전환 단계]
-어드바이저 상담 예약 → 첫 미팅 → 재무 플랜 수립
-          ↓
-[유지 단계]
-연간 리뷰 → 시장 알림 이메일 → 어드바이저 터치포인트
-          ↓
-[옹호 단계]
-지인 소개 프로그램 → 리뷰·사례 수집 → NPS 관리
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널 예산 배분 (추정)
+## 4. Channel-Specific Prohibitions
 
-| 채널 | 예산 비중 | 비고 |
-|------|---------|------|
-| TV/CTV | ~30% | 브랜드 인지도 최우선 |
-| 유료 검색 (SEM) | ~25% | 즉각적 리드 획득 |
-| 디지털 디스플레이/소셜 | ~20% | 리타겟팅 중심 |
-| 이메일/자동화 | ~10% | 높은 ROI |
-| 이벤트/웨비나 | ~8% | HNW 타깃 |
-| 콘텐츠/SEO | ~7% | 장기 자산 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 성과 대시보드 KPIs
+## 5. Crisis Response Protocol
 
-| 채널 | 핵심 지표 | 목표 (추정) |
-|------|---------|-----------|
-| 웹사이트 | 월 오가닉 방문자 | YoY +15% |
-| SEM | CPL (어드바이저 상담 예약) | $200~400 (추정) |
-| 이메일 | 오픈율 | 25%+ |
-| LinkedIn | Lead Gen Form CVR | 8~12% |
-| TV/CTV | 브랜드 인지도 리프트 | 캠페인 후 +5~10% (추정) |
-| 어드바이저 채널 | 고객 유지율 | 90%+ (추정) |
-| 전체 퍼널 | 리드→상담 전환율 | 15~25% (추정) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Ameriprise Financial's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Ameriprise Financial's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Ameriprise Financial's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

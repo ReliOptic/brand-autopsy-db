@@ -1,168 +1,141 @@
-# 06 채널 플레이북 — AbbVie (ABBV)
+# 06. Channel Playbook — AbbVie (ABBV)
 
-> 섹터: 헬스케어 / 제약 | 주요 제품: Humira, Rinvoq, Skyrizi
-
----
-
-## 1. 채널 전략 개요
-
-AbbVie의 채널 운영은 **규제 준수(Compliance) + 타겟 정밀도(Precision) + 측정 가능성(Measurability)** 3축으로 설계된다. DTC(소비자 직접)와 DTP(의료 전문가 직접) 채널은 분리 운영되며, 각 채널은 고유한 콘텐츠 룰을 따른다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널 생태계 맵
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+AbbVie's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-AbbVie 채널 생태계
-├── Owned Media (소유 미디어)
-│   ├── 기업 웹사이트 (abbvie.com / abbvie.co.kr)
-│   ├── 제품 웹사이트 (skyrizi.com, rinvoq.com, humira.com)
-│   ├── 환자 지원 포털 (myAbbVie Assist)
-│   └── HCP 포털 (AbbVie Pro)
-├── Paid Media (유료 미디어)
-│   ├── 디지털 광고 (검색, 디스플레이, 소셜)
-│   ├── TV/OTT (미국 기준 Humira/Skyrizi 광고)
-│   └── 의학 저널 광고
-├── Earned Media (자연 미디어)
-│   ├── 학술지 게재 (임상 데이터)
-│   ├── 언론 보도 (파이프라인, 실적)
-│   └── 환자 커뮤니티 구전
-└── Partner Media (파트너 미디어)
-    ├── MSL 직접 채널 (HCP 방문)
-    ├── 학회 스폰서십
-    └── KOL 콘텐츠 파트너십
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 3. 채널별 상세 플레이북
+## 4. Channel-Specific Prohibitions
+
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 3-1. 기업 웹사이트 (abbvie.com / abbvie.co.kr)
+## 5. Crisis Response Protocol
 
-| 항목 | 내용 |
-|------|------|
-| 주요 오디언스 | 투자자, 미디어, 취업 지원자, 일반 대중 |
-| 콘텐츠 유형 | 재무 공시, ESG 보고서, 파이프라인 현황, 보도자료, 채용 |
-| 업데이트 주기 | 분기 실적 발표 시 즉시, 파이프라인 변동 시 즉시 |
-| KPI | IR 페이지 방문자 수, 보도자료 픽업율, 채용 지원율 |
-| 주의사항 | 모든 재무 수치는 SEC 공시 기준, 미래 예측 문구에 Safe Harbor 포함 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
----
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### 3-2. 제품 웹사이트 (Skyrizi / Rinvoq / Humira)
+### Scenario 2 — Regulatory or Legal Action
 
-| 항목 | 내용 |
-|------|------|
-| 주요 오디언스 | 환자, 보호자, HCP |
-| 콘텐츠 구조 | 적응증 설명 → 임상 효능 → 안전성 → 투여 방법 → 환자 지원 → ISI |
-| 필수 요소 | ISI (중요 안전성 정보), 처방 정보 전문 링크, "처방 의사와 상담하세요" |
-| 업데이트 주기 | 라벨 변경 시 즉시, 새 임상 데이터 승인 후 |
-| KPI | 페이지 체류 시간, 환자 지원 프로그램 등록 클릭률, 처방 요청 폼 제출 |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
----
+### Scenario 3 — Reputation / Social Media Issue
 
-### 3-3. Instagram / Facebook (DTC 소셜)
-
-| 항목 | Skyrizi | Rinvoq |
-|------|---------|--------|
-| 팔로워 규모 (추정) | 미국 기준 50K+ | 미국 기준 30K+ |
-| 콘텐츠 믹스 | 환자 스토리 40%, 질환 인식 30%, 제품 정보 20%, 기업 10% | 환자 스토리 35%, 운동·일상 회복 35%, 제품 정보 20%, 기업 10% |
-| 게시 빈도 | 주 3–4회 (추정) | 주 3–4회 (추정) |
-| 해시태그 전략 | #Skyrizi #건선치료 #PsoriasisAwareness #NothingIsEverything | #Rinvoq #류마티스 #RAawareness #移動の自由 |
-| 필수 표기 | ISI 링크, "광고" 표기, 규제 문구 | 동일 |
-| 금지 콘텐츠 | 가격 언급, 비교 우위 무근거 주장, 미승인 적응증 | 동일 |
-| KPI | 저장율, 댓글 감성 분석, 링크 클릭률 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 3-4. LinkedIn (기업·HCP·투자자)
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 항목 | 내용 |
-|------|------|
-| 주요 오디언스 | 의료 전문가, 투자자, 업계 관계자, 잠재 직원 |
-| 콘텐츠 유형 | 파이프라인 마일스톤, ESG 이니셔티브, 학회 요약, 임직원 스토리 |
-| 게시 빈도 | 주 2–3회 (추정) |
-| 톤 | 전문적·사실 기반, 비즈니스 언어 |
-| KPI | 게시물 노출 수, HCP 팔로워 증가율, 채용 지원 전환율 |
+**1. Align channel formality with audience expectations.**
+AbbVie's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+AbbVie's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-### 3-5. YouTube (영상 콘텐츠)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 채널 | AbbVie 공식 채널, Skyrizi 제품 채널 (추정) |
-| 콘텐츠 유형 | TV 광고 아카이브, 환자 증언, 기전 설명 애니메이션, 학회 발표 영상 |
-| 영상 길이 | 광고 :15–:60초, 교육 영상 2–5분, 기전 설명 1–3분 |
-| SEO 전략 | "건선 치료", "류마티스 관절염 약" 등 질환명 + 치료 키워드 |
-| KPI | 조회수, 시청 완료율, 환자 지원 사이트 유입 전환율 |
-
----
-
-### 3-6. MSL 직접 채널 (HCP 대면)
-
-| 항목 | 내용 |
-|------|------|
-| 채널 유형 | 1:1 MSL 방문, 그룹 심포지엄, 연구자 지원 |
-| 콘텐츠 유형 | eDetail 슬라이드, 논문 리프린트, 처방 지원 자료 |
-| 방문 빈도 | 고가치 HCP 월 1–2회, 일반 HCP 분기 1회 (추정) |
-| 핵심 메시지 | 최신 임상 데이터 업데이트, 안전성 관리 가이드, 환자 사례 공유 |
-| 규정 준수 | PhRMA 가이드라인, 사전 MSL 교육 및 인증 필수 (공식) |
-| KPI | 처방 의향 점수, 심포지엄 참석률, 후속 데이터 요청 건수 |
-
----
-
-### 3-7. 학회 스폰서십 채널
-
-| 학회 | 빈도 | AbbVie 주요 활동 | 핵심 제품 |
-|------|------|----------------|---------|
-| ACR (미국 류마티스학회) | 연 1회 | 심포지엄 주최, 포스터 발표 지원 | Rinvoq |
-| EULAR (유럽 류마티스학회) | 연 1회 | 위성 심포지엄, eDetail 배포 | Rinvoq |
-| AAD (미국 피부과학회) | 연 1회 | 부스 운영, KOL 발표 지원 | Skyrizi |
-| DDW (소화기병 학술대회) | 연 1회 | 크론병/UC 심포지엄 | Skyrizi, Rinvoq |
-| ECCO (유럽 크론병·대장염) | 연 1회 | 위성 심포지엄 | Skyrizi |
-
----
-
-## 4. 채널별 콘텐츠 규제 준수 매트릭스
-
-| 채널 | ISI 필수 | 처방 정보 링크 | "광고" 표기 | FDA 사전 심의 |
-|------|---------|--------------|----------|------------|
-| 제품 웹사이트 | 필수 | 필수 | — | 해당 없음 |
-| Instagram/Facebook | 링크 형태 | 링크 형태 | 필수 | 해당 없음 |
-| TV 광고 | 음성 포함 | 필수 | — | FDA DDMAC 심의 (공식) |
-| 학술 자료 (HCP) | 처방 정보 전문 | 필수 | — | 해당 없음 |
-| MSL 자료 | 처방 정보 전문 | 필수 | — | 내부 MLR 승인 (공식) |
-
----
-
-## 5. 채널 성과 대시보드 (추정 벤치마크)
-
-| 채널 | 주요 KPI | 업계 벤치마크 | AbbVie 목표 (추정) |
-|------|---------|------------|-----------------|
-| 제품 웹사이트 | 환자 지원 등록 전환율 | 2–4% | 5%+ |
-| Instagram | 저장율 | 1–3% | 4%+ |
-| YouTube | 시청 완료율 | 30–40% | 50%+ |
-| LinkedIn | HCP 팔로워 증가율 | 월 1–2% | 월 3%+ |
-| MSL | 처방 의향 점수 향상 | +10–15% | +20%+ |
-
----
-
-## 6. Steal Sheet (채널 레이어)
-
-### Steal Sheet — 소셜 미디어 규제 리스크 관리
-- **훔쳐야 할 인사이트**: 제약사 소셜 미디어의 가장 큰 실패는 댓글·DM에서 비롯된 미승인 적응증 논의 — 규제 준수 댓글 정책과 자동 모니터링 도구가 필수
-- **실행 액션**: 소셜 미디어 댓글 AI 모니터링 시스템 도입 + 규제 위반 댓글 72시간 내 대응 SOP 수립
-- **KPI**: 규제 위반 댓글 대응 시간, FDA 경고 서한 수신 0건 유지
-
-### Steal Sheet — HCP 디지털 채널 전환
-- **훔쳐야 할 인사이트**: 코로나19 이후 HCP의 디지털 정보 소비 비중이 60% 이상으로 증가, MSL 대면 방문보다 온디맨드 eDetail 선호 증가 (추정)
-- **실행 액션**: AbbVie Pro HCP 포털 기능 강화 — 개인화 콘텐츠 추천, 처방 시뮬레이터, CME 크레딧 연계
-- **KPI**: HCP 포털 월간 활성 사용자 수, eDetail 완료율, 포털 → 처방 전환 상관관계
-
-### Steal Sheet — 한국 시장 채널 최적화
-- **훔쳐야 할 인사이트**: 한국 환자는 네이버 카페·블로그, 카카오 채널을 통해 의료 정보를 탐색하는 비율이 구글 대비 압도적으로 높음 (추정)
-- **실행 액션**: 네이버 건선·류마티스 커뮤니티 공식 파트너십, 카카오 채널 개설 (처방 후 온보딩 자동화 챗봇 포함), 네이버 검색 광고 예산 확대
-- **KPI**: 네이버 브랜드 검색량, 카카오 채널 구독자 수, 환자 지원 프로그램 한국 등록률
+**3. Build a cross-channel sequence, not parallel silos.**
+AbbVie's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

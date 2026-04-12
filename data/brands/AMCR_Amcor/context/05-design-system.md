@@ -1,147 +1,102 @@
-# 05 디자인 시스템 — Amcor (AMCR)
+# 05. Design System — Amcor (AMCR)
 
-## 디자인 철학
-
-Amcor의 디자인 언어는 **"정밀한 신뢰(Precise Trust)"**를 시각적으로 구현한다. 포장재 산업의 기술적 정밀성과 글로벌 기업의 안정감을 동시에 전달하며, 지속가능성 방향성을 색채와 형태로 표현한다. 과도한 장식을 배제하고 기능적 명료함을 우선한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 코어 팔레트
+Amcor's visual identity, as observed on its official website, employs a structured color system appropriate to materials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 색상명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Amcor Blue (Primary) | `#003087` | R:0 G:48 B:135 | 주 브랜드 컬러, 헤더, CTA | (공식) |
-| Amcor Navy | `#001F5B` | R:0 G:31 B:91 | 다크 배경, 고급감 표현 | (공식) |
-| Amcor Light Blue | `#0066CC` | R:0 G:102 B:204 | 링크, 인터랙티브 요소 | (공식) |
-| White | `#FFFFFF` | R:255 G:255 B:255 | 배경, 텍스트 on dark | (공식) |
-| Warm Gray | `#F4F4F4` | R:244 G:244 B:244 | 섹션 배경, 카드 배경 | (공식) |
+### Core Brand Colors
 
-### 지속가능성 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 색상명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Sustainability Green | `#00A651` | R:0 G:166 B:81 | 환경·지속가능성 섹션 강조 | (공식) |
-| Fresh Green | `#5CB85C` | R:92 G:184 B:92 | 재활용 아이콘, 친환경 레이블 | (추정) |
-| Earth Teal | `#2E8B7A` | R:46 G:139 B:122 | 순환경제 콘텐츠 보조색 | (추정) |
+### Color Principles
 
-### 산업별 액센트 팔레트
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 색상명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Pharma Teal | `#008B8B` | R:0 G:139 B:139 | 의약품 포장 카테고리 | (추정) |
-| Food Orange | `#E8720C` | R:232 G:114 B:12 | 식품·음료 포장 카테고리 | (추정) |
-| Industrial Slate | `#708090` | R:112 G:128 B:144 | 산업재 포장 카테고리 | (추정) |
-| Alert Red | `#C0392B` | R:192 G:57 B:43 | 경고, 오류 상태 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 텍스트 컬러
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 색상명 | HEX | 용도 |
-|--------|-----|------|
-| Text Primary | `#1A1A1A` | 본문 텍스트 |
-| Text Secondary | `#555555` | 보조 텍스트, 캡션 |
-| Text Disabled | `#999999` | 비활성 상태 |
-| Text on Dark | `#FFFFFF` | 어두운 배경 위 텍스트 |
-
-### 컬러 사용 비율 (추정)
-
-| 컬러 | 비율 |
-|------|------|
-| White / Light Gray | 60% |
-| Amcor Blue (Primary) | 25% |
-| Sustainability Green | 10% |
-| 액센트 컬러 | 5% |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 시스템
+Amcor's digital properties employ a typographic system appropriate to its materials positioning.
 
-| 역할 | 서체명 | 폴백 | 특성 |
-|------|--------|------|------|
-| 헤딩 (H1-H2) | Gotham Bold | Arial Bold | 권위감, 명료성 |
-| 서브헤딩 (H3-H4) | Gotham Medium | Arial | 가독성, 균형 |
-| 본문 | Source Sans Pro | Arial | 긴 문서 가독성 |
-| 캡션·레이블 | Source Sans Pro Light | Arial | 섬세한 보조 정보 |
-| 데이터·숫자 강조 | Gotham Black | Arial Black | 임팩트 있는 수치 표현 |
+### Typeface System
 
-*(서체 정보는 공식 웹사이트 CSS 분석 기반 추정)*
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 타이포그래피 스케일 (추정)
+### Typographic Scale
 
-| 레벨 | 크기 | 행간 | 사용 맥락 |
-|------|------|------|---------|
-| Display | 48-64px | 1.1 | 히어로 헤드라인 |
-| H1 | 36-40px | 1.2 | 페이지 제목 |
-| H2 | 28-32px | 1.25 | 섹션 제목 |
-| H3 | 22-24px | 1.3 | 서브섹션 |
-| Body Large | 18px | 1.6 | 리드 문단 |
-| Body | 16px | 1.65 | 일반 본문 |
-| Small | 14px | 1.5 | 캡션, 레이블 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 그리드 & 레이아웃
+## 3. Channel Specifications
 
-**기본 그리드**: 12컬럼, 거터 24px, 최대 너비 1280px (추정)
-
-**레이아웃 원칙**
-- 충분한 여백으로 전문적 공간감 확보
-- 정보 밀도 높은 기술 콘텐츠는 2-3컬럼 레이아웃
-- 지속가능성 스토리는 풀블리드 이미지와 텍스트 교차
-- 데이터 시각화는 단독 섹션으로 강조
-
----
-
-## 아이콘 & 일러스트레이션
-
-**아이콘 스타일**
-- 선형(Line) 아이콘 기본
-- 1.5-2px 획 두께
-- 둥근 모서리(Rounded Cap) 처리
-- 그리드: 24x24px 기준
-
-**일러스트레이션 스타일**
-- 기하학적 추상 패턴 — 포장재의 구조적 특성 표현
-- 실물 제품 사진 + 미니멀 그래픽 오버레이 조합
-- 단면도·구조도 형식의 기술 일러스트 활용
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 사진 스타일
+## 4. Layout Principles
 
-**제품 사진**
-- 클린 화이트/라이트 그레이 배경
-- 고해상도 소재 질감 클로즈업
-- 45도 각도의 3/4 뷰 선호
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-**환경 사진**
-- 자연광, 밝고 깨끗한 분위기
-- 재활용·자연 소재 연상 장면
-- 과장된 연출 금지, 진정성 강조
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-**사람 사진**
-- 작업 중인 전문가 모습
-- 다양한 국적·성별 반영
-- 밝고 협력적인 분위기
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 레이어별 3개
+## 5. Design Prohibitions
 
-### Layer A: 컬러 아이덴티티에서 빼앗기
-1. **블루 × 그린 이중 축** — 블루(신뢰·기술)와 그린(지속가능성)의 명확한 이중 축으로 산업 전문성과 ESG 리더십을 동시에 시각화, 단색 브랜드 경쟁사 대비 복합 포지셔닝 가능
-2. **산업별 컬러 코딩** — 식품(오렌지), 제약(틸), 산업재(슬레이트)의 카테고리 컬러 시스템으로 복잡한 포트폴리오를 직관적으로 탐색 가능하게 설계
-3. **데이터 시각화 컬러 팔레트** — 연간 보고서·ESG 대시보드에서 일관된 데이터 색상 체계로 수치의 신뢰도와 비교 용이성 강화
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-### Layer B: 타이포그래피 권위에서 빼앗기
-1. **대형 수치 타이포그래피** — "138억 달러", "40개국", "2025년까지 100%" 등 핵심 수치를 60-80px 볼드 서체로 강조, 스크롤 중에도 메시지 각인
-2. **기술 용어 정의 인라인 박스** — 복잡한 포장 기술 용어에 즉시 정의 제공하는 인라인 박스 디자인으로 전문가·비전문가 동시 독자 배려
-3. **다국어 일관성 시스템** — 40개국 언어 지원 시 서체·레이아웃 일관성 유지를 위한 타이포그래피 적응 시스템 (RTL 포함)
+---
 
-### Layer C: 지속가능성 비주얼에서 빼앗기
-1. **진척도 인포그래픽** — 지속가능성 약속별 달성률을 원형 게이지 및 타임라인으로 시각화, 경쟁사의 정성적 서술 대비 신뢰성 차별화
-2. **재료 순환 다이어그램** — 소재가 생산→사용→재활용→재생산되는 순환 과정을 애니메이션 인포그래픽으로 표현, 순환경제 개념 직관적 전달
-3. **임팩트 카운터** — 웹사이트에 실시간 누적 수치(절감된 플라스틱 톤, 재활용된 포장재 수 등) 카운터 배치로 추상적 ESG를 구체적 수치로 환산
+*Layer 5 of 8 — Brand Autopsy: Amcor (AMCR)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

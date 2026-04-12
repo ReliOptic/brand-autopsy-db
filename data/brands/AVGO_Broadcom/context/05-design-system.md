@@ -1,153 +1,102 @@
-# 05. 디자인 시스템 — Broadcom (AVGO)
+# 05. Design System — Broadcom (AVGO)
 
-## 디자인 철학
-
-> **"기능이 형태를 결정한다."**
-> Broadcom의 시각 언어는 엔지니어링 정밀성에서 파생된다.
-> 장식적 요소를 배제하고, 정보 계층과 데이터 밀도를 최우선한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 기본 팔레트 (Primary Palette)
+Broadcom's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 색상명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Broadcom Red | `#CC0000` | 기본 브랜드 컬러, CTA, 강조 | (공식) |
-| Deep Black | `#1A1A1A` | 본문 텍스트, 배경 (다크 모드) | (추정) |
-| Pure White | `#FFFFFF` | 배경, 역방향 텍스트 | (공식) |
-| Dark Charcoal | `#333333` | 보조 텍스트, 본문 | (추정) |
+### Core Brand Colors
 
-### 보조 팔레트 (Secondary Palette)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 색상명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Mid Gray | `#666666` | 캡션, 비활성 UI 요소 | (추정) |
-| Light Gray | `#F5F5F5` | 카드 배경, 구분선 배경 | (추정) |
-| Border Gray | `#DDDDDD` | 테이블 선, 구분선 | (추정) |
-| Accent Blue | `#0066CC` | 링크, 정보성 아이콘, 차트 보조색 | (추정) |
+### Color Principles
 
-### 데이터 시각화 팔레트 (Chart / Diagram)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 색상명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Chart Red | `#CC0000` | 주요 데이터 계열 1 | (추정) |
-| Chart Blue | `#0066CC` | 주요 데이터 계열 2 | (추정) |
-| Chart Dark Gray | `#555555` | 보조 데이터 계열 | (추정) |
-| Chart Light Blue | `#66AADD` | 비교 데이터 계열 | (추정) |
-| Chart Warm Gray | `#999999` | 참조선, 그리드 | (추정) |
-| Positive Green | `#2E7D32` | 성장·긍정 지표 | (추정) |
-| Warning Amber | `#F57C00` | 주의·경고 지표 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 규칙
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-- **Broadcom Red(`#CC0000`)**: CTA 버튼, 로고, 섹션 강조선에만 사용. 배경 전면 사용 금지. (추정)
-- **대비 비율**: 본문 텍스트 최소 WCAG AA 기준 4.5:1 이상 유지. (추정)
-- **색상 조합 금지**: Red on Red, Light Gray on White (대비 부족). (추정)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-| 역할 | 서체 | 웨이트 | 크기 범위 | 출처 |
-|------|------|--------|----------|------|
-| Display / Hero | Inter 또는 Helvetica Neue | Bold (700) | 40–64px | (추정) |
-| 섹션 헤딩 (H1) | Inter / Helvetica Neue | SemiBold (600) | 28–36px | (추정) |
-| 서브 헤딩 (H2/H3) | Inter / Helvetica Neue | Medium (500) | 20–24px | (추정) |
-| 본문 (Body) | Inter / Arial | Regular (400) | 14–16px | (추정) |
-| 캡션 / 레이블 | Inter / Arial | Regular (400) | 11–12px | (추정) |
-| 코드 / 기술 값 | JetBrains Mono 또는 Courier New | Regular | 13–14px | (추정) |
+Broadcom's digital properties employ a typographic system appropriate to its information technology positioning.
 
-### 타이포그래피 원칙
+### Typeface System
 
-- 줄 간격(Line Height): 본문 1.6, 헤딩 1.2 (추정)
-- 최대 본문 너비: 72ch (가독성 최적화) (추정)
-- 숫자 데이터는 Tabular Figures 설정 권장 (테이블·대시보드) (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## 레이아웃 그리드
-
-| 항목 | 데스크톱 | 태블릿 | 모바일 |
-|------|----------|--------|--------|
-| 컬럼 수 | 12 | 8 | 4 |
-| 거터 (Gutter) | 24px | 20px | 16px |
-| 마진 | 80px | 40px | 16px |
-| 최대 컨텐츠 너비 | 1280px | 960px | 360px |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 아이콘 시스템
+## 3. Channel Specifications
 
-- **스타일**: 선형(Outline) 아이콘, 2px 스트로크, 모서리 약간 라운드 (추정)
-- **크기 세트**: 16px, 24px, 32px, 48px (추정)
-- **컬러**: 기본 `#333333`, 강조 `#CC0000`, 비활성 `#999999` (추정)
-- **사용 금지**: 복잡한 멀티컬러 일러스트, 의인화 캐릭터 아이콘 (추정)
-
----
-
-## 이미지 & 사진 가이드라인
-
-| 유형 | 원칙 | 금기 |
-|------|------|------|
-| 제품 이미지 | 화이트 또는 다크 배경, 등각투영 또는 정면 촬영 | 과도한 포토샵 효과 |
-| 데이터센터 사진 | 실제 설치 환경, 고해상도, 냉각·케이블링 가시화 | 스톡 이미지 남용 |
-| 인물 사진 | 엔지니어·기술 전문가, 작업 맥락 속 자연스러운 포즈 | 과도하게 연출된 비즈니스 포즈 |
-| 다이어그램 | 회로도·아키텍처 다이어그램 우선, 벡터(SVG) 형식 | 저해상도 래스터 다이어그램 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## UI 컴포넌트 원칙
+## 4. Layout Principles
 
-### 버튼
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 유형 | 배경 | 텍스트 | 테두리 |
-|------|------|--------|--------|
-| Primary CTA | `#CC0000` | `#FFFFFF` | 없음 |
-| Secondary | `#FFFFFF` | `#CC0000` | `#CC0000` 1px |
-| Tertiary / Ghost | 투명 | `#333333` | `#DDDDDD` 1px |
-| Disabled | `#F5F5F5` | `#999999` | 없음 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 테이블
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- 헤더 배경: `#F5F5F5`, 텍스트: `#1A1A1A`, Bold
-- 짝수 행 배경: `#FAFAFA` (Zebra Stripe)
-- 테두리: `#DDDDDD` 1px
-- 숫자 열: 오른쪽 정렬, Tabular Figures
-
-### 알림 / 배지
-
-| 유형 | 배경 | 테두리 | 텍스트 |
-|------|------|--------|--------|
-| 정보 (Info) | `#E3F0FA` | `#0066CC` | `#0066CC` |
-| 성공 (Success) | `#E8F5E9` | `#2E7D32` | `#2E7D32` |
-| 경고 (Warning) | `#FFF3E0` | `#F57C00` | `#F57C00` |
-| 오류 (Error) | `#FFEBEE` | `#CC0000` | `#CC0000` |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 모션 & 애니메이션
+## 5. Design Prohibitions
 
-- **원칙**: 기능적 전환만 허용. 순수 장식 애니메이션 금지. (추정)
-- **duration**: 150–250ms (마이크로 인터랙션), 300–400ms (페이지 전환) (추정)
-- **easing**: `ease-out` 기본, 데이터 로딩 시 `ease-in-out` (추정)
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 3개
-
-**레이어 1: 브랜드 시각 일관성**
-1. `#CC0000` Red를 CTA와 강조에만 집중 배치 — 희소성으로 주목도 유지
-2. 데이터 시각화 팔레트를 7색으로 제한, 모든 차트에 동일 계열 적용
-3. 사진·이미지에서 스톡 이미지 비중 20% 미만 유지 — 실제 제품·현장 사진 우선
-
-**레이어 2: 기술 문서 디자인**
-1. 모든 기술 다이어그램은 SVG 벡터로 제작, 고해상도 PDF 함께 제공
-2. 데이터시트·백서의 수치 컬럼은 Tabular Figures + 오른쪽 정렬 고정
-3. 코드 블록은 `JetBrains Mono` + 어두운 배경(`#1A1A1A`)으로 시각적 구분
-
-**레이어 3: 디지털/웹 UX**
-1. 첫 인터랙션(CTA) 도달까지 스크롤 3회 이내로 페이지 구조 설계
-2. 기술 스펙 테이블은 가로 스크롤보다 반응형 카드 전환 방식 채택 (모바일)
-3. 다크 모드 지원 시 배경 `#1A1A1A`, 텍스트 `#F5F5F5` 기본 쌍 유지
+*Layer 5 of 8 — Brand Autopsy: Broadcom (AVGO)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

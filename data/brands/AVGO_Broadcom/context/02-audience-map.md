@@ -1,137 +1,84 @@
-# 02. 오디언스 맵 — Broadcom (AVGO)
+# 02. Audience Map — Broadcom (AVGO)
 
-## 오디언스 계층 구조
-
-```
-Primary (직접 구매·의사결정)
-├── 하이퍼스케일 클라우드 CSP (AWS, Google, Microsoft, Meta)
-├── 글로벌 통신사 (Tier-1 Telco)
-└── 대형 엔터프라이즈 IT 조직
-
-Secondary (영향력·추천자)
-├── 반도체 설계 엔지니어
-├── 네트워크 아키텍트
-└── 엔터프라이즈 소프트웨어 아키텍트
-
-Tertiary (관찰자·에코시스템)
-├── 금융 애널리스트 (Buy-side / Sell-side)
-├── 산업 미디어·애널리스트 (Gartner, IDC, 451 Research)
-└── 정책 입안자·규제 기관
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세 프로파일
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 하이퍼스케일 인프라 아키텍트
-
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 박지훈 (Ji-hoon Park) |
-| 직함 | Distinguished Engineer, Cloud Infrastructure |
-| 소속 | 하이퍼스케일 CSP (추정 — Google, AWS급) |
-| 연령대 | 38–50세 |
-| 지역 | 미국 서부, 한국, 유럽 주요 거점 |
-| 학력 | 전기공학 / 컴퓨터공학 석·박사 (추정) |
-
-**핵심 목표**
-- 레이턴시 마이크로초 단위 최적화
-- 400G/800G 이더넷 전환 로드맵 실행
-- 커스텀 ASIC(XPU) vs. 표준 칩 Make-or-Buy 결정
-
-**주요 고충 (Pain Points)**
-- 공급망 리드타임 불확실성 (TSMC 할당량 경쟁)
-- 칩 세대 전환 시 소프트웨어 스택 호환성
-- Broadcom 독점적 지위로 인한 가격 협상력 약화
-
-**정보 소비 채널**
-- IEEE/ACM 학술 논문, Hot Chips 컨퍼런스
-- Broadcom 기술 백서·데이터시트 (공식)
-- 내부 벤치마크 랩 결과
-
-**구매 의사결정 기준 (우선순위)**
-1. 실측 성능 (throughput, power efficiency)
-2. 공급 안정성 & 로드맵 가시성
-3. SDK/드라이버 생태계 성숙도
-4. TCO (Total Cost of Ownership)
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from Broadcom's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Broadcom's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 엔터프라이즈 CTO / 인프라 담당 VP
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 이수진 (Su-jin Lee) |
-| 직함 | VP of Infrastructure & Operations |
-| 소속 | 글로벌 금융기관 또는 제조 대기업 (추정) |
-| 연령대 | 42–55세 |
-| 지역 | 뉴욕, 런던, 서울, 싱가포르 |
-| 학력 | CS / MBA 복수전공 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표**
-- VMware 환경 비용 최적화 (라이선스 재편 대응)
-- 멀티클라우드 거버넌스 일원화
-- 사이버보안 컴플라이언스 (SOC2, ISO27001)
-
-**주요 고충 (Pain Points)**
-- VMware 인수 후 라이선스 비용 급등 체감 (공식 보도 다수)
-- 벤더 락인(Vendor Lock-in) 리스크
-- 이사회 보고용 ROI 정량화 어려움
-
-**정보 소비 채널**
-- Gartner Magic Quadrant, Forrester Wave
-- CIO/CISO 피어 네트워크 (Evanta, YPO)
-- Broadcom VMware 공식 세미나·기술 블로그
-
-**구매 의사결정 기준 (우선순위)**
-1. 전략적 벤더 관계 & 지원 SLA
-2. 마이그레이션 복잡도 및 위험
-3. 총소유비용 5년 프로젝션
-4. 규제 컴플라이언스 적합성
+- **Age / Occupation**: 42, VP-level or director in a Broadcom customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Broadcom selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 반도체 투자 애널리스트
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 김민호 (Min-ho Kim) |
-| 직함 | Senior Equity Research Analyst — Semiconductors |
-| 소속 | 글로벌 투자은행 또는 헤지펀드 (추정) |
-| 연령대 | 30–45세 |
-| 지역 | 뉴욕, 홍콩, 서울 |
-| 학력 | 전기공학 학사 + CFA (추정) |
-
-**핵심 목표**
-- AI 인프라 수요에 따른 AVGO 실적 모델링
-- 커스텀 XPU(Google TPU, Meta MTIA 등) 시장 점유율 추정
-- VMware 소프트웨어 전환 마진 개선 추적
-
-**주요 고충 (Pain Points)**
-- Broadcom의 불투명한 세그먼트 공시 (반도체 vs 소프트웨어 세분화 부족)
-- 커스텀 칩 매출 비중 공개 여부 불확실 (추정)
-- 경쟁사(Marvell, Intel, NVIDIA) 대비 AI 가속기 포지셔닝 분석 난이도
-
-**정보 소비 채널**
-- AVGO 분기 실적 발표·10-K/10-Q (공식)
-- 반도체 산업 컨퍼런스 (OFC, DesignCon)
-- Bloomberg Terminal, FactSet
-
-**구매 의사결정 기준 (우선순위)**
-- 여기서 "구매"는 투자 의사결정
-1. AI 커스텀 실리콘 수주 파이프라인
-2. 소프트웨어 부문 구독 전환율 및 ARR 성장
-3. 자유현금흐름(FCF) 마진 궤적
-4. 경영진 자본 배분 신뢰도
+- **Age / Occupation**: 35, technical professional who interacts with Broadcom's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Broadcom selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스 요약
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 관심 키워드 | 주요 채널 | 전환 장벽 |
-|----------|------------|----------|----------|
-| 하이퍼스케일 CSP | ASIC 성능, 공급망, XPU | 기술 백서, 직접 영업 | 가격, 공급 집중 |
-| 엔터프라이즈 IT | VMware 비용, 보안, 멀티클라우드 | Gartner, 피어 네트워크 | 락인, 마이그레이션 비용 |
-| 금융 애널리스트 | 실적, AI 수주, FCF | 공시, 컨퍼런스 콜 | 세그먼트 불투명성 |
-| 통신사 | 5G 칩셋, 광 트랜시버 | 산업 컨퍼런스 | 표준화 지연 |
-| 채널 파트너 | 리셀러 마진, 기술 지원 | 파트너 포털 | Broadcom 직접 영업 전환 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Broadcom's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Broadcom selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Broadcom's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Broadcom total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Broadcom Is Not For
+
+| Type | Characteristics | Why Broadcom Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Broadcom's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Broadcom's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Broadcom's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Broadcom's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Broadcom's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,118 +1,141 @@
-# 06 채널 플레이북 — Teradyne (TER)
+# 06. Channel Playbook — Teradyne (TER)
 
-## 채널 전략 개요
-
-Teradyne의 채널 전략은 고도 전문화된 B2B 구매 여정에 최적화되어 있다 (추정). 반도체·자동화 업계 의사결정자들은 긴 평가 주기를 거치므로, 인식 단계부터 구매 후 확장까지 각 단계별 채널 역할이 명확히 구분된다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 전략 상세
+## 1. Channel Strategy Matrix
 
-### 1. 웹사이트 (teradyne.com)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 기술 정보 허브, 리드 전환 엔진 |
-| 핵심 방문자 | 테스트 엔지니어, 구매 담당자 |
-| 핵심 페이지 | 제품 페이지, 애플리케이션 노트, 케이스 스터디, 데모 신청 |
-| 전환 목표 | 데모 신청, 문의 폼 제출, 백서 다운로드 |
-| CTA 컬러 | `#FF6900` 오렌지 (공식) |
-
-**Steal Sheet W-1**: 제품 페이지에서 "기술 사양 → 고객 사례 → 전문가 문의" 3단 플로우는 B2B 전환율을 높이는 검증된 구조다. 사양 중심 페이지에서 ROI 스토리로 전환하는 순간 구매 가속이 일어난다 (추정).
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. LinkedIn
+## 2. Channel Tone Variations
 
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 | 약 10만~20만 명 수준 (추정) |
-| 주요 콘텐츠 | 기술 인사이트, 제품 출시, 채용, 업계 트렌드 |
-| 게시 빈도 | 주 3~5회 (추정) |
-| 핵심 타깃 | 엔지니어링 디렉터, 구매 이사, 기술 임원 |
-| 광고 활용 | Sponsored Content로 백서·웨비나 리드 수집 (추정) |
+Teradyne's core voice adjusts by channel while maintaining brand coherence.
 
-**콘텐츠 믹스 (추정)**
-- 기술 인사이트: 40%
-- 제품·솔루션 소개: 30%
-- 기업 문화·채용: 20%
-- 업계 뉴스 큐레이션: 10%
-
-**Steal Sheet L-1**: LinkedIn에서 "엔지니어의 시각으로 본 문제" 형식의 포스트는 순수 제품 홍보 대비 3~5배 높은 인게이지먼트를 기록한다 (추정). 기술 문제를 제목으로, 솔루션을 댓글로 유도하는 구조가 효과적이다.
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. 유튜브 / 비디오 채널
+## 3. Cross-Channel Synergy Map
 
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 기술 교육, 제품 데모, 이벤트 하이라이트 |
-| 핵심 콘텐츠 | 제품 데모 영상, 기술 웨비나 아카이브, 고객 인터뷰 |
-| 영상 길이 | 기술 설명 5~15분, 이벤트 하이라이트 2~5분, SNS 클립 30~90초 |
-| 타깃 | 테스트 엔지니어, 자동화 도입 검토자 |
+### Route A — Product/Service Launch Sequence
 
-**Steal Sheet V-1**: 협동 로봇(UR) 관련 "3분 셋업 완료" 형식의 영상은 조회수와 리드 전환 모두에서 강력한 성과를 낸다 (추정). 복잡한 기술을 단순화해 현장 적용 가능성을 시각적으로 증명하는 방식이 핵심이다.
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
----
+### Route B — Thought Leadership Pipeline
 
-### 4. 이메일 마케팅 / 뉴스레터
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-| 항목 | 내용 |
-|------|------|
-| 주요 목적 | 기존 고객 리텐션, 리드 너처링, 이벤트 프로모션 |
-| 발송 빈도 | 월 2~4회 (추정) |
-| 세그먼트 | 제품군별, 산업별, 구매 여정 단계별 (추정) |
-| 핵심 콘텐츠 | 신제품 업데이트, 기술 팁, 이벤트 초대, 케이스 스터디 |
-| 평균 오픈율 목표 | 25~35% (B2B 기술 업계 평균 대비 상위) (추정) |
+### Route C — Earnings and Financial Communications
 
-**Steal Sheet E-1**: B2B 기술 뉴스레터에서 가장 높은 클릭률을 기록하는 섹션은 "엔지니어가 실제로 겪은 문제와 해결 방법"이다. 제품 설명보다 문제 해결 스토리 중심으로 구성할 때 리드 품질이 향상된다 (추정).
-
----
-
-### 5. 기술 컨퍼런스 / 이벤트
-
-| 행사명 | 유형 | 주기 | 역할 |
-|--------|------|------|------|
-| SEMICON West | 전시 참가 | 연 1회 | 신제품 런칭, 고객 미팅 |
-| ITC (International Test Conference) | 학술/산업 컨퍼런스 | 연 1회 | 기술 리더십 강화, 논문 발표 |
-| Automate | 자동화 전시 | 격년 | UR 협동 로봇 전시 |
-| 자체 Tech Summit | 고객 행사 | 연 1~2회 | 기존 고객 심화 교육, 업셀링 |
-
-**Steal Sheet C-1**: Teradyne은 ITC에서 단순 부스 운영을 넘어 기술 논문 발표와 패널 토론을 통해 "업계 표준을 정의하는 기업" 이미지를 구축한다 (추정). 경쟁사 대비 학술적 권위 채널 활용이 차별화 포인트다.
-
----
-
-### 6. 파트너/채널 세일즈 네트워크
-
-| 항목 | 내용 |
-|------|------|
-| 파트너 유형 | 지역 대리점, 기술 통합 파트너, OEM 파트너 |
-| 지원 자료 | 파트너 포털, 기술 교육 프로그램, 공동 마케팅 펀드 (추정) |
-| 주요 지역 | 한국, 대만, 일본, 중국, 동남아시아 (추정) |
-| UR 파트너 | UR+ 공인 파트너, 시스템 인테그레이터 네트워크 (공식) |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## 채널별 KPI 프레임워크 (추정)
+## 4. Channel-Specific Prohibitions
 
-| 채널 | 1차 KPI | 2차 KPI | 목표 주기 |
-|------|---------|---------|-----------|
-| 웹사이트 | 데모 신청 수 | 기술 콘텐츠 체류 시간 | 월별 |
-| LinkedIn | 리드 폼 제출 | 팔로워 성장률 | 월별 |
-| 유튜브 | 영상 완시청률 | 구독자 증가 | 분기별 |
-| 이메일 | 오픈율·CTR | 구독 해지율 | 월별 |
-| 이벤트 | 미팅 수 | 이벤트 후 파이프라인 생성액 | 이벤트별 |
-| 파트너 | 파트너 발생 매출 | 파트너 인증 수 | 분기별 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## Steal Sheet — 채널 레이어별 3개
+## 5. Crisis Response Protocol
 
-### Steal Sheet CH-1: 웹사이트 전환 구조 복제
-테라다인 웹사이트의 "다크 히어로 → 스펙 테이블 → 오렌지 CTA → 케이스 스터디" 플로우는 B2B 기술 SaaS 및 장비 업체가 그대로 적용할 수 있는 전환 최적화 템플릿이다. 특히 오렌지 CTA 버튼(`#FF6900`)을 유일한 강조색으로 유지하는 단순성이 핵심이다 (추정).
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-### Steal Sheet CH-2: LinkedIn 기술 리더십 채널화
-테라다인식 LinkedIn 전략의 핵심은 "엔지니어가 엔지니어에게 쓰는 글"이다. 마케팅팀이 아닌 기술 전문가 계정을 통해 콘텐츠를 발행하면 동일 예산 대비 2~4배의 도달률을 기록할 수 있다 (추정). Employee Advocacy 프로그램과 연계하면 효과가 배가된다.
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### Steal Sheet CH-3: 이벤트 학술화 전략
-단순 전시 참가에서 논문 발표·패널 기여로 격상시키면 "팔려는 기업"에서 "가르치는 기업"으로 포지셔닝이 바뀐다. 컨퍼런스 발표 자료를 백서로 재가공해 이메일·웹사이트 리드 마그넷으로 활용하는 콘텐츠 재활용 사이클이 Teradyne의 핵심 채널 시너지 전략이다 (추정).
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Teradyne's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Teradyne's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Teradyne's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

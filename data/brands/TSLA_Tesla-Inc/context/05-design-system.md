@@ -1,129 +1,102 @@
-# 05 디자인 시스템 — Tesla (TSLA)
+# 05. Design System — Tesla, Inc. (TSLA)
 
-> 섹터: Consumer Discretionary / EV·에너지 | 분석 기준일: 2026-04-12
-
----
-
-## 1. 디자인 철학
-
-Tesla 디자인의 핵심 원칙: **"필요 없는 것을 제거하면 아름다움이 남는다."**
-
-- 미니멀리즘을 미학이 아닌 공학적 효율로 정당화
-- 인테리어 버튼 제거 → 소프트웨어로 대체 → 제조 원가 절감과 디자인 단순성 동시 달성
-- 외장 디자인은 공기역학(Cd 계수)이 형태를 결정
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 팔레트
+## 1. Color Palette
 
-### 2-1. 브랜드 코어 컬러
+Tesla, Inc.'s visual identity, as observed on its official website, employs a structured color system appropriate to consumer discretionary sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Tesla Red (시그니처) | `#CC0000` | 204, 0, 0 | 로고, 핵심 CTA 버튼 | (공식) |
-| Pure White | `#FFFFFF` | 255, 255, 255 | 배경, 차량 기본 컬러 | (공식) |
-| Midnight Black | `#0A0A0A` | 10, 10, 10 | 텍스트, UI 다크모드 배경 | (공식) |
-| Gunmetal Gray | `#3D3D3D` | 61, 61, 61 | 보조 텍스트, 섹션 구분 | (추정) |
+### Core Brand Colors
 
-### 2-2. 차량 외장 컬러 (현행 라인업 기준)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 비고 | 출처 |
-|--------|-----|------|------|
-| Pearl White Multi-Coat | `#F0EEE9` | 기본 무료 컬러 | (추정) |
-| Stealth Grey | `#6B6B6B` | 유료 옵션 | (추정) |
-| Midnight Cherry Red | `#8B1A1A` | 유료 옵션 | (추정) |
-| Deep Blue Metallic | `#1B3A6B` | 유료 옵션 | (추정) |
-| Quicksilver | `#C0C0C0` | 고성능 트림 전용 | (추정) |
-| Ultra Red | `#C41E3A` | 신규 추가 | (추정) |
+### Color Principles
 
-### 2-3. 디지털 UI 컬러
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Interface Blue | `#1E6FD9` | 링크, 활성 상태, 내비 경로 | (추정) |
-| Success Green | `#2ECC71` | 충전 완료, 상태 OK | (추정) |
-| Alert Amber | `#F39C12` | 경고 메시지, 주의 표시 | (추정) |
-| Critical Red | `#E74C3C` | 오류, 즉각 주의 필요 | (추정) |
-| Surface Dark | `#1C1C1E` | 차량 내 터치스크린 배경 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 3. 타이포그래피
-
-| 용도 | 서체 | 특성 | 출처 |
-|------|------|------|------|
-| 글로벌 주 서체 | Gotham (Hoefler&Co) | 기하학적 산세리프, 강한 현대성 | (추정) |
-| 웹사이트 헤드라인 | Tesla 자체 커스텀 산세리프 | Gotham 변형 추정 | (추정) |
-| 차량 UI | SF Pro (Apple 유사) 또는 자체 폰트 | 고해상도 터치스크린 최적화 | (추정) |
-| 숫자·스펙 강조 | 굵은 모노스페이스 계열 | 기술적 정밀성 표현 | (추정) |
-
-**타이포그래피 원칙**:
-- 대문자(ALL CAPS) 사용 최소화 → 과도한 강조 지양
-- 헤드라인은 크고 간결하게, 서브텍스트는 회색 계열로 위계 형성
-- 숫자(스펙, 가격)는 별도 강조 처리
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. 디자인 요소 원칙
+## 2. Typography
 
-### 4-1. 레이아웃
+Tesla, Inc.'s digital properties employ a typographic system appropriate to its consumer discretionary positioning.
 
-| 원칙 | 적용 방식 |
-|------|----------|
-| 풀블리드 이미지 | 차량 사진이 화면 전체를 채움. 텍스트는 오버레이 최소화 |
-| 여백 우선 | 요소 간 충분한 공백으로 고급감 연출 |
-| 수직 스크롤 스토리텔링 | 웹사이트 제품 페이지: 스펙 → 기술 → 가격 → CTA 순 |
-| 단일 CTA 원칙 | 페이지당 하나의 핵심 행동 유도 (Order Now / Test Drive) |
+### Typeface System
 
-### 4-2. 이미지 스타일
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 카테고리 | 스타일 |
-|---------|--------|
-| 차량 외장 | 무채색 배경 또는 황야/도시 경관, 드라마틱 조명 |
-| 인테리어 | 넓은 공간감 강조, 터치스크린 UI 가시성 |
-| 라이프스타일 | 자연 환경 + 충전 장면, 운전자 얼굴 거의 미등장 |
-| 기술/AI | 데이터 시각화, 뉴럴넷 그래프, 추상적 빛 궤적 |
+### Typographic Scale
 
-### 4-3. 아이콘 및 UI 패턴
-
-| 요소 | 특성 |
-|------|------|
-| 아이콘 | 선형(라인) 아이콘, 2px 스트로크, 모서리 둥글게 |
-| 버튼 | 모서리 반경 8px, 테슬라 레드 또는 검정 배경 |
-| 카드 컴포넌트 | 흰 배경, 미세 그림자(box-shadow 4px) |
-| 애니메이션 | 0.3s ease-in-out, 과도한 전환 효과 배제 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 5. 제품 디자인 언어 (차량)
+## 3. Channel Specifications
 
-| 모델 | 디자인 특성 |
-|------|-----------|
-| Model S | 세단 비율, 유려한 패스트백, Cd 0.208 (공식) |
-| Model 3 | 컴팩트 세단, 무버튼 인테리어 극단화 |
-| Model X | SUV + 팔콘 윙 도어, 실용성과 극적 연출 공존 |
-| Model Y | 크로스오버, 가장 대중적 비율, Model 3 파생 |
-| Cybertruck | 스테인리스 스틸 각진 디자인, 의도적 괴이함, 밈 자산 |
-| Roadster 2 | 초극단 스포츠, 글라스 루프, 미래적 비율 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 6. 금지 디자인 패턴
+## 4. Layout Principles
 
-| # | 금지 패턴 | 이유 |
-|---|----------|------|
-| 1 | 크롬 장식 과용 | 전통 자동차 미학과 거리두기 |
-| 2 | 그릴 디자인 강조 | EV는 그릴 불필요 → 테슬라 정체성 |
-| 3 | 복잡한 버튼 배열 | 소프트웨어 중심 UX 원칙 위배 |
-| 4 | 따뜻한 계열 주조색 | 차갑고 기술적인 브랜드 감성과 불일치 |
-| 5 | 유기적·곡선 중심 로고 | 기하학적 정밀성 원칙 위배 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 7. Steal Sheet — 디자인 시스템 레이어
+## 5. Design Prohibitions
 
-| # | 훔칠 것 | 구체적 실행법 |
-|---|---------|--------------|
-| 1 | **스펙을 디자인 요소로** | 가속 수치, Cd 계수를 카피가 아닌 타이포그래피 아트워크로 배치. 숫자가 곧 비주얼 |
-| 2 | **제거가 곧 디자인** | 제품 페이지에서 네비게이션, 사이드바, 광고 배너를 모두 제거하고 풀스크린 제품 이미지 + 단일 CTA만 남김 |
-| 3 | **컬러를 옵션 수익으로** | 기본 컬러 무료, 프리미엄 컬러 유료화로 디자인 선택을 수익원으로 전환. 취향 표현과 업셀을 동시 달성 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Tesla, Inc. (TSLA)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

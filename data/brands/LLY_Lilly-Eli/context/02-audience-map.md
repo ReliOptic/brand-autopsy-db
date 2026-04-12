@@ -1,114 +1,84 @@
-# 02. 오디언스 맵 — Eli Lilly (LLY) / Mounjaro·Zepbound
+# 02. Audience Map — Lilly (Eli) (LLY)
 
-## 오디언스 계층 구조
-
-```
-Primary (처방 결정권자)
-├── 의료 전문가 (HCP): 내분비과·가정의학과·비만 전문의
-└── 환자 (Patient): 2형 당뇨 + 비만/과체중 동반 성인
-
-Secondary (영향력 행사자)
-├── 보호자 / 가족
-├── 의료보험사 (PBM/페이어)
-└── 약사
-
-Tertiary (생태계 지지자)
-├── 헬스케어 미디어 / KOL (오피니언 리더 의사)
-├── 환자 옹호 단체
-└── 투자자 / 애널리스트
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — "대사 위기의 직장인" (환자)
-
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 박지수, 44세 |
-| 직업 | 중간관리자, 주 60시간 근무 |
-| 거주지 | 서울 강남구 |
-| BMI | 31.2 (비만 1단계) |
-| 동반 질환 | 2형 당뇨 초기, 고혈압, 지방간 |
-| 소득 | 연 8,000만 원 |
-| 디지털 리터러시 | 높음 — 유튜브·인스타그램 헬스 콘텐츠 적극 소비 |
-| 핵심 페인포인트 | "운동할 시간이 없다. 여러 다이어트를 시도했지만 요요가 반복된다. 당뇨 약은 먹기 싫다." |
-| 정보 탐색 경로 | 유튜브 내분비과 전문의 채널 → 네이버 카페(비만·당뇨 커뮤니티) → 병원 예약 |
-| 구매 동기 | "한 번에 혈당과 체중을 잡고 싶다. 검증된 약이면 돈을 낼 의향이 있다." |
-| 장벽 | 높은 약가, 주사 기피감, 부작용 우려 (구역감) |
-| Mounjaro/Zepbound 접점 | 내분비과 의사 처방 → DTC 광고 → 지인 추천 |
-| 메시지 공명 포인트 | "이중 작용으로 혈당과 체중을 동시에 관리", "임상에서 평균 22.5% 체중 감소" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in pharmaceuticals. B2C: End consumers of health care products and services. (T4_INFERRED from Lilly (Eli)'s segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Lilly (Eli)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "비만 치료 전문의" (HCP)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 김민준, 48세 |
-| 전문 분야 | 내분비내과 / 비만 클리닉 |
-| 근무지 | 서울 아산병원 또는 대형 비만 전문 클리닉 |
-| 처방 패턴 | 월 40~80건 GLP-1 계열 처방 |
-| 학술 활동 | 대한비만학회 정회원, 학회지 논문 정기 구독 |
-| 핵심 관심사 | "약제 안전성·내약성, 환자 순응도, 보험 급여 가능성" |
-| 정보 탐색 경로 | PubMed 임상 논문 → Lilly 메디컬 어페어 담당자 면담 → 학회 심포지엄 |
-| Mounjaro 채택 동기 | SURPASS/SURMOUNT 임상 우월성 데이터, 경쟁 대비 체중 감량폭 |
-| 처방 장벽 | 환자 비용 부담, 국내 급여 기준 제한, 공급 부족 이슈 |
-| 원하는 지원 | 상세 처방 가이드, 환자 교육 자료, 급여 심사 지원 문서 |
-| 메시지 공명 포인트 | "GIP+GLP-1 이중 기전으로 단독 GLP-1 대비 추가적 체중 감소", "SURMOUNT-1: 72주 22.5% 감소" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Lilly (Eli) customer organization
+- **Core pain**: Needs reliable pharmaceuticals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Lilly (Eli) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "웰니스 인플루언서 & 얼리어답터" (2차 오디언스)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 (가상) | 이서연, 34세 |
-| 직업 | 피트니스·헬스 인플루언서 (인스타그램 팔로워 12만) |
-| 거주지 | 서울 마포구 |
-| 건강 프로파일 | 비만은 아니나 복부 지방 고민, 혈당 스파이크 관심 |
-| 디지털 행동 | 헬스·바이오해킹 트렌드 선도, 틱톡·유튜브 숏폼 생산 |
-| 핵심 관심사 | "최신 의료 기술·GLP-1 트렌드 팔로우, 팔로워에게 정보 제공" |
-| Mounjaro 접점 | 미국 GLP-1 트렌드 콘텐츠 → 국내 의사 인터뷰 기획 → 팔로워 Q&A |
-| 역할 | 브랜드 인식 확산, 의사 상담 유입 트리거 |
-| 리스크 | 오프라벨 사용 조장 가능성, 규제 이슈 |
-| 메시지 공명 포인트 | "과학적으로 검증된 대사 건강 솔루션", "단순 체중 감량이 아닌 대사 리셋" |
+- **Age / Occupation**: 35, technical professional who interacts with Lilly (Eli)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Lilly (Eli) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 크기 (추정) | 구매 의향 | 브랜드 인지도 | 우선순위 |
-|---------|-----------|---------|------------|--------|
-| 2형 당뇨 + 비만 성인 (국내) | 약 200만 명 | 높음 | 중간 | ★★★★★ |
-| 비만 단독 성인 (BMI≥30) | 약 300만 명 | 중간 | 낮음 | ★★★★☆ |
-| 내분비·비만 전문의 | 약 3,000명 | — (처방) | 높음 | ★★★★★ |
-| 가정의학과·내과 의사 | 약 20,000명 | — (처방) | 중간 | ★★★★☆ |
-| 헬스 인플루언서/미디어 | 약 5,000명 | — (영향) | 중간 | ★★★☆☆ |
+- **Age / Occupation**: 38, consumer who interacts with Lilly (Eli)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Lilly (Eli) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 고객 여정 맵 (Patient Journey)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 관심 → 고려 → 처방 → 순응 → 유지
-  |        |        |        |        |       |
-유튜브   네이버   병원 방문  의사 처방  주사 교육  리필 처방
-광고     검색    예약      (HCP 판단)  부작용   장기 관리
-DTC     커뮤니티  보험 확인           모니터링  커뮤니티
-        리뷰                                  재진
-```
-
-**핵심 전환 포인트:** 의사 처방 → 첫 주사 완료 (장벽: 주사 기피, 비용)
-**이탈 포인트:** 구역감 등 초기 부작용, 약가 부담, 공급 부족
+| Stage | Lilly (Eli)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Lilly (Eli) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 오디언스 특성 (국내 기준)
+## Anti-Persona — Who Lilly (Eli) Is Not For
 
-| 지역 | 특성 | 채널 선호 |
-|------|------|---------|
-| 서울·수도권 | 얼리어답터, 고소득, 정보 민감 | 유튜브·인스타그램·대형병원 |
-| 부산·광역시 | 의사 신뢰도 높음, 口 추천 중심 | 지역 병원·TV·카카오 |
-| 기타 지방 | 접근성 제한, 온라인 정보 의존 | 네이버·카카오·원격 상담 |
+| Type | Characteristics | Why Lilly (Eli) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Lilly (Eli)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Lilly (Eli)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Lilly (Eli)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Lilly (Eli)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Lilly (Eli)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

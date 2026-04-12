@@ -1,114 +1,84 @@
-# 02. 오디언스 맵 — Boeing (BA)
+# 02. Audience Map — Boeing (BA)
 
-## 오디언스 계층 개요
-
-Boeing의 커뮤니케이션 대상은 B2C가 아닌 **B2G(정부)·B2B(항공사·방산기업)·B2I(투자자)** 3축으로 구성된다. 일반 소비자는 간접 오디언스(항공 여객)로 분류된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 방산 조달 책임자
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 국방부 항공기 조달 국장 — 박진수 (55세)
-
-| 항목 | 내용 |
-|------|------|
-| 직책 | 방위사업청 항공기계획부 국장 (한국 유사 직군 기준) |
-| 연령 | 52–58세 |
-| 배경 | 공군 출신, 전투기 조종사 → 군수 행정 전환 |
-| 의사결정 권한 | 연간 수조 원 규모 항공기·무기 시스템 도입 예산 통제 |
-| 핵심 관심사 | 납기 준수, 기술이전(ToT), 운용 지속지원(In-Service Support), 상호운용성 |
-| 정보 채널 | 국방 컨퍼런스, DSEI·Paris Air Show, 공식 브리핑, 방사청 내부 보고서 |
-| 고통점 | 납기 지연 시 국회 감사 리스크, 기술이전 협상 복잡성, 유지보수 부품 공급망 불안 |
-| Boeing과의 관계 | F-15EX·AH-64E·P-8 등 플랫폼 도입 협상 창구 |
-| 구매 동기 | 미국 정부 승인 플랫폼의 동맹국 신호, 검증된 전투 실적 |
-| 브랜드 기대 | 계약 이행 능력, 기술 지원 지속성, 정치적 안정성 |
-
-**커뮤니케이션 전략:**
-- 언어: 기술 규격서·성능 데이터·운용 사례 중심
-- 채널: 방산 전시회, 1:1 정부 브리핑, 공식 제안서
-- 핵심 메시지: "임무 준비태세(Mission Readiness)와 생애주기 지원(Lifecycle Support)"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from Boeing's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Boeing's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 항공사 기재 구매 담당 임원
+## Core Personas
 
-### 페르소나: 대형 항공사 Fleet Planning 부사장 — Sarah Mitchell (48세)
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | 글로벌 대형 항공사 VP, Fleet Strategy & Procurement |
-| 연령 | 45–52세 |
-| 배경 | 항공공학 학사 + MBA, 항공사 운항본부 → 전략기획 |
-| 의사결정 권한 | 10–15년 기재 도입 계획, 수십억 달러 발주 결정 참여 |
-| 핵심 관심사 | 연료 효율(CASM), 납기 확실성, 유지보수 비용(MRO), 승객 경험 차별화 |
-| 정보 채널 | IATA 컨퍼런스, Aviation Week, 파리·싱가포르 에어쇼, OEM 직접 브리핑 |
-| 고통점 | 787 납기 지연으로 인한 노선 계획 차질, 737 MAX 재인증 불확실성 |
-| Boeing과의 관계 | 737 MAX·777X·787 도입 협상 및 기존 기재 운용 관리 |
-| 구매 동기 | 에어버스 대비 가격 경쟁력, 기존 조종사 자격 호환, 서비스 네트워크 |
-| 브랜드 기대 | 납기 신뢰성 회복, 투명한 품질 소통, 비용 예측 가능성 |
-
-**커뮤니케이션 전략:**
-- 언어: 재무 모델(TCO), 연료 절감 데이터, 가동률(Dispatch Reliability) 통계
-- 채널: 에어쇼 부스, 커스터머 서비스 포털, 기술 세미나
-- 핵심 메시지: "777X의 경제성·787의 승객 경험·MAX의 운영 효율"
+- **Age / Occupation**: 42, VP-level or director in a Boeing customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Boeing selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 기관 투자자 애널리스트
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 항공우주 섹터 펀드매니저 — 이준혁 (42세)
-
-| 항목 | 내용 |
-|------|------|
-| 직책 | 대형 자산운용사 Industrials 섹터 포트폴리오 매니저 |
-| 연령 | 38–46세 |
-| 배경 | 기계공학 학사 + CFA, 항공우주 산업 커버리지 10년 |
-| 의사결정 권한 | 수천억 원 규모 BA 지분 포지션 결정 |
-| 핵심 관심사 | FCF 회복 시점, 수주잔고(Backlog) 소진 속도, 품질 위기 법적 비용, 777X 인증 일정 |
-| 정보 채널 | 어닝콜, 투자자의날(Investor Day), SEC 공시, 항공우주 전문 미디어 |
-| 고통점 | 경영진 가이던스 신뢰성 부재, 반복되는 실적 하향, 노조 파업 리스크 |
-| Boeing과의 관계 | 주주·채권자 포지션, ESG 점수 추적 |
-| 구매 동기 | 방산 백로그 안정성, 상용기 사이클 회복 베팅 |
-| 브랜드 기대 | 경영진 메시지 일관성, 구체적 수치 가이던스, 투명한 문제 공개 |
-
-**커뮤니케이션 전략:**
-- 언어: FCF 가이던스, 백로그 단위, EBIT 마진, 인증 마일스톤
-- 채널: 어닝콜, NDR(Non-Deal Roadshow), IR 포털
-- 핵심 메시지: "회복 로드맵의 투명성과 수주잔고 4,500억 달러의 장기 가치"
+- **Age / Occupation**: 35, technical professional who interacts with Boeing's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Boeing selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 2차 오디언스 (Secondary Audiences)
+### Persona 3 — Financial Stakeholder / Investor
 
-| 오디언스 그룹 | 관계 유형 | 핵심 관심사 |
-|--------------|----------|------------|
-| 항공 여객 | 간접 소비자 | 안전, 편안함 |
-| 공급망 파트너 (Spirit AeroSystems 등) | B2B | 발주 안정성, 대금 지급 |
-| 미 연방항공청(FAA) | 규제기관 | 인증 절차 준수, 투명한 데이터 제출 |
-| 미 의회·국방부 | 정책입안자 | 미국 제조 일자리, 방산 공급망 |
-| 보잉 직원 (15만 명+) | 내부 이해관계자 | 고용 안정, 문화 변화, 안전 문화 |
-| 미디어·NGO | 감시자 | 안전 기록, ESG 성과, 노동 관행 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Boeing's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Boeing selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스 여정 맵 (B2B 기재 구매 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인식 → 관심 → 평가 → 협상 → 구매 → 운용 → 재발주
- │       │       │       │       │      │       │
-에어쇼  기술    TCO    계약    납품  MRO   업그레
-발표   브리핑  분석   협상    검수  지원  이드 제안
-```
+| Stage | Boeing's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Boeing total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 오디언스 고통점 우선순위 매트릭스
+## Anti-Persona — Who Boeing Is Not For
 
-| 고통점 | 빈도 | 심각도 | 대응 우선순위 |
-|--------|------|--------|--------------|
-| 납기 지연 | 매우 높음 | 매우 높음 | P0 |
-| 품질 결함 이슈 | 높음 | 매우 높음 | P0 |
-| 경영진 메시지 불일치 | 높음 | 높음 | P1 |
-| 기술이전 협상 복잡성 | 중간 | 높음 | P1 |
-| MRO 부품 공급망 불안 | 중간 | 중간 | P2 |
-| ESG 성과 미흡 | 낮음 | 중간 | P3 |
+| Type | Characteristics | Why Boeing Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Boeing's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Boeing's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Boeing's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Boeing's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Boeing's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

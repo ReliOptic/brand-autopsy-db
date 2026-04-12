@@ -1,210 +1,141 @@
-# 06 채널 플레이북 — Dollar General (DG)
+# 06. Channel Playbook — Dollar General (DG)
 
-## 채널 전략 개요
-
-> "고객이 있는 곳에서, 고객이 원하는 방식으로, 가장 가까운 가격 정보를 전달한다."
-
-DG의 채널 전략은 **오프라인 점포 중심** + **디지털 보조** 구조다.
-온라인 쇼핑 플랫폼 구축보다 디지털을 오프라인 방문 유도 도구로 활용하는 것이 핵심 철학이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 생태계 맵
+## 1. Channel Strategy Matrix
 
-```
-[인지]          [고려]          [구매]         [유지]
-  │               │               │               │
-TV광고          DG앱 쿠폰       점포 방문       DG앱 재방문
-Facebook        이메일 딜       DG GO! 셀프    이메일 리텐션
-라디오(농촌)    Facebook 세일   계산대 업셀     Push 알림
-전단지(지역)    입소문          직원 추천       주간 딜 이메일
-간판(오프라인)  Google 검색
-```
-
----
-
-## 채널별 상세 플레이북
-
-### 채널 1: 오프라인 점포 (Core Channel)
-
-**역할**: 브랜드 경험의 98% 발생 지점. 모든 디지털 채널의 최종 목적지.
-
-| 요소 | 내용 |
-|------|------|
-| 점포 포맷 | 평균 7,400 sq ft 소형 (공식) |
-| 입지 전략 | 인구 20,000명 이하 타운, 경쟁사 공백 지역 우선 (공식) |
-| 운영 모델 | 소규모 직원(평균 5~7명/점포) (추정) |
-| 레이아웃 | 직선 통로, 카테고리별 명확한 구분, 계산대 집중 교차 판매 |
-| 가격 사이니지 | EDLP 황색 태그 + 세일 레드 태그 이중 시스템 |
-
-**KPI (추정)**
-- 고객 체류 시간: 평균 10~15분
-- 점포당 일 방문객: 200~400명
-- 객단가: $15~25
-
-**점포 내 전술**
-- 엔드캡 = 가장 비싼 광고 공간, 시즌·고마진 제품 배치
-- 계산대 주변 임펄스 구매 유도 소형 제품 집중
-- DG GO! 앱 연동 셀프체크아웃으로 줄 대기 마찰 제거
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 채널 2: DG 앱 (Digital Core)
+## 2. Channel Tone Variations
 
-**역할**: 쿠폰 배포 → 점포 방문 유도 → 구매 전환 파이프라인
+Dollar General's core voice adjusts by channel while maintaining brand coherence.
 
-| 요소 | 내용 |
-|------|------|
-| 주요 기능 | 디지털 쿠폰 클리핑, DG GO! 스캔, 주간 딜, 쇼핑 리스트 (공식) |
-| 사용자 수 | 수백만 활성 사용자 (추정) |
-| 주 타깃 | 린다 페르소나 — 예산 관리 주도 여성 쇼퍼 |
-| 인게이지먼트 | 주 2~3회 앱 오픈, 쿠폰 클리핑 세션 (추정) |
-
-**콘텐츠 운영 전술**
-- 매주 수요일 신규 쿠폰 업로드 (추정) → 주간 루틴 형성
-- 개인화 알림: 구매 이력 기반 카테고리 타깃
-- "오늘만" 플래시 딜로 즉각 방문 유도
-- 쿠폰 만료 D-1 리마인더 푸시
-
-**앱 퍼널**
-```
-앱 설치 → 쿠폰 클리핑 → 점포 방문 → 스캔 적용 → 절약 확인 → 재방문
-```
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 채널 3: Facebook (소셜 주력)
+## 3. Cross-Channel Synergy Map
 
-**역할**: 핵심 오디언스(25~55세 농촌 여성) 도달 + 커뮤니티 감성 구축
+### Route A — Product/Service Launch Sequence
 
-| 요소 | 내용 |
-|------|------|
-| 포스팅 빈도 | 주 3~5회 (추정) |
-| 콘텐츠 믹스 | 세일 알림 50% / 시즌 콘텐츠 30% / 커뮤니티 감성 20% (추정) |
-| 광고 유형 | 타깃 지역 세일 알림, 앱 설치 유도, 계절 프로모션 |
-| 커뮤니티 관리 | 댓글 응답, 지역 사용자 생성 콘텐츠 공유 |
-
-**Facebook 포스팅 공식**
 ```
-[가격/혜택 헤드라인]
-[제품 이미지 or 세일 그래픽]
-[짧은 바디: 1~2문장, 구체적 혜택]
-[CTA: "앱에서 클립하세요" / "오늘 방문하세요"]
-[해시태그: #DollarGeneral #Save #Everyday]
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
 ```
 
-**Facebook 금기**
-- 논쟁적 뉴스·정치 댓글 달기 금지
-- 경쟁사 직접 비교 게시 금지
-- 재고 없는 상품 프로모션 금지 (신뢰 손상)
+### Route B — Thought Leadership Pipeline
 
----
-
-### 채널 4: TV 광고 (Mass Awareness)
-
-**역할**: 농촌 지역 도달률 유지, 브랜드 인지·감성 연결
-
-| 요소 | 내용 |
-|------|------|
-| 주 노출 채널 | 지역 케이블, 네트워크 TV (공식) |
-| 시간대 | 낮 시간대 + 프라임타임 혼합 (추정) |
-| 광고 포맷 | 30초 스팟, 시즌별 15초 버전 |
-| 예산 비중 | 전체 마케팅의 30~40% 추정 (추정) |
-
-**TV 광고 크리에이티브 공식**
-1. 오프닝: 공감 가능한 일상 문제 상황 (예: "이번 달 식비가 빡빡해")
-2. 전개: DG 방문 → 원하는 제품 + 낮은 가격 발견
-3. 클로즈: 가격 강조 + 슬로건 + DG 로고
-
-**방영 시즌 우선순위**
-- 신학기 (7~9월): 학용품·의류 집중
-- 연말 시즌 (11~12월): 선물·식품·데코
-- 세금 환급 시즌 (2~3월): 가전·대형 가정용품
-
----
-
-### 채널 5: 이메일 마케팅
-
-**역할**: 앱 미사용 고객 재활성화 + 주간 딜 알림
-
-| 요소 | 내용 |
-|------|------|
-| 발송 빈도 | 주 1~2회 (추정) |
-| 세그먼트 | 구매 빈도, 카테고리 선호, 지역별 (추정) |
-| 오픈율 목표 | 20~25% (소매 업계 평균 대비 유사, 추정) |
-
-**이메일 구조 템플릿**
 ```
-제목: [이번 주 최대 절약] + [구체적 혜택]
-프리헤더: 앱 쿠폰 클리핑 유도
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-[히어로 이미지: 주간 최고 딜]
-[섹션 1: 이번 주 Top 5 딜]
-[섹션 2: 시즌 추천 카테고리]
-[섹션 3: 앱 쿠폰 CTA]
-[푸터: 언서브스크라이브 + 점포 찾기]
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-### 채널 6: 지역 라디오 + 전단지 (농촌 전통 미디어)
+## 4. Channel-Specific Prohibitions
 
-**역할**: 디지털 접근성 낮은 농촌 고령층 도달
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 요소 | 내용 |
-|------|------|
-| 라디오 | 지역 컨트리·뉴스 라디오 30초 스팟 (추정) |
-| 전단지 | 지역 신문 삽지, 주간 세일 정보 (추정) |
-| 대상 | 55세+ 스마트폰 비활성 사용자, 고령 독거층 |
-| 톤 | 친근한 지역 방언·어조 반영 (추정) |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-## 채널 통합 전략 — Flywheel 모델
-
-```
-        [TV/라디오]
-        브랜드 인지
-             │
-    ┌────────▼────────┐
-    │   Facebook/이메일  │
-    │  세일 정보·쿠폰 알림  │
-    └────────┬────────┘
-             │
-    ┌────────▼────────┐
-    │     DG 앱       │
-    │  쿠폰 클리핑·저장  │
-    └────────┬────────┘
-             │
-    ┌────────▼────────┐
-    │    점포 방문     │
-    │  구매 완료·절약 확인 │
-    └────────┬────────┘
-             │
-    ┌────────▼────────┐
-    │  재방문·구전 확산  │◄──── 커뮤니티 공유
-    └─────────────────┘
-```
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 KPI 프레임워크
+## 5. Crisis Response Protocol
 
-| 채널 | 주요 KPI | 목표 지표 (추정) |
-|------|----------|---------------|
-| 점포 | 일 방문객, 객단가, 전환율 | 방문당 $18+ |
-| DG 앱 | MAU, 쿠폰 클리핑률, 점포 연동 구매 | 클리핑 → 사용 50%+ |
-| Facebook | 도달, 참여율, 앱 설치 CPA | 참여율 3%+ |
-| TV | GRP, 브랜드 인지 상승, 점포 방문 상관 | 시즌 GRP 200+ |
-| 이메일 | 오픈율, CTR, 앱 연동 쿠폰 사용 | CTR 5%+ |
-| 라디오/전단 | 지역 점포 방문 증분 | 캠페인 기간 +5% |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## Steal Sheet — 채널 플레이북 레이어
+## 6. Steal Sheet — 3 Transferable Principles
 
-| # | 훔칠 것 | 적용 방법 |
-|---|---------|----------|
-| 1 | **디지털을 방문 유도 도구로만 활용** | DG는 온라인 판매 대신 앱·소셜을 오프라인 방문 유도 파이프라인으로만 운영한다. 오프라인 비즈니스라면 디지털 채널의 역할을 "전환" 대신 "방문 유도"로 재정의하면 투자 효율이 크게 높아진다. |
-| 2 | **Flywheel 구조로 채널 설계** | 각 채널이 독립 실행이 아니라 다음 단계를 유도하는 플라이휠을 만들면 고객 이탈 지점이 줄고 반복 방문이 자동화된다. 채널 맵에 "다음 단계 CTA"를 항상 포함하라. |
-| 3 | **전통 미디어를 버리지 말 것** | 타깃 오디언스에 55세+ 농촌층이 포함된다면 라디오·전단지는 여전히 유효하다. 디지털 퍼스트 전략이 특정 세그먼트를 소외시키는지 항상 점검하고, 세그먼트별 채널을 병행 운영하라. |
+**1. Align channel formality with audience expectations.**
+Dollar General's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Dollar General's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Dollar General's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

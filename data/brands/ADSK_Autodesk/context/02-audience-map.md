@@ -1,95 +1,84 @@
-# 02. 오디언스 맵 — Autodesk (ADSK)
+# 02. Audience Map — Autodesk (ADSK)
 
-> 상태 표기: (공식) = 공개 자료 근거 / (추정) = 분석·추론
-
----
-
-## 2-1. 세그먼트 개요
-
-| 세그먼트 | 비중 (추정) | 주요 제품 |
-|----------|------------|-----------|
-| AEC (건축·엔지니어링·건설) | ~45% | Revit, AutoCAD, Civil 3D, ACC |
-| 제조 (D&M) | ~35% | Fusion 360, Inventor, AutoCAD |
-| 미디어·엔터테인먼트 | ~10% | Maya, 3ds Max, Arnold |
-| 교육 | ~10% | 전 제품군 무료 라이선스 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2-2. 바이어 여정 (B2B SaaS)
+## Ideal Customer Profile (ICP)
 
-```
-인식 → 관심 → 평가 → 구매 → 온보딩 → 확장 → 옹호
-  ↑                              ↑              ↑
-콘텐츠·                     영업팀·            커뮤니티·
-이벤트                      무료체험           인증 프로그램
-```
-
----
-
-## 2-3. 페르소나
-
-### 페르소나 1: 건축 설계사 김민준 (AEC 전문가)
-
-| 항목 | 내용 |
-|------|------|
-| 나이·직책 | 38세, 중견 건축사무소 BIM 매니저 |
-| 학력 | 건축학과 졸업, Revit 공인 전문가(RCP) |
-| 사용 제품 | Revit, AutoCAD Architecture, Navisworks, ACC |
-| 핵심 목표 | 다학제 팀 협업 오류 제로화, 납기 단축 |
-| 페인 포인트 | 서로 다른 포맷 간 IFC 충돌, 라이선스 비용 정당화 압박 (추정) |
-| 정보 채널 | Autodesk University, LinkedIn, BIM 포럼 |
-| 구매 영향력 | 소프트웨어 선정 위원회에 강력한 의견 제시 |
-| 성공 지표 | RFI 감소율, 재작업 비용 절감 % |
-| 한 줄 인사이트 | "도구가 협업을 막으면 설계가 망가진다" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in application software and adjacent industries. (T4_INFERRED from Autodesk's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Autodesk's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 제조 엔지니어 Sarah Chen (D&M 전문가)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직책 | 32세, 중소 제조기업 기계설계 엔지니어 |
-| 학력 | 기계공학 석사, Fusion 360 헤비유저 |
-| 사용 제품 | Fusion 360 (CAD/CAM/CAE 통합), EAGLE |
-| 핵심 목표 | 설계→시뮬레이션→가공 원스톱 처리, 반복 시제품 비용 절감 |
-| 페인 포인트 | 클라우드 저장 지연, 대형 어셈블리 성능 한계 (추정) |
-| 정보 채널 | YouTube 튜토리얼, Autodesk Forums, Reddit r/fusion360 |
-| 구매 영향력 | 팀 구독 갱신 결정에 직접 관여 |
-| 성공 지표 | 시제품 사이클 타임, CAM 경로 오류율 |
-| 한 줄 인사이트 | "CAD·CAM·CAE가 하나여야 시간을 번다" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Autodesk customer organization
+- **Core pain**: Needs reliable application software solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Autodesk selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: IT 구매 담당자 이성호 (경제적 의사결정자)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직책 | 45세, 대기업 IT/소프트웨어 구매팀장 |
-| 학력 | 경영정보학과, PMP 자격 보유 |
-| 사용 제품 | Autodesk Account 관리 포털, Token Flex |
-| 핵심 목표 | 라이선스 최적화, 총소유비용(TCO) 최소화, 규정 준수 |
-| 페인 포인트 | 좌석 수 vs 실사용자 미스매치, 구독 갱신 협상력 부족 (추정) |
-| 정보 채널 | Gartner 리포트, 내부 IT 벤더 평가 프로세스 |
-| 구매 영향력 | 최종 계약 서명 권한 보유 |
-| 성공 지표 | 라이선스 활용률, 소프트웨어 감사 리스크 |
-| 한 줄 인사이트 | "쓰지 않는 라이선스는 낭비다" |
+- **Age / Occupation**: 35, technical professional who interacts with Autodesk's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Autodesk selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 2-4. 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 페르소나 | 주요 메시지 | 콘텐츠 형식 | 전환 트리거 |
-|----------|------------|------------|------------|
-| 김민준 (BIM 매니저) | 협업 오류 제거, IFC 호환성 | 케이스 스터디, 웨비나 | 경쟁사 대비 충돌 감지율 비교 |
-| Sarah Chen (엔지니어) | 통합 워크플로, 가공 시간 단축 | 튜토리얼 영상, 무료 체험 | 30일 무료 → 유료 전환 |
-| 이성호 (구매팀장) | TCO 절감, 규정 준수 자동화 | ROI 계산기, 백서 | ELA 계약 유연성 제안 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Autodesk's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Autodesk selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 2-5. Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 훔칠 것 | 구체적 적용법 |
-|---|---------|--------------|
-| 1 | **기술 사용자 ↔ 경제적 의사결정자 이중 공략** | 동일 제품에 대해 엔지니어 대상 "기능 깊이" 메시지와 구매팀 대상 "TCO/ROI" 메시지를 별도 제작. 하나의 랜딩 페이지에서 역할별 분기 |
-| 2 | **무료 교육 라이선스로 미래 페르소나 선점** | 학생·교수에게 전 제품군 무료 제공 → 졸업 후 업무 현장에서 Autodesk를 기본값으로 인식. 장기 브랜드 락인 |
-| 3 | **커뮤니티 포럼을 오디언스 인사이트 수집 채널로 활용** | Reddit, 공식 포럼의 페인 포인트 스레드를 정기 모니터링 → 페르소나 업데이트 및 콘텐츠 주제 발굴 |
+| Stage | Autodesk's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Autodesk total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Autodesk Is Not For
+
+| Type | Characteristics | Why Autodesk Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Autodesk's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Autodesk's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Autodesk's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Autodesk's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Autodesk's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

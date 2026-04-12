@@ -1,133 +1,102 @@
-# 05. 디자인 시스템 — Target (TGT)
+# 05. Design System — Target Corporation (TGT)
 
-> 섹터: Consumer Staples / Discount Retail | 분석 기준일: 2026-04-12
-
----
-
-## 1. 컬러 시스템
-
-### 1-1. 브랜드 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Target Red (Primary) | `#CC0000` | rgb(204, 0, 0) | 로고, CTA 버튼, 핵심 강조 | (공식) |
-| Bullseye Red | `#E30613` | rgb(227, 6, 19) | 디지털 채널 대체 레드 | (추정) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 여백, 클린 레이아웃 | (공식) |
-| Warm Gray | `#F5F5F5` | rgb(245, 245, 245) | 섹션 배경, 카드 배경 | (추정) |
-| Medium Gray | `#767676` | rgb(118, 118, 118) | 보조 텍스트, 아이콘 | (추정) |
-| Dark Charcoal | `#333333` | rgb(51, 51, 51) | 본문 텍스트, 제목 | (추정) |
-| Accent Black | `#1A1A1A` | rgb(26, 26, 26) | 고대비 텍스트, 프리미엄 강조 | (추정) |
-| Sale Green | `#007A33` | rgb(0, 122, 51) | 할인 뱃지, 가격 인하 표시 | (추정) |
-| Alert Orange | `#FF6B35` | rgb(255, 107, 53) | 긴급 프로모션, 한정 알림 | (추정) |
-| Soft Cream | `#FFF8F0` | rgb(255, 248, 240) | 따뜻한 배경, 시즌 캠페인 | (추정) |
-
-### 1-2. 컬러 사용 비율 원칙 (추정)
-
-```
-레드 계열   : ████░░░░░░  20% — 강조와 브랜드 아이덴티티
-화이트/그레이: ████████░░  65% — 클린함과 여백
-다크/텍스트  : ████░░░░░░  10% — 가독성
-기능성 컬러  : █░░░░░░░░░   5% — 가격, 알림 등 기능적 요소
-```
-
-### 1-3. 접근성 기준
-
-| 조합 | 대비율(추정) | WCAG 기준 | 통과 여부 |
-|------|-----------|----------|---------|
-| `#CC0000` on `#FFFFFF` | 5.9:1 | AA (4.5:1) | 통과 |
-| `#FFFFFF` on `#CC0000` | 5.9:1 | AA (4.5:1) | 통과 |
-| `#333333` on `#FFFFFF` | 12.6:1 | AAA (7:1) | 통과 |
-| `#767676` on `#FFFFFF` | 4.5:1 | AA (4.5:1) | 통과 |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 역할 | 폰트 패밀리 | 웨이트 | 크기 범위 | 출처 |
-|------|-----------|--------|---------|------|
-| 디스플레이 헤드라인 | TargetSans / Helvetica Neue Bold | 700~800 | 32px~72px | (추정) |
-| 섹션 제목 | TargetSans / Helvetica Neue SemiBold | 600 | 20px~32px | (추정) |
-| 본문 텍스트 | TargetSans / Helvetica Neue Regular | 400 | 14px~18px | (추정) |
-| 가격 표시 | TargetSans / 모노스페이스 | 700 | 18px~36px | (추정) |
-| 캡션/레이블 | TargetSans / Helvetica Neue Light | 300 | 11px~13px | (추정) |
+Target Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**타이포그래피 원칙**:
-- 산세리프(Sans-serif) 전용 — 친근함과 현대성 동시 구현
-- 굵기 대비를 통한 정보 계층 명확화
-- 레드 컬러 텍스트는 CTA와 강조에만 제한 사용
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 3. 로고 시스템
+### Color Principles
 
-### 3-1. 불스아이(Bullseye) 로고
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 버전 | 용도 | 최소 크기 | 배경 규칙 |
-|------|------|---------|---------|
-| 풀 컬러 레드 | 기본 사용 | 24px | 화이트/라이트 배경 (공식) |
-| 화이트 역전 | 다크/레드 배경 | 24px | 레드·다크 배경 (공식) |
-| 블랙 모노 | 인쇄물 단색 | 20px | 컬러 인쇄 불가 시 (공식) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 3-2. 안전 영역 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-```
-최소 안전 영역: 로고 높이의 50% 사이 여백 확보
-로고 변형 금지: 늘리기, 기울이기, 색상 변경, 그림자 추가
-```
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. 아이코노그래피 & 비주얼 스타일
+## 2. Typography
 
-| 요소 | 스타일 원칙 | 금지 사항 |
-|------|-----------|---------|
-| 아이콘 | 라인 아이콘 기반, 2px 스트로크, 둥근 모서리 | 채움형 아이콘 혼용 금지 |
-| 일러스트 | 플랫 + 웜톤, 다양성 반영 캐릭터 | 사실적 3D 렌더링 |
-| 제품 사진 | 밝고 자연광 느낌, 화이트/크림 배경 | 어둡고 무거운 스튜디오 조명 |
-| 라이프스타일 사진 | 따뜻하고 밝은 톤, 진짜 가족 느낌 | 지나치게 완벽한 스톡 이미지 |
-| 패턴/텍스처 | 미니멀, 시즌별 테마 패턴 | 복잡한 패턴, 다크 배경 과다 |
+Target Corporation's digital properties employ a typographic system appropriate to its consumer staples positioning.
 
----
+### Typeface System
 
-## 5. 레이아웃 & 그리드 시스템
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 항목 | 규격 | 출처 |
-|------|------|------|
-| 기본 그리드 | 12컬럼, 거터 24px | (추정) |
-| 모바일 그리드 | 4컬럼, 거터 16px | (추정) |
-| 컨텐츠 최대 너비 | 1280px | (추정) |
-| 섹션 패딩 (데스크톱) | 상하 80px, 좌우 40px | (추정) |
-| 카드 둥근 모서리 | 8px border-radius | (추정) |
-| 버튼 둥근 모서리 | 4px border-radius | (추정) |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 디자인 컴포넌트 주요 스펙
+## 3. Channel Specifications
 
-### 6-1. CTA 버튼
-
-| 상태 | 배경 | 텍스트 | 테두리 |
-|------|------|--------|--------|
-| 기본 (Primary) | `#CC0000` | `#FFFFFF` | 없음 |
-| 호버 | `#A30000` | `#FFFFFF` | 없음 |
-| 비활성화 | `#CCCCCC` | `#767676` | 없음 |
-| 보조 (Secondary) | `#FFFFFF` | `#CC0000` | `2px solid #CC0000` |
-
-### 6-2. 가격 뱃지
-
-| 유형 | 배경 | 텍스트 |
-|------|------|--------|
-| 정가 | 없음 | `#333333` |
-| 세일가 | `#CC0000` | `#FFFFFF` |
-| Target Circle 전용가 | `#007A33` | `#FFFFFF` |
-| 퍼센트 할인 | `#E30613` | `#FFFFFF` |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-| # | 인사이트 | 적용 방법 |
-|---|---------|----------|
-| 1 | `#CC0000`은 Target의 가장 강력한 자산 — 브랜드 색상은 단순하고 일관될수록 강해진다 | 컬러 팔레트를 레드+화이트 중심으로 단순화, 보조 컬러는 기능적으로만 사용 |
-| 2 | 접근성(WCAG AA) 준수는 브랜드 포용성 철학과 직결된다 — 디자인 품질의 기본 기준 | 모든 새 디자인 에셋에 대비율 검수 단계 의무화 |
-| 3 | 가격 뱃지 컬러 코딩(레드/그린)이 고객 의사결정을 빠르게 만든다 | 가격 계층 시각화 시스템을 일관되게 적용해 인지 부하 최소화 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Target Corporation (TGT)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

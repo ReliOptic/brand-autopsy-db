@@ -1,155 +1,84 @@
-# 02. 오디언스 맵 — Colgate-Palmolive (CL)
+# 02. Audience Map — Colgate-Palmolive (CL)
 
-## 타깃 오디언스 개요
-
-Colgate-Palmolive는 구강 케어(Colgate), 홈/바디 케어(Palmolive·Softsoap), 반려동물 영양(Hill's)의 세 축으로 오디언스가 분화된다. 공통적으로 "건강 의식이 있는 일상 소비자"를 코어로 삼는다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 가족 건강 관리자
+## Ideal Customer Profile (ICP)
 
-### 페르소나 A — "꼼꼼한 엄마" 김지은 (38세)
-
-**기본 정보**
-| 항목 | 내용 |
-|------|------|
-| 나이 | 35~42세 |
-| 성별 | 여성 (주 구매 의사결정자) |
-| 거주지 | 수도권 신도시 아파트 |
-| 직업 | 직장맘 (마케터 또는 교사 등 화이트칼라) |
-| 가족 구성 | 배우자 + 자녀 1~2명 (초등학생) |
-| 월 소득 | 가구 합산 600~900만 원 |
-| 주요 쇼핑 채널 | 쿠팡 로켓배송, 네이버 쇼핑, 대형마트 |
-
-**심리적 특성**
-- 자녀 건강에 대한 높은 관여도: "치약 성분 확인 필수"
-- 가성비와 브랜드 신뢰를 동시에 요구
-- 치과 정기검진 → 치과 의사 추천 브랜드 선호
-- SNS(인스타그램, 카카오채널) 통해 육아·건강 정보 습득
-
-**브랜드 접점**
-- Colgate Total, Colgate Kids (불소 함량 확인 후 구매)
-- Softsoap 핸드워시 (주방·욕실 구비)
-- Palmolive 주방세제
-
-**페인 포인트**
-- 자녀용 치약 불소 함량·안전성 불안
-- 피부 자극 없는 저자극 바디워시 탐색
-- 너무 많은 제품 SKU → 선택 피로
-
-**메시지 훅**
-> "치과 전문가가 우리 아이에게도 추천하는 브랜드"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in household products. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Colgate-Palmolive's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Colgate-Palmolive's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 도시 싱글 웰니스 추구자
+## Core Personas
 
-### 페르소나 B — "미백 집착" 박성민 (29세)
+### Persona 1 — Enterprise Decision-Maker
 
-**기본 정보**
-| 항목 | 내용 |
-|------|------|
-| 나이 | 25~34세 |
-| 성별 | 남/여 (젠더 뉴트럴) |
-| 거주지 | 서울 1인 가구 |
-| 직업 | IT·스타트업·크리에이티브 직군 |
-| 월 소득 | 300~500만 원 |
-| 주요 쇼핑 채널 | 올리브영, 무신사 뷰티, 인스타 광고 클릭 |
-
-**심리적 특성**
-- 외모 관리를 자기투자로 인식 → 미백 치약 높은 WTP
-- "성분 덕후": 성분표 분석 후 구매 결정
-- 틱톡·유튜브 뷰티 크리에이터 영향 크게 받음
-- 지속가능성·친환경 패키징에 감수성 있음
-
-**브랜드 접점**
-- Colgate Optic White (미백 집중 라인)
-- Colgate Sensitive (데일리 사용)
-- Softsoap Body Wash
-
-**페인 포인트**
-- "진짜 미백 효과가 있는지" 과학적 근거 요구
-- 프리미엄 미백 제품 대비 Colgate의 저가 이미지
-- 인플루언서 추천 vs 임상 데이터 신뢰 갈등
-
-**메시지 훅**
-> "임상적으로 검증된 3단계 미백 시스템 — 당신의 셀카를 바꿉니다"
+- **Age / Occupation**: 42, VP-level or director in a Colgate-Palmolive customer organization
+- **Core pain**: Needs reliable household products solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Colgate-Palmolive selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 반려동물 헌신적 보호자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나 C — "펫맘" 이서연 (44세)
-
-**기본 정보**
-| 항목 | 내용 |
-|------|------|
-| 나이 | 35~55세 |
-| 성별 | 여성 (Hill's 주 구매층) |
-| 거주지 | 수도권·광역시 |
-| 직업 | 중간 관리직·프리랜서 |
-| 반려동물 | 고양이 1~2마리 또는 소형견 |
-| 월 소득 | 500~800만 원 |
-| 주요 쇼핑 채널 | 동물병원 처방, 펫프렌즈, 쿠팡 |
-
-**심리적 특성**
-- 반려동물을 가족 구성원으로 인식 → 식품 성분에 인간 수준 기준 적용
-- 수의사 처방 → Hill's Prescription Diet 높은 순응도
-- 동물병원 SNS·커뮤니티(도그냥, 고양이라서 다행이야) 정보 탐색
-- "비싸도 건강하면 OK" 프리미엄 WTP 높음
-
-**브랜드 접점**
-- Hill's Science Diet (일반 라인)
-- Hill's Prescription Diet (신장·비만·알러지 처방)
-- Hill's Healthy Cuisine (습식 신제품)
-
-**페인 포인트**
-- 처방 사료 가격 부담 (일반 사료 대비 3~5배)
-- 반려동물 기호성(palatability) 불확실성
-- 대형 경쟁사(Royal Canin, Purina Pro Plan)와의 비교
-
-**메시지 훅**
-> "수의사 No.1 추천 — 처방식부터 일상식까지, 과학이 설계한 평생 영양"
+- **Age / Occupation**: 35, technical professional who interacts with Colgate-Palmolive's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Colgate-Palmolive selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 브랜드 | 관여도 | 가격 민감도 | 주요 채널 | 핵심 동기 |
-|---------|--------|--------|------------|---------|---------|
-| 가족 건강 관리자 | Colgate, Softsoap | 높음 | 중간 | 온라인 마트, 약국 | 안전성·신뢰 |
-| 도시 싱글 웰니스 | Colgate Optic White | 중간 | 낮음 (프리미엄 수용) | 올리브영, SNS | 외모·성분 |
-| 반려동물 보호자 | Hill's | 매우 높음 | 낮음 | 동물병원, 펫몰 | 건강·수의사 권고 |
-| 가격 민감 대중 | Colgate Basic | 낮음 | 높음 | 대형마트, 편의점 | 습관·가성비 |
-| 시니어 케어 | Colgate Sensitive | 높음 | 중간 | 약국, TV 광고 | 통증 완화·전문성 |
+- **Age / Occupation**: 38, consumer who interacts with Colgate-Palmolive's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Colgate-Palmolive selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 구매 여정 (Customer Journey)
+## Purchase Journey — AARRR Framework
 
-### Colgate 구강 케어 기준
+| Stage | Colgate-Palmolive's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Colgate-Palmolive total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-```
-인지 → 고려 → 구매 → 사용 → 재구매/추천
+---
 
-인지:
-  - TV 광고 (치과 의사 등장 포맷)
-  - 유튜브 프리롤 (미백·감이 포인트)
-  - 약국 선반 진열 (브랜드 블록)
+## Anti-Persona — Who Colgate-Palmolive Is Not For
 
-고려:
-  - 치과 의사 추천 (오프라인 권위 채널)
-  - 온라인 리뷰 (쿠팡·네이버 별점)
-  - 성분 비교 (불소 농도, 마모도 RDA)
+| Type | Characteristics | Why Colgate-Palmolive Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Colgate-Palmolive's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Colgate-Palmolive's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Colgate-Palmolive's full value is realized through deeper operational integration and sustained partnership. |
 
-구매:
-  - 대형마트/약국 (충동 구매 + 번들 프로모)
-  - 쿠팡 정기배송 (Lock-in 효과)
+---
 
-사용:
-  - 앱 연동 칫솔(e6/360) 사용 데이터
+## Steal Sheet — 3 Transferable Principles
 
-재구매/추천:
-  - 포인트 적립, 구독 할인
-  - 자녀에게 동일 브랜드 전수 (브랜드 세대 전수)
-```
+**1. Segment your audience by risk tolerance, not just demographics.**
+Colgate-Palmolive's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Colgate-Palmolive's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

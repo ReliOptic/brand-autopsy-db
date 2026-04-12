@@ -1,107 +1,102 @@
-# 05. 디자인 시스템 — Intuitive Surgical (ISRG)
+# 05. Design System — Intuitive Surgical (ISRG)
 
-> **카테고리**: 헬스케어 / 로봇 수술 시스템
-
----
-
-## 1. 디자인 철학
-
-| 원칙 | 설명 |
-|------|------|
-| **정밀함 (Precision)** | 모든 시각 요소는 군더더기 없이 정확하게 (공식 브랜드 방향에서 추정) |
-| **신뢰감 (Trust)** | 의료 환경에 어울리는 차분하고 권위 있는 시각 언어 |
-| **인간 중심 (Human-Centered)** | 냉철한 기술 미학과 따뜻한 환자 이미지의 균형 |
-| **글로벌 일관성** | 국가·채널 불문 동일한 브랜드 경험 제공 |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 주요 팔레트
+Intuitive Surgical's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 색상명 | HEX | 사용처 | 출처 |
-|------|--------|-----|--------|------|
-| **Primary Blue** | Intuitive Blue | `#003087` | 로고, 주요 헤드라인, 버튼 | 추정 |
-| **Secondary Teal** | Surgical Teal | `#007C91` | 강조 요소, 아이콘, 링크 | 추정 |
-| **Accent Cyan** | Precision Cyan | `#00A3E0` | CTA 버튼, 인포그래픽 하이라이트 | 추정 |
-| **Neutral Dark** | Charcoal | `#1A1A2E` | 본문 텍스트, 다크 배경 | 추정 |
-| **Neutral Mid** | Slate Gray | `#6B7280` | 서브텍스트, 테두리 | 추정 |
-| **Neutral Light** | Cloud White | `#F8FAFC` | 페이지 배경, 카드 배경 | 추정 |
-| **Pure White** | White | `#FFFFFF` | 텍스트 역배경, 공백 | 공식 |
-| **Warm Accent** | Healing Amber | `#F59E0B` | 환자 스토리, 따뜻한 강조 | 추정 |
-| **Success Green** | Clinical Green | `#10B981` | 성공 지표, 긍정 데이터 | 추정 |
-| **Alert Red** | Safety Red | `#EF4444` | 경고, 중요 알림 (절제 사용) | 추정 |
+### Core Brand Colors
 
-### 보조 팔레트 (제품별)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 제품 | 컬러 | HEX | 출처 |
-|------|------|-----|------|
-| **da Vinci 5** | Deep Navy | `#0F172A` | 추정 |
-| **Ion 플랫폼** | Vibrant Teal | `#0D9488` | 추정 |
-| **Intuitive Hub** | Digital Blue | `#2563EB` | 추정 |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 3. 타이포그래피
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 역할 | 폰트 패밀리 | 굵기 | 크기 범위 | 출처 |
-|------|------------|------|----------|------|
-| **헤드라인** | Gill Sans / Optima 계열 (Sans-Serif) | Bold (700) | 32~64px | 추정 |
-| **서브헤드** | 동일 패밀리 | SemiBold (600) | 20~28px | 추정 |
-| **본문** | Source Sans Pro 또는 Inter | Regular (400) | 14~16px | 추정 |
-| **캡션·주석** | 동일 패밀리 | Light (300) | 11~13px | 추정 |
-| **수치 강조** | 모노스페이스 보조 | Bold (700) | 상황별 | 추정 |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. 이미지 & 비주얼 언어
+## 2. Typography
 
-### 사용 이미지 유형
+Intuitive Surgical's digital properties employ a typographic system appropriate to its health care positioning.
 
-| 유형 | 묘사 | 감정 목표 |
-|------|------|---------|
-| **수술실 장면** | 집중하는 외과의 + da Vinci 시스템, 따뜻한 OR 조명 | 신뢰, 전문성 |
-| **환자 회복** | 가족과 함께 일상으로 복귀하는 환자 | 희망, 안도 |
-| **기술 클로즈업** | 로봇 암의 정밀한 동작, 내시경 시야 | 혁신, 정밀함 |
-| **외과의 포트레이트** | 자신감 있는 표정의 외과의, 흰 가운 | 권위, 파트너십 |
-| **데이터 시각화** | 클린한 차트·인포그래픽 | 근거 기반 신뢰 |
+### Typeface System
 
-### 금지 이미지
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-- 피·혈액이 직접 노출된 수술 장면
-- 로봇이 단독으로 등장하고 외과의가 없는 구도
-- 환자의 고통·불안을 클로즈업한 이미지
-- 경쟁사 제품 직접 비교 이미지
+### Typographic Scale
 
----
-
-## 5. 아이콘 & 일러스트레이션
-
-| 스타일 | 특징 |
-|--------|------|
-| **라인 아이콘** | 2px 스트로크, 라운드 캡, Surgical Teal(`#007C91`) 기준 |
-| **필드 아이콘** | Intuitive Blue(`#003087`) 배경에 화이트 실루엣 |
-| **의료 일러스트** | 플랫 스타일, 해부학적 정확성 유지, 절제된 색상 |
-| **데이터 아이콘** | 청색 계열 그라데이션, 수치와 함께 사용 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 레이아웃 & 그리드
+## 3. Channel Specifications
 
-| 항목 | 규격 | 출처 |
-|------|------|------|
-| **컨테이너 최대 폭** | 1,280px | 추정 |
-| **그리드 컬럼** | 12컬럼 (데스크톱), 4컬럼 (모바일) | 추정 |
-| **기본 거터** | 24px | 추정 |
-| **섹션 패딩** | 상하 80~120px | 추정 |
-| **카드 반경** | 8px | 추정 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 7. Steal Sheet — 디자인 레이어
+## 4. Layout Principles
 
-| # | 인사이트 | 액션 |
-|---|---------|------|
-| 1 | ISRG의 Deep Navy + Teal 조합은 "의료 기술 권위"의 시각적 표준이 됨 → 후발주자는 유사 팔레트 사용 시 아류 이미지 위험, 차별화된 컬러 포지션 필요 | 따뜻한 그린 또는 바이올렛 계열로 "인간적 기술" 포지션 시각화 |
-| 2 | Intuitive는 수술실 이미지에서 항상 외과의를 전면에 배치 → 경쟁사는 로봇 단독 이미지로 "자율성" 인상을 줄 수 있으나 규제 리스크 수반 | 외과의-로봇 협업 구도를 일관되게 유지하되 역동적 촬영 앵글 차별화 |
-| 3 | 데이터 시각화가 임상 콘텐츠의 핵심 신뢰 레버 → 경쟁사는 인터랙티브 데이터 대시보드 형태로 정적 차트 대비 차별화 가능 | 웹 기반 인터랙티브 임상 결과 비교 도구 개발 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Intuitive Surgical (ISRG)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

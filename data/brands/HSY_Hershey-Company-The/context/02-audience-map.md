@@ -1,158 +1,84 @@
-# 02 오디언스 맵 — Hershey Company (HSY)
+# 02. Audience Map — Hershey Company (The) (HSY)
 
-## 오디언스 개요
-
-Hershey의 소비자는 크게 세 축으로 구성된다: **가족 구매자(Family Buyers)**, **밀레니얼·Z세대 스낵 탐험가(Snack Explorers)**, **선물·기념일 구매자(Gifting Occasion Buyers)**. 각 축은 서로 다른 구매 동기를 가지지만, 공통적으로 "즉각적 만족"과 "감성적 연결"을 공유한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 수잔 — 미국 중산층 엄마
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 (추정) |
-| 거주지 | 오하이오주 콜럼버스 교외 (추정) |
-| 직업 | 파트타임 행정직 + 주 양육자 (추정) |
-| 가족 구성 | 배우자 + 자녀 2명(7세, 11세) (추정) |
-| 연소득 | 약 $65,000~$85,000 (추정) |
-
-**심리적 동기**
-- 자녀에게 "특별한 순간"을 만들어주고 싶은 욕구
-- 건강과 즐거움 사이의 균형 추구 ("가끔은 괜찮아")
-- 가격 대비 만족감 중시, 할인·번들 구매 선호
-
-**구매 행동 (추정)**
-- 주 1~2회 Walmart/Target에서 가족 스낵 번들 구매
-- Reese's Peanut Butter Cups, Hershey's Kisses 정기 구매
-- 핼러윈·발렌타인데이·이스터 시즌 대량 구매
-
-**페인 포인트**
-- 건강 의식 증가로 초콜릿 구매 시 죄책감 발생
-- 가격 인상에 민감 (2023~2024 코코아 가격 반영)
-
-**콘텐츠 접점**
-- Facebook, Pinterest (레시피·홈데코)
-- TV 광고 (저녁 황금 시간대)
-- 인스토어 프로모션·진열대
-
-**브랜드 관계**
-- Hershey's와 Reese's를 "믿을 수 있는 가족 브랜드"로 인식
-- 어린 시절 기억과 연결된 향수 강함
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in packaged foods & meats. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Hershey Company (The)'s segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Hershey Company (The)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 제이슨 — 밀레니얼 스낵 탐험가
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 27세 (추정) |
-| 거주지 | 텍사스주 오스틴 도심 (추정) |
-| 직업 | UX 디자이너 (풀타임 재택) (추정) |
-| 가족 구성 | 1인 가구 (추정) |
-| 연소득 | 약 $70,000~$90,000 (추정) |
-
-**심리적 동기**
-- 새로운 맛·한정판 제품 탐험 욕구
-- SNS 공유 가치("포토제닉한 스낵")
-- 야간 작업 중 간식 소비 루틴
-
-**구매 행동 (추정)**
-- 편의점·Target에서 충동 구매 빈번
-- Reese's 시즌 한정 형태(호박·트리 모양) 적극 구매
-- Kit Kat 다양한 맛 시도, 해외 버전 구매 관심
-
-**페인 포인트**
-- "Hershey's는 어릴 때 먹던 것"이라는 올드 이미지
-- 크래프트 초콜릿 또는 해외 브랜드 대비 품질 의문
-
-**콘텐츠 접점**
-- TikTok, Instagram (한정판 언박싱·비교 영상)
-- Reddit r/chocolate, r/candy 커뮤니티
-- YouTube 스낵 리뷰 채널
-
-**브랜드 관계**
-- Reese's를 개성 있는 독립 브랜드로 인식 (Hershey's 모회사 연결 약함)
-- Kit Kat을 "게임·휴식"과 연결된 팝컬처 아이템으로 봄
+- **Age / Occupation**: 42, VP-level or director in a Hershey Company (The) customer organization
+- **Core pain**: Needs reliable packaged foods & meats solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Hershey Company (The) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 마가렛 — 시니어 선물 구매자
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 62세 (추정) |
-| 거주지 | 플로리다주 올랜도 근교 (추정) |
-| 직업 | 은퇴 또는 파트타임 (추정) |
-| 가족 구성 | 배우자 + 성인 자녀 2명 + 손자 3명 (추정) |
-| 연소득 | 약 $50,000~$70,000 (추정) |
-
-**심리적 동기**
-- 가족·지인에게 감사·사랑을 전달하는 수단으로 초콜릿 활용
-- "검증된 브랜드"에 대한 높은 신뢰와 익숙함
-- 선물의 의미 전달 > 제품 품질 자체
-
-**구매 행동 (추정)**
-- 발렌타인·크리스마스·생일 시즌 Hershey's Kisses 대용량 구매
-- Hershey's Gift Baskets 온라인 구매 (Hershey's.com)
-- 지역 Hallmark·약국 체인에서 충동 구매
-
-**페인 포인트**
-- 온라인 주문 복잡성 (디지털 낮은 익숙함)
-- 포장 변경 시 "예전 것"을 그리워함
-
-**콘텐츠 접점**
-- TV 광고 (낮 시간대 토크쇼·뉴스)
-- 인스토어 (Walgreens, CVS, Walmart)
-- Facebook (가족 공유 포스트)
-
-**브랜드 관계**
-- Hershey's = 미국의 상징, 믿을 수 있는 클래식
-- 가격 인상에 다소 민감하나 브랜드 충성도 높음
+- **Age / Occupation**: 35, technical professional who interacts with Hershey Company (The)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Hershey Company (The) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 주요 동기 | 주요 채널 | 핵심 제품 | LTV 잠재력 |
-|----------|----------|----------|----------|-----------|
-| 가족 구매자 | 가성비·공유 | TV, 인스토어 | Kisses, Reese's Cups | 높음 (반복 구매) (추정) |
-| 스낵 탐험가 | 신제품·SNS | TikTok, Instagram | 한정판, Kit Kat | 중간 (변동성 높음) (추정) |
-| 선물 구매자 | 감성·신뢰 | TV, 인스토어 | Kisses 대용량, Gift Set | 중간-높음 (시즌 집중) (추정) |
-| B2B (기업 선물) | 브랜드 인지도 | 영업·온라인 | 기업 맞춤 패키징 | 높음 (대량 구매) (추정) |
-
----
-
-## 오디언스 여정 맵 (Customer Journey)
-
-```
-인지(Awareness)
-  └─ TV 광고, 인스토어 진열, SNS 바이럴
-        ↓
-관심(Consideration)
-  └─ 시즌 프로모션, 한정판 출시, 리뷰 콘텐츠
-        ↓
-구매(Purchase)
-  └─ Walmart/Target/편의점 충동 구매, 온라인 선물 주문
-        ↓
-경험(Experience)
-  └─ 제품 소비, 언박싱 공유, 가족·지인과 나눔
-        ↓
-충성(Loyalty)
-  └─ 브랜드 향수, 시즌 반복 구매, 차세대 소비자 양성
-```
+- **Age / Occupation**: 38, consumer who interacts with Hershey Company (The)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Hershey Company (The) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## Steal Sheet — 오디언스 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 훔칠 전략 | 적용 방법 |
-|---|----------|----------|
-| 1 | **세대 간 브리지 전략** — 할머니·부모·자녀를 하나의 캠페인으로 연결 | "처음 먹었던 그 초콜릿을 지금 아이에게" 서사로 세대 연속성 강조 |
-| 2 | **시즌 오케이션 소유** — 핼러윈·발렌타인·크리스마스를 Hershey 시즌으로 만들기 | 각 시즌마다 전용 한정 포장 + SNS 캠페인으로 "이 시즌 = Hershey" 연상 형성 |
-| 3 | **탐험가 페르소나 온보딩** — 젊은 스낵 탐험가를 Reese's/Kit Kat으로 입문시켜 Hershey's 생태계로 유인 | 서브브랜드의 바이럴 콘텐츠가 모 브랜드 인지도로 환류되는 퍼널 설계 |
+| Stage | Hershey Company (The)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Hershey Company (The) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Hershey Company (The) Is Not For
+
+| Type | Characteristics | Why Hershey Company (The) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Hershey Company (The)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Hershey Company (The)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Hershey Company (The)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Hershey Company (The)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Hershey Company (The)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

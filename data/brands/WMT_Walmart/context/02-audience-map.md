@@ -1,144 +1,84 @@
-# 02 오디언스 맵 — Walmart (WMT)
-> Consumer Staples / Retail | 분석 기준일: 2026-04-12
+# 02. Audience Map — Walmart (WMT)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 타깃 오디언스 개요
+## Ideal Customer Profile (ICP)
 
-Walmart의 핵심 고객층은 **가치 지향형 쇼퍼(Value-Driven Shopper)**로, 소득 스펙트럼 전반에 걸쳐 분포하나 중·저소득 가구에 집중된다. 미국 가구의 약 90%가 연 1회 이상 Walmart를 이용한다는 점에서 사실상 전 국민 브랜드에 해당한다 (추정).
-
-### 핵심 세그먼트 요약
-
-| 세그먼트 | 비중(추정) | 핵심 니즈 |
-|----------|-----------|----------|
-| 가족 장보기 담당자 | ~35% | 대용량·저가·원스톱 |
-| 예산 제약 단일 가구 | ~20% | 소포장·생활필수품 |
-| 고령 고객 (55세+) | ~18% | 근접성·신뢰·픽업 서비스 |
-| 중산층 클릭앤컬렉트 이용자 | ~15% | 편의성·시간 절약 |
-| 비즈니스(소상공인·Sam's Club) | ~12% | 벌크 구매·비용 절감 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in consumer staples merchandise retail. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Walmart's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Walmart's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 2. 페르소나
+## Core Personas
+
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Walmart customer organization
+- **Core pain**: Needs reliable consumer staples merchandise retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Walmart selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 1: 가족 장바구니 담당자 — "절약형 엄마 지수연"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 거주지 | 텍사스주 포트워스 교외 (추정) |
-| 가구 구성 | 남편 + 자녀 2명 (초등학생) |
-| 직업 | 파트타임 의료 접수원 |
-| 연 가구소득 | $52,000 (추정) |
-| 주요 채널 | Walmart 앱, 매장 픽업, 주 1~2회 오프라인 방문 |
-| 핵심 동기 | "한 번의 장보기로 일주일치를 해결하고 싶다" |
-| 결정 트리거 | 쿠폰·롤백 알림, 앱 내 쇼핑 리스트 자동화 |
-| 불만 포인트 | 재고 부족, 픽업 대기 시간, 유기농 선택지 부족 |
-| 브랜드 충성도 | 높음 — 대안으로 Target 가끔 이용 |
-| Walmart+ 가입 | 미가입 (비용 고려 중) (추정) |
-
-**커뮤니케이션 접점:**
-- 앱 푸시: "이번 주 롤백 상품 — 아이 간식 최대 30% 절약"
-- 이메일: 주간 식료품 딜 + 레시피 연동
-- YouTube 프리롤: 15초 내 절약 금액 강조
+- **Age / Occupation**: 35, technical professional who interacts with Walmart's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Walmart selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 2: 디지털 네이티브 절충형 — "편의 추구자 마이클 토레스"
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 29세 |
-| 거주지 | 조지아주 애틀랜타 도심 |
-| 가구 구성 | 1인 가구 |
-| 직업 | 물류센터 슈퍼바이저 |
-| 연 소득 | $41,000 (추정) |
-| 주요 채널 | Walmart.com, 당일배송, 가끔 오프라인 |
-| 핵심 동기 | "시간 낭비 없이 필요한 것만 빠르게" |
-| 결정 트리거 | 무료 배송 임계값, 2시간 내 배송 가능 여부 |
-| 불만 포인트 | 앱 UI 복잡성, 배송 지연, 서드파티 판매자 품질 불균일 |
-| 브랜드 충성도 | 중간 — Amazon과 병행 이용 |
-| Walmart+ 가입 | 가입 (배송 무제한 목적) (추정) |
-
-**커뮤니케이션 접점:**
-- 앱 홈: "오늘 오후 2시 전 주문 시 당일 도착"
-- SMS: 주문 상태 실시간 업데이트
-- 인스타그램 광고: 전자제품·생활용품 특가
+- **Age / Occupation**: 38, consumer who interacts with Walmart's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Walmart selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-### 페르소나 3: 고령 근접 쇼퍼 — "단골 고객 베티 홀링스워스"
+## Purchase Journey — AARRR Framework
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 67세 |
-| 거주지 | 오하이오주 소도시 (인구 8만 명) |
-| 가구 구성 | 은퇴한 남편과 2인 가구 |
-| 직업 | 은퇴 (전 초등학교 교사) |
-| 연 가구소득 | $34,000 (사회보장·연금 합산) (추정) |
-| 주요 채널 | 오프라인 매장 주 2~3회, 픽업 서비스 |
-| 핵심 동기 | "익숙한 브랜드, 가까운 거리, 직원이 도와주는 곳" |
-| 결정 트리거 | 주간 광고지(circular), 처방약 픽업 연계 |
-| 불만 포인트 | 앱 사용 어려움, 셀프 계산대 강제 전환, 매장 레이아웃 변경 |
-| 브랜드 충성도 | 매우 높음 — 수십 년 단골 |
-| Walmart+ 가입 | 미가입 (디지털 접근성 장벽) (추정) |
-
-**커뮤니케이션 접점:**
-- 매장 내 사이니지: 대형 글씨, 명확한 가격 표시
-- 주간 광고지: 우편 발송 + 신문 삽지
-- 계산대 직원 대면 커뮤니케이션
+| Stage | Walmart's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Walmart total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 3. 고객 여정 맵 (대표 세그먼트: 가족 장보기 담당자)
+## Anti-Persona — Who Walmart Is Not For
 
-```
-인식(Awareness)
-  └─ 앱 푸시 / TV 광고 / 입소문 → "이번 주 Walmart 롤백"
-
-고려(Consideration)
-  └─ 앱 쇼핑 리스트 작성 / 가격 비교 / 쿠폰 클리핑
-
-구매(Purchase)
-  └─ 오프라인 방문 or 클릭앤컬렉트 예약 → 픽업 or 계산대
-
-경험(Experience)
-  └─ 재고 확인 → 직원 도움 → 픽업 드라이브스루
-
-재구매(Retention)
-  └─ 앱 리워드 / Walmart Cash / Walmart+ 갱신
-
-옹호(Advocacy)
-  └─ 지인 추천 / 앱 리뷰 / 소셜 미디어 절약 인증
-```
+| Type | Characteristics | Why Walmart Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Walmart's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Walmart's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Walmart's full value is realized through deeper operational integration and sustained partnership. |
 
 ---
 
-## 4. 심리통계 프로파일
+## Steal Sheet — 3 Transferable Principles
 
-| 속성 | 설명 |
-|------|------|
-| 가치관 | 실용주의, 가족 우선, 지역 공동체 의식 |
-| 라이프스타일 | 바쁜 일상, 계획적 소비, 충동 구매 최소화 |
-| 미디어 소비 | TV(지상파·케이블), 페이스북, YouTube, 라디오 |
-| 구매 태도 | 브랜드보다 가격 우선, 단골 매장 신뢰 |
-| 기술 수용도 | 중간 — 앱 사용하나 복잡한 기능 회피 (추정) |
+**1. Segment your audience by risk tolerance, not just demographics.**
+Walmart's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
 
----
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Walmart's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
 
-## 5. 부정적 오디언스 (Anti-Audience)
-
-Walmart가 의도적으로 우선 타깃에서 제외하거나 유기적으로 이탈하는 세그먼트:
-
-| 세그먼트 | 이유 |
-|----------|------|
-| 프리미엄 식료품 추구자 | Whole Foods·Trader Joe's 지향, 유기농·로컬 소싱 우선 |
-| 하이패션 소비자 | 브랜드 이미지·큐레이션 환경 기대치 불일치 |
-| 도심 초고밀도 거주자 | 매장 접근성 낮음, Amazon/Instacart 선호 |
-| ESG 극단 지향 소비자 | 노동 정책·공급망 이슈에 민감한 그룹 |
-
----
-
-*출처 표기: (공식) = Walmart 공식 발표/IR/보도자료 기반, (추정) = 산업 분석·공개 데이터 기반 추론*
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

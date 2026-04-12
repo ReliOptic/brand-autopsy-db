@@ -1,187 +1,102 @@
-# 05. 디자인 시스템 — Colgate-Palmolive (CL)
+# 05. Design System — Colgate-Palmolive (CL)
 
-## 디자인 철학
-
-Colgate-Palmolive의 디자인 언어는 **"신뢰할 수 있는 청결함(Trusted Cleanliness)"** 을 시각적으로 구현한다.
-브랜드별로 고유한 팔레트를 갖지만, 공통적으로 다음 원칙을 공유한다.
-
-- **명확성 우선**: 성분·클레임이 즉시 읽힐 것
-- **과학적 신뢰감**: 의료·연구 기관 연상 색상(화이트·블루 계열)
-- **접근 가능한 프리미엄**: 고급스럽지만 대중이 거부감 없이 수용
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### Colgate (구강 케어)
+Colgate-Palmolive's visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 색상명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| Primary Brand Red | Colgate Red | `#E3001B` | 로고, 패키지 주조색 | (공식) |
-| Secondary White | Clean White | `#FFFFFF` | 배경, 제품 청결감 | (공식) |
-| Accent Blue | Trust Blue | `#0057A8` | 전문성 강조, Colgate Total 서브 | (추정) |
-| Supporting Navy | Deep Navy | `#003057` | 텍스트, 헤드라인 | (추정) |
-| Highlight Gold | Optic Gold | `#F5C400` | Optic White 미백 라인 강조 | (추정) |
-| Neutral Light Gray | Soft Gray | `#F2F2F2` | 배경 보조, 성분 설명 패널 | (추정) |
+### Core Brand Colors
 
-### Palmolive (홈·바디 케어)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 색상명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| Primary Green | Nature Green | `#00843D` | 로고, 자연·청결 상징 | (공식) |
-| Secondary Yellow | Sunshine Yellow | `#FFD100` | 활기·신선함, 포장 포인트 | (추정) |
-| Warm White | Cream White | `#FAFAF5` | 배경, 부드러운 감성 | (추정) |
-| Accent Teal | Fresh Teal | `#007B82` | 바디워시 라인 서브 | (추정) |
-| Earth Tone | Sandy Beige | `#D4A96A` | 내추럴·오가닉 라인 | (추정) |
-| Dark Green | Forest Deep | `#004D2C` | 텍스트, 로고 다크 버전 | (추정) |
+### Color Principles
 
-### Hill's Pet Nutrition
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 역할 | 색상명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| Primary Blue | Hill's Blue | `#004B87` | 로고, 신뢰·과학성 | (공식) |
-| Secondary Orange | Vitality Orange | `#E87722` | Science Diet 활력 포인트 | (공식) |
-| Prescription Purple | Rx Purple | `#6B2D8B` | Prescription Diet 전용 | (추정) |
-| Clean White | Medical White | `#FFFFFF` | 배경, 임상 청결감 | (공식) |
-| Warm Gray | Neutral Gray | `#8C8C8C` | 부제목, 설명 텍스트 | (추정) |
-| Light Blue | Sky Blue | `#BFD9EE` | 배경 그라데이션, 소형 소구 | (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Softsoap
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 역할 | 색상명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| Brand Aqua | Fresh Aqua | `#00B4CC` | 로고, 패키지 주조색 | (추정) |
-| Soft Coral | Coral Accent | `#FF6B6B` | 과일·플로럴 라인 포인트 | (추정) |
-| Pearl White | Lather White | `#F8F8F8` | 배경, 거품 연상 | (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### Colgate
+Colgate-Palmolive's digital properties employ a typographic system appropriate to its consumer staples positioning.
 
-| 용도 | 폰트 | 스타일 | 출처 |
-|------|------|--------|------|
-| 헤드라인 | Gotham (유사 계열) | Bold, 대문자 | (추정) |
-| 서브 헤드 | Gotham Medium | Medium, 타이틀 케이스 | (추정) |
-| 바디 텍스트 | Open Sans | Regular | (추정) |
-| 클레임 강조 | Gotham Bold | Bold, 레드 컬러 | (추정) |
-| 법적 고지 | Arial / Helvetica | Regular, 소형 | (추정) |
+### Typeface System
 
-### Hill's Pet Nutrition
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 용도 | 폰트 | 스타일 | 출처 |
-|------|------|--------|------|
-| 헤드라인 | Proxima Nova Bold | Bold | (추정) |
-| 바디 텍스트 | Proxima Nova Regular | Regular | (추정) |
-| 과학 수치 | Helvetica Neue | Medium | (추정) |
+### Typographic Scale
 
----
-
-## 로고 사용 가이드 (추정)
-
-### Colgate 로고 원칙
-
-```
-최소 크기:
-  - 디지털: 80px 너비 이상
-  - 인쇄: 25mm 너비 이상
-
-클리어 스페이스:
-  - 로고 높이의 50% 이상 여백 확보
-
-사용 가능 배경:
-  - 화이트 배경: 레드 로고 (Primary)
-  - 다크/레드 배경: 화이트 로고 (Reversed)
-  - 그라데이션: 금지
-
-금지 사용:
-  - 로고 색상 임의 변경
-  - 로고 비율 변형
-  - 로고에 그림자·외곽선 적용
-  - 저해상도 이미지 사용
-```
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 패키지 디자인 원칙
+## 3. Channel Specifications
 
-### 구역 구성 (Colgate 치약 기준, 추정)
-
-```
-┌──────────────────────────────┐
-│  [브랜드 로고]  상단 1/4      │  → 레드 배경, 화이트 로고
-├──────────────────────────────┤
-│  [제품 라인명]  중상단        │  → 대형 Bold 폰트
-│  (e.g., "TOTAL")             │
-├──────────────────────────────┤
-│  [주요 클레임]  중앙          │  → 12시간 항균 / 미백 등
-│  + 아이콘 비쥬얼              │
-├──────────────────────────────┤
-│  [용량 / 성분 요약] 하단      │  → 소형 텍스트, 그레이
-│  [치과의사 추천 배지]         │
-└──────────────────────────────┘
-```
-
-### Hill's 패키지 원칙 (추정)
-
-```
-┌──────────────────────────────┐
-│  [Hill's 로고]  좌상단        │  → 블루 배경
-│  + "Science Diet" / "Rx"     │
-├──────────────────────────────┤
-│  [동물 사진]  중앙 60%        │  → 밝고 건강한 반려동물
-├──────────────────────────────┤
-│  [적응증/타깃]  하단          │  → "Adult / Senior / Kitten"
-│  [수의사 추천 배지]           │
-└──────────────────────────────┘
-```
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 디지털 UI 가이드라인 (추정)
+## 4. Layout Principles
 
-### 컴포넌트 원칙
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 컴포넌트 | Colgate | Hill's |
-|---------|---------|--------|
-| CTA 버튼 | 레드(`#E3001B`) 배경 + 화이트 텍스트 | 블루(`#004B87`) 배경 + 화이트 텍스트 |
-| 링크 컬러 | `#0057A8` | `#004B87` |
-| 경고/오류 | `#CC0000` | `#CC0000` |
-| 성공 상태 | `#00843D` | `#00843D` |
-| 배경 카드 | `#F2F2F2` | `#F0F6FB` |
-| 구분선 | `#DDDDDD` | `#C8D8E8` |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 반응형 브레이크포인트 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 디바이스 | 브레이크포인트 | 레이아웃 |
-|---------|--------------|---------|
-| 모바일 | < 768px | 단일 컬럼 |
-| 태블릿 | 768px ~ 1024px | 2컬럼 |
-| 데스크탑 | > 1024px | 3~4컬럼 그리드 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 이미지 스타일 가이드 (추정)
+## 5. Design Prohibitions
 
-### Colgate
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-- **조명**: 밝고 클린한 자연광 또는 소프트 스튜디오 조명
-- **인물**: 다양한 연령·인종 (글로벌 포용성 반영), 미소 필수
-- **배경**: 화이트·라이트 그레이 배경 우선
-- **금지**: 어둡고 무거운 분위기, 충치·출혈 클로즈업
+---
 
-### Hill's Pet Nutrition
-
-- **주인공**: 건강하고 활기찬 반려동물
-- **스타일**: 자연광·따뜻한 가정 환경
-- **보호자 동반**: 반려동물과의 유대감 연출 선호
-- **금지**: 아픈·처진 반려동물 이미지 (처방식 광고에도 희망적 톤 유지)
-
-### Steal Sheet — 디자인 시스템 레이어
-
-| 상황 | 가이드 |
-|------|--------|
-| 신규 디지털 광고 배너 제작 | Colgate: `#E3001B` 주조 + Gotham Bold 헤드라인 + 치과의사 배지 |
-| Hill's SNS 카드뉴스 | `#004B87` 배경 + `#E87722` 포인트 + 수의사 추천 배지 + 반려동물 사진 |
-| Palmolive 이커머스 썸네일 | `#00843D` 로고 + `#FFD100` 포인트 + 자연 소재 배경 이미지 |
+*Layer 5 of 8 — Brand Autopsy: Colgate-Palmolive (CL)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

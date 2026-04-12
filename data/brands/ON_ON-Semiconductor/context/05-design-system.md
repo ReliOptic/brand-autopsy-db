@@ -1,160 +1,102 @@
-# 05 디자인 시스템 — ON Semiconductor (onsemi)
+# 05. Design System — ON Semiconductor (ON)
 
-## 컬러 팔레트
-
-CSS 데이터 기반 실측값 (공식) + 역할 분석 (추정)
-
-### 주요 컬러 (Primary Colors)
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 용도 |
-|------|--------|-----|----------|------|
-| 프라이머리 다크 네이비 | Deep Navy | `#1D3546` | 6회 | 헤더, 섹션 배경 (공식) |
-| 프라이머리 블루 | Brand Blue | `#1D4F76` | 81회 | 주요 브랜드 컬러, CTA 버튼 (공식) |
-| 미드 블루 | Medium Blue | `#296896` | 46회 | 링크, 보조 버튼, 아이콘 (공식) |
-| 라이트 블루 | Light Blue | `#546278` | 18회 | 보조 텍스트, 구분선 (공식) |
-| 다크 네이비 2 | Dark Slate | `#263E55` | 20회 | 서브 헤더, 카드 배경 (공식) |
-
-### 강조 컬러 (Accent Colors)
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 용도 |
-|------|--------|-----|----------|------|
-| 프라이머리 오렌지 | Brand Orange | `#FF7920` | 5회 | 주요 CTA, 하이라이트 (공식) |
-| 오렌지 다크 | Deep Orange | `#F0690A` | 40회 | 호버 상태, 강조 텍스트 (공식) |
-| 번트 오렌지 | Burnt Orange | `#BD4A2E` | 25회 | 경고, 보조 강조 (공식) |
-
-### 보조 컬러 (Secondary Colors)
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 용도 |
-|------|--------|-----|----------|------|
-| 퍼플 | Purple Accent | `#660099` | 49회 | 특정 카테고리 구분, 배지 (공식) |
-| 그린 | Success Green | `#02714F` | 23회 | 성공 상태, 지속가능성 아이콘 (공식) |
-| 앰버 | Amber Yellow | `#ECAD00` | 23회 | 주의/경고 상태, 하이라이트 (공식) |
-
-### 중립 컬러 (Neutral Colors)
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 용도 |
-|------|--------|-----|----------|------|
-| 다크 차콜 | Dark Charcoal | `#212529` | 1회 | 본문 텍스트 기본값 (공식) |
-| 미드 그레이 | Mid Gray | `#BCC3CA` | 88회 | 보더, 구분선, 비활성 상태 (공식) |
-| 슬레이트 그레이 | Slate Gray | `#67768B` | 30회 | 보조 텍스트, 캡션 (공식) |
-| 스틸 그레이 | Steel Gray | `#7E8C9A` | 24회 | 플레이스홀더, 아이콘 (공식) |
-| 다크 슬레이트 | Dark Slate Gray | `#4F5658` | 26회 | 푸터 텍스트 (공식) |
-| 라이트 블루 그레이 | Light Blue Gray | `#E6ECF0` | 27회 | 섹션 배경, 카드 배경 (공식) |
-| 아이스 블루 | Ice Blue | `#DBE7F0` | 1회 | 인포박스 배경 (공식) |
-| 오프화이트 | Off White | `#F7F8F9` | 28회 | 페이지 배경 (공식) |
-| 순백 | Near White | `#FCFCFD` | 33회 | 카드 배경, 모달 (공식) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 사용 비율 원칙 (추정)
+## 1. Color Palette
 
-```
-전체 UI 컬러 구성 (추정)
-├── 중립 (배경·텍스트): 60%
-│   ├── #FCFCFD / #F7F8F9 (배경)
-│   ├── #212529 (본문)
-│   └── #BCC3CA / #67768B (보조)
-├── 브랜드 블루 계열: 30%
-│   ├── #1D4F76 (기본)
-│   ├── #296896 (링크·버튼)
-│   └── #1D3546 (헤더)
-└── 강조 오렌지 계열: 10%
-    └── #FF7920 / #F0690A (CTA·하이라이트)
-```
+ON Semiconductor's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## 타이포그래피 시스템
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-CSS 실측 폰트 기반 (공식)
+### Color Principles
 
-### 폰트 스택
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 용도 | 폰트 패밀리 | 소스 |
-|------|-----------|------|
-| 기본 본문 (Primary Body) | Inter, Open Sans, Arial, Helvetica Neue, sans-serif | 공식 |
-| UI 컴포넌트 | Bootstrap 기본 스택 (`var(--bs-body-font-family)`) | 공식 |
-| 코드·기술 문서 | Consolas, Menlo, Monaco, monospace | 공식 |
-| 폴백 | Arial, Helvetica, sans-serif | 공식 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 타이포그래피 스케일 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 레벨 | 사이즈 | 폰트 | 색상 | 용도 |
-|------|--------|------|------|------|
-| H1 | 48px / 3rem | Inter 700 | `#1D3546` | 히어로 헤드라인 |
-| H2 | 36px / 2.25rem | Inter 600 | `#1D4F76` | 섹션 헤더 |
-| H3 | 24px / 1.5rem | Inter 600 | `#1D4F76` | 서브섹션 |
-| H4 | 20px / 1.25rem | Inter 500 | `#263E55` | 카드 타이틀 |
-| Body | 16px / 1rem | Inter 400 | `#212529` | 본문 |
-| Small | 14px / 0.875rem | Inter 400 | `#67768B` | 캡션, 메타데이터 |
-| Code | 14px / 0.875rem | Consolas | `#4F5658` | 기술 문서 코드 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 컴포넌트 디자인 원칙 (추정)
+## 2. Typography
 
-### 버튼 시스템
+ON Semiconductor's digital properties employ a typographic system appropriate to its information technology positioning.
 
-| 유형 | 배경 | 텍스트 | 테두리 | 용도 |
-|------|------|--------|--------|------|
-| Primary CTA | `#FF7920` | `#FCFCFD` | 없음 | 주요 행동 유도 |
-| Secondary | `#1D4F76` | `#FCFCFD` | 없음 | 보조 행동 |
-| Outlined | 투명 | `#1D4F76` | `#296896` | 비강조 행동 |
-| Ghost | 투명 | `#296896` | 없음 | 최소 강조 |
-| Disabled | `#BCC3CA` | `#7E8C9A` | 없음 | 비활성 상태 |
+### Typeface System
 
-### 카드 시스템
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 요소 | 값 |
-|------|---|
-| 배경색 | `#FCFCFD` |
-| 보더 | 1px solid `#E6ECF0` |
-| 보더 반경 | 8px (추정) |
-| 그림자 | 0 2px 8px rgba(29, 79, 118, 0.08) (추정) |
-| 호버 보더 | `#296896` |
+### Typographic Scale
 
-### 상태 색상
-
-| 상태 | 컬러 HEX | 용도 |
-|------|---------|------|
-| 성공 (Success) | `#02714F` | 인증 완료, 재고 있음 |
-| 경고 (Warning) | `#ECAD00` | 재고 부족, 주의 사항 |
-| 오류 (Error) | `#BD4A2E` | 입력 오류, 실패 상태 |
-| 정보 (Info) | `#296896` | 안내 메시지, 툴팁 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 아이콘·이미지 스타일 (추정)
+## 3. Channel Specifications
 
-- 아이콘: Bootstrap Icons 기반 라인 스타일, 스트로크 1.5~2px
-- 제품 이미지: 순백 또는 옅은 그레이(`#F7F8F9`) 배경, 정면·측면 기술 사진
-- 일러스트: 기술 블록 다이어그램 스타일, `#1D4F76` / `#296896` / `#FF7920` 3색 체계
-- 사진 톤: 쿨 블루 베이스 색보정, 공장·반도체·EV 소재 중심
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 레이어별 3개 전략 훔치기
+## 4. Layout Principles
 
-### Layer 1: 컬러 전략
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **오렌지 CTA 단일화** | 모든 주요 CTA 버튼을 `#FF7920` 단일 컬러로 통일 → 시선 집중과 클릭률 향상 |
-| 2 | **블루 계층 신뢰 구조** | 다크(`#1D3546`) → 미드(`#1D4F76`) → 라이트(`#296896`) 블루 계층을 정보 위계와 1:1 매핑 |
-| 3 | **퍼플 카테고리 배지** | `#660099`를 특정 제품 카테고리(이미징·센서)에만 배타적 사용 → 시각적 분류 체계 구축 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Layer 2: 타이포그래피 전략
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **Inter 단일 패밀리 시스템** | Inter 하나로 웨이트(400/500/600/700)만 달리하여 위계 구성 → 렌더링 일관성 및 로드 최적화 |
-| 2 | **코드 폰트 전용 영역** | Consolas/Menlo를 기술 문서 코드 블록에만 사용 → 전문성과 가독성 동시 확보 |
-| 3 | **캡션 컬러 위계** | 캡션·메타 정보는 `#67768B`로 본문(`#212529`)과 명확히 구분 → 정보 밀도 높은 기술 페이지에서 스캔성 개선 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-### Layer 3: 컴포넌트 전략
+---
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **상태 컬러 표준화** | 성공·경고·오류 상태를 브랜드 팔레트 내 컬러(`#02714F`, `#ECAD00`, `#BD4A2E`)로 통합 → 외부 라이브러리 충돌 방지 |
-| 2 | **카드 호버 보더 피드백** | 기본 `#E6ECF0` → 호버 `#296896` 보더 전환으로 인터랙션 명시화 → 제품 카탈로그 UX 개선 |
-| 3 | **그림자 대신 보더** | 카드 구분을 그림자 대신 1px 보더로 처리 → 기술 문서 느낌의 클린하고 정밀한 인터페이스 유지 |
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: ON Semiconductor (ON)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

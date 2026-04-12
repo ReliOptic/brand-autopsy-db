@@ -1,166 +1,141 @@
-# CDW 채널 플레이북
+# 06. Channel Playbook — CDW Corporation (CDW)
 
-## 채널 전략 개요
-
-CDW는 **멀티채널 하이브리드 모델**을 운영한다. 디지털 셀프서비스(CDW.com)와 인적 관계형 영업(어카운트 매니저)을 동시에 구동하며, 채널별 역할을 명확히 분리하여 중복을 최소화한다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 역할 및 전략
+## 1. Channel Strategy Matrix
 
-### 1. CDW.com (웹사이트 / 이커머스)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 제품 탐색, 비교, 구매, 계정 관리 |
-| 타깃 | 중소기업, 반복 구매 고객, 공공 조달 담당자 |
-| 핵심 기능 | 제품 검색·필터, PunchOut 카탈로그, 견적 요청, 주문 추적 |
-| 콘텐츠 | 제품 상세 페이지, 비교 도구, 번들 추천 |
-| 전환 KPI | 장바구니 추가율, 견적 요청 수, 주문 완료율 |
-
-**운영 원칙 (추정)**
-- 검색 중심 UX: 제품 SKU 100,000+ 탐색 효율화
-- 세그먼트별 맞춤 포털: Corporate / Government / Education / Healthcare
-- PunchOut 통합: 고객사 ERP·구매 시스템 연동
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. 직접 영업 (어카운트 매니저 채널)
+## 2. Channel Tone Variations
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 관계 구축, 복잡한 딜 클로징, 갱신·업셀 |
-| 타깃 | 엔터프라이즈, 공공기관, 의료·교육 대형 계정 |
-| 접점 | 전화, 이메일, 현장 미팅, 화상 미팅 |
-| 지원 도구 | 맞춤 견적 시스템, CRM, 기술 전문가 동행 |
-| KPI | 어카운트 유지율, 1인당 매출, 업셀 비율 |
+CDW Corporation's core voice adjusts by channel while maintaining brand coherence.
 
-**운영 원칙 (추정)**
-- 산업 전문화: 어카운트 매니저를 수직 산업별로 배치
-- 기술 전문가(Solution Architect) 협업 영업
-- 분기별 비즈니스 리뷰(QBR)로 장기 관계 유지
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. 이메일 마케팅
+## 3. Cross-Channel Synergy Map
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 리드 육성, 프로모션 전달, 갱신 알림 |
-| 타깃 | 기존 고객, MQL, 세그먼트별 구독자 |
-| 발송 빈도 | 주 1–2회 프로모션 / 월 1회 뉴스레터 (추정) |
-| 개인화 수준 | 산업·직무·구매 이력 기반 세그먼트 |
-| KPI | 오픈율, CTR, 전환율, 구독 취소율 |
+### Route A — Product/Service Launch Sequence
 
-**금지어**
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-| # | 금지어 | 이유 |
-|---|--------|------|
-| 1 | "긴급!" (근거 없이) | 신뢰도 손상, 스팸 필터 트리거 |
-| 2 | "100% 무료" | 조건 미명시 시 법적 리스크 |
-| 3 | "지금 당장" (강압적) | B2B 의사결정 사이클과 불일치 |
-| 4 | "믿을 수 없는 가격" | 과장 수사, 전문성 이미지 훼손 |
-| 5 | "마지막 기회" (허위) | 반복 사용 시 신뢰 소진 |
+### Route B — Thought Leadership Pipeline
 
-**필수어**
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-| # | 필수어 | 사용 맥락 |
-|---|--------|-----------|
-| 1 | "[이름]님" | 개인화 인사 |
-| 2 | "전담 전문가" | 어카운트 매니저 소개 |
-| 3 | "지금 견적 받기" | 주요 CTA |
-| 4 | "갱신 기한" | 라이센스·계약 갱신 알림 |
-| 5 | "고객 전용 혜택" | 기존 고객 충성도 강화 |
+### Route C — Earnings and Financial Communications
 
----
-
-### 4. 유료 검색 (SEM / Google Ads)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 구매 의도 높은 트래픽 포착 |
-| 타깃 | 특정 제품·솔루션 검색자 |
-| 키워드 전략 | 제품 모델명 + 브랜드명 + "구매/가격/견적" |
-| 랜딩 페이지 | 제품 카테고리 페이지, 솔루션 가이드 |
-| KPI | CPC, 전환율, ROAS, 견적 요청 수 |
-
-**금지어 (추정)**
-
-| # | 금지어 | 이유 |
-|---|--------|------|
-| 1 | "최저가 보장" (미검증) | 가격 비교 리스크 |
-| 2 | "무료 배송" (조건 없이) | 조건부 정책과 불일치 |
-| 3 | "재고 보장" | 실시간 재고 상황 변동 |
-| 4 | "당일 배송" (지역 무관) | 물류 제약 미반영 |
-| 5 | "경쟁사 대비 XX% 저렴" | 동적 가격 환경에서 검증 불가 |
-
-**필수어 (추정)**
-
-| # | 필수어 | 사용 맥락 |
-|---|--------|-----------|
-| 1 | "공식 파트너" | 제조사 인증 파트너 강조 |
-| 2 | "전문가 상담" | 기술 어드바이저리 차별화 |
-| 3 | "즉시 견적" | 빠른 응답 강조 |
-| 4 | "기업·공공 전용" | 세그먼트 타깃 메시지 |
-| 5 | "무료 평가" | 리드 생성 오퍼 |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 5. 콘텐츠 마케팅 / SEO
+## 4. Channel-Specific Prohibitions
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 오가닉 트래픽 유입, 브랜드 권위 구축 |
-| 콘텐츠 타입 | 블로그, 백서, 케이스 스터디, 웨비나 |
-| SEO 전략 | 산업별 롱테일 키워드, 제품 비교 콘텐츠 |
-| 배포 채널 | CDW.com 리소스 허브, 파트너 시디케이션 |
-| KPI | 오가닉 트래픽, 백링크 수, 콘텐츠 기반 리드 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
----
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### 6. 파트너 채널 (벤더 코마케팅)
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 벤더 MDF 활용, 공동 캠페인 |
-| 파트너 | Microsoft, Cisco, Dell, HP, Lenovo, VMware 등 |
-| 형태 | 공동 웨비나, 번들 오퍼, 파트너 배지 표시 |
-| KPI | 파트너 기여 매출, 공동 캠페인 리드 수 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 믹스 우선순위 (추정)
+## 5. Crisis Response Protocol
 
-| 순위 | 채널 | 매출 기여도 | 투자 우선순위 |
-|------|------|------------|--------------|
-| 1 | 직접 영업 (AM) | 높음 | 매우 높음 |
-| 2 | CDW.com | 높음 | 높음 |
-| 3 | 이메일 마케팅 | 중간 | 중간 |
-| 4 | 유료 검색 | 중간 | 중간 |
-| 5 | 콘텐츠/SEO | 낮음~중간 | 중간 (장기) |
-| 6 | 파트너 채널 | 중간 | 높음 (MDF 활용) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## Steal Sheet: 채널 레이어별 핵심 전략
+## 6. Steal Sheet — 3 Transferable Principles
 
-### Steal Sheet 1 — 디지털+인적 채널 하이브리드
-| 요소 | 내용 |
-|------|------|
-| 핵심 인사이트 | CDW.com은 탐색·트랜잭션, 어카운트 매니저는 복잡한 딜·관계 — 역할 중복 없이 상호 보완 |
-| 훔칠 전략 | 웹사이트 견적 요청 → 자동으로 담당 AM에게 라우팅 → 24시간 내 응답 SLA 설정 |
-| 적용 방법 | CRM-이커머스 통합으로 고객 행동 데이터를 AM에게 실시간 전달, 맥락 있는 첫 접촉 실현 |
+**1. Align channel formality with audience expectations.**
+CDW Corporation's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-### Steal Sheet 2 — 수직 산업별 채널 최적화
-| 요소 | 내용 |
-|------|------|
-| 핵심 인사이트 | 공공 고객은 계약 차량, 의료는 컴플라이언스, 교육은 예산 사이클 중심으로 채널 메시지 분리 |
-| 훔칠 전략 | 산업별 랜딩 페이지 + 전용 이메일 트랙 + 전담 AM 배치로 "나만을 위한 CDW" 경험 제공 |
-| 적용 방법 | URL 구조: cdw.com/government, cdw.com/healthcare 등 산업별 진입점 분리, 개인화 콘텐츠 자동 표시 |
+**2. Use financial communications as a credibility asset.**
+CDW Corporation's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-### Steal Sheet 3 — 파트너 MDF 레버리지
-| 요소 | 내용 |
-|------|------|
-| 핵심 인사이트 | 벤더 MDF(시장개발펀드)를 활용한 공동 캠페인으로 마케팅 비용 분담, 파트너 브랜드 권위 차용 |
-| 훔칠 전략 | 주요 벤더(Microsoft, Cisco 등)와 분기별 공동 웨비나 → 벤더 고객 DB 접근 + CDW 리드 풀 확대 |
-| 적용 방법 | 파트너 공동 랜딩 페이지 구성, 리드 공동 소유 계약 체결, 전환 후 AM 핸드오프 자동화 |
+**3. Build a cross-channel sequence, not parallel silos.**
+CDW Corporation's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

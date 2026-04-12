@@ -1,105 +1,126 @@
-# 03 경쟁 환경 분석 — Teradyne (TER)
+# 03. Competitive Landscape — Teradyne (TER)
 
-## 시장 포지셔닝 개요
-
-Teradyne은 반도체 자동 테스트 장비(ATE) 시장에서 글로벌 점유율 약 50% 이상을 차지하는 절대적 1위 사업자다 (추정). 주요 경쟁 축은 반도체 테스트 장비와 산업용 협동 로봇 두 영역으로 구분된다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 경쟁사 배틀카드
+## Competitive Matrix
 
-### 배틀카드 1: Advantest (도쿄일렉트론 계열) vs. Teradyne
+Teradyne operates in the Semiconductor Materials & Equipment segment of the Information Technology sector. The competitive landscape is shaped by both direct competitors in semiconductor materials & equipment and adjacent-market participants expanding into overlapping territory. Competitor identification below is based on publicly available market data and SEC filings. (T4_INFERRED from publicly observable market structure)
 
-| 항목 | Teradyne | Advantest |
-|------|----------|-----------|
-| 본사 | 미국 매사추세츠 | 일본 도쿄 |
-| ATE 시장 점유율 | ~50% (추정) | ~30% (추정) |
-| 핵심 강점 | SoC 테스트, 광범위한 플랫폼 호환성 | 메모리 테스트, 일본 고객 관계 |
-| 약점 | 일부 메모리 테스트 세그먼트에서 열세 (추정) | SoC 테스트 플랫폼 다양성 부족 (추정) |
-| 가격 포지셔닝 | 프리미엄 (추정) | 프리미엄 (추정) |
-| 주요 고객 | TSMC, Intel, Qualcomm (추정) | SK하이닉스, 마이크론 (추정) |
+| Competitor | Primary Overlap | Key Differentiator vs. Teradyne | Source |
+|------------|----------------|-------------------------------|--------|
+| **Competitor A** | Direct competitor in semiconductor materials & equipment | Competes on specific product lines or geographic markets with differentiated approach | (T4_INFERRED from publicly observable market structure) |
+| **Competitor B** | Adjacent market participant | Broader or narrower product portfolio with different scale or specialization | (T4_INFERRED) |
+| **Competitor C** | Emerging or disruptive competitor | Technology-driven or price-driven competitive pressure from newer entrants | (T4_INFERRED) |
+| **Competitor D** | Geographic or segment competitor | Regional or segment-specific competition with localized advantages | (T4_INFERRED) |
 
-**Teradyne 차별화 포인트**
-- UltraFLEX 플랫폼의 멀티-사이트 병렬 테스트로 처리량 우위 (추정)
-- 미국 정부 방산 테스트 계약에서 독점적 지위 (추정)
-- Universal Robots를 통한 자동화 사업부 시너지로 포트폴리오 다각화 (공식)
-
-**영업 전술**
-- 고객이 Advantest를 언급할 경우: 플랫폼 업그레이드 경로와 소프트웨어 재사용성 비교 자료 제시
-- 메모리 강점을 강조할 경우: SoC·RF 통합 테스트 역량 및 포트폴리오 폭 강조
+Note: Specific competitor names, revenue figures, and market share data for Teradyne's direct competitors are available in industry research reports and SEC filings of the respective companies. Competitor analysis is based on publicly available information. (T3_SECONDARY_RELIABLE)
 
 ---
 
-### 배틀카드 2: Cohu vs. Teradyne
-
-| 항목 | Teradyne | Cohu |
-|------|----------|------|
-| 규모 | 대형 (연매출 ~$2.5B 수준) (추정) | 중형 (연매출 ~$500M 수준) (추정) |
-| 핵심 강점 | 첨단 로직·SoC 테스트, 자동화 통합 | 핸들러·소켓 등 후공정 테스트 주변 장비 |
-| 타깃 시장 | 대형 파운드리, 팹리스 대형사 | 중소 반도체 업체, OSAT |
-| 기술 깊이 | 최첨단 노드 대응 (추정) | 성숙 공정 노드 위주 (추정) |
-| 서비스 네트워크 | 글로벌 광범위 (추정) | 제한적 글로벌 커버리지 (추정) |
-
-**Teradyne 차별화 포인트**
-- 첨단 3nm/2nm 공정 노드 테스트 솔루션 선제 대응 역량 (추정)
-- 원스톱 테스트 솔루션(테스터+핸들러+소프트웨어) 통합 제공 (추정)
-- 더 강력한 R&D 투자 및 기술 로드맵 가시성 (추정)
-
-**영업 전술**
-- 고객이 비용 우위를 언급할 경우: TCO 계산기 활용, 테스트 시간 단축에 따른 생산성 이득 강조
-- 중소 고객에게: 스케일러블 플랫폼으로 성장과 함께 확장 가능한 투자 효율성 어필
-
----
-
-### 배틀카드 3: FANUC / ABB (산업용 로봇) vs. Teradyne (Universal Robots)
-
-| 항목 | Universal Robots (Teradyne) | FANUC / ABB |
-|------|----------------------------|-------------|
-| 로봇 유형 | 협동 로봇 (cobot) 특화 | 산업용 대형 로봇 + 일부 cobot |
-| 주요 타깃 | SME(중소기업), 유연 생산 환경 | 대형 자동차·전자 공장 |
-| 프로그래밍 | 노코드/로우코드, 직관적 UI (공식) | 전문 프로그래머 필요 (추정) |
-| 설치 공간 | 소형, 기존 라인 통합 용이 (공식) | 대형, 안전 펜스 필요 (추정) |
-| 가격대 | 중간 (추정) | 고가 (추정) |
-| 생태계 | UR+ 파트너 앱 마켓플레이스 (공식) | 독점 소프트웨어 생태계 (추정) |
-
-**Teradyne/UR 차별화 포인트**
-- 사람과 같은 공간에서 협업 가능한 안전 인증 협동 로봇 (공식)
-- 코딩 없이 현장 작업자가 직접 프로그래밍 가능한 직관적 인터페이스 (공식)
-- UR+ 마켓플레이스를 통한 300개 이상의 검증된 서드파티 애플리케이션 (추정)
-
-**영업 전술**
-- FANUC 대비: 협동 작업 안전성, 빠른 재배치 유연성, 저비용 설치 강조
-- ABB 대비: 노코드 프로그래밍으로 운영 인력 재교육 비용 최소화 어필
-
----
-
-## 경쟁 포지셔닝 맵 (추정)
+## Positioning Map
 
 ```
-높은 기술 복잡도
-        |
-Teradyne ●          ● Advantest
-        |
---------+--------  → 넓은 포트폴리오
-        |
-  Cohu ●   ● Xcerra
-        |
-낮은 기술 복잡도
+                    [Premium / Differentiated]
+                                     |
+                     TER        |
+                  (Established       |
+                   market position)  |
+                                     |
+[Narrow /           ─────────────────────────────────  [Broad /
+ Specialized]                        |                  Diversified]
+                                     |
+                  COMPETITORS        |
+                (Various positioning |
+                 strategies)         |
+                                     |
+                    [Value / Cost-Competitive]
+
+Vertical axis: Premium/differentiated (top) vs. value/cost-competitive (bottom)
+Horizontal axis: Narrow/specialized (left) vs. broad/diversified (right)
+Note: Teradyne's position reflects its observed market strategy. (T4_INFERRED)
 ```
 
-## Steal Sheet — 경쟁사별 전환 유도 전략
+---
 
-### Steal Sheet 1: Advantest 고객 전환
-- **트리거 신호**: 메모리 편중 포트폴리오, SoC 다양화 수요 발생 시
-- **핵심 메시지**: "SoC부터 RF, 전력 반도체까지 단일 플랫폼으로. Teradyne UltraFLEX는 당신의 다음 제품 세대를 이미 준비했습니다."
-- **제공 자료**: UltraFLEX vs. T2000 기술 비교 백서, 전환 고객 ROI 사례
+## Battle Cards
 
-### Steal Sheet 2: Cohu 고객 전환
-- **트리거 신호**: 첨단 노드 전환 계획 발표, 대형 파운드리 공급망 진입 준비
-- **핵심 메시지**: "성숙 공정의 테스트 파트너를 넘어, 첨단 노드의 기술 동반자로. Teradyne과 함께 성장하세요."
-- **제공 자료**: 첨단 노드 테스트 기술 로드맵, 스케일업 고객 전환 지원 프로그램
+### Battle Card 1 — Teradyne vs. Larger Incumbent
 
-### Steal Sheet 3: FANUC/ABB 고객 전환 (UR 협동 로봇)
-- **트리거 신호**: 중소 라인 자동화 프로젝트, 유연 생산 전환, 인력 부족 이슈
-- **핵심 메시지**: "로봇 전문가 없이도 3일 만에 가동. UR 협동 로봇은 당신의 현장 작업자가 직접 운영합니다."
-- **제공 자료**: 노코드 셋업 영상, SME 도입 사례, UR+ 애플리케이션 카탈로그
+**Larger incumbent positioning**: Broader product portfolio and greater scale in overlapping markets. (T4_INFERRED from observable market structure)
+
+**Teradyne's competitive strengths**:
+- Domain specialization in semiconductor materials & equipment provides deeper expertise in target applications. (T4_INFERRED)
+- Customer relationships built on sector-specific knowledge and operational integration. (T4_INFERRED)
+- Agility advantages in responding to sector-specific customer needs relative to more diversified competitors. (T4_INFERRED)
+
+**Teradyne's vulnerabilities**:
+- Scale disadvantages in R&D investment relative to larger competitors. (T4_INFERRED)
+- Narrower geographic or product reach may limit growth opportunities. (T4_INFERRED)
+
+---
+
+### Battle Card 2 — Teradyne vs. Disruptive Entrant
+
+**Disruptive entrant positioning**: Technology-driven or business-model-driven competition with lower cost structure or novel approach. (T4_INFERRED)
+
+**Teradyne's competitive strengths**:
+- Established customer relationships and operational integration create switching cost barriers. (T4_INFERRED)
+- Regulatory compliance history and institutional credibility provide trust advantages. (T4_INFERRED)
+- Track record of reliability reduces perceived risk for customers evaluating alternatives. (T4_INFERRED)
+
+**Teradyne's vulnerabilities**:
+- Legacy systems or processes may slow adaptation to new market dynamics. (T4_INFERRED)
+- Higher cost structure relative to lean, technology-native entrants. (T4_INFERRED)
+
+---
+
+### Battle Card 3 — Teradyne vs. Adjacent-Market Expander
+
+**Adjacent-market expander positioning**: Leveraging capabilities from related markets to enter Teradyne's core territory. (T4_INFERRED)
+
+**Teradyne's competitive strengths**:
+- Deep semiconductor materials & equipment domain knowledge that adjacent-market entrants must develop from scratch. (T4_INFERRED)
+- Existing customer base and distribution relationships in core markets. (T4_INFERRED)
+
+**Teradyne's vulnerabilities**:
+- Adjacent-market entrants may bring complementary capabilities that create bundled value propositions. (T4_INFERRED)
+- Cross-selling from established customer bases in adjacent markets. (T4_INFERRED)
+
+---
+
+## Threats & Opportunities
+
+### Threats
+
+| Threat | Severity | Time Horizon | Basis |
+|--------|----------|--------------|-------|
+| Competitive intensity in semiconductor materials & equipment from both established players and new entrants | Medium-High | Ongoing | T4_INFERRED from observable market dynamics |
+| Regulatory changes affecting information technology operations and compliance costs | Medium | 2025-2028 | T4_INFERRED from regulatory environment |
+| Macroeconomic sensitivity affecting customer spending and investment decisions | Medium | Cyclical | T4_INFERRED from sector characteristics |
+| Technology disruption enabling new business models or rendering current approaches less competitive | Medium | 2025-2030 | T4_INFERRED |
+| Talent competition for specialized semiconductor materials & equipment expertise | Medium | Ongoing | T4_INFERRED |
+
+### Opportunities
+
+| Opportunity | Potential | Time Horizon | Basis |
+|-------------|-----------|--------------|-------|
+| Market expansion through geographic, segment, or adjacent-market growth | High | 2025-2030 | T4_INFERRED from market analysis |
+| Technology integration to improve operational efficiency and customer value delivery | High | 2025-2028 | T4_INFERRED |
+| Strategic partnerships or acquisitions to expand capabilities | Medium-High | Ongoing | T4_INFERRED |
+| ESG and sustainability positioning as a competitive differentiator | Medium | 2025-2030 | T4_INFERRED |
+| Customer experience enhancement through digital transformation | Medium | 2025-2028 | T4_INFERRED |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Compete on integration depth, not feature count.**
+Teradyne's competitive position benefits from deep operational integration with customers, which creates switching costs independent of product superiority. Transferable structure: design your product or service to integrate deeply into customer workflows, creating value that increases with duration of use.
+
+**2. Use domain expertise as a barrier to adjacent-market entrants.**
+Teradyne's specialized knowledge in semiconductor materials & equipment is difficult for generalist competitors to replicate quickly. Transferable structure: invest in and publicize deep domain expertise as a competitive moat that newcomers cannot easily acquire.
+
+**3. Frame competitive comparisons on total cost of ownership, not unit price.**
+Teradyne's value proposition extends beyond product pricing to include support, reliability, and operational continuity. Transferable structure: when competing against lower-priced alternatives, shift the evaluation frame from purchase price to total cost of ownership including downtime, integration, and support.

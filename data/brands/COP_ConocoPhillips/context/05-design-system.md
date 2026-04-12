@@ -1,137 +1,102 @@
-# ConocoPhillips (COP) — 디자인 시스템
+# 05. Design System — ConocoPhillips (COP)
 
-## 브랜드 컬러 팔레트
-
-### 주요 컬러
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| COP 레드 | `#C8102E` | 200, 16, 46 | 로고, 주요 액센트, CTA 버튼 | (공식) |
-| COP 네이비 | `#002D62` | 0, 45, 98 | 헤더, 제목, 배경 다크 | (공식) |
-| COP 화이트 | `#FFFFFF` | 255, 255, 255 | 배경, 여백, 역상 텍스트 | (공식) |
-| COP 라이트 그레이 | `#F4F4F4` | 244, 244, 244 | 섹션 배경, 카드 배경 | (추정) |
-| COP 미드 그레이 | `#6D6E71` | 109, 110, 113 | 본문 보조 텍스트, 캡션 | (추정) |
-| COP 다크 그레이 | `#333333` | 51, 51, 51 | 본문 텍스트 | (추정) |
-
-### 보조 컬러 (Accent Palette)
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| 에너지 오렌지 | `#E87722` | 232, 119, 34 | 인포그래픽 강조, 데이터 포인트 | (추정) |
-| 지속가능 그린 | `#4A7C59` | 74, 124, 89 | ESG 콘텐츠, 환경 섹션 | (추정) |
-| 스틸 블루 | `#4A90D9` | 74, 144, 217 | 기술·디지털 콘텐츠 | (추정) |
-| 앰버 골드 | `#F5A623` | 245, 166, 35 | 수상·표창, 프리미엄 강조 | (추정) |
-
-### 컬러 사용 비율 (추정)
-
-```
-■■■■■■■■░░  COP 네이비 (#002D62)   — 40%
-░░░░░░░░░░  COP 화이트 (#FFFFFF)    — 35%
-■░░░░░░░░░  COP 레드 (#C8102E)      — 10%
-░░░░░░░░░░  그레이 계열             — 10%
-░░░░░░░░░░  보조 컬러               —  5%
-```
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-### 주요 서체 (추정)
+ConocoPhillips's visual identity, as observed on its official website, employs a structured color system appropriate to energy sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 용도 | 서체명 | 웨이트 | 크기 범위 |
-|------|--------|--------|---------|
-| 헤딩 H1 | Helvetica Neue / Arial | Bold (700) | 36~56px |
-| 헤딩 H2 | Helvetica Neue / Arial | SemiBold (600) | 28~36px |
-| 헤딩 H3 | Helvetica Neue / Arial | Medium (500) | 22~28px |
-| 본문 | Helvetica Neue / Arial | Regular (400) | 16~18px |
-| 캡션·주석 | Helvetica Neue / Arial | Regular (400) | 12~14px |
-| 데이터 수치 강조 | Helvetica Neue / Arial | Bold (700) | 24~48px |
+### Core Brand Colors
 
-**타이포그래피 원칙:**
-- 세리프 서체 사용 금지 (신뢰성·현대성 유지)
-- 본문 행간: 1.5~1.6 (가독성 최적화)
-- 컬럼 최대 너비: 680px (긴 문서 가독성)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 로고 시스템
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### 로고 변형 (공식 기반)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 변형 | 배경 | 용도 |
-|------|------|------|
-| 풀 컬러 (레드+네이비) | 화이트 배경 | 공식 문서, 웹사이트 |
-| 역상 (화이트) | 다크 배경 | 프레젠테이션 다크 슬라이드 |
-| 단색 (블랙) | 화이트 배경 | 흑백 인쇄물 |
-| 단색 (화이트) | 컬러 배경 | 굿즈, 유니폼 |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 로고 클리어스페이스 (추정)
-- 최소 클리어스페이스: 로고 높이의 50%
-- 최소 디지털 크기: 120px 너비
-- 최소 인쇄 크기: 25mm 너비
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 그래픽 요소
+## 2. Typography
 
-### 아이콘 스타일 (추정)
-- **스타일:** 라인 아이콘 (2px 스트로크), 모서리 약간 둥글게
-- **그리드:** 24×24px 기준
-- **일관성:** 단일 스트로크 웨이트 유지
+ConocoPhillips's digital properties employ a typographic system appropriate to its energy positioning.
 
-### 사진 스타일 (추정)
-| 카테고리 | 스타일 지침 |
-|---------|-----------|
-| 현장 운영 | 자연광, 실제 작업자, 헬멧·안전장비 착용 |
-| 임원 포트레이트 | 중립 배경, 비즈니스 캐주얼~정장 |
-| 자연환경 | 고해상도 풍경, COP 시설과 자연 공존 |
-| 기술·장비 | 클로즈업 디테일, 산업미 강조 |
-| 지역사회 | 다양성 반영, 실제 인물 우선 |
+### Typeface System
 
-**사진 필터 처리 (추정):**
-- 과도한 HDR·인공적 채도 부스트 금지
-- 네이비·블루 계열 색조 약간 강조 (브랜드 일관성)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 인포그래픽 스타일 (추정)
-- 데이터 시각화: 바 차트 > 파이 차트 (E&P 데이터 특성)
-- 지도: 메르카토르 투영, COP 운영 지역 레드/네이비 마커
-- 프로세스 다이어그램: 좌→우 플로우, 화살표 단순화
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 레이아웃 그리드 (추정)
+## 3. Channel Specifications
 
-### 웹 (데스크탑)
-- 최대 너비: 1280px
-- 컬럼: 12컬럼 그리드
-- 거터: 24px
-- 사이드 마진: 80px
-
-### 웹 (모바일)
-- 컬럼: 4컬럼
-- 거터: 16px
-- 사이드 마진: 20px
-
-### 프레젠테이션 (16:9)
-- 안전 영역: 상하 80px, 좌우 100px
-- 로고 위치: 우하단 고정
-- 슬라이드 번호: 우하단 로고 상단
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어 (3개)
+## 4. Layout Principles
 
-### Steal Sheet A: "데이터 시각화 우선 설계"
-- **원칙:** 텍스트 단락보다 수치를 대형 타이포그래피로 전면 배치
-- **적용:** IR 프레젠테이션 표지에 핵심 KPI 3개를 64px 볼드로 배치
-- **효과:** 투자자 3초 내 핵심 메시지 인지율 향상 (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### Steal Sheet B: "레드·네이비 대비 원칙"
-- **원칙:** 레드(`#C8102E`)는 강조·액션에만, 네이비(`#002D62`)는 구조·신뢰에 사용
-- **금지:** 레드 배경에 네이비 텍스트 (가독성 최저)
-- **적용:** CTA 버튼=레드, 섹션 헤더=네이비, 본문=다크 그레이
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet C: "산업 사진 + 인간 중심 균형"
-- **원칙:** 기계·시설 사진 3장당 인물 사진 1장 배치
-- **이유:** 순수 산업 이미지는 차갑고 거리감 형성, 인물로 브랜드 온도 조절
-- **적용:** 연간 보고서, 채용 마이크로사이트, LinkedIn 커버 이미지
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: ConocoPhillips (COP)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

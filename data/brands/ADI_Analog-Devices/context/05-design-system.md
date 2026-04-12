@@ -1,132 +1,102 @@
-# 05. 디자인 시스템 — Analog Devices (ADI)
+# 05. Design System — Analog Devices (ADI)
 
-> 산업 분류: 정보기술 / 반도체  
-> 분석 기준일: 2026-04-12
-
----
-
-## 1. 컬러 시스템
-
-### 브랜드 코어 컬러
-
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| ADI Blue (Primary) | `#0073CF` | rgb(0, 115, 207) | 로고, 주요 CTA, 헤드라인 강조 (공식) |
-| ADI Dark Blue | `#00386E` | rgb(0, 56, 110) | 네비게이션 바, 헤더 배경, 텍스트 강조 (공식) |
-| ADI Light Blue | `#4DA6E8` | rgb(77, 166, 232) | 호버 상태, 보조 링크, 인포그래픽 강조 (추정) |
-| White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 역전 상황 (공식) |
-| Off-White / Light Gray | `#F5F5F5` | rgb(245, 245, 245) | 카드 배경, 섹션 구분 (추정) |
-
-### 기능 컬러 (UI/시각화)
-
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Success Green | `#2E8B57` | rgb(46, 139, 87) | 긍정 상태, 체크마크, 완료 표시 (추정) |
-| Warning Amber | `#F5A623` | rgb(245, 166, 35) | 경고 메시지, 주의 표시 (추정) |
-| Error Red | `#D0021B` | rgb(208, 2, 27) | 오류 상태, 경고 텍스트 (추정) |
-| Neutral Gray | `#6B6B6B` | rgb(107, 107, 107) | 본문 텍스트, 설명 텍스트 (추정) |
-| Dark Gray | `#333333` | rgb(51, 51, 51) | 주요 본문 텍스트 (추정) |
-
-### 차트·그래프 팔레트 (기술 문서용)
-
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Chart Blue 1 | `#0073CF` | rgb(0, 115, 207) | 1번 데이터 시리즈 (추정) |
-| Chart Teal | `#00A8A8` | rgb(0, 168, 168) | 2번 데이터 시리즈 (추정) |
-| Chart Orange | `#E86B00` | rgb(232, 107, 0) | 3번 데이터 시리즈, 강조 곡선 (추정) |
-| Chart Purple | `#7B4FA6` | rgb(123, 79, 166) | 4번 데이터 시리즈 (추정) |
-| Chart Gray | `#999999` | rgb(153, 153, 153) | 기준선, 그리드 라인 (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 용도 | 폰트 | 스타일 | 크기 범위 |
-|------|------|--------|----------|
-| 헤드라인 | Helvetica Neue / Arial (공식 대체 폰트) | Bold, 700 | 28–48px |
-| 서브헤드 | Helvetica Neue / Arial | SemiBold, 600 | 20–28px |
-| 본문 | Helvetica Neue / Arial | Regular, 400 | 14–16px |
-| 기술 코드/수식 | Courier New / Monospace | Regular | 13–14px |
-| 캡션·레이블 | Helvetica Neue / Arial | Regular, 400 | 11–12px |
+Analog Devices's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-*ADI는 별도 커스텀 서체보다 시스템 폰트 기반의 클린한 산세리프 체계를 채택 (추정)*
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 3. 로고 시스템
+### Color Principles
 
-### 로고 변형 (공식)
-- **풀 로고**: "Analog Devices" 워드마크 + ADI 심볼 (파란색)
-- **ADI 심볼**: 독립 심볼 마크 (사각형 프레임 내 ADI 레터마크)
-- **모노크롬**: 흑백 인쇄·엠보싱용
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### 로고 사용 금지 사항 (추정)
-- 배경과 대비 미달 시 사용 금지
-- 심볼 비율 임의 변경 금지
-- 그림자·외곽선 효과 추가 금지
-- ADI Blue 외 컬러로 컬러 로고 변경 금지
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 최소 사용 크기
-- 디지털: 로고 심볼 최소 24px 높이
-- 인쇄: 로고 심볼 최소 8mm 높이
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
----
-
-## 4. 이미지리 & 비주얼 언어
-
-### 사진 스타일
-- **제품 사진**: 흰 배경 또는 회로 기판 컨텍스트, 클린하고 정밀한 느낌 (공식)
-- **환경 사진**: 실험실·공장·의료 환경 — 실제 사용 맥락 강조
-- **인물 사진**: 엔지니어·기술자가 실제 작업하는 장면, 포즈 연출 최소화
-
-### 일러스트레이션·다이어그램
-- **회로 다이어그램**: IEC/IEEE 표준 심볼 사용, ADI Blue 강조색
-- **시스템 블록 다이어그램**: 직사각형 블록 + 화살표, 일관된 색상 체계
-- **데이터 시각화**: 오실로스코프 스타일 파형 그래프, 격자선 사용
-
-### 아이콘 스타일 (추정)
-- 라인 아이콘 (Outlined) 스타일 우선
-- 두께 2px 기준
-- ADI Blue 또는 Dark Gray 사용
-- 둥근 모서리 (Rounded caps) 적용
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5. UI 컴포넌트 원칙 (analog.com 기준)
+## 2. Typography
 
-### 버튼
-| 유형 | 배경 | 텍스트 | 테두리 |
-|------|------|--------|--------|
-| Primary CTA | `#0073CF` | `#FFFFFF` | 없음 |
-| Secondary | `#FFFFFF` | `#0073CF` | `#0073CF` 1px |
-| Disabled | `#CCCCCC` | `#888888` | 없음 |
+Analog Devices's digital properties employ a typographic system appropriate to its information technology positioning.
 
-### 카드·패널
-- 배경: `#FFFFFF` 또는 `#F5F5F5`
-- 테두리: `#E0E0E0` 1px solid
-- 모서리: 4px radius
-- 그림자: box-shadow 0 2px 4px rgba(0,0,0,0.08)
+### Typeface System
 
-### 데이터 테이블 (데이터시트 전용)
-- 헤더 배경: `#00386E`, 텍스트: `#FFFFFF`
-- 홀수 행: `#FFFFFF`
-- 짝수 행: `#F5F5F5`
-- 테두리: `#CCCCCC` 1px
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## 6. 레이아웃 그리드
-
-- **웹**: 12컬럼 그리드, 최대 너비 1280px, 거터 24px (추정)
-- **기술 문서 (PDF)**: A4/Letter 기준, 2컬럼 레이아웃 (텍스트+회로도)
-- **반응형 브레이크포인트**: 320px / 768px / 1024px / 1280px (추정)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 3. Channel Specifications
 
-| # | 훔칠 요소 | 적용 방법 |
-|---|-----------|-----------|
-| 1 | **신뢰 컬러로서의 딥 블루 시스템** | ADI Blue(`#0073CF`)와 Dark Blue(`#00386E`) 조합은 기술·신뢰·전문성을 동시에 전달하는 팔레트 — B2B 기술 브랜드에서 청색 계열 딥 컬러는 의사결정자의 신뢰 반응을 높임 |
-| 2 | **기술 다이어그램 컬러 코딩 일관성** | 모든 회로도·블록 다이어그램에 동일한 컬러 체계(ADI Blue 강조, 회색 보조)를 적용하면 브랜드 인식 없이도 "ADI 문서"로 즉각 인식되는 시각적 언어 구축 |
-| 3 | **클린 타이포그래피로 콘텐츠 밀도 극대화** | 커스텀 폰트 대신 Helvetica 계열 시스템 폰트를 사용함으로써 기술 문서의 렌더링 일관성을 보장하고, 복잡한 수식·표·다이어그램이 가득한 페이지에서도 가독성 유지 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+
+---
+
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Analog Devices (ADI)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

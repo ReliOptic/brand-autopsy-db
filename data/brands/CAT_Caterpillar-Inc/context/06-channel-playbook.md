@@ -1,138 +1,141 @@
-# 06. 채널 플레이북 — Caterpillar (CAT)
+# 06. Channel Playbook — Caterpillar Inc. (CAT)
 
-## 채널 전략 개요
-
-CAT의 채널 믹스는 **딜러 중심의 오프라인 영업**이 매출의 핵심을 담당하고, 디지털 채널은 **인지도 구축 → 리드 육성 → 고객 유지**의 보조 역할을 한다. 콘텐츠 전략은 채널별 오디언스 특성에 맞춰 동일 메시지를 다른 포맷으로 재활용(Repurpose)하는 방식으로 운영된다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 역할 정의
+## 1. Channel Strategy Matrix
 
-| 채널 | 주요 역할 | 목표 오디언스 | KPI |
-|------|---------|------------|-----|
-| 공식 웹사이트 (cat.com) | 제품 정보 허브, 리드 수집 | 구매결정자, 플릿 매니저 | 방문자, 리드 전환율 |
-| YouTube | 브랜드 스토리텔링, 기술 교육 | 오퍼레이터, 구매결정자 | 시청 시간, 구독자 |
-| LinkedIn | B2B 리드 육성, 업계 사고 리더십 | 경영진, 플릿 매니저 | 팔로워, 리드 생성 |
-| Instagram | 브랜드 감성·비주얼 구축 | 오퍼레이터, 일반 팬층 | 도달, 저장, 팔로워 |
-| X (Twitter/구 트위터) | 뉴스·기술 업데이트 실시간 공유 | 업계 관계자, 미디어 | 노출, 리트윗 |
-| 딜러 네트워크 | 최종 영업·계약·서비스 | 모든 구매 레이어 | 성약률, 재구매율 |
-| 이메일 뉴스레터 | 기존 고객 유지, 신모델 업셀 | 기존 고객, 딜러 | 오픈율, CTR |
-| 전시회·이벤트 | 신모델 런칭, 관계 구축 | 경영진, 딜러 파트너 | 리드 수, 미디어 노출 |
-| Cat App / Cat Connect | 고객 유지, 데이터 기반 업셀 | 플릿 매니저, 오퍼레이터 | MAU, 서비스 계약 갱신율 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## Steal Sheet — 채널 레이어별 전략
+## 2. Channel Tone Variations
 
-### Steal Sheet 1 — 디지털 콘텐츠 채널 레이어
+Caterpillar Inc.'s core voice adjusts by channel while maintaining brand coherence.
 
-| # | 전략 요소 | 실행 방법 | 예상 효과 |
-|---|---------|---------|---------|
-| 1 | YouTube "Operator POV" 시리즈 | 오퍼레이터 캠 장착 + 현장 하루 밀착 다큐 (10~15분) | 오퍼레이터 공감 확보, 유기적 공유 유발 |
-| 2 | LinkedIn 기술 인사이트 뉴스레터 | 주 1회 "CAT Insights" — 업계 트렌드 + CAT 솔루션 연계 | 구매결정자 리드 육성, 사고 리더십 구축 |
-| 3 | Instagram Reels "Built for it" 챌린지 | 오퍼레이터가 극한 환경 작업 영상 태그 — UGC 활성화 (추정) | 커뮤니티 참여, 브랜드 팬덤 형성 |
-
-### Steal Sheet 2 — 딜러·오프라인 채널 레이어
-
-| # | 전략 요소 | 실행 방법 | 예상 효과 |
-|---|---------|---------|---------|
-| 1 | 딜러 쇼룸 디지털 전환 | AR/VR 장비 시연 키오스크 — 부지가 없어도 풀사이즈 경험 (추정) | 시연 전환율 향상, 구매 결정 가속 |
-| 2 | 현장 시연 프로그램 (Demo Day) | 딜러 주관 현장 직접 시운전 이벤트 — 고객 데이터 수집 동반 | 구매 확신 강화, 경쟁사 전환 고객 확보 |
-| 3 | 딜러 영업사원 콘텐츠 무장 | 모바일 세일즈 앱에 최신 TCO 계산기·사례연구 즉시 접근 제공 (추정) | 영업 사이클 단축, 설득력 강화 |
-
-### Steal Sheet 3 — 고객 유지·데이터 채널 레이어
-
-| # | 전략 요소 | 실행 방법 | 예상 효과 |
-|---|---------|---------|---------|
-| 1 | Cat Connect 예측 정비 알림 | 텔레매틱스 데이터 기반 고장 예측 → 선제 서비스 제안 자동화 (공식 기능 기반) | 다운타임 사전 차단, 고객 충성도 강화 |
-| 2 | 부품 구독 프로그램 | 정기 소모품(필터·오일·벨트) 자동 배송 구독 모델 (추정) | 반복 구매 락인, Parts.com 트래픽 증대 |
-| 3 | 고객 성과 리포트 | Cat Connect 데이터로 분기별 "장비 성과 리포트" 자동 생성 → 고객 발송 (추정) | 가치 가시화, 갱신·업그레이드 대화 개시 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-## 채널별 콘텐츠 캘린더 프레임워크
+## 3. Cross-Channel Synergy Map
 
-### 월별 콘텐츠 리듬 (추정)
+### Route A — Product/Service Launch Sequence
 
-| 주차 | 테마 | 주요 채널 | 포맷 |
-|------|------|---------|------|
-| 1주 | 제품·기술 | 웹사이트, LinkedIn, YouTube | 기술 사양서, 딥다이브 영상 |
-| 2주 | 현장 스토리 | Instagram, YouTube, X | 오퍼레이터 다큐, Reels |
-| 3주 | 혁신·미래 | LinkedIn, 이메일 | 백서, 뉴스레터 |
-| 4주 | 지속가능성·커뮤니티 | LinkedIn, Instagram | 인포그래픽, 이벤트 하이라이트 |
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-### 연간 주요 이벤트 캘린더
+### Route B — Thought Leadership Pipeline
 
-| 시기 | 이벤트 | 채널 전략 |
-|------|--------|---------|
-| 1월 | CES / 연간 전략 발표 | LinkedIn 사고 리더십, 보도자료 |
-| 3~4월 | CONEXPO (격년, 짝수 해) | 현장 라이브 스트리밍, 신모델 런칭 콘텐츠 폭발적 배포 |
-| 6월 | 북반구 건설 성수기 시작 | 오퍼레이터 현장 스토리 집중 |
-| 9~10월 | MINExpo (4년 주기) | 광업 세그먼트 집중, 자율화 기술 쇼케이스 |
-| 11월 | 연말 TCO 정산 시즌 | 플릿 매니저 대상 갱신·업그레이드 이메일 캠페인 |
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
----
+### Route C — Earnings and Financial Communications
 
-## 유료 미디어 (Paid Media) 전략
-
-### 검색 광고 (SEM)
-- **핵심 키워드 (추정)**: "굴삭기 구매", "건설장비 리스", "mining equipment", "bulldozer price"
-- 경쟁사 브랜드 키워드 방어 입찰 포함 (Komatsu, Liebherr 등)
-- 랜딩 페이지: 제품 비교 페이지 + TCO 계산기 연동
-
-### 디스플레이 & 프로그래매틱
-- 건설·광업 전문 미디어(ENR, Mining Weekly 등) 타겟팅 (추정)
-- 리타겟팅: 제품 페이지 방문자 → 사례연구 광고 노출
-- 크리에이티브: 정지 장비보다 동작 중 GIF/동영상 배너 우선
-
-### LinkedIn 광고
-- Account-Based Marketing(ABM): 대형 건설사·광업사 특정 타겟팅
-- 스폰서드 콘텐츠: TCO 계산기, 백서 다운로드 Lead Gen Form 연동
-- InMail: 임원급 대상 맞춤 메시지 (예산 집행 시즌 전 3개월)
-
----
-
-## 딜러 채널 지원 프레임워크
-
-### 딜러 마케팅 지원 (MDF: Market Development Fund, 추정)
-- 딜러별 지역 광고 집행 지원금 제공
-- CAT 공식 크리에이티브 에셋 라이브러리 접근 제공
-- 공동 브랜딩 가이드라인: "CAT 공식 딜러" 표시 의무화
-
-### 딜러 교육 & 인증 (추정)
-- Cat University (온라인 교육 플랫폼): 제품 지식, 영업 스킬, 서비스 기술
-- 딜러 등급제: Gold / Platinum / Diamond — 등급별 지원 차등 (추정)
-- 연간 딜러 컨퍼런스: 신모델 사전 공개, 전략 공유
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## 채널 성과 측정 프레임워크
+## 4. Channel-Specific Prohibitions
 
-### 퍼널 단계별 핵심 지표
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 퍼널 단계 | 채널 | 핵심 KPI |
-|---------|------|---------|
-| 인식 (Awareness) | YouTube, Instagram, 전시회 | 도달, 노출, 브랜드 검색량 |
-| 관심 (Interest) | LinkedIn, 웹사이트 블로그 | 페이지 체류 시간, 콘텐츠 다운로드 |
-| 고려 (Consideration) | 웹사이트 제품 페이지, 이메일 | 제품 비교 클릭, TCO 계산기 사용, 리드 폼 제출 |
-| 구매 (Purchase) | 딜러, Cat Financial | 견적 요청, 계약 성약률 |
-| 유지 (Retention) | Cat App, 이메일, 딜러 | 서비스 계약 갱신율, NPS, 재구매 주기 |
-| 옹호 (Advocacy) | 현장 스토리 UGC, 리뷰 | 오퍼레이터 추천 비율, 사례연구 참여율 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### 월간 리포트 항목 (추정)
-- 채널별 리드 수 및 CPL (Cost per Lead)
-- 딜러 시연 요청 건수
-- Cat Connect MAU 및 서비스 계약 전환율
-- 경쟁사 대비 SOV (Share of Voice) — 건설·광업 키워드 기준
-- 오가닉 vs 유료 트래픽 비율
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 위기 커뮤니케이션 채널 프로토콜 (추정)
+## 5. Crisis Response Protocol
 
-| 위기 유형 | 1차 대응 채널 | 메시지 원칙 |
-|---------|------------|---------|
-| 장비 리콜·안전 결함 | 공식 웹사이트 + 딜러 직접 연락 | 투명 공개, 즉각 조치 안내, 고객 안전 최우선 |
-| ESG·환경 이슈 | 공식 보도자료 + LinkedIn | 데이터 기반 반론, 지속가능성 로드맵 재강조 |
-| 노동·파업 이슈 | 내부 채널 우선, 이후 공식 성명 | 직원 존중, 협상 진행 상황 투명 공개 |
-| 사이버 보안 침해 | 고객 직접 이메일 + 웹사이트 | 피해 범위 명확화, 즉각 조치 내용 구체화 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Caterpillar Inc.'s channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Caterpillar Inc.'s IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Caterpillar Inc.'s channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

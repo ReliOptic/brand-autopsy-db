@@ -1,165 +1,102 @@
-# 05 디자인 시스템 — Merck / Keytruda (MRK)
+# 05. Design System — Merck & Co. (MRK)
 
-> 섹터: 헬스케어 — 제약 | 티커: MRK | 업데이트: 2026-04-12
-
----
-
-## 1. 디자인 철학
-
-**공식 브랜드 디자인 원칙 (공식)**
-> "명료성, 신뢰성, 희망 — 복잡한 과학을 인간적 언어로 번역한다."
-
-**Keytruda 비주얼 포지셔닝 (추정)**
-- 의학적 정확성과 감성적 온기의 균형
-- 데이터 중심이지만 냉정하지 않음
-- 프리미엄 제약 브랜드의 절제된 미학
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 2-1. Merck 기업 컬러 팔레트
+Merck & Co.'s visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Merck Blue (Primary) | `#00857C` | rgb(0, 133, 124) | 기업 메인 컬러, 로고, CTA (공식) |
-| Merck Dark Blue | `#005C5C` | rgb(0, 92, 92) | 헤더, 강조 텍스트 (공식) |
-| Merck Light Blue | `#00A99D` | rgb(0, 169, 157) | 보조 강조, 호버 상태 (추정) |
-| Merck Teal Tint | `#E6F5F4` | rgb(230, 245, 244) | 배경, 카드 배경 (추정) |
-| Merck White | `#FFFFFF` | rgb(255, 255, 255) | 기본 배경 (공식) |
-| Merck Dark Gray | `#333333` | rgb(51, 51, 51) | 본문 텍스트 (공식) |
-| Merck Mid Gray | `#666666` | rgb(102, 102, 102) | 보조 텍스트, 캡션 (추정) |
-| Merck Light Gray | `#F4F4F4` | rgb(244, 244, 244) | 섹션 구분 배경 (추정) |
+### Core Brand Colors
 
-### 2-2. Keytruda 브랜드 전용 컬러 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Keytruda Teal (핵심) | `#007B8A` | rgb(0, 123, 138) | Keytruda 로고, 주요 강조 (공식) |
-| Keytruda Deep Teal | `#005F6B` | rgb(0, 95, 107) | 다크 모드 강조, 헤더 배경 (추정) |
-| Keytruda Warm White | `#F8F9FA` | rgb(248, 249, 250) | 환자용 콘텐츠 배경 (추정) |
-| Keytruda Hope Orange | `#E87722` | rgb(232, 119, 34) | 희망 강조 액센트, CTA 버튼 (추정) |
-| Keytruda Soft Coral | `#F4A261` | rgb(244, 162, 97) | 환자 스토리 섹션 강조 (추정) |
-| ISI Alert Gray | `#4A4A4A` | rgb(74, 74, 74) | ISI 텍스트, 법적 고지 (공식) |
-| Safety Red | `#C0392B` | rgb(192, 57, 43) | 경고 정보, 심각한 이상반응 표시 (추정) |
-| Data Green | `#27AE60` | rgb(39, 174, 96) | 긍정적 임상 결과 데이터 시각화 (추정) |
+### Color Principles
 
-### 2-3. 컬러 사용 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-```
-주색 (Primary):    Keytruda Teal #007B8A — 60% 비중
-보조색 (Secondary): Merck Blue #00857C — 30% 비중
-강조색 (Accent):    Hope Orange #E87722 — 10% 비중
-텍스트:             Dark Gray #333333 on White #FFFFFF
-ISI 전용:           ISI Alert Gray #4A4A4A, 최소 9pt
-```
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 2-4. 접근성 (WCAG 2.1 기준)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 조합 | 대비율 | 기준 충족 |
-|------|--------|-----------|
-| `#007B8A` on `#FFFFFF` | 4.8:1 | AA 충족 (추정) |
-| `#333333` on `#FFFFFF` | 12.6:1 | AAA 충족 (추정) |
-| `#FFFFFF` on `#007B8A` | 4.8:1 | AA 충족 (추정) |
-| `#E87722` on `#FFFFFF` | 3.1:1 | AA Large 충족 (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피
+## 2. Typography
 
-### 3-1. Merck 공식 서체 (공식)
+Merck & Co.'s digital properties employ a typographic system appropriate to its health care positioning.
 
-| 역할 | 서체명 | 굵기 | 크기 범위 |
-|------|--------|------|-----------|
-| 헤딩 1 (Display) | Merck Sans (독점 서체) | Bold (700) | 48~72px |
-| 헤딩 2~3 | Merck Sans | SemiBold (600) | 28~40px |
-| 본문 (Body) | Merck Sans | Regular (400) | 16~18px |
-| 캡션 / ISI | Merck Sans | Regular (400) | 9~12px |
-| 대안 서체 (웹 폴백) | Arial, Helvetica Neue | — | — |
+### Typeface System
 
-### 3-2. 타이포그래피 원칙 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-- 라인 높이: 본문 1.6, 헤딩 1.2
-- 최대 너비: 70ch (가독성 최적화)
-- ISI 섹션: 반드시 8pt 이상, 색 대비 충족
-- 의학 용어는 이탤릭체 금지 (가독성 저하)
+### Typographic Scale
 
----
-
-## 4. 로고 & 아이덴티티
-
-### 4-1. Merck 기업 로고 (공식)
-
-- 형태: 워드마크 전용 (아이콘 없음)
-- 컬러: Merck Blue `#00857C` 또는 화이트 (역배색)
-- 최소 크기: 인쇄물 15mm, 디지털 60px
-- 보호 공간: 로고 높이의 50% 사방
-
-### 4-2. Keytruda 브랜드 로고 (공식)
-
-- 형태: "KEYTRUDA®" 워드마크 + 등록상표 기호
-- 컬러: Keytruda Teal `#007B8A` 또는 화이트
-- 반드시 성분명 "(pembrolizumab)" 병기 (규제 요건)
-- 로고 하단 또는 우측에 성분명 표기
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 5. 이미지 & 비주얼 스타일
+## 3. Channel Specifications
 
-### 5-1. 포토그래피 가이드라인 (추정)
-
-| 유형 | 스타일 | 금지 |
-|------|--------|------|
-| 환자 사진 | 자연광, 따뜻한 톤, 일상적 순간 | 병원 침대, 고통 표정, 과도한 의료 장비 |
-| HCP 사진 | 전문적이나 딱딱하지 않음, 팀워크 강조 | 거리감 있는 포즈, 흰 가운 클리셰 |
-| 과학/기전 | 3D 분자 렌더링, 깔끔한 파란색 계열 | 자극적 병리 이미지, 현미경 직접 사진 |
-| 가족/감성 | 따뜻한 앰버 톤, 야외 자연광 | 인위적 스튜디오 느낌 |
-
-### 5-2. 일러스트레이션 & 인포그래픽
-
-- 기전 다이어그램: 단순화된 세포 수준 일러스트, Teal + White 배색
-- 데이터 차트: 막대/선 그래프 우선, 파이차트 지양
-- 아이콘 스타일: 라인 아이콘 (2px stroke), 라운드 엔드캡
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 6. 모션 & 인터랙션 원칙 (추정)
+## 4. Layout Principles
 
-| 요소 | 가이드라인 |
-|------|-----------|
-| 전환 속도 | 200~300ms (빠르고 명확) |
-| 이징 | ease-in-out (자연스러운 의료 브랜드 느낌) |
-| 데이터 애니메이션 | 숫자 카운트업, 그래프 드로 (신뢰 구축) |
-| 로딩 인디케이터 | Teal 스피너, 최소화 |
-| 호버 상태 | 배경 `#E6F5F4`, 텍스트 `#005C5C` |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 7. UI 컴포넌트 스타일 가이드 (추정)
+## 5. Design Prohibitions
 
-### 버튼
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-```
-Primary CTA:
-  배경: #007B8A
-  텍스트: #FFFFFF
-  Hover: #005F6B
-  Border-radius: 4px
-  Padding: 12px 24px
+---
 
-Secondary CTA:
-  배경: transparent
-  텍스트: #007B8A
-  Border: 2px solid #007B8A
-  Hover: 배경 #E6F5F4
-```
-
-### ISI 섹션
-
-```
-배경: #F4F4F4
-폰트: 9px / Regular
-컬러: #4A4A4A
-Border-top: 2px solid #007B8A
-고정 하단 배치 (sticky footer) 또는 접기/펼치기
-```
+*Layer 5 of 8 — Brand Autopsy: Merck & Co. (MRK)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

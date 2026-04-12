@@ -1,186 +1,141 @@
-# AMD 채널 플레이북
+# 06. Channel Playbook — Advanced Micro Devices (AMD)
 
-## 채널 전략 개요
-
-AMD의 채널 전략은 **"기술 신뢰 → 커뮤니티 공명 → 구매 전환"** 의 3단계 퍼널로 설계된다. 소비자 채널과 엔터프라이즈 채널은 메시지·형식·KPI가 상이하며, 각 채널의 역할을 명확히 구분해 운영한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 주 오디언스 | 역할 | 콘텐츠 타입 | 우선순위 |
-|------|-----------|------|-----------|---------|
-| YouTube | 게이머·기술 애호가 | 인지·고려 | 벤치마크, 제품 리뷰, 기술 해설 | 최고 |
-| Twitter/X | 기술 커뮤니티·미디어 | 인지·대화 | 제품 발표, 밈, 실시간 대응 | 높음 |
-| Reddit | 얼리어답터·DIY 빌더 | 고려·신뢰 | AMA, 기술 Q&A, 커뮤니티 지원 | 높음 |
-| LinkedIn | 기업 IT·투자자 | 고려·전환 | 케이스 스터디, 리더십 콘텐츠 | 높음 |
-| Instagram | 게이머·크리에이터 | 인지·브랜드 | 제품 비주얼, 사용자 스토리 | 중간 |
-| TikTok | Z세대 게이머 | 인지 | 숏폼 벤치마크, 빌드 ASMR | 중간 |
-| 공식 블로그 | 전 오디언스 | 신뢰·SEO | 기술 심층 해설, 업데이트 | 높음 |
-| 이메일 뉴스레터 | 등록 고객·파트너 | 유지·전환 | 제품 업데이트, 드라이버 릴리즈 | 중간 |
-| 개발자 포털 | ML 개발자·ISV | 전환·유지 | ROCm 가이드, API 문서 | 높음 |
-| 이벤트·컨퍼런스 | 전문가·파트너 | 신뢰·파트너십 | 기조연설, 기술 세션, 핸즈온 | 최고 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 채널별 플레이북
+## 2. Channel Tone Variations
 
-### YouTube
+Advanced Micro Devices's core voice adjusts by channel while maintaining brand coherence.
 
-**역할:** AMD의 가장 중요한 소비자 채널. 벤치마크 신뢰성과 기술 스토리텔링의 주요 플랫폼.
-
-**콘텐츠 믹스 (추정):**
-- 40% — 제품 공식 런치 영상 (트레일러, 기술 소개)
-- 30% — 파트너 크리에이터 협업 (리뷰어 시딩)
-- 20% — 기술 심층 해설 (아키텍처 설명)
-- 10% — 커뮤니티·이벤트 하이라이트
-
-**업로드 빈도:** 주 2~4회 (추정)
-
-**KPI:** 조회수, 시청 시간, 댓글 감성 분석, 구독자 증가율
-
-**Steal Sheet — YouTube 3가지:**
-
-| 시나리오 | 전술 | 기대 효과 |
-|---------|------|---------|
-| 경쟁사 제품 출시 직후 | 48시간 내 비교 벤치마크 영상 게시 | 검색 선점, 내러티브 주도 |
-| 드라이버 이슈 발생 시 | CEO/엔지니어 직접 해명 쇼트폼 | 커뮤니티 신뢰 회복 |
-| 게임 타이틀 출시 전 | 타이틀 협업 최적화 영상 선공개 | 게이머 구매 의사결정 영향 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### Twitter/X
+## 3. Cross-Channel Synergy Map
 
-**역할:** 실시간 대화 참여, 제품 발표의 첫 번째 플랫폼, 기술 커뮤니티 펄스 감지.
+### Route A — Product/Service Launch Sequence
 
-**콘텐츠 믹스 (추정):**
-- 35% — 제품·기술 발표
-- 25% — 커뮤니티 반응·리트윗
-- 20% — 벤치마크 클립·인포그래픽
-- 20% — 실시간 이벤트 라이브 트윗
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-**포스팅 빈도:** 일 3~5회 (추정)
+### Route B — Thought Leadership Pipeline
 
-**KPI:** 인상 수, 참여율, 도달 범위, 브랜드 멘션 감성
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-**Steal Sheet — Twitter/X 3가지:**
+### Route C — Earnings and Financial Communications
 
-| 시나리오 | 전술 | 기대 효과 |
-|---------|------|---------|
-| 인텔/NVIDIA 발표 당일 | 대조 수치 인포그래픽 즉시 게시 | 해시태그 경쟁, 트렌딩 진입 |
-| 커뮤니티 불만 트윗 급증 | 공식 계정이 직접 스레드로 대응 | 위기 관리, 투명성 시그널 |
-| 게임 타이틀 출시일 | 타이틀 협업 해시태그 캠페인 | 게이밍 커뮤니티 바이럴 |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### Reddit (r/hardware, r/AMD, r/PCMasterRace 등)
+## 4. Channel-Specific Prohibitions
 
-**역할:** 가장 비판적이고 기술적으로 정교한 오디언스와의 직접 소통. 신뢰 구축의 핵심 전장.
-
-**콘텐츠 전략:**
-- AMA(Ask Me Anything) — 제품 출시·이슈 발생 시 엔지니어 직접 참여
-- 드라이버 릴리즈 노트 공식 스레드 운영
-- 커뮤니티 피드백 → 제품팀 전달 파이프라인 공개
-
-**금기 사항:**
-- 마케팅 계정으로 위장한 커뮤니티 활동 금지
-- 부정적 리뷰 스레드 하이딩 시도 금지 (역효과 즉각 발생)
-
-**KPI:** 업보트율, 댓글 감성, AMA 참여자 수
-
-**Steal Sheet — Reddit 3가지:**
-
-| 시나리오 | 전술 | 기대 효과 |
-|---------|------|---------|
-| 드라이버 버그 리포트 급증 | 공식 엔지니어 AMA 48시간 내 개설 | 커뮤니티 분노 → 신뢰로 전환 |
-| 경쟁사 우호 스레드 확산 | 데이터 기반 반박 댓글 (계정 투명성 유지) | 내러티브 균형 |
-| 신제품 출시 전 루머 시기 | 공식 계정으로 힌트 스레드 참여 | 기대감 조성, 커뮤니티 열기 |
-
----
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
 ### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**역할:** 엔터프라이즈 의사결정자, 투자자, 파트너를 위한 비즈니스 신뢰 구축 채널.
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-**콘텐츠 믹스 (추정):**
-- 40% — 고객 케이스 스터디 (TCO 절감, AI 워크로드 사례)
-- 25% — 리더십 사고 리더십 (Lisa Su, CTO 기고)
-- 20% — 파트너십·인증 발표
-- 15% — 채용·문화 콘텐츠
-
-**포스팅 빈도:** 주 3~4회 (추정)
-
-**KPI:** 팔로워 증가, 기업 관계자 도달, 리드 생성 (추정)
-
-**Steal Sheet — LinkedIn 3가지:**
-
-| 시나리오 | 전술 | 기대 효과 |
-|---------|------|---------|
-| Xeon 계약 만료 시기 | "EPYC 마이그레이션 ROI 계산기" 게시 | 인바운드 리드 생성 |
-| AI 투자 발표 뉴스 사이클 | MI300X 고객 사례 즉시 게시 | 예산 결정자 마음 선점 |
-| 분기 실적 발표 후 | Lisa Su 성장 스토리 기고문 | 투자자 신뢰 강화 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 개발자 포털 / ROCm 생태계
+## 5. Crisis Response Protocol
 
-**역할:** AI/ML 개발자, ISV, 오픈소스 기여자 대상 기술 신뢰 구축. 장기 생태계 확장의 핵심.
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-**콘텐츠 전략:**
-- ROCm 설치·사용 가이드 (Ubuntu, Windows WSL)
-- PyTorch, TensorFlow, JAX 호환 문서
-- GitHub 오픈소스 기여 활성화
-- Hugging Face 모델 최적화 노트북
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-**KPI:** GitHub Stars, ROCm 다운로드 수, 개발자 포럼 활성도
+### Scenario 2 — Regulatory or Legal Action
 
-**Steal Sheet — 개발자 포털 3가지:**
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-| 시나리오 | 전술 | 기대 효과 |
-|---------|------|---------|
-| 새 LLM 아키텍처 출현 시 | 48시간 내 ROCm 최적화 예제 공개 | 얼리어답터 포착 |
-| CUDA 불만 커뮤니티 발생 | HIP 마이그레이션 가이드 + 벤치마크 게시 | 전환 장벽 낮춤 |
-| PyTorch 신버전 출시 | 동일 버전 ROCm 동시 지원 발표 | 호환성 신뢰 구축 |
+### Scenario 3 — Reputation / Social Media Issue
 
----
-
-## 인플루언서·파트너 전략
-
-### 크리에이터 티어 (추정)
-
-| 티어 | 규모 | 역할 | 협업 방식 |
-|------|------|------|---------|
-| Tier 1 — 메가 | 구독자 500만+ | 대형 론칭 앰버서더 | 독점 얼리액세스, 스폰서십 |
-| Tier 2 — 마크로 | 구독자 50~500만 | 벤치마크·리뷰 | 리뷰 샘플 제공, 협업 콘텐츠 |
-| Tier 3 — 마이크로 | 구독자 1~50만 | 커뮤니티 공명 | Red Team Plus 프로그램 |
-| Tier 4 — 나노 | 구독자 1만 미만 | 진정성 확산 | 커뮤니티 키트 제공 |
-
-### 주요 파트너십 카테고리
-
-- **게임 스튜디오:** FSR 통합 타이틀 협업 (공식)
-- **클라우드 파트너:** Microsoft Azure, Google Cloud, Oracle (공식)
-- **OEM:** Dell, HP, Lenovo, Asus (공식)
-- **시스템 인티그레이터:** 데이터센터 EPYC 솔루션 파트너 (공식)
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 위기 커뮤니케이션 채널 프로토콜 (추정)
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 위기 유형 | 1차 채널 | 대응 시간 | 메시지 원칙 |
-|---------|---------|---------|-----------|
-| 드라이버 버그 | Reddit + 공식 블로그 | 24시간 내 | 인정 → 타임라인 → 해결 |
-| 보안 취약점 | 보안 공시 + LinkedIn | 48시간 내 | 기술 명확성, 패치 제공 |
-| 성능 과장 논란 | Twitter/X + YouTube | 12시간 내 | 테스트 조건 재공개 |
-| 공급망 이슈 | 투자자 IR + LinkedIn | 즉시 | 데이터 기반, 전망 제시 |
+**1. Align channel formality with audience expectations.**
+Advanced Micro Devices's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+Advanced Micro Devices's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 채널별 콘텐츠 현지화 (추정)
-
-| 지역 | 추가 채널 | 현지화 포인트 |
-|------|---------|------------|
-| 한국 | 네이버 블로그, 카카오채널, 뽐뿌/클리앙 | PC방 파트너십, 한국어 드라이버 지원 |
-| 일본 | Nicovideo, Twitter JP | 기술 정밀성 강조, 공식 번역 품질 |
-| 중국 | 웨이보, 비리비리 | 소비자 GPU·노트북 집중, 규제 준수 |
-| 독일 | Heise Online, ComputerBase | 기술 심층성, 전력 효율 강조 |
-| 인도 | YouTube Hindi, Twitter IN | 가성비, 교육용 워크스테이션 |
+**3. Build a cross-channel sequence, not parallel silos.**
+Advanced Micro Devices's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

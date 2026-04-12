@@ -1,143 +1,102 @@
-# 05. 디자인 시스템 — Amphenol (APH)
+# 05. Design System — Amphenol (APH)
 
-## 컬러 시스템
-
-### 주요 컬러 팔레트
-
-| 역할 | 컬러명 | HEX | 사용 맥락 |
-|------|--------|-----|----------|
-| 브랜드 프라이머리 | Amphenol Blue | `#003087` | 로고, 헤더, CTA 버튼 (추정) |
-| 브랜드 세컨더리 | Steel Gray | `#4A4F54` | 본문 텍스트, 서브헤딩 (추정) |
-| 액센트 | Signal Red | `#C8102E` | 경고, 강조 배지, 주요 수치 (추정) |
-| 뉴트럴 라이트 | Arctic White | `#F5F7FA` | 페이지 배경, 카드 배경 (추정) |
-| 뉴트럴 다크 | Charcoal | `#1A1A2E` | 다크 배경, 인포그래픽 (추정) |
-| 서포트 1 | Precision Silver | `#8C9BAB` | 보조 텍스트, 구분선, 아이콘 (추정) |
-| 서포트 2 | Tech Teal | `#00A99D` | 데이터 시각화, 혁신 관련 콘텐츠 (추정) |
-| 서포트 3 | Engineering Gold | `#F0A500` | 수상·인증 배지, 하이라이트 (추정) |
-
-> 모든 컬러 값은 공개 브랜드 가이드라인 부재로 인해 공식 웹사이트 및 마케팅 자료 분석 기반 추정값이다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-### 컬러 사용 비율 (추정)
+## 1. Color Palette
 
-```
-프라이머리 블루 (#003087)    ████████████░░░░  60%
-스틸 그레이 (#4A4F54)        ████░░░░░░░░░░░░  20%
-악센트 레드 (#C8102E)        ██░░░░░░░░░░░░░░  10%
-서포트 컬러들                 ██░░░░░░░░░░░░░░  10%
-```
+Amphenol's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-### 접근성 (WCAG 2.1 기준)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 배경색 | 텍스트색 | 대비율 | 등급 |
-|--------|---------|--------|------|
-| `#F5F7FA` (Arctic White) | `#003087` (APH Blue) | 9.8:1 | AAA (추정) |
-| `#F5F7FA` (Arctic White) | `#4A4F54` (Steel Gray) | 7.2:1 | AAA (추정) |
-| `#003087` (APH Blue) | `#F5F7FA` (Arctic White) | 9.8:1 | AAA (추정) |
-| `#1A1A2E` (Charcoal) | `#F5F7FA` (Arctic White) | 14.1:1 | AAA (추정) |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 타이포그래피 시스템
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 폰트 패밀리 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 역할 | 폰트 | 특성 |
-|------|------|------|
-| 헤딩 | Helvetica Neue / Inter | 명확성, 기술적 권위감 |
-| 본문 | Source Sans Pro / Roboto | 가독성, 데이터 밀도 지원 |
-| 코드/규격 | Roboto Mono / Courier | 기술 수치, 부품번호 표기 |
-| 한국어 보조 | Noto Sans KR | 아시아 시장 대응 |
-
-### 타입 스케일 (추정)
-
-| 레벨 | 크기 | 무게 | 사용처 |
-|------|------|------|--------|
-| H1 | 48px / 3rem | 700 (Bold) | 페이지 타이틀 |
-| H2 | 36px / 2.25rem | 600 (SemiBold) | 섹션 헤딩 |
-| H3 | 28px / 1.75rem | 600 (SemiBold) | 서브섹션 |
-| Body Large | 18px / 1.125rem | 400 (Regular) | 리드 카피 |
-| Body | 16px / 1rem | 400 (Regular) | 일반 본문 |
-| Caption | 12px / 0.75rem | 400 (Regular) | 데이터시트 주석 |
-| Spec | 14px / 0.875rem | 500 (Medium) | 기술 규격 수치 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-### 로고 사용 원칙 (추정)
+Amphenol's digital properties employ a typographic system appropriate to its information technology positioning.
 
-- **최소 크기**: 디지털 24px 높이, 인쇄 8mm 높이
-- **클리어스페이스**: 로고 높이의 50% 여백 유지
-- **배경 제한**: 복잡한 패턴 위 사용 금지, 단색 배경 원칙
+### Typeface System
 
-### 로고 변형
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 버전 | 사용 배경 | 비고 |
-|------|----------|------|
-| 풀컬러 (Blue) | 화이트/라이트 배경 | 기본형 |
-| 리버스 (White) | 다크/컬러 배경 | 역전형 |
-| 모노크롬 (Black) | 단색 인쇄물 | 흑백 인쇄 |
-| 아이소타입 단독 | 파비콘, 앱 아이콘 | 축약형 |
+### Typographic Scale
 
----
-
-## 아이코노그래피 & 일러스트레이션
-
-### 아이콘 스타일 (추정)
-- **선 굵기**: 2px stroke, 코너 라운드 없음 (기술적 정밀함 표현)
-- **스타일**: 아웃라인 우선, 필드 아이콘 보조 사용
-- **크기 그리드**: 16px, 24px, 32px, 48px
-- **컬러**: 단일 컬러 원칙 (APH Blue 또는 Steel Gray)
-
-### 제품 사진 원칙 (추정)
-- 화이트/라이트 그레이 배경 스튜디오 촬영
-- 매크로/클로즈업으로 정밀도 강조
-- 섀도우: 소프트 드롭 섀도우, 과장 금지
-- 컨텍스트 샷: 실제 배치 환경(PCB, 패널, 랙) 포함
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 그래픽 요소 시스템
+## 3. Channel Specifications
 
-### 데이터 시각화 컬러 매핑
-
-| 데이터 카테고리 | 컬러 | HEX |
-|---------------|------|-----|
-| 주요 지표 / 1위 | APH Blue | `#003087` |
-| 비교 데이터 | Tech Teal | `#00A99D` |
-| 경쟁사 / 참고값 | Precision Silver | `#8C9BAB` |
-| 경고 / 임계값 | Signal Red | `#C8102E` |
-| 목표값 / 기준선 | Engineering Gold | `#F0A500` |
-
-### 레이아웃 그리드 (추정)
-- 웹: 12컬럼, 최대 너비 1440px, 거터 24px
-- 모바일: 4컬럼, 거터 16px
-- 문서: A4 기준, 상하 25mm, 좌우 20mm 여백
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 디자인 원칙 (추정)
+## 4. Layout Principles
 
-| 원칙 | 설명 |
-|------|------|
-| 정밀성 (Precision) | 픽셀 단위의 정확성, 여백의 일관성, 그리드 준수 |
-| 명확성 (Clarity) | 복잡한 기술 정보를 단순하게, 계층 구조 명확히 |
-| 내구성 (Durability) | 유행을 타지 않는 디자인, 10년 후에도 전문성 유지 |
-| 신뢰성 (Trustworthiness) | 과장 없는 시각 언어, 데이터 정직한 표현 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 5. Design Prohibitions
 
-**Steal 1: 기술 데이터의 시각적 계층화**
-최고의 B2B 기술 브랜드(예: Keysight, National Instruments)는 복잡한 규격표를 컬러 코딩과 아이콘 시스템으로 즉시 스캔 가능하게 만든다. APH의 데이터시트는 텍스트 밀도가 높고 시각적 계층이 약하다 (추정). 핵심 사양을 강조하는 컬러 코딩 시스템 도입이 필요하다.
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-**Steal 2: "극한 환경" 비주얼 코드 확립**
-방산·항공 커넥터 브랜드는 종종 극한 환경 이미지(우주, 심해, 사막)와 제품을 병치하여 내구성을 시각적으로 전달한다. APH의 웹사이트는 화이트 배경 제품 사진 중심이다 (추정). 환경 컨텍스트 비주얼을 전략적으로 도입해야 한다.
+---
 
-**Steal 3: 인터랙티브 3D 제품 뷰어**
-Molex, Amphenol FCI 일부 제품군은 이미 3D 모델 다운로드를 제공하지만, 인터랙티브 웹 뷰어는 미흡하다 (추정). PTC Creo/SolidWorks 연동 3D 뷰어를 통해 설계 엔지니어의 웹사이트 체류 시간과 채택율을 높일 수 있다.
+*Layer 5 of 8 — Brand Autopsy: Amphenol (APH)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

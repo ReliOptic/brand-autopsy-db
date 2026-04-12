@@ -1,187 +1,141 @@
-# AON plc — 채널 플레이북
+# 06. Channel Playbook — Aon plc (AON)
 
-## 채널 전략 개요
-
-AON의 채널 전략은 B2B 고관여 구매 사이클을 반영한다. 디지털 채널은 인지·교육 단계에 집중하고, 오프라인 및 직접 영업은 평가·구매 단계를 담당한다. 모든 채널은 "Thought Leadership → Relationship → Transaction" 퍼널 구조로 연결된다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 우선순위 매트릭스
+## 1. Channel Strategy Matrix
 
-| 채널 | 우선순위 | 주요 목적 | 타깃 페르소나 |
-|------|---------|---------|------------|
-| 직접 영업 (Direct Sales) | 최상 | 대형 계약 클로징 | CFO, CRO |
-| 자체 웹사이트 | 상 | 콘텐츠 허브, 리드 캡처 | 모든 페르소나 |
-| LinkedIn | 상 | 사고 리더십, 임원 브랜딩 | C-Suite, HR Director |
-| 이메일 뉴스레터 | 상 | 리드 너처링, 리포트 배포 | 기존 고객, MQL |
-| 업계 컨퍼런스·이벤트 | 상 | 관계 구축, 브랜드 권위 | CFO, 보험 담당자 |
-| 미디어·PR (FT, WSJ 등) | 중상 | 브랜드 인지, 리포트 증폭 | 광범위 비즈니스 리더 |
-| 팟캐스트 (추정) | 중 | 롱테일 인지, SEO 보완 | HR Director, CRO |
-| X (구 Twitter) (추정) | 중하 | 실시간 업계 코멘트 | 금융·보험 전문가 |
-| YouTube (추정) | 중하 | 리포트 요약, 웨비나 아카이브 | 광범위 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 채널별 상세 플레이북
+## 2. Channel Tone Variations
 
-### 1. 자체 웹사이트 (aon.com)
+Aon plc's core voice adjusts by channel while maintaining brand coherence.
 
-**포지셔닝 역할:** 글로벌 콘텐츠 허브 + 리드 캡처 게이트
-
-**콘텐츠 믹스 (추정)**
-- 리포트·백서 게이티드 다운로드: 40%
-- 서비스 소개 페이지: 25%
-- 뉴스·인사이트 아티클: 20%
-- 도구·계산기: 10%
-- 채용·기업 정보: 5%
-
-**SEO 전략 키워드 (추정)**
-- "글로벌 리스크 관리"
-- "사이버 보험 비용"
-- "기업 재보험 전략"
-- "HR 복리후생 벤치마킹"
-- "기후 리스크 보험"
-
-**CTA 구조**
-1. 1차 CTA: 리포트 다운로드 (이메일 수집)
-2. 2차 CTA: 전문가 상담 예약
-3. 3차 CTA: 뉴스레터 구독
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 2. LinkedIn
+## 3. Cross-Channel Synergy Map
 
-**계정 유형:** 기업 페이지 + 임원 개인 계정 병행 운영
-
-**콘텐츠 포맷 믹스 (추정)**
-
-| 포맷 | 비중 | 목적 |
-|------|------|------|
-| 데이터 카드 (인포그래픽) | 35% | 인게이지먼트, 공유 유도 |
-| 아티클 링크 + 인사이트 코멘트 | 30% | 트래픽 유도 |
-| 임원 퍼스널 포스트 | 20% | 신뢰도, 리치 확장 |
-| 이벤트 알림·라이브 | 10% | 이벤트 등록 유도 |
-| 채용 공고 | 5% | 고용 브랜딩 |
-
-**게시 빈도 (추정):** 주 4-5회 기업 페이지, 임원 주 1-2회
-
-**해시태그 전략 (추정)**
-- 고정: #RiskManagement #Aon #Insurance
-- 트렌드 연동: #CyberRisk #ESG #Reinsurance #ClimateRisk
-
-**임원 퍼스널 브랜딩 가이드 (추정)**
-- CEO/CRO 명의 기고: 월 1-2회
-- 톤: 개인 의견 + 데이터 근거 병행
-- 필수 요소: 구체적 수치, 미래 전망, 행동 촉구
-
----
-
-### 3. 이메일 마케팅
-
-**세그먼트 구조 (추정)**
-
-| 세그먼트 | 발송 주기 | 콘텐츠 초점 |
-|---------|---------|----------|
-| 대기업 C-Suite | 격주 | 전략 인사이트, 주요 리포트 요약 |
-| CRO/리스크 매니저 | 주간 | 리스크 트렌드, 규제 업데이트 |
-| HR 리더 | 격주 | 인적자본 데이터, 복리후생 벤치마크 |
-| 잠재 고객 (MQL) | 월간 | 입문 인사이트, 케이스 스터디 |
-| 기존 고객 | 수시 + 정기 | 계약 갱신 안내, 신규 서비스 |
-
-**이메일 구조 원칙**
-1. 제목 라인: 수치 또는 질문 형식 ("글로벌 기업 73%가 이 리스크를 과소평가합니다")
-2. 프리헤더: 핵심 인사이트 1문장
-3. 본문: 데이터 → 함의 → AON 솔루션 → CTA (300자 이내)
-4. CTA: 단일 버튼, 레드 `#CC0000`, 명확한 행동 동사
-
-**성과 벤치마크 (추정)**
-- 오픈율: 25-35% (B2B 업계 평균 대비 상위)
-- 클릭률: 4-8%
-- 구독 해지율: 0.3% 이하 유지 목표
-
----
-
-### 4. 업계 컨퍼런스 & 이벤트
-
-**주요 참가 이벤트 (추정)**
-
-| 이벤트명 | 지역 | 역할 | 목적 |
-|---------|------|------|------|
-| World Economic Forum (Davos) | 스위스 | 스폰서, 세션 발표 | 글로벌 브랜드 권위 |
-| RIMS Annual Conference | 미국 | 주요 스폰서, 기조 연설 | 리스크 매니저 직접 접촉 |
-| Rendez-Vous de Septembre | 모나코 | 참가, 네트워킹 | 재보험 시장 관계 구축 |
-| HR Tech Conference | 미국 | 전시, 세션 | HR 솔루션 인지 |
-| COP (기후변화당사국총회) | 순환 개최 | 사이드 이벤트 | 기후 리스크 리더십 |
-
-**이벤트 콘텐츠 패키지 (추정)**
-- 현장 배포: 리포트 요약 인쇄물 + USB
-- 디지털: QR코드로 게이티드 리포트 연결
-- 소셜: 실시간 LinkedIn 라이브 또는 게시물
-- 사후: 발표 슬라이드 다운로드 제공 (리드 캡처)
-
----
-
-### 5. 미디어 & PR
-
-**타깃 미디어 (추정)**
-
-| 유형 | 매체 예시 | 목적 |
-|------|---------|------|
-| 글로벌 경제지 | Financial Times, Wall Street Journal | 브랜드 권위, 리포트 인용 유도 |
-| 보험 전문지 | Business Insurance, Insurance Journal | 업계 내 전문성 |
-| HR 전문 미디어 | SHRM, HR Dive | HR 솔루션 인지 |
-| 기술 미디어 | TechCrunch (사이버 이슈) | 사이버 리스크 포지셔닝 |
-
-**PR 전략 원칙**
-1. 리포트 발표를 엠바고 미디어 브리핑으로 사전 배포 — 발표일 동시 다수 매체 게재
-2. 분기별 CRO·CEO 미디어 인터뷰 최소 2건
-3. 리스크 사고 발생 시 24시간 내 공식 코멘트 발행 (빠른 사고 리더십)
-
----
-
-## 채널 통합 퍼널
+### Route A — Product/Service Launch Sequence
 
 ```
-인지 단계
-  └── 미디어 기사 인용 → LinkedIn 공유 → SEO 검색 유입
-        ↓
-관심 단계
-  └── 웹사이트 방문 → 리포트 다운로드 (이메일 수집)
-        ↓
-평가 단계
-  └── 이메일 너처링 시퀀스 → 웨비나 참석 → 케이스 스터디 열람
-        ↓
-구매 단계
-  └── 영업 팀 직접 컨택 → 컨퍼런스 미팅 → 제안서 발송
-        ↓
-충성 단계
-  └── 연간 리뷰 미팅 → 교차 판매(Cross-sell) → 레퍼런스 고객 전환
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## Steal Sheet — 채널 플레이북 레이어
+## 4. Channel-Specific Prohibitions
 
-### Layer 1: 디지털 채널 도용 전략
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 게이티드 콘텐츠 퍼널 | 리포트→이메일→너처링 자동화 | 고가치 콘텐츠 1개로 리드 파이프라인 지속 공급 |
-| 임원 LinkedIn 병행 | 기업 계정 + 임원 개인 계정 리치 합산 | 임원 계정 팔로워 = 무비용 추가 도달 채널 |
-| SEO 리포트 앵커 | 리포트 제목이 곧 검색 키워드 | 콘텐츠 제목 설계 시 SEO 의도 선행 반영 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### Layer 2: 오프라인 채널 도용 전략
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 이벤트 콘텐츠 앵커링 | 주요 컨퍼런스에 리포트 발표 타이밍 연동 | 이벤트 참가 = 미디어 증폭 기회로 활용 |
-| 현장→디지털 연결 | QR 코드로 현장 배포물을 리드 캡처로 전환 | 오프라인 접점을 디지털 퍼널 진입점으로 설계 |
-| 엠바고 브리핑 | 발표 전날 주요 기자에게 선공개 | 발표 당일 동시 다수 기사 게재 → 노출 밀도 극대화 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
-### Layer 3: 퍼널 통합 도용 전략
+---
 
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 단계별 CTA 분리 | 인지→관심→평가→구매 각 단계 별도 CTA | 모든 접점에 전환 목표 단계 명시적 설계 |
-| 교차 판매 자동화 | 기존 고객 데이터로 인접 서비스 추천 | 신규 획득보다 기존 고객 확장이 CAC 낮음 |
-| 레퍼런스 루프 | 만족 고객을 케이스 스터디→PR→신규 리드로 순환 | 고객 성공 사례를 마케팅 자산으로 즉시 전환 |
+## 5. Crisis Response Protocol
+
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Aon plc's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Aon plc's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Aon plc's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

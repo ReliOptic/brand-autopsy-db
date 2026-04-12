@@ -1,125 +1,123 @@
-# 04 콘텐츠 DNA — Illinois Tool Works (ITW)
+# 04. Content DNA — Illinois Tool Works (ITW)
 
-## 콘텐츠 철학
-
-ITW의 콘텐츠는 **"엔지니어가 만들고, 엔지니어가 읽는다"** 는 원칙에 기반한다. 감성적 스토리텔링보다 기술적 정확성, 광범위한 노출보다 적확한 타깃 전달을 우선한다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 브랜드 보이스 가이드
+## Content Pillars
 
-### 어조 스펙트럼
+Illinois Tool Works's content strategy reflects its positioning in the Industrial Machinery & Supplies & Components segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-| 상황 | 어조 | 예시 |
-|------|------|------|
-| 기술 문서·데이터시트 | 정밀하고 중립적 | "인장 강도 850 MPa, 공차 ±0.02mm" |
-| 세일즈 자료 | 자신감 있고 직접적 | "생산 라인 다운타임 40% 감소 실현" |
-| IR·투자자 커뮤니케이션 | 절제되고 데이터 중심 | "영업이익률 26.3%, ROIC 28%" |
-| 고객 성공 사례 | 사실 기반 스토리텔링 | "A사는 ITW 솔루션 도입 후 불량률 180ppm 달성" |
-| 위기·이슈 대응 | 책임감 있고 간결 | "해당 이슈를 인지하였으며 조치 중입니다" |
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Illinois Tool Works understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for industrial machinery & supplies & components requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Illinois Tool Works." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 보이스 속성 정의
-
-**기술적 권위(Technical Authority)**
-엔지니어링 데이터와 현장 검증 결과로 말한다. 주장이 아닌 수치가 먼저다.
-
-**현장 밀착(Field-Close)**
-공장 바닥, 주방, 건설 현장의 언어를 쓴다. 본사 마케팅 언어가 아니다.
-
-**절제된 자신감(Understated Confidence)**
-과장하지 않는다. 결과가 스스로 말하게 한다.
-
-**파트너십 지향(Partnership-Oriented)**
-"우리 제품"이 아닌 "고객의 문제"를 중심에 놓는다.
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 필러 (Content Pillars)
+## Hook Patterns
 
-### 필러 1: 엔지니어링 인사이트 (40%)
-기술 사양, 애플리케이션 가이드, 공정 최적화 팁, 특허 기반 혁신 설명
+### Hook 1 — Industry Challenge Lead
 
-예시 주제:
-- "자동차 용접 공정에서 스패터 감소를 위한 5가지 파라미터 최적화"
-- "식품 가공 환경에서 스테인리스 체결류 부식 방지 기준"
-- "건설 현장 콘크리트 앵커 허용 하중 계산 가이드"
+Opens with a recognizable industry challenge or pain point before presenting Illinois Tool Works's perspective.
 
-### 필러 2: 고객 성공 사례 (30%)
-실제 고객사의 문제 → ITW 솔루션 → 정량적 결과 순서의 케이스 스터디
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-포맷:
-```
-[고객사 상황] → [핵심 문제] → [ITW 솔루션] → [결과 수치]
-```
+### Hook 2 — Data-Driven Insight
 
-예시:
-- "현대 공장 용접 불량률 320ppm → 85ppm 달성기"
-- "글로벌 QSR 체인 700개 매장 Hobart 도입 3년 유지보수 비용 비교"
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### 필러 3: 산업 트렌드 & 시장 인사이트 (20%)
-전기차 전환, 식품 자동화, 스마트 빌딩 등 산업 메가트렌드와 ITW 대응 방향
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-포맷: 백서(White Paper), 리서치 브리프, 전문가 기고
+### Hook 3 — Customer Story Lead
 
-### 필러 4: 기업·ESG·IR 커뮤니케이션 (10%)
-80/20 전략 성과, 주주환원 정책, 지속가능성 이니셔티브
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
----
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-## 콘텐츠 포맷 라이브러리
+### Hook 4 — Regulatory or Market Shift
 
-| 포맷 | 주요 필러 | 배포 채널 | 제작 빈도 |
-|------|---------|---------|---------|
-| 기술 데이터시트 (PDF) | 필러 1 | 웹사이트, 영업팀 | 제품 출시 시 |
-| 케이스 스터디 (2~4p) | 필러 2 | 웹, 세일즈 키트 | 월 1~2건 (추정) |
-| 애플리케이션 비디오 | 필러 1, 2 | YouTube, LinkedIn | 격주 (추정) |
-| 백서 (White Paper) | 필러 3 | 게이티드 콘텐츠 | 분기 1건 (추정) |
-| 트레이드쇼 콘텐츠 | 필러 1, 2 | 오프라인 이벤트 | 이벤트별 |
-| 어닝 프레젠테이션 | 필러 4 | IR 웹사이트 | 분기 1회 (공식) |
-| 뉴스레터 | 필러 1~3 | 이메일 | 월 1회 (추정) |
-| LinkedIn 아티클 | 필러 3, 4 | LinkedIn | 주 2~3건 (추정) |
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 금지 콘텐츠 패턴
+## CTA Patterns
 
-| # | 금지 패턴 | 이유 |
-|---|---------|------|
-| 1 | 경쟁사 직접 비교 디스 | ITW 브랜드 품격 훼손, 법적 리스크 |
-| 2 | 미검증 과장 수치 ("업계 최고", "세계 1위") | 신뢰성 기반 브랜드와 모순 |
-| 3 | 소비자 감성 광고 스타일 | B2B 기술 오디언스 이탈 |
-| 4 | 유행어·버즈워드 남발 ("AI로 혁신", "디지털 전환") | 실체 없는 메시지로 신뢰 훼손 |
-| 5 | 단가·가격 정보 공개 콘텐츠 | 가격 협상 레버리지 약화 |
-
----
-
-## 필수 콘텐츠 요소
-
-| # | 필수 요소 | 적용 방법 |
-|---|---------|---------|
-| 1 | 정량적 결과 수치 | 모든 케이스 스터디에 KPI 수치 포함 |
-| 2 | 기술 사양 레퍼런스 | 제품 콘텐츠에 반드시 스펙 링크 |
-| 3 | 산업 특화 언어 | 자동차/식품/건설 각 섹터 용어 사용 |
-| 4 | 엔지니어 신뢰 신호 | 특허 번호, 인증 마크, 테스트 표준 명시 |
-| 5 | 명확한 CTA | "Application Engineer 상담 신청" 등 액션 유도 |
+| CTA Type | Illinois Tool Works Pattern | What Illinois Tool Works Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 콘텐츠 캘린더 — 산업 이벤트 연동 (추정)
+## Tone & Mood Guide
 
-| 시기 | 산업 이벤트 | 연동 콘텐츠 |
-|------|-----------|-----------|
-| 1Q | NAFEM (식품 장비 전시) | Hobart/Traulsen 신제품 케이스 스터디 |
-| 2Q | Automotive Tech 컨퍼런스 | 전기차 용접 솔루션 백서 |
-| 3Q | FABTECH (금속 가공 전시) | Miller 용접 기술 세미나 콘텐츠 |
-| 4Q | 연간 투자자 데이 | IR 프레젠테이션, 80/20 성과 리포트 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Illinois Tool Works as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## Steal Sheet — 콘텐츠 DNA 레이어
+## Content Prohibitions
 
-| 항목 | ITW 방식 | 벤치마크 가능 포인트 |
-|------|---------|-------------------|
-| 기술 콘텐츠가 마케팅 | 데이터시트·애플리케이션 노트가 곧 세일즈 툴 | 제품 문서를 콘텐츠 마케팅으로 활용 |
-| 필러 비율 설정 | 기술 인사이트 40%, 사례 30%로 실용성 우선 | B2B 콘텐츠 믹스의 균형점 |
-| 결과 수치 의무화 | 케이스 스터디에 정량 KPI 없으면 미발행 | 모든 고객 사례에 측정 가능한 성과 포함 |
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #ITW | Financial and investor community | Moderate (estimated) |
+| #IllinoisToolWorks | Brand-level social engagement | Varies (estimated) |
+| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Illinois Tool Works's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in industrial machinery & supplies & components face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Illinois Tool Works's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

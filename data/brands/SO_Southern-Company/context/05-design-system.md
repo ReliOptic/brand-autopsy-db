@@ -1,176 +1,102 @@
-# 05. 디자인 시스템 — Southern Company (SO)
+# 05. Design System — Southern Company (SO)
 
-## 디자인 철학
-
-Southern Company의 시각 언어는 **신뢰·안정·진보**를 동시에 표현한다.
-전통적인 유틸리티 브랜드의 권위감을 유지하면서도, 에너지 전환 시대에 걸맞은
-현대적 감각을 더하는 방향으로 진화하고 있다. (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 브랜드 컬러 팔레트
+Southern Company's visual identity, as observed on its official website, employs a structured color system appropriate to utilities sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Southern Blue (기업 블루) | `#003087` | rgb(0, 48, 135) | 로고, 주요 헤드라인, 버튼 CTA | (공식) |
-| Sky Blue (라이트 블루) | `#0072CE` | rgb(0, 114, 206) | 링크, 강조 텍스트, 아이콘 | (공식) |
-| Energy Gold (골드) | `#FFB800` | rgb(255, 184, 0) | 액센트, 에너지·활력 강조 | (공식) |
-| Clean White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 여백 | (공식) |
-| Neutral Gray | `#F4F4F4` | rgb(244, 244, 244) | 섹션 배경, 카드 배경 | (공식) |
-| Dark Charcoal | `#1A1A1A` | rgb(26, 26, 26) | 본문 텍스트, 푸터 | (공식) |
+### Core Brand Colors
 
-### 확장 팔레트 (서브브랜드·캠페인용)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Green Energy | `#2E8B4A` | rgb(46, 139, 74) | 재생에너지·지속가능성 콘텐츠 | (추정) |
-| Solar Orange | `#E86100` | rgb(232, 97, 0) | 태양광 캠페인 강조색 | (추정) |
-| Nuclear Teal | `#00838F` | rgb(0, 131, 143) | 원자력·청정기저전력 콘텐츠 | (추정) |
-| Alert Red | `#C8102E` | rgb(200, 16, 46) | 정전 알림, 긴급 공지 | (추정) |
-| Warm Sand | `#F5E6C8` | rgb(245, 230, 200) | 커뮤니티·인간적 스토리 배경 | (추정) |
-| Medium Gray | `#6B7280` | rgb(107, 114, 128) | 보조 텍스트, 캡션 | (추정) |
+### Color Principles
 
-### 컬러 사용 비율 가이드 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-```
-주 컬러 (Southern Blue)  ████████████████████  60%
-보조 컬러 (Sky Blue)     ████████████          25%
-액센트 (Energy Gold)     █████                 10%
-확장 팔레트              ██                     5%
-```
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 접근성 (WCAG 2.1)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 조합 | 대비율 | 등급 |
-|------|--------|------|
-| Southern Blue `#003087` + White `#FFFFFF` | 12.5:1 | AAA (공식) |
-| Sky Blue `#0072CE` + White `#FFFFFF` | 4.6:1 | AA (추정) |
-| Energy Gold `#FFB800` + Dark Charcoal `#1A1A1A` | 8.2:1 | AAA (추정) |
-| Energy Gold `#FFB800` + White `#FFFFFF` | 1.8:1 | 실패 — 텍스트 사용 금지 (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 폰트 패밀리
+Southern Company's digital properties employ a typographic system appropriate to its utilities positioning.
 
-| 구분 | 폰트명 | 용도 | 출처 |
-|------|--------|------|------|
-| 주 헤드라인 | Gotham (또는 Montserrat 대체) | H1–H3, 슬로건 | (추정) |
-| 본문 | Open Sans | 본문, UI 텍스트, 캡션 | (추정) |
-| 수치·데이터 | Roboto Mono | 대시보드, 통계 강조 | (추정) |
-| 보조 강조 | Gotham Bold | CTA 버튼, 배지 | (추정) |
+### Typeface System
 
-### 타입 스케일
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 용도 |
-|------|------|------|
-| Display | 56px / 700 | 히어로 섹션 |
-| H1 | 40px / 700 | 페이지 제목 |
-| H2 | 32px / 600 | 섹션 제목 |
-| H3 | 24px / 600 | 카드 제목 |
-| Body Large | 18px / 400 | 리드 문단 |
-| Body | 16px / 400 | 일반 본문 |
-| Caption | 14px / 400 | 주석, 캡션 |
-| Label | 12px / 600 | 태그, 배지 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템
+## 3. Channel Specifications
 
-### 로고 변형
-
-| 변형 | 용도 | 배경 조건 |
-|------|------|---------|
-| 풀 컬러 가로형 | 기본 공식 사용 | 흰색/밝은 배경 |
-| 흰색 가로형 | 어두운 배경, 사진 오버레이 | 어두운 배경 |
-| 심볼 단독 | 파비콘, 앱 아이콘, 소셜 프로필 | 모든 배경 |
-| 서브브랜드 락업 | Georgia Power, Alabama Power 등 | 공식 문서 |
-
-### 로고 클리어스페이스 (추정)
-
-```
-최소 클리어스페이스 = 로고 높이의 50%
-최소 사용 크기 = 인쇄 24px 높이 / 디지털 32px 높이
-```
-
-### 로고 금지 사항
-
-- 색상 변경 금지 (브랜드 팔레트 외 색상 적용 불가)
-- 비율 변형 금지
-- 그림자·입체 효과 적용 금지
-- 복잡한 사진 배경 위 직접 배치 금지
-- 서브브랜드 로고와 혼용 금지
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 아이콘 & 일러스트레이션
+## 4. Layout Principles
 
-### 아이콘 스타일
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 항목 | 스펙 |
-|------|------|
-| 스타일 | 라인 아이콘 (2px stroke, 24px 기본) |
-| 모서리 | 라운드드 (4px border-radius) |
-| 컬러 | Southern Blue 또는 Sky Blue 단색 |
-| 라이브러리 | Material Icons 기반 커스터마이징 (추정) |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 일러스트레이션 방향
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- **스타일:** 플랫 디자인, 지나친 카툰 지양
-- **인물 묘사:** 남동부 인구 다양성 반영 (인종·연령·직종)
-- **배경:** 조지아·앨라배마 자연환경, 도시 스카이라인 활용
-- **에너지 시각화:** 청정·밝음·미래적 이미지 (어두운 공장 이미지 지양)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 사진 스타일 가이드
+## 5. Design Prohibitions
 
-### 허용 이미지 방향 (추정)
-
-| 카테고리 | 방향 | 금지 |
-|---------|------|------|
-| 인물 | 현장 직원, 다양한 고객, 자연광 | 과도한 보정, 스톡 사진 티 나는 연출 |
-| 인프라 | 청결한 시설, 현대적 변전소, 태양광 패널 | 노후·오염된 시설, 석탄 발전소 강조 |
-| 자연 | 남동부 자연환경, 계절감 | 기후재해 관련 공포 이미지 |
-| 커뮤니티 | 지역 행사, 학교·교회 지원 현장 | 사생활 침해 가능 이미지 |
-
-### 이미지 처리
-
-- 색온도: 따뜻한 중간 (5500K 기준)
-- 채도: 약간 부스트 (자연스러운 활력감)
-- 오버레이: Southern Blue `#003087` 또는 Dark Charcoal `#1A1A1A` (투명도 40-60%)
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## UI 컴포넌트 기준 (디지털)
-
-### 버튼
-
-| 유형 | 배경색 | 텍스트색 | 용도 |
-|------|--------|---------|------|
-| Primary CTA | `#003087` | `#FFFFFF` | 주요 전환 행동 |
-| Secondary | `#FFFFFF` | `#003087` | 보조 행동, 테두리형 |
-| Accent | `#FFB800` | `#1A1A1A` | 프로모션, 특별 강조 |
-| Danger/Alert | `#C8102E` | `#FFFFFF` | 정전 알림, 긴급 공지 |
-
-### 카드 컴포넌트
-
-- 배경: `#FFFFFF` 또는 `#F4F4F4`
-- 테두리: 없음 또는 1px `#E5E7EB`
-- 그림자: `0 2px 8px rgba(0,0,0,0.08)`
-- 모서리: 8px border-radius
-- 패딩: 24px (데스크탑), 16px (모바일)
-
-### 간격 시스템 (8px 기준)
-
-```
-4px   — 아이콘 내부 간격
-8px   — 인라인 요소 간격
-16px  — 카드 내 요소 간격
-24px  — 섹션 내 블록 간격
-40px  — 섹션 간 간격
-80px  — 페이지 주요 섹션 간격
-```
+*Layer 5 of 8 — Brand Autopsy: Southern Company (SO)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

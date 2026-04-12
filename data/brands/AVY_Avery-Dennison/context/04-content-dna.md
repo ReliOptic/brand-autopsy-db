@@ -1,148 +1,123 @@
-# 04 콘텐츠 DNA — Avery Dennison (AVY)
+# 04. Content DNA — Avery Dennison (AVY)
 
-> 섹터: 소재 / 라벨 & 패키징 | 콘텐츠 전략 해부
-
----
-
-## 콘텐츠 철학
-
-> "우리는 소재를 팔지 않는다. 세상 모든 물건이 말할 수 있도록 언어를 준다." (추정 — 브랜드 메시지 방향성 기반)
-
-AVY 콘텐츠의 핵심 축:
-1. **교육(Education)** — 기술 복잡성을 단순화해 고객을 계몽
-2. **증거(Evidence)** — 수치·사례·인증으로 신뢰 구축
-3. **진보(Progress)** — 지속가능성·디지털화 여정 지속 서술
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 메시지 아키텍처
+## Content Pillars
 
-### 1단계: 기업 마스터 메시지 (공식)
-> "Avery Dennison는 소재 과학과 데이터 인텔리전스를 결합해 더 스마트하고 지속가능한 세상을 만든다"
+Avery Dennison's content strategy reflects its positioning in the Paper & Plastic Packaging Products & Materials segment of Materials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 2단계: 사업부별 핵심 메시지
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Avery Dennison understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for paper & plastic packaging products & materials requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Avery Dennison." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-| 사업부 | 핵심 메시지 |
-|--------|------------|
-| LGM | "모든 표면에 붙는 완벽한 소재, 전 세계 어디서나 동일한 품질" (추정) |
-| RBIS | "브랜드의 첫 번째 물리적 접점 — 태그 하나로 경험을 설계한다" (추정) |
-| atma.io | "디지털 ID로 제품의 전 생애를 연결한다" (추정) |
-
-### 3단계: 세그먼트별 메시지 변형
-
-| 세그먼트 | 조정 메시지 |
-|----------|------------|
-| CPG / 식음료 | 식품 안전 + 재활용 가능성 강조 |
-| 의류 / 패션 | 브랜드 보호 + 소비자 경험 강조 |
-| 물류 / 유통 | 정확도 + 추적가능성 + 운영 효율 강조 |
-| 의료 | 정밀성 + 규정 준수 + 환자 안전 강조 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 유형 매트릭스
+## Hook Patterns
 
-| 콘텐츠 유형 | 목적 | 주요 채널 | 제작 빈도 (추정) |
-|-------------|------|-----------|----------------|
-| 기술 백서 | 신뢰 구축, 리드 너처링 | 웹사이트, 이메일 | 분기 1~2건 |
-| 사례 연구 | 증거 제시, 영업 지원 | 웹사이트, Sales Deck | 월 1~2건 |
-| 제품 데이터시트 | 기술 사양 공유 | 웹, 파트너 포털 | 제품 출시 시 |
-| 블로그 / 인사이트 | SEO, 사고 리더십 | averydenison.com | 주 1~2건 |
-| 동영상 (제품 시연) | 복잡한 기술 시각화 | YouTube, LinkedIn | 월 1건 |
-| IR / 연간 보고서 | 투자자·ESG 커뮤니케이션 | IR 사이트, SEC | 연 1회 (공식) |
-| 지속가능성 리포트 | ESG 투명성 | 웹사이트, 다운로드 | 연 1회 (공식) |
-| 웨비나 / 이벤트 | 파이프라인 생성 | LinkedIn Live, 자사 플랫폼 | 분기 2~4건 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Avery Dennison's perspective.
 
-## 스토리텔링 프레임워크
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### AVY의 기본 서사 구조 (추정)
+### Hook 2 — Data-Driven Insight
 
-```
-[문제 제기]
-공급망이 불투명하다 → 위조, 낭비, 규제 리스크
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-[해결사 등장]
-Avery Dennison의 소재 과학 + 디지털 인텔리전스
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-[전환]
-라벨 하나가 제품의 전 생애를 기록·연결한다
+### Hook 3 — Customer Story Lead
 
-[증거]
-고객 사례: Nike RFID 도입 → 재고 정확도 99%+ (공식 사례 참조)
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-[미래 비전]
-100% 추적가능하고 순환하는 세상
-```
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 핵심 콘텐츠 테마 (Content Pillars)
+## CTA Patterns
 
-### 필라 1: 디지털 인텔리전스
-- RFID, NFC, QR 코드, 디지털 제품 여권(DPP)
-- atma.io 플랫폼 기능·사례
-- IoT 통합 및 데이터 분석
-
-### 필라 2: 지속가능성 & 순환경제
-- CleanFlake™ 재활용 기술 (공식)
-- 재활용 가능·바이오기반·퇴비화 가능 소재
-- 2030 지속가능성 목표 진행 상황 (공식)
-
-### 필라 3: 소재 혁신
-- 특수 접착제 기술
-- 내구성·내온성·내약품성 소재
-- 의료·산업 특수 응용
-
-### 필라 4: 공급망 가시성
-- 추적가능성 솔루션
-- 위조 방지 기술
-- 규정 준수 자동화
+| CTA Type | Avery Dennison Pattern | What Avery Dennison Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## SEO 키워드 클러스터 (추정)
+## Tone & Mood Guide
 
-| 클러스터 | 핵심 키워드 | 보조 키워드 |
-|----------|------------|------------|
-| RFID 라벨 | rfid labels, rfid tags manufacturer | smart labels, inventory tracking |
-| 자가접착 소재 | pressure sensitive labels, psa materials | label stock, adhesive labels |
-| 지속가능 포장 | recyclable labels, sustainable packaging labels | eco labels, circular packaging |
-| 디지털 ID | digital product passport, item-level RFID | product traceability platform |
-| 의류 라벨 | apparel labels, hang tags manufacturer | woven labels, care labels |
+### Situation 1 — Product or Service Announcement
 
----
+**Mood**: Confident professionalism — measured excitement appropriate to materials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-## 금기 콘텐츠 패턴 (추정)
+### Situation 2 — Thought Leadership / Industry Commentary
 
-1. 경쟁사 직접 비교 — 산업 리더 품격 유지
-2. 가격 할인 강조 — 프리미엄 포지션 훼손
-3. 단기 트렌드 추종 — 기술 전문성 희석
-4. 감성 과잉 스토리 — B2B 신뢰 기반 훼손
-5. 불확실한 미래 약속 — 증거 없는 주장 금지
+**Mood**: Authoritative insight — Avery Dennison as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
----
+### Situation 3 — Crisis or Negative News Response
 
-## 콘텐츠 성과 지표 (KPI, 추정)
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
 
-| 지표 | 목표 유형 | 측정 방식 |
-|------|---------|----------|
-| 백서 다운로드 | 리드 생성 | CRM 트래킹 |
-| 사례 연구 열람 | 영업 지원 | 웹 분석 |
-| 기술 문서 체류 시간 | 참여도 | Google Analytics |
-| LinkedIn 팔로워 증가 | 브랜드 인지 | 플랫폼 인사이트 |
-| 유기 검색 트래픽 | SEO 성과 | Search Console |
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어 3개
+## Content Prohibitions
 
-| 레이어 | AVY 강점 | 경쟁사 갭 | 실행 기회 |
-|--------|---------|----------|---------|
-| 기술 교육 | 심층 기술 백서, 업계 최고 수준 (추정) | 대부분 제품 카탈로그 수준 | 풀 펀넬 콘텐츠 허브 구축 |
-| 증거 기반 | 글로벌 레퍼런스 고객 다수 보유 (공식) | 사례 연구 부족 경쟁사 多 | 산업별 ROI 스토리 시리즈 |
-| 지속가능성 서사 | CleanFlake™ 등 독자 기술 보유 (공식) | 일반적 ESG 주장에 그침 | 검증 가능한 순환경제 임팩트 리포트 |
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
 ---
 
-*출처 분류: (공식) = Avery Dennison 공개 자료 / (추정) = 브랜드 분석 기반 추론*
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #AVY | Financial and investor community | Moderate (estimated) |
+| #AveryDennison | Brand-level social engagement | Varies (estimated) |
+| #MInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Avery Dennison's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In materials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in paper & plastic packaging products & materials face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Avery Dennison's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

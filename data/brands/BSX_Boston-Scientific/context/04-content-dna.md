@@ -1,94 +1,123 @@
-# 04 콘텐츠 DNA — Boston Scientific (BSX)
+# 04. Content DNA — Boston Scientific (BSX)
 
-## 콘텐츠 철학 (추정)
-
-BSX의 콘텐츠는 **증거 우선(Evidence-First)** 원칙으로 운영된다.  
-모든 클레임은 임상 데이터로 뒷받침되어야 하며, 감성적 스토리텔링은 반드시 증거 레이어 위에 올라탄다.  
-의사에게는 데이터, 환자에게는 희망, 병원 구매자에게는 경제적 가치를 각각 레이어로 제공한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 기둥 (Content Pillars)
+## Content Pillars
 
-| 기둥 | 비중 (추정) | 설명 |
-|------|------------|------|
-| 임상 증거 & 결과 | 35% | 임상 연구 결과, RCT 데이터, 리얼월드 에비던스 |
-| 제품 혁신 & 기술 | 25% | 신제품 출시, 특허 기술, 엔지니어링 차별화 |
-| 환자 스토리 | 20% | 치료 전후 환자 경험, 삶의 질 회복 서사 |
-| HCP 교육 & 트레이닝 | 15% | 시술 기법, 교육 영상, 웨비나, 핸즈온 |
-| 기업 사회적 책임 & ESG | 5% | 지속가능성, 다양성·포용성, 지역사회 기여 |
+Boston Scientific's content strategy reflects its positioning in the Health Care Equipment segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Boston Scientific understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for health care equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Boston Scientific." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 콘텐츠 형식 우선순위
-
-1. **임상 데이터 요약 (Clinical Data Summary)** — 학회 발표 기반 1~2페이지 요약본
-2. **환자 케이스 스터디 (Patient Case Study)** — 시술 전·후 서사, 의사 코멘트 포함
-3. **How-to 시술 영상 (Procedural Video)** — 단계별 시술 가이드, 핵심 팁 강조
-4. **인포그래픽 (Infographic)** — 복잡한 임상 데이터의 시각화
-5. **웨비나·라이브 Q&A** — KOL과의 실시간 상호작용
-6. **백서 & 리포트 (White Paper)** — 의사결정자 대상 심층 분석
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 스토리텔링 프레임워크
+## Hook Patterns
 
-### 프레임 A: "환자 여정(Patient Journey)" 서사
-```
-[진단의 불안] → [치료 옵션 탐색] → [BSX 기술 선택] → [시술 성공] → [삶의 회복]
-```
-적용 채널: 소셜미디어, 환자 브로셔, 병원 대기실 디지털 사이니지
+### Hook 1 — Industry Challenge Lead
 
-### 프레임 B: "임상 증거 피라미드(Evidence Pyramid)" 서사
-```
-[리얼월드 데이터 (RWE)] 위에 [RCT 임상 결과] 위에 [메타분석] → "가장 강력한 근거"
-```
-적용 채널: 학회 발표, 메디컬 저널 광고, HCP 디테일링 자료
+Opens with a recognizable industry challenge or pain point before presenting Boston Scientific's perspective.
 
-### 프레임 C: "파트너십(Partnership)" 서사
-```
-[문제 인식 (의사)] + [BSX 기술 지원] + [교육·트레이닝] → [더 나은 결과 공동 창출]
-```
-적용 채널: 학회 부스, 영업대표 피칭 덱, 병원 어카운트 세일즈 자료
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
----
+### Hook 2 — Data-Driven Insight
 
-## 콘텐츠 톤 가이드
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-| 오디언스 | 톤 | 피해야 할 표현 | 권장 표현 |
-|---------|-----|--------------|---------|
-| 심장내과 전문의 | 정확·간결·데이터 중심 | "우리 제품이 최고" | "데이터가 말합니다 (The data shows...)" |
-| 개원 비뇨기과 | 실용적·친근·명확 | 과도한 전문 약어 | "쉬운 적용, 검증된 결과" |
-| 환자 | 따뜻·희망적·단순 | 의학 전문 용어 나열 | "다시 일상으로 돌아가세요" |
-| 병원 구매위원회 | 경제적 가치·ROI 중심 | 감성적 서사 | "재입원율 X% 감소, 비용 절감 Y%" |
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
----
+### Hook 3 — Customer Story Lead
 
-## 금지 콘텐츠 패턴
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-| # | 패턴 | 이유 |
-|---|------|------|
-| 1 | 승인되지 않은 적응증(off-label) 언급 | FDA/식약처 규제 위반 |
-| 2 | 타사 제품 직접 비교 비방 | 법적 리스크, 브랜드 품위 훼손 |
-| 3 | 완치 보장 표현 ("반드시 낫습니다") | 의료기기 광고 규정 위반 |
-| 4 | 익명 또는 가상의 임상 통계 인용 | 신뢰도 훼손, 규제 리스크 |
-| 5 | 지나치게 공격적인 경쟁 디스 | 의료 전문가 커뮤니티 내 평판 리스크 |
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 핵심 전술 3가지
+## CTA Patterns
 
-### Layer 1: HCP 설득 콘텐츠
-1. **"10초 요약 카드"** — 학회에서 배포하는 임상 데이터 포인트 3개 요약 카드 (의사가 기억하는 핵심 숫자)
-2. **KOL 비디오 테스티모니얼** — 동료 의사가 직접 설명하는 시술 경험 (신뢰도 최대화)
-3. **리얼월드 레지스트리 데이터 공개** — 무작위 대조시험 외 실제 환자 데이터를 투명하게 공유
+| CTA Type | Boston Scientific Pattern | What Boston Scientific Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-### Layer 2: 환자 교육 콘텐츠
-1. **애니메이션 시술 설명 영상** — 2분 이내, 의학 용어 없이 시각적으로 시술 원리 설명
-2. **환자 Q&A 포맷 브로셔** — "이런 걱정이 있으신가요?" 형식으로 공감 우선 접근
-3. **치료 후 일상 복귀 스토리** — 실제 환자의 6개월 후 인터뷰 (소셜 프루프)
+---
 
-### Layer 3: 구매 결정권자 대상 콘텐츠
-1. **경제성 분석 계산기(ROI Calculator)** — 병원별 재입원 감소, 수술 시간 단축에 따른 비용 절감 시뮬레이션
-2. **벤치마킹 리포트** — 동일 규모 병원 도입 사례 및 성과 데이터
-3. **총소유비용(TCO) 비교표** — 초기 도입 비용 대비 5년간 총 절감액 시각화
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Boston Scientific as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #BSX | Financial and investor community | Moderate (estimated) |
+| #BostonScientific | Brand-level social engagement | Varies (estimated) |
+| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Boston Scientific's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in health care equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Boston Scientific's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

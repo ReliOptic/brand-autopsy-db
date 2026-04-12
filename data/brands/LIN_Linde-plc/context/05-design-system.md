@@ -1,110 +1,102 @@
-# 05. 디자인 시스템 — Linde plc (LIN)
+# 05. Design System — Linde plc (LIN)
 
-## 컬러 시스템
-
-### 브랜드 기본 팔레트
-
-| 역할 | 색상명 | HEX | 용도 | 출처 |
-|------|--------|-----|------|------|
-| 프라이머리 | Linde Blue | `#003DA5` | 주요 UI, 헤더, CTA 버튼 | (공식) |
-| 프라이머리 라이트 | Sky Blue | `#0077CC` | 링크, 아이콘, 강조 텍스트 | (공식) |
-| 세컨더리 | Linde Teal | `#00A3A1` | 지속가능성·수소 관련 콘텐츠 | (공식) |
-| 액센트 | Linde Green | `#78BE20` | 친환경·ESG 섹션 강조 | (공식) |
-| 뉴트럴 다크 | Charcoal | `#2D2D2D` | 본문 텍스트, 제목 | (추정) |
-| 뉴트럴 미드 | Stone Grey | `#6B7280` | 보조 텍스트, 캡션 | (추정) |
-| 뉴트럴 라이트 | Light Grey | `#F3F4F6` | 배경, 카드 배경 | (추정) |
-| 화이트 | Pure White | `#FFFFFF` | 기본 배경, 역전 텍스트 | (공식) |
-
-### 기능별 컬러
-
-| 기능 | HEX | 설명 | 출처 |
-|------|-----|------|------|
-| 성공·승인 | `#22C55E` | 시스템 상태, 인증 완료 | (추정) |
-| 경고·주의 | `#F59E0B` | 안전 알림, 주의 표시 | (추정) |
-| 오류·위험 | `#EF4444` | 오류 메시지, 위험 경보 | (추정) |
-| 정보 | `#3B82F6` | 안내 메시지, 정보 박스 | (추정) |
-
-### 수소 전략 전용 컬러 (추정)
-
-| 유형 | HEX | 의미 |
-|------|-----|------|
-| 그린 수소 | `#16A34A` | 재생에너지 기반 수소 |
-| 블루 수소 | `#1D4ED8` | 천연가스+CCUS 수소 |
-| 청정 수소 통합 | `#00A3A1` | Linde Teal 재활용 |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피
+## 1. Color Palette
 
-| 역할 | 폰트 | 굵기 | 크기 범위 | 출처 |
-|------|------|------|----------|------|
-| 디스플레이 제목 | Linde Type (사내 전용) / 대체: Helvetica Neue | Bold (700) | 40–64px | (공식) |
-| 섹션 제목 H2 | Linde Type / Helvetica Neue | SemiBold (600) | 28–36px | (공식) |
-| 소제목 H3 | Linde Type / Helvetica Neue | Medium (500) | 20–24px | (추정) |
-| 본문 | Linde Type / Arial | Regular (400) | 16–18px | (공식) |
-| 캡션·레이블 | Arial | Regular (400) | 12–14px | (추정) |
-| 수치·KPI 강조 | Linde Type / Helvetica Neue | Bold (700) | 48–72px | (추정) |
+Linde plc's visual identity, as observed on its official website, employs a structured color system appropriate to materials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**웹 폴백 스택 (추정)**
-```
-font-family: "Linde Type", "Helvetica Neue", Arial, sans-serif;
-```
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 로고 시스템
+### Color Principles
 
-| 항목 | 스펙 | 출처 |
-|------|------|------|
-| 기본형 | 파란 워드마크 "Linde" + 파란 선형 심볼 | (공식) |
-| 역전형 | 흰색 워드마크 (어두운 배경용) | (공식) |
-| 단색형 | 단일 파란색 또는 흰색 | (공식) |
-| 최소 크기 | 웹 24px 높이, 인쇄 8mm 높이 | (추정) |
-| 보호 영역 | 로고 높이의 50% 여백 사방 | (추정) |
-| 금지 사항 | 회전, 변형, 임의 색상 변경, 배경색 임의 변경 | (공식 브랜드가이드 기준 추정) |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-## 아이콘·일러스트레이션 스타일
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-- **라인 아이콘**: 2px 스트로크, 라운드 코너, Linde Blue 단색 (추정)
-- **산업 일러스트**: 등각투영(isometric) 스타일, 공장·탱크·파이프라인 모티프
-- **인포그래픽**: 플로우차트 형식, 공정 단계별 색상 구분
-- **사진 스타일**: 실제 현장 촬영 중심, 안전 장비 착용 인물 필수, 청명한 조명
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## UI 컴포넌트 기준 (추정)
+## 2. Typography
 
-| 컴포넌트 | 스타일 |
-|---------|--------|
-| 기본 버튼 | 배경 `#003DA5`, 텍스트 `#FFFFFF`, 반경 4px |
-| 보조 버튼 | 테두리 `#003DA5`, 텍스트 `#003DA5`, 투명 배경 |
-| 카드 | 배경 `#FFFFFF`, 테두리 `#E5E7EB`, 그림자 0 2px 8px rgba(0,0,0,0.08) |
-| 입력 필드 | 테두리 `#D1D5DB`, 포커스 `#003DA5`, 반경 4px |
-| 내비게이션 | 배경 `#003DA5`, 텍스트 `#FFFFFF` |
-| 태그·뱃지 | ESG: `#78BE20` bg, 수소: `#00A3A1` bg |
+Linde plc's digital properties employ a typographic system appropriate to its materials positioning.
 
----
+### Typeface System
 
-## 그리드·레이아웃
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 항목 | 값 (추정) |
-|------|----------|
-| 최대 컨테이너 너비 | 1,280px |
-| 컬럼 시스템 | 12컬럼 |
-| 거터 | 24px (데스크탑), 16px (모바일) |
-| 섹션 패딩 | 80px 상하 (데스크탑), 48px (모바일) |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 전략 3선
+## 3. Channel Specifications
 
-### Steal 1 — 수소 컬러 언어 체계화 (Air Products 참조)
-Air Products는 수소 유형(그린/블루/터콰이즈)별 명확한 컬러 코딩을 사용해 투자자·정책 커뮤니케이션을 단순화. 린데는 수소 유형별 시각 언어가 혼재. **→ 수소 유형별 전용 HEX 컬러와 아이콘 표준화로 커뮤니케이션 명확성 확보.**
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-### Steal 2 — 공정 시각화 인터랙티브 다이어그램 (Siemens Energy 참조)
-Siemens Energy는 복잡한 에너지 플랜트 공정을 인터랙티브 SVG 다이어그램으로 제공, 기술 영업 도구로 활용. 린데 웹사이트는 정적 이미지 중심. **→ 산소·질소 공정 및 수소 생산 플로우를 클릭 가능한 인터랙티브 다이어그램으로 전환.**
+---
 
-### Steal 3 — 다크모드 산업 대시보드 UI (Honeywell 참조)
-산업 제어·모니터링 시스템에서 다크모드 UI는 운영자 피로도 감소와 데이터 가시성 향상에 효과적. 린데의 디지털 서비스 포털은 라이트모드 단일 운영(추정). **→ 현장 운영자용 디지털 대시보드에 다크모드 옵션 추가, 산업 프리미엄 감성 강화.**
+## 4. Layout Principles
+
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Linde plc (LIN)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

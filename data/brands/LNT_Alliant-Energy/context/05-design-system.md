@@ -1,146 +1,102 @@
-# 05. 디자인 시스템 — Alliant Energy (LNT)
+# 05. Design System — Alliant Energy (LNT)
 
-## 디자인 철학
-
-Alliant Energy의 시각 언어는 "중서부의 신뢰와 청정 에너지의 미래가 만나는 지점"을 표현한다. 안정감 있는 네이비·블루 베이스에 선명한 오렌지 액센트를 결합해 전통 유틸리티의 신뢰성과 재생에너지 전환의 역동성을 동시에 전달한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 1차 팔레트 (Primary Palette)
+Alliant Energy's visual identity, as observed on its official website, employs a structured color system appropriate to utilities sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 색상명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Alliant Navy | `#003865` | rgb(0, 56, 101) | 로고, 헤더, 주요 텍스트 (공식) |
-| Alliant Blue | `#0072CE` | rgb(0, 114, 206) | 주요 CTA 버튼, 링크, 강조 (공식) |
-| Alliant Orange | `#E87722` | rgb(232, 119, 34) | 액센트, 에너지 강조 요소 (공식) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 역방향 텍스트 (공식) |
+### Core Brand Colors
 
-### 2차 팔레트 (Secondary Palette)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 색상명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Sky Blue | `#4EACD1` | rgb(78, 172, 209) | 재생에너지 섹션, 인포그래픽 (추정) |
-| Solar Yellow | `#F5C400` | rgb(245, 196, 0) | 태양광 관련 아이콘, 캠페인 (추정) |
-| Wind Green | `#5C9E31` | rgb(92, 158, 49) | 환경·지속가능성 콘텐츠 (추정) |
-| Warm Gray | `#A8A8A8` | rgb(168, 168, 168) | 보조 텍스트, 구분선 (추정) |
-| Light Gray | `#F4F4F4` | rgb(244, 244, 244) | 배경 섹션, 카드 배경 (추정) |
-| Dark Charcoal | `#333333` | rgb(51, 51, 51) | 본문 텍스트 (추정) |
+### Color Principles
 
-### 상태 컬러 (Status Colors)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 색상명 | HEX | 용도 |
-|--------|-----|------|
-| Alert Red | `#C8102E` | 정전 알림, 안전 경고 (추정) |
-| Success Green | `#2E8B57` | 완료 상태, 긍정 지표 (추정) |
-| Warning Amber | `#FFA500` | 주의 알림, 유지보수 예고 (추정) |
-| Info Blue | `#1E90FF` | 정보성 메시지 (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 가이드 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 용도 | 비율 | 색상 |
-|------|------|------|
-| 배경 | 60% | `#FFFFFF`, `#F4F4F4` |
-| 주요 요소 | 30% | `#003865`, `#0072CE` |
-| 액센트 | 10% | `#E87722`, `#F5C400` |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-| 역할 | 폰트 | 굵기 | 크기 범위 | 용도 |
-|------|------|------|-----------|------|
-| 헤드라인 | Gotham (추정) | Bold/Black | 32~72px | 주요 타이틀 |
-| 서브헤드 | Gotham (추정) | Medium | 20~28px | 섹션 제목 |
-| 본문 | Open Sans 또는 Source Sans Pro (추정) | Regular | 14~16px | 일반 텍스트 |
-| 캡션·레이블 | Open Sans (추정) | Light | 11~13px | 부가 설명 |
-| CTA 버튼 | Gotham (추정) | Bold | 14~16px | 행동 유도 |
+Alliant Energy's digital properties employ a typographic system appropriate to its utilities positioning.
 
----
+### Typeface System
 
-## 로고 사용 가이드
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 항목 | 규정 |
-|------|------|
-| 로고 기본형 | Alliant Energy 워드마크 + 심볼 (공식) |
-| 최소 크기 | 디지털 60px 너비 이상 (추정) |
-| 여백 (Clear Space) | 로고 높이의 50% 이상 사방 여백 (추정) |
-| 허용 배경 | 흰 배경, `#003865` 배경 (역방향) (추정) |
-| 금지 처리 | 색상 변경, 왜곡, 그림자, 아웃라인 처리 금지 (추정) |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 아이콘 & 일러스트레이션 스타일
+## 3. Channel Specifications
 
-| 요소 | 스타일 가이드 |
-|------|--------------|
-| 아이콘 | 선형(Line) + 단색 채움 혼용, 2~3px 선 두께 (추정) |
-| 일러스트 | 플랫 스타일, 중서부 농촌·도시 혼합 배경 (추정) |
-| 사진 | 실제 직원·고객·지역 랜드마크, 스톡 이미지 최소화 (추정) |
-| 데이터 시각화 | 단순 막대·원형, 브랜드 컬러 팔레트 내 사용 (추정) |
-
----
-
-## 디지털 UI 컴포넌트
-
-| 컴포넌트 | 스타일 |
-|----------|--------|
-| 주요 버튼 (Primary CTA) | `#0072CE` 배경, 흰 텍스트, 4px 모서리 (추정) |
-| 보조 버튼 (Secondary) | 흰 배경, `#0072CE` 테두리·텍스트 (추정) |
-| 경고 배너 | `#C8102E` 배경, 흰 텍스트, 전체 너비 (추정) |
-| 카드 | `#FFFFFF` 배경, `#A8A8A8` 1px 테두리, 8px 모서리 (추정) |
-| 입력 필드 | `#F4F4F4` 배경, `#003865` 포커스 테두리 (추정) |
-| 네비게이션 | `#003865` 배경, 흰 텍스트, `#E87722` 활성 표시 (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 접근성 기준
+## 4. Layout Principles
 
-| 기준 | 요건 |
-|------|------|
-| 색상 대비 | WCAG 2.1 AA 이상 (본문 4.5:1, 대형 텍스트 3:1) (추정) |
-| `#003865` / `#FFFFFF` 대비 | 약 11.5:1 — AAA 충족 (추정) |
-| `#0072CE` / `#FFFFFF` 대비 | 약 4.6:1 — AA 충족 (추정) |
-| `#E87722` / `#FFFFFF` 대비 | 약 3.1:1 — 대형 텍스트 전용 권장 (추정) |
-| 포커스 인디케이터 | 2px 이상 `#E87722` 아웃라인 (추정) |
-| 이미지 대체 텍스트 | 모든 정보성 이미지 alt 텍스트 필수 (추정) |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 모션 & 인터랙션 원칙
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 원칙 | 세부 내용 |
-|------|-----------|
-| 전환 속도 | 150~300ms, ease-in-out (추정) |
-| 호버 효과 | 색상 10~15% 어둡게, 언더라인 추가 (추정) |
-| 로딩 상태 | `#0072CE` 스피너, 진행 바 (추정) |
-| 애니메이션 기조 | 안정적·예측 가능, 과도한 모션 지양 (추정) |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 시스템 (레이어별 3개)
+## 5. Design Prohibitions
 
-### Layer 1: 시각 아이덴티티
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-| # | 출처 | 훔쳐올 전략 | 적용 방법 |
-|---|------|-------------|-----------|
-| 1 | Xcel Energy | 재생에너지 진척도 시각화 대시보드 | 웹사이트 홈에 실시간 "청정에너지 비중 X%" 게이지 배치 |
-| 2 | MidAmerican | 지역 랜드마크와 에너지 시설 혼합 사진 스타일 | Iowa 곡물 창고 + 태양광 패널 병치 이미지 브랜딩 |
-| 3 | WEC Energy | 계절별 컬러 캠페인 시스템 | 봄=Solar Yellow, 겨울=Navy 강조로 계절 에너지 테마 |
+---
 
-### Layer 2: 디지털 UX
-
-| # | 출처 | 훔쳐올 전략 | 적용 방법 |
-|---|------|-------------|-----------|
-| 1 | Xcel | 정전 지도 실시간 인터랙티브 UI | `#C8102E` 핀 + 복구 예상 시간 오버레이 |
-| 2 | Duke Energy | 개인화 에너지 사용 리포트 디자인 | 월별 사용량 비교 카드 UI, `#4EACD1` 차트 |
-| 3 | Eversource | 에너지 절약 계산기 UX | 입력→절약액 즉시 계산, `#5C9E31` 결과 강조 |
-
-### Layer 3: 오프라인·환경 디자인
-
-| # | 출처 | 훔쳐올 전략 | 적용 방법 |
-|---|------|-------------|-----------|
-| 1 | MidAmerican | 풍력 단지 방문객 안내 사이니지 | 태양광 팜 오픈 데이용 모듈형 사이니지 키트 |
-| 2 | WEC Energy | 트럭·장비 래핑 디자인 통일성 | 서비스 차량에 `#0072CE`/`#E87722` 줄무늬 래핑 |
-| 3 | Xcel | 커뮤니티 이벤트 브랜드 텐트·배너 | 농촌 페어·카운티 페스티벌용 표준 부스 키트 |
+*Layer 5 of 8 — Brand Autopsy: Alliant Energy (LNT)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

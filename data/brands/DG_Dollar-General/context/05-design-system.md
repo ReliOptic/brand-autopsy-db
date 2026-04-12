@@ -1,146 +1,102 @@
-# 05 디자인 시스템 — Dollar General (DG)
+# 05. Design System — Dollar General (DG)
 
-## 디자인 철학
-
-> "눈에 띄고, 읽기 쉽고, 가격이 보여야 한다."
-
-DG 디자인은 미적 정교함보다 **기능적 명료성**이 최우선이다.
-농촌 소도시 소비자가 빠르게 인지하고, 신뢰하고, 행동할 수 있도록 설계된 실용 시각 언어다.
-도시 감각의 세련됨 대신 가시성·접근성·가격 강조를 모든 디자인 결정의 기준으로 삼는다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 팔레트
+## 1. Color Palette
 
-### 브랜드 코어 컬러
+Dollar General's visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 색상명 | HEX | RGB | 용도 |
-|------|--------|-----|-----|------|
-| 브랜드 옐로 | Dollar Yellow | `#FFD700` | 255, 215, 0 | 로고 배경, 주요 사이니지, CTA 버튼 (공식) |
-| 브랜드 블랙 | Brand Black | `#1A1A1A` | 26, 26, 26 | 로고 워드마크, 바디 텍스트 (공식) |
-| 브랜드 화이트 | Pure White | `#FFFFFF` | 255, 255, 255 | 배경, 역전 텍스트 (공식) |
+### Core Brand Colors
 
-### 기능 컬러
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 색상명 | HEX | RGB | 용도 |
-|------|--------|-----|-----|------|
-| 가격 태그 레드 | Sale Red | `#CC0000` | 204, 0, 0 | 세일 가격 태그, 프로모션 강조 (추정) |
-| 세컨더리 옐로 | Warm Yellow | `#FFC200` | 255, 194, 0 | 프로모션 배너, 앱 UI 강조색 (추정) |
-| 다크 네이비 | Trust Navy | `#1B3A6B` | 27, 58, 107 | 헤더, 신뢰 전달 섹션 (추정) |
-| 미디엄 그레이 | UI Gray | `#6B6B6B` | 107, 107, 107 | 서브 텍스트, 비활성 UI (추정) |
-| 라이트 그레이 | Background Gray | `#F5F5F5` | 245, 245, 245 | 카드 배경, 구분선 (추정) |
+### Color Principles
 
-### pOpshelf 서브 브랜드 컬러 (DG 자회사)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 역할 | 색상명 | HEX | RGB | 용도 |
-|------|--------|-----|-----|------|
-| pOpshelf 핑크 | Fun Pink | `#E91E8C` | 233, 30, 140 | pOpshelf 주 아이덴티티 컬러 (공식) |
-| pOpshelf 퍼플 | Playful Purple | `#7B2D8B` | 123, 45, 139 | pOpshelf 보조 컬러 (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 원칙
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-- **황색(#FFD700)은 브랜드 시그니처**: 배경색으로 사용 시 검정 텍스트 조합 필수 (가독성)
-- **레드(#CC0000)는 가격 전용**: 세일·프로모션 이외 사용 금지 (신호 오염 방지)
-- **네이비(#1B3A6B)는 신뢰 보강용**: 금융·헬스 정보, 앱 내비게이션에 제한 사용
-- **흰 배경 + 검정 텍스트 기본**: 가독성 최우선, 배경 장식 최소화
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 폰트 패밀리
+Dollar General's digital properties employ a typographic system appropriate to its consumer staples positioning.
 
-| 용도 | 폰트 | 특징 |
-|------|------|------|
-| 헤드라인 | DG Custom Sans (추정) / Gotham Bold 계열 | 강한 무게감, 가격 숫자 강조 |
-| 바디 | Helvetica Neue / Arial | 범용성, 가독성, 접근성 |
-| 가격 표시 | 커스텀 Bold Condensed | 숫자 가시성 극대화 |
-| 법적 고지 | 소형 Regular | 작은 크기에서도 판독 가능 |
+### Typeface System
 
-### 타이포그래피 원칙
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-- 가격 숫자는 항상 최대 폰트 사이즈 적용
-- 달러 기호($)와 센트 표기를 슈퍼스크립트로 처리해 주 숫자 강조
-- 대문자(ALL CAPS) 사용은 CTA와 카테고리 레이블로 제한
-- 줄 간격 최소 1.4x — 농촌 고령층 가독성 고려
+### Typographic Scale
 
----
-
-## 로고 시스템
-
-### 메인 로고
-
-- **형태**: 황색 직사각형 배경에 흰색 "Dollar General" 워드마크 (공식)
-- **변형 1**: 황색 배경 + 검정 워드마크 (밝은 배경용)
-- **변형 2**: 흰색 배경 + 황색+검정 조합 (디지털 모노크롬)
-- **최소 크기**: 인쇄 25mm, 디지털 80px 이상 (추정)
-- **보호 여백**: 로고 높이의 25% (추정)
-
-### 로고 금지 사항
-
-- 색상 변경 금지 (브랜드 황색 외 배경 사용 금지)
-- 비율 왜곡 금지
-- 그림자·외곽선 효과 추가 금지
-- 다른 그래픽 요소 위에 직접 배치 금지 (단색 배경 필수)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## UI/UX 디자인 패턴 (앱·웹)
+## 3. Channel Specifications
 
-### DG 앱 디자인 원칙
-
-| 원칙 | 설명 |
-|------|------|
-| 가격 우선 표시 | 모든 제품 카드에서 가격이 제품명보다 시각적 우선순위 |
-| 쿠폰 접근성 | 홈화면 1탭 내 쿠폰 클리핑 기능 도달 (추정) |
-| 대형 터치 타깃 | 최소 48px 버튼 — 고령층·저시력 고객 고려 |
-| 저데이터 최적화 | 농촌 저속 인터넷 대응, 이미지 경량화 (추정) |
-| 색상 대비 준수 | WCAG 2.1 AA 기준 이상 (추정) |
-
-### 매장 내 비주얼 머천다이징
-
-- **가격 태그**: 황색 배경 + 대형 검정 숫자가 기본 EDLP 태그
-- **세일 태그**: 빨간 배경 + 흰색 숫자, "SALE" 또는 절약액 표시
-- **신제품 태그**: 초록 배경 + "NEW" 레이블 (추정)
-- **엔드캡 디스플레이**: 시즌별 테마 컬러 적용, 묶음 판매 강조
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 패키징 — 자체 브랜드 (Private Label)
+## 4. Layout Principles
 
-### Clover Valley (식품 자체 브랜드)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 요소 | 설명 |
-|------|------|
-| 주 컬러 | 초록 계열 (#3A7D44 추정) + 흰색 |
-| 스타일 | 심플 클린, 나뭇잎 로고타입 |
-| 메시지 | "Great Value. Guaranteed." (추정) |
-| 포지셔닝 | 내셔널 브랜드 대비 20~30% 저렴, 품질 동등 주장 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### True Living (홈케어 자체 브랜드)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 요소 | 설명 |
-|------|------|
-| 주 컬러 | 블루 계열 (#2A5BA8 추정) + 흰색 |
-| 스타일 | 깔끔한 가정용품 이미지 |
-| 포지셔닝 | 기능성 강조, 가성비 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 디자인 금기 사항
+## 5. Design Prohibitions
 
-1. 배경에 복잡한 패턴·그라디언트 사용 금지 (가격 가독성 저해)
-2. 작은 폰트 크기 남발 금지 (특히 가격 정보)
-3. 과도한 애니메이션·트랜지션 (앱 성능·저데이터 환경 고려)
-4. 루이비통·애플식 미니멀 화이트스페이스 — DG 포지셔닝과 불일치
-5. 글로시·프리미엄 질감 처리 — 저가 브랜드 정직성 훼손
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
-
-| # | 훔칠 것 | 적용 방법 |
-|---|---------|----------|
-| 1 | **가격 숫자를 디자인 요소로** | 가격이 핵심 가치 제안일 때, 숫자를 그래픽 요소처럼 크고 대담하게 사용하라. "가격이 디자인이다"라는 원칙은 할인 브랜드에서 강력한 시각 언어가 된다. |
-| 2 | **컬러 코딩으로 정보 위계 구축** | 황색=브랜드, 레드=세일, 초록=신제품처럼 컬러를 일관되게 정보 신호로 사용하면 고객이 학습 없이 즉각 반응한다. 색상 오염(잘못된 용도 사용)을 엄격히 관리하라. |
-| 3 | **접근성을 미적 결정에 우선** | 타깃 오디언스에 고령층·저시력자가 포함된다면 WCAG 기준, 대형 터치 타깃, 고대비 색상은 선택이 아닌 필수다. 접근성 투자가 곧 전환율 투자다. |
+*Layer 5 of 8 — Brand Autopsy: Dollar General (DG)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

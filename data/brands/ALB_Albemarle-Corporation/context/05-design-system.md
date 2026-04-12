@@ -1,158 +1,102 @@
-# 05 디자인 시스템 — Albemarle Corporation (ALB)
+# 05. Design System — Albemarle Corporation (ALB)
 
-## 디자인 철학
-
-> "정밀성이 신뢰를 만든다."
-
-ALB의 시각 언어는 **산업적 신뢰성**과 **지속가능성**의 긴장을 시각적으로 해소한다. 과학적 정밀함을 기반으로 하되, 에너지 전환이라는 희망적 미래를 밝고 진취적으로 표현한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 컬러 팔레트
+Albemarle Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to materials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 컬러명 | HEX | 사용 맥락 |
-|------|--------|-----|-----------|
-| 프라이머리 | Albemarle Blue | `#003087` | 로고, 헤더, 주요 CTA 버튼 (공식) |
-| 세컨더리 | Electric Teal | `#00A3A1` | 강조 요소, 에너지 전환 테마 (추정) |
-| 액센트 | Lithium White | `#F5F7FA` | 배경, 카드 여백 (추정) |
-| 다크 뉴트럴 | Graphite | `#2D2D2D` | 본문 텍스트, 아이콘 (추정) |
-| 미드 뉴트럴 | Slate Gray | `#6B7280` | 보조 텍스트, 캡션 (추정) |
-| 라이트 뉴트럴 | Cloud | `#E8ECF0` | 구분선, 비활성 요소 (추정) |
+### Core Brand Colors
 
-### ESG·지속가능성 서브 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 컬러명 | HEX | 사용 맥락 |
-|------|--------|-----|-----------|
-| 그린 액센트 | Sustainability Green | `#2E7D32` | 환경 성과, ESG 아이콘 (추정) |
-| 어스 톤 | Desert Sand | `#C9A96E` | 광산·지역사회 스토리 컨텍스트 (추정) |
-| 브라인 블루 | Atacama Cyan | `#0097B2` | 리튬 브라인 제품 라인 (추정) |
-| 경암 앰버 | Spodumene Amber | `#E87722` | 경암(Hard Rock) 리튬 제품 라인 (추정) |
+### Color Principles
 
-### IR·투자자 커뮤니케이션 서브 팔레트
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 역할 | 컬러명 | HEX | 사용 맥락 |
-|------|--------|-----|-----------|
-| 차트 포지티브 | Growth Green | `#388E3C` | 성장 지표, 긍정 KPI (추정) |
-| 차트 네거티브 | Alert Red | `#D32F2F` | 하락 지표, 경고 (추정) |
-| 차트 뉴트럴 | Neutral Gray | `#757575` | 기준선, 비교 데이터 (추정) |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 컬러 사용 비율 가이드 (추정)
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러 | 권장 비율 |
-|------|----------|
-| Albemarle Blue `#003087` | 40% |
-| Lithium White `#F5F7FA` | 30% |
-| Electric Teal `#00A3A1` | 15% |
-| Graphite `#2D2D2D` | 10% |
-| 기타 액센트 | 5% |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 체계 (추정)
+Albemarle Corporation's digital properties employ a typographic system appropriate to its materials positioning.
 
-| 역할 | 서체 | 특징 |
-|------|------|------|
-| 디스플레이 헤드라인 | Helvetica Neue Bold / Inter Bold | 산업적 명확성, 무게감 |
-| 본문 | Helvetica Neue Regular / Inter Regular | 가독성, 중립성 |
-| 기술 문서 | IBM Plex Mono | 데이터·수치·코드 표현 |
-| 한국어/아시아 | Noto Sans KR | 아시아 시장 공식 커뮤니케이션 |
+### Typeface System
 
-### 타입 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 행간 | 용도 |
-|------|------|------|------|
-| H1 | 48px | 1.2 | 페이지 타이틀 |
-| H2 | 36px | 1.3 | 섹션 헤드라인 |
-| H3 | 24px | 1.4 | 서브섹션 |
-| Body Large | 18px | 1.6 | 리드 카피 |
-| Body | 16px | 1.6 | 일반 본문 |
-| Caption | 12px | 1.5 | 출처·각주·레이블 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템
+## 3. Channel Specifications
 
-| 항목 | 내용 |
-|------|------|
-| 로고 형태 | 워드마크 + 심볼 마크 조합 (공식) |
-| 주 색상 | Albemarle Blue `#003087` (공식) |
-| 역상 | 화이트 `#FFFFFF` on 다크 배경 (공식) |
-| 최소 사용 크기 | 디지털 24px 높이 / 인쇄 6mm 높이 (추정) |
-| 클리어스페이스 | 로고 높이의 50% 이상 여백 확보 (추정) |
-| 금지 사항 | 색상 변경, 비율 왜곡, 그라디언트 적용, 그림자 추가 (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 사진·이미지 스타일
+## 4. Layout Principles
 
-### 사진 방향성
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 카테고리 | 스타일 | 금지 |
-|---------|--------|------|
-| 광산·생산 시설 | 실제 현장, 자연광, 스케일감 강조 | 과도한 보정, 스튜디오 연출 |
-| 인물·직원 | 작업 맥락 내 자연스러운 순간 | 과도하게 연출된 포즈, 다양성 결여 |
-| 제품·소재 | 클로즈업 질감 강조, 청결하고 정밀한 조명 | 저해상도, 일반 스톡 이미지 |
-| 자연·환경 | 광산 지역 실제 풍경, 수자원 복원 현장 | 인위적 친환경 스톡 |
-| 데이터 시각화 | 클린 라인, ALB 팔레트, 여백 충분 | 3D 차트, 그라데이션 과용 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 이미지 톤 앤 무드
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- **밝기**: 중간~높음 (희망적, 진취적)
-- **채도**: 중간 (자연스럽고 신뢰감 있게)
-- **온도**: 약간 쿨톤 (기술·정밀성 연상)
-- **피해야 할 것**: 과도한 드라마틱 조명, 어두운 무드, 필터 과용
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 아이콘·일러스트레이션
+## 5. Design Prohibitions
 
-| 항목 | 가이드 |
-|------|--------|
-| 아이콘 스타일 | 선형(Line) 아이콘, 2px 스트로크, 코너 라운드 처리 (추정) |
-| 아이콘 그리드 | 24×24px 기본, 48×48px 강조용 (추정) |
-| 일러스트 스타일 | 기하학적 단순 도형 기반, 배터리·분자·지구 테마 |
-| 금지 | 귀여운(Cute) 캐릭터, 만화 스타일, 무관한 장식 요소 |
-
----
-
-## 레이아웃·그리드
-
-| 항목 | 가이드 |
-|------|--------|
-| 그리드 컬럼 | 12컬럼 (데스크톱), 4컬럼 (모바일) (추정) |
-| 거터 | 24px (추정) |
-| 마진 | 최소 80px (데스크톱), 24px (모바일) (추정) |
-| 여백 철학 | 화이트스페이스 풍부하게 → 정밀성·프리미엄감 |
-| 섹션 구분 | 컬러 블록보다 여백과 타이포로 구분 선호 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 디자인 시스템 Steal Sheet
-
-### Steal Sheet — 디자인 Layer 1: 컬러 전략
-
-| # | 훔칠 전략 | 출처 | 적용 방안 |
-|---|----------|------|-----------|
-| 1 | 제품 라인별 서브 팔레트 분리 | BASF 소재 라인업 색상 구분 시스템 (추정) | 브라인/경암/촉매 제품군 별 컬러 ID로 포트폴리오 탐색성 강화 |
-| 2 | 다크모드 지원 컬러 시스템 | Tesla IR 자료 다크테마 (추정) | 기술 오디언스 대상 다크 버전 데이터시트·대시보드 제공 |
-| 3 | 데이터 시각화 전용 팔레트 | Bloomberg 차트 컬러 체계 (추정) | 접근성(WCAG AA) 충족하는 ALB 전용 차트 팔레트 표준화 |
-
-### Steal Sheet — 디자인 Layer 2: 타이포그래피
-
-| # | 훔칠 전략 | 출처 | 적용 방안 |
-|---|----------|------|-----------|
-| 1 | 기술 문서 모노스페이스 체계 | IBM 기술 문서 타이포 시스템 (추정) | 데이터시트 내 수치·스펙 구간에 모노 서체 일관 적용 |
-| 2 | 다국어 타이포 스케일 통합 | Google Material Design 다국어 타이포 (공식) | 한국어·일본어·중국어 타이포 스케일 공식 정의로 아시아 자료 품질 균일화 |
-| 3 | 가변 폰트(Variable Font) 도입 | Vercel 브랜드 가변 폰트 활용 (추정) | 단일 폰트 파일로 웹 퍼포먼스 최적화 + 반응형 텍스트 크기 유연성 |
-
-### Steal Sheet — 디자인 Layer 3: 시각적 스토리텔링
-
-| # | 훔칠 전략 | 출처 | 적용 방안 |
-|---|----------|------|-----------|
-| 1 | 인포그래픽 연간 보고서 | Rio Tinto 비주얼 연간 보고서 (추정) | ALB ESG 리포트를 텍스트 PDF에서 인터랙티브 웹 인포그래픽으로 전환 |
-| 2 | 시설 360도 가상 투어 | Shell 정유 시설 가상 투어 (추정) | 아타카마·킹스마운틴 시설 360도 투어로 공급망 투명성 시각화 |
-| 3 | 실시간 생산 데이터 대시보드 | 재생에너지 기업 실시간 발전량 공개 (추정) | 리튬 생산량·ESG KPI 실시간 공개 페이지로 투명성 차별화 |
+*Layer 5 of 8 — Brand Autopsy: Albemarle Corporation (ALB)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

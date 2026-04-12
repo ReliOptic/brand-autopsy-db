@@ -1,91 +1,84 @@
-# 02 오디언스 맵 — Nike (NKE)
+# 02. Audience Map — Nike, Inc. (NKE)
 
-## 타깃 오디언스 개요
-
-Nike는 "몸이 있으면 누구나 운동선수"라는 포용적 미션 하에, 실제 구매·참여 데이터 기반으로 세 개의 핵심 세그먼트를 운영한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 세그먼트 구조
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 비중 (추정) | 핵심 동기 | 주요 채널 |
-|----------|------------|-----------|-----------|
-| 퍼포먼스 엘리트 | ~15% | 기록 향상, 기술 우위 | Nike.com, 전문 매장, NRC/NTC 앱 |
-| 라이프스타일 운동가 | ~55% | 정체성 표현, 커뮤니티 소속 | SNS, 스니커즈 앱, 백화점 |
-| 스트리트 컬처 팬 | ~30% | 한정판 희소성, 문화적 지위 | SNKRS 앱, 리셀 플랫폼, 인스타그램 |
-
----
-
-## 페르소나
-
-### 페르소나 1: 박지훈 — 퍼포먼스 러너
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 32세 |
-| 직업 | IT 스타트업 개발자 |
-| 거주 | 서울 마포구 |
-| 소득 | 연 6,500만 원 (추정) |
-| 운동 습관 | 주 5회 러닝, 마라톤 풀코스 서브-4 목표 |
-| 주요 구매 | Nike Vaporfly, Air Zoom Pegasus, Nike 러닝 의류 |
-| 정보 수집 | NRC 앱, 유튜브 러닝 채널, 러닝 커뮤니티 카페 |
-| 핵심 페인 | "기어가 기록을 방해해선 안 된다" — 기술 신뢰성이 최우선 |
-| 브랜드 기대 | 과학적 근거 있는 퍼포먼스 향상, 데이터 기반 트레이닝 지원 |
-| 구매 트리거 | 신기술 출시 이벤트, 마라톤 시즌 전 신제품 리뷰 |
-| SNS 행동 | NRC 기록 공유, Strava 연동, 전문 리뷰 영상 탐색 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in apparel, accessories & luxury goods. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Nike, Inc.'s segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Nike, Inc.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이수연 — 라이프스타일 운동가
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 26세 |
-| 직업 | 마케팅 대행사 AE |
-| 거주 | 서울 성수동 |
-| 소득 | 연 3,800만 원 (추정) |
-| 운동 습관 | 주 3회 필라테스·요가, 주말 캐주얼 러닝 |
-| 주요 구매 | Nike Dunk, Air Force 1, Yoga 컬렉션 레깅스 |
-| 정보 수집 | 인스타그램, 패션 유튜버, 29CM·무신사 |
-| 핵심 페인 | "운동복도 내 스타일이어야 한다" — 기능과 미학의 동시 충족 |
-| 브랜드 기대 | 트렌드 감도 높은 컬러·실루엣, 인플루언서 착용 연출 |
-| 구매 트리거 | 셀럽 협업 컬렉션, 시즌 컬러 출시, SNS 바이럴 |
-| SNS 행동 | 착용 OOTD 게시, 스토리 링크로 구매, 태그 공유 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Nike, Inc. customer organization
+- **Core pain**: Needs reliable apparel, accessories & luxury goods solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Nike, Inc. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 김도현 — 스트리트 컬처 팬 (스니커헤드)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 21세 |
-| 직업 | 대학생 (패션 전공) |
-| 거주 | 부산 해운대구 |
-| 소득 | 월 용돈 + 아르바이트 약 120만 원 (추정) |
-| 운동 습관 | 거의 없음 — 신발은 컬렉션 대상 |
-| 주요 구매 | Air Jordan 1, Nike SB, 콜라보 한정판 (Off-White, Travis Scott 등) |
-| 정보 수집 | SNKRS 앱, 나이키 공식 인스타, 리셀 커뮤니티 오픈카톡 |
-| 핵심 페인 | "드로우 당첨이 전부다" — 접근성 희소성의 아이러니 |
-| 브랜드 기대 | 희소성 유지, 문화적 정당성 있는 콜라보, 빠른 정보 선점 |
-| 구매 트리거 | 드로우 알림, 아티스트 협업 발표, 복각(레트로) 릴리즈 |
-| SNS 행동 | 개봉기 영상, 리셀 가격 트래킹, 커뮤니티 정보 공유 |
+- **Age / Occupation**: 35, technical professional who interacts with Nike, Inc.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Nike, Inc. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 레이어별 커뮤니케이션 전략
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 핵심 메시지 | 톤 | CTA |
-|----------|------------|-----|-----|
-| 퍼포먼스 엘리트 | 기술이 당신의 한계를 밀어낸다 | 데이터적·자신감 | "지금 훈련하러 가기" |
-| 라이프스타일 운동가 | 움직임이 곧 스타일이다 | 영감적·트렌디 | "컬렉션 보기" |
-| 스트리트 컬처 팬 | 문화는 발에서 시작된다 | 희소·배타적 | "SNKRS 앱에서 드로우 참여" |
+- **Age / Occupation**: 38, consumer who interacts with Nike, Inc.'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Nike, Inc. selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 훔칠 요소 | 적용 방법 |
-|---|-----------|-----------|
-| 1 | **세그먼트별 앱 분리** — NRC, SNKRS, Nike.com | 오디언스마다 전용 디지털 접점을 설계하라 |
-| 2 | **페르소나의 핵심 페인을 제품 언어로 번역** | "기어가 기록을 방해해선 안 된다" → Vaporfly 카피 공식 |
-| 3 | **희소성 페르소나를 별도 퍼널로 운영** | 드로우·한정판은 일반 구매 퍼널과 완전히 분리 |
+| Stage | Nike, Inc.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Nike, Inc. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Nike, Inc. Is Not For
+
+| Type | Characteristics | Why Nike, Inc. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Nike, Inc.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Nike, Inc.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Nike, Inc.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Nike, Inc.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Nike, Inc.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

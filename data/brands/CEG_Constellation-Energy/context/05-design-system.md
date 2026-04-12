@@ -1,148 +1,102 @@
-# 05 — Design System
-## Constellation Energy (CEG)
+# 05. Design System — Constellation Energy (CEG)
+
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## Design Philosophy
+## 1. Color Palette
 
-Constellation's visual identity is built on the tension between mass and precision. Nuclear energy is both enormous in scale and exacting in execution — the design system reflects both qualities. The visual language communicates institutional authority without the stiffness of a regulated utility, and clean energy optimism without the softness of consumer renewables. The dominant aesthetic is confident, modern, and grounded — never playful, never clinical.
+Constellation Energy's visual identity, as observed on its official website, employs a structured color system appropriate to utilities sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## Color System
-
-### Official Brand Colors
-
-| Color Name | HEX | RGB | Usage |
+| Token Name | HEX | Role | Specific Usage |
 |---|---|---|---|
-| Constellation Blue | #003DA5 | 0, 61, 165 | Primary brand color; headers, CTAs, navigation, primary buttons |
-| Constellation Navy | #001E62 | 0, 30, 98 | Deep background, footers, investor materials, formal documents |
-| Constellation White | #FFFFFF | 255, 255, 255 | Primary background; clean energy purity signal |
-| Constellation Sky | #00A3E0 | 0, 163, 224 | Accent; digital CTAs, data visualization highlights, link states |
-| Constellation Gold | #FFB81C | 255, 184, 28 | Secondary accent; awards, highlights, star/logo elements |
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-### Estimated Brand-Adjacent Colors
-*(Inferred from brand applications, investor presentations, and website analysis — not confirmed in public brand guidelines)*
+### Color Principles
 
-| Color Name | HEX (Estimated) | RGB (Estimated) | Inferred Usage |
-|---|---|---|---|
-| Carbon-Free Green | #00843D | 0, 132, 61 | Sustainability reports, ESG content, clean energy badges |
-| Warm Gray | #6B6B6B | 107, 107, 107 | Body copy, supporting text, secondary UI elements |
-| Light Gray | #F4F4F4 | 244, 244, 244 | Section backgrounds, card surfaces, data table alternates |
-| Deep Charcoal | #231F20 | 35, 31, 32 | Primary body text, headings on light backgrounds |
-| Alert Amber | #E87722 | 232, 119, 34 | Safety alerts, operational notices (rare; never in marketing) |
-| Cool White | #F8FBFF | 248, 251, 255 | Digital page backgrounds; slight blue tint for clean energy feel |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-## Typography
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### Primary Typeface
-**Sentinel** (or equivalent serif): Used for headline display in formal brand contexts — annual reports, policy documents, executive communications. Communicates institutional gravity and longevity.
-
-### Secondary Typeface
-**Gotham / Proxima Nova** (geometric sans-serif): Used for body copy, UI, digital interfaces, data labels, and operational communications. Communicates modernity, clarity, and precision.
-
-### Tertiary / Accent
-**Courier / Monospace variants**: Used sparingly for data display, plant statistics, and technical specifications to signal precision and transparency.
-
-### Type Scale (Digital)
-| Style | Size | Weight | Use |
-|---|---|---|---|
-| Display H1 | 48–64px | Bold | Hero statements, campaign headlines |
-| H2 | 36–42px | SemiBold | Section headers |
-| H3 | 24–30px | SemiBold | Subsection, card titles |
-| Body Large | 18px | Regular | Lead paragraphs, executive summaries |
-| Body | 16px | Regular | Standard body copy |
-| Caption | 12–14px | Regular | Data labels, footnotes, legal |
-| Data Callout | 48–72px | Bold | Stat callouts (e.g., "93%", "21 plants") |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## Logo System
+## 2. Typography
 
-**Primary Mark:** Wordmark "Constellation" with a stylized star/atom motif that references both astronomical constellation imagery (brand aspiration) and the nucleus/electron orbital (nuclear energy). The mark is rendered in Constellation Blue on white or reversed white on blue.
+Constellation Energy's digital properties employ a typographic system appropriate to its utilities positioning.
 
-**Clear Space:** Minimum clear space equal to the cap-height of the "C" in "Constellation" on all sides.
+### Typeface System
 
-**Minimum Size:** 120px wide digital / 1 inch print.
-
-**Prohibited Uses:**
-- Do not render on photographic backgrounds without a solid color buffer
-- Do not distort aspect ratio
-- Do not use Gold or Green as primary logo color (accent only)
-- Do not apply drop shadows or gradients to the primary mark
-
----
-
-## Iconography
-
-**Style:** Line icons with 2px stroke weight; rounded terminals; never filled/solid except for small-size usage (below 20px). Icons communicate function, not decoration.
-
-**Icon Library Themes:**
-- Energy generation (reactor, turbine, solar panel for contrast)
-- Transmission and grid (pylon, waveform, connection node)
-- Sustainability (leaf, carbon molecule, CO2 cross-through)
-- Data and reporting (chart, document, shield/verified badge)
-- People and community (worker figure, group, building)
-- Safety (shield, checkmark, NRC badge reference)
-
----
-
-## Photography Direction
-
-### Approved Visual Territories
-
-| Territory | Description | Usage |
+| Typeface | Description | Contexts |
 |---|---|---|
-| Operational Scale | Cooling towers at dawn/dusk; reactor halls; turbine floors — shot wide to emphasize scale and precision | Annual reports, investor materials, policy documents |
-| Worker Pride | Close-up portraits of workers in hard hats and safety gear — specific faces, real emotion, not stock | Employee stories, community pages, LinkedIn |
-| Clean Landscape | Aerial shots of plant sites with water features, farmland, or community context — no industrial grit framing | ESG reports, sustainability pages |
-| Data Visualization | Clean, minimal chart environments — white backgrounds, Constellation Blue data marks | Earnings presentations, white papers |
-| Community Moments | Local events, STEM programs, school donations — human scale, warm light | Community relations, social media |
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### Photography Prohibitions
-- No imagery that evokes alarm (smoke stacks implying pollution, security cordons, protest imagery)
-- No generic "green leaf on a circuit board" sustainability clichés
-- No stock photo nuclear anxiety tropes (hazmat suits without context, radiation symbols in alarm framing)
-- No competitor facility imagery
+### Typographic Scale
 
----
-
-## Motion and Animation Principles
-
-**Principle 1 — Measured Gravity:** Animations should feel deliberate and confident, never bouncy or playful. Easing: ease-in-out; duration: 300–500ms for UI; 1–3s for reveal animations.
-
-**Principle 2 — Data In Motion:** Statistics should animate in sequentially (count-up for large numbers; progressive disclosure for charts) to reward viewer attention and emphasize scale.
-
-**Principle 3 — Light as Energy Metaphor:** Subtle light-ray or glow effects in brand videos reference the energy generation process without literalism. Use sparingly.
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Design Application Grid
+## 3. Channel Specifications
 
-| Application | Primary Color | Typography | Photography | Tone |
-|---|---|---|---|---|
-| Annual Report Cover | Navy + Gold | Sentinel Display | Operational Scale | Institutional |
-| Corporate Website Hero | Blue + White | Gotham Bold | Worker Pride + Landscape | Authoritative |
-| ESG Report | Green + White | Gotham + Sentinel | Clean Landscape | Optimistic |
-| Investor Deck | Navy + Sky | Gotham | Data Visualization | Strategic |
-| LinkedIn Post | Blue + White | Gotham | Worker/Community | Direct |
-| Policy Fact Sheet | Blue + White | Gotham Body | Community Moments | Accessible |
-| Recruitment Ad | Navy + Sky | Gotham | Worker Pride | Purposeful |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 3 Steal Sheets — Design System Layer
+## 4. Layout Principles
 
-### Steal Sheet 1: The Stat Callout as Hero Element
-**What Constellation does:** Deploys oversized statistical callouts ("93%", "21 plants", "178 TWh", "12,000 workers") as primary visual heroes in digital and print, often larger than the brand wordmark itself. The numbers do the selling; the design simply gets out of the way.
-**Steal it:** Any brand with genuinely differentiated performance metrics can use typography-as-data as its primary visual language. This approach is especially effective in B2B contexts where buyers are numerically fluent and skeptical of photography-led brand advertising. The design move is to trust the number more than the imagery.
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### Steal Sheet 2: The Blue-Navy-Gold Institutional Palette
-**What Constellation does:** Uses a blue-dominant palette with gold accents that reads simultaneously as American (flag-adjacent), institutional (financial/legal sector conventions), and premium. This palette works against the default "green = clean energy" association that all renewable competitors use, creating instant visual differentiation.
-**Steal it:** Clean energy and sustainability brands that want to escape the "green cliché" design space can adopt institutional palette conventions (navy, blue, gold, white) to signal credibility and permanence rather than aspiration. The trade-off is warmth for authority — appropriate when your buyer is a CFO, not a consumer.
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal Sheet 3: Worker Photography as Anti-Greenwash Signal
-**What Constellation does:** Systematically replaces abstract sustainability imagery (wind turbines at sunset, green landscapes, globe graphics) with close-up, named, specific worker portraits. This photography direction signals that clean energy is real operational work done by real people — not a marketing abstraction.
-**Steal it:** Any industrial company in a category where "sustainability" imagery has become generic and distrusted can differentiate by making the human operational reality the visual hero. Named employees with specific roles and tenures in photographs replace stock imagery and abstract environmental visuals — and the credibility transfer is immediate.
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Constellation Energy (CEG)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

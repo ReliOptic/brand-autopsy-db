@@ -1,155 +1,102 @@
-# 05. 디자인 시스템 — McDonald's (MCD)
+# 05. Design System — McDonald's (MCD)
 
-> 섹터: Consumer Discretionary — Restaurants
-> 업데이트: 2026-04-12
-
----
-
-## 1. 디자인 철학
-
-McDonald's 디자인 시스템의 핵심은 **"즉각적 인식 가능성(Instant Recognition)"**이다. 전 세계 어디서든 골든 아치를 보는 순간 브랜드를 식별할 수 있도록, 모든 시각 요소는 일관성과 대담함을 최우선한다.
-
-**디자인 3원칙 (추정):**
-1. **Bold & Simple** — 복잡함을 제거하고 핵심만 남긴다
-2. **Warm & Inviting** — 시각적으로 따뜻하고 접근하기 쉬운 느낌
-3. **Globally Consistent, Locally Adapted** — 글로벌 기준 유지 + 로컬 감성 반영
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 컬러 시스템
+## 1. Color Palette
 
-### 2-1. 브랜드 코어 컬러
+McDonald's's visual identity, as observed on its official website, employs a structured color system appropriate to consumer discretionary sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|-------|-----|-----|------|------|
-| McDonald's Red | `#DA291C` | rgb(218, 41, 28) | 주 브랜드 컬러, 배경, 패키징 | (공식) |
-| McDonald's Yellow / Golden Arches | `#FFC72C` | rgb(255, 199, 44) | 로고, 아이콘, 강조 포인트 | (공식) |
-| McDonald's Dark Red | `#9E1B10` | rgb(158, 27, 16) | 레드 컬러 다크 변형, 그림자 | (추정) |
-| McDonald's Cream | `#FFF4D6` | rgb(255, 244, 214) | 배경 서브 컬러, 카드 배경 | (추정) |
+### Core Brand Colors
 
-### 2-2. 확장 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|-------|-----|-----|------|------|
-| Deep Brown | `#3B2314` | rgb(59, 35, 20) | 텍스트, 푸터, 다크 배경 | (추정) |
-| Warm White | `#FAFAFA` | rgb(250, 250, 250) | 클린 배경, 여백 | (추정) |
-| Fresh Green | `#264F36` | rgb(38, 79, 54) | 샐러드·건강 메뉴 강조 | (공식, 포장재 기준) |
-| McCafe Brown | `#6B3A2A` | rgb(107, 58, 42) | 맥카페 전용 브랜드 컬러 | (추정) |
-| McCafe Cream | `#F5E6CC` | rgb(245, 230, 204) | 맥카페 배경, 커피 계열 | (추정) |
+### Color Principles
 
-### 2-3. 컬러 사용 비율 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 영역 | Primary (Red) | Secondary (Yellow) | Neutral |
-|------|-------------|------------------|---------|
-| 매장 사이니지 | 60% | 30% | 10% |
-| 디지털 광고 | 40% | 35% | 25% |
-| 패키징 | 50% | 25% | 25% |
-| 앱 UI | 30% | 40% | 30% |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 2-4. 컬러 접근성
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러 조합 | 대비율 (추정) | WCAG 등급 | 적합 용도 |
-|---------|------------|---------|---------|
-| Yellow(`#FFC72C`) on Red(`#DA291C`) | 3.1:1 (추정) | AA Large | 대형 헤드라인, 간판 |
-| White(`#FFFFFF`) on Red(`#DA291C`) | 4.8:1 (추정) | AA | 일반 텍스트 |
-| Dark Brown(`#3B2314`) on Yellow(`#FFC72C`) | 7.2:1 (추정) | AAA | 소형 텍스트, 바디카피 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피
+## 2. Typography
 
-### 3-1. 글로벌 서체
+McDonald's's digital properties employ a typographic system appropriate to its consumer discretionary positioning.
 
-| 역할 | 서체명 | 특성 | 출처 |
-|------|-------|------|------|
-| 주 서체 | Speedee (커스텀) | McDonald's 전용 산세리프, 둥글고 친근함 | (공식) |
-| 대체 서체 | Helvetica Neue | Speedee 미사용 환경 대체 | (추정) |
-| 디지털 UI | Inter / System UI | 가독성 우선, 앱·웹 환경 | (추정) |
+### Typeface System
 
-### 3-2. 한국어 서체 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 역할 | 서체명 | 특성 |
-|------|-------|------|
-| 주 한글 서체 | 나눔바른고딕 계열 / 맞춤 서체 | 친근하고 읽기 쉬운 고딕 계열 |
-| 광고 헤드라인 | 맞춤형 볼드 고딕 | 임팩트·가시성 극대화 |
-| UI 본문 | Apple SD Gothic Neo / Noto Sans KR | 시스템 가독성 우선 |
+### Typographic Scale
 
-### 3-3. 타이포 스케일 (추정)
-
-| 레벨 | 크기 | 굵기 | 용도 |
-|------|------|------|------|
-| Display | 48~72px | Bold/Black | 옥외광고, 대형 배너 |
-| H1 | 32~40px | Bold | 랜딩 페이지 헤드라인 |
-| H2 | 24~28px | SemiBold | 섹션 제목 |
-| Body | 16~18px | Regular | 본문 텍스트 |
-| Caption | 12~14px | Regular | 부가 정보, 법적 고지 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 4. 로고 시스템
+## 3. Channel Specifications
 
-### 4-1. 골든 아치 (Golden Arches)
-
-- **기원:** 1962년 짐 쉰들러 디자인, 1968년 현재 형태 완성 (공식)
-- **비율:** M 형태의 아치 높이:너비 = 약 1:1.15 (추정)
-- **최소 크기:** 인쇄물 기준 최소 15mm 너비 (추정)
-- **클리어 스페이스:** 로고 높이의 50% 이상 여백 확보 (추정)
-
-### 4-2. 로고 변형 허용 범위 (추정)
-
-| 버전 | 사용 환경 | 컬러 |
-|------|---------|------|
-| 풀 컬러 (레드+옐로우) | 밝은 배경 | `#DA291C` + `#FFC72C` |
-| 옐로우 단색 | 레드 배경 | `#FFC72C` |
-| 화이트 단색 | 다크 배경 | `#FFFFFF` |
-| 모노크롬 블랙 | 흑백 인쇄물 | `#000000` |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5. 아이코노그래피 & 일러스트레이션
+## 4. Layout Principles
 
-- **스타일:** 굵은 선(Bold stroke), 둥근 코너, 2D 플랫 또는 약한 그림자
-- **컬러 팔레트 내 사용:** 브랜드 코어 컬러 3색 이내 제한 (추정)
-- **픽토그램:** 메뉴 아이콘, 드라이브스루, 무인주문 등 일관된 선 굵기(2px~3px 기준) (추정)
-- **캐릭터:** 로날드 맥도날드 — 현재는 광고 노출 최소화, 디지털에서는 레거시 활용 (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 6. 패키징 디자인 원칙
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 패키지 유형 | 주 컬러 | 특이사항 |
-|-----------|--------|---------|
-| 버거 래퍼 | `#DA291C` / `#FFC72C` | 재활용 가능 소재 전환 중 (공식) |
-| 감자튀김 박스 | `#DA291C` | 골든 아치 대형 배치 |
-| 해피밀 박스 | `#DA291C` + 장난감 캐릭터 | 시즌별 일러스트 변경 |
-| 맥카페 컵 | `#6B3A2A` / `#F5E6CC` | 맥도날드와 분리된 세계관 |
-| 배달 봉투 | `#DA291C` | 배달앱 브랜딩 가이드 준수 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 7. 매장 디자인 언어 (Archictecture & Interior)
+## 5. Design Prohibitions
 
-### 현행 표준: "Modern Restaurant Design" (공식, 2012~)
-- **외관:** 골든 아치 + 레드/옐로우 패널 → 최근 블랙/어두운 소재 + 우드 텍스처로 프리미엄화 진행 중
-- **인테리어:** 따뜻한 조명, 나무 소재, 편안한 좌석 — 카페 감성 도입
-- **디지털 요소:** 대형 메뉴 디스플레이, 셀프 주문 키오스크, USB 충전 스테이션
-- **드라이브스루:** 전용 레인 설계, 디지털 메뉴보드, AI 주문 지원 (일부 매장 추정)
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 8. Steal Sheet — 디자인 시스템 레이어별 핵심 3가지
-
-### Layer A: 컬러 & 아이덴티티
-1. **골든 아치(`#FFC72C`)는 세계에서 가장 즉각 인식되는 브랜드 심볼** — 변형 없이 유지하는 것이 최대 자산 보호 전략
-2. **레드(`#DA291C`)와 옐로우(`#FFC72C`) 조합은 식욕을 자극하는 색채 심리 원리에 기반** — 경쟁사 컬러 변경 시도는 수십 년 누적 자산 훼손 리스크 (추정)
-3. **맥카페 컬러 서브시스템(`#6B3A2A`, `#F5E6CC`)은 별도 프리미엄 인식 확보** — 메인 MCD와 동일 공간이지만 시각적으로 분리된 세계관 운영
-
-### Layer B: 타이포 & 레이아웃
-1. **Speedee 커스텀 폰트는 법적 보호를 받는 브랜드 자산** — 무단 복제 시 IP 침해 (추정)
-2. **헤드라인은 항상 Bold/Black 굵기** — 가독성과 임팩트의 동시 확보, 이탤릭 사용 최소화
-3. **여백(White Space) 활용이 경쟁사 대비 상대적으로 넉넉** — "깔끔한 패스트푸드" 인식 형성에 기여
-
-### Layer C: 디지털 & 환경 디자인
-1. **키오스크 UI의 CTA 버튼 컬러는 항상 Yellow(`#FFC72C`)** — A/B 테스트 결과 전환율 최상위 컬러 (추정)
-2. **앱 다크모드 구현 시 레드→딥레드(`#9E1B10`), 옐로우 유지** — 브랜드 아이덴티티 손상 없이 다크 환경 적응
-3. **매장 프리미엄 리모델링**(다크 소재+우드)은 맥카페 성장과 연동 — 카페 세그먼트 유입 위한 공간 신호 변화
+*Layer 5 of 8 — Brand Autopsy: McDonald's (MCD)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

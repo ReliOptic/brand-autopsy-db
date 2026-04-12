@@ -1,115 +1,84 @@
-# BlackRock (BLK) — 오디언스 맵
+# 02. Audience Map — BlackRock (BLK)
 
-## 오디언스 세그먼트 개요
-
-BlackRock의 고객 구조는 기관 중심이며, 리테일 투자자는 주로 iShares ETF를 통해 간접 접점을 형성한다. 주요 세그먼트는 기관투자자, 금융 중개자, 리테일/고액자산가(HNW) 세 축으로 구분된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 국민연금 CIO — 박수현 (55세)
-
-**역할 및 배경**
-- 공적연금 최고투자책임자, 운용자산 약 700조 원 규모
-- 서울대 경제학과 → 하버드 케네디스쿨 MPA
-- 재임 중 수익률·리스크 지표 모두 국회 보고 대상
-
-**핵심 니즈**
-- 장기 ALM(자산부채관리) 최적화
-- 기후·ESG 리스크를 포트폴리오에 통합할 방법론
-- Aladdin 기반 시나리오 분석 및 스트레스 테스트
-
-**정보 소비 채널**
-- BlackRock Investment Institute(BII) 연간 전망 보고서
-- 세계경제포럼(WEF), IMF 연례 보고서
-- 기관 대상 1:1 IR 미팅 및 컨퍼런스
-
-**구매 결정 트리거**
-- 규제 변화(IFRS17, 탄소회계 의무화)
-- 글로벌 금리 사이클 전환
-- Aladdin 플랫폼의 새로운 리스크 모듈 출시
-
-**메시지 키**
-"당신의 수탁 책임을 다하기 위한 가장 정밀한 도구"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in asset management & custody banks. B2C: End consumers of financials products and services. (T4_INFERRED from BlackRock's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in BlackRock's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 패밀리오피스 포트폴리오 매니저 — 김재훈 (42세)
+### Persona 1 — Enterprise Decision-Maker
 
-**역할 및 배경**
-- 중견 재벌 3세 자산 약 3,000억 원 운용 담당
-- KAIST 수학과 → CFA, CAIA 보유
-- 단일 가문 이익과 장기 세대 간 자산 이전이 최우선 과제
-
-**핵심 니즈**
-- 대체투자(인프라, 사모펀드, 부동산) 접근성
-- 세금 효율적인 포트폴리오 구조
-- 글로벌 분산과 유동성 관리의 동시 충족
-
-**정보 소비 채널**
-- BlackRock Alternatives 전용 리포트
-- 프라이빗 웨비나 및 딜 소싱 네트워크
-- Bloomberg Terminal, 글로벌 패밀리오피스 협회
-
-**구매 결정 트리거**
-- 부동산·인프라 섹터 가격 조정 시 진입 기회
-- 세제 개편 이슈(상속세·금융소득 과세)
-- BlackRock의 신규 사모 펀드 빈티지 출시
-
-**메시지 키**
-"다음 세대까지 이어지는 자산 구조를 설계합니다"
+- **Age / Occupation**: 42, VP-level or director in a BlackRock customer organization
+- **Core pain**: Needs reliable asset management & custody banks solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **BlackRock selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: MZ세대 ETF 투자자 — 이지원 (29세)
-
-**역할 및 배경**
-- IT 스타트업 재직, 월 소득 450만 원, 투자 가능 자산 약 5,000만 원
-- 유튜브·핀테크 앱으로 투자 독학
-- iShares ETF를 통해 BlackRock과 간접 접점 형성 중
-
-**핵심 니즈**
-- 저비용 글로벌 분산투자 (iShares MSCI, S&P500 ETF)
-- ESG 테마 투자 (청정에너지, 탄소중립 ETF)
-- 모바일 친화적 정보 접근성
-
-**정보 소비 채널**
-- 증권사 MTS 앱, 유튜브 재테크 채널
-- iShares 공식 웹사이트 ETF 스크리너
-- 인스타그램·X(트위터) 금융 인플루언서
-
-**구매 결정 트리거**
-- 미국 연준 금리 결정 이벤트
-- 글로벌 테마 ETF 신규 상장 소식
-- 또래 커뮤니티의 포트폴리오 공유 트렌드
-
-**메시지 키**
-"세계 1위 운용사의 ETF로 글로벌에 투자하세요"
+- **Age / Occupation**: 35, technical professional who interacts with BlackRock's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **BlackRock selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | AUM 기여도 | 관계 깊이 | 주요 접점 | 전환 장벽 |
-|----------|-----------|---------|---------|---------|
-| 기관투자자 (연기금·국부펀드) | ~65% (추정) | 매우 높음 | Aladdin, 전담 RM | 전환비용 극히 높음 |
-| 금융 중개자 (은행·보험) | ~20% (추정) | 높음 | 솔루션 팀, API 통합 | 계약·시스템 통합 복잡성 |
-| 패밀리오피스·UHNW | ~10% (추정) | 중간-높음 | Alternatives, 프라이빗 팀 | 관계 신뢰 구축 시간 |
-| 리테일 (iShares ETF 경유) | ~5% (추정) | 낮음 | 브로커·앱 | 낮음 (상품 대체 용이) |
+- **Age / Occupation**: 38, consumer who interacts with BlackRock's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **BlackRock selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 지역별 오디언스 우선순위
+## Purchase Journey — AARRR Framework
 
-| 지역 | 전략 중요도 | 핵심 세그먼트 |
-|------|-----------|------------|
-| 북미 | 최우선 | 연기금, ETF 리테일 |
-| 유럽 | 높음 | 보험사, ESG 기관 |
-| 아시아태평양 | 성장 우선 | 국부펀드, 패밀리오피스 |
-| 중동 | 전략적 | 국부펀드 (GCC) |
-| 라틴아메리카 | 신흥 | 연기금 |
+| Stage | BlackRock's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | BlackRock total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who BlackRock Is Not For
+
+| Type | Characteristics | Why BlackRock Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | BlackRock's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | BlackRock's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | BlackRock's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+BlackRock's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+BlackRock's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

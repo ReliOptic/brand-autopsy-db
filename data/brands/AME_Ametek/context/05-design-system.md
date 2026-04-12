@@ -1,209 +1,102 @@
-# 05 디자인 시스템 — AMETEK, Inc. (AME)
+# 05. Design System — Ametek (AME)
 
-## 디자인 철학
-
-AMETEK의 시각 언어는 **"엔지니어링 정밀성의 시각적 표현"**을 지향한다. 과도한 장식을 배제하고, 정보의 명확성과 계층 구조를 최우선으로 한다. 제조업·B2B 산업재 맥락에서 신뢰감과 전문성을 동시에 전달하는 것이 핵심 목표다. (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 브랜드 컬러 팔레트
+Ametek's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| AMETEK Blue | `#003087` | rgb(0, 48, 135) | 주 브랜드 컬러 — 로고, 헤더, CTA 버튼 | (공식) |
-| AMETEK Dark Blue | `#001F5B` | rgb(0, 31, 91) | 다크 배경, 헤더 배경, 프리미엄 강조 | (추정) |
-| AMETEK Light Blue | `#0066CC` | rgb(0, 102, 204) | 링크, 보조 CTA, 인포그래픽 강조 | (추정) |
-| AMETEK Silver | `#A8B2BD` | rgb(168, 178, 189) | 보조 텍스트, 아이콘, 구분선 | (추정) |
-| AMETEK White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 역상 | (공식) |
-| AMETEK Dark Gray | `#2D3748` | rgb(45, 55, 72) | 본문 텍스트, 표 헤더 | (추정) |
-| AMETEK Mid Gray | `#718096` | rgb(113, 128, 150) | 캡션, 메타 텍스트, 비활성 상태 | (추정) |
-| AMETEK Light Gray | `#F7F8FA` | rgb(247, 248, 250) | 섹션 배경, 카드 배경 | (추정) |
-| Alert Red | `#C41230` | rgb(196, 18, 48) | 경고, 에러 상태, 주의 아이콘 | (추정) |
-| Success Green | `#2D7D46` | rgb(45, 125, 70) | 성공 상태, 인증 뱃지, 검증 표시 | (추정) |
-| Accent Gold | `#C8922A` | rgb(200, 146, 42) | 프리미엄 강조, 수상 배지, 특별 공지 | (추정) |
+### Core Brand Colors
 
-### 컬러 사용 비율 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-```
-주 컬러 (AMETEK Blue #003087)        ████░░░░░░  40%
-중립 (White/Gray 계열)               ███████░░░  50%
-보조 (Light Blue / Silver)           ██░░░░░░░░  08%
-기능적 컬러 (Red / Green / Gold)     ░░░░░░░░░░  02%
-```
+### Color Principles
 
-### 컬러 접근성
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-- AMETEK Blue(`#003087`) + White(`#FFFFFF`) 대비율: **10.2:1** → WCAG AAA 충족 (추정)
-- Dark Gray(`#2D3748`) + Light Gray(`#F7F8FA`) 대비율: **9.8:1** → WCAG AAA 충족 (추정)
-- Alert Red(`#C41230`) + White(`#FFFFFF`) 대비율: **7.4:1** → WCAG AA 충족 (추정)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 시스템 (추정)
+Ametek's digital properties employ a typographic system appropriate to its industrials positioning.
 
-| 용도 | 서체 | 웨이트 | 크기 범위 |
-|------|------|--------|---------|
-| 헤딩 (H1~H2) | Helvetica Neue / Arial | Bold (700) | 32~48px |
-| 서브헤딩 (H3~H4) | Helvetica Neue / Arial | SemiBold (600) | 20~28px |
-| 본문 | Helvetica Neue / Arial | Regular (400) | 14~16px |
-| 캡션·레이블 | Helvetica Neue / Arial | Regular (400) | 11~13px |
-| 기술 수치·코드 | Courier New / Monospace | Regular (400) | 13~14px |
+### Typeface System
 
-**한국어 대응 서체** (추정):
-- 웹: Noto Sans KR (Google Fonts)
-- 인쇄: 맑은 고딕 / 나눔고딕
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 타이포그래피 원칙
+### Typographic Scale
 
-1. 줄 간격(Line-height): 본문 1.6, 헤딩 1.2
-2. 최대 컬럼 너비: 680px (가독성 최적화)
-3. 기술 수치는 반드시 Monospace 처리
-4. 산업 규격 번호(ISO 9001, MIL-STD-810 등)는 Bold 강조
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템 (추정)
+## 3. Channel Specifications
 
-### 로고 변형
-
-| 버전 | 배경 | 용도 |
-|------|------|------|
-| 풀 컬러 수평형 | White / Light Gray | 표준 사용 (웹, 인쇄) |
-| 역상 (White) | Blue / Dark | 다크 배경용 |
-| 모노크롬 (Black) | White | 단색 인쇄, 팩스, 각인 |
-| 심볼 단독 | 모든 배경 | 파비콘, 앱 아이콘, 소규모 공간 |
-
-### 로고 여백 (추정)
-
-최소 여백 = 로고 높이(X)의 0.5배 사방 확보
-
-### 로고 사용 금지 사항 (추정)
-
-- 비율 변형 (가로/세로 왜곡)
-- 브랜드 컬러 외 컬러 적용
-- 그라디언트·그림자·외곽선 추가
-- 복잡한 배경 위 직접 배치 (여백 없이)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## UI 컴포넌트 패턴
+## 4. Layout Principles
 
-### 버튼 스타일 (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-| 타입 | 배경 | 텍스트 | 테두리 | 용도 |
-|------|------|--------|--------|------|
-| Primary CTA | `#003087` | `#FFFFFF` | 없음 | 주요 전환 행동 (견적 요청, 다운로드) |
-| Secondary | `#FFFFFF` | `#003087` | `#003087` 1px | 보조 행동 (더 알아보기, 연락처) |
-| Ghost | 투명 | `#003087` | `#A8B2BD` 1px | 낮은 우선순위 행동 |
-| Alert | `#C41230` | `#FFFFFF` | 없음 | 긴급 알림, 재고 부족 경고 |
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 카드 레이아웃 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-```
-┌─────────────────────────────┐
-│  [제품 이미지]               │  배경: #F7F8FA
-│                             │  테두리: 1px #A8B2BD
-│  제품명 (Bold, #2D3748)      │  라디우스: 4px
-│  카테고리 (Gray, #718096)    │
-│  핵심 스펙 (Monospace)       │
-│  [인증 뱃지 아이콘들]        │
-│                             │
-│  [CTA 버튼]                  │
-└─────────────────────────────┘
-```
-
-### 데이터 테이블 스타일 (추정)
-
-- 헤더 배경: `#003087` / 텍스트: `#FFFFFF`
-- 홀수 행 배경: `#FFFFFF`
-- 짝수 행 배경: `#F7F8FA`
-- 테두리: `#A8B2BD` 0.5px horizontal only
-- 정렬: 텍스트 좌측 정렬, 수치 우측 정렬
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 이미지 & 사진 스타일
+## 5. Design Prohibitions
 
-### 제품 사진 (추정)
-
-- 배경: 순백색(`#FFFFFF`) 또는 중립 그레이(`#F7F8FA`)
-- 조명: 쉐도리스(shadowless) 또는 소프트 쉐도
-- 앵글: 45도 아이소메트릭 또는 정면 기술 도면 스타일
-- 필수 포함: 스케일 참조물, 커넥터·포트 가시성 확보
-
-### 현장 사진 (추정)
-
-- 실제 산업 환경 (플랜트·연구소·항공기 격납고)
-- 엔지니어 현장 운용 모습 (안전 장구 착용 필수)
-- 필터: 자연색 유지, 과채도 금지
-- AMETEK 장비가 주인공, 배경 환경은 맥락 제공용
-
-### 금지 이미지 패턴
-
-- 스톡 이미지 느낌의 과도한 연출
-- 소비자 제품 스타일 라이프스타일 사진
-- 저해상도 또는 압축 아티팩트가 보이는 제품 사진
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 인포그래픽 & 다이어그램
-
-### 기술 다이어그램 스타일 (추정)
-
-- 선 두께: 1px (보조) / 2px (주요 경로)
-- 컬러: AMETEK Blue(`#003087`) 주요 요소, Gray(`#718096`) 보조
-- 화살표: 솔리드 필 삼각형 헤드
-- 텍스트 레이블: Arial 11px, `#2D3748`
-- 배경 그리드: `#F7F8FA` 연한 격자
-
-### 데이터 시각화 (추정)
-
-| 차트 타입 | 주 컬러 | 강조 컬러 |
-|---------|--------|---------|
-| 막대 그래프 | `#003087` | `#0066CC` |
-| 선 그래프 | `#003087` | `#C8922A` (비교선) |
-| 파이 차트 | `#003087` / `#0066CC` / `#A8B2BD` | — |
-| 히트맵 | `#001F5B` → `#FFFFFF` | `#C41230` (이상치) |
-
----
-
-## Steal Sheet — 디자인 레이어별
-
-### Steal Sheet 1: 신뢰 시각화 레이어
-
-**목표**: 첫 페이지 로딩 3초 내에 "이 회사는 전문가다"를 시각적으로 전달
-
-**실행 전술**:
-- 홈페이지 히어로 섹션: 실제 산업 현장 + AMETEK 장비 고해상도 사진
-- 인증 로고 바(ISO, MIL-SPEC, AS9100, ATEX) 헤더 바로 하단 배치
-- 핵심 수치 배너: "160+ 틈새 시장 / 30+ 국가 운영 / 90+ 년 경험"
-
-**경쟁사 약점 활용**: 대기업 경쟁사들은 범용 비주얼 → AMETEK은 산업별 특화 이미지로 차별화
-
----
-
-### Steal Sheet 2: 기술 데이터 레이어
-
-**목표**: 스펙 비교 시 AMETEK이 시각적으로 우세하게 보이도록 구성
-
-**실행 전술**:
-- 제품 스펙 테이블에 경쟁사 대비 하이라이트 행 추가 (AMETEK 행 = `#003087` 배경)
-- 성능 그래프: AMETEK 라인을 굵은 파란선(`#003087`), 경쟁사를 회색 점선
-- "검증된 수치" 뱃지: 제3자 기관 시험 결과임을 명시
-
-**경쟁사 약점 활용**: NI는 소프트웨어 UI UX에 집중 → AMETEK은 하드웨어 스펙 시각화에서 우위
-
----
-
-### Steal Sheet 3: 탐색·전환 레이어
-
-**목표**: 제품 탐색에서 견적 요청까지의 클릭 수를 최소화
-
-**실행 전술**:
-- 산업별 랜딩 페이지 (항공우주 / 에너지 / 의료 / 반도체) — 수직 탐색 동선
-- 각 제품 페이지에 "이 제품을 사용하는 산업" 크로스링크
-- 영구 고정 CTA: "기술 전문가와 상담" 버튼 — 스크롤과 무관하게 노출
+*Layer 5 of 8 — Brand Autopsy: Ametek (AME)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

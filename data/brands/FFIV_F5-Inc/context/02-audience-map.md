@@ -1,92 +1,84 @@
-# F5 Inc. (FFIV) — 오디언스 맵
+# 02. Audience Map — F5, Inc. (FFIV)
 
-## 타깃 시장 개요 (추정)
-
-F5의 주요 고객은 금융·통신·공공·리테일 분야의 대형 엔터프라이즈와 하이퍼스케일 클라우드 네이티브 기업이다. 평균 거래 규모(ACV) $100K 이상의 B2B 세일즈 모션이 지배적이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 엔터프라이즈 CISO
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 김철수 CISO (대형 시중은행)
-
-| 항목 | 내용 |
-|------|------|
-| 직함 | Chief Information Security Officer |
-| 소속 | 자산 100조+ 국내 시중은행 |
-| 나이 | 48세 |
-| 경력 | IT 인프라 15년 → 보안 관리 10년 |
-| 예산 권한 | 연간 보안 예산 $5M~$20M 결재권 |
-| 주요 고통점 | 금융당국 규제 대응, 제로데이 취약점, 멀티클라우드 가시성 부재 |
-| 정보 채널 | Gartner MQ, IDC 리포트, CISO 컨퍼런스(RSA, ISACA) |
-| 구매 동기 | 규정 준수 증명 가능한 보안 아키텍처, 감사 대응 문서화 |
-| F5 접점 | BIG-IP APM, Advanced WAF, SSL Orchestrator |
-| 결정 기준 | 레퍼런스 고객(동종 업계), TCO 절감, 글로벌 지원 SLA |
-
-**메시지 훅**: "금감원·FSB 규제 요건을 충족하면서 Zero Trust 아키텍처를 실현하는 유일한 통합 플랫폼"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in communications equipment and adjacent industries. (T4_INFERRED from F5, Inc.'s segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in F5, Inc.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 클라우드 인프라 아키텍트
+## Core Personas
 
-### 페르소나: Sarah Chen (글로벌 SaaS 스타트업)
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 직함 | Principal Cloud Infrastructure Architect |
-| 소속 | Series C 글로벌 SaaS 기업 (직원 500명) |
-| 나이 | 35세 |
-| 경력 | AWS Solutions Architect 출신, Kubernetes 전문가 |
-| 예산 권한 | $500K 이하 단독 승인, 이상은 CTO 공동 결재 |
-| 주요 고통점 | AWS/GCP/Azure 멀티클라우드 정책 일관성, 애플리케이션 레이턴시, DevSecOps 통합 |
-| 정보 채널 | GitHub, Stack Overflow, KubeCon, HashiConf |
-| 구매 동기 | API-first 제어, Terraform 모듈 지원, CI/CD 파이프라인 통합 |
-| F5 접점 | NGINX Plus, F5 Distributed Cloud Services, BIG-IP Next |
-| 결정 기준 | 개발자 경험(DX), 오픈소스 친화성, 문서 품질 |
-
-**메시지 훅**: "GitOps 워크플로우에 네이티브하게 통합되는 애플리케이션 보안 — 보안팀 승인 없이 배포"
+- **Age / Occupation**: 42, VP-level or director in a F5, Inc. customer organization
+- **Core pain**: Needs reliable communications equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **F5, Inc. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 통신사 네트워크 운영 담당자
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 박민준 부장 (국내 이동통신사)
-
-| 항목 | 내용 |
-|------|------|
-| 직함 | 네트워크 인프라 운영 부장 |
-| 소속 | 국내 3대 이동통신사 중 한 곳 |
-| 나이 | 42세 |
-| 경력 | IP 네트워크 20년, 5G 코어 전환 프로젝트 리드 |
-| 예산 권한 | 연간 CAPEX 집행 참여, 벤더 평가 주도 |
-| 주요 고통점 | 5G 코어 트래픽 급증, 가입자 데이터 보호, 통신망 장애 최소화 |
-| 정보 채널 | ETSI, 3GPP 표준 문서, 통신사 내부 기술 포럼 |
-| 구매 동기 | 통신사 등급(Carrier-grade) 가용성, GSMA 컴플라이언스, 로컬 지원 체계 |
-| F5 접점 | BIG-IP CGNAT, Gi/SGi Firewall, 5G UPF |
-| 결정 기준 | 국내 레퍼런스, 기술 지원 조직(국내 SE), 장기 유지보수 로드맵 |
-
-**메시지 훅**: "5G 시대 가입자 1억 명을 수용하는 캐리어급 트래픽 관리와 보안을 단일 플랫폼으로"
+- **Age / Occupation**: 35, technical professional who interacts with F5, Inc.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **F5, Inc. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 | 구매 사이클 | 주요 메시지 | 채널 |
-|----------|------|------------|------------|------|
-| 대형 금융·보험 | 엔터프라이즈 | 12~18개월 | 규제 준수·보안 | Analyst 리포트, 직접 영업 |
-| 글로벌 통신사 | 엔터프라이즈 | 18~24개월 | 캐리어급 성능 | 파트너 채널, 전문 SE |
-| 클라우드 네이티브 SaaS | Mid-Market | 3~6개월 | 개발자 경험·API | 디지털 마케팅, Trial |
-| 공공·정부 | 엔터프라이즈 | 24~36개월 | 국가보안·컴플라이언스 | 조달 채널, SI 파트너 |
-| 리테일·이커머스 | Mid-Market | 6~12개월 | DDoS·봇 방어 | 웨비나, 사례 연구 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate F5, Inc.'s financial performance, competitive positioning, and risk factors for investment decisions.
+- **F5, Inc. selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
-## 구매 위원회 영향력 지도 (추정)
+---
 
-```
-최종 결재: CFO / CEO (ROI 증명 요구)
-        ↑
-기술 승인: CTO / CISO (아키텍처 검토)
-        ↑
-평가·추천: 인프라 아키텍트 / 보안 엔지니어 (PoC 수행)
-        ↑
-초기 탐색: DevOps 엔지니어 / 네트워크 관리자 (문제 발견)
-```
+## Purchase Journey — AARRR Framework
+
+| Stage | F5, Inc.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | F5, Inc. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who F5, Inc. Is Not For
+
+| Type | Characteristics | Why F5, Inc. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | F5, Inc.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | F5, Inc.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | F5, Inc.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+F5, Inc.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+F5, Inc.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

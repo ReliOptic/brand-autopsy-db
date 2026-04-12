@@ -1,102 +1,84 @@
-# 02. 오디언스 맵 — Bunge Global (BG)
+# 02. Audience Map — Bunge Global (BG)
 
-> 섹터: 소비재 — 애그리비즈니스 | 티커: BG (NYSE)
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-1차 오디언스 (Primary)
-├── 대형 곡물 농가 / 농업 협동조합
-├── 식품 제조업체 (B2B 고객)
-└── 기관 투자자 / 주주
-
-2차 오디언스 (Secondary)
-├── 정부·규제기관
-├── 유통·물류 파트너
-└── ESG·지속가능성 이해관계자
-
-3차 오디언스 (Tertiary)
-├── 언론·애널리스트
-├── 일반 소비자 (간접 접점)
-└── 취업 지원자
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 대규모 곡물 농가 — "브라질 대두 농장주 카를로스"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 카를로스 M. (가명) |
-| 나이 | 52세 |
-| 위치 | 브라질 마투그로수 주 |
-| 농장 규모 | 5,000헥타르 대두·옥수수 (추정) |
-| 연소득 | 약 $1.2M USD (추정) |
-| 주요 목표 | 안정적 구매자 확보, 최적 선물 가격 헤징, 물류 효율화 |
-| 핵심 고민 | 가격 변동성 리스크, 운송 병목, 기후 리스크 |
-| Bunge와의 관계 | 멀티년 구매 계약, Bunge 디지털 플랫폼 사용 |
-| 선호 채널 | 대면 영업 미팅, 지역 에이전트, 모바일 앱 |
-| 결정 동인 | 가격 경쟁력 > 신뢰 관계 > 물류 지원 |
-| 브랜드 기대 | "Bunge는 제 수확을 제때 사가고 공정한 가격을 준다" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in agricultural products & services. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Bunge Global's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Bunge Global's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 식품 제조업체 구매 책임자 — "인도네시아 팜오일 가공사 CPO"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 리나 S. (가명) |
-| 직함 | Chief Procurement Officer |
-| 나이 | 44세 |
-| 위치 | 자카르타, 인도네시아 |
-| 기업 규모 | 연매출 $800M 식품 제조사 (추정) |
-| 주요 목표 | 식물성 오일 안정 공급, 원가 절감, 공급업체 다변화 |
-| 핵심 고민 | 공급망 단절 리스크, 규제 컴플라이언스, ESG 요구 증가 |
-| Bunge와의 관계 | 팜오일·해바라기유 장기 공급 계약 |
-| 선호 채널 | 이메일, 영업 담당자 직접 연락, 산업 컨퍼런스 |
-| 결정 동인 | 공급 안정성 > 가격 > 지속가능성 인증 |
-| 브랜드 기대 | "RSPO 인증 오일을 적시에, 예측 가능한 가격으로" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Bunge Global customer organization
+- **Core pain**: Needs reliable agricultural products & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Bunge Global selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 기관 투자자 — "뉴욕 헤지펀드 애널리스트 제임스"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 제임스 K. (가명) |
-| 직함 | Senior Equity Analyst, Consumer Staples |
-| 나이 | 38세 |
-| 위치 | 뉴욕, 미국 |
-| 운용 자산 | $4B AUM 헤지펀드 소속 (추정) |
-| 주요 목표 | BG 주가 상승 잠재력·배당 안정성 평가, ESG 리스크 스크리닝 |
-| 핵심 고민 | 원자재 가격 사이클 변동성, 비토에라 통합 시너지 실현 여부, 규제 리스크 |
-| Bunge와의 관계 | 주주, IR 행사 참여, 실적 발표 청취 |
-| 선호 채널 | IR 보고서, 실적 콜, Bloomberg 피드 |
-| 결정 동인 | EPS 성장 > ROIC > ESG 등급 > 배당 수익률 |
-| 브랜드 기대 | "투명한 재무 공시와 명확한 자본 배분 전략" |
+- **Age / Occupation**: 35, technical professional who interacts with Bunge Global's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Bunge Global selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스별 핵심 메시지 매핑
+### Persona 3 — Consumer / Retail Customer
 
-| 오디언스 | 핵심 메시지 | 공포 (Pain) | 욕망 (Gain) |
-|---------|------------|-------------|-------------|
-| 대형 농가 | "당신의 수확을 세계로" | 가격 불확실성, 구매자 부재 | 안정 수익, 물류 지원 |
-| 식품 제조업체 | "안정적 원료, 검증된 공급망" | 공급 단절, ESG 컴플라이언스 | 원가 예측성, 인증 오일 |
-| 기관 투자자 | "애그리비즈니스 사이클의 수혜자" | 변동성, 통합 리스크 | 장기 성장, 배당 안정 |
-| 정부·규제기관 | "식량 안보의 책임 있는 파트너" | 식량 위기, 공급 불안 | 인프라 투자, 세수 기여 |
+- **Age / Occupation**: 38, consumer who interacts with Bunge Global's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Bunge Global selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 고객 여정 지도 (B2B 농가 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 평가 → 계약 → 운영 → 재계약
- ↓        ↓       ↓       ↓       ↓
-지역 에이전트  가격 비교  선물 계약  디지털 플랫폼  관계 심화
-산업 박람회   신용 조회  물류 협의  현장 지원팀   추가 서비스
-```
+| Stage | Bunge Global's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Bunge Global total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Bunge Global Is Not For
+
+| Type | Characteristics | Why Bunge Global Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Bunge Global's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Bunge Global's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Bunge Global's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Bunge Global's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Bunge Global's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

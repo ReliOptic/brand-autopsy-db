@@ -1,103 +1,84 @@
-# SBUX 오디언스 맵 (Audience Map)
+# 02. Audience Map — Starbucks (SBUX)
 
-> 섹터: Consumer Discretionary — Restaurants/Coffee
-> 상태: (공식) / (추정) 구분 표기
-
----
-
-## 1. 타깃 오디언스 개요
-
-| 세그먼트 | 비중 | 핵심 동인 |
-|----------|------|-----------|
-| 밀레니얼 도시 직장인 | ~38% (추정) | 루틴·지위·작업 공간 |
-| Z세대 트렌드 추종자 | ~27% (추정) | SNS 공유·한정판·커스터마이징 |
-| 상위 소득 프리미엄 추구자 | ~18% (추정) | Reserve·품질·원두 스토리 |
-| 중장년 로열티 회원 | ~17% (추정) | 습관·포인트·편의성 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 루틴 추구자 — "모닝 아메리카노 지민"
-
-| 항목 | 내용 |
-|------|------|
-| 나이/성별 | 32세, 여성 |
-| 직업 | 마케팅 매니저, 서울 강남구 |
-| 소득 | 연 6,000만 원 (추정) |
-| 방문 빈도 | 주 5회 이상, 출근 전 모바일 오더 |
-| 핵심 니즈 | 예측 가능한 품질, 대기 없는 픽업, Rewards 포인트 적립 |
-| 구매 패턴 | 아메리카노 그란데 고정 주문, 시즌 음료 월 1~2회 시도 |
-| SNS 행동 | 카카오 채널 알림 수신, 인스타그램 시즌컵 공유 |
-| 페인포인트 | 앱 오류·대기 시간 증가, 가격 인상 |
-| 브랜드 관계 | Gold 등급 Rewards 회원, 5년 이상 |
-| 인용구 | "스타벅스 없으면 아침이 시작 안 돼요." |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in restaurants. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Starbucks's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Starbucks's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: SNS 인증 수집가 — "커스텀 덕후 예린"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이/성별 | 22세, 여성 |
-| 직업 | 대학생, 경기도 거주·홍대 자주 방문 |
-| 소득 | 월 50만 원 용돈 + 알바 수입 (추정) |
-| 방문 빈도 | 주 2~3회, 시즌 메뉴 출시 당일 필방 |
-| 핵심 니즈 | 인스타그램 피드용 비주얼, 커스텀 음료 정체성, 리미티드 MD |
-| 구매 패턴 | 프라푸치노·티바나 커스텀, 시즌 텀블러·MD 구매 |
-| SNS 행동 | 틱톡·인스타 릴스 업로드, 커스텀 레시피 공유 |
-| 페인포인트 | MD 품절, 커스텀 추가 금액 부담 |
-| 브랜드 관계 | Rewards 회원, 비정기 방문 |
-| 인용구 | "리유저블컵 나오면 무조건 줄 서야지." |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Starbucks customer organization
+- **Core pain**: Needs reliable restaurants solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Starbucks selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 원두 감별사 — "스페셜티 추구자 민준"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이/성별 | 41세, 남성 |
-| 직업 | IT 스타트업 CTO, 서울 성수동 |
-| 소득 | 연 1억 5,000만 원 이상 (추정) |
-| 방문 빈도 | 주 1~2회 Reserve Roastery 또는 Reserve 매장 |
-| 핵심 니즈 | 단일 원산지 원두 스토리, 추출 방식 선택권, 공간 퀄리티 |
-| 구매 패턴 | Reserve 싱글 오리진 에스프레소, 사이펀·클로버 추출 |
-| SNS 행동 | 원두 테이스팅 노트 블로그 포스팅, 링크드인 공유 |
-| 페인포인트 | 일반 매장 품질 편차, 바리스타 원두 지식 부족 |
-| 브랜드 관계 | Reserve 충성 고객, 일반 스타벅스는 차선책 |
-| 인용구 | "Reserve에서 에티오피아 예가체프 마시면 왜 비싼지 이해돼요." |
+- **Age / Occupation**: 35, technical professional who interacts with Starbucks's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Starbucks selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 고객 여정 지도
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 접점 | 고객 행동 | 브랜드 반응 |
-|------|------|-----------|-------------|
-| 인지 | SNS 광고, 시즌 PR | "핑크 드링크 뭐지?" | 비주얼 콘텐츠·해시태그 캠페인 |
-| 고려 | 앱 메뉴 탐색, 친구 추천 | 칼로리·가격 비교 | 앱 내 커스텀 추천, Rewards 가입 유도 |
-| 구매 | 모바일 오더·매장 방문 | 커스텀 주문, 이름 호명 | 바리스타 웰컴, 컵에 이름 쓰기 |
-| 경험 | 매장 공간, 음료 품질 | Wi-Fi 작업, 대화 | 음악·향·조명·가구 큐레이션 |
-| 재방문 | Rewards 포인트, 앱 푸시 | 포인트 확인·리딤 | 개인화 오퍼, 생일 음료 |
-| 옹호 | 인스타·틱톡 공유 | 시즌컵 인증샷 | UGC 리그램, 해시태그 앰플리파이 |
+- **Age / Occupation**: 38, consumer who interacts with Starbucks's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Starbucks selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 지리적 세그먼트
+## Purchase Journey — AARRR Framework
 
-| 시장 | 특성 |
-|------|------|
-| 미국 (홈마켓) | 모바일 오더 비중 ~30% (공식), 드라이브스루 중심 |
-| 중국 | 매장 수 7,000개+ (공식 2024), 로컬 경쟁사 루이싱과 경쟁 |
-| 한국 | 프리미엄 포지셔닝 강함, 시즌 MD 문화 강성 |
-| 일본 | 스타벅스 리저브 매장 비중 높음, 선물 문화 연계 |
-| 유럽 | 음료 대비 푸드 비중 높음, 지속가능성 민감도 상승 |
+| Stage | Starbucks's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Starbucks total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. Steal Sheet — 오디언스 맵 레이어
+## Anti-Persona — Who Starbucks Is Not For
 
-| # | 전략 | 실행 방법 | 적용 대상 |
-|---|------|-----------|-----------|
-| 1 | **페르소나별 앱 푸시 개인화** | Rewards 데이터 기반 주문 패턴 분석 → 페르소나 태그 부여 → 맞춤 오퍼 발송 | CRM, 앱 마케팅 |
-| 2 | **Z세대 UGC 앰플리파이** | 시즌 메뉴 출시 전 인플루언서 선선공개 → 출시일 UGC 폭발 설계 | SNS 캠페인, PR |
-| 3 | **Reserve로 프리미엄 세그먼트 분리** | 고소득 페르소나 대상 Reserve 전용 이메일·이벤트 운영 → 일반 매장 가격 민감도 논쟁에서 격리 | CRM, Reserve 채널 |
+| Type | Characteristics | Why Starbucks Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Starbucks's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Starbucks's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Starbucks's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Starbucks's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Starbucks's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

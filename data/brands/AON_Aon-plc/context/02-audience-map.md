@@ -1,138 +1,84 @@
-# AON plc — 오디언스 맵
+# 02. Audience Map — Aon plc (AON)
 
-## 타깃 오디언스 개요
-
-AON의 핵심 고객은 B2B 기업 의사결정자이며, 중소기업부터 포춘500 대기업까지 광범위한 스펙트럼을 보유한다. 개인 소비자 대상 서비스는 최소화되어 있으며, 조직 단위의 리스크 관리 수요를 중심으로 오디언스가 구성된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 대기업 CFO — 이장훈 (55세)
-
-**직책:** 글로벌 제조업 CFO, 연매출 $2B+ 기업  
-**위치:** 서울 / 싱가포르 (아시아-태평양 총괄)  
-**교육:** MBA (Wharton 또는 동급), CFA 보유
-
-**핵심 고충 (Pain Points)**
-- 환율 변동, 공급망 붕괴, 지정학적 리스크의 복합 충격
-- 이사회에 리스크 비용 대비 ROI를 숫자로 설명해야 하는 압박
-- 사이버 공격 이후 보험 조항의 실질적 커버리지 불확실성
-- 규제 환경 다변화 (ESG 공시 의무 강화)
-
-**AON과의 접점**
-- 연간 리스크 리뷰 회의 참석
-- Aon Risk Maturity Index 활용
-- 재보험 구조 재설계 시 AON 중개 의존
-
-**의사결정 기준**
-1. 데이터의 신뢰성과 벤치마크 비교 가능성
-2. 글로벌 커버리지 (단일 창구 선호)
-3. 실적 기반 트랙 레코드
-
-**메시지 공명 포인트**
-- "경쟁사 대비 리스크 비용 X% 절감"
-- "이사회 보고용 리스크 대시보드 제공"
-- "글로벌 120개국 단일 계약 구조"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in insurance brokers. B2C: End consumers of financials products and services. (T4_INFERRED from Aon plc's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Aon plc's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 중견기업 리스크 매니저 — 박소연 (38세)
+### Persona 1 — Enterprise Decision-Maker
 
-**직책:** 국내 바이오테크 기업 Chief Risk Officer (CRO), 직원 800명  
-**위치:** 판교 테크노밸리  
-**교육:** 보험계리학 석사, CPCU 자격증
-
-**핵심 고충 (Pain Points)**
-- 임상시험 단계별 리스크 전이 구조 이해 부족한 브로커
-- D&O 보험 조항의 FDA 규제 대응 적용 범위 불명확
-- 스타트업에서 스케일업으로 전환 시 보험 포트폴리오 재정비 필요
-- 사이버 침해 사고 후 보험금 청구 거절 경험으로 신뢰 훼손
-
-**AON과의 접점**
-- Aon Cyber Solutions 상담
-- 바이오·라이프사이언스 전문 브로커팀 미팅
-- 업계 리포트 (Aon Global Risk Management Survey) 구독
-
-**의사결정 기준**
-1. 산업 특화 전문성 (바이오·헬스케어 레퍼런스)
-2. 청구 지원 서비스 품질
-3. 계약 조항 투명성
-
-**메시지 공명 포인트**
-- "바이오테크 전담 리스크 컨설턴트 배정"
-- "임상 단계별 맞춤형 커버리지 설계"
-- "클레임 지원팀 24/7 운영"
+- **Age / Occupation**: 42, VP-level or director in a Aon plc customer organization
+- **Core pain**: Needs reliable insurance brokers solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Aon plc selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 글로벌 HR 디렉터 — 김민준 (44세)
-
-**직책:** 다국적 IT 기업 CHRO (Chief Human Resources Officer), 직원 12,000명  
-**위치:** 서울 / 암스테르담 이중 거점  
-**교육:** 조직심리학 박사, SHRM-SCP 인증
-
-**핵심 고충 (Pain Points)**
-- 국가별 상이한 복리후생 구조의 통합 관리 복잡성
-- 인재 유지를 위한 복리후생 경쟁력 벤치마킹 데이터 부족
-- 하이브리드 근무 전환 후 단체보험 적용 범위 재설정
-- 임직원 웰빙 프로그램의 측정 가능한 ROI 입증 요구
-
-**AON과의 접점**
-- Aon Human Capital 솔루션 구독
-- 보상·복리후생 벤치마킹 리포트 (Aon Total Rewards)
-- 퇴직연금 거버넌스 컨설팅
-
-**의사결정 기준**
-1. 글로벌 데이터 커버리지와 현지화 능력 동시 보유
-2. 기술 플랫폼 연동 (HRIS 시스템 통합)
-3. 컴플라이언스 자동화 지원
-
-**메시지 공명 포인트**
-- "140개국 보상 데이터 실시간 벤치마킹"
-- "단일 플랫폼으로 다국 복리후생 통합 관리"
-- "인재 유지율 X% 향상 사례 제공"
+- **Age / Occupation**: 35, technical professional who interacts with Aon plc's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Aon plc selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 기업 규모 | 주요 니즈 | 접근 채널 | 구매 사이클 |
-|---------|---------|---------|---------|----------|
-| 대기업 C-Suite | $1B+ | 통합 리스크 거버넌스 | 임원 직접 영업 | 12-24개월 |
-| 중견기업 CRO/CFO | $100M-$1B | 전문 분야 특화 솔루션 | 중개 네트워크 | 6-12개월 |
-| HR 리더 | 500명+ | 복리후생·인재 데이터 | 세미나·리포트 | 3-6개월 |
-| 보험사 (B2B2B) | 대형 보험사 | 재보험·분석 서비스 | 전문 팀 직접 | 장기 파트너십 |
-| 스타트업/스케일업 | Series B+ | 성장 단계별 리스크 설계 | 디지털·파트너 | 1-3개월 |
+- **Age / Occupation**: 38, consumer who interacts with Aon plc's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Aon plc selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## Steal Sheet — 오디언스 레이어
+## Purchase Journey — AARRR Framework
 
-### Layer 1: 페르소나 설계 도용 전략
+| Stage | Aon plc's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Aon plc total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| B2B 페르소나 깊이 | C-Suite 별 독립 메시지 트랙 운영 | CFO/CRO/CHRO 각각 다른 ROI 언어 사용 |
-| 직함 기반 세분화 | 리스크 담당자와 재무 담당자 분리 | 같은 서비스도 수신자 직책에 따라 언어 재설계 |
-| 산업별 페르소나 | 바이오·제조·금융 각 전담 콘텐츠 | 버티컬별 Pain Point 사전 리서치 후 콘텐츠 생산 |
+---
 
-### Layer 2: 고충 기반 도용 전략
+## Anti-Persona — Who Aon plc Is Not For
 
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 규제 불안 활용 | ESG 공시·사이버 규제 변화를 리드 콘텐츠로 | 규제 변화 타이밍에 맞춘 콘텐츠 캘린더 설계 |
-| 이사회 압박 공략 | "이사회용 리포트" 형태 제공물 | 의사결정자의 상위 보고 니즈를 콘텐츠로 해결 |
-| 신뢰 회복 서사 | 클레임 지원 프로세스 투명화 | 과거 불만족 경험 보유 고객 재활성화 메시지 |
+| Type | Characteristics | Why Aon plc Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Aon plc's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Aon plc's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Aon plc's full value is realized through deeper operational integration and sustained partnership. |
 
-### Layer 3: 구매 사이클 도용 전략
+---
 
-| 항목 | AON 전략 | 훔쳐야 할 인사이트 |
-|------|---------|-----------------|
-| 장기 계약 설계 | 연간 리뷰 주기 고착화 | 정기 터치포인트로 경쟁사 교체 장벽 생성 |
-| 리포트 선행 배포 | 구매 전 리서치 단계에서 AON 자료 의존 유도 | 업계 리포트 발행으로 RFP 기준 설정자 역할 확보 |
-| 파일럿 → 확장 구조 | 소규모 계약 진입 후 전사 확대 | 낮은 진입 비용 제안으로 관계 선점 |
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Aon plc's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Aon plc's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

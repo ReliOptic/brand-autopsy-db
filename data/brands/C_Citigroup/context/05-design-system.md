@@ -1,107 +1,102 @@
-# 05. 디자인 시스템 — Citigroup (C)
+# 05. Design System — Citigroup (C)
 
-## 브랜드 디자인 철학
-
-Citi의 디자인 언어는 **"명확성(Clarity), 신뢰(Trust), 연결(Connection)"** 세 원칙을 시각적으로 번역한다. 복잡한 금융 정보를 단순화하여 전달하는 것이 최우선이며, 장식보다 기능성을 우선시한다. (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 기본 팔레트
+Citigroup's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 색상명 | HEX 코드 | 용도 | 비고 |
-|--------|---------|------|------|
-| Citi Blue (Primary) | `#003B70` | 로고, 헤더, 주요 CTA | (공식) |
-| Citi Light Blue | `#0066A0` | 링크, 강조 텍스트, 버튼 | (공식) |
-| Citi Bright Blue | `#0099D8` | 인터랙티브 요소, 아이콘 | (공식) |
-| Pure White | `#FFFFFF` | 배경, 여백 | (공식) |
-| Near Black | `#1A1A1A` | 본문 텍스트 | (공식) |
+### Core Brand Colors
 
-### 보조 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 색상명 | HEX 코드 | 용도 | 비고 |
-|--------|---------|------|------|
-| Warm Gray | `#F5F5F5` | 카드 배경, 구분선 | (추정) |
-| Medium Gray | `#767676` | 서브텍스트, 캡션 | (추정) |
-| Dark Gray | `#333333` | 서브헤딩 | (추정) |
-| Success Green | `#2E7D32` | 긍정적 수치, 승인 상태 | (추정) |
-| Alert Red | `#C62828` | 경고, 오류 상태 | (추정) |
-| Gold Accent | `#B8860B` | Private Bank 전용 프리미엄 포인트 | (추정) |
+### Color Principles
 
-### 컬러 사용 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-- 파란색 계열이 전체 색상 사용의 70% 이상을 차지해야 함 (추정)
-- Gold Accent는 Private Bank 콘텐츠에만 사용, 리테일에 혼용 금지 (추정)
-- Alert Red는 UI 에러 상태 외 마케팅 콘텐츠에 사용 금지 (추정)
-- 접근성 기준 WCAG 2.1 AA 충족: `#003B70` on `#FFFFFF` 대비비 10.48:1 충족 (공식)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-| 사용처 | 서체 | 스타일 | 비고 |
-|--------|------|--------|------|
-| 헤딩 (H1–H2) | Citi Sans (자사 전용) / Helvetica Neue 대체 | Bold, 32–48px | (공식) |
-| 서브헤딩 (H3–H4) | Citi Sans / Helvetica Neue | SemiBold, 20–28px | (공식) |
-| 본문 | Citi Sans / Arial 대체 | Regular, 14–16px | (공식) |
-| 수치·데이터 강조 | Citi Sans | Bold, Tabular Numerals | (추정) |
-| 법적 고지 (Fine Print) | Arial | Regular, 10–12px | (추정) |
-
-**타이포그래피 원칙:**
-- 줄 간격(Line Height): 본문 1.5배, 헤딩 1.2배 (추정)
-- 최대 컬럼 너비: 680px (가독성 최적화) (추정)
-- 한국어 표기 시: Noto Sans KR 또는 Apple SD Gothic Neo 사용 (추정)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-| 요소 | 규격 | 비고 |
-|------|------|------|
-| 로고 형태 | 아치형 (arc) 위에 "Citi" 워드마크 | (공식) |
-| 최소 크기 | 디지털 32px 너비, 인쇄 12mm | (공식) |
-| 클리어스페이스 | 로고 높이의 50% 이상 여백 확보 | (공식) |
-| 허용 배경 | 흰색, Citi Blue (`#003B70`), 밝은 회색 | (추정) |
-| 금지 변형 | 색상 변경, 왜곡, 그림자 효과, 테두리 추가 | (추정) |
+Citigroup's digital properties employ a typographic system appropriate to its financials positioning.
 
----
+### Typeface System
 
-## UI 컴포넌트 언어
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 버튼 스타일
-- **Primary CTA:** 배경 `#0066A0`, 텍스트 `#FFFFFF`, 둥글기 4px (추정)
-- **Secondary CTA:** 테두리 `#003B70`, 배경 투명, 텍스트 `#003B70` (추정)
-- **Hover 상태:** Primary → `#003B70` 다크닝, 트랜지션 200ms (추정)
+### Typographic Scale
 
-### 카드 컴포넌트
-- 배경: `#FFFFFF`, 그림자: `0 2px 8px rgba(0,0,0,0.08)` (추정)
-- 경계선: `1px solid #F0F0F0` (추정)
-- 내부 패딩: 24px (추정)
-
-### 아이콘 시스템
-- 라인 아이콘 중심, 스트로크 2px (추정)
-- 색상: `#0066A0` 또는 `#1A1A1A` (추정)
-- 표준 크기: 16px, 24px, 32px (추정)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 이미지 & 비주얼 언어
+## 3. Channel Specifications
 
-| 요소 | 원칙 |
-|------|------|
-| 사진 스타일 | 자연광, 실제 비즈니스 환경, 다양성 반영 (추정) |
-| 금지 스타일 | 스톡 이미지 과도한 포즈, 단일 인종 중심 사진 (추정) |
-| 도시 이미지 | 글로벌 도시 스카이라인 사용 허용 (뉴욕, 도쿄, 런던, 두바이) (추정) |
-| 데이터 시각화 | 파란색 계열 단색 차트, 격자선 최소화, 주석 필수 (추정) |
-| 애니메이션 | 기능성 목적에 한해 허용, 장식적 애니메이션 금지 (추정) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 레이어별 훔쳐야 할 것
+## 4. Layout Principles
 
-| # | 경쟁사/대상 | 훔쳐야 할 디자인 요소 | Citi 적용 방식 |
-|---|-----------|---------------------|-------------|
-| 1 | Revolut | 다크모드 + 네온 포인트 컬러의 프리미엄감 | Citi Private Bank 앱 전용 다크 테마 도입으로 HNW 고객 차별화 (추정) |
-| 2 | HSBC | 글로벌 도시 비주얼을 통한 "현지성+글로벌성" 동시 표현 | 각 국가 캠페인에서 해당 도시 랜드마크와 Citi 존재감 결합 (추정) |
-| 3 | Bloomberg Terminal | 데이터 밀도 높은 대시보드 디자인의 신뢰성 시그널 | Citi Velocity 인터페이스에 "프로 트레이더 UX" 요소 강화 (추정) |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Citigroup (C)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

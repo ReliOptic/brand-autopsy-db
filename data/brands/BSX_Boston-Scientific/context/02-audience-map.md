@@ -1,118 +1,84 @@
-# 02 오디언스 맵 — Boston Scientific (BSX)
+# 02. Audience Map — Boston Scientific (BSX)
 
-## 오디언스 계층 구조
-
-```
-1차 오디언스: HCP (의사, 시술자, 병원 구매위원회)
-2차 오디언스: 환자 및 보호자
-3차 오디언스: 페이어 (보험사, Medicare/Medicaid), 투자자, 규제기관
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1: 중재적 심장내과 전문의
+## Ideal Customer Profile (ICP)
 
-### 페르소나
-
-**이름:** 김도현 (Dr. Do-hyun Kim)  
-**나이:** 47세  
-**직책:** 서울 대형 대학병원 중재적 심장내과 부교수 / 카테터실 책임자  
-**지역:** 한국 (동아시아 주요 시장 대표)
-
-**배경**
-- 연간 300건 이상 PCI(경피적 관상동맥 중재술) 시행
-- ACC/ESC 학회 정기 참가, 최신 임상 데이터 추적
-- 병원 의료기기 구매위원회 위원, 신제품 도입 결정에 영향력 보유
-- Boston Scientific SYNERGY 스텐트, WATCHMAN FLX 디바이스 경험 있음
-
-**목표**
-- 시술 성공률 향상 및 재입원율 감소
-- 최신 기술을 빠르게 습득해 경쟁 병원 대비 임상 우위 확보
-- 임상 연구 참여 및 논문 발표 기회
-
-**페인 포인트**
-- 새 디바이스 러닝 커브(learning curve) 및 교육 시간 부족
-- 보험 급여 적용 여부 불확실성으로 도입 지연
-- 임상 데이터와 실제 시술 결과 간의 괴리 우려
-
-**정보 소비 채널**
-- 학회(TCT, EuroPCR, AHA), 의학 저널(NEJM, JACC), BSX 메디컬 웹사이트, 동료 KOL 추천
-
-**BSX와의 접점 (추정)**
-- 제품 런칭 심포지엄, 핸즈온 트레이닝 워크숍, Medical Education 프로그램, 임상 연구 협력
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Boston Scientific's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Boston Scientific's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2: 비뇨기과 전문의 (개원의)
+## Core Personas
 
-### 페르소나
+### Persona 1 — Enterprise Decision-Maker
 
-**이름:** 이수진 (Dr. Su-jin Lee)  
-**나이:** 41세  
-**직책:** 중소형 비뇨기과 의원 원장  
-**지역:** 한국 수도권 외 지방 도시
-
-**배경**
-- 요실금·요도 협착·전립선 비대증 환자 주요 치료
-- 연간 시술량 150~200건 수준
-- BSX 요실금 치료 디바이스(AMS 브랜드 포함) 사용 경험
-- 학회 참가 빈도 낮고 정보 습득은 주로 온라인·담당 영업대표(MR) 통해 이루어짐
-
-**목표**
-- 시술 효율 개선, 환자 회복 시간 단축
-- 기존 환자 재방문율 향상 및 신규 환자 유입
-- 비용 효율적인 소모품·디바이스 구비
-
-**페인 포인트**
-- 복잡한 기기 교육 없이 빠르게 적용 가능한 제품 필요
-- 소규모 의원 특성상 고가 장비 도입 부담
-- 보험 급여 범위 밖 제품의 환자 설득 어려움
-
-**정보 소비 채널**
-- BSX MR 방문, 대한비뇨의학회 온라인 교육, 의원급 의사 커뮤니티(닥터스뉴스 등)
-
-**BSX와의 접점 (추정)**
-- 영업대표 정기 방문, 지역 미니 심포지엄, 제품 체험 키트 제공
+- **Age / Occupation**: 42, VP-level or director in a Boston Scientific customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Boston Scientific selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3: 심방세동 환자 (60대 남성)
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나
-
-**이름:** 박철수 (Mr. Cheol-su Park)  
-**나이:** 64세  
-**직업:** 은퇴 후 자영업 (소규모 카페 운영)  
-**지역:** 한국 지방 중소도시
-
-**배경**
-- 3년 전 심방세동 진단, 항응고제(와파린) 복용 중
-- 뇌졸중 위험으로 WATCHMAN 시술 고려 중
-- 스마트폰은 사용하지만 의료 정보 검색은 서툼, 주로 자녀와 함께 정보 탐색
-- 의사 의견을 매우 신뢰, 브랜드보다 "내 담당 의사가 쓰는 것" 기준으로 선택
-
-**목표**
-- 매일 복용하는 항응고제에서 벗어나 삶의 질 개선
-- 뇌졸중 예방에 대한 불안 해소
-- 시술 후 빠른 일상 복귀
-
-**페인 포인트**
-- 시술에 대한 막연한 두려움, 합병증 정보 과다로 인한 불안
-- 비용 부담(건강보험 급여 여부 불명확)
-- 이해하기 어려운 의료 용어로 설명받는 불편함
-
-**정보 소비 채널**
-- 담당 주치의, 자녀를 통한 온라인 정보(네이버 블로그·카페), BSX 환자용 브로셔
-
-**BSX와의 접점 (추정)**
-- 의사를 통한 간접 접촉, 병원 내 환자 교육 자료, BSX 환자 지원 프로그램
+- **Age / Occupation**: 35, technical professional who interacts with Boston Scientific's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Boston Scientific selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스별 핵심 메시지 매핑
+### Persona 3 — Consumer / Retail Customer
 
-| 오디언스 | 핵심 욕구 | BSX 메시지 |
-|---------|----------|-----------|
-| 중재적 심장내과 전문의 | 임상 우위, 데이터 신뢰 | "임상 증거로 뒷받침된 기술, 당신의 결과를 높입니다" |
-| 비뇨기과 개원의 | 효율성, 사용 편의성 | "간단한 적용, 검증된 결과" |
-| 심방세동 환자 | 안전, 삶의 질 | "매일의 약 없이, 일상으로 돌아가세요" |
+- **Age / Occupation**: 38, consumer who interacts with Boston Scientific's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Boston Scientific selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Boston Scientific's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Boston Scientific total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Boston Scientific Is Not For
+
+| Type | Characteristics | Why Boston Scientific Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Boston Scientific's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Boston Scientific's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Boston Scientific's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Boston Scientific's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Boston Scientific's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

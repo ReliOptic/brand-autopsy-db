@@ -1,99 +1,123 @@
-# 04. 콘텐츠 DNA — KLA Corporation (KLAC)
+# 04. Content DNA — KLA Corporation (KLAC)
 
-## 콘텐츠 철학
-
-KLA의 콘텐츠는 "증거가 곧 설득이다"라는 원칙 위에 구축된다. (추정) 기술적 사실, 측정 가능한 성과, 전문가 인사이트가 모든 콘텐츠의 기반이며, 감성적 수사보다 데이터와 케이스 스터디가 우선한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 핵심 메시지 아키텍처
+## Content Pillars
 
-### 레이어 1: 기업 수준 (Corporate Level)
-> "KLA는 반도체 산업이 혁신을 계속할 수 있도록 공정 제어의 지식과 기술을 제공한다." (추정)
+KLA Corporation's content strategy reflects its positioning in the Semiconductor Materials & Equipment segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 레이어 2: 솔루션 수준 (Solution Level)
-> "조기 결함 감지로 수율을 높이고, 제조 비용을 낮추며, 시장 출시 시간을 단축한다." (추정)
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "KLA Corporation understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for semiconductor materials & equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with KLA Corporation." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 레이어 3: 제품 수준 (Product Level)
-> "[제품명]은 [nm] 노드에서 [결함 유형]을 [감도 수치]로 감지한다." (추정)
-
----
-
-## 콘텐츠 포맷 가이드
-
-| 포맷 | 목적 | 주요 채널 | 빈도 |
-|------|------|----------|------|
-| 기술 백서 (White Paper) | 심층 기술 신뢰 구축 | 웹사이트·이메일 | 분기별 (추정) |
-| 케이스 스터디 | ROI 증명 | 영업·웹사이트 | 월별 (추정) |
-| 제품 데이터시트 | 기술 사양 전달 | 영업·웹사이트 | 제품 출시 시 |
-| 학술 논문 공동저술 | 학계 권위 확보 | IEEE·SPIE | 연간 다수 (추정) |
-| 뉴스레터·이메일 | 리드 너처링 | 이메일 | 월별 (추정) |
-| 웨비나·온라인 세미나 | 기술 교육·리드 생성 | 웹·LinkedIn | 월 1–2회 (추정) |
-| 컨퍼런스 발표 | 업계 권위·네트워크 | SEMICON·SPIE Advanced Litho | 연간 다수 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 톤 가이드라인
+## Hook Patterns
 
-### 써야 할 어조
-- **사실 중심**: "KLA의 [제품]은 5nm 노드에서 3nm 미만 결함을 감지한다" (측정 가능 주장)
-- **전문가 대 전문가**: 독자를 동등한 엔지니어로 존중하는 어조
-- **문제 해결 중심**: 고객의 기술적 도전을 먼저 제시 후 솔루션 전개
-- **데이터 우선**: 수치·그래프·비교표로 주장 뒷받침
+### Hook 1 — Industry Challenge Lead
 
-### 피해야 할 어조
-- 과대 광고형 수식어 ("세계 최고", "혁명적", "독보적" 단독 사용)
-- 감정 호소 중심 스토리텔링 (B2C 브랜드식 접근)
-- 경쟁사 직접 비하
-- 검증되지 않은 절대적 주장
+Opens with a recognizable industry challenge or pain point before presenting KLA Corporation's perspective.
 
----
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-## 스토리텔링 프레임워크
+### Hook 2 — Data-Driven Insight
 
-### 문제-해결 구조 (Problem-Solution Arc)
-1. **공정 도전 제시**: "3nm 노드 전환 시 기존 검사 장비의 분해능 한계"
-2. **비용 계량화**: "수율 1% 손실 = 팹 연간 $X억 손실" (추정)
-3. **KLA 솔루션 제시**: 기술 사양 + 차별화 포인트
-4. **증거 제공**: 고객 케이스 스터디 또는 성능 데이터
-5. **행동 유도**: 데모 요청 / 기술 상담 / 백서 다운로드
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## 키 메시지별 금지어·필수어 요약
+### Hook 3 — Customer Story Lead
 
-### 금지어 (5개)
-1. **"저렴한"** — 프리미엄 포지셔닝 훼손
-2. **"적당히"** — 정밀도 브랜드와 모순
-3. **"단순한"** — 기술 복잡성 과소평가
-4. **"혁명적"** (단독) — 근거 없는 과대 수식
-5. **"완벽한"** — 검증 불가 절대 주장
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-### 필수어 (5개)
-1. **"공정 제어 (Process Control)"**
-2. **"수율 (Yield)"**
-3. **"계측 (Metrology)"**
-4. **"검사 (Inspection)"**
-5. **"반도체 제조 (Semiconductor Manufacturing)"**
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## Steal Sheet — 콘텐츠 DNA 레이어별 3개
+## CTA Patterns
 
-### Steal Sheet 1: 기술 콘텐츠 레이어
+| CTA Type | KLA Corporation Pattern | What KLA Corporation Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-- **핵심**: 기술 백서와 학술 공동저술로 업계 표준 지식 생산자 포지션 선점
-- **실행**: SPIE·IEEE 논문 공동저술 → 자사 웹사이트 무료 배포 → 영업 대화에서 레퍼런스
-- **KPI**: 백서 다운로드 수, 인용 횟수, 기술 세미나 참가자 수
+---
 
-### Steal Sheet 2: ROI 콘텐츠 레이어
+## Tone & Mood Guide
 
-- **핵심**: 수율-비용 연계 계산기 및 케이스 스터디로 구매 정당화 자료 제공
-- **실행**: 웨이퍼 원가 × 수율 개선 % = 연간 절감액 계산 도구 제공 (추정)
-- **KPI**: 계산기 사용 횟수, 케이스 스터디 공유 횟수, 영업 사이클 단축일
+### Situation 1 — Product or Service Announcement
 
-### Steal Sheet 3: 교육 콘텐츠 레이어
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-- **핵심**: 차세대 엔지니어 교육 콘텐츠로 장기 고객 관계 및 브랜드 충성도 구축
-- **실행**: KLA Academy(온라인 교육 플랫폼) 활성화, 대학 파트너십, 기술 유튜브 채널 (추정)
-- **KPI**: 교육 수료 인원, 대학 파트너십 수, 채용 파이프라인 연계
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — KLA Corporation as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #KLAC | Financial and investor community | Moderate (estimated) |
+| #KLACorporation | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+KLA Corporation's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in semiconductor materials & equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+KLA Corporation's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

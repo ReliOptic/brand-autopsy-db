@@ -1,87 +1,84 @@
-# 02 오디언스 맵 — American Express (AXP)
+# 02. Audience Map — American Express (AXP)
 
-> 섹터: Consumer Finance | 티커: AXP
-
----
-
-## 1. 세그먼트 개요
-
-| 세그먼트 | 비중(추정) | 핵심 니즈 | 주력 제품 |
-|----------|-----------|-----------|-----------|
-| 프리미엄 개인 소비자 | 45% | 여행·라이프스타일 혜택, 지위 상징 | Platinum, Gold, Green |
-| 중소기업(SMB) 오너 | 30% | 현금 흐름 관리, 비즈니스 리워드 | Business Platinum, Blue Business Cash |
-| 대기업·법인 | 15% | 비용 통제, 글로벌 T&E 관리 | Corporate Card, @ Work |
-| 신흥 프리미엄(밀레니얼·Z) | 10% | 경험 중심 혜택, 디지털 UX | Gold, Green |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 글로벌 비즈니스 트래블러 — "서준 (Se-Jun)"
-
-| 항목 | 내용 |
-|------|------|
-| 나이·직업 | 42세, 외국계 컨설팅펌 파트너 |
-| 거주지 | 서울 강남, 연 출장 20회 이상 |
-| 연소득 | 약 3억 원 (추정) |
-| 보유 카드 | Amex Platinum + 기업 코퍼릿 카드 |
-| 핵심 동기 | 공항 라운지 접근, 호텔 업그레이드, 포인트 극대화 |
-| 페인포인트 | 해외 가맹점 미수납, 연회비 ROI 정당화 압박 |
-| 정보 채널 | LinkedIn, 비즈니스 항공 매거진, 유튜브 금융 채널 |
-| 구매 트리거 | 컨시어지 서비스 실제 경험, 동료 추천 |
-| 브랜드 기대 | "내가 어디에 있든 최고의 서비스를 받을 자격이 있다" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in consumer finance. B2C: End consumers of financials products and services. (T4_INFERRED from American Express's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in American Express's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 라이프스타일 최적화 밀레니얼 — "지은 (Ji-Eun)"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직업 | 32세, 스타트업 마케팅 디렉터 |
-| 거주지 | 서울 마포, 디지털 노마드 성향 |
-| 연소득 | 약 8천만 원 (추정) |
-| 보유 카드 | Amex Gold (첫 프리미엄 카드) |
-| 핵심 동기 | 다이닝 크레딧, 여행 포인트, 인스타그래머블 카드 디자인 |
-| 페인포인트 | 연회비 부담, 일부 편의점·소형 가맹점 미수납 |
-| 정보 채널 | 인스타그램, 유튜브 재테크 채널, 카드 포인트 커뮤니티 |
-| 구매 트리거 | 지인 추천, SNS 바이럴, 신규 가입 보너스 포인트 |
-| 브랜드 기대 | "이 카드를 꺼낼 때 특별한 사람이 된 느낌" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a American Express customer organization
+- **Core pain**: Needs reliable consumer finance solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **American Express selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 중소기업 오너 — "민철 (Min-Cheol)"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이·직업 | 48세, 수출입 무역 SMB 대표 |
-| 거주지 | 인천, 직원 15명 규모 운영 |
-| 연매출 | 약 30억 원 (추정) |
-| 보유 카드 | Amex Business Platinum |
-| 핵심 동기 | 사업 비용 통합 관리, 외환 수수료 절감, 임직원 카드 발급 |
-| 페인포인트 | 국내 B2B 결제 가맹점 제한, 고객 지원 대기 시간 |
-| 정보 채널 | 사업주 네트워크, 세무사·회계사 추천, 비즈니스 포럼 |
-| 구매 트리거 | 비용 분석 후 ROI 확인, 동업자 소개 |
-| 브랜드 기대 | "내 비즈니스를 뒷받침하는 파트너가 필요하다" |
+- **Age / Occupation**: 35, technical professional who interacts with American Express's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **American Express selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 고객 여정 맵 (핵심 세그먼트: 프리미엄 개인 소비자)
+### Persona 3 — Consumer / Retail Customer
 
-| 단계 | 고객 행동 | 감정 상태 | 아멕스 터치포인트 | 개선 기회 |
-|------|-----------|-----------|------------------|-----------|
-| 인지 | SNS·지인 추천으로 아멕스 인지 | 호기심, 약간의 거리감 | 광고, 인플루언서, 추천 프로그램 | 밀레니얼 친화적 콘텐츠 확대 |
-| 고려 | 연회비·혜택 비교, 후기 탐색 | 신중함, ROI 계산 | 공식 웹사이트, 비교 리뷰 사이트 | 혜택 계산기 도구 강화 |
-| 가입 | 온라인 신청, 심사 대기 | 기대감, 약간의 불안 | 앱·웹 가입 플로우, 이메일 | 심사 진행 현황 실시간 알림 |
-| 활성화 | 첫 구매, 포인트 적립 확인 | 만족, 탐색 욕구 | 웰컴 이메일, 앱 온보딩 | 온보딩 튜토리얼 개인화 |
-| 충성 | 멤버십 갱신, 업그레이드 검토 | 소속감, 가치 체감 | 멤버십 리뉴얼 오퍼, 컨시어지 | 장기 멤버 전용 혜택 강화 |
-| 추천 | 지인에게 아멕스 추천 | 자부심 | 추천인 보너스 프로그램 | 추천 보상 가시성 제고 |
+- **Age / Occupation**: 38, consumer who interacts with American Express's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **American Express selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 잠재 오디언스 — 화이트스페이스
+## Purchase Journey — AARRR Framework
 
-| 기회 세그먼트 | 규모(추정) | 진입 장벽 | 전략 방향 |
-|--------------|-----------|-----------|-----------|
-| MZ 첫 프리미엄 카드 사용자 | 高 | 연회비 심리적 장벽 | 저연회비 Green 카드 입문 경로 |
-| 프리랜서·크리에이터 | 中 | 소득 불규칙성, 심사 기준 | 맞춤형 비즈니스 카드 라인업 |
-| 한국 주재 외국인 임원 | 中 | 현지 가맹점 한계 인지 | 글로벌 네트워크 강점 소구 |
+| Stage | American Express's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | American Express total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who American Express Is Not For
+
+| Type | Characteristics | Why American Express Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | American Express's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | American Express's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | American Express's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+American Express's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+American Express's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

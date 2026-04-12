@@ -1,151 +1,84 @@
-# GE Aerospace — 오디언스 맵
+# 02. Audience Map — GE Aerospace (GE)
 
-> **섹터**: Industrials — Aerospace | **분석 기준일**: 2026-04-12
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-```
-┌─────────────────────────────────────────────────────┐
-│              GE Aerospace 오디언스 구조               │
-├──────────────┬──────────────┬───────────────────────┤
-│  1차 오디언스 │  2차 오디언스 │      3차 오디언스      │
-│  (구매 결정) │  (영향력)    │    (생태계/여론)       │
-├──────────────┼──────────────┼───────────────────────┤
-│ 항공사 구매팀 │ MRO 엔지니어 │ 항공 전문 미디어        │
-│ 방산 조달청  │ 조종사 노조  │ ESG 투자자             │
-│ OEM (보잉 등)│ 항공사 CEO   │ 항공 학계·연구소        │
-│ 정부/군 당국 │ 금융 분석가  │ 미래 엔지니어 (취준)    │
-└──────────────┴──────────────┴───────────────────────┘
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 핵심 페르소나
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from GE Aerospace's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in GE Aerospace's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 상업 항공사 Fleet 전략 책임자
+## Core Personas
 
-**이름**: 박준혁 (추정 복합 페르소나)
-**직함**: VP of Fleet Strategy, Asia-Pacific Carrier
-**연령**: 48세
-**위치**: 서울 / 싱가포르
+### Persona 1 — Enterprise Decision-Maker
 
-**배경**
-- 항공 엔지니어링 학사 + MBA 보유 (추정)
-- 항공사 근무 20년, 최근 5년간 Fleet 전략 총괄
-- 보잉·에어버스 양쪽 플릿 운영 경험
-- 연간 출장 40회 이상, LinkedIn 활동 활발
-
-**핵심 고민 (Pain Points)**
-- 연료비 상승으로 엔진 효율 1%도 돈으로 환산
-- 부품 수급 지연으로 AOG(Aircraft on Ground) 리스크
-- 탄소 중립 목표 2050 달성 로드맵 압박
-- 새 엔진 도입 시 정비 인력 재훈련 비용
-
-**구매 트리거**
-- LEAP vs CFM56 TCO 비교 데이터 확보 시
-- 경쟁 항공사의 연료 절감 실적 공개 시
-- GE의 OnPoint 서비스 계약 조건 협상 시
-
-**선호 채널**
-- Airfinance Journal, Aviation Week 리포트
-- GE Aerospace 직접 계정 관리(AM) 미팅
-- MRO Americas / MRO Asia 컨퍼런스
-
-**메시지 프레임**
-> "귀사의 Fleet 운영 비용을 X% 절감하고 운항 가동률을 99.X%로 유지하는 검증된 솔루션"
+- **Age / Occupation**: 42, VP-level or director in a GE Aerospace customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **GE Aerospace selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 미 공군 항공기체계 조달 담당관
+### Persona 2 — Technical Specialist / End User
 
-**이름**: Col. James Whitfield (추정 복합 페르소나)
-**직함**: Program Manager, Air Force Life Cycle Management Center
-**연령**: 42세
-**위치**: Wright-Patterson AFB, Ohio
-
-**배경**
-- 공군 아카데미 졸업, 전투기 조종사 출신 (추정)
-- 방산 조달 PMP 자격, 예산 집행 권한 보유
-- F110·T700 엔진 운용 경험
-- NDAA(국방수권법) 준수 최우선 고려
-
-**핵심 고민 (Pain Points)**
-- 가용성(Availability Rate) KPI 달성 압박
-- 중국산 부품 배제 의무화(섹션 889) 규정 리스크
-- 장기 MRO 계약의 비용 초과(Cost Overrun) 통제
-- 소량 생산 특수 엔진의 부품 단종 리스크
-
-**구매 트리거**
-- 예산 회계연도(FY) 마감 전 계약 집행 필요 시
-- GAO 감사 지적 이후 공급망 검증 요구 시
-- 신형 전투기 엔진(XA100 등) 프로그램 진행 시
-
-**선호 채널**
-- SAM.gov, DIBBS 조달 공고
-- Jane's Defence, Defense News
-- 국방성 주관 Industry Day 브리핑
-
-**메시지 프레임**
-> "임무 준비 태세(Mission Readiness)를 극대화하는 인증된 추진 시스템과 전주기 지원"
+- **Age / Occupation**: 35, technical professional who interacts with GE Aerospace's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **GE Aerospace selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 항공기 MRO 센터 수석 엔지니어
+### Persona 3 — Financial Stakeholder / Investor
 
-**이름**: 이수진 (추정 복합 페르소나)
-**직함**: Chief Engineer, Engine MRO, Tier-1 MRO Provider
-**연령**: 38세
-**위치**: 인천 / 싱가포르 창이
-
-**배경**
-- 기계공학 석사, GE 엔진 타입 레이팅 다수 보유 (추정)
-- MRO 경력 12년, 연간 500+ 엔진 작업 감독
-- GE TrueChoice 파트 사용 경험
-- 디지털 정비 매뉴얼(DMC) 도입 추진 중
-
-**핵심 고민 (Pain Points)**
-- OEM 부품 납기 지연으로 TAT(Turn-Around Time) 초과
-- PMA(Parts Manufacturer Approval) 부품 사용 압박 vs. 보증 리스크
-- 기술 데이터(ADs, SBs) 최신 유지 부담
-- 신입 기술자 교육 비용 및 자격 취득 소요 시간
-
-**구매 트리거**
-- 신규 엔진 타입(GE9X 등) 도입 항공사와 계약 체결 시
-- GE MyEngines 디지털 플랫폼 업데이트 출시 시
-- 부품 재고 부족으로 인한 긴급 조달 필요 시
-
-**선호 채널**
-- GE Aerospace TechConnect 포털
-- Aviation Maintenance Magazine
-- IATA MCTF 기술 위원회
-
-**메시지 프레임**
-> "현장 엔지니어의 언어로 말하는 기술 파트너 — 정확한 부품, 즉시 접근 가능한 데이터, 24/7 AOG 지원"
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate GE Aerospace's financial performance, competitive positioning, and risk factors for investment decisions.
+- **GE Aerospace selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 3. 오디언스 매트릭스
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 구매 영향력 | 콘텐츠 니즈 | 주요 채널 | 메시지 우선순위 |
-|----------|------------|------------|----------|---------------|
-| 항공사 Fleet 전략팀 | 매우 높음 | TCO 분석, 연료 절감 데이터 | 다이렉트 세일즈, 컨퍼런스 | 비용 절감 + 운항 가동률 |
-| 방산 조달청 | 매우 높음 | 규격서, 인증 문서, 성능 KPI | 정부 조달 채널, Industry Day | 임무 준비 태세 + 규정 준수 |
-| MRO 엔지니어 | 높음 | 기술 매뉴얼, 부품 재고 데이터 | 기술 포털, 트레이닝 센터 | 납기 신뢰성 + 기술 지원 |
-| 항공사 CFO/CEO | 높음 | 재무 ROI, ESG 리포트 | IR 자료, 컨퍼런스 키노트 | 투자 수익 + 지속가능성 |
-| 금융 분석가 | 중간 | 실적 발표, 수주 잔고 데이터 | Earnings Call, IR 사이트 | 성장성 + 마진 개선 |
-| 항공 전문 미디어 | 중간 | 기술 혁신 스토리, 수치 | 보도자료, 미디어 브리핑 | 기술 리더십 |
-| 취업 준비 엔지니어 | 낮음~중간 | 커리어, 기술 문화 | LinkedIn, 대학 캠퍼스 | 혁신 문화 + 전문 성장 |
+| Stage | GE Aerospace's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | GE Aerospace total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어 (3개)
+## Anti-Persona — Who GE Aerospace Is Not For
 
-| # | 전략 | 실행 방법 | 적용 맥락 |
-|---|------|-----------|-----------|
-| 1 | **구매자 vs. 사용자 분리 메시지** | Fleet 전략팀(비용 ROI)과 MRO 엔지니어(기술 정밀도)에게 동일 제품을 다른 언어로 설명, 두 오디언스가 서로의 자료를 보더라도 일관성 유지 | 제품 런칭 캠페인, 세일즈 덱 |
-| 2 | **방산 vs. 민항 톤 분기** | 방산 콘텐츠는 "임무(Mission)" 언어, 민항 콘텐츠는 "효율(Efficiency)" 언어로 완전 분기하되 GE Aerospace 브랜드 일관성 유지 | 웹사이트 섹션, 보도자료 |
-| 3 | **엔지니어를 앰배서더로 전환** | MRO 엔지니어의 현장 사례를 기술 블로그·영상으로 제작, B2B 구매 신뢰를 또래 전문가(Peer Expert) 증언으로 강화 | 콘텐츠 마케팅, LinkedIn |
+| Type | Characteristics | Why GE Aerospace Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | GE Aerospace's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | GE Aerospace's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | GE Aerospace's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+GE Aerospace's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+GE Aerospace's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

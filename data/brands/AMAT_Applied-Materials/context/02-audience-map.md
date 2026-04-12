@@ -1,103 +1,84 @@
-# 02 오디언스 맵 — Applied Materials (AMAT)
+# 02. Audience Map — Applied Materials (AMAT)
 
-> 섹터: 정보기술 / 반도체 장비
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-Primary (직접 구매 의사결정)
-├── 파운드리 / IDM 기술 임원 (CTO, VP of Process Engineering)
-├── 장비 조달 담당 (Procurement Director)
-└── 공정 개발 엔지니어 (Process Integration Engineer)
-
-Secondary (영향력 행사자)
-├── 반도체 설계사 (Fabless) — 팹 선택 시 장비 스펙 요구
-├── 투자자 / 애널리스트 — 기술 로드맵 평가
-└── 정부 / 규제 기관 — 수출 규제, 보조금 정책
-
-Tertiary (인식 형성자)
-├── 반도체 업계 미디어 (EE Times, SemiEngineering)
-├── 학술 연구자 (재료과학, 전기공학)
-└── 신입 엔지니어 / 학생 (인재 파이프라인)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 프로파일
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 김태현 — 파운드리 공정 개발 수석 엔지니어
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직급 | 42세 / Principal Process Engineer |
-| 소속 | 삼성전자 DS부문 (파운드리) |
-| 학력 | 카이스트 재료공학 박사 |
-| 근무지 | 화성 캠퍼스 |
-| 연봉 (추정) | 1억 5천만원 이상 |
-| KPI | 수율(Yield) 향상, 결함 밀도(Defect Density) 감소, 공정 안정화 기간 단축 |
-| 핵심 고통점 | GAA 트랜지스터 전환 중 새 공정 장비의 통합 리스크, 협력사 기술 지원 속도 부족 |
-| 정보 소비 채널 | IEEE Spectrum, Applied Physics Letters, IEDM 학회, 사내 기술 포럼 |
-| AMAT 접점 | ALD/CVD 장비 평가, 공동 프로세스 개발 세션, FAE(Field Application Engineer) 협업 |
-| 브랜드 기대 | "공정 레시피 수준까지 함께 최적화해주는 진정한 기술 파트너" |
-| 구매 장벽 | 신장비 도입 시 기존 공정 라인 중단 리스크, 검증 기간 요구 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductor materials & equipment and adjacent industries. (T4_INFERRED from Applied Materials's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Applied Materials's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: Sarah Chen — 글로벌 파운드리 장비 조달 디렉터
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직급 | 38세 / Director of Equipment Procurement |
-| 소속 | TSMC 북미 법인 |
-| 학력 | MIT 경영공학 석사 |
-| 근무지 | 피닉스 (Arizona Fab) |
-| 연봉 (추정) | $180,000~$220,000 USD |
-| KPI | TCO(총소유비용) 절감, 납기 준수율, 공급망 다변화 지수 |
-| 핵심 고통점 | 지정학적 공급망 리스크 속 단일 공급사 의존도, 수출 규제로 인한 대체 부품 확보 난항 |
-| 정보 소비 채널 | SEMI 보고서, Gartner 공급망 연구, LinkedIn 업계 네트워크, Wall Street Journal |
-| AMAT 접점 | 연간 공급 계약 협상, AGS(서비스 계약), 스페어 파츠 관리 |
-| 브랜드 기대 | "예측 가능한 납기, 투명한 가격, 글로벌 서비스 네트워크" |
-| 구매 장벽 | 단일 공급사 리스크 우려, 대체 공급사(Lam, TEL) 비교 압력 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Applied Materials customer organization
+- **Core pain**: Needs reliable semiconductor materials & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Applied Materials selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 박준서 — 반도체 장비 섹터 바이사이드 애널리스트
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직급 | 34세 / Senior Equity Analyst |
-| 소속 | 미래에셋증권 리서치센터 |
-| 학력 | 연세대 전자공학 학사, CFA Level III |
-| 근무지 | 서울 여의도 |
-| 연봉 (추정) | 1억 2천만원 이상 |
-| KPI | 목표주가 적중률, 리포트 인용 횟수, 기관 투자자 피드백 점수 |
-| 핵심 고통점 | AMAT의 중국 매출 비중 변화 모니터링, 수출 규제 영향 정량화의 어려움 |
-| 정보 소비 채널 | AMAT IR 자료, SEC 파일링, SEMI 통계, 경쟁사 어닝콜 |
-| AMAT 접점 | 분기 어닝콜, IR 데이, 기술 컨퍼런스 발표 |
-| 브랜드 기대 | "명확한 시장 점유율 데이터, 기술 로드맵의 재무적 영향 가시화" |
-| 구매 장벽 | (해당 없음 — 주식 투자 의사결정자) |
+- **Age / Occupation**: 35, technical professional who interacts with Applied Materials's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Applied Materials selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스별 메시지 우선순위 매핑
+### Persona 3 — Financial Stakeholder / Investor
 
-| 오디언스 | 1순위 메시지 | 2순위 메시지 | 3순위 메시지 |
-|----------|------------|------------|------------|
-| 공정 엔지니어 | 원자 수준 정밀도 | 공동 공정 개발 지원 | 장비 업타임 보장 |
-| 조달 디렉터 | TCO 및 납기 신뢰성 | 글로벌 서비스 네트워크 | 공급망 리스크 분산 |
-| 투자자 / 애널리스트 | 시장 점유율 및 성장 전망 | 기술 모트(Moat) 강도 | AI·첨단 패키징 수혜 |
-| 정부 / 규제 기관 | 국내 제조 투자 기여 | 친환경 제조 이니셔티브 | 공급망 자립 기여 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Applied Materials's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Applied Materials selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 4. 고객 여정 단계별 접점
+## Purchase Journey — AARRR Framework
 
-| 단계 | 고객 행동 | AMAT 접점 | 핵심 KPI |
-|------|----------|----------|---------|
-| 인식 (Awareness) | 학회·컨퍼런스 참관, 업계 미디어 탐색 | IEDM/SEMICON 부스, 백서 배포 | 브랜드 인지도, 백서 다운로드 수 |
-| 검토 (Consideration) | 기술 스펙 비교, FAE 미팅 요청 | 기술 세미나, Demo Fab 방문 | 데모 요청 건수, FAE 미팅 전환율 |
-| 구매 (Purchase) | 계약 협상, 납기 확인 | 영업팀, 조달 포털 | 계약 체결 기간, 계약 단가 |
-| 사용 (Retention) | 장비 운영, 유지보수 요청 | AGS 서비스팀, 원격 모니터링 | 장비 업타임, 서비스 갱신율 |
-| 옹호 (Advocacy) | 레퍼런스 제공, 공동 논문 발표 | Co-innovation 프로그램 | 레퍼런스 사례 수, 공동 특허 건수 |
+| Stage | Applied Materials's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Applied Materials total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Applied Materials Is Not For
+
+| Type | Characteristics | Why Applied Materials Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Applied Materials's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Applied Materials's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Applied Materials's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Applied Materials's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Applied Materials's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

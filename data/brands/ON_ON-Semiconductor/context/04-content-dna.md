@@ -1,124 +1,123 @@
-# 04 콘텐츠 DNA — ON Semiconductor (onsemi)
+# 04. Content DNA — ON Semiconductor (ON)
 
-## 콘텐츠 철학
-
-> onsemi의 콘텐츠는 "기술 신뢰"를 화폐로 삼는다. 모든 콘텐츠 단위는 설계 엔지니어가 다음 설계 결정을 내리는 데 실질적으로 기여해야 한다. 감성적 스토리텔링보다 데이터·스펙·증명이 우선이며, 콘텐츠의 성공 지표는 조회수가 아닌 FAE 문의 전환율과 샘플 요청 건수다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 필러 구조
+## Content Pillars
 
-```
-콘텐츠 필러 1: 기술 교육 (Technical Education)         ~40%
-├── 애플리케이션 노트 (App Note)
-├── 설계 가이드 (Design Guide)
-└── SPICE 모델·시뮬레이션 파일
+ON Semiconductor's content strategy reflects its positioning in the Semiconductors segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-콘텐츠 필러 2: 솔루션 스토리텔링 (Solution Narrative)  ~30%
-├── 고객 성공 사례 (Case Study)
-├── 수직 시장 백서 (Vertical Whitepaper)
-└── 시스템 레벨 블록 다이어그램
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "ON Semiconductor understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for semiconductors requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with ON Semiconductor." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-콘텐츠 필러 3: 사고 리더십 (Thought Leadership)        ~20%
-├── 산업 트렌드 리포트
-├── 컨퍼런스 발표자료 (PCIM, APEC, CES)
-└── 임원 기고문
-
-콘텐츠 필러 4: 제품 런칭·업데이트 (Product News)       ~10%
-├── 신제품 보도자료
-├── 인증 취득 공지
-└── 공급망 업데이트
-```
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 메시지 계층 구조
+## Hook Patterns
 
-### L1 — 마스터 메시지 (Master Message)
-"지능형 전력과 감지 기술로 지속 가능한 미래를 구동한다." (추정)
+### Hook 1 — Industry Challenge Lead
 
-### L2 — 수직 시장별 메시지
+Opens with a recognizable industry challenge or pain point before presenting ON Semiconductor's perspective.
 
-| 수직 시장 | 핵심 메시지 |
-|---------|----------|
-| 전기차 (EV) | "더 긴 주행거리, 더 빠른 충전, 더 안전한 시스템 — SiC로 가능합니다." (추정) |
-| 태양광·에너지 저장 | "태양에서 그리드까지, 손실 없는 에너지 전달." (추정) |
-| 산업 자동화 | "산업 현장의 모든 모터가 더 적은 에너지로 더 오래 동작합니다." (추정) |
-| 데이터센터 | "AI 시대의 전력 밀도 문제를 해결하는 유일한 답." (추정) |
-| 의료·항공우주 | "인명이 걸린 곳에서는 신뢰성이 모든 것입니다." (추정) |
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### L3 — 제품 레벨 메시지 (예시)
-"EliteSiC™ 650V MOSFET: 업계 최저 RDS(on)×Qg 성능으로 시스템 효율 0.5%p 향상." (추정)
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 콘텐츠 포맷 매트릭스
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| 포맷 | 목적 | 최적 채널 | 평균 길이 |
-|------|------|---------|---------|
-| 애플리케이션 노트 | 설계 교육·신뢰 구축 | 공식 웹사이트, 기술 포털 | 8~20페이지 |
-| 기술 백서 | 사고 리더십·리드 젠 | 웹 게이트, 이메일 | 4~8페이지 |
-| 제품 비교 가이드 | 구매 전환 촉진 | 웹사이트 제품 페이지 | 2~4페이지 |
-| 웨비나 | FAE 리드 젠, 교육 | onsemi.com, LinkedIn | 45~60분 |
-| 유튜브 기술 영상 | 인지도·SEO | YouTube, 웹사이트 임베드 | 5~15분 |
-| 인포그래픽 | SNS 공유·요약 | LinkedIn, Twitter/X | 단일 이미지 |
-| 케이스 스터디 | 구매 확신 강화 | 영업팀 덱, 웹사이트 | 1~2페이지 |
-| 이메일 뉴스레터 | 관계 유지, 재구매 | 이메일 | 300~500자 |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 톤 & 보이스 가이드라인
+## CTA Patterns
 
-### 해야 할 것 (Do)
-- 수치와 단위를 명확히 표기한다 (예: RDS(on) = 18mΩ typ.)
-- 수직 시장별 고객 언어를 사용한다 (EV 엔지니어 ≠ 태양광 엔지니어)
-- 결론을 먼저 제시하고 근거를 뒤에 배치한다 (Inverted Pyramid)
-- 도전 과제 → 해결책 → 검증 데이터 구조를 유지한다
-- 공인 인증과 표준 번호를 명기한다 (AEC-Q100, IEC 62368-1)
-
-### 하지 말아야 할 것 (Don't)
-- 경쟁사를 직접 언급하거나 폄하하지 않는다
-- "최고", "유일한" 등 입증 불가 최상급 표현을 남발하지 않는다
-- B2C 감성 어조(귀여운, 트렌디한)를 사용하지 않는다
-- 기술 스펙 없이 추상적 혜택만 나열하지 않는다
-- 긴급성을 인위적으로 조성하는 카운트다운 마케팅을 사용하지 않는다
+| CTA Type | ON Semiconductor Pattern | What ON Semiconductor Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 3개 전략 훔치기
+## Tone & Mood Guide
 
-### Layer 1: 기술 교육 콘텐츠
+### Situation 1 — Product or Service Announcement
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **손실 계산기 인터랙티브 툴** | 입력값(스위칭 주파수, 전류, 온도)에 따라 경쟁사 대비 손실·효율 차이를 실시간 계산하는 웹 툴 제공 → FAE 문의 트리거 |
-| 2 | **SPICE 모델 허브** | 모든 제품 SPICE 모델을 단일 포털에서 다운로드·버전 관리, LTspice·Cadence 형식 동시 제공 → 설계 편의성 극대화 |
-| 3 | **앱 노트 시리즈화** | EV OBC, 태양광 MPPT, 산업 드라이브 각 토폴로지별 시리즈 앱 노트 제작, 시리즈 내 교차 링크로 체류 시간 증대 |
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-### Layer 2: 솔루션 스토리텔링
+### Situation 2 — Thought Leadership / Industry Commentary
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **시스템 블록 다이어그램 라이브러리** | 인터랙티브 블록 다이어그램에서 각 블록 클릭 시 추천 onsemi 소자와 레퍼런스 디자인 연결 → 시스템 레벨 솔루션 인식 구축 |
-| 2 | **고객 성공 지표 정량화** | 케이스 스터디에 "효율 X%p 향상", "설계 기간 Y주 단축" 등 구체 수치 의무 포함 → 구매팀 ROI 산출 근거 제공 |
-| 3 | **수직 시장 랜딩 허브** | EV·태양광·산업 등 수직 시장별 전용 랜딩 페이지 구축, 각 페이지는 페르소나 맞춤 콘텐츠 큐레이션 → 이탈률 감소 |
+**Mood**: Authoritative insight — ON Semiconductor as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### Layer 3: 사고 리더십
+### Situation 3 — Crisis or Negative News Response
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **연간 전력 반도체 시장 전망 리포트** | 독자 데이터 기반 시장 예측 리포트 발간 → 미디어 인용·백링크·리드 젠 동시 달성 |
-| 2 | **임원 LinkedIn 콘텐츠 프로그램** | CTO·사업부장의 LinkedIn 주 1회 기술 인사이트 게시 → 브랜드 인지도와 채용 브랜딩 동시 강화 |
-| 3 | **표준화 기구 참여 가시화** | IEC·SAE 표준 위원회 참여 내용을 콘텐츠화 → "표준을 만드는 기업" 포지셔닝 구축 |
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## SEO 핵심 키워드 클러스터 (추정)
+## Content Prohibitions
 
-| 클러스터 | 핵심 키워드 | 의도 |
-|---------|-----------|------|
-| SiC 기술 | SiC MOSFET, Silicon Carbide power, EliteSiC | 정보 탐색 |
-| EV 파워트레인 | EV inverter MOSFET, traction inverter SiC | 설계 리서치 |
-| 충전 인프라 | EV charger power module, EVSE SiC | 설계 리서치 |
-| 태양광 | solar inverter SiC, PV microinverter efficiency | 설계 리서치 |
-| 제품 비교 | SiC MOSFET comparison, onsemi vs Infineon SiC | 구매 고려 |
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #ON | Financial and investor community | Moderate (estimated) |
+| #ONSemiconductor | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+ON Semiconductor's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in semiconductors face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+ON Semiconductor's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

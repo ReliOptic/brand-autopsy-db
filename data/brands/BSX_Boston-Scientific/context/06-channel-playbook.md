@@ -1,134 +1,141 @@
-# 06 채널 플레이북 — Boston Scientific (BSX)
+# 06. Channel Playbook — Boston Scientific (BSX)
 
-## 채널 전략 원칙 (추정)
-
-BSX의 채널 전략은 **HCP 전문 채널 우선** 구조를 유지한다.  
-소비자 채널(소셜미디어)은 환자 인식 제고와 브랜드 신뢰도 보조 역할에 집중하며,  
-규제 환경 제약으로 인해 직접적인 소비자 대상 제품 광고는 제한적으로 운영된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 우선순위 맵
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+Boston Scientific's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-[Tier 1 - 핵심 채널]
-├── 의학 학회 & 컨퍼런스 (TCT, AHA, ACC, EuroPCR 등)
-├── HCP 디지털 플랫폼 (bostonscientific.com 메디컬 섹션, UpToDate, Doximity)
-└── 영업대표(MR) 직접 디테일링
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-[Tier 2 - 증폭 채널]
-├── 의학 저널 광고 & 스폰서십 (JACC, NEJM, JURO 등)
-├── LinkedIn (HCP·기업 대상)
-└── 웨비나 & 온라인 CME(지속의학교육)
+### Route B — Thought Leadership Pipeline
 
-[Tier 3 - 보조 채널]
-├── YouTube (시술 영상, 환자 스토리)
-├── 환자 커뮤니티 & 지원 그룹 파트너십
-└── PR & 미디어 (뉴스 발표, 임상 결과 보도)
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널별 상세 플레이북
+## 4. Channel-Specific Prohibitions
 
-### 1. 의학 학회 & 컨퍼런스
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**목적:** 신제품 론칭, 임상 데이터 발표, KOL 관계 구축  
-**주요 학회 (공식):** TCT, AHA Scientific Sessions, ACC, EuroPCR, AUA (비뇨기)  
-**콘텐츠 형식:** 라이브 시연, 런천 심포지엄, 포스터 발표, 핸즈온 랩  
-**KPI (추정):** 부스 방문자 수, 심포지엄 참석자 수, 리드 캡처 수
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**Steal Sheet 전술:**
-1. "라이브 케이스 중계" — 실제 시술을 학회장 대형 스크린으로 생중계, 몰입도 최대화
-2. "10분 데이터 스냅샷" — 최신 임상 결과를 10분 안에 소화할 수 있는 압축 발표 세션
-3. "핸즈온 시뮬레이터 부스" — 실제 디바이스 조작 경험 제공, 현장 리드 전환율 향상
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
----
-
-### 2. bostonscientific.com (HCP 디지털 허브)
-
-**목적:** 제품 정보 제공, 임상 데이터 아카이브, 교육 자원 집결  
-**주요 섹션 (공식):** Products & Therapies, Clinical Evidence, Education & Training, Resources  
-**콘텐츠 형식:** 제품 페이지, 임상 데이터 요약, 시술 영상, 다운로드 자료  
-**KPI (추정):** 제품 페이지 세션 수, 임상 자료 다운로드 수, 교육 영상 시청 완료율
-
-**Steal Sheet 전술:**
-1. "임상 데이터 필터 검색" — 적응증·기술·연구 유형별로 필터링 가능한 임상 데이터 라이브러리
-2. "게이티드 리소스 허브" — 이메일 등록 후 프리미엄 백서·비디오 접근, HCP 리드 데이터 확보
-3. "제품 비교 도구" — BSX 제품 간, 또는 세대 간 스펙 비교 인터랙티브 표
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 3. 영업대표(MR) 직접 디테일링
+## 5. Crisis Response Protocol
 
-**목적:** 개원의·병원 의사 대상 1:1 제품 교육 및 관계 구축  
-**콘텐츠 형식:** 태블릿 기반 인터랙티브 피칭 덱, 제품 샘플 키트, 임상 요약 카드  
-**KPI (추정):** 방문 완료 건수, 제품 평가판(trial) 요청 수, 수주 전환율
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-**Steal Sheet 전술:**
-1. "3분 임상 요약 카드" — 의사의 시간을 존중하는 핵심 데이터 3포인트 카드 형식
-2. "경쟁사 대비 즉문즉답 스크립트" — 배틀카드를 MR이 현장에서 바로 사용할 수 있는 구어체 버전
-3. "시술 후 팔로우업 루틴" — 신규 도입 후 30일·90일 체크인으로 이탈 방지 및 충성도 구축
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
----
+### Scenario 2 — Regulatory or Legal Action
 
-### 4. LinkedIn
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-**목적:** 기업 브랜딩, HCP·병원 구매자 대상 사고 리더십, 채용 브랜딩  
-**계정 유형:** 기업 페이지 + 제품 쇼케이스 페이지  
-**콘텐츠 믹스 (추정):**
+### Scenario 3 — Reputation / Social Media Issue
 
-| 콘텐츠 유형 | 비중 |
-|------------|------|
-| 임상 연구 결과 & 학회 하이라이트 | 30% |
-| 신제품·파이프라인 업데이트 | 25% |
-| 환자 스토리 & 임팩트 | 20% |
-| 기업 문화·CSR·ESG | 15% |
-| 채용 & 직원 스토리 | 10% |
-
-**Steal Sheet 전술:**
-1. "데이터 캐러셀 포스트" — 학회 발표 핵심 데이터를 슬라이드 형식으로 시각화, 저장 유도
-2. "BSX 전문의 인터뷰 시리즈" — 담당 의사 직접 출연 영상으로 제품 신뢰도 증폭
-3. "파이프라인 티저 콘텐츠" — 승인 전 제품의 기술 원리 설명으로 기대감 선점
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 5. YouTube
+## 6. Steal Sheet — 3 Transferable Principles
 
-**목적:** 시술 교육 영상, 환자 스토리, 기업 메시지  
-**채널 전략 (추정):** HCP용 전문 채널과 일반 대중용 채널 분리 운영  
-**콘텐츠 형식:** 시술 가이드(5~15분), 환자 증언(2~3분), 제품 소개(1~2분), 학회 세션 녹화
+**1. Align channel formality with audience expectations.**
+Boston Scientific's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-**Steal Sheet 전술:**
-1. "시술 단계별 플레이리스트" — 기기별·적응증별로 구조화된 교육 영상 시리즈
-2. "자막 다국어 제공" — 아시아·남미 시장 확장을 위한 현지어 자막 (한국어 포함)
-3. "쇼츠(Shorts) 포맷 요약" — 긴 시술 영상의 핵심을 60초로 압축한 Shorts로 발견성 향상
+**2. Use financial communications as a credibility asset.**
+Boston Scientific's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
----
-
-## 채널 통합 캘린더 원칙 (추정)
-
-| 이벤트 | 사전 (4주 전) | 당일·당주 | 사후 (2주 내) |
-|--------|-------------|----------|--------------|
-| 주요 학회 | LinkedIn 티저, 웨비나 등록 유도 | 라이브 포스팅, 부스 영상 | 임상 요약 배포, 리드 너처링 |
-| 신제품 론칭 | 파이프라인 티저 | 프레스 릴리즈, YouTube 제품 영상 | HCP 디테일링 자료 배포 |
-| 임상 데이터 발표 | 학회 발표 예고 | LinkedIn 데이터 캐러셀 | 백서 다운로드 게이팅 |
-
----
-
-## Steal Sheet — 채널 레이어별 핵심 전술 3가지
-
-### Layer 1: HCP 접점 극대화
-1. **학회 사전 예약 시스템** — 학회 4주 전 "1:1 미팅 예약" 링크를 LinkedIn·이메일로 발송, 현장 미팅 밀도 향상
-2. **디지털 디테일링 자동화** — MR 방문 불가 지역의 의사 대상 태블릿 디테일링 앱 기반 원격 발표 자동화
-3. **CME 크레딧 연계 웨비나** — 지속의학교육(CME) 인증 취득 가능 웨비나로 HCP 참가 동기 강화
-
-### Layer 2: 환자 인식 확산
-1. **병원 내 디지털 사이니지 콘텐츠 키트** — 병원 대기실 TV용 짧은 환자 스토리 영상 제공 (병원이 직접 틀어줌)
-2. **환자 지원 단체 협력 콘텐츠** — 심장재단·비뇨기 환자 협회와 공동 교육 자료 제작, 제3자 신뢰도 활용
-3. **소셜미디어 해시태그 캠페인** — "#BackToLife" "#AdvancingScienceForLife" 등 환자 회복 스토리 UGC 유도
-
-### Layer 3: 브랜드 권위 구축
-1. **연간 글로벌 임상 현황 리포트 발간** — BSX의 연구 파이프라인과 주요 임상 결과를 집대성한 리포트, 언론·학계 배포
-2. **LinkedIn 뉴스레터 "BSX Science Digest"** — 월 1회 임상 연구 큐레이션 뉴스레터, HCP 팔로워 대상 구독 전환
-3. **학술지 게재 지원 프로그램** — BSX 기기를 사용한 의사의 연구 발표를 적극 지원, 논문 인용 통한 간접 브랜드 노출
+**3. Build a cross-channel sequence, not parallel silos.**
+Boston Scientific's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

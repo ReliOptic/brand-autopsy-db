@@ -1,135 +1,84 @@
-# GIS 오디언스 맵 — General Mills
+# 02. Audience Map — General Mills (GIS)
 
-## 메타데이터
-- **브랜드**: General Mills (GIS)
-- **분석 기준일**: 2026-04-12
-- **데이터 출처**: 공개 시장조사, Nielsen/IRI 인용 보고서, 브랜드 공식 커뮤니케이션 (공식)/(추정) 표기 적용
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 타깃 오디언스 계층 구조
+## Ideal Customer Profile (ICP)
 
-```
-Primary (핵심)          → 가족 단위 주 구매자 (25–44세 여성)
-Secondary (확장)        → 건강의식 밀레니얼 / Z세대 성인
-Tertiary (기회)         → 프리미엄 디저트 소비자 (Haagen-Dazs), 아웃도어 액티브 (Nature Valley)
-Emerging (신흥)         → Gen Alpha 부모 (클린레이블 중시), 반려동물 보호자 (Blue Buffalo)
-```
-
----
-
-## 페르소나
-
-### 페르소나 1 — "실용형 엄마" 지수연 (38세)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 중견기업 마케터, 파트타임 재택근무 |
-| 거주지 | 수도권 신도시 아파트 (4인 가족) |
-| 소득 | 가구 연소득 약 8,000만 원 |
-| 교육 | 대졸 |
-| 쇼핑 채널 | 쿠팡 정기배송, 이마트 주 1회 방문 |
-| 핵심 니즈 | 아이들이 좋아하고, 영양도 챙길 수 있는 아침 식사 |
-| 페인포인트 | 출근 전 시간 부족, 성분표 읽기 번거로움 |
-| GIS 접점 | Cheerios (아이 아침식사), Nature Valley (간식) |
-| 미디어 습관 | 인스타그램 육아 계정, 유튜브 쿠킹 채널, 네이버 카페 |
-| 구매 트리거 | "통곡물" 표시, 아이 모델 광고, 지인 추천 |
-| 브랜드 충성도 | 중간 — 세일 시 경쟁사 전환 가능 (추정) |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in packaged foods & meats. B2C: End consumers of consumer staples products and services. (T4_INFERRED from General Mills's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in General Mills's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "건강의식 싱글" 박민준 (29세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | IT 스타트업 개발자 |
-| 거주지 | 서울 마포구 원룸 |
-| 소득 | 연 5,200만 원 |
-| 교육 | 대졸 |
-| 쇼핑 채널 | 쿠팡·마켓컬리 앱, 편의점 (긴급 구매) |
-| 핵심 니즈 | 빠른 아침 루틴 + 운동 전후 에너지 스낵 |
-| 페인포인트 | 요리 시간 없음, 과도한 당류 섭취 걱정 |
-| GIS 접점 | Nature Valley Crunchy (하이킹·러닝 전), 단백질 강화 시리얼 |
-| 미디어 습관 | 유튜브 피트니스 채널, 레딧·디씨 커뮤니티, 팟캐스트 |
-| 구매 트리거 | 칼로리·단백질 수치, 인플루언서 언박싱, 성분 단순함 |
-| 브랜드 충성도 | 낮음 — 신규 브랜드 시도 빈번 (추정) |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a General Mills customer organization
+- **Core pain**: Needs reliable packaged foods & meats solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **General Mills selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "프리미엄 인달저" 김서영 (45세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 중소기업 대표 / 프리랜서 컨설턴트 |
-| 거주지 | 서울 강남구 아파트 (2인 가구, 자녀 독립) |
-| 소득 | 가구 연소득 1.5억 원 이상 |
-| 교육 | 대학원졸 |
-| 쇼핑 채널 | 백화점 식품관, SSG닷컴 프리미엄관, 면세점 (해외여행 시) |
-| 핵심 니즈 | 일상의 소소한 사치, 검증된 품질의 아이스크림 |
-| 페인포인트 | 모조품·품질 저하 우려, 포장 불량 |
-| GIS 접점 | Haagen-Dazs (저녁 디저트 의식, 선물용) |
-| 미디어 습관 | 인스타그램 라이프스타일 계정, 유튜브 뷰티·요리, 종편 |
-| 구매 트리거 | 한정판 플레이버, 패키지 디자인, 카페·레스토랑 협업 |
-| 브랜드 충성도 | 높음 — Haagen-Dazs 브랜드 자체에 대한 애착 강함 (추정) |
+- **Age / Occupation**: 35, technical professional who interacts with General Mills's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **General Mills selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스 — 브랜드별 접점
+### Persona 3 — Consumer / Retail Customer
 
-| 브랜드 | 페르소나 1 (지수연) | 페르소나 2 (민준) | 페르소나 3 (서영) | 기타 오디언스 |
-|--------|------------------|-----------------|-----------------|-------------|
-| Cheerios | ★★★★★ 핵심 | ★★☆☆☆ 낮음 | ★☆☆☆☆ 거의 없음 | 유아·어린이 직접 타깃 |
-| Nature Valley | ★★★☆☆ 보조 | ★★★★☆ 핵심 | ★★☆☆☆ 낮음 | 하이킹·캠핑 커뮤니티 |
-| Haagen-Dazs | ★★★☆☆ 특별 행사 | ★★★☆☆ 간헐적 | ★★★★★ 핵심 | 커플·기념일 구매자 |
-| Betty Crocker | ★★★★☆ 높음 | ★★☆☆☆ 낮음 | ★★★☆☆ 중간 | 홈베이킹 애호가 |
-| Annie's | ★★★★☆ 높음 | ★★★☆☆ 중간 | ★★☆☆☆ 낮음 | 오가닉·클린 레이블 니치 |
+- **Age / Occupation**: 38, consumer who interacts with General Mills's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **General Mills selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 심리통계 세분화 (Psychographic Segments)
+## Purchase Journey — AARRR Framework
 
-### 세그먼트 A — "안심 구매자" (추정 32%)
-- 성분표를 꼼꼼히 읽음
-- 브랜드 히스토리·인증 마크에 의존
-- 가격보다 안전성 우선
-- 주요 브랜드: Cheerios, Annie's
-
-### 세그먼트 B — "활동형 최적화자" (추정 28%)
-- 운동·다이어트 루틴 보유
-- 영양성분 수치 비교 행동
-- 소셜미디어 피트니스 콘텐츠 소비
-- 주요 브랜드: Nature Valley, 고단백 시리얼
-
-### 세그먼트 C — "향수형 가치 구매자" (추정 25%)
-- 어린 시절 브랜드 경험 기억
-- 가족 전통 식품 선호
-- 광고 감성 코드에 반응
-- 주요 브랜드: Cheerios, Betty Crocker
-
-### 세그먼트 D — "프리미엄 경험 추구자" (추정 15%)
-- 식품을 라이프스타일 표현 도구로 인식
-- 한정판·콜라보 제품 구매
-- 가격 민감도 낮음
-- 주요 브랜드: Haagen-Dazs
+| Stage | General Mills's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | General Mills total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 고객 여정 지도 (Customer Journey Map)
+## Anti-Persona — Who General Mills Is Not For
 
-| 단계 | 인지 | 고려 | 구매 | 경험 | 재구매·옹호 |
-|------|------|------|------|------|------------|
-| 트리거 | TV 광고·SNS 피드 | 성분비교·리뷰 검색 | 마트 진열·앱 장바구니 | 개봉·첫 맛 | 정기배송 등록·지인 추천 |
-| 채널 | 방송·유튜브·OOH | 네이버·쿠팡 리뷰 | 오프라인 마트·이커머스 | 제품 자체 | 인스타·카카오채널 |
-| 감성 | 호기심·향수 | 신중·비교 | 결정·합리화 | 만족 or 실망 | 기쁨·공유 욕구 |
-| KPI | 브랜드 인지도 | 고려군 진입률 | 전환율·바스켓 크기 | NPS | 재구매율·추천지수 |
+| Type | Characteristics | Why General Mills Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | General Mills's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | General Mills's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | General Mills's full value is realized through deeper operational integration and sustained partnership. |
 
 ---
 
-## 지역별 오디언스 특성 (한국 시장 기준) (추정)
+## Steal Sheet — 3 Transferable Principles
 
-| 지역 | 선호 브랜드 | 구매 채널 | 특이사항 |
-|------|-----------|----------|---------|
-| 서울 강남·서초 | Haagen-Dazs, Annie's | 백화점·SSG | 프리미엄 지향 강함 |
-| 수도권 신도시 | Cheerios, Nature Valley | 이마트·쿠팡 | 가족 구매 비중 높음 |
-| 지방 광역시 | Cheerios, Betty Crocker | 롯데마트·홈플러스 | 가성비·친숙함 우선 |
-| 1인 가구 밀집 (홍대·신촌) | Nature Valley, 간편 시리얼 | 편의점·쿠팡 | 소용량·개별 포장 선호 |
+**1. Segment your audience by risk tolerance, not just demographics.**
+General Mills's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+General Mills's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

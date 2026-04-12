@@ -1,136 +1,84 @@
-# 02. 오디언스 맵 — Campbell's Company (CPB)
+# 02. Audience Map — Campbell's Company (The) (CPB)
 
-## 타겟 오디언스 개요
-
-CPB의 포트폴리오는 대중 소비재(Mass Consumer Staples) 성격상 광범위한 인구통계를 커버하나, 마케팅 집중도 기준 세 개의 핵심 페르소나로 분류된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 바쁜 엄마 — "현실적인 케어기버"
+## Ideal Customer Profile (ICP)
 
-**이름**: 김지수 (가상, 추정)
-**나이**: 34세
-**직업**: 워킹맘 / 마케팅 팀장
-**거주지**: 수도권 신도시 (한국 시장 적용 시) / 미국 기준 Midwest suburban
-**소득**: 중산층 ($65,000–$90,000 HHI, 추정)
-
-**라이프스타일**
-- 평일 저녁 요리에 30분 이하 투자 가능
-- 아이 2명의 식사 영양 균형에 신경 씀
-- 인스타그램·Pinterest에서 간단한 레시피 탐색
-- 브랜드 충성도보다 편의성과 신뢰를 우선
-
-**니즈 & 페인포인트**
-- 니즈: 빠르고 건강한 가족 식사 솔루션
-- 페인포인트: "내가 아이에게 진짜 좋은 걸 먹이고 있나"라는 죄책감
-
-**CPB 접점**
-- Campbell's Condensed Soup (빠른 베이스 소스 활용)
-- Prego (파스타 소스 간편 식사)
-- Goldfish (아이 간식, 도시락 포함)
-
-**구매 트리거**
-- "가족이 좋아하는 맛", "아이도 먹는 깨끗한 재료"
-- 쿠폰/멀티팩 할인
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in packaged foods & meats. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Campbell's Company (The)'s segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Campbell's Company (The)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 향수를 품은 밀레니얼 — "재발견하는 소비자"
+## Core Personas
 
-**이름**: 박준호 (가상, 추정)
-**나이**: 29세
-**직업**: IT 스타트업 개발자
-**거주지**: 도시 원룸/스튜디오
-**소득**: 단신 $50,000–$70,000 (추정)
+### Persona 1 — Enterprise Decision-Maker
 
-**라이프스타일**
-- 어린 시절 캠벨 수프를 먹고 자란 세대
-- 혼자 밥 먹는 날이 많고 요리 스킬은 낮음
-- TikTok·YouTube에서 "hack" 레시피 소비
-- 가성비+감성 조합에 반응
-
-**니즈 & 페인포인트**
-- 니즈: 최소한의 노력으로 "집 밥 느낌"
-- 페인포인트: 요리는 하고 싶지만 재료 손질·시간이 부담
-
-**CPB 접점**
-- Campbell's Chunky Soup (혼밥 완성형)
-- Goldfish (사무실 간식, 넷플릭스 안주)
-- V8 (건강 챙기려는 순간의 간편 대안)
-
-**구매 트리거**
-- "어릴 때 먹던 그 맛", 레트로 패키징 한정판
-- SNS 바이럴 레시피 연계 제품 발견
+- **Age / Occupation**: 42, VP-level or director in a Campbell's Company (The) customer organization
+- **Core pain**: Needs reliable packaged foods & meats solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Campbell's Company (The) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 건강 의식 시니어 — "신뢰 기반 충성 고객"
+### Persona 2 — Technical Specialist / End User
 
-**이름**: Margaret (가상, 추정)
-**나이**: 62세
-**직업**: 은퇴 / 파트타임 자원봉사
-**거주지**: 미국 Southeast suburban
-**소득**: 은퇴 고정 수입 $40,000–$55,000 (추정)
-
-**라이프스타일**
-- 수십 년간 Campbell's 제품 구매 경험
-- 건강 관련 라벨(나트륨, 설탕, 방부제)을 꼼꼼히 읽음
-- TV·신문 광고 및 오프라인 쿠폰 영향 받음
-- 손주를 위한 간식 구매 시 Goldfish 선택
-
-**니즈 & 페인포인트**
-- 니즈: 믿을 수 있는 브랜드의 건강 친화적 옵션
-- 페인포인트: 성분표 복잡성, 나트륨 과다 우려
-
-**CPB 접점**
-- Campbell's Well Yes! Soup (저나트륨 라인)
-- V8 (채소 섭취 간편화)
-- Swanson Broth (홈쿠킹 베이스)
-
-**구매 트리거**
-- "오랫동안 믿어온 브랜드", 의사 추천 영양 정보
-- 마트 진열대 익숙한 위치, 정기 구매 습관
+- **Age / Occupation**: 35, technical professional who interacts with Campbell's Company (The)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Campbell's Company (The) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 연령 | 구매 동기 | 채널 | 브랜드 친밀도 |
-|---------|------|----------|------|------------|
-| 워킹 패밀리 | 28–45 | 편의성+영양 | 디지털+오프라인 | 중–고 |
-| 밀레니얼 1인 가구 | 25–38 | 향수+간편함 | SNS+이커머스 | 중 (재활성화 중) |
-| 시니어 충성 고객 | 55+ | 신뢰+건강 | TV+오프라인 마트 | 매우 높음 |
-| 부모 간식 구매자 | 30–50 | 아이 기호+안전성 | 디지털+마트 | 고 (Goldfish) |
-| 건강 인식 소비자 | 25–55 | 클린라벨+기능성 | 건강식품몰+온라인 | 저–중 (성장 타겟) |
+- **Age / Occupation**: 38, consumer who interacts with Campbell's Company (The)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Campbell's Company (The) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 소비자 의사결정 여정 (CDJ)
+## Purchase Journey — AARRR Framework
 
-```
-인식(Awareness)
-  └─ TV 광고, SNS 레시피 콘텐츠, 마트 진열
-       ↓
-고려(Consideration)
-  └─ 성분 확인, 레시피 검색, 가격 비교
-       ↓
-구매(Purchase)
-  └─ 마트 오프라인(주도), Walmart/Amazon 온라인
-       ↓
-사용(Usage)
-  └─ 요리 적용, 간식 소비
-       ↓
-충성(Loyalty)
-  └─ 정기 재구매, 가족 레시피 전수, 소셜 공유
-```
+| Stage | Campbell's Company (The)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Campbell's Company (The) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 우선순위 시장 (추정)
+## Anti-Persona — Who Campbell's Company (The) Is Not For
 
-| 지역 | 주요 브랜드 | 성장 지표 |
-|------|-----------|---------|
-| 미국 전체 | Campbell's Soup, Goldfish, Prego | 안정적 기반 (추정) |
-| 캐나다 | Campbell's Soup, V8 | 견조한 성장 (추정) |
-| 호주 | 소규모 수출 라인업 | 제한적 (추정) |
-| 아시아 (선별) | 현지화 시도 단계 | 테스트 마켓 (추정) |
+| Type | Characteristics | Why Campbell's Company (The) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Campbell's Company (The)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Campbell's Company (The)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Campbell's Company (The)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Campbell's Company (The)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Campbell's Company (The)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

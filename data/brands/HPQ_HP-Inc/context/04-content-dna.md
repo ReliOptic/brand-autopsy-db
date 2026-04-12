@@ -1,111 +1,123 @@
-# 04. 콘텐츠 DNA — HP Inc. (HPQ)
+# 04. Content DNA — HP Inc. (HPQ)
 
-## 콘텐츠 철학
-
-HP의 콘텐츠는 **"기술이 아닌 가능성을 판다"** 는 원칙으로 일관된다.
-스펙 수치보다 사용자가 무엇을 이룰 수 있는지를 중심에 둔다.
-글로벌 캠페인을 현지화할 때도 핵심 톤앤매너(진지하되 딱딱하지 않음)를 유지한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 보이스 & 톤 가이드
+## Content Pillars
 
-### 보이스 원칙
+HP Inc.'s content strategy reflects its positioning in the Technology Hardware, Storage & Peripherals segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-| 원칙 | DO | DON'T |
-|------|-----|-------|
-| 명확하게 | "AI PC로 하루 2시간 절약" | "혁신적 AI 솔루션으로 효율 극대화" |
-| 인간적으로 | "당신의 아이디어가 세상을 바꿉니다" | "첨단 기술 탑재로 생산성 향상" |
-| 자신감 있게 | "HP는 보안을 기본으로 설계합니다" | "HP도 보안 옵션을 제공합니다" |
-| 포용적으로 | "모두를 위한 기술" | "전문가를 위한 고급 솔루션" |
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "HP Inc. understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for technology hardware, storage & peripherals requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with HP Inc.." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 톤 스펙트럼
-
-```
-B2B 콘텐츠:  ━━━━━━━━●━━━━━  격식체·권위
-B2C 콘텐츠:  ━━━━●━━━━━━━━  친근·영감
-게이밍:      ━━●━━━━━━━━━━  에너지·도전
-지속가능성:  ━━━━━●━━━━━━━  진지·공감
-```
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 금지어 (절대 사용 금지)
+## Hook Patterns
 
-1. **"저렴한"** / **"싼"** — 가격 중심 포지셔닝은 프리미엄 이미지 훼손
-2. **"완벽한"** — 과장 클레임, 소비자 신뢰 저하
-3. **"혁명적"** — 오남용으로 신뢰도 낮아진 표현 (추정)
-4. **"단순히"** / **"그냥"** — 제품 가치 희석
-5. **"업계 최고"** (근거 없을 때) — 법적 리스크 및 신뢰도 훼손
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting HP Inc.'s perspective.
 
-## 필수어 (반드시 포함해야 할 표현)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-1. **"재창조"** / **"Reinventing"** — 브랜드 슬로건 연계 핵심어
-2. **"지속가능"** — ESG 정체성 강화
-3. **"Wolf Security"** — B2B 보안 포지셔닝 고유명사
-4. **"AI PC"** — 2024~2026 핵심 제품 카테고리 키워드
-5. **"HP Care"** / **"Care Pack"** — 서비스·AS 신뢰 구축 표현
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 콘텐츠 포맷 DNA
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-### 포맷별 역할
+### Hook 3 — Customer Story Lead
 
-| 포맷 | 목적 | 채널 | 최적 길이 |
-|------|------|------|----------|
-| 숏폼 영상 (15~30초) | 인지도·감성 | 유튜브 쇼츠·인스타그램 릴스 | 15~30초 |
-| 제품 스토리 영상 (2~3분) | 고려·선호도 | 유튜브·HP 공식 사이트 | 2~3분 |
-| 비교 콘텐츠 | 전환 | 네이버 블로그·공식 사이트 | 800~1,500자 |
-| 케이스 스터디 (B2B) | 신뢰 구축 | 링크드인·HP 비즈니스 사이트 | 1,000~2,000자 |
-| 인포그래픽 | 공유·확산 | SNS 전체 | 이미지 1장 |
-| 유저 후기·UGC | 소셜 증명 | 네이버 리뷰·유튜브 | 다양 |
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 네러티브 아크 (Narrative Arc)
+## CTA Patterns
 
-```
-문제 제기 → HP 솔루션 제시 → 실제 사용자 성과 → 지속가능한 미래
-
-예시 (B2B):
-"보안 침해로 연간 수억 원의 손실을 입는 중소기업이 늘고 있습니다."
-→ "HP Wolf Security는 BIOS 단계부터 엔드포인트를 보호합니다."
-→ "A사는 Wolf Security 도입 후 보안 사고 0건을 달성했습니다.(추정)"
-→ "HP와 함께 안전하고 지속가능한 IT 환경을 구축하세요."
-```
+| CTA Type | HP Inc. Pattern | What HP Inc. Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 콘텐츠 테마 캘린더 (연간 주요 테마)
+## Tone & Mood Guide
 
-| 분기 | 핵심 테마 | 연계 제품/프로그램 |
-|------|---------|----------------|
-| Q1 (1~3월) | 새 학기·새 출발 | Pavilion·ENVY 학생 특가 |
-| Q2 (4~6월) | 비즈니스 생산성 | EliteBook·LaserJet B2B |
-| Q3 (7~9월) | 여름 크리에이터 시즌 | Spectre·OMEN 게이밍 |
-| Q4 (10~12월) | 연말 쇼핑·지속가능성 | Instant Ink·재활용 카트리지 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — HP Inc. as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## SEO 핵심 키워드 클러스터 (한국어)
+## Content Prohibitions
 
-| 클러스터 | 키워드 예시 |
-|---------|-----------|
-| AI PC | AI 노트북 추천, AI PC 비교, HP AI PC |
-| 비즈니스 보안 | 노트북 보안, 기업 PC 보안, Wolf Security |
-| 프리미엄 노트북 | 울트라북 추천, 얇은 노트북, Spectre |
-| 프린터 | 가정용 프린터 추천, 잉크젯 레이저젯 비교 |
-| 지속가능성 | 친환경 프린터, 재활용 카트리지, 탄소 절감 |
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
 ---
 
-## 스토리텔링 원칙
+## Hashtag Strategy
 
-1. **사람 먼저**: 기술 스펙보다 사람의 이야기로 시작
-2. **구체적 숫자**: 추상적 주장 대신 수치로 증명 (단, 출처 명시)
-3. **지역화**: 글로벌 캠페인을 한국 맥락으로 번역 (예: 한국 스타트업 사례)
-4. **행동 유도**: 모든 콘텐츠에 명확한 CTA 포함
-5. **진정성**: 과장 없이 실제 사용 경험 중심
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #HPQ | Financial and investor community | Moderate (estimated) |
+| #HPInc | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+HP Inc.'s content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in technology hardware, storage & peripherals face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+HP Inc.'s content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

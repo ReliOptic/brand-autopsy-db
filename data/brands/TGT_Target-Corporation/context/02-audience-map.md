@@ -1,107 +1,84 @@
-# 02. 오디언스 맵 — Target (TGT)
+# 02. Audience Map — Target Corporation (TGT)
 
-> 섹터: Consumer Staples / Discount Retail | 분석 기준일: 2026-04-12
-
----
-
-## 1. 핵심 타겟 세그먼트 개요
-
-| 세그먼트 | 비중(추정) | 핵심 니즈 | 평균 객단가(추정) |
-|---------|-----------|----------|----------------|
-| 밀레니얼 패밀리 | 38% | 품질+가격 균형, 편의성 | $65~90/방문 |
-| Z세대 싱글/커플 | 27% | 트렌드, 자기표현, SNS 공유 | $35~55/방문 |
-| X세대 주부 | 22% | 신뢰성, 원스톱 쇼핑 | $80~120/방문 |
-| 베이비부머 시니어 | 13% | 브랜드 충성도, 접근성 | $50~70/방문 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 미아 — 밀레니얼 맘
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 34세 |
-| 직업 | 초등학교 교사 (시간제) |
-| 거주지 | 교외 신도시, 3베드룸 주택 |
-| 가족 | 배우자 + 자녀 2명 (6세, 9세) |
-| 연 소득 | $68,000 (추정) |
-| 쇼핑 빈도 | 주 1~2회 Target 방문 |
-| 주요 구매 | 아이 의류, 가정용품, 식료품, 학용품 |
-| 통증 포인트 | 시간 부족, 예산 압박, 품질 타협 거부 |
-| 동기 | "아이들에게 좋은 것을 합리적 가격에" |
-| SNS 행동 | Pinterest 홈 인테리어 저장, Instagram 쇼핑 태그 클릭 (추정) |
-| Target 인식 | "내가 가장 믿는 생활 파트너" |
-| 인용 | *"Target에 가면 우유 하나 사러 갔다가 카트 가득 들고 나오게 돼요."* |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in consumer staples merchandise retail. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Target Corporation's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Target Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 재이든 — Z세대 셀프-큐레이터
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 23세 |
-| 직업 | 디지털 마케팅 어시스턴트 |
-| 거주지 | 도심 원룸 아파트 |
-| 가족 | 1인 가구 |
-| 연 소득 | $42,000 (추정) |
-| 쇼핑 빈도 | 격주 방문 + 앱 주 3회 브라우징 |
-| 주요 구매 | 트렌디 홈데코, 뷰티, 간식, 자체 브랜드 의류 |
-| 통증 포인트 | 예산 한정, 트렌드 민감, FOMO |
-| 동기 | "내 공간을 인스타그래머블하게, 지갑 털리지 않고" |
-| SNS 행동 | TikTok "Target Haul" 영상 시청·업로드, Pinterest 보드 관리 (추정) |
-| Target 인식 | "저렴한 IKEA + Urban Outfitters 합체" |
-| 인용 | *"Target 자체 브랜드가 이렇게 예쁜 줄 몰랐어요. 친구들이 다 어디서 샀냐고 물어봐요."* |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Target Corporation customer organization
+- **Core pain**: Needs reliable consumer staples merchandise retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Target Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 캐런 — X세대 홈 매니저
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 48세 |
-| 직업 | 중견기업 회계 담당자 |
-| 거주지 | 교외 주택, 성숙한 주거 지역 |
-| 가족 | 배우자 + 대학생 자녀 1명 |
-| 연 소득 | $95,000 (추정) |
-| 쇼핑 빈도 | 주 1회 대형 구매 + 필요시 추가 방문 |
-| 주요 구매 | 가전소품, 식료품, 건강·뷰티, 애완동물 용품 |
-| 통증 포인트 | 시간 효율, 신뢰할 수 있는 품질, 주차·동선 편의 |
-| 동기 | "한 곳에서 다 해결하고 빨리 집에 가고 싶다" |
-| SNS 행동 | Facebook 그룹 딜 공유, 이메일 쿠폰 적극 활용 (추정) |
-| Target 인식 | "Walmart보다 깔끔하고 정돈돼 있어서 기분이 좋다" |
-| 인용 | *"Target Circle 포인트 쌓이면 진짜 꽤 돼요. 충성 고객 혜택이 확실해요."* |
+- **Age / Occupation**: 35, technical professional who interacts with Target Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Target Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 여정 맵 (밀레니얼 맘 기준)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인식          고려          구매          경험          재방문
-  |             |             |             |             |
-  ▼             ▼             ▼             ▼             ▼
-SNS 광고    Target.com   매장 방문    "Target Run"  Circle 포인트
-Instagram   가격 비교    셀프체크아웃  발견 경험     리워드 알림
-핀터레스트  앱 위시리스트  Same-Day Del. 소셜 공유    재구매 유도
-```
+- **Age / Occupation**: 38, consumer who interacts with Target Corporation's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Target Corporation selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 오디언스 인사이트 — 공통 행동 패턴
+## Purchase Journey — AARRR Framework
 
-| 패턴 | 설명 | 마케팅 함의 |
-|------|------|-----------|
-| 계획 이탈 구매 | 필요 품목 외 평균 $30~50 추가 지출 (추정) | 매장 동선·진열 최적화가 ROI 직결 |
-| 앱-매장 연동 | Target Circle 앱 → 매장 QR 연동 사용자가 높은 객단가 (추정) | 디지털-피지컬 연결 경험 강화 |
-| 시즌 의존도 | Back-to-School, Holiday 시즌에 연간 매출의 ~40% 집중 (추정) | 시즌 전 4~6주 캠페인 선행 필요 |
-| 자체 브랜드 신뢰 | Good & Gather, Cat & Jack 등 PB 충성도 상승 (공식) | PB 라인 확장이 마진·충성도 동시 개선 |
+| Stage | Target Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Target Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Anti-Persona — Who Target Corporation Is Not For
 
-| # | 인사이트 | 적용 방법 |
-|---|---------|----------|
-| 1 | 밀레니얼 맘(38%)이 앵커 고객 — 그녀가 행복하면 다른 세그먼트도 따라온다 | 캠페인 1순위 페르소나를 미아로 고정, 나머지는 파생 메시지 |
-| 2 | Z세대는 Target을 SNS 콘텐츠 소재로 활용 — UGC(사용자 생성 콘텐츠)가 자발적으로 생산됨 | "Target Haul" 해시태그 공식화, TikTok Creator 파트너십 강화 |
-| 3 | 캐런(X세대)은 편의성·신뢰 중심 — 가격보다 시간 절약이 핵심 가치 | 픽업·당일배송 기능을 X세대 채널(이메일·Facebook)에서 집중 홍보 |
+| Type | Characteristics | Why Target Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Target Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Target Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Target Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Target Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Target Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

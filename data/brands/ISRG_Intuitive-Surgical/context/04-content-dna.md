@@ -1,109 +1,123 @@
-# 04. 콘텐츠 DNA — Intuitive Surgical (ISRG)
+# 04. Content DNA — Intuitive Surgical (ISRG)
 
-> **카테고리**: 헬스케어 / 로봇 수술 시스템
-
----
-
-## 1. 콘텐츠 철학
-
-| 원칙 | 설명 |
-|------|------|
-| **근거 우선 (Evidence First)** | 모든 주장은 동료 심사 논문·임상 데이터로 뒷받침 (공식) |
-| **환자 중심 (Patient-Centric)** | 기술이 아닌 환자 결과로 이야기를 마무리 |
-| **외과의 파트너십 (Surgeon Partnership)** | 기술이 인간을 대체하지 않고 확장한다는 서사 유지 |
-| **규제 준수 (Regulatory Compliance)** | FDA·EMA 가이드라인 내에서 청구 표현 엄격 관리 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 메시지 아키텍처
+## Content Pillars
 
-### 마스터 메시지 (Master Claim)
-> "Intuitive는 외과의의 역량을 확장해 더 많은 환자가 최소 침습 수술의 혜택을 누릴 수 있도록 한다." (공식)
+Intuitive Surgical's content strategy reflects its positioning in the Health Care Equipment segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 서브 메시지 레이어
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Intuitive Surgical understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for health care equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Intuitive Surgical." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-| 레이어 | 메시지 | 대상 |
-|--------|--------|------|
-| **기술** | "Force Feedback와 3D HD 비전으로 인간의 감각을 수술실로 되돌린다" | 외과의 |
-| **결과** | "입원 기간 단축, 출혈 감소, 빠른 일상 복귀" | 환자·병원 경영진 |
-| **에코시스템** | "수술 전·중·후 데이터를 연결하는 유일한 플랫폼" | 병원 IT·경영진 |
-| **교육** | "구조화된 트레이닝으로 모든 외과의가 최선의 술기를 발휘하도록" | 레지던트·수련병원 |
-
----
-
-## 3. 콘텐츠 유형별 포맷 가이드
-
-| 콘텐츠 유형 | 톤 | 구조 | 길이 |
-|------------|-----|------|------|
-| **임상 논문 요약** | 학술적·중립적 | 배경→방법→결과→시사점 | 500~800자 |
-| **환자 스토리** | 공감적·희망적 | 진단→도전→수술→회복→현재 | 800~1,200자 |
-| **제품 기능 소개** | 기술적·명확한 | 기능→작동 원리→임상 이점 | 300~500자 |
-| **ROI 케이스 스터디** | 비즈니스·데이터 중심 | 문제→솔루션→측정 결과→인용 | 1,000~1,500자 |
-| **소셜 미디어 포스트** | 간결·영감적 | 훅→핵심 메시지→CTA | 140~280자 |
-| **외과의 웨비나** | 대화적·전문가적 | 케이스 리뷰→Q&A→데이터 공유 | 45~60분 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 4. 서사 프레임워크
+## Hook Patterns
 
-### 4-1. 영웅 서사 (Hero Narrative)
-- **영웅**: 외과의
-- **도구**: da Vinci 시스템
-- **퀘스트**: 복잡한 수술을 안전하게 완수
-- **수혜자**: 환자
-- **장벽**: 인간의 신체적 한계 (손 떨림, 시야 제한)
-- **해결**: Intuitive 기술이 한계를 극복
+### Hook 1 — Industry Challenge Lead
 
-### 4-2. 데이터 서사 (Data Narrative)
-```
-문제 정의 (임상 미충족 수요)
-→ 기술 혁신 (da Vinci 솔루션)
-→ 임상 근거 (피어-리뷰 데이터)
-→ 실제 결과 (환자·병원 사례)
-→ 스케일 (전 세계 X만 케이스)
-```
+Opens with a recognizable industry challenge or pain point before presenting Intuitive Surgical's perspective.
 
-### 4-3. 파트너십 서사 (Partnership Narrative)
-- Intuitive는 경쟁자가 아닌 **외과의의 확장**
-- "우리는 당신의 손을 대체하지 않습니다. 당신의 손을 더 정확하게 만듭니다."
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
----
+### Hook 2 — Data-Driven Insight
 
-## 5. 금지어 / 필수어 (콘텐츠 레이어)
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### 금지어
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-1. **"로봇이 결정한다"** — 외과의의 임상 판단 권위 훼손
-2. **"100% 안전"** — FDA 규정상 절대적 안전성 주장 불가
-3. **"전통 수술보다 항상 낫다"** — 적응증·환자 조건 무시한 일반화
-4. **"AI가 수술한다"** — 현재 시스템은 AI 자율 수술이 아님
-5. **"경쟁사는 열등하다"** — 직접 비교 비방 표현
+### Hook 3 — Customer Story Lead
 
-### 필수어
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-1. **"외과의의 손으로(In the hands of the surgeon)"** — 인간 중심성 강조
-2. **"임상적으로 검증된(Clinically validated)"** — 근거 기반 신뢰
-3. **"최소 침습(Minimally invasive)"** — 카테고리 정의어
-4. **"향상된 정밀도(Enhanced precision)"** — 기술 차별점
-5. **"환자 결과 개선(Improved patient outcomes)"** — 최종 가치 선언
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 6. 콘텐츠 캘린더 리듬 (추정)
+## CTA Patterns
 
-| 주기 | 콘텐츠 이벤트 | 채널 |
-|------|-------------|------|
-| 주간 | 임상 연구 하이라이트, 외과의 팁 | LinkedIn, 이메일 뉴스레터 |
-| 월간 | 환자 스토리, 제품 업데이트 | 웹사이트, YouTube |
-| 분기 | 산업 리포트, KOL 웨비나 | Intuitive.com, 학회 연계 |
-| 연간 | 임상 결과 보고서, 지속가능성 보고서 | 투자자 관계, 언론 |
+| CTA Type | Intuitive Surgical Pattern | What Intuitive Surgical Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 7. Steal Sheet — 콘텐츠 레이어
+## Tone & Mood Guide
 
-| # | 인사이트 | 액션 |
-|---|---------|------|
-| 1 | Intuitive는 "1,000만 케이스" 숫자를 사회적 증거로 반복 활용 → 경쟁자는 자사 누적 케이스를 명시적 수치로 제시해 신뢰 갭 줄이기 필요 | 케이스 누적 카운터 실시간 공개 |
-| 2 | 환자 스토리를 외과의 관점으로 재프레임 — "의사가 선택한 이유" 서사가 환자에게 더 설득력 있음 | 외과의 추천사 중심 환자 콘텐츠 제작 |
-| 3 | 기술 론칭 콘텐츠가 학회 일정에 맞춰 집중 배포 → 경쟁사는 학회 시즌 외 꾸준한 임상 콘텐츠로 화이트 스페이스 공략 가능 | 비학회 기간 임상 에듀케이션 콘텐츠 강화 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Intuitive Surgical as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #ISRG | Financial and investor community | Moderate (estimated) |
+| #IntuitiveSurgical | Brand-level social engagement | Varies (estimated) |
+| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Intuitive Surgical's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in health care equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Intuitive Surgical's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

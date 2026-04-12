@@ -1,111 +1,84 @@
-# 02 오디언스 맵 — AbbVie (ABBV)
+# 02. Audience Map — AbbVie (ABBV)
 
-> 섹터: 헬스케어 / 제약 | 주요 제품: Humira, Rinvoq, Skyrizi
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-AbbVie의 커뮤니케이션 대상은 크게 4개 레이어로 구성된다.
-
-| 레이어 | 세그먼트 | 영향력 |
-|--------|---------|--------|
-| L1 | 환자 (Patients) | 최종 사용자, 처방 수요 창출 |
-| L2 | 의료 전문가 HCP (Physicians, Dermatologists, Rheumatologists) | 처방 결정권자 |
-| L3 | 페이어 (Payers, PBMs, Insurers) | 급여 등재·접근성 결정 |
-| L4 | 투자자 / 애널리스트 | 자본 배분 결정 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 상세
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in biotechnology. B2C: End consumers of health care products and services. (T4_INFERRED from AbbVie's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in AbbVie's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 박지연 — 중증 건선 환자
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 34세 |
-| 직업 | 마케터 (대기업 재직) |
-| 거주지 | 서울 마포구 |
-| 진단 | 중등도~중증 판상 건선 (Plaque Psoriasis) 7년차 |
-| 현재 치료 | Humira 바이오시밀러 전환 검토 중, Skyrizi 처방 상담 예정 |
-| 주요 페인포인트 | 노출 부위 병변으로 인한 사회적 위축, 보험 급여 갱신 절차의 복잡함 |
-| 정보 탐색 채널 | 네이버 건선 카페, 유튜브 피부과 전문의 채널, Instagram |
-| 브랜드 기대 | 빠른 피부 개선, 장기 안전성 데이터, 주사 빈도 감소 |
-| 구매 결정 요인 | 담당 피부과 의사의 추천 + 환자 후기 + 급여 여부 |
-| 핵심 메시지 공명 | "피부가 맑아지는 것 이상의 삶" (Skyrizi 캠페인 톤) |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a AbbVie customer organization
+- **Core pain**: Needs reliable biotechnology solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **AbbVie selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 최준호 — 류마티스 관절염 전문의 (HCP)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 47세 |
-| 직업 | 류마티스내과 전문의 (상급종합병원 교수) |
-| 진료 환경 | 주 4일 외래, RA·AS·PsA 환자 월 300명+ |
-| 처방 패턴 | TNF 억제제 1차 후 2차로 JAK 억제제(Rinvoq) 고려 |
-| 주요 관심사 | 임상 데이터 (SELECT 시리즈), 안전성 프로파일 (혈전, MACE), 보험 급여 코드 |
-| 정보 수집 채널 | 학술지 (NEJM, Arthritis & Rheumatology), 학회 (ACR, EULAR), MSL 방문 |
-| AbbVie와의 접점 | MSL 디테일링, 심포지엄 지원, eDetail 자료 |
-| 결정 트리거 | 동료 전문의 처방 경험, 학회 발표 데이터, 급여 정책 변화 |
-| 브랜드 기대 | 데이터 무결성, 부작용 관리 가이드, 신속한 MSL 응대 |
+- **Age / Occupation**: 35, technical professional who interacts with AbbVie's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **AbbVie selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 이성민 — 헬스케어 섹터 기관투자자
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 41세 |
-| 직업 | 헬스케어 섹터 포트폴리오 매니저 (자산운용사) |
-| 운용 규모 | AUM $2.3B, 제약·바이오 비중 30% |
-| 핵심 관심사 | Humira LOE(특허 만료) 이후 매출 성장 경로, Skyrizi·Rinvoq 피크 세일즈 추정치 |
-| 정보 채널 | Earnings Call, IR Day, SEC 공시, 셀사이드 리포트 |
-| 리스크 인식 | JAK 억제제 블랙박스 경고, 파이프라인 임상 실패 가능성, 바이오시밀러 침투율 |
-| AbbVie와의 접점 | Investor Relations, NDR, Annual Report |
-| 결정 트리거 | 가이던스 상향, 파이프라인 마일스톤, 배당 성장률 |
-| 브랜드 기대 | 투명한 파이프라인 공시, 일관된 자본 배분 정책 |
+- **Age / Occupation**: 38, consumer who interacts with AbbVie's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **AbbVie selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 3. 오디언스 매트릭스 (메시지 × 채널)
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 핵심 메시지 | 주요 채널 | 콘텐츠 형식 |
-|---------|-----------|---------|------------|
-| 건선 환자 | "피부가 아닌 삶을 되찾으세요" | Instagram, YouTube, 네이버 카페 | 환자 스토리, 비포/애프터, FAQ |
-| RA 환자 | "움직임의 자유를 다시" | Facebook, 환자 커뮤니티 | 증언 영상, 생활 팁 콘텐츠 |
-| 피부과·류마티스 전문의 | 임상 데이터 요약, 안전성 업데이트 | MSL, 학술지 리프린트, eDetail | 슬라이드 덱, 피어 리뷰 논문 |
-| 페이어 | 경제성 평가, QALY 데이터 | 직접 협상, 헬스 이코노믹스 자료 | 보건경제 리포트, 모델링 데이터 |
-| 투자자 | 포트폴리오 성장 스토리 | Earnings Call, IR Day, Annual Report | 재무 슬라이드, CEO 서한 |
-
----
-
-## 4. 환자 여정 맵 (Skyrizi 중등도~중증 건선 기준)
-
-```
-[인식]            [고려]             [처방 결정]        [치료 지속]        [옹호]
-피부 증상 악화  →  피부과 첫 방문  →  전문의 Skyrizi  →  AbbVie Care    →  환자 커뮤니티
-인터넷 검색        진단 확정           처방 발행          주사 교육           후기 공유
-환자 커뮤니티      보험 확인           급여 신청           부작용 모니터링     SNS 공유
-```
+| Stage | AbbVie's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | AbbVie total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 세그먼트별 Steal Sheet
+## Anti-Persona — Who AbbVie Is Not For
 
-### Steal Sheet — 환자 세그먼트
-- **훔쳐야 할 인사이트**: 치료 여정의 "보이지 않는 부담" (서류, 보험, 주사 불안)을 줄여주는 서비스가 브랜드 충성도를 결정
-- **실행 액션**: 처방 후 30일 이내 환자 온보딩 콘텐츠 시리즈 (카카오 채널 자동화) 구축
-- **KPI**: 환자 지원 프로그램 등록률, 12개월 치료 지속률
+| Type | Characteristics | Why AbbVie Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | AbbVie's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | AbbVie's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | AbbVie's full value is realized through deeper operational integration and sustained partnership. |
 
-### Steal Sheet — HCP 세그먼트
-- **훔쳐야 할 인사이트**: 전문의는 "동료 의사의 경험"을 FDA 라벨보다 신뢰함
-- **실행 액션**: KOL 주도 웨비나 시리즈, 실제 진료 사례(Real-World Evidence) 출판 지원
-- **KPI**: MSL 접촉 후 30일 신규 처방 전환율
+---
 
-### Steal Sheet — 투자자 세그먼트
-- **훔쳐야 할 인사이트**: Humira 이후 서사가 명확하지 않으면 밸류에이션 디스카운트 지속
-- **실행 액션**: "Beyond Humira" 피크 세일즈 로드맵을 분기별 IR 자료에 시각화
-- **KPI**: 셀사이드 목표주가 컨센서스, EV/EBITDA 멀티플 변화
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+AbbVie's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+AbbVie's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,143 +1,84 @@
-# 02. 오디언스 맵 — Caterpillar (CAT)
+# 02. Audience Map — Caterpillar Inc. (CAT)
 
-## 타겟 오디언스 개요
-
-CAT의 구매 의사결정은 **다층 B2B 구조**다. 최종 사용자(오퍼레이터), 구매 결정권자(플릿 매니저·CFO), 채널 파트너(딜러)가 각각 다른 메시지에 반응한다. 소비재 브랜딩(CAT 워크웨어, CAT 폰)을 통한 B2C 접점도 존재하지만 매출 비중은 미미하다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 현장 오퍼레이터 "강철 민준"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이민준 (42세, 남성) |
-| 직함 | 건설 현장 중장비 오퍼레이터 |
-| 근무지 | 국내 대형 토목·건설 현장 (댐, 도로, 산업단지) |
-| 경력 | 중장비 운전 18년 |
-| 소득 | 연 6,000~8,000만 원 (추정) |
-| 학력 | 직업훈련원 중장비 운전 과정 수료 |
-
-**목표**
-- 하루 작업 목표량을 안정적으로 달성한다
-- 기계 고장 없이 월급날을 맞이한다
-- 익숙한 조작계로 피로를 줄인다
-
-**페인 포인트**
-- 장비 다운타임이 발생하면 일당·성과급이 날아간다
-- 새 모델 전환 시 조작감 재적응 스트레스
-- 유지보수 부품 입고 지연으로 현장 일정 차질
-
-**브랜드 인식**
-- CAT = "안 망가지는 기계" — 동료 오퍼레이터들의 구전이 핵심 신뢰 원천
-- 현대두산인프라코어(HD)와 비교 시 "CAT은 비싸지만 믿을 수 있다"는 인식 보유
-
-**정보 수집 채널**
-- 현장 선배 구전, 장비 커뮤니티(카페·유튜브), 딜러 직판 영업사원
-
-**핵심 메시지 훅**
-> "하루도 멈추지 않는 기계."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in construction machinery & heavy transportation equipment and adjacent industries. (T4_INFERRED from Caterpillar Inc.'s segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Caterpillar Inc.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 플릿 매니저 "숫자 수진"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박수진 (38세, 여성) |
-| 직함 | 건설사 장비 관리팀장 / Fleet Manager |
-| 소속 | 중견 건설사 장비운영팀 |
-| 관리 장비 수 | 굴삭기·불도저·크레인 포함 70여 대 |
-| 소득 | 연 7,000~9,000만 원 (추정) |
-| 학력 | 기계공학 학사 |
+### Persona 1 — Enterprise Decision-Maker
 
-**목표**
-- 장비 가동률 95% 이상 유지
-- 연간 유지보수 비용을 전년 대비 5% 절감
-- 장비 교체 주기 최적화로 자산 가치 극대화
-
-**페인 포인트**
-- 부품 조달 지연 → 현장 일정 지연 → 계약 패널티
-- 다브랜드 혼재 운영 시 정비 데이터 파편화
-- 경영진에 장비 투자 ROI를 수치로 증명해야 하는 부담
-
-**브랜드 인식**
-- CAT = "데이터가 있는 브랜드" — Cat Connect(텔레매틱스) 활용으로 장비 상태 모니터링 가능 (공식)
-- 고가 초기 투자에 대한 CFO 설득 난이도가 높음
-
-**정보 수집 채널**
-- CAT 딜러 담당자, 산업 컨퍼런스, 건설기계 전문지, LinkedIn
-
-**핵심 메시지 훅**
-> "TCO를 낮추는 가장 확실한 선택."
+- **Age / Occupation**: 42, VP-level or director in a Caterpillar Inc. customer organization
+- **Core pain**: Needs reliable construction machinery & heavy transportation equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Caterpillar Inc. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 광산 운영 책임자 "글로벌 준혁"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김준혁 (52세, 남성) |
-| 직함 | 글로벌 광업회사 아시아태평양 운영 디렉터 |
-| 소속 | 호주·인도네시아 석탄·니켈 광산 운영법인 |
-| 예산 권한 | 장비 구매 단독 결재 5백만 달러 이하 (추정) |
-| 소득 | 연 2억~3억 원 (추정) |
-| 언어 | 한국어·영어 병용 |
-
-**목표**
-- 대형 광산 덤프트럭(CAT 797F급) 운영 효율 극대화
-- 자율주행 장비 전환으로 인건비·안전사고 비용 절감
-- ESG 지표 달성을 위한 전동화 로드맵 수립
-
-**페인 포인트**
-- 원격지 광산에서의 부품·서비스 접근성 한계
-- 자율주행 장비 도입 시 기존 운전원 조합과의 노사 마찰
-- 경쟁사(Komatsu) 자율주행 솔루션과의 비교 압박
-
-**브랜드 인식**
-- CAT = "광업의 인프라" — 대형 광산에서 CAT 이외 브랜드를 쓰는 것이 예외적으로 인식됨
-- Cat Autonomous(자율주행 솔루션)에 대한 기대와 조기 적용 리스크 사이 균형 고민 (공식)
-
-**정보 수집 채널**
-- CAT 글로벌 세일즈 어카운트 매니저, MINExpo 등 광업 전시회, 업계 백서
-
-**핵심 메시지 훅**
-> "지구 끝 광산에서도, CAT 서비스는 24시간."
+- **Age / Occupation**: 35, technical professional who interacts with Caterpillar Inc.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Caterpillar Inc. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 레이어 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 레이어 | 세그먼트 | 주요 관심사 | CAT 접점 |
-|--------|---------|------------|---------|
-| L1 오퍼레이터 | 중장비 운전원 | 조작성·내구성·안전 | 딜러 시연, 유튜브 콘텐츠 |
-| L2 구매결정자 | 플릿 매니저, 조달팀장 | TCO·가동률·부품 공급 | 딜러 영업, 백서, 제안서 |
-| L3 경영진 | CFO, COO, 광산 디렉터 | ROI·ESG·자율화 | 임원급 어카운트 영업, 컨퍼런스 |
-| L4 채널 파트너 | CAT 딜러, 리스사 | 마진·재고·교육 지원 | 딜러 포털, CAT 대학 (추정) |
-| L5 인플루언서 | 장비 유튜버, 건설 미디어 | 독점 시승·정보 | 프레스 이벤트, 미디어 키트 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Caterpillar Inc.'s financial performance, competitive positioning, and risk factors for investment decisions.
+- **Caterpillar Inc. selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 (B2B 의사결정 깔때기)
+## Purchase Journey — AARRR Framework
 
-```
-인식 (Awareness)
-  └─ 산업 전시회 노출, 유튜브 장비 리뷰, 현장 구전
-       │
-필요 인식 (Need Recognition)
-  └─ 기존 장비 노후화, 프로젝트 수주, 생산성 목표 상향
-       │
-정보 탐색 (Consideration)
-  └─ CAT vs Komatsu vs Liebherr vs HD Hyundai 사양 비교
-  └─ 딜러 방문, 시연 요청, 백서 다운로드
-       │
-평가 (Evaluation)
-  └─ TCO 계산, 딜러 서비스 네트워크 확인, 금융 조건 협상
-       │
-구매 (Purchase)
-  └─ Cat Financial 리스·할부 또는 직구매 (공식)
-       │
-사용 후 관계 (Loyalty)
-  └─ Cat Connect 텔레매틱스 구독, 정기점검 계약, 재구매
-```
+| Stage | Caterpillar Inc.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Caterpillar Inc. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Caterpillar Inc. Is Not For
+
+| Type | Characteristics | Why Caterpillar Inc. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Caterpillar Inc.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Caterpillar Inc.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Caterpillar Inc.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Caterpillar Inc.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Caterpillar Inc.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

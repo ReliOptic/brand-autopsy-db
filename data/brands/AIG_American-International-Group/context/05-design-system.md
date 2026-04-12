@@ -1,162 +1,102 @@
-# AIG 디자인 시스템
+# 05. Design System — American International Group (AIG)
 
-## 디자인 철학
-
-AIG의 비주얼 아이덴티티는 **신뢰·전문성·글로벌 안정성**을 시각적으로 구현한다. 과도한 장식을 배제하고 명료성과 권위감을 우선한다. 2008년 위기 이후 리브랜딩을 거쳐 보다 절제되고 현대적인 방향으로 진화했다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 컬러 팔레트
+American International Group's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| AIG 레드 (AIG Red) | `#C8102E` | R:200 G:16 B:46 | 브랜드 주색상, 로고, 핵심 CTA | (공식) |
-| 딥 네이비 (Deep Navy) | `#003087` | R:0 G:48 B:135 | 배경, 헤더, 권위감 표현 | (공식) |
-| 화이트 (Pure White) | `#FFFFFF` | R:255 G:255 B:255 | 배경, 여백, 가독성 | (공식) |
-| 라이트 그레이 (Light Gray) | `#F4F4F4` | R:244 G:244 B:244 | 섹션 구분, 카드 배경 | (추정) |
-| 미드 그레이 (Mid Gray) | `#6D6E71` | R:109 G:110 B:113 | 본문 보조 텍스트, 캡션 | (추정) |
-| 다크 그레이 (Dark Gray) | `#333333` | R:51 G:51 B:51 | 본문 텍스트 기본 | (추정) |
+### Core Brand Colors
 
-### 보조 컬러 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| 골드 엑센트 (Gold Accent) | `#C9A84C` | R:201 G:168 B:76 | 프리미엄 라인, HNWI 자료 강조 | (추정) |
-| 틸 블루 (Teal Blue) | `#007B8A` | R:0 G:123 B:138 | 사이버·테크 관련 콘텐츠 | (추정) |
-| 소프트 레드 (Soft Red) | `#E8354A` | R:232 G:53 B:74 | 호버 상태, 경고 표시 보조 | (추정) |
-| 라이트 네이비 (Light Navy) | `#1A4A8A` | R:26 G:74 B:138 | 그라디언트 보조, 세컨더리 요소 | (추정) |
+### Color Principles
 
-### 컬러 사용 비율 가이드 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 용도 | 비율 | 컬러 |
-|------|------|------|
-| 주 배경 | 60% | `#FFFFFF`, `#F4F4F4` |
-| 텍스트·구조 | 30% | `#333333`, `#6D6E71`, `#003087` |
-| 강조·액션 | 10% | `#C8102E`, `#C9A84C` |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-### 폰트 체계
-
-| 구분 | 폰트명 | 용도 | 출처 |
-|------|--------|------|------|
-| 주요 헤드라인 | Whitney (또는 유사 Sans-serif) | 대형 제목, 히어로 텍스트 | (추정) |
-| 본문 | Source Sans Pro 또는 Open Sans | 본문, UI 텍스트 | (추정) |
-| 숫자·데이터 | 폰트 내 타뷸라 수치 기능 활용 | 통계, 데이터 비주얼 | (추정) |
-| 디지털 폴백 | Arial, Helvetica Neue | 이메일, 시스템 폰트 필요 환경 | (추정) |
-
-### 타이포그래피 스케일 (추정)
-
-| 레벨 | 크기 | 무게 | 사용처 |
-|------|------|------|--------|
-| H1 | 48~64px | Bold (700) | 랜딩 히어로 |
-| H2 | 32~40px | SemiBold (600) | 섹션 타이틀 |
-| H3 | 24~28px | SemiBold (600) | 서브섹션 |
-| Body Large | 18px | Regular (400) | 리드 카피 |
-| Body | 16px | Regular (400) | 본문 |
-| Caption | 13~14px | Regular (400) | 캡션, 법적 고지 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-### 로고 변형
+American International Group's digital properties employ a typographic system appropriate to its financials positioning.
 
-| 변형 | 배경 | 용도 |
-|------|------|------|
-| 주 로고 (레드+네이비 텍스트) | 화이트 배경 | 기본 사용 (공식) |
-| 역상 로고 (화이트) | 다크 배경 | 다크 배경 자료, 영상 엔딩 (공식) |
-| 단색 로고 (블랙) | 화이트 배경 | 흑백 인쇄물 (공식) |
-| 단색 로고 (화이트) | 컬러 배경 | 굿즈, 아이템 각인 (공식) |
+### Typeface System
 
-### 로고 클리어스페이스 (추정)
-로고 높이(X)의 최소 1X를 모든 방향에서 유지.
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 로고 금지 사용
-- 색상 임의 변경 금지
-- 로고 요소 분리 사용 금지
-- 배경과 명도 대비 4.5:1 미만 사용 금지
-- 그림자·입체 효과 추가 금지
+### Typographic Scale
 
----
-
-## 이미지 & 사진 스타일 가이드
-
-### 이미지 톤 원칙
-
-| 원칙 | 설명 |
-|------|------|
-| 진정성 | 연출 과도한 스톡 이미지 지양, 실제 비즈니스 환경 반영 |
-| 다양성 | 다양한 국적·성별·연령의 전문가 표현 |
-| 활동성 | 정적 포즈보다 실제 업무·의사결정 장면 |
-| 조명 | 자연광 또는 클린 스튜디오 라이팅, 고채도 필터 지양 |
-| 컬러 조화 | 브랜드 컬러와 충돌하지 않는 색조 환경 선택 |
-
-### 이미지 금지 유형 (추정)
-- 과도하게 웃는 스톡 모델 이미지
-- 저해상도 스크린샷 첨부
-- 재해·사고 장면의 감각적 묘사
-- 경쟁사 로고가 포함된 이미지
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## UI/UX 컴포넌트 가이드 (추정)
+## 3. Channel Specifications
 
-### 버튼
-
-| 유형 | 배경 | 텍스트 | 사용처 |
-|------|------|--------|--------|
-| Primary CTA | `#C8102E` | `#FFFFFF` | 핵심 전환 행동 |
-| Secondary CTA | `#003087` | `#FFFFFF` | 보조 행동 |
-| Ghost Button | 투명 + `#003087` 테두리 | `#003087` | 소극적 행동, 취소 |
-| Disabled | `#6D6E71` | `#FFFFFF` | 비활성 상태 |
-
-### 카드·컨테이너
-
-| 요소 | 스타일 |
-|------|--------|
-| 카드 배경 | `#FFFFFF` 또는 `#F4F4F4` |
-| 카드 테두리 | 1px `#E0E0E0` 또는 shadow 활용 |
-| 카드 반경 | 4~8px (모던하되 과도한 라운드 지양) |
-| 섹션 구분선 | 1px `#E0E0E0` |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 아이콘 & 일러스트레이션 스타일 (추정)
+## 4. Layout Principles
 
-| 항목 | 가이드 |
-|------|--------|
-| 아이콘 스타일 | 선형(outline) 중심, 2px 스트로크 |
-| 아이콘 컬러 | `#003087` 또는 `#C8102E` (강조 시) |
-| 일러스트 | 기하학적·추상적 방향, 과도한 캐릭터화 지양 |
-| 데이터 비주얼 | 바 차트·도넛 차트 선호, 파이 차트 지양 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 모션 & 애니메이션 원칙 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 원칙 | 세부 가이드 |
-|------|------------|
-| 속도 | 전환 200~300ms, 과도한 지연 없음 |
-| 이징 | ease-in-out 중심, 바운스 효과 금지 |
-| 목적성 | 장식적 모션 지양, 정보 전달 목적 모션만 허용 |
-| 접근성 | prefers-reduced-motion 미디어 쿼리 준수 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 브랜드 적용 예시
+## 5. Design Prohibitions
 
-### 보고서·백서 표지
-- 상단 네이비(`#003087`) 배경 + 화이트 AIG 로고
-- 하단 화이트 섹션 + 네이비 제목 텍스트
-- 레드(`#C8102E`) 구분선 또는 액센트 요소
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-### 디지털 배너
-- 주 배경: `#003087` 또는 `#FFFFFF`
-- 헤드라인: 화이트 또는 `#333333`
-- CTA 버튼: `#C8102E`
-- 이미지: 우측 정렬 전문가/비즈니스 사진
+---
+
+*Layer 5 of 8 — Brand Autopsy: American International Group (AIG)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

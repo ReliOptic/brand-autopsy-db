@@ -1,135 +1,84 @@
-# 02 오디언스 맵 — A. O. Smith (AOS)
+# 02. Audience Map — A. O. Smith (AOS)
 
-> 섹터: 산업재 / 온수기 & 수처리 | 분석일: 2026-04-12
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-| 세그먼트 | 비중(추정) | 채널 접점 | 구매 동기 |
-|----------|-----------|-----------|-----------|
-| 주거용 주택 소유자 | ~40% | 리테일, 설치 업체, 온라인 | 교체 수요, 에너지 절감 |
-| 상업·건물 관리자 | ~25% | 직판, 유통 대리점 | 설비 유지보수, 법규 준수 |
-| 건설·시공 전문가 (플러머, 시공사) | ~20% | B2B 영업, 트레이드 채널 | 시공 편의성, 브랜드 신뢰 |
-| 정수기·수처리 소비자 (아시아) | ~10% | 이커머스, 오프라인 매장 | 수질 불안, 건강 관심 |
-| 기타 (OEM, 정부 기관) | ~5% | 직접 계약 | 대량 조달, 규제 충족 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in building products and adjacent industries. (T4_INFERRED from A. O. Smith's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in A. O. Smith's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 데이브 — 에너지 절감형 주택 소유자
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 45세 / 남성 |
-| 지역 | 미국 중서부 교외 (추정) |
-| 직업 | 중간 관리직 회사원 |
-| 가구 | 배우자 + 자녀 2명 |
-| 연 소득 | $80,000–$110,000 (추정) |
-| 기술 친숙도 | 중간 — 스마트폰 앱 사용, 스마트홈 관심 초기 단계 |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 동기**
-- 15년 된 가스 온수기 교체 시기 도래
-- 전기요금·가스요금 절감에 강한 관심
-- 세금 공제(IRA 인센티브) 혜택 검색 중
-
-**페인 포인트**
-- 히트펌프 온수기 초기 비용 부담 인식
-- 설치 복잡도에 대한 막연한 불안
-- 브랜드 간 성능 차이를 판단할 정보 부족
-
-**구매 여정**
-1. 에너지 절감 관련 유튜브 영상 탐색
-2. Energy Star 웹사이트에서 제품 비교
-3. Home Depot / Lowe's 방문 또는 온라인 주문
-4. 공인 설치 업체 견적 요청
-
-**메시지 키**
-> "10년 전기요금을 계산해 보세요. 히트펌프 온수기가 스스로 값을 합니다."
+- **Age / Occupation**: 42, VP-level or director in a A. O. Smith customer organization
+- **Core pain**: Needs reliable building products solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **A. O. Smith selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 박지현 — 수질 민감형 한국 도심 거주자
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 34세 / 여성 |
-| 지역 | 서울 강남·마포 등 도심 (추정) |
-| 직업 | 마케터 / 프리랜서 |
-| 가구 | 1인 또는 신혼 부부 |
-| 월 소득 | 300–450만 원 (추정) |
-| 기술 친숙도 | 높음 — SNS, 이커머스 네이티브 |
-
-**핵심 동기**
-- 수돗물 수질 불신, 생수 구매 비용 절감 욕구
-- 정수기 렌탈 vs. 구매 고민
-- 미니멀 디자인·공간 활용 중시
-
-**페인 포인트**
-- AS 응대 속도·비용에 대한 불신
-- 필터 교체 번거로움
-- 경쟁 브랜드(코웨이, 청호나이스)의 강력한 렌탈 모델
-
-**구매 여정**
-1. 인스타그램·블로그 후기 탐색
-2. 네이버 쇼핑 가격 비교
-3. 오프라인 매장 체험 (롯데하이마트, 전자랜드)
-4. A/S 조건 확인 후 결정
-
-**메시지 키**
-> "생수 없이 사는 하루. 당신이 마시는 물, A. O. Smith가 지킵니다."
+- **Age / Occupation**: 35, technical professional who interacts with A. O. Smith's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **A. O. Smith selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 마이클 트루히요 — 상업 건물 시설 관리자
+### Persona 3 — Financial Stakeholder / Investor
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 52세 / 남성 |
-| 지역 | 미국 텍사스주 댈러스 (추정) |
-| 직업 | 오피스빌딩·호텔 시설 관리 책임자 |
-| 담당 규모 | 건물 3–5개동, 총 500실 이상 (추정) |
-| 기술 친숙도 | 중간 — 빌딩 자동화 시스템(BAS) 사용 경험 |
-
-**핵심 동기**
-- 상업용 온수 시스템 교체 주기 도래 (7–10년)
-- 에너지 비용 절감 KPI 달성 압박
-- 법정 검사·위생 기준 준수 (레지오넬라균 방지 등)
-
-**페인 포인트**
-- 대형 설비 다운타임 최소화 필요
-- 여러 공급업체 견적 비교의 복잡성
-- 부품 수급·장기 AS 보증 불확실성
-
-**구매 여정**
-1. AOS 지역 영업 담당자와 첫 미팅
-2. 엔지니어링 스펙 시트 검토
-3. 레퍼런스 현장 방문 또는 사례 연구 검토
-4. 조달팀과 협의, 입찰 또는 수의계약
-
-**메시지 키**
-> "다운타임은 비용입니다. 150년 동안 멈추지 않은 신뢰가 당신의 건물을 지킵니다."
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate A. O. Smith's financial performance, competitive positioning, and risk factors for investment decisions.
+- **A. O. Smith selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 3. 구매 결정 요인 (Jobs-to-be-Done)
+## Purchase Journey — AARRR Framework
 
-| JTBD | 세그먼트 | 핵심 니즈 |
-|------|----------|-----------|
-| 낡은 설비 교체 | 주거용 | 번거롭지 않은 교체, 보조금 활용 |
-| 에너지 비용 절감 | 주거 + 상업 | TCO(총소유비용) 계산 근거 |
-| 수질 개선 | 아시아 소비자 | 건강·안전 확신 |
-| 법규·규정 준수 | 상업·산업 | 인증서, 점검 기록 제공 |
-| 스마트홈 통합 | 얼리어답터 | 앱 연동, 원격 제어 |
+| Stage | A. O. Smith's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | A. O. Smith total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 4. 오디언스 인사이트 요약
+## Anti-Persona — Who A. O. Smith Is Not For
 
-- **B2C 주거 시장**: 초기 비용 민감도가 높아 TCO·보조금 메시지가 결정적 (추정)
-- **아시아 시장**: 건강·수질 불안이 주 구매 동기, 로컬 브랜드와의 신뢰 경쟁 치열 (추정)
-- **B2B 상업 시장**: 관계 영업·레퍼런스 중심, 디지털 채널 보조적 역할 (추정)
-- **시공 전문가**: 브랜드 충성도 높으나 교육·지원 프로그램에 의존, 트레이드 채널 핵심 (추정)
+| Type | Characteristics | Why A. O. Smith Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | A. O. Smith's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | A. O. Smith's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | A. O. Smith's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+A. O. Smith's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+A. O. Smith's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

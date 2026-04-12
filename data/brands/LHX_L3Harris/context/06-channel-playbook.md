@@ -1,135 +1,141 @@
-# 06. 채널 플레이북 — L3Harris Technologies (LHX)
+# 06. Channel Playbook — L3Harris (LHX)
 
-## 채널 전략 개요
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
-L3Harris의 채널 전략은 **"좁고 깊게(Narrow & Deep)"** 원칙을 따른다. 대중 채널 노출보다 의사결정자 직접 접점 밀도를 극대화하는 방식이다. 주요 채널은 다음 4개 레이어로 구성된다.
+---
+
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+L3Harris's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-1. 직접 채널 (Direct)       — 정부 관계, 전시회, 기술 브리핑
-2. 디지털 소유 채널 (Owned)  — lh.com, 기술 문서 포털, 채용 사이트
-3. 유료·증폭 채널 (Paid)    — 방산 미디어 광고, LinkedIn 타겟 광고
-4. 파트너·아언드 채널 (Earned/Partner) — 보도자료, 씽크탱크 보고서, 산업 협회
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널별 상세 플레이북
+## 4. Channel-Specific Prohibitions
 
-### 1. 전시회·컨퍼런스 (Events)
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| 최우선 이벤트 | AUSA Annual Meeting (워싱턴 D.C., 10월) (공식) |
-| 우선 이벤트 | AFA Warfare Symposium, Sea-Air-Space, DSEI, Eurosatory (공식) |
-| 부스 전략 | 실제 장비 실연(live demo) 중심, 가상 시뮬레이터 체험 제공 (추정) |
-| 핵심 목표 | PM·획득 담당자 1:1 기술 브리핑 일정 확보 |
-| 콘텐츠 산출물 | 전시 전용 솔루션 브리프, QR코드 연결 데이터시트, 기념품 USB (추정) |
-| 사전 활성화 | 전시 4주 전 LinkedIn 예고 포스팅 + 미팅 예약 링크 배포 (추정) |
-| 사후 활성화 | 전시 2주 내 참석자 대상 팔로업 이메일 + 맞춤 기술 자료 발송 (추정) |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### 2. 기업 웹사이트 (lh.com)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 섹션 | Solutions(솔루션), Capabilities(역량), Contracts(계약 현황), Careers(채용), Investors(투자자) (공식) |
-| 핵심 랜딩 페이지 | 도메인별 솔루션 페이지(통신/EW/공간/항공전자) |
-| SEO 우선 키워드 | "tactical communications", "electronic warfare systems", "ISR sensors", "JADC2" (추정) |
-| 콘텐츠 주기 | 수주 발표 즉시, 기술 백서 분기 1회, 블로그 월 2~4회 (추정) |
-| CTA 구조 | 솔루션 페이지 → "기술 브리핑 요청(Request a Briefing)" → 폼 제출 |
-| 접근 제한 콘텐츠 | 상세 기술 사양, CUI 레벨 문서 — 등록 후 접근(gated) (추정) |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 3. LinkedIn (주력 소셜 채널)
+## 5. Crisis Response Protocol
 
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 | 약 30만 명 이상 (추정) |
-| 게시 빈도 | 주 4~6회 (추정) |
-| 콘텐츠 믹스 | 수주/계약 발표 40% / 기술 혁신 30% / 임직원·채용 20% / 파트너십 10% (추정) |
-| 최적 게시 시간 | 화·수·목 오전 8~10시 (미 동부 기준, 추정) |
-| 임원 사고 리더십 | CEO·CTO 명의 분기 1~2회 기고 — JADC2, 다영역작전, 우주 안보 주제 (추정) |
-| 광고 전략 | 직함 타겟팅(Program Manager, Contracting Officer, Defense Analyst) + 회사 타겟팅(DoD 기관, NATO 회원국 국방부) (추정) |
-| 해시태그 세트 | `#MissionCritical` `#DefenseInnovation` `#JADC2` `#ElectronicWarfare` `#TacticalComms` (추정) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
----
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### 4. 정부 관계 & 직접 영업 채널
+### Scenario 2 — Regulatory or Legal Action
 
-| 항목 | 내용 |
-|------|------|
-| 채널 유형 | 직접 영업팀, 정부 업무 담당(GovRel), 로비 활동 |
-| 타겟 기관 | 미 국방부(OSD), 각 군 조달사령부, 의회 국방위(HASC·SASC), 동맹국 국방부 (공식) |
-| 핵심 도구 | 고객 맞춤 기술 브리핑 자료, 비밀 시설(SCIF) 내 분류 브리핑 (추정) |
-| 연간 정부 관계 지출 | 약 1,500만~2,000만 달러 (로비 등록 기준, 추정) |
-| 차별화 전략 | 전직 군 고위직 네트워크 활용, 의회 보좌관 대상 기술 교육 세션 (추정) |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
----
+### Scenario 3 — Reputation / Social Media Issue
 
-### 5. 방산 미디어 & 아언드 미디어 (Earned Media)
-
-| 채널 | 전략 |
-|------|------|
-| Defense News | 수주 발표 보도자료 즉시 배포, 기자 관계 관리 (추정) |
-| Breaking Defense | CTO·사업부장 인터뷰 연 2~4회 (추정) |
-| Jane's / Aviation Week | 기술 사양 공개 가능 범위 내 제품 리뷰 지원 (추정) |
-| RAND·CSIS 보고서 | 연구 지원·데이터 제공 → 인용 획득으로 정책 신뢰도 확보 (추정) |
-| 팟캐스트 | "Defense & Aerospace Report", "War on the Rocks" 임원 출연 (추정) |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 6. 채용 채널 (Talent Acquisition)
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 항목 | 내용 |
-|------|------|
-| 주요 채널 | lh.com/careers, LinkedIn Jobs, ClearanceJobs.com, 대학 캠퍼스 리크루팅 (추정) |
-| 핵심 메시지 | "임무에 기여하는 기술 커리어(A Career That Matters)" (추정) |
-| 타겟 인재풀 | RF/통신 엔지니어, EW 시스템 엔지니어, 소프트웨어 정의 무선 개발자, 군 전역자(보안 허가 보유) |
-| 차별화 포인트 | 보안 허가(Security Clearance) 스폰서십, 임무 의미감, STEM 장학 프로그램 |
+**1. Align channel formality with audience expectations.**
+L3Harris's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+L3Harris's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 채널 배분 예산 추정
-
-| 채널 | 추정 비중 | 연간 추정 금액 |
-|------|----------|--------------|
-| 전시회·이벤트 | 35% | ~$35M (추정) |
-| 정부 관계·직접 영업 | 30% | ~$30M (추정) |
-| 디지털(웹·소셜·SEO) | 15% | ~$15M (추정) |
-| 방산 미디어 광고 | 10% | ~$10M (추정) |
-| 채용 마케팅 | 10% | ~$10M (추정) |
-
-*모든 수치는 공개 정보 기반 추정값이며 실제와 다를 수 있음.*
-
----
-
-## 채널 성과 지표 (KPI)
-
-| 채널 | 1차 KPI | 2차 KPI |
-|------|---------|---------|
-| 전시회 | 기술 브리핑 미팅 수 | 전시 후 RFI/RFP 연결율 |
-| 웹사이트 | 솔루션 페이지 세션 수 | 브리핑 요청 폼 제출 수 |
-| LinkedIn | 임원 게시물 노출 수 | 채용 지원자 유입 수 |
-| 정부 관계 | 의회 증언·청문회 참여 수 | 예산 항목 언급 빈도 |
-| 아언드 미디어 | 방산 미디어 보도 건수 | 씽크탱크 인용 건수 |
-
----
-
-## Steal Sheet — 채널 플레이북 레이어별 3개
-
-### Layer 1: 전시회·이벤트 공략 포인트
-1. **AUSA 전 4주 LinkedIn 어택**: 전시 참가 발표 + 신제품 티저 + 미팅 예약 링크 순차 배포 — 현장 방문 전 의사결정자 어젠다에 LHX 선점
-2. **라이브 데모 필수화**: 정적 패널 전시 대신 실제 작동 장비 시연 — "직접 보고 만져본" 경험이 조달 PM의 내부 지지 발언 유발
-3. **전시 후 72시간 팔로업 규칙**: 명함 수집 후 72시간 내 맞춤 기술 자료 이메일 — 전시 열기 냉각 전 상담 전환율 극대화 (추정 업계 최적 관행)
-
-### Layer 2: 디지털 채널 공략 포인트
-1. **LinkedIn 임원 계정 활성화**: 기업 페이지 팔로워보다 임원 개인 계정 도달률이 3~5배 높음 (LinkedIn 알고리즘 특성) — CTO/사업부장 계정 주 1회 이상 포스팅 의무화
-2. **게이티드 콘텐츠 이중 활용**: 기술 백서 다운로드 → 이메일 확보 → 너처링 시퀀스 자동화 — 단순 자료 제공 대비 리드 품질·추적 가능성 향상
-3. **검색 의도 기반 랜딩 페이지**: "JADC2 솔루션", "전술 통신 단말기" 등 조달 검색어별 전용 랜딩 페이지 구축 — 일반 솔루션 페이지 대비 전환율 개선 (추정)
-
-### Layer 3: 아언드·파트너 채널 공략 포인트
-1. **씽크탱크 공동 연구 투자**: RAND·CSIS 연구 지원 → 정책 보고서 인용 확보 — 유료 광고 대비 의회·정부 신뢰도 레버리지 효율 극대화
-2. **전직 군 임원 미디어 대변인화**: 전직 장성급 임원의 Breaking Defense·War on the Rocks 기고 — 제품 광고 아닌 "전문가 의견"으로 검열 없이 전달
-3. **동맹국 방산 전시 동시 출격**: DSEI(영국)·Eurosatory(프랑스)·MSPO(폴란드) 동시 참가로 NATO 조달 의사결정자 단일 사이클 내 3개국 접점 — FMS 파이프라인 다각화
+**3. Build a cross-channel sequence, not parallel silos.**
+L3Harris's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

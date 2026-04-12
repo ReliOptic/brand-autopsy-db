@@ -1,140 +1,84 @@
-# 02 오디언스 맵 — Thermo Fisher Scientific (TMO)
+# 02. Audience Map — Thermo Fisher Scientific (TMO)
 
-## 오디언스 세그먼트 개요
-
-| 세그먼트 | 규모 비중(추정) | 구매 사이클 | 주요 채널 |
-|---------|--------------|------------|---------|
-| 학술·기초연구 (Academic/Basic Research) | ~25% | 분기~연간 | 직판, 유통망, e-커머스 |
-| 제약·바이오텍 R&D | ~30% | 연간~다년 | 직판, KAM(핵심고객관리) |
-| 바이오제약 생산·QC | ~20% | 다년 장기 계약 | 직판, CDMO/CRO 번들 |
-| 임상·진단 (Clinical/Diagnostics) | ~15% | 연간 계약 | 유통, 직판 |
-| 환경·식품·산업 분석 | ~10% | 연간 | 유통망 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1: 드라 지민 박 (Dr. Ji-min Park)
+## Ideal Customer Profile (ICP)
 
-**역할:** 학술 연구소 PI (주임연구원), 단백질체학 전공
-**소속:** 국내 상위권 대학 의과학연구소 (추정)
-**연령:** 38세
-
-### 인구통계
-- 박사 후 연구원 3명, 대학원생 5명 관리
-- 연간 실험비 예산 약 ₩2억 (추정)
-- 논문 출판 압박, 그랜트 경쟁 심화
-
-### 목표 & 동기
-- SCI 논문 게재를 위한 재현 가능한(reproducible) 데이터 생산
-- 최신 질량분석기(MS) 및 유세포분석기(flow cytometry) 접근
-- 시약 로트(lot) 간 일관성 확보
-
-### 페인포인트
-- 연구비 삭감으로 인한 예산 압박
-- 시약 납기 지연 시 실험 일정 차질
-- 다중 공급업체 관리 복잡성
-
-### 정보 탐색 행동
-- PubMed·Cell·Nature 논문에서 재료 및 방법(Methods) 섹션 참조
-- 동료 연구자 추천 (word-of-mouth) 가중치 높음
-- Thermo Fisher 웹사이트 기술 문서·프로토콜 직접 탐색
-
-### 구매 트리거
-- 새 그랜트 수주 후 장비·소모품 일괄 구매
-- 기존 제품 단종(EOL) 공지
-
-### 메시지 키
-> "귀하의 연구를 가속하는 검증된 시약 — 로트 간 CV 2% 이하 보장"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in life sciences tools & services. B2C: End consumers of health care products and services. (T4_INFERRED from Thermo Fisher Scientific's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Thermo Fisher Scientific's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: 마이클 첸 (Michael Chen)
+## Core Personas
 
-**역할:** 글로벌 제약사 프로세스 개발 디렉터 (Process Development Director)
-**소속:** 미국 소재 Top-10 제약사 (추정)
-**연령:** 47세
+### Persona 1 — Enterprise Decision-Maker
 
-### 인구통계
-- 바이오의약품 업스트림/다운스트림 공정 책임
-- 연간 조달 예산 $5M+ 관리 (추정)
-- 규제기관(FDA, EMA) 감사 대응 경험 다수
-
-### 목표 & 동기
-- GMP 준수 원자재 및 소모품 안정적 확보
-- 공정 이전(tech transfer) 시 공급업체 연속성 유지
-- 원가 절감과 품질 보증 동시 달성
-
-### 페인포인트
-- 공급망 단절 리스크 (단일 소스 의존)
-- 변경 관리(Change Control) 문서화 부담
-- 글로벌 규제 요건 변화 대응
-
-### 정보 탐색 행동
-- Gartner·Frost & Sullivan 리포트 구독
-- 업계 컨퍼런스 (BIO International, INTERPHEX) 적극 참여
-- TMO 어카운트 매니저와 분기별 비즈니스 리뷰 실시
-
-### 구매 트리거
-- 신약 IND/BLA 제출 일정 확정
-- 현재 공급업체 품질 이슈 발생
-
-### 메시지 키
-> "FDA-ready 원자재 — 단일 공급업체로 공급망 리스크 최소화"
+- **Age / Occupation**: 42, VP-level or director in a Thermo Fisher Scientific customer organization
+- **Core pain**: Needs reliable life sciences tools & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Thermo Fisher Scientific selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: 아미라 살레 (Amira Saleh)
+### Persona 2 — Technical Specialist / End User
 
-**역할:** 중견 바이오텍 CTO (최고기술책임자)
-**소속:** Series C 단계 세포·유전자 치료(CGT) 스타트업 (추정)
-**연령:** 42세
-
-### 인구통계
-- 임직원 120명 규모 회사 기술 총괄
-- VC로부터 $150M 시리즈 C 유치 완료 (추정)
-- IND 신청 및 Phase I 임상 진입 준비 중
-
-### 목표 & 동기
-- 임상 단계 진입을 위한 GMP 생산 체계 구축
-- 검증된 CDMO 파트너 확보 (Patheon 등)
-- 기술 실사(Technical Due Diligence) 통과를 위한 CMC 문서화
-
-### 페인포인트
-- 내부 GMP 시설 구축 비용·시간 부담
-- 규제 전략 경험 부족
-- 투자자 마일스톤 압박으로 인한 촉박한 타임라인
-
-### 정보 탐색 행동
-- LinkedIn 바이오텍 커뮤니티 활동
-- RAPS·ISPE 웨비나 참여
-- TMO Patheon/PPD 통합 솔루션 브로셔 및 케이스 스터디 검토
-
-### 구매 트리거
-- IND 제출 결정 후 CDMO 파트너 선정 프로세스 개시
-- 임상시험 수탁기관(CRO) 재평가 사이클
-
-### 메시지 키
-> "임상 진입까지 원스톱 — Patheon GMP 생산 + PPD 임상 설계를 하나의 파트너로"
+- **Age / Occupation**: 35, technical professional who interacts with Thermo Fisher Scientific's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Thermo Fisher Scientific selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 의사결정 구조 (B2B 구매 센터)
+### Persona 3 — Consumer / Retail Customer
 
-| 역할 | 직함 예시 | 관심사 |
-|------|---------|--------|
-| 최종 사용자 (User) | 연구원, 분석가 | 제품 성능, 프로토콜 |
-| 영향자 (Influencer) | PI, 선임 과학자 | 기술 검증, 동료 추천 |
-| 구매 결정자 (Decider) | 랩 디렉터, 구매팀장 | 예산, 규제 준수 |
-| 구매자 (Buyer) | 구매 담당자 | 가격, 납기, 계약 조건 |
-| 게이트키퍼 (Gatekeeper) | 공급업체 승인팀 | 벤더 적격성 평가 |
+- **Age / Occupation**: 38, consumer who interacts with Thermo Fisher Scientific's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Thermo Fisher Scientific selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 지역별 오디언스 특성 (추정)
+## Purchase Journey — AARRR Framework
 
-| 지역 | 주요 세그먼트 | 특이사항 |
-|------|------------|---------|
-| 북미 | 제약 R&D, CDMO/CRO | 규제 환경 성숙, 가치 기반 구매 |
-| 유럽 | 학술, 제약 | EMA 규제 복잡성, 지속가능성 요구 증가 |
-| 중국 | 바이오텍, 학술 | 현지화 요구, 국산화 정책 압력 |
-| 한국·일본 | 반도체·첨단소재 분석, 제약 | 고사양 분석기기 선호 |
-| 인도 | 제네릭 제약, CRO | 가격 민감도 높음 |
+| Stage | Thermo Fisher Scientific's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Thermo Fisher Scientific total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Thermo Fisher Scientific Is Not For
+
+| Type | Characteristics | Why Thermo Fisher Scientific Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Thermo Fisher Scientific's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Thermo Fisher Scientific's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Thermo Fisher Scientific's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Thermo Fisher Scientific's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Thermo Fisher Scientific's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

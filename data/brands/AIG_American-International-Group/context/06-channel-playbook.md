@@ -1,153 +1,141 @@
-# AIG 채널 플레이북
+# 06. Channel Playbook — American International Group (AIG)
 
-## 채널 전략 개요
-
-AIG의 채널 전략은 B2B 중심의 **브로커·직접 채널 이중 구조**를 기반으로 한다. 디지털 채널은 인지도·교육 기능을 담당하고, 오프라인·인적 채널이 최종 의사결정을 주도한다. 개인 소비자 채널은 축소되고 있으며 전문·기업 고객 채널에 자원이 집중된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널 맵
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+American International Group's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-                        AIG 채널 생태계
-                              │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-     디지털 채널          인적·파트너 채널       이벤트·PR 채널
-          │                   │                   │
-    ┌─────┼─────┐        ┌────┼────┐         ┌────┼────┐
-   웹  LinkedIn 이메일  브로커 직판 에이전트  컨퍼런스 미디어 스폰서십
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널별 전략 상세
+## 4. Channel-Specific Prohibitions
 
-### 1. 기업 웹사이트 (aig.com)
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 신뢰 허브, 상품 정보, 사고 리더십 콘텐츠 배포 |
-| 핵심 타깃 | 리스크 매니저, CFO, 보험 브로커 |
-| 핵심 KPI | 리드 생성, 브로커 포털 로그인, 콘텐츠 다운로드 수 |
-| 콘텐츠 우선순위 | 산업별 리스크 가이드, 클레임 사례, 임원 논평 |
-| CTA 전략 | "전문가 상담 신청", "리스크 평가 요청", "브로커 포털 로그인" |
-| SEO 앵커 키워드 | 상업보험, 기업보험, 사이버보험, D&O보험, 글로벌 보험 프로그램 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**Steal Sheet — 웹사이트 레이어**
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| # | 전술 | 실행 방법 |
-|---|------|----------|
-| 1 | 산업별 랜딩 페이지 최적화 | 제조업·금융업·테크 등 버티컬별 리스크 맞춤 랜딩 페이지 구축, 방문자 세그먼트 자동 감지 |
-| 2 | 리스크 자가진단 도구 | 방문자가 산업·규모·지역을 입력하면 맞춤 리스크 리포트 즉시 제공, 이메일 캡처 |
-| 3 | 클레임 사례 라이브러리 | 익명화된 실제 클레임 처리 사례를 산업·리스크 유형별로 검색 가능하게 구성 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 2. LinkedIn
+## 5. Crisis Response Protocol
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | B2B 사고 리더십, 채용 브랜딩, 임원 퍼스널 브랜딩 |
-| 핵심 타깃 | CFO, CRO, 리스크 매니저, 보험 브로커, 금융업 종사자 |
-| 게시 빈도 | 주 3~5회 (추정) |
-| 콘텐츠 믹스 | 인사이트 리포트 60% / 기업 뉴스 20% / 임원 논평 20% (추정) |
-| 핵심 KPI | 팔로워 성장, 콘텐츠 참여율, 링크 클릭 수, 리드 폼 전환 |
-| 광고 활용 | Sponsored Content, InMail을 통한 갱신 시즌 타깃팅 (추정) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-**Steal Sheet — LinkedIn 레이어**
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-| # | 전술 | 실행 방법 |
-|---|------|----------|
-| 1 | 임원 퍼스널 브랜딩 프로그램 | CEO·언더라이팅 리더의 LinkedIn 활동 체계화, 주 1회 인사이트 게시, 댓글 전략 수립 |
-| 2 | 리스크 트렌드 시리즈 | "2025년 10대 기업 리스크" 등 연간 시리즈 콘텐츠로 팔로워 구독 유도 |
-| 3 | 경쟁사 팔로워 타깃 광고 | Chubb·Zurich 팔로워를 타깃으로 한 비교 우위 Sponsored Content 캠페인 |
+### Scenario 2 — Regulatory or Legal Action
 
----
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### 3. 이메일 마케팅
+### Scenario 3 — Reputation / Social Media Issue
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 리드 육성, 갱신 알림, 규제 업데이트 전달 |
-| 세그먼트 | 산업별·상품 관심사별·계약 상태별 세분화 |
-| 발송 빈도 | 뉴스레터 월 2회, 갱신 알림 자동화, 이벤트 초청 비정기 (추정) |
-| 핵심 KPI | 오픈율, 클릭률, 갱신 전환율, 언서브스크라이브율 |
-| 개인화 | 산업·지역·계약 규모에 따른 동적 콘텐츠 삽입 (추정) |
-
-**Steal Sheet — 이메일 레이어**
-
-| # | 전술 | 실행 방법 |
-|---|------|----------|
-| 1 | 갱신 전 90일 육성 시퀀스 | 갱신 90일 전부터 3단계 자동화 이메일: 리스크 진단 → 사례 공유 → 상담 예약 CTA |
-| 2 | 사이버 사고 속보 알림 | 주요 사이버 공격 발생 시 24시간 내 고객사 산업 관련성 분석 이메일 발송 |
-| 3 | 클레임 고객 전용 체크인 | 클레임 처리 중·완료 후 고객에게 만족도 확인 및 추가 커버리지 리뷰 제안 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 4. 보험 브로커 채널
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 신규 기업 고객 접점, 상품 추천, 계약 중개 |
-| 파트너 유형 | 글로벌 대형 브로커(Marsh, Aon, WTW), 지역 독립 브로커 |
-| 채널 지원 | 브로커 포털, 교육 프로그램, 공동 마케팅 자료, 언더라이터 직접 접촉 |
-| 핵심 KPI | 브로커 활성화율, 브로커 경유 GWP, 상품 추천 비율 |
-| 브로커 인센티브 | 수수료 구조, 교육 인증, 우선 언더라이터 접근권 (추정) |
+**1. Align channel formality with audience expectations.**
+American International Group's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-**Steal Sheet — 브로커 채널 레이어**
+**2. Use financial communications as a credibility asset.**
+American International Group's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-| # | 전술 | 실행 방법 |
-|---|------|----------|
-| 1 | 브로커 언더라이터 핫라인 | 복잡 리스크에 대한 30분 내 시니어 언더라이터 전화 상담 보장 서비스 |
-| 2 | 브로커 교육 인증 프로그램 | AIG 특수보험 전문 인증 과정 운영, 인증 브로커 우선 배정 및 마케팅 지원 |
-| 3 | 공동 고객 리스크 리뷰 | 브로커와 AIG 언더라이터가 공동으로 고객사 연간 리스크 리뷰 실시, 브로커 관계 강화 |
-
----
-
-### 5. 직접 영업 채널 (Direct Sales)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | 대형 기업·특수 계정 직접 관리 |
-| 팀 구성 | 산업별 전문 영업 + 언더라이터 + 클레임 전문가 팀 구성 (추정) |
-| 영업 사이클 | 6~18개월 (복잡 리스크 계정 기준) (추정) |
-| 핵심 KPI | 신규 계정 수, 계정 규모, 갱신율, 크로스셀 비율 |
-| 영업 도구 | 리스크 진단 플레이북, 경쟁사 배틀카드, 클레임 사례 자료 |
-
----
-
-### 6. 이벤트·컨퍼런스 채널
-
-| 항목 | 내용 |
-|------|------|
-| 주요 역할 | C-suite 관계 구축, 사고 리더십 포지셔닝, 리드 생성 |
-| 핵심 이벤트 | RIMS Annual Conference, Davos, 산업별 리스크 포럼 (추정) |
-| 참여 형태 | 기조연설, 패널 토론, 스폰서십, 단독 세미나 |
-| 콘텐츠 전략 | 이벤트 전 예고 콘텐츠 → 이벤트 중 라이브 인사이트 → 이벤트 후 리캡 배포 |
-| 핵심 KPI | 명함 수집 수, 미팅 예약 수, 이벤트 후 파이프라인 생성 |
-
----
-
-## 채널 우선순위 매트릭스
-
-| 채널 | 효율성 | 전략 중요도 | 투자 방향 |
-|------|--------|------------|----------|
-| 브로커 채널 | 높음 | 최고 | 유지·강화 |
-| 직접 영업 | 중 | 높음 | 선택적 확대 |
-| LinkedIn | 높음 | 높음 | 적극 투자 |
-| 기업 웹사이트 | 중 | 높음 | 디지털 전환 투자 |
-| 이메일 | 높음 | 중 | 자동화 고도화 |
-| 이벤트 | 낮음 | 중 | 선별적 참여 |
-| 일반 소비자 광고 | 낮음 | 낮음 | 축소 (추정) |
-
----
-
-## 채널 통합 메시지 일관성 원칙
-
-| 원칙 | 내용 |
-|------|------|
-| 단일 브랜드 보이스 | 채널별 톤 조정은 허용하되 핵심 메시지 필라는 동일하게 유지 |
-| 고객 여정 연속성 | 웹사이트에서 시작된 리드가 브로커·영업 채널로 이어질 때 정보 단절 없음 |
-| 클레임 경험 일관성 | 디지털 FNOL(최초 손실 통보)부터 오프라인 클레임 처리까지 동일 품질 |
-| 규제 준수 | 각 국가·지역 금융규제에 따른 채널별 커뮤니케이션 조정 |
+**3. Build a cross-channel sequence, not parallel silos.**
+American International Group's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

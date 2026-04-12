@@ -1,133 +1,84 @@
-# 02. 오디언스 맵 — Emerson Electric (EMR)
+# 02. Audience Map — Emerson Electric (EMR)
 
-## 타깃 오디언스 개요
-
-Emerson의 주요 고객은 **B2B 산업 구매자**로, 구매 주기가 길고 다층적 의사결정 구조를 가진다. 최종 사용자(엔지니어)부터 경영진(CFO/CEO)까지 다양한 페르소나가 구매 프로세스에 관여한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 공정 자동화 엔지니어 — "이준혁"
+## Ideal Customer Profile (ICP)
 
-**기본 정보**
-- 직함: 수석 제어 시스템 엔지니어
-- 연령: 38세
-- 소속: 국내 대형 석유화학 플랜트 (울산 소재)
-- 학력: 화학공학 학사, 제어공학 석사
-
-**역할 및 책임**
-- DCS(분산 제어 시스템) 설계 및 유지보수
-- 현장 계측기 선정 및 교체 의사결정
-- 안전 계장 시스템(SIS) 운영
-
-**페인 포인트**
-- 노후 DCS의 사이버보안 취약점 증가
-- 유지보수 부품 단종으로 인한 가동 중단 리스크
-- 디지털 전환 압박 속 레거시 시스템 통합 난이도
-
-**정보 탐색 채널**
-- ISA(국제자동화학회) 기술 문서
-- Emerson Exchange 커뮤니티
-- LinkedIn 엔지니어링 그룹
-- 유튜브 기술 웨비나
-
-**구매 결정 기준**
-1. 기술적 호환성 및 레거시 연동
-2. 장기 지원 보장 (LTS 정책)
-3. 현장 서비스 응답 속도
-4. TCO(총소유비용)
-
-**Emerson 관련성**
-DeltaV DCS, Rosemount 계측기, Plantweb 디지털 에코시스템이 직접 활용 대상.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electrical components & equipment and adjacent industries. (T4_INFERRED from Emerson Electric's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Emerson Electric's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 플랜트 운영 총괄 — "박지영"
+## Core Personas
 
-**기본 정보**
-- 직함: 생산 운영 본부장 (VP Operations)
-- 연령: 52세
-- 소속: 중견 화학 제조기업 (경기도 소재)
-- 학력: 기계공학 학사, MBA
+### Persona 1 — Enterprise Decision-Maker
 
-**역할 및 책임**
-- 생산 KPI(OEE, 가동률) 달성 책임
-- CAPEX/OPEX 예산 최종 승인권
-- 디지털 전환 로드맵 실행 총괄
-
-**페인 포인트**
-- 에너지 비용 급등으로 인한 마진 압박
-- ESG 규제 강화에 따른 탄소 배출 보고 의무
-- 숙련 기술자 이탈로 인한 운영 지식 공동화
-
-**정보 탐색 채널**
-- 업계 컨퍼런스 (ACHEMA, HMI)
-- 컨설팅 보고서 (McKinsey, Deloitte)
-- 공급사 경영진 미팅 및 벤치마킹 투어
-- LinkedIn 경영진 네트워크
-
-**구매 결정 기준**
-1. 투자 회수 기간 (ROI 12~24개월 이내)
-2. 벤더 재무 안정성 및 장기 파트너십 역량
-3. 레퍼런스 사이트 검증 가능 여부
-4. ESG/탄소 절감 기여도
-
-**Emerson 관련성**
-Plantweb Optics 운영 성과 플랫폼, Boundless Automation 전략, 에너지 절감 솔루션이 핵심 접점.
+- **Age / Occupation**: 42, VP-level or director in a Emerson Electric customer organization
+- **Core pain**: Needs reliable electrical components & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Emerson Electric selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 엔지니어링 조달 담당자 — "김민수"
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-- 직함: 설비 구매 팀장
-- 연령: 44세
-- 소속: EPC(설계·조달·건설) 전문 기업
-- 학력: 산업공학 학사
-
-**역할 및 책임**
-- 대형 플랜트 프로젝트용 기자재 BOM 관리
-- 복수 공급사 견적 비교 및 협상
-- 납기 및 품질 보증 관리
-
-**페인 포인트**
-- 글로벌 공급망 불안정으로 인한 납기 리스크
-- 복수 벤더 통합 시 호환성 문제
-- 프로젝트 예산 초과 방지 압박
-
-**정보 탐색 채널**
-- 공급사 포털 및 e-카탈로그
-- 업계 구매 네트워크 (KPI, ISA 조달 분과)
-- 기술 영업 담당자 정기 미팅
-
-**구매 결정 기준**
-1. 글로벌 재고 가용성 및 납기 신뢰성
-2. 공인 대리점 네트워크 커버리지
-3. 기술 문서 및 인증 완비 여부
-4. 가격 경쟁력 (2차 공급사 대비)
-
-**Emerson 관련성**
-Fisher 밸브, ASCO 솔레노이드, Rosemount 트랜스미터 등 표준 기자재 구매 대상.
+- **Age / Occupation**: 35, technical professional who interacts with Emerson Electric's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Emerson Electric selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 여정 매핑 (B2B Buying Journey)
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 주요 활동 | 핵심 채널 | Emerson 개입 포인트 |
-|------|----------|----------|-------------------|
-| 인식 (Awareness) | 산업 트렌드 학습, 문제 정의 | 컨퍼런스, 기술 미디어 | 백서, 사고 리더십 콘텐츠 |
-| 검토 (Consideration) | 솔루션 후보 비교, RFI 발송 | 벤더 웹사이트, 애널리스트 보고서 | 기술 데이터시트, 케이스스터디 |
-| 결정 (Decision) | 기술 평가, 현장 방문, 협상 | 영업 미팅, POC | 레퍼런스 사이트, ROI 계산기 |
-| 구현 (Implementation) | 설치, 통합, 교육 | 현장 서비스, 기술지원 | Emerson 글로벌 서비스 네트워크 |
-| 확장 (Expansion) | 추가 모듈 도입, 업그레이드 | 고객 커뮤니티, CSM | Emerson Exchange, 연간 구독 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Emerson Electric's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Emerson Electric selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 산업 | 규모 | 지역 | 우선순위 |
-|----------|------|------|------|----------|
-| 석유·가스 | 정제, LNG, 파이프라인 | 대기업 | 중동·북미·아시아 | 최우선 |
-| 화학·석유화학 | 기초화학, 정밀화학 | 대·중견 | 아시아·유럽 | 최우선 |
-| 전력·에너지 | 발전, 송배전 | 대기업 | 글로벌 | 우선 |
-| 식음료·제약 | 청정 제조 | 중견·중소 | 북미·유럽 | 성장 |
-| 광업·금속 | 채굴, 제련 | 대기업 | 남미·호주 | 성장 |
+| Stage | Emerson Electric's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Emerson Electric total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Emerson Electric Is Not For
+
+| Type | Characteristics | Why Emerson Electric Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Emerson Electric's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Emerson Electric's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Emerson Electric's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Emerson Electric's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Emerson Electric's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

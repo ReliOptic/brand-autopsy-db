@@ -1,166 +1,84 @@
-# 02 오디언스 맵 — AMETEK, Inc. (AME)
+# 02. Audience Map — Ametek (AME)
 
-## 타겟 오디언스 개요
-
-AMETEK의 고객은 B2B 산업재 구매자로, 개인 소비자가 아닌 기업·기관 단위의 의사결정자다. 구매 사이클이 길고, 기술 사양과 신뢰성이 가격보다 우선시된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 항공우주 시스템 엔지니어 — "이준혁"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직책 | 수석 시스템 엔지니어, 항공우주 OEM |
-| 회사 규모 | 대기업 (임직원 5,000명 이상) |
-| 소재지 | 경기도 성남시 (방위산업 클러스터) |
-| 학력 | 항공우주공학 석사 |
-| 연봉 | 9,500만 원 (추정) |
-
-**배경**
-이준혁은 항공기 센서 서브시스템 설계 팀을 이끌고 있다. 그의 최우선 과제는 DO-178C 및 MIL-SPEC 인증을 통과하는 고신뢰성 부품 소싱이다. 공급망 단절에 민감하며, 납품 지연이 프로그램 일정 전체에 영향을 준다는 사실을 잘 알고 있다.
-
-**목표**
-- 항공기 등급 인증을 통과하는 센서·계측 솔루션 확보
-- 설계 사이클 단축을 위한 기술 지원 및 신속한 프로토타입 납품
-- 단일 공급업체 리스크 최소화를 위한 이중화 소싱 전략 수립
-
-**페인 포인트**
-- 규격 변경 시 부품 재인증에 소요되는 막대한 시간과 비용
-- 공급업체의 기술 문서 품질 불일치
-- 글로벌 공급망 혼란으로 인한 리드타임 불확실성
-
-**정보 수집 채널**
-- SAE, AIAA 기술 컨퍼런스 및 학회지
-- 공급업체 기술 백서·애플리케이션 노트
-- LinkedIn 전문가 네트워크
-- 방위산업진흥회(KDIA) 세미나
-
-**구매 결정 기준**
-1. MIL-SPEC / DO-160 / AS9100 인증 보유 여부
-2. MTBF(평균 무고장 시간) 데이터 공개 여부
-3. 기술 지원 응답 속도 및 전문성
-4. 장기 부품 공급 보장(LTB, Last-Time-Buy 정책)
-
-**AMETEK 연관 제품군**
-- AMETEK Aerospace & Defense 센서 (압력, 온도, 위치)
-- AMETEK Programmable Power 전원 공급 장치
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electrical components & equipment and adjacent industries. (T4_INFERRED from Ametek's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Ametek's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 반도체 장비 구매 팀장 — "박소연"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 44세 |
-| 직책 | 구매 팀장 (Strategic Procurement), 반도체 장비사 |
-| 회사 규모 | 중견기업 (임직원 800명) |
-| 소재지 | 경기도 화성시 |
-| 학력 | 경영학 학사, SCM 전문 자격증 |
-| 연봉 | 8,200만 원 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**배경**
-박소연은 반도체 식각·증착 장비의 핵심 부품 조달을 책임진다. 기술 스펙보다 TCO(총소유비용)와 납기 신뢰도에 집중하며, 엔지니어링 팀과 협업하여 승인 공급업체 목록(AVL)을 관리한다.
-
-**목표**
-- 원가 절감과 품질 유지의 균형점 확보
-- 공급업체 다변화를 통한 리스크 헤지
-- 구매 프로세스 디지털화 및 자동 발주 시스템 연동
-
-**페인 포인트**
-- 공급업체 가격 협상력 부재 (독점 부품)
-- 기술팀과 구매팀 간 스펙 요구사항 소통 단절
-- 환율 변동에 따른 수입 부품 원가 불안정성
-
-**정보 수집 채널**
-- SEMICON Korea, KPCA 전시회
-- 공급업체 포털·EDI 시스템
-- 업계 조달 네트워크 및 협회
-
-**구매 결정 기준**
-1. 납기 준수율 (OTD, On-Time Delivery) 이력
-2. 단가 경쟁력 및 볼륨 디스카운트 구조
-3. 국내 대리점 재고 보유 여부
-4. 품질 보증 기간 및 RMA 처리 속도
-
-**AMETEK 연관 제품군**
-- AMETEK Spectral Instruments (분석 장비)
-- AMETEK ORTEC (방사선 측정)
-- AMETEK 전력 변환 모듈
+- **Age / Occupation**: 42, VP-level or director in a Ametek customer organization
+- **Core pain**: Needs reliable electrical components & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Ametek selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 에너지 플랜트 유지보수 엔지니어 — "최민준"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 51세 |
-| 직책 | 설비 유지보수 수석 엔지니어, 발전 플랜트 운영사 |
-| 회사 규모 | 대기업 (공기업 계열) |
-| 소재지 | 전라남도 영광군 (원전 클러스터) |
-| 학력 | 기계공학 학사, 에너지관리기사 자격증 |
-| 연봉 | 7,800만 원 (추정) |
-
-**배경**
-최민준은 원자력 및 화력 발전 설비의 예방·정기 점검을 담당한다. 계획외 정지(Unplanned Outage)를 막는 것이 최우선 KPI이며, 교체 부품은 반드시 기존 설비와 호환성이 검증되어야 한다. 변화를 싫어하고 검증된 공급업체를 선호한다.
-
-**목표**
-- 설비 가용성(Availability) 99.9% 이상 유지
-- 예방 정비 주기에 맞는 소모품·측정기 적기 확보
-- 디지털 트윈 기반 예측 정비 시스템 도입 검토
-
-**페인 포인트**
-- 단종된 레거시 부품의 대체 소싱 어려움
-- 규제 당국(원안위) 승인 요구로 인한 부품 교체 절차 복잡성
-- 현장 기술자의 신규 장비 교육 부담
-
-**정보 수집 채널**
-- 한국전기연구원(KERI) 기술 세미나
-- 발전 설비 유지보수 협회 네트워크
-- 공급업체 현장 기술 지원 담당자 직접 접촉
-
-**구매 결정 기준**
-1. 기존 설치 레퍼런스 (동일 플랜트 타입)
-2. 국내 기술 지원 및 현장 출동 서비스 가용성
-3. IEC/KEPIC 등 국내 규격 인증 보유 여부
-4. 예비 부품 재고 보장 및 긴급 납품 체계
-
-**AMETEK 연관 제품군**
-- AMETEK Land (열화상·온도 모니터링)
-- AMETEK Solidstate Controls (UPS 시스템)
-- AMETEK Process Instruments (가스 분석기)
+- **Age / Occupation**: 35, technical professional who interacts with Ametek's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Ametek selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 산업 | 구매 동기 | 주요 KPI | AMETEK 침투도 |
-|---------|------|----------|---------|--------------|
-| 항공우주·국방 OEM | 방위·항공 | 인증·신뢰성 | MTBF, 인증 수 | 높음 (추정) |
-| 반도체·전자 장비사 | 반도체·전자 | 원가·납기 | OTD, TCO | 중간 (추정) |
-| 에너지·유틸리티 | 발전·정유 | 안전·가용성 | Availability | 높음 (추정) |
-| 의료기기 제조사 | 의료·헬스케어 | 정밀도·규제 | 정확도, FDA/CE | 중간 (추정) |
-| 자동차 시험 | 자동차 | 시험 표준화 | 재현성, 속도 | 낮음~중간 (추정) |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Ametek's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Ametek selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 단계별 접점
+## Purchase Journey — AARRR Framework
 
-```
-인지(Awareness)
-  └─ 전시회·컨퍼런스 / 업계 미디어 / LinkedIn
-       ↓
-검토(Consideration)
-  └─ 기술 백서 다운로드 / 제품 카탈로그 / 웨비나
-       ↓
-평가(Evaluation)
-  └─ 샘플 요청 / 기술 Q&A / 레퍼런스 체크
-       ↓
-구매(Purchase)
-  └─ 공식 견적 / 계약 협상 / AVL 등록
-       ↓
-유지(Retention)
-  └─ 기술 지원 / 교육 / 업그레이드 알림
-```
+| Stage | Ametek's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Ametek total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Ametek Is Not For
+
+| Type | Characteristics | Why Ametek Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Ametek's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Ametek's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Ametek's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Ametek's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Ametek's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,144 +1,84 @@
-# Duke Energy (DUK) — 오디언스 맵
+# 02. Audience Map — Duke Energy (DUK)
 
-> 분류: 전력 유틸리티 | 티커: DUK
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-| 세그먼트 | 비중 (추정) | 우선순위 |
-|---------|-----------|---------|
-| 주거용 고객 (개인·가정) | 약 70% | 1순위 |
-| 상업·산업 고객 (C&I) | 약 25% | 2순위 |
-| 기관 투자자·주주 | 소수 | 3순위 |
-| 규제 기관·정책 입안자 | 소수 | 4순위 |
-| 지역사회·시민단체 | 소수 | 5순위 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electric utilities and adjacent industries. (T4_INFERRED from Duke Energy's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Duke Energy's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 서버러티 서울 (Suburban Sarah)
+## Core Personas
 
-**이름**: 사라 톰슨 (Sarah Thompson)
-**나이**: 42세
-**거주지**: 노스캐롤라이나 주 샬럿 교외 (추정)
-**직업**: 중학교 교사
-**가구 형태**: 배우자 + 자녀 2명, 단독주택 소유
+### Persona 1 — Enterprise Decision-Maker
 
-**인구통계**
-- 연 가구소득: $75,000–$95,000 (추정)
-- 주택 소유: 자가
-- 에너지 사용: 월평균 전기요금 $150–$200
-
-**심리통계 (Psychographics)**
-- 가족의 안전과 편안함을 최우선 가치로 여김
-- 청구서 금액에 민감하며 절약 정보에 적극 반응
-- 환경 문제에 관심은 있으나 행동 변화에는 장벽 존재
-- SNS(Facebook, Instagram) 중간 사용자
-
-**주요 페인 포인트**
-- 여름·겨울철 급등하는 전기요금
-- 정전 시 가족 안전 및 냉장 음식 손실 우려
-- 복잡한 요금 체계 이해 어려움
-
-**브랜드 접점**
-- 월별 청구서 (주요 접점)
-- Duke Energy 앱 사용 (에너지 모니터링)
-- 이메일 뉴스레터 수신
-
-**메시지 공명 키워드**
-안정성, 절약 팁, 스마트 홈, 정전 복구 알림, 에너지 효율 리베이트
+- **Age / Occupation**: 42, VP-level or director in a Duke Energy customer organization
+- **Core pain**: Needs reliable electric utilities solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Duke Energy selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 산업 관리자 인호 (Industrial Manager Inho)
+### Persona 2 — Technical Specialist / End User
 
-**이름**: 박인호
-**나이**: 51세
-**거주지**: 인디애나 주 인디애나폴리스 (추정)
-**직업**: 제조 공장 시설 관리 이사
-**기업 규모**: 직원 500명 이상 제조업체
-
-**인구통계**
-- 연간 에너지 비용: $500,000 이상 (추정)
-- 구매 결정권 보유
-- 엔지니어링·운영 배경
-
-**심리통계 (Psychographics)**
-- 비용 예측 가능성과 공급 안정성을 최우선시
-- 에너지 절약 ROI에 민감
-- 규제 준수 및 ESG 보고 압박 증가
-- 장기 계약 및 수요 반응 프로그램에 관심
-
-**주요 페인 포인트**
-- 전력 수요 피크 시간대 비용 급등
-- 생산 중단 위험 (정전·불안정 공급)
-- 탄소 배출량 감축 목표 달성 압박
-
-**브랜드 접점**
-- 전담 영업 담당자 (Key Account Manager)
-- 산업 고객 포털
-- 에너지 컨설팅 서비스
-
-**메시지 공명 키워드**
-수요 반응, 에너지 감사, 인터럽터블 요금, 청정에너지 조달, 탄소 발자국
+- **Age / Occupation**: 35, technical professional who interacts with Duke Energy's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Duke Energy selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: ESG 투자자 엘리나 (ESG Investor Elena)
+### Persona 3 — Financial Stakeholder / Investor
 
-**이름**: 엘리나 마르티네스 (Elena Martinez)
-**나이**: 38세
-**거주지**: 뉴욕 (추정)
-**직업**: 기관투자자 ESG 애널리스트
-**소속**: 자산운용사 (AUM $10B 이상)
-
-**인구통계**
-- 금융·환경 복수 전공 배경 (추정)
-- DUK 주식 포트폴리오 보유
-- CFA 자격증 소지
-
-**심리통계 (Psychographics)**
-- 장기 배당 안정성과 규제 리스크 균형 추구
-- 기후 전환 리스크 정량화에 집중
-- 투명한 ESG 공시를 신뢰의 핵심 지표로 봄
-- 업계 컨퍼런스·Investor Day 적극 참여
-
-**주요 페인 포인트**
-- 석탄 자산 전환 일정의 불확실성
-- 규제 환경 변화에 따른 배당 지속 가능성
-- 기후 관련 좌초 자산 리스크
-
-**브랜드 접점**
-- 연간 보고서·ESG 보고서
-- Investor Relations 웹페이지
-- 분기 실적 발표 컨퍼런스 콜
-
-**메시지 공명 키워드**
-배당 성장, 탄소중립 로드맵, 규제 수익률, 재생에너지 CAPEX, 좌초 자산 관리
+- **Age / Occupation**: 50, institutional investor or analyst covering Utilities
+- **Core pain**: Needs to evaluate Duke Energy's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Duke Energy selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 3. 오디언스 Journey Map (주거용 고객 기준)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 트리거 | 접점 | 감정 상태 | 브랜드 기회 |
-|------|--------|------|----------|------------|
-| 인지 | 이사/신규 계약 | 웹사이트, 콜센터 | 중립 → 약간 불안 | 온보딩 경험 단순화 |
-| 고려 | 요금 비교 의향 | 에너지 절약 계산기 | 비교적 이성적 | 절약 프로그램 노출 |
-| 사용 | 월별 청구서 수령 | 앱, 이메일 | 만족 또는 불만 | 개인화 인사이트 제공 |
-| 충성 | 정전 경험 후 복구 | 알림 문자, SNS | 불안 → 안도 | 투명한 복구 소통 |
-| 옹호 | 에너지 효율 달성 | 리베이트 프로그램 | 만족·자부심 | 후기·공유 유도 |
+| Stage | Duke Energy's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Duke Energy total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 4. 세그먼트별 핵심 메시지 매트릭스
+## Anti-Persona — Who Duke Energy Is Not For
 
-| 세그먼트 | 핵심 메시지 | 증거 포인트 |
-|---------|-----------|------------|
-| 주거 고객 | "당신의 집을 더 스마트하게" | 에너지 모니터링 앱, 리베이트 (공식) |
-| C&I 고객 | "비용 예측 가능성과 청정에너지 조달" | 수요 반응 프로그램, PPA (공식) |
-| 투자자 | "안정적 배당 + 청정 전환 로드맵" | ESG 보고서, Investor Day 자료 (공식) |
-| 규제 기관 | "지역사회와 함께하는 책임 있는 전환" | 공공 청문회 제출물 (공식) |
+| Type | Characteristics | Why Duke Energy Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Duke Energy's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Duke Energy's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Duke Energy's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Duke Energy's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Duke Energy's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In utilities markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

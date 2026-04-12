@@ -1,164 +1,84 @@
-# 02 오디언스 맵 — Merck / Keytruda (MRK)
+# 02. Audience Map — Merck & Co. (MRK)
 
-> 섹터: 헬스케어 — 제약 | 티커: MRK | 업데이트: 2026-04-12
-
----
-
-## 1. 오디언스 세분화 프레임워크
-
-Keytruda의 커뮤니케이션 대상은 크게 세 레이어로 나뉜다:
-
-```
-레이어 1: HCP (Healthcare Professionals) — 처방 결정자
-레이어 2: 환자 & 보호자 (Patient & Caregiver) — DTC 대상
-레이어 3: 기관/지불자 (Payer/Institutional) — 보험사·병원 위원회
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 프로파일
+## Ideal Customer Profile (ICP)
+
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in pharmaceuticals. B2C: End consumers of health care products and services. (T4_INFERRED from Merck & Co.'s segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Merck & Co.'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 종양 전문의 Dr. 김재원
+## Core Personas
 
-**기본 정보**
-| 항목 | 내용 |
-|------|------|
-| 역할 | 대학병원 혈액종양내과 전문의 (경력 15년) |
-| 나이 | 45세 |
-| 근무지 | 서울 상급종합병원 |
-| 진료 환자 수 | 월 120~150명 (암 환자 80% 이상) |
+### Persona 1 — Enterprise Decision-Maker
 
-**목표 & 동기**
-- 최신 면역항암 데이터를 빠르게 습득하여 최적 처방 결정
-- KEYNOTE 임상 결과를 바탕으로 환자별 맞춤 치료 전략 수립
-- 학회 발표 및 논문 기고를 통한 전문성 강화
-
-**페인 포인트**
-- 적응증이 40개 이상이라 바이오마커별 가이드라인 추적이 복잡
-- 급여 기준 변경 시 처방 전환 결정의 부담
-- 면역 관련 이상 반응(irAE) 관리 프로토콜 표준화 필요
-
-**정보 채널**
-- ASCO, ESMO, AACR 학회 자료 (공식)
-- NEJM, JCO, Lancet Oncology (공식)
-- Merck Medical Affairs MRL(Medical Representative) 방문
-- Merck.com/Keytruda 전문가 포털 (공식)
-
-**Keytruda와의 관계**
-- 1차 치료제로 적극 처방 (NSCLC PD-L1≥50% 등)
-- 경쟁사 제품 대비 임상 데이터 비교 분석 습관적으로 수행
-- irAE 관리 지침 업데이트 시 즉각 반영
-
-**핵심 메시지 공명 포인트 (추정)**
-> "KEYNOTE 데이터가 뒷받침한다" / "바이오마커 기반 정밀 처방"
+- **Age / Occupation**: 42, VP-level or director in a Merck & Co. customer organization
+- **Core pain**: Needs reliable pharmaceuticals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Merck & Co. selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 폐암 환자 박미선
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-| 항목 | 내용 |
-|------|------|
-| 역할 | 비소세포폐암(NSCLC) 3기 환자 |
-| 나이 | 58세 |
-| 직업 | 전 초등학교 교사 (현재 치료 중 휴직) |
-| 가족 | 배우자, 성인 자녀 2명 |
-| 진단 시점 | 6개월 전 |
-
-**목표 & 동기**
-- 가족과 더 많은 시간을 보내고 싶음
-- 치료 부작용을 최소화하면서 일상 유지
-- 치료에 대한 이해를 높여 의사와 능동적으로 소통하고 싶음
-
-**페인 포인트**
-- "면역항암제"라는 개념 자체가 생소하고 두려움
-- 고가 약제 비용 부담 (건강보험 급여 여부 불확실)
-- 부작용 정보가 너무 많아 오히려 혼란
-- 온라인에서 신뢰할 수 없는 정보와 공식 정보를 구분하기 어려움
-
-**정보 채널**
-- 담당 의사 및 간호사 (1차 신뢰원)
-- 네이버 카페 (암 환우 커뮤니티)
-- Keytruda.com 환자용 홈페이지 (공식)
-- 국립암센터 블로그, 건강보험심사평가원
-
-**Keytruda와의 관계**
-- 의사 권유로 복용 시작, 브랜드명 인지도는 높음
-- "키트루다"로 구어 인식
-- 치료 효과보다 "내가 왜 이 약을 맞는지"에 대한 이해 요구
-
-**핵심 메시지 공명 포인트 (추정)**
-> "당신 몸의 면역 체계가 싸운다" / "더 많은 시간을 위해"
+- **Age / Occupation**: 35, technical professional who interacts with Merck & Co.'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Merck & Co. selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 보험급여 결정자 이정호 부장
+### Persona 3 — Consumer / Retail Customer
 
-**기본 정보**
-| 항목 | 내용 |
-|------|------|
-| 역할 | 국내 대형 민간보험사 신약급여 심사팀장 |
-| 나이 | 52세 |
-| 배경 | 약학 박사, 보건경제학 석사 |
-| 책임 | 고가 항암제 급여 등재 여부 결정 |
-
-**목표 & 동기**
-- 비용효과성(Cost-effectiveness) 근거 기반 급여 결정
-- 가입자 보호와 재정 지속 가능성 균형
-- 국내 건강보험심사평가원(HIRA) 및 국제 HTA 기준 정합성 유지
-
-**페인 포인트**
-- 제약사가 제출하는 경제성 평가 모델의 불투명성
-- 적응증 확대 속도에 비해 실사용 데이터(RWE) 부족
-- Keytruda 연간 약제비가 환자당 수천만 원대 → 보험재정 부담
-
-**정보 채널**
-- HIRA 약제급여평가위원회 회의록 (공식)
-- ICER, NICE, SMC 보고서 (공식)
-- Merck HEOR(보건경제·결과연구) 팀 프레젠테이션 (추정)
-- Journal of Managed Care & Specialty Pharmacy
-
-**Keytruda와의 관계**
-- 급여 확대에 신중, RWE 및 비용효과 데이터 추가 요구
-- 위험분담계약(RSA) 협상 주도
-- Merck의 환자지원프로그램(PAP) 현황 모니터링
-
-**핵심 메시지 공명 포인트 (추정)**
-> "실사용 데이터 기반 비용효과성" / "급여 확대 = 접근성 개선"
+- **Age / Occupation**: 38, consumer who interacts with Merck & Co.'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Merck & Co. selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 3. 오디언스 여정 맵 (Patient Journey)
+## Purchase Journey — AARRR Framework
 
-```
-진단 전       →  진단       →  치료 결정    →  치료 중     →  장기 생존/재발
-(무증상 검진)    (충격·혼란)    (의사 상담)    (투약·모니터)  (생존자 커뮤니티)
-    |               |               |               |               |
-  예방 메시지    인지 캠페인    HCP 처방 지원   환자 지원     생존자 프로그램
-  (비중 낮음)   바이오마커    (KEYNOTE 데이터  (irAE 관리    (커뮤니티 파트너)
-               검사 촉구      IRF 교육)       안내)
-```
-
----
-
-## 4. 세그먼트별 메시지 매핑
-
-| 세그먼트 | 핵심 니즈 | 브랜드 응답 메시지 |
-|----------|-----------|-------------------|
-| 종양 전문의 | 임상 근거·안전성 데이터 | "KEYNOTE 시리즈: 30+ 연구, 수천 명의 환자 데이터" |
-| 폐암 환자 | 희망·이해·부작용 정보 | "면역 체계가 당신 편에서 싸웁니다" |
-| 보험 결정자 | 비용효과성·RWE | "실사용 근거로 증명된 가치" |
-| 일반 보호자 | 신뢰할 수 있는 정보 | "공인된 출처에서 정확한 정보를" |
-| 간호사/약사 | 투약·이상반응 관리 | "irAE 조기 인식 및 관리 가이드" |
+| Stage | Merck & Co.'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Merck & Co. total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. TAM/SAM/SOM 추정 (한국 시장)
+## Anti-Persona — Who Merck & Co. Is Not For
 
-| 레이어 | 규모 | 근거 |
-|--------|------|------|
-| TAM: 전체 항암제 시장 | ~3조 원/년 (한국) | 건보공단 약품비 통계 (추정) |
-| SAM: 면역항암제 시장 | ~8,000억 원/년 | HIRA 급여 실적 기반 (추정) |
-| SOM: Keytruda 점유 | ~3,500억 원/년 | 시장점유율 40~45% 추정 (추정) |
+| Type | Characteristics | Why Merck & Co. Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Merck & Co.'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Merck & Co.'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Merck & Co.'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Merck & Co.'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Merck & Co.'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

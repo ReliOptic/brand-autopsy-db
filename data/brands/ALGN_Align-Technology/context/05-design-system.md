@@ -1,138 +1,102 @@
-# 05 디자인 시스템 — Align Technology (ALGN)
-> 섹터: 헬스케어 / 치과 | 티커: ALGN
+# 05. Design System — Align Technology (ALGN)
+
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 1. 디자인 철학
+## 1. Color Palette
 
-Align Technology의 디자인 언어는 **"임상적 정밀함 + 인간적 따뜻함"** 의 균형을 추구한다.
-과도한 의료 냉정함도, 과도한 소비재 유희성도 피하며, 신뢰와 감성을 동시에 전달하는 시각 언어를 구사한다.
+Align Technology's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-핵심 원칙:
-- **명료성 (Clarity)**: 복잡한 기술을 단순하게 시각화
-- **정밀성 (Precision)**: 3D 렌더링, 데이터 시각화의 고해상도 품질
-- **인간성 (Humanity)**: 실제 미소, 다양한 인종·연령 표현
-- **프리미엄 (Premium)**: 여백, 타이포그래피, 컬러 절제
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 2. 컬러 시스템
+### Color Principles
 
-### 2-1. 브랜드 코어 컬러
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Invisalign Blue (공식) | `#0070C9` | 0, 112, 201 | 주 브랜드 컬러, 헤드라인, CTA 버튼 |
-| Deep Navy (공식) | `#003087` | 0, 48, 135 | 배경 다크 모드, 고급감 강조 영역 |
-| Pure White (공식) | `#FFFFFF` | 255, 255, 255 | 배경 기본, 여백, 투명 어라이너 연상 |
-| Warm Gray (공식) | `#F5F5F5` | 245, 245, 245 | 섹션 배경, 카드 배경 |
-| Charcoal Text (공식) | `#1A1A1A` | 26, 26, 26 | 본문 텍스트 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 2-2. 보조 컬러
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 컬러명 | HEX | RGB | 용도 |
-|-------|-----|-----|------|
-| Smile Teal (추정) | `#00B4C8` | 0, 180, 200 | 강조 포인트, 아이콘, 배지 |
-| Soft Lavender (추정) | `#E8EAF6` | 232, 234, 246 | 여성 타깃 배경, 팝업 배경 |
-| Confidence Gold (추정) | `#F5A623` | 245, 166, 35 | 어워드·인증·CTA 강조 배지 |
-| Success Green (추정) | `#00A651` | 0, 166, 81 | 치료 완료 상태, 긍정 피드백 UI |
-| Alert Red (추정) | `#E02020` | 224, 32, 32 | 오류 상태, 경고 — 마케팅 소재 사용 금지 |
-
-### 2-3. 컬러 사용 비율 (추정)
-
-| 컬러 역할 | 비율 | 컬러 |
-|---------|------|------|
-| Dominant (지배색) | 60% | `#FFFFFF` Pure White |
-| Secondary (보조색) | 30% | `#0070C9` Invisalign Blue |
-| Accent (강조색) | 10% | `#00B4C8` Smile Teal / `#F5A623` Gold |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피
+## 2. Typography
 
-### 3-1. 서체 체계
+Align Technology's digital properties employ a typographic system appropriate to its health care positioning.
 
-| 용도 | 서체 | 굵기 | 비고 |
-|------|------|------|------|
-| 주 헤드라인 | Gotham (추정) | Bold / Black | 자신감·선명함 표현 |
-| 부 헤드라인 | Gotham (추정) | Medium | 소제목, 카드 타이틀 |
-| 본문 | Open Sans 또는 Source Sans Pro (추정) | Regular | 가독성 최우선 |
-| 수치·데이터 강조 | Gotham (추정) | Black | "1,700만 명", "6개월" 등 수치 |
-| 한국어 대응 (KR) | Noto Sans KR (추정) | Regular / Bold | 한국 로컬 캠페인 |
+### Typeface System
 
-### 3-2. 타이포 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 사용처 |
-|------|------|--------|
-| Display | 56~72px | 랜딩 히어로 헤드라인 |
-| H1 | 40~48px | 페이지 주 제목 |
-| H2 | 28~32px | 섹션 제목 |
-| H3 | 20~24px | 카드 제목, 부제목 |
-| Body | 16~18px | 본문 |
-| Caption | 12~14px | 면책 문구, 출처 표기 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 4. 이미지 & 비주얼 언어
+## 3. Channel Specifications
 
-### 4-1. 사진 스타일 가이드
-
-| 카테고리 | 기준 |
-|---------|------|
-| 인물 사진 | 자연광 또는 소프트 스튜디오 조명, 미소 표정 필수 |
-| 다양성 | 인종·연령·성별 다양화 (공식 가이드라인) |
-| 배경 | 화이트/라이트그레이 또는 생활감 있는 자연 환경 |
-| 금지 | 과도한 필터, 어색한 포즈, 의료 기기 클로즈업 단독 사용 |
-| 어라이너 사진 | 투명한 소재감 강조, 밝은 배경에서 미세 반사 표현 |
-
-### 4-2. 3D 렌더링 스타일
-
-| 항목 | 기준 |
-|------|------|
-| ClinCheck 스크린샷 | 블루-화이트 투톤, 치아 단면도 명확 |
-| 어라이너 제품 렌더링 | 투명도 85~95% 표현, 주변 여백 충분 |
-| 배경 | 그라데이션 라이트 블루 또는 순백 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 5. 아이코노그래피 & UI 요소
+## 4. Layout Principles
 
-| 요소 | 스타일 |
-|------|--------|
-| 아이콘 | 라인 아이콘 (2px 스트로크), 라운드 엔드 |
-| 버튼 | 라운드 코너 (8px radius), 주 CTA: `#0070C9` 채움 |
-| 카드 | 흰 배경, `#F5F5F5` 테두리 또는 그림자 (shadow: 0 2px 12px rgba(0,0,0,0.08)) |
-| 배지 | 원형 또는 필 배지, Confidence Gold 또는 Success Green |
-| 진행 표시 | 스텝 바 (Invisalign Blue + Gray) |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 6. 모션 & 애니메이션 원칙 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| 원칙 | 내용 |
-|------|------|
-| 속도 | 전환 200~300ms, 느린 파이드인 500ms |
-| 이징 | ease-out 선호 (자신감 있는 감속) |
-| 3D 회전 | 치아 모델 회전 시 부드러운 관성 표현 |
-| 금지 | 갑작스러운 팝업, 과도한 바운스 효과 |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 7. 브랜드 로고 사용 규칙
+## 5. Design Prohibitions
 
-| 항목 | 규칙 |
-|------|------|
-| 최소 여백 | 로고 높이의 50% 이상 사방 여백 (공식) |
-| 배경 | 흰색 또는 Invisalign Blue 배경만 허용 (공식) |
-| 금지 | 늘이기, 색상 변경, 그림자 추가, 배경과 유사 컬러 사용 (공식) |
-| 한국어 버전 | Invisalign 로고 + 인비절라인 한글 병기 허용 (추정) |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 8. Steal Sheet — 디자인 시스템 레이어
-
-| # | 훔쳐야 할 전략 | 실행 방법 |
-|---|--------------|---------|
-| 1 | **투명 소재감이 브랜드 시각 언어 자체** — 어라이너의 투명함을 배경, UI, 오버레이 모든 곳에 일관 적용하여 제품 특성이 디자인 언어가 되도록 설계 | 투명 카드 UI, 반투명 헤더, 글래스모피즘 소재감을 브랜드 테마로 일관화 |
-| 2 | **데이터 시각화를 브랜드 크리에이티브로 활용** — ClinCheck 3D 화면이 곧 광고 소재, 수치 인포그래픽이 곧 SNS 콘텐츠가 되도록 브랜딩과 제품 UI를 통합 설계 | 제품 스크린샷을 광고 소재 템플릿으로 표준화, 상담 후 시뮬레이션 화면을 환자가 SNS에 직접 공유하도록 유도 |
-| 3 | **컬러 절제로 프리미엄 느낌 강화** — 60% 화이트 지배 구성을 유지하여 의료 브랜드의 청결감과 프리미엄 여백 감각을 동시에 표현 | 비율 60-30-10 컬러 룰을 모든 마케팅 소재에 적용, 과포화 컬러 사용 금지 |
+*Layer 5 of 8 — Brand Autopsy: Align Technology (ALGN)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

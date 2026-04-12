@@ -1,188 +1,141 @@
-# 06 채널 플레이북 — A. O. Smith (AOS)
+# 06. Channel Playbook — A. O. Smith (AOS)
 
-> 섹터: 산업재 / 온수기 & 수처리 | 분석일: 2026-04-12
-
----
-
-## 1. 채널 믹스 전략 개요
-
-A. O. Smith는 B2B 트레이드 채널(직판·대리점)과 B2C 리테일·디지털 채널을 병행 운영한다. 아시아 시장에서는 이커머스 비중이 급격히 높아지고 있으며, 북미에서는 전통 리테일과 트레이드 채널이 여전히 핵심이다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널별 역할 정의
+## 1. Channel Strategy Matrix
 
-| 채널 | 주요 역할 | 핵심 KPI |
-|------|-----------|----------|
-| 공식 웹사이트 | 제품 정보 허브, 딜러 연결, 콘텐츠 SEO | 유기 트래픽, 딜러 찾기 클릭 |
-| 리테일 (Home Depot, Lowe's 등) | 주거용 교체 수요 포착 | 매장 내 전환, 번들 매출 |
-| B2B 직판·대리점 | 상업·산업 고객 수주 | 계약 건수, 평균 수주 금액 |
-| 이커머스 (아마존, 티몰, JD) | 아시아·온라인 고객 확대 | GMV, 제품 리뷰 평점 |
-| YouTube | 교육 영상, 브랜드 인지 | 시청 완료율, 구독자 |
-| Facebook / Instagram | 소비자 브랜드 인지, 리타겟팅 | 도달률, 광고 ROAS |
-| LinkedIn | B2B 인지, 채용, 업계 리더십 | 팔로워 증가, 게시물 참여율 |
-| 이메일 마케팅 | 리텐션, 교육, 프로모션 | 오픈율, 클릭률, 전환율 |
-| 트레이드 쇼·전시회 | 업계 관계 구축, 신제품 론칭 | 리드 수, 계약 전환율 |
-| PR·언론 | 신뢰 구축, 기업 평판 | 기사 수, 미디어 도달 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 3. 채널별 콘텐츠 전략
+## 2. Channel Tone Variations
 
-### 3-1. 공식 웹사이트 (aosmith.com)
+A. O. Smith's core voice adjusts by channel while maintaining brand coherence.
 
-**역할**: 정보 허브 + 전환 엔진
-**핵심 페이지**: 제품 카탈로그, ROI 계산기, 딜러 찾기, 트레이드 파트너 포털
-**SEO 키워드 전략** (추정):
-- "best heat pump water heater"
-- "energy efficient water heater"
-- "commercial water heater"
-- "water softener vs water filter"
-
-**Steal Sheet 3개**:
-1. 에너지 절감 계산기를 메인 히어로 섹션 CTA로 배치해 유입 즉시 참여 유도 (추정)
-2. "제품 교체 시기 체크" 진단 툴로 교체 수요 자기 발견 유도 (추정)
-3. 트레이드 파트너 전용 포털 로그인 버튼을 상단 네비게이션에 항상 노출 (추정)
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3-2. YouTube
+## 3. Cross-Channel Synergy Map
 
-**역할**: 교육 콘텐츠 + 유기 검색 트래픽
-**주요 포맷**:
-- 설치 How-to 영상 (5–10분)
-- 제품 비교 리뷰 (3–7분)
-- "에너지 절감 실험" 시리즈 (2–4분)
-- 전문가 Q&A 라이브 스트림
-
-**게시 빈도**: 주 1–2회 (추정)
-**Steal Sheet 3개**:
-1. 설치 영상 시리즈를 재생목록으로 묶어 "온수기 교체 완전 가이드" 구조화 → SEO + 시청 지속 시간 동시 강화 (추정)
-2. 영상 말미에 "절감액 계산기" 링크 카드 삽입, 웹사이트 전환 유도 (추정)
-3. 중국어·힌디어·한국어 자막 추가로 아시아 시장 동일 콘텐츠 재활용 (추정)
-
----
-
-### 3-3. Instagram / Facebook
-
-**역할**: 소비자 브랜드 인지 + 리타겟팅 광고
-**콘텐츠 믹스** (추정):
-- 제품 라이프스타일 이미지 40%
-- 교육 인포그래픽 30%
-- 고객 후기·UGC 20%
-- 프로모션·이벤트 10%
-
-**Steal Sheet 3개**:
-1. "월 전기요금 $XXX 절약" 텍스트 오버레이 이미지 광고 → 클릭률 최고 포맷 (추정)
-2. 설치 전·후 욕실/주방 사진 비교 Carousel → 저장률 높은 교육 콘텐츠 (추정)
-3. 인플루언서(홈 리노베이션, DIY 채널) 협업 → 설치 경험 진정성 있게 전달 (추정)
-
----
-
-### 3-4. LinkedIn
-
-**역할**: B2B 인지 + 업계 리더십
-**콘텐츠 유형** (추정):
-- 에너지 효율 규제 트렌드 분석
-- 상업 프로젝트 사례 연구
-- 신기술(히트펌프, IoT) 론칭 발표
-- 채용·기업 문화 콘텐츠
-
-**Steal Sheet 3개**:
-1. 사업부 엔지니어가 직접 작성한 기술 인사이트 게시물 → 전문성 신호 최대화 (추정)
-2. 대형 상업 설치 완료 현장 사진 + ROI 수치 → 영업 지원용 소셜 프루프 (추정)
-3. 에너지 절감 관련 법규 변경(DOE, IRA) 즉시 해설 게시 → 업계 허브 포지셔닝 (추정)
-
----
-
-### 3-5. 이커머스 (아마존 / 티몰 / JD.com)
-
-**역할**: 아시아 소비자 직판 + 글로벌 온라인 전환
-**핵심 최적화 요소** (추정):
-- A+ 콘텐츠 / Enhanced Brand Content 완전 활용
-- 5성급 리뷰 관리, 빠른 부정 리뷰 대응
-- "자주 묻는 질문" 섹션 완전 구축
-- 프라임 데이·11.11 광군제 연계 프로모션
-
-**Steal Sheet 3개**:
-1. 제품 상세 페이지 상단에 "절감 계산기 이미지" (연간 절감액 수치 강조) 배치 → 전환율 개선 (추정)
-2. 번들 상품 구성 (온수기 + 필터 + 설치 키트) → 객단가 상승 + 리뷰 품질 향상 (추정)
-3. 아시아 고객 대상 카카오·위챗 CS 채널 연동 → 구매 후 신뢰 강화 (추정)
-
----
-
-### 3-6. 이메일 마케팅
-
-**역할**: 리텐션, 교육, 세그먼트별 전환
-**세그먼트별 시퀀스** (추정):
-
-| 세그먼트 | 시퀀스 | 주기 |
-|----------|--------|------|
-| 신규 구매자 | 설치 가이드 → 앱 등록 유도 → 필터 교체 리마인더 | D+1, D+7, D+180 |
-| 교체 고려 리드 | 절감액 계산 → 제품 비교 → 딜러 연결 | W1, W2, W3 |
-| 트레이드 파트너 | 신제품 스펙 시트 → 교육 웨비나 초대 → 인센티브 안내 | 월 2회 |
-| 이탈 예상 고객 | 보증 만료 알림 → 업그레이드 오퍼 | D-30 |
-
-**Steal Sheet 3개**:
-1. 보증 만료 D-30 이메일에 "지금 교체 시 XX% 할인" 오퍼 자동화 → 교체 사이클 선점 (추정)
-2. 구매 후 6개월 시점에 "에너지 절감 리포트" 개인화 이메일 발송 → 재구매 및 추천 유도 (추정)
-3. 트레이드 파트너 월간 뉴스레터에 "이달의 시공 사례" 섹션 → 파트너 자긍심 + 영업 지원 (추정)
-
----
-
-## 4. 채널 통합 퍼널 (추정)
+### Route A — Product/Service Launch Sequence
 
 ```
-[인지]           [관심]           [고려]           [구매]          [충성]
-  |                |                |                |               |
-YouTube         웹사이트          ROI계산기        리테일/          이메일
-인플루언서      블로그            제품비교         이커머스         앱 알림
-PR/언론         SNS광고           딜러 찾기        B2B직판          UGC 공유
-LinkedIn        이메일 시퀀스     견적 요청        트레이드채널     보증 연장
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 5. 지역별 채널 우선순위
+## 4. Channel-Specific Prohibitions
 
-| 지역 | 1순위 | 2순위 | 3순위 |
-|------|-------|-------|-------|
-| 북미 | 리테일 (HD/Lowe's) | 트레이드 직판 | YouTube + SEO |
-| 중국 | 티몰 / JD.com | 위챗 미니프로그램 | 오프라인 가전 매장 |
-| 인도 | 아마존 인도 | 오프라인 대리점 | Facebook / YouTube |
-| 한국 | 네이버 쇼핑 / 쿠팡 | 오프라인 대형 가전 | 카카오 광고 |
-| 유럽 | 웹사이트 직판 | B2B 대리점 | LinkedIn |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
----
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-## 6. 채널 성과 측정 프레임워크 (추정)
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 레이어 | 지표 | 목표 벤치마크 |
-|--------|------|--------------|
-| 인지 | 브랜드 검색량 YoY 증가 | +15% |
-| 참여 | 콘텐츠 평균 참여율 | SNS 2.5% 이상 |
-| 전환 | 딜러 찾기 → 견적 요청 전환 | 8% 이상 |
-| 리텐션 | 이메일 오픈율 | 25% 이상 |
-| 수익 | 디지털 채널 기여 매출 비중 | +5%p YoY |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 7. Steal Sheet — 채널 레이어별 3개
+## 5. Crisis Response Protocol
 
-### Layer A: 퍼포먼스 마케팅
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-1. **구글 쇼핑 광고 + ROI 메시지** — "연간 $320 절감" 텍스트를 제품 타이틀에 포함해 클릭률 극대화. Energy Star 필터로 관심 고객만 유입. (추정)
-2. **리타겟팅 세그먼트 분리** — 제품 페이지 방문자 vs. 딜러 찾기 이탈자 vs. 장바구니 이탈자를 각각 다른 메시지로 추적. (추정)
-3. **IRA 세금공제 시즌 집중 집행** — 연말 세금 신고 시즌(10–12월)에 히트펌프 온수기 광고 예산을 2–3배 집중, "세금공제 $2,000 + 에너지 절감" 통합 메시지. (추정)
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### Layer B: 파트너십 & 인플루언서
+### Scenario 2 — Regulatory or Legal Action
 
-1. **홈 리노베이션 유튜버 협업** — 구독자 10만–100만 DIY/홈 채널과 설치 체험 협업. 진정성 있는 "실제 교체 과정" 영상 공동 제작. (추정)
-2. **건설·부동산 개발사 B2B 파트너십** — 신축 아파트·호텔 기본 사양 지정(스펙 인) 캠페인. 수천 유닛 단위 볼륨 확보. (추정)
-3. **지역 플러머 인증 프로그램 + SNS 배지** — "AOS 공인 설치 전문가" 배지를 파트너가 SNS에 공유하게 유도. 브랜드 신뢰와 채널 확장 동시 달성. (추정)
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### Layer C: 커뮤니티 & 로열티
+### Scenario 3 — Reputation / Social Media Issue
 
-1. **앱 기반 절감 리포트 공유** — iCOMM 앱 내 "이번 달 에너지 절감량" 소셜 공유 버튼. 사용자 UGC를 브랜드 콘텐츠로 전환. (추정)
-2. **트레이드 포인트 프로그램** — 설치 건수에 따라 포인트 적립, AOS 굿즈·교육 바우처·리베이트로 교환. 파트너 충성도 강화. (추정)
-3. **고객 보증 연장 + 리뷰 요청 자동화** — 설치 완료 30일 후 자동 리뷰 요청 이메일 + 5성 리뷰 시 보증 1년 연장 혜택. 플랫폼 평점 관리와 리텐션 동시 달성. (추정)
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+A. O. Smith's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+A. O. Smith's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+A. O. Smith's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

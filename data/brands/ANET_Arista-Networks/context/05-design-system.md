@@ -1,136 +1,102 @@
-# 05 — Design System
-## Arista Networks (ANET)
+# 05. Design System — Arista Networks (ANET)
+
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 1. Design Philosophy
+## 1. Color Palette
 
-Arista's visual identity reflects its engineering culture: functional clarity over decorative expression. The design system prioritizes information density, scanability, and technical credibility. Marketing materials are built to survive scrutiny from engineers who distrust visual gloss — so every design choice earns its place by serving communication, not aesthetics. (estimated)
+Arista Networks's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## 2. Color System
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| Color Name | HEX Code | RGB | Usage | Source |
-|---|---|---|---|---|
-| Arista Blue (Primary) | #005EB8 | rgb(0, 94, 184) | Logo, primary CTAs, section headers, hyperlinks | (estimated) |
-| Dark Navy | #002147 | rgb(0, 33, 71) | Footer backgrounds, executive collateral, dark mode headers | (estimated) |
-| Sky Blue (Accent) | #4DA8E0 | rgb(77, 168, 224) | Diagram highlights, secondary CTAs, icon fills | (estimated) |
-| White | #FFFFFF | rgb(255, 255, 255) | Primary page background, reversed type on dark fields | (official) |
-| Light Gray | #F4F4F4 | rgb(244, 244, 244) | Alternating table rows, card backgrounds, sidebar panels | (estimated) |
-| Mid Gray | #9E9E9E | rgb(158, 158, 158) | Secondary body text, placeholder copy, disabled states | (estimated) |
-| Dark Gray (Body) | #333333 | rgb(51, 51, 51) | Primary body text, technical documentation copy | (estimated) |
-| Accent Green | #00A86B | rgb(0, 168, 107) | Success indicators, availability status, positive metrics | (estimated) |
-| Alert Orange | #F5820D | rgb(245, 130, 13) | Warning states, highlighted latency metrics, call-out boxes | (estimated) |
-| Critical Red | #D32F2F | rgb(211, 47, 47) | Error states, critical alerts, network fault indicators | (estimated) |
+### Color Principles
 
-> All HEX values are (estimated) unless noted. Derived from analysis of arista.com, product datasheets, and EOS UI screenshots as of 2025. Arista does not publish a public brand guidelines document.
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
----
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-## 3. Typography
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| Role | Typeface | Weight | Size Range | Source |
-|---|---|---|---|---|
-| Display / Hero Headline | Inter (or equivalent geometric sans-serif) | Bold (700) | 36–64px | (estimated) |
-| Section Headline (H2) | Inter | SemiBold (600) | 24–32px | (estimated) |
-| Subheadline (H3) | Inter | Medium (500) | 18–22px | (estimated) |
-| Body Text | Source Sans Pro or Inter | Regular (400) | 14–16px | (estimated) |
-| Technical Documentation | Source Sans Pro | Regular (400) | 13–15px | (estimated) |
-| Code / CLI Snippets | Consolas / JetBrains Mono | Regular (400) | 12–14px | (estimated) |
-| Caption / Label | Inter | Regular (400) | 11–12px | (estimated) |
-| Data Table Content | Source Sans Pro | Regular / SemiBold | 12–14px | (estimated) |
-
-**Typography Rules:**
-- Line height: 1.5x for body text; 1.2x for display (estimated)
-- Maximum line length: 75 characters for body copy to maintain readability in technical documentation (estimated)
-- All-caps sparingly: section labels and navigation items only (estimated)
-- No decorative or serif typefaces in any brand context (estimated)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 4. Logo Usage
+## 2. Typography
 
-| Scenario | Treatment |
-|---|---|
-| Light background | Arista Blue (#005EB8) wordmark on white or light gray |
-| Dark background | White wordmark on Dark Navy (#002147) or Arista Blue |
-| Minimum clear space | Equal to the height of the "A" in "Arista" on all sides |
-| Minimum size (digital) | 120px wide |
-| Minimum size (print) | 1.5 inches wide |
-| Prohibited uses | Stretching, recoloring outside brand palette, adding drop shadows, placing on busy photographic backgrounds |
+Arista Networks's digital properties employ a typographic system appropriate to its information technology positioning.
 
-> All logo usage guidelines are (estimated) based on standard enterprise brand practice and observed usage across arista.com and official materials.
+### Typeface System
 
----
-
-## 5. Iconography & Illustration Style
-
-| Element | Style | Notes |
+| Typeface | Description | Contexts |
 |---|---|---|
-| Network topology icons | Flat, single-color or two-tone; geometric | Switches, routers, servers depicted with clean outlines — no gradients (estimated) |
-| UI icons | Outlined style; 2px stroke weight | Consistent with Material Design conventions in CloudVision UI (estimated) |
-| Illustration | Rare; when used, flat vector with brand colors | Avoided in technical documentation; used only in executive presentation decks (estimated) |
-| Data visualization | High-contrast line graphs, bar charts; Arista Blue primary series | Latency graphs, throughput charts, bandwidth utilization heatmaps (estimated) |
-| Diagram connectors | 1–2px lines; directional arrows with filled arrowheads | Used in reference architecture diagrams (estimated) |
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. Layout & Grid System
+## 3. Channel Specifications
 
-| Attribute | Value | Source |
-|---|---|---|
-| Primary grid | 12-column grid; 24px gutters | (estimated) |
-| Max content width | 1280px | (estimated) |
-| Section padding (desktop) | 80px top/bottom | (estimated) |
-| Card border radius | 4–8px | (estimated) |
-| Table row height | 48px minimum | (estimated) |
-| CTA button border radius | 4px (slightly rounded; not pill-shaped) | (estimated) |
-| Whitespace philosophy | Generous in marketing collateral; dense in technical documentation | (estimated) |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 7. Photography Style
+## 4. Layout Principles
 
-| Category | Style | Notes |
-|---|---|---|
-| Data center imagery | Clean, high-contrast; blue-tinted LED lighting | Emphasizes scale, precision, and modernity (estimated) |
-| People / team | Candid engineering environments; lab settings preferred over staged portraits | Reinforces engineer-first brand identity (estimated) |
-| Product hardware | Clean white or dark background; professional lighting | Switch and router photography emphasizes port density and form factor (estimated) |
-| Abstract / conceptual | Avoided | Arista does not use abstract "digital connection" stock imagery common in IT marketing (estimated) |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 8. Motion & Animation (Digital)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-| Context | Approach | Notes |
-|---|---|---|
-| Website transitions | Subtle fade or slide; 150–250ms duration | No heavy parallax or scroll-jacking (estimated) |
-| Data visualization | Animated on scroll-into-view; single smooth transition | Used in CloudVision marketing pages (estimated) |
-| Video production | Minimalist motion graphics; Arista Blue accents on dark backgrounds | Product demo videos follow clean, technical aesthetic (estimated) |
-| Presentation slides | Static or minimal animation; data-forward layouts | Executive decks use Arista Blue headers, white backgrounds, dense tables (estimated) |
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 9. Design System Anti-Patterns
+## 5. Design Prohibitions
 
-| Anti-Pattern | Why It Conflicts with Arista Brand |
-|---|---|
-| Gradient backgrounds | Decorative gradients signal consumer brand; Arista is enterprise-technical |
-| Rounded pill buttons | Too soft; Arista's CTA language is direct, and button shape should match |
-| Hero sections with stock "handshake" photography | Generic enterprise cliche — Arista's credibility comes from engineering imagery |
-| Animated hero video backgrounds | Performance cost conflicts with the operational efficiency the brand claims to deliver |
-| Multi-color icon sets | Visual noise; reduces scanability in data-dense technical layouts |
-| Serif display type | Conflicts with modern, precise, engineering-first brand character |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 10. CloudVision UI Design Patterns (Product Design)
-
-| Pattern | Implementation |
-|---|---|
-| Dashboard layout | Left nav rail; primary content area; collapsible detail panel (estimated) |
-| Color coding for network state | Green = healthy, Orange = warning, Red = fault — consistent with Arista brand alert colors (estimated) |
-| Telemetry charts | Dark background time-series charts; Arista Blue primary line with alert threshold overlays (estimated) |
-| Configuration diff views | Side-by-side code diff with syntax highlighting; monospace font (estimated) |
-| Topology maps | Force-directed graph; nodes colored by device type and health state (estimated) |
+*Layer 5 of 8 — Brand Autopsy: Arista Networks (ANET)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

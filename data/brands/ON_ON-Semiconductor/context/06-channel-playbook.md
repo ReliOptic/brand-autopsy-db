@@ -1,187 +1,141 @@
-# 06 채널 플레이북 — ON Semiconductor (onsemi)
+# 06. Channel Playbook — ON Semiconductor (ON)
 
-## 채널 생태계 개요
-
-```
-Owned (소유 채널)
-├── onsemi.com — 제품 카탈로그, 기술 문서, 샘플 요청
-├── 개발자 포털 — SPICE 모델, 레퍼런스 디자인, 평가 보드
-├── 이메일 뉴스레터 — 신제품·앱 노트 업데이트
-└── YouTube — 기술 웨비나, 제품 데모, 튜토리얼
-
-Earned (획득 채널)
-├── 기술 미디어 커버리지 (EE Times, Electronic Design, EDN)
-├── 컨퍼런스 발표 (PCIM, APEC, CES, electronica)
-├── IEEE 논문·표준화 기구 참여
-└── 고객 케이스 스터디 (공동 PR)
-
-Paid (유료 채널)
-├── 기술 미디어 배너·스폰서십
-├── LinkedIn 타겟 광고 (엔지니어·구매 직군)
-├── Google 검색 광고 (기술 키워드)
-└── 전시회 부스 (electronica, APEC)
-
-Partner (파트너 채널)
-├── Authorized Distributor — Arrow, Avnet, DigiKey, Mouser
-├── FAE 네트워크 — 지역별 직접 기술 지원
-└── 설계 툴 파트너 — Cadence, Altium, LTspice
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 전략 상세
+## 1. Channel Strategy Matrix
 
-### 1. 공식 웹사이트 (onsemi.com)
-
-| 항목 | 내용 |
-|------|------|
-| 주요 목적 | 제품 탐색 → 데이터시트 다운로드 → 샘플 요청 전환 (추정) |
-| 핵심 KPI | 샘플 요청 전환율, 데이터시트 다운로드 수, FAE 문의 건수 (추정) |
-| 콘텐츠 유형 | 제품 페이지, 앱 노트, 설계 가이드, 수직 시장 랜딩 페이지 |
-| 최적화 포인트 | 제품 선택 필터 UX, SPICE 모델 즉시 다운로드, 모바일 엔지니어 최적화 (추정) |
-
-**운영 원칙**
-- 모든 제품 페이지에 SPICE 모델·레퍼런스 디자인 직접 링크 배치
-- 수직 시장(EV·태양광·산업)별 전용 랜딩 페이지로 페르소나 맞춤 여정 구성
-- 기술 문서는 회원가입 없이 다운로드 가능하게 유지 (리드 마찰 최소화)
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. LinkedIn
+## 2. Channel Tone Variations
 
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 | 약 30만~50만 (추정) |
-| 게시 빈도 | 주 3~5회 (추정) |
-| 핵심 콘텐츠 | 기술 인사이트, 신제품 공지, 채용, 컨퍼런스 하이라이트 |
-| 주요 오디언스 | 하드웨어 엔지니어, 전력 전자 전문가, 구매 담당자, 투자자 |
-| 광고 타겟 | 직무(Electrical Engineer, Power Electronics, Procurement), 산업(Automotive, Industrial) |
+ON Semiconductor's core voice adjusts by channel while maintaining brand coherence.
 
-**게시물 유형 믹스 (추정)**
-```
-기술 교육 콘텐츠    35%
-신제품·마일스톤     25%
-채용·기업 문화      20%
-사고 리더십 기고    20%
-```
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. YouTube
+## 3. Cross-Channel Synergy Map
 
-| 항목 | 내용 |
-|------|------|
-| 채널 목적 | 기술 교육, 제품 데모, 웨비나 아카이브 (추정) |
-| 영상 유형 | 애플리케이션 데모, 설계 팁, 컨퍼런스 발표 녹화 |
-| 최적 길이 | 기술 튜토리얼 10~20분, 제품 소개 3~5분 (추정) |
-| 핵심 KPI | 시청 시간, 구독자 증가율, 웹사이트 유입 전환 (추정) |
+### Route A — Product/Service Launch Sequence
 
-**플레이리스트 구조 (추정)**
-- EV & 전기차 솔루션
-- 태양광·에너지 저장
-- SiC 기술 심층 해설
-- 설계 팁 & 트릭
-- 웨비나 아카이브
-
----
-
-### 4. 이메일 마케팅
-
-| 항목 | 내용 |
-|------|------|
-| 세그먼트 | 직무(설계·구매·관리), 수직 시장, 관심 제품군 (추정) |
-| 발송 빈도 | 월 2~4회 (추정) |
-| 오픈율 목표 | 25~35% (기술 B2B 업계 평균 대비 목표) (추정) |
-| 핵심 콘텐츠 | 신제품 발표, 앱 노트 업데이트, 웨비나 초청, 샘플 프로모션 |
-
-**이메일 구조 템플릿 (추정)**
 ```
-제목: [수직 시장] + [구체 혜택] (예: "EV 인버터 효율 0.5%p 향상 — EliteSiC™ 신규 앱 노트")
-본문:
-  1. 도전 과제 1문장
-  2. 솔루션 핵심 3포인트
-  3. CTA: 앱 노트 다운로드 / 샘플 요청 / 웨비나 등록
-  4. 관련 제품 링크 2~3개
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-### 5. 배포 파트너 채널 (Distributor)
+## 4. Channel-Specific Prohibitions
 
-| 파트너 | 역할 | 주요 강점 |
-|--------|------|---------|
-| Arrow Electronics | 전략 배포 파트너, 재고·물류 (공식) | 글로벌 재고, 기술 지원 팀 |
-| Avnet | 설계 체인 배포 파트너 (공식) | 설계 서비스, Avnet Abacus 유럽 |
-| DigiKey | 소량·즉시 배송 채널 (공식) | 스타트업·프로토타입 고객 |
-| Mouser Electronics | 소량·즉시 배송 채널 (공식) | 넓은 재고 폭, 빠른 배송 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**파트너 활성화 전략 (추정)**
-- 공동 기술 세미나 개최 (Arrow/Avnet FAE + onsemi 기술팀 협업)
-- 배포 파트너 포털에 최신 SPICE 모델·앱 노트 자동 동기화
-- 파트너 영업팀 대상 분기별 제품 교육 프로그램
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### 6. FAE(Field Application Engineer) 채널
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 설계 엔지니어 1:1 기술 지원, 설계 채택 촉진 (공식) |
-| 커버리지 | 한국, 일본, 중국, 유럽, 북미 지역별 거점 (추정) |
-| 활동 | 온사이트 방문, 벤치마크 지원, 레이아웃 리뷰 (추정) |
-| 핵심 KPI | 설계 채택(Design Win) 건수, 프로토타입 → 양산 전환율 (추정) |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 7. 컨퍼런스·전시회
+## 5. Crisis Response Protocol
 
-| 이벤트 | 시기 | 주요 오디언스 | onsemi 참여 형태 |
-|--------|------|------------|----------------|
-| PCIM Europe | 6월, 뉘른베르크 | 전력 전자 엔지니어 | 부스 + 기술 발표 (추정) |
-| APEC | 3월, 북미 | 전력 전자 학계·산업 | 논문 발표 + 부스 (추정) |
-| electronica | 11월, 뮌헨 (격년) | 전자 산업 전반 | 대형 부스 + 고객 미팅 (추정) |
-| CES | 1월, 라스베이거스 | EV·모빌리티 생태계 | EV 솔루션 쇼케이스 (추정) |
-| 한국 전자전 (KES) | 10월, 서울 | 국내 전자·반도체 | 부스 참여 (추정) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
----
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-## Steal Sheet — 채널 레이어별 3개 전략 훔치기
+### Scenario 2 — Regulatory or Legal Action
 
-### Layer 1: Owned 채널 최적화
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **제품 페이지 내 설계 툴 원스톱 임베드** | SPICE 모델, 레퍼런스 디자인, 평가 보드 주문, FAE 문의를 제품 페이지 단일 탭으로 통합 → 이탈 없이 설계 여정 완결 |
-| 2 | **유튜브 시리즈 플레이리스트 SEO 강화** | 각 기술 시리즈 영상에 타임스탬프·챕터 마커 의무 추가, 영상 설명에 관련 앱 노트 URL 삽입 → 기술 키워드 검색 유입 증대 |
-| 3 | **이메일 세그먼트 자동화** | 다운로드 이력(SiC 앱 노트 vs. IGBT 앱 노트)에 따라 후속 이메일 자동 분기 → 관심사 맞춤 콘텐츠로 오픈율·클릭률 향상 |
+### Scenario 3 — Reputation / Social Media Issue
 
-### Layer 2: Earned·파트너 채널 극대화
-
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **배포 파트너 공동 기술 세미나 시리즈화** | Arrow·Avnet과 분기 1회 지역별 기술 세미나 공동 기획, onsemi 엔지니어 + 파트너 FAE 공동 발표 → 지역 엔지니어 커뮤니티 신뢰 구축 |
-| 2 | **컨퍼런스 발표 콘텐츠 재활용 파이프라인** | PCIM·APEC 발표자료 → 유튜브 영상 → 백서 → 앱 노트 시퀀스로 단일 콘텐츠를 4개 채널에 맞게 변환 → 콘텐츠 ROI 4배 향상 |
-| 3 | **고객 케이스 스터디 공동 PR 프로그램** | EV OEM·태양광 업체와 공동 성공 사례 발간, 양측 채널 동시 배포 → 고객 신뢰도와 onsemi 브랜드 인지도 동시 강화 |
-
-### Layer 3: Paid·Performance 채널
-
-| # | 전략 | 실행 방법 |
-|---|------|---------|
-| 1 | **LinkedIn 리타겟팅 — 데이터시트 다운로더 타겟** | 데이터시트 다운로드 후 미전환 사용자에게 FAE 문의 또는 평가 보드 CTA 광고 재노출 → 하단 퍼널 전환율 극대화 |
-| 2 | **기술 키워드 검색 광고 — 경쟁사 부품번호 방어** | 경쟁사 SiC 부품번호 검색 시 EliteSiC™ 비교 가이드 랜딩 페이지로 유입 → 설계 단계 고객 전환 선점 |
-| 3 | **전시회 부스 디지털 연계 — QR 기반 리드 캡처** | 부스 내 모든 제품 디스플레이에 QR 코드 배치, 스캔 시 맞춤 랜딩 페이지 + FAE 즉시 배정 플로우 연결 → 오프라인 접점의 CRM 데이터 전환율 향상 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 채널 우선순위 매트릭스 (추정)
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 채널 | 전환 기여도 | 브랜드 기여도 | 우선 투자 |
-|------|-----------|------------|---------|
-| onsemi.com | 매우 높음 | 높음 | 1순위 |
-| FAE 직접 지원 | 매우 높음 | 중간 | 1순위 |
-| 배포 파트너 | 높음 | 낮음 | 2순위 |
-| 이메일 마케팅 | 높음 | 낮음 | 2순위 |
-| LinkedIn | 중간 | 높음 | 2순위 |
-| YouTube | 낮음 | 높음 | 3순위 |
-| 컨퍼런스·전시회 | 중간 | 매우 높음 | 3순위 |
-| Paid Search | 중간 | 낮음 | 3순위 |
+**1. Align channel formality with audience expectations.**
+ON Semiconductor's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+ON Semiconductor's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+ON Semiconductor's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

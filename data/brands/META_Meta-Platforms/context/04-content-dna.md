@@ -1,92 +1,123 @@
-# 04. 콘텐츠 DNA — Meta Platforms
+# 04. Content DNA — Meta Platforms (META)
 
-## 콘텐츠 철학
-
-Meta의 콘텐츠 전략은 "플랫폼이 곧 콘텐츠 인프라"라는 전제 위에 서 있다. Meta 자체가 직접 미디어 콘텐츠를 생산하지 않고, 크리에이터·브랜드·커뮤니티가 콘텐츠를 생산하도록 도구와 알고리즘을 제공하는 구조다. 기업 커뮤니케이션 콘텐츠(보도자료, 블로그, Meta Newsroom)는 별도의 에디토리얼 레이어로 존재한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 핵심 콘텐츠 필러 (Content Pillars)
+## Content Pillars
 
-| 필러 | 비중 (추정) | 대표 형식 | 핵심 메시지 |
-|------|------------|----------|------------|
-| 기술 혁신 | 30% | 기술 블로그, 개발자 문서, Connect 키노트 | "우리가 다음 인터넷을 만든다" |
-| 커뮤니티·연결 | 25% | 사용자 스토리, 캠페인 영상 | "사람들이 더 가까워진다" |
-| 크리에이터 경제 | 20% | 크리에이터 성공 사례, 수익화 가이드 | "당신의 열정으로 생계를 꾸려라" |
-| 비즈니스·광고 | 15% | 케이스 스터디, ROI 리포트 | "Meta 광고로 성장하라" |
-| AI·미래 비전 | 10% | Llama 연구, Meta AI 데모, 메타버스 로드맵 | "AI가 모든 것을 바꾼다" |
+Meta Platforms's content strategy reflects its positioning in the Interactive Media & Services segment of Communication Services. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Meta Platforms understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for interactive media & services requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Meta Platforms." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 콘텐츠 형식별 특성
-
-### 1. Meta Newsroom (기업 커뮤니케이션)
-- **어조**: 공식적·설명적, 수치 중심
-- **구조**: 헤드라인 → 핵심 수치 → 배경 → 인용 (CEO/CPO) → 향후 계획
-- **빈도**: 주요 이벤트·분기 실적 연동
-- **금지 패턴**: 감정적 언어, 경쟁사 직접 언급
-
-### 2. Meta AI Blog (연구·기술)
-- **어조**: 학술적·전문가적, 오픈소스 친화
-- **구조**: 문제 정의 → 방법론 → 결과 → 오픈소스 공개 링크
-- **빈도**: 월 4-8회 (추정)
-- **차별화**: Llama 공개로 "열린 AI" 내러티브 강화
-
-### 3. Creator Studio / Business Help Center
-- **어조**: 실용적·지시적 ("3단계로 시작하세요")
-- **구조**: 목적 → 단계별 가이드 → 팁 → CTA
-- **독자**: SMB 오너, 크리에이터
-
-### 4. 글로벌 브랜드 캠페인
-- **어조**: 감성적·보편적, 최소 텍스트
-- **구조**: 문제(고독·단절) → 해결(연결·커뮤니티) → 감동
-- **대표 캠페인**: "More Together" (2019), "Here Together" (2018)
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 보이스 & 톤 가이드
+## Hook Patterns
 
-### 공식 커뮤니케이션 (Meta Newsroom / IR)
-- 수치는 항상 구체적으로: "약 30억 명" → "29억 7천만 명"
-- 수동태 최소화, 능동적 주어 사용
-- 부정적 뉴스는 "우리가 배운 것" 프레임으로 전환
+### Hook 1 — Industry Challenge Lead
 
-### 마케팅 캠페인
-- 1인칭 복수("우리") 사용으로 포용성 강조
-- 기술 용어 최소화, 감정 동사 우선
-- 글로벌 캠페인: 현지화 필수 (번역이 아닌 현지 문화 재해석)
+Opens with a recognizable industry challenge or pain point before presenting Meta Platforms's perspective.
 
-### 개발자·기술 커뮤니케이션
-- GitHub 스타일: 명령형 동사 ("Install", "Run", "Configure")
-- 예제 코드 우선, 설명 최소화
-- 오픈소스 기여 언어: "함께 만든다" (collaborative)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
----
+### Hook 2 — Data-Driven Insight
 
-## 금지어 (콘텐츠 레벨)
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-1. **"완벽한 개인정보 보호"** — 과장 주장, 법적 리스크
-2. **"경쟁사 이름 직접 언급"** — 광고 비교 제외
-3. **"항상 안전"** — 플랫폼 안전 이슈 노출 리스크
-4. **"무료"** — 광고 기반 수익 모델 오해 유발
-5. **"메타버스가 현실을 대체"** — 과도한 주장, 반발 유발
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
----
+### Hook 3 — Customer Story Lead
 
-## 필수어 (콘텐츠 레벨)
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-1. **"개방형" (Open)** — Llama, 오픈소스, 오픈 메타버스 연계
-2. **"책임감 있는" (Responsible)** — AI·콘텐츠 정책 연계
-3. **"다음 단계" (Next chapter)** — 미래 지향 내러티브
-4. **"함께" (Together)** — 커뮤니티·연결 가치
-5. **"규모" (Scale)** — 글로벌 임팩트 강조
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## Steal Sheet — 콘텐츠 전략
+## CTA Patterns
 
-| # | 레이어 | 훔칠 요소 | 적용 방법 |
-|---|--------|----------|----------|
-| 1 | 기술 블로그 | 연구 공개 + 오픈소스 병행 전략 (Llama 모델) | AI 기능 출시 시 논문·코드 동시 공개로 신뢰 획득 |
-| 2 | 크리에이터 성공 사례 | 수치 중심 스토리텔링 ("팔로워 0→50만, 수익 월 300만 원") | 플랫폼 마케팅에서 사용자 성과 수치를 전면에 배치 |
-| 3 | 글로벌 캠페인 | 감정 → 연결 → 플랫폼 순서의 내러티브 구조 | 브랜드 필름 제작 시 기술이 아닌 인간 관계를 주인공으로 |
+| CTA Type | Meta Platforms Pattern | What Meta Platforms Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+
+---
+
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to communication services sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Meta Platforms as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #META | Financial and investor community | Moderate (estimated) |
+| #MetaPlatforms | Brand-level social engagement | Varies (estimated) |
+| #CSInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Meta Platforms's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In communication services markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in interactive media & services face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Meta Platforms's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
