@@ -280,8 +280,8 @@ studies. (T4_INFERRED from Microsoft customer privacy and NDA standards)
 Xbox Wire (news.xbox.com), @Xbox, and Xbox YouTube operate with an entirely different brand
 voice — gaming enthusiast, community-first, pop culture-aware. This voice must not appear
 on @Azure, Microsoft Tech Community, or enterprise-facing LinkedIn content. The corporate
-Microsoft voice must not appear on Xbox gaming channels. The brand architecture is intentionally
-segmented. (T4_INFERRED from observed channel voice differentiation)
+Microsoft voice must not appear on Xbox gaming channels. The brand architecture is
+segmented by design. (T4_INFERRED from observed channel voice differentiation)
 
 ---
 

@@ -101,6 +101,136 @@
 
 ---
 
+## Segment Economics — DIY vs. Pro Comparison
+
+Understanding the financial difference between the DIY and Pro segments is essential for
+interpreting The Home Depot's strategic priority toward Pro. The following comparison is
+estimated from company commentary, analyst research, and observable program structure.
+All figures are estimates and T4_INFERRED unless otherwise noted.
+
+| Economic Dimension | DIY Segment | Pro Segment | Source |
+|-------------------|-------------|-------------|--------|
+| **Estimated share of net sales** | ~50% (estimated) | ~50% (estimated) | T4_INFERRED from company commentary |
+| **Estimated avg annual spend per customer** | $800–$3,600 (estimated) | $50,000–$500,000+ (estimated) | T4_INFERRED from program tiers and market norms |
+| **Transaction frequency** | 5–15 per year (estimated) | 30–200+ per year (estimated) | T4_INFERRED |
+| **Average ticket size** | $60–$120 (estimated) | $200–$2,000+ per transaction (estimated) | T4_INFERRED from $90 overall avg ticket |
+| **Primary purchase channel** | In-store; BOPIS; homedepot.com | Pro Desk; Pro app; job-site delivery | Observed on homedepot.com |
+| **Loyalty program engagement** | Moderate (cashback incentive) | High (operational dependency) | T4_INFERRED from program design |
+| **Switching cost** | Low-medium | Medium-high | T4_INFERRED from program structure |
+| **Growth driver** | Housing market; seasonal cycles | Job backlog; construction activity | T2_PRIMARY_RELIABLE, earnings calls |
+
+The Pro segment's strategic primacy is a function of economics: a single large Pro account
+(Diana's $200K/year example) has the revenue equivalent of 55–250 DIY customers. Acquiring
+and retaining one Pro customer at the $200K annual spend level is worth more than 55 DIY
+customers spending $3,600/year each. This math drives The Home Depot's Pro ecosystem
+investment. (T4_INFERRED from segment economics analysis)
+
+---
+
+## Customer Lifetime Value Framework (Estimated)
+
+The following CLV estimates are T4_INFERRED from observable program structure and reported
+financials. They are not disclosed by The Home Depot and are presented for analytical
+framing only.
+
+### DIY Customer — Marcus Profile
+
+| Stage | Activity | Estimated Cumulative Revenue |
+|-------|---------|------------------------------|
+| Year 1 (new homeowner) | Emergency repairs, initial projects | ~$2,400 |
+| Years 2–5 (active DIY) | Ongoing projects, seasonal, 3 major renovations | ~$12,000–$18,000 |
+| Years 6–15 (established homeowner) | Maintenance + periodic major projects | ~$24,000–$54,000 |
+| **10-year estimated CLV** | | **~$38,000–$74,000 (estimated)** |
+
+### Pro Customer — Diana Profile
+
+| Stage | Activity | Estimated Cumulative Revenue |
+|-------|---------|------------------------------|
+| Year 1 (Pro Xtra enrollment) | Initial account relationship | ~$180,000 |
+| Years 2–5 (established account) | Stable procurement, growing project volume | ~$720,000–$1,000,000 |
+| Years 6–10 (loyal Pro) | Referrals added; higher-volume tiers; SRS integration | ~$1,000,000–$1,500,000 |
+| **10-year estimated CLV** | | **~$1.8M–$2.5M (estimated)** |
+
+The CLV differential between Pro and DIY (approximately 30–50x) explains why the company
+invests in dedicated Pro Desk infrastructure, Pro app development, job-site delivery
+capability, and the $18.25B SRS Distribution acquisition — each is justified by Pro CLV
+economics. (T4_INFERRED)
+
+---
+
+## Emerging Audience Segments (Strategic Watch)
+
+The following segments represent potential growth vectors for The Home Depot's audience
+base over the next 5–10 years. Observations are T4_INFERRED from market and demographic trends.
+
+### Segment A — Millennial First-Time Homeowners (Ages 28–40)
+
+Millennials are the largest living generation in the U.S. and are entering peak
+homeownership years. Harvard JCHS research indicates delayed but not forgone
+homeownership — Millennials are buying homes later than prior generations but are buying.
+(T3_SECONDARY_RELIABLE, JCHS 2024)
+
+**Implication for The Home Depot**: Millennial homeowners arrive with high YouTube/digital
+research fluency but lower hands-on skill base than prior generations (fewer shop classes,
+more apartment rental years). This creates both a content opportunity (how-to content is
+more necessary, not less) and an in-store challenge (higher need for associate guidance,
+higher anxiety about skill gap). The Home Depot's workshop program and how-to content
+library are well-positioned for this cohort if maintained at quality. (T4_INFERRED)
+
+### Segment B — Female Homeowners and Renovators
+
+Women account for an estimated 50%+ of home improvement purchase decisions (estimated,
+T3_SECONDARY_RELIABLE, various retail consumer research). The home improvement retail
+category has historically underserved this segment in store design, product communication,
+and associate interaction patterns. The Home Depot's "Do-It-Herself" workshop series and
+increasingly inclusive marketing represent early-stage moves toward this segment.
+(observed on homedepot.com)
+
+**Implication**: This is the highest-growth underpenetrated segment in The Home Depot's
+existing customer base. Linda (Persona 4) represents the archetype. Converting "send a
+handyman" households into "I'll do it myself" households doubles the project completion
+rate and the associated materials spend. (T4_INFERRED)
+
+### Segment C — Multi-Family and Small Landlord Pros
+
+The growth of single-family rental (SFR) portfolios and small residential investment
+properties (2–10 units) creates a Pro customer tier between the institutional (Robert,
+Persona 3) and the individual contractor (Diana, Persona 2). These customers have
+recurring material needs for renovation and maintenance but do not fit cleanly into
+either the consumer or large-commercial Pro programs.
+
+**Implication**: A dedicated small-landlord Pro tier within Pro Xtra — with features
+calibrated to multi-property maintenance purchasing patterns — could capture significant
+wallet share from customers currently splitting spend between The Home Depot, Amazon
+Business, and local supply houses. (T4_INFERRED)
+
+### Segment D — Aging-in-Place Renovation Customers (Ages 60–75)
+
+The U.S. population is aging. Baby Boomers own approximately 40% of U.S. homes (estimated,
+T3_SECONDARY_RELIABLE, JCHS data). Many are undertaking aging-in-place renovations: grab
+bars, walk-in tubs, ramp installations, wider doorways, and smart home safety systems.
+This category represents a large, high-ticket, and often installation-service-requiring
+project type that aligns precisely with The Home Depot's in-store expertise and
+installation services offering. (T4_INFERRED from demographic and housing trend data)
+
+---
+
+## Audience-Channel Alignment Matrix
+
+| Persona | Primary Discovery Channel | Primary Research Channel | Primary Purchase Channel | Primary Retention Channel |
+|---------|--------------------------|--------------------------|--------------------------|--------------------------|
+| Marcus (DIY homeowner) | YouTube, Instagram | homedepot.com How-To Center | In-store + BOPIS | Pro Xtra rewards, email |
+| Diana (Pro contractor) | Pro Xtra email, Pro Desk | Pro Xtra app, Pro account portal | Pro Desk + job-site delivery | Pro Xtra account history, credit terms |
+| Robert (Property manager) | Pro account rep, email | Pro account portal | Pro Xtra online ordering | Corporate account structure |
+| Linda (Do-It-Herself) | Instagram, Pinterest, YouTube | homedepot.com, workshop calendar | In-store | Workshop program, email |
+
+This matrix illustrates why The Home Depot cannot operate a single-channel strategy:
+four primary customer archetypes have four different discovery-to-purchase journeys.
+The interconnected retail infrastructure (Layer 06) exists precisely to serve all four
+paths from a unified brand and fulfillment system. (T4_INFERRED)
+
+---
+
 *Layer 02 — Audience Map | Brand Autopsy DB Project*
 *Source tier system: T1_OFFICIAL (SEC filings/official) | T2_PRIMARY_RELIABLE | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis) | T5_LLM_DRAFT*
 *All T4_INFERRED interpretations represent this project's analytical conclusions, not statements of fact about The Home Depot's intentions or strategies.*

@@ -104,3 +104,144 @@ Home Depot positions the Pro customer (contractors, remodelers) as aspirational 
 
 **3. Turn the uniform into the brand.**
 The Orange Apron is among the most recognized retail uniforms in the United States. (T3_SECONDARY_RELIABLE, retail brand recognition surveys) It functions as a wayfinding system, a trust signal, and a brand mark simultaneously. Transferable principle: when front-line staff are the primary customer touchpoint, their visual identity is brand architecture. Invest in the uniform, the name badge, and the language they use — these are not HR details.
+
+---
+
+## Brand History — Key Inflection Points
+
+Understanding The Home Depot's brand identity requires understanding the five decisions that
+shaped it. Each inflection point locked in a brand characteristic that competitors have since
+been unable to reverse-engineer.
+
+### 1978 — Founding Vision: The "Everything Store" for Home Improvement
+
+Bernie Marcus and Arthur Blank opened the first two Home Depot stores in Atlanta, Georgia
+on June 22, 1978. The founding concept, as described in Marcus's own accounts (T3_SECONDARY_RELIABLE,
+"Built from Scratch," Marcus & Blank, 1999), was explicitly warehouse-scale: stores of
+approximately 60,000 sq ft (enormous by 1978 standards) carrying 25,000 SKUs at everyday
+low prices. The "contractor prices for everyone" philosophy was not a marketing tagline; it
+was the structural premise of the entire format. This founding decision permanently anchored
+the brand to the Pro customer as aspirational reference point — even for the DIY customer.
+
+### 1981 — NYSE IPO: Scale as Strategic Weapon
+
+The Home Depot went public on the New York Stock Exchange in 1981, raising capital to fund
+rapid expansion. The IPO enabled a store rollout pace that compressed what would have been
+a 20-year organic growth trajectory into under a decade. By the time Lowe's formalized its
+big-box conversion strategy in the early 1990s, The Home Depot had already established
+geographic density in major markets that proved difficult and expensive to displace.
+(T3_SECONDARY_RELIABLE, retail industry histories)
+
+### 1994–2000 — "Inverted Pyramid" Culture Under Arthur Blank and Bernie Marcus
+
+The founding CEOs institutionalized a management philosophy they described as the "inverted
+pyramid" — in which front-line associates at the store level are positioned at the top of
+the organizational hierarchy, and corporate management exists to support them. (T3_SECONDARY_RELIABLE,
+company-published history and business press coverage) This philosophy produced the Orange
+Apron culture: associates with genuine product expertise, authority to make customer-service
+decisions, and cultural identity as brand ambassadors rather than cashiers. The Orange Apron
+became both a literal uniform and a cultural shorthand for this philosophy. This cultural
+artifact survived executive transitions and remains the most distinctive human-capital
+brand expression in home improvement retail. (T4_INFERRED from observed brand culture)
+
+### 2007–2014 — Digital and Supply Chain Reinvestment (Robert Nardelli Era Correction)
+
+The period from 2000–2007 under CEO Robert Nardelli is documented in business press as a
+period of operational efficiency focus that reduced associate expertise and customer service
+quality — eroding the Orange Apron culture. (T3_SECONDARY_RELIABLE, widely reported in
+business media) The subsequent CEO transitions (Frank Blake, 2007–2014) represented a
+documented cultural restoration: reinvestment in associate training, reduced use of
+part-time labor, and a return to the expertise-first brand philosophy.
+(T3_SECONDARY_RELIABLE, business media coverage of Blake tenure) This inflection point
+establishes that The Home Depot's brand identity is not self-sustaining — it requires active
+cultural maintenance and can degrade under operational efficiency-first leadership.
+
+### 2022 — Edward Decker Becomes CEO; Pro-First Strategy Formalized
+
+Ted Decker succeeded Craig Menear as CEO in February 2022. Decker, a 25+ year Home Depot
+veteran, has articulated the Pro customer as the company's primary growth vector. At the
+December 2023 Investor Day, Decker framed the Pro as "the most complex and difficult customer
+to serve in retail" — and positioned that complexity as a competitive moat.
+(T2_PRIMARY_RELIABLE, Home Depot Investor Day 2023, widely reported) The $18.25B SRS
+Distribution acquisition in 2024 under Decker's leadership represents the most concrete
+strategic commitment to Pro-first growth in the company's history. (T1_OFFICIAL, HD 8-K,
+June 2024)
+
+---
+
+## Brand Identity — Competitive Differentiation Summary
+
+The Home Depot's brand identity is most clearly understood in contrast to its competitors'
+positioning:
+
+| Brand Identity Dimension | The Home Depot | Lowe's | Menards |
+|--------------------------|---------------|--------|---------|
+| **Primary archetype** | Hero / Everyman (empowerment + accessibility) | Everyman / Caregiver (lifestyle + home aspiration) | Ruler (price leadership, Midwest authority) |
+| **Core customer** | DIY + Pro (dual audience, intentionally) | DIY-primary, Pro-secondary | DIY-primary, price-sensitive |
+| **Brand anchor** | Orange Apron expertise culture | Store environment / lifestyle aspiration | "11% off everything" pricing events |
+| **Tagline register** | Action verb-forward ("More doing") | Outcome-oriented ("Do it right for less") | Price-forward ("Save Big Money") |
+| **Emotional territory** | Competence and accomplishment | Home comfort and aspiration | Value satisfaction |
+
+*Competitor positioning characterizations are T4_INFERRED from observed brand materials and
+public marketing. No competitor is characterized as inferior — differences are positional,
+not evaluative.*
+
+---
+
+## Brand Consistency Audit — Orange Apron Across Touchpoints
+
+The Orange Apron identity is The Home Depot's most important brand consistency mechanism.
+The following audit traces its deployment across the brand's touchpoints:
+
+| Touchpoint | Orange Apron Presence | Brand Signal Delivered |
+|------------|----------------------|----------------------|
+| Store floor | Physical — worn by all customer-facing associates | "Help is here; expertise is available" |
+| TV advertising | Depicted prominently in customer interaction scenes | Human scale of a global brand; expertise as neighbor |
+| homedepot.com About / Careers pages | Photography featuring associates in aprons | Cultural identity signal to prospective employees |
+| YouTube how-to videos | Orange Apron associates as on-camera instructors | Trust signal — instruction from a brand expert, not a stranger |
+| Homer mascot (kids workshops) | Mascot wears orange apron in all depictions | Brand extension into community and family contexts |
+| Job listings / Glassdoor | "Becoming an Orange Apron" as cultural shorthand | Internal cultural identity for associate hiring and retention |
+| Home Depot Foundation materials | Orange apron imagery in charitable program communications | Extension of brand values into community investment |
+
+The consistency of the Orange Apron across contexts — commercial, educational, charitable,
+and digital — makes it one of the most fully deployed single visual identity elements in
+U.S. retail. It functions as the brand's human face at every scale. (T4_INFERRED from
+observed brand identity audit)
+
+---
+
+## Brand Equity Risk Factors (T4_INFERRED)
+
+The following conditions, if sustained, would degrade The Home Depot's brand equity:
+
+1. **Associate expertise erosion**: The Orange Apron brand promise is fundamentally
+   dependent on associates who actually know the product categories they serve. If cost
+   pressure drives a shift toward lower-trained, higher-turnover labor, the in-store
+   advisory experience degrades and the brand's primary differentiation from online
+   competitors collapses. This risk was realized during the 2000–2007 Nardelli era and
+   subsequently corrected. (T3_SECONDARY_RELIABLE, business media; T4_INFERRED)
+
+2. **DIY market contraction**: If housing affordability structurally reduces homeownership
+   rates among the 25–44 demographic over a sustained period (via rental-first household
+   formation), the DIY customer base shrinks and The Home Depot becomes increasingly
+   dependent on the Pro segment — concentrating revenue risk in B2B relationships.
+   (T4_INFERRED from demographic and housing market trends)
+
+3. **Amazon professional supply chain entry**: If Amazon Business develops job-site
+   delivery capability, Pro-grade credit terms, and trade professional relationship
+   management at scale, the Pro Xtra switching cost advantage narrows. This remains a
+   medium-term risk rather than a current reality based on observable market conditions.
+   (T4_INFERRED)
+
+4. **SRS integration brand dilution**: The SRS Distribution business operates under its
+   own brand identity in the specialty trade distribution market. If integration efforts
+   attempt to fully replace SRS brand identity with "The Home Depot" in trade distribution
+   contexts before the customer relationship has transferred, brand equity built by SRS in
+   its specific trade communities could be disrupted. (T4_INFERRED from acquisition
+   integration brand risk principles)
+
+---
+
+*Layer 01 — Brand Identity | Brand Autopsy DB Project*
+*Source tier system: T1_OFFICIAL (SEC filings/official) | T2_PRIMARY_RELIABLE | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis) | T5_LLM_DRAFT*
+*All T4_INFERRED interpretations represent this project's analytical conclusions, not statements of fact about The Home Depot's intentions or strategies.*

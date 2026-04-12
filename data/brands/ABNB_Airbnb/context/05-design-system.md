@@ -74,7 +74,7 @@ used in the brand gradient system. This gradient is confined to the logomark and
 moments — it does not bleed into UI chrome, body typography, or card elements (CSS extraction;
 observed on airbnb.com).
 
-**Principle 3 — Photography provides all chromatic richness; UI chrome is deliberately restrained.**
+**Principle 3 — Photography provides all chromatic richness; UI chrome is purposefully restrained.**
 Airbnb's product pages operate on white (`#FFFFFF`) and near-white (`#F7F7F7`) backgrounds,
 with `#222222` text and Rausch-only accent color. This neutral chrome serves as a deliberate
 "empty frame" that allows destination photography to carry the full emotional color load

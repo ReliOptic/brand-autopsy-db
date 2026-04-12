@@ -321,7 +321,7 @@ For generating brand-consistent imagery in analysis and research contexts:
 | **YouTube (Microsoft)** | 1280×720px thumbnail minimum; 1920×1080px preferred | Azure Blue or product-specific color; white headline on dark background | Thumbnails must read at 60px thumbnail size |
 | **Twitter/X** | 1200×675px | News-format cards; Microsoft Blue primary; minimal photography in product news | Gaming account (@Xbox) uses entirely different visual treatment |
 | **microsoft.com hero** | 1600×600px (observed, estimated) | Full-bleed photography with gradient overlay; left-aligned headline in Segoe UI Light/300 | Hero CTA button: `#0067B8` fill, white text |
-| **Azure marketing** | Various; dark navy dominant | Data visualization heavy; `#50E6FF` cyan accent on `#243A5E` navy background | Different palette from corporate Microsoft — intentionally more technical-premium |
+| **Azure marketing** | Various; dark navy dominant | Data visualization heavy; `#50E6FF` cyan accent on `#243A5E` navy background | Different palette from corporate Microsoft — more technical-premium in character |
 | **Developer documentation** | Web responsive; content max-width 960px | White background; `#F2F2F2` code blocks; `#0067B8` link color | Segoe UI body; Consolas code |
 | **Print / Event (Ignite, Build)** | A0 poster; 8ft banner stands; 16:9 digital signage | Microsoft Blue primary; large Segoe UI display; product icon grid on white | Conference booth materials follow corporate brand guidelines |
 | **Xbox Wire** | 1920×1080px game art crops | Game key art; Xbox Green (`#107C10`) accent; no Microsoft corporate brand | Separate consumer gaming brand; zero overlap with enterprise visual language |

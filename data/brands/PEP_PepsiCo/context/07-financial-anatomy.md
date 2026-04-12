@@ -212,3 +212,129 @@ PepsiCo's management consistently uses "organic revenue growth" as the primary p
 ---
 
 *Source classification: T1_OFFICIAL (SEC EDGAR filings CIK 0000077476; PepsiCo 10-K, 10-Q, 8-K, DEF 14A), T3_SECONDARY_RELIABLE (reputable financial journalism), T4_INFERRED (project interpretation). All financial figures are approximations — consult official SEC filings for precise numbers. Last updated: April 2026.*
+
+---
+
+## Extended Analysis: Acquisitions, Divestitures, and Capital Allocation History
+
+### Major Acquisitions (Selected)
+
+PepsiCo's acquisition history reveals a consistent pattern: acquiring brands or capabilities that extend its portfolio reach into adjacent categories or strengthen its distribution infrastructure.
+
+| Year | Acquisition | Approximate Value | Strategic Rationale |
+|------|------------|------------------|---------------------|
+| 1965 | Frito-Lay merger | — | Created the beverages + snacks portfolio architecture that defines PepsiCo to this day |
+| 1998 | Tropicana Products | approximately $3.3 billion | Expanded into juice; added a premium non-carbonated beverage platform |
+| 2001 | Quaker Oats Company | approximately $13.4 billion | Added Gatorade (the primary strategic rationale) plus Quaker grain products |
+| 2010 | Pepsi Bottling Group + PepsiAmericas | approximately $7.8 billion combined | Vertically integrated the North American beverage bottling system; eliminated franchise model complexity |
+| 2018 | SodaStream International | approximately $3.2 billion | At-home carbonation platform; sustainability positioning (reduces single-use plastic); DTC relationship |
+| 2020 | Rockstar Energy | approximately $3.85 billion | Entry into the fast-growing energy drink category |
+| 2022 | Celsius Holdings equity stake + distribution | approximately $550 million (equity) | Complementary energy drink distribution deal; hedged energy category position |
+
+(T1_OFFICIAL: PepsiCo SEC filings and official press releases for each transaction; values are reported at time of announcement)
+
+### Major Divestitures (Selected)
+
+| Year | Divestiture | Approximate Value | Rationale |
+|------|------------|------------------|-----------|
+| 1997 | Tricon Global Restaurants (KFC, Pizza Hut, Taco Bell) spin-off | — | Separated restaurant operations from CPG core; Tricon later became Yum! Brands |
+| 2007 | PepsiAmericas partial | — | Restructuring of bottling relationships prior to 2010 full reacquisition |
+| 2021 | Tropicana/Dole juice brands | approximately $3.3 billion (from PAI Partners) | Reduced exposure to juice category facing structural decline; generated capital for redeployment; retained 39% equity stake in the resulting JV |
+| 2021 | Naked Juice | included in Tropicana transaction | Portfolio simplification |
+
+(T1_OFFICIAL: PepsiCo SEC filings and press releases for each transaction)
+
+**Capital allocation pattern observed**: PepsiCo's M&A history shows a willingness to make large, category-defining acquisitions (Quaker at $13.4B; bottler reacquisition at $7.8B) followed by periods of integration-focused capital discipline. The Tropicana divestiture demonstrates portfolio pruning discipline — selling a category facing secular decline to redeploy capital toward higher-growth areas. (T4_INFERRED from observable acquisition and divestiture pattern)
+
+---
+
+## Free Cash Flow Analysis
+
+Free cash flow (FCF) is the most important financial metric for understanding PepsiCo's ability to sustain dividends, fund acquisitions, and return capital to shareholders.
+
+**FCF approximation methodology**: FCF = Operating Cash Flow minus Capital Expenditures. PepsiCo reports both components in its cash flow statement. (T1_OFFICIAL: PepsiCo 10-K cash flow statement)
+
+| Year | Approx. Operating Cash Flow | Approx. CapEx | Approx. FCF |
+|------|---------------------------|---------------|-------------|
+| FY2022 | approximately $10.8 billion | approximately $5.2 billion | approximately $5.6 billion |
+| FY2023 | approximately $12.1 billion | approximately $4.9 billion | approximately $7.2 billion |
+| FY2024 | approximately $11.5 billion | approximately $5.1 billion | approximately $6.4 billion |
+
+(T1_OFFICIAL: PepsiCo annual cash flow statements; figures approximate — consult filings for precision)
+
+**FCF yield observation**: PepsiCo's annual dividend obligation (approximately $7 billion in FY2024 based on per-share dividend and share count) consumes a substantial portion of annual FCF. This is sustainable given the consistency of operating cash generation, but limits the capital available for large discretionary acquisitions without incurring additional debt. (T4_INFERRED from dividend obligation calculation and FCF comparison)
+
+---
+
+## Segment-Level Profitability Deep Dive
+
+### Frito-Lay North America (FLNA) — The Profit Engine
+
+FLNA's operating margin structure warrants special attention because it is fundamentally different from the beverage business and is the key to understanding why PepsiCo's blended margins outperform pure-play beverage companies.
+
+**Why FLNA margins are structurally superior**:
+1. **No bottling capital intensity**: Snack manufacturing does not require the pressurized vessel, carbonation equipment, and bottle-line capital that beverage production requires
+2. **DSD leverage at scale**: At Frito-Lay's volume, the DSD cost per unit delivered is substantially lower than the cost at lower volumes — fixed route costs amortize across higher case counts
+3. **Pricing power of brand portfolio breadth**: When Frito-Lay has 40%+ of US salty snack shelf space, retailer category management discussions give Frito-Lay meaningful input on pricing architecture across the category
+4. **Commodity basket**: Corn, potatoes, and cooking oils have experienced volatility, but Frito-Lay's purchasing scale allows hedging programs and volume pricing that smaller competitors cannot access
+
+Estimated FLNA operating income contribution to PepsiCo total: approximately 35–40% of total company operating income from approximately 27% of total revenue — a significant profit-share premium to revenue-share. (T4_INFERRED from disclosed segment operating profit margins; exact calculation requires filing-specific data)
+
+### PepsiCo Beverages North America (PBNA) — The Competitive Investment Center
+
+PBNA's operating margins are significantly lower than FLNA's, reflecting:
+1. **Owned bottler capital intensity**: PepsiCo's 2010 reacquisition of its US bottlers brought their capital-intensive manufacturing and distribution infrastructure onto PepsiCo's balance sheet
+2. **Competitive pricing environment**: The Pepsi vs. Coca-Cola promotional pricing dynamic in US retail CSD creates frequent promotional discounting that compresses margin
+3. **Commodity exposure**: Aluminum (cans), PET plastic (bottles), and HFCS/sugar are significant input costs with different volatility profiles from snack commodity inputs
+4. **Energy drink investment**: Rockstar and Celsius distribution costs represent incremental investment ahead of proportional revenue return
+
+Despite lower margins, PBNA generates sufficient operating income to contribute materially to the consolidated P&L, and benefits from shared overhead infrastructure with FLNA in certain markets. (T4_INFERRED from segment margin analysis)
+
+---
+
+## pep+ Financial Commitments and Cost Implications
+
+PepsiCo's pep+ (PepsiCo Positive) sustainability platform represents not just a marketing commitment but a genuine capital allocation priority with measurable cost implications.
+
+| pep+ Commitment | Estimated Financial Implication |
+|----------------|--------------------------------|
+| Regenerative farming across 7 million acres by 2030 | Investment in farmer education, certification, and premium sourcing programs; cost partially offset by supply chain resilience value (T4_INFERRED) |
+| 100% recyclable, compostable, or biodegradable packaging by 2025 | Capital investment in packaging reformulation; premium for recycled content materials; ongoing cost as recycled materials carry price premium over virgin materials (T4_INFERRED) |
+| Net water positive by 2030 | Capital for water recycling systems, watershed restoration programs, and manufacturing process efficiency (T4_INFERRED) |
+| Net-zero GHG by 2040 | Long-duration investment in manufacturing electrification, renewable energy procurement, cold chain decarbonization, and Scope 3 supplier engagement (T4_INFERRED) |
+
+PepsiCo discloses pep+ investment broadly but does not report the total annual pep+ capital commitment as a single line item. (T1_OFFICIAL: pep+ sustainability reports; PepsiCo 10-K ESG disclosures)
+
+**Investor perspective**: ESG-focused institutional investors increasingly view pep+ commitments as risk-reduction investments — reducing regulatory exposure, supply chain disruption risk, and reputational liability — rather than pure cost items. This framing is reflected in PepsiCo's investor relations communications. (T4_INFERRED from observed investor relations framing of pep+)
+
+---
+
+## GLP-1 Drug Impact — Emerging Financial Risk Analysis
+
+The emergence of GLP-1 receptor agonist medications (semaglutide/Ozempic, tirzepatide/Zepbound) as widely prescribed weight management drugs has generated analyst and investor discussion about potential long-term demand implications for high-calorie food and beverage companies including PepsiCo.
+
+**The thesis**: GLP-1 drugs meaningfully reduce appetite and alter food preferences in many users, with observational evidence suggesting reduced consumption of ultra-processed foods, sweet beverages, and caloric snacks. If GLP-1 adoption reaches population-scale penetration, the addressable demand for PepsiCo's core categories could face structural pressure. (T3_SECONDARY_RELIABLE: Morgan Stanley, Goldman Sachs analyst reports on GLP-1 impacts on CPG sector, widely covered in financial press)
+
+**PepsiCo management's stated position**: CEO Ramon Laguarta addressed GLP-1 questions on multiple FY2023 and FY2024 earnings calls, stating that PepsiCo does not currently observe material impact from GLP-1 adoption on its business results and that its portfolio breadth across better-for-you options provides natural hedging. (T1_OFFICIAL: PepsiCo earnings call transcripts, FY2023–FY2024)
+
+**Analytical assessment for brand strategy purposes**: The GLP-1 risk is a long-duration, uncertain-magnitude risk rather than a near-term financial threat. PepsiCo's portfolio already includes significant better-for-you options (Quaker, Gatorade Zero, bubly, Lay's Oven Baked, PopCorners) that are more aligned with GLP-1 user reduced-calorie preferences. The primary vulnerability is in the highest-calorie, highest-sugar core products (regular Pepsi-Cola, Doritos, regular potato chips). (T4_INFERRED from product category analysis and GLP-1 impact research)
+
+---
+
+## Key Financial Ratios Reference Table
+
+| Ratio | FY2024 Approximate | Interpretation |
+|-------|-------------------|----------------|
+| Gross Margin | approximately 57% | High for a CPG company; reflects branded pricing power and manufacturing scale |
+| Operating Margin | approximately 13% | Mid-range for large-cap CPG; Frito-Lay mix support partially offset by beverage margin drag |
+| Net Margin | approximately 10.5% | Solid; reflects interest expense on significant debt load and tax provisions |
+| Return on Equity (ROE) | High (equity base reduced by buybacks and accumulated losses from goodwill) | ROE calculation is elevated by capital structure; consult filing for precise equity base |
+| Debt/EBITDA | approximately 2.5–3.0x | Within investment-grade range; manageable given consistent FCF |
+| Dividend Payout Ratio | approximately 60–70% (estimated) | High but sustainable given FCF generation; reflects Dividend King commitment |
+| FCF Yield (on enterprise value) | approximately 4–5% (estimated) | Attractive for a Consumer Staples mega-cap; reflects predictable cash generation |
+
+(All figures approximate; T4_INFERRED from disclosed financial data. Consult current market data and official filings for precise current ratios.)
+
+---
+
+*Source classification: T1_OFFICIAL (SEC EDGAR filings CIK 0000077476; PepsiCo 10-K, 10-Q, 8-K, DEF 14A), T3_SECONDARY_RELIABLE (reputable financial journalism and analyst research), T4_INFERRED (project interpretation). All financial figures are approximations — consult official SEC filings for precise numbers. Last updated: April 2026.*

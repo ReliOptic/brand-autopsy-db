@@ -91,7 +91,7 @@
 
 ## Anti-Persona
 
-**Who Eaton does not target**: Residential electricians, small commercial contractors under $1M project value, or DIY installers. Eaton's residential panel business (Square D competitor) exists but is not the brand's primary positioning focus. The consumer brand identity is deliberately subordinated to the industrial and commercial engineering identity. (T4_INFERRED, based on eaton.com navigation structure and marketing emphasis)
+**Who Eaton does not target**: Residential electricians, small commercial contractors under $1M project value, or DIY installers. Eaton's residential panel business (Square D competitor) exists but is not the brand's primary positioning focus. The consumer brand identity is subordinated to the industrial and commercial engineering identity in Eaton's marketing emphasis. (T4_INFERRED, based on eaton.com navigation structure and marketing emphasis)
 
 ---
 

@@ -343,7 +343,7 @@ for formal opinion before any public commercial distribution).
 
 | Topic | Required Hedging Approach |
 |-------|--------------------------|
-| Humira patent strategy | "AbbVie accumulated a large patent portfolio for Humira, as reported by public analysis organizations including I-MAK; antitrust proceedings regarding this strategy are ongoing." NEVER: "AbbVie intentionally blocked competition" |
+| Humira patent strategy | "AbbVie accumulated a large patent portfolio for Humira, as reported by public analysis organizations including I-MAK; antitrust proceedings regarding this strategy are ongoing." NEVER attribute motive or assert anticompetitive purpose without a final court ruling. |
 | Drug pricing | Always distinguish list price from net price after rebates; cite the complexity of pharmaceutical pricing; never assert that list price equals patient cost |
 | Allergan opioid legacy | "Prior to the AbbVie acquisition, Allergan's predecessor entity reached settlements related to opioid marketing practices." NEVER conflate with AbbVie's post-acquisition conduct |
 | Antitrust proceedings | "Multiple state attorneys general have filed antitrust actions alleging [specific allegation]. AbbVie has denied the allegations. The proceedings are ongoing." NEVER assert the allegations are proven |

@@ -1,102 +1,92 @@
 # 05. Design System — TJX Companies (TJX)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference. CSS color data sourced from tjxcompanies.com via automated extraction.
 
 ---
 
-## 1. Color Palette
+## Color Palette
 
-TJX Companies's visual identity, as observed on its official website, employs a structured color system appropriate to consumer discretionary sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
+TJX Companies operates as a corporate brand with multiple consumer-facing banners (TJ Maxx, Marshalls, HomeGoods), each with distinct color systems. The corporate palette observed on tjxcompanies.com reflects the investor/corporate identity layer.
 
-### Core Brand Colors
+### Corporate Identity (tjxcompanies.com)
 
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
+| Role | Color Name | HEX | Usage |
+|------|-----------|-----|-------|
+| **Primary Navy** | TJX Corporate Navy | `#10162C` | Primary text, headers, corporate identity anchor (observed, tjxcompanies.com CSS data) |
+| **Secondary Blue** | TJX Slate Blue | `#4D5673` | Navigation, secondary text, UI elements — most frequent color in CSS data (observed, tjxcompanies.com CSS data) |
+| **Dark Navy** | Deep Navy | `#17244A` | Accent headers, section dividers (observed, tjxcompanies.com CSS data) |
+| **Cobalt** | Cobalt Blue | `#053292` | Links, interactive elements, CTAs (observed, tjxcompanies.com CSS data) |
+| **Royal** | Royal Blue | `#181C55` | Logo variant, corporate print applications (observed, tjxcompanies.com CSS data) |
+| **Charcoal** | UI Charcoal | `#232A33` | Body text fallback, dark UI surfaces (observed, tjxcompanies.com CSS data) |
+| **Mid Gray** | Medium Gray | `#979797` | Borders, disabled states, secondary UI (observed, tjxcompanies.com CSS data) |
+| **Amber** | TJX Amber | `#E09A00` | Accent, highlight, sale/value emphasis (observed, tjxcompanies.com CSS data) |
+| **Yellow** | Bright Yellow | `#FFCA33` | High-visibility accent, promotional highlights (observed, tjxcompanies.com CSS data) |
 
-### Color Principles
+### Banner-Level Color Identity (observed on respective brand websites)
 
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+| Banner | Primary Color | Personality |
+|--------|--------------|-------------|
+| **TJ Maxx** | Deep red / burgundy | Fashion-forward, aspirational value (observed, tjmaxx.com) |
+| **Marshalls** | Navy blue | Approachable, value-confident (observed, marshalls.com) |
+| **HomeGoods** | Coral / warm orange | Warm, home-welcoming, lifestyle-adjacent (observed, homegoods.com) |
+| **Sierra** | Forest green | Outdoor, active, nature-adjacent (observed, sierra.com) |
 
 ---
 
-## 2. Typography
+## Typography
 
-TJX Companies's digital properties employ a typographic system appropriate to its consumer discretionary positioning.
+| Role | Typeface | Source |
+|------|----------|--------|
+| **Corporate primary** | Montserrat Bold / Montserrat Regular | Corporate website and investor materials (observed, tjxcompanies.com CSS data) |
+| **Fallback** | Arial, Verdana | System fallback stack (observed, tjxcompanies.com CSS data) |
 
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+**Typography character**: Montserrat is a geometric sans-serif with strong legibility and a modern, clean appearance appropriate for both digital and print. Its use in Bold weight for headers conveys confidence without aggression. The corporate identity leans institutional and clear — appropriate for an IR-heavy corporate site rather than a consumer-facing retail brand. (T4_INFERRED from typeface selection)
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
-
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+| Channel | Format | Key Constraints |
+|---------|--------|----------------|
+| **In-store signage** | Large-format print, rack tags, endcap displays | Must display "compare at" and "our price" in clearly legible hierarchy. High contrast required. (observed, in-store) |
+| **TJ Maxx / Marshalls website** | Responsive web, product grid | Grid-format product browsing; price display prominent. Mobile-first given retail browsing behavior. (observed, tjmaxx.com) |
+| **Social media (Instagram / TikTok)** | 1:1 and 9:16 formats | User-generated content aesthetics; authentic over polished. Brand's own posts mirror the casual style of organic haul content. (observed, official social channels) |
+| **Print circulars / email** | Multi-item grid layout | Price-forward design; brand name badges prominent. High information density. (observed, marketing emails) |
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **Price prominence**: The price — both "compare at" and "our price" — must be visually dominant in any product communication. The price gap is the brand's primary value delivery; visual hierarchy must reflect this. (T4_INFERRED from observed in-store and digital layout)
+2. **Brand name visibility**: Vendor/designer brand names are displayed with the same visual weight as the product name. The brand name is a credibility signal that justifies the value claim. (observed, in-store signage)
+3. **Discovery over curation**: Unlike luxury retail's carefully spaced, single-item presentation, TJX's visual language is dense and varied — many items per visual unit. The visual density signals abundance and possibility. (observed, in-store and marketing materials)
+4. **Authentic imperfection in social**: User-generated content is the design standard for social media. TJX's own social posts emulate the casual, unpolished aesthetic of customer haul videos, not the art-directed perfection of fashion brands. (observed, official TJX brand social channels)
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: TJX Companies (TJX)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon Style
+
+- **Functional and minimal**: Icons serve navigation and wayfinding purposes; no illustrative or decorative icon system. (observed, tjmaxx.com and tjxcompanies.com)
+- **Price tags and labels**: The physical price tag — the "compare at / our price" dual-line tag — is TJX's most brand-specific design element and its most powerful retail communication tool. (observed, in-store)
+
+---
+
+## AI Image Prompt Guide
+
+When generating images in TJX's visual style:
+
+- **Corporate / IR context**: "Clean, professional photography of a mid-size American retail operation. Navy and slate blue color environment. Montserrat typography. Investor presentation aesthetic. No consumer-facing retail elements."
+- **TJ Maxx / Marshalls in-store**: "Bright, densely-stocked retail floor with mixed brand-name apparel on circular racks. Warm lighting. Price tags visible. Authentic, non-staged consumer retail environment. Suburban American shopping center aesthetic."
+- **HomeGoods**: "Warm, lived-in home environment featuring styled décor vignettes. Coral and warm-white palette. Styled shelving with varied textures — ceramics, textiles, candles. Not aspirationally perfect; approachably beautiful."
+- **Social / haul content**: "Casual, natural-light product flat lay on a neutral surface. Items tagged with price. Authentic smartphone photography aesthetic. Not art-directed."
+
+---
+
+## Design Prohibitions
+
+1. **No minimalist luxury aesthetic for consumer-facing content**: TJX is not Aesop or Net-a-Porter. White space and restrained product presentation communicate exclusivity and high price — the opposite of TJX's positioning. (T4_INFERRED)
+2. **No staged perfection in social content**: User-generated haul content succeeds because it is visibly authentic. Over-produced social content from the brand itself breaks the authenticity signal. (T4_INFERRED from observed social strategy)
+3. **No obscuring the price**: The price differential is the entire value proposition. Any design that buries or minimizes price information undermines the brand's core promise. (T4_INFERRED)
+4. **No single-banner visual identity applied across all banners**: TJ Maxx, Marshalls, and HomeGoods have distinct visual personalities. Cross-banner homogenization would reduce each banner's relevance to its specific customer segment. (T4_INFERRED from observed brand portfolio management)
+5. **No premium photography for "compare at" items**: Presenting merchandise in overly stylized photography implies a full-price positioning that contradicts the off-price value message. (T4_INFERRED)
+6. **No dark or moody color palettes**: TJX's retail environment is deliberately bright and energetic to facilitate browsing. Dark color palettes signal either luxury or discount extremes — both off-brand. (observed, in-store environment design)

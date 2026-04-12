@@ -4,160 +4,112 @@
 
 ---
 
-## 1. Filing & Legal Record Sources
+## IP Portfolio Overview
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K — Part I, Item 1A (Risk Factors) | Legal & regulatory risks | [SEC EDGAR ETN](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Eaton+Corporation&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-K — Part I, Item 3 (Legal Proceedings) | Active litigation disclosures | Same 10-K, Item 3 |
-| 8-K Filings | Material legal events | [SEC EDGAR ETN 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Eaton+Corporation&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
-| USPTO Trademark Database | Trademark registrations | [USPTO TESS](https://tmsearch.uspto.gov/) |
+Eaton holds an extensive patent and trademark portfolio across its product domains. Per the ETN 2023 10-K: "We own numerous patents, trademarks, copyrights, trade secrets and other intellectual property rights... We consider our intellectual property portfolio to be important to our business." (official, ETN 2023 10-K, Properties and IP section)
 
----
+Key IP categories:
+- **Electrical switchgear and protection**: Patents covering arc flash containment, circuit interruption mechanisms, and intelligent protection relay algorithms
+- **Power electronics**: UPS topology patents, inverter efficiency methods, battery management systems
+- **Aerospace**: Hydraulic actuator designs, fuel system architecture, aircraft power conversion systems (subject to export control regulations — ITAR and EAR)
+- **Vehicle**: Transmission and eMobility drivetrain patents
+- **Software**: Power Xpert platform software copyrights and trade secrets
 
-## 2. IP Portfolio
-
-### 2.1 Trademark Portfolio
-
-Eaton Corporation maintains a trademark portfolio protecting its brand names, product names, and logos in relevant commercial classes. Trademark registrations are publicly searchable via the USPTO TESS database and equivalent international registries. (T1_OFFICIAL, USPTO public records)
-
-### 2.2 Patent Portfolio
-
-Eaton Corporation's patent portfolio reflects its R&D investment in electrical components & equipment technology and processes. Patent grants and applications are publicly searchable via USPTO and Google Patents. The company's 10-K filing describes its intellectual property strategy in general terms. (SEC 10-K; T1_OFFICIAL, USPTO records)
+Eaton's brand names — "Eaton," "Cutler-Hammer," "Moeller," "Crouse-Hinds," "Bussmann," and "Pow-R-Way" — are registered trademarks. (observed on eaton.com trademark notices)
 
 ---
 
-## 3. Major Litigation
+## Major Litigation (Publicly Disclosed)
 
-> All descriptions below are factual summaries of publicly disclosed legal proceedings as referenced in Eaton Corporation's SEC filings.
+Eaton, as a large multi-national industrial manufacturer, is party to various product liability, commercial, and environmental proceedings in the ordinary course. Material matters disclosed in public filings include:
 
-Eaton Corporation's active litigation and legal proceedings are disclosed in the company's 10-K, Part I, Item 3 (Legal Proceedings) and in the Notes to Financial Statements under Commitments and Contingencies. (SEC 10-K)
+**Environmental liabilities**: Eaton is named as a potentially responsible party (PRP) at various Superfund sites under CERCLA due to historical manufacturing operations. Eaton's 10-K discloses that it has established reserves for these obligations. (official, ETN 2023 10-K, Contingencies note) This is standard disclosure for industrial companies with manufacturing histories dating to the mid-20th century.
 
-Material legal proceedings, if any, are also disclosed via 8-K filings when they meet materiality thresholds. Investors and analysts should reference the most recent 10-K and 8-K filings for current litigation status. (T1_OFFICIAL)
+**Asbestos litigation**: Like many long-established industrial manufacturers, Eaton faces asbestos-related personal injury claims associated with historical products of predecessor companies. The 10-K discloses that these claims are actively managed and reserves maintained. (official, ETN 2023 10-K, Contingencies note) Eaton's exposure is not unique to the company — it is a sector-wide legacy liability.
 
----
-
-## 4. Regulatory Landscape
-
-Eaton Corporation's regulatory environment reflects the requirements applicable to electrical components & equipment within industrials. Key regulatory areas as typically disclosed in the 10-K include:
-
-| Area | Applicable Regulators | Impact |
-|------|----------------------|--------|
-| **Industry-specific regulation** | Relevant federal and state agencies; international equivalents | Compliance costs, operational requirements, licensing (SEC 10-K) |
-| **Securities regulation** | SEC, relevant exchanges | Financial disclosure, insider trading, proxy requirements (T1_OFFICIAL) |
-| **Environmental regulation** | EPA, state equivalents, international environmental agencies | Environmental compliance, remediation obligations (SEC 10-K) |
-| **Labor and employment** | DOL, EEOC, NLRB, state equivalents | Employment practices, labor relations (SEC 10-K) |
-| **Data privacy** | FTC, state AGs, international DPAs (GDPR, etc.) | Data handling, customer privacy, breach notification (SEC 10-K) |
-
-Detailed regulatory risk descriptions are available in the 10-K, Item 1A (Risk Factors).
+**Patent and IP disputes**: Eaton engages in patent enforcement and defense proceedings that are ordinary for a company with a large IP portfolio. No material single patent dispute has been disclosed as posing significant financial risk in recent 10-K filings. (official, ETN 2023 10-K)
 
 ---
 
-## 5. Project Risk Assessment — Brand Autopsy DB
+## Regulatory Landscape
 
-### 5.1 Litigation Posture Assessment
-
-**Assessment**: Based on publicly available records, Eaton Corporation's litigation posture reflects standard commercial practices for a company of its size in the industrials sector. (T4_INFERRED)
-
-**Implication for this project**: Our primary risks are (a) trademark misuse, (b) false factual assertions, and (c) inappropriate characterization of ongoing legal proceedings. The risk level is manageable with adherence to the project's writing protocols. (T4_INFERRED)
-
-### 5.2 Data Collection Legality Assessment
-
-| Data Type | Our Collection Method | Legal Assessment |
-|-----------|----------------------|-----------------|
-| SEC filing data | Direct EDGAR download | PERMITTED — public government records |
-| Company website content | Web observation | PERMITTED — publicly accessible; cite with timestamp |
-| Trademark data | USPTO TESS database | PERMITTED — public government records |
-| Court filings | Public docket access | PERMITTED — public court records |
-| News coverage | Fair use summary | PERMITTED as secondary source with attribution |
-| Internal communications | NOT accessible | DO NOT ATTEMPT |
-
-### 5.3 Fair Use 4-Factor Analysis
-
-**Factor 1 — Purpose**: Analytical, educational, transformative. FAVORS FAIR USE.
-**Factor 2 — Nature**: Primarily factual data. FAVORS FAIR USE.
-**Factor 3 — Amount**: Summary and analysis, not verbatim reproduction. FAVORS FAIR USE.
-**Factor 4 — Market Effect**: No substitution for company's products/services. FAVORS FAIR USE.
-
-**Overall**: Defensible under fair use doctrine. (T4_INFERRED; not legal advice)
-
-### 5.4 Writing Risk Guide — Eaton Corporation
-
-#### SAFE TO WRITE
-- Financial data from SEC filings with citation
-- Product and service descriptions based on official website
-- Litigation summaries citing specific courts and regulators
-- Trademark and patent information from public records
-- Competitive comparisons using specific, cited metrics
-
-#### REQUIRES CAREFUL HEDGING
-| Topic | Required Approach |
-|-------|-------------------|
-| Strategic intent | "The company's 10-K states..." or "Management indicated..." — never as bare assertion |
-| Consumer behavior claims | "Suggests," "indicates," "based on available data" |
-| Competitive comparisons | Specific metrics only; no qualitative superiority claims |
-| Regulatory outcome predictions | "Proceedings are ongoing" — never predict outcomes |
-| Internal motivations | Describe actions only; do not attribute motive |
-
-#### DO NOT WRITE
-- Assertions of fraud, deception, or criminal intent without regulatory/court citation
-- Pejorative characterizations as bare assertions
-- Claims about internal deliberations not in public filings
-- Predictions of legal proceeding outcomes
-- Unverified claims from anonymous sources
+| Domain | Relevant Regulation | Eaton Exposure |
+|--------|-------------------|----------------|
+| **Electrical product safety** | UL standards (US), IEC standards (international), CE marking (EU), CCC (China) | Product compliance is ongoing and resource-intensive; non-compliance in any market = product withdrawal |
+| **Aerospace** | FAA (US), EASA (EU), military airworthiness authorities | ITAR/EAR export control applies to defense-related aerospace products; violations carry severe criminal and civil penalties |
+| **Environmental** | CERCLA (Superfund), RCRA, EU WEEE/RoHS, California Prop 65 | Ongoing legacy environmental site remediation; product compliance with hazardous substance regulations |
+| **Antitrust** | DOJ, FTC (US); EU DG COMP | Eaton's acquisitions are subject to antitrust review; past acquisitions have been approved with or without divestitures (official, ETN acquisition disclosure history) |
+| **Trade / tariffs** | US-China tariffs (Section 301); export controls (BIS) | Manufacturing footprint in China creates tariff exposure; aerospace products subject to strict export licensing |
 
 ---
 
-## 6. ESG & Compliance
+## Project Risk Assessment
 
-Eaton Corporation's ESG disclosures are available in the company's sustainability report, proxy statement (DEF 14A), and 10-K filing. Key areas include:
+### Litigation Posture
 
-- **Environmental**: Climate commitments, emissions reporting, environmental compliance as disclosed in company reports. (official)
-- **Social**: Workforce diversity, labor practices, community engagement as disclosed in company reports. (official)
-- **Governance**: Board composition, executive compensation, shareholder rights as disclosed in DEF 14A. (SEC DEF 14A)
+Eaton's disclosed litigation profile is **low-to-moderate risk for a brand analysis project**. The company does not have a history of aggressive defamation litigation against research or journalism. Its legal activity is primarily:
+- Patent enforcement/defense (product IP, not brand image protection)
+- Environmental remediation (regulatory, not litigation against commentators)
+- Asbestos legacy claims (plaintiff-side litigation against Eaton, not Eaton pursuing commentators)
+
+**Risk level for this analysis: LOW** — provided factual claims are sourced to SEC filings, official disclosures, or reputable journalism, and no assertions are made about corporate intent or unlawful conduct without regulatory citation.
+
+### Data Collection Legality
+
+- All data in this analysis is sourced from publicly available SEC filings, eaton.com, and trade journalism.
+- No proprietary customer data, internal communications, or non-public financial information has been used.
+- CSS and design observations are based on publicly accessible website content.
+- **Fair Use basis**: This analysis is educational and research-oriented; it does not reproduce copyrighted content verbatim or in a manner that would substitute for the original.
+
+### Fair Use Analysis
+
+Eaton's brand materials (logo, taglines, product photography) are protected by copyright and trademark. This analysis:
+- References brand elements descriptively, does not reproduce them in full
+- Uses quotations from public documents within fair use bounds (SEC filings, press releases, official website copy)
+- Does not create a substitute for Eaton's official communications
+
+### Writing Risk Guide
+
+**SAFE to write**:
+- "Eaton's 2023 10-K reports revenue of $23.2B." (T1_OFFICIAL)
+- "Eaton's corporate tagline is 'Making what matters work.'" (official)
+- "Eaton's Electrical Americas segment grew 18% in FY2023 per the 10-K." (T1_OFFICIAL)
+- "Eaton faces asbestos-related personal injury claims associated with historical products, as disclosed in its annual SEC filings." (T1_OFFICIAL)
+- "Eaton is named as a potentially responsible party at certain Superfund sites, as disclosed in SEC filings." (T1_OFFICIAL)
+
+**HEDGE — requires explicit qualification**:
+- Any claim about Eaton's market share (no publicly verified figure; must be labeled "(estimated)")
+- Statements about competitive superiority ("Eaton's UPS is more reliable than Schneider's") — require third-party test citation
+- Statements about product pricing or margins beyond what is disclosed in SEC filings
+- Claims about the strategic intent of any acquisition or divestiture beyond what management has officially stated
+
+**DO NOT WRITE**:
+- Any assertion that Eaton's products have failed in ways not documented in official recall notices or regulatory enforcement records
+- Any claim that Eaton has violated environmental regulations beyond disclosed remediation obligations
+- Any characterization of Eaton's ITAR/export control compliance as deficient without a specific regulatory enforcement record
+- Any comparison of Eaton's executive compensation to alleged corporate wrongdoing
+- Any statement about employee or labor conditions at Eaton facilities not sourced to official union agreements, NLRB records, or verified journalism
 
 ---
 
-## 7. Legal Risk Heatmap
+## ESG Summary
 
-```
-HIGH IMPACT
-    |
-    |  [Regulatory Changes]   [Major Litigation]
-    |  Industry-specific       If disclosed in 10-K
-    |  regulation shifts       Item 3
-    |                                            |
-----+--------------------------------------------+----
-LOW |  [IP Disputes]          [Compliance        | HIGH
-LIKELIHOOD                    Matters]           | LIKELIHOOD
-    |  Patent/trademark       Ongoing regulatory |
-    |  proceedings             obligations        |
-    |                                            |
-    +--------------------------------------------+
-LOW IMPACT
+Eaton published a 2023 Sustainability Report disclosing the following material commitments: (official, 2023 Sustainability Report)
+- Carbon neutral operations by 2030 (Scope 1 and 2)
+- Net zero value chain emissions by 2050 (Scope 3)
+- $2B+ in "green revenues" (products directly enabling customer emissions reduction) per year as of 2023
+- Published TCFD-aligned climate risk disclosure
 
-Placement is T4_INFERRED based on typical risk profiles for industrials companies.
-Refer to Eaton Corporation's 10-K Item 1A for company-specific risk factor disclosure.
-```
+**ESG risk for this project**: Low. Eaton's sustainability disclosures are detailed and publicly available. Claims about Eaton's sustainability can be directly sourced to official disclosures without requiring inference.
 
 ---
 
-## 8. Project Writing Risk Level
+## Risk Heatmap
 
-| Category | Risk Level | Rationale |
-|----------|-----------|-----------|
-| Financial data (SEC-sourced) | LOW | Public government records; factual, verifiable |
-| Litigation summaries (citing courts) | LOW-MEDIUM | Requires precise citation; avoid outcome predictions |
-| Brand strategy interpretation | MEDIUM | Hedged language required; labeled as T4_INFERRED |
-| Competitive comparisons | MEDIUM | Metric-based only; no pejorative characterizations |
-| ESG / sustainability claims | MEDIUM | Cite official disclosures only |
-
-**Overall Project Risk Level for Eaton Corporation Content: MEDIUM**
-
-Adherence to the project's writing protocols and source tier system is sufficient to manage identified risks. (T4_INFERRED)
-
----
-
-*Layer 8 — Legal Review | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL | T3_SECONDARY_RELIABLE | T4_INFERRED*
-*This document does not constitute legal advice.*
+| Risk Category | Likelihood | Impact on Project | Mitigation |
+|---------------|-----------|-------------------|------------|
+| Trademark infringement (logo reproduction) | Low (analysis uses descriptions, not reproductions) | Medium | Do not reproduce logo in any published output |
+| Defamation / false statement | Very Low (all claims sourced to public filings) | High | Maintain T1/T2 sourcing for all factual claims |
+| Export control (ITAR) inadvertent disclosure | Very Low (no classified or proprietary aerospace data used) | High | Do not publish specific technical parameters of Eaton aerospace products without public sourcing |
+| Environmental claim inaccuracy | Low | Medium | Source all environmental figures to specific Eaton disclosures; do not extrapolate |
+| Financial data error | Low | Medium | Cross-reference all financial figures against EDGAR-filed 10-K before publication |

@@ -1,102 +1,95 @@
-# 05. Design System — Delta Air Lines (DAL)
+# 05. Design System — Delta Air Lines, Inc. (DAL)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
-
----
-
-## 1. Color Palette
-
-Delta Air Lines's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference. Note: CSS color extraction for delta.com returned no color data in automated extraction; color palette below is based on direct observation of delta.com and official Delta brand materials.
 
 ---
 
-## 2. Typography
+## Color Palette
 
-Delta Air Lines's digital properties employ a typographic system appropriate to its industrials positioning.
+| Role | Color Name | HEX | Source | Usage |
+|------|------------|-----|--------|-------|
+| **Primary Blue** | Delta Blue | `#003366` | Observed on delta.com (estimated) | Primary brand color; navigation bars; buttons; logo background |
+| **Secondary Red** | Delta Red | `#E51937` | Observed on delta.com (estimated) | Logo widget mark; sale/alert callouts; loyalty tier highlights |
+| **Accent Blue** | Sky Blue | `#0066CC` | Observed on delta.com (estimated) | Interactive elements; links; call-to-action buttons |
+| **Neutral Light** | Cloud White | `#F7F7F7` | Observed on delta.com (estimated) | Page background; card backgrounds |
+| **Neutral Dark** | Slate Gray | `#333333` | Observed on delta.com (estimated) | Body text; navigation labels |
+| **Premium Gold** | Medallion Gold | `#B8982E` | Observed in SkyMiles Medallion materials (estimated) | Diamond and Platinum Medallion status indicators; premium upsell elements |
 
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+**Color Rationale**: Deep navy blue as primary communicates trust, professionalism, and premium positioning — the same reasoning behind American Express, JP Morgan Chase, and other financial-premium brands. The red widget mark (the "widget" or "delta" symbol in the tail logo) provides a bold accent that differentiates from United's blue-dominant palette. (T4_INFERRED from observed design system)
 
 ---
 
-## 3. Channel Specifications
+## Typography
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+| Role | Font Family | Weight | Source |
+|------|------------|--------|--------|
+| **Primary** | Delta Sans (custom, proprietary) | Regular, Medium, Bold | Observed on delta.com — proprietary typeface (estimated) |
+| **Fallback / System** | Arial, Helvetica Neue | Regular, Bold | Standard web fallback (observed in CSS via data extraction) |
+| **Display / Headlines** | Delta Sans Bold | Bold | Observed on delta.com hero sections |
+| **Body** | Delta Sans Regular | Regular | Observed on delta.com body content |
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+**Typography Rationale**: Delta Sans is a humanist sans-serif typeface with slightly rounded forms that communicate approachability within a professional context — consistent with the Caregiver/Ruler archetype combination. The rounded forms prevent the design from feeling cold or institutional, differentiating Delta from the more utilitarian sans-serif choices of United and American. (T4_INFERRED from observed letterform characteristics)
 
 ---
 
-## 5. Design Prohibitions
+## Channel Specifications
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+| Channel | Dimensions | Format | Primary Color Mode |
+|---------|-----------|--------|-------------------|
+| **Website hero** | 1440px width, full-bleed | Blue-to-sky photography with white headline overlay | Light |
+| **Email header** | 600px width | Delta blue header band with logo; white content area | Mixed |
+| **Instagram post** | 1080 × 1080px | Destination photography with Delta Blue overlay; white caption | Light |
+| **Twitter/X card** | 1200 × 675px | Operational update card: Delta Blue, white text, red alert indicator | Light |
+| **Print / Airport** | Full-bleed large format | Premium cabin photography; "Keep Climbing" headline | Light |
+| **Delta Sky magazine** | Standard magazine trim | Full-color editorial; destination photography | Light editorial |
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Delta Air Lines (DAL)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Layout Principles
+
+1. **Sky photography as brand canvas**: Delta's primary visual language is aerial and destination photography — clouds, horizon lines, and destination landscapes that evoke the aspiration of travel. Blue sky photography appears across all primary brand touchpoints. (observed on delta.com and @deltaairlines)
+
+2. **White space signals premium**: Delta's website and marketing materials use generous white space, particularly in Delta One product pages. Dense information layouts are reserved for booking flows and operational communications. Premium cabin content breathes. (observed on delta.com/en-us/onboard/cabins/delta-one)
+
+3. **Blue-forward navigation**: Navigation headers and footers anchor in Delta Blue, maintaining brand color consistency across the complexity of a multi-product, multi-route website. (observed on delta.com)
+
+4. **Red as alert and action only**: The red widget mark in the Delta logo and red used in promotional callouts is reserved for urgency (sales, alerts, status indicators). It does not appear in ambient design contexts. (observed on delta.com)
+
+5. **Photography hierarchy — people over product**: Delta's creative direction favors photography of travelers experiencing destinations over photography of aircraft. The aircraft is the mechanism; the destination is the story. (observed on @deltaairlines Instagram)
+
+---
+
+## Icon Style
+
+- **Style**: Rounded, approachable, line-based. Not sharp or angular.
+- **Color**: Delta Blue monochrome or white on blue backgrounds.
+- **Travel icons**: Standard airport wayfinding conventions (gate, baggage, terminal) adapted to Delta brand colors.
+- **SkyMiles icons**: Medallion tier badges use distinct geometric shapes: Medallion (silver), Gold Medallion, Platinum Medallion, Diamond Medallion — progressively more complex visual treatment. (observed on delta.com/skymiles)
+- (T4_INFERRED from observed product screenshots and design materials on delta.com)
+
+---
+
+## AI Image Prompt Guide
+
+**Premium Cabin (Delta One)**:
+> "Interior of a premium airline lie-flat business class suite, warm ambient lighting, white and navy color palette, champagne glass on the side table, window with sunrise light, no text, photorealistic, ultra-detailed, wide angle"
+
+**Destination Inspiration**:
+> "Aerial view of Paris at golden hour from airplane window seat, Seine river visible below, soft clouds on the horizon, no airline branding visible, travel photography style, warm tones, 16:9"
+
+**Sky Club Lounge**:
+> "Modern airport lounge interior, high ceilings, floor-to-ceiling windows with runway view, warm lighting, comfortable seating, no visible branding, upscale hospitality design, architectural photography"
+
+**Operational / On-Time**:
+> "Wide shot of an airport tarmac at dawn, single aircraft preparing for departure, ground crew visible in orange vests, blue sky with light clouds, hopeful and professional mood, photorealistic"
+
+---
+
+## Design Prohibitions
+
+1. **No low-cost airline visual conventions**: Bright orange (Spirit), yellow (Frontier), or neon-green color schemes evoke budget positioning. Delta's design never references this visual vocabulary. (T4_INFERRED)
+2. **No crowded booking-flow design patterns in brand content**: Dense fare comparison grids are confined to the booking engine. Brand marketing materials use generous white space. (T4_INFERRED)
+3. **No amateur travel photography**: All travel imagery must be professional-grade. User-generated content in marketing requires curation and rights clearance. (T4_INFERRED from brand quality standards)
+4. **No aircraft-forward hero imagery**: The aircraft is not the hero of Delta's visual identity. Destination experiences and people are the visual priority. Aircraft appear as supporting environmental elements. (T4_INFERRED from observed creative direction)
+5. **No competitor logos or livery visible in photography**: Background aircraft in photography should not display competitor airline livery. (T4_INFERRED)
+6. **No Medallion status misrepresentation**: Visual design for loyalty communications must accurately reflect the customer's actual status tier. Using Diamond Medallion visual treatments in communications to Gold Medallion members creates expectation mismatch. (T4_INFERRED)
