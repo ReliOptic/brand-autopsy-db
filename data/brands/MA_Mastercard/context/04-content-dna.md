@@ -177,7 +177,7 @@ commercial conversation, positioning Mastercard as an intelligence partner.
 | **Fraud alert / security notification** | Calm, direct, immediate, protective — never alarming | Relief + trust; "we handled it" confidence | "We noticed unusual activity on your account at 11:42 PM. Your card is paused. Tap here to review and restore." |
 | **Financial inclusion program** | Hopeful, dignified, specific, documentary — never condescending | Respect + aspiration; possibility becoming real | "For the first time, her market accepted a card payment. That's one more door open." |
 | **B2B / Institutional content** | Professional, data-led, opportunity-framed, precise | Confidence + credibility; evidence-based | "Mastercard processed approximately $9T+ in gross dollar volume in FY2024. Here is what the transaction data reveals about consumer spending patterns." |
-| **Innovation / Technology announcement** | Forward-looking, grounded, specific — not hype-driven | Curiosity + confidence; technology serves people | "Tokenization replaced the card number with a unique digital identifier. The result: 80% fewer fraudulent transactions in digital wallet environments." (estimated figure for example illustration only — not a cited Mastercard statistic) |
+| **Innovation / Technology announcement** | Forward-looking, grounded, specific — not hype-driven | Curiosity + confidence; technology serves people | "Tokenization replaced the card number with a unique digital identifier. The result: 80% fewer unauthorized transactions in digital wallet environments." (estimated figure for example illustration only — not a cited Mastercard statistic) |
 
 ---
 
