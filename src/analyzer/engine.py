@@ -11,10 +11,6 @@ from pathlib import Path
 from datetime import date
 
 from .prompts.system import SYSTEM_PROMPT, FEW_SHOT_INSTRUCTION
-from .prompts import (
-    _01_identity, _02_audience, _03_competition,
-    _04_content, _05_design, _06_channel,
-)
 from .validator import validate_and_report
 
 # Lazy import — only needed when actually running analysis
@@ -27,6 +23,8 @@ LAYER_MODULES = {
     4: ("04-content-dna.md", "04_content"),
     5: ("05-design-system.md", "05_design"),
     6: ("06-channel-playbook.md", "06_channel"),
+    7: ("07-financial-anatomy.md", "07_financial"),
+    8: ("08-legal-review.md", "08_legal"),
 }
 
 # Import prompt modules dynamically to avoid naming issues
@@ -114,6 +112,22 @@ def _load_collected_data(ticker: str) -> str:
     return "\n\n".join(parts)
 
 
+def _load_sec_data(ticker: str) -> str:
+    """Load SEC filing data for a company."""
+    sec_path = DATA_DIR / "raw" / ticker / "sec_10k.json"
+    if not sec_path.exists():
+        return (
+            "SEC 10-K 데이터 없음 (미수집). "
+            f"EDGAR에서 직접 확인: https://www.sec.gov/cgi-bin/browse-edgar?"
+            f"action=getcompany&CIK={ticker}&type=10-K&dateb=&owner=include&count=10"
+        )
+
+    with open(sec_path, encoding="utf-8") as f:
+        sec = json.load(f)
+
+    return json.dumps(sec, indent=2, ensure_ascii=False)[:5000]
+
+
 def _get_sector_companies(ticker: str, sector: str) -> str:
     """Get list of companies in the same sector for competitive analysis."""
     import csv
@@ -193,8 +207,8 @@ class AnalysisEngine:
 
         results = {}
 
-        for layer_num in range(1, 7):
-            print(f"\n  Layer {layer_num}/6...", end=" ", flush=True)
+        for layer_num in range(1, 9):
+            print(f"\n  Layer {layer_num}/8...", end=" ", flush=True)
             start = time.time()
 
             module = LAYER_PROMPT_MODULES[layer_num]
@@ -234,6 +248,20 @@ class AnalysisEngine:
                 )
                 template_vars["previous_layers"] = prev
                 template_vars["collected_data"] = collected_data
+            elif layer_num == 7:
+                prev = "\n\n---\n\n".join(
+                    results.get(i, "")[:1500] for i in [1, 3]
+                )
+                template_vars["previous_layers"] = prev
+                template_vars["collected_data"] = collected_data
+                template_vars["sec_data"] = _load_sec_data(ticker)
+            elif layer_num == 8:
+                prev = "\n\n---\n\n".join(
+                    results.get(i, "")[:1500] for i in [1, 3, 7]
+                )
+                template_vars["previous_layers"] = prev
+                template_vars["collected_data"] = collected_data
+                template_vars["sec_data"] = _load_sec_data(ticker)
 
             user_prompt = (
                 f"## Few-Shot Examples\n\n{few_shot}\n\n"
@@ -261,6 +289,8 @@ class AnalysisEngine:
             4: "04-content-dna.md",
             5: "05-design-system.md",
             6: "06-channel-playbook.md",
+            7: "07-financial-anatomy.md",
+            8: "08-legal-review.md",
         }
 
         for num, content in results.items():

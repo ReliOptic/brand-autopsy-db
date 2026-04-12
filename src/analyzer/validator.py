@@ -185,6 +185,94 @@ def validate_layer6(md: str, brand: str) -> ValidationResult:
     return v
 
 
+def validate_layer7(md: str, brand: str) -> ValidationResult:
+    """Validate Financial Anatomy layer."""
+    v = ValidationResult(brand=brand, layer=7)
+
+    v.check("면책 고지" in md, "Missing: 면책 고지 (Disclaimer)", 2)
+    v.check("공시 원문 링크" in md or "Primary Sources" in md,
+            "Missing: 공시 원문 링크 section", 3)
+
+    # SEC EDGAR links
+    edgar_links = len(re.findall(r"sec\.gov", md, re.IGNORECASE))
+    v.check(edgar_links >= 3, f"Only {edgar_links} SEC EDGAR links (expected 3+)", 3)
+
+    # Revenue table
+    v.check("수익 구조" in md or "Revenue" in md, "Missing: 수익 구조 section", 2)
+    v.check(_has_table(md), "No financial tables found", 2)
+
+    # Multi-year data
+    fy_mentions = len(re.findall(r"FY20\d{2}", md))
+    v.check(fy_mentions >= 5, f"Only {fy_mentions} fiscal year references (expected 5+)", 2)
+
+    # Key financial sections
+    v.check("수익성" in md or "Profitability" in md, "Missing: 수익성 해부 section", 2)
+    v.check("R&D" in md, "Missing: R&D 지출 section", 2)
+    v.check("SG&A" in md or "판관비" in md, "Missing: SG&A/마케팅 비용 section", 1)
+    v.check("자본 배분" in md or "Capital Allocation" in md,
+            "Missing: 자본 배분 section", 1)
+    v.check("재무 건전성" in md or "Financial Health" in md,
+            "Missing: 재무 건전성 section", 1)
+    v.check("브랜드 가치" in md or "Brand Valuation" in md,
+            "Missing: 브랜드 가치 평가 section", 1)
+    v.check("리스크" in md or "Risk" in md, "Missing: 재무 리스크 section", 2)
+    v.check("Brand × Finance" in md or "브랜드-재무" in md,
+            "Missing: 브랜드-재무 연결 인사이트", 2)
+
+    # Source attribution
+    source_tags = len(re.findall(r"10-K|10-Q|DEF 14A|공시|EDGAR", md))
+    v.check(source_tags >= 10, f"Only {source_tags} source citations (expected 10+)", 2)
+
+    # Dollar amounts with $
+    dollar_amounts = len(re.findall(r"\$[\d,.]+[BMK]?", md))
+    v.check(dollar_amounts >= 10, f"Only {dollar_amounts} dollar figures (expected 10+)", 2)
+
+    # Estimation markers
+    official = len(re.findall(r"공식", md))
+    estimated = len(re.findall(r"추정", md))
+    if official + estimated < 5:
+        v.warn(f"Low source attribution: {official} 공식 + {estimated} 추정 markers")
+
+    return v
+
+
+def validate_layer8(md: str, brand: str) -> ValidationResult:
+    """Validate Legal Review layer."""
+    v = ValidationResult(brand=brand, layer=8)
+
+    v.check("면책 고지" in md, "Missing: 면책 고지 (Disclaimer)", 2)
+    v.check("공시" in md or "Primary Sources" in md,
+            "Missing: 공시·판례 원문 링크 section", 2)
+
+    # IP section
+    v.check("지적재산권" in md or "IP Portfolio" in md, "Missing: IP Portfolio section", 2)
+    v.check("상표" in md or "Trademark" in md, "Missing: 상표권 section", 2)
+
+    # Litigation section
+    v.check("소송" in md or "Legal Proceedings" in md, "Missing: 소송 section", 2)
+    v.check(_has_table(md), "No tables found", 1)
+
+    # Regulatory section
+    v.check("규제" in md or "Regulatory" in md, "Missing: 규제 환경 section", 2)
+
+    # Project legal risk
+    v.check("프로젝트 법적 리스크" in md or "Brand Autopsy DB" in md,
+            "Missing: 본 프로젝트 법적 리스크 section", 2)
+    v.check("Fair Use" in md or "fair use" in md, "Missing: Fair Use 분석", 2)
+
+    # ESG
+    v.check("ESG" in md or "컴플라이언스" in md, "Missing: ESG section", 1)
+
+    # Risk heatmap
+    v.check("히트맵" in md or "리스크" in md, "Missing: 법적 리스크 히트맵", 1)
+
+    # Source links
+    sec_links = len(re.findall(r"sec\.gov|USPTO|tmsearch", md, re.IGNORECASE))
+    v.check(sec_links >= 2, f"Only {sec_links} legal source links (expected 2+)", 2)
+
+    return v
+
+
 VALIDATORS = {
     1: validate_layer1,
     2: validate_layer2,
@@ -192,6 +280,8 @@ VALIDATORS = {
     4: validate_layer4,
     5: validate_layer5,
     6: validate_layer6,
+    7: validate_layer7,
+    8: validate_layer8,
 }
 
 
