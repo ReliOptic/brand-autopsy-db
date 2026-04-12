@@ -1,138 +1,174 @@
-"""Layer 8: Legal Review analysis prompt."""
+"""Layer 8: Legal Review analysis prompt.
 
-TEMPLATE = """# 08. 법적 요소 검토 — {brand_name}
+PURPOSE: This layer exists primarily to protect the Brand Autopsy DB project from legal
+exposure. It assesses each company's litigation posture, IP sensitivity, and regulatory
+landscape to produce a company-specific "Writing Risk Guide" for safer analysis.
+"""
 
-아래 수집 데이터와 이전 Layer 분석 결과를 기반으로, 이 브랜드의 법적 환경을 검토하라.
+TEMPLATE = """# 08. Legal Review — {brand_name}
 
-**핵심 원칙**:
-- 소송/규제 정보는 SEC 공시(10-K Legal Proceedings, 8-K) 및 공개 법원 기록에서 확인 가능해야 한다.
-- 상표권 정보는 USPTO/WIPO 공개 데이터베이스에서 검증 가능해야 한다.
-- 법률 자문이 아닌 브랜드 전략 관점의 법적 리스크 인식 문서임을 명시한다.
-- 본 프로젝트(Brand Autopsy DB)의 데이터 수집/사용 적법성도 분석한다.
+Based on the collected data and previous layer analyses below, review this brand's legal
+environment WITH SPECIAL FOCUS on protecting this project (Brand Autopsy DB) from legal risk.
 
-## 이전 Layer 분석 (브랜드 컨텍스트)
+**Core Principles**:
+- Litigation/regulatory info must be verifiable from SEC filings (10-K Legal Proceedings, 8-K) and public court records.
+- Trademark info must be verifiable from USPTO/WIPO public databases.
+- This is NOT legal advice — it is a brand strategy risk awareness document.
+- This layer MUST produce a "Writing Risk Guide" with company-specific dos and don'ts for OUR analysis.
+- Use hedged language throughout. Never assert illegality — cite the regulator or court that made the finding.
+
+## Previous Layer Analysis (Brand Context)
 {previous_layers}
 
-## 수집 데이터
+## Collected Data
 {collected_data}
 
-## SEC 공시 데이터
+## SEC Filing Data
 {sec_data}
 
-## 출력 형식 (이 구조를 정확히 따를 것)
+## Output Format (follow this structure exactly)
 
 ```markdown
-# 08. 법적 요소 검토 — {brand_name}
+# 08. Legal Review — {brand_name}
 
-> **면책 고지**: 이 문서는 법률 자문이 아니며, 브랜드 분석 프로젝트의 법적 리스크 인식 목적으로 작성되었다. 모든 소송·규제 정보는 SEC 공시 및 공개 법원 기록에서 확인 가능하다.
+> **Disclaimer**: This document is not legal advice. It is prepared for brand analysis risk awareness within the Brand Autopsy DB project. All litigation and regulatory information is sourced from SEC filings and public court records.
 
 ---
 
-## 공시·판례 원문 링크 (Primary Sources)
+## Filing & Legal Record Sources (Primary Sources)
 
-| 문서 | 직접 링크 |
-|------|----------|
+| Document | Direct Link |
+|----------|-------------|
 | 10-K Risk Factors | [SEC EDGAR](URL) |
 | Legal Proceedings | 10-K Part I, Item 3 |
-| 8-K (중요 사건 공시) | [SEC EDGAR](URL) |
-| USPTO 상표 검색 | [USPTO TESS](https://tmsearch.uspto.gov/) |
+| 8-K (Material Events) | [SEC EDGAR](URL) |
+| USPTO Trademark Search | [USPTO TESS](https://tmsearch.uspto.gov/) |
 
 ---
 
-## 1. 지적재산권 (IP Portfolio)
+## 1. Intellectual Property Portfolio
 
-### 1.1 상표권 (Trademarks)
+### 1.1 Trademarks
 
-| 상표 | 등록 지역 | 상태 | 전략적 의미 |
-|------|----------|------|-----------|
-(핵심 상표 최소 5개. Nice 분류 포함. USPTO/WIPO 검증 가능 여부 표시)
+| Trademark | Registration Region | Status | Strategic Significance |
+|-----------|-------------------|--------|----------------------|
+(Minimum 5 core trademarks. Include Nice Classification. Note USPTO/WIPO verifiability)
 
-### 1.2 특허 (Patents)
+### 1.2 Patents
 
-| 항목 | 수치 | 출처 |
-|------|------|------|
-| 미국 특허 보유 수 | (추정 시 명시) | |
-| 연간 특허 출원 수 | | |
-| 주요 분야 | | |
+| Item | Count | Source |
+|------|-------|--------|
+| US Patents Held | (state "estimated" if not officially disclosed) | |
+| Annual Patent Filings | | |
+| Key Technology Areas | | |
 
-### 1.3 영업비밀 & 트레이드 드레스
+### 1.3 Trade Secrets & Trade Dress
 
-[해당 브랜드의 트레이드 드레스 보호 사례, 영업비밀 보호 전략]
-
----
-
-## 2. 주요 소송 & 규제 이슈
-
-### 2.1 현재 진행 중인 주요 소송
-
-| 소송/규제 | 상대 | 상태 | 잠재 영향 ($) | 브랜드 영향 | 출처 |
-|----------|------|------|-------------|-----------|------|
-(10-K Legal Proceedings + 8-K 기반. 최소 3개. 브랜드 전략 영향 분석 필수)
-
-### 2.2 과거 주요 판례 (브랜드 전략 관련)
-
-| 판례 | 연도 | 결과 | 브랜드 전략 교훈 |
-|------|------|------|----------------|
-(해당 브랜드의 법적 역사에서 브랜드 전략에 영향을 준 판례)
+[Relevant trade dress protection cases and trade secret protection strategies for this brand]
 
 ---
 
-## 3. 규제 환경 (Regulatory Landscape)
+## 2. Major Litigation & Regulatory Issues
 
-### 3.1 지역별 규제 리스크
+### 2.1 Active Major Litigation
 
-| 지역 | 핵심 규제 | 영향 | 상태 |
-|------|----------|------|------|
-(해당 브랜드가 활동하는 주요 시장별 규제 환경)
+| Case / Regulatory Action | Opposing Party | Status | Potential Financial Impact | Brand Impact | Source |
+|-------------------------|---------------|--------|--------------------------|-------------|--------|
+(Based on 10-K Legal Proceedings + 8-K. Minimum 3. Brand strategy impact analysis required.
+IMPORTANT: Describe factually what regulators/courts have stated. Do not editorialize.)
 
-### 3.2 개인정보 보호 규제
+### 2.2 Key Historical Cases (Brand-Relevant)
 
-| 규제 | 지역 | 대응 현황 | 브랜드 영향 |
-|------|------|-----------|-----------|
-(GDPR, CCPA, PIPL 등 해당되는 규제)
-
----
-
-## 4. 본 프로젝트 법적 리스크 (Brand Autopsy DB)
-
-### 4.1 데이터 수집 적법성
-
-| 수집 대상 | 법적 근거 | 리스크 수준 | 대응 |
-|----------|----------|-----------|------|
-(SEC 공시, 웹사이트 CSS, SNS 데이터, 브랜드 로고 등 각각의 적법성 평가)
-
-### 4.2 Fair Use 4요소 분석
-
-| 요소 | 평가 | 근거 |
-|------|------|------|
-| 1. 사용 목적·성격 | | |
-| 2. 원저작물의 성격 | | |
-| 3. 사용 분량 | | |
-| 4. 시장 영향 | | |
-
-### 4.3 권장 사항
-[데이터 수집/사용 시 주의사항 최소 3개]
+| Case | Year | Outcome | Brand Strategy Lesson |
+|------|------|---------|----------------------|
+(Historical legal events that shaped this brand's strategy)
 
 ---
 
-## 5. ESG & 컴플라이언스 (브랜드 관련)
+## 3. Regulatory Landscape
 
-### 5.1 환경 (Environmental)
+### 3.1 Regional Regulatory Risk
 
-| 항목 | 공식 입장 | 출처 |
-|------|----------|------|
+| Region | Key Regulation | Impact | Status |
+|--------|---------------|--------|--------|
+(Regulatory environment in each major market where this brand operates)
 
-### 5.2 공급망 노동 (Social)
+### 3.2 Privacy & Data Regulations
 
-| 이슈 | 상태 | 브랜드 리스크 |
-|------|------|-------------|
+| Regulation | Region | Company Response | Brand Impact |
+|-----------|--------|-----------------|-------------|
+(GDPR, CCPA, PIPL, etc. as applicable)
 
 ---
 
-## 요약: 법적 리스크 히트맵
+## 4. PROJECT RISK ASSESSMENT (Brand Autopsy DB)
 
-[가로축: 재무 영향(낮음~높음), 세로축: 브랜드 영향(낮음~높음)으로 구성된 ASCII 4사분면 맵]
+THIS IS THE MOST IMPORTANT SECTION. It protects our project from legal exposure.
 
-**최대 리스크**: [가장 심각한 법적 리스크 1~2개와 브랜드 전략 영향 요약]
+### 4.1 Company Litigation Posture
+
+| Factor | Assessment | Risk to Our Project |
+|--------|-----------|-------------------|
+| History of suing for defamation/IP | [Aggressive / Moderate / Low] | |
+| Trademark enforcement aggressiveness | [Aggressive / Moderate / Low] | |
+| Public figure / public company status | [Higher bar for defamation claims] | |
+| Regulatory sensitivity level | [High / Medium / Low] | |
+
+### 4.2 Data Collection Legality
+
+| Data We Collect | Legal Basis | Risk Level | Mitigation |
+|----------------|-------------|------------|-----------|
+(Evaluate legality of: SEC filings, website CSS, social media, brand logos, etc.)
+
+### 4.3 Fair Use 4-Factor Analysis (For Our Project)
+
+| Factor | Assessment | Basis |
+|--------|-----------|-------|
+| 1. Purpose & Character of Use | | |
+| 2. Nature of Copyrighted Work | | |
+| 3. Amount Used | | |
+| 4. Market Impact | | |
+
+### 4.4 Writing Risk Guide (COMPANY-SPECIFIC)
+
+**This section provides specific guidance for writing about {brand_name} in our database.**
+
+#### SAFE to write (with proper sourcing):
+- [List specific types of statements that are safe for this company]
+
+#### REQUIRES CAREFUL HEDGING:
+- [List topics that need extra careful language for this company]
+
+#### DO NOT WRITE (high legal risk for our project):
+- [List specific claims or characterizations to avoid for this company]
+
+#### Recommended Phrasings for Sensitive Topics:
+| Topic | DO NOT write | INSTEAD write |
+|-------|-------------|--------------|
+(Minimum 5 topic-specific phrasing guides)
+
+---
+
+## 5. ESG & Compliance (Brand-Relevant)
+
+### 5.1 Environmental
+
+| Item | Official Position | Source |
+|------|------------------|--------|
+
+### 5.2 Supply Chain & Labor (Social)
+
+| Issue | Status | Brand Risk |
+|-------|--------|-----------|
+
+---
+
+## Summary: Legal Risk Heatmap
+
+[ASCII 4-quadrant map: X-axis = Financial Impact (Low→High), Y-axis = Brand Impact (Low→High)]
+
+**Highest Risk**: [Top 1-2 legal risks and their brand strategy impact summary]
+
+**Project Writing Risk Level**: [LOW / MEDIUM / HIGH] — [One-line justification]
 ```
 """

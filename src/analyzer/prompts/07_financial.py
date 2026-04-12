@@ -1,221 +1,221 @@
 """Layer 7: Financial Anatomy analysis prompt."""
 
-TEMPLATE = """# 07. 재무 해부 — {brand_name}
+TEMPLATE = """# 07. Financial Anatomy — {brand_name}
 
-아래 수집 데이터와 이전 Layer 분석 결과를 기반으로, 이 브랜드의 재무 구조를 해부하라.
+Based on the collected data and previous layer analyses below, dissect this brand's financial structure.
 
-**핵심 원칙**:
-- 모든 수치는 SEC 공시(10-K, 10-Q, DEF 14A) 원문에서 확인 가능해야 한다.
-- 각 수치 옆에 출처(공시 문서명 + 섹션)를 반드시 표기한다.
-- 공시에서 직접 확인할 수 없는 수치는 반드시 (추정)으로 표기하고 추정 근거를 명시한다.
-- SEC EDGAR 직접 링크를 제공하여 원클릭 검증이 가능하게 한다.
-- CIK 번호를 활용한 EDGAR URL 패턴: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={{CIK}}&type=10-K&dateb=&owner=include&count=10
+**Core Principles**:
+- All figures must be verifiable from SEC filings (10-K, 10-Q, DEF 14A).
+- Tag each figure with its source (filing name + section). Use (official) for confirmed data.
+- Any figure not directly from filings must be tagged (estimated) with estimation basis.
+- Provide SEC EDGAR direct links for one-click verification.
+- CIK-based EDGAR URL pattern: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={{CIK}}&type=10-K&dateb=&owner=include&count=10
 
-## 이전 Layer 분석 (브랜드 컨텍스트)
+## Previous Layer Analysis (Brand Context)
 {previous_layers}
 
-## 수집 데이터
+## Collected Data
 {collected_data}
 
-## SEC 공시 데이터
+## SEC Filing Data
 {sec_data}
 
-## 출력 형식 (이 구조를 정확히 따를 것)
+## Output Format (follow this structure exactly)
 
 ```markdown
-# 07. 재무 해부 — {brand_name}
+# 07. Financial Anatomy — {brand_name}
 
-> **면책 고지**: 이 문서의 모든 재무 데이터는 SEC 공시 자료(10-K, 10-Q, DEF 14A)에서 직접 추출한 것이다. 각 수치 옆에 출처 링크를 명시하며, "추정" 표기가 없는 수치는 공시 원문에서 확인 가능하다. 투자 조언이 아닌 브랜드 전략 분석 목적의 문서이다.
-
----
-
-## 공시 원문 링크 (Primary Sources)
-
-| 문서 | 회계연도 | 직접 링크 |
-|------|---------|----------|
-| 10-K (연간보고서) | [최신 FY] | [SEC EDGAR — {{ticker}} 10-K](EDGAR URL) |
-| 10-Q (분기보고서) | [최신 Q] | [SEC EDGAR — {{ticker}} 10-Q](EDGAR URL) |
-| DEF 14A (위임장) | [최신 FY] | [SEC EDGAR — {{ticker}} DEF 14A](EDGAR URL) |
-| Earnings Call / IR | [최신] | [IR 페이지 URL] |
-
-> **CIK 번호**: [CIK] — SEC EDGAR 전체 공시 검색: [EDGAR Full Filing Search](URL)
+> **Disclaimer**: All financial data in this document is extracted from SEC filings (10-K, 10-Q, DEF 14A). Source links are provided for each figure. Figures without an "estimated" tag are verifiable in the original filings. This is brand strategy analysis, not investment advice.
 
 ---
 
-## 1. 수익 구조 해부 (Revenue Anatomy)
+## Filing Source Links (Primary Sources)
 
-### 1.1 연결 매출 추이
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | [Latest FY] | [SEC EDGAR — {{ticker}} 10-K](EDGAR URL) |
+| 10-Q (Quarterly Report) | [Latest Q] | [SEC EDGAR — {{ticker}} 10-Q](EDGAR URL) |
+| DEF 14A (Proxy Statement) | [Latest FY] | [SEC EDGAR — {{ticker}} DEF 14A](EDGAR URL) |
+| Earnings Call / IR | [Latest] | [IR Page URL] |
 
-| 회계연도 | 매출 ($B) | YoY 성장률 | 순이익 ($B) | 순이익률 | 출처 |
-|---------|----------|-----------|------------|---------|------|
-(최소 5개 연도. 각 행에 10-K 연도 명시)
-
-> **5년 CAGR**: 매출 +X%, 순이익 +X% — [성장 패턴 해석]
-
-### 1.2 세그먼트별 매출 (최신 FY)
-
-| 세그먼트 | 매출 ($B) | 비중 | YoY | 전략적 의미 |
-|---------|----------|------|-----|-----------|
-(10-K Segment Information 기준. 각 세그먼트의 브랜드 전략 시사점 포함)
-
-> **출처**: [10-K — Segment Information / Notes](EDGAR URL)
-
-### 1.3 지역별 매출 (최신 FY)
-
-| 지역 | 매출 ($B) | 비중 | YoY | 전략적 의미 |
-|------|----------|------|-----|-----------|
-(10-K Geographic Information 기준)
-
-> **출처**: [10-K — Geographic Information](EDGAR URL)
+> **CIK Number**: [CIK] — Full EDGAR search: [EDGAR Full Filing Search](URL)
 
 ---
 
-## 2. 수익성 해부 (Profitability Anatomy)
+## 1. Revenue Anatomy
 
-### 2.1 마진 구조
+### 1.1 Consolidated Revenue Trend
 
-| 지표 | 최신 FY | FY-1 | FY-2 | 의미 |
-|------|--------|------|------|------|
-| 매출총이익률 (Gross Margin) | X% | X% | X% | [추세 해석] |
-| 영업이익률 (Operating Margin) | X% | X% | X% | |
-| 순이익률 (Net Margin) | X% | X% | X% | |
+| Fiscal Year | Revenue ($B) | YoY Growth | Net Income ($B) | Net Margin | Source |
+|-------------|-------------|------------|-----------------|------------|--------|
+(Minimum 5 years. Cite 10-K year for each row)
+
+> **5-Year CAGR**: Revenue +X%, Net Income +X% — [growth pattern interpretation]
+
+### 1.2 Segment Revenue (Latest FY)
+
+| Segment | Revenue ($B) | Share | YoY | Strategic Implications |
+|---------|-------------|-------|-----|----------------------|
+(Based on 10-K Segment Information. Include brand strategy implications for each segment)
+
+> **Source**: [10-K — Segment Information / Notes](EDGAR URL)
+
+### 1.3 Geographic Revenue (Latest FY)
+
+| Region | Revenue ($B) | Share | YoY | Strategic Implications |
+|--------|-------------|-------|-----|----------------------|
+(Based on 10-K Geographic Information)
+
+> **Source**: [10-K — Geographic Information](EDGAR URL)
+
+---
+
+## 2. Profitability Anatomy
+
+### 2.1 Margin Structure
+
+| Metric | Latest FY | FY-1 | FY-2 | Interpretation |
+|--------|----------|------|------|---------------|
+| Gross Margin | X% | X% | X% | [trend interpretation] |
+| Operating Margin | X% | X% | X% | |
+| Net Margin | X% | X% | X% | |
 | FCF Margin | X% | X% | X% | |
 
-> **출처**: [10-K — Consolidated Statements of Operations](EDGAR URL)
+> **Source**: [10-K — Consolidated Statements of Operations](EDGAR URL)
 
-### 2.2 세그먼트별 마진 (공시된 경우)
+### 2.2 Segment Margins (if disclosed)
 
-| 구분 | 매출총이익률 | 추세 | 출처 |
-|------|-------------|------|------|
-(10-K에서 세그먼트별 마진을 별도 공시하는 경우에만 작성. 미공시 시 "미공시 — 추정치 사용" 명시)
+| Segment | Gross Margin | Trend | Source |
+|---------|-------------|-------|--------|
+(Only include if segment margins are separately disclosed in 10-K. State "Not disclosed — estimate used" if applicable)
 
-> **브랜드 전략 시사점**: [마진 구조가 브랜드 포지셔닝에 미치는 영향 분석]
+> **Brand Strategy Implication**: [How margin structure affects brand positioning]
 
 ---
 
-## 3. 투자 구조 (Investment Anatomy)
+## 3. Investment Structure
 
-### 3.1 R&D 지출
+### 3.1 R&D Spending
 
-| 회계연도 | R&D ($B) | 매출 대비 | YoY 증가 | 출처 |
-|---------|---------|----------|---------|------|
-(최소 4개 연도)
+| Fiscal Year | R&D ($B) | % of Revenue | YoY Change | Source |
+|-------------|---------|-------------|------------|--------|
+(Minimum 4 years)
 
-> **업계 비교**: [동일 섹터 경쟁사 R&D 비율 비교]
+> **Industry Comparison**: [Compare R&D ratio with same-sector competitors]
 
-### 3.2 마케팅 & 판관비 (SG&A)
+### 3.2 Marketing & SG&A
 
-| 회계연도 | SG&A ($B) | 매출 대비 | 추세 |
-|---------|----------|----------|------|
-(최소 3개 연도)
+| Fiscal Year | SG&A ($B) | % of Revenue | Trend |
+|-------------|----------|-------------|-------|
+(Minimum 3 years)
 
-> **주의**: 광고/마케팅 비용 별도 공시 여부 확인. 미공시 시 SG&A 내 포함 명시 + 외부 추정치 인용.
+> **Note**: Check whether advertising/marketing costs are separately disclosed. If not, state "included in SG&A" + cite external estimates with attribution.
 
 ### 3.3 CapEx & Free Cash Flow
 
-| 항목 | 최신 FY | 비고 |
-|------|--------|------|
-| CapEx | $X | [주요 투자 영역] |
-| 감가상각 | $X | |
-| Free Cash Flow | $X | 매출의 X% |
+| Item | Latest FY | Notes |
+|------|----------|-------|
+| CapEx | $X | [Major investment areas] |
+| Depreciation | $X | |
+| Free Cash Flow | $X | X% of revenue |
 
-> **출처**: 10-K — Consolidated Statements of Cash Flows
-
----
-
-## 4. 자본 배분 전략 (Capital Allocation)
-
-### 4.1 주주환원
-
-| 항목 | 최신 FY | FY-1 | 누적 |
-|------|--------|------|------|
-| 자사주 매입 | | | |
-| 배당금 | | | |
-| **총 환원** | | | |
-
-> **출처**: [10-K — Financing Activities](EDGAR URL)
-
-### 4.2 M&A 전략
-
-| 주요 인수 | 분야 | 브랜드 전략 연관성 |
-|----------|------|-------------------|
-(공시 확인 가능한 인수만. 금액 미공시 시 "미공시" 표기)
+> **Source**: 10-K — Consolidated Statements of Cash Flows
 
 ---
 
-## 5. 재무 건전성 (Financial Health)
+## 4. Capital Allocation Strategy
 
-### 5.1 대차대조표 핵심
+### 4.1 Shareholder Returns
 
-| 항목 | 최신 FY | 의미 |
-|------|--------|------|
-| 총자산 | | |
-| 현금 + 유가증권 | | |
-| 총부채 | | |
-| 순현금/순부채 | | |
-| 자기자본 | | |
+| Item | Latest FY | FY-1 | Cumulative |
+|------|----------|------|------------|
+| Share Buybacks | | | |
+| Dividends | | | |
+| **Total Returns** | | | |
 
-> **출처**: [10-K — Consolidated Balance Sheets](EDGAR URL)
+> **Source**: [10-K — Financing Activities](EDGAR URL)
 
-### 5.2 신용등급
+### 4.2 M&A Strategy
 
-| 기관 | 등급 | 전망 | 의미 |
-|------|------|------|------|
-(Moody's, S&P, Fitch 중 공개된 것)
+| Major Acquisition | Domain | Brand Strategy Relevance |
+|-------------------|--------|------------------------|
+(Only include publicly confirmed acquisitions. State "undisclosed" for unconfirmed amounts)
 
 ---
 
-## 6. 브랜드 가치 평가 (Brand Valuation)
+## 5. Financial Health
 
-### 6.1 외부 기관 평가
+### 5.1 Balance Sheet Highlights
 
-| 기관 | 평가액 | 연도 | 순위 | 출처 유형 |
-|------|--------|------|------|----------|
-(Interbrand, Brand Finance, Kantar 등. 모두 "외부 추정"으로 표기)
+| Item | Latest FY | Interpretation |
+|------|----------|---------------|
+| Total Assets | | |
+| Cash + Marketable Securities | | |
+| Total Debt | | |
+| Net Cash / Net Debt | | |
+| Shareholders' Equity | | |
 
-### 6.2 브랜드 프리미엄 정량화
+> **Source**: [10-K — Consolidated Balance Sheets](EDGAR URL)
 
-| 지표 | 이 브랜드 | 업계 평균 | 프리미엄 | 의미 |
-|------|----------|----------|---------|------|
+### 5.2 Credit Ratings
+
+| Agency | Rating | Outlook | Interpretation |
+|--------|--------|---------|---------------|
+(Moody's, S&P, Fitch — include only publicly available ratings)
+
+---
+
+## 6. Brand Valuation
+
+### 6.1 External Valuations
+
+| Agency | Valuation | Year | Rank | Source Type |
+|--------|----------|------|------|-------------|
+(Interbrand, Brand Finance, Kantar, etc. All tagged as "third-party estimate")
+
+### 6.2 Brand Premium Quantification
+
+| Metric | This Brand | Industry Avg | Premium | Interpretation |
+|--------|-----------|-------------|---------|---------------|
 | P/E Ratio | | | | |
-| ASP (핵심 제품) | | 경쟁사 대비 | | |
-| 고객 유지율 | | | | (추정 시 명시) |
+| ASP (Core Product) | | vs. competitors | | |
+| Customer Retention | | | | (mark estimated if applicable) |
 
 ---
 
-## 7. 재무 리스크 매트릭스 (Financial Risk)
+## 7. Financial Risk Matrix
 
-### SEC 10-K Risk Factors 기반
+### Based on SEC 10-K Risk Factors
 
-| 리스크 카테고리 | 핵심 내용 | 브랜드 전략 영향 |
-|---------------|----------|----------------|
-(10-K Part I, Item 1A에서 직접 추출. 최소 5개. 브랜드 전략과의 연결 분석 필수)
+| Risk Category | Key Content | Brand Strategy Impact |
+|--------------|-------------|----------------------|
+(Extracted directly from 10-K Part I, Item 1A. Minimum 5 risks. Brand strategy connection analysis required)
 
-> **원문 확인**: [10-K Risk Factors](EDGAR URL)
-
----
-
-## 8. 브랜드-재무 연결 인사이트 (Brand × Finance Nexus)
-
-### 8.1 재무 데이터가 말하는 브랜드 전략
-
-| 재무 시그널 | 브랜드 전략 해석 |
-|------------|-----------------|
-(최소 5개. 재무 수치와 브랜드 포지셔닝의 인과관계 분석)
-
-### 8.2 마케팅 ROI 프레임
-
-[브랜드-재무 선순환/악순환 구조를 ASCII 다이어그램으로 시각화]
+> **Original filing**: [10-K Risk Factors](EDGAR URL)
 
 ---
 
-## EDGAR 빠른 참조 (Quick Reference)
+## 8. Brand-Finance Nexus
 
-1. **SEC EDGAR 전체 공시**: [URL]
+### 8.1 What Financial Data Reveals About Brand Strategy
+
+| Financial Signal | Brand Strategy Interpretation |
+|-----------------|------------------------------|
+(Minimum 5 signals. Analyze causal links between financial metrics and brand positioning)
+
+### 8.2 Marketing ROI Framework
+
+[Visualize brand-finance virtuous/vicious cycle as ASCII diagram]
+
+---
+
+## EDGAR Quick Reference
+
+1. **Full EDGAR Filings**: [URL]
 2. **EDGAR Full-Text Search**: [URL]
-3. **IR 페이지**: [URL]
+3. **IR Page**: [URL]
 4. **XBRL Viewer**: [URL]
 
-> **데이터 신선도**: 이 문서는 [FY 연도] 10-K 기준으로 작성되었다. 분기별 10-Q 발행 시 업데이트 필요.
+> **Data Freshness**: This document is based on [FY year] 10-K. Update required when quarterly 10-Q is filed.
 ```
 """
