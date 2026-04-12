@@ -1,102 +1,124 @@
-# 05. Design System — Estée Lauder Companies (The) (EL)
+# 05. Design System — The Estée Lauder Companies Inc. (EL)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
-
----
-
-## 1. Color Palette
-
-Estée Lauder Companies (The)'s visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. Typography
+## Color System (Multi-Brand Architecture)
 
-Estée Lauder Companies (The)'s digital properties employ a typographic system appropriate to its consumer staples positioning.
+ELC operates a multi-brand design system where each brand maintains a distinct visual identity. Parent company (ELC corporate) design is rarely consumer-facing; individual brand design systems lead.
 
-### Typeface System
+### Estée Lauder Brand
 
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+| Color Name | HEX | Usage |
+|-----------|-----|-------|
+| **Estée Lauder Navy** | `#1B2A4A` | Primary brand navy; luxury signal |
+| **Estée Lauder Gold** | `#C9A84C` | Premium accent; packaging; print |
+| **Estée Lauder White** | `#FAFAFA` | Digital background; clean and aspirational |
+| **Estée Lauder Blush** | `#E8B4B8` | Femininity accent; seasonal content |
 
-### Typographic Scale
+### MAC Cosmetics Brand
 
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+| Color Name | HEX | Usage |
+|-----------|-----|-------|
+| **MAC Black** | `#1A1A1A` | Primary brand black; bold, artistry-forward |
+| **MAC White** | `#FFFFFF` | Clean contrast; product photography background |
+| **MAC Red** | `#CC0000` | Iconic Russian Red lip color; brand equity red |
+| **MAC Chrome** | `#C0C0C0` | Professional and editorial accent |
 
----
+### La Mer Brand
 
-## 3. Channel Specifications
+| Color Name | HEX | Usage |
+|-----------|-----|-------|
+| **La Mer Teal** | `#007B7B` | Signature brand color; sea-origin brand narrative |
+| **La Mer Gold** | `#B8960C` | Ultra-prestige accent |
+| **La Mer Cream** | `#F5F0E8` | Warm background; product imagery |
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+### Jo Malone London Brand
 
----
+| Color Name | HEX | Usage |
+|-----------|-----|-------|
+| **Jo Malone Cream** | `#F2EDE4` | Signature packaging color; understated luxury |
+| **Jo Malone Black** | `#1C1C1C` | Text and logo on cream |
+| **Jo Malone Gold** | `#B8A050` | Ribbon accent; premium signal |
 
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+*(Colors observed on official brand digital properties and product imagery. Internal brand token names are proprietary.)*
 
 ---
 
-## 5. Design Prohibitions
+## Typography
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+| Brand | Observed Typeface Style | Notes |
+|-------|------------------------|-------|
+| **Estée Lauder** | Elegant serif display; clean sans-serif body | Heritage and precision; observed on esteelauder.com |
+| **MAC** | Bold, sans-serif; strong weight contrast | Artistry and confidence; observed on maccosmetics.com |
+| **La Mer** | Refined serif; generous letterspacing | Ultra-prestige; editorial quality; observed on larmer.com |
+| **Jo Malone London** | Understated serif; generous white space | British luxury restraint; observed on jomalone.com |
+| **Tom Ford Beauty** | Geometric sans-serif; high contrast | Modernist luxury; observed on tomford.com |
+| **Clinique** | Clean sans-serif; clinical precision | Dermatological credibility; observed on clinique.com |
+
+*(Typography observations from publicly visible brand digital properties. Internal font licensing details are proprietary.)*
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Estée Lauder Companies (The) (EL)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Channel Design Specifications
+
+| Channel | Format | Brand Design Notes |
+|---------|--------|-------------------|
+| **Brand direct websites** | Full-width responsive; product-led | Each brand's design system is fully distinct; consistent across its own properties |
+| **Department store (Sephora, Nordstrom)** | Brand gondola and counter design | Physical counter design follows brand architecture; La Mer counters are distinct from MAC counters in layout, materials, and lighting |
+| **Instagram** | 1:1 and 4:5 product photography; Reels | Brand-specific visual language; high production value across all ELC brands |
+| **YouTube** | Tutorial-driven (MAC, Clinique); lifestyle (Jo Malone, La Mer) | Long-form content varies by brand mission |
+| **Travel Retail (duty-free)** | Branded pop-up fixtures; gifting displays | Gift sets and traveler-sized formats; aspirational positioning at point of purchase |
+| **Sampling / Gift-with-Purchase** | Branded sample packaging; GWP sets | Sample packaging must maintain brand design integrity at miniature scale |
+
+---
+
+## Layout Principles
+
+1. **Product as Hero**: Across all ELC brands, product photography is the visual anchor. The product is lit, styled, and composed as a luxury object rather than a commodity item. (T4_INFERRED from observed brand photography standards)
+
+2. **White Space as Luxury Signal**: La Mer, Jo Malone, and Estée Lauder use generous white space in digital and print layouts. Density signals mass-market; restraint signals prestige. (T4_INFERRED from observed brand design patterns)
+
+3. **Model Diversity by Brand Intent**: MAC leads with the broadest model diversity across age, skin tone, gender expression, and body type, consistent with its founding philosophy. (official, MAC brand) Other ELC brands have expanded diversity in representation. Each brand's diversity commitment reflects its specific brand mission. (T4_INFERRED)
+
+4. **Seasonal Color Story Architecture**: Makeup brands (MAC, Bobbi Brown, Estée Lauder) operate on a seasonal color story launch cadence — Spring/Summer and Fall/Holiday collections each with distinct visual themes. This creates recurring content calendar structure. (observed, brand launch patterns)
+
+---
+
+## Icon Style
+
+- **Estée Lauder**: Classic serif monogram EL; minimal graphic icons in digital contexts
+- **MAC**: Bold M·A·C wordmark (the dots are part of the registered trademark); strong logomark that functions at all sizes
+- **La Mer**: Script La Mer wordmark; wave motif iconography reflecting sea-origin heritage
+- **Jo Malone London**: Understated text-based logo; cream-and-black color system as the primary brand signal
+- **Tom Ford Beauty**: TF initials mark; geometric, high-contrast
+
+*(Icon observations from official brand digital properties.)*
+
+---
+
+## AI Prompt Guide for ELC Brand-Style Visual Generation
+
+> For design reference only. Not for reproduction of brand-specific intellectual property.
+
+**Prestige Skincare Photography:**
+"Close-up product photograph of luxury skincare jar on marble surface, teal and cream color palette, soft natural light from left, water droplets on glass, ultra-sharp focus on product, shallow depth of field, beauty editorial style, 8K"
+
+**Luxury Fragrance:**
+"Jo Malone-style product flat lay, cream linen background, single fragrance bottle with black ribbon, fresh botanicals, natural afternoon light, understated British luxury aesthetic, 1:1 format"
+
+**MAC Artistry:**
+"Bold makeup editorial portrait, striking eye look with jewel-toned shadow, high contrast studio lighting, diverse model, confident expression, magazine editorial quality, black background, 4:5 format"
+
+---
+
+## Design Prohibitions
+
+1. **Never mix brand visual systems**: La Mer's teal-and-cream system must never appear in MAC's black-forward artistry context. Each brand's visual system is protected from cross-contamination. (T4_INFERRED)
+2. **No mass-market production values**: Poorly lit product photography or generic stock imagery undermines prestige positioning across all ELC brands. (T4_INFERRED)
+3. **No homogenized model casting**: ELC brands, particularly MAC, have explicit diversity commitments that require genuine diversity in model selection, not token representation. (official, MAC brand values)
+4. **No green claims without substantiation**: "Natural," "clean," or "eco-friendly" design callouts must reflect substantiated product attributes per FTC guidelines. (T4_INFERRED from regulatory guidance)
+5. **No unauthorized use of Estée Lauder founder imagery**: Historical photography of Estée Lauder herself is likely protected by right-of-publicity or estate licensing requirements. (T4_INFERRED)
+6. **Accessibility requirements apply to digital properties**: Color contrast, alt text, and screen-reader compatibility are both accessibility obligations and brand responsibility standards. (T4_INFERRED)
+

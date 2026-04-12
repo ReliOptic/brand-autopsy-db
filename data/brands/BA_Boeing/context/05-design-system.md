@@ -1,102 +1,91 @@
 # 05. Design System — Boeing (BA)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Color Palette
+## Color System
 
-Boeing's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+| Color Name | HEX | Usage | Source |
+|------------|-----|-------|--------|
+| Boeing Blue | #1F6EBF | Primary brand color; logo, digital UI primary | observed on boeing.com |
+| Dark Blue | #003A70 | Navigation, headers, authority-weight elements | observed on boeing.com |
+| Light Blue | #5BAEE0 | Secondary accent; digital UI highlights | observed on boeing.com |
+| White | #FFFFFF | Primary background; clean technical presentation | observed on boeing.com |
+| Gray | #6D6E71 | Body text, secondary content, technical specs | observed on boeing.com |
+| Light Gray | #F2F2F2 | Section backgrounds, card containers | observed on boeing.com |
+| Orange/Amber | #E87722 | CTA buttons, key data callouts; energetic accent | observed on boeing.com |
 
 ---
 
-## 2. Typography
+## Typography
 
-Boeing's digital properties employ a typographic system appropriate to its industrials positioning.
+| Role | Typeface | Weight | Notes |
+|------|----------|--------|-------|
+| **Headline** | Boeing typeface / Gotham-adjacent (observed) | Bold | Clean, engineered sans-serif; no decorative elements |
+| **Body** | System sans-serif stack | Regular | Legibility priority; technical documentation context |
+| **Technical specs** | Monospace or condensed sans | Regular | Used in specification tables, certification documents |
+| **Navigation** | Sans-serif | Medium | Functional; hierarchy through weight not style |
 
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+Typography principle: All Boeing typography communicates precision and reliability. Decorative typefaces are inconsistent with aerospace engineering brand values. (T4_INFERRED)
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
-
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+| Channel | Spec | Notes |
+|---------|------|-------|
+| **Air show displays** | Large format, horizontal orientation | Aircraft renders at center; technical callouts overlay |
+| **Website hero** | Full-width, 16:9 aspect | Aircraft photography or engineering render |
+| **Instagram** | 1080×1080px; 1080×1920px Stories | Aircraft beauty shots; engineering detail macros |
+| **LinkedIn** | 1200×627px | Corporate/program announcements; professional context |
+| **Defense microsites** | Classified-appropriate design; minimal | Mission capability focus; separate from commercial branding |
+| **Annual report / investor** | PDF + web; formal layout | Boeing blue header; data tables; photography |
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **Aircraft as primary visual**: Every Boeing communication centers on the aircraft. The machine is the message; human subjects are secondary unless in specific workforce content.
+2. **Technical data as design element**: Specification overlays, range maps, and capability charts are used as visual design elements, not appendices. Boeing's audience reads the specs.
+3. **Horizontal dominance**: Aircraft are horizontal machines; Boeing's layout defaults favor landscape orientation, wide-format compositions, and horizontal flow.
+4. **Blue sky background**: Photography defaults prefer aircraft in blue sky — both literally (aircraft photography) and metaphorically (optimism, altitude, freedom). (observed on boeing.com and advertising)
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Boeing (BA)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon & Illustration Style
+
+- **Icon style**: Technical, blueprint-adjacent. Line drawings of aircraft cross-sections, component diagrams, and system schematics are common in technical content.
+- **3D aircraft renders**: Photorealistic 3D renders used for aircraft not yet in production; maintains visual consistency before physical photography is available.
+- **No cartoons or mascots**: Boeing's design language is entirely adult, technical, and institutional.
+- **Flag / insignia use**: Defense content carefully integrates customer nation insignia (USAF roundel, etc.) per approved brand guidelines.
+
+---
+
+## AI Image Generation Prompt Guide
+
+For brand-consistent Boeing AI imagery (T4_INFERRED from observed visual identity):
+
+```
+Style: Technical photography, aerospace documentary
+Color palette: Boeing blue (#1F6EBF), white, sky blue, light gray
+Subjects: Commercial aircraft in flight (blue sky, clouds), manufacturing floor, 
+          engineers in technical environment, defense aircraft in operational context
+Lighting: Dramatic natural light; golden hour for commercial; clinical for manufacturing
+Composition: Wide horizontal format; aircraft occupying 60–80% of frame
+Technical elements: Acceptable to include wing details, engine nacelles, flight deck
+Avoid: Cartoon elements, lifestyle/social photography aesthetic, competitor aircraft,
+       accident or incident imagery
+```
+
+---
+
+## Design Prohibitions
+
+1. Never depict aircraft in distress, unusual attitudes, or emergency contexts in brand materials
+2. Never use red as a primary color — signals emergency in aviation context; conflicts with brand palette
+3. Never reproduce competitor aircraft (Airbus, Embraer) in Boeing-branded materials
+4. Never use pre-2020 imagery of the 737 MAX in contexts that could be associated with the grounding period without legal review
+5. Never mix commercial and classified defense content in the same design system
+6. Never use casual or playful typography — technical credibility requires formal type treatment
+7. Never compromise safety warning color conventions (red/amber) for brand consistency in actual aircraft interface contexts — safety standards override brand guidelines

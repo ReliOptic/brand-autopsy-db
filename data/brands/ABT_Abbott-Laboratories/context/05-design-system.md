@@ -1,102 +1,93 @@
 # 05. Design System — Abbott Laboratories (ABT)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
+> **Disclaimer**: This analysis is based on publicly available information including observed brand materials on abbott.com and product websites. Design system details are based on direct observation unless noted. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Color Palette
+## Color Palette
 
-Abbott Laboratories's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
+| Color Name | HEX | Usage | Source |
+|-----------|-----|-------|--------|
+| **Abbott Blue** | #0061A0 | Primary brand color; headers, primary CTAs, logo | Observed on abbott.com |
+| **Dark Blue** | #003865 | Deep variant; footers, high-contrast text | Observed on abbott.com |
+| **Light Blue** | #4FC3F7 | Accent, digital highlights, infographic elements | Observed on abbott.com product pages |
+| **White** | #FFFFFF | Primary background; clinical, clean | Observed on abbott.com |
+| **Cool Gray** | #6B7280 | Body text, secondary information | Observed on abbott.com |
+| **Warm Teal** (FreeStyle Libre) | #00A19B | FreeStyle Libre sub-brand accent | Observed on freestylelibre.com |
+| **Lime Green** (FreeStyle Libre) | #92C83E | FreeStyle Libre energy/health signal | Observed on freestylelibre.com product pages |
 
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+**Color note**: The primary Abbott blue is consistent with healthcare institutional standards (trust, precision), while the FreeStyle Libre sub-brand introduces a teal-lime palette that signals consumer health technology rather than clinical equipment. This sub-brand color differentiation allows FreeStyle Libre to occupy a more approachable, consumer-tech aesthetic within Abbott's broader institutional identity. (T4_INFERRED from observed design differentiation)
 
 ---
 
-## 2. Typography
+## Typography
 
-Abbott Laboratories's digital properties employ a typographic system appropriate to its health care positioning.
+| Role | Typeface | Weight | Observed Usage |
+|------|----------|--------|----------------|
+| **Corporate Display** | Open Sans or similar humanist sans-serif | Bold, ExtraBold | Abbott.com headlines (observed — specific proprietary typeface not publicly documented) |
+| **Body Text** | Open Sans or similar | Regular, Medium | Long-form content, press releases (observed) |
+| **FreeStyle Libre Sub-brand** | Distinct rounded sans-serif | Bold | FreeStyle Libre product pages — more consumer-tech aesthetic (observed on freestylelibre.com) |
+| **Data / Clinical** | Tabular sans-serif | Regular | Clinical tables, diagnostic specifications (T4_INFERRED) |
 
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+*Abbott's specific proprietary typeface details are not publicly documented. Observations based on rendered text on abbott.com.*
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
-
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+| Channel | Dimensions | Color Usage | Typography |
+|---------|-----------|-------------|------------|
+| **Website Hero** | 1440px desktop | Abbott blue gradient or photography + blue overlay | Bold headline, 48-60px |
+| **FreeStyle Libre App** | iOS/Android native | White background, teal accents, lime data visualization | Rounded sans-serif, clear data display |
+| **LinkedIn Banner** | 1584 × 396px | Abbott blue, white text, corporate imagery | Bold headline, logo prominent |
+| **Medical Congress Materials** | Variable (poster, slide) | White background, blue headers, data-heavy | Clinical precision layout |
+| **DTC Television (FreeStyle Libre)** | 16:9, 30-60 seconds | Lifestyle-forward, teal/lime brand elements at close | Patient narrative voice |
+| **Investor Presentation** | 16:9 widescreen | White + blue, data visualization heavy | Corporate typeface |
+| **Product Packaging** | Variable | Sub-brand color system per product line | Product name prominent |
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **Segment clarity**: Abbott's website architecture separates diagnostics, devices, nutrition, and pharmaceuticals visually — each segment has distinct visual anchors while sharing the master brand blue. This prevents the portfolio complexity from creating user confusion. (observed on abbott.com)
+2. **Data visualization as trust signal**: Clinical accuracy claims, market reach statistics, and geographic presence maps are presented with clear data visualization rather than text-only assertions. Charts are labeled with sources and time periods. (T4_INFERRED from observed materials)
+3. **FreeStyle Libre consumer design system**: The CGM product line operates with a lighter, more consumer-friendly layout — rounded card elements, lifestyle photography, and a teal/lime palette that distinguishes it from clinical diagnostic products aimed at lab directors. (observed on freestylelibre.com)
+4. **Human-centered hero imagery**: Abbott's corporate photography features healthcare professionals, patients, and scientists — not abstract science imagery. The faces humanize institutional scale. (observed on abbott.com)
+5. **Information hierarchy by audience depth**: Corporate pages layer executive summary → supporting data → technical detail, allowing different reader types to exit at their appropriate depth without feeling the content is too shallow or too technical. (T4_INFERRED from observed page structure)
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Abbott Laboratories (ABT)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon Style
+
+- **Corporate**: Clean, geometric line icons in Abbott blue; medical and scientific iconography (laboratory equipment, heart, infant, glucose graph)
+- **FreeStyle Libre**: More expressive illustrated icons with teal/lime coloring; activity and health icons (running figure, apple, graph uptrend)
+- **Diagnostics**: Technical precision icons — pipette, analyzer equipment, molecular representations; used in B2B contexts
+- **Accessibility**: WCAG 2.1 AA standard assumed for digital platforms (T4_INFERRED from modern healthcare digital standards)
+
+---
+
+## AI Prompt Guide (Generating On-Brand Visuals)
+
+**For corporate Abbott content**:
+"Professional healthcare photography, [diverse healthcare professional or patient demographic], clean clinical environment with warm human elements, Abbott blue brand accents, natural lighting, optimistic and purposeful emotional tone, modern medical setting rather than sterile hospital aesthetic"
+
+**For FreeStyle Libre consumer content**:
+"Active lifestyle photography, person with visible FreeStyle Libre sensor on arm, engaged in everyday activity (cycling, cooking, working), teal and lime color accent in environment, natural outdoor or home setting, empowered and free body language, not clinical"
+
+**Avoid in all Abbott prompts**:
+- Stigmatizing imagery of illness or disability
+- Outdated or stereotyped medical imagery (white coat as dominant element)
+- Imagery implying absolute cure or recovery without nuance
+- Competitive product branding visible in frame
+
+---
+
+## Design Prohibitions
+
+1. **No clinical claims embedded in imagery**: Regulatory requirements prohibit embedding efficacy claims in images without full fair balance compliance. (T4_INFERRED from FDA IVD and device promotional guidance)
+2. **No unauthorized medical association logos** implying product endorsement. (T4_INFERRED from FDA endorsement guidance)
+3. **No mixing of FreeStyle Libre consumer palette with clinical diagnostics communications** — sub-brand integrity requires consistent application. (T4_INFERRED from observed brand consistency)
+4. **No competitor product imagery** in Abbott-produced materials. (T4_INFERRED from standard brand practice)
+5. **No use of Abbott logo mark** in ways implying third-party endorsement without explicit authorization. (T4_INFERRED from trademark protection)
+6. **No imagery that depicts or implies product misuse**: Medical device visual content must depict correct and approved use cases. (T4_INFERRED from FDA device promotional guidance)
+7. **No low-resolution product imagery** in regulatory submissions or promotional materials — image quality standards apply across channels. (T4_INFERRED)

@@ -1,102 +1,89 @@
 # 05. Design System — Bank of America (BAC)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Color Palette
+## Color System
 
-Bank of America's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+| Color Name | HEX | Usage | Source |
+|------------|-----|-------|--------|
+| BofA Red | #E31837 | Primary brand color; logo, CTAs, primary accents | observed on bankofamerica.com |
+| Dark Navy | #012169 | Secondary brand color; headers, navigation, authority elements | observed on bankofamerica.com |
+| White | #FFFFFF | Primary background; clean financial presentation | observed on bankofamerica.com |
+| Light Gray | #F5F5F5 | Section backgrounds; card containers | observed on bankofamerica.com |
+| Medium Gray | #666666 | Body text; secondary content | observed on bankofamerica.com |
+| Light Red | #FDECEA | Alert backgrounds; soft red usage | observed on bankofamerica.com |
+| Merrill Blue | #0072CE | Merrill Lynch brand integration; investment content | observed on merrill.com |
 
 ---
 
-## 2. Typography
+## Typography
 
-Bank of America's digital properties employ a typographic system appropriate to its financials positioning.
-
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+| Role | Typeface | Weight | Notes |
+|------|----------|--------|-------|
+| **Primary headline** | BofA Sans (proprietary) / Helvetica Neue equivalent | Bold | Clean institutional sans-serif (observed on bankofamerica.com) |
+| **Body** | System sans-serif | Regular | Legibility priority; financial disclosure context |
+| **Erica interface** | Sans-serif, conversational | Regular | Conversational AI context; slightly warmer tone |
+| **Legal/disclosure** | Condensed sans or system font | Regular, small | Regulatory compliance; maximum legibility |
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
-
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+| Channel | Spec | Notes |
+|---------|------|-------|
+| **Web hero** | Full-width, 1440px design width | Red + navy + human photography |
+| **Mobile app** | iOS/Android standard; BofA design system | Erica chat interface; card-based layout |
+| **Email** | 600px wide | Red header; white body; navy footer |
+| **Instagram** | 1080×1080; 1080×1920 Stories | Life moment photography; minimal product |
+| **Financial center** | Physical signage; digital display | Red exterior; consistent nationwide |
+| **ATM interface** | 800×600 touchscreen standard | High-contrast; accessibility-compliant |
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **People-first photography**: BofA imagery leads with human subjects in life moments (family at home purchase, graduate receiving diploma, business owner at storefront) — not product or abstract imagery. (observed on bankofamerica.com)
+2. **Red as action signal**: The brand red is reserved for CTAs, key data highlights, and logo. It is not used as background at scale — this preserves its urgency/action signal function.
+3. **Information hierarchy**: Financial products require clear information hierarchy — monthly fee, then waiver conditions, then benefits. Layout sequences information in decision-support order.
+4. **Accessibility-first**: As a regulated institution serving all demographics including elderly customers, BofA design systems must meet WCAG AA accessibility standards. (T4_INFERRED from ADA compliance requirements for financial institutions)
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Bank of America (BAC)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon Style
+
+- **Style**: Solid/filled icons; clean geometric style; consistent weight
+- **Color**: Navy or red on white backgrounds; white on colored backgrounds
+- **Function**: Icons support financial categories (account types, transaction categories) and navigation — always functional, never decorative
+- **Erica avatar**: Stylized circular avatar; branded but not hyper-realistic — approachable, not humanoid
+
+---
+
+## AI Image Generation Prompt Guide
+
+(T4_INFERRED from observed visual identity):
+
+```
+Style: Lifestyle documentary photography; warm and authentic
+Color palette: BofA red accents (#E31837), navy (#012169), warm neutral backgrounds
+Subjects: Diverse Americans across age groups; life milestone moments (home purchase,
+          business launch, family, retirement); financial confidence expressed through
+          body language and setting, not through money/wealth symbols
+Lighting: Warm natural light; daytime; optimistic
+Composition: Human-centered; subject at 50–70% of frame; environmental context visible
+Avoid: Abstract finance imagery (coins, graphs alone), generic stock photo aesthetics,
+       luxury signaling, competitor branding
+```
+
+---
+
+## Design Prohibitions
+
+1. Never use red as a large-area background — high anxiety signal; reserved for accents and CTAs
+2. Never mix Merrill Lynch blue with BofA red in ways that create visual confusion between brands
+3. Never use imagery of distressed financial situations (credit card debt, overdraft) in acquisition content
+4. Never violate WCAG AA contrast ratios — regulatory and accessibility compliance is non-negotiable
+5. Never use cartoon or mascot characters — institutional trust requires authentic human imagery
+6. Never reproduce customer financial data or account information in any brand material
+7. Never design CTAs in colors that could be confused with warning states (orange, yellow)

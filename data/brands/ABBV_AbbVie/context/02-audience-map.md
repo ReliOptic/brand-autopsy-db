@@ -1,4 +1,4 @@
-# 02. Audience Map — AbbVie (ABBV)
+# 02. Audience Map — AbbVie Inc. (ABBV)
 
 > **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
@@ -6,79 +6,113 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in biotechnology. B2C: End consumers of health care products and services. (T4_INFERRED from AbbVie's segment structure) |
-| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in AbbVie's 10-K geographic segment reporting. (SEC 10-K) |
+AbbVie operates across two primary customer channels with distinct ICPs:
+
+**Channel A — Healthcare Professionals (HCP)**
+- Specialty physicians: rheumatologists, gastroenterologists, dermatologists, oncologists, neurologists, plastic surgeons
+- Practice setting: academic medical centers, large group practices, community specialty clinics
+- Decision criteria: clinical trial data quality, safety profile, patient support infrastructure, formulary access, peer-reviewed publications
+- Geographic focus: United States (largest market), Germany, Japan, Canada, UK, France, Italy, Spain (official, AbbVie geographic revenue disclosures, SEC 10-K FY2023)
+
+**Channel B — Institutional / Payer**
+- Pharmacy benefit managers (PBMs), integrated health systems, government formulary bodies (CMS, VA)
+- Decision criteria: comparative effectiveness data, rebate structures, total cost of care, biosimilar competition management
+- (T4_INFERRED from payer landscape analysis)
 
 ---
 
-## Core Personas
+## Persona 1 — The Specialty Prescriber
 
-### Persona 1 — Enterprise Decision-Maker
+**Name**: Dr. Sarah Okafor, Rheumatologist  
+**Age**: 44 | Academic Medical Center, Mid-Atlantic U.S.  
+**Practice**: 280 patients with rheumatoid arthritis or related conditions
 
-- **Age / Occupation**: 42, VP-level or director in a AbbVie customer organization
-- **Core pain**: Needs reliable biotechnology solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **AbbVie selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Pain points**:
+- Managing patients who have failed multiple prior therapies (inadequate responders)
+- Navigating prior authorization requirements that delay biologic initiation
+- Staying current with rapidly evolving biosimilar landscape for Humira
+- Documenting outcomes to justify continued biologic therapy to payers
 
----
+**Gain sought**:
+- Clear head-to-head efficacy data against competing biologics and JAK inhibitors
+- Robust patient support programs that reduce administrative burden
+- Access to AbbVie medical science liaisons for complex case consultation
 
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with AbbVie's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **AbbVie selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Engagement channels**: Medical congresses (ACR, EULAR), peer-reviewed journals (NEJM, Arthritis & Rheumatology), AbbVie-sponsored CME programs, field sales representatives (observed industry practice)
 
 ---
 
-### Persona 3 — Consumer / Retail Customer
+## Persona 2 — The Chronic Disease Patient
 
-- **Age / Occupation**: 38, consumer who interacts with AbbVie's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **AbbVie selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
+**Name**: Marcus Chen, 52, diagnosed with moderate-to-severe Crohn's disease  
+**Insurance**: Employer-sponsored PPO | Annual household income: $78,000 (estimated)
+
+**Pain points**:
+- Fear of disease flares disrupting work and family life
+- Complexity of biologic administration (injection training, storage requirements)
+- Out-of-pocket costs for specialty medications before deductible is met
+- Uncertainty about long-term safety of immunosuppressive therapy
+
+**Gain sought**:
+- Sustained clinical remission allowing return to normal activity levels
+- Simplified injection experience (Humira's single-use pen design; Skyrizi's dosing frequency)
+- Financial assistance through AbbVie co-pay programs
+- Clear information about what to expect, including potential side effects
+
+**Engagement channels**: Disease-specific patient communities, AbbVie DTC advertising (TV, digital), gastroenterologist referral, myAbbVie Assist program (official, abbvie.com)
 
 ---
 
-## Purchase Journey — AARRR Framework
+## Persona 3 — The Institutional Formulary Decision-Maker
 
-| Stage | AbbVie's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | AbbVie total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Name**: Jennifer Walsh, PharmD, VP of Pharmacy Affairs  
+**Organization**: Regional health system, 12 hospitals, 2.4M covered lives (estimated)
+
+**Pain points**:
+- Managing biologic spend as the largest single drug category budget line
+- Evaluating biosimilar conversion programs post-Humira patent expiry
+- Balancing clinical outcomes data against total acquisition cost
+- Regulatory and compliance documentation for formulary changes
+
+**Gain sought**:
+- Transparent rebate structures and contracting flexibility
+- Real-world evidence data supplementing clinical trial endpoints
+- Outcomes-based contract options (emerging in specialty pharma)
+- Clear differentiation between Humira biosimilars and AbbVie's newer IL-23/JAK portfolio
+
+**Engagement channels**: AMCP annual meeting, AbbVie account management team, health economics publications (T4_INFERRED from industry practice)
 
 ---
 
-## Anti-Persona — Who AbbVie Is Not For
+## AARRR Audience Journey
 
-| Type | Characteristics | Why AbbVie Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | AbbVie's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | AbbVie's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | AbbVie's full value is realized through deeper operational integration and sustained partnership. |
+| Stage | Action | AbbVie Mechanism |
+|-------|--------|-----------------|
+| **Acquisition** | HCP becomes aware of new indication or mechanism | Medical congress symposia, journal advertising, field rep detailing (observed industry practice) |
+| **Activation** | First prescription written | Prior authorization support via AbbVie Access 360, sample availability, HCP portal (official, abbvie.com/access360) |
+| **Retention** | Patient continues therapy beyond 12 months | myAbbVie Assist co-pay support, nurse ambassadors, injection training, adherence apps (official, abbvie.com) |
+| **Revenue** | Payer includes product on preferred formulary tier | Outcomes data packages, rebate negotiations, health economics models (T4_INFERRED) |
+| **Referral** | HCP recommends product to peers | KOL speaker programs, medical education grants, peer-to-peer detailing (observed industry practice) |
+
+---
+
+## Anti-Persona
+
+**Who AbbVie does not primarily serve**:
+- Primary care physicians without specialty training in immunology or oncology (AbbVie's biologics require specialist initiation in most markets)
+- Price-only procurement officers who treat biologics as commodities without clinical differentiation
+- Patients seeking alternative or complementary medicine approaches who decline conventional biologic therapy
+- Emerging-market health systems without reimbursement infrastructure for high-cost biologics (T4_INFERRED)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-AbbVie's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. Map the three-party sale and serve all three simultaneously.**
+AbbVie's commercial model must satisfy the prescribing physician (clinical efficacy), the patient (access and experience), and the payer (cost-effectiveness) in a single product launch. Each party has veto power. Transferable for any marketplace or B2B2C business: identify every party in the purchase chain with veto authority and build separate but convergent value propositions for each. A single "customer" conception causes commercial failure when the actual sale requires three simultaneous yeses.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-AbbVie's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Design onboarding infrastructure as a competitive weapon.**
+AbbVie's Access 360 program handles prior authorizations, co-pay assistance, and injection training — reducing the administrative burden on physicians and patients alike. This infrastructure lowers the activation barrier at the prescription stage. Transferable for complex B2B products: a dedicated onboarding support layer that handles implementation, compliance, and change management friction is a revenue acceleration tool, not just a cost center.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Build retention programs before the product launches.**
+Patient assistance and adherence programs must be operational on approval day. AbbVie's market experience demonstrates that patients who cannot access therapy in the first 30 days are unlikely to re-initiate. Transferable for subscription businesses: design your customer success intervention at month one, not month six when churn data signals a problem.

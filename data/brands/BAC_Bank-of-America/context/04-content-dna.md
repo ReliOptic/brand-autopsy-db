@@ -6,118 +6,89 @@
 
 ## Content Pillars
 
-Bank of America's content strategy reflects its positioning in the Diversified Banks segment of Financials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
-
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "Bank of America understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for diversified banks requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with Bank of America." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+| Pillar | Share (estimated) | Core Message | Format |
+|--------|------------------|--------------|--------|
+| **Financial Education** | ~30% | Better Money Habits — empowering financial decisions | bettermoneyhabits.com articles, video, social |
+| **Product Benefits** | ~25% | What Preferred Rewards / Erica / digital tools do for you | Web, email, app notifications |
+| **Community & Social Impact** | ~20% | Responsible growth in action; community development | Press releases, ESG report, LinkedIn |
+| **Business Banking** | ~15% | Tools for small business success | OPEN-equivalent content, LinkedIn, trade press |
+| **Wealth & Investing** | ~10% | Merrill-anchored investment guidance | Merrill.com, advisor content, video |
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
+**Hook 1 — The Life Moment Frame**
+> "Your first home. Your first investment. Your first retirement milestone. We're here for all of it."
+BofA content is organized around life moments rather than product features. (observed on bankofamerica.com)
 
-Opens with a recognizable industry challenge or pain point before presenting Bank of America's perspective.
+**Hook 2 — The Habit Reframe**
+> "Small habits. Big financial impact."
+Better Money Habits content leads with behavioral change rather than product. (official, bettermoneyhabits.com)
 
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+**Hook 3 — The Digital Convenience Proof**
+> "Erica noticed you have a bill due tomorrow. Want to pay it now?"
+Shows the AI assistant in action with a specific, useful scenario. (observed in BofA marketing materials)
 
-### Hook 2 — Data-Driven Insight
-
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+**Hook 4 — The Rewards Math**
+> "Your Preferred Rewards status saved you $X in fees this year."
+Personalized value demonstration; seen in account anniversary communications. (T4_INFERRED from Preferred Rewards program mechanics)
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | Bank of America Pattern | What Bank of America Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+| Context | CTA | Rationale |
+|---------|-----|-----------|
+| Account opening | "Open an Account in Minutes" | Digital-first; removes friction |
+| Preferred Rewards | "See Your Benefits" | Discovery framing; doesn't assume knowledge |
+| Small business | "Talk to a Business Specialist" | High-consideration; human touchpoint appropriate |
+| Better Money Habits | "Start Learning" | No commitment; educational entry point |
+| Mobile app | "Download the App" | Direct; no ambiguity |
 
 ---
 
-## Tone & Mood Guide
+## Tone Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to financials sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — Bank of America as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Example |
+|-----------|------|---------|
+| **New customer welcome** | Warm, encouraging, human | "Welcome. Here's everything you can do with your new account." |
+| **Financial education** | Peer-level, non-judgmental, practical | "Not sure where to start with investing? Here's a simple breakdown." |
+| **Fee disclosure** | Clear, factual, no minimization | "Monthly fee: $12. Waived when you maintain $1,500 minimum daily balance." |
+| **Crisis / incident** | Calm, factual, action-oriented | "We're aware of the service disruption. Here's what we know and what you can do." |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. Do not make interest rate claims without current, date-stamped disclosures — rates change frequently
+2. Do not reference specific dollar amounts for Preferred Rewards benefits without linking to current program terms
+3. Do not use financial advice language ("you should invest in...") in brand content — requires licensed advisor context
+4. Do not reference competitor account terms or fees in brand content (accuracy and fairness concerns)
+5. Do not publish content that implies guaranteed outcomes from financial products
 
 ---
 
-## Hashtag Strategy
+## Hashtags & Owned Vocabulary
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #BAC | Financial and investor community | Moderate (estimated) |
-| #BankofAmerica | Brand-level social engagement | Varies (estimated) |
-| #FInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Term | Usage |
+|------|-------|
+| `#BetterMoneyHabits` | Financial education content |
+| `#ResponsibleGrowth` | ESG and community impact |
+| `#PreferredRewards` | Loyalty program content |
+| "Erica" | Named AI assistant — always capitalized, always named |
+| "What would you like the power to do?" | Brand tagline — used in closing content |
+| "Financial center" | BofA's preferred term for branches (not "branch") |
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-Bank of America's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. Educational content compounds; advertising decays.**
+Better Money Habits generates search traffic from people who aren't BofA customers yet — they found an article about budgeting or credit scores, not a product ad. That trust, built before the banking relationship begins, makes BofA the natural next step when they're ready to open an account. Transferable: build a content resource that serves your audience's underlying problem, not just your product's solution.
 
-**2. Use data as a credibility anchor.**
-In financials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in diversified banks face X challenge" backed by a cited statistic is stronger than the assertion alone.
+**2. Name your AI and give it a job title in your content.**
+Erica is not "BofA's AI." She is "your financial virtual assistant." The possessive and the job description both matter. Transferable: when introducing AI-powered features, give them a specific job description that sets appropriate expectations and creates a sense of personal service.
 
-**3. Separate thought leadership from product marketing.**
-Bank of America's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**3. Life moments are stickier content hooks than product features.**
+"Your first home" content speaks to a universal aspiration. "Our mortgage product has competitive rates" speaks to a feature. BofA organizes content around life moments because those are the moments when customers are open to financial guidance. Transferable: map your content calendar to the life moments or business milestones when your customers are most receptive to your category, not to your product release cycle.

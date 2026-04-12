@@ -1,163 +1,116 @@
 # 08. Legal Review — Boeing (BA)
 
-> **Disclaimer**: This document is prepared solely for brand strategy analysis purposes and does NOT constitute legal advice, legal opinion, or investment guidance. All litigation and regulatory information is sourced from publicly available records: SEC filings, official court dockets, regulatory agency press releases, and reputable journalism. Nothing in this document characterizes any party's conduct as unlawful or intentionally harmful. Source tier codes follow the T1-T5 system.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, court records, and regulatory agency communications. It does not constitute legal advice. All interpretations are labeled as such. This layer exists to assess project-level legal exposure when writing about Boeing.
 
 ---
 
-## 1. Filing & Legal Record Sources
+## IP Portfolio Overview
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K — Part I, Item 1A (Risk Factors) | Legal & regulatory risks | [SEC EDGAR BA](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Boeing&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-K — Part I, Item 3 (Legal Proceedings) | Active litigation disclosures | Same 10-K, Item 3 |
-| 8-K Filings | Material legal events | [SEC EDGAR BA 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Boeing&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
-| USPTO Trademark Database | Trademark registrations | [USPTO TESS](https://tmsearch.uspto.gov/) |
+### Trademarks (T1_OFFICIAL — USPTO records)
+- **"Boeing"** — registered trademark; multiple classes covering aerospace, defense, services
+- **"Dreamliner"** — registered trademark for the 787 program (official)
+- **"737 MAX"**, **"777X"**, **"787"** — product line trademarks and trade dress
+- **"Boeing Global Services"** — services segment trademark
 
----
-
-## 2. IP Portfolio
-
-### 2.1 Trademark Portfolio
-
-Boeing maintains a trademark portfolio protecting its brand names, product names, and logos in relevant commercial classes. Trademark registrations are publicly searchable via the USPTO TESS database and equivalent international registries. (T1_OFFICIAL, USPTO public records)
-
-### 2.2 Patent Portfolio
-
-Boeing's patent portfolio reflects its R&D investment in aerospace & defense technology and processes. Patent grants and applications are publicly searchable via USPTO and Google Patents. The company's 10-K filing describes its intellectual property strategy in general terms. (SEC 10-K; T1_OFFICIAL, USPTO records)
+### Patents
+- Boeing holds thousands of active U.S. and international patents in aerodynamics, composite materials, avionics, autonomous systems, and manufacturing processes (T3_SECONDARY_RELIABLE, USPTO patent database)
+- Estimated 5,000+ active U.S. patents (estimated)
+- Key patent areas: composite fuselage manufacturing, fuel efficiency systems, flight control software, autonomous refueling
 
 ---
 
-## 3. Major Litigation
+## Major Litigation & Regulatory Actions
 
-> All descriptions below are factual summaries of publicly disclosed legal proceedings as referenced in Boeing's SEC filings.
+### 737 MAX Criminal Investigation and Settlement (2021)
+- **Nature**: DOJ criminal investigation into alleged conspiracy to defraud the FAA in the 737 MAX certification process
+- **Outcome**: Boeing entered into a Deferred Prosecution Agreement (DPA) in January 2021; agreed to pay $2.5 billion (consisting of $243.6M criminal penalty, $1.77B to airline customers, $500M to crash victims' families) (T1_OFFICIAL, DOJ press release January 7, 2021)
+- **DPA breach (2024)**: DOJ found Boeing in breach of the DPA; as of early 2024, the DPA's future is subject to ongoing proceedings (T3_SECONDARY_RELIABLE, public reporting)
+- **Project writing note**: This is extensively documented. May be cited with DOJ source. Do not characterize beyond what the DOJ DPA and public filings state.
 
-Boeing's active litigation and legal proceedings are disclosed in the company's 10-K, Part I, Item 3 (Legal Proceedings) and in the Notes to Financial Statements under Commitments and Contingencies. (SEC 10-K)
+### Lion Air Flight 610 and Ethiopian Airlines Flight 302 (2018–2019)
+- **Nature**: Two fatal crashes of the 737 MAX 8, killing 346 people, attributed in part to the MCAS flight control system
+- **Investigation findings**: NTSB, Ethiopian CAA, and international investigations identified MCAS design, pilot training gaps, and certification process concerns (T1_OFFICIAL, official investigation reports)
+- **FAA Grounding**: FAA grounded the 737 MAX globally in March 2019; recertified November 2020 (T1_OFFICIAL, FAA orders)
+- **Civil litigation**: Extensive wrongful death and product liability litigation; most cases settled (T3_SECONDARY_RELIABLE)
+- **Project writing note**: Use only official investigation findings. Do not characterize the cause beyond what NTSB/CAA reports state. Do not attribute individual intent.
 
-Material legal proceedings, if any, are also disclosed via 8-K filings when they meet materiality thresholds. Investors and analysts should reference the most recent 10-K and 8-K filings for current litigation status. (T1_OFFICIAL)
+### Alaska Airlines 737 MAX 9 Door Plug Incident (January 2024)
+- **Nature**: Door plug detached in flight on Alaska Airlines Flight 1282; no fatalities (T1_OFFICIAL, NTSB preliminary report)
+- **Regulatory response**: FAA imposed production rate limits on Boeing 737 manufacturing; launched quality audit (T1_OFFICIAL, FAA statement January 2024)
+- **Status**: NTSB investigation ongoing as of this writing; criminal investigation reported (T3_SECONDARY_RELIABLE)
 
----
-
-## 4. Regulatory Landscape
-
-Boeing's regulatory environment reflects the requirements applicable to aerospace & defense within industrials. Key regulatory areas as typically disclosed in the 10-K include:
-
-| Area | Applicable Regulators | Impact |
-|------|----------------------|--------|
-| **Industry-specific regulation** | Relevant federal and state agencies; international equivalents | Compliance costs, operational requirements, licensing (SEC 10-K) |
-| **Securities regulation** | SEC, relevant exchanges | Financial disclosure, insider trading, proxy requirements (T1_OFFICIAL) |
-| **Environmental regulation** | EPA, state equivalents, international environmental agencies | Environmental compliance, remediation obligations (SEC 10-K) |
-| **Labor and employment** | DOL, EEOC, NLRB, state equivalents | Employment practices, labor relations (SEC 10-K) |
-| **Data privacy** | FTC, state AGs, international DPAs (GDPR, etc.) | Data handling, customer privacy, breach notification (SEC 10-K) |
-
-Detailed regulatory risk descriptions are available in the 10-K, Item 1A (Risk Factors).
-
----
-
-## 5. Project Risk Assessment — Brand Autopsy DB
-
-### 5.1 Litigation Posture Assessment
-
-**Assessment**: Based on publicly available records, Boeing's litigation posture reflects standard commercial practices for a company of its size in the industrials sector. (T4_INFERRED)
-
-**Implication for this project**: Our primary risks are (a) trademark misuse, (b) false factual assertions, and (c) inappropriate characterization of ongoing legal proceedings. The risk level is manageable with adherence to the project's writing protocols. (T4_INFERRED)
-
-### 5.2 Data Collection Legality Assessment
-
-| Data Type | Our Collection Method | Legal Assessment |
-|-----------|----------------------|-----------------|
-| SEC filing data | Direct EDGAR download | PERMITTED — public government records |
-| Company website content | Web observation | PERMITTED — publicly accessible; cite with timestamp |
-| Trademark data | USPTO TESS database | PERMITTED — public government records |
-| Court filings | Public docket access | PERMITTED — public court records |
-| News coverage | Fair use summary | PERMITTED as secondary source with attribution |
-| Internal communications | NOT accessible | DO NOT ATTEMPT |
-
-### 5.3 Fair Use 4-Factor Analysis
-
-**Factor 1 — Purpose**: Analytical, educational, transformative. FAVORS FAIR USE.
-**Factor 2 — Nature**: Primarily factual data. FAVORS FAIR USE.
-**Factor 3 — Amount**: Summary and analysis, not verbatim reproduction. FAVORS FAIR USE.
-**Factor 4 — Market Effect**: No substitution for company's products/services. FAVORS FAIR USE.
-
-**Overall**: Defensible under fair use doctrine. (T4_INFERRED; not legal advice)
-
-### 5.4 Writing Risk Guide — Boeing
-
-#### SAFE TO WRITE
-- Financial data from SEC filings with citation
-- Product and service descriptions based on official website
-- Litigation summaries citing specific courts and regulators
-- Trademark and patent information from public records
-- Competitive comparisons using specific, cited metrics
-
-#### REQUIRES CAREFUL HEDGING
-| Topic | Required Approach |
-|-------|-------------------|
-| Strategic intent | "The company's 10-K states..." or "Management indicated..." — never as bare assertion |
-| Consumer behavior claims | "Suggests," "indicates," "based on available data" |
-| Competitive comparisons | Specific metrics only; no qualitative superiority claims |
-| Regulatory outcome predictions | "Proceedings are ongoing" — never predict outcomes |
-| Internal motivations | Describe actions only; do not attribute motive |
-
-#### DO NOT WRITE
-- Assertions of fraud, deception, or criminal intent without regulatory/court citation
-- Pejorative characterizations as bare assertions
-- Claims about internal deliberations not in public filings
-- Predictions of legal proceeding outcomes
-- Unverified claims from anonymous sources
+### Securities Litigation
+- Boeing has faced securities class action claims related to alleged misrepresentations about the 737 MAX certification process (T3_SECONDARY_RELIABLE)
+- Status varies; consult current court records for resolution
 
 ---
 
-## 6. ESG & Compliance
+## Regulatory Landscape
 
-Boeing's ESG disclosures are available in the company's sustainability report, proxy statement (DEF 14A), and 10-K filing. Key areas include:
-
-- **Environmental**: Climate commitments, emissions reporting, environmental compliance as disclosed in company reports. (official)
-- **Social**: Workforce diversity, labor practices, community engagement as disclosed in company reports. (official)
-- **Governance**: Board composition, executive compensation, shareholder rights as disclosed in DEF 14A. (SEC DEF 14A)
-
----
-
-## 7. Legal Risk Heatmap
-
-```
-HIGH IMPACT
-    |
-    |  [Regulatory Changes]   [Major Litigation]
-    |  Industry-specific       If disclosed in 10-K
-    |  regulation shifts       Item 3
-    |                                            |
-----+--------------------------------------------+----
-LOW |  [IP Disputes]          [Compliance        | HIGH
-LIKELIHOOD                    Matters]           | LIKELIHOOD
-    |  Patent/trademark       Ongoing regulatory |
-    |  proceedings             obligations        |
-    |                                            |
-    +--------------------------------------------+
-LOW IMPACT
-
-Placement is T4_INFERRED based on typical risk profiles for industrials companies.
-Refer to Boeing's 10-K Item 1A for company-specific risk factor disclosure.
-```
+| Regulator | Jurisdiction | Primary Concern | Status |
+|-----------|-------------|-----------------|--------|
+| **FAA** | U.S. aviation safety | Type certification, production oversight | Heightened oversight; production rate caps in 2024 |
+| **NTSB** | U.S. accident investigation | MAX incidents | Active investigations |
+| **DOJ** | Criminal enforcement | DPA compliance | Active post-breach proceedings (2024) |
+| **EASA** | European aviation | MAX certification; independent review | European MAX operations resumed 2021 |
+| **CAAC** | China aviation | 737 MAX; trade-politics intersection | Chinese MAX resumption delayed vs. other markets |
 
 ---
 
-## 8. Project Writing Risk Level
+## PROJECT RISK ASSESSMENT
 
-| Category | Risk Level | Rationale |
-|----------|-----------|-----------|
-| Financial data (SEC-sourced) | LOW | Public government records; factual, verifiable |
-| Litigation summaries (citing courts) | LOW-MEDIUM | Requires precise citation; avoid outcome predictions |
-| Brand strategy interpretation | MEDIUM | Hedged language required; labeled as T4_INFERRED |
-| Competitive comparisons | MEDIUM | Metric-based only; no pejorative characterizations |
-| ESG / sustainability claims | MEDIUM | Cite official disclosures only |
+### Litigation Posture
+Boeing is one of the most litigation-exposed companies in the S&P 500. Its legal team is among the most sophisticated in corporate America. Boeing has demonstrated willingness to contest and settle at multiple scales. **Writing risk: VERY HIGH** for any content touching the 737 MAX crashes, criminal investigation, or safety characterizations.
 
-**Overall Project Risk Level for Boeing Content: MEDIUM**
+### Data Collection Legality
+This project uses only public documents (SEC filings, NTSB reports, FAA orders, DOJ press releases). No proprietary Boeing engineering, manufacturing, or certification data is collected. **Data collection risk: LOW**.
 
-Adherence to the project's writing protocols and source tier system is sufficient to manage identified risks. (T4_INFERRED)
+### Fair Use Assessment
+Educational and analytical commentary on Boeing's business, brand, and public regulatory history is protected fair use. **Fair use status: FAVORABLE** — with strict adherence to source attribution.
 
 ---
 
-*Layer 8 — Legal Review | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL | T3_SECONDARY_RELIABLE | T4_INFERRED*
-*This document does not constitute legal advice.*
+## Writing Risk Guide
+
+### SAFE — Use Freely
+- "Boeing reported revenue of $77.8 billion in FY2023. (SEC 10-K FY2023)"
+- "The FAA grounded the 737 MAX in March 2019 and recertified it in November 2020. (T1_OFFICIAL, FAA orders)"
+- "The DOJ announced a $2.5 billion resolution with Boeing in January 2021. (T1_OFFICIAL, DOJ press release)"
+- "The NTSB's preliminary report on Alaska Airlines Flight 1282 identified door plug detachment. (T1_OFFICIAL, NTSB)"
+- Describing Boeing's defense programs using only information from official program announcements and SEC filings
+
+### HEDGE — Use with Citation and Hedging Language
+- Claims about the root cause of the 737 MAX crashes: cite specific investigation reports; use "the [agency] investigation found" framing
+- Claims about Boeing's current safety culture: use "public reporting indicates" and cite specific sources
+- Claims about future delivery or program timelines: label as forward-looking; cite analyst consensus if used
+- Financial estimates: label as estimated with derivation basis
+
+### DO NOT WRITE
+- Do not assert that specific Boeing executives committed crimes beyond what DOJ filings specifically state
+- Do not characterize the MCAS design as "intentionally" or "knowingly" unsafe — the DPA does not establish criminal conviction; characterize only as the DOJ found in its public filings
+- Do not republish Boeing's export-controlled technical specifications
+- Do not characterize ongoing DOJ proceedings beyond what public filings state
+- Do not use "cover-up," "criminal enterprise," or similar characterizations as bare assertions
+- Do not attribute the crashes to a single cause — investigation reports identify multiple contributing factors
+
+---
+
+## ESG Profile
+
+| Dimension | Status | Source |
+|-----------|--------|--------|
+| **Environmental** | Committed to net-zero carbon by 2050; sustainable aviation fuel development | (official, Boeing Global Environment Report) |
+| **Social** | STEM education programs; veteran hiring; supplier diversity | (official, boeing.com/principles/people-and-places) |
+| **Governance** | Board restructured post-MAX crisis; independent safety committee | (SEC DEF 14A, T1_OFFICIAL) |
+
+---
+
+## Risk Heatmap
+
+| Risk Category | Severity | Likelihood | Project Mitigation |
+|--------------|----------|------------|-------------------|
+| Defamation (safety characterization) | Critical | High | Use only official investigation language; source every claim |
+| Criminal conduct attribution | Critical | High | Do not go beyond DOJ public filing language |
+| Regulatory mischaracterization | High | Medium | Cite specific FAA/NTSB orders; date-stamp findings |
+| Export control violation | Critical | Low | Never reproduce technical specifications |
+| Securities claim misrepresentation | High | Medium | Use only disclosed financial figures; label estimates |

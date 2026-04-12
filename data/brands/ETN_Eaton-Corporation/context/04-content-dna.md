@@ -6,118 +6,94 @@
 
 ## Content Pillars
 
-Eaton Corporation's content strategy reflects its positioning in the Electrical Components & Equipment segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
+| Pillar | Estimated Share | Description | Primary Format |
+|--------|----------------|-------------|----------------|
+| **1. Application Engineering** | ~35% | Technical content that helps engineers specify, size, and install Eaton products correctly. Selection guides, application notes, wiring diagrams, compatibility matrices. | White papers, technical PDFs, video tutorials, webinars |
+| **2. Energy Transition & Electrification** | ~25% | Thought leadership connecting Eaton's product portfolio to macro trends: data center growth, EV infrastructure, grid modernization, renewable integration. | Blog posts, investor presentations, press releases |
+| **3. Product & Solution Launches** | ~20% | New product introductions, expanded ratings, certifications achieved, and software releases. Specification-focused copy with performance data. | Press releases, product pages, technical datasheets |
+| **4. Sustainability & ESG** | ~12% | Reporting on carbon avoidance, Eaton's own operational sustainability goals, and customer emissions reduction case studies. | Annual Sustainability Report, microsite content |
+| **5. Case Studies & Customer Proof** | ~8% | Named customer stories documenting specific outcomes (uptime improvement, energy savings, compliance resolution) with quantified results. | Case study PDFs, video testimonials |
 
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "Eaton Corporation understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for electrical components & equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with Eaton Corporation." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+All estimated shares are based on observation of eaton.com content volume and LinkedIn posting frequency. (T4_INFERRED)
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
+**Hook 1 — The Downtime Cost Frame**
+> "Every minute of unplanned downtime in a hyperscale data center costs an estimated $9,000." (figure sourced from Uptime Institute research; Eaton uses variant framings in data center marketing materials)
+Opens with the cost of failure before introducing the product. Effective for data center and industrial manufacturing audiences whose primary concern is operational continuity.
 
-Opens with a recognizable industry challenge or pain point before presenting Eaton Corporation's perspective.
+**Hook 2 — The Regulatory Compliance Anchor**
+> "NFPA 70E arc-flash compliance is no longer optional. Here's what your switchgear needs to meet the standard."
+Frames the product as the solution to an unavoidable compliance requirement. Eliminates the "do we need this?" objection before it can be raised. Used in electrical safety product marketing. (observed on eaton.com electrical safety pages)
 
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+**Hook 3 — The Megatrend Validation**
+> "AI data center power demand is projected to double by 2026. Is your electrical infrastructure ready?"
+Connects a macro trend (verifiable from third-party sources) to a specific product gap the reader can address. Positions Eaton as ahead of demand rather than reactive to it. (observed in Eaton investor and marketing communications, 2023–2024)
 
-### Hook 2 — Data-Driven Insight
+**Hook 4 — The Specification Lock-In**
+> "Download the Eaton Data Center Power Design Guide — and use it as the basis of design for your next project."
+Provides a complete technical document that, once adopted by an engineer's firm, inserts Eaton product families into the default specification. The most effective B2B content hook because it converts the content consumer into a specifier. (observed on eaton.com Knowledge Center)
 
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+**Hook 5 — The Energy Efficiency ROI**
+> "See how [Customer] reduced facility energy costs by 18% after upgrading to Eaton's intelligent power distribution."
+Translates product performance into financial return that the buyer's finance team can validate. Enables internal capital approval for the purchase. (observed in Eaton case study content)
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | Eaton Corporation Pattern | What Eaton Corporation Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+| CTA Type | Example Copy | Context |
+|----------|--------------|---------|
+| **Specification download** | "Download the Selection Guide" | Product category pages — drives engineer engagement at specification stage |
+| **Application engineer contact** | "Talk to an Eaton Expert" / "Get a Free System Assessment" | Mid-funnel pages where complexity requires human consultation |
+| **Distributor locator** | "Find an Authorized Distributor Near You" | MRO and replacement parts context — route to channel, not direct |
+| **Software trial** | "Try Power Xpert Free for 30 Days" | Software and monitoring platform pages |
+| **Case study** | "Read the Full Case Study" | After benefit claim — provides third-party validation before purchase decision |
 
 ---
 
 ## Tone & Mood Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — Eaton Corporation as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Example |
+|-----------|------|---------|
+| **Product specification page** | Clinical, precise, data-forward | "The Eaton 9395 UPS delivers up to 825 kVA with 96% efficiency at full load, IEC 62040-3 Class 1 compliant." (observed on eaton.com) |
+| **Thought leadership / trend content** | Authoritative but accessible; measured confidence | "The energy transition is the largest infrastructure investment cycle in a generation. Eaton's portfolio is positioned across every major demand vector." (T4_INFERRED representative example) |
+| **Safety content** | Direct, no-nonsense, consequence-aware | "Arc flash incidents cause more than 2,000 burn injuries per year in the US. Proper protective equipment and compliant switchgear are non-negotiable." (T3_SECONDARY_RELIABLE, OSHA arc flash statistics) |
+| **Customer case study** | Outcome-first, customer voice centered | "Before upgrading to Eaton's intelligent MCC, we experienced 12 unplanned shutdowns per year. Last year we had zero." — representative customer quote style (T4_INFERRED, based on observed case study format) |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. **No unquantified sustainability claims**: "Green" or "sustainable" without a specific metric (CO₂e avoided, kWh saved, percentage efficiency improvement) is not used in Eaton's technical content. (T4_INFERRED)
+2. **No comparative superlatives without data**: "The most efficient UPS" requires a published efficiency figure and comparison basis. Claims like "industry-leading" appear only when backed by third-party test data. (T4_INFERRED)
+3. **No consumer lifestyle imagery in industrial content**: Product photography shows the product in its operating environment (switchgear room, data center, aircraft assembly) — not lifestyle or aspirational settings. (observed on eaton.com)
+4. **No product-only content without application context**: Every product page includes at minimum one application use case, compliance reference, or selection guidance element. (observed on eaton.com)
+5. **No humor or irony in safety content**: Arc flash, electrical shock, and hydraulic pressure hazards are treated with clinical seriousness. (T4_INFERRED from observed content tone)
+6. **No technology jargon without definition**: Content aimed at facility managers or procurement professionals includes plain-language explanations of technical terms alongside technical specifications. (observed on eaton.com Knowledge Center)
 
 ---
 
-## Hashtag Strategy
+## Hashtag Strategy (LinkedIn — Primary B2B Channel)
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #ETN | Financial and investor community | Moderate (estimated) |
-| #EatonCorporation | Brand-level social engagement | Varies (estimated) |
-| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Hashtag | Application |
+|---------|-------------|
+| `#PowerManagement` | Corporate-level brand posts |
+| `#EnergyTransition` | Grid, EV, renewable integration content |
+| `#DataCenter` | Data center power content |
+| `#Electrification` | EV charging, more-electric aircraft content |
+| `#IndustrialAutomation` | Motor control, drives, industrial MCC content |
+| `#Sustainability` | ESG and emissions-reduction content |
+| `#ArcFlashSafety` | Electrical safety and NFPA 70E content |
 
 ---
 
-## Steal Sheet — 3 Transferable Principles
+## Steal Sheet — 2 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-Eaton Corporation's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. The specification document is the highest-value content asset in B2B.**
+Eaton's most effective content is not a blog post or a video — it is the selection guide that engineers use to write purchase specifications. Once your product name appears in a specification document, you have a structural advantage in that procurement cycle. Transferable: identify the document your buyer must produce before purchasing, and create a free tool or template that writes it for them, with your product as the default.
 
-**2. Use data as a credibility anchor.**
-In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in electrical components & equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
-
-**3. Separate thought leadership from product marketing.**
-Eaton Corporation's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**2. Quantify the cost of inaction, not just the benefit of action.**
+Eaton's data center and industrial content leads with the cost of downtime, the cost of compliance failure, and the cost of energy waste — all expressed in the buyer's own financial metrics. The product becomes the cost-avoidance mechanism, not a discretionary purchase. Transferable: reframe every product benefit as the elimination of a quantifiable cost your buyer is already paying.

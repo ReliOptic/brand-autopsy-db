@@ -1,102 +1,98 @@
-# 05. Design System — Emerson Electric (EMR)
+# 05. Design System — Emerson Electric Co. (EMR)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
-
----
-
-## 1. Color Palette
-
-Emerson Electric's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. Typography
+## Color System
 
-Emerson Electric's digital properties employ a typographic system appropriate to its industrials positioning.
+*Colors observed on emerson.com. Internal brand specifications are proprietary.*
 
-### Typeface System
+| Color Name | HEX | Usage |
+|-----------|-----|-------|
+| **Emerson Blue** | `#0082C3` | Primary brand blue; CTAs, navigation, highlights |
+| **Emerson Dark Blue** | `#00274C` | Deep navy for headers, premium contexts |
+| **Emerson White** | `#FFFFFF` | Primary background; clean, technical feel |
+| **Emerson Light Gray** | `#F4F4F4` | Content section backgrounds; secondary panels |
+| **Emerson Dark Gray** | `#3C3C3C` | Body text; data-dense content |
+| **Emerson Green** | `#5B8C2A` | Sustainability and environmental content contexts |
+| **Emerson Orange** | `#E87722` | Alert and accent; call-to-action emphasis in secondary contexts |
 
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+*(Observed on official Emerson digital properties.)*
 
 ---
 
-## 3. Channel Specifications
+## Typography
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+| Role | Observed Style | Notes |
+|------|---------------|-------|
+| **Headlines** | Clean sans-serif; bold weight | Clear hierarchy; technical documentation-appropriate |
+| **Body Text** | Regular weight sans-serif | High legibility for data-dense technical content |
+| **Data / Specifications** | Tabular, monospace-friendly | Consistent with engineering documentation standards |
+| **Product Names** | Brand-consistent sans-serif; may use Emerson proprietary naming conventions | Product names (Rosemount, Fisher, DeltaV) are treated as brand marks |
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+*(Typography observations from publicly visible digital properties.)*
 
 ---
 
-## 5. Design Prohibitions
+## Channel Design Specifications
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+| Channel | Format | Key Notes |
+|---------|--------|-----------|
+| **emerson.com** | Responsive; data-rich; industry navigation | Deep information architecture supporting technical research |
+| **White papers / Technical docs** | PDF; A4 or Letter; brand-covered | Clean layout; data tables prominent; engineering-appropriate density |
+| **Webinars** | Slide deck format; branded templates | Technical content density; Q&A format assumed |
+| **LinkedIn** | 1200×628; infographic-style | Data visualization; industry-specific messaging |
+| **Trade show / Conference** | Booth graphics; product demonstrations | Physical product demonstration is critical for instrumentation brands |
+| **Product datasheets** | Technical specification format; tabular data | Accuracy and completeness are brand quality indicators |
+| **Annual Report / CSR** | Multi-page PDF; brand-consistent | Investor and ESG audience; infographic and data visualization emphasis |
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Emerson Electric (EMR)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Layout Principles
+
+1. **Information Density Appropriate to Audience**: Emerson's engineering audience expects and handles high information density. Oversimplifying or reducing content to consumer-style layouts would undermine technical credibility. Content depth is a quality signal. (T4_INFERRED)
+
+2. **Navigation by Industry Vertical**: Emerson's website architecture organizes by industry (Energy, Life Sciences, Food & Beverage, Chemical) enabling engineers to find relevant application content without navigating a product catalog. (observed, emerson.com navigation structure)
+
+3. **Data Visualization for Complex Systems**: Process diagrams, system architecture schematics, and performance charts are essential visual tools for automation content. Engineering documentation standards apply. (T4_INFERRED from observed Emerson technical content)
+
+4. **Product Photography with Application Context**: Emerson's instrumentation photography typically shows products in application context (installed on a pipe, mounted in a panel) rather than in isolation, communicating real-world deployment. (observed, Emerson product imagery)
+
+---
+
+## Icon Style
+
+- **Functional process icons**: Valve, transmitter, analyzer, controller symbols consistent with ISA/IEC process diagram conventions — familiar to process engineers
+- **Industry icons**: Petroleum flame, pharmaceutical cross, food processing icons for vertical navigation
+- **Digital/software icons**: Dashboard, data flow, cloud connectivity icons for IIoT and software content
+- **Safety icons**: SIS, hazard warning, reliability indicators following industry-standard visual language
+
+*(Icon observations from emerson.com and technical documentation.)*
+
+---
+
+## AI Prompt Guide for Emerson-Style Visual Generation
+
+> For design reference only.
+
+**Industrial Process Installation:**
+"Professional photography of industrial pressure transmitter installed on stainless steel process piping in refinery setting, warm amber industrial lighting, technical depth of field, engineering documentation quality, 16:9"
+
+**Digital Control Room:**
+"Modern process control room with multiple screens showing real-time process data dashboards, operator in foreground reviewing data, clean and organized environment, professional industrial photography, blue and white color palette"
+
+**Technical Diagram:**
+"Clean engineering schematic of process automation system, blue and gray color palette, ISA-standard symbols, white background, vector-quality precision, labeled components, professional technical illustration style"
+
+---
+
+## Design Prohibitions
+
+1. **No consumer aesthetics in technical content**: Playful fonts, bright casual colors, or lifestyle photography are inappropriate for process engineering audiences. (T4_INFERRED)
+2. **No stock photography of generic "industry"**: Generic hardhat-and-factory imagery without specific product or application context is not credible to engineering buyers. (T4_INFERRED)
+3. **No specification claims in visual callouts without product data sheet backing**: A graphic claiming "±0.04% accuracy" must be verifiable in the product data sheet; uncited specification graphics create legal and credibility risk. (T4_INFERRED)
+4. **No oversimplification of system architecture diagrams**: Automating buyers distrust diagrams that omit complexity they know exists; incomplete system architecture communications undermine credibility. (T4_INFERRED)
+5. **No safety iconography in non-safety contexts**: SIS and hazard warning symbols carry specific technical meanings; using them decoratively creates confusion and potential liability. (T4_INFERRED)
+6. **Maintain color accessibility in technical documentation**: Engineering drawings and data visualizations must maintain contrast ratios accessible to color-vision-deficient readers; this is both an accessibility and a technical communication requirement. (T4_INFERRED)
+

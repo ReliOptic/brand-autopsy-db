@@ -1,102 +1,97 @@
-# 05. Design System — Walt Disney Company (The) (DIS)
+# 05. Design System — The Walt Disney Company (DIS)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
-
----
-
-## 1. Color Palette
-
-Walt Disney Company (The)'s visual identity, as observed on its official website, employs a structured color system appropriate to communication services sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#663300` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. Typography
+## Color System
 
-Walt Disney Company (The)'s digital properties employ a typographic system appropriate to its communication services positioning.
+*Colors observed on disney.com, disneyworld.disney.go.com, and disneyplus.com. All HEX codes are observed values; exact internal brand standard specifications are not publicly disclosed.*
 
-### Typeface System
+| Color Name | HEX | Usage |
+|-----------|-----|-------|
+| **Disney Blue** | `#006ECC` | Primary brand blue; Disney+ interface primary, logo backgrounds, CTA buttons |
+| **Disney Dark Blue** | `#001E62` | Deep navy for premium contexts, Disney+ header, dark-mode backgrounds |
+| **Disney Gold** | `#FFC20E` | Accent color; star/magic motifs, premium highlights, Cinderella Castle glow |
+| **Disney Red** | `#E8192C` | Mickey Mouse iconic red; parks wayfinding, call-to-action emphasis |
+| **Disney White** | `#FFFFFF` | Primary background for Disney.com; clean, aspirational space |
+| **Disney Midnight** | `#0D0D1A` | Disney+ dark interface background; cinematic immersion |
+| **Pixar Teal** | `#00A3A1` | Pixar brand sub-system accent; differentiated from core Disney palette |
 
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+*(Observed on official Disney digital properties. Internal brand token names are proprietary and not publicly disclosed.)*
 
 ---
 
-## 3. Channel Specifications
+## Typography
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+| Role | Observed Typeface | Notes |
+|------|------------------|-------|
+| **Logo / Wordmark** | Waltograph (proprietary Walt Disney signature-derived letterform) | Trademarked; the Walt Disney script wordmark is a registered trademark. (T1_OFFICIAL, USPTO) |
+| **Display / Headlines** | Proprietary Disney-branded type families; digitally observed as serif-adjacent display fonts varying by sub-brand | Disney's internal type system is not publicly disclosed; sub-brands (Marvel, Star Wars, Pixar) each maintain distinct typographic identities |
+| **Disney+ Interface Body** | System sans-serif stack (observed: Avenir Next or similar humanist sans-serif) | Streaming UI optimized for legibility across device sizes |
+| **Parks Signage** | Custom lettering systems by location; Fantasyland uses storybook serif; EPCOT uses geometric sans-serif | Observed on official Disney Parks media and signage photography |
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+*(Typography observations are based on publicly visible digital properties. Internal font licensing details are proprietary.)*
 
 ---
 
-## 5. Design Prohibitions
+## Channel Design Specifications
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+| Channel | Format | Key Design Notes |
+|---------|--------|-----------------|
+| **Disney+ App** | 16:9 hero banners, 2:3 poster cards | Dark UI; cinematic full-bleed imagery; minimal text overlay to maximize content visibility |
+| **Disney.com** | Full-width responsive; 1920px max desktop | Light, white-dominant; vivid character imagery; playful layout with rounded UI elements |
+| **Disney Parks Site** | Immersive hero video/photography; booking flow integration | Warm color palette; aspirational lifestyle photography; prominent CTA placement |
+| **Instagram** | 1:1 and 4:5 still images; 9:16 Stories/Reels | Character-centered compositions; high saturation; "magical moment" framing |
+| **Theatrical Key Art** | 2:3 portrait for posters; 2.35:1 or 1.85:1 for trailers | Sub-brand specific systems (MCU, Star Wars, Pixar each have distinct key art languages) |
+| **Merchandise / shopDisney** | Product photography on white; lifestyle imagery with families | Bright, cheerful; targets gift purchase intent |
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Walt Disney Company (The) (DIS)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Layout Principles
+
+1. **Story First, Product Second**: All Disney digital layouts lead with narrative imagery (character, environment, scene) before functional product information. The story creates desire; the product information converts it. (T4_INFERRED from observed layout patterns across disney.com and sub-brand sites)
+
+2. **Aspirational Scale**: Hero imagery uses large-format, full-bleed photography and cinematography to create a sense of grandeur and escape. Small images undermine the brand promise. (observed on Disney properties)
+
+3. **Franchise Visual Hierarchy**: Disney's design system creates clear visual distinction between its sub-brand systems (Disney Animation = warm, pastel, rounded; Marvel = dark, kinetic, bold; Star Wars = cinematic, textured, epic; Pixar = bright, expressive, detailed). Each sub-brand operates within the parent brand framework without losing its distinct identity. (T4_INFERRED from observed sub-brand design patterns)
+
+4. **Accessibility through Familiarity**: Disney relies on globally recognizable character iconography (Mickey ears silhouette, castle outline) to create instant brand recognition without language dependency. The Mickey head silhouette functions as a universal brand signal. (official, trademark-protected iconography)
+
+---
+
+## Icon Style
+
+Disney maintains multiple icon systems across sub-brands:
+
+- **Mickey Silhouette**: The three-circle Mickey head silhouette is a registered trademark and functions as Disney's most powerful visual brand shorthand. (T1_OFFICIAL, USPTO)
+- **Cinderella Castle**: The castle outline is the primary visual identifier for Walt Disney World and appears on park tickets, maps, and marketing. (official)
+- **Disney+ "D" Icon**: The stylized D in Disney blue is the app icon and streaming brand mark. (official, disneyplus.com)
+- **Sub-brand Icons**: Each franchise maintains its own icon system (Avengers "A" shield, Star Wars Rebel/Empire insignia, Pixar lamp). (official, respective franchise properties)
+
+---
+
+## AI Prompt Guide for Disney-Style Visual Generation
+
+> For design reference and creative exploration only. Not for reproduction of Disney's proprietary characters or trademarks.
+
+**Parks Environment:**
+"Cinematic wide-angle view of a fantastical theme park at golden hour, ornate castle architecture with warm amber and purple sky lighting, families in soft focus foreground, vibrant floral landscaping, photorealistic, 8K, lens flare, magical atmosphere"
+
+**Disney Animation Style:**
+"2D animation style character portrait, expressive eyes with reflective catchlights, warm pastel color palette, clean line art, princess fantasy setting, golden hour rim lighting, Disney Renaissance visual language"
+
+**Disney+ Hero Banner:**
+"Cinematic dark background, dramatic character lighting, epic composition, deep blue and black color field, character silhouette with warm rim light, moody atmospheric haze, feature film quality, 21:9 aspect ratio"
+
+---
+
+## Design Prohibitions
+
+1. **Never use the Mickey silhouette without authorization**: The three-circle silhouette is a federally registered trademark. (T1_OFFICIAL, USPTO) Unauthorized commercial use constitutes trademark infringement.
+2. **Do not replicate the Walt Disney signature wordmark**: The script logo is a registered trademark protected across multiple international jurisdictions. (T1_OFFICIAL)
+3. **Do not mix sub-brand visual systems incoherently**: Marvel visual language (dark, kinetic) applied to Disney Junior content (bright, safe) would create brand system confusion. Each sub-brand palette must remain distinct. (T4_INFERRED)
+4. **Avoid low-saturation or desaturated color treatment on Disney-adjacent content**: Disney's brand is built on vivid emotional color. Desaturation signals dystopia, not magic. (T4_INFERRED)
+5. **No generic stock photography of theme parks**: Parks imagery must be official Disney photography or licensed fan content. Generic stock undermines the aspirational signal. (T4_INFERRED)
+6. **Do not use serif fonts in Marvel or Star Wars contexts**: These sub-brands use distinct typographic systems optimized for their narrative tones. Cross-contamination creates brand confusion. (T4_INFERRED from observed sub-brand type usage)
+

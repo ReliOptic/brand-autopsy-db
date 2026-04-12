@@ -6,79 +6,69 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in diversified banks. B2C: End consumers of financials products and services. (T4_INFERRED from Bank of America's segment structure) |
-| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Bank of America's 10-K geographic segment reporting. (SEC 10-K) |
+**Primary ICP — The Mass Affluent Household**
+- Age: 30–60; household income $75K–$250K
+- Behavior: Primary banking relationship; mortgage, checking, savings, and beginning investment activity
+- Geography: Major metropolitan markets; suburban households; Sun Belt growth states
+- Key driver: Convenience of integrated banking + investment under one roof (Merrill Edge)
+- BofA context: Preferred Rewards program targets this segment with relationship-depth incentives (official)
+
+**Secondary ICP — Small Business Owner**
+- Revenue: $100K–$5M annual business revenue (estimated)
+- Needs: Business checking, payroll, merchant services, small business credit
+- BofA context: Business Advantage suite; SBA lending relationships (official, bankofamerica.com/smallbusiness)
 
 ---
 
-## Core Personas
+## Three Personas
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1: "The Young Professional" — Aisha, 28
+- **Role**: Marketing coordinator, first full-time job post-college
+- **Pain**: Managing student loan payments, building credit, finding a bank that doesn't charge for everything
+- **Gain**: BofA Advantage SafeBalance account (no overdraft fees), mobile deposit, Erica for balance alerts
+- **Loyalty driver**: Preferred Rewards Gold tier after building savings; interest rate boost on savings account
 
-- **Age / Occupation**: 42, VP-level or director in a Bank of America customer organization
-- **Core pain**: Needs reliable diversified banks solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Bank of America selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+### Persona 2: "The Established Family" — David & Maria, 42/40
+- **Role**: Dual-income household; two kids; first home purchased; beginning to think about college savings
+- **Pain**: Too many financial accounts at different institutions; want consolidated view
+- **Gain**: BofA checking + Merrill Edge investment account + mortgage relationship = Platinum Honors tier; significant fee waivers; higher savings rates
+- **Loyalty driver**: Cross-product integration; one login for banking and brokerage
 
----
-
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with Bank of America's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Bank of America selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+### Persona 3: "The Small Business Owner" — Carlos, 50
+- **Role**: Restaurant owner; 15 employees; $1.2M annual revenue (estimated)
+- **Pain**: Cash flow management; payroll timing; merchant services fees; SBA loan complexity
+- **Gain**: Business Advantage Relationship Banking; dedicated small business specialist; integrated merchant services
+- **Loyalty driver**: Business Preferred Rewards; relationship manager who knows the business
 
 ---
 
-### Persona 3 — Consumer / Retail Customer
+## AARRR Funnel
 
-- **Age / Occupation**: 38, consumer who interacts with Bank of America's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **Bank of America selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
-
----
-
-## Purchase Journey — AARRR Framework
-
-| Stage | Bank of America's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Bank of America total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+| Stage | Mechanism | BofA Execution |
+|-------|-----------|----------------|
+| **Acquisition** | Branch proximity, digital search, campus banking | 3,900+ branches; university banking programs (official) |
+| **Activation** | Account opening (digital or branch); debit card activation | Same-day digital account; Erica onboarding prompts |
+| **Retention** | Preferred Rewards tier progression | Relationship deepening creates fee waivers and rate boosts |
+| **Revenue** | Net interest margin, fees, wealth management AUM | Diversified revenue across consumer, commercial, Merrill |
+| **Referral** | Preferred Rewards referral bonuses; employee referral | Program terms available at bankofamerica.com |
 
 ---
 
-## Anti-Persona — Who Bank of America Is Not For
+## Anti-Persona
 
-| Type | Characteristics | Why Bank of America Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Bank of America's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Bank of America's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Bank of America's full value is realized through deeper operational integration and sustained partnership. |
+- Customers who keep minimal balances and require high-touch service — the economics of the relationship do not support premium service at low balance levels
+- Customers who prefer a community bank relationship with local ownership and decision-making authority — BofA's scale is a feature for some and a barrier for others
+- High-net-worth clients requiring ultra-customized private banking — BofA Private Bank exists but competes with pure-play private banks (Goldman Sachs Private Wealth, JPMorgan Private Bank) for UHNW clients
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Bank of America's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. Reward relationship depth, not transaction volume.**
+Preferred Rewards doesn't reward spending — it rewards holding more of your financial life at BofA (combined balances across banking and investment accounts). This drives product cross-sell and makes switching costly. Transferable: design loyalty around relationship breadth (multiple product adoption) rather than single-product usage frequency.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Bank of America's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Digital investment is a retention strategy, not just a cost reduction.**
+BofA's 37M+ mobile users (official) represent a customer base that interacts with the brand daily without branch visits. Each mobile session is a brand touchpoint. Transferable: your product's digital interface is your most frequent brand interaction; invest in it as a primary brand asset.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Segment your customer base by relationship stage, not demographics.**
+Preferred Rewards tiers (Gold, Platinum, Platinum Honors, Diamond) reflect relationship depth, not age or income. A 25-year-old with $100K in combined balances gets Platinum Honors benefits. This structure encourages customers to consolidate assets rather than segment by demographics. Transferable: design tier structures that reward consolidation and depth of relationship.

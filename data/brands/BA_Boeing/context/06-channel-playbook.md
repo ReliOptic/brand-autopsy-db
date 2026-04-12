@@ -4,138 +4,127 @@
 
 ---
 
-## 1. Channel Strategy Matrix
+## Channel Matrix
 
-| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
-|---|---|---|---|---|---|
-| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
-| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
-| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
-| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
-| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
-| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
-
----
-
-## 2. Channel Tone Variations
-
-Boeing's core voice adjusts by channel while maintaining brand coherence.
-
-| Channel | Formality | Key Adjustment |
-|---|---|---|
-| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
-| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
-| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
-| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
-| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
-| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+| Channel | Role | Audience | Cadence | KPI |
+|---------|------|----------|---------|-----|
+| **boeing.com** | Primary brand + product hub | Airlines, DoD, investors, media, STEM | Always-on | Traffic, time on site, RFI submissions |
+| **LinkedIn** | Corporate + defense B2B | Procurement, engineering, executives | Daily | Follower growth, engagement rate |
+| **Twitter/X** | News, launches, milestones | Media, aviation enthusiasts, investors | As-needed | Press pickup, share of voice |
+| **YouTube** | Long-form brand + technical | Engineers, aviation enthusiasts, public | Campaign-based | View completion, subscriber growth |
+| **Instagram** | Visual brand storytelling | General public, employees, STEM pipeline | 3–4x/week | Follower growth, save rate |
+| **Aviation trade press** | Program updates, technical | Airlines, MRO, DoD procurement | Per milestone | Coverage volume, accuracy |
+| **Air shows (Paris, Farnborough)** | Order announcements, launches | Airlines, press, governments | Biennial | Orders announced, media impressions |
+| **Investor Relations (IR)** | Financial transparency | Investors, analysts | Quarterly earnings + SEC filings | Analyst ratings, institutional ownership |
 
 ---
 
-## 3. Cross-Channel Synergy Map
+## Tone Variations by Channel
 
-### Route A — Product/Service Launch Sequence
+| Channel | Tone Shift | Example |
+|---------|-----------|---------|
+| **Boeing.com (commercial)** | Engineering-confident, benefit-forward | "The 787 uses 25% less fuel than the aircraft it replaces." |
+| **LinkedIn** | Institutional, achievement-focused | "Boeing delivers its 1,000th 787 Dreamliner." |
+| **Instagram** | Visual-first, awe-inspiring | [Aircraft photo at altitude] Caption: "Built to go the distance." |
+| **Twitter/X** | Factual, timely, news-oriented | "Boeing announces [X] orders at the Paris Air Show." |
+| **Defense comms** | Formal, mission-oriented, classified-sensitive | "Supporting the warfighter with proven platforms." |
+| **IR / earnings** | Factual, forward-looking statements labeled | Per SEC disclosure requirements |
 
-```
-[Company Announcement (Website + Newsroom)]
-        |
-        v
-[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
-        |                                          |
-        v                                          v
-[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
-        |
-        v
-[Sales team — Direct outreach with launch context]
-```
+---
 
-### Route B — Thought Leadership Pipeline
+## Cross-Channel Synergy Routes
+
+### Route 1: Air Show → Media → Sales Pipeline
 
 ```
-[Research / White Paper (Website)]
-        |
-        v
-[LinkedIn — Key findings + executive commentary]
-        |
-        v
-[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
-        |
-        v
-[Sales enablement — Research as conversation starter]
+Air Show Announcement
+(firm orders, new variant debut)
+        ↓
+Press Release (PR Newswire / Boeing Newsroom)
+        ↓
+Aviation Trade Press Coverage
+(Aviation Week, FlightGlobal, ATW)
+        ↓
+LinkedIn / Twitter amplification
+        ↓
+Boeing.com program page updated
+        ↓
+Sales team follow-up with airline customers
 ```
 
-### Route C — Earnings and Financial Communications
+### Route 2: YouTube Engineering Content → STEM Recruitment
 
 ```
-[SEC Filing (EDGAR) + IR Press Release]
-        |
-        v
-[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
-        |
-        v
-[LinkedIn — CEO/executive commentary post]
-        |
-        v
-[Media pickup → Analyst reports → Investor sentiment cycle]
+YouTube: "How the 787 Composite Fuselage Works"
+        ↓
+STEM-focused social share (LinkedIn, Instagram)
+        ↓
+Boeing Careers traffic from interested engineers
+        ↓
+University partnership pipeline
+        ↓
+Internship → Full-time pipeline
+```
+
+### Route 3: Crisis → Regulatory → Institutional Restoration
+
+```
+Incident occurs
+        ↓
+NTSB / FAA coordination (non-public)
+        ↓
+CEO statement (PR + boeing.com)
+        ↓
+Congressional testimony (C-SPAN / public record)
+        ↓
+Investor call update
+        ↓
+Operational change announcement (press release)
+        ↓
+Trade press coverage of recovery steps
 ```
 
 ---
 
-## 4. Channel-Specific Prohibitions
+## Channel Prohibitions
 
-### Company Website
-- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
-- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
-
-### LinkedIn
-- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
-- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
-
-### Twitter / X
-- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
-
-### IR / SEC
-- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
-- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+1. Do not announce aircraft orders before airline customer approval of press release language
+2. Do not discuss active FAA investigations, active litigation, or NTSB investigations via social media
+3. Do not share export-controlled technical information in any public digital channel
+4. Do not allow defense program imagery to appear in commercial aviation content contexts without separation
+5. Do not make delivery timeline statements in public content without investor disclosure alignment (forward-looking statement risk)
 
 ---
 
-## 5. Crisis Response Protocol
+## Crisis Protocol
 
-### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+### Scenario 1: Aircraft Incident / Accident
+- **Immediate**: Activate Boeing Safety organization; coordinate with NTSB/FAA per regulatory obligations
+- **Communications**: CEO statement within 24 hours; factual, expressing concern and cooperation — not admission of fault
+- **Social media**: Suspend non-essential social content; redirect to safety statement
+- **Airline customers**: Direct outreach before public statement; operators cannot be surprised by media
 
-**Response sequence:**
-1. Internal assessment and scoping (T+0 to T+24h)
-2. Official statement on company website / newsroom (T+24h)
-3. Direct customer notification via email (T+24-48h)
-4. Remedy program implementation
-5. Ongoing status updates until resolution
+### Scenario 2: Production Quality Issue (supplier/manufacturing)
+- **Immediate**: Assess scope; determine airworthiness impact with engineering team
+- **FAA/regulatory**: Mandatory disclosure per 14 CFR Part 21 if affecting type design
+- **Public communication**: If material (investor impact), 8-K filing required; press release following
+- **Tone**: Transparent about discovery and remediation; emphasize quality system response
 
-### Scenario 2 — Regulatory or Legal Action
-
-**Response sequence:**
-1. Legal review of public statement content (T+0 to T+48h)
-2. Official statement on company website acknowledging the proceeding
-3. SEC filing disclosure as required (8-K if material)
-4. Ongoing compliance communications through appropriate channels
-
-### Scenario 3 — Reputation / Social Media Issue
-
-**Response sequence:**
-1. Monitor and assess severity (T+0 to T+72h)
-2. If media pickup exceeds threshold: factual clarification on website
-3. If social-only: studied silence as default; response only if factual correction is required
-4. Resolution through operational action, not communications alone
+### Scenario 3: Defense Contract Loss / Program Cancellation
+- **IR**: Immediate 8-K if material; earnings impact quantification
+- **Defense media**: Statement to Aviation Week, Defense News within same day
+- **Employee communication**: Internal before external; workforce impact addressed directly
+- **Competitive context**: No public characterization of competitor who won the award
 
 ---
 
-## 6. Steal Sheet — 3 Transferable Principles
+## Steal Sheet — 3 Transferable Principles
 
-**1. Align channel formality with audience expectations.**
-Boeing's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+**1. For capital goods, the trade show is the marketing department.**
+Boeing's most consequential sales communications happen at Paris and Farnborough, not in digital campaigns. The physical presence, scale of aircraft display, and real-time order announcements create a media moment no digital campaign can replicate. Transferable: for B2B companies selling high-consideration products, identify the one or two industry events that function as market legitimacy forums and invest disproportionately in those moments.
 
-**2. Use financial communications as a credibility asset.**
-Boeing's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+**2. Transparency in crisis is not optional — it is a regulatory requirement that also happens to be good brand strategy.**
+Boeing's FAA obligations require disclosure of safety-relevant information. The companies that navigate safety crises best treat regulatory disclosure obligations as the floor, not the ceiling, of their communication — they disclose more than required and earlier than required. Transferable: in regulated industries, the communication strategy that exceeds minimum disclosure requirements consistently builds more durable brand trust than one that seeks to minimize disclosure.
 
-**3. Build a cross-channel sequence, not parallel silos.**
-Boeing's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.
+**3. Separate your audience channels completely when contexts require it.**
+Boeing's defense and commercial audiences have fundamentally different sensitivities, security requirements, and decision criteria. Mixing defense program content into commercial channels, or commercial framing into defense contexts, would serve neither audience. Transferable: when your product serves audiences with genuinely different contexts and sensitivities, maintain distinct communication lanes rather than seeking a unified voice that serves none of them fully.

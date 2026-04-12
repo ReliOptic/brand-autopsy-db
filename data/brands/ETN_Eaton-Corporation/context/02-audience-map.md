@@ -6,79 +6,99 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electrical components & equipment and adjacent industries. (T4_INFERRED from Eaton Corporation's segment structure) |
-| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Eaton Corporation's 10-K geographic segment reporting. (SEC 10-K) |
+| Dimension | Description |
+|-----------|-------------|
+| **Industry verticals** | Data centers and hyperscale computing; commercial construction (hospitals, airports, high-rises); industrial manufacturing; oil & gas; utilities; aerospace OEMs and MRO |
+| **Organizational role** | Electrical engineers, design engineers, facility managers, plant maintenance managers, procurement/sourcing managers, MRO buyers, aerospace systems engineers |
+| **Company size** | Mid-market to enterprise. Primary buyers are $100M+ revenue companies with dedicated engineering or facilities teams. (T4_INFERRED, based on Eaton's direct sales model and distributor channel structure) |
+| **Geography** | North America (largest market per Electrical Americas segment); Western Europe, Middle East, and Asia Pacific via Electrical Global and Aerospace segments. (official, ETN 2023 10-K, segment disclosures) |
+| **Buying trigger** | New facility construction or expansion; equipment replacement at end of service life; regulatory compliance upgrade; energy efficiency mandates; electrification of previously non-electric systems (e.g., EV charging infrastructure) |
 
 ---
 
-## Core Personas
+## Persona 1 — The Data Center Infrastructure Engineer
 
-### Persona 1 — Enterprise Decision-Maker
+**Name**: Marcus, Senior Electrical Engineer, hyperscale cloud operator
+**Age**: 38 | **Location**: Northern Virginia or Phoenix (primary US data center hubs)
+**Responsibility**: Specifying power distribution architecture for 50–200MW data center campuses
 
-- **Age / Occupation**: 42, VP-level or director in a Eaton Corporation customer organization
-- **Core pain**: Needs reliable electrical components & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Eaton Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Pain points**:
+- Any unplanned downtime is measured in millions of dollars per hour; zero tolerance for component failure
+- Regulatory and sustainability reporting requirements demand quantified energy efficiency (PUE targets)
+- Lead times for switchgear and PDUs are 20–52 weeks; specification errors cause costly project delays
 
----
+**Gain drivers**:
+- UPS systems and switchgear pre-tested and certified to IEC/UL standards reduce his personal liability at the specification sign-off stage
+- Eaton's Power Xpert software integrates with BMS platforms for centralized monitoring (official, eaton.com)
+- Application engineers available to review single-line diagrams before procurement reduces rework risk
 
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with Eaton Corporation's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Eaton Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Purchase trigger**: New campus build or capacity expansion requiring electrical room redesign
 
 ---
 
-### Persona 3 — Financial Stakeholder / Investor
+## Persona 2 — The Industrial Plant Maintenance Manager
 
-- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
-- **Core pain**: Needs to evaluate Eaton Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
-- **Eaton Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
-- **Churn risk**: Driven by financial performance relative to sector benchmarks.
-- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+**Name**: Sandra, Plant Manager, automotive assembly facility
+**Age**: 52 | **Location**: Midwest US manufacturing corridor
+**Responsibility**: Keeping a 24/7 production line operational; managing MRO budget
 
----
+**Pain points**:
+- Unplanned downtime costs $15,000–$50,000/hour in lost production (estimated, industry benchmark for automotive assembly)
+- Legacy switchgear compatibility — she cannot simply swap in a competitor's product mid-lifecycle
+- Justifying capital equipment upgrades to finance requires documented ROI on energy savings
 
-## Purchase Journey — AARRR Framework
+**Gain drivers**:
+- Eaton's motor control centers with predictive maintenance capabilities reduce unplanned stops
+- Local distributor network (Eaton's 2,800+ authorized distributors in North America) means same-day emergency parts availability (official, eaton.com distributor locator)
+- Published energy savings case studies allow her to build the internal capital approval case
 
-| Stage | Eaton Corporation's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Eaton Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Purchase trigger**: Motor or circuit breaker failure, or proactive arc-flash safety audit requiring switchgear upgrade to NFPA 70E compliance
 
 ---
 
-## Anti-Persona — Who Eaton Corporation Is Not For
+## Persona 3 — The Aerospace Procurement Manager
 
-| Type | Characteristics | Why Eaton Corporation Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Eaton Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Eaton Corporation's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Eaton Corporation's full value is realized through deeper operational integration and sustained partnership. |
+**Name**: David, Director of Procurement, commercial aircraft OEM
+**Name**: David, Director of Procurement, commercial aircraft OEM
+**Age**: 46 | **Location**: Seattle or Toulouse
+**Responsibility**: Sourcing hydraulic, fuel management, and electrical systems for new aircraft programs
+
+**Pain points**:
+- FAA/EASA certification requirements mean supplier changes mid-program are prohibitively expensive
+- Supply chain disruption risk; sole-source dependencies create program risk
+- Cost pressure from aircraft OEM customers is relentless while specification requirements only tighten
+
+**Gain drivers**:
+- Eaton Aerospace's AS9100 and Nadcap-certified manufacturing reduces his qualification burden (official, eaton.com aerospace)
+- Long-term supply agreements provide volume pricing stability
+- Eaton's engineering co-development capability allows custom system design rather than off-the-shelf adaptation
+
+**Purchase trigger**: New aircraft program launch (e.g., next-generation narrowbody) or existing supplier qualification failure
 
 ---
 
-## Steal Sheet — 3 Transferable Principles
+## AARRR Purchase Journey
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Eaton Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+| Stage | Behavior | Eaton Touchpoint |
+|-------|----------|-----------------|
+| **Acquisition** | Engineer searches for "data center UPS 500kVA IEC 62040" or specifies by brand from previous project experience | SEO-optimized product pages; specification selector tools on eaton.com; distributor catalog listings |
+| **Activation** | Downloads selection guide or requests application engineer consultation | Knowledge Center white papers; live chat with application engineers; lunch-and-learn events at customer facilities |
+| **Retention** | Reorders MRO parts; expands to adjacent product categories (from UPS to PDU to software monitoring) | Eaton's authorized distributor network; Power Xpert software subscription; myEaton account portal |
+| **Referral** | Design engineer specifies Eaton by name in construction drawings; OEM writes Eaton part numbers into equipment BOMs | Case study publication; "basis of design" specification support documents |
+| **Revenue** | Multi-year MRO contracts; software license renewals; capital project orders | Direct sales team; Eaton Financial Services (leasing); distributor channel |
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Eaton Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+---
 
-**3. Invest in technical documentation as a customer retention tool.**
-In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+## Anti-Persona
+
+**Who Eaton does not target**: Residential electricians, small commercial contractors under $1M project value, or DIY installers. Eaton's residential panel business (Square D competitor) exists but is not the brand's primary positioning focus. The consumer brand identity is deliberately subordinated to the industrial and commercial engineering identity. (T4_INFERRED, based on eaton.com navigation structure and marketing emphasis)
+
+---
+
+## Steal Sheet — 2 Transferable Principles
+
+**1. Map personas to the specification stage, not the purchase stage.**
+Eaton's most valuable buyer interaction happens before the RFQ — when the engineer is writing the specification document. By providing selection guides and application notes at that stage, Eaton's product numbers appear in the specification before competitors are invited to bid. Transferable: identify the document your customer writes before they decide to buy, and make yourself the reference that document cites.
+
+**2. Quantify downtime cost in customer language.**
+Eaton's data center marketing does not lead with product features. It leads with downtime cost — a number the facility manager already owns and fears. Transferable: translate your product's value into the cost of the problem it prevents, expressed in the metric your customer reports to their executive team.

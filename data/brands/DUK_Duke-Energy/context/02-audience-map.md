@@ -1,4 +1,4 @@
-# 02. Audience Map — Duke Energy (DUK)
+# 02. Audience Map — Duke Energy Corporation (DUK)
 
 > **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
@@ -6,79 +6,105 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electric utilities and adjacent industries. (T4_INFERRED from Duke Energy's segment structure) |
-| **Occupation segments** | Plant managers, operations directors, technical engineers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Duke Energy's 10-K geographic segment reporting. (SEC 10-K) |
+Duke Energy serves a captive customer base within its regulated service territories — customers do not choose Duke Energy over a competitor in most jurisdictions. Brand strategy therefore addresses multiple distinct stakeholder audiences beyond residential customers:
+
+**Primary Stakeholder**: State public utility commissions (PUCs) and regulatory bodies in North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky. Rate cases, integrated resource plans, and capital investment approvals are governed by these bodies. (T1_OFFICIAL, SEC 10-K FY2024 regulatory discussion)
+
+**Secondary Stakeholder**: Institutional and retail investors. Duke Energy is a large-cap utility with a dividend-oriented investor base. Market cap approximately $82B (estimated, public market data). The investment narrative centers on regulated earnings stability, dividend yield (~3.5–4%, estimated), and clean energy transition execution. (T4_INFERRED)
+
+**Tertiary Stakeholder**: Residential and commercial energy customers across six states (~8.4M electric customers, ~1.7M gas customers). (SEC 10-K FY2024) These customers have limited brand choice but high expectations for reliability and outage response.
+
+**Quaternary Stakeholder**: Environmental advocacy groups, state and federal legislators, and community organizations — audiences whose support or opposition can influence regulatory outcomes. (T4_INFERRED)
 
 ---
 
-## Core Personas
+## Persona 1 — The Regulated Customer (Residential)
 
-### Persona 1 — Enterprise Decision-Maker
+**Name**: Linda, 54
+**Role**: Homeowner, suburban North Carolina
+**Income**: $65,000–$90,000 household (estimated)
 
-- **Age / Occupation**: 42, VP-level or director in a Duke Energy customer organization
-- **Core pain**: Needs reliable electric utilities solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Duke Energy selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Pain Points**:
+- Rate increases approved through regulatory proceedings affect household budgets
+- Outage duration during severe weather events (hurricanes, ice storms)
+- Concerns about the pace and cost of the clean energy transition
 
----
+**Gain Drivers**:
+- Reliable power delivery — especially for home office work, medical equipment, HVAC in extreme weather
+- Clear outage communication and restoration timelines
+- Confidence that long-term energy prices will remain predictable within regulatory frameworks
 
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with Duke Energy's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Duke Energy selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Brand Relationship**: Linda does not choose Duke Energy; she is served by it. Brand trust is earned through outage response quality, billing clarity, and visible infrastructure investment in her community. (T4_INFERRED)
 
 ---
 
-### Persona 3 — Financial Stakeholder / Investor
+## Persona 2 — The Institutional Investor
 
-- **Age / Occupation**: 50, institutional investor or analyst covering Utilities
-- **Core pain**: Needs to evaluate Duke Energy's financial performance, competitive positioning, and risk factors for investment decisions.
-- **Duke Energy selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
-- **Churn risk**: Driven by financial performance relative to sector benchmarks.
-- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+**Name**: Robert, 48
+**Role**: Portfolio manager, utilities sector, asset management firm
+**AUM Focus**: Dividend income and regulated utility equities
+
+**Pain Points**:
+- Execution risk on clean energy transition capital program (billions in CapEx)
+- Regulatory risk: rate cases may not recover full capital costs
+- Interest rate sensitivity: utility dividend yields compete with fixed income
+
+**Gain Drivers**:
+- Predictable earnings from regulated rate base
+- Dividend stability and growth trajectory
+- Clear regulatory relationships in stable southeastern jurisdictions
+- Credible emissions reduction roadmap that addresses ESG investor requirements
+
+**Brand Relationship**: Robert evaluates Duke Energy's management communication quality, regulatory track record, and capital allocation discipline. Brand credibility is built through earnings guidance accuracy and consistent narrative delivery. (T4_INFERRED)
 
 ---
 
-## Purchase Journey — AARRR Framework
+## Persona 3 — The State Regulator / Policy Maker
 
-| Stage | Duke Energy's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Duke Energy total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Name**: Commissioner Davis (composite)
+**Role**: Member, state public utility commission
+
+**Pain Points**:
+- Balancing rate affordability for low-income customers with utility capital recovery needs
+- Managing the pace of coal plant retirement versus grid reliability requirements
+- Political accountability for energy policy outcomes in their jurisdiction
+
+**Gain Drivers**:
+- Transparent, data-supported rate case filings
+- Demonstrated progress on emissions reduction commitments
+- Community investment and economic development contributions
+- Proactive stakeholder engagement before formal proceedings
+
+**Brand Relationship**: Duke Energy must maintain credibility with regulators through consistent data disclosure, regulatory compliance, and demonstrated follow-through on commitments. The brand operates as a long-term relationship partner with these stakeholders. (T4_INFERRED)
 
 ---
 
-## Anti-Persona — Who Duke Energy Is Not For
+## AARRR Stakeholder Journey (Adapted for Utility Context)
 
-| Type | Characteristics | Why Duke Energy Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Duke Energy's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Duke Energy's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Duke Energy's full value is realized through deeper operational integration and sustained partnership. |
+| Stage | Mechanism | Duke Execution |
+|-------|-----------|----------------|
+| **Awareness** | Regulatory proceedings, community presence | Duke Energy participates in public rate case proceedings; community investment programs (e.g., foundation grants) build brand presence. (official, Duke Energy Foundation) |
+| **Engagement** | Outage communication, customer portals | Duke Energy's digital customer portal and outage map provide real-time service information. (observed, duke-energy.com) |
+| **Retention** | Service reliability, billing clarity | Regulated status means retention is structural; brand work maintains trust for rate case support. |
+| **Revenue** | Regulatory-approved rate recovery | Revenue is determined by PUC-approved rates on regulated rate base. (T1_OFFICIAL) |
+| **Advocacy** | Community relations, ESG disclosure | Environmental groups and community advocates who support Duke's transition plans reduce regulatory friction. (T4_INFERRED) |
+
+---
+
+## Anti-Persona
+
+**The Active Energy Choice Customer**: In deregulated energy markets, customers who actively shop for competitive electricity providers and prioritize 100% renewable sourcing via retail choice programs. Duke Energy's primary service territories are regulated monopoly markets where retail choice is limited; marketing to active-switcher mindsets is not Duke Energy's strategic priority. (T4_INFERRED based on regulatory market structure)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Duke Energy's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. Map all stakeholder audiences, not just customers.**
+Duke Energy's brand strategy must serve regulators, investors, community advocates, and customers simultaneously — each with distinct needs and success metrics. Transferable: for any regulated, infrastructure, or B2G (business-to-government) business, build a separate brand message architecture for each stakeholder tier rather than applying a single consumer brand framework.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Duke Energy's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Trust is built between rate cases.**
+Duke Energy's regulatory relationships succeed or fail based on how the company behaves between formal proceedings — community investment, proactive communication, and consistent follow-through on commitments. Transferable: identify the intervals between your formal sales or renewal moments and design specific trust-building activities for those periods.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In utilities markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Reliability is the minimum viable brand promise for infrastructure.**
+For utilities, hospitals, logistics providers, and any brand where failure has life-safety implications, reliability is not a differentiator — it is the threshold requirement. Differentiators must be built on top of a reliability baseline. Transferable: before investing in brand differentiation, audit whether your reliability baseline meets the threshold your audience requires.
+

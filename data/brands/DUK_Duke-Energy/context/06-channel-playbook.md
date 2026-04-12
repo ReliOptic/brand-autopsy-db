@@ -1,141 +1,163 @@
-# 06. Channel Playbook — Duke Energy (DUK)
+# 06. Channel Playbook — Duke Energy Corporation (DUK)
 
 > **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Channel Strategy Matrix
+## Channel Matrix
 
-| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
-|---|---|---|---|---|---|
-| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
-| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
-| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
-| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
-| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
-| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
-
----
-
-## 2. Channel Tone Variations
-
-Duke Energy's core voice adjusts by channel while maintaining brand coherence.
-
-| Channel | Formality | Key Adjustment |
-|---|---|---|
-| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
-| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
-| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
-| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
-| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
-| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+| Channel | Primary Objective | Audience | Content Type | Cadence |
+|---------|-----------------|----------|--------------|---------|
+| **duke-energy.com** | Self-service, outage reporting, bill pay | Residential & commercial customers | Functional utility content; outage map; rate info | Continuous (observed) |
+| **LinkedIn** | Investor & professional relations; talent acquisition | Investors, regulators, business community, job seekers | Infrastructure projects; ESG milestones; career content | 3–5x/week (observed) |
+| **Facebook** | Community relations; customer communication | Residential customers; community members | Storm updates; community grants; energy tips | Daily during events; 3–5x/week routine (observed) |
+| **Twitter / X** | Real-time outage and storm updates | Customers seeking service information | Alert-style updates; restoration progress | High frequency during events (observed) |
+| **YouTube** | Educational and project documentation | Customers; community; policymakers | How-it-works videos; project tours; executive interviews | Monthly approximately (observed) |
+| **Press Releases (Newsroom)** | Media and regulatory communication | Media; regulators; investors | Rate filings; project announcements; storm response | Event-driven (observed, duke-energy.com/news) |
+| **Investor Relations (IR site)** | Investor communication | Institutional and retail investors | Earnings; presentations; SEC filings | Quarterly cadence + events |
+| **Email / My Account** | Customer service; billing | Individual customers | Bills; outage notifications; program offers | Transactional |
 
 ---
 
-## 3. Cross-Channel Synergy Map
+## Tone Variations by Channel
 
-### Route A — Product/Service Launch Sequence
-
-```
-[Company Announcement (Website + Newsroom)]
-        |
-        v
-[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
-        |                                          |
-        v                                          v
-[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
-        |
-        v
-[Sales team — Direct outreach with launch context]
-```
-
-### Route B — Thought Leadership Pipeline
-
-```
-[Research / White Paper (Website)]
-        |
-        v
-[LinkedIn — Key findings + executive commentary]
-        |
-        v
-[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
-        |
-        v
-[Sales enablement — Research as conversation starter]
-```
-
-### Route C — Earnings and Financial Communications
-
-```
-[SEC Filing (EDGAR) + IR Press Release]
-        |
-        v
-[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
-        |
-        v
-[LinkedIn — CEO/executive commentary post]
-        |
-        v
-[Media pickup → Analyst reports → Investor sentiment cycle]
-```
+| Channel | Tone Adjustment |
+|---------|----------------|
+| **Website (customer-facing)** | Clear, helpful, task-oriented — get the customer to the information or action they need efficiently |
+| **LinkedIn** | Professional, data-confident, forward-looking — speaks to the investment and policy community |
+| **Facebook** | Community-warm, locally specific, responsive — acknowledges local context and speaks to neighbors |
+| **Twitter / X** | Urgent, factual, brief — especially during storm events; precision over personality |
+| **YouTube** | Educational, accessible, project-focused — makes infrastructure tangible and relatable |
+| **Press Releases** | Formal, precise, regulatory-compliant — no marketing language; factual and attributable |
+| **Investor Relations** | Metric-forward, guidance-anchored, management-attributed — speaks the language of capital markets |
 
 ---
 
-## 4. Channel-Specific Prohibitions
+## Cross-Channel Synergy Routes
 
-### Company Website
-- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
-- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+### Route 1 — Storm Event to Trust Recovery
 
-### LinkedIn
-- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
-- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+```
+[Severe weather event begins]
+         |
+         v
+[Twitter/X: real-time outage updates]
+   Crew counts; customers affected; restoration priority
+         |
+         v
+[Facebook: community-level restoration updates]
+   County-specific updates; safety tips; crew appreciation
+         |
+         v
+[duke-energy.com: outage map]
+   Interactive map showing restoration progress by address
+         |
+         v
+[Email/My Account: personalized restoration estimates]
+   Individual customer notification when power restored
+         |
+         v
+[Post-event: LinkedIn/Newsroom]
+   "X crews restored Y customers in Z hours" — trust-building metric story
+```
 
-### Twitter / X
-- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+*(Observed pattern based on Duke Energy storm response communications during documented weather events)*
 
-### IR / SEC
-- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
-- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
+### Route 2 — Clean Energy Milestone to Investor Narrative
+
+```
+[New solar/wind facility comes online]
+         |
+         v
+[Press release: capacity MW, homes powered, investment value]
+         |
+   +-----+-----+
+   |           |
+   v           v
+[LinkedIn]   [Facebook/X]
+Investor     Community
+narrative    impact story
+   |           |
+   +-----+-----+
+         |
+         v
+[IR Investor Presentation update]
+   Updated capacity portfolio; progress vs. transition goals
+         |
+         v
+[Sustainability Report]
+   Annual emissions reduction progress documentation
+```
+
+*(T4_INFERRED from observed Duke Energy communications pattern across channels)*
+
+### Route 3 — Rate Case to Community Transparency
+
+```
+[Rate case filed with state PUC]
+         |
+         v
+[Proactive Newsroom release]
+   Plain-language explanation of why and what it means
+         |
+         v
+[Facebook/community channels]
+   Local impact context; links to rate case materials
+         |
+         v
+[Community meetings / regulatory proceedings]
+   In-person stakeholder engagement
+         |
+         v
+[PUC order received]
+   Press release with outcome; customer impact summary
+```
+
+*(T4_INFERRED from observed utility rate case communication practices)*
 
 ---
 
-## 5. Crisis Response Protocol
+## Channel Prohibitions
 
-### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
-
-**Response sequence:**
-1. Internal assessment and scoping (T+0 to T+24h)
-2. Official statement on company website / newsroom (T+24h)
-3. Direct customer notification via email (T+24-48h)
-4. Remedy program implementation
-5. Ongoing status updates until resolution
-
-### Scenario 2 — Regulatory or Legal Action
-
-**Response sequence:**
-1. Legal review of public statement content (T+0 to T+48h)
-2. Official statement on company website acknowledging the proceeding
-3. SEC filing disclosure as required (8-K if material)
-4. Ongoing compliance communications through appropriate channels
-
-### Scenario 3 — Reputation / Social Media Issue
-
-**Response sequence:**
-1. Monitor and assess severity (T+0 to T+72h)
-2. If media pickup exceeds threshold: factual clarification on website
-3. If social-only: studied silence as default; response only if factual correction is required
-4. Resolution through operational action, not communications alone
+1. **No social media promises on restoration timing**: Specific restoration time commitments on social channels create liability if weather conditions extend outages. Only verified estimates from operations are published. (T4_INFERRED)
+2. **No political commentary on social channels**: Utility regulatory relationships require bi-partisan political relationships; partisan social content creates regulatory relationship risk. (T4_INFERRED)
+3. **No investor guidance on consumer social channels**: Material non-public information or guidance language must appear only in investor-designated channels per SEC regulations. (T1_OFFICIAL, Regulation FD)
+4. **No customer-specific account information on public channels**: Privacy regulations govern how customer data may be referenced publicly. (T4_INFERRED, applicable state and federal privacy regulations)
 
 ---
 
-## 6. Steal Sheet — 3 Transferable Principles
+## Crisis Protocol
 
-**1. Align channel formality with audience expectations.**
-Duke Energy's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+### Scenario 1 — Major Storm / Extended Outage Event
 
-**2. Use financial communications as a credibility asset.**
-Duke Energy's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+**0–2 hours**: Activate outage map; post initial customer count and crew mobilization on Twitter/X and Facebook. Safety messaging first: downed wire warnings, generator safety. (T4_INFERRED from observed Duke Energy storm protocols)
 
-**3. Build a cross-channel sequence, not parallel silos.**
-Duke Energy's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.
+**2–72 hours**: Regular restoration progress updates by county/region on Facebook. Aggregate metrics (customers restored, crews deployed) on Twitter/X every 2–4 hours during active restoration. Executive video updates on YouTube for extended multi-day events.
+
+**Post-event (7–14 days)**: Newsroom post with final restoration statistics. LinkedIn post with operational performance data for investor and professional audience. Acknowledgment of crews and mutual aid partners.
+
+### Scenario 2 — Environmental Incident (Coal Ash / Spill)
+
+**Immediate**: Issue factual statement of known facts; avoid speculation. State environmental agency notification is the priority; public communications follow regulatory notification. (T4_INFERRED from regulatory compliance requirements)
+
+**Short-term**: Ongoing factual updates citing confirmed data. Reference regulatory oversight and remediation process. Do not characterize causes before investigation is complete.
+
+**Long-term**: Remediation progress reporting; regulatory compliance documentation. This scenario has historical precedent for Duke Energy; see Layer 08 for context. (T3_SECONDARY_RELIABLE)
+
+### Scenario 3 — Rate Case Regulatory Rejection
+
+**Response**: Factual statement of the PUC order and next steps. No characterization of the regulatory outcome as unfair or improper in public communications. Management commentary on investor channels (earnings call) provides more detailed financial impact discussion. (T4_INFERRED from observed utility regulatory communications practice)
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. The outage map is the brand.**
+Duke Energy's interactive outage map is one of its highest-trust brand touchpoints — customers experiencing power loss go directly to the map as their information source. The quality, accuracy, and real-time responsiveness of that tool is more powerful brand communication than any advertising campaign. Transferable: identify the one digital touchpoint your customers reach first when something goes wrong, and invest in that experience disproportionately.
+
+**2. Separate your crisis voice from your brand voice before the crisis.**
+Duke Energy's storm communications are operationally distinct from its brand marketing — different tone, different cadence, different content. This separation is possible because it was designed before the crisis. Transferable: write your crisis communications templates before you need them. The worst time to design your crisis voice is during the crisis.
+
+**3. Proactive regulatory transparency reduces adversarial framing.**
+When Duke Energy issues its own plain-language explanation of a rate case filing before opposition groups frame the narrative, it reduces the risk of the story being defined by its critics. Transferable: in any high-stakes stakeholder communication (regulatory, investor, community), publish your own clear explanation before third parties establish the frame.
+

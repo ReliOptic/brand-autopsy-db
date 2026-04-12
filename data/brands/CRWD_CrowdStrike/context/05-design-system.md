@@ -1,102 +1,100 @@
-# 05. Design System — CrowdStrike (CRWD)
+# 05. Design System — CrowdStrike Holdings, Inc. (CRWD)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
-
----
-
-## 1. Color Palette
-
-CrowdStrike's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference. CSS color data sourced from crowdstrike.com via automated extraction.
 
 ---
 
-## 2. Typography
+## Color Palette
 
-CrowdStrike's digital properties employ a typographic system appropriate to its information technology positioning.
+| Role | Color Name | HEX | CSS Source | Usage |
+|------|------------|-----|-----------|-------|
+| **Primary Red** | CrowdStrike Red | `#EC0000` | Extracted from crowdstrike.com CSS (count: 12) | Primary CTA buttons, brand accent, falcon icon, alert states |
+| **Primary Blue** | CrowdStrike Blue | `#0024FF` | Extracted from crowdstrike.com CSS (count: 9) | Secondary interactive elements, data visualization, link states |
+| **Neutral Mid** | Carbon Gray | `#949494` | Extracted from crowdstrike.com CSS (count: 2) | Supporting UI elements, secondary text, dividers |
+| **Neutral Dark** | Steel Gray | `#707070` | Extracted from crowdstrike.com CSS (count: 1) | Body text on light backgrounds, form labels |
+| **Background Black** | Void Black | `#0D0D0D` | Observed on crowdstrike.com (estimated) | Primary background; reinforces threat/dark theme |
+| **Pure White** | White | `#FFFFFF` | Observed on crowdstrike.com | Text on dark backgrounds; headline contrast |
 
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+**Color Rationale**: The dominant dark background with CrowdStrike Red as primary accent creates visual associations with urgency and vigilance — aligned with the "We stop breaches" positioning. The red-on-black palette is uncommon in enterprise SaaS (which favors blue-on-white) and functions as a visual differentiator in security trade publication advertising. (T4_INFERRED from observed design system)
 
 ---
 
-## 3. Channel Specifications
+## Typography
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
+| Role | Font Family | Weight | CSS Source |
+|------|------------|--------|-----------|
+| **Brand Display** | CrowdStrike Sharp Sans | ExBd (ExtraBold), Bold, SemiBold | Extracted from crowdstrike.com CSS — proprietary typeface |
+| **Brand Body** | CrowdStrike Sharp Sans | Book, Light, Medium | Extracted from crowdstrike.com CSS |
+| **Display Secondary** | Neue Haas Grotesk Display Pro | Black, Bold, Medium, Roman | Extracted from crowdstrike.com CSS |
+| **Display Tertiary** | Haas Grot Display | 75 Bold, 65 Medium, 55 Roman | Extracted from crowdstrike.com CSS |
+| **Accent Display** | Tungsten Rounded | Bold, SemiBold, Medium, Book | Extracted from crowdstrike.com CSS |
+| **Accent Novelty** | Fatman Light | Light | Extracted from crowdstrike.com CSS |
 
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+**Typography Rationale**: CrowdStrike Sharp Sans is a proprietary custom typeface — signaling the same brand investment level as Apple's SF Pro or Google's Product Sans. Custom typefaces are uncommon among cybersecurity vendors and reinforce enterprise-tier positioning. The secondary use of Neue Haas Grotesk Display Pro (a premium grotesque) indicates Swiss design influence: clean, precise, industrial. (T4_INFERRED from font naming conventions and observed layout)
 
 ---
 
-## 5. Design Prohibitions
+## Channel Specifications
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+| Channel | Dimensions | Format | Primary Color Mode |
+|---------|-----------|--------|-------------------|
+| **Website hero** | 1440px width, full-bleed | Dark background, red accent CTA | Dark |
+| **LinkedIn post image** | 1200 × 627px | Dark card with red headline accent | Dark |
+| **Twitter/X card** | 1200 × 675px | Threat intelligence graphic, dark background | Dark |
+| **Fal.Con event stage** | 1920 × 1080px | Red gradient on black | Dark |
+| **PDF report (Global Threat Report)** | Standard Letter | Dark cover with adversary imagery, red typography | Dark |
+| **Display advertising** | 300 × 250, 728 × 90, 160 × 600 | Red CTA on dark background | Dark |
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: CrowdStrike (CRWD)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Layout Principles
+
+1. **Dark-first by default**: CrowdStrike's primary web and marketing environment is dark-background. Light mode is used only for specific data-dense contexts (PDF white papers, compliance briefs) where print legibility requires it. Consistent across crowdstrike.com, Fal.Con event materials, and advertising. (observed on crowdstrike.com)
+
+2. **Data density as authority signal**: Information-dense layouts — threat statistics, module counts, performance benchmarks — are preferred over sparse aspirational imagery. The design communicates that the brand has substance to show, not just a visual to project. (T4_INFERRED from observed layout patterns)
+
+3. **Red as action, not decoration**: CrowdStrike Red (`#EC0000`) is reserved for CTAs, alerts, and brand marks. It is not used as a background fill or decorative element. This maintains color hierarchy: red means "act now." (observed on crowdstrike.com)
+
+4. **The Falcon symbol as single icon**: The CrowdStrike falcon mark appears as the sole iconographic element for brand identification. No secondary mascots or character marks. The icon is rendered in brand red or white — never in a muted or altered color. (observed on crowdstrike.com and product materials)
+
+5. **Motion used for threat data, not decoration**: Animated elements on crowdstrike.com are data visualizations — threat telemetry counters, attack map animations — not decorative motion. Animation signals live threat activity, not brand personality. (observed on crowdstrike.com homepage)
+
+---
+
+## Icon Style
+
+- **Style**: Sharp-edged, geometric, monoline. Not rounded or playful.
+- **Color**: Monochromatic. Red on dark, or white on dark. No multi-color icons in product UI.
+- **Size system**: Product UI uses 16px, 24px, 32px grid.
+- **Forbidden**: Gradients on product UI icons; drop shadows; decorative fills.
+- (T4_INFERRED from observed product screenshots and design materials on crowdstrike.com)
+
+---
+
+## AI Image Prompt Guide
+
+For generating on-brand imagery for CrowdStrike-adjacent contexts:
+
+**Hero / Threat Intelligence**:
+> "Dark abstract digital landscape, deep black background with faint hexagonal grid pattern, single red accent light source from the left, no human figures, no text, cinematic lighting, hyperrealistic, 16:9 aspect ratio"
+
+**Adversary / Nation-State**:
+> "Abstract visualization of a network intrusion: dark navy background, red and white node-and-edge graph showing lateral movement, glowing red node as origin point, motion blur on connecting edges, no faces, no identifiable logos"
+
+**Platform Architecture**:
+> "Clean isometric diagram of a cloud security architecture: dark background, white and red wireframe nodes labeled endpoint, identity, cloud workload, connected by glowing lines, minimal design, no stock photo elements"
+
+**Event / Fal.Con**:
+> "Stage photography: dark auditorium, red lighting on stage, presenter silhouette at podium, audience in foreground, dramatic side lighting, corporate event, photorealistic"
+
+---
+
+## Design Prohibitions
+
+1. **No light background as primary**: CrowdStrike's brand operates in dark environments. Using a white or light background for primary brand touchpoints breaks visual identity. (T4_INFERRED)
+2. **No red as background fill**: Red is a signal color reserved for action and alerting. Using it as a background fill dilutes its urgency value. (T4_INFERRED from observed color hierarchy)
+3. **No rounded-corner logos or soft illustration styles**: These evoke consumer-SaaS brand language. CrowdStrike's security-industrial identity requires sharp geometry. (T4_INFERRED)
+4. **No stock photography of smiling office workers**: Human-centric lifestyle photography is absent from CrowdStrike's brand. The visual language centers on threat data and platform architecture. (observed on crowdstrike.com)
+5. **No competing custom fonts**: CrowdStrike Sharp Sans is the proprietary typeface. Third-party system fonts are not used in brand materials. (T4_INFERRED from CSS extraction showing Sharp Sans as primary)
+6. **No unsourced threat statistics in visual format**: Infographics that display threat data must cite the source (e.g., "Source: 2024 CrowdStrike Global Threat Report"). (T4_INFERRED from legal compliance requirements)
+7. **No green or yellow as brand accents**: These colors introduce associations with "safe" or "warning" states that conflict with the brand's alert-state color system. (T4_INFERRED from observed palette)

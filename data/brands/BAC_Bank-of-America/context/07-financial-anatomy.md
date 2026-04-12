@@ -1,132 +1,100 @@
 # 07. Financial Anatomy — Bank of America (BAC)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **Disclaimer**: This analysis is based on publicly available information including SEC EDGAR filings and official company communications. It does not constitute investment advice. All figures reference specific filing documents. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Filing Source Links
+## SEC EDGAR Reference
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — BAC](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Bank+of+America&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — BAC 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Bank+of+America&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — BAC DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Bank+of+America&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — BAC 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Bank+of+America&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
-
-CIK number available via SEC EDGAR company search for Bank of America.
+- **CIK**: 0000070858
+- **EDGAR filing page**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000070858&type=10-K
+- **Most recent 10-K**: FY2023, filed February 2024 (SEC 10-K FY2023, T1_OFFICIAL)
+- **Ticker**: BAC (NYSE)
 
 ---
 
-## 2. Revenue Anatomy
+## 5-Year Revenue Trend
 
-### 2.1 Revenue Overview
+| Fiscal Year | Net Revenue (Net Interest Income + Noninterest Income) | YoY Change | Source |
+|-------------|------------------------------------------------------|------------|--------|
+| FY2019 | ~$91.2B | — | SEC 10-K FY2019 |
+| FY2020 | ~$85.5B | -6.3% | SEC 10-K FY2020 |
+| FY2021 | ~$89.1B | +4.2% | SEC 10-K FY2021 |
+| FY2022 | ~$94.9B | +6.5% | SEC 10-K FY2022 |
+| FY2023 | ~$98.6B | +3.9% | SEC 10-K FY2023 |
 
-Bank of America's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
-
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
-
-### 2.2 Revenue Trend
-
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Bank of America's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Diversified Banks. (SEC 10-K)
+*Note: BofA reports Net Interest Income and Noninterest Income separately; figures above represent combined total revenue (T1_OFFICIAL)*
 
 ---
 
-## 3. Profitability Anatomy
+## Business Segment Breakdown (FY2023)
 
-### 3.1 Margin Structure
+| Segment | Net Revenue (approx.) | % of Total | Description |
+|---------|----------------------|------------|-------------|
+| **Consumer Banking** | ~$37B (estimated) | ~38% | Retail banking, deposits, consumer lending, Erica |
+| **Global Wealth & Investment Management (GWIM)** | ~$21B (estimated) | ~21% | Merrill Lynch, BofA Private Bank |
+| **Global Banking** | ~$22B (estimated) | ~22% | Commercial banking, investment banking, treasury |
+| **Global Markets** | ~$18B (estimated) | ~18% | Sales and trading, fixed income, equities |
 
-Bank of America's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
-
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in diversified banks. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
-
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+*(Segment estimates derived from disclosed segment pre-tax income and net revenue data; T4_INFERRED from SEC 10-K FY2023 segment tables)*
 
 ---
 
-## 4. Investment Structure
+## Net Interest Income vs. Noninterest Income (FY2023)
 
-### 4.1 Research & Development
-
-Bank of America's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
-
-### 4.2 SG&A
-
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Revenue Type | Amount | Notes |
+|-------------|--------|-------|
+| **Net Interest Income** | ~$57.5B | Benefits from higher interest rates; impacted by deposit repricing (SEC 10-K FY2023) |
+| **Noninterest Income** | ~$41.1B | Fee income, trading, investment banking, Merrill AUM fees |
 
 ---
 
-## 5. Capital Allocation
+## Margin Structure
 
-### 5.1 Shareholder Returns
-
-Bank of America's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Bank of America's M&A strategy reflects its approach to growth in Diversified Banks. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Bank of America's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Bank of America's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+| Metric | FY2023 | Notes |
+|--------|--------|-------|
+| **Net Income** | ~$26.5B | SEC 10-K FY2023 |
+| **Return on Assets (ROA)** | ~0.8% (estimated) | Large asset base constrains ROA vs. smaller banks |
+| **Return on Equity (ROE)** | ~9–10% (estimated) | Below top-tier peers; management target is 10%+ |
+| **Efficiency Ratio** | ~65–66% (estimated) | Noninterest expense / net revenue; improving trend |
+| **Net Interest Margin** | ~2.1% (estimated) | Rose with rate environment 2022–2023 |
 
 ---
 
-## 7. Brand Valuation
+## Capital & Balance Sheet
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
-
----
-
-## 8. Financial Risk Matrix
-
-Risk factors are disclosed in Bank of America's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
-
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in diversified banks affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
-
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+| Metric | FY2023 | Notes |
+|--------|--------|-------|
+| **Total Assets** | ~$3.18T | SEC 10-K FY2023, T1_OFFICIAL |
+| **Total Deposits** | ~$1.89T | SEC 10-K FY2023 |
+| **Loans & Leases** | ~$1.05T | SEC 10-K FY2023 |
+| **CET1 Ratio** | ~11.8% (estimated) | Regulatory capital; above minimum requirements |
+| **Unrealized Losses (AFS/HTM portfolio)** | ~$100B+ (estimated) | Significant at peak rates; non-cash until securities sold |
 
 ---
 
-## 9. Brand-Finance Nexus
+## Capital Allocation (FY2023)
 
-The relationship between Bank of America's brand strength and financial performance can be observed through several signals (T4_INFERRED):
-
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
-
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Bank of America's position in diversified banks reflects accumulated brand equity and market credibility. (T4_INFERRED)
+| Use | Amount | Notes |
+|-----|--------|-------|
+| **Dividends** | ~$8.7B (estimated) | Quarterly cash dividend; growing (official, BofA IR) |
+| **Share repurchases** | ~$4.4B (estimated) | Subject to regulatory capital requirements |
+| **Technology investment** | ~$12B (estimated) | Annual technology spend including Erica, cybersecurity, digital |
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## Risk Matrix
+
+| Risk | Likelihood | Impact | Notes |
+|------|-----------|--------|-------|
+| Interest rate sensitivity | Medium | High | Large HTM bond portfolio; unrealized losses if rates rise further |
+| Credit quality deterioration | Medium | High | Consumer and commercial loan book quality monitored closely |
+| Regulatory capital requirements | Low-Medium | Medium | Basel III endgame could increase capital requirements |
+| Deposit competition | Medium | Medium | Higher-for-longer rates increase deposit repricing pressure |
+| Cyber/operational risk | Low-Medium | Critical | Scale makes BofA a high-value target |
+
+---
+
+## Brand-Finance Nexus
+
+BofA's Preferred Rewards program directly monetizes brand loyalty: customers who consolidate financial relationships (banking + investment + mortgage) generate higher net revenue per customer through fee waivers they earn (a cost to BofA) but reciprocate through higher account balances, lower attrition, and broader product adoption. The program's 11 million active members (estimated) represent BofA's highest-value customer segment. The brand investment in Better Money Habits and Erica creates customer engagement that reduces attrition — each percentage point of retained customers represents billions in annualized revenue at BofA's scale.

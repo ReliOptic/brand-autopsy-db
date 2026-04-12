@@ -6,79 +6,77 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in consumer finance. B2C: End consumers of financials products and services. (T4_INFERRED from American Express's segment structure) |
-| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in American Express's 10-K geographic segment reporting. (SEC 10-K) |
+**Primary ICP — The Aspirational Professional**
+- Age: 32–55
+- Income: $100K–$500K+ household
+- Occupation: Senior corporate employee, entrepreneur, consultant, attorney, physician
+- Behavior: Travels 4+ times per year (business or premium leisure), dines out frequently, values time over money
+- Geography: Major metropolitan areas; high-index in New York, San Francisco, Chicago, Los Angeles (T4_INFERRED from AmEx market presence and card acceptance geography)
+- Key insight: This customer uses the card as an identity signal as much as a payment instrument. They mention their card tier in conversation.
+
+**Secondary ICP — The Small Business Owner**
+- Revenue: $500K–$10M annual business revenue (estimated)
+- Behavior: Manages employee expenses, values cash flow flexibility, seeks rewards on business spend
+- AmEx context: As disclosed in the FY2023 10-K, the Global Commercial Services segment serves small and mid-sized businesses and represents a significant growth driver. (SEC 10-K FY2023, T1_OFFICIAL)
 
 ---
 
-## Core Personas
+## Three Personas
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1: "The Executive Traveler" — Marcus, 44
+- **Role**: VP of Sales at a Fortune 500 company
+- **Annual spend (estimated)**: $80,000–$150,000 on the Platinum card
+- **Pain**: Wasted time in airport lines, inconsistent hotel upgrades, managing receipts
+- **Gain**: Centurion Lounge access, TSA PreCheck/Global Entry credit, hotel elite status through Fine Hotels & Resorts
+- **Trigger to join**: Company downsizes travel budget; Marcus absorbs the expense himself and demands premium treatment in return
+- **Loyalty driver**: Can't imagine going back to a crowded gate; lounge access is now a non-negotiable
 
-- **Age / Occupation**: 42, VP-level or director in a American Express customer organization
-- **Core pain**: Needs reliable consumer finance solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **American Express selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+### Persona 2: "The Founder" — Priya, 37
+- **Role**: CEO of a 25-person SaaS startup
+- **Annual spend (estimated)**: $200,000–$400,000 on the Business Platinum card
+- **Pain**: Employee spend visibility, cash flow timing, disconnected expense tools
+- **Gain**: Pay Over Time flexibility, Membership Rewards on all business spend, integrated expense management
+- **Trigger to join**: Raised Series A; needs a card that scales with the business and earns rewards on AWS and software subscriptions
+- **Loyalty driver**: Points transfer to airline partners; Priya uses accumulated points for business-class international travel
 
----
-
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with American Express's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **American Express selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
-
----
-
-### Persona 3 — Consumer / Retail Customer
-
-- **Age / Occupation**: 38, consumer who interacts with American Express's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **American Express selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
+### Persona 3: "The Lifestyle Maximizer" — Jordan, 29
+- **Role**: Marketing manager, side-hustle income
+- **Annual spend (estimated)**: $25,000–$40,000 on the Gold card
+- **Pain**: Food delivery costs, Uber spend eating into budget, wanting premium experiences on a mid-level salary
+- **Gain**: 4x points on dining and U.S. supermarkets, Uber Cash credits, dining credits at select restaurants
+- **Trigger to join**: Saw the annual fee offset calculator online; realized net cost is near zero after credits
+- **Loyalty driver**: Points accumulation gamification; Jordan tracks points balances weekly
 
 ---
 
-## Purchase Journey — AARRR Framework
+## AARRR Funnel — Cardmember Journey
 
-| Stage | American Express's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | American Express total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+| Stage | Mechanism | AmEx Execution |
+|-------|-----------|----------------|
+| **Acquisition** | Search, referral, affiliate | High-visibility affiliate partnerships with travel bloggers; referral bonuses (official, americanexpress.com/refer) |
+| **Activation** | Welcome bonus | Sign-up bonuses (e.g., 80,000–100,000 points after minimum spend) create immediate perceived value (official, observed on americanexpress.com, terms vary) |
+| **Retention** | Monthly credits, lounge access | Recurring-use credits (dining, airline, streaming) create habitual card use (official, Platinum benefit disclosures) |
+| **Revenue** | Annual fee + merchant discount | $695 Platinum annual fee (official, 2024 pricing) + ~2.3% merchant discount rate (estimated) |
+| **Referral** | Member referral program | Cardmembers earn Membership Rewards for approved referrals (official, referral program terms) |
 
 ---
 
-## Anti-Persona — Who American Express Is Not For
+## Anti-Persona
 
-| Type | Characteristics | Why American Express Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | American Express's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | American Express's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | American Express's full value is realized through deeper operational integration and sustained partnership. |
+**Who AmEx is NOT for:**
+- Price-sensitive consumers who optimize for lowest fees — the annual fee model is structurally incompatible
+- Consumers in markets with limited AmEx acceptance (rural U.S., many international markets) — acceptance gap is a documented limitation (T3_SECONDARY_RELIABLE, merchant acceptance data)
+- Customers who carry revolving balances as a primary financial strategy — AmEx's heritage is charge card (pay in full); while Pay Over Time exists, high-revolving-balance customers are not the target
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-American Express's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. Design your onboarding around the first "wow" moment, not the sign-up.**
+AmEx's welcome bonus is engineered to deliver perceived value within the first 90 days. The cardmember who earns 80,000 points before the first annual fee is charged has already experienced the return on investment. Transferable: schedule your product's most impressive capability to activate in the first billing cycle, not at month six.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-American Express's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Create a segment that tells the brand's story for you.**
+The "Founder" persona is AmEx's fastest-growing acquisition segment (T4_INFERRED from disclosed commercial segment growth). Founders talk about their tools publicly. A Business Platinum cardholder mentioning AmEx in a podcast interview is worth more than a display ad.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Build "anti-churn anchors" that cost nothing to exit but feel expensive.**
+Centurion Lounge access feels catastrophic to lose once experienced. The customer doesn't calculate the fee — they calculate the loss. Design product features that create this loss-aversion dynamic rather than pure acquisition incentives.

@@ -6,79 +6,70 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in metal, glass & plastic containers and adjacent industries. (T4_INFERRED from Ball Corporation's segment structure) |
-| **Occupation segments** | Plant managers, operations directors, technical engineers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Ball Corporation's 10-K geographic segment reporting. (SEC 10-K) |
+**Primary ICP — Global Beverage Brand**
+- Type: Major beverage manufacturer (carbonated soft drinks, beer, hard seltzer, energy drinks, sparkling water)
+- Size: $500M+ annual revenue; significant canned beverage volume
+- Decision-makers: VP Supply Chain, Chief Procurement Officer, Head of Sustainability, VP Packaging Innovation
+- Purchase structure: Multi-year supply agreements; contracted volumes; price tied to aluminum commodity + conversion fee
+- Key drivers: Reliability, sustainability credentials, can format innovation, geographic coverage of Ball's plants relative to customer's distribution footprint
+
+**Secondary ICP — Aerospace / Defense Customer**
+- Type: U.S. government agencies (NASA, NRO, DoD), prime defense contractors
+- Segment: Ball Aerospace (now Aerospace Technologies following divestiture to BAE Systems in 2024, T3_SECONDARY_RELIABLE)
+- Decision-makers: Program managers, DoD contracting officers
+- Note: Ball completed the sale of Ball Aerospace to BAE Systems in February 2024 per SEC 8-K disclosure. (T1_OFFICIAL)
 
 ---
 
-## Core Personas
+## Three Personas
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1: "The Beverage Brand Sustainability Officer" — Sarah, 44
+- **Role**: Chief Sustainability Officer at a major beer company
+- **Pain**: Regulatory pressure on single-use plastics in EU; investor ESG commitments; need for packaging that has a verified recycling story
+- **Gain**: Ball's aluminum cans with documented recycled content; lifecycle assessment data for reporting; co-branding on sustainability communications
+- **Loyalty driver**: Ball's recycling data and lifecycle analysis supports Sarah's annual sustainability report
 
-- **Age / Occupation**: 42, VP-level or director in a Ball Corporation customer organization
-- **Core pain**: Needs reliable metal, glass & plastic containers solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Ball Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+### Persona 2: "The Supply Chain Director" — Mike, 51
+- **Role**: VP Supply Chain at a major energy drink brand
+- **Pain**: Aluminum can shortage during COVID (2020–2021) severely disrupted production; needs supply chain resilience
+- **Gain**: Ball's multi-plant network; contracted capacity commitments; proximity of Ball plants to customer filling facilities
+- **Loyalty driver**: Supply reliability is existential; switching risk is high given long-term supply agreements
 
----
-
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with Ball Corporation's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Ball Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+### Persona 3: "The Innovation Lead" — Jen, 38
+- **Role**: Director of Packaging Innovation at a beverage startup (premium sparkling water)
+- **Pain**: Needs differentiated packaging to compete on shelf against Liquid Death, Spindrift, established brands
+- **Gain**: Ball's sleek can format; shaped can options; custom printing capabilities for visual differentiation
+- **Loyalty driver**: Ball's development partnership means co-investment in new format development
 
 ---
 
-### Persona 3 — Financial Stakeholder / Investor
+## AARRR Funnel (B2B Packaging)
 
-- **Age / Occupation**: 50, institutional investor or analyst covering Materials
-- **Core pain**: Needs to evaluate Ball Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
-- **Ball Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
-- **Churn risk**: Driven by financial performance relative to sector benchmarks.
-- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
-
----
-
-## Purchase Journey — AARRR Framework
-
-| Stage | Ball Corporation's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Ball Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+| Stage | Mechanism | Ball Execution |
+|-------|-----------|----------------|
+| **Awareness** | Trade shows (BevTech, Pack Expo); industry publications | Presence at major packaging and beverage trade events |
+| **Evaluation** | RFP process; plant tours; sustainability data room | Technical capability demonstrations; lifecycle assessment sharing |
+| **Decision** | Multi-year supply agreement negotiation | Volume commitments; price indices; geographic plant allocation |
+| **Delivery** | Manufacturing and logistics | Just-in-time delivery to customer filling facilities |
+| **Retention** | Joint innovation projects; sustainability co-marketing | New format development; annual business reviews |
 
 ---
 
-## Anti-Persona — Who Ball Corporation Is Not For
+## Anti-Persona
 
-| Type | Characteristics | Why Ball Corporation Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Ball Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Ball Corporation's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Ball Corporation's full value is realized through deeper operational integration and sustained partnership. |
+- Companies seeking glass or plastic packaging exclusively — Ball does not manufacture these materials
+- Small craft beverage producers needing sub-minimum order quantities — Ball's minimum order volumes reflect large-scale manufacturing economics
+- Companies in markets where Ball has no manufacturing presence and cannot serve cost-effectively
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Ball Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. In B2B, the RFP is a brand moment.**
+The quality, specificity, and responsiveness of Ball's technical proposals in procurement processes is a brand expression. The brand is not just what appears on ball.com — it is the engineering documentation, sustainability data, and plant tour experience that procurement teams evaluate. Transferable: treat every customer-facing document in your sales process as a brand touchpoint.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Ball Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Supply crises are brand tests.**
+The 2020–2021 aluminum can shortage (driven by hard seltzer boom and COVID pantry loading) created a situation where Ball's ability to prioritize existing customers vs. new entrants became a brand-defining moment. Customers who received supply remember. Transferable: define your supply prioritization policy before a crisis forces the decision in real time.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In materials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Sustainability data is a sales tool, not just a reporting obligation.**
+Ball's lifecycle assessment data, published recycled content percentages, and recycling rate statistics are used by beverage brands in their own sustainability marketing. Ball is effectively co-creating its customers' sustainability communications. Transferable: identify the data your customers need for their compliance or marketing obligations and make producing that data a service you provide.

@@ -8,77 +8,71 @@
 
 | Dimension | Profile |
 |-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in apparel retail. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from TJX Companies's segment structure) |
-| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in TJX Companies's 10-K geographic segment reporting. (SEC 10-K) |
+| **Demographics** | Women 25–54, household income $40,000–$100,000 (estimated, based on off-price retail industry research); disproportionately suburban and mid-size city residents. TJX does not publish granular customer demographic data, but the FY2024 10-K notes the company targets "the middle market consumer." (SEC 10-K FY2024) |
+| **Psychographics** | Value-oriented but brand-aware. Knows what things cost at full retail. Experiences genuine satisfaction from paying less. Not embarrassed to shop off-price — views it as smart, not desperate. (T4_INFERRED from brand positioning and observed consumer behavior) |
+| **Behavioral** | Shops TJ Maxx or Marshalls 2–4 times per month (estimated). Browses without a specific purchase intent — the store visit is exploratory. High basket variability: some visits yield nothing; others yield $150+ in unplanned purchases. (T4_INFERRED) |
+| **Shopping trigger** | "I need something for an occasion" or "I just want to see what's in." Neither mission-driven nor purely impulsive — a blend that the treasure hunt model is uniquely designed to serve. (T4_INFERRED) |
+| **Rejection signal** | Leaves if the store feels disorganized beyond navigability, or if recent visits have not yielded quality finds. Brand loyalty is experiential, not sentimental. (T4_INFERRED) |
 
 ---
 
-## Core Personas
+## Persona Profiles
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1 — "The Smart Shopper" (Core TJ Maxx / Marshalls)
 
-- **Age / Occupation**: 42, VP-level or director in a TJX Companies customer organization
-- **Core pain**: Needs reliable apparel retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **TJX Companies selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
-
----
-
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with TJX Companies's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **TJX Companies selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Name**: Dana, 38, suburban Chicago
+**Occupation**: Marketing manager, household income ~$85,000
+**Pain**: Full-price department stores feel like a poor value proposition. Dana knows a $180 DKNY blouse is identical in quality to one she'll find at TJ Maxx for $34.99.
+**Gain**: The satisfaction of finding something genuinely good at a price that validates her shopping judgment. She tells friends. The discovery is a social currency.
+**Triggers**: Seasonal wardrobe refresh, upcoming event, boredom on a Saturday afternoon.
+**Channel**: Discovers via Instagram posts ("look what I found at TJ Maxx"), word of mouth, in-store impulse. Not heavily influenced by TJX's own advertising.
 
 ---
 
-### Persona 3 — Consumer / Retail Customer
+### Persona 2 — "The HomeGoods Decorator" (HomeGoods / HomeSense)
 
-- **Age / Occupation**: 38, consumer who interacts with TJX Companies's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **TJX Companies selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
-
----
-
-## Purchase Journey — AARRR Framework
-
-| Stage | TJX Companies's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
-| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
-| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
-| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
-| **Revenue** | TJX Companies total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Name**: Priya, 44, New Jersey suburb
+**Occupation**: Teacher, household income ~$70,000 combined
+**Pain**: Interior design inspiration from Pinterest and Instagram is aspirational but expensive. Full-price home goods stores charge margins she cannot justify.
+**Gain**: HomeGoods delivers the aesthetic hit of decorating without the guilt of overspending. A $29 throw pillow that looks like it cost $90 is a genuine emotional win.
+**Triggers**: New home, seasonal redecoration, houseguest preparation, browsing as stress relief.
+**Channel**: Pinterest, Instagram, in-store discovery. HomeGoods has a notably strong TikTok and Instagram following driven by user-generated "HomeGoods haul" content. (observed, social media)
 
 ---
 
-## Anti-Persona — Who TJX Companies Is Not For
+### Persona 3 — "The Opportunistic Men's Shopper" (Marshalls / TJ Maxx)
 
-| Type | Characteristics | Why TJX Companies Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | TJX Companies's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | TJX Companies's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | TJX Companies's full value is realized through deeper operational integration and sustained partnership. |
+**Name**: Marcus, 31, Atlanta
+**Occupation**: Sales rep, household income ~$60,000
+**Pain**: Needs to dress professionally but finds full-price menswear an unacceptable budget line item.
+**Gain**: Marshalls delivers Calvin Klein dress shirts and Kenneth Cole dress shoes at prices that make professional dressing accessible.
+**Triggers**: Job change, wardrobe gap, specific brand discovery in-store.
+**Channel**: In-store primary. Less likely to be reached via social media; more influenced by in-store end-cap and signage discovery. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 3 Transferable Principles
+## AARRR Purchase Journey
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-TJX Companies's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+| Stage | TJX Mechanism |
+|-------|--------------|
+| **Acquisition** | Word of mouth ("you have to go to TJ Maxx"), social media haul content (user-generated), proximity to other retail anchors (strip mall and power center co-tenancy). (T4_INFERRED from store location strategy in 10-K) |
+| **Activation** | First "find" — the moment a customer discovers something genuinely desirable at a genuinely surprising price. This moment is the brand's activation event; TJX's store design is built around creating it. (T4_INFERRED) |
+| **Retention** | Dynamic inventory requires repeat visits. A customer who visited last week cannot rely on the same merchandise being present this week — creating an intrinsic return driver. (T4_INFERRED from operational model) |
+| **Revenue** | High basket variability; unplanned purchases are the model. The treasure hunt dynamic increases average transaction value relative to mission-driven shopping. (T4_INFERRED) |
+| **Referral** | Social media haul content is TJX's most powerful organic channel. Customers photograph and post finds; "TJ Maxx haul" and "HomeGoods finds" are established content formats with millions of views. (observed, social media platforms) |
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-TJX Companies's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+---
 
-**3. Invest in technical documentation as a customer retention tool.**
-In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+## Anti-Persona
+
+**Who TJX is NOT for**: The customer who needs a specific item, in a specific size, in a specific color, today. TJX's inventory is non-deterministic. A shopper who needs a navy blazer in a size 42R by Friday cannot reliably source it at TJ Maxx. The brand's model fundamentally does not serve mission-critical, specification-driven shopping. The same structural feature (dynamic, opportunistic inventory) that creates the treasure hunt also makes TJX a poor choice for any time-sensitive, specification-driven need. (T4_INFERRED from business model)
+
+---
+
+## Steal Sheet — 2 Transferable Principles
+
+**1. Design for the accidental purchase.**
+TJX's store layout, rack density, and merchandise mix are calibrated to create unplanned purchases. Customers entering for one item routinely exit with three. The architecture of discovery — wide aisles, dense racks, frequent new arrivals — is a purchase-frequency machine. Transferable: any e-commerce site can apply analogous logic through "you might also like" featuring genuinely different categories, not just size variants of the same item.
+
+**2. Let customers create your best content.**
+TJX spends relatively little on paid social media content. Instead, the "haul" content format — customers filming and posting their finds — generates enormous organic reach. The brand's job is to create the conditions for remarkable finds; the customers create the content. Transferable: brands with strong discovery dynamics (sample sales, rotating menus, limited releases) should invest in making the "find" sharable, not in producing their own polished content.

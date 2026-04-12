@@ -4,123 +4,99 @@
 
 ---
 
-## Competitive Matrix
+## Competitor Matrix
 
-Boeing operates in the Aerospace & Defense segment of the Industrials sector. The competitive landscape is shaped by both direct competitors in aerospace & defense and adjacent-market participants expanding into overlapping territory. Competitor identification below is based on publicly available market data and SEC filings. (T4_INFERRED from publicly observable market structure)
-
-| Competitor | Primary Overlap | Key Differentiator vs. Boeing | Source |
-|------------|----------------|-------------------------------|--------|
-| **Competitor A** | Direct competitor in aerospace & defense | Competes on specific product lines or geographic markets with differentiated approach | (T4_INFERRED from publicly observable market structure) |
-| **Competitor B** | Adjacent market participant | Broader or narrower product portfolio with different scale or specialization | (T4_INFERRED) |
-| **Competitor C** | Emerging or disruptive competitor | Technology-driven or price-driven competitive pressure from newer entrants | (T4_INFERRED) |
-| **Competitor D** | Geographic or segment competitor | Regional or segment-specific competition with localized advantages | (T4_INFERRED) |
-
-Note: Specific competitor names, revenue figures, and market share data for Boeing's direct competitors are available in industry research reports and SEC filings of the respective companies. Competitor analysis is based on publicly available information. (T3_SECONDARY_RELIABLE)
+| Competitor | Country | Segment | Primary Product Lines | Market Position |
+|------------|---------|---------|----------------------|-----------------|
+| **Airbus** | France/EU | Commercial aviation | A320neo family, A350, A220 | ~55–60% of commercial aircraft deliveries (estimated, 2023) |
+| **Lockheed Martin** | USA | Defense | F-35, C-130, military systems | Dominant in fighter aircraft; not in commercial |
+| **Northrop Grumman** | USA | Defense | B-21, satellites, defense electronics | Different segment (bombers, space) |
+| **Embraer** | Brazil | Regional jets | E2 series, E-Jets | Regional aviation; below Boeing's minimum size |
+| **Comac** | China | Commercial (emerging) | C919 narrow-body | Early-stage; primarily Chinese domestic market for now |
 
 ---
 
-## Positioning Map
+## Positioning Map (ASCII)
 
 ```
-                    [Premium / Differentiated]
-                                     |
-                     BA        |
-                  (Established       |
-                   market position)  |
-                                     |
-[Narrow /           ─────────────────────────────────  [Broad /
- Specialized]                        |                  Diversified]
-                                     |
-                  COMPETITORS        |
-                (Various positioning |
-                 strategies)         |
-                                     |
-                    [Value / Cost-Competitive]
+HIGH CAPABILITY / LARGE AIRCRAFT
+           |
+    Boeing  |  Airbus
+  747/777X  | A380/A350
+    787     |   A330
+           |
+-----------+--------------------------------
+    737MAX  |  A320neo
+  (narrow)  |  (narrow)
+           |
+           |   Embraer   Comac (emerging)
+           |   (regional)
+LOW CAPABILITY / SMALLER AIRCRAFT
 
-Vertical axis: Premium/differentiated (top) vs. value/cost-competitive (bottom)
-Horizontal axis: Narrow/specialized (left) vs. broad/diversified (right)
-Note: Boeing's position reflects its observed market strategy. (T4_INFERRED)
+← U.S. MANUFACTURER ——————— INTERNATIONAL MANUFACTURER →
 ```
 
 ---
 
 ## Battle Cards
 
-### Battle Card 1 — Boeing vs. Larger Incumbent
+### Battle Card 1: Boeing 737 MAX vs. Airbus A320neo Family
 
-**Larger incumbent positioning**: Broader product portfolio and greater scale in overlapping markets. (T4_INFERRED from observable market structure)
+| Dimension | Boeing 737 MAX | Airbus A320neo Family |
+|-----------|---------------|----------------------|
+| Market position | ~47% of narrow-body orders (estimated 2022–2023) | ~53% of narrow-body orders (estimated 2022–2023) |
+| Fuel efficiency | ~14–20% improvement vs. prior generation (official, boeing.com) | ~15–20% vs. prior generation (official, airbus.com) |
+| Seating capacity | 138–204 passengers across variants | 140–240 passengers (A220–A321XLR) |
+| Range (MAX 10) | ~3,300 nm (official) | A321XLR: ~4,700 nm — range advantage (official) |
+| Certification status | FAA recertified November 2020; some variants pending | Fully certified across family |
+| Key advantage | Common type rating with legacy 737 fleet | Longer range on A321XLR; higher market share |
 
-**Boeing's competitive strengths**:
-- Domain specialization in aerospace & defense provides deeper expertise in target applications. (T4_INFERRED)
-- Customer relationships built on sector-specific knowledge and operational integration. (T4_INFERRED)
-- Agility advantages in responding to sector-specific customer needs relative to more diversified competitors. (T4_INFERRED)
+**Boeing vulnerability**: The A321XLR, with ~4,700nm range, addresses the medium-haul market where the 757 previously competed — a gap Boeing has not filled. (T3_SECONDARY_RELIABLE, aviation analyst reporting)
 
-**Boeing's vulnerabilities**:
-- Scale disadvantages in R&D investment relative to larger competitors. (T4_INFERRED)
-- Narrower geographic or product reach may limit growth opportunities. (T4_INFERRED)
+### Battle Card 2: Boeing 787 Dreamliner vs. Airbus A350
 
----
+| Dimension | Boeing 787 | Airbus A350 |
+|-----------|-----------|-------------|
+| Composite fuselage | ~50% composite by weight; first commercial use (official) | ~53% composite |
+| Fuel efficiency vs. predecessor | ~25% (official, boeing.com) | ~25% (official, airbus.com) |
+| Range | 787-9: 7,530 nm (official) | A350-900: 8,100 nm (official) |
+| In-service fleet | ~1,000+ delivered (estimated, 2024) | ~500+ delivered (estimated, 2024) |
+| Customer wins | United, American, Japan Airlines, Ethiopian | Qatar Airways, Singapore Airlines, Air France |
 
-### Battle Card 2 — Boeing vs. Disruptive Entrant
+### Battle Card 3: Boeing Defense vs. Lockheed Martin
 
-**Disruptive entrant positioning**: Technology-driven or business-model-driven competition with lower cost structure or novel approach. (T4_INFERRED)
-
-**Boeing's competitive strengths**:
-- Established customer relationships and operational integration create switching cost barriers. (T4_INFERRED)
-- Regulatory compliance history and institutional credibility provide trust advantages. (T4_INFERRED)
-- Track record of reliability reduces perceived risk for customers evaluating alternatives. (T4_INFERRED)
-
-**Boeing's vulnerabilities**:
-- Legacy systems or processes may slow adaptation to new market dynamics. (T4_INFERRED)
-- Higher cost structure relative to lean, technology-native entrants. (T4_INFERRED)
-
----
-
-### Battle Card 3 — Boeing vs. Adjacent-Market Expander
-
-**Adjacent-market expander positioning**: Leveraging capabilities from related markets to enter Boeing's core territory. (T4_INFERRED)
-
-**Boeing's competitive strengths**:
-- Deep aerospace & defense domain knowledge that adjacent-market entrants must develop from scratch. (T4_INFERRED)
-- Existing customer base and distribution relationships in core markets. (T4_INFERRED)
-
-**Boeing's vulnerabilities**:
-- Adjacent-market entrants may bring complementary capabilities that create bundled value propositions. (T4_INFERRED)
-- Cross-selling from established customer bases in adjacent markets. (T4_INFERRED)
+| Dimension | Boeing Defense | Lockheed Martin |
+|-----------|---------------|-----------------|
+| Fighter aircraft | F/A-18 Super Hornet (legacy; production ending) | F-35 (active; dominant next-gen) |
+| Rotary wing | AH-64 Apache, CH-47 Chinook | No direct equivalent |
+| Space | CST-100 Starliner (NASA Commercial Crew) | Orion (NASA Artemis) |
+| Annual defense revenue | ~$26B (estimated FY2023) | ~$67B (FY2023, official) |
+| Key gap | Lost NGAD competition risk; F-35 won the joint strike fighter | No commercial aviation exposure |
 
 ---
 
-## Threats & Opportunities
+## Threats
 
-### Threats
+1. **Airbus market share gains**: Airbus has captured majority narrow-body orders since 737 MAX grounding; recovering market share requires sustained delivery performance improvement. (T3_SECONDARY_RELIABLE)
+2. **Comac C919 long-term**: While currently limited to Chinese domestic routes, Comac represents a potential structural shift in the duopoly over 10–20 years. (T3_SECONDARY_RELIABLE, aviation industry reporting)
+3. **Supply chain fragility**: Boeing's outsourced supply chain, exposed during the 787 production crisis and post-COVID, represents ongoing delivery risk. (SEC 10-K FY2023 risk factors, T1_OFFICIAL)
+4. **Defense budget pressure**: U.S. defense spending subject to congressional appropriations uncertainty; fixed-price development contracts have generated losses. (SEC 10-K FY2023)
 
-| Threat | Severity | Time Horizon | Basis |
-|--------|----------|--------------|-------|
-| Competitive intensity in aerospace & defense from both established players and new entrants | Medium-High | Ongoing | T4_INFERRED from observable market dynamics |
-| Regulatory changes affecting industrials operations and compliance costs | Medium | 2025-2028 | T4_INFERRED from regulatory environment |
-| Macroeconomic sensitivity affecting customer spending and investment decisions | Medium | Cyclical | T4_INFERRED from sector characteristics |
-| Technology disruption enabling new business models or rendering current approaches less competitive | Medium | 2025-2030 | T4_INFERRED |
-| Talent competition for specialized aerospace & defense expertise | Medium | Ongoing | T4_INFERRED |
+## Opportunities
 
-### Opportunities
-
-| Opportunity | Potential | Time Horizon | Basis |
-|-------------|-----------|--------------|-------|
-| Market expansion through geographic, segment, or adjacent-market growth | High | 2025-2030 | T4_INFERRED from market analysis |
-| Technology integration to improve operational efficiency and customer value delivery | High | 2025-2028 | T4_INFERRED |
-| Strategic partnerships or acquisitions to expand capabilities | Medium-High | Ongoing | T4_INFERRED |
-| ESG and sustainability positioning as a competitive differentiator | Medium | 2025-2030 | T4_INFERRED |
-| Customer experience enhancement through digital transformation | Medium | 2025-2028 | T4_INFERRED |
+1. **777X certification and delivery**: The 777X, targeting the long-haul twin-aisle market, represents Boeing's next major commercial platform; successful certification would address premium market. (official, boeing.com/777x)
+2. **Sustainable aviation fuel (SAF) leadership**: Boeing's 2030 goal to make all aircraft SAF-compatible positions it in regulatory tailwinds. (official, Boeing sustainability report)
+3. **Defense modernization**: U.S. and allied nation defense spending increases create demand for rotary wing, unmanned systems, and next-generation platforms. (T3_SECONDARY_RELIABLE)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Compete on integration depth, not feature count.**
-Boeing's competitive position benefits from deep operational integration with customers, which creates switching costs independent of product superiority. Transferable structure: design your product or service to integrate deeply into customer workflows, creating value that increases with duration of use.
+**1. In a duopoly, market share loss is an existential brand signal.**
+Boeing's decline from ~50% to ~40% commercial deliveries share (estimated) sends a signal to airline buyers that validates Airbus as the safe default. In duopoly markets, relative market share is a brand signal — buyers interpret share as a quality referendum. Track and communicate market share data proactively if it is favorable; address it structurally if it is not.
 
-**2. Use domain expertise as a barrier to adjacent-market entrants.**
-Boeing's specialized knowledge in aerospace & defense is difficult for generalist competitors to replicate quickly. Transferable structure: invest in and publicize deep domain expertise as a competitive moat that newcomers cannot easily acquire.
+**2. Fixed-price defense contracts are a brand risk, not just a financial risk.**
+Boeing's losses on fixed-price military development contracts (VC-25B, KC-46) signal execution capability gaps to the DoD — the most important brand-as-credibility signal in defense. Transferable: for professional services or product companies, taking loss-leader contracts to win strategic relationships requires honest assessment of whether the execution risk will damage the brand relationship more than the revenue helps.
 
-**3. Frame competitive comparisons on total cost of ownership, not unit price.**
-Boeing's value proposition extends beyond product pricing to include support, reliability, and operational continuity. Transferable structure: when competing against lower-priced alternatives, shift the evaluation frame from purchase price to total cost of ownership including downtime, integration, and support.
+**3. Production quality is marketing in aerospace.**
+When the door plug on an Alaska Airlines 737 MAX 9 detached in flight in January 2024 (T1_OFFICIAL, NTSB preliminary report), no advertising campaign could address the brand damage. In safety-critical products, quality control is the brand. Transferable for medical devices, infrastructure software, and any product where failure is visible and consequential: invest in production quality as a brand asset, not just an operational cost.

@@ -1,102 +1,88 @@
 # 05. Design System — Ball Corporation (BALL)
 
-> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Color Palette
+## Color System
 
-Ball Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to materials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
-
-### Core Brand Colors
-
-| Token Name | HEX | Role | Specific Usage |
-|---|---|---|---|
-| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
-| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
-| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
-| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
-| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
-| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
-| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
-| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
-
-### Color Principles
-
-**Principle 1 — Primary brand color is used consistently for brand identification.**
-The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
-
-**Principle 2 — Interactive elements use a consistent action color.**
-CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
-
-**Principle 3 — Neutral palette dominates content areas.**
-Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
-
-**Principle 4 — Dark mode support varies by implementation.**
-Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+| Color Name | HEX | Usage | Source |
+|------------|-----|-------|--------|
+| Ball Blue | #003087 | Primary brand color; logo, corporate materials | observed on ball.com |
+| Light Blue | #0099D6 | Secondary accent; sustainability content, digital highlights | observed on ball.com |
+| White | #FFFFFF | Primary background | observed on ball.com |
+| Silver/Aluminum | #C0C0C0 | Represents the aluminum material identity | observed in brand materials |
+| Dark Gray | #333333 | Body text, secondary content | observed on ball.com |
+| Green | #5DA832 | Sustainability and recycling content accent | observed on ball.com sustainability section |
+| Ball Aluminum Cup Blue | #00AEEF | Ball Aluminum Cup consumer brand | observed on ballaluminumcup.com |
 
 ---
 
-## 2. Typography
+## Typography
 
-Ball Corporation's digital properties employ a typographic system appropriate to its materials positioning.
-
-### Typeface System
-
-| Typeface | Description | Contexts |
-|---|---|---|
-| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
-| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
-
-### Typographic Scale
-
-| Role | Weight | Desktop Size | Mobile Size |
-|---|---|---|---|
-| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
-| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
-| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
-| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
+| Role | Typeface | Weight | Notes |
+|------|----------|--------|-------|
+| **Headline** | Sans-serif (observed as geometric style) | Bold | Clean industrial sans; engineered precision feel |
+| **Body** | System sans-serif | Regular | Technical documentation priority |
+| **Sustainability reports** | Serif or clean sans | Regular | Annual report context; professional readability |
+| **Ball Aluminum Cup (consumer)** | Bolder, slightly friendlier sans | Bold | Consumer-facing; warmer than corporate style |
 
 ---
 
-## 3. Channel Specifications
+## Channel Design Specifications
 
-| Channel | Asset Type | Dimensions | Key Notes |
-|---|---|---|---|
-| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
-| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
-| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
-| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
-
----
-
-## 4. Layout Principles
-
-**Principle 1 — Content hierarchy guides visual structure.**
-Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
-
-**Principle 2 — Consistent grid system across properties.**
-Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
-
-**Principle 3 — Whitespace as organizational tool.**
-Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
-
-**Principle 4 — Imagery serves content, not decoration.**
-Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+| Channel | Spec | Notes |
+|---------|------|-------|
+| **ball.com** | Full-width, desktop-first | Blue/white; sustainability photography |
+| **Investor presentations** | 16:9 widescreen PDF | Corporate blue; data-forward; charts prominent |
+| **Trade show displays** | Large format; horizontal | Aluminum can product photography; sustainability claims |
+| **LinkedIn** | 1200×627px | Corporate announcements; industry content |
+| **ballaluminumcup.com** | Consumer-first | Brighter palette; lifestyle photography; retail focus |
+| **Annual/ESG report** | PDF publication | High production value; sustainability photography |
 
 ---
 
-## 5. Design Prohibitions
+## Layout Principles
 
-1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
-2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
-3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
-4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
-5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
-6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+1. **Product as the primary visual**: Aluminum cans and Ball Aluminum Cups are centered in product communications. The can itself — silver, clean, perfectly cylindrical — is the visual hero.
+2. **Data visualization priority**: Ball's sustainability communications rely heavily on charts, percentages, and comparison graphics. Data visualization is a core design competency.
+3. **Material texture**: Photography often incorporates aluminum's reflective surface as a visual element — light on metal, the geometry of stacked cans, the production line at scale.
+4. **Industrial authenticity**: Ball does not sanitize manufacturing; its photography includes factory floors, production equipment, and employees in safety gear — authenticity over aspiration.
 
 ---
 
-*Layer 5 of 8 — Brand Autopsy: Ball Corporation (BALL)*
-*Analysis based on publicly accessible sources.*
-*Source tiers applied: (official), (observed on company website), (estimated).*
+## Icon Style
+
+- **Style**: Simple, functional, engineering-adjacent; outline or solid at small sizes
+- **Sustainability icons**: Recycling symbols, lifecycle arrows, material flow diagrams are prominent
+- **No mascots**: B2B industrial brand; no character-based design elements
+- **Ball Aluminum Cup consumer**: Uses more lifestyle-friendly graphic elements than corporate Ball
+
+---
+
+## AI Image Generation Prompt Guide
+
+(T4_INFERRED from observed visual identity):
+
+```
+Style: Industrial documentary + sustainability editorial
+Color palette: Ball blue (#003087), aluminum silver (#C0C0C0), white, sustainability green
+Subjects: Aluminum cans in production/consumer contexts; Ball Aluminum Cups at events;
+          manufacturing facilities with natural light; workers in industrial settings;
+          recycling facility operations; beverage brands displayed in Ball cans
+Lighting: Clean, even industrial lighting for manufacturing; natural light for sustainability
+Composition: Precision and scale — stacked cans, production lines, can cross-sections
+Avoid: Plastic packaging, competitor cans, generic stock manufacturing imagery,
+       cartoon elements, luxury lifestyle (wrong brand context)
+```
+
+---
+
+## Design Prohibitions
+
+1. Never use green as a primary color on corporate materials — reserved for sustainability accent only
+2. Never depict damaged or defective cans in brand materials
+3. Never use competitor packaging (plastic bottles, glass) as a contrasting visual without legal review of comparative claims
+4. Never misrepresent recycling rates — all recycling rate claims must cite current source data
+5. Never mix Ball Aerospace visual identity (now BAE Systems following divestiture) with Ball Corporation packaging brand
+6. Never use recycling symbols without accurate disclosure of regional applicability

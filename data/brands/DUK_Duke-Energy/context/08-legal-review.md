@@ -1,6 +1,6 @@
-# 08. Legal Review — Duke Energy (DUK)
+# 08. Legal Review — Duke Energy Corporation (DUK)
 
-> **Disclaimer**: This document is prepared solely for brand strategy analysis purposes and does NOT constitute legal advice, legal opinion, or investment guidance. All litigation and regulatory information is sourced from publicly available records: SEC filings, official court dockets, regulatory agency press releases, and reputable journalism. Nothing in this document characterizes any party's conduct as unlawful or intentionally harmful. Source tier codes follow the T1-T5 system.
+> **DISCLAIMER**: This document is prepared solely for brand strategy analysis purposes and does NOT constitute legal advice, legal opinion, or investment guidance. All litigation and regulatory information is sourced from publicly available records: SEC filings, official court dockets, regulatory agency press releases, and reputable journalism. Nothing in this document characterizes any party's conduct as unlawful, fraudulent, or intentionally harmful — such characterizations are reserved exclusively for direct citations from regulators and courts. Source tier codes follow the T1–T5 system in CLAUDE.md.
 
 ---
 
@@ -8,10 +8,11 @@
 
 | Document | Coverage | Direct Link |
 |----------|----------|-------------|
-| 10-K — Part I, Item 1A (Risk Factors) | Legal & regulatory risks | [SEC EDGAR DUK](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Duke+Energy&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-K — Part I, Item 3 (Legal Proceedings) | Active litigation disclosures | Same 10-K, Item 3 |
-| 8-K Filings | Material legal events | [SEC EDGAR DUK 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Duke+Energy&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
-| USPTO Trademark Database | Trademark registrations | [USPTO TESS](https://tmsearch.uspto.gov/) |
+| 10-K FY2024 — Part I, Item 1A | Risk factors | [SEC EDGAR DUK 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326160&type=10-K&dateb=&owner=include&count=10) |
+| 10-K FY2024 — Part I, Item 3 | Legal proceedings | Same 10-K, Item 3 |
+| 8-K Filings | Material legal events | [SEC EDGAR DUK 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326160&type=8-K&dateb=&owner=include&count=20) |
+| NC / SC / FL / IN PUC Records | Rate case filings and orders | State PUC websites |
+| EPA / NC DENR Environmental Records | Environmental compliance proceedings | Public agency records |
 
 ---
 
@@ -19,102 +20,158 @@
 
 ### 2.1 Trademark Portfolio
 
-Duke Energy maintains a trademark portfolio protecting its brand names, product names, and logos in relevant commercial classes. Trademark registrations are publicly searchable via the USPTO TESS database and equivalent international registries. (T1_OFFICIAL, USPTO public records)
+Duke Energy's trademark portfolio is more limited than consumer product companies, focused on:
 
-### 2.2 Patent Portfolio
+| Mark | Class | Notes |
+|------|-------|-------|
+| DUKE ENERGY | IC 39 (energy distribution), IC 40 | Core house mark; registered in US (T1_OFFICIAL, USPTO) |
+| DUKE ENERGY (logo/design) | IC 39, 40 | Combined word and design mark |
+| PIEDMONT NATURAL GAS | IC 39 | Acquired subsidiary mark |
+| PROGRESS ENERGY | IC 39 | Legacy mark from 2012 merger; may be maintained or retired |
 
-Duke Energy's patent portfolio reflects its R&D investment in electric utilities technology and processes. Patent grants and applications are publicly searchable via USPTO and Google Patents. The company's 10-K filing describes its intellectual property strategy in general terms. (SEC 10-K; T1_OFFICIAL, USPTO records)
+Duke Energy's brand value is not primarily trademark-based; its competitive position is derived from regulated franchise rights, infrastructure assets, and regulatory relationships rather than consumer brand preference. (T4_INFERRED)
+
+### 2.2 Patents
+
+Duke Energy holds patents primarily in:
+- Grid management technology and smart meter systems
+- Nuclear power plant operational improvements
+- Renewable energy integration systems
+
+Duke Energy is not a primary technology innovator; its patent portfolio supports operational efficiency rather than competitive differentiation in the manner of technology companies. (T4_INFERRED)
 
 ---
 
-## 3. Major Litigation
+## 3. Major Litigation & Regulatory Proceedings
 
-> All descriptions below are factual summaries of publicly disclosed legal proceedings as referenced in Duke Energy's SEC filings.
+### 3.1 Coal Ash Environmental Proceedings (Ongoing)
 
-Duke Energy's active litigation and legal proceedings are disclosed in the company's 10-K, Part I, Item 3 (Legal Proceedings) and in the Notes to Financial Statements under Commitments and Contingencies. (SEC 10-K)
+**Background**: Duke Energy has operated coal-fired power plants across the Carolinas for decades. Coal combustion residuals (coal ash) were historically stored in surface impoundments at plant sites.
 
-Material legal proceedings, if any, are also disclosed via 8-K filings when they meet materiality thresholds. Investors and analysts should reference the most recent 10-K and 8-K filings for current litigation status. (T1_OFFICIAL)
+**Dan River Spill (2014)**: A pipe failure at the Dan River Steam Station in Eden, NC resulted in a coal ash spill into the Dan River. The EPA and NC DEQ investigated; Duke Energy entered into consent orders and paid civil penalties. Duke Energy's SEC filings at the time disclosed this as a material event. (T1_OFFICIAL, Duke Energy 8-K and subsequent 10-K disclosures)
+
+**Ongoing Remediation**: Duke Energy has been engaged in multi-year coal ash remediation programs at multiple North Carolina plant sites under state regulatory requirements (NC Coal Ash Management Act). The cost of remediation is a disclosed material contingent liability in Duke Energy's 10-K filings. (T1_OFFICIAL)
+
+**Project writing note**: Describe coal ash matters by citing specific regulatory proceedings and disclosed facts. Do not characterize Duke Energy's historical practices beyond what regulatory agencies and courts have stated in official proceedings.
+
+### 3.2 Rate Case Proceedings (Recurring)
+
+Duke Energy regularly files rate cases with state public utility commissions. These are administrative proceedings, not adversarial litigation, but they carry financial materiality:
+
+| State | Recent Rate Case | Status/Outcome | Source |
+|-------|-----------------|----------------|--------|
+| North Carolina | Multiple filings 2021–2024 | Various PUC orders issued; authorized ROE and capital recovery terms disclosed in 10-K | (T1_OFFICIAL, Duke Energy 10-K) |
+| South Carolina | SC PSC proceedings | Rate case outcomes disclosed in 10-K | (T1_OFFICIAL) |
+| Florida | Florida PSC proceedings | Rate case outcomes disclosed in 10-K | (T1_OFFICIAL) |
+| Indiana | IURC proceedings | Rate case outcomes disclosed in 10-K | (T1_OFFICIAL) |
+
+### 3.3 Federal Energy Regulatory Commission (FERC) Matters
+
+Duke Energy's wholesale energy transactions and transmission operations are subject to FERC jurisdiction. FERC proceedings related to transmission rates, interconnection, and market operations are disclosed in Duke Energy's 10-K as appropriate. (T1_OFFICIAL)
+
+### 3.4 Securities Class Action / Shareholder Litigation
+
+Duke Energy's 10-K periodically discloses shareholder litigation matters as required by SEC rules. Specific active proceedings as of the document date should be verified against the current 10-K filing, as these matters are subject to change. (T1_OFFICIAL, 10-K Item 3)
 
 ---
 
 ## 4. Regulatory Landscape
 
-Duke Energy's regulatory environment reflects the requirements applicable to electric utilities within utilities. Key regulatory areas as typically disclosed in the 10-K include:
+### 4.1 State Regulatory Bodies
 
-| Area | Applicable Regulators | Impact |
-|------|----------------------|--------|
-| **Industry-specific regulation** | Relevant federal and state agencies; international equivalents | Compliance costs, operational requirements, licensing (SEC 10-K) |
-| **Securities regulation** | SEC, relevant exchanges | Financial disclosure, insider trading, proxy requirements (T1_OFFICIAL) |
-| **Environmental regulation** | EPA, state equivalents, international environmental agencies | Environmental compliance, remediation obligations (SEC 10-K) |
-| **Labor and employment** | DOL, EEOC, NLRB, state equivalents | Employment practices, labor relations (SEC 10-K) |
-| **Data privacy** | FTC, state AGs, international DPAs (GDPR, etc.) | Data handling, customer privacy, breach notification (SEC 10-K) |
+| State | Regulator | Key Jurisdiction |
+|-------|-----------|-----------------|
+| North Carolina | NC Utilities Commission (NCUC) | Electric and gas rate regulation |
+| South Carolina | SC Public Service Commission (PSC) | Electric rate regulation |
+| Florida | Florida Public Service Commission (PSC) | Electric rate regulation |
+| Indiana | Indiana Utility Regulatory Commission (IURC) | Electric and gas rate regulation |
+| Ohio | Public Utilities Commission of Ohio (PUCO) | Electric regulation |
+| Kentucky | Kentucky Public Service Commission (KPSC) | Electric regulation |
 
-Detailed regulatory risk descriptions are available in the 10-K, Item 1A (Risk Factors).
+### 4.2 Federal Regulators
+
+| Regulator | Jurisdiction |
+|-----------|-------------|
+| FERC | Wholesale electric markets, transmission, interstate gas |
+| NRC (Nuclear Regulatory Commission) | Nuclear plant licensing and safety oversight |
+| EPA | Air emissions (Clean Air Act), coal ash (RCRA), water quality |
+| CFTC | Energy commodity trading compliance |
+| SEC | Public company financial disclosure |
+
+### 4.3 Environmental Regulatory Context
+
+Duke Energy's environmental compliance obligations are among the most material legal risks in its business:
+- **Coal Ash (RCRA)**: EPA's Coal Combustion Residuals (CCR) Rule governs ash pond closure requirements. Duke Energy's 10-K discloses estimated closure costs. (T1_OFFICIAL)
+- **Clean Air Act**: SO2, NOx, and particulate emissions from coal plants are regulated; compliance investments affect capital expenditure requirements. (T1_OFFICIAL)
+- **Clean Water Act**: Cooling water intake and discharge at power plants subject to ongoing permitting. (T1_OFFICIAL)
+- **Climate / GHG**: No current federal GHG price regulation; Duke Energy's voluntary emissions commitments operate in this policy environment. (T4_INFERRED)
 
 ---
 
 ## 5. Project Risk Assessment — Brand Autopsy DB
 
-### 5.1 Litigation Posture Assessment
+### 5.1 Duke Energy's Litigation Posture
 
-**Assessment**: Based on publicly available records, Duke Energy's litigation posture reflects standard commercial practices for a company of its size in the utilities sector. (T4_INFERRED)
+**Assessment**: MODERATE on commercial/regulatory; ACTIVE on environmental compliance (T4_INFERRED based on public record)
 
-**Implication for this project**: Our primary risks are (a) trademark misuse, (b) false factual assertions, and (c) inappropriate characterization of ongoing legal proceedings. The risk level is manageable with adherence to the project's writing protocols. (T4_INFERRED)
+Duke Energy is primarily subject to regulatory proceedings rather than aggressive commercial litigation. The company's legal exposure is concentrated in:
+1. Environmental remediation (coal ash — material and ongoing)
+2. Rate case proceedings (recurring, material to earnings)
+3. Nuclear regulatory compliance
+4. General commercial and employment litigation
 
-### 5.2 Data Collection Legality Assessment
+Duke Energy has not demonstrated a pattern of aggressive litigation against analysts, journalists, or brand researchers. The primary risks to this project are accuracy of financial figures and appropriate hedging of environmental matter characterizations. (T4_INFERRED)
 
-| Data Type | Our Collection Method | Legal Assessment |
-|-----------|----------------------|-----------------|
-| SEC filing data | Direct EDGAR download | PERMITTED — public government records |
-| Company website content | Web observation | PERMITTED — publicly accessible; cite with timestamp |
-| Trademark data | USPTO TESS database | PERMITTED — public government records |
-| Court filings | Public docket access | PERMITTED — public court records |
-| News coverage | Fair use summary | PERMITTED as secondary source with attribution |
-| Internal communications | NOT accessible | DO NOT ATTEMPT |
-
-### 5.3 Fair Use 4-Factor Analysis
-
-**Factor 1 — Purpose**: Analytical, educational, transformative. FAVORS FAIR USE.
-**Factor 2 — Nature**: Primarily factual data. FAVORS FAIR USE.
-**Factor 3 — Amount**: Summary and analysis, not verbatim reproduction. FAVORS FAIR USE.
-**Factor 4 — Market Effect**: No substitution for company's products/services. FAVORS FAIR USE.
-
-**Overall**: Defensible under fair use doctrine. (T4_INFERRED; not legal advice)
-
-### 5.4 Writing Risk Guide — Duke Energy
+### 5.2 Writing Risk Guide — Duke Energy
 
 #### SAFE TO WRITE
-- Financial data from SEC filings with citation
-- Product and service descriptions based on official website
-- Litigation summaries citing specific courts and regulators
-- Trademark and patent information from public records
-- Competitive comparisons using specific, cited metrics
+
+- Revenue, EPS, and capital plan figures from Duke Energy's SEC filings, cited as "(SEC 10-K FY20XX)"
+- Descriptions of Duke Energy's service territories and customer counts
+- Summaries of regulatory proceedings citing specific PUC filings and orders
+- Clean energy commitment descriptions citing Duke Energy's official sustainability reports
+- Coal ash matter descriptions citing specific regulatory agency orders and Duke Energy's 10-K disclosures
+- Credit rating citations from public agency ratings
 
 #### REQUIRES CAREFUL HEDGING
+
 | Topic | Required Approach |
-|-------|-------------------|
-| Strategic intent | "The company's 10-K states..." or "Management indicated..." — never as bare assertion |
-| Consumer behavior claims | "Suggests," "indicates," "based on available data" |
-| Competitive comparisons | Specific metrics only; no qualitative superiority claims |
-| Regulatory outcome predictions | "Proceedings are ongoing" — never predict outcomes |
-| Internal motivations | Describe actions only; do not attribute motive |
+|-------|-----------------|
+| Coal ash environmental impact | Cite specific regulatory findings and consent orders; do not characterize environmental harm beyond what agencies have formally stated |
+| Rate case outcomes | Describe PUC orders factually; do not characterize rate increases as "excessive" or "unjustified" |
+| Clean energy transition pace | Use Duke Energy's stated commitments with attribution; do not independently assess whether the pace is adequate |
+| Nuclear safety | Cite NRC findings only; do not independently characterize nuclear risk |
+| Political dimensions of energy regulation | Describe regulatory proceedings factually; do not editorialize on political dimensions |
 
 #### DO NOT WRITE
-- Assertions of fraud, deception, or criminal intent without regulatory/court citation
-- Pejorative characterizations as bare assertions
-- Claims about internal deliberations not in public filings
-- Predictions of legal proceeding outcomes
-- Unverified claims from anonymous sources
+
+- Assertions that Duke Energy engaged in knowing environmental violations without citation to a specific regulatory finding using that language
+- Characterizing coal ash storage as "reckless" or "negligent" without direct citation from a court judgment or regulatory order using those terms
+- Predicting outcomes of pending rate cases or environmental proceedings
+- Characterizing Duke Energy's regulatory relationships as "captured" or "manipulated" without regulatory or judicial findings
+- Generalizing about utility industry practices and attributing them to Duke Energy without specific evidence
 
 ---
 
 ## 6. ESG & Compliance
 
-Duke Energy's ESG disclosures are available in the company's sustainability report, proxy statement (DEF 14A), and 10-K filing. Key areas include:
+### 6.1 Environmental Commitments
 
-- **Environmental**: Climate commitments, emissions reporting, environmental compliance as disclosed in company reports. (official)
-- **Social**: Workforce diversity, labor practices, community engagement as disclosed in company reports. (official)
-- **Governance**: Board composition, executive compensation, shareholder rights as disclosed in DEF 14A. (SEC DEF 14A)
+Duke Energy publishes an annual Climate Report and Sustainability Report. (T1_OFFICIAL, duke-energy.com/sustainability) Stated commitments:
+- Net-zero methane emissions from gas operations by 2030 (stated goal)
+- Net-zero carbon emissions across the enterprise by 2050 (stated goal)
+- 50% carbon reduction by 2030 vs. 2005 baseline (stated goal)
+- Retirement of remaining coal fleet by 2035 (stated goal in most jurisdictions)
+
+These are stated goals; actual progress is reported annually. Regulatory proceedings may affect timelines. (T4_INFERRED)
+
+### 6.2 Social and Community
+
+Duke Energy Foundation has invested hundreds of millions of dollars in community programs. (T1_OFFICIAL, Duke Energy Foundation) Workforce development, STEM education, and environmental stewardship programs are disclosed in annual sustainability reporting.
+
+### 6.3 Governance
+
+DEF 14A discloses board composition, executive compensation, and shareholder voting. (T1_OFFICIAL) Duke Energy's board includes members with utility, financial, and public policy backgrounds. Executive compensation is tied to safety, reliability, and financial performance metrics as disclosed in the proxy statement.
 
 ---
 
@@ -123,41 +180,47 @@ Duke Energy's ESG disclosures are available in the company's sustainability repo
 ```
 HIGH IMPACT
     |
-    |  [Regulatory Changes]   [Major Litigation]
-    |  Industry-specific       If disclosed in 10-K
-    |  regulation shifts       Item 3
-    |                                            |
-----+--------------------------------------------+----
-LOW |  [IP Disputes]          [Compliance        | HIGH
-LIKELIHOOD                    Matters]           | LIKELIHOOD
-    |  Patent/trademark       Ongoing regulatory |
-    |  proceedings             obligations        |
-    |                                            |
-    +--------------------------------------------+
+    |  [Coal Ash Remediation]           [Rate Case Outcomes]
+    |  (Ongoing; material cost          (Recurring; direct earnings
+    |   disclosed in 10-K)              impact; regulatory risk)
+    |
+    |  [Nuclear Regulatory]             [Environmental Compliance]
+    |  (NRC; license renewals;          (EPA CCR Rule; Clean Air Act;
+    |   safety incident risk)            material capex obligations)
+----+------------------------------------------------
+LOW |  [Securities Litigation]          [FERC Proceedings]  | HIGH
+LIKELIHOOD  (shareholder claims,         (transmission rates, | LIKELIHOOD
+    |   periodic)                        market compliance)   |
+    |
+    |  [Employment Claims]              [Cybersecurity]
+    |  (standard operational            (grid infrastructure
+    |   exposure)                        target risk)
+    |
 LOW IMPACT
 
-Placement is T4_INFERRED based on typical risk profiles for utilities companies.
-Refer to Duke Energy's 10-K Item 1A for company-specific risk factor disclosure.
+Placement is T4_INFERRED based on disclosed proceedings and regulatory environment.
 ```
 
 ---
 
-## 8. Project Writing Risk Level
+## 8. Project Writing Risk Level Assessment
 
 | Category | Risk Level | Rationale |
 |----------|-----------|-----------|
-| Financial data (SEC-sourced) | LOW | Public government records; factual, verifiable |
-| Litigation summaries (citing courts) | LOW-MEDIUM | Requires precise citation; avoid outcome predictions |
-| Brand strategy interpretation | MEDIUM | Hedged language required; labeled as T4_INFERRED |
-| Competitive comparisons | MEDIUM | Metric-based only; no pejorative characterizations |
-| ESG / sustainability claims | MEDIUM | Cite official disclosures only |
+| Financial data (10-K sourced) | LOW | Public records; verifiable |
+| Rate case summaries | LOW-MEDIUM | Factual description with proper PUC citation is safe |
+| Coal ash environmental matters | MEDIUM-HIGH | Requires precise citation to regulatory findings; avoid characterization beyond official findings |
+| Clean energy commitment analysis | LOW-MEDIUM | Cite stated goals with attribution; hedge assessments of adequacy |
+| Nuclear operations analysis | MEDIUM | Cite NRC records only; nuclear safety assertions require extreme precision |
+| Political/regulatory relationship | MEDIUM | Describe structural facts; avoid characterizing regulatory dynamics |
 
 **Overall Project Risk Level for Duke Energy Content: MEDIUM**
 
-Adherence to the project's writing protocols and source tier system is sufficient to manage identified risks. (T4_INFERRED)
+Duke Energy's primary legal exposure for this project centers on coal ash environmental matters, where imprecise characterization could misrepresent official regulatory findings. Maintain source discipline, cite specific regulatory proceedings, and clearly distinguish between regulatory findings and this project's analytical interpretations. (T4_INFERRED; consult legal counsel before any public commercial distribution)
 
 ---
 
 *Layer 8 — Legal Review | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL | T3_SECONDARY_RELIABLE | T4_INFERRED*
+*Source tier system: T1_OFFICIAL | T2_PRIMARY_RELIABLE | T3_SECONDARY_RELIABLE | T4_INFERRED | T5_LLM_DRAFT*
 *This document does not constitute legal advice.*
+

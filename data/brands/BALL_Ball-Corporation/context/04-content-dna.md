@@ -6,118 +6,89 @@
 
 ## Content Pillars
 
-Ball Corporation's content strategy reflects its positioning in the Metal, Glass & Plastic Containers segment of Materials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
-
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "Ball Corporation understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for metal, glass & plastic containers requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with Ball Corporation." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+| Pillar | Share (estimated) | Core Message | Format |
+|--------|------------------|--------------|--------|
+| **Sustainability / Aluminum Recycling** | ~35% | Aluminum is infinitely recyclable; Ball's environmental leadership | ball.com/sustainability, press releases, LinkedIn |
+| **Packaging Innovation** | ~25% | New formats, lightweighting, consumer-driven design | Trade press, ball.com/packaging, case studies |
+| **Corporate News / Financial** | ~20% | Earnings, contracts, plant updates, divestitures | Press releases, SEC filings, IR website |
+| **Community & Employees** | ~10% | Manufacturing communities, STEM, workforce development | ball.com/sustainability, LinkedIn |
+| **Ball Aluminum Cup** | ~10% | Consumer-facing brand; recyclable alternative to plastic cups | ballaluminumcup.com, consumer social |
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
+**Hook 1 — The Material Science Fact**
+> "Aluminum cans have an average of 73% recycled content — more than any other beverage package."
+Data-driven, specific, defensible. (T3_SECONDARY_RELIABLE, Aluminum Association data)
 
-Opens with a recognizable industry challenge or pain point before presenting Ball Corporation's perspective.
+**Hook 2 — The Infrastructure Scale**
+> "More than 180 billion aluminum beverage cans are produced in the U.S. each year."
+Scale establishes category importance. (T3_SECONDARY_RELIABLE, industry data)
 
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+**Hook 3 — The Beverage Brand Partner Story**
+> "When [Beverage Brand] needed a resealable aluminum bottle for their premium line, Ball's engineers made it possible."
+Customer co-innovation story (with customer permission). (T4_INFERRED from observed Ball case study content)
 
-### Hook 2 — Data-Driven Insight
-
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+**Hook 4 — The Regulatory Moment**
+> "As single-use plastics face global bans, aluminum packaging offers brands a certified sustainable alternative."
+Connects Ball's product to external regulatory tailwinds.
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | Ball Corporation Pattern | What Ball Corporation Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+| Context | CTA | Rationale |
+|---------|-----|-----------|
+| B2B packaging inquiry | "Contact Our Packaging Team" | High-consideration; human touchpoint needed |
+| Sustainability data | "Download Our Lifecycle Assessment" | Gated lead generation; data exchange |
+| Ball Aluminum Cup | "Find It Near You" | Consumer retail availability tool |
+| Investor relations | "View Our Latest Earnings" | Direct; IR audience expectation |
+| Media | "View Press Release" | Unambiguous; press workflow aligned |
 
 ---
 
-## Tone & Mood Guide
+## Tone Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to materials sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — Ball Corporation as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Example |
+|-----------|------|---------|
+| **Sustainability claims** | Data-grounded, factual, confident | "Aluminum's recycling rate is 50% in the U.S. — nearly double that of plastic bottles." |
+| **B2B sales content** | Technical, partnership-framed, solution-oriented | "Ball's Rexam acquisition expanded our European production capacity to serve your EU markets." |
+| **Earnings / investor** | Measured, forward-looking, disciplined | Per SEC forward-looking statement safe harbor language |
+| **Plant closure / workforce** | Respectful, factual, community-aware | "Ball is transitioning operations at [plant]. We are committed to supporting affected employees." |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. Do not make recycling rate claims without citing current source — rates vary by region and year
+2. Do not make supply commitment claims in public content that could conflict with contract terms
+3. Do not reference specific customer contracts or pricing without customer approval
+4. Do not use "plastic-free" as Ball's claim — Ball makes aluminum products; plastic characterizations require care
+5. Do not publish forward-looking production capacity or volume claims without investor disclosure alignment
 
 ---
 
-## Hashtag Strategy
+## Hashtags & Owned Vocabulary
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #BALL | Financial and investor community | Moderate (estimated) |
-| #BallCorporation | Brand-level social engagement | Varies (estimated) |
-| #MInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Term | Usage |
+|------|-------|
+| `#BallCorp` | Primary corporate tag |
+| `#AluminumAdvantage` | Sustainability and material differentiation |
+| `#InfinitelyRecyclable` | Core aluminum claim; associated with Ball |
+| `#BallAluminumCup` | Consumer cup product |
+| "Lightweighting" | Industry term for reducing aluminum content per can while maintaining performance |
+| "Conversion fee" | The manufacturing margin Ball earns above aluminum commodity cost |
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-Ball Corporation's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. Own the industry data to own the narrative.**
+Ball publishes, cites, and promotes aluminum recycling data because the data supports Ball's product. By becoming the reference source for industry sustainability metrics, Ball shapes how the entire category is discussed. Transferable: identify the key metric in your category that, when publicly understood, favors your product. Invest in generating and publishing that metric authoritatively.
 
-**2. Use data as a credibility anchor.**
-In materials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in metal, glass & plastic containers face X challenge" backed by a cited statistic is stronger than the assertion alone.
+**2. Let your customers' sustainability reports be your advertising.**
+When Coca-Cola reports "our cans contain 70% recycled aluminum," they are doing Ball's marketing. Ball earns this by providing the recycled content data and the verified sourcing that enables the claim. Transferable: identify the data or certifications your customers need for their reporting obligations and make providing that data a service — you will appear in their public communications as a result.
 
-**3. Separate thought leadership from product marketing.**
-Ball Corporation's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**3. New product formats expand the market; commodity specs shrink it.**
+The Ball Aluminum Cup opens a new market (foodservice disposables) that plastic and paper cups currently dominate. Ball is not taking share from other can manufacturers — it is creating a new aluminum category. Transferable: ask not just "how do we take share from competitors?" but "what adjacent markets are currently served by inferior materials that our manufacturing expertise could displace?"

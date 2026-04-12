@@ -6,118 +6,71 @@
 
 ## Content Pillars
 
-TJX Companies's content strategy reflects its positioning in the Apparel Retail segment of Consumer Discretionary. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
-
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "TJX Companies understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for apparel retail requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with TJX Companies." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+| Pillar | Share (estimated) | Description |
+|--------|------------------|-------------|
+| **The Find** | ~40% | Celebrating the discovery moment — specific items found at surprising prices. This is the emotional core of the brand. User-generated "haul" content dominates this pillar organically. (observed, social media) |
+| **Price Proof** | ~25% | Explicit price comparisons: "Compare at $120. Ours: $34.99." Rational validation of the value proposition. (observed, in-store signage and TJ Maxx / Marshalls advertising) |
+| **Brand Name Credibility** | ~20% | Featuring recognizable brand names — Calvin Klein, DKNY, Ralph Lauren, Le Creuset — to validate that off-price does not mean off-brand. (observed, advertising campaigns) |
+| **Home Inspiration** | ~10% | Décor and home styling content, primarily for HomeGoods and HomeSense banners. Pinterest and Instagram-native format. (observed, official HomeGoods social channels) |
+| **Seasonal / Event Gifting** | ~5% | Holiday gift guides, back-to-school, seasonal fashion. Peaks in Q4 (October–December), which historically represents TJX's highest sales quarter. (T4_INFERRED from seasonal retail patterns; SEC 10-K FY2024 notes Q4 as highest revenue period) |
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
-
-Opens with a recognizable industry challenge or pain point before presenting TJX Companies's perspective.
-
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
-
-### Hook 2 — Data-Driven Insight
-
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+1. **The Price Reveal**: "This Le Creuset Dutch oven. $49.99. You're welcome." — Leads with the item, ends with the price as the punchline. (observed, social media content patterns)
+2. **The Brand Name Drop**: "Ralph Lauren. Calvin Klein. DKNY. All in one store. All for a fraction of retail." — Brand names serve as credibility proxies; TJX's value is the connector. (observed, TJ Maxx advertising)
+3. **The Shared Secret**: "If you know, you know." / "Your secret is safe with us." — Positions TJX shoppers as insiders who have discovered something others haven't. Creates community identity. (observed, Marshalls campaign language)
+4. **The Challenge**: "You won't find this anywhere else for this price." — Invites the customer to verify the value claim, confident it will hold. (T4_INFERRED from advertising tone)
+5. **The Haul Invitation**: "What did you find this week?" — Community-building prompt that activates user-generated content. (observed, TJX social media community management)
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | TJX Companies Pattern | What TJX Companies Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+1. **Visit-driven**: "Come find yours." / "Your find is waiting." — The primary CTA in TJX's physical-first model is a store visit, not a click. (observed, advertising)
+2. **Discovery-framed**: "See what's in." — Positions the visit as exploration rather than purchase, lowering the commitment threshold. (observed, tjmaxx.com)
+3. **Urgency via scarcity**: "Today's finds won't be here tomorrow." — Leverages the non-replenishing inventory model to create genuine urgency without manufactured artificiality. (T4_INFERRED from inventory model)
 
 ---
 
 ## Tone & Mood Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to consumer discretionary sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — TJX Companies as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Example |
+|-----------|------|---------|
+| **Product showcase** | Excited but grounded — the joy of a real find, not manufactured hype | "This is a $280 handbag. It's $59.99. That's just math." |
+| **Brand name announcement** | Confident, name-dropping without apology | "Ralph Lauren. In TJ Maxx. At prices that make sense." |
+| **Seasonal campaign** | Warm, inclusive, giftable | "The gifts they'll actually love. At prices you'll actually love." |
+| **Crisis / complaint response** | Direct, non-defensive, solution-oriented | Acknowledge, resolve, don't over-explain the sourcing model. (T4_INFERRED from retail customer service best practices) |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. **Never explain the sourcing model in detail in consumer-facing content.** The "how" of off-price buying (vendor overruns, cancellations, excess inventory) is interesting to investors and journalists but demystifies the treasure hunt for consumers. Let the experience speak. (T4_INFERRED)
+2. **Never promise specific items will be available.** The non-deterministic inventory model means any commitment to specific product availability will fail. Content should always be discovery-framed, never promise-specific. (T4_INFERRED from operational model)
+3. **Never compare "compare at" prices without a factual basis.** The practice of displaying original retail price comparisons has attracted regulatory scrutiny in multiple jurisdictions. All price comparison claims must be grounded in verifiable retail pricing. (T3_SECONDARY_RELIABLE, consumer advocacy and regulatory coverage)
+4. **Never position the brand as a discount store.** "Discount" implies lower quality, not lower prices on the same quality. The brand's differentiation depends on maintaining the perception of genuine brand-name merchandise at reduced prices. (T4_INFERRED)
+5. **Never use desperate urgency language.** "EVERYTHING MUST GO" and "LAST CHANCE" language is appropriate for clearance retailers, not off-price. TJX's urgency is specific: "this item won't be here next week," not "the store is desperate to sell." (T4_INFERRED)
 
 ---
 
 ## Hashtag Strategy
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #TJX | Financial and investor community | Moderate (estimated) |
-| #TJXCompanies | Brand-level social engagement | Varies (estimated) |
-| #CDInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Platform | Primary Hashtags | Purpose |
+|----------|-----------------|---------|
+| Instagram | #TJMaxx #Marshalls #HomeGoods #TJMaxxFinds #MarshallsFinds | User-generated haul content aggregation (observed, Instagram) |
+| TikTok | #TJMaxxHaul #HomeGoodsHaul #tjmaxxfinds | Discovery content format; "haul" is the dominant TikTok content genre for TJX brands (observed, TikTok) |
+| Pinterest | #HomeGoods #TJMaxxDecor #HomeGoodsFinds | Home inspiration content; HomeGoods Pinterest presence is particularly strong (observed, Pinterest) |
+
+Note: TJX's social media strategy is largely organic and user-generated. The brand's role is to create the conditions for remarkable finds; customers generate the content. (T4_INFERRED from social media observation)
 
 ---
 
-## Steal Sheet — 3 Transferable Principles
+## Steal Sheet — 2 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-TJX Companies's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. The price reveal is the most powerful content format for value brands.**
+TJX's best-performing organic content follows a simple formula: show a desirable item, reveal the price. The gap between perceived value and actual price is the entire story. No copy needed beyond the numbers. Any brand competing on price should lead with the price reveal rather than burying it in a paragraph of product description.
 
-**2. Use data as a credibility anchor.**
-In consumer discretionary markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in apparel retail face X challenge" backed by a cited statistic is stronger than the assertion alone.
-
-**3. Separate thought leadership from product marketing.**
-TJX Companies's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**2. Your customers' content outperforms your own.**
+TJX's most powerful marketing is the billions of views of organic "TJ Maxx haul" content produced by customers. The brand's investment should be in making the find remarkable enough to share — not in producing polished campaign content that competes with customer reality. For any brand with a discovery dynamic, the operational goal is "make something worth filming" before "make something worth posting."

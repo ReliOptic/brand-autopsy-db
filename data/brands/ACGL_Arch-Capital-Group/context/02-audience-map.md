@@ -1,4 +1,4 @@
-# 02. Audience Map — Arch Capital Group (ACGL)
+# 02. Audience Map — Arch Capital Group Ltd. (ACGL)
 
 > **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
@@ -6,79 +6,121 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in property & casualty insurance. B2C: End consumers of financials products and services. (T4_INFERRED from Arch Capital Group's segment structure) |
-| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Arch Capital Group's 10-K geographic segment reporting. (SEC 10-K) |
+Arch Capital serves three distinct business segments with separate customer profiles:
+
+**Segment A — Insurance**
+- Specialty commercial insurers and risk managers at mid-to-large corporations
+- Wholesale and specialty brokers placing complex, non-standard risks
+- Lines: casualty, professional liability, property, programs, construction, surety, travel, accident and health
+- Geographic focus: U.S., Canada, Europe, and global specialty markets (official, SEC 10-K FY2023)
+
+**Segment B — Reinsurance**
+- Primary insurance companies (cedants) seeking treaty or facultative reinsurance
+- Reinsurance brokers (Aon, Guy Carpenter, Willis Re) placing on behalf of cedants
+- Lines: property catastrophe, casualty, marine, aviation, specialty
+- Key characteristic: cedant values cycle-disciplined capacity provider; willing to reduce volume in soft markets
+
+**Segment C — Mortgage Insurance**
+- Mortgage lenders (banks, credit unions, mortgage companies) requiring private mortgage insurance for high-LTV loans
+- Fannie Mae, Freddie Mac (GSEs) as counterparties for credit risk transfer
+- Homebuyers with less than 20% down payment (indirect beneficiary)
 
 ---
 
-## Core Personas
+## Persona 1 — The Wholesale Specialty Broker
 
-### Persona 1 — Enterprise Decision-Maker
+**Name**: James Harrington, Senior Broker  
+**Firm**: Wholesale specialty brokerage, New York  
+**Book**: $150M+ in specialty liability placements annually (estimated)
 
-- **Age / Occupation**: 42, VP-level or director in a Arch Capital Group customer organization
-- **Core pain**: Needs reliable property & casualty insurance solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Arch Capital Group selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+**Pain points**:
+- Finding consistent capacity for complex or unusual risks that standard markets decline
+- Counterparty reliability — does the insurer pay claims as agreed and maintain capacity at renewal?
+- Pricing consistency through soft market cycles without capacity withdrawal at a hard market
+- Managing E&O exposure from placing coverage with financially weak carriers
 
----
+**Gain sought**:
+- Arch's A+ financial strength rating providing confidence in claims-paying ability
+- Underwriters with genuine expertise in complex lines (not generalists reading manuals)
+- Consistent capacity availability and pricing predictability within a market cycle
+- Quick turnaround on submissions and clear communication on declinations
 
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with Arch Capital Group's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Arch Capital Group selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+**Engagement channels**: Arch underwriter relationships (primary), industry events (RIMS, wholesale market conferences), trade publications (Business Insurance, Insurance Insider) (T4_INFERRED from specialty insurance market dynamics)
 
 ---
 
-### Persona 3 — Consumer / Retail Customer
+## Persona 2 — The Reinsurance Cedant CFO
 
-- **Age / Occupation**: 38, consumer who interacts with Arch Capital Group's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **Arch Capital Group selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
+**Name**: Caroline Mueller, CFO  
+**Firm**: Mid-size European specialty insurer, €2B premium volume (estimated)
+
+**Pain points**:
+- Managing volatility from natural catastrophe and casualty long-tail exposure
+- Finding reinsurance partners who maintain capacity through the cycle without adverse cover changes
+- IFRS 17 implementation creating new demands on reinsurance structure
+- Evaluating reinsurer credit quality in a period of elevated catastrophe losses
+
+**Gain sought**:
+- Arch's demonstrated track record of disciplined underwriting and claims payment
+- Treaty structures that genuinely transfer risk rather than regulatory arbitrage arrangements
+- AM Best A+ and S&P A+ ratings meeting cedant reinsurer credit quality standards
+- Bermuda reinsurance market expertise for complex multi-line structures
+
+**Engagement channels**: Arch reinsurance underwriters, reinsurance brokers (Guy Carpenter, Aon, Willis Re), Monte Carlo Rendez-Vous, Baden-Baden reinsurance meeting (T4_INFERRED from reinsurance market practice)
 
 ---
 
-## Purchase Journey — AARRR Framework
+## Persona 3 — The Mortgage Lender Risk Manager
 
-| Stage | Arch Capital Group's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Arch Capital Group total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+**Name**: David Chen, VP Risk Management  
+**Firm**: Regional bank, $8B mortgage origination volume annually (estimated)
+
+**Pain points**:
+- Managing credit risk on high-LTV mortgage portfolios
+- Complying with GSE credit risk transfer programs requiring private mortgage insurance
+- Managing counterparty risk on PMI providers — insurer financial strength is critical
+- Balancing mortgage insurance cost against competitive pricing for borrowers
+
+**Gain sought**:
+- Arch MI's consistent capacity and GSE eligibility as an approved private mortgage insurer
+- Financial strength ratings supporting counterparty quality requirements
+- Claims payment reliability in downturn scenarios
+- Pricing that supports competitive mortgage origination economics
+
+**Engagement channels**: Arch MI account management, GSE eligibility lists, mortgage industry conferences (MBA Annual) (T4_INFERRED from mortgage insurance market dynamics)
 
 ---
 
-## Anti-Persona — Who Arch Capital Group Is Not For
+## AARRR Journey (Insurance Segment — Wholesale Broker)
 
-| Type | Characteristics | Why Arch Capital Group Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Arch Capital Group's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Arch Capital Group's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Arch Capital Group's full value is realized through deeper operational integration and sustained partnership. |
+| Stage | Action | Arch Mechanism |
+|-------|--------|---------------|
+| **Acquisition** | Broker submits specialty risk | Wholesale broker panel relationships; Arch underwriter accessibility |
+| **Activation** | First policy bound | Competitive quote, AM Best/S&P ratings, policy clarity |
+| **Retention** | Renewal at consistent terms | Claims payment performance, underwriter relationship continuity |
+| **Revenue** | Broker increases Arch's share of panel | Proven performance record; capacity consistency through cycle |
+| **Referral** | Broker recommends Arch to peer at another firm | Industry reputation; underwriting expertise recognition |
+
+---
+
+## Anti-Persona
+
+**Who Arch Capital does not primarily serve**:
+- Personal lines insureds (homeowners, auto) — Arch focuses on commercial specialty and reinsurance
+- Small commercial risks that are efficiently handled by standard market carriers
+- Cedants seeking to place reinsurance at any price regardless of coverage quality
+- Investment-grade corporate borrowers seeking standard credit insurance from commodity providers
+- Consumer-facing direct distribution — Arch operates through professional intermediaries (T4_INFERRED from Arch's distribution model)
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Arch Capital Group's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. In professional B2B markets, relationship continuity is the product.**
+Arch's specialty brokers have multi-year relationships with Arch underwriters. When an underwriter leaves, the relationship risk is real. Arch's retention of experienced underwriting talent is a brand investment — the underwriter's expertise and the relationship are inseparable from the capacity Arch provides. Transferable: in professional services, your experienced practitioners are brand assets. Retention investment in top performers is brand investment.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Arch Capital Group's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. Cycle management communicated to customers builds cycle-proof loyalty.**
+When Arch explicitly communicates its intention to reduce writings in soft markets, sophisticated cedants and brokers can plan their reinsurance programs accordingly. Transparency about Arch's cycle behavior — rather than pretending to be an all-conditions provider — builds trust with the counterparties who value reliability over maximum capacity. Transferable: explicitly communicating your strategic constraints builds more trust with sophisticated B2B buyers than claiming to be all things.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. GSE eligibility as a revenue gate.**
+Arch MI's eligibility as a GSE-approved private mortgage insurer is binary — without it, the business cannot function. Maintaining GSE eligibility through capital adequacy and operational standards is the table-stakes brand requirement for the mortgage insurance segment. Transferable: in any market with government or regulatory gatekeeping, qualification maintenance is the first and most important brand investment. Revenue access gates before brand differentiation matters.

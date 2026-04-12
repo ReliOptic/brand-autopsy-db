@@ -1,132 +1,109 @@
 # 07. Financial Anatomy — Boeing (BA)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **Disclaimer**: This analysis is based on publicly available information including SEC EDGAR filings and official company communications. It does not constitute investment advice. All figures reference specific filing documents. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Filing Source Links
+## SEC EDGAR Reference
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — BA](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Boeing&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — BA 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Boeing&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — BA DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Boeing&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — BA 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Boeing&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
-
-CIK number available via SEC EDGAR company search for Boeing.
+- **CIK**: 0000012927
+- **EDGAR filing page**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000012927&type=10-K
+- **Most recent 10-K**: FY2023, filed January 2024 (SEC 10-K FY2023, T1_OFFICIAL)
+- **Ticker**: BA (NYSE)
 
 ---
 
-## 2. Revenue Anatomy
+## 5-Year Revenue Trend
 
-### 2.1 Revenue Overview
-
-Boeing's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
-
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
-
-### 2.2 Revenue Trend
-
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Boeing's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Aerospace & Defense. (SEC 10-K)
+| Fiscal Year | Total Revenue | YoY Change | Notes |
+|-------------|--------------|------------|-------|
+| FY2019 | $76.6B | — | Pre-MAX grounding full impact year (SEC 10-K FY2019) |
+| FY2020 | $58.2B | -24.0% | COVID + 737 MAX grounding (SEC 10-K FY2020) |
+| FY2021 | $62.3B | +7.0% | Partial recovery; MAX returned to service (SEC 10-K FY2021) |
+| FY2022 | $66.6B | +6.9% | Continued recovery; supply chain constraints (SEC 10-K FY2022) |
+| FY2023 | $77.8B | +16.8% | Return to near-2019 levels; 787 deliveries resumed (SEC 10-K FY2023) |
 
 ---
 
-## 3. Profitability Anatomy
+## Revenue Segment Breakdown (FY2023)
 
-### 3.1 Margin Structure
+| Segment | Revenue | % of Total | Source |
+|---------|---------|------------|--------|
+| **Commercial Airplanes (BCA)** | ~$33.9B | ~44% | SEC 10-K FY2023 |
+| **Defense, Space & Security (BDS)** | ~$24.9B | ~32% | SEC 10-K FY2023 |
+| **Global Services (BGS)** | ~$19.1B | ~25% | SEC 10-K FY2023 |
 
-Boeing's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
-
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in aerospace & defense. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
-
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+*Global Services is Boeing's most profitable segment on a margin basis (estimated); BDS has experienced significant losses on fixed-price development programs. (SEC 10-K FY2023, T1_OFFICIAL)*
 
 ---
 
-## 4. Investment Structure
+## Geographic Revenue (FY2023)
 
-### 4.1 Research & Development
+| Region | Revenue Share | Notes |
+|--------|--------------|-------|
+| **United States** | ~55% (estimated) | Defense contracts + domestic airline deliveries dominant |
+| **Europe** | ~15% (estimated) | European airline customers; Airbus home market |
+| **Asia-Pacific** | ~18% (estimated) | China (limited post-trade tensions), Japan, India |
+| **Middle East / Africa / Other** | ~12% (estimated) | Gulf carrier 787 deliveries; African airlines |
 
-Boeing's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
-
-### 4.2 SG&A
-
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+*(Geographic estimates derived from disclosed segment disclosures; T4_INFERRED)*
 
 ---
 
-## 5. Capital Allocation
+## Margin Structure
 
-### 5.1 Shareholder Returns
-
-Boeing's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Boeing's M&A strategy reflects its approach to growth in Aerospace & Defense. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Boeing's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Boeing's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+| Metric | FY2023 | Notes |
+|--------|--------|-------|
+| **Net Loss** | ~$(2.2)B | Ongoing losses due to BDS fixed-price charges (SEC 10-K FY2023) |
+| **BCA Operating Margin** | ~1.6% (estimated) | Recovering; production ramp constraints |
+| **BGS Operating Margin** | ~16–17% (estimated) | Highest-margin segment; repeat services revenue |
+| **BDS Operating Margin** | Negative (estimated) | Fixed-price development program charges (SEC 10-K FY2023) |
 
 ---
 
-## 7. Brand Valuation
+## Key Expense and Program Charges
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
-
----
-
-## 8. Financial Risk Matrix
-
-Risk factors are disclosed in Boeing's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
-
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in aerospace & defense affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
-
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+| Item | FY2023 Amount | Notes |
+|------|--------------|-------|
+| **R&D** | ~$2.5B (estimated) | Commercial and defense development programs |
+| **SG&A** | ~$4.5B (estimated) | |
+| **Abnormal production costs** | Disclosed | 737 and 787 production anomalies (SEC 10-K FY2023) |
+| **BDS program charges** | ~$(3)B cumulative (estimated) | VC-25B, KC-46, T-7A, MQ-25 fixed-price programs |
 
 ---
 
-## 9. Brand-Finance Nexus
+## Capital Allocation
 
-The relationship between Boeing's brand strength and financial performance can be observed through several signals (T4_INFERRED):
-
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
-
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Boeing's position in aerospace & defense reflects accumulated brand equity and market credibility. (T4_INFERRED)
+| Use | FY2023 | Notes |
+|-----|--------|-------|
+| **Dividends** | Suspended | Dividend suspended in 2020; not reinstated as of FY2023 (official, Boeing IR) |
+| **Share repurchases** | Suspended | Buyback program suspended (official) |
+| **CapEx** | ~$1.4B (estimated) | Manufacturing facilities, tooling |
+| **Debt service** | Significant | ~$52B total debt as of end FY2023 (estimated from balance sheet) |
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## Financial Health Indicators
+
+- **Total debt (estimated)**: ~$52B as of year-end 2023 — elevated from pre-MAX levels (~$10B in 2018); reflects COVID + grounding cash burn
+- **Cash and equivalents**: ~$13B (estimated, year-end FY2023)
+- **Backlog**: $522B total backlog as of end FY2023 (official, Boeing IR)— the largest backlog in company history, primarily commercial
+- **Free cash flow**: Positive in FY2023 for the first time since 2018 (estimated ~$4B); critical recovery milestone
+
+---
+
+## Risk Matrix
+
+| Risk | Likelihood | Impact | Notes |
+|------|-----------|--------|-------|
+| Production quality issues | High | High | January 2024 737 MAX 9 door plug incident; FAA production rate caps (T1_OFFICIAL) |
+| Fixed-price defense losses | High | Medium | BDS charges expected to continue (SEC 10-K risk factors) |
+| Delivery delays | Medium | High | Supply chain constraints; FAA oversight |
+| China trade restrictions | Medium | High | China represents significant historic commercial market; currently limited |
+| Debt refinancing | Low-Medium | High | $52B debt load requires sustained cash generation |
+
+---
+
+## Brand-Finance Nexus
+
+Boeing's $522B backlog (official, Boeing IR) is the most direct measure of brand trust in commercial aviation — airlines commit to aircraft purchases years or decades in advance based on confidence in Boeing's ability to deliver. The backlog is a monetized form of brand equity: each order is an airline's public vote of confidence in the Boeing brand. Conversely, Boeing's production challenges and quality incidents directly threaten backlog integrity — airlines have options to defer or renegotiate orders when delivery confidence erodes. The brand's financial health and its reputation for execution are functionally inseparable.

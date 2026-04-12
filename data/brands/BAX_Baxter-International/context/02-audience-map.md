@@ -6,79 +6,68 @@
 
 ## Ideal Customer Profile (ICP)
 
-| Dimension | Profile |
-|-----------|---------|
-| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Baxter International's segment structure) |
-| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
-| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
-| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
-| **Geography** | Global operations with revenue distribution as disclosed in Baxter International's 10-K geographic segment reporting. (SEC 10-K) |
+**Primary ICP — Hospital System / IDN (Integrated Delivery Network)**
+- Organization: Large hospital system or IDN with 200+ beds; acute care, surgical, ICU services
+- Decision-makers: VP Supply Chain, Chief Pharmacy Officer, Materials Management Director, CMO
+- Purchase structure: Group Purchasing Organization (GPO) contracts (Premier, Vizient, HealthTrust); multi-year supply agreements
+- Key drivers: Supply reliability, FDA compliance, price (within GPO contract), formulary alignment, clinical evidence
+
+**Secondary ICP — ESRD (End-Stage Renal Disease) Patient / Dialysis Center**
+- Patient: Adults with kidney failure requiring regular dialysis; ~500,000 ESRD patients in U.S. (estimated, USRDS data)
+- Institutional buyer: DaVita, Fresenius, independent dialysis centers
+- Home patient: Peritoneal dialysis patients managing home treatment with Baxter's HOMECHOICE system (official, baxter.com/renal)
 
 ---
 
-## Core Personas
+## Three Personas
 
-### Persona 1 — Enterprise Decision-Maker
+### Persona 1: "The Hospital Supply Chain Director" — Patricia, 53
+- **Role**: VP Supply Chain at a 600-bed regional health system
+- **Pain**: IV fluid shortage following Hurricane Maria (2017) left the ICU scrambling; needs supply chain redundancy and manufacturer reliability commitments
+- **Gain**: Baxter's multi-site U.S. manufacturing; GPO contract pricing; established clinical relationships
+- **Loyalty driver**: Switching IV suppliers requires reformulary review, nursing staff training on new packaging — high switching costs
 
-- **Age / Occupation**: 42, VP-level or director in a Baxter International customer organization
-- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
-- **Baxter International selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
-- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
-- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
-- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
+### Persona 2: "The Home Dialysis Patient" — Robert, 64
+- **Role**: Retired; ESRD patient performing peritoneal dialysis at home 4–5 nights/week
+- **Pain**: Clinic-based hemodialysis requires 3x/week travel; disrupts quality of life; high infection risk
+- **Gain**: Baxter's HOMECHOICE Claria automated PD system allows home treatment; independence, schedule control
+- **Loyalty driver**: Clinical training investment (nurses trained on Baxter's specific system); switching PD systems requires new training and prescription
 
----
-
-### Persona 2 — Technical Specialist / End User
-
-- **Age / Occupation**: 35, technical professional who interacts with Baxter International's products daily
-- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
-- **Baxter International selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
-- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
-- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
-- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
+### Persona 3: "The ICU Pharmacist" — Dr. Linda Chen, 38
+- **Role**: Clinical pharmacist, tertiary care hospital ICU
+- **Pain**: Shortage of specific IV solution concentrations; compounding burden when commercial supply fails
+- **Gain**: Baxter's broad IV product formulary; standardized concentrations matching clinical protocols
+- **Loyalty driver**: Formulary standardization — changing IV products mid-protocol requires physician order changes and nursing alerts
 
 ---
 
-### Persona 3 — Consumer / Retail Customer
+## AARRR Funnel (B2B Healthcare)
 
-- **Age / Occupation**: 38, consumer who interacts with Baxter International's products or services
-- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
-- **Baxter International selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
-- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
-- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
-
----
-
-## Purchase Journey — AARRR Framework
-
-| Stage | Baxter International's Mechanism | Key Indicators |
-|-------|-------------------|----------------|
-| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
-| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
-| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
-| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
-| **Revenue** | Baxter International total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+| Stage | Mechanism | Baxter Execution |
+|-------|-----------|-----------------|
+| **Awareness** | GPO relationships; trade shows (ASHP, HealthTrust conferences); medical journal advertising | Established relationships with Premier, Vizient GPOs |
+| **Evaluation** | Clinical data packages; formulary review support; reference site visits | Clinical affairs team supports formulary inclusion |
+| **Decision** | GPO contract award; hospital formulary inclusion | Multi-year supply agreements through GPO structure |
+| **Delivery** | Distribution center network; just-in-time hospital delivery | National distribution; direct and through distributors (McKesson, Cardinal) |
+| **Retention** | Clinical support; supply reliability; formulary lock | High switching costs; ongoing clinical relationship |
 
 ---
 
-## Anti-Persona — Who Baxter International Is Not For
+## Anti-Persona
 
-| Type | Characteristics | Why Baxter International Is Not the Match |
-|------|----------------|---------------------------|
-| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Baxter International's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
-| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Baxter International's value proposition emphasizes proven reliability over experimental innovation. |
-| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Baxter International's full value is realized through deeper operational integration and sustained partnership. |
+- Outpatient pharmacy customers — Baxter's products are primarily for acute care (IV, ICU, surgical) and ESRD; not retail pharmacy
+- Elective / wellness healthcare — Baxter's critical-care focus means wellness products are outside scope
+- Veterinary market — Human-labeled IV solutions cannot be cross-marketed to veterinary use
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Segment your audience by risk tolerance, not just demographics.**
-Baxter International's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+**1. GPO relationships are the distribution brand in healthcare.**
+Baxter's inclusion in Premier and Vizient contracts is not just a distribution arrangement — it is a brand endorsement. When a GPO includes a product in its formulary, it signals to member hospitals that the product meets quality and value standards. Transferable: in B2B markets with powerful intermediaries (GPOs, distributors, resellers), being preferred by those intermediaries is a brand signal independent of your direct marketing.
 
-**2. Make switching costs visible to the customer as value, not lock-in.**
-Baxter International's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+**2. The formulary is the equivalent of a retailer's shelf — fight to stay on it.**
+Once a hospital's formulary includes a Baxter IV product, switching requires physician order changes, nursing training, and pharmacist approval — a process that takes months. This is not accidental; it reflects the high cost of clinical protocol disruption. Transferable: design your product to integrate deeply into customer workflows so that switching requires significant internal work, not just a vendor change.
 
-**3. Invest in technical documentation as a customer retention tool.**
-In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.
+**3. Home care is the growth segment in a cost-pressured healthcare system.**
+Baxter's investment in home peritoneal dialysis addresses a healthcare system imperative: reducing hospital and clinic utilization. Home dialysis costs less than in-center hemodialysis per treatment and improves patient quality of life. Transferable: in any market under cost pressure, identify whether your product can be delivered in a lower-cost, higher-convenience setting — the transition from institutional to home is a durable trend in healthcare.

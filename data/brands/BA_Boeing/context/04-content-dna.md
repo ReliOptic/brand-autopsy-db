@@ -6,118 +6,91 @@
 
 ## Content Pillars
 
-Boeing's content strategy reflects its positioning in the Aerospace & Defense segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
-
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "Boeing understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for aerospace & defense requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with Boeing." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+| Pillar | Share (estimated) | Core Message | Format |
+|--------|------------------|--------------|--------|
+| **Safety & Engineering** | ~30% | Every aircraft is the result of rigorous engineering discipline | Technical white papers, certification updates, engineering blog |
+| **Innovation & Future Flight** | ~25% | Sustainable aviation, autonomy, next-gen platforms | Video, boeing.com/innovation, air show announcements |
+| **Defense & Security** | ~20% | Protecting what matters; mission-ready systems | Defense-specific microsites, trade publications |
+| **Space & Advanced Programs** | ~10% | Humans in space; orbital and exploration programs | NASA partnership content, launch coverage |
+| **People & Culture** | ~10% | The engineers behind the aircraft | Employee stories, STEM outreach |
+| **Community & Sustainability** | ~5% | Sustainable aviation fuel; carbon goals | ESG report, environmental communications |
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
+**Hook 1 — The Engineering Milestone**
+> "The 787 Dreamliner's fuselage is 50 percent composite by weight — a first in commercial aviation."
+Specific, verifiable, legacy-building. Used in heritage and innovation content. (official, boeing.com)
 
-Opens with a recognizable industry challenge or pain point before presenting Boeing's perspective.
+**Hook 2 — The Mission Stakes**
+> "When a pilot needs to know their aircraft will respond, there is no second chance."
+Defense and safety-critical communications frame stakes before solution. Establishes why engineering rigor matters.
 
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+**Hook 3 — The Future Frame**
+> "By 2050, sustainable aviation fuel could power every Boeing aircraft in service."
+Long-range vision tied to a specific measurable future state. Used in sustainability and investor communications.
 
-### Hook 2 — Data-Driven Insight
-
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+**Hook 4 — The Numbers Proof**
+> "More than 10,000 Boeing commercial aircraft are in service today, carrying millions of passengers safely every day."
+Scale and safety record combined as a single data point. (official, boeing.com)
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | Boeing Pattern | What Boeing Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+| Context | CTA | Rationale |
+|---------|-----|-----------|
+| Commercial sales | "Explore the 737 MAX Family" | Product discovery; technical specifications |
+| Defense programs | "Learn About [Program Name]" | Defense comms are information-first, not conversion-first |
+| Careers | "Build the Future. Join Boeing." | Mission-aligned recruitment |
+| Sustainability | "Read Our Environmental Report" | Transparency signal; credibility building |
+| Investor | "View SEC Filings and Earnings" | Direct, formal; IR audience expects specificity |
 
 ---
 
-## Tone & Mood Guide
+## Tone Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — Boeing as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Example |
+|-----------|------|---------|
+| **Safety incident response** | Measured, factual, action-forward | "We are fully cooperating with the NTSB investigation and have taken the following steps..." |
+| **Product launch / air show** | Confident, technical, achievement-oriented | "The 777X is the world's largest and most efficient twin-engine jet." (official) |
+| **Defense program announcement** | Formal, mission-focused, partnership-framed | "Boeing is proud to support the U.S. Air Force's next-generation mobility mission." |
+| **Sustainability messaging** | Committed, specific, progress-oriented | "We have committed to commercially viable sustainable aviation fuel by 2030." |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. Do not make absolute safety guarantees — "completely safe" or "zero risk" language is inappropriate for aviation
+2. Do not reference specific 737 MAX accident details without linking to official NTSB/investigative reports
+3. Do not make future delivery promises in content without aligning with investor disclosure (forward-looking statements require legal review)
+4. Do not use competitive comparative claims without specific engineering metrics and citations
+5. Do not publish content about ongoing litigation without legal counsel review
+6. Do not use casualty figures from accidents without sourcing from official investigative bodies
 
 ---
 
-## Hashtag Strategy
+## Hashtags & Owned Vocabulary
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #BA | Financial and investor community | Moderate (estimated) |
-| #Boeing | Brand-level social engagement | Varies (estimated) |
-| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Term | Usage |
+|------|-------|
+| `#Boeing` | Primary brand tag |
+| `#BuildingFutureFlight` | Innovation content umbrella |
+| `#Dreamliner` | 787 program; consumer-facing aviation enthusiasm |
+| `#BoeingDefense` | Defense segment content |
+| `#GoingGreen` | Sustainability content (observed on Boeing social media) |
+| "ecodemonstrator" | Boeing's owned program name for sustainable aviation testing (official) |
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-Boeing's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. Publish the engineering work, not just the outcome.**
+Boeing's strongest content is engineering documentation that demonstrates process rigor — composite material innovation, aerodynamic testing footage, structural fatigue test results. The work itself is the credibility. Transferable: for any technical product, publishing the methodology builds more trust than publishing the result alone.
 
-**2. Use data as a credibility anchor.**
-In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in aerospace & defense face X challenge" backed by a cited statistic is stronger than the assertion alone.
+**2. In crisis, be first with facts and specific with actions.**
+Boeing's communications during the 737 MAX crisis were criticized for being slow and defensive. The contrast with its more effective post-2019 communications — specific MCAS redesign descriptions, FAA recertification timeline transparency — demonstrates the principle. Transferable: pre-build a crisis communication playbook that specifies the first 24-hour disclosure framework before any incident occurs.
 
-**3. Separate thought leadership from product marketing.**
-Boeing's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**3. Partner with mission-aligned institutions to extend credibility.**
+Boeing's NASA partnership on Commercial Crew gives the brand a mission context that commercial aviation alone cannot provide. When humans orbit Earth on a Boeing spacecraft, the engineering credibility transfers to commercial aircraft. Transferable: identify an institutional partner whose mission alignment with your brand elevates both parties' credibility through association.

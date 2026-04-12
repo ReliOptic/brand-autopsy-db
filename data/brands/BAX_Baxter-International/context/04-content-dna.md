@@ -6,118 +6,89 @@
 
 ## Content Pillars
 
-Baxter International's content strategy reflects its positioning in the Health Care Equipment segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
-
-| Pillar | Estimated Share | Core Message | Primary Formats |
-|--------|----------------|--------------|-----------------|
-| **1. Industry Expertise & Thought Leadership** | ~30% | "Baxter International understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
-| **2. Product & Service Solutions** | ~30% | "Proven solutions built for health care equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
-| **3. Customer Success & Results** | ~25% | "See how others achieved results with Baxter International." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
-| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
-
-Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
+| Pillar | Share (estimated) | Core Message | Format |
+|--------|------------------|--------------|--------|
+| **Clinical Science & Safety** | ~30% | Evidence-based products; FDA compliance; clinical outcomes | Peer-reviewed publications, clinical monographs, medical journal ads |
+| **Renal Care / Home Dialysis** | ~25% | Expanding patient choice; home as the future of ESRD care | Patient testimonials, HCP education, baxter.com/renal |
+| **Hospital Supply Chain** | ~20% | Reliability, formulary support, GPO partnerships | Trade press, hospital supply chain publications, ASHP presence |
+| **Corporate / IR** | ~15% | Responsible stewardship; Vantive spinoff; financial performance | Annual report, IR website, earnings releases |
+| **Patient Stories** | ~10% | Real patients; home dialysis as life-enabling | Video testimonials, patient advocacy partnerships |
 
 ---
 
 ## Hook Patterns
 
-### Hook 1 — Industry Challenge Lead
+**Hook 1 — The Critical Moment**
+> "In the ICU, when every second counts, the IV fluid hanging on that pole needs to work. Every time."
+Stakes-first framing that establishes the product's criticality before any feature discussion. (T4_INFERRED from brand positioning)
 
-Opens with a recognizable industry challenge or pain point before presenting Baxter International's perspective.
+**Hook 2 — The Home Freedom Story**
+> "For Robert, peritoneal dialysis at home means Tuesday nights at his granddaughter's recital, not at a dialysis clinic."
+Patient story that makes the abstract (home PD) concrete and emotionally resonant.
 
-- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
-- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
+**Hook 3 — The Supply Reliability Proof**
+> "Even during natural disasters, Baxter's multi-site manufacturing has maintained hospital supply commitments."
+References the Hurricane Maria context without exploiting it; positions resilience as a feature. (T4_INFERRED)
 
-### Hook 2 — Data-Driven Insight
-
-Opens with a specific data point, market statistic, or research finding relevant to the target audience.
-
-- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
-- **Applicable contexts**: White papers, industry reports, financial communications.
-
-### Hook 3 — Customer Story Lead
-
-Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
-
-- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
-- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
-
-### Hook 4 — Regulatory or Market Shift
-
-Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
-
-- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
-- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
+**Hook 4 — The Clinical Evidence Anchor**
+> "Data from [X] patients in [study] supports the safety and efficacy of [product]."
+Clinical evidence hook for HCP-directed content; uses specific data. (T4_INFERRED from medical communications style)
 
 ---
 
 ## CTA Patterns
 
-| CTA Type | Baxter International Pattern | What Baxter International Does Not Use |
-|----------|---------------|--------------------------|
-| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
-| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
-| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
-| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+| Context | CTA | Rationale |
+|---------|-----|-----------|
+| Hospital procurement | "Contact Our Clinical Team" | High-consideration; human expert needed |
+| Home dialysis patient | "Talk to Your Doctor About Home Dialysis" | Appropriate clinical pathway; not direct-to-consumer prescribing |
+| HCP education | "Download Clinical Data" | Gated; appropriate for qualified HCP audience |
+| Investor | "View Our Investor Relations Page" | Direct |
+| Patient | "Find a Baxter Home Dialysis Trainer Near You" | Action-enabling without clinical advice |
 
 ---
 
-## Tone & Mood Guide
+## Tone Guide
 
-### Situation 1 — Product or Service Announcement
-
-**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
-- Vocabulary: "introducing," "designed to," "engineered for," "built on"
-- Pacing: Feature, benefit, availability — structured and predictable
-
-### Situation 2 — Thought Leadership / Industry Commentary
-
-**Mood**: Authoritative insight — Baxter International as the sector expert sharing perspective.
-- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
-- Pacing: Context, insight, implication — building toward a conclusion
-
-### Situation 3 — Crisis or Negative News Response
-
-**Mood**: Measured accountability — acknowledge, scope, remediate.
-- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
-- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
-
-### Situation 4 — Customer-Facing Communication
-
-**Mood**: Helpful expertise — knowledgeable and approachable.
-- Vocabulary: "you can," "designed for," "helping you," "supporting your"
-- Pacing: Customer need first, then solution, then next steps
+| Situation | Tone | Example |
+|-----------|------|---------|
+| **Clinical HCP communications** | Scientific, evidence-grounded, peer-level | "In a randomized controlled study of [X] patients, peritoneal dialysis demonstrated non-inferior outcomes to in-center HD on [measure]." |
+| **Patient communications** | Warm, empowering, clear | "Home dialysis lets you manage your treatment on your schedule — here's what to expect." |
+| **Supply crisis communication** | Transparent, action-forward, solution-focused | "We are aware of supply constraints in [product]. Here are alternative formulations and our timeline for restoration." |
+| **Investor / earnings** | Formal, forward-looking labeled | Per SEC requirements |
 
 ---
 
 ## Content Prohibitions
 
-1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
-2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
-3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
-4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
-5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
-6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+1. Never make patient outcome promises that exceed clinical evidence — FDA-regulated; all claims require substantiation
+2. Never encourage patients to change therapy without physician consultation
+3. Never disclose specific hospital customer pricing or contract terms
+4. Never use clinical data from studies not completed or peer-reviewed
+5. Never make comparative efficacy claims between Baxter products and named competitors without head-to-head clinical evidence
+6. Never use patient imagery without documented HIPAA-compliant consent
 
 ---
 
-## Hashtag Strategy
+## Owned Vocabulary
 
-| Tag | Usage Context | Volume (estimated) |
-|-----|--------------|-------------------|
-| #BAX | Financial and investor community | Moderate (estimated) |
-| #BaxterInternational | Brand-level social engagement | Varies (estimated) |
-| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+| Term | Usage |
+|------|-------|
+| "HOMECHOICE Claria" | Branded home PD system (official) |
+| "Vantive" | Announced renal spinoff brand name (official, Baxter press releases) |
+| "Together, We Advance Patient Care" | Corporate tagline (official) |
+| "Home first" | Strategic positioning for renal segment (T4_INFERRED from strategic communications) |
+| "Critical care" | Segment descriptor for hospital IV and infusion products |
 
 ---
 
 ## Steal Sheet — 3 Transferable Principles
 
-**1. Lead with the customer's problem, not your solution.**
-Baxter International's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+**1. In regulated medical markets, clinical evidence IS the content.**
+Baxter's most credible content for hospital procurement audiences is peer-reviewed clinical data, not marketing copy. A clinical monograph demonstrating product performance in a relevant patient population is worth more than any campaign. Transferable: in regulated industries, invest in generating independent third-party validation (clinical studies, audit certifications, independent testing) that your marketing team can then cite.
 
-**2. Use data as a credibility anchor.**
-In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in health care equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+**2. Patient stories humanize B2B medical products without crossing into medical advice.**
+Baxter's home dialysis patient testimonials (observed on baxter.com) describe quality-of-life improvements without making clinical efficacy claims. The story is about life, not about the product. Transferable: when your product is used in sensitive or regulated contexts, structure customer stories around life outcomes and experiences rather than product features — the feature is implied by the outcome.
 
-**3. Separate thought leadership from product marketing.**
-Baxter International's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.
+**3. Supply crisis communication is a brand moment, not a brand threat.**
+When IV fluid shortages hit headlines, Baxter's communication about its multi-site manufacturing, its allocation protocols, and its recovery timeline is the brand in action. Companies that communicate transparently during supply crises emerge with stronger hospital relationships than those that go silent. Transferable: develop crisis communication protocols before the crisis; the brand that communicates first and specifically builds more trust than the one that communicates defensively.

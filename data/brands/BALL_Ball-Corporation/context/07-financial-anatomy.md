@@ -1,132 +1,86 @@
 # 07. Financial Anatomy — Ball Corporation (BALL)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **Disclaimer**: This analysis is based on publicly available information including SEC EDGAR filings and official company communications. It does not constitute investment advice. All figures reference specific filing documents. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Filing Source Links
+## SEC EDGAR Reference
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — BALL](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ball+Corporation&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — BALL 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ball+Corporation&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — BALL DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ball+Corporation&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — BALL 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ball+Corporation&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
-
-CIK number available via SEC EDGAR company search for Ball Corporation.
+- **CIK**: 0000009389
+- **EDGAR filing page**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000009389&type=10-K
+- **Most recent 10-K**: FY2023, filed February 2024 (SEC 10-K FY2023, T1_OFFICIAL)
+- **Ticker**: BALL (NYSE)
 
 ---
 
-## 2. Revenue Anatomy
+## 5-Year Revenue Trend
 
-### 2.1 Revenue Overview
-
-Ball Corporation's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
-
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
-
-### 2.2 Revenue Trend
-
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Ball Corporation's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Metal, Glass & Plastic Containers. (SEC 10-K)
+| Fiscal Year | Total Net Sales | YoY Change | Notes |
+|-------------|----------------|------------|-------|
+| FY2019 | $11.5B | — | SEC 10-K FY2019 |
+| FY2020 | $11.8B | +2.6% | SEC 10-K FY2020; COVID demand shift to canned beverages |
+| FY2021 | $13.8B | +16.9% | SEC 10-K FY2021; hard seltzer boom; aluminum demand spike |
+| FY2022 | $15.4B | +11.6% | SEC 10-K FY2022; aluminum cost pass-through; Rexam synergies |
+| FY2023 | $14.0B | -9.1% | SEC 10-K FY2023; volume normalization; Ball Aerospace divestiture pending |
 
 ---
 
-## 3. Profitability Anatomy
+## Segment Breakdown (FY2023, pre-Aerospace divestiture)
 
-### 3.1 Margin Structure
+| Segment | Net Sales (approx.) | % of Total | Description |
+|---------|--------------------|-----------:|-------------|
+| **Beverage Packaging, North and Central America** | ~$6.8B (estimated) | ~49% | U.S., Canada, Brazil, Mexico aluminum cans |
+| **Beverage Packaging, EMEA** | ~$4.2B (estimated) | ~30% | Europe, Middle East, Africa aluminum cans |
+| **Beverage Packaging, South America** | ~$1.5B (estimated) | ~11% | Brazil and other South American markets |
+| **Aerospace** | ~$1.5B (estimated) | ~11% | U.S. government space/defense (divested to BAE Systems Feb 2024) |
 
-Ball Corporation's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
-
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in metal, glass & plastic containers. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
-
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+*(Segment estimates derived from disclosed segment proportions; T4_INFERRED)*
 
 ---
 
-## 4. Investment Structure
+## Margin Structure
 
-### 4.1 Research & Development
-
-Ball Corporation's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
-
-### 4.2 SG&A
-
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Metric | FY2023 | Notes |
+|--------|--------|-------|
+| **Net Earnings** | ~$707M (estimated) | SEC 10-K FY2023; includes non-recurring items |
+| **Comparable Operating Earnings** | ~$1.2B (estimated) | Adjusted measure; excludes business consolidation costs |
+| **Adjusted EBITDA margin** | ~13–15% (estimated) | Packaging segment; aerospace higher |
+| **Debt-to-EBITDA** | ~3.5–4.0x (estimated) | Elevated from Rexam acquisition financing; deleveraging in progress |
 
 ---
 
-## 5. Capital Allocation
+## Capital Allocation
 
-### 5.1 Shareholder Returns
-
-Ball Corporation's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Ball Corporation's M&A strategy reflects its approach to growth in Metal, Glass & Plastic Containers. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Ball Corporation's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Ball Corporation's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+| Use | Notes |
+|-----|-------|
+| **Dividends** | Quarterly dividend paid consistently; modest yield (official, Ball IR) |
+| **Share repurchases** | Active; paused during peak leverage; resumed as deleveraging proceeds (official, Ball IR) |
+| **Debt repayment** | Priority post-Rexam acquisition; Ball Aerospace proceeds used for deleveraging |
+| **CapEx** | ~$700–900M annually (estimated); maintenance + selective capacity expansion |
+| **Ball Aerospace divestiture proceeds** | ~$5.6B (official, SEC 8-K; BAE Systems acquisition announced August 2023) |
 
 ---
 
-## 7. Brand Valuation
+## Key Financial Events
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
-
----
-
-## 8. Financial Risk Matrix
-
-Risk factors are disclosed in Ball Corporation's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
-
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in metal, glass & plastic containers affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
-
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+1. **Rexam PLC acquisition (2016)**: Ball acquired Rexam for ~$6.8B, creating the world's largest aluminum beverage can manufacturer (official, SEC filings). Significant debt taken on; deleveraging has been ongoing.
+2. **Ball Aerospace divestiture (2024)**: Ball sold Ball Aerospace to BAE Systems for ~$5.6B in cash, completed February 2024 (T1_OFFICIAL, SEC 8-K). Proceeds primarily used for debt reduction and shareholder returns.
+3. **Plant rationalization (2022–2023)**: Ball announced closure of multiple North American plants as hard seltzer volume normalized; charges reflected in 2022–2023 results. (official, Ball press releases)
 
 ---
 
-## 9. Brand-Finance Nexus
+## Risk Matrix
 
-The relationship between Ball Corporation's brand strength and financial performance can be observed through several signals (T4_INFERRED):
-
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
-
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Ball Corporation's position in metal, glass & plastic containers reflects accumulated brand equity and market credibility. (T4_INFERRED)
+| Risk | Likelihood | Impact | Notes |
+|------|-----------|--------|-------|
+| Aluminum commodity cost volatility | High | Medium | Primarily passed through; conversion margin risk |
+| Volume decline in key categories | Medium | High | Hard seltzer normalization partially realized |
+| Customer concentration | Medium | High | Top customers represent significant % of volume (estimated) |
+| Debt level | Low-Medium | Medium | Post-Aerospace sale proceeds reduce concern |
+| Sustainability regulation | Low | Medium | EU packaging regulation could require can design changes |
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## Brand-Finance Nexus
+
+Ball's brand equity in the B2B market is measured by customer retention rate and supply agreement term length — longer contracts at favorable conversion fees reflect customer confidence in Ball's reliability and partnership value. The Rexam acquisition was itself a brand consolidation strategy: eliminating a major competitor allowed Ball to offer beverage brands a single global can supplier relationship across North America and Europe, which is operationally valuable for globally coordinated beverage brands. The divestiture of Ball Aerospace allows management to focus capital and attention entirely on the aluminum packaging brand identity, simplifying the corporate narrative for both customers and investors.
