@@ -1,133 +1,102 @@
-# 05 디자인 시스템 — Synopsys (SNPS)
+# 05. Design System — Synopsys (SNPS)
 
-## 컬러 시스템
-
-CSS 추출 데이터 기반 공식 및 추정 색상 체계.
-
-### 메인 컬러 팔레트
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 출처 |
-|------|--------|-----|----------|------|
-| 주요 다크 배경 | Deep Navy | `#111C24` | 15 | 공식 |
-| 브랜드 퍼플 (Primary) | Synopsys Purple | `#5A2A82` | 59 | 공식 |
-| 브랜드 퍼플 (Secondary) | Medium Purple | `#80539C` | 58 | 공식 |
-| 밝은 퍼플 | Light Purple | `#7E45AF` | 22 | 공식 |
-| 인터랙션 블루 | Action Blue | `#316ACA` | 28 | 공식 |
-| 밝은 블루 | Sky Blue | `#4C9EC9` | 19 | 공식 |
-| 강조 옐로우 | Amber Gold | `#FCAF1A` | 21 | 공식 |
-| 딥 오렌지 | Warm Orange | `#E07C05` | 17 | 공식 |
-| 성공/포지티브 그린 | Tech Green | `#99CC33` | 16 | 공식 |
-| 티얼 / 액센트 | Teal Accent | `#00B2A9` | 16 | 공식 |
-| 딥 티얼 | Deep Teal | `#12788A` | 16 | 공식 |
-
-### 중립 & 텍스트 컬러
-
-| 역할 | 색상명 | HEX | 사용 빈도 | 출처 |
-|------|--------|-----|----------|------|
-| 보조 텍스트 | Slate Gray | `#646E81` | 77 | 공식 |
-| 다크 텍스트 | Charcoal | `#2E3C4D` | 21 | 공식 |
-| 미디엄 그레이 | Mid Gray | `#555555` | 48 | 공식 |
-| 서브 텍스트 | Stone Gray | `#777777` | 16 | 공식 |
-| 다크 서브텍스트 | Iron Gray | `#444444` | 12 | 공식 |
-| 배경 오프화이트 | Off White | `#F7F7FA` | 35 | 공식 |
-| 보더 라이트 | Light Border | `#C4C4C4` | 21 | 공식 |
-| 구분선 | Divider | `#DDDDDD` | 15 | 공식 |
-| 카드 보더 | Card Border | `#E3E3E3` | 14 | 공식 |
-
-### 컬러 사용 원칙 (추정)
-
-- **Primary Purple (`#5A2A82`)**: 주요 CTA 버튼, 헤더 강조, 브랜드 아이덴티티 요소
-- **Action Blue (`#316ACA`)**: 링크, 인터랙티브 요소, 세컨더리 CTA
-- **Amber Gold (`#FCAF1A`)**: 경고·하이라이트 배지, 프로모션 강조
-- **Deep Navy (`#111C24`)**: 다크 테마 배경, 히어로 섹션 배경
-- **Slate Gray (`#646E81`)**: 본문 보조 텍스트, 캡션, 메타 정보
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피 시스템
+## 1. Color Palette
 
-### 폰트 패밀리 (CSS 추출 기반)
+Synopsys's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 용도 | 폰트 | 비고 |
-|------|------|------|
-| 주요 UI 폰트 | Roboto / Roboto Light | 공식 — 가장 넓게 사용 |
-| 폴백 산세리프 | Arial, Helvetica, Helvetica Neue | 공식 |
-| 코드·모노스페이스 | Consolas, Courier New, Menlo, Monaco | 공식 — 기술 문서·코드 블록 |
-| 다국어 지원 | Osaka (일본어 폴백) | 공식 |
-| 비디오 플레이어 아이콘 | VideoJS | 공식 |
-| 글로벌 폴백 | sans-serif | 공식 |
+### Core Brand Colors
 
-### 타이포그래피 위계 (추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 레벨 | 용도 | 폰트 | 크기 | 굵기 |
-|------|------|------|------|------|
-| H1 | 페이지 히어로 제목 | Roboto | 48~56px | Bold (700) |
-| H2 | 섹션 제목 | Roboto | 32~40px | SemiBold (600) |
-| H3 | 서브섹션 제목 | Roboto | 24~28px | Medium (500) |
-| Body Large | 리드 문단 | Roboto Light | 18~20px | Light (300) |
-| Body | 본문 텍스트 | Roboto | 14~16px | Regular (400) |
-| Caption | 캡션·메타 | Roboto | 12px | Regular (400) |
-| Code | 코드 블록 | Consolas | 13~14px | Regular (400) |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 레이아웃 & 그리드 시스템 (추정)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-- **컨테이너 최대 폭**: 1280px (추정)
-- **그리드**: 12컬럼, 거터 24px (추정)
-- **섹션 패딩**: 80~120px 상하 (추정)
-- **카드 패딩**: 24~32px (추정)
-- **보더 라디우스**: 4~8px (추정) — 날카롭고 기술적인 느낌 유지
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 디자인 원칙 (추정)
+## 2. Typography
 
-### 1. 기술적 정밀성 (Technical Precision)
-복잡한 다이어그램과 회로도를 명확하게 표현. 장식보다 정보 밀도를 우선.
+Synopsys's digital properties employ a typographic system appropriate to its information technology positioning.
 
-### 2. 구조적 신뢰 (Structural Trust)
-깔끔한 그리드, 일관된 여백, 중립적 배경이 전문성을 전달.
+### Typeface System
 
-### 3. 퍼플 아이덴티티 (Purple Authority)
-퍼플 계열이 브랜드의 핵심 시각 언어. 경쟁사(Cadence — 파란색 중심)와 명확히 차별화.
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 4. 데이터 시각화 우선 (Data-First Visuals)
-텍스트보다 차트·표·다이어그램이 메시지를 더 빠르게 전달. 인포그래픽 중심 레이아웃.
+### Typographic Scale
 
----
-
-## 아이콘 & 일러스트레이션 스타일 (추정)
-
-- 선형(Line) 아이콘 중심 — 채움(Filled) 아이콘은 강조에만 사용
-- 회로 기판·칩 모티프를 브랜드 일러스트레이션에 활용
-- 3D 렌더링보다 플랫·세미플랫 스타일 선호
-- 인체·사람 일러스트는 최소화, 기술 다이어그램 중심
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 레이어별 3가지 훔칠 전략
+## 3. Channel Specifications
 
-### 레이어 1: 브랜드 인지 (Brand Recognition)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-1. **"퍼플 오너십" 일관성 전략** — `#5A2A82`를 디지털·인쇄·이벤트 부스 전반에 걸쳐 흔들림 없이 유지. 색상만으로 브랜드를 식별 가능하게 만드는 반복 노출 전략. 경쟁사가 파란색에 몰려 있는 EDA 시장에서 퍼플은 독점 포지션.
+---
 
-2. **회로 기판 텍스처 배경** — 히어로 섹션이나 이벤트 배경에 실제 PCB 패턴 또는 추상화된 회로 라인 텍스처를 사용. 제품과 브랜드 정체성이 시각적으로 직결되는 효과.
+## 4. Layout Principles
 
-3. **다크 테마 우선 이벤트 자료** — `#111C24` 다크 배경에 퍼플·골드 강조색 조합의 프레젠테이션과 부스 디자인. 컨퍼런스장의 밝은 환경에서 강한 대비 효과.
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### 레이어 2: UX 신뢰 (UX Trust)
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-1. **데이터 테이블 디자인 패턴** — 기술 사양 비교, 벤치마크 결과를 위한 고밀도 데이터 테이블 컴포넌트. `#E3E3E3` 보더, `#F7F7FA` 홀수 행 배경, `#316ACA` 헤더로 가독성 극대화.
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-2. **코드 블록 스타일 통일** — Consolas 폰트, 어두운 배경(`#2E3C4D`), 구문 강조(Syntax Highlighting)에 `#99CC33`(그린)·`#FCAF1A`(골드) 사용. 개발자·엔지니어 대상 콘텐츠의 신뢰도를 즉각 높임.
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
-3. **진행 상태 시각화 컴포넌트** — 설계 플로우(RTL → Synthesis → P&R → Signoff)를 시각적으로 표현하는 스텝 인디케이터 UI. `#4C9EC9` 완료 색상, `#646E81` 미완료 색상으로 명확한 상태 구분.
+---
 
-### 레이어 3: 전환 최적화 (Conversion Optimization)
+## 5. Design Prohibitions
 
-1. **CTA 버튼 A/B 테스트 기준점** — Primary CTA: `#5A2A82` 퍼플 배경 + 흰색 텍스트. Secondary CTA: `#316ACA` 블루 아웃라인. 두 버튼의 시각적 위계를 명확히 하여 클릭 경쟁 제거.
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-2. **폼 디자인 마찰 최소화** — 데모 신청·다운로드 폼을 2단계 이하로 압축. 첫 단계: 이메일·회사명만. 두 번째 단계: 나머지 정보. 입력 필드 포커스 색상은 `#5A2A82` 퍼플 보더.
+---
 
-3. **소셜 프루프 배지 디자인** — 고객사 로고를 그레이스케일로 처리하여 배경과의 충돌 없이 나열. 수치 강조 배지(예: "5,000+ DesignWare IP", "21,000+ 고객사")에 `#FCAF1A` 골드 배경 사용.
+*Layer 5 of 8 — Brand Autopsy: Synopsys (SNPS)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

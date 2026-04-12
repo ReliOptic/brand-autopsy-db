@@ -1,98 +1,84 @@
-# 02 오디언스 맵 — Becton Dickinson (BDX)
+# 02. Audience Map — Becton Dickinson (BDX)
 
-## 타깃 오디언스 개요
-
-BD는 순수 B2B 브랜드로, 최종 소비자(환자)보다 의료 기관·전문가·구매 조직을 주요 오디언스로 삼는다. 의사결정 사이클이 길고 다중 이해관계자가 관여하는 복잡한 구매 구조를 가진다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 병원 구매 책임자 — "조달 최적화형 김부장"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직급 | 45세 / 병원 구매팀장 (공립·사립 종합병원) |
-| 지역 | 서울·수도권 대형 병원 (추정) |
-| 주요 KPI | 연간 구매 비용 절감율, 공급 안정성, 규제 컴플라이언스 통과율 |
-| 정보 탐색 채널 | 의료기기 전시회 (KIMES, Medica), 벤더 제안서, 정부 조달 플랫폼 |
-| 핵심 페인포인트 | 공급망 단절 리스크, 납품 지연, 제품 표준화 어려움 |
-| BD 접점 | 영업 담당자 방문, 계약 갱신 협상, 제품 교육 세미나 |
-| 구매 결정 동인 | 총비용(TCO), 납품 안정성, 기존 EHR 시스템과의 호환성, 인증 현황 |
-| 브랜드 기대치 | 신뢰할 수 있는 장기 공급 파트너, 문제 발생 시 즉각 대응 |
-
-**메시지 전략**: 비용 효율성과 공급 안정성을 동시에 증명하는 케이스 스터디 제공. 총소유비용(TCO) 계산기, SLA 보장 조항 강조.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Becton Dickinson's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Becton Dickinson's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 임상 검사실 전문가 — "정밀도 집착형 박과장"
+### Persona 1 — Enterprise Decision-Maker
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직급 | 38세 / 임상병리사 / 대학병원 진단검사의학과 (추정) |
-| 지역 | 전국 대학병원·전문병원 (추정) |
-| 주요 KPI | 검사 정확도, 위양성·위음성율, 처리량(throughput), CAP 인증 유지 |
-| 정보 탐색 채널 | 학술지 (AJCP, Clinical Chemistry), 학회 발표, 동료 추천 |
-| 핵심 페인포인트 | 검체 오염, 결과 재현성, 장비-시약 호환성, 교육 부담 |
-| BD 접점 | 제품 시연 (demo), 학술 포스터, 기술 지원 핫라인 |
-| 구매 결정 동인 | 분석 민감도·특이도 데이터, 동료 검토 임상 연구, 교육 지원 |
-| 브랜드 기대치 | 과학적 신뢰성, 기술 지원 즉응성, 최신 방법론 수용 |
-
-**메시지 전략**: 동료 검토 임상 데이터 전면 제시, 전문가 교육 프로그램(BD University), 학술 협업 파트너십 어필.
+- **Age / Occupation**: 42, VP-level or director in a Becton Dickinson customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Becton Dickinson selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## 페르소나 3
+### Persona 2 — Technical Specialist / End User
 
-### 페르소나: 감염관리 전문 간호사 — "안전 수호자 이수간"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직급 | 32세 / 감염관리간호사 (ICN) / 중규모 종합병원 (추정) |
-| 지역 | 전국 분포 (추정) |
-| 주요 KPI | 의료관련 감염(HAI) 발생률, 침습적 시술 관련 감염 지표, 직원 안전 사고 |
-| 정보 탐색 채널 | APIC 가이드라인, CDC 권고문, 병원 내 정책 위원회 |
-| 핵심 페인포인트 | 침상에서의 바늘 자상(NSI), 혈류 감염(CLABSI), 직원 교육 지속성 |
-| BD 접점 | 안전 주사기 제품 교육, 감염 관리 웨비나, 임상 사례 공유 |
-| 구매 결정 동인 | 바늘 자상 예방 데이터, OSHA 컴플라이언스, 직원 교육 용이성 |
-| 브랜드 기대치 | 직원과 환자 모두를 보호하는 진정한 안전 솔루션 |
-
-**메시지 전략**: 바늘 자상 예방 통계, 안전 기기 도입 후 HAI 감소 사례, 교육 자료 무상 제공 프로그램 강조.
+- **Age / Occupation**: 35, technical professional who interacts with Becton Dickinson's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Becton Dickinson selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 의사결정 여정 (B2B 구매 사이클)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인식 단계 → 고려 단계 → 평가 단계 → 구매 단계 → 사후 관리
-   |              |              |              |              |
-학회/전시회     제안서 검토    임상 시험       계약 협상      갱신/확장
-콘텐츠 마케팅   웨비나 참여    레퍼런스 조회   조달 승인      사용자 교육
-디지털 광고     영업 방문      규제 확인       설치/납품      기술 지원
-```
+- **Age / Occupation**: 38, consumer who interacts with Becton Dickinson's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Becton Dickinson selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+## Purchase Journey — AARRR Framework
 
-| 세그먼트 | 구매 영향력 | 기술 이해도 | BD 접근법 |
-|----------|------------|------------|----------|
-| C-Suite (CFO, CMO) | 최종 승인 | 낮음 | ROI·리스크 감소 프레임 |
-| 구매/조달팀 | 협상·계약 | 중간 | TCO, 공급 안정성 |
-| 임상 전문가 | 제품 지정 | 높음 | 임상 데이터, 교육 |
-| 감염관리팀 | 정책 추천 | 중간~높음 | 안전 기기, 컴플라이언스 |
-| IT/정보화팀 | 시스템 통합 | 높음 | 인터페이스, 데이터 표준 |
-| 규제/QA팀 | 승인 게이트 | 높음 | 인증, 문서화 |
+| Stage | Becton Dickinson's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Becton Dickinson total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 오디언스 특성 (추정)
+## Anti-Persona — Who Becton Dickinson Is Not For
 
-| 지역 | 핵심 관심사 | 커뮤니케이션 채널 |
-|------|-----------|-----------------|
-| 북미 | 가치 기반 의료(VBC), 번들 결제 | HCP 저널, 영업 직접 방문 |
-| 유럽 | MDR 규제 준수, NHS 입찰 | 규제 문서, 공공 조달 |
-| 아시아(한국·일본) | 정부 조달, 건강보험 급여 | 현지 배급사, 학회 후원 |
-| 신흥시장 | 비용 접근성, 기초 인프라 | 파트너사, NGO 협력 |
+| Type | Characteristics | Why Becton Dickinson Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Becton Dickinson's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Becton Dickinson's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Becton Dickinson's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Becton Dickinson's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Becton Dickinson's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

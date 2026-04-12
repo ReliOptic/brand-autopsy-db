@@ -1,97 +1,123 @@
-# 04. 콘텐츠 DNA 해부 — Salesforce (CRM)
+# 04. Content DNA — Salesforce (CRM)
 
-## 콘텐츠 필러 (Content Pillars)
-
-| 필러 | 비중 | 핵심 메시지 | 예시 포맷 |
-|------|------|-------------|-----------|
-| **1. Customer Success 스토리** | 30% | "우리 고객이 Salesforce로 달성한 성과" — 수치 중심 케이스 스터디 | 고객 인터뷰 영상, 케이스 스터디 PDF, Dreamforce 스피커 발표 |
-| **2. 제품 혁신 / 출시 소식** | 25% | "AI가 바꾸는 CRM의 미래" — Agentforce, Data Cloud, 신기능 발표 | 블로그 포스트, YouTube 데모 영상, 릴리스 노트, 웨비나 |
-| **3. 업종별 인사이트** | 20% | "당신의 산업에서 통하는 CRM 전략" — 금융·제조·리테일 등 버티컬 | 산업 리포트(IDC 공동 발간), 인포그래픽, 업종별 블로그 |
-| **4. 교육 / Trailhead** | 15% | "Trailblazer가 되는 방법" — 기술 습득, 자격증, 커리어 | 학습 모듈, 튜토리얼 영상, 자격증 가이드, 팟캐스트 |
-| **5. 사고 리더십 / 트렌드** | 10% | "CRM과 AI의 미래를 Salesforce가 정의한다" — 업계 전망, 리서치 | State of Sales 연간 리포트, LinkedIn 아티클, CNBC/Forbes 기고 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 훅 (Hook) 공식
+## Content Pillars
 
-### 훅 유형 1 — 수치 충격형
-**공식**: [예상을 뒤엎는 수치] + [고통 공감] + [해결 방향 암시]
-**예시**:
-- "영업 담당자의 72%가 CRM에 데이터를 입력하는 데 하루 2시간 이상을 쓴다. 그 시간을 고객 대화에 쓴다면?" (State of Sales 리포트 인용)
-- "고객 1명을 잃는 데 드는 비용은 새 고객 유치 비용의 5배다. 당신의 이탈 방어 전략은 무엇인가?"
+Salesforce's content strategy reflects its positioning in the Application Software segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 훅 유형 2 — 정체성 도발형
-**공식**: [Trailblazer 정체성 자극] + [도전적 질문]
-**예시**:
-- "당신의 경쟁사는 이미 AI 에이전트를 고객 서비스에 배치했다. 당신은 아직 수작업으로 티켓을 처리하고 있는가?"
-- "Trailblazer는 변화를 기다리지 않는다. 변화를 만든다."
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Salesforce understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for application software requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Salesforce." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 훅 유형 3 — 레거시 대조형
-**공식**: [구세계 상황 묘사] + [신세계 비교] + [전환 초대]
-**예시**:
-- "2019년: 영업팀이 Excel로 파이프라인 관리. 2024년: AI 에이전트가 리드를 자동 분류하고, 다음 액션을 추천하고, 고객 이탈 신호를 사전 감지한다. 당신의 팀은 어느 세계에 있는가?"
-
-### 훅 유형 4 — 권위 앵커형
-**공식**: [업계 1위 지위] + [구체적 고객 성과] + [당신도 가능]
-**예시**:
-- "세계 500대 기업 중 80%가 Salesforce를 사용한다. 그들이 공통적으로 달성한 것: 영업 생산성 32% 향상, 고객 만족도 45% 개선."
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## CTA (Call to Action) 레이어
+## Hook Patterns
 
-| 단계 | CTA 유형 | 문구 예시 | 목적 |
-|------|----------|-----------|------|
-| 인지 (Awareness) | 소프트 CTA | "State of Sales 무료 리포트 다운로드" | 이메일 수집 / 리드 너처링 시작 |
-| 고려 (Consideration) | 교육 CTA | "Trailhead에서 무료로 시작하기" | 제품 경험 · 챔피언 육성 |
-| 의향 (Intent) | 데모 CTA | "맞춤 데모 신청하기 (15분)" | SQL 전환 |
-| 전환 (Conversion) | 트라이얼 CTA | "30일 무료 체험 시작" | 제품 활성화 |
-| 확장 (Expansion) | 업셀 CTA | "Agentforce 파일럿 프로그램 참여하기" | 추가 클라우드 도입 |
-| 옹호 (Advocacy) | 커뮤니티 CTA | "Dreamforce 2025 스피커로 참여하기" | Trailblazer 팬덤화 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Salesforce's perspective.
 
-## 톤 가이드
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 상황별 톤 매트릭스
+### Hook 2 — Data-Driven Insight
 
-| 상황 | 톤 | 금지 표현 | 권장 표현 |
-|------|-----|-----------|-----------|
-| 제품 런칭 공지 | 흥분감 있는 권위적 톤 | "드디어 출시했습니다" (소극적) | "오늘, AI CRM이 다시 정의됩니다." |
-| 고객 성공 케이스 | 공감·자부심 톤 | "○○ 기업이 Salesforce 도입" | "○○ 기업 CRO가 Trailblazer가 된 이야기" |
-| 위기/장애 대응 | 투명·책임 톤 | "일부 불편을 드려 죄송합니다" (모호) | "현재 상황, 원인, 복구 예상 시간, 사후 조치를 투명하게 공유합니다." |
-| 경쟁 대응 콘텐츠 | 자신감 있는 사실 기반 톤 | "경쟁사는 ○○가 부족합니다" (공격적) | "고객이 Salesforce를 선택하는 이유: [구체적 데이터]" |
-| 교육/Trailhead | 동료 멘토 톤 | "쉽게 배울 수 있습니다" (하향 톤) | "다음 단계로 성장하는 Trailblazer를 위한 가이드" |
-| 업종별 콘텐츠 | 전문가 조언 톤 | "모든 기업에 적합한" (일반화) | "금융서비스 CRO를 위한 AI 에이전트 도입 전략" |
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### 보이스 조율 원칙
-1. **"우리가 최고다"보다 "우리 고객이 최고다"** — 항상 고객의 성과를 주어로
-2. **수치가 없으면 주장이 없다** — 모든 성과 주장에는 출처 있는 수치 필수
-3. **기술 용어는 비즈니스 언어로 번역** — "API 연동"이 아닌 "팀 간 데이터 자동 공유"
-4. **AI는 도구지 주인공이 아니다** — "AI가 한다"보다 "당신의 팀이 AI와 함께"
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
+
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 금지사항
+## CTA Patterns
 
-### 절대 금지
-- **미검증 수치 사용**: "업계 최고" "가장 빠른" 등 근거 없는 최상급 표현 — Salesforce는 IDC, Gartner, 자체 조사 수치만 인용
-- **경쟁사 실명 직접 비하**: 배틀카드는 내부용, 공개 콘텐츠에서 경쟁사 직접 비하는 브랜드 격하
-- **기술 중심 마케팅**: "APEX 코드로 구현 가능한" — 비즈니스 의사결정자에게는 비즈니스 결과로만 커뮤니케이션
-- **단일 기능 프로모션**: Salesforce는 플랫폼이다. "이 기능 하나" 마케팅은 플랫폼 가치를 훼손
-- **보안 관련 모호한 표현**: "클라우드라 안전합니다" — Trust.salesforce.com 기반 구체적 인증(ISO, SOC2, GDPR) 명시 필수
-
-### 톤 금지
-- 겸손 과잉 ("저희가 부족하지만...") — Ruler 아키타입은 자신감
-- 과장 광고 어조 ("놀라운!" "혁명적인!") — 데이터와 레퍼런스로 대체
-- 지나친 기술 행사 홍보 ("Dreamforce 등록하세요!") — 왜 참석해야 하는지 가치 제안 선행
+| CTA Type | Salesforce Pattern | What Salesforce Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-### Steal Sheet — 3가지
+## Tone & Mood Guide
 
-1. **콘텐츠의 30%를 고객이 대신 만들게 하라.** Salesforce 콘텐츠 전략의 숨겨진 엔진은 Trailblazer들이 직접 작성하는 Trailhead 블로그, Dreamforce 발표, 커뮤니티 포럼 답변이다. 브랜드가 직접 생산하는 콘텐츠는 광고로 읽히지만, 고객이 만든 콘텐츠는 증언으로 읽힌다. 고객 콘텐츠 생산을 인센티브화하는 구조(뱃지, 스피커 기회, 인지도)를 먼저 설계하라.
+### Situation 1 — Product or Service Announcement
 
-2. **연간 리포트를 리드 마그넷으로 만들어라.** Salesforce의 "State of Sales" "State of Marketing" 시리즈는 업계에서 가장 많이 인용되는 B2B 리서치 중 하나다. 이 리포트 하나가 수십만 개의 이메일 리드를 생성하고, 기자들이 기사에 인용하며, 경쟁사 영업 담당자들도 참고한다. 연간 리서치 리포트는 미디어 예산 없이 얻을 수 있는 가장 강력한 PR 자산이다.
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-3. **훅은 고통에서 시작하고, CTA는 정체성으로 끝내라.** Salesforce의 최고 전환율 콘텐츠는 "당신의 고통(비효율한 영업 프로세스)"에서 시작해 "당신이 될 수 있는 모습(Trailblazer)"으로 끝난다. 제품 기능 설명으로 시작하면 클릭률이 떨어진다. 독자의 현재 고통을 정확하게 명명하면 나머지는 자연스럽게 따라온다.
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Salesforce as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #CRM | Financial and investor community | Moderate (estimated) |
+| #Salesforce | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Salesforce's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in application software face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Salesforce's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

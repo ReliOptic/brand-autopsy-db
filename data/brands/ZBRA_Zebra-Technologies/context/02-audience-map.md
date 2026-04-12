@@ -1,146 +1,84 @@
-# 02 오디언스 맵 — Zebra Technologies (ZBRA)
+# 02. Audience Map — Zebra Technologies (ZBRA)
 
-## 타겟 오디언스 개요
-
-Zebra의 고객은 개인 소비자가 아닌 **기업 구매자(B2B)**다. 의사결정 구조가 복잡하며 구매 사이클이 길고, 다수의 이해관계자가 관여한다. 핵심 버티컬은 제조·물류·유통·소매·헬스케어·공공 안전이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 3개
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 물류센터 운영 총괄 (Operations Director)
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 김준혁 (추정) |
-| 직함 | 물류센터 운영 총괄 이사 |
-| 연령 | 42~52세 (추정) |
-| 소속 | 대형 e커머스 또는 3PL 기업 |
-| 주요 KPI | 출하 정확도, 피킹 속도, 재고 오차율, 시간당 처리량 |
-
-**Pain Points**
-- 피킹 오류로 인한 반품 비용 증가
-- 계절적 물동량 급증 시 인력 부족
-- 노후화된 RF 터미널의 배터리 수명·고장률
-- WMS 시스템과 현장 디바이스 연동 불안정
-
-**정보 수집 채널**
-- 산업 컨퍼런스 (LogiMAT, KLogis)
-- 동종업계 CIO·COO 네트워크
-- Zebra 파트너사 영업 미팅
-- 유튜브 산업 채널 (추정)
-
-**구매 동기**
-- 운영 비용 절감 (Cost per Pick 감소)
-- 작업자 생산성 향상 측정 가능한 ROI
-- 다운타임 최소화를 위한 유지보수 서비스
-
-**메시지 키**
-> "현장 작업자가 더 빠르고 정확하게 움직일 수 있도록 — 검증된 기술로."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electronic equipment & instruments and adjacent industries. (T4_INFERRED from Zebra Technologies's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Zebra Technologies's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: IT 인프라 관리자 (IT Infrastructure Manager)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 이수진 (추정) |
-| 직함 | IT 인프라·모바일 디바이스 관리 팀장 |
-| 연령 | 35~45세 (추정) |
-| 소속 | 대형 유통·소매 체인 또는 제조사 |
-| 주요 KPI | 디바이스 가동률, 보안 컴플라이언스, TCO, 배포 속도 |
+### Persona 1 — Enterprise Decision-Maker
 
-**Pain Points**
-- 수천 대 디바이스의 원격 관리·업데이트 부담
-- 다양한 OS·기종 혼재로 인한 관리 복잡성
-- 보안 패치 배포 지연으로 인한 컴플라이언스 리스크
-- 현장 디바이스 분실·파손 추적 어려움
-
-**정보 수집 채널**
-- Gartner·Forrester 리포트
-- IT 전문 커뮤니티 (Reddit r/sysadmin, 국내 ITWorld)
-- Zebra DNA 포털·기술 문서
-- 파트너사 기술 세미나
-
-**구매 동기**
-- 단일 플랫폼으로 전사 디바이스 통합 관리
-- 보안·컴플라이언스 자동화
-- 기존 ERP·WMS 시스템과의 원활한 통합
-
-**메시지 키**
-> "수천 대 디바이스를 단일 대시보드에서 — 보안은 기본, 효율은 덤."
+- **Age / Occupation**: 42, VP-level or director in a Zebra Technologies customer organization
+- **Core pain**: Needs reliable electronic equipment & instruments solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Zebra Technologies selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 헬스케어 정보 시스템 책임자 (Healthcare IT Director)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박민서 (추정) |
-| 직함 | 병원 정보 시스템 운영 부장 |
-| 연령 | 40~55세 (추정) |
-| 소속 | 종합병원·대학병원·의료기기 유통사 |
-| 주요 KPI | 환자 안전 사고율, 의약품 투여 오류율, 규정 준수율, 자산 가동률 |
-
-**Pain Points**
-- 의약품·혈액 샘플 바코드 스캔 오류로 인한 환자 안전 사고
-- 의료 기기·자산 위치 파악 어려움 (RTLS 부재)
-- 병원 전체 Wi-Fi 환경에서 디바이스 연결 불안정
-- HIPAA·국내 개인정보보호법 컴플라이언스 부담
-
-**정보 수집 채널**
-- HIMSS 컨퍼런스
-- 의료 IT 전문지 (Healthcare IT News, 국내 청년의사·메디게이트)
-- 병원 CIO 포럼
-- 의료기기 유통사 제안 (추정)
-
-**구매 동기**
-- 환자 안전 향상 (점 of Care 스캐닝)
-- 의료 자산 실시간 추적 (RFID/RTLS)
-- 규제 기관 감사 대비 데이터 추적성 확보
-
-**메시지 키**
-> "올바른 환자, 올바른 약, 올바른 시간 — 데이터가 생명을 지킨다."
+- **Age / Occupation**: 35, technical professional who interacts with Zebra Technologies's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Zebra Technologies selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 의사결정 구조 (B2B 복합 DMU)
+### Persona 3 — Financial Stakeholder / Investor
 
-```
-경제적 구매자 (Economic Buyer)
-  └── CFO / COO — 최종 예산 승인
-
-기술적 구매자 (Technical Buyer)
-  └── IT 디렉터 / CTO — 기술 적합성 평가
-
-사용자 (User)
-  └── 현장 운영 관리자 — 일상 사용 및 요구사항 정의
-
-인플루언서 (Influencer)
-  └── 시스템 통합업체 (SI) / Zebra 파트너 — 솔루션 추천
-```
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Zebra Technologies's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Zebra Technologies selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 버티컬별 오디언스 우선순위
+## Purchase Journey — AARRR Framework
 
-| 버티컬 | 중요도 | 주요 페인 포인트 |
-|--------|--------|----------------|
-| 물류·유통 | 최우선 | 피킹 정확도, 재고 가시성, 처리량 |
-| 소매 | 높음 | 재고 부족, 계산대 속도, 옴니채널 |
-| 제조 | 높음 | 공정 추적, 품질 관리, WIP 가시성 |
-| 헬스케어 | 높음 | 환자 안전, 자산 추적, 컴플라이언스 |
-| 공공 안전 | 중간 | 현장 통신, 증거 추적, 신원 확인 |
-| 숙박·여행 | 낮음 (추정) | 수하물 추적, 체크인 자동화 |
+| Stage | Zebra Technologies's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Zebra Technologies total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 고객 여정 단계별 니즈
+## Anti-Persona — Who Zebra Technologies Is Not For
 
-| 단계 | 니즈 | Zebra 대응 |
-|------|------|-----------|
-| 인식 (Awareness) | 업계 트렌드·문제 인식 | 백서, 산업 리포트, 컨퍼런스 후원 |
-| 고려 (Consideration) | 솔루션 비교·ROI 계산 | 사례 연구, ROI 계산기, 데모 |
-| 결정 (Decision) | 기술 검증·파트너 선정 | POC 지원, 파트너 네트워크, 레퍼런스 |
-| 유지 (Retention) | 지속 지원·업그레이드 | OneCare 서비스, DNA 플랫폼 업데이트 |
-| 확장 (Expansion) | 추가 솔루션 도입 | 크로스셀 (프린터→RFID→소프트웨어) |
+| Type | Characteristics | Why Zebra Technologies Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Zebra Technologies's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Zebra Technologies's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Zebra Technologies's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Zebra Technologies's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Zebra Technologies's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

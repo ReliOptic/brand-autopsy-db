@@ -1,126 +1,77 @@
-# 02 오디언스 맵 — Allegion (ALLE)
+# 02. Audience Map — Allegion plc (ALLE)
 
-## 오디언스 레이어 구조
-
-```
-[최종 사용자 / 거주자·임직원]
-        ↑
-[구매 결정자 / 건축주·시설관리자·IT보안]
-        ↑
-[사양 지정자 / 건축가·컨설턴트·엔지니어]
-        ↑
-[유통 채널 / 유통업체·잠금장치 전문점·전기업체]
-        ↑
-[Allegion 직접 영업 / 전략 계정·OEM]
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 마커스 — 상업용 건물 시설 관리자
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직책 | 48세 / Senior Facilities Manager |
-| 업종 | 대형 의료 시스템 (병원 3개 캠퍼스) |
-| 소재지 | 오하이오주 콜럼버스 (추정) |
-| 연간 예산 | 하드웨어 교체 $200K~$500K (추정) |
-| 학력 | 건물 관리 자격증(CFM), 전문대 졸 (추정) |
-
-**핵심 목표**
-- HIPAA 규정 준수 및 병원 내 구역별 접근 제어 최적화
-- 노후 잠금 하드웨어의 전자 접근 제어로 단계적 교체
-- 유지보수 티켓 감소 및 마스터 키 분실 사고 제거
-
-**페인 포인트**
-- 구형 기계식 키 시스템의 마스터 키 분실 시 전체 재키(re-key) 비용
-- IT 부서와 물리 보안 부서 간 통합 프로토콜 부재
-- 낮은 예산 내 규정 감사 대응 압박
-
-**정보 소비 채널**
-- IFMA(국제 시설 관리 협회) 컨퍼런스, LinkedIn, 유통업체 제품 교육
-
-**구매 트리거**
-- 보안 감사 지적 사항, 시설 리노베이션 사이클, 규정 개정
-
-**Allegion 관련성**
-- Schlage NDE/LE 시리즈 무선 잠금장치, Schlage Control 스마트 카드 리더 (공식)
+| Dimension | Profile |
+|-----------|---------|
+| **Core segments** | Residential homeowners (Schlage), commercial building owners/facility managers (Von Duprin, LCN), institutional (schools, healthcare, government), security integrators and locksmiths |
+| **Geographic focus** | Americas (~71% of revenue), EMEIA (~20%), Asia Pacific (~9%) (SEC 10-K FY2024) |
+| **Purchase triggers** | New construction, renovation/remodel, security upgrade mandate, smart home adoption, regulatory compliance (fire code, ADA) |
+| **Decision-makers** | Residential: homeowner or builder. Commercial: architect, security consultant, facility manager, general contractor |
 
 ---
 
-## 페르소나 2
+## Core Personas
 
-### 페르소나: 소연 — K-12 학교구 보안 코디네이터
+### Persona 1 — Jennifer, Homeowner
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직책 | 39세 / District Safety & Security Coordinator |
-| 업종 | 공립 학교 (학생 수 12,000명, 학교 22개) |
-| 소재지 | 텍사스주 댈러스 교외 (추정) |
-| 연간 예산 | 연방 보안 보조금 포함 $150K~$300K (추정) |
-| 학력 | 형사학 학사, CPP 자격증 (추정) |
+- **Age**: 38, suburban homeowner, upgrading to smart home
+- **Product**: Schlage Encode Plus smart deadbolt
+- **Core pain**: Wants keyless entry and remote access but distrusts unknown smart lock brands. Needs a brand she recognizes from the hardware store.
+- **Schlage rationale**: Trusted brand + Apple Home Key compatibility + no monthly subscription. (official, schlage.com)
+- **Churn risk**: Low — lock replacement cycle is 7–15 years. (estimated)
 
-**핵심 목표**
-- 능동적 사격자(Active Shooter) 대응 프로토콜 강화
-- 교실 단위 신속 잠금 기능 구현
-- ESSER 연방 보조금 기한 내 집행
+### Persona 2 — Robert, Facility Manager
 
-**페인 포인트**
-- 예산 주기와 학교 방학 일정에 맞춘 설치 계획 조율
-- 교사·직원 교육 부담 — 복잡한 시스템은 채택율 저하
-- 주정부 보안 규정의 잦은 개정
+- **Company**: Regional hospital system, 5 locations
+- **Products**: Schlage AD-series electronic locks + Von Duprin exit devices + Allegion Overtur access management
+- **Core pain**: Managing access credentials for 3,000+ employees across multiple buildings with different security zones. Compliance with healthcare security regulations.
+- **Allegion rationale**: Integrated platform (Overtur) managing electronic locks, mobile credentials, and visitor management from a single dashboard. (official, allegion.com)
+- **Churn risk**: Very low — replacing an enterprise access control system is a multi-year project. (T4_INFERRED)
 
-**정보 소비 채널**
-- NASRO, SIA(Security Industry Association), 주정부 교육청 세미나
+### Persona 3 — Mark, Security Integrator
 
-**구매 트리거**
-- 총기 사건 이후 이사회 압박, 연방 보조금 수령, 시설 노후화
-
-**Allegion 관련성**
-- Von Duprin 출구 장치, Schlage 교실 잠금 기능, Allegion 스쿨세이프 프로그램 (공식)
+- **Company**: Regional security systems integrator
+- **Role**: Designs and installs access control systems for commercial clients
+- **Core pain**: Needs reliable products with good margin, strong technical support, and brand recognition that helps close sales.
+- **Allegion rationale**: Schlage and Von Duprin brand recognition makes specification easier. Allegion's channel programs provide training, support, and margin. (T4_INFERRED)
+- **Churn risk**: Medium — integrators work with multiple brands and may shift based on project requirements and margin. (T4_INFERRED)
 
 ---
 
-## 페르소나 3
+## Purchase Journey — AARRR Framework
 
-### 페르소나: 제임스 — 주거용 부동산 개발사 구매 담당
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 직책 | 34세 / Procurement Manager, Residential Builder |
-| 업종 | 중대형 주택 건설사 (연간 착공 1,200세대) |
-| 소재지 | 플로리다주 탬파 (추정) |
-| 연간 예산 | 잠금 하드웨어 $600K~$1.2M (추정) |
-| 학력 | 공급망 관리 학사 (추정) |
-
-**핵심 목표**
-- 세대당 하드웨어 비용 최적화하면서 스마트홈 옵션 제공
-- 홈빌더 인센티브 프로그램 활용으로 마진 개선
-- 바이어 만족도 점수(HBGI) 향상
-
-**페인 포인트**
-- Schlage vs. Kwikset 가격 격차 — 바이어에게 프리미엄 정당화
-- 스마트 잠금장치 플랫폼 파편화 (Ring, Google Home, Apple HomeKit 호환)
-- 공급망 리드타임 변동성
-
-**정보 소비 채널**
-- NAHB 국제 빌더쇼, 유통업체 영업 담당자, 빌더 트레이드 매거진
-
-**구매 트리거**
-- 신규 서브디비전 착공, 홈빌더 계약 갱신 주기, 경쟁사 가격 압박
-
-**Allegion 관련성**
-- Schlage Encode Plus (Apple HomeKey), Schlage B-Series 데드볼트 빌더 패키지 (공식)
+| Stage | Mechanism | Indicators |
+|-------|----------|------------|
+| **Acquisition** | Builder/architect specification → Home Depot/Lowe's retail → security integrator recommendation → allegion.com/schlage.com | Specification rate; retail shelf presence; online search volume |
+| **Activation** | Product installation → app setup (for electronic products) → first use of keyless entry or mobile credential | Installation completion; app activation rate (not disclosed) |
+| **Retention** | Product reliability over 7–15 year lifecycle → ecosystem expansion (add more smart locks, access points) | Product failure rate; repeat purchase; ecosystem expansion |
+| **Referral** | Builder/integrator repeat specification → homeowner recommendation → architect continuing education | Specifier loyalty; professional recommendation rate |
+| **Revenue** | Hardware sale + recurring SaaS (Allegion Overtur, cloud management) + aftermarket parts | Revenue: ~$3.7B FY2024 (SEC 10-K FY2024); recurring revenue growing (T4_INFERRED) |
 
 ---
 
-## 오디언스 매트릭스 요약
+## Anti-Persona
 
-| 세그먼트 | 의사결정 권한 | 구매 주기 | 핵심 메시지 |
-|----------|-------------|----------|------------|
-| 시설 관리자 | 중간 (예산 승인 필요) | 3~5년 | 총소유비용(TCO) 절감, 규정 준수 |
-| 학교 보안 담당 | 높음 (보조금 집행권) | 1~3년 | 생명 안전, 신속 대응, 규정 준수 |
-| 주거 개발사 구매 | 높음 (직접 발주) | 연간 계약 | 가격 경쟁력, 스마트홈 호환, 납기 |
-| 건축 사양 설계사 | 매우 높음 (사양 결정) | 프로젝트별 | 기술 사양, ANSI 등급, 사후 지원 |
-| 최종 거주자/사용자 | 낮음 (브랜드 선호 영향) | 비정기 | 사용 편의, 스마트 연결, 디자인 |
+| Type | Why Not Allegion |
+|------|-----------------|
+| **DIY smart home enthusiast** | Prefers open-source, API-accessible platforms (Home Assistant); Allegion's consumer products are more closed-ecosystem. |
+| **Ultra-budget buyer** | Seeks lowest-cost locks from unbranded or import manufacturers; Allegion's brands are mid-to-premium. |
+| **Enterprise-only software buyer** | Wants pure-software access control (cloud-native); Allegion's strength is hardware + software integration. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Own the specification, own the project.**
+In commercial construction, the architect's specification determines which products are installed. Allegion invests in architect relationships through CEU (continuing education unit) programs. Transferable: identify the specification point in your industry's buying process and invest there.
+
+**2. Long replacement cycles create brand loyalty through reliability.**
+A Schlage lock that works for 15 years creates brand trust for the next purchase. Transferable: if your product has a long lifecycle, make reliability the brand promise — every year of trouble-free operation builds equity.
+
+**3. Layer SaaS onto hardware for recurring revenue.**
+Allegion's Overtur platform transforms one-time hardware sales into ongoing subscription relationships. Transferable: if you sell hardware, build the management software layer and charge recurring fees.

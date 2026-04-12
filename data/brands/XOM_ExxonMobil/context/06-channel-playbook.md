@@ -1,163 +1,141 @@
-# XOM 채널 플레이북 (Channel Playbook)
-**ExxonMobil Corporation**
-섹터: 에너지 — 석유 & 가스
-분석 기준일: 2026-04-12
+# 06. Channel Playbook — ExxonMobil (XOM)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 채널 전략 개요
+## 1. Channel Strategy Matrix
 
-ExxonMobil의 채널 믹스는 기관·산업 오디언스 중심으로 설계되어 있다. B2C 소셜 미디어보다 IR 포털·산업 컨퍼런스·보도자료·LinkedIn이 핵심 채널이다. 에너지전환 서사 강화에 따라 디지털 콘텐츠 채널의 비중이 점진적으로 증가하는 추세다. (추정)
-
----
-
-## 2. 채널 우선순위 매트릭스
-
-| 채널 | 오디언스 | 우선순위 | 목적 | 현재 성숙도 (추정) |
-|------|---------|---------|------|-----------------|
-| 공식 웹사이트 (exxonmobil.com) | 전체 | 최우선 | 정보 허브, IR, ESG 공시 | 높음 |
-| IR 포털 / 실적 발표 | 기관 투자자 | 최우선 | 재무 커뮤니케이션 | 높음 |
-| 보도자료 (PR Newswire 등) | 언론, 투자자 | 최우선 | 뉴스 배포 | 높음 |
-| LinkedIn | 투자자, B2B, 정책 | 높음 | 사고리더십, 채용 | 중간 |
-| Twitter/X | 일반 대중, 언론 | 중간 | 뉴스 배포, 반응 관리 | 중간 |
-| YouTube | 일반 대중, B2B | 중간 | 기술 설명, 브랜드 영상 | 중간 |
-| 산업 컨퍼런스 | B2B, 정부, 투자자 | 높음 | 사고리더십, 네트워킹 | 높음 |
-| ESG / 지속가능성 보고서 | ESG, 정부, 투자자 | 높음 | 투명성, 규제 대응 | 높음 |
-| Facebook / Instagram | 일반 소비자 | 낮음 | 브랜드 인지, 채용 | 낮음 |
-| 팟캐스트 | 정책, 투자, B2B | 신규 추진 | 사고리더십 (추정) | 미성숙 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-## 3. 채널별 상세 플레이북
+## 2. Channel Tone Variations
 
-### 3-1. 공식 웹사이트 (exxonmobil.com)
+ExxonMobil's core voice adjusts by channel while maintaining brand coherence.
 
-| 항목 | 내용 |
-|------|------|
-| 핵심 목적 | 모든 이해관계자의 정보 허브, 신뢰의 1차 소스 |
-| 주요 섹션 | 뉴스룸, IR, 저탄소솔루션, 제품·서비스, 채용, ESG |
-| 업데이트 주기 | 뉴스룸 수시 / IR 분기 / ESG 연간 |
-| 성과 지표 (추정) | 페이지뷰, IR 문서 다운로드 수, 채용 지원율 |
-| 개선 기회 (추정) | 인터랙티브 데이터 시각화 강화, 모바일 최적화 |
-
----
-
-### 3-2. LinkedIn
-
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 (추정) | 약 60만~80만 (추정) |
-| 주요 콘텐츠 유형 | 기술 뉴스, 채용, 임원 사고리더십, 프로젝트 업데이트 |
-| 최적 게시 빈도 (추정) | 주 3~5회 |
-| 최적 게시 시간 (추정) | 화~목 오전 7~9시 (미국 동부 기준) |
-| 게시물 포맷 | 텍스트 + 이미지, 문서 슬라이드, 짧은 영상 |
-| 성과 지표 (추정) | 노출수, 참여율, 팔로워 증가, 채용 클릭수 |
-| 어조 | 전문적·사고리더십 중심, 데이터 근거 |
-| 금지 사항 | 경쟁사 직접 언급, 정치적 발언, 과장된 ESG 주장 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3-3. Twitter/X
+## 3. Cross-Channel Synergy Map
 
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 (추정) | 약 5만~10만 (추정) |
-| 주요 콘텐츠 유형 | 뉴스 링크, 실적 공지, 이벤트 알림, 위기 대응 |
-| 최적 게시 빈도 (추정) | 주 2~4회 (반응형 포함) |
-| 어조 | 간결·사실 중심, 140자 이내 핵심 메시지 |
-| 위기 대응 채널 | 신속 공식 입장 발표 채널로 활용 |
-| 성과 지표 (추정) | 노출수, 리트윗, 언론 픽업율 |
-
----
-
-### 3-4. YouTube
-
-| 항목 | 내용 |
-|------|------|
-| 구독자 규모 (추정) | 약 5만~15만 (추정) |
-| 주요 콘텐츠 유형 | 기술 설명 영상, 현장 다큐, CCS 프로젝트 소개, 임원 인터뷰 |
-| 영상 길이 | 2~8분 (핵심), 15~30분 (심층 기술) |
-| 업로드 빈도 (추정) | 월 2~4회 |
-| 어조 | 교육적·설명적, 전문성 강조 |
-| 성과 지표 (추정) | 조회수, 시청 시간, 구독자 증가율 |
-
----
-
-### 3-5. IR 포털 & 실적 발표
-
-| 항목 | 내용 |
-|------|------|
-| 핵심 목적 | 기관 투자자와의 재무 커뮤니케이션 |
-| 주요 자료 | 분기 실적 슬라이드, 연간 보고서, 투자자 데이 자료 |
-| 발표 주기 | 분기 1회 (1월·4월·7월·10월) (공식) |
-| 어조 | 정확·간결·데이터 중심 |
-| 주요 KPI 강조 (추정) | FCF, ROCE, 배당 성장, 부채비율, CCS 투자 진전 |
-
----
-
-### 3-6. 산업 컨퍼런스 & 이벤트
-
-| 주요 행사 | 유형 | 목적 |
-|---------|------|------|
-| CERAWeek (IHS Markit) | 에너지 산업 컨퍼런스 | 사고리더십, 정책 영향력 |
-| JP Morgan Energy Conference | 투자자 컨퍼런스 | 투자자 커뮤니케이션 |
-| World Petroleum Congress | 글로벌 에너지 포럼 | B2B, 정책, 기술 발표 |
-| COP (유엔 기후총회) | 기후 정책 포럼 | ESG·저탄소 포지셔닝 |
-| API Annual Meeting | 산업 협회 | 업계 로비·협력 |
-
----
-
-## 4. 채널 통합 메시지 흐름
+### Route A — Product/Service Launch Sequence
 
 ```
-[핵심 메시지 생성]
-        ↓
-[뉴스룸 / 보도자료] → [언론 픽업] → [Twitter/X 공유]
-        ↓
-[IR 포털] → [Bloomberg / Reuters] → [기관 투자자]
-        ↓
-[LinkedIn] → [임원 재공유] → [B2B 파트너 / 정책 결정자]
-        ↓
-[YouTube] → [웹사이트 임베드] → [검색 유입]
-        ↓
-[ESG 보고서] → [NGO / 정부 / ESG 분석기관]
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 5. 위기 커뮤니케이션 채널 프로토콜 (추정)
+## 4. Channel-Specific Prohibitions
 
-| 단계 | 채널 | 행동 |
-|------|------|------|
-| 즉각 대응 (0~2시간) | Twitter/X, 웹사이트 뉴스룸 | 공식 입장 첫 성명 발표 |
-| 단기 대응 (2~24시간) | 보도자료, LinkedIn | 상세 사실 관계 및 조치 발표 |
-| 중기 대응 (1~7일) | 웹사이트 전용 페이지, IR 공시 | 진행 상황 업데이트, 투자자 공지 |
-| 장기 회복 (7일+) | YouTube, ESG 보고서 | 재발 방지 조치, 투명성 강화 콘텐츠 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
+
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
+
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
+
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 6. Steal Sheet — 채널 플레이북 레이어 3개
+## 5. Crisis Response Protocol
 
-### Layer 1: 유료 채널 전략 (Paid Channel)
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-| # | 출처 | 훔칠 전략 | XOM 적용 방안 |
-|---|------|---------|-------------|
-| S1 | Shell의 LinkedIn 스폰서드 콘텐츠 | 에너지전환 타겟 LinkedIn 광고 | XOM의 CCS·수소 콘텐츠를 에너지·투자 업계 타겟 LinkedIn 광고로 집행 |
-| S2 | BP의 Google Display 광고 | 검색 기반 기업 이미지 광고 | XOM 저탄소 솔루션 키워드 검색 광고로 ESG 관심층 도달 |
-| S3 | TotalEnergies의 유튜브 프리롤 | 에너지 전환 영상 광고 | XOM 기술 영상을 에너지·금융 콘텐츠 앞 프리롤로 집행 |
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### Layer 2: 자체 채널 강화 (Owned Channel)
+### Scenario 2 — Regulatory or Legal Action
 
-| # | 출처 | 훔칠 전략 | XOM 적용 방안 |
-|---|------|---------|-------------|
-| S4 | Chevron의 뉴스레터 "Energy for Progress" | 타겟별 맞춤 뉴스레터 | XOM 투자자용·파트너용·정책용 3트랙 뉴스레터 운영 |
-| S5 | Shell의 "Shell Podcast" | 에너지 전문 팟캐스트 | XOM 에너지 과학·경제 팟캐스트 런칭, Spotify·Apple 배포 |
-| S6 | BP의 "Energy Outlook" 인터랙티브 웹 | 인터랙티브 에너지 데이터 포털 | XOM 연간 에너지 전망을 인터랙티브 웹 리포트로 제작 |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### Layer 3: 획득 채널 전략 (Earned Channel)
+### Scenario 3 — Reputation / Social Media Issue
 
-| # | 출처 | 훔칠 전략 | XOM 적용 방안 |
-|---|------|---------|-------------|
-| S7 | TotalEnergies의 학술 파트너십 PR | 대학·연구소 공동 연구 발표 | XOM R&D 결과를 MIT·스탠퍼드 등과 공동 발표로 언론 커버리지 확대 |
-| S8 | Shell의 언론사 기고 전략 | FT·WSJ 임원 기고 정례화 | XOM CEO·CSO의 에너지전환 칼럼 FT·WSJ·Project Syndicate 정기 기고 |
-| S9 | Chevron의 업계 어워드 활용 | 산업 어워드 수상 PR | XOM CCS·안전·혁신 프로젝트를 산업 어워드에 적극 출품해 3자 신뢰 확보 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+ExxonMobil's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+ExxonMobil's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+ExxonMobil's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

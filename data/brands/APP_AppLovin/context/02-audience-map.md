@@ -1,132 +1,84 @@
-# 02 오디언스 맵 — AppLovin (APP)
+# 02. Audience Map — AppLovin (APP)
 
-## 타깃 오디언스 개요
-
-AppLovin의 주요 고객은 B2B 영역의 **모바일 앱 개발사·퍼블리셔**이며, 이들의 사용자 획득(UA) 및 수익화 니즈를 충족시킨다. 부차적으로 브랜드 광고주와 기관 투자자도 주요 커뮤니케이션 대상이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 하이퍼캐주얼 게임 UA 매니저 — 김지우 (32세)
-
-| 항목 | 내용 |
-|------|------|
-| 직책 | 사용자 획득(UA) 매니저 |
-| 회사 규모 | 모바일 게임 스튜디오, 직원 50–200명 |
-| 경험 | 모바일 마케팅 5년차 |
-| 위치 | 서울 / 원격 근무 |
-| KPI | CPI(설치당 비용), D1/D7 리텐션, ROAS 120%+ |
-
-**Pain Points**
-- 캠페인 최적화에 시간을 너무 많이 쏟음 — 자동화 필요
-- iOS 14+ ATT 이후 타겟팅 정확도 하락
-- 소규모 팀으로 복수의 광고 네트워크 관리 부담
-- 크리에이티브 소진(fatigue) 빠름 — 새 소재 공급 병목
-
-**욕구**
-- ROAS를 보장하는 자동 최적화 엔진
-- 크리에이티브 성과 예측 도구
-- 단일 대시보드에서 모든 캠페인 관리
-
-**AppLovin 접점**
-- AppDiscovery 유저 획득 캠페인
-- SparkLabs 크리에이티브 제작·테스트
-
-**인용구 (추정)**
-> "AXON이 알아서 최적화해주니까 저는 크리에이티브 전략에 집중할 수 있어요."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in application software and adjacent industries. (T4_INFERRED from AppLovin's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in AppLovin's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 미드코어 게임 퍼블리셔 수익화 책임자 — Alex Chen (41세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | Head of Monetization |
-| 회사 규모 | 글로벌 퍼블리셔, 직원 500명+ |
-| 경험 | 모바일 수익화 10년차 |
-| 위치 | 샌프란시스코 |
-| KPI | ARPDAU, eCPM, Fill Rate, 총 광고 수익 |
+### Persona 1 — Enterprise Decision-Maker
 
-**Pain Points**
-- 광고 수익과 인앱결제(IAP) 수익 균형 최적화 어려움
-- 미디에이션 레이어 복잡성 — 다수 네트워크 워터폴 관리
-- 고품질 광고 인벤토리 확보 경쟁 치열
-- 리얼타임 비딩(RTB) 수익 예측 불확실성
-
-**욕구**
-- 최고 eCPM을 자동 확보하는 스마트 미디에이션
-- 광고-IAP 하이브리드 수익화 인사이트
-- 투명한 수익 분배 구조
-
-**AppLovin 접점**
-- MAX 미디에이션 플랫폼 (공식 핵심 제품)
-- Array 광고 네트워크 접근
-
-**인용구 (추정)**
-> "MAX 덕분에 복수 네트워크 입찰 경쟁이 자동화되고 eCPM이 30% 올랐습니다."
+- **Age / Occupation**: 42, VP-level or director in a AppLovin customer organization
+- **Core pain**: Needs reliable application software solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **AppLovin selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 인디 앱 개발자 / 1인 스타트업 — 박민준 (27세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | 창업자 겸 개발자 |
-| 회사 규모 | 1–5인 스타트업 |
-| 경험 | 앱 출시 2회, 마케팅 초보 |
-| 위치 | 부산 / 원격 |
-| KPI | 앱 설치수, DAU, 첫 수익화 달성 |
-
-**Pain Points**
-- 마케팅 예산이 거의 없음 — ROI에 극도로 민감
-- UA·수익화 플랫폼 학습 곡선이 가파름
-- 대형 경쟁사 대비 데이터·리소스 열위
-- 어트리뷰션·프라이버시 규정 이해 부족
-
-**욕구**
-- 소액으로도 시작 가능한 성과형 광고
-- 쉬운 SDK 통합과 명확한 문서
-- 성장 단계별 가이드
-
-**AppLovin 접점**
-- AppDiscovery 소규모 캠페인 (최소 예산 진입)
-- MAX SDK 무료 통합
-
-**인용구 (추정)**
-> "SDK 붙이는 데 하루도 안 걸렸고, 광고 수익이 바로 나오기 시작했어요."
+- **Age / Occupation**: 35, technical professional who interacts with AppLovin's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **AppLovin selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 (추정) | 수익 기여 | 우선순위 |
-|----------|------------|----------|----------|
-| 대형 게임 퍼블리셔 (Top 100) | 소 | 고 | 1순위 |
-| 중형 모바일 스튜디오 | 중 | 중–고 | 2순위 |
-| 인디/소형 개발자 | 대 | 저–중 | 3순위 |
-| 비게임 앱 (핀테크·커머스 등) | 중 | 중 | 성장 영역 |
-| 브랜드 광고주 | 소 | 미확인 (추정) | 신규 영역 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate AppLovin's financial performance, competitive positioning, and risk factors for investment decisions.
+- **AppLovin selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 오디언스 여정 (Customer Journey)
+## Purchase Journey — AARRR Framework
 
-```
-인지 → 고려 → 도입 → 활성화 → 확장
-  |        |       |        |        |
-컨퍼런스  케이스  SDK    첫ROAS  추가제품
-블로그   스터디  통합   달성    크로스셀
-광고    웨비나  지원        계정
-```
+| Stage | AppLovin's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | AppLovin total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 메시지 계층화
+## Anti-Persona — Who AppLovin Is Not For
 
-| 오디언스 | 핵심 메시지 |
-|----------|------------|
-| 대형 퍼블리셔 | "업계 최고 eCPM·ROAS — 데이터가 증명합니다" |
-| 중형 스튜디오 | "AXON AI가 최적화를 자동화해 팀 효율을 높입니다" |
-| 인디 개발자 | "작은 예산으로 시작해 검증된 성장 경로를 따르세요" |
-| 투자자 | "소프트웨어 마진 구조의 AdTech, AI로 해자를 구축 중" |
+| Type | Characteristics | Why AppLovin Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | AppLovin's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | AppLovin's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | AppLovin's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+AppLovin's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+AppLovin's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

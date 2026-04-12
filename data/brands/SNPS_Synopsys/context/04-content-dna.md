@@ -1,129 +1,123 @@
-# 04 콘텐츠 DNA — Synopsys (SNPS)
+# 04. Content DNA — Synopsys (SNPS)
 
-## 콘텐츠 철학
-
-Synopsys의 콘텐츠는 "증명된 기술이 말한다(Let the technology speak)"는 원칙을 따른다. (추정) 마케팅 수사보다 기술 데이터, 고객 케이스 스터디, 벤치마크 수치를 전면에 배치하며, 독자가 스스로 우월성을 판단하도록 유도한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 핵심 내러티브 프레임
+## Content Pillars
 
-### 프레임 1: "복잡성의 정복자"
-반도체 설계와 소프트웨어 개발의 복잡성은 피할 수 없다. Synopsys는 그 복잡성을 관리 가능한 수준으로 만드는 유일한 파트너다.
+Synopsys's content strategy reflects its positioning in the Application Software segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-**콘텐츠 패턴:** 문제의 규모 제시 → 기존 접근법의 한계 → Synopsys 솔루션의 작동 방식 → 정량적 결과
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Synopsys understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for application software requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Synopsys." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 프레임 2: "설계 신뢰의 토대"
-수십 년간 수천 개의 테이프아웃에서 검증된 툴과 IP. 리스크가 허용되지 않는 환경에서 Synopsys를 선택하는 것은 당연한 결정이다.
-
-**콘텐츠 패턴:** 업계 레퍼런스 → 실패 비용 데이터 → 검증 사례 → 신뢰 지표
-
-### 프레임 3: "AI가 바꾸는 설계 속도"
-AI 기반 EDA 자동화는 더 이상 미래가 아니다. DSO.ai, Copilot for EDA가 오늘 현장에서 작동하고 있다.
-
-**콘텐츠 패턴:** AI 도입 현황 데이터 → 구체적 기능 설명 → 고객 성과 수치 → 도입 경로
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 형식별 DNA
+## Hook Patterns
 
-### 기술 백서 / 화이트페이퍼
-- 분량: 8~20페이지 (추정)
-- 어조: 학술적·중립적, 1인칭 복수("we") 사용 최소화
-- 필수 요소: 회로도/다이어그램, 벤치마크 표, 참고문헌
-- 금지 요소: 경쟁사 직접 명시, 미검증 수치 주장
+### Hook 1 — Industry Challenge Lead
 
-### 고객 사례 연구 (Case Study)
-- 구조: 도전 과제 → 솔루션 선택 이유 → 구현 과정 → 정량 결과
-- 필수 지표: 설계 시간 단축률(%), 오류 감지율, TCO 절감액
-- 승인 구조: 고객사 공동 발표 또는 익명 처리 중 선택 (추정)
+Opens with a recognizable industry challenge or pain point before presenting Synopsys's perspective.
 
-### 컨퍼런스 기술 발표 (Technical Paper)
-- 형식: IEEE/ACM 스타일, DAC·ICCAD 표준 템플릿
-- 핵심: 재현 가능한 실험 데이터, 알고리즘 수식 포함
-- 배포: 컨퍼런스 후 SolvNet·공식 홈페이지 게재 (공식)
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 블로그 / 테크 아티클
-- 분량: 800~1,500단어 (추정)
-- 어조: 전문적이나 접근 가능, 소제목과 불릿 적극 활용
-- CTA: 관련 기술 문서 다운로드 또는 데모 신청 링크
+### Hook 2 — Data-Driven Insight
 
-### 동영상 콘텐츠
-- 형식: 제품 데모(5~10분), 웨비나(45~60분), 고객 인터뷰(3~5분)
-- 스타일: 화면 공유 중심, 실제 툴 UI 시연 필수
-- 채널: Synopsys 공식 YouTube, 이벤트 온디맨드 (공식)
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## 톤 앤 보이스 가이드라인
+### Hook 3 — Customer Story Lead
 
-### 해야 할 것
-- 수치로 말한다: "30% 단축" vs. "빠르게"
-- 엔지니어의 언어를 쓴다: PPA, RTL, GDSII, CVE, SBOM
-- 문제를 먼저 인정한다: "반도체 설계는 점점 어려워지고 있습니다"
-- 수동태보다 능동태를 선호한다
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-### 하지 말아야 할 것
-- 경쟁사를 직접 공격하지 않는다
-- 미검증 최상급 표현("세계 최고", "유일한") 남발 금지
-- 마케팅 클리셰("게임 체인저", "패러다임 전환") 회피
-- 약속하지 못할 결과를 보장하지 않는다
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 키워드 매트릭스
+## CTA Patterns
 
-### 기술 SEO 키워드 (공식 제품·기술 기반)
-| 카테고리 | 핵심 키워드 |
-|----------|------------|
-| EDA 플랫폼 | EDA software, RTL synthesis, place and route, timing closure |
-| IP | DesignWare IP, PCIe IP, USB IP, DDR IP, silicon-proven IP |
-| 소프트웨어 보안 | Black Duck SCA, SAST tools, SBOM, software supply chain security |
-| AI EDA | AI-driven EDA, DSO.ai, ML-based design optimization |
-| 검증 | functional verification, formal verification, simulation |
-
-### 사고 리더십 키워드 (추정)
-- 반도체 공급망 탄력성
-- 칩렛 설계 복잡성
-- Post-Quantum Cryptography IP
-- Zero-Trust 소프트웨어 공급망
+| CTA Type | Synopsys Pattern | What Synopsys Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 콘텐츠 캘린더 패턴 (추정)
+## Tone & Mood Guide
 
-| 시기 | 주요 이벤트 | 콘텐츠 테마 |
-|------|------------|------------|
-| 1월~2월 | CES, ISSCC | 차세대 반도체 트렌드 |
-| 3월~4월 | RSA Conference | 소프트웨어 공급망 보안 |
-| 6월 | DAC (Design Automation Conference) | EDA 신제품·기술 발표 |
-| 9월~10월 | ICCAD, Hot Chips | AI 기반 설계 자동화 |
-| 11월~12월 | 연말 결산 | 고객 성과 사례 집중 발표 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Synopsys as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 3가지 훔칠 전략
+## Content Prohibitions
 
-### 레이어 1: 인지(Awareness) 단계
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-1. **"비용의 역피라미드" 데이터 시각화** — 설계 사이클 후반으로 갈수록 오류 수정 비용이 기하급수적으로 증가한다는 데이터를 인포그래픽으로 만든다. 공포 마케팅이 아니라 사실 기반 교육으로 포지셔닝한다.
+---
 
-2. **컨퍼런스 "Live Benchmark" 콘텐츠** — DAC·ICCAD에서 실시간 PPA 최적화 시연을 영상으로 촬영하여 YouTube 및 LinkedIn에 즉시 배포. 기술 커뮤니티의 유기적 공유를 유도한다.
+## Hashtag Strategy
 
-3. **"반도체 설계 복잡성 연간 지수" 리포트** — 매년 업계 설문을 기반으로 설계 복잡성 증가 추이를 정량화한 자체 리포트를 발행. Gartner·IDC 인용 대신 Synopsys가 1차 데이터 출처가 된다.
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #SNPS | Financial and investor community | Moderate (estimated) |
+| #Synopsys | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
 
-### 레이어 2: 검토(Consideration) 단계
+---
 
-1. **"EDA 툴 선택 체크리스트" 다운로드 콘텐츠** — 구매자가 어떤 기준으로 EDA를 평가해야 하는지 가이드를 제공하되, 체크리스트 항목이 Synopsys의 강점과 자연스럽게 일치하도록 설계한다.
+## Steal Sheet — 3 Transferable Principles
 
-2. **경쟁 중립 "TCO 계산기" 툴** — 설계 팀 규모, 프로젝트 수, 오류율 입력 시 현재 비용 대비 Synopsys 도입 후 절감액을 자동 산출. 리드 캡처 게이트에 연결한다.
+**1. Lead with the customer's problem, not your solution.**
+Synopsys's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
 
-3. **"실패한 테이프아웃" 익명 사례 시리즈** — 업계에서 발생한 설계 실패 사례(익명 처리)를 분석하고, 어떤 단계에서 어떤 툴이 있었다면 방지할 수 있었는지를 역추적하는 콘텐츠.
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in application software face X challenge" backed by a cited statistic is stronger than the assertion alone.
 
-### 레이어 3: 결정(Decision) 단계
-
-1. **"90일 온보딩 보장" 콘텐츠 패키지** — 계약 후 90일 내 설계 플로우 통합을 보장하는 온보딩 프로그램을 전면에 내세우는 콘텐츠. 리스크 제거가 최종 구매 결정의 핵심 장벽임을 인식한 전략.
-
-2. **레퍼런스 고객 직접 연결 프로그램** — 동일 산업·규모의 기존 고객과 잠재 고객을 1:1 연결해 주는 "Customer Reference Call" 프로그램. 영업 자료보다 동료 추천이 더 강력하다.
-
-3. **"파일럿 프로젝트" 제안서 템플릿** — 내부 승인을 받아야 하는 구매 담당자를 위해, 경영진에게 EDA 전환을 설득할 수 있는 파일럿 프로젝트 제안서 템플릿을 제공. 구매자를 내부 챔피언으로 만든다.
+**3. Separate thought leadership from product marketing.**
+Synopsys's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

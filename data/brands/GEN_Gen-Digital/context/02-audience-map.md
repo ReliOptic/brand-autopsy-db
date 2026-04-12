@@ -1,99 +1,84 @@
-# 02. 오디언스 맵 — Gen Digital (GEN)
+# 02. Audience Map — Gen Digital (GEN)
 
-## 타깃 오디언스 개요
-
-Gen Digital은 B2C 소비자 사이버 보안 시장에 집중하며, 전통적 IT 전문가가 아닌 **일반 소비자**를 핵심 타깃으로 삼는다. 5억+ 사용자 기반은 무료 진입점(Avast, AVG)부터 프리미엄 구독(Norton 360, LifeLock)까지 폭넓은 스펙트럼을 포괄한다. (공식)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 김민준 — "불안한 디지털 가장"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직업 | 중소기업 영업팀장 |
-| 거주지 | 서울 강동구 |
-| 소득 | 연 6,500만 원 |
-| 디바이스 | 윈도우 노트북, 갤럭시 S23, iPad |
-| 보안 현황 | 무료 백신 사용 중, 업데이트 미루는 습관 |
-
-**심리 프로파일**
-- 온라인 뱅킹·주식 거래를 매일 하지만 보안 취약점을 인지하지 못함
-- 뉴스에서 피싱·해킹 사고를 보면 불안해지나 행동으로 연결되지 않음
-- 가족(배우자, 자녀 2명)의 디지털 안전에 책임감을 느낌
-- "복잡한 설정 없이 가족 전체를 지켜주는 솔루션"을 원함
-
-**구매 동기:** 자녀 스마트폰 피싱 문자 수신 사건 이후 프리미엄 보안 구독 검토
-**선호 채널:** 네이버 블로그, 유튜브 리뷰, 오픈카카오 보안 커뮤니티
-**가격 민감도:** 월 1~2만 원 수준은 수용 가능, 연간 결제 선호
-**핵심 메시지 훅:** "가족 5명을 하나의 구독으로, 설정 없이 즉시 보호"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in systems software and adjacent industries. (T4_INFERRED from Gen Digital's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Gen Digital's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: Sarah M. — "프라이버시 의식 MZ 프리랜서"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 29세 |
-| 직업 | UX 디자이너 (프리랜서) |
-| 거주지 | 미국 오스틴, TX |
-| 소득 | $72,000/년 |
-| 디바이스 | MacBook Pro, iPhone 15, Windows 데스크탑 |
-| 보안 현황 | Avast 무료 사용, VPN 필요성 인지 중 |
+### Persona 1 — Enterprise Decision-Maker
 
-**심리 프로파일**
-- 빅테크의 개인정보 수집에 비판적, GDPR·캘리포니아 프라이버시법 인지
-- 다크웹 개인정보 유출에 대한 구체적 공포 보유
-- 기술에 능숙하지만 보안 전문가는 아님, "스마트한 선택"을 중시
-- 서브스크립션 피로 있음 — 명확한 가치 증명 없이는 전환 안 함
-
-**구매 동기:** 링크드인 계정 해킹 시도 알림 이후 종합 보안 솔루션 탐색
-**선호 채널:** Reddit r/privacy, Tech TikTok, The Verge 리뷰
-**가격 민감도:** $5~$15/월 수용, 단 기능 대비 가치 명확해야 함
-**핵심 메시지 훅:** "당신의 데이터는 당신 것 — 빅테크가 아닌 당신이 통제"
+- **Age / Occupation**: 42, VP-level or director in a Gen Digital customer organization
+- **Core pain**: Needs reliable systems software solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Gen Digital selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 박정숙 — "디지털 초보 시니어"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 63세 |
-| 직업 | 은퇴 교사 |
-| 거주지 | 경기도 수원시 |
-| 소득 | 연금 월 230만 원 |
-| 디바이스 | 갤럭시 A 시리즈 스마트폰, 자녀가 설정해준 노트북 |
-| 보안 현황 | 보안 소프트웨어 미설치, 자녀가 관리 |
-
-**심리 프로파일**
-- 스미싱·보이스피싱 피해 주변에서 목격, 본인도 표적이 된다는 두려움 있음
-- 기술 자체보다 "믿을 수 있는 사람의 추천"을 신뢰
-- 복잡한 UI·설정에 좌절감을 느끼며, 자녀에게 의존하는 경향
-- 한 번 신뢰를 얻으면 장기 충성 고객이 됨
-
-**구매 동기:** 자녀가 어버이날 Norton 구독 선물로 설치해줌
-**선호 채널:** TV 광고, 자녀 추천, 카카오톡 뉴스채널
-**가격 민감도:** 직접 결제 의사 낮음, 자녀 대신 결제 모델 유효
-**핵심 메시지 훅:** "설치만 하면 끝 — 평생 지켜드립니다"
+- **Age / Occupation**: 35, technical professional who interacts with Gen Digital's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Gen Digital selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 주요 브랜드 | 가격대 | 핵심 니즈 | 전환 장벽 |
-|---------|-----------|--------|----------|---------|
-| 무료 사용자 (대중) | Avast, AVG | 무료 | 기본 보호 | 유료 전환 가치 불명확 |
-| 가족 보호형 | Norton 360 | 중간 | 멀티 디바이스 | 경쟁 솔루션 대비 차별화 |
-| 신원보호형 | LifeLock | 프리미엄 | ID 도용 방지 | 높은 가격, 필요성 인식 부족 |
-| 프라이버시 중시형 | Avira, Norton | 중상 | VPN·데이터 최소화 | 빅테크 불신 = Gen에도 적용 |
-| 시니어·디지털 초보 | Norton, Avast | 중간 | 간편성·지원 | 셀프 설치 장벽 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Gen Digital's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Gen Digital selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
-## 오디언스 고통점 우선순위 (Pain Point Priority)
+---
 
-1. **신원도용 및 금융 사기** — 구매 의사 결정 1순위 트리거
-2. **자녀·가족 온라인 안전** — 감정적 공명 강함
-3. **개인정보 침해 및 데이터 유출** — MZ 세대 중심 성장 중인 우려
-4. **기기 느려짐·악성코드** — 전통적 동기, 중장년층 여전히 유효
-5. **다크웹 정보 유출** — 인지도 상승 중, 고가 구독 전환 촉진
+## Purchase Journey — AARRR Framework
+
+| Stage | Gen Digital's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Gen Digital total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Gen Digital Is Not For
+
+| Type | Characteristics | Why Gen Digital Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Gen Digital's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Gen Digital's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Gen Digital's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Gen Digital's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Gen Digital's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

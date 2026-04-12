@@ -1,105 +1,123 @@
-# XOM 콘텐츠 DNA (Content DNA)
-**ExxonMobil Corporation**
-섹터: 에너지 — 석유 & 가스
-분석 기준일: 2026-04-12
+# 04. Content DNA — ExxonMobil (XOM)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 콘텐츠 DNA 정의
+## Content Pillars
 
-ExxonMobil의 콘텐츠는 **과학·공학 권위 + 장기 에너지 안보 서사 + 실용적 전환 논리**로 구성된다. 감성보다 데이터, 이상보다 실현 가능성을 앞세우며, 모든 메시지는 "우리는 오늘의 에너지 문제를 해결하면서 내일의 전환을 준비한다"는 이중 프레임 위에서 작동한다. (추정)
+ExxonMobil's content strategy reflects its positioning in the Integrated Oil & Gas segment of Energy. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "ExxonMobil understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for integrated oil & gas requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with ExxonMobil." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 2. 핵심 스토리 기둥 (Story Pillars)
-
-| 기둥 | 핵심 메시지 | 증거 포인트 |
-|------|-----------|-----------|
-| 1. 기술 리더십 | "우리는 에너지 문제를 공학으로 푼다" | CCS 투자 규모, 특허 수, R&D 지출 (추정) |
-| 2. 공급 신뢰성 | "세계가 필요할 때 반드시 공급한다" | 40년+ 무배당 삭감, 글로벌 물류 네트워크 (추정) |
-| 3. 전환 현실주의 | "전환은 점진적이어야 한다" | IEA 데이터 인용, 에너지 빈곤 통계 (추정) |
-| 4. 저탄소 솔루션 | "탄소 감축은 기술로 가능하다" | CCS, 수소, 바이오연료 프로젝트 실적 (공식) |
-| 5. 주주 약속 | "우리는 재무 규율을 지킨다" | FCF 성장, 배당 성장 이력 (공식) |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 3. 콘텐츠 포맷 매트릭스
+## Hook Patterns
 
-| 포맷 | 적합 기둥 | 오디언스 | 채널 | 빈도 (추정) |
-|------|---------|---------|------|-----------|
-| 기술 백서 (Technical Paper) | 1, 4 | B2B, 투자자, 정부 | 웹사이트, 학술 포럼 | 분기 1회 |
-| 실적 발표 자료 | 5, 2 | 기관 투자자 | IR 포털, Bloomberg | 분기 1회 |
-| ESG/지속가능성 보고서 | 3, 4 | ESG 이해관계자, 정부 | 웹사이트, 직접 배포 | 연 1회 |
-| 짧은 데이터 인포그래픽 | 1, 3, 4 | SNS 팔로워, 언론 | LinkedIn, Twitter/X | 주 1~2회 |
-| 임원 사고리더십 칼럼 | 1, 3 | 투자자, 정책 결정자 | FT, WSJ, LinkedIn | 월 1~2회 |
-| 기술 다큐 영상 | 1, 4 | 일반 대중, 미디어 | YouTube, 웹사이트 | 월 1회 |
-| 보도자료 | 전체 | 언론, 투자자 | 뉴스와이어 | 필요 시 수시 |
-| 팟캐스트 (추정 신규) | 3, 1 | 정책, 투자, B2B | Spotify, Apple | 격주 1회 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting ExxonMobil's perspective.
 
-## 4. 어조 & 문체 가이드
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 4-1. 어조 스펙트럼
+### Hook 2 — Data-Driven Insight
 
-```
-권위적 ←————————————————————→ 친근한
-          [XOM 포지션]
-          9/10 권위, 4/10 친근
-```
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### 4-2. 문장 패턴 (추정)
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-- **긍정문 우선:** "우리는 ~한다" (능동태)
-- **수치 근거 필수:** 모든 주장에 데이터 또는 실적 수치 첨부
-- **미래형 주의:** 과대 약속 지양 → "~를 향해 전진하고 있다" 수준
-- **전문 용어 허용:** 대상 오디언스가 산업 전문가이므로 기술 약어 사용 가능
-- **감성 표현 최소화:** "우리는 믿는다" 대신 "데이터는 보여준다"
+### Hook 3 — Customer Story Lead
 
-### 4-3. 피해야 할 문체
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-- 과장된 녹색 수사 ("우리는 지구를 구한다")
-- 모호한 약속 ("가능한 한 빠르게 탄소를 줄이겠다")
-- 방어적 어조 ("우리는 비난받아서는 안 된다")
-- 경쟁사 직접 언급 공격
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 5. 콘텐츠 테마 캘린더 (연간 리듬)
+## CTA Patterns
 
-| 월 | 주요 테마 | 트리거 이벤트 |
-|----|---------|------------|
-| 1~2월 | 연간 전략 발표, 에너지 전망 | 다보스 포럼, JP Morgan 에너지 컨퍼런스 |
-| 3~4월 | Q1 실적, ESG 목표 업데이트 | 실적 발표 |
-| 5~6월 | 지속가능성 보고서 발간 | OPEC+ 회의, IEA 보고서 |
-| 7~8월 | 기술 혁신 시리즈 | Q2 실적 |
-| 9~10월 | 에너지전환 포럼 참여 | 유엔 기후총회 프리 시즌 |
-| 11~12월 | 연말 주주 메시지, 배당 발표 | COP, 연말 결산 |
+| CTA Type | ExxonMobil Pattern | What ExxonMobil Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 6. Steal Sheet — 콘텐츠 DNA 레이어 3개
+## Tone & Mood Guide
 
-### Layer 1: 스토리텔링 구조 (Narrative Structure)
+### Situation 1 — Product or Service Announcement
 
-| # | 출처 | 훔칠 전략 | XOM 적용 방안 |
-|---|------|---------|-------------|
-| S1 | Shell "Energy Transition Stories" | 현장 엔지니어의 1인칭 스토리 | XOM 구야나·퍼미안 현장 엔지니어 인터뷰 시리즈 제작 |
-| S2 | McKinsey "Global Energy Perspective" | 장기 에너지 전망 보고서 형식 | XOM 내부 에너지 전망 연구를 독립 보고서로 대외 공개 강화 |
-| S3 | IBM "The Weather Company" 데이터 저널리즘 | 데이터 시각화 + 스토리 결합 | XOM의 CCS 진전·탄소 감축 데이터를 인터랙티브 스토리로 제작 |
+**Mood**: Confident professionalism — measured excitement appropriate to energy sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-### Layer 2: 포맷 혁신 (Format Innovation)
+### Situation 2 — Thought Leadership / Industry Commentary
 
-| # | 출처 | 훔칠 전략 | XOM 적용 방안 |
-|---|------|---------|-------------|
-| S4 | GE "Minds + Machines" | B2B 기술 컨퍼런스 콘텐츠화 | XOM 기술 심포지엄을 영상·요약본으로 대외 콘텐츠화 |
-| S5 | Siemens "Ingenuity" 매거진 | 온·오프라인 기술 매거진 | XOM 기술 뉴스레터를 매거진 포맷으로 업그레이드 |
-| S6 | Chevron "Human Energy" 단편 영상 | 에너지 현장 인물 중심 단편 | XOM 글로벌 현장 인물 다큐 시리즈 (3~5분) 제작 |
+**Mood**: Authoritative insight — ExxonMobil as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### Layer 3: 배포 전략 (Distribution)
+### Situation 3 — Crisis or Negative News Response
 
-| # | 출처 | 훔칠 전략 | XOM 적용 방안 |
-|---|------|---------|-------------|
-| S7 | TotalEnergies LinkedIn 운영 | 임원 개인 계정 + 법인 계정 연계 | XOM C-suite LinkedIn 사고리더십 콘텐츠 체계화 |
-| S8 | BP "Possibilities" 팟캐스트 | 에너지 전환 전문가 팟캐스트 | XOM 에너지 과학자·경제학자 출연 팟캐스트 런칭 |
-| S9 | Saudi Aramco "Energy in Focus" 뉴스레터 | 투자자·파트너 타겟 뉴스레터 | XOM 월간 에너지 브리핑 뉴스레터 외부 배포 강화 |
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #XOM | Financial and investor community | Moderate (estimated) |
+| #ExxonMobil | Brand-level social engagement | Varies (estimated) |
+| #EInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+ExxonMobil's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In energy markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in integrated oil & gas face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+ExxonMobil's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

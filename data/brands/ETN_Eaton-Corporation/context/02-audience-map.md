@@ -1,160 +1,84 @@
-# 02 오디언스 맵 — Eaton Corporation (ETN)
+# 02. Audience Map — Eaton Corporation (ETN)
 
-## 오디언스 계층 구조
-
-```
-Primary (구매 결정권)
-├── 대기업 전력 인프라 담당 임원 (VP Engineering / Facilities Director)
-├── 유틸리티·에너지 회사 조달 팀
-└── 데이터센터 운영 책임자
-
-Secondary (영향력 행사)
-├── 전기 엔지니어 / 설계 엔지니어
-├── EPC 계약자 (Engineering, Procurement, Construction)
-└── 정부·규제 기관 담당자
-
-Tertiary (인식 형성)
-├── ESG 투자자 / 애널리스트
-├── 건설사 및 시공 감리
-└── 산업 미디어 / 기술 저널리스트
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 박준혁 — 중공업 시설 엔지니어링 관리자
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 45세 |
-| 직책 | 전기 인프라 관리팀장, 국내 대형 철강 제조사 |
-| 경력 | 전기공학 전공, 현장 20년 |
-| 연봉 (추정) | 8,000~1억 원 |
-| 거주 | 경상남도 창원시 |
-
-**Pain Points**
-- 노후 배전 설비 교체 시 가동 중단 최소화 압박
-- 글로벌 인증 요구 증가 (IEC, UL) 대응 역량 부족
-- 예산 승인 프로세스 복잡 — ROI 수치화 필요
-- 현장 유지보수 인력 고령화, 디지털 전환 부담
-
-**Goals**
-- 전력 가용성 99.99% 유지
-- 설비 교체 주기 연장 및 예측 정비 도입
-- 안전사고 제로 달성
-
-**정보 탐색 채널**
-- 산업 전시회 (KEPIC, Hannover Messe Korea)
-- 기술 세미나 및 벤더 교육
-- 동종업계 엔지니어 네트워크
-
-**구매 동기 키워드:** 신뢰성, 현장 지원, 인증, 내구성
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in electrical components & equipment and adjacent industries. (T4_INFERRED from Eaton Corporation's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Eaton Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이수연 — 데이터센터 인프라 전략 책임자
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직책 | DC Infrastructure Director, 하이퍼스케일 클라우드 기업 |
-| 경력 | 전기전자 + MBA, 글로벌 테크 기업 경력 |
-| 연봉 (추정) | 1.5억~2억 원 |
-| 거주 | 서울 강남구 |
+### Persona 1 — Enterprise Decision-Maker
 
-**Pain Points**
-- AI 워크로드 폭증으로 전력 밀도 급증 대응
-- PUE 목표(1.2 이하) 달성 압박
-- 전력망 불안정 지역의 백업 전원 설계 복잡성
-- 글로벌 조달 일관성 요구 (동일 스펙, 다국적 납품)
-
-**Goals**
-- 전력 효율 극대화로 TCO 절감
-- 99.9999% 가용성 ("Six Nines") 달성
-- Net Zero 2030 목표에 부합하는 인프라 설계
-
-**정보 탐색 채널**
-- Gartner / IDC 리포트
-- LinkedIn 전문가 그룹
-- Data Center World, Uptime Institute 컨퍼런스
-
-**구매 동기 키워드:** 전력 효율, 스케일러빌리티, ESG 정합성, 글로벌 지원
+- **Age / Occupation**: 42, VP-level or director in a Eaton Corporation customer organization
+- **Core pain**: Needs reliable electrical components & equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Eaton Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 김태호 — 공공 인프라 조달 담당 공무원
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 52세 |
-| 직책 | 전력 인프라 과장, 광역 지방자치단체 시설관리공단 |
-| 경력 | 전기안전기사, 공직 25년 |
-| 연봉 (추정) | 7,000만 원 내외 |
-| 거주 | 경기도 수원시 |
-
-**Pain Points**
-- 조달 규정 준수 (나라장터, 공공조달 기준) 복잡성
-- 예산 제한 속 최고 안전 기준 충족 의무
-- 납품 후 장기 A/S 보장 및 국내 서비스망 요구
-- 의사결정 책임 회피 심리 → 검증된 브랜드 선호
-
-**Goals**
-- 안전 규정 100% 준수, 감사 대비
-- 10년 이상 운용 가능한 설비 선택
-- 납품 기한 준수, 민원 최소화
-
-**정보 탐색 채널**
-- 조달청 규격 문서, 나라장터
-- 한전·전기안전공사 기술 지침
-- 지역 총판·대리점 영업 미팅
-
-**구매 동기 키워드:** 규정 적합성, 공인 인증, 장기 A/S, 레퍼런스
+- **Age / Occupation**: 35, technical professional who interacts with Eaton Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Eaton Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 구매 사이클 | 의사결정자 수 | 핵심 메시지 |
-|---------|-----------|------------|------------|
-| 중공업 / 제조 | 6~18개월 | 3~7명 | 가동 중단 없는 신뢰성 |
-| 데이터센터 | 12~24개월 | 5~10명 | 효율·스케일·ESG |
-| 공공 / 유틸리티 | 12~36개월 | 7~15명 | 규정 준수·장기 운용 |
-| 상업 건설 | 6~12개월 | 2~5명 | 시공 편의·인증 |
-| 재생에너지 | 9~18개월 | 3~8명 | 전기화 솔루션 통합 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Eaton Corporation's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Eaton Corporation selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 구매 여정 (B2B Customer Journey)
+## Purchase Journey — AARRR Framework
 
-```
-인식(Awareness)
-→ 산업 미디어, 전시회, 파트너 추천
-
-관심(Interest)
-→ 기술 백서, 케이스 스터디, 웹사이트 제품 탐색
-
-평가(Evaluation)
-→ RFQ 발송, 기술 심사, 경쟁사 벤치마크
-
-구매(Purchase)
-→ 계약 협상, 납기·서비스 조건 확인
-
-사용(Retention)
-→ 현장 지원, 예측 정비 서비스, 업그레이드 제안
-
-옹호(Advocacy)
-→ 레퍼런스 사이트, 공동 케이스 스터디 발표
-```
+| Stage | Eaton Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Eaton Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 지역별 오디언스 특성 (추정)
+## Anti-Persona — Who Eaton Corporation Is Not For
 
-| 지역 | 주요 세그먼트 | 현지화 포인트 |
-|------|------------|------------|
-| 한국 | 중공업·반도체·데이터센터 | 한전 규격 연동, 한국어 기술 지원 |
-| 미국 | 데이터센터·유틸리티 | NEC/UL 인증, 연방 인프라 투자 연계 |
-| 유럽 | 재생에너지·스마트그리드 | IEC 준수, EU Taxonomy 정합성 |
-| 중동 | 석유화학·메가시티 | 극한 환경 내구성, 현지 파트너십 |
-| 인도 | 제조·공공 인프라 | 가격 경쟁력, 현지 조립·서비스 |
+| Type | Characteristics | Why Eaton Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Eaton Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Eaton Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Eaton Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Eaton Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Eaton Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

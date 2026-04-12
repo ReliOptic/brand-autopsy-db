@@ -1,140 +1,84 @@
-# 06 채널 플레이북 — Allegion (ALLE)
+# 06. Channel Playbook — Allegion plc (ALLE)
 
-## 채널 전략 개요
-
-Allegion은 **간접 유통(Indirect Distribution)** 중심의 B2B 채널 구조를 운영하면서, 소비자 대면 채널(소매·이커머스)에서는 Schlage 브랜드로 직접 소통한다. 채널별 역할과 메시지는 명확히 분리되어야 하며, 유통 파트너를 브랜드 앰배서더로 육성하는 것이 핵심 전략이다. (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. Source notation: `(official)` = Allegion-published; `(observed)` = direct observation; `(estimated)` = project inference.
 
 ---
 
-## 채널 아키텍처
+## 1. Channel Strategy Matrix
 
+| Channel | Role | Audience | Tone | Core Content |
+|---|---|---|---|---|
+| **allegion.com** | Corporate hub; commercial product catalog; investor relations | B2B: facility managers, architects, integrators, investors | Professional — 3/10 formality | Product specs, case studies, compliance docs, investor materials |
+| **schlage.com** | Consumer product hub; smart lock education; retail driver | Residential homeowners, builders | Approachable — 6/10 formality | Product comparisons, installation guides, smart home content |
+| **Retail (Home Depot, Lowe's, Amazon)** | Consumer distribution; point-of-sale | Homeowners, DIY buyers | Retail-standard | Product listings, reviews, comparison content |
+| **Architect/Specifier Channel** | Specification influence; CEU education | Architects, security consultants | Technical — 2/10 formality | AIA CEU courses, specification tools, BIM files |
+| **Integrator/Dealer Channel** | Professional installation and service | Locksmiths, security integrators | Peer-to-peer — 4/10 formality | Training, certification, margin programs |
+| **LinkedIn** | Corporate reputation; B2B thought leadership | Industry professionals, investors | Professional — 3/10 formality | Innovation highlights, ESG, talent content |
+| **Trade Shows** | Industry presence; product demos | All B2B segments | Presentation — 4/10 formality | ISC West, AIA Conference, ASIS Global Security Exchange |
+
+---
+
+## 2. Cross-Channel Synergy
+
+### Route A — New Construction Specification Flow
 ```
-[Allegion 영업 조직]
+[AIA CEU Course → Architect Specifies Allegion Products]
         │
-        ├── 상업용 유통업체 (Authorized Distributors)
-        │       └── 잠금장치 전문점, 전기업체, 도어/프레임 업체
+        ▼
+[General Contractor Procures from Distributor]
         │
-        ├── 사양 영업 (Specification Sales)
-        │       └── 건축가, 컨설턴트, 엔지니어
+        ▼
+[Security Integrator Installs and Configures]
         │
-        ├── 전략 계정 (National Accounts)
-        │       └── 대형 의료·교육·정부 고객 직거래
+        ▼
+[Building Owner Uses Overtur Platform for Ongoing Management]
+```
+
+### Route B — Consumer Smart Lock Purchase
+```
+[TV/Digital Ad or Online Review → schlage.com Research]
         │
-        ├── 소매 채널 (Retail)
-        │       └── Home Depot, Lowe's, Menards, Amazon
+        ▼
+[Home Depot/Lowe's/Amazon Purchase]
         │
-        └── 디지털/이커머스
-                └── Schlage.com, Amazon, B2B 포털
+        ▼
+[DIY Installation → Schlage Home App Activation]
+        │
+        ▼
+[Ecosystem Expansion (Additional Locks, Sensors)]
 ```
 
 ---
 
-## 채널별 플레이북
+## 3. Channel Prohibitions
 
-### 채널 1: 상업용 유통 (Authorized Distributor)
-
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 재고 보유, 현장 기사 지원, 긴급 납기 대응 (추정) |
-| 핵심 타깃 | 유통 영업 담당자, 내부 카운터 직원 |
-| 핵심 메시지 | "Allegion은 당신의 마진과 기술력을 함께 성장시킨다" (추정) |
-| 지원 도구 | 제품 교육 포털(Allegion University), 샘플 키트, 공동 마케팅 기금(MDF) (추정) |
-| KPI | 유통업체 교육 이수율, SKU 재고 회전율, 긴급 주문 충족률 (추정) |
-| 금지 행동 | 유통 가격 파괴, 유통 배제 직거래 (추정) |
-
-**Steal Sheet A — 유통 채널**
-- Allegion University 온라인 교육은 유통 직원의 Schlage 제품 권장률을 높이는 가장 직접적 레버 — 이수율 추적·인센티브 연동 필요. (추정)
-- 공동 마케팅 기금(MDF)의 디지털 전환(SNS 광고·이메일) 지원은 중소 유통업체의 디지털 역량 격차를 해소하고 Allegion 브랜드 일관성을 동시에 확보하는 전략. (추정)
-- 경쟁사(ASSA ABLOY)가 유통 재편 시 이탈하는 유통업체를 신속히 온보딩하는 채널 갭 포착 플레이. (추정)
+- **No consumer promotional language on allegion.com commercial pages.** (T4_INFERRED)
+- **No professional/specification jargon on schlage.com consumer pages.** (T4_INFERRED)
+- **No price promotions that undermine premium positioning.** (T4_INFERRED)
 
 ---
 
-### 채널 2: 사양 영업 (Specification Sales)
+## 4. Crisis Protocol
 
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 건축·설계 단계에서 Allegion 제품을 사양서에 포함시키는 것 (추정) |
-| 핵심 타깃 | AIA 인증 건축사, MEP 엔지니어, 시설 컨설턴트 |
-| 핵심 메시지 | "Allegion은 코드 준수와 설계 자유를 동시에 제공한다" (추정) |
-| 지원 도구 | CEU 웨비나, Revit BIM 라이브러리, 사양 작성 가이드, CSIA 자격증 지원 (추정) |
-| KPI | 사양서 포함 건수, CEU 참석자 수, 프로젝트 전환율 (추정) |
-| 금지 행동 | 설계자 의사결정에 압력 행사, 경쟁사 비방 (추정) |
+### Scenario 1 — Product Safety Recall (Grade 1)
+**Response**: CPSC notification → customer notification → free replacement/repair → allegion.com advisory.
 
-**Steal Sheet B — 사양 영업 채널**
-- BIM/Revit 라이브러리 파일 제공은 건축사의 설계 작업 흐름에 직접 통합되어 사양 채택 마찰을 제거하는 가장 강력한 기술적 해자. (추정)
-- CEU 강좌를 학교 보안·의료 시설 특화 주제로 세분화하면 수직 시장 사양 점유율 확대 가능. (추정)
-- 경쟁사(ASSA ABLOY)는 HID 자격증명을 사양에 묶는 번들 전략 사용 — Allegion은 "오픈 플랫폼" 포지셔닝으로 설계 유연성 어필 가능. (추정)
+### Scenario 2 — Smart Lock Security Vulnerability (Grade 2)
+**Response**: Security advisory → firmware update → customer notification → responsible disclosure coordination.
+
+### Scenario 3 — Data Breach in Cloud Platform (Grade 1)
+**Response**: Regulatory notification → customer notification → incident investigation → remediation → post-incident report.
 
 ---
 
-### 채널 3: 소매 (Retail — Home Depot, Lowe's, Amazon)
+## 5. Steal Sheet
 
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 소비자 브랜드 인지 강화, 주거용 매출 (추정) |
-| 핵심 타깃 | DIY 주거 소유자, 홈리노베이터, 소규모 잠금장치 교체 |
-| 핵심 메시지 | "전문가가 선택하는 브랜드, 집에서도" (추정) |
-| 지원 도구 | 진열대 POP 자료, 패키징 내 QR 설치 가이드, Amazon A+ 콘텐츠 (추정) |
-| KPI | 소매 매출 점유율, Amazon 리뷰 평점, 재구매율 (추정) |
-| 금지 행동 | 과도한 프로모션 할인(브랜드 가치 희석), 경쟁사 패키징 모방 (추정) |
+**1. "Segment channels by audience, not by product."** Allegion.com serves B2B; schlage.com serves consumers. The same parent company runs two distinct digital experiences. Transferable: if you serve both B2B and B2C, give each a dedicated digital home.
 
-**Steal Sheet C — 소매 채널**
-- Amazon 리뷰 관리는 소비자 신뢰의 핵심 — 부정 리뷰 응답 속도와 품질이 전환율에 직결. (추정)
-- Home Depot의 Pro Desk 채널은 소규모 잠금장치 기사(Locksmith)와 소규모 상업 고객을 동시에 공략하는 미개발 B2B2C 접점. (추정)
-- Schlage Encode Plus의 Apple HomeKey 지원은 Apple Store 채널 진입 또는 애플 홈페이지 액세서리 파트너 등록 기회로 활용 가능. (추정)
+**2. "CEU courses are the most capital-efficient sales tool."** An AIA-accredited CEU course is an educational investment that generates specification influence for years. The course content sells the product indirectly while providing genuine professional value.
+
+**3. "Let the retail channel handle consumer acquisition; invest B2B spend on specifier relationships."** Allegion lets Home Depot and Lowe's drive consumer awareness while investing directly in architect and integrator relationships for commercial revenue.
 
 ---
 
-### 채널 4: 전략 계정 직거래 (National Accounts)
-
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 대형 고객(의료 시스템·대학·정부 기관) 장기 계약 (추정) |
-| 핵심 타깃 | CPO, 시설 부사장, 조달 이사 |
-| 핵심 메시지 | "단일 창구, 전국 표준화, 예측 가능한 TCO" (추정) |
-| 지원 도구 | 전담 계정 매니저, 커스텀 사양 솔루션, 전국 서비스 SLA (추정) |
-| KPI | 계약 갱신율, 추가 제품 크로스셀 비율, NPS (추정) |
-| 금지 행동 | 유통 채널 우회 가격 경쟁, 사양 없는 긴급 납품 약속 (추정) |
-
----
-
-### 채널 5: 디지털 / 이커머스
-
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 브랜드 교육, 리드 발굴, 소비자 직접 판매 지원 (추정) |
-| 핵심 플랫폼 | Schlage.com, Allegion.com, Amazon, LinkedIn, YouTube (추정) |
-| 핵심 메시지 | 각 채널별 오디언스 최적화 (아래 참조) |
-| KPI | 유기 검색 트래픽, 리드 생성 폼 전환율, 이커머스 매출 (추정) |
-
-**플랫폼별 메시지 전략**
-
-| 플랫폼 | 주요 오디언스 | 콘텐츠 타입 | 톤 |
-|--------|-------------|------------|-----|
-| Allegion.com | 사양 설계사, B2B 구매자 | 기술 자료, 케이스 스터디 | 권위적·기술적 |
-| Schlage.com | 주거 소비자, 홈빌더 | 제품 비교, 설치 가이드 | 따뜻하고 명확 |
-| LinkedIn | 건축가, 시설 관리자, 업계 전문가 | 업계 인사이트, 신제품, 채용 | 전문적·신뢰 기반 |
-| YouTube | 현장 기사, DIY 사용자 | 설치 가이드, 제품 데모 | 실용적·단계별 |
-| Amazon | 소비자, 소규모 B2B | A+ 콘텐츠, 고객 리뷰 | 혜택 중심·간결 |
-| Instagram | 인테리어 관심 소비자 | 제품 라이프스타일 사진 | 시각적·감성적 |
-
----
-
-## 채널 갈등 관리 원칙
-
-1. **소매 가격 보호**: 온라인 최저가 정책(MAP) 준수로 유통 마진 보호 (추정)
-2. **지역 할당**: 유통업체 영역 보호로 직거래 채널과의 충돌 방지 (추정)
-3. **사양 공유**: 사양 영업에서 확보된 프로젝트 정보를 지역 유통업체와 공유하여 공동 수주 (추정)
-4. **가격 계층화**: 소매 가격 > 유통 가격 > 전략 계정 가격의 명확한 계층 유지 (추정)
-
----
-
-## 채널 성과 대시보드 (추정 KPI 프레임워크)
-
-| 채널 | 핵심 KPI | 목표 (추정) |
-|------|---------|------------|
-| 상업 유통 | 유통업체 교육 이수율 | 85%+ (추정) |
-| 사양 영업 | 신규 사양 포함 프로젝트 수 | YoY +10% (추정) |
-| 소매 | Amazon 평점 | 4.5+ / 5.0 (추정) |
-| 전략 계정 | 계약 갱신율 | 90%+ (추정) |
-| 디지털 | 유기 검색 리드 | YoY +15% (추정) |
+*Layer 6 of 8 — Brand Autopsy: Allegion plc (ALLE)*

@@ -1,144 +1,84 @@
-# 02. 오디언스 맵 — Regeneron Pharmaceuticals (REGN)
+# 02. Audience Map — Regeneron Pharmaceuticals (REGN)
 
-> 산업: 헬스케어 - 바이오테크놀로지 | 분석 기준일: 2026-04
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-Primary (직접 의사결정자)
-├── HCP — 처방 의사 (피부과, 알레르기, 호흡기, 안과, 종양)
-└── Payer — 보험사 PBM·급여 위원회
-
-Secondary (영향력자)
-├── 환자 — 최종 수혜자, DTC 광고 대상
-├── 환자 가족·보호자
-└── Key Opinion Leaders (KOL)
-
-Tertiary (생태계)
-├── 투자자 (기관·개인)
-├── 규제기관 (FDA, EMA)
-└── 미디어·분석가
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: Dr. 박지수 — 피부과 전문의 (HCP)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직책 | 대학병원 피부과 부교수 |
-| 지역 | 서울 |
-| 전문 분야 | 아토피피부염, 면역 매개 피부질환 |
-| 환자 규모 | 월 300~400명 외래 |
-| 디지털 활동 | PubMed 주 3회, 학술 컨퍼런스 연 4회, MedTwitter 활성 사용자 |
-
-**핵심 동기:**
-- 중등도~중증 아토피 환자에게 장기적으로 안전하고 효과적인 치료 옵션 제공
-- 최신 임상 데이터로 처방 근거 강화
-- 학술적 평판 유지 (KOL 네트워크 활동)
-
-**페인 포인트:**
-- 스테로이드 장기 사용 부작용 우려 환자 설득 어려움
-- 보험 급여 기준 충족을 위한 서류 작업 과부하
-- 바이오시밀러 등장으로 인한 처방 전환 압박 (보험사)
-
-**REGN 접점:**
-- Dupixent 메디컬 리아종 방문
-- 학술 심포지엄 스폰서십
-- HCP 포털 (dupixent.com HCP 섹션) 임상 자료
-
-**메시지 공명 포인트:**
-"16주 EASI-75 달성률 임상 데이터" / "IL-4/IL-13 이중 차단 기전의 우월성"
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in biotechnology. B2C: End consumers of health care products and services. (T4_INFERRED from Regeneron Pharmaceuticals's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Regeneron Pharmaceuticals's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이민준 — 중증 아토피 성인 환자 (환자)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 28세 |
-| 직업 | IT 스타트업 마케터 |
-| 지역 | 경기도 성남 |
-| 질환 이력 | 아토피피부염 20년, 최근 2년간 중증화 |
-| 보험 | 직장건강보험 (실비 보험 보유) |
-| 디지털 활동 | 인스타그램, 유튜브 질환 커뮤니티, 네이버 카페 "아토피사랑" |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 동기:**
-- 가려움증·수면 장애에서 해방되어 정상적인 사회생활 복귀
-- 피부 외관 개선으로 자존감 회복
-- 스테로이드 없이 장기 관리 가능한 솔루션
-
-**페인 포인트:**
-- 고가 약제비 부담 (Dupixent 월 자기부담금)
-- 주사 공포, 자가투여 불안
-- "또 효과 없으면 어쩌지"라는 치료 피로도
-
-**REGN 접점:**
-- Dupixent 한국 DTC 캠페인 (디지털)
-- 환자 지원 프로그램 (코페이 지원)
-- 환자 커뮤니티 스폰서 콘텐츠
-
-**메시지 공명 포인트:**
-"가려움증 없는 하루" / "내 피부, 내 삶을 되찾다"
+- **Age / Occupation**: 42, VP-level or director in a Regeneron Pharmaceuticals customer organization
+- **Core pain**: Needs reliable biotechnology solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Regeneron Pharmaceuticals selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 김현숙 상무 — 민간보험사 급여관리팀장 (Payer)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 51세 |
-| 직책 | 대형 민간보험사 의약품급여 관리팀 상무 |
-| 지역 | 서울 여의도 |
-| 담당 업무 | 고가 생물학적 제제 급여 기준 설정, 제약사 가격 협상 |
-| 의사결정 기준 | 비용-효과성 (ICER), 예산 영향 분석, 실사용 데이터 |
-
-**핵심 동기:**
-- 급여 지출 최적화 (효과 대비 비용)
-- 바이오시밀러 전환으로 지출 절감
-- 환자 결과 지표(PROMs) 근거 확보
-
-**페인 포인트:**
-- Dupixent 고가 청구 건수 급증
-- Eylea 바이오시밀러 전환 저항 (의사·환자 양쪽)
-- 실사용 데이터(RWE) 부족으로 급여 재평가 근거 미흡
-
-**REGN 접점:**
-- 의약품 급여 심사위원회 제출 자료
-- HEOR (Health Economics & Outcomes Research) 리포트
-- 가격 협상 미팅
-
-**메시지 공명 포인트:**
-"입원율 감소·응급실 방문 감소로 총 의료비 절감" / "RWE 기반 장기 비용-효과성"
+- **Age / Occupation**: 35, technical professional who interacts with Regeneron Pharmaceuticals's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Regeneron Pharmaceuticals selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 우선순위 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 오디언스 세그먼트 | 매출 영향력 | 브랜드 영향력 | 투자 우선순위 |
-|-------------------|------------|--------------|--------------|
-| 피부과 HCP | 최상 | 높음 | 1순위 |
-| 알레르기·호흡기 HCP | 높음 | 높음 | 2순위 |
-| 안과 HCP (Eylea) | 높음 | 중간 | 2순위 |
-| Payer / PBM | 최상 | 낮음 | 1순위 |
-| 성인 아토피 환자 | 중간 | 최상 | 3순위 |
-| 소아 아토피 환자 가족 | 중간 | 높음 | 3순위 |
-| 종양내과 HCP | 성장 | 중간 | 4순위 |
-| 기관투자자 | 낮음 (간접) | 높음 | 5순위 |
+- **Age / Occupation**: 38, consumer who interacts with Regeneron Pharmaceuticals's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Regeneron Pharmaceuticals selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 오디언스별 핵심 메시지 요약
+## Purchase Journey — AARRR Framework
 
-| 오디언스 | 핵심 메시지 1줄 |
-|----------|----------------|
-| HCP | "동급 최강의 임상 데이터, 환자의 삶을 바꾸는 처방 선택" |
-| 환자 | "가려움증에서 벗어나 당신의 삶을 되찾으세요" |
-| Payer | "장기 의료비 절감이 입증된 비용-효과적 솔루션" |
-| KOL | "함께 과학을 발전시키는 파트너십" |
-| 투자자 | "검증된 파이프라인과 Dupixent 성장으로 지속 가능한 가치 창출" |
+| Stage | Regeneron Pharmaceuticals's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Regeneron Pharmaceuticals total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Regeneron Pharmaceuticals Is Not For
+
+| Type | Characteristics | Why Regeneron Pharmaceuticals Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Regeneron Pharmaceuticals's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Regeneron Pharmaceuticals's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Regeneron Pharmaceuticals's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Regeneron Pharmaceuticals's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Regeneron Pharmaceuticals's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

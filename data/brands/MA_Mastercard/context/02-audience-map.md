@@ -1,95 +1,84 @@
-# 02 오디언스 맵 — Mastercard (MA)
+# 02. Audience Map — Mastercard (MA)
 
-## 오디언스 계층 구조
-
-```
-B2C (카드 소지자)
-├── 매스 어플루언트 소비자
-├── 프리미엄/럭셔리 소비자 (World Elite)
-└── 신흥국 금융 소외 계층
-
-B2B (이슈어·어콰이어러·파트너)
-├── 글로벌 은행 & 금융기관
-├── 핀테크 스타트업
-├── 대형 리테일·커머스 플랫폼
-└── 정부·공공기관
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1 — 도시 전문직 밀레니얼 "이지수"
+## Ideal Customer Profile (ICP)
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 32세 |
-| 직업 | 서울 IT 스타트업 마케팅 매니저 |
-| 소득 | 연 6,000만~8,000만 원 (추정) |
-| 거주 | 서울 마포구 |
-| 주요 디바이스 | 아이폰 15 Pro, 맥북 |
-| 결제 습관 | 삼성페이·애플페이 연동 Mastercard 플래티넘, 해외직구 월 3~5회 |
-| 브랜드 접점 | 인스타그램 광고, 유튜브 리뷰, 앱 내 혜택 알림 |
-| 핵심 니즈 | 해외 결제 환율 우대, 구독 서비스 캐시백, 여행 라운지 접근 |
-| 페인 포인트 | 해외 가맹점 거절, 복잡한 포인트 체계, 연회비 대비 혜택 불명확 |
-| Priceless 공명 포인트 | 해외 여행 중 현지 특별 경험(Priceless Cities 프로그램) |
-| 메시지 프레임 | "세계 어디서든 마찰 없이, 당신의 경험을 Priceless하게" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in transaction & payment processing services. B2C: End consumers of financials products and services. (T4_INFERRED from Mastercard's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Mastercard's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 중소기업 오너 "박민준"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 45세 |
-| 직업 | 인천 제조업 중소기업 대표 (직원 50명) |
-| 매출 | 연 30억~50억 원 (추정) |
-| 거주 | 인천 연수구 |
-| 주요 관심사 | B2B 결제 효율화, 해외 바이어 결제 수금, 법인카드 관리 |
-| 결제 습관 | 법인 Mastercard 골드, 해외 수출 결제 월 10회+ |
-| 핵심 니즈 | 해외 송금 수수료 절감, 실시간 결제 승인, 재무 리포팅 |
-| 페인 포인트 | 환율 리스크, 결제 지연, 복잡한 정산 프로세스 |
-| 브랜드 접점 | 은행 기업 영업팀, Mastercard 기업 솔루션 웨비나 |
-| Priceless 공명 포인트 | 비즈니스 성장 = Priceless (가족·직원의 미래) |
-| 메시지 프레임 | "글로벌 파트너와의 거래, 신뢰로 연결하다" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Mastercard customer organization
+- **Core pain**: Needs reliable transaction & payment processing services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Mastercard selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 신흥국 첫 금융 접근자 "Amara Diallo"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 26세 |
-| 직업 | 나이지리아 라고스 프리랜서 그래픽 디자이너 |
-| 소득 | 월 $300~$600 상당 (추정) |
-| 거주 | 라고스 (모바일 퍼스트 환경) |
-| 주요 디바이스 | 안드로이드 중저가폰, 데이터 절약 모드 상시 |
-| 결제 습관 | Mastercard 선불 가상카드 (Fintech 파트너 경유), 모바일 머니 연동 |
-| 핵심 니즈 | 해외 플랫폼(Fiverr, Upwork) 수금, 저수수료 환전 |
-| 페인 포인트 | 은행 계좌 없음, 신용 이력 없음, 인터넷 불안정 |
-| 브랜드 접점 | 파트너 핀테크 앱 내 Mastercard 로고, 에이전트 네트워크 |
-| Priceless 공명 포인트 | 첫 국제 결제 성공 = 세계 경제 참여의 문 |
-| 메시지 프레임 | "당신의 재능, 이제 세계와 연결됩니다" |
+- **Age / Occupation**: 35, technical professional who interacts with Mastercard's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Mastercard selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 | 수익성 | 전략적 우선순위 | 주요 채널 |
-|----------|------|--------|----------------|-----------|
-| 매스 어플루언트 소비자 | 대 | 중-고 | 1순위 | 디지털 광고, 은행 파트너 |
-| World Elite 프리미엄 | 소 | 최고 | 2순위 | 럭셔리 파트너십, 컨시어지 |
-| 중소기업·법인 | 중 | 고 | 2순위 | B2B 영업, 솔루션 마케팅 |
-| 신흥국 금융 소외 계층 | 최대 | 저-중 | 3순위(장기) | 핀테크 파트너, 모바일 |
-| 대형 리테일·커머스 | 소 | 최고 | 1순위 | 직접 영업, API 파트너십 |
+- **Age / Occupation**: 38, consumer who interacts with Mastercard's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Mastercard selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스 여정 (Consumer)
+## Purchase Journey — AARRR Framework
 
-```
-인지(Awareness)
-  └→ 카드 발급 고려(Consideration) ← 은행 추천, 비교 앱
-       └→ 발급 신청(Acquisition) ← 은행 채널
-            └→ 첫 결제(Activation) ← 앱 온보딩
-                 └→ 반복 사용(Engagement) ← 혜택·캐시백 알림
-                      └→ 추천(Advocacy) ← Priceless 경험 공유
-```
+| Stage | Mastercard's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Mastercard total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Mastercard Is Not For
+
+| Type | Characteristics | Why Mastercard Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Mastercard's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Mastercard's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Mastercard's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Mastercard's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Mastercard's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

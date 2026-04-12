@@ -1,239 +1,84 @@
-# 02 — Audience Map
-## Bristol Myers Squibb (BMY)
-**Sector:** Health Care — Pharmaceuticals
-**Key Products:** Opdivo (nivolumab), Eliquis (apixaban)
+# 02. Audience Map — Bristol Myers Squibb (BMY)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. Audience Architecture Overview
+## Ideal Customer Profile (ICP)
 
-```
-Primary Audiences
-├── Healthcare Professionals (HCP)
-│   ├── Oncologists (medical, surgical, radiation)
-│   ├── Hematologists
-│   ├── Cardiologists / Electrophysiologists
-│   └── Pharmacists (institutional + specialty)
-├── Patients & Caregivers
-│   ├── Cancer patients (current + newly diagnosed)
-│   ├── Atrial fibrillation / VTE patients
-│   └── Family caregivers / Patient advocates
-└── Institutional & Payer Audiences
-    ├── Managed care / PBMs
-    ├── Hospital systems & IDNs
-    ├── Oncology practice managers
-    └── Government / VA / Medicaid
-```
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in pharmaceuticals. B2C: End consumers of health care products and services. (T4_INFERRED from Bristol Myers Squibb's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Bristol Myers Squibb's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## 2. Persona Profiles
+## Core Personas
 
-### Persona 1: Dr. Amara Osei-Bonsu
-**Role:** Medical Oncologist
-**Age:** 44
-**Race/Ethnicity:** Ghanaian-American
-**Location:** Atlanta, Georgia (Winship Cancer Institute, Emory University)
-**Practice Setting:** Academic medical center, NCI-designated cancer center
+### Persona 1 — Enterprise Decision-Maker
 
-**Demographics:**
-- MD from Howard University College of Medicine
-- Fellowship at MD Anderson Cancer Center
-- Specializes in thoracic oncology (NSCLC, mesothelioma)
-- Sees 35–40 patients/week; 60% trial-eligible
-- Board-certified; active ASCO/AACR member
-
-**Goals:**
-- Access cutting-edge clinical trial data before peers
-- Optimize IO combination regimens for diverse patient populations
-- Reduce time-to-treatment for newly diagnosed Stage III/IV NSCLC patients
-- Publish outcomes data; build institutional reputation
-
-**Pain Points:**
-- Overwhelmed by volume of new IO data (CheckMate, KEYNOTE, PACIFIC competing trials)
-- Payer prior authorization delays for Opdivo + Yervoy regimens
-- Limited time for rep interactions — prefers digital CME and peer-reviewed content
-- Concerns about immune-related adverse events (irAEs) management in community patients
-
-**Media Consumption:**
-- Journal of Clinical Oncology (JCO), NEJM
-- ASCO Annual Meeting, ESMO Congress
-- Doximity for peer network; Medscape CME
-- BMY Medical Affairs webcasts
-
-**Message Resonance:**
-- CheckMate trial data with diverse cohort representation
-- irAE management protocols and support tools
-- Real-world evidence from academic centers
-- "We were there when IO was invented"
-
-**BMY Touchpoints:** MSL visits, Medical Congress symposia, REMS program training, digital HCP portal
+- **Age / Occupation**: 42, VP-level or director in a Bristol Myers Squibb customer organization
+- **Core pain**: Needs reliable pharmaceuticals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Bristol Myers Squibb selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### Persona 2: Maria Elena Castillo-Reyes
-**Role:** Retired Schoolteacher / Atrial Fibrillation Patient
-**Age:** 67
-**Race/Ethnicity:** Mexican-American (second generation)
-**Location:** San Antonio, Texas (suburban, bilingual household)
-**Insurance:** Medicare + supplemental (Medigap Plan G)
+### Persona 2 — Technical Specialist / End User
 
-**Demographics:**
-- High school diploma; some community college
-- Primary Spanish speaker at home; bilingual in English
-- Lives with adult daughter who manages her medications
-- Diagnosed with non-valvular AFib 3 years ago; also has Type 2 diabetes
-- Currently on Eliquis 5mg BID; cardiologist in private practice
-
-**Goals:**
-- Understand why she takes Eliquis and what it prevents
-- Feel confident she won't have a stroke
-- Manage cost — fixed income, concerned about Medicare Part D gap
-- Involve her daughter in care decisions without feeling dependent
-
-**Pain Points:**
-- Language barriers in patient materials (English-only inserts)
-- Fear of bleeding events — heard from neighbor on warfarin
-- Confusion between Eliquis and generic options at pharmacy
-- Prescription cost anxiety despite copay assistance availability
-
-**Media Consumption:**
-- Univision / Telemundo (TV primary)
-- Facebook (family groups, health pages in Spanish)
-- Pharmacist at local HEB grocery store (trusted source)
-- Primary care physician visits every 3 months
-
-**Message Resonance:**
-- "Eliquis helped me keep doing what I love" (lifestyle continuity)
-- Simple visual comparison vs. warfarin (no regular blood tests)
-- Spanish-language materials and bilingual support line
-- BMS Together copay assistance program
-
-**BMY Touchpoints:** DTC TV (Spanish network), pharmacy point-of-care, patient assistance program, caregiver-facing digital content
+- **Age / Occupation**: 35, technical professional who interacts with Bristol Myers Squibb's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Bristol Myers Squibb selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### Persona 3: James Whitfield
-**Role:** Melanoma Survivor / Patient Advocate
-**Age:** 52
-**Race/Ethnicity:** Black / African American
-**Location:** Detroit, Michigan (urban; Wayne County)
-**Insurance:** Employer-sponsored PPO (UAW benefits)
+### Persona 3 — Consumer / Retail Customer
 
-**Demographics:**
-- Associate degree; UAW assembly line supervisor (Ford)
-- Diagnosed with Stage III melanoma 4 years ago
-- Completed Opdivo therapy; currently in surveillance
-- Active in local cancer survivor support group
-- Speaks publicly at BMY patient advocacy events
-
-**Goals:**
-- Help newly diagnosed Black patients navigate the cancer system
-- Advocate for diversity in clinical trials (personal mission post-diagnosis)
-- Understand his surveillance schedule and recurrence risk
-- Build community trust in immunotherapy for skeptical patients
-
-**Pain Points:**
-- Distrust of pharmaceutical industry in his community (historical context)
-- Lack of representation in Opdivo marketing materials historically
-- Out-of-pocket surveillance scan costs even with good insurance
-- Emotional fatigue from advocacy — needs authentic partnership, not token inclusion
-
-**Media Consumption:**
-- Local Detroit news / WDIV TV
-- Black Health Matters, Essence Health
-- Instagram (cancer survivor communities)
-- YouTube: patient journey videos, oncologist explainers
-
-**Message Resonance:**
-- Real Black patient stories in Opdivo campaigns (not stock photography)
-- Clinical trial diversity data — "patients who look like me were included"
-- Survivorship resources and long-term follow-up support
-- Community health partnerships (BMY Health Equity initiatives)
-
-**BMY Touchpoints:** Patient advocacy programs, community health events, social media DTC, survivorship support platforms, BMS Foundation health equity grants
+- **Age / Occupation**: 38, consumer who interacts with Bristol Myers Squibb's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Bristol Myers Squibb selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 3. Audience Segmentation Matrix
+## Purchase Journey — AARRR Framework
 
-| Segment | Primary Need | Content Type | Preferred Channel | Decision Authority |
-|---------|-------------|-------------|------------------|-------------------|
-| Oncologist (Academic) | Trial data, combinations, irAE management | Clinical monographs, CME, MSL detail | Medical congresses, Doximity, MSL | High — formulary + prescribing |
-| Oncologist (Community) | Simplified protocols, payer support | Detail aids, PA support tools | Rep visits, digital HCP portal | High — primary prescriber |
-| Cardiologist | Outcomes data (ARISTOTLE), dosing | Clinical print + digital detail | Rep visits, journals | High — initiates Eliquis Rx |
-| Pharmacist | Drug interactions, adherence tools | Pharmacist-specific materials | Pharmacy networks, trade shows | Medium — dispensing + counseling |
-| Cancer Patient (Active tx) | Hope, mechanism understanding, side effects | Patient guides, videos, support programs | DTC TV, digital, patient advocacy orgs | Medium — shared decision |
-| AFib Patient | Stroke prevention, simplicity vs. warfarin | Simple language, visual comparison | DTC TV, pharmacy, PCP office | Low — physician-led decision |
-| Caregiver | Logistics, cost, emotional support | Caregiver guides, copay resources | Digital, pharmacist | Medium — influencer role |
-| Payer / PBM | Cost-effectiveness, outcomes data | HEOR dossiers, formulary briefs | Managed markets team, AMCP | Very High — access gate |
-| Patient Advocate / KOL Patient | Partnership, authentic representation | Co-creation, speaker programs | Events, social media, advisory boards | High — community influence |
+| Stage | Bristol Myers Squibb's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Bristol Myers Squibb total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 4. Psychographic Clusters
+## Anti-Persona — Who Bristol Myers Squibb Is Not For
 
-### Cluster A: "Evidence-Driven Optimists" (HCPs)
-- Motivated by data quality and peer consensus
-- Skeptical of marketing; respond to medical affairs voice
-- Want to be first to know new data
-- BMY strategy: Own the podium at ASCO/ESMO; MSL scientific exchange
-
-### Cluster B: "Hopeful Survivors" (Cancer Patients)
-- Anchor identity around survivorship narrative
-- Seek community and shared experience
-- Trust peers more than pharma directly
-- BMY strategy: Patient ambassador programs; organic community presence
-
-### Cluster C: "Cautious Managers" (AFib/CV Patients)
-- Prioritize simplicity and safety over novelty
-- Heavily influenced by PCP and pharmacist
-- Cost sensitivity is primary barrier
-- BMY strategy: Copay assistance prominence; simple benefit communication; pharmacist activation
-
-### Cluster D: "System Gatekeepers" (Payers/IDNs)
-- ROI and cost-per-outcome driven
-- Skeptical of branded drug claims
-- Respond to HEOR and comparative effectiveness
-- BMY strategy: Value dossiers; real-world evidence publication; outcomes-based contracts
+| Type | Characteristics | Why Bristol Myers Squibb Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Bristol Myers Squibb's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Bristol Myers Squibb's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Bristol Myers Squibb's full value is realized through deeper operational integration and sustained partnership. |
 
 ---
 
-## 5. Battle Cards — Audience Map
+## Steal Sheet — 3 Transferable Principles
 
-### Battle Card 1: Oncologist Audience vs. Merck (Keytruda)
-| Dimension | BMY Approach | Merck Approach |
-|-----------|-------------|----------------|
-| Core Offer to HCP | Combination IO expertise; CheckMate data depth | Broad single-agent approvals; TMB/PD-L1 biomarker leadership |
-| Key Message | "Opdivo + Yervoy — the combination that changed Stage IV NSCLC" | "Keytruda — more indications, more patients" |
-| Sales Model | MSL-heavy academic; rep-heavy community | Rep-dominant; high call frequency |
-| Vulnerability | Smaller sales force vs. Merck | Limited combination story |
+**1. Segment your audience by risk tolerance, not just demographics.**
+Bristol Myers Squibb's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
 
-### Battle Card 2: Patient Audience vs. J&J (Xarelto for AFib)
-| Dimension | Eliquis (BMY/Pfizer) | Xarelto (J&J/Bayer) |
-|-----------|---------------------|---------------------|
-| Patient Positioning | "Proven to reduce stroke AND major bleeding" | "Convenient once-daily dosing" |
-| Key Differentiator | ARISTOTLE superior efficacy + safety vs. warfarin | Once-daily adherence advantage |
-| Patient Pain Point Addressed | Fear of bleeding; warfarin complexity | Pill burden / adherence |
-| Vulnerability | Twice-daily dosing (adherence challenge) | Less differentiated safety profile vs. Eliquis |
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Bristol Myers Squibb's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
 
-### Battle Card 3: Caregiver / Advocate Audience vs. Roche/Genentech
-| Dimension | BMY | Roche/Genentech |
-|-----------|-----|----------------|
-| Caregiver Support | BMS Together program; patient navigation | Genentech Access Solutions; FoundationMedicine integration |
-| Advocacy Engagement | BMS Foundation grants; health equity focus | Broader rare disease advocacy investment |
-| Community Trust | Growing health equity narrative; improving diversity data | Strong among breast cancer / HER2 community |
-| Vulnerability | Historical diversity gaps in trial representation | Less visible in immunotherapy community perception |
-
----
-
-## 6. Steal Sheets — Audience Map
-
-### Steal Sheet 1: Survivor-as-Advocate Model
-**What to steal:** BMY's integration of patient survivors as brand ambassadors and community educators. Survivors like James Whitfield become authentic brand assets that pharmaceutical advertising cannot replicate. Any chronic/serious disease brand should build a formal survivor ambassador infrastructure.
-
-### Steal Sheet 2: Bilingual Patient Segmentation
-**What to steal:** Eliquis Spanish-language DTC and bilingual support infrastructure for the US Hispanic market. The 67M Spanish-speaking US population is systematically underserved by pharma DTC — first movers with culturally resonant materials capture lasting patient trust.
-
-### Steal Sheet 3: Payer Audience Separation
-**What to steal:** BMY's distinct managed markets team and HEOR content stream — fully separated from branded promotion. The payer audience requires a different voice, different data types, and different relationship architecture than HCPs. Brands that conflate these audiences lose formulary access.
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

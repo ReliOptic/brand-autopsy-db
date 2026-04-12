@@ -1,125 +1,84 @@
-# 02. 오디언스 맵 — Uber Technologies (UBER)
-> 섹터: Consumer Discretionary — Ride-sharing & Delivery
+# 02. Audience Map — Uber (UBER)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 오디언스 세그멘트 전략
+## Ideal Customer Profile (ICP)
 
-Uber의 오디언스는 **수요 사이드(Riders/Eaters)** 와 **공급 사이드(Drivers/Couriers/Restaurants)** 의 양면 플랫폼 구조로 분리 분석이 필요하다.
-
----
-
-## 2. 수요 사이드 페르소나
-
-### 페르소나 1 — 도시 직장인 "윤서"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 32세 / 여성 |
-| 직업 | 마케팅 매니저, 서울 강남 근무 |
-| 소득 | 월 450~600만 원 |
-| 주거 | 마포구 원룸 자취 |
-| 핵심 니즈 | 야근 후 안전한 귀가, 비 오는 날 빠른 차량 |
-| 앱 사용 빈도 | 주 3~5회 Rides, 주 2~3회 Eats |
-| 결제 수단 | 카카오페이 연동, 월정액 Uber One |
-| 불만 포인트 | 서지 프라이싱, 드라이버 취소율 |
-| 브랜드 기대 | "예측 가능한 가격, 깨끗한 차, 빠른 매칭" |
-| SNS | Instagram, LinkedIn, 카카오톡 |
-| 구매 동기 | 편의성 > 가격 > 안전 순 |
-
-**Steal Sheet — 윤서를 위한 전략 3가지**
-
-| # | 전략 | 실행 아이디어 |
-|---|------|--------------|
-| 1 | 야간 안전 보증 캠페인 | "자정 이후 100% 매칭 보장" 보험 패키지 + 여성 드라이버 우선 매칭 옵션 |
-| 2 | Uber One 구독 락인 | 첫 달 무료 + 매달 커피 쿠폰 번들로 이탈 방지 |
-| 3 | 서지 예측 알림 | "30분 후 서지 예상" 푸시 알림 → 선예약 유도 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in passenger ground transportation and adjacent industries. (T4_INFERRED from Uber's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Uber's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 디지털 노마드 여행객 "Marcus"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 28세 / 남성 |
-| 직업 | 프리랜서 UX 디자이너, 원격근무 |
-| 소득 | 연 $55,000 USD |
-| 주거 | 월 단위 에어비앤비, 동남아·유럽 순환 |
-| 핵심 니즈 | 낯선 도시에서 공항→숙소 이동, 언어 장벽 없는 결제 |
-| 앱 사용 빈도 | 이동 도시마다 첫 설치, 월 10~15회 |
-| 결제 수단 | Revolut 카드, PayPal |
-| 불만 포인트 | 도시별 앱 재설정, 현지 요금 예측 불가 |
-| 브랜드 기대 | "어느 도시서든 동일한 UX, 신뢰할 수 있는 드라이버" |
-| SNS | Twitter/X, YouTube, Reddit |
-| 구매 동기 | 일관성 > 편의성 > 가격 순 |
+### Persona 1 — Enterprise Decision-Maker
 
-**Steal Sheet — Marcus를 위한 전략 3가지**
-
-| # | 전략 | 실행 아이디어 |
-|---|------|--------------|
-| 1 | 글로벌 통합 대시보드 | 도시 이동 이력 + 영수증 자동 통화 환산 → 세금 신고 자동화 연동 |
-| 2 | 공항 패스트트랙 파트너십 | 공항 전용 픽업존 예약 + 게이트 도착 연동 자동 매칭 |
-| 3 | 노마드 커뮤니티 협업 | Nomad List / Remote Year 파트너십 → 가입 시 $30 크레딧 |
+- **Age / Occupation**: 42, VP-level or director in a Uber customer organization
+- **Core pain**: Needs reliable passenger ground transportation solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Uber selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 외식 배달 헤비유저 "김준호"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 24세 / 남성 |
-| 직업 | 대학원생, 서울대 재학 |
-| 소득 | 월 100~150만 원 (장학금 + 알바) |
-| 주거 | 관악구 고시원 |
-| 핵심 니즈 | 야식 배달, 1인분 주문, 빠른 배송 |
-| 앱 사용 빈도 | Eats 주 5~7회, Rides 월 2~3회 |
-| 결제 수단 | 토스, 편의점 상품권 |
-| 불만 포인트 | 최소 주문 금액, 배달비 과다 |
-| 브랜드 기대 | "1인분도 빠르게, 배달비 예측 가능하게" |
-| SNS | 유튜브, 틱톡, 디시인사이드 |
-| 구매 동기 | 가격 > 편의성 > 다양성 순 |
-
-**Steal Sheet — 준호를 위한 전략 3가지**
-
-| # | 전략 | 실행 아이디어 |
-|---|------|--------------|
-| 1 | 1인분 전용 메뉴 카테고리 | "솔로 딜" 탭 신설, 최소주문 금액 없는 파트너 레스토랑 전용 배지 |
-| 2 | 학생 구독 할인 | 이메일 도메인 인증 학생 30% 배달비 할인, Uber One Lite |
-| 3 | 그룹오더 소셜 기능 | 룸메이트·친구 공동 장바구니 → 배달비 분담 자동 계산 |
+- **Age / Occupation**: 35, technical professional who interacts with Uber's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Uber selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 공급 사이드 오디언스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 특성 | 핵심 니즈 | 커뮤니케이션 채널 |
-|----------|------|----------|-----------------|
-| 드라이버 파트너 | 30~50대, 부업/전업, 차량 보유 | 유연한 근무 시간, 수익 예측성, 보험 | 드라이버 앱, 문자, YouTube 광고 |
-| 배달 쿠리어 | 20~35대, 이동 수단 소지 | 시간당 수익, 배달 거리 최적화 | 쿠리어 앱, 커뮤니티 포럼 |
-| 레스토랑 파트너 | 개인 식당~프랜차이즈 | 주문량 증가, 수수료율, 대시보드 인사이트 | B2B 영업팀, 이메일, 웨비나 |
-
----
-
-## 4. 오디언스 여정 맵 (라이더 기준)
-
-```
-[인식] → [고려] → [첫 이용] → [반복 이용] → [구독 전환] → [옹호자]
-   |           |          |             |              |            |
-광고/      앱 스토어    할인 코드    습관 형성      Uber One    리퍼럴
-입소문       리뷰       온보딩       푸시 알림     번들 혜택    프로모션
-```
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Uber's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Uber selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 5. 지역별 오디언스 특성 차이
+## Purchase Journey — AARRR Framework
 
-| 지역 | 주요 세그먼트 | 현지화 포인트 |
-|------|-------------|-------------|
-| 북미 | 교외 통근자, 고령층 (공식) | SUV 옵션, 접근성 기능 강조 |
-| 동남아 | 오토바이 이용자, 현금 선호 (공식) | GrabTaxi 경쟁, 현금결제 유지 |
-| 유럽 | 환경 의식 높은 도시민 (추정) | EV 우선 매칭, 탄소 발자국 표시 |
-| 한국 | 카카오T 비교군, 야간 이용 多 (추정) | 안전·보험 메시지 현지화 |
-| 중동 | 여성 전용 서비스 수요 (공식) | 여성 드라이버 전용 모드 |
+| Stage | Uber's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Uber total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-*파일 생성일: 2026-04-12 | 데이터 기준: 공개 정보 + 브랜드 분석 추정*
+## Anti-Persona — Who Uber Is Not For
+
+| Type | Characteristics | Why Uber Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Uber's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Uber's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Uber's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Uber's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Uber's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

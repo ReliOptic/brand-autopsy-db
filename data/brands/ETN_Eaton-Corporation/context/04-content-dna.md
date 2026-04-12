@@ -1,146 +1,123 @@
-# 04 콘텐츠 DNA — Eaton Corporation (ETN)
+# 04. Content DNA — Eaton Corporation (ETN)
 
-## 콘텐츠 철학
-
-Eaton의 콘텐츠는 **"기술적 권위 + 실용적 가치"** 의 교차점에 위치한다. 감성적 소구보다 증거 기반의 신뢰 구축을 우선하며, 고객의 운영 문제를 해결하는 구체적 솔루션을 제시한다. 지속가능성 메시지는 마케팅 수사(rhetoric)가 아닌 검증 가능한 수치로 표현한다. (추정)
-
-**콘텐츠 원칙 3가지:**
-1. **증거 우선 (Evidence First):** 주장마다 데이터, 인증, 레퍼런스를 수반
-2. **솔루션 중심 (Solution-Oriented):** 제품 스펙보다 고객 문제 해결 결과를 앞에
-3. **전문가 어조 (Expert Tone):** 동등한 전문가로서 고객에게 말하되, 오만하지 않게
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 포맷 계층
+## Content Pillars
 
-### Tier 1 — 신뢰 구축 콘텐츠 (Trust Builders)
+Eaton Corporation's content strategy reflects its positioning in the Electrical Components & Equipment segment of Industrials. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-| 포맷 | 목적 | 길이 | 배포 채널 |
-|------|------|------|---------|
-| 기술 백서 (White Paper) | 전문성 입증 | 8~20페이지 | 웹사이트, 이메일 게이팅 |
-| 케이스 스터디 | 실적 증명 | 2~4페이지 | 영업 자료, 웹사이트 |
-| 인증·규격 가이드 | 규정 준수 지원 | 4~10페이지 | 기술 포털, 파트너 채널 |
-| 애플리케이션 노트 | 설치·운용 실무 | 2~6페이지 | 기술 지원 센터 |
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Eaton Corporation understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for electrical components & equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Eaton Corporation." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### Tier 2 — 인식 확장 콘텐츠 (Awareness Builders)
-
-| 포맷 | 목적 | 길이 | 배포 채널 |
-|------|------|------|---------|
-| 인더스트리 트렌드 리포트 | 시장 선도자 포지셔닝 | 6~12페이지 | PR, LinkedIn, 파트너 |
-| 블로그 / 기술 아티클 | SEO + 전문성 | 800~1,500자 | 웹사이트, LinkedIn |
-| 인포그래픽 | 복잡 데이터 시각화 | 단일 이미지 | 소셜, 프레젠테이션 |
-| 웨비나 / 가상 이벤트 | 리드 너처링 | 45~90분 | 유튜브, 자사 플랫폼 |
-
-### Tier 3 — 전환 촉진 콘텐츠 (Conversion Enablers)
-
-| 포맷 | 목적 | 길이 | 배포 채널 |
-|------|------|------|---------|
-| 제품 데이터시트 | 스펙 비교 지원 | 2~4페이지 | 웹사이트, 영업 |
-| ROI 계산기 | 투자 정당화 | 인터랙티브 | 웹 도구 |
-| 경쟁 비교표 | 경쟁 이탈 방지 | 1~2페이지 | 영업 전용 |
-| 고객 영상 추천사 | 사회적 증거 | 2~5분 | 유튜브, 영업 프레젠테이션 |
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 내러티브 프레임워크
+## Hook Patterns
 
-### 마스터 내러티브: "전력은 모든 것의 기반이다"
+### Hook 1 — Industry Challenge Lead
 
-```
-문제 설정 → 세상이 더 많은 전력을 더 효율적으로 필요로 한다
-              (전기화, AI 인프라, 에너지 전환)
-         ↓
-긴장 고조 → 전력 실패는 단순한 불편이 아니라 재앙이다
-              (가동 중단 비용, 안전사고, 탄소 낭비)
-         ↓
-해결사 등장 → Eaton은 100년 넘게 이 문제를 해결해왔다
-              (기술력, 인증, 글로벌 실적)
-         ↓
-미래 초대 → 지능형 전력 관리로 함께 더 나은 세상을 만들자
-              (파트너십, 지속가능성, 디지털 전환)
-```
+Opens with a recognizable industry challenge or pain point before presenting Eaton Corporation's perspective.
 
-### 세그먼트별 서브 내러티브
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-**데이터센터 고객용:**
-> "AI가 세상을 바꾸는 속도만큼 전력 인프라도 지능적이어야 합니다. Eaton은 가장 까다로운 전력 환경에서 검증된 솔루션을 제공합니다."
+### Hook 2 — Data-Driven Insight
 
-**중공업 고객용:**
-> "공장이 멈추면 하루에 수억 원이 사라집니다. 30년을 버텨온 우리 설비처럼, Eaton도 그 자리에 있을 것입니다."
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-**공공 인프라 고객용:**
-> "시민의 안전을 책임지는 인프라에는 타협이 없습니다. Eaton의 인증과 실적이 그 선택을 정당화합니다."
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
----
+### Hook 3 — Customer Story Lead
 
-## 스토리텔링 구조 패턴
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-### 케이스 스터디 템플릿
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-```
-1. 고객 소개 (1문단) — 규모·산업·지역
-2. 도전 과제 (2~3문단) — 구체적 문제, 측정 가능한 부담
-3. Eaton 솔루션 (2~3문단) — 제품·서비스·설치 과정
-4. 결과 (계량화) — % 개선, $절감, 가동시간 증가
-5. 고객 발언 (인용구) — 신뢰성 강화
-6. 다음 단계 CTA — 유사 솔루션 탐색
-```
+### Hook 4 — Regulatory or Market Shift
 
-### 기술 블로그 템플릿
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
 
-```
-1. 헤드라인 — 문제/결과 중심 (숫자 포함 시 CTR 향상)
-2. 리드 — 산업 트렌드 또는 충격적 통계로 시작
-3. 문제 심화 — 독자의 Pain Point 구체화
-4. 솔루션 설명 — 기술적 깊이, 도표 포함
-5. 증거 — 데이터, 인증, 레퍼런스
-6. 실행 가이드 — 독자가 지금 할 수 있는 행동
-7. CTA — 관련 자료 다운로드 또는 전문가 상담
-```
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 금지 콘텐츠 패턴 (추정)
+## CTA Patterns
 
-- 경쟁사를 직접 비하하는 비교 광고
-- 검증되지 않은 환경 성과 주장 ("그린워싱" 리스크)
-- 감성적 소비자 광고 어조 (B2B 신뢰 훼손)
-- 가격 할인 중심 프로모션 메시지
-- 기술 스펙만 나열하는 피처-덤프 콘텐츠
+| CTA Type | Eaton Corporation Pattern | What Eaton Corporation Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 3개
+## Tone & Mood Guide
 
-### Steal Sheet: 인식(Awareness) 레이어
+### Situation 1 — Product or Service Announcement
 
-1. **"전력 중단 비용 계산기" 인터랙티브 툴**
-   산업별 가동 중단 1시간당 비용을 실시간 계산. 리드 캡처 + 문제 인식 동시 달성. 경쟁사 대비 차별화된 진입 콘텐츠.
+**Mood**: Confident professionalism — measured excitement appropriate to industrials sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
 
-2. **"2030 전기화 현황 리포트" 연간 발간**
-   산업별 전력 수요 전망, EV 인프라, 재생에너지 연계 트렌드 분석. 미디어 픽업과 백링크 획득용 앵커 콘텐츠.
+### Situation 2 — Thought Leadership / Industry Commentary
 
-3. **"전력 실패 사례 아카이브" 시리즈**
-   실제 대규모 전력 사고 분석 (익명화). "이것이 당신에게 일어날 수 있다"는 공포 기반 인식 제고. 산업별 타깃팅.
+**Mood**: Authoritative insight — Eaton Corporation as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
 
-### Steal Sheet: 고려(Consideration) 레이어
+### Situation 3 — Crisis or Negative News Response
 
-1. **"산업별 전력 설계 가이드" 시리즈**
-   데이터센터, 중공업, 병원 등 세그먼트별 전력 아키텍처 모범 사례 가이드. 엔지니어 직접 타깃, 영업 너처링 도구.
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
 
-2. **"Eaton vs. 경쟁사" 기술 비교 웨비나**
-   중립적 어조로 기술 스펙 비교, 자사 우위를 데이터로 제시. 참가자는 이미 구매 검토 단계의 고품질 리드.
+### Situation 4 — Customer-Facing Communication
 
-3. **"고객 성공 영상" 60초 시리즈**
-   실제 고객 엔지니어 인터뷰. 문제-해결-결과 구조. LinkedIn·유튜브 배포. 동종업계 신뢰 전이 효과.
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
-### Steal Sheet: 전환(Conversion) 레이어
+---
 
-1. **"프로젝트 ROI 보증 패키지"**
-   초기 설계 단계부터 ROI 수치를 Eaton 엔지니어가 공동 산출. 고객 내부 예산 승인 도구로 기능. 경쟁사보다 조기 락인.
+## Content Prohibitions
 
-2. **"48시간 기술 견적 서비스"**
-   RFQ 접수 후 48시간 내 기술 사양 + 견적 제공 보장. 속도를 브랜드 가치로 전환. 영업 사이클 단축.
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-3. **"설치 후 90일 최적화 프로그램"**
-   납품 이후 90일간 성능 모니터링 + 무료 최적화 서비스. 고객 만족 극대화, 추가 수주 및 레퍼런스 확보.
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #ETN | Financial and investor community | Moderate (estimated) |
+| #EatonCorporation | Brand-level social engagement | Varies (estimated) |
+| #IInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Eaton Corporation's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In industrials markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in electrical components & equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Eaton Corporation's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

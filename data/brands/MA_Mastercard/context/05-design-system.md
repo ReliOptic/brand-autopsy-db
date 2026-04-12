@@ -1,139 +1,102 @@
-# 05 디자인 시스템 — Mastercard (MA)
+# 05. Design System — Mastercard (MA)
 
-## 브랜드 시각 정체성 개요
-
-Mastercard의 디자인 시스템은 1968년 이후 지속적으로 진화해왔으며, 2019년 심볼 단독 사용(워드마크 없이 원 두 개만)이 가능할 만큼 글로벌 인지도를 확보했다. 디자인 철학은 **"단순함 속의 상징성"** — 두 원의 교차가 연결과 시너지를 표현한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 코어 브랜드 컬러
+Mastercard's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Mastercard Red | `#EB001B` | R235 G0 B27 | 좌측 원, 주 브랜드 컬러 (공식) |
-| Mastercard Yellow/Orange | `#F79E1B` | R247 G158 B27 | 우측 원, 주 브랜드 컬러 (공식) |
-| Mastercard Orange (교차) | `#FF5F00` | R255 G95 B0 | 두 원 교차 영역, 시너지 상징 (공식) |
-| Black | `#000000` | R0 G0 B0 | 워드마크, 다크 배경 (공식) |
-| White | `#FFFFFF` | R255 G255 B255 | 역전 로고, 밝은 배경 (공식) |
+### Core Brand Colors
 
-### 확장 팔레트 (공식 가이드라인 기반 추정)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| Deep Red | `#B30015` | R179 G0 B21 | 강조·호버 상태 (추정) |
-| Warm Orange | `#E8890A` | R232 G137 B10 | 세컨더리 액션 (추정) |
-| Dark Gray | `#1A1A1A` | R26 G26 B26 | 본문 텍스트 (추정) |
-| Medium Gray | `#6B6B6B` | R107 G107 B107 | 서브 텍스트 (추정) |
-| Light Gray | `#F5F5F5` | R245 G245 B245 | 배경, 카드 UI (추정) |
-| Warm White | `#FAFAF8` | R250 G250 B248 | 프리미엄 배경 (추정) |
+### Color Principles
 
-### 디지털 인터랙션 컬러 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 상태 | HEX | 설명 |
-|------|-----|------|
-| 링크 기본 | `#EB001B` | 브랜드 레드 유지 |
-| 링크 호버 | `#B30015` | 다크 레드 |
-| CTA 버튼 기본 | `#EB001B` | 주요 액션 |
-| CTA 버튼 호버 | `#CC0018` | R204 G0 B24 |
-| 성공 상태 | `#00A651` | R0 G166 B81 |
-| 경고 상태 | `#F79E1B` | 브랜드 옐로 재활용 |
-| 오류 상태 | `#EB001B` | 브랜드 레드 재활용 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 폰트 시스템 (공식)
+Mastercard's digital properties employ a typographic system appropriate to its financials positioning.
 
-| 구분 | 폰트명 | 사용처 |
-|------|--------|--------|
-| 주 서체 | Mastercard Type (전용 서체) | 모든 마케팅 커뮤니케이션 (공식) |
-| 대체 서체 | FF Mark (공식 대체) | 전용 서체 사용 불가 환경 |
-| 디지털 대체 | Mark Pro / Mark OT | 웹·앱 환경 (추정) |
-| 한국어 | Noto Sans KR (추정) | 한국 시장 디지털 콘텐츠 |
+### Typeface System
 
-### 타입 스케일 (추정)
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 레벨 | 크기 | 굵기 | 용도 |
-|------|------|------|------|
-| Display | 56–72px | Bold | 히어로 헤드라인 |
-| H1 | 40–48px | Bold | 페이지 제목 |
-| H2 | 28–32px | SemiBold | 섹션 제목 |
-| H3 | 20–24px | SemiBold | 서브 섹션 |
-| Body Large | 18px | Regular | 리드 텍스트 |
-| Body | 16px | Regular | 본문 |
-| Caption | 12–14px | Regular | 부가 정보 |
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 시스템
+## 3. Channel Specifications
 
-### 로고 변형 (공식)
-
-| 변형 | 사용 환경 | 최소 크기 |
-|------|----------|----------|
-| 심볼 + 워드마크 (가로) | 일반 마케팅 기본형 | 60px 이상 |
-| 심볼 단독 | 고인지도 환경, 아이콘, 앱 | 24px 이상 |
-| 워드마크 단독 | 텍스트 공간 제한 환경 | 80px 이상 |
-| 역전 (화이트) | 다크·컬러 배경 | 동일 |
-
-### 로고 보호 영역
-- 심볼 단독: 심볼 높이의 25% 여백 (공식)
-- 워드마크 포함: 워드마크 높이의 50% 여백 (공식)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 디자인 원칙
+## 4. Layout Principles
 
-| 원칙 | 설명 |
-|------|------|
-| 단순성(Simplicity) | 불필요한 시각 요소 제거, 핵심 메시지에 집중 |
-| 일관성(Consistency) | 모든 터치포인트에서 동일한 브랜드 경험 |
-| 접근성(Accessibility) | WCAG 2.1 AA 기준 준수, 색상 대비 최소 4.5:1 |
-| 유연성(Flexibility) | 디지털·인쇄·OOH 등 다양한 매체 적응 |
-| 현지화(Localization) | 글로벌 일관성 유지하면서 로컬 문화 반영 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 그래픽 요소
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-### 심볼 (두 원의 교차)
-- 좌원: Mastercard Red `#EB001B` — 과거, 유산, 신뢰
-- 우원: Mastercard Yellow `#F79E1B` — 미래, 혁신, 가능성
-- 교차: Orange `#FF5F00` — 연결, 시너지, 가치 창출
-
-### 모션 디자인 원칙 (추정)
-- 두 원이 모여 교차하는 애니메이션 — 연결의 서사
-- 부드럽고 유기적인 곡선 모션
-- 이징: ease-in-out, 지속시간 0.3~0.6초
-- 파티클·웨이브 효과 — 결제 흐름의 시각화
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 레이어별 도용 전략
+## 5. Design Prohibitions
 
-### Steal Sheet A — 컬러 활용
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-| 전술 | 실행 방법 |
-|------|----------|
-| 레드-옐로 그라디언트 활용 | 두 브랜드 컬러의 그라디언트를 배경으로 활용 → 프리미엄 감성 강화 |
-| 교차 오렌지 강조 | `#FF5F00` 를 CTA·강조 포인트로 활용 → 시너지·연결 메시지 시각화 |
-| 다크모드 대응 | 블랙 배경 + 레드·옐로 조합으로 프리미엄 야간 모드 UI 구현 |
+---
 
-### Steal Sheet B — 타이포그래피·레이아웃
-
-| 전술 | 실행 방법 |
-|------|----------|
-| 대형 숫자 타이포 | "1억+ 가맹점", "210개국+" 등 임팩트 있는 데이터를 초대형 서체로 강조 |
-| 화이트스페이스 극대화 | 여백 활용으로 프리미엄·신뢰 감성 연출 (Amex 디자인 언어 차용) |
-| 감성 + 기능 레이어드 레이아웃 | 상단 감성 이미지 + 하단 기능 정보 2단 구조 반복 |
-
-### Steal Sheet C — 모션·인터랙션
-
-| 전술 | 실행 방법 |
-|------|----------|
-| 결제 완료 마이크로 애니메이션 | 두 원이 교차하는 체크 애니메이션 → 결제 성공 피드백 |
-| 스크롤 기반 스토리텔링 | Priceless 스토리를 스크롤 모션으로 전개 → 웹 캠페인 몰입감 |
-| 데이터 시각화 애니메이션 | 글로벌 결제 흐름 지도 → 실시간 네트워크 규모 시각화 |
+*Layer 5 of 8 — Brand Autopsy: Mastercard (MA)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

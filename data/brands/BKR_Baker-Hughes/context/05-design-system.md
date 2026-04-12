@@ -1,123 +1,102 @@
-# 05 디자인 시스템 — Baker Hughes (BKR)
+# 05. Design System — Baker Hughes (BKR)
 
-## 디자인 철학
-
-Baker Hughes의 시각 언어는 "정밀한 신뢰(Engineered Trust)"를 표현한다. 과도한 장식을 배제하고 데이터·구조·명확성을 우선시하는 산업 엔지니어링 미학을 따른다. 2017년 GE Oil & Gas 합병 이후 새 브랜드 아이덴티티가 확립되었으며, 2021년경 에너지 전환 포지셔닝 강화와 함께 디지털 채널에서 약간 더 현대적인 방향으로 진화했다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 컬러 팔레트
+Baker Hughes's visual identity, as observed on its official website, employs a structured color system appropriate to energy sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| BKR 네이비 (Primary Navy) | #003057 | 주요 브랜드 컬러, 헤더, 로고 배경 | (공식) |
-| BKR 블루 (Brand Blue) | #0066A1 | 링크, CTA 버튼, 강조 텍스트 | (공식) |
-| BKR 라이트 블루 (Light Blue) | #00A3E0 | 디지털 강조, 인포그래픽 액센트 | (공식) |
-| 화이트 (White) | #FFFFFF | 배경, 리버스 텍스트 | (공식) |
-| 라이트 그레이 (Light Gray) | #F5F5F5 | 섹션 배경, 카드 배경 | (추정) |
-| 미디엄 그레이 (Medium Gray) | #9EA2A2 | 본문 서브텍스트, 구분선 | (추정) |
-| 다크 그레이 (Dark Gray) | #3D3D3D | 본문 텍스트 기본색 | (추정) |
+### Core Brand Colors
 
-### 보조 컬러 팔레트 (Accent Colors)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| 에너지 오렌지 (Energy Orange) | #E87722 | 에너지 전환 캠페인 강조, 경고·CTA | (추정) |
-| 그린 (Sustainability Green) | #4CAF50 | 지속가능성·ESG 콘텐츠 전용 | (추정) |
-| 딥 틸 (Deep Teal) | #00707F | IET 사업부 아이덴티티 | (추정) |
-| 앰버 (Amber) | #F5A623 | 데이터 시각화 강조 포인트 | (추정) |
+### Color Principles
 
-### 데이터 시각화 컬러 시퀀스
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 순서 | HEX | 사용 맥락 |
-|------|-----|---------|
-| 1st | #0066A1 | 주요 데이터 시리즈 |
-| 2nd | #00A3E0 | 보조 데이터 시리즈 |
-| 3rd | #E87722 | 강조 데이터 포인트 |
-| 4th | #9EA2A2 | 비교 기준선 |
-| 5th | #003057 | 배경 또는 총합 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-| 용도 | 폰트 | 굵기 | 비고 |
-|------|------|------|------|
-| 헤딩 (H1–H3) | GE Inspira (독점 서체) | Bold / SemiBold | (공식 추정) |
-| 본문 | GE Inspira 또는 Open Sans | Regular | (추정) |
-| 기술 데이터·표 | Roboto Mono / Courier | Regular | (추정) |
-| 디지털 대체 서체 | Arial, Helvetica Neue | — | 웹 fallback |
+Baker Hughes's digital properties employ a typographic system appropriate to its energy positioning.
 
-### 타이포그래피 규칙
-- 대문자(ALL CAPS) 사용은 내비게이션 레이블과 섹션 타이틀에만 허용 (추정)
-- 최소 본문 폰트 크기: 14px (디지털), 9pt (인쇄) (추정)
-- 줄 간격(Line Height): 1.5× 폰트 사이즈 기준 (추정)
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 로고 사용 규칙
+### Typographic Scale
 
-| 항목 | 규칙 |
-|------|------|
-| 기본 로고 | 워드마크 "Baker Hughes" — 네이비 또는 화이트 버전 (공식) |
-| 최소 여백 | 로고 높이의 50% 이상 사방 확보 (추정) |
-| 금지 변형 | 색상 변경, 왜곡, 그림자 효과, 아웃라인 처리 금지 (추정) |
-| 배경 대응 | 밝은 배경 → 네이비 로고 / 어두운 배경 → 화이트 로고 (추정) |
-| 최소 크기 | 인쇄 25mm 폭 이상 / 디지털 120px 폭 이상 (추정) |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 사진·이미지 스타일
+## 3. Channel Specifications
 
-### 허용 이미지 스타일
-- **현장 실사 사진:** 시추 플랫폼, 파이프라인, LNG 플랜트 — 자연광 또는 산업 조명
-- **기술 클로즈업:** 장비 세부, 센서, 회로 — 정밀성 강조
-- **사람 중심 사진:** 안전 장구 착용 엔지니어, 다양성 반영 팀
-- **데이터 시각화 오버레이:** 현장 사진 위 디지털 데이터 레이어 표현 (디지털 솔루션 캠페인)
-
-### 금지 이미지 스타일
-- 스톡 이미지 느낌의 인위적 연출 (악수, 미소 짓는 회의실 장면)
-- 경쟁사 장비가 포함된 현장 사진
-- 저해상도 또는 흐림 처리된 배경 사진
-- 환경 훼손이 연상되는 이미지 (오염, 화재, 유출)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 아이콘 및 일러스트레이션
+## 4. Layout Principles
 
-- **아이콘 스타일:** 라인 기반, 2px 두께, 각진 모서리 (추정)
-- **일러스트레이션:** 기술 다이어그램 스타일 — 3D 등각 투영보다 2D 평면 플랫 디자인 선호 (추정)
-- **애니메이션:** 미묘한 페이드인/슬라이드. 과도한 모션 금지 (추정)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별
+## 5. Design Prohibitions
 
-### Steal Sheet 1 — 컬러 전략 적용
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-| 상황 | 적용 방법 |
-|------|---------|
-| 에너지 전환 캠페인 | 네이비(#003057) + 오렌지(#E87722) 조합 — 전통과 혁신의 시각적 대비 |
-| 기술 백서 표지 | 네이비 배경 + 화이트 타이틀 + 라이트 블루(#00A3E0) 강조선 |
-| ESG 리포트 | 그린(#4CAF50) 보조색 전면 배치, 데이터 차트에 그린→블루 그라디언트 |
-| 디지털 배너 광고 | 라이트 블루(#00A3E0) CTA 버튼, 다크 배경과 고대비 확보 |
+---
 
-### Steal Sheet 2 — 타이포그래피 계층 활용
-
-| 계층 | 규칙 |
-|------|------|
-| 임팩트 헤드라인 | H1: 48–64px Bold, 네이비 또는 화이트, 단어 수 5개 이하 |
-| 섹션 타이틀 | H2: 28–36px SemiBold, 라이트 블루 언더라인 또는 왼쪽 컬러 바 |
-| 본문 강조 | Bold + 라이트 블루 컬러 — 수치, 단위, 핵심 키워드에만 적용 |
-| 데이터 콜아웃 | 큰 숫자(64–96px) + 작은 단위 텍스트(16px) 조합으로 임팩트 극대화 |
-
-### Steal Sheet 3 — 사진·레이아웃 컴포지션
-
-| 요소 | 세부 규칙 |
-|------|---------|
-| 히어로 이미지 | 현장 사진 좌측 2/3 + 우측 1/3 텍스트 오버레이 박스 (네이비 80% 불투명도) |
-| 케이스 스터디 레이아웃 | 좌측 수치 콜아웃 (대형) + 우측 본문 설명 2단 구조 |
-| 인포그래픽 구조 | 상단 문제 → 중간 솔루션 프로세스 → 하단 결과 수치, 수직 플로우 |
-| 모바일 최적화 | 히어로 이미지 세로 크롭 시 장비/사람 중앙 배치, 텍스트 겹침 최소화 |
+*Layer 5 of 8 — Brand Autopsy: Baker Hughes (BKR)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

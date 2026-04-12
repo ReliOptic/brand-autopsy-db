@@ -1,150 +1,141 @@
-# 06. 채널 플레이북 — Texas Instruments (TXN)
+# 06. Channel Playbook — Texas Instruments (TXN)
 
-## 채널 전략 개요
-
-TI의 채널 전략은 **"엔지니어가 있는 곳에 TI가 있다"** 원칙으로 요약된다. 소비자 SNS 광고 대신, 엔지니어가 설계 문제를 해결하는 모든 접점(검색, 포럼, 기술 커뮤니티, 전시회)에 기술 권위자로 존재하는 것이 목표다. (추정)
-
-채널 분류: **직접 채널** (TI 소유) vs **파트너 채널** (디스트리뷰터·플랫폼) vs **커뮤니티 채널** (엔지니어 생태계)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 상세 플레이북
+## 1. Channel Strategy Matrix
 
-### 채널 1: TI.com — 핵심 직접 채널 (공식)
-
-**역할**: 모든 채널의 트래픽이 최종 수렴하는 허브. 제품 탐색, 기술 문서, 구매 연결.
-
-**콘텐츠 믹스**:
-- 제품 검색 및 비교 (파라미터 필터 기반)
-- 데이터시트·앱노트·레퍼런스 디자인 무료 다운로드
-- 평가보드·LaunchPad 직접 구매
-- TI E2E Community 연결
-
-**KPI (추정)**:
-- 월간 데이터시트 다운로드 수
-- 제품 페이지 이탈률
-- 레퍼런스 디자인 다운로드 → 구매 전환율
-
-**운영 원칙**:
-- 제품 스펙 테이블의 정확성이 최우선. 오류 발생 시 브랜드 신뢰 치명타.
-- 모바일 최적화 필수 — 현장 엔지니어가 스마트폰으로 데이터시트 검색.
-- 검색 필터 UX: 파라미터 조합(전압 범위, 패키지, 온도 등)으로 최적 부품 탐색.
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 채널 2: TI E2E Community — 기술 커뮤니티 채널 (공식)
+## 2. Channel Tone Variations
 
-**역할**: 엔지니어와의 실시간 기술 대화. 브랜드 신뢰의 실질적 거점.
+Texas Instruments's core voice adjusts by channel while maintaining brand coherence.
 
-**콘텐츠 믹스**:
-- 엔지니어 질문에 TI 전문가가 직접 답변
-- 사용자 생성 설계 팁·회로 공유
-- 제품 버그/정오표 공개 (신뢰성 강화)
-
-**KPI (추정)**:
-- 월간 활성 스레드 수
-- 답변 응답 시간 (목표: 24시간 이내)
-- 스레드 → 데이터시트 다운로드 연결율
-
-**운영 원칙**:
-- 동료적 톤 허용 — 유일하게 격식을 낮추는 채널. (추정)
-- TI 직원이 직접 답변 시 소속·이름 명시 → 책임감과 신뢰 강화.
-- 오류 정정 시 즉각 공개 인정 — "우리도 틀릴 수 있다"는 투명성이 신뢰를 높임.
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 채널 3: 디스트리뷰터 파트너 (공식)
+## 3. Cross-Channel Synergy Map
 
-**주요 파트너**: Arrow Electronics, Avnet, Digi-Key Electronics, Mouser Electronics, Element14
+### Route A — Product/Service Launch Sequence
 
-**역할**: 소량 구매 엔지니어와 중소 제조사의 실제 구매 채널. TI는 대규모 OEM에 직접 공급, 나머지는 디스트리뷰터 경유.
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-**콘텐츠 전략 (추정)**:
-- 디스트리뷰터 플랫폼 내 TI 제품 페이지에 TI 공식 데이터시트·레퍼런스 디자인 링크 삽입
-- Digi-Key/Mouser의 "Featured Product" 섹션에 신제품 노출
-- 디스트리뷰터 기술 블로그에 TI 앱노트 협력 게재
+### Route B — Thought Leadership Pipeline
 
-**KPI (추정)**:
-- 디스트리뷰터 채널 판매량 점유율
-- Digi-Key/Mouser 검색 결과 내 TI 노출 순위
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
----
+### Route C — Earnings and Financial Communications
 
-### 채널 4: 기술 전시회 (공식·추정 혼합)
-
-**주요 이벤트**:
-| 전시회 | 지역 | 시기 | TI 참여 목적 |
-|--------|------|------|------------|
-| electronica | 독일 뮌헨 | 격년 11월 | 유럽 산업·자동차 엔지니어 접점 |
-| CEATEC | 일본 도쿄 | 10월 | 아시아 전자·자동차 생태계 |
-| CES | 미국 라스베이거스 | 1월 | 자동차·IoT 미디어 노출 |
-| SPS | 독일 뉘른베르크 | 11월 | 산업 자동화 전문가 |
-| APEC | 미국 순환 | 3월 | 전력 설계 엔지니어 직접 교육 |
-
-**채널 전략 (추정)**:
-- 전시 부스에서 제품 판매보다 **라이브 기술 데모·세미나** 중심.
-- 레퍼런스 디자인 실물 데모 보드 전시 → "동작하는 것을 눈으로 확인" 전략.
-- 부스 방문자에게 LaunchPad 키트 증정 → 접점 후 생태계 온보딩.
-
----
-
-### 채널 5: 디지털 콘텐츠 채널 (추정)
-
-**YouTube (TI 공식 채널)**
-- 주제: "How to design a [circuit topology] with [TI product]" 형식 HOW-TO 시리즈
-- 업로드 빈도: 주 1~2회 (추정)
-- 구독자층: 학생·주니어 엔지니어, 자기계발 중인 시니어 엔지니어
-- 금지: 제품 광고 영상, 브랜드 필름. 기술 교육만.
-
-**LinkedIn**
-- 타깃: 엔지니어링 매니저, CTO, 구매 담당자
-- 콘텐츠: 기술 트렌드 인사이트, 신제품 발표, 채용 (추정)
-- 톤: 격식체 유지, 수치 기반 메시지
-
-**Twitter/X (추정)**
-- 타깃: 개인 엔지니어, 메이커, 오픈소스 하드웨어 커뮤니티
-- 콘텐츠: 신제품 앱노트 링크, E2E 포럼 주요 Q&A 공유
-- 톤: 약간 완화된 기술 언어 허용
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 채널 6: 대학·교육 채널 (공식)
+## 4. Channel-Specific Prohibitions
 
-**TI University Program**
-- 교수에게 무료 평가보드·커리큘럼 교재 제공. (공식)
-- 학부 전기전자 커리큘럼에 TI 마이크로컨트롤러(MSP430, TM4C 등) 채택 유도.
-- 효과: 졸업 후 엔지니어가 자연스럽게 TI를 "기본값"으로 선택.
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**운영 원칙**:
-- 대학 파트너십은 ROI가 7~10년 지연 측정됨. 단기 판매 지표 아닌 장기 파이프라인으로 관리.
-- 교수·강사가 직접 TI 툴을 경험해야 학생에게 권장함. 교수 대상 워크숍 별도 운영.
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-## 채널 우선순위 매트릭스 (추정)
-
-| 채널 | 오디언스 | 구매 영향력 | 투자 우선순위 |
-|------|---------|-----------|-------------|
-| TI.com | 설계 엔지니어 | 직접 (스펙 채택) | 최우선 |
-| E2E 커뮤니티 | 설계 엔지니어 | 직접 (신뢰 형성) | 최우선 |
-| 디스트리뷰터 | 구매팀·소규모 엔지니어 | 직접 (구매 집행) | 높음 |
-| 기술 전시회 | 시니어 엔지니어·매니저 | 간접 (브랜드 노출) | 중간 |
-| YouTube/디지털 | 주니어 엔지니어·학생 | 간접 (파이프라인) | 중간 |
-| 대학 프로그램 | 학생·교수 | 장기 간접 | 전략적 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 금지 사항 (추정)
+## 5. Crisis Response Protocol
 
-- **소비자 SNS 광고 (Instagram, TikTok)**: TI 오디언스와 불일치. 예산 낭비.
-- **일반 브랜드 광고 (TV, 옥외광고)**: B2B 기술 브랜드에 부적합. Sage 아키타입 훼손.
-- **가격 할인 프로모션 공개 발표**: 디스트리뷰터 채널 혼란 야기, 브랜드 가격 신뢰도 저하.
-- **경쟁사 직접 비방 콘텐츠**: 수치 비교는 가능하나 감정적 공격 금지.
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-### Steal Sheet — 3가지
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-1. **채널이 아니라 워크플로우를 장악하라.** TI는 엔지니어가 "검색 → 스펙 확인 → 시뮬레이션 → 구매 → 양산"하는 전체 워크플로우의 각 단계에 TI 자산(Google 검색 결과, TI.com, SPICE 모델, E2E 포럼, 디스트리뷰터)이 존재하도록 설계했다. 채널 전략은 "어디에 광고를 낼 것인가"가 아니라 "고객의 업무 흐름 어디에 우리가 있을 것인가"로 설계해야 한다.
+### Scenario 2 — Regulatory or Legal Action
 
-2. **대학 투자는 가장 낮은 비용의 선점 전략이다.** TI University Program은 LaunchPad 키트($10~$50)와 무료 소프트웨어로 수백만 명의 미래 엔지니어에게 TI 생태계를 각인시킨다. 경쟁사가 영업 인력을 확보하는 비용의 1/100로 10년 후 시장을 선점하는 구조다. 교육 시장 투자는 단기 ROI가 아닌 생태계 선점 전략으로 평가해야 한다.
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-3. **E2E 포럼은 마케팅 자산이자 SEO 기계다.** TI E2E 포럼의 수백만 건 Q&A 스레드는 구글 검색 결과에서 롱테일 키워드를 점령한다. "TPS62130 oscillation issue" 같은 초특이적 검색어에서 TI E2E 결과가 상위에 오름으로써, 문제를 겪은 엔지니어가 TI 생태계 안에서 해결책을 찾고 TI에 대한 신뢰를 형성하게 된다. 기술 커뮤니티 포럼을 SEO 자산으로 측정하고 관리하라.
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Texas Instruments's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Texas Instruments's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Texas Instruments's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

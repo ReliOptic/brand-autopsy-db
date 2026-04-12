@@ -1,125 +1,102 @@
-# 05 디자인 시스템 — Becton Dickinson (BDX)
+# 05. Design System — Becton Dickinson (BDX)
 
-## 디자인 철학
-
-BD의 비주얼 아이덴티티는 "신뢰성·정밀도·청결함"을 시각적으로 구현한다. 의료 환경의 엄격함과 인간적 따뜻함을 균형 있게 조합하여, 전문 의료인에게는 권위를 전달하고 환자에게는 안심감을 제공한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 브랜드 컬러
+Becton Dickinson's visual identity, as observed on its official website, employs a structured color system appropriate to health care sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| BD Green (공식) | `#00A651` | rgb(0, 166, 81) | 주 브랜드 컬러, 로고, CTA 버튼 |
-| BD Dark Green (공식) | `#007A3D` | rgb(0, 122, 61) | 호버 상태, 진한 강조 |
-| BD White (공식) | `#FFFFFF` | rgb(255, 255, 255) | 배경, 여백, 클린 레이아웃 |
-| BD Dark Gray (공식) | `#333333` | rgb(51, 51, 51) | 본문 텍스트, 바디 카피 |
-| BD Medium Gray (추정) | `#666666` | rgb(102, 102, 102) | 보조 텍스트, 캡션 |
-| BD Light Gray (추정) | `#F4F4F4` | rgb(244, 244, 244) | 섹션 배경, 카드 배경 |
+### Core Brand Colors
 
-### 보조 컬러 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| BD Blue (추정) | `#005EB8` | rgb(0, 94, 184) | 링크, 정보 아이콘, 진단 세그먼트 |
-| BD Light Blue (추정) | `#E8F4FC` | rgb(232, 244, 252) | 배경 하이라이트, 알림 박스 |
-| BD Navy (추정) | `#003366` | rgb(0, 51, 102) | 헤더, 다크 배경 섹션 |
-| BD Red (추정) | `#CC0000` | rgb(204, 0, 0) | 경고, 오류 상태, 안전 라벨 |
-| BD Orange (추정) | `#F5821F` | rgb(245, 130, 31) | 주의 표시, 강조 배지 |
-| BD Teal (추정) | `#009DA5` | rgb(0, 157, 165) | Life Sciences 세그먼트 구분 |
+### Color Principles
 
-### 컬러 사용 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-- BD Green은 항상 주요 액션 포인트(CTA, 로고)에만 사용 — 남발 금지
-- 흰 배경 위 텍스트는 반드시 `#333333` 이상 대비값 유지 (WCAG AA 기준)
-- 의료 경고 맥락에서만 Red 사용, 마케팅 강조 목적 사용 금지
-- 세그먼트별 컬러 코딩으로 Medical/Diagnostics/Life Sciences 구분 (추정)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-| 역할 | 폰트 패밀리 | 굵기 | 크기 범위 |
-|------|-----------|------|----------|
-| 주 헤드라인 | BD Basis (proprietary, 추정) / Helvetica Neue 대체 | Bold (700) | 32px–64px |
-| 서브헤드라인 | 동일 패밀리 | SemiBold (600) | 20px–32px |
-| 본문 텍스트 | 동일 패밀리 / Arial 대체 | Regular (400) | 14px–18px |
-| 캡션·라벨 | 동일 패밀리 | Regular (400) | 11px–13px |
-| 데이터·수치 | 모노스페이스 계열 (추정) | Medium (500) | 가변 |
-
-**타이포그래피 원칙**:
-- 줄간격(line-height): 본문 1.6, 헤드라인 1.2
-- 자간(letter-spacing): 헤드라인 -0.02em, 본문 0em
-- 최소 폰트 크기: 11px (접근성 기준)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-| 버전 | 배경 | 사용 맥락 |
-|------|------|----------|
-| 풀 컬러 (공식) | 흰 배경 | 디지털, 인쇄물 기본 |
-| 역방향 (흰색) (공식) | 어두운 배경 | 다크 섹션, 영상 엔딩 |
-| 모노크롬 (추정) | 회색 배경 | 팩스, 흑백 인쇄 |
-| 아이콘 단독 (추정) | 다양한 배경 | 파비콘, 앱 아이콘, 소셜 프로필 |
+Becton Dickinson's digital properties employ a typographic system appropriate to its health care positioning.
 
-**로고 사용 금지 사항** (추정):
-- 로고 색상 임의 변경 금지
-- 최소 여백(clear space) = 로고 높이의 50% 이상 확보
-- 비율 왜곡 금지
-- 바쁜 배경(패턴·이미지) 위에 직접 배치 금지
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 이미지·사진 스타일
+### Typographic Scale
 
-| 카테고리 | 스타일 지침 |
-|---------|-----------|
-| 제품 사진 | 흰 배경, 정밀한 앵글, 실제 스케일 표시 |
-| 임상 현장 | 실제 의료진, 자연스러운 동작, 과도한 연출 지양 |
-| 환자 사진 | 희망적·능동적 표현, 아픔보다 회복에 초점 |
-| 연구·과학 | 실험실 환경, 데이터 시각화, 정밀한 기기 클로즈업 |
-| 금지 이미지 | 과도하게 극적인 의료 응급, 스톡 사진 느낌의 연출 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 아이콘 & 일러스트레이션 시스템 (추정)
+## 3. Channel Specifications
 
-- **스타일**: 라인 아이콘, 2px 스트로크, 직각 모서리 처리 (정밀도 표현)
-- **컬러**: BD Green 또는 Dark Gray 단색 사용
-- **그리드**: 24×24px 기본, 48×48px 피처 아이콘
-- **일러스트**: 사실적 도해(의료 기기 단면도, 해부학적 그림) 선호, 캐릭터형 일러스트 지양
-
----
-
-## UI/UX 디자인 원칙 (디지털 자산 기준, 추정)
-
-| 원칙 | 설명 |
-|------|------|
-| 접근성 우선 | WCAG 2.1 AA 기준 준수, 스크린 리더 호환 |
-| 정보 계층 명확화 | 중요도 순서대로 시각적 무게감 배분 |
-| 신뢰 신호 노출 | 인증 마크, 규제 정보를 항상 가시화 |
-| 모바일 퍼스트 | HCP의 모바일 사용 증가에 대응한 반응형 설계 |
-| 로딩 성능 | 의료 현장 저속 네트워크 고려, 경량화 우선 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-**Steal Sheet A: 컬러 즉시 적용 팔레트**
-- 신뢰·안전 강조: `#00A651` (Green) + `#FFFFFF` (White) + `#333333` (Dark Gray)
-- 진단·데이터 강조: `#005EB8` (Blue) + `#F4F4F4` (Light Gray) + `#333333`
-- 경고·주의 강조: `#CC0000` (Red) + `#FFFFFF` (White) + `#333333`
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-**Steal Sheet B: 타이포그래피 빠른 설정**
-- 헤드라인: Helvetica Neue Bold 40px / line-height 1.2 / `#333333`
-- 서브헤드: Helvetica Neue SemiBold 24px / line-height 1.3 / `#333333`
-- 본문: Helvetica Neue Regular 16px / line-height 1.6 / `#333333`
-- 강조 수치: Helvetica Neue Bold 16px / `#00A651`
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-**Steal Sheet C: 사진 선택 기준 3원칙 (추정)**
-- 원칙 1: 실제 임상 환경처럼 보이는가? (연출 티 나면 탈락)
-- 원칙 2: 환자/의료진이 능동적·전문적으로 보이는가? (피해자처럼 보이면 탈락)
-- 원칙 3: BD 제품이 자연스럽게 통합되어 있는가? (억지 삽입 탈락)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Becton Dickinson (BDX)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

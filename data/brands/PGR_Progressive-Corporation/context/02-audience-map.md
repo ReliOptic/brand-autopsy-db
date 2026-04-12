@@ -1,109 +1,84 @@
-# 02. 오디언스 맵 — Progressive (PGR)
+# 02. Audience Map — Progressive Corporation (PGR)
 
-## 타겟 오디언스 개요
-
-Progressive의 핵심 고객군은 **가격 민감도가 높고 디지털 채널에 익숙한 자동차 보험 구매자**다.
-전통 에이전트 중심 보험사(State Farm, Allstate)와 달리, 온라인 직접 판매와 비교 쇼핑을 주무기로 삼아
-가격을 적극적으로 비교하는 고객을 집중 공략한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — "알뜰 직장인" 이민준 (32세)
-
-| 항목 | 내용 |
-|------|------|
-| 직업 | 중견기업 마케터 |
-| 소득 | 연 $55,000 (추정) |
-| 거주지 | 텍사스 오스틴 교외 |
-| 차량 | 2019 Honda Accord |
-| 보험 경력 | 3년차, 매년 갱신 시 비교 쇼핑 |
-| 디지털 성향 | 스마트폰 우선, 앱으로 모든 금융 관리 |
-| 핵심 고충 | "갱신할 때마다 보험료가 오른다. 왜 충성 고객이 더 비싸야 하지?" |
-| 구매 동기 | Name Your Price® 도구로 예산 내 맞춤 설계 |
-| Progressive와의 접점 | Google 검색 광고 → 웹사이트 비교 견적 → 앱 가입 |
-| 브랜드 인식 | Flo 광고로 인지, 가격 비교 기능에 신뢰 |
-
-**이 페르소나에게 말해야 할 것**: "다른 곳이랑 직접 비교해봐. Progressive가 더 싸면 바로 알려줄게."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in property & casualty insurance. B2C: End consumers of financials products and services. (T4_INFERRED from Progressive Corporation's segment structure) |
+| **Occupation segments** | Senior executives, portfolio managers, financial advisors, institutional investors |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Progressive Corporation's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — "첫 차 구매 사회초년생" 김서연 (24세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 대학원 졸업 후 첫 취업 |
-| 소득 | 연 $38,000 (추정) |
-| 거주지 | 조지아 애틀랜타 아파트 |
-| 차량 | 2022 Toyota Corolla (첫 차) |
-| 보험 경력 | 없음 — 부모 보험에서 독립 |
-| 디지털 성향 | TikTok·Instagram 네이티브, 유튜브로 금융 정보 습득 |
-| 핵심 고충 | "보험이 뭔지 모르겠다. 어디서부터 시작해야 하지?" |
-| 구매 동기 | 복잡한 용어 없이 빠르게 가입 가능한 경험 |
-| Progressive와의 접점 | 소셜 미디어 광고 → Flo 콘텐츠 공감 → 모바일 앱 가입 |
-| 브랜드 인식 | "Flo 언니처럼 친절하게 설명해줄 것 같다" |
+### Persona 1 — Enterprise Decision-Maker
 
-**이 페르소나에게 말해야 할 것**: "처음이라도 괜찮아. 5분이면 충분해."
+- **Age / Occupation**: 42, VP-level or director in a Progressive Corporation customer organization
+- **Core pain**: Needs reliable property & casualty insurance solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Progressive Corporation selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — "상업용 차량 사업주" 박철수 (47세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 직업 | 소규모 배달 물류 사업 운영 (트럭 3대) |
-| 소득 | 연 $120,000 (사업 순이익 기준, 추정) |
-| 거주지 | 플로리다 탬파 |
-| 차량 | 상업용 픽업트럭 3대 |
-| 보험 경력 | 12년, 에이전트 통해 가입 |
-| 디지털 성향 | 중간 — 이메일·전화 선호, 모바일은 보조 |
-| 핵심 고충 | "상업용 보험은 종류가 너무 많고 에이전트마다 말이 다르다" |
-| 구매 동기 | Progressive의 상업용 차량 특화 상품 + 대리점 네트워크 |
-| Progressive와의 접점 | 에이전트 추천 → 전화 상담 → 온라인 서류 처리 |
-| 브랜드 인식 | "큰 회사라 청구 처리가 빠를 것 같다" |
-
-**이 페르소나에게 말해야 할 것**: "사업 차량 전담 팀이 있다. 한 번에 묶어서 더 저렴하게."
+- **Age / Occupation**: 35, technical professional who interacts with Progressive Corporation's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Progressive Corporation selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 규모 (추정) | 가격 민감도 | 디지털 친화도 | 우선순위 |
-|---------|-----------|-----------|------------|---------|
-| 가격 비교 쇼퍼 | 전체의 40% (추정) | 최고 | 높음 | 1순위 |
-| 첫 보험 구매자 | 전체의 20% (추정) | 높음 | 최고 | 2순위 |
-| 기존 고객 유지 | 전체의 25% (추정) | 중간 | 중간 | 3순위 |
-| 상업용 보험 사업주 | 전체의 15% (추정) | 중간 | 낮음 | 4순위 |
-
----
-
-## 고객 여정 (Customer Journey)
-
-```
-인지(Awareness)
-  └─ TV 광고 (Flo) / 디지털 광고 / 지인 추천
-      │
-관심(Consideration)
-  └─ 웹사이트 비교 견적 / Name Your Price® 체험
-      │
-결정(Decision)
-  └─ 앱 가입 / 전화 상담 / 에이전트 방문
-      │
-유지(Retention)
-  └─ Snapshot® 텔레매틱스 할인 / 앱 청구 처리
-      │
-옹호(Advocacy)
-  └─ 추천 보너스 / 소셜 공유
-```
+- **Age / Occupation**: 38, consumer who interacts with Progressive Corporation's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Progressive Corporation selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 지역별 집중도 (추정)
+## Purchase Journey — AARRR Framework
 
-| 주 | 주력 이유 |
-|----|---------|
-| 플로리다 | 무보험 차량 비율 높음, 가격 경쟁 치열 |
-| 텍사스 | 시장 규모 2위, 픽업트럭·상업용 수요 강세 |
-| 캘리포니아 | 대도시 밀집, 디지털 채널 효율 최고 |
-| 오하이오 | 본사 소재지, 브랜드 인지도 최고 |
+| Stage | Progressive Corporation's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Progressive Corporation total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Progressive Corporation Is Not For
+
+| Type | Characteristics | Why Progressive Corporation Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Progressive Corporation's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Progressive Corporation's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Progressive Corporation's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Progressive Corporation's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Progressive Corporation's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In financials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,99 +1,84 @@
-# 02 오디언스 맵 — Cognizant (CTSH)
+# 02. Audience Map — Cognizant (CTSH)
 
-## 타깃 오디언스 개요
-
-Cognizant의 주요 고객은 대형 엔터프라이즈 B2B 의사결정자이다. 산업별로는 금융서비스(FS), 헬스케어·생명과학, 제품·리소스(제조·물류), 커뮤니케이션·미디어·기술(CMT) 4개 버티컬이 핵심이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 3개
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 엔터프라이즈 CTO — "디지털 전환의 설계자"
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 박현우 (가상) |
-| 직책 | 글로벌 제조사 CTO |
-| 연령 | 45~55세 |
-| 지역 | 서울/싱가포르/뉴욕 |
-| 학력 | 공학 석사 + MBA (추정) |
-| 연봉 | $300K~$500K USD (추정) |
-| 핵심 고통 | 레거시 시스템 현대화, AI 도입 ROI 증명, 탤런트 확보 |
-| 구매 동기 | 검증된 글로벌 파트너, 확장 가능한 클라우드 아키텍처 |
-| 정보 채널 | Gartner 리포트, LinkedIn, 업계 컨퍼런스(AWS re:Invent 등) |
-| 브랜드 기대 | 기술 리더십, 케이스 스터디 심층 제공, SLA 보장 |
-| 결정 장벽 | 공급업체 Lock-in 우려, 보안·컴플라이언스 리스크 |
-
-**Steal Sheet:**
-- "레거시→클라우드 네이티브 전환 90일 로드맵" 백서 제공
-- Gartner Magic Quadrant 리더 포지션 전면 활용
-- 동종 업계 Fortune 500 레퍼런스 케이스 3건 이상 제시
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in it consulting & other services and adjacent industries. (T4_INFERRED from Cognizant's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Cognizant's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 금융서비스 CDO — "데이터의 수호자"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | Sarah Mitchell (가상) |
-| 직책 | 글로벌 은행 최고데이터책임자(CDO) |
-| 연령 | 40~50세 |
-| 지역 | 런던/뉴욕 |
-| 학력 | 통계학·경제학 학사, MBA (추정) |
-| 연봉 | $250K~$400K USD (추정) |
-| 핵심 고통 | 데이터 사일로 해소, AI 규제 대응, 실시간 인사이트 확보 |
-| 구매 동기 | 금융 규제 준수(GDPR·Basel III), GenAI 기반 분석 자동화 |
-| 정보 채널 | Forrester Wave, FSB 가이드라인, 업계 협회 리포트 |
-| 브랜드 기대 | 금융 도메인 전문성, 규제 변화 선제 대응 |
-| 결정 장벽 | 데이터 주권 우려, 내부 IT팀과의 갈등 |
+### Persona 1 — Enterprise Decision-Maker
 
-**Steal Sheet:**
-- FS 전용 "Regulated AI" 프레임워크 제안서 선제 제공
-- GDPR·DORA 컴플라이언스 자동화 사례 강조
-- 금융 버티컬 전담 어카운트 팀 배치 약속
+- **Age / Occupation**: 42, VP-level or director in a Cognizant customer organization
+- **Core pain**: Needs reliable it consulting & other services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Cognizant selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 헬스케어 CISO — "리스크 관리자"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | Arun Patel (가상) |
-| 직책 | 대형 병원 네트워크 CISO |
-| 연령 | 42~52세 |
-| 지역 | 시카고/뭄바이 |
-| 학력 | 컴퓨터과학 학사, CISSP 자격 (추정) |
-| 연봉 | $200K~$320K USD (추정) |
-| 핵심 고통 | 의료 데이터 침해 예방, HIPAA 준수 자동화, 랜섬웨어 방어 |
-| 구매 동기 | 제로트러스트 아키텍처, 헬스케어 특화 사이버보안 솔루션 |
-| 정보 채널 | HIMSS 컨퍼런스, Dark Reading, CISA 가이드라인 |
-| 브랜드 기대 | 헬스케어 규제 전문성, 24/7 보안 운영센터(SOC) 보장 |
-| 결정 장벽 | 예산 제약, 임상 시스템 가용성 중단 우려 |
-
-**Steal Sheet:**
-- HIPAA 컴플라이언스 자동화 ROI 계산기 제공
-- 헬스케어 특화 Zero Trust 레퍼런스 아키텍처 공개
-- 연중무휴 글로벌 SOC 운영 서비스 수준 협약(SLA) 강조
+- **Age / Occupation**: 35, technical professional who interacts with Cognizant's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Cognizant selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 산업 | 의사결정권 | 예산 규모 | 구매 사이클 |
-|----------|------|------------|-----------|------------|
-| C-Suite (CIO/CTO/CDO) | 전 산업 | 최종 결정 | $10M+ | 12~24개월 |
-| VP/Director IT | 금융·제조 | 추천권 | $1M~$10M | 6~12개월 |
-| 조달·벤더관리팀 | 대기업 전반 | 협상권 | N/A | 3~6개월 |
-| 스타트업 CTO | 테크·핀테크 | 전결 | $500K 미만 | 1~3개월 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Cognizant's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Cognizant selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 고객 여정 맵 (추정)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 채널 | Cognizant 접점 |
-|------|------|----------------|
-| 인지 (Awareness) | 업계 행사·LinkedIn·Gartner | 리더십 사고 콘텐츠, 애널리스트 리포트 |
-| 고려 (Consideration) | 웹사이트·백서·데모 | 산업별 솔루션 페이지, 케이스 스터디 |
-| 평가 (Evaluation) | RFP·POC | 전담 어카운트 팀, 기술 워크숍 |
-| 구매 (Purchase) | 계약 협상 | 글로벌 딜리버리 모델 제안 |
-| 성과 (Retention) | QBR·파트너 포럼 | 성과 리포트, 확장 제안 |
+| Stage | Cognizant's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Cognizant total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Cognizant Is Not For
+
+| Type | Characteristics | Why Cognizant Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Cognizant's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Cognizant's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Cognizant's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Cognizant's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Cognizant's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

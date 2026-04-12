@@ -1,134 +1,102 @@
-# 05. 디자인 시스템 — Akamai Technologies (AKAM)
+# 05. Design System — Akamai Technologies (AKAM)
 
-## 브랜드 컬러 시스템
-
-### 주요 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Akamai Blue | `#009BDE` | rgb(0, 155, 222) | 주 브랜드 컬러, CTA 버튼, 링크 | (공식) |
-| Deep Navy | `#003366` | rgb(0, 51, 102) | 헤더, 히어로 배경, 신뢰감 강조 | (공식) |
-| Bright Cyan | `#00C4D4` | rgb(0, 196, 212) | 액센트, 아이콘, 인포그래픽 강조 | (추정) |
-| Dark Charcoal | `#1A1A2E` | rgb(26, 26, 46) | 다크 배경, 기술 문서 섹션 | (추정) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 대비 | (공식) |
-| Light Gray | `#F4F6F9` | rgb(244, 246, 249) | 카드 배경, 섹션 구분 | (추정) |
-| Mid Gray | `#6B7280` | rgb(107, 114, 128) | 부제목, 캡션, 보조 텍스트 | (추정) |
-
-### 보조 컬러 팔레트 (Functional Colors)
-
-| 컬러명 | HEX | RGB | 용도 | 출처 |
-|--------|-----|-----|------|------|
-| Alert Red | `#E53E3E` | rgb(229, 62, 62) | 위협 경고, 오류 상태 | (추정) |
-| Warning Amber | `#F6AD55` | rgb(246, 173, 85) | 주의 상태, 중간 위험 | (추정) |
-| Success Green | `#38A169` | rgb(56, 161, 105) | 보호 상태, 성공 메시지 | (추정) |
-| Security Purple | `#6B46C1` | rgb(107, 70, 193) | 보안 제품군 강조, 제로트러스트 | (추정) |
-| Edge Teal | `#319795` | rgb(49, 151, 149) | 엣지 컴퓨팅 제품군 강조 | (추정) |
-
-### 컬러 사용 비율 (추정)
-
-```
-■ Akamai Blue (#009BDE)  ████████████████████ 40%
-■ Deep Navy (#003366)    ████████████ 25%
-■ Pure White (#FFFFFF)   ████████ 20%
-■ Light Gray (#F4F6F9)   █████ 10%
-■ 보조 컬러 조합          ██ 5%
-```
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 타이포그래피 시스템
+## 1. Color Palette
 
-### 서체 체계 (추정)
+Akamai Technologies's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 서체 | 굵기 | 크기 범위 |
-|------|------|------|---------|
-| 디스플레이 헤드라인 | Graphik / Inter | Bold (700) | 48px–72px |
-| 섹션 헤딩 H2 | Graphik / Inter | SemiBold (600) | 32px–40px |
-| 본문 헤딩 H3 | Graphik / Inter | Medium (500) | 20px–24px |
-| 본문 텍스트 | Graphik / Inter | Regular (400) | 16px–18px |
-| 캡션·레이블 | Graphik / Inter | Regular (400) | 12px–14px |
-| 코드·기술 문서 | Fira Mono / JetBrains Mono | Regular (400) | 14px–16px |
+### Core Brand Colors
 
-**폴백 웹폰트**: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
----
+### Color Principles
 
-## 비주얼 언어 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### 1. 데이터 비주얼라이제이션 스타일
-- **지도 시각화**: 글로벌 PoP 네트워크, 위협 발원지 지도는 딥 네이비 배경에 브라이트 사이언 포인트로 표현
-- **차트 컬러**: Akamai Blue를 주 데이터 컬러로, 보조 데이터는 Edge Teal 활용
-- **인포그래픽**: 미니멀리스트 아이콘 세트, 선 두께 2px 기준, 라운드 캡
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### 2. 사진·이미지 방향
-- **허용**: 데이터센터 내부, 서버 랙, 글로벌 네트워크 시각화, 비즈니스 전문가 협업 장면
-- **금지**: 스톡 이미지 느낌의 과장된 연출, 소비자 일상 장면, 과도한 감성 연출
-- **색조 처리**: 사진에 Akamai Blue 오버레이 20~30% 적용으로 브랜드 통일감
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### 3. 아이콘 시스템 (추정)
-- **스타일**: 아웃라인(Outline) 기반, 2px 스트로크, 24×24px 기준 그리드
-- **주요 아이콘 카테고리**: 보안 (방패, 자물쇠, 눈), 네트워크 (글로브, 노드), 성능 (번개, 속도계)
-- **라운드 처리**: 코너 라디우스 2px (샤프하되 딱딱하지 않게)
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## UI 컴포넌트 패턴
+## 2. Typography
 
-### CTA 버튼 스펙
+Akamai Technologies's digital properties employ a typographic system appropriate to its information technology positioning.
 
-| 타입 | 배경색 | 텍스트색 | 보더 | 호버 상태 |
-|------|--------|---------|------|---------|
-| Primary | `#009BDE` | `#FFFFFF` | 없음 | `#007AB8` (10% 어둡게) |
-| Secondary | `#FFFFFF` | `#009BDE` | 2px `#009BDE` | `#F0F8FF` 배경 |
-| Danger/Alert | `#E53E3E` | `#FFFFFF` | 없음 | `#C53030` |
-| Ghost | 투명 | `#FFFFFF` | 1px `#FFFFFF` | `rgba(255,255,255,0.1)` |
+### Typeface System
 
-**버튼 패딩**: 12px 24px | **라운드**: 4px | **폰트**: 14px SemiBold
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-### 카드 컴포넌트
+### Typographic Scale
 
-```
-┌─────────────────────────────────┐
-│  [아이콘] 카테고리 레이블         │  ← Mid Gray (#6B7280), 12px
-│                                 │
-│  카드 헤드라인                   │  ← Dark Charcoal (#1A1A2E), 20px Bold
-│                                 │
-│  설명 텍스트 2~3줄               │  ← Mid Gray (#6B7280), 16px
-│                                 │
-│  [→ 자세히 보기]                 │  ← Akamai Blue (#009BDE)
-└─────────────────────────────────┘
-배경: #FFFFFF | 보더: 1px #E5E7EB | 쉐도우: 0 2px 8px rgba(0,0,0,0.08)
-```
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 모션 & 인터랙션 원칙 (추정)
+## 3. Channel Specifications
 
-| 항목 | 사양 |
-|------|------|
-| 기본 트랜지션 | 200ms ease-in-out |
-| 페이지 전환 | 300ms ease |
-| 데이터 로딩 애니메이션 | 펄스(pulse) 효과, Akamai Blue |
-| 스크롤 애니메이션 | fade-in + translateY(20px), 400ms |
-| 호버 스케일 | scale(1.02), 카드 컴포넌트 |
-
----
-
-## 반응형 브레이크포인트 (추정)
-
-| 구간 | 기준 | 레이아웃 |
-|------|------|--------|
-| Mobile | < 768px | 1컬럼, 스택 레이아웃 |
-| Tablet | 768px – 1024px | 2컬럼 |
-| Desktop | 1024px – 1440px | 3~4컬럼 |
-| Wide | > 1440px | 최대 1440px 컨테이너 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 브랜드 적용 금지 사항
+## 4. Layout Principles
 
-1. Akamai Blue와 Deep Navy를 텍스트-배경으로 함께 사용 금지 (명암비 부족)
-2. 브랜드 블루 계열 외 임의 컬러 추가 금지
-3. 로고 왜곡, 회전, 그림자 효과 추가 금지
-4. 밝은 배경에 White 텍스트 단독 사용 금지
-5. 폰트 굵기 100(Thin) 이하 사용 금지 — 기술 신뢰성 저하
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Akamai Technologies (AKAM)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

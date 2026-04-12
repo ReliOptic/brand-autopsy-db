@@ -1,97 +1,84 @@
-# 02 오디언스 맵 — Northrop Grumman (NOC)
+# 02. Audience Map — Northrop Grumman (NOC)
 
-> 산업군: 산업재 > 항공우주 & 방위
-
----
-
-## 1. 오디언스 개요
-
-Northrop Grumman의 주요 고객은 B2G(Business-to-Government) 구조에 집중되어 있다. 미국 국방부(DoD)가 매출의 약 85%를 차지하며, 나머지는 동맹국 정부·NATO·우주 기관이다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 국방 조달 책임자 (방위산업 구매자)
-
-| 항목 | 내용 |
-|------|------|
-| 이름 | 대령 James Whitfield (추정) |
-| 연령 | 48세 |
-| 직책 | 미 공군 획득 프로그램 관리자 (Program Executive Officer) |
-| 배경 | 20년 이상 군 복무 후 방위 조달 전문가로 전환 |
-| 목표 | 예산 내에서 임무 요구를 충족하는 최고 성능 시스템 확보 |
-| 고통점 | 납기 지연, 원가 초과(cost overrun), 기술 미성숙 리스크 |
-| 정보 채널 | Defense News, Breaking Defense, 공식 RFP 문서, 산업 컨퍼런스 |
-| 의사결정 기준 | 기술 성숙도(TRL), 과거 수행 실적, 가용성·신뢰성 지표 |
-| NOC 접점 | 제안요청서(RFP) 대응, 백서, 기술 브리핑 |
-| 핵심 메시지 | "임무 준비성 100%, 검증된 시스템 통합 역량" |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from Northrop Grumman's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Northrop Grumman's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 기관투자자 (방위 섹터 애널리스트)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | Sarah Kang (추정) |
-| 연령 | 36세 |
-| 직책 | 항공우주·방위 섹터 포트폴리오 매니저 |
-| 배경 | CFA 보유, 방위산업 전문 10년 경력 |
-| 목표 | 정부 예산 사이클과 연계된 안정적 FCF 성장 기업 발굴 |
-| 고통점 | 예산 자동삭감(sequestration) 리스크, 장기 계약 가시성 부족 |
-| 정보 채널 | 10-K/10-Q, 어닝콜, Bloomberg Defense Index, SIPRI 데이터 |
-| 의사결정 기준 | 백로그(backlog) 규모, 마진 궤적, R&D 투자 효율성 |
-| NOC 접점 | IR 자료, 연간보고서, 투자자 데이 프레젠테이션 |
-| 핵심 메시지 | "견고한 백로그, 우주 성장 동력, 주주환원 일관성" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Northrop Grumman customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Northrop Grumman selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: STEM 고급 인재 (엔지니어링 채용 대상)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 이름 | Priya Nair (추정) |
-| 연령 | 27세 |
-| 직책 | 항공우주공학 석사 졸업 예정자 |
-| 배경 | MIT 항공우주학과, 인턴십 경험 2회 |
-| 목표 | 사회적 임팩트가 있는 첨단 기술 프로젝트 참여 |
-| 고통점 | Big Tech 대비 연봉 격차, 기밀 제약에 따른 성과 공유 한계 |
-| 정보 채널 | LinkedIn, Glassdoor, 캠퍼스 리크루팅, YouTube 기술 채널 |
-| 의사결정 기준 | 프로젝트 의미, 성장 경로, 보안 인가 취득 기회, 복지 |
-| NOC 접점 | 채용 캠페인, "Defining Possible" 기술자 스토리, 인턴 후기 |
-| 핵심 메시지 | "B-21·제임스웹처럼 역사에 남을 기술을 여기서 만든다" |
+- **Age / Occupation**: 35, technical professional who interacts with Northrop Grumman's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Northrop Grumman selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 세분화 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 규모 | 구매력 | 관여도 | 우선순위 |
-|---------|------|--------|--------|---------|
-| 미국 DoD / 군 서비스 | 소수 고관여 | 극대 | 최고 | 1순위 |
-| 동맹국 정부 (FMS) | 중규모 | 대형 | 높음 | 2순위 |
-| NASA / 우주 기관 | 소수 | 대형 | 높음 | 2순위 |
-| 기관 투자자 | 중규모 | 간접 | 중간 | 3순위 |
-| STEM 채용 대상 인재 | 대규모 | 없음 | 중간 | 3순위 |
-| 일반 여론 / 미디어 | 대규모 | 없음 | 낮음 | 4순위 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Northrop Grumman's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Northrop Grumman selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 4. 고객 여정 맵 (B2G 조달 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인식 → 관심 → 검토 → 제안 → 선정 → 납품 → 재계약
-  |       |       |       |       |       |        |
-PR·    백서·  기술    RFP   원가·  프로젝트  성과
-행사   브리핑  시연   대응   협상  관리      보고
-```
+| Stage | Northrop Grumman's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Northrop Grumman total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 지역 오디언스 분포 (추정)
+## Anti-Persona — Who Northrop Grumman Is Not For
 
-| 지역 | 비중 | 주요 계약 근거 |
-|------|------|--------------|
-| 미국 본토 | ~85% | DoD 기반 계약 |
-| 유럽 (NATO) | ~8% | F-35 구성품, 레이더 수출 |
-| 인도-태평양 | ~5% | 일본·호주·한국 FMS |
-| 중동 | ~2% | UAE·사우디 방공 시스템 |
+| Type | Characteristics | Why Northrop Grumman Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Northrop Grumman's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Northrop Grumman's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Northrop Grumman's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Northrop Grumman's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Northrop Grumman's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

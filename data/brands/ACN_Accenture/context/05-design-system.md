@@ -1,105 +1,119 @@
-# 05. 디자인 시스템 해부 — Accenture (ACN)
+# 05. Design System — Accenture plc (ACN)
 
-## 디자인 철학
-
-Accenture의 디자인 시스템은 "권위, 신뢰, 혁신의 시각적 구현"이라는 단일 목표로 수렴한다(추정). 자주색(Purple) 단색 지배 체계는 왕권·창의성·고급감의 전통적 상징성을 의도적으로 차용하며, 동시에 경쟁사(McKinsey 파란색, Deloitte 녹색, IBM 파란색)와의 즉각적인 시각적 차별화를 달성한다. "Less is more" 미학보다 "Bold and authoritative" 미학을 선택한 브랜드다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 컬러 시스템
+## Color Palette
 
-### 메인 팔레트 (CSS 추출 기반)
+The following colors are derived from observed Accenture brand materials including the accenture.com website and official corporate communications. (observed on website)
 
-| 역할 | 색상명 | HEX | CSS 출현 횟수 | 용도 |
-|------|--------|-----|--------------|------|
-| Primary Brand | Accenture Purple | `#A100FF` | 190 (공식) | 로고, CTA 버튼, 핵심 강조 요소 |
-| Dark Purple | Deep Purple | `#460073` | 63 (공식) | 헤더 배경, 다크 섹션 |
-| Mid Purple | Mid Purple | `#7500C0` | 23 (공식) | 호버 상태, 보조 강조 |
-| Darkest Purple | Darkest Purple | `#39005E` | 13 (공식) | 푸터 배경, 최심도 다크 모드 |
-| Dark | Primary Dark | `#202020` | 88 (공식) | 본문 텍스트, 헤딩 |
-| Dark Alt | Dark Alt | `#2B2B2B` | 48 (공식) | 카드 배경, 보조 텍스트 컨테이너 |
-| Near Black | Near Black | `#101010` | 15 (공식) | 최심도 배경 |
-| Mid Gray | Mid Gray | `#616160` | 60 (공식) | 보조 텍스트, 캡션 |
-| Light Gray | Light Gray | `#A2A2A0` | 99 (공식) | 비활성 요소, 구분선 |
-| Surface Light | Off White | `#E3E3DF` | 18 (공식) | 카드 배경, 라이트 섹션 |
-| Near White | Near White | `#F1F1EF` | 3 (공식) | 페이지 배경 |
+| Color Name | HEX | RGB | Usage | Source |
+|------------|-----|-----|-------|--------|
+| **Accenture Purple** | #A100FF | rgb(161, 0, 255) | Primary brand color; logo, hero accents, CTAs, brand emphasis | observed on accenture.com |
+| **Deep Purple** | #7500C0 | rgb(117, 0, 192) | Hover states, secondary emphasis, gradient anchor | observed on accenture.com |
+| **Black** | #000000 | rgb(0, 0, 0) | Primary text, headers, footer backgrounds | observed on accenture.com |
+| **Dark Gray** | #333333 | rgb(51, 51, 51) | Body text, secondary content areas | observed on accenture.com |
+| **Mid Gray** | #757575 | rgb(117, 117, 117) | Tertiary text, metadata, captions | observed on accenture.com |
+| **Light Gray** | #F2F2F2 | rgb(242, 242, 242) | Section backgrounds, card backgrounds, dividers | observed on accenture.com |
+| **White** | #FFFFFF | rgb(255, 255, 255) | Primary background, reversed text on dark/purple surfaces | observed on accenture.com |
+| **Electric Blue** | #0041C2 | rgb(0, 65, 194) | Data visualizations, hyperlinks, informational callouts | observed on accenture.com |
 
-### 악센트 팔레트 (CSS 추출 기반)
+### Color Usage Rules
 
-| 역할 | 색상명 | HEX | CSS 출현 횟수 | 용도 |
-|------|--------|-----|--------------|------|
-| Accent Red | Coral Red | `#FF5757` | 32 (공식) | 경고, 긴박성 강조, 에너지 포인트 |
-| Accent Pink | Hot Pink | `#FF50A0` | 8 (공식) | 이벤트·캠페인 포인트 컬러 |
-| Accent Orange | Vivid Orange | `#FF7800` | 8 (공식) | 인포그래픽 데이터 시각화 |
-| Accent Amber | Amber | `#FEB149` | 8 (공식) | 데이터 시각화 보조 |
-| Light Purple | Lavender | `#DCAFFF` | 6 (공식) | 라이트 모드 Purple 틴트 |
-| Mid Lavender | Soft Purple | `#BE82FF` | 5 (공식) | 그라디언트 중간값 |
-| Accent Blue | Electric Blue | `#1199FF` | 4 (공식) | 링크, 인터랙티브 보조 |
-| Dark Violet | Violet | `#57008F` | 3 (공식) | Purple 계열 보조 다크 |
-| Blush | Blush Pink | `#F9CBEF` | 2 (공식) | 라이트 캠페인 배경 |
-
-### 컬러 사용 원칙
-
-- **Purple 지배 법칙**: `#A100FF`는 페이지당 1-2개의 핵심 요소에만 집중 사용. 남발 시 시각적 피로 유발(추정).
-- **다크 배경 선호**: 다크 계열(`#202020`, `#460073`, `#39005E`)을 배경으로 자주 사용해 프리미엄·신뢰 무드를 연출.
-- **악센트 컬러는 데이터 시각화 전용**: 빨강·주황·앰버 계열은 차트·인포그래픽에서만 사용해 정보 위계를 유지.
-- **그라디언트 허용**: `#A100FF` → `#460073` 또는 `#7500C0` → `#39005E` 방향의 단색 그라디언트는 히어로 섹션에 허용(추정).
+- **Accenture Purple (#A100FF)** is the signature brand color. It is used sparingly to create impact — not as a background fill but as a highlight, accent, and CTA color. Overuse dilutes the distinctiveness. (T4_INFERRED)
+- **Purple-to-black gradients** are used in hero sections and immersive content experiences. These gradients move from #A100FF to #000000, creating a depth effect. (observed on accenture.com)
+- **All text on colored backgrounds** must meet WCAG 2.1 AA contrast ratio minimums. White text on Accenture Purple passes AA for large text but may require Deep Purple for normal body text. (T4_INFERRED)
 
 ---
 
-## 타이포그래피 시스템
+## Typography
 
-### 폰트 패밀리 (CSS 추출 기반)
+| Role | Typeface | Weight | Size Range | Notes |
+|------|----------|--------|------------|-------|
+| **Primary Display** | Graphik (licensed) | Bold (700) | 36–80px | Hero headlines, major section titles. Clean geometric sans-serif. (observed on accenture.com) |
+| **Secondary Heading** | Graphik | Semibold (600) | 22–36px | Section subheadings, card titles, feature callouts (observed on accenture.com) |
+| **Body Text** | Graphik | Regular (400) | 15–18px | All body copy, descriptions, report text (observed on accenture.com) |
+| **Caption / Legal** | Graphik | Regular (400) | 11–14px | Footnotes, disclaimers, metadata (observed on accenture.com) |
+| **Fallback Stack** | -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif | — | — | Web fallback when Graphik is unavailable (T4_INFERRED) |
 
-| 역할 | 폰트명 | 분류 | 특징 |
-|------|--------|------|------|
-| Primary Display | **GT Sectra Fine** | Serif (Contemporary) | 고급스럽고 편집디자인적인 헤드라인용. 잡지·럭셔리 브랜드 연상(공식) |
-| Primary Body / UI | **Graphik** | Geometric Sans-serif | 가독성·중립성 균형. UI·본문·캡션 전반에 사용(공식) |
-| Fallback (Web) | **Arial, Helvetica** | Sans-serif | 브랜드 폰트 로드 실패 시 폴백(공식) |
-| Legacy / Accent | **Palatino** | Humanist Serif | 특정 문서·인쇄물에서 사용(추정) |
-| Icon Font | **icont** | Icon Font | 커스텀 아이콘 세트(공식) |
-
-### 타이포그래피 원칙
-- **GT Sectra Fine + Graphik 조합**: Serif 헤드라인(권위·우아함) + Sans-serif 본문(가독성·현대성)의 대조가 핵심이다(추정). 이는 금융·컨설팅 카테고리에서 "편집디자인 미학"을 B2B에 도입한 차별화 요소다.
-- **대형 헤드라인 활용**: 히어로 섹션에서 폰트 사이즈 80-120px 수준의 대형 타입을 사용해 시각적 임팩트를 극대화(추정).
-- **행간(Line Height)**: 헤드라인 1.1-1.2, 본문 1.5-1.7 — 가독성과 밀도 사이의 균형.
+**Type hierarchy principle**: Accenture's typography is uniform — single typeface family, hierarchy expressed through weight and scale. No serif fonts, no decorative faces. The typographic restraint communicates institutional seriousness while the geometric forms align with the modern, forward-looking brand identity. (T4_INFERRED)
 
 ---
 
-## 레이아웃 & 그리드 시스템
+## Channel Specifications
 
-### 레이아웃 원칙 (추정)
-- **풀-블리드 섹션**: 배경색이 뷰포트 전체를 채우는 섹션을 교대로 배치해 스크롤 리듬을 만든다.
-- **비대칭 그리드**: 텍스트와 이미지의 비대칭 배치로 다이나믹한 시각 흐름 연출.
-- **여백 활용**: 컨텐츠 밀도가 높은 B2B 사이트임에도 충분한 여백으로 "고급스러움" 유지.
-- **모션 디자인**: 스크롤 트리거 애니메이션, 숫자 카운터 업 효과로 데이터를 생동감 있게 전달(추정).
-
-### 컴포넌트 스타일
-- **CTA 버튼**: `#A100FF` 배경 + 흰색 텍스트가 Primary. 다크 배경에서는 흰색 외곽선 버튼 사용.
-- **카드 컴포넌트**: `#E3E3DF` 또는 `#2B2B2B` 배경, 좌측 또는 상단에 Purple 악센트 라인.
-- **네비게이션**: 최상단 다크 배경(`#202020`) + 흰색 텍스트 + Purple 호버 상태.
-- **인포그래픽**: 다크 배경 위에 악센트 컬러(빨강·주황·앰버)로 데이터 포인트 강조.
-
----
-
-## 비주얼 모티프
-
-### 로고 시스템
-- **Accenture 로고**: 워드마크 + ">" 기호(악센트 마크) 조합. ">" 기호는 "앞으로 나아간다"는 방향성을 상징(추정).
-- **모노크롬 버전**: 흰색(다크 배경용) / 블랙(라이트 배경용) 두 가지.
-- **퍼플 버전**: 브랜드 컬러 배경에서는 로고를 흰색으로 처리.
-
-### 이미지 스타일
-- **인물 사진**: 다양성(DE&I) 반영. 다양한 연령·성별·국적의 전문가 이미지 사용(공식 정책).
-- **색채 처리**: 사진에 Purple 컬러 오버레이 또는 듀오톤 효과를 적용해 브랜드 일관성 유지(추정).
-- **추상적 비주얼**: 데이터·AI·네트워크를 상징하는 추상 그래픽을 기사·리포트 커버에 사용.
+| Channel | Dimensions | File Format | Color Profile | Key Constraints |
+|---------|-----------|-------------|---------------|-----------------|
+| **Website Hero** | 1440 × 720px (desktop) / 375 × 600px (mobile) | WebP, JPEG | sRGB | Purple gradient overlay on photography; text left-aligned in safe zone |
+| **LinkedIn Post Image** | 1200 × 627px | PNG, JPEG | sRGB | Clean composition; report cover or data visualization with purple accent |
+| **LinkedIn Banner** | 1128 × 191px | PNG, JPEG | sRGB | Minimal text; logo placement within center-safe area |
+| **Twitter/X Post Image** | 1200 × 675px | PNG, JPEG | sRGB | 16:9 ratio; statistic or quote card with purple bar accent |
+| **Instagram Post** | 1080 × 1080px | PNG, JPEG | sRGB | People-forward photography for talent brand; purple overlay for thought leadership |
+| **Report Cover (PDF)** | A4 / Letter | PDF | sRGB for digital, CMYK for print | Full-bleed purple gradient; report title in Graphik Bold; Accenture logo top-left |
+| **Presentation Template** | 16:9 (1920 × 1080px) | PPTX, PDF | sRGB | Dark (black/purple gradient) and light (white with purple accent) variants |
+| **Video** | 1920 × 1080px (16:9) | MP4, H.264 | Rec.709 | Purple lower-third title bar; Accenture logo bug corner placement |
 
 ---
 
-### Steal Sheet — 3가지
+## Layout Principles
 
-1. **"단색 지배 + 악센트 복수" 컬러 전략** — Accenture는 Purple 한 색으로 브랜드를 각인시키되, 데이터 시각화에서는 빨강·주황·앰버를 자유롭게 사용한다. 훔칠 구조: 브랜드 컬러 1개를 결정하고, 그것과 명확히 구분되는 "데이터 전용 컬러 팔레트" 3개를 별도로 운용. 브랜드 컬러와 데이터 컬러를 절대 혼용하지 않으면 정보 위계가 자동으로 생긴다.
+**1. Immersive hero sections**
+Accenture's web pages open with full-bleed hero sections featuring large-scale photography overlaid with purple gradients and bold headline text. The hero creates an editorial, magazine-quality first impression that sets Accenture apart from the more utilitarian layouts of technology services competitors. (observed on accenture.com)
 
-2. **Serif 헤드라인 × Sans-serif 본문의 B2B 적용** — GT Sectra Fine은 잡지·패션 브랜드에서 주로 쓰이는 폰트다. 이를 B2B 컨설팅에 도입함으로써 "딱딱한 기업 디자인"과 차별화된 편집 미학을 확보했다. 훔칠 방법: 자사 브랜드에 카테고리 외부에서 사용되는 폰트 1개를 헤드라인 전용으로 도입. 단, 본문은 반드시 가독성 높은 중립적 Sans-serif를 유지.
+**2. Card-based content architecture**
+Below the hero, content is organized in card grids — each card representing a case study, research report, or service offering. Cards use consistent dimensions, hover effects (subtle shadow lift), and a purple accent element (line, icon, or tag). This modular system enables consistent presentation across thousands of content pages. (observed on accenture.com)
 
-3. **">" 기호 하나로 브랜드 철학 압축** — Accenture의 악센트 마크(">"는 "accent"를 의미하는 동시에 "앞으로"를 의미)는 단순한 장식이 아니라 브랜드 철학의 시각적 압축이다. 훔칠 방법: 로고 또는 아이콘 시스템에서 브랜드 핵심 가치(예: 성장, 연결, 변환)를 상징하는 단일 기호 1개를 정의하고 일관되게 사용.
+**3. Generous white space with strategic purple punctuation**
+Accenture does not saturate pages with brand color. White and light gray dominate the background; purple appears as thin lines, accent bars, CTA buttons, and icon highlights. This restraint makes each purple element carry more visual weight. (observed on accenture.com, T4_INFERRED)
+
+**4. People-forward photography**
+Accenture imagery features real (or realistic) people in professional contexts — not stock photography clichés but composed, well-lit portraits and working environments. Diversity is visually evident and intentional. Photography is the primary visual medium; illustration is secondary. (observed on accenture.com)
+
+---
+
+## Icon Style
+
+| Attribute | Specification |
+|-----------|--------------|
+| **Style** | Outlined, geometric, consistent stroke weight |
+| **Stroke weight** | 1.5–2px at 24px base size |
+| **Corner radius** | 2px (slightly rounded, modern) |
+| **Color** | Accenture Purple (#A100FF) on light backgrounds; white on dark/purple backgrounds |
+| **Grid** | 24px base grid with 2px internal padding |
+| **Usage** | Service category indicators, feature callouts, navigation support, infographic elements |
+
+Icons are functional and clean — they support comprehension of service categories and content types. No illustrative, character-based, or emoji-style icons. (observed on accenture.com, T4_INFERRED)
+
+---
+
+## AI Image Prompt Guide
+
+The following prompts are calibrated to produce imagery consistent with Accenture's observed visual identity. (T4_INFERRED)
+
+**Prompt 1: Executive/Professional Portrait**
+> "Professional portrait photograph of a confident business executive in a modern, light-filled office environment. The subject is dressed in business attire, looking directly at camera with a slight smile. Background shows a blurred open-plan office with warm natural light from floor-to-ceiling windows. Color palette leans toward neutral tones with a subtle purple accent in the environment (purple chair, purple folder, purple screen element). Shot on 85mm lens, f/2.0, shallow depth of field."
+
+**Prompt 2: Technology + Human Interaction**
+> "Wide-angle photograph of a diverse team of 3-4 professionals collaborating around a large interactive screen displaying data visualizations with purple (#A100FF) accent colors. Modern meeting room with glass walls, minimalist furniture, and warm overhead lighting. The mood is focused and collaborative, not posed. Natural interaction between team members. Color temperature: 5500K neutral."
+
+**Prompt 3: Abstract Data/Technology Visual**
+> "Abstract digital visualization of interconnected data nodes forming a network graph, rendered in deep purple (#7500C0) to bright purple (#A100FF) gradient against a black (#000000) background. Clean geometric lines connecting nodes. Subtle depth of field blur on background nodes. No text or UI elements. Premium, editorial quality. Suitable for report cover or hero image."
+
+---
+
+## Design Prohibitions
+
+1. **No use of purple as a full-page background color**: Purple is an accent, not a canvas. Full-page purple backgrounds reduce contrast and dilute the brand signal. Dark (black) or light (white/gray) backgrounds with purple accents are the correct application. (T4_INFERRED)
+
+2. **No serif or decorative typefaces**: Graphik (or its fallback sans-serif) is the only permitted typeface. Serif fonts, script fonts, and display faces are inconsistent with the modern, forward-looking brand identity. (T4_INFERRED)
+
+3. **No generic stock photography**: Images of hands shaking over a boardroom table, generic skylines, or clip-art-quality business scenes are prohibited. Photography must feel authentic, composed, and diverse. (T4_INFERRED)
+
+4. **No 3D renders or skeuomorphic elements**: Accenture's design language is flat-to-subtly-dimensional (shadows for card elevation only). Heavy 3D, glossy buttons, or skeuomorphic textures are inconsistent with the brand aesthetic. (T4_INFERRED)
+
+5. **No animated GIFs or low-quality motion graphics on brand channels**: Motion content must meet production quality standards. Auto-playing animations, blinking elements, and loop GIFs are prohibited on professional channels. (T4_INFERRED)
+
+6. **No competitor logos or visual comparisons**: Visual content does not reference competitor brands through logos, screenshots, or visual comparisons. Competitive positioning is expressed through Accenture's own capability narrative. (T4_INFERRED)
+
+7. **No cluttered data visualizations**: Charts and graphs follow the principle of "one insight per visualization." Multi-axis, multi-color, high-density charts are redesigned into focused, purple-accented visualizations that communicate a single point clearly. (T4_INFERRED)

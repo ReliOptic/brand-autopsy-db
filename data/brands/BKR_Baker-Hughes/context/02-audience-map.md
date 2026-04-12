@@ -1,136 +1,84 @@
-# 02 오디언스 맵 — Baker Hughes (BKR)
+# 02. Audience Map — Baker Hughes (BKR)
 
-## 타깃 오디언스 개요
-
-Baker Hughes의 주요 고객군은 석유·가스 탐사·생산(E&P) 기업, 국영 석유회사(NOC), 정유·화학 기업, LNG 운영사, 그리고 에너지 전환 투자자 및 정책 입안자로 구성된다. 의사결정 단위(DMU)는 다층적이며 기술 구매자와 재무 의사결정자가 분리된 경우가 많다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 국영 석유회사(NOC) 운영 기술 총괄
+## Ideal Customer Profile (ICP)
 
-**이름:** 알-마흐무드 칼리드 (추정 복합 페르소나)
-**직책:** VP of Drilling & Completions, Aramco/ADNOC 계열 NOC
-**연령:** 45–55세
-**지역:** 중동 (사우디, UAE, 쿠웨이트)
-**배경:** 석유공학 학위, 20년 이상 현장 경험, 내부 기술 팀 500명 이상 관리
-
-**핵심 목표**
-- 시추 비용 절감 ($/ft 기준 벤치마크)
-- 국산화(In-Country Value, ICV) 요건 충족
-- 디지털 시추 최적화 도입으로 NOC 현대화
-
-**주요 고통점**
-- 국산화 규제로 인한 글로벌 공급망 복잡성
-- 기술 공급사의 약속 대비 현장 성과 괴리
-- 내부 정치 — 기존 공급사와의 장기 계약 재협상 압박
-
-**정보 소비 채널**
-- SPE(석유공학회) 저널 및 컨퍼런스
-- 내부 기술 검토 문서
-- 공급사 현장 시연 및 파일럿 프로그램
-
-**구매 트리거**
-- 특정 유전의 비용 과잉 또는 사고 발생
-- 경쟁 NOC의 기술 도입 사례 공개
-- ICV 점수 개선 필요성
-
-**Baker Hughes와의 관계**
-- 장기 마스터 서비스 계약(MSC) 기반
-- 현지 합작 법인(JV) 파트너십 선호
-- 가격보다 기술 신뢰성과 로컬 지원 역량 우선시
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in oil & gas equipment & services and adjacent industries. (T4_INFERRED from Baker Hughes's segment structure) |
+| **Occupation segments** | Plant managers, operations directors, technical engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Baker Hughes's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 독립계 E&P 기업 CFO
+## Core Personas
 
-**이름:** 사라 톰린슨 (추정 복합 페르소나)
-**직책:** CFO / VP of Finance, 독립계 E&P (퍼미안/이글포드 운영)
-**연령:** 38–48세
-**지역:** 텍사스, 미국
-**배경:** 재무/회계 전공, CPA 또는 MBA, 에너지 섹터 10년 이상
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 목표**
-- 배럴당 운영비(LOE) 최소화
-- 자본 배분 효율성 — CapEx 대비 생산량 극대화
-- ESG 리포팅 요건 충족 (메탄 배출 감소)
-
-**주요 고통점**
-- 서비스 비용의 유가 연동 변동성
-- 기술 투자 ROI 정량화의 어려움
-- 공급망 단일화 압박 (번들 계약 vs. 최적 조달)
-
-**정보 소비 채널**
-- Hart Energy, S&P Global Commodity Insights
-- 투자자 컨퍼런스 (CERAWeek)
-- 공급사 CFO/재무팀 직접 미팅
-
-**구매 트리거**
-- 유가 상승기 생산량 증가 압박
-- 메탄 규제 강화 (EPA Methane Rule)
-- 경쟁사 대비 단가 벤치마크 열세
-
-**Baker Hughes와의 관계**
-- 번들 서비스 계약의 재무적 투명성 요구
-- 성과 기반 계약(PBC) 모델 선호
-- 총 소유비용(TCO) 프레임으로 대화 요구
+- **Age / Occupation**: 42, VP-level or director in a Baker Hughes customer organization
+- **Core pain**: Needs reliable oil & gas equipment & services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Baker Hughes selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 에너지 전환 기술 투자자 / ESG 분석가
+### Persona 2 — Technical Specialist / End User
 
-**이름:** 유키 나카무라 (추정 복합 페르소나)
-**직책:** ESG 포트폴리오 매니저 / 에너지 섹터 애널리스트
-**연령:** 30–42세
-**지역:** 뉴욕, 런던, 도쿄
-**배경:** 금융공학 또는 환경공학, CFA, ESG 인증
-
-**핵심 목표**
-- 포트폴리오 탄소 강도 감소
-- 에너지 전환 수혜 기업 조기 발굴
-- Baker Hughes의 IET/New Energy 사업 성장 가시성 확인
-
-**주요 고통점**
-- OFS 회사의 "그린워싱" 판별의 어려움
-- 에너지 전환 매출 비중의 낮은 투명성
-- 단기 수익성과 장기 전환 투자의 밸런스 검증
-
-**정보 소비 채널**
-- 분기 실적 발표(Earnings Call) 및 IR 자료
-- Bloomberg NEF, Wood Mackenzie 보고서
-- ESG 데이터 제공사 (MSCI ESG, Sustainalytics)
-
-**구매 트리거 (투자 결정 트리거)**
-- IET 수주잔고(Backlog) 성장세 확인
-- CCUS / 수소 기술 계약 공시
-- Scope 1·2 배출 목표 상향 조정
-
-**Baker Hughes와의 관계**
-- 직접 서비스 구매자가 아닌 정보 소비자
-- IR/ESG 팀과의 직접 소통 요구
-- 장기 에너지 전환 로드맵의 구체성에 민감
+- **Age / Occupation**: 35, technical professional who interacts with Baker Hughes's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Baker Hughes selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 이해관계자 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 이해관계자 | 영향력 | 관여도 | 커뮤니케이션 우선순위 |
-|------------|--------|--------|----------------------|
-| NOC 기술 임원 | 매우 높음 | 높음 | 1순위 — 기술 ROI |
-| 독립계 E&P CEO/CFO | 높음 | 높음 | 1순위 — 비용 효율 |
-| IOC 조달/구매팀 | 높음 | 중간 | 2순위 — 공급망 |
-| 정부 / 규제기관 | 높음 | 낮음 | 3순위 — 규제 대응 |
-| ESG 투자자 | 중간 | 중간 | 2순위 — 전환 내러티브 |
-| 엔지니어링 현장 인력 | 중간 | 높음 | 2순위 — 기술 지원 |
-| 학계 / 연구기관 | 낮음 | 낮음 | 4순위 — 파트너십 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Energy
+- **Core pain**: Needs to evaluate Baker Hughes's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Baker Hughes selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## 지역별 오디언스 특성
+## Purchase Journey — AARRR Framework
 
-| 지역 | 주요 고객 유형 | 핵심 메시지 포인트 |
-|------|--------------|------------------|
-| 중동 | NOC (Aramco, ADNOC, KOC) | ICV, 현지화, 장기 파트너십 |
-| 북미 | 독립계 E&P, 셰일 운영사 | 비용 효율, 디지털화, 메탄 감소 |
-| 아시아태평양 | NOC (Pertamina, PETRONAS) | LNG 기술, 에너지 안보 |
-| 유럽 | IOC (BP, Shell, Equinor) | 에너지 전환, 탈탄소, CCUS |
-| 아프리카 | NOC (NNPC, Sonangol) | 인프라 구축, 역량 이전 |
+| Stage | Baker Hughes's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Baker Hughes total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Baker Hughes Is Not For
+
+| Type | Characteristics | Why Baker Hughes Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Baker Hughes's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Baker Hughes's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Baker Hughes's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Baker Hughes's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Baker Hughes's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In energy markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

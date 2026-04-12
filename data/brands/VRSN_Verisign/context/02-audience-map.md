@@ -1,154 +1,84 @@
-# 02 오디언스 맵 — Verisign (VRSN)
+# 02. Audience Map — Verisign (VRSN)
 
-## 오디언스 개요
-
-Verisign의 고객은 전통적인 B2C 소비자가 아니라 **도메인 등록기관(Registrar), 기업 IT 부서, 인터넷 정책 기관** 으로 구성된 전문 B2B 오디언스다. 최종 소비자(도메인 등록자)는 Registrar를 통해 간접 고객으로만 존재한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 오디언스 계층 구조
+## Ideal Customer Profile (ICP)
 
-```
-[레이어 1] 직접 고객 — 공인 도메인 레지스트라 (GoDaddy, Namecheap 등)
-[레이어 2] 기업 고객 — 대기업 IT/보안 부서, 디지털 인프라 담당자
-[레이어 3] 정책 오디언스 — ICANN, 각국 정부, 규제 기관, 싱크탱크
-[레이어 4] 간접 오디언스 — 최종 도메인 등록자 (SMB, 개인)
-[레이어 5] 투자자 오디언스 — 기관 투자자, 애널리스트, 주주
-```
-
----
-
-## 페르소나 상세
-
-### 페르소나 1: 레지스트라 파트너 운영자 — "인프라 협상가 김태준"
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직책 | 도메인 레지스트라 기업 VP of Operations |
-| 소재 | 서울 / 싱가포르 이중 거점 |
-| 학력 | 컴퓨터공학 학사, MBA |
-| 연봉 | $120,000–$180,000 (추정) |
-
-**직업적 현실**
-- Verisign과의 레지스트리 계약 갱신 협상 담당
-- .com/.net 도메인 단가 인상이 마진에 직접 영향
-- DNS 장애 발생 시 고객 이탈 책임을 전적으로 짐
-- 규제 컴플라이언스(ICANN 정책) 준수 의무
-
-**정보 소비 패턴**
-- ICANN 공식 발표문, DNS-OARC 컨퍼런스 자료 정기 열람
-- Verisign 연례보고서 및 투자자 데이와 ERF(Earnings Release) 분석
-- LinkedIn 업계 네트워크 활발
-
-**핵심 페인 포인트**
-- 도메인 단가 인상 통보 시 사전 협의 부재
-- Verisign의 가격 정책 투명성 부족
-- 레지스트라 포털 UI가 노후화되어 자동화 연동이 어려움
-
-**브랜드에 원하는 것**
-- 장기 계약 가격 예측 가능성
-- API 안정성과 기술 문서 품질
-- 파트너 전용 조기 정보 공개
-
-**메시지 반응도**
-- "99.9999% 가용성" → 강한 공감 (운영 책임 직결)
-- "글로벌 신뢰 인프라" → 중간 (이미 알고 있는 사실)
-- "디지털 미래 파트너" → 낮음 (구체성 부족)
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in internet services & infrastructure and adjacent industries. (T4_INFERRED from Verisign's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Verisign's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 기업 IT 보안 의사결정자 — "CISO 이수연"
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 48세 |
-| 직책 | 글로벌 제조기업 CISO (Chief Information Security Officer) |
-| 소재 | 독일 뮌헨 |
-| 학력 | 정보보안 석사, CISSP 보유 |
-| 연봉 | €150,000–€220,000 (추정) |
+### Persona 1 — Enterprise Decision-Maker
 
-**직업적 현실**
-- DNS 하이재킹, DDoS 공격 대응이 최우선 과제
-- DNSSEC 도입 여부를 이사회에 정기 보고
-- 공급망 보안(Supply Chain Security) 감사 대상
-- 사이버보안 보험 갱신 시 DNS 보안 인증 요구
-
-**정보 소비 패턴**
-- Gartner, Forrester 보안 리포트 의사결정 참고
-- Dark Reading, Krebs on Security 일일 구독
-- RSA Conference, Black Hat 연 1회 참석
-
-**핵심 페인 포인트**
-- DNS 레이어 공격의 탐지·대응 자동화 부족
-- 복수 보안 벤더 통합 관리의 복잡성
-- 이사회에 DNS 보안 투자 ROI 설명의 어려움
-
-**브랜드에 원하는 것**
-- 구체적인 위협 인텔리전스 데이터 공유
-- DNSSEC 도입 ROI 케이스 스터디
-- 빠른 인시던트 대응 SLA
-
-**메시지 반응도**
-- "DNSSEC로 인터넷을 보호합니다" → 강한 공감
-- "신뢰할 수 있는 DNS 인프라" → 중간 (구체적 수치 요구)
-- "글로벌 스케일" → 낮음 (내 도메인 보안이 우선)
+- **Age / Occupation**: 42, VP-level or director in a Verisign customer organization
+- **Core pain**: Needs reliable internet services & infrastructure solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Verisign selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 인터넷 정책 인플루언서 — "ICANN 자문위원 Dr. Amara Osei"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 55세 |
-| 직책 | 인터넷 거버넌스 컨설턴트 / ICANN At-Large 자문위원 |
-| 소재 | 가나 아크라 / 워싱턴 DC |
-| 학력 | 국제법 박사, 인터넷 정책 전문 |
-| 연봉 | 자문 기반 (추정 $90,000–$130,000) |
-
-**직업적 현실**
-- .com/.net 레지스트리 계약 갱신 협상 정책 자문
-- 디지털 주권(Digital Sovereignty) 및 개도국 인터넷 접근성 의제 주도
-- Verisign의 독점적 시장 지위에 대한 공개 비판 이력
-
-**정보 소비 패턴**
-- ICANN 공개 포럼, CircleID, Internet Governance Forum 기고
-- 학술 논문 및 정책 백서 집필
-- Twitter/X에서 인터넷 거버넌스 논의 적극 참여
-
-**핵심 페인 포인트**
-- Verisign의 계약 갱신 시 공공 이익 vs. 상업 이익 충돌
-- 개도국에서의 .com 도메인 가격 접근성
-- DNS 인프라 지배력 집중에 대한 우려
-
-**브랜드에 원하는 것**
-- 투명한 거버넌스 참여 (멀티스테이크홀더)
-- 가격 인상 정당성에 대한 공개 데이터
-- 글로벌 인터넷 안정성 기여에 대한 증거
-
-**메시지 반응도**
-- "인터넷 안정성 수호자" → 회의적 (이해충돌 의심)
-- "ICANN 협력 파트너" → 중간 (구체적 협력 내용 요구)
-- "개방된 인터넷을 지지합니다" → 관심 있으나 증거 요구
+- **Age / Occupation**: 35, technical professional who interacts with Verisign's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Verisign selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 온도 지도 (Audience Heat Map)
+### Persona 3 — Financial Stakeholder / Investor
 
-| 세그먼트 | 브랜드 친밀도 | 구매 영향력 | 공개 발언 영향력 |
-|---------|-------------|------------|----------------|
-| 레지스트라 파트너 | 높음 | 매우 높음 | 중간 |
-| 기업 CISO/IT | 중간 | 높음 | 중간 |
-| 정책/규제 기관 | 낮음~중간 | 매우 높음 | 매우 높음 |
-| 투자자/애널리스트 | 높음 | 높음 (간접) | 높음 |
-| 최종 도메인 등록자 | 낮음 | 낮음 | 낮음 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Verisign's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Verisign selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Purchase Journey — AARRR Framework
 
-| # | 훔쳐올 전략 | 적용 방법 |
-|---|------------|---------|
-| 1 | **B2B 페르소나의 비대칭 접근** — 구매자(레지스트라)와 정책 비판자(거버넌스 기관)를 분리하여 각각 다른 언어로 소통한다 | 동일 사안에 대해 "파트너 업데이트"와 "공공 정책 보고서" 두 버전의 문서를 별도 제작하라 |
-| 2 | **CISO를 ROI 언어로 전환** — 기술 사양 대신 "침해 방지 비용 절감액"과 "규제 컴플라이언스 통과율"로 보안 제품을 설명한다 | 보안 제품의 기술 스펙 페이지 옆에 CFO용 비용 계산기(Cost Calculator)를 반드시 배치하라 |
-| 3 | **비판자를 대화 파트너로** — 정책 비판자를 배제하지 않고 공개 포럼과 백서 공동 저술에 초청하여 브랜드 정당성을 높인다 | 자사에 비판적인 인플루언서를 어드바이저리 보드나 공개 컨설팅 과정에 포함하는 구조를 설계하라 |
+| Stage | Verisign's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Verisign total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Verisign Is Not For
+
+| Type | Characteristics | Why Verisign Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Verisign's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Verisign's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Verisign's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Verisign's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Verisign's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

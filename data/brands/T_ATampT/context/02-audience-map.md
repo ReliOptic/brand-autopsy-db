@@ -1,95 +1,84 @@
-# 02. 오디언스 맵 — AT&T (T)
-> 섹터: Communication Services / Telecom | 티커: T (NYSE)
+# 02. Audience Map — AT&T (T)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 오디언스 세그먼트 개요
+## Ideal Customer Profile (ICP)
 
-AT&T의 타겟 오디언스는 크게 **소비자(B2C)**, **중소기업(SMB)**, **대기업/공공(B2B/B2G)** 세 축으로 구성된다.
-
-| 세그먼트 | 비중 (추정) | 핵심 니즈 |
-|---|---|---|
-| 소비자 — 가족/홈 | 40% | 안정적 인터넷 + 모바일 번들, 합리적 가격 |
-| 소비자 — 개인 모바일 | 25% | 무제한 데이터, 5G 커버리지, 단말기 혜택 |
-| 중소기업 (SMB) | 20% | 비즈니스 인터넷, 클라우드 연결, 보안 |
-| 대기업/공공/국방 | 15% | SD-WAN, FirstNet, 엔터프라이즈 SLA |
-
----
-
-## 2. 페르소나
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in integrated telecommunication services. B2C: End consumers of communication services products and services. (T4_INFERRED from AT&T's segment structure) |
+| **Occupation segments** | Media buyers, content creators, advertisers, subscribers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in AT&T's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 수잔 — "안심형 가족 관리자"
+## Core Personas
 
-| 항목 | 내용 |
-|---|---|
-| 나이 | 42세 |
-| 직업 | 간호사 (파트타임), 두 자녀 어머니 |
-| 거주지 | 텍사스 주 교외 (AT&T Fiber 커버리지 지역) |
-| 소득 | 연 $65,000 (가구 합산 $110,000) |
-| 기기 | iPhone 15, 가정용 Wi-Fi 라우터, 자녀 태블릿 2대 |
-| 핵심 니즈 | 인터넷 끊김 없는 안정성, 가족 공유 요금제, 자녀 화면 시간 관리 |
-| 페인포인트 | 청구서 복잡성, 숨겨진 요금, 고객 서비스 대기 시간 |
-| 구매 동기 | 학교 원격 수업 + 재택근무 동시 지원 가능한 고속 인터넷 |
-| 브랜드 관계 | 5년 이상 AT&T 가입자, 이탈 위험 중간 (경쟁사 프로모션에 반응) |
-| 미디어 접점 | Facebook, 지역 맘카페, TV 광고, 이메일 뉴스레터 |
-| 핵심 메시지 | "가족 모두가 동시에 사용해도 끊기지 않는 AT&T Fiber" |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a AT&T customer organization
+- **Core pain**: Needs reliable integrated telecommunication services solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **AT&T selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 마커스 — "성과 지향 MZ 직장인"
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|---|---|
-| 나이 | 29세 |
-| 직업 | 스타트업 마케터 (하이브리드 근무) |
-| 거주지 | 애틀랜타 도심 아파트 |
-| 소득 | 연 $78,000 |
-| 기기 | Samsung Galaxy S25, 노트북, 스마트워치 |
-| 핵심 니즈 | 최고 속도 5G, 로밍 없는 국내 무제한, 스트리밍 & 게임 품질 |
-| 페인포인트 | 도심 혼잡 시간대 속도 저하, 요금제 변경 시 위약금, 복잡한 업그레이드 절차 |
-| 구매 동기 | 이동 중에도 Zoom 콜과 영상 편집 업로드 처리 가능한 5G |
-| 브랜드 관계 | 가격 민감, T-Mobile과 비교 중, 번들 혜택으로 잔류 |
-| 미디어 접점 | Instagram, YouTube, Reddit, 팟캐스트 광고 |
-| 핵심 메시지 | "어디서든 프로처럼 — AT&T 5G+ 무제한" |
+- **Age / Occupation**: 35, technical professional who interacts with AT&T's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **AT&T selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 데이비드 — "디지털 전환 SMB 오너"
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|---|---|
-| 나이 | 51세 |
-| 직업 | 물류 중소기업 대표 (직원 35명) |
-| 거주지 | 오하이오 주 콜럼버스 |
-| 소득 | 기업 연매출 $3M |
-| 기기 | iPhone 16 Pro, 사무실 5회선, IoT 차량 추적 시스템 |
-| 핵심 니즈 | 비즈니스 전용 SLA, 24/7 지원, 모바일 + 고정 인터넷 통합 청구 |
-| 페인포인트 | 서비스 중단 시 비즈니스 피해, 복잡한 법인 계약, 업셀 압박 |
-| 구매 동기 | 운전기사 위치 추적 + 사무실 VoIP 단일 공급자 통합 |
-| 브랜드 관계 | AT&T Business 3년 계약, 갱신 협상 중 |
-| 미디어 접점 | LinkedIn, 업계 이메일 뉴스레터, 영업 담당자 직접 접촉 |
-| 핵심 메시지 | "비즈니스가 멈추지 않도록 — AT&T Business Solutions" |
+- **Age / Occupation**: 38, consumer who interacts with AT&T's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **AT&T selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 3. 오디언스 여정 맵 (수잔 기준 예시)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 인식 | 고려 | 결정 | 사용 | 옹호 |
-|---|---|---|---|---|---|
-| 트리거 | 인터넷 끊김 불만 | 경쟁사 비교 광고 노출 | 프로모션 오퍼 수신 | 설치 후 첫 청구서 확인 | 지인 추천 |
-| 채널 | TV/SNS 광고 | 가격비교 사이트 | AT&T.com, 오프라인 매장 | 앱, 고객 서비스 | 구전, SNS 리뷰 |
-| 니즈 | "더 빠른 인터넷이 있나?" | "AT&T vs Xfinity 어디가 나을까?" | "지금 바꾸면 얼마 절약?" | "청구서가 예상과 다르다" | "친구한테 추천해도 되나?" |
-| 감정 | 불만족 | 희망/불안 | 기대 | 안도 or 실망 | 신뢰/충성 |
-| AT&T 기회 | 리타겟팅 광고 | 비교 콘텐츠 SEO | 전환 프로모션 | 온보딩 경험 | 리퍼럴 프로그램 |
+| Stage | AT&T's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | AT&T total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 4. 반(反)페르소나 — "이런 고객은 AT&T 타겟이 아니다"
+## Anti-Persona — Who AT&T Is Not For
 
-| 유형 | 이유 |
-|---|---|
-| 극단적 가격 최우선 고객 | MVNO(Mint Mobile 등) 또는 프리페이드로 이탈 가능성 높음 |
-| 농촌 위성 의존 지역 거주자 | AT&T Fiber 미커버리지 지역 — Starlink가 더 적합 |
-| 미디어/콘텐츠 번들 최우선 고객 | WarnerMedia 분사 후 콘텐츠 경쟁력 약화 |
+| Type | Characteristics | Why AT&T Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | AT&T's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | AT&T's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | AT&T's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+AT&T's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+AT&T's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In communication services markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

@@ -1,159 +1,141 @@
-# 06 채널 플레이북 — AppLovin (APP)
+# 06. Channel Playbook — AppLovin (APP)
 
-## 채널 전략 개요
-
-AppLovin은 **B2B 디지털 우선 채널 전략**을 운영한다. 오프라인 컨퍼런스(GDC, Gamescom, Pocket Gamer Connects)와 디지털 채널을 병행하되, 핵심 리드 생성은 오가닉 콘텐츠·직접 영업에 집중한다. 자사 광고 플랫폼을 셀프 마케팅 도구로도 활용한다 (추정).
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 전략 상세
+## 1. Channel Strategy Matrix
 
-### 1. 웹사이트 / 콘텐츠 마케팅
-
-**역할**: 인바운드 리드 생성, 권위 구축, SEO
-
-| 항목 | 내용 |
-|------|------|
-| 주 도메인 | applovin.com |
-| 블로그 | applovin.com/blog |
-| 개발자 포털 | developers.applovin.com |
-| 핵심 페이지 | 제품별 랜딩 (AppDiscovery, MAX, SparkLabs) |
-
-**콘텐츠 전략**
-- 퍼포먼스 마케팅 키워드 SEO ("mobile user acquisition", "app monetization" 등)
-- 케이스 스터디 + 벤치마크 리포트로 신뢰 구축
-- 개발자 문서 완성도로 기술적 신뢰 획득
-
-**CTA 계층**
-1. "데모 요청하기" (고가치 리드)
-2. "무료 시작하기" (인디·소형 개발자)
-3. "케이스 스터디 읽기" (고려 단계 넛지)
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. LinkedIn
+## 2. Channel Tone Variations
 
-**역할**: B2B 브랜드 인지, 사고 리더십, 채용
+AppLovin's core voice adjusts by channel while maintaining brand coherence.
 
-| 항목 | 내용 |
-|------|------|
-| 타깃 | UA 매니저, 수익화 리더, 게임 스튜디오 임원, 투자자 |
-| 포스팅 빈도 | 주 3–5회 (추정) |
-| 콘텐츠 믹스 | 업계 인사이트 40%, 제품 소식 30%, 팀 문화 20%, 채용 10% |
-
-**고성과 콘텐츠 패턴 (추정)**
-- 데이터 포인트를 카드 이미지로 시각화한 캐러셀 포스트
-- 임원급 사고 리더십 아티클 (CEO Adam Foroughi 개인 브랜드 연계)
-- 파트너 성공 수치 + 고객 인용구 이미지
-
-**톤**: 전문적, 자신감 있음, 수치 중심
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. Twitter / X
+## 3. Cross-Channel Synergy Map
 
-**역할**: 업계 대화 참여, 실시간 트렌드 반응, 개발자 커뮤니티
+### Route A — Product/Service Launch Sequence
 
-| 항목 | 내용 |
-|------|------|
-| 타깃 | 모바일 개발자, 인디 게임 개발자, AdTech 업계 관계자 |
-| 포스팅 빈도 | 일 1–2회 (추정) |
-| 콘텐츠 믹스 | 업계 뉴스 리트윗·코멘트, 제품 업데이트, 링크 공유 |
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-**전략적 활용**
-- Apple·Google 정책 변화에 즉각 코멘트 → 전문가 이미지 구축
-- 게임 런칭·히트 타이틀 수익화 성공 사례 공유
-- 개발자 커뮤니티 해시태그 참여 (#indiegamedev, #mobilemarketing)
+### Route B — Thought Leadership Pipeline
 
----
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-### 4. 컨퍼런스 & 이벤트 (오프라인)
+### Route C — Earnings and Financial Communications
 
-**역할**: 엔터프라이즈 영업 파이프라인, 파트너십, 업계 권위 구축
-
-| 이벤트 | 위치 | 역할 (추정) |
-|--------|------|-----------|
-| GDC (게임 개발자 컨퍼런스) | 샌프란시스코 | 주 스폰서·부스, 세션 발표 |
-| Pocket Gamer Connects | 글로벌 순회 | 발표·네트워킹 |
-| Gamescom | 독일 쾰른 | 유럽 파트너 미팅 |
-| Mobile World Congress | 바르셀로나 | 모바일 업계 접점 |
-| 자체 행사 | 연 1–2회 (추정) | 고객 서밋·파트너 데이 |
-
-**컨퍼런스 플레이북**
-1. 행사 전: SNS 사전 예고, 미팅 일정 모집
-2. 행사 중: 라이브 업데이트, 발표 하이라이트 실시간 공유
-3. 행사 후: 발표 자료 블로그 공개, 리캡 콘텐츠
-
----
-
-### 5. 이메일 마케팅
-
-**역할**: 리드 너처링, 고객 리텐션, 제품 업데이트 알림
-
-| 항목 | 내용 |
-|------|------|
-| 세그먼트 | 잠재 고객, 활성 파트너, 개발자 (SDK 사용자) |
-| 발송 빈도 | 격주 뉴스레터 + 이벤트 기반 트리거 (추정) |
-| 핵심 KPI | 오픈율, 클릭률, 데모 예약 전환율 |
-
-**이메일 유형**
-- 웰컴 시퀀스 (신규 SDK 통합 개발자)
-- 주간/격주 뉴스레터 (업계 인사이트 + 제품 소식)
-- 트리거 알림 (새 기능 출시, 캠페인 성과 요약)
-- 리인게이지먼트 (비활성 계정)
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 6. 유료 광고 (자체 플랫폼 포함)
+## 4. Channel-Specific Prohibitions
 
-**역할**: 인바운드 리드 가속, 브랜드 인지
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-| 채널 | 활용 방식 (추정) |
-|------|---------------|
-| Google Search | "앱 사용자 획득", "모바일 광고 플랫폼" 키워드 |
-| LinkedIn Ads | 직책 타겟팅 (UA Manager, Monetization Lead) |
-| AppLovin AppDiscovery | 자체 플랫폼으로 개발자·마케터 타겟 (추정) |
-| 리타겟팅 | 웹사이트 방문자 대상 |
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
----
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-### 7. 파트너 생태계 / 개발자 커뮤니티
-
-**역할**: 제품 채택 가속, 입소문, 기술 신뢰 구축
-
-| 활동 | 설명 |
-|------|------|
-| SDK 오픈 배포 | MAX·AppDiscovery SDK 무료 배포로 저마찰 진입 |
-| 개발자 문서 | 완성도 높은 기술 문서로 자가 해결 지원 |
-| 파트너 배지 | "Powered by MAX" 인증 프로그램 (추정) |
-| 레퍼런스 프로그램 | 성공 파트너사 케이스 스터디로 신규 고객 유치 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 우선순위 매트릭스
+## 5. Crisis Response Protocol
 
-| 채널 | 리드 생성 | 브랜드 인지 | 고객 유지 | 투자 수준 |
-|------|----------|-----------|----------|----------|
-| 웹사이트/SEO | 최고 | 높음 | 중간 | 높음 |
-| 직접 영업 | 최고 | 낮음 | 높음 | 최고 |
-| LinkedIn | 높음 | 최고 | 중간 | 중간 |
-| 컨퍼런스 | 높음 | 높음 | 중간 | 높음 |
-| 이메일 | 중간 | 낮음 | 최고 | 낮음 |
-| Twitter/X | 낮음 | 높음 | 낮음 | 낮음 |
-| 유료 광고 | 중간 | 중간 | 낮음 | 중간 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 스틸 시트 (Steal Sheet) — 채널 레이어
+## 6. Steal Sheet — 3 Transferable Principles
 
-### Steal 1: SDK 무료 배포로 저마찰 진입 → 업셀
-MAX SDK를 무료로 배포해 개발자를 플랫폼에 온보딩한 뒤, 사용량이 늘면 자연스럽게 AppDiscovery 유료 캠페인으로 유도하는 PLG(Product-Led Growth) 구조.
-- **적용법**: 핵심 기능을 무료 SDK/API로 먼저 배포. 사용 데이터를 기반으로 업셀 트리거를 설계.
+**1. Align channel formality with audience expectations.**
+AppLovin's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-### Steal 2: 업계 컨퍼런스 전후 콘텐츠 사이클
-컨퍼런스 자체보다 사전 예고·현장 라이브·사후 리캡 콘텐츠 3단계로 노출을 3배 증폭한다. 단순 참가가 아닌 미디어 사이클로 전환.
-- **적용법**: 모든 오프라인 이벤트를 콘텐츠 캘린더에 3단계로 등록. 발표 자료를 블로그·슬라이드쉐어로 재배포.
+**2. Use financial communications as a credibility asset.**
+AppLovin's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-### Steal 3: 고객 케이스 스터디를 채널별 자산으로 분해
-단일 케이스 스터디를 롱폼 블로그, LinkedIn 카드, 이메일 발췌, 컨퍼런스 발표 슬라이드, 영업 배틀카드로 분해해 모든 채널에 일관 메시지를 배포.
-- **적용법**: 케이스 스터디 제작 시 처음부터 채널별 파생 자산 템플릿을 설계. 콘텐츠 1개 → 7개 자산 생성 워크플로우 구축.
+**3. Build a cross-channel sequence, not parallel silos.**
+AppLovin's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

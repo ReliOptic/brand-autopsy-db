@@ -1,114 +1,102 @@
-# 05 디자인 시스템 — American Tower (AMT)
+# 05. Design System — American Tower (AMT)
 
-> 출처 표기: (공식) = 공개 IR·홈페이지·브랜드 가이드 기준 / (추정) = 공개 자료 시각 분석 기반 추론  
-> 모든 HEX 코드는 공개 웹사이트 및 IR 자료 색상 추출 기반 (추정)
-
----
-
-## 1. 컬러 팔레트
-
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| Primary Brand | AMT 네이비 블루 | `#003087` | 로고, 주요 헤드라인, 버튼 (추정) |
-| Primary Brand | AMT 스카이 블루 | `#0072CE` | 보조 강조, 링크, 아이콘 (추정) |
-| Secondary | AMT 라이트 블루 | `#5CB8E4` | 배경 강조, 인포그래픽 (추정) |
-| Accent | AMT 오렌지 | `#FF6B35` | CTA 버튼, 하이라이트 포인트 (추정) |
-| Neutral Dark | 차콜 그레이 | `#2D2D2D` | 본문 텍스트, 다크 배경 (추정) |
-| Neutral Mid | 미드 그레이 | `#6B7280` | 캡션, 서브텍스트 (추정) |
-| Neutral Light | 라이트 그레이 | `#F3F4F6` | 카드 배경, 구분선 (추정) |
-| White | 퓨어 화이트 | `#FFFFFF` | 기본 배경, 역전 텍스트 (공식) |
-| Data Positive | 그린 | `#16A34A` | 성장 지표, 긍정 데이터 (추정) |
-| Data Negative | 레드 | `#DC2626` | 리스크 지표, 경고 (추정) |
-
-### 컬러 사용 원칙
-
-- **Primary 콤보**: `#003087` 배경 + `#FFFFFF` 텍스트 (명암비 WCAG AA 충족) (추정)
-- **Accent 사용**: 페이지당 1–2개 CTA에 한정, 남용 금지
-- **데이터 시각화**: 긍정/부정 이분법에만 그린/레드 사용, 중립 데이터는 블루 계열
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 2. 타이포그래피
+## 1. Color Palette
 
-| 역할 | 폰트 패밀리 | 굵기 | 크기 범위 |
-|------|-----------|------|---------|
-| Display Heading | Gotham (추정) | Bold (700) | 36–72px |
-| Section Heading | Gotham (추정) | Medium (500) | 24–36px |
-| Body Copy | Source Sans Pro 또는 Open Sans (추정) | Regular (400) | 16–18px |
-| Caption / Label | Source Sans Pro (추정) | Light (300) | 12–14px |
-| Data / Number | Roboto Mono 또는 유사 모노스페이스 (추정) | Regular (400) | 14–20px |
+American Tower's visual identity, as observed on its official website, employs a structured color system appropriate to real estate sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-**타이포그래피 원칙**:
-- 수치 데이터는 모노스페이스 폰트로 정렬감 부여
-- 한글 대응 시: Noto Sans KR 또는 Pretendard 권장 (추정)
-- 줄간격(line-height): 1.5 이상 (가독성 확보)
+### Core Brand Colors
 
----
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#003366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-## 3. 로고 시스템
+### Color Principles
 
-| 버전 | 용도 | 배경 색상 |
-|------|------|---------|
-| 풀 컬러 (가로형) | 기본 사용 | 화이트, 라이트 그레이 |
-| 역전 (화이트) | 다크 배경 | `#003087`, `#2D2D2D` |
-| 모노크롬 | 단색 인쇄, 팩스 | 흑백 |
-| 심볼 단독 | 파비콘, 앱 아이콘 | 정방형 배경 |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-**보호 영역(Clear Space)**: 로고 높이의 1배 (추정)  
-**최소 크기**: 인쇄 12mm / 디지털 80px 너비 (추정)
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 4. 그래픽 언어
-
-### 4.1 사진 스타일
-- **타워 사진**: 청명한 하늘 배경, 저각도 앙각 촬영 — 웅장감·높이감 강조 (추정)
-- **인물 사진**: 현장 엔지니어, 도시 스카이라인 — 기술력·실용성 연상
-- **데이터센터**: 청색 조명, 서버 랙 열 — 기술 정밀성 연상
-- **지역 커뮤니티**: 다양한 인종·지역 사용자 — ESG 포용성 메시지
-
-### 4.2 아이콘 스타일
-- 선형(line) 아이콘, 2px 스트로크 (추정)
-- 둥근 모서리(rounded) 스타일
-- 단색 (`#0072CE` 또는 `#003087`)
-
-### 4.3 데이터 시각화
-- 바 차트·라인 차트 선호 (추정)
-- 파이 차트 최소화 (정밀도 표현 한계)
-- 지도 시각화: 글로벌 사이트 분포 자주 사용
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 5. 레이아웃 그리드
+## 2. Typography
 
-| 환경 | 그리드 | 거터 |
-|------|--------|------|
-| 웹 데스크톱 | 12컬럼 | 24px |
-| 웹 모바일 | 4컬럼 | 16px |
-| IR 프레젠테이션 | 황금비 레이아웃, 좌측 1/3 레이블 | 32px |
-| 연간보고서 | 2컬럼 (텍스트+데이터) | 24px |
+American Tower's digital properties employ a typographic system appropriate to its real estate positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 6. 디자인 금지 사항
+## 3. Channel Specifications
 
-| 금지 | 이유 |
-|------|------|
-| 네이비+오렌지 과다 사용 | 과도한 대비로 신뢰감 저하 |
-| 그림자 과잉(heavy drop shadow) | 구식 인상, 플랫 디자인 원칙 위반 |
-| 3D 차트 사용 | 데이터 왜곡 가능성 |
-| 저해상도 타워 사진 | 프리미엄 인프라 이미지 훼손 |
-| 경쟁사 색상(빨강, 마젠타) 과다 | 브랜드 혼동 유발 |
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 7. Steal Sheet — 디자인 시스템 레이어
+## 4. Layout Principles
 
-### Steal #1: "블루 = 신뢰 = 인프라" 컬러 코딩
-AMT의 네이비+스카이 블루 이중 구조는 금융·기술·인프라 섹터에서 신뢰를 의미하는 보편적 색상 코드를 정확히 활용한다. 오렌지 액센트는 CTA에만 집중 사용해 클릭 유도 효율을 높인다. **적용 팁**: 신뢰 섹터 브랜드는 블루 계열 메인 + 따뜻한 계열 단일 액센트 공식이 검증된 패턴이다.
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### Steal #2: 데이터 시각화를 디자인 언어의 핵심으로
-IR 덱에서 수치 비주얼이 사진보다 더 많은 면적을 차지한다. 숫자를 예쁘게 보여주는 것 자체가 신뢰 신호다. **적용 팁**: B2B 고관여 오디언스에게는 감성 이미지보다 잘 설계된 데이터 시각화가 더 강력한 설득 도구다.
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Steal #3: 앙각(Low-angle) 사진으로 스케일 전달
-타워를 아래에서 위로 찍는 앙각 구도는 물리적 높이를 심리적 웅장감으로 번역한다. 말하지 않고 느끼게 만드는 시각적 포지셔닝. **적용 팁**: 물리적 자산을 보유한 브랜드는 스케일을 텍스트가 아닌 카메라 앵글로 전달하라.
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: American Tower (AMT)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

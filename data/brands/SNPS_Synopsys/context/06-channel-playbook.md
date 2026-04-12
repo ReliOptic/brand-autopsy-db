@@ -1,131 +1,141 @@
-# 06 채널 플레이북 — Synopsys (SNPS)
+# 06. Channel Playbook — Synopsys (SNPS)
 
-## 채널 전략 개요
-
-Synopsys의 채널 전략은 기술 전문가(엔지니어)와 경영 의사결정자(임원)를 분리하여 접근한다. 엔지니어는 기술 커뮤니티와 전문 채널을 통해 직접 도달하고, 임원은 업계 권위지·컨퍼런스·파트너 네트워크를 통해 간접 설득한다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 역할 및 전술
+## 1. Channel Strategy Matrix
 
-### 1. 공식 웹사이트 (synopsys.com)
-
-| 항목 | 내용 |
-|------|------|
-| 역할 | 기술 정보 허브, 리드 캡처, 제품 포트폴리오 전시 (공식) |
-| 주요 기능 | 제품 페이지, 기술 문서, 솔루션 데모 요청, SolvNet 포털 연계 (공식) |
-| 핵심 KPI | 데모 신청 수, 기술 문서 다운로드 수, SolvNet 가입 수 (추정) |
-| 콘텐츠 우선순위 | 제품 기능 페이지 > 고객 사례 > 기술 백서 > 블로그 (추정) |
-
-**운영 원칙 (추정)**
-- 제품 카테고리별 랜딩 페이지를 독립적으로 최적화 (EDA / IP / 소프트웨어 보안)
-- 검색 의도 기반 콘텐츠 설계 — "EDA tools for 5nm" 류의 롱테일 키워드 공략
-- 폼 게이트: 기술 백서는 이메일 필수, 제품 데이터시트는 오픈 액세스
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. SolvNet (기술 지원 포털)
+## 2. Channel Tone Variations
 
-| 항목 | 내용 |
-|------|------|
-| 역할 | 기존 고객 리텐션, 기술 지원, 커뮤니티 참여 (공식) |
-| 콘텐츠 유형 | 기술 Q&A, 릴리스 노트, 패치, 사용자 포럼, 웨비나 아카이브 (공식) |
-| 접근 방식 | 라이선스 고객 전용 폐쇄 포털 (공식) |
-| 핵심 KPI | 문제 해결 시간(MTTR), 포럼 참여율, 갱신율 (추정) |
+Synopsys's core voice adjusts by channel while maintaining brand coherence.
 
----
-
-### 3. 컨퍼런스 & 이벤트
-
-| 이벤트 | 시기 | 역할 | 채널 목표 |
-|--------|------|------|----------|
-| DAC (Design Automation Conference) | 6월 (공식) | 신제품 발표, 기술 세션, 부스 시연 | 신규 리드 + 업계 권위 강화 |
-| ICCAD | 11월 (공식) | 기술 논문 발표, 워크샵 | 기술 리더십 포지셔닝 |
-| ISSCC | 2월 (공식) | 반도체 IP 혁신 발표 | IP 잠재 고객 접촉 |
-| RSA Conference | 4월 (공식) | Black Duck / 보안 솔루션 전시 | 보안 세그먼트 신규 리드 |
-| Hot Chips | 8월 (추정) | 고성능 컴퓨팅 설계 트렌드 발표 | HPC·AI 칩 고객 접촉 |
-| Synopsys User Group (SNUG) | 연 1회 (공식) | 기존 고객 커뮤니티 이벤트 | 갱신율·확장 판매 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 4. 디지털 마케팅 채널
+## 3. Cross-Channel Synergy Map
 
-#### LinkedIn
-- **주 타겟**: 반도체 엔지니어, CTO, CISO, IP 전략 담당자 (추정)
-- **콘텐츠 믹스**: 기술 인사이트 60% / 고객 사례 20% / 채용·문화 20% (추정)
-- **포맷**: 텍스트 + 다이어그램 이미지, 문서 카루셀, 유료 스폰서드 콘텐츠
-- **게시 빈도**: 주 3~5회 (추정)
-- **핵심 KPI**: 팔로워 증가, 엔지니어 세그먼트 도달률, 데모 전환율
+### Route A — Product/Service Launch Sequence
 
-#### YouTube
-- **주 타겟**: 실무 엔지니어, 학생, 기술 평가자 (추정)
-- **콘텐츠 유형**: 제품 데모, 웨비나 녹화, SNUG 발표, 기술 튜토리얼 (공식)
-- **채널 전략**: 검색 최적화된 기술 키워드 제목, 챕터 마커 활용
-- **핵심 KPI**: 조회수, 시청 시간, 구독자 수, 채널 클릭률
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-#### X (구 Twitter) / 업계 SNS
-- 역할 축소 중 (추정) — 컨퍼런스 실시간 업데이트, 뉴스 앰프에 주로 활용
-- 기술 커뮤니티 해시태그(#EDA, #semiconductor, #SBOM) 참여
+### Route B — Thought Leadership Pipeline
 
----
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-### 5. 파트너 & 생태계 채널
+### Route C — Earnings and Financial Communications
 
-| 파트너 유형 | 역할 | 주요 사례 |
-|------------|------|----------|
-| 파운드리 파트너 | 공정 노드 인증 플로우 공동 개발 | TSMC, Samsung Foundry, Intel Foundry (공식) |
-| IP 파트너 | DesignWare IP 생태계 확장 | ARM, RISC-V 커뮤니티 연동 (추정) |
-| 클라우드 파트너 | EDA 클라우드 배포 | AWS, Microsoft Azure, Google Cloud (공식) |
-| 시스템 통합사 | 대기업 EDA 플랫폼 도입 지원 | Infosys, Wipro 등 글로벌 SI (추정) |
-| 학술 파트너 | 차세대 엔지니어 양성, 미래 고객 확보 | 주요 공과대학 연구 협력 (공식) |
-
----
-
-### 6. 이메일 & 마케팅 자동화
-
-| 세그먼트 | 이메일 유형 | 발송 주기 | 핵심 CTA |
-|----------|-----------|----------|----------|
-| 신규 리드 (엔지니어) | 웰컴 → 제품 소개 → 무료 평가판 안내 | 7/14/30일 (추정) | 평가판 신청 |
-| 기술 백서 다운로드 | 관련 솔루션 → 웨비나 초대 → 데모 제안 | 3/10/21일 (추정) | 데모 신청 |
-| 기존 고객 | 신제품 릴리스 노트, SNUG 초대, 갱신 안내 | 월 1~2회 (추정) | 갱신·업셀 |
-| 이벤트 등록자 | 사전 안내 → 이벤트 당일 → 사후 콘텐츠 | 이벤트 기준 (추정) | 세션 등록 |
-
----
-
-## 채널 믹스 예산 배분 (추정)
-
-| 채널 | 예산 비중 | 근거 |
-|------|----------|------|
-| 이벤트 & 컨퍼런스 | 35% | 직접 리드 창출 및 기술 권위 강화 |
-| 디지털 광고 (LinkedIn, Google) | 25% | 타겟 세그먼트 정밀 도달 |
-| 콘텐츠 제작 & SEO | 20% | 장기 유기적 트래픽 확보 |
-| 파트너 마케팅 | 12% | 생태계 확장 및 간접 채널 활성화 |
-| PR & 미디어 | 8% | 업계 권위 언론 노출 |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-## Steal Sheet — 채널 레이어별 3가지 훔칠 전략
+## 4. Channel-Specific Prohibitions
 
-### 레이어 1: 인지 (Awareness) 채널 전략
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-1. **"DAC 카운트다운" 멀티채널 캠페인** — DAC 개막 4주 전부터 LinkedIn + 이메일 + 웹사이트 배너를 동기화하여 신제품 티저 콘텐츠를 순차 공개. 컨퍼런스 당일 실시간 발표를 LinkedIn Live로 중계하여 현장 참석 불가 엔지니어까지 도달.
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-2. **YouTube "설계 실패 사례 분석" 시리즈** — 실제 반도체 설계 실패(테이프아웃 재작업, 보안 취약점 유출)를 익명으로 분석하는 10분 내외 영상 시리즈. 검색 트래픽 유입이 높고 엔지니어 커뮤니티에서 자발적으로 공유되는 포맷.
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-3. **업계 리포트 공동 발행 (Co-branded Research)** — Gartner·IDC와 공동 스폰서십으로 반도체 설계 트렌드 리포트를 연 1회 발행. Synopsys 단독 자료보다 중립성 인식이 높아 다운로드율과 언론 인용율이 상승.
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
-### 레이어 2: 검토 (Consideration) 채널 전략
+---
 
-1. **LinkedIn "엔지니어 인증" 타겟팅 광고** — LinkedIn의 직함·기술 스킬 필터를 활용하여 "IC Design", "VLSI", "Application Security" 태그 보유자에게만 평가판·웨비나 광고를 노출. 비엔지니어 트래픽 낭비 제거.
+## 5. Crisis Response Protocol
 
-2. **파운드리 파트너 공동 웨비나** — TSMC·Samsung Foundry와 공동 주최하는 "최신 공정 노드 설계 플로우" 웨비나. 파운드리 고객이 자연스럽게 Synopsys 툴의 공정 인증 현황을 인식하는 간접 채널.
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-3. **무료 평가판 → SolvNet 온보딩 퍼널** — 무료 툴 평가판 신청 후 SolvNet 기술 지원 포털로 연결되는 자동화 온보딩 퍼널. 평가 기간 중 기술 지원 품질 경험이 구매 결정의 핵심 변수임을 활용.
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### 레이어 3: 결정 & 유지 (Decision & Retention) 채널 전략
+### Scenario 2 — Regulatory or Legal Action
 
-1. **SNUG (Synopsys User Group) 로열티 프로그램** — 연간 사용자 컨퍼런스를 단순 이벤트가 아닌 고객 커뮤니티 허브로 운영. 우수 사용자 사례 발표 기회 제공, 제품 로드맵 프리뷰 공유, 다음 해 갱신 결정에 직접 영향.
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-2. **"갱신 90일 전" 자동화 이메일 시퀀스** — 라이선스 만료 90일 전부터 개인화된 사용량 리포트("지난 1년간 귀사 팀이 절약한 설계 시간: X시간"), 업그레이드 옵션, 전담 담당자 연결을 순차 발송. 갱신율 방어 전략.
+### Scenario 3 — Reputation / Social Media Issue
 
-3. **파트너 채널 업셀 트리거** — 클라우드 파트너(AWS, Azure)의 사용량 데이터와 연동하여, EDA 워크로드 급증 고객에게 적시에 라이선스 확장 제안을 자동 트리거. 데이터 기반의 업셀 타이밍 최적화.
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
+
+---
+
+## 6. Steal Sheet — 3 Transferable Principles
+
+**1. Align channel formality with audience expectations.**
+Synopsys's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
+
+**2. Use financial communications as a credibility asset.**
+Synopsys's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+Synopsys's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

@@ -1,112 +1,74 @@
-# 04 콘텐츠 DNA — Allegion (ALLE)
+# 04. Content DNA — Allegion plc (ALLE)
 
-## 콘텐츠 철학
-
-Allegion의 콘텐츠는 **"신뢰는 증명된다"** 는 원칙 위에 세워진다. 감성적 주장보다 기술적 증거, 인증 데이터, 규정 준수 사례를 우선하며, B2B 채널에서는 사양 지정자의 신뢰를 얻는 것이 모든 콘텐츠의 목적이다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including observed brand materials on allegion.com and schlage.com. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as T4_INFERRED. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 필러 (5대 주제 기둥)
+## Content Pillars
 
-| 필러 | 핵심 메시지 | 주요 포맷 |
-|------|------------|---------|
-| 1. 생명 안전(Life Safety) | 출구 장치·비상 탈출 코드 준수 | 기술 백서, 코드 가이드, 웨비나 |
-| 2. 스마트 접근 제어 | IoT·클라우드 기반 접근 관리 | 제품 데모 영상, 케이스 스터디 |
-| 3. 규정 준수(Compliance) | ANSI, NFPA, ADA, IBC 코드 대응 | 규정 체크리스트, 사양 가이드 |
-| 4. 브랜드 유산(Heritage) | Schlage 100년+, Von Duprin 생명 안전 | 히스토리 스토리텔링, 수상 실적 |
-| 5. 지속가능성(Sustainability) | ESG, 에너지 효율 도어 시스템 | 연간 보고서, 제품 인증 배지 |
-
----
-
-## 콘텐츠 포맷 매트릭스
-
-| 포맷 | 용도 | 타깃 오디언스 | 빈도 |
-|------|------|-------------|------|
-| 기술 사양서 (PDF) | 사양 지정자 결정 지원 | 건축가, 컨설턴트 | 신제품 출시 시 |
-| 케이스 스터디 | 사회적 증거, 레퍼런스 확보 | 시설 관리자, 구매 담당 | 분기별 2~3편 |
-| 웨비나 / CEU 강좌 | 건축사 지속 교육 학점 제공 | AIA 인증 건축사 | 월 1회 (추정) |
-| 유튜브 설치 가이드 | 현장 기사 교육, SEO | 잠금장치 전문 기사, DIY | 상시 |
-| 이메일 뉴스레터 | 제품 업데이트, 규정 변경 알림 | 유통업체, 사양 설계사 | 월 2회 (추정) |
-| 소셜 미디어 (LinkedIn) | 브랜드 인지, 채용 | 업계 전문가 | 주 3~4회 (추정) |
-| 백서 (Thought Leadership) | 산업 트렌드 리더십 | C-레벨, 보안 책임자 | 반기별 (추정) |
+| Pillar | Est. Share | Core Message | Formats |
+|--------|-----------|--------------|---------|
+| **1. Product Innovation & Smart Access** | ~30% | "The future of access is keyless, mobile, and cloud-managed." | Product launches, smart lock guides, mobile credential explainers |
+| **2. Security Education** | ~25% | "Understand your security needs before you buy." | Buyer's guides, security level explainers, ANSI grade education |
+| **3. Specifier & Professional Resources** | ~25% | "Tools and training for security professionals." | AIA CEU courses, specification tools, integrator training |
+| **4. Building & Code Compliance** | ~15% | "Meeting fire, life safety, and ADA code requirements." | Code compliance guides, product compliance documentation |
+| **5. Brand Heritage & Trust** | ~5% | "100+ years of security leadership." | Heritage stories, brand history, reliability testimonials |
 
 ---
 
-## 콘텐츠 톤 가이드
+## Hook Patterns
 
-### B2B 채널 (건축가·시설 관리자·유통업체)
+### Hook 1 — Problem-Solution for Homeowners
+"Tired of carrying keys? Schlage Encode lets you lock and unlock from your phone." (observed on schlage.com)
 
-- **톤**: 권위적, 사실 기반, 간결
-- **문장 길이**: 짧고 능동태 위주
-- **금지**: 과장 형용사("최고의", "혁명적"), 모호한 약속
-- **필수**: 수치, 등급, 인증 번호, 규정 조항 번호
+### Hook 2 — Compliance Urgency for Commercial
+"Is your building code-compliant? New fire and life safety requirements may affect your door hardware." (T4_INFERRED)
 
-**예시 (좋음):**
-> "Schlage ND 시리즈는 ANSI/BHMA A156.2 Grade 1 인증을 받았으며, 250만 회 사이클 내구성 테스트를 통과했습니다."
+### Hook 3 — Technology Transition
+"From keys to credentials: how mobile access is transforming building security." (T4_INFERRED)
 
-**예시 (나쁨):**
-> "업계 최고의 혁신적인 잠금장치로 당신의 건물을 완벽하게 보호하세요."
-
----
-
-### B2C 채널 (주거 구매자·DIY 소비자)
-
-- **톤**: 따뜻하지만 전문적, 신뢰 기반 안심
-- **문장 길이**: 중간, 혜택 중심
-- **금지**: 공포 마케팅("침입자가 언제든 올 수 있다"), 지나친 기술 용어
-- **필수**: 가족·집 보호 서사, 간편 설치 강조, 스마트홈 호환성
-
-**예시 (좋음):**
-> "Schlage Encode Plus로 집을 나선 후에도 스마트폰으로 확인하세요 — 가족이 안전하다는 것을."
+### Hook 4 — Stat-Led for Decision-Makers
+"85% of facility managers say access control is their top security priority." (estimated pattern)
 
 ---
 
-## 콘텐츠 금지어 (전사 공통)
+## CTA Patterns
 
-1. **"저렴한"** — 프리미엄 포지셔닝 훼손
-2. **"단순히 잠금장치"** — 솔루션 브랜드 서사 축소
-3. **"해킹 가능"** / "취약한" — 보안 브랜드 이미지 직격
-4. **"복잡한 설치"** — 사용 편의성 약속 위반
-5. **"임시방편"** — 내구성·영속성 자산 훼손
-
-## 콘텐츠 필수어 (전사 공통)
-
-1. **"접근 제어(Access Control)"** — 카테고리 소유 키워드
-2. **"통합 보안(Integrated Security)"** — 포트폴리오 연결 서사
-3. **"인증된(Certified)"** / "UL Listed" — 규정 준수 신호
-4. **"스마트(Smart)"** — IoT 제품 강조
-5. **"내구성(Durable)"** / "Grade 1" — ANSI 등급 신뢰 신호
+| CTA Type | Pattern |
+|----------|---------|
+| **Residential** | "Shop Schlage" / "Find a dealer" / "Compare smart locks" |
+| **Commercial** | "Request a consultation" / "Download specification" / "Schedule a demo" |
+| **Professional** | "Access training resources" / "Earn CEU credits" |
 
 ---
 
-## SEO 핵심 키워드 클러스터 (추정)
+## Tone & Mood Guide
 
-| 클러스터 | 핵심 키워드 | 의도 |
-|---------|------------|------|
-| 제품 카테고리 | "commercial door hardware", "electronic access control" | 구매 의도 |
-| 브랜드 | "Schlage smart lock", "Von Duprin exit device" | 브랜드 탐색 |
-| 규정 준수 | "ANSI Grade 1 lock", "ADA compliant door hardware" | 사양 검토 |
-| 학교 보안 | "school security lockdown", "classroom lockdown lever" | 솔루션 탐색 |
-| DIY/소비자 | "smart deadbolt installation", "keyless entry door lock" | 정보 수집 |
+### Residential (Schlage)
+**Mood**: Warm, approachable, homeowner-friendly. Smart home excitement without technical jargon.
+
+### Commercial (Allegion)
+**Mood**: Professional, technical, solution-oriented. Speaks to facility managers and specifiers with industry vocabulary.
+
+### Professional/Integrator
+**Mood**: Technical depth, peer-to-peer. Training and certification focus.
 
 ---
 
-## Steal Sheet — 콘텐츠 DNA 레이어별 인사이트
+## Content Prohibitions
 
-### Steal Sheet A: 콘텐츠 자산 레버리지
+1. **No fear-based home invasion imagery.** Security is empowerment, not terror. (T4_INFERRED)
+2. **No claims of absolute security.** "No lock is pick-proof" is an industry truth. (T4_INFERRED)
+3. **No disparagement of competitors by name in consumer content.** (T4_INFERRED)
+4. **No technical jargon in residential content.** Schlage consumer content uses plain language. (T4_INFERRED)
+5. **No oversimplification in professional content.** Integrators and architects expect technical depth. (T4_INFERRED)
 
-- CEU 웨비나는 건축사와의 사양 지정 관계를 강화하는 가장 비용 효율적 콘텐츠 형식 — 경쟁사 대비 Allegion의 차별화 포인트. (추정)
-- 케이스 스터디는 수직 시장(의료, 교육, 정부)별로 세분화해야 타깃 오디언스의 공감 최대화. (추정)
-- 유튜브 설치 가이드는 유통업체 교육 비용을 낮추면서 SEO 자산으로 이중 활용 가능. (추정)
+---
 
-### Steal Sheet B: 콘텐츠 갭
+## Steal Sheet — 3 Transferable Principles
 
-- Allegion의 ESG·지속가능성 콘텐츠는 경쟁사 대비 아직 미개발 영역 — 탄소 발자국·제품 수명 주기 데이터로 조달 담당자 공략 가능. (추정)
-- 스마트홈 비교 콘텐츠("Schlage vs Kwikset 어떤 게 더 스마트한가") — 검색 의도 높은 블루오션 키워드. (추정)
-- 라틴계·히스패닉 주거 구매자 대상 스페인어 콘텐츠는 플로리다·텍사스 홈빌더 채널에서 경쟁 우위 창출 가능. (추정)
+**1. Dual-voice content strategy.** Consumer content (Schlage) is warm and simple; professional content (Allegion) is technical and deep. Same company, two voices, appropriate to each audience.
 
-### Steal Sheet C: 콘텐츠 배포 최적화
+**2. Earn specifier loyalty through education.** AIA-accredited CEU courses are a content investment that generates specification influence for years. Transferable: create accredited educational content for the professionals who specify your product.
 
-- LinkedIn은 B2B 사양 설계사·시설 관리자 타깃의 최고 ROI 채널 — 기술 인사이트 포스팅이 팔로워 엔게이지먼트 3배 (추정)
-- Pinterest·Houzz는 주거용 Schlage 제품의 인테리어 디자인 맥락 배포에 미개발 채널. (추정)
-- 팟캐스트 게스트 출연(시설 관리·학교 보안 분야)은 thought leadership 콘텐츠의 저비용 배포 수단. (추정)
+**3. Compliance content generates leads.** Building code updates create urgency for product evaluation. Content that explains compliance requirements while positioning your product as the compliant solution converts decision-makers efficiently.

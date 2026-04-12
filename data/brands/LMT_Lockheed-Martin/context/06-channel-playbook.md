@@ -1,161 +1,141 @@
-# 06 채널 플레이북 — Lockheed Martin (LMT)
+# 06. Channel Playbook — Lockheed Martin (LMT)
 
-## 채널 전략 개요
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
-LMT의 채널 전략은 B2G(Business-to-Government) 중심의 고관여 구매 주기에 최적화되어 있다.
-단일 계약 주기가 수년에 걸치며, 다층적 의사결정자에게 동시다발적으로 영향력을 행사해야 한다.
+---
+
+## 1. Channel Strategy Matrix
+
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
+
+---
+
+## 2. Channel Tone Variations
+
+Lockheed Martin's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
+
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
 
 ```
-[인지] → [신뢰 구축] → [기술 검증] → [조달 결정] → [파트너십 유지]
-  │           │              │              │              │
-이벤트     LinkedIn       백서·브리핑    1:1 미팅      고객 성공 사례
-미디어      보도자료       기술 데모      제안서         유지보수 뉴스레터
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
+
+### Route B — Thought Leadership Pipeline
+
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
+
+### Route C — Earnings and Financial Communications
+
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
 ```
 
 ---
 
-## 채널별 상세 플레이북
+## 4. Channel-Specific Prohibitions
 
-### 1. 디지털 채널
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-#### 1-1. 공식 웹사이트 (lockheedmartin.com)
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-| 항목 | 내용 |
-|------|------|
-| 주요 기능 | 제품/프로그램 정보, 조달 포털, IR 자료, 채용 |
-| 핵심 오디언스 | 조달 담당자, 기관 투자자, 구직자 |
-| 콘텐츠 우선순위 | 프로그램 현황 > 기술 사양 > 수주 발표 |
-| KPI | 페이지뷰, 브리핑 자료 다운로드 수, 채용 지원 전환율 (추정) |
-| 업데이트 주기 | 계약 발표 즉시 / 정기 콘텐츠 주 1회 (추정) |
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-#### 1-2. LinkedIn
-
-| 항목 | 내용 |
-|------|------|
-| 팔로워 규모 | 약 140만+ (추정) |
-| 주요 콘텐츠 | 기술 혁신, 채용, 수주 발표, 임원 인사이트 |
-| 최적 포스팅 빈도 | 주 3~5회 (추정) |
-| 핵심 형식 | 문서형 캐러셀, 영상, 임원 원고 |
-| 성과 지표 | 인게이지먼트율, 팔로워 성장, 인재 지원 전환 (추정) |
-
-#### 1-3. YouTube
-
-| 항목 | 내용 |
-|------|------|
-| 채널 역할 | 기술 시연, 항공기 영상, 기업 문화 |
-| 콘텐츠 유형 | F-35 비행 영상, 엔지니어 인터뷰, 우주 임무 브리핑 |
-| 최적 영상 길이 | 기술 시연 2~5분, 기업 스토리 3~8분 (추정) |
-| KPI | 조회수, 시청 완료율, 구독자 증가 (추정) |
-
-#### 1-4. X(구 Twitter)
-
-| 항목 | 내용 |
-|------|------|
-| 전략적 역할 | 실시간 뉴스 앰프, 미디어·정책 커뮤니티 관여 |
-| 콘텐츠 유형 | 수주 발표, 이벤트 하이라이트, 기술 팩트 |
-| 주의사항 | 정치적 논란 회피, 군사 작전 언급 금지 (추정) |
-| 빈도 | 일 1~2회 (추정) |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 2. 이벤트 채널
+## 5. Crisis Response Protocol
 
-#### 2-1. 방산 박람회 (Paris Air Show, Farnborough, AUSA, DSEI)
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-| 항목 | 내용 |
-|------|------|
-| 전략적 역할 | 신기술 공개, 동맹국 협상, 미디어 집중 노출 |
-| LMT 박람회 접근법 | 실물 항공기 전시 + 기술 브리핑 룸 운영 (추정) |
-| 핵심 활동 | 양자 미팅, 시연 비행, 발표 세션 |
-| 준비 리드타임 | 6~12개월 (추정) |
-| 성과 측정 | MOU 체결 수, 미디어 노출 건수, 리드 확보 (추정) |
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-#### 2-2. 의회·정책 행사
+### Scenario 2 — Regulatory or Legal Action
 
-| 항목 | 내용 |
-|------|------|
-| 전략적 역할 | 예산 승인 지지, 정책 입안자 관계 관리 |
-| 핵심 활동 | 청문회 증언, 싱크탱크 공동 세미나, 로비 (공식) |
-| 메시지 초점 | 일자리 창출, 국가 안보 기여, 기술 주도권 |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
----
+### Scenario 3 — Reputation / Social Media Issue
 
-### 3. PR·미디어 채널
-
-#### 3-1. 주요 타깃 미디어
-
-| 분류 | 매체명 |
-|------|--------|
-| 방산 전문지 | Defense News, Breaking Defense, Aviation Week, Jane's Defence |
-| 금융·투자 | Wall Street Journal, Bloomberg, Reuters |
-| 기술 미디어 | Wired, MIT Technology Review, IEEE Spectrum |
-| 일반 주류 | New York Times, Washington Post |
-
-#### 3-2. 보도자료 전략
-
-| 유형 | 배포 타이밍 | 핵심 각도 |
-|------|------------|----------|
-| 계약 수주 | 계약 체결 즉시 | 규모, 고용 효과, 전략적 의미 |
-| 기술 마일스톤 | 시험 완료 후 | 성능 수치, 운용 가능 시기 |
-| 파트너십 | 이벤트 연계 | 동맹 강화, 상호운용성 |
-| 실적 발표 | 분기 실적일 | 수주잔고, FCF, 전망 |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-### 4. 투자자 관계(IR) 채널
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 채널 | 활동 |
-|------|------|
-| 분기 실적 발표 콜 | CEO·CFO 직접 참여, Q&A 세션 (공식) |
-| IR 웹사이트 | SEC 공시, 프레젠테이션, 재무 데이터 (공식) |
-| 투자자 데이 | 연 1~2회 장기 전략 브리핑 (추정) |
-| 방산 컨퍼런스 | Morgan Stanley, Credit Suisse 방산 컨퍼런스 참여 (추정) |
-| 1:1 NDR | 주요 기관 투자자 대상 비공개 브리핑 (추정) |
+**1. Align channel formality with audience expectations.**
+Lockheed Martin's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
----
+**2. Use financial communications as a credibility asset.**
+Lockheed Martin's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-## 금지어 (채널 커뮤니케이션)
-
-1. **"적국"(특정 국명)** — 외교 관계 훼손, 파트너 국가 반발 유발
-2. **"전쟁 특수"** — 윤리적 논란, ESG 투자자 이탈 가속
-3. **"정부 압박"** — 조달 관계 경색 우려
-4. **"독점 공급"** — 공정거래·독점 규제 리스크
-5. **"미승인 성능 수치"** — 군사 기밀 및 허위 광고 법적 리스크
-
----
-
-## 필수어 (채널 커뮤니케이션)
-
-1. **"국가 안보 역량 강화"** — 모든 채널의 상위 메시지
-2. **"검증된 전력(Proven Force)"** — 실전 데이터 기반 채널 신뢰성
-3. **"미래 준비 완료(Future Ready)"** — 차세대 투자 서사
-4. **"지역사회 투자(Community Investment)"** — 고용·지역 경제 효과 강조
-5. **"투명한 공시(Transparent Disclosure)"** — IR 채널 신뢰 핵심 언어
-
----
-
-## Steal Sheet (채널 레이어별)
-
-### Layer 1: 디지털 채널에서 빼앗을 것
-
-| # | 빼앗을 포지션 | 실행 방법 | 효과 |
-|---|-------------|----------|------|
-| 1 | "방산 LinkedIn 1위" | 임원 思想 리더십 콘텐츠 주 3회 배포 | 정책·조달 커뮤니티 내 프레임 선점 (추정) |
-| 2 | "기술 유튜브 허브" | F-35 기술 설명 시리즈 100편 프로젝트 | 기술 검색 쿼리 장기 독점 (추정) |
-| 3 | "조달 디지털 포털" | 조달 담당자 전용 보안 자료실 구축 | 경쟁사 대비 고객 편의성 차별화 (추정) |
-
-### Layer 2: 이벤트 채널에서 빼앗을 것
-
-| # | 빼앗을 포지션 | 실행 방법 | 효과 |
-|---|-------------|----------|------|
-| 1 | "박람회 전 선제 발표" | 경쟁사 박람회 발표 72시간 전 선행 보도자료 | 미디어 어젠다 설정권 확보 (추정) |
-| 2 | "동맹국 공동 전시" | FMS 파트너국과 공동 부스 운영 | 동맹 신뢰도 시각적 과시 (추정) |
-| 3 | "비공개 VIP 기술 시연" | 주요 조달 결정권자 초청 프라이빗 행사 | 경쟁 입찰 전 관계 우위 확보 (추정) |
-
-### Layer 3: PR·IR 채널에서 빼앗을 것
-
-| # | 빼앗을 포지션 | 실행 방법 | 효과 |
-|---|-------------|----------|------|
-| 1 | "방산 ESG 보고 기준" | 업계 최초 방산 특화 ESG 프레임워크 발표 | ESG 펀드·SRI 투자자 유입 (추정) |
-| 2 | "지정학 분석 권위자" | 자체 지정학 리스크 분기 보고서 발행 | 미디어·애널리스트 인용 소스 지위 확보 (추정) |
-| 3 | "실시간 계약 투명성" | 계약 발표 즉시 상세 데이터 공시 강화 | 투자자 정보 비대칭 해소, 신뢰 프리미엄 (추정) |
+**3. Build a cross-channel sequence, not parallel silos.**
+Lockheed Martin's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

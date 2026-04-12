@@ -1,108 +1,84 @@
-# 02 오디언스 맵 — Kraft Heinz (KHC)
+# 02. Audience Map — Kraft Heinz (KHC)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 타깃 오디언스 개요
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 규모 비중 (추정) | 매출 기여 (추정) |
-|----------|-----------------|-----------------|
-| 주부·가족 장보기 담당자 | 45% | 50% |
-| 밀레니얼 싱글·커플 | 25% | 22% |
-| Z세대 푸드 탐험가 | 15% | 12% |
-| 시니어 (55+) 충성 고객 | 15% | 16% |
-
----
-
-## 2. 페르소나
-
-### 페르소나 1 — 수진 (38세, 주부·워킹맘)
-
-| 항목 | 내용 |
-|------|------|
-| 거주지 | 경기도 분당 (한국 시장 적용 시) / 미국 오하이오 교외 |
-| 직업 | 파트타임 회계사 + 두 아이 양육 |
-| 소득 | 가구 연소득 $75,000 (추정) |
-| 쇼핑 채널 | Costco, Walmart, 온라인 구독 배송 |
-| 핵심 니즈 | 빠르고 간편하되 "집밥" 느낌을 주는 식재료 |
-| 페인 포인트 | 바쁜 저녁 준비 시간, 아이들 편식, 식비 예산 관리 |
-| 브랜드 관계 | Kraft 마카로니치즈·Heinz 케첩 어릴 때부터 사용, 강한 향수 |
-| 콘텐츠 소비 | Pinterest 레시피, YouTube 쿠킹쇼, Facebook 그룹 |
-| 구매 결정 요인 | 가격-품질 균형, 아이 선호, 준비 시간 단축 |
-| 브랜드 한마디 | "매일 쓰는 건데 믿을 수 있어야 해요." |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in packaged foods & meats. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Kraft Heinz's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Kraft Heinz's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 재현 (29세, 밀레니얼 직장인)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 거주지 | 서울 마포구 / 미국 시카고 도심 |
-| 직업 | IT 스타트업 UX 디자이너 |
-| 소득 | 연봉 $58,000 (추정) |
-| 쇼핑 채널 | Amazon Fresh, Whole Foods, 편의점 |
-| 핵심 니즈 | 간편식 + 건강 균형, 인스타그래머블한 요리 |
-| 페인 포인트 | 요리 시간 부족, 식재료 낭비, 단조로운 식단 |
-| 브랜드 관계 | Primal Kitchen·Philadelphia 등 프리미엄 라인 선호 |
-| 콘텐츠 소비 | TikTok 푸드 해킹, Instagram 릴스, Reddit r/EatCheapAndHealthy |
-| 구매 결정 요인 | 성분 투명성, 트렌드 부합, 간편성 |
-| 브랜드 한마디 | "맛있고 간단하면서 나쁜 성분은 없었으면 좋겠어요." |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Kraft Heinz customer organization
+- **Core pain**: Needs reliable packaged foods & meats solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Kraft Heinz selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 마가렛 (63세, 빈 둥지 시니어)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 거주지 | 미국 펜실베이니아 교외 |
-| 직업 | 은퇴 교사 |
-| 소득 | 연금 + 저축 $45,000/년 (추정) |
-| 쇼핑 채널 | 지역 슈퍼마켓, Kroger, TV 홈쇼핑 |
-| 핵심 니즈 | 친숙한 맛, 건강 관리 (저나트륨·저지방), 고정 예산 |
-| 페인 포인트 | 1인 가구 소포장 부족, 영양 정보 복잡함, 가격 인상 |
-| 브랜드 관계 | Heinz·Oscar Mayer 수십 년 충성, 새 제품 저항감 있음 |
-| 콘텐츠 소비 | TV 광고, 신문 쿠폰, Facebook |
-| 구매 결정 요인 | 브랜드 신뢰, 쿠폰·할인, 건강 표시 |
-| 브랜드 한마디 | "이 케첩 맛은 어릴 때부터 변하지 않았으면 해요." |
+- **Age / Occupation**: 35, technical professional who interacts with Kraft Heinz's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Kraft Heinz selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 여정 맵 (수진 기준)
+### Persona 3 — Consumer / Retail Customer
 
-```
-인지 → 고려 → 구매 → 사용 → 충성
-  |        |        |       |       |
-TV/SNS   비교앱   매장    가정    재구매
-캠페인   가격확인  진열대   식탁    구독
-향수     영양표시  쿠폰     레시피  추천
-```
-
-| 단계 | 핵심 채널 | 메시지 포커스 | 마찰 요인 |
-|------|-----------|--------------|-----------|
-| 인지 | TV, Instagram | 감성·향수 스토리 | 광고 과부하 |
-| 고려 | 쇼핑앱, 리뷰 | 가격·성분 비교 | 경쟁사 프로모 |
-| 구매 | 매장 진열대, 온라인 | 진열 위치, 쿠폰 | 대체품 유혹 |
-| 사용 | 제품 패키지, Pinterest | 레시피 활용 팁 | 기대 불일치 |
-| 충성 | 이메일, 앱 | 멤버십 혜택, 신제품 | 가격 인상 |
+- **Age / Occupation**: 38, consumer who interacts with Kraft Heinz's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Kraft Heinz selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 감성 지도 (Emotional Landscape)
+## Purchase Journey — AARRR Framework
 
-| 감성 | 연결 브랜드/제품 | 강도 (추정) |
-|------|----------------|------------|
-| 향수 / 추억 | Heinz 케첩, Kraft 마카로니치즈 | ★★★★★ |
-| 안도감 / 편리함 | Lunchables, Velveeta | ★★★★☆ |
-| 자부심 / 건강 | Primal Kitchen, 저나트륨 라인 | ★★★☆☆ |
-| 즐거움 / 위트 | Oscar Mayer 위너모바일 캠페인 | ★★★★☆ |
-| 신뢰 / 안전 | Philadelphia 크림치즈 | ★★★★☆ |
+| Stage | Kraft Heinz's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Kraft Heinz total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 비구매자 분석 (Non-Buyers)
+## Anti-Persona — Who Kraft Heinz Is Not For
 
-| 비구매 이유 | 비율 (추정) | 대응 전략 |
-|-------------|------------|-----------|
-| 건강 우려 (가공식품 기피) | 35% | 클린 라벨, 성분 간소화 |
-| 프리미엄 대안 선호 | 25% | Primal Kitchen 라인 강화 |
-| 가격 인상 저항 | 20% | 멀티팩·구독 할인 |
-| 브랜드 인지 부족 (Z세대) | 20% | TikTok·인플루언서 활성화 |
+| Type | Characteristics | Why Kraft Heinz Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Kraft Heinz's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Kraft Heinz's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Kraft Heinz's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Kraft Heinz's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Kraft Heinz's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

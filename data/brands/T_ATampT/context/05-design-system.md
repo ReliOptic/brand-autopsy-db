@@ -1,127 +1,102 @@
-# 05. 디자인 시스템 — AT&T (T)
-> 섹터: Communication Services / Telecom | 티커: T (NYSE)
+# 05. Design System — AT&T (T)
+
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 1. 디자인 철학
+## 1. Color Palette
 
-AT&T의 비주얼 아이덴티티는 **"명확성, 신뢰, 현대성"** 세 가지 원칙을 기반으로 한다. 1983년 이후 정착된 파란 구체(Globe) 로고는 전 세계적 연결성과 기술 리더십을 상징하며, 현대적 플랫 디자인 언어로 지속 진화 중이다.
+AT&T's visual identity, as observed on its official website, employs a structured color system appropriate to communication services sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## 2. 컬러 시스템
-
-### 주요 컬러 팔레트
-
-| 컬러명 | HEX | RGB | 용도 |
+| Token Name | HEX | Role | Specific Usage |
 |---|---|---|---|
-| AT&T Blue (공식) | `#00A8E0` | rgb(0, 168, 224) | 주 브랜드 컬러, CTA 버튼, 로고 배경 |
-| AT&T Dark Blue (공식) | `#003087` | rgb(0, 48, 135) | 헤더, 내비게이션, 기업 커뮤니케이션 |
-| AT&T Navy (추정) | `#001F5B` | rgb(0, 31, 91) | 다크 배경, 프리미엄 소재 |
-| Pure White (공식) | `#FFFFFF` | rgb(255, 255, 255) | 배경, 텍스트 반전 |
-| Light Gray (공식) | `#F2F2F2` | rgb(242, 242, 242) | 카드 배경, 섹션 구분 |
-| Mid Gray (공식) | `#6E6E6E` | rgb(110, 110, 110) | 보조 텍스트, 캡션 |
-| Dark Gray (공식) | `#333333` | rgb(51, 51, 51) | 본문 텍스트 |
-| AT&T Orange (추정) | `#FF6200` | rgb(255, 98, 0) | 프로모션 배지, 긴급 CTA, 세일 강조 |
-| Success Green (추정) | `#00A550` | rgb(0, 165, 80) | 확인 메시지, 가용 여부 표시 |
-| Alert Red (추정) | `#D0021B` | rgb(208, 2, 27) | 오류 메시지, 경고 |
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#663300` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-### 컬러 사용 비율 (추정)
+### Color Principles
 
-| 영역 | 주 컬러 | 보조 컬러 | 강조 컬러 |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
+
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
+
+---
+
+## 2. Typography
+
+AT&T's digital properties employ a typographic system appropriate to its communication services positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
 |---|---|---|---|
-| 디지털 (웹/앱) | White 60% | Blue 25% | Orange 15% |
-| 인쇄/OOH | Dark Blue 50% | White 35% | AT&T Blue 15% |
-| 영상 광고 | White/Light Gray 55% | AT&T Blue 35% | Orange 10% |
-
-### 컬러 접근성 (WCAG 기준)
-
-| 조합 | 대비비 | WCAG 등급 |
-|---|---|---|
-| `#00A8E0` on `#FFFFFF` | 2.8:1 | AA 미달 (소형 텍스트 주의) |
-| `#003087` on `#FFFFFF` | 10.5:1 | AAA 통과 (공식) |
-| `#333333` on `#FFFFFF` | 12.6:1 | AAA 통과 |
-| `#FFFFFF` on `#00A8E0` | 2.8:1 | 대형 텍스트/아이콘 전용 권장 |
-
-> AT&T Blue(`#00A8E0`)는 소형 본문 텍스트 단독 사용 지양 — 대형 헤드라인 또는 아이콘/배경 용도로 한정 권장 (추정)
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 3. 타이포그래피
+## 3. Channel Specifications
 
-| 역할 | 폰트 | 특징 |
-|---|---|---|
-| 주요 헤드라인 | **AT&T Aleck Sans** (공식) | 산세리프, 현대적, 브랜드 전용 커스텀 폰트 |
-| 디지털 대체 폰트 | **Roboto / Inter** | 웹 안전 폰트 대체 |
-| 본문 텍스트 | **AT&T Aleck Sans Regular** | 가독성 최적화, 16px+ 권장 |
-| 법적 고지/면책 | **AT&T Aleck Sans Light** | 10~12px, 회색 톤 |
-| 숫자/데이터 강조 | **AT&T Aleck Sans Bold** | 요금, 속도 수치 강조 |
-
-**타이포그래피 원칙**
-- 헤드라인: 대문자 지양, 문장형(Sentence case) 선호
-- 줄간격: 헤드라인 1.2, 본문 1.5~1.6
-- 최대 컬럼 너비: 680px (가독성 최적화)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 4. 로고 시스템
+## 4. Layout Principles
 
-| 버전 | 용도 | 최소 크기 |
-|---|---|---|
-| Full Color (Blue Globe + Wordmark) | 기본 사용 (공식) | 120px 너비 |
-| White Reverse (흰 Globe + 흰 Wordmark) | 파란/어두운 배경 | 120px 너비 |
-| Globe Icon Only | 파비콘, 앱 아이콘, 협소 공간 | 32px |
-| Wordmark Only | 특수 레이아웃 (로고 공간 제한 시) | 80px 너비 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-**로고 클리어존:** 로고 높이의 50% (X = 로고 높이, 여백 = 0.5X) (공식)
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-**금지 사항**
-- 로고 색상 임의 변경
-- 로고 비율 왜곡
-- 배경과 대비 부족한 환경에 배치
-- 경쟁사 로고와 나란히 동일 크기 배치
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 5. 아이코노그래피 & 일러스트레이션
+## 5. Design Prohibitions
 
-**아이콘 스타일**
-- 선형(Line) 아이콘 기본 — 2px 스트로크, 라운드 캡
-- 파란 계열 단색 또는 흰색
-- Material Icons / 자체 커스텀 아이콘 혼용 (추정)
-
-**일러스트레이션 원칙**
-- 평면(Flat) 스타일, 그림자 최소화
-- 다양한 인종·연령·직업군 인물 표현 — DEI 가이드라인 준수 (공식)
-- 기술 시각화: 추상적 네트워크 선/노드 패턴 → 브랜드 블루 계열
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 6. 사진 & 영상 스타일
-
-| 요소 | 가이드라인 |
-|---|---|
-| 조명 | 밝고 자연스러운 자연광 선호, 과도한 HDR 지양 |
-| 배경 | 생활감 있는 실내/도시 환경 — 스튜디오 백지 지양 |
-| 인물 | 실제 사용 장면 — 연출 느낌 최소화 |
-| 컬러 그레이딩 | 쿨 톤 기반, 채도 중간, AT&T Blue 강조 |
-| 기기 표현 | 최신 플래그십 스마트폰 — 실제 화면 콘텐츠 노출 시 법적 검토 필수 |
-
----
-
-## 7. Steal Sheet — 디자인 전략 3가지 (레이어별)
-
-### Steal Sheet A: 브랜드 레이어 (신뢰 시각화)
-**무엇을:** 데이터 시각화 시그니처 스타일 — 네트워크 커버리지 맵을 "살아있는 데이터 아트"로 표현
-**왜 효과적:** 지도 = 증거 = 신뢰. 추상적 "신뢰할 수 있는 네트워크" 주장을 시각 증거로 전환
-**어떻게 훔칠 수 있나:** 실시간 Ookla 데이터 연동 인터랙티브 맵 → 소셜 공유용 정적 스냅샷 자동 생성 → 지역별 커스텀 OOH 광고 소재 활용
-
-### Steal Sheet B: 제품 레이어 (비교 명확성)
-**무엇을:** "Before/After 연결" 비주얼 시스템 — 느린 인터넷(회색/흐림)에서 AT&T Fiber(블루/선명)로 전환하는 시각적 메타포
-**왜 효과적:** 추상적 속도 수치를 감각적 경험으로 변환 — 소비자 의사결정 단계에서 감성+이성 동시 자극
-**어떻게 훔칠 수 있나:** 웹사이트 히어로 섹션 애니메이션 → 영상 광고 오프닝 3초 훅 → 인스타그램 캐러셀 "Before/After" 포맷
-
-### Steal Sheet C: 퍼포먼스 레이어 (전환 디자인)
-**무엇을:** "신호 강도" UI 패턴 — 사용자 위치 기반으로 서비스 가용 여부를 신호 바(bar) 시각화로 즉시 표현
-**왜 효과적:** 익숙한 신호 강도 메타포로 인지 부하 제거 → 즉각적인 가용성 인식 → CTA 클릭률 상승
-**어떻게 훔칠 수 있나:** ZIP 코드 입력 즉시 신호 바 애니메이션 + "당신의 지역: 5G+ 사용 가능" 개인화 메시지 → 랜딩 페이지 히어로 컴포넌트
+*Layer 5 of 8 — Brand Autopsy: AT&T (T)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

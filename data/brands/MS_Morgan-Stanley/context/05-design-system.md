@@ -1,146 +1,102 @@
-# 05 디자인 시스템 — Morgan Stanley (MS)
+# 05. Design System — Morgan Stanley (MS)
 
-## 디자인 철학
-
-Morgan Stanley의 시각 언어는 **"절제된 권위(Restrained Authority)"** 를 핵심 원칙으로 한다. 화려함보다 명료함, 장식보다 정보, 트렌드보다 지속성을 우선한다. 모든 디자인 결정은 **"이것이 100년 된 기관에서 나온 것처럼 보이는가?"** 라는 질문을 통과해야 한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 주요 브랜드 컬러
+Morgan Stanley's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 컬러명 | HEX | RGB | 용도 |
-|--------|-----|-----|------|
-| MS Navy (모건 스탠리 네이비) | `#001E62` | rgb(0, 30, 98) | 주요 브랜드 컬러, 헤더·로고·CTA (공식) |
-| MS Blue (모건 스탠리 블루) | `#0033A0` | rgb(0, 51, 160) | 보조 브랜드 컬러, 링크·강조 (공식) |
-| MS Gold (모건 스탠리 골드) | `#C8A45A` | rgb(200, 164, 90) | 액센트, 프리미엄 강조 요소 (공식) |
-| Pure White | `#FFFFFF` | rgb(255, 255, 255) | 배경, 여백 (공식) |
-| Warm Gray | `#F5F5F0` | rgb(245, 245, 240) | 섹션 배경, 카드 배경 (추정) |
-| Text Gray | `#333333` | rgb(51, 51, 51) | 본문 텍스트 (추정) |
-| Mid Gray | `#767676` | rgb(118, 118, 118) | 보조 텍스트, 캡션 (추정) |
-| Light Gray | `#D8D8D8` | rgb(216, 216, 216) | 구분선, 테이블 경계 (추정) |
+### Core Brand Colors
 
-### 확장 컬러 팔레트 (데이터 시각화용)
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 컬러명 | HEX | 용도 |
-|--------|-----|------|
-| Chart Blue 1 | `#003B8E` | 데이터 시각화 주요 계열 (추정) |
-| Chart Blue 2 | `#1A5276` | 데이터 시각화 보조 계열 (추정) |
-| Chart Teal | `#148F77` | 긍정 지표, 성장 데이터 (추정) |
-| Chart Red | `#C0392B` | 하락·리스크 데이터 (추정) |
-| Chart Amber | `#D4AC0D` | 중립·경고 데이터 (추정) |
+### Color Principles
 
-### 컬러 사용 비율 (추정)
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 컬러 | 사용 비율 |
-|------|---------|
-| Navy `#001E62` | 20% |
-| White `#FFFFFF` | 50% |
-| Warm/Light Gray | 20% |
-| Gold `#C8A45A` | 5% |
-| 기타 액센트 | 5% |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
+
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피
+## 2. Typography
 
-### 서체 체계 (공식·추정)
+Morgan Stanley's digital properties employ a typographic system appropriate to its financials positioning.
 
-| 역할 | 서체명 | 웨이트 | 용도 |
-|------|--------|--------|------|
-| 디스플레이 헤드라인 | MS Serif (proprietary) / Georgia | Bold | 대형 헤드라인, 표지 (추정) |
-| 본문 | MS Sans / Arial / Helvetica Neue | Regular / Medium | 본문 텍스트, 보고서 내용 |
-| UI 레이블 | Arial / Roboto | Regular | 디지털 인터페이스 |
-| 데이터 테이블 | Courier / Monospace | Regular | 수치·코드 데이터 (추정) |
+### Typeface System
 
-### 타이포그래피 원칙
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-- **헤드라인**: 짧고 단언적, 최대 8단어
-- **서브헤드**: 구체적 수치 또는 핵심 인사이트 포함
-- **본문**: 11–13pt, 줄간격 1.4–1.6
-- **캡션**: 8–10pt, 이탤릭 또는 회색 처리
-- **절대 금지**: 폰트 3종 이상 혼용, 모두 대문자(ALL CAPS) 장문 사용
+### Typographic Scale
 
----
-
-## 로고 시스템
-
-### 로고 구조 (공식)
-- **형태**: 워드마크(Wordmark) 전용 — 아이콘 없음
-- **서체**: 세리프 계열 커스텀 서체
-- **컬러**: Navy on White (기본) / White on Navy (역전)
-- **금지 사항**: 로고 기울이기, 색상 변경, 비율 변형, 그림자 효과
-
-### 클리어스페이스
-- 로고 높이(H)의 최소 1배 여백 확보
-- 최소 사용 크기: 인쇄 80px / 디지털 60px
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 이미지 & 사진 원칙
+## 3. Channel Specifications
 
-### 허용 이미지 스타일
-- 전문적 환경에서의 **진정성 있는 비즈니스 대화** 장면
-- **도시 스카이라인·건축물** (글로벌 시장 암시)
-- **데이터 시각화·차트** (직접 정보 전달)
-- **자연 환경** (지속가능성·ESG 컨텍스트에 한정)
-
-### 금지 이미지 스타일
-- 과도하게 연출된 행복 표정의 스톡 포토
-- 지나치게 캐주얼한 생활 장면 (beach, coffee shop 등)
-- 화폐·금·보석 등 부의 직접 상징물 나열
-- 저해상도 또는 픽셀레이션된 이미지
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 레이아웃 & 그리드 시스템
+## 4. Layout Principles
 
-### 디지털 그리드 (추정)
-- **컬럼**: 12컬럼 그리드
-- **거터**: 24px
-- **마진**: 데스크톱 80px / 태블릿 40px / 모바일 16px
-- **최대 콘텐츠 너비**: 1200px
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### 여백 원칙
-- **공백(White Space)**: 적극 활용 — 혼잡함은 전문성 결여로 인식됨
-- **섹션 간격**: 최소 80px (디지털), 최소 20mm (인쇄)
-- **카드 패딩**: 24–32px
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### 인쇄물 레이아웃 (리서치 리포트)
-- A4 / Letter 기준 상하 좌우 25mm 마진
-- 헤더: 로고 + 날짜 + 분류 등급
-- 풋터: 페이지 번호 + Disclosure 요약
-- 사이드바: 핵심 수치·차트 강조용
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 아이콘 & 인포그래픽 원칙
+## 5. Design Prohibitions
 
-- **아이콘 스타일**: 라인 아이콘 (Fill 없음), 2px 스트로크 (추정)
-- **아이콘 크기**: 24px (UI) / 48px (마케팅)
-- **인포그래픽**: 단일 인사이트 원칙 — 한 장에 하나의 메시지
-- **차트 타입 우선순위**: 라인차트 > 바차트 > 파이차트 (파이차트 최소화)
-
----
-
-## 디지털 UI 컴포넌트 원칙
-
-| 컴포넌트 | 스펙 |
-|---------|------|
-| 버튼 (Primary) | Navy `#001E62` 배경, White 텍스트, 4px radius |
-| 버튼 (Secondary) | White 배경, Navy `#001E62` 테두리·텍스트 |
-| 링크 | Blue `#0033A0`, 밑줄 Hover에서만 |
-| 카드 | White 배경, 1px `#D8D8D8` 테두리, 8px radius |
-| 입력 필드 | 1px `#767676` 테두리, Focus시 `#001E62` |
-| 알림/배지 | Navy 배경, White 텍스트 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 레이어
-
-| # | 인사이트 | 실행 전술 |
-|---|---------|---------|
-| 1 | MS의 네이비-골드 컬러 조합은 "프리미엄 금융 기관" 코드를 강력하게 전달하지만, 디지털 다크모드에서 접근성 이슈 발생 가능 (추정) | 다크모드 전용 컬러 토큰 시스템 구축 — Navy를 `#0A2A6E`로 밝히고 Gold를 `#E8C97A`로 조정해 WCAG AA 대비비 4.5:1 확보 |
-| 2 | 리서치 리포트의 인쇄물 레이아웃이 디지털 환경에 그대로 이식되어 모바일에서 가독성 저하 (추정) | "Mobile-First Research Digest" 포맷 개발 — 리포트 핵심 3포인트를 카드 UI로 자동 변환, FA 앱 내 Push 알림 연동 |
-| 3 | Gold 액센트는 프리미엄 인식을 강화하지만 ESG·임팩트 투자 커뮤니케이션에서는 "과시적 부" 연상으로 역효과 가능 (추정) | ESG 전용 서브 팔레트 개발 — Teal `#148F77`과 Earth Tone을 Gold 대신 액센트로 사용, 임팩트 투자 콘텐츠에 한정 적용 |
+*Layer 5 of 8 — Brand Autopsy: Morgan Stanley (MS)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

@@ -1,107 +1,84 @@
-# 02. 오디언스 맵 — 퀄컴 (Qualcomm Incorporated)
+# 02. Audience Map — Qualcomm (QCOM)
 
-## 오디언스 구조 개요
-
-퀄컴의 오디언스는 단층이 아니라 **3개 레이어**로 구성된다. 직접 고객(OEM/ODM), 개발자 생태계, 최종 소비자가 각각 다른 언어와 채널로 접근해야 한다. 이 세 레이어가 동시에 설득되어야 퀄컴의 비즈니스 플라이휠이 작동한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-### 페르소나 1: 박준혁 — OEM 구매 의사결정자
+## Ideal Customer Profile (ICP)
 
-**직함:** 삼성전자 MX사업부 부품조달 수석 (추정 직급 수준)
-**나이:** 42세
-**위치:** 수원·서울
-
-**역할과 맥락**
-플래그십 스마트폰 라인업의 AP 공급사를 결정한다. 연간 수천만 개 단위 구매 계약으로 퀄컴 QCT(반도체) 세그먼트 매출의 핵심 기여자다. 기술 스펙 검토, 공급망 리스크, 로열티 협상을 동시에 관리한다.
-
-**핵심 목표**
-- 플래그십 제품의 AnTuTu·카메라 ISP·5G 모뎀 스펙에서 경쟁사(MediaTek Dimensity, Apple A-series) 대비 우위 확보
-- 공급망 단일화 리스크 최소화 (퀄컴 의존도 과다 우려)
-- QTL 라이선스 비용 협상에서 유리한 조건 유지
-
-**핵심 불안**
-- "MediaTek이 따라잡고 있다. 프리미엄 포지션에서 스냅드래곤의 차별점이 몇 년이나 유지될까?" (추정)
-- Apple이 자체 모뎀 개발 성공 시 업계 전체의 협상력이 바뀐다
-
-**선호 채널**
-Qualcomm 영업팀 직접 접촉, 기술백서(Whitepaper), Snapdragon Summit B2B 세션, 특허 라이선싱 계약 문서
-
-**커뮤니케이션 키워드**
-AI TOPS, 전력 효율(W/TOPS), 5G 모뎀 세대(X75 이상), ISP 세대, 공급 안정성, 로열티 구조
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from Qualcomm's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Qualcomm's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이서윤 — 모바일 앱 개발자
+## Core Personas
 
-**직함:** 스타트업 CTO 겸 Android 개발자
-**나이:** 31세
-**위치:** 서울 성수·강남
+### Persona 1 — Enterprise Decision-Maker
 
-**역할과 맥락**
-온디바이스 AI 기능(LLM 추론, 이미지 생성, 음성 인식)을 앱에 통합하려는 개발자. Qualcomm AI Hub, Snapdragon Neural Processing SDK를 실제로 사용하며 퀄컴 생태계 안에서 제품을 만든다. 퀄컴 입장에서는 생태계 점착도(stickiness)를 높이는 핵심 레이어다.
-
-**핵심 목표**
-- 클라우드 API 비용 없이 온디바이스에서 LLM 모델을 돌리는 아키텍처 구현
-- Qualcomm AI Hub의 사전 최적화 모델(Llama, Stable Diffusion 등)을 프로덕션에 통합
-- Arm 기반 Windows PC(스냅드래곤 X 시리즈)를 포함한 크로스플랫폼 호환성 확보
-
-**핵심 불안**
-- "SDK 문서가 업데이트가 느리고 커뮤니티 규모가 Apple CoreML·NVIDIA CUDA에 비해 작다" (추정)
-- 특정 하드웨어 최적화 코드가 다른 SoC에서 작동하지 않는 단편화 문제
-
-**선호 채널**
-Qualcomm Developer Network 포럼, GitHub(AI Hub 오픈소스 모델), YouTube 기술 세션, Stack Overflow, Snapdragon Summit 개발자 트랙
-
-**커뮤니케이션 키워드**
-AI Hub, Neural Processing SDK, ONNX, Llama 온디바이스, 양자화(Quantization), Hexagon NPU, 전력 효율
+- **Age / Occupation**: 42, VP-level or director in a Qualcomm customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Qualcomm selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 최민준 — 프리미엄 스마트폰 소비자
+### Persona 2 — Technical Specialist / End User
 
-**직함:** IT 미디어 프리랜서 기자 겸 테크 유튜버
-**나이:** 27세
-**위치:** 서울
-
-**역할과 맥락**
-갤럭시 S 시리즈·플래그십 Android 폰을 구매할 때 스냅드래곤 탑재 여부를 구매 기준으로 삼는 소비자. SNS에서 '스냅드래곤 vs. 엑시노스' 비교 콘텐츠를 소비·생산하며, 퀄컴의 B2C 메시지를 증폭하는 인플루언서 역할을 한다.
-
-**핵심 목표**
-- 게임(원신, 배틀그라운드 모바일) 중 발열 없이 최고 프레임 유지
-- AI 카메라 기능(야간 사진, 줌 화질)에서 아이폰 대비 동등 또는 우위 체험
-- 유튜브 콘텐츠용 벤치마크 영상에서 '세계 최고' 수치 확인
-
-**핵심 불안**
-- "스냅드래곤 8 Gen 시리즈가 발열 이슈를 완전히 해결했는가?" (추정)
-- 엑시노스 탑재 모델을 구매했다가 성능 손해를 볼 수 있다는 불안
-
-**선호 채널**
-YouTube (MKBHD, 잇섭, 리뷰엉이), Reddit (r/Android, r/Qualcomm), 갤럭시 커뮤니티, Snapdragon 공식 SNS
-
-**커뮤니케이션 키워드**
-AnTuTu, Geekbench, 발열, 스냅드래곤 8 엘리트, AI 카메라, 배터리 효율, 세계 최초
+- **Age / Occupation**: 35, technical professional who interacts with Qualcomm's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Qualcomm selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 레이어 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 레이어 | 대표 페르소나 | 의사결정 기준 | 퀄컴 접점 | 전환 트리거 |
-|--------|--------------|--------------|-----------|------------|
-| L1 기업 파트너 | 박준혁 | ROI·스펙·공급 안정성 | 영업팀·계약 | 신규 SoC 세대 발표, 경쟁사 공급 이슈 |
-| L2 개발자 | 이서윤 | SDK 품질·커뮤니티·문서 | AI Hub·포럼 | 주요 모델 공개, 해커톤·보조금 |
-| L3 소비자 | 최민준 | 체감 성능·유튜버 리뷰 | SNS·Snapdragon Summit | 신제품 벤치마크 공개, 인플루언서 리뷰 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Qualcomm's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Qualcomm selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
 
-## 안티-페르소나 (커뮤니케이션 제외 대상)
+---
 
-- **가격 민감 보급형 구매자**: 스냅드래곤 G-series는 별도 마케팅 채널로 분리. 프리미엄 Snapdragon 커뮤니케이션에 혼입 금지.
-- **애플 생태계 록인 사용자**: iOS 전용 개발자 및 아이폰 전용 소비자는 단기 전환 가능성 희박. 리소스 낭비.
-- **반도체 제조(파운드리) 투자자**: TSMC·삼성 파운드리 투자자와 퀄컴 투자 테제는 다름. 혼동 방지.
+## Purchase Journey — AARRR Framework
 
-### Steal Sheet — 3가지
+| Stage | Qualcomm's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Qualcomm total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
-1. **3레이어 플라이휠을 의식적으로 설계하라.** 퀄컴은 OEM(B2B) → 개발자(B2D) → 소비자(B2C) 순서로 설득이 일어나야 플라이휠이 돈다. 당신의 브랜드도 '구매자·개발자·최종 사용자'라는 3개 레이어를 구분하고, 각 레이어별 전환 트리거를 명시적으로 정의하라.
+---
 
-2. **개발자를 마케터로 만들어라.** 이서윤 같은 개발자가 Qualcomm AI Hub에서 모델을 빌드하면, 그 결과물이 앱스토어에서 '스냅드래곤 최적화' 뱃지를 달고 소비자에게 노출된다. 개발자 레이어 투자는 B2C 마케팅 비용의 자연 절감이다.
+## Anti-Persona — Who Qualcomm Is Not For
 
-3. **안티-페르소나를 공식 문서에 기록하라.** 퀄컴이 보급형과 프리미엄 라인을 브랜드 레벨에서 분리하듯, 당신이 '설득하지 않을 오디언스'를 명문화하면 메시지 희석을 막고 팀 내 커뮤니케이션 낭비를 줄인다.
+| Type | Characteristics | Why Qualcomm Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Qualcomm's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Qualcomm's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Qualcomm's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Qualcomm's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Qualcomm's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

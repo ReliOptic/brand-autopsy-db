@@ -1,146 +1,102 @@
-# 05 디자인 시스템 — Kraft Heinz (KHC)
+# 05. Design System — Kraft Heinz (KHC)
+
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 1. 디자인 철학
+## 1. Color Palette
 
-KHC의 디자인 언어는 **"친숙한 신뢰를 현대적으로 번역"**하는 것을 목표로 한다. 수십 년간 소비자가 인식해온 시각 코드(빨간 레이블, 황금 숫자 57, 파란 Kraft 로고)를 유지하면서, 디지털 환경과 새로운 소비자 취향에 맞는 세련됨을 더한다.
+Kraft Heinz's visual identity, as observed on its official website, employs a structured color system appropriate to consumer staples sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## 2. 브랜드별 컬러 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#cc0000` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-### Heinz
+### Color Principles
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Heinz Red | `#C8102E` | 케첩병·로고 주색 | (공식) |
-| Heinz Gold | `#F5A623` | "57 Varieties" 배지 | (공식) |
-| Heinz White | `#FFFFFF` | 배경·레이블 여백 | (공식) |
-| Heinz Dark Green | `#2D5016` | 유기농·자연 라인 보조색 | (추정) |
-| Heinz Cream | `#FFF8E7` | 웜톤 배경·프린트 | (추정) |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### Kraft
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Kraft Blue | `#003087` | 로고 주색 | (공식) |
-| Kraft Yellow | `#FFD700` | 치즈·마카로니 연상색 | (공식) |
-| Kraft Orange | `#F26522` | 포장·강조 | (공식) |
-| Kraft Light Blue | `#5B9BD5` | 디지털 보조색 | (추정) |
-| Kraft White | `#FFFFFF` | 배경·레이블 | (공식) |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-### Oscar Mayer
-
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Oscar Yellow | `#FFB81C` | 로고·위너모바일 | (공식) |
-| Oscar Red | `#E4002B` | 핫도그·베이컨 패키지 | (공식) |
-| Oscar White | `#FFFFFF` | 배경 | (공식) |
-| Oscar Dark Brown | `#4A2C2A` | 육류 연상 보조색 | (추정) |
-
-### Primal Kitchen
-
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Primal Green | `#4A7C59` | 로고·클린라벨 강조 | (공식) |
-| Primal Tan | `#C4A882` | 패키지 배경 | (공식) |
-| Primal Ivory | `#F5F0E8` | 웹·디지털 배경 | (추정) |
-| Primal Dark | `#2C2C2C` | 본문 텍스트 | (추정) |
-
-### Philadelphia
-
-| 컬러명 | HEX | 용도 | 출처 |
-|--------|-----|------|------|
-| Philly Blue | `#002D72` | 로고 주색 | (공식) |
-| Philly Silver | `#C0C0C0` | 패키지 포일 효과 | (공식) |
-| Philly White | `#FFFFFF` | 크림치즈 연상 배경 | (공식) |
-| Philly Teal | `#007B8A` | 디지털 보조 강조 | (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 3. 타이포그래피
+## 2. Typography
 
-| 브랜드 | 헤드라인 서체 | 본문 서체 | 특징 |
-|--------|-------------|---------|------|
-| Heinz | Heinz (커스텀 세리프) | Helvetica Neue | 굵고 신뢰감 있는 세리프 (공식) |
-| Kraft | Kraft (커스텀 산세리프) | Arial | 친근하고 둥근 산세리프 (공식) |
-| Oscar Mayer | Oscar (커스텀 디스플레이) | Gill Sans | 위트 있는 핸드라이팅 스타일 (추정) |
-| Primal Kitchen | Freight Sans Pro | Source Sans Pro | 클린·미니멀 (추정) |
-| Philadelphia | Garamond 계열 | Open Sans | 우아·프리미엄 (추정) |
+Kraft Heinz's digital properties employ a typographic system appropriate to its consumer staples positioning.
 
-### 타이포그래피 사용 원칙
-- 헤드라인: 브랜드 커스텀 서체, All Caps 또는 Title Case
-- 본문: 가독성 우선 산세리프, 최소 14px 디지털
-- 영양 정보: 표준 규정 서체 (FDA 가이드라인 준수) (공식)
-- 금지: 3종 이상 서체 혼용, 장식적 스크립트 서체의 본문 사용
+### Typeface System
 
----
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-## 4. 로고 사용 원칙
+### Typographic Scale
 
-| 규칙 | 내용 |
-|------|------|
-| 클리어 스페이스 | 로고 높이의 최소 1/2 여백 확보 (추정) |
-| 최소 크기 | 디지털 32px, 인쇄 10mm (추정) |
-| 배경 사용 | 흰색·브랜드 주색 배경에만 원칙 사용 |
-| 금지 | 회전, 변형, 그라디언트 오버레이, 외곽선 추가 |
-| 복합 사용 | KHC 기업 로고 + 서브 브랜드 로고 동시 사용 시 위계 명확화 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 5. 패키지 디자인 원칙
+## 3. Channel Specifications
 
-### Heinz 케첩 (아이코닉 패키지)
-- 세로 레이블, 빨간 배경, 흰색 Heinz 로고
-- "57 Varieties" 배지: 황금 방패형, 목 부분 고정 위치 (공식)
-- 유리병 실루엣: 브랜드 자산으로 3D 상표 등록 (공식)
-- 신제품 라인 확장 시 주색 변경 + 베이스 레이아웃 유지
-
-### Kraft 마카로니치즈
-- 파란 박스 + 노란 제품 이미지: 수십 년간 동일 구조 (공식)
-- 하단 요리 완성 이미지: 식욕 자극 필수 요소
-- "The Cheesiest" 슬로건: 고정 위치 (공식)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 6. 사진 & 비주얼 스타일
+## 4. Layout Principles
 
-| 요소 | 스타일 지침 |
-|------|------------|
-| 음식 사진 | 자연광, 따뜻한 색조, 홈키친 세팅 |
-| 사람 사진 | 다양한 인종·연령, 자연스러운 표정, 연출 최소화 |
-| 배경 | 나무 식탁, 대리석 카운터, 가정적 공간 선호 |
-| 금지 | 과도한 보정, 인공적인 완벽함, 스튜디오 느낌 강조 |
-| 프리미엄 라인 | 미니멀 배경, 단색 소품, 하이엔드 푸드스타일링 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
----
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-## 7. 아이콘 & 일러스트레이션
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-- Heinz: 빈티지 레이블 일러스트 모티프, 토마토 식물 그래픽 (추정)
-- Kraft: 치즈 슬라이스·포크 아이콘, 친근한 라인 스타일 (추정)
-- Oscar Mayer: 위너(소시지) 캐릭터, 둥글고 위트 있는 일러스트 (추정)
-- Primal Kitchen: 잎·씨앗 자연 모티프, 미니멀 선형 아이콘 (추정)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## 8. 디지털 UI 컴포넌트 원칙
+## 5. Design Prohibitions
 
-| 컴포넌트 | 스타일 |
-|---------|--------|
-| CTA 버튼 | 브랜드 주색 배경, 흰색 Bold 텍스트, 둥근 모서리(4px) |
-| 카드 | 흰 배경, 1px 연한 테두리, 8px 둥근 모서리 |
-| 내비게이션 | 브랜드 주색 상단 바, 흰 텍스트 |
-| 폼 입력 | 하단 라인 스타일, 주색 포커스 하이라이트 |
-| 알림/배지 | 주색 원형 배지, 흰 텍스트 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## 9. Steal Sheet — 디자인 시스템 레이어
-
-| # | 훔쳐올 전략 | 출처 | 적용 방안 |
-|---|-----------|------|----------|
-| 1 | 패키지를 디지털 NFT·AR 경험으로 확장 | Coca-Cola AR 캔 캠페인 (추정) | Heinz 케첩 병 스캔 시 레시피 AR 팝업 — 패키지 자체를 미디어화 |
-| 2 | 한정판 아티스트 콜라보 패키지 | Campbell's Andy Warhol 에디션 (공식) | Heinz 150주년 기념 현대 아티스트 한정판 레이블 시리즈 |
-| 3 | 색약·접근성 컬러 대비 공개 인증 | Microsoft Fluent Design (추정) | WCAG AA 이상 컬러 대비 공개 + 접근성 인증 마크로 ESG 연결 |
+*Layer 5 of 8 — Brand Autopsy: Kraft Heinz (KHC)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

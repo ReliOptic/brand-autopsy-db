@@ -1,155 +1,141 @@
-# 06. 채널 플레이북 — Brown-Forman (BF.B)
+# 06. Channel Playbook — Brown–Forman (BF.B)
 
-> 섹터: 소비재 스테이플즈 — 증류주 | 티커: BF.B
-
----
-
-## 1. 채널 전략 개요
-
-Brown-Forman의 채널 전략은 "온프레미스(On-Premise) 경험이 오프프레미스(Off-Premise) 구매를 이끈다"는 원칙에 기반한다. 바·레스토랑에서의 첫 경험이 홈 소비와 리테일 구매로 전환되는 퍼널을 설계한다. 디지털은 인지와 교육, 오프라인은 경험과 전환을 담당한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 채널 맵 & 역할 분담
+## 1. Channel Strategy Matrix
 
-| 채널 | 역할 | 주력 브랜드 | KPI |
-|------|------|-----------|-----|
-| 온프레미스 (바·레스토랑) | 최초 경험, 브랜드 앰배서더 교육 | Jack Daniel's, Woodford Reserve | 매출 비중, 바텐더 추천율 (추정) |
-| 오프프레미스 (슈퍼마켓·리커스토어) | 볼륨 판매, 가시성 확보 | Jack Daniel's Old No. 7 | 선반 점유율, 판매 속도 (추정) |
-| 면세점 (공항·크루즈) | 프리미엄 이미지, 고가 SKU 노출 | Woodford Reserve, JD Single Barrel | 면세 채널 매출 성장률 (추정) |
-| E-커머스 (자사몰·3자 플랫폼) | 직접 소비자 관계, 데이터 수집 | 전 브랜드 | 전환율, 재구매율 (추정) |
-| 증류소 투어·방문자 센터 | 브랜드 몰입, 고충성 전환 | Woodford Reserve, Jack Daniel's | 방문자 수, 투어 후 구매율 (공식) |
-| 소셜 미디어 | 인지·발견, 커뮤니티 형성 | 전 브랜드 | 팔로워 증가율, 참여율 (추정) |
-
----
-
-## 3. 채널별 상세 플레이북
-
-### 3-1. 온프레미스 채널
-
-**목표**: 바텐더를 브랜드 앰배서더로 전환, 소비자의 첫 경험 품질 보장
-
-**주요 액션**
-- 바텐더 교육 프로그램: "Woodford Reserve Whiskey Concierge" 인증 과정 운영 (공식)
-- Jack Daniel's 칵테일 메뉴 개발 지원: Jack & Coke, Tennessee Honey Lemonade 표준 레시피 제공 (공식)
-- 온프레미스 전용 한정판 배럴 프로그램: 바·레스토랑 단독 배럴 셀렉션 제공 (추정)
-
-**측정 지표**
-- 대형 체인 바 내 Jack Daniel's 스피릿 카테고리 점유율 (추정)
-- 바텐더 서베이 "추천 의향" 점수 (추정)
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 3-2. 오프프레미스 채널
+## 2. Channel Tone Variations
 
-**목표**: 선반 가시성 극대화, 구매 결정 순간(ZMOT) 장악
+Brown–Forman's core voice adjusts by channel while maintaining brand coherence.
 
-**주요 액션**
-- 주류 전문점 "아이레벨" 진열 계약 — 카테고리 리더 포지션 유지 (추정)
-- 시즌별 POP(Point of Purchase) 디스플레이: 홀리데이 기프트 세트, Summer BBQ 번들 (추정)
-- 월마트·타겟·코스트코 전용 번들 SKU 개발 (추정)
-- 한국 시장: 이마트·롯데마트·GS25 편의점 하이볼 RTD 강화 (추정)
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
-**선반 전략**
+---
+
+## 3. Cross-Channel Synergy Map
+
+### Route A — Product/Service Launch Sequence
+
 ```
-[최상단 선반] Woodford Reserve Master's Collection / JD Single Barrel Select
-[아이레벨]   Woodford Reserve Distiller's Select / Jack Daniel's Old No. 7  ← 핵심 전장
-[하단 선반]  Jack Daniel's Tennessee Honey / el Jimador
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
 ```
 
----
+### Route B — Thought Leadership Pipeline
 
-### 3-3. 디지털 & E-커머스 채널
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-**목표**: 직접 소비자 관계(D2C) 구축, 퍼스트파티 데이터 확보
+### Route C — Earnings and Financial Communications
 
-**주요 액션**
-- 자사 웹사이트 "Whiskey Finder" 기능: 취향 기반 제품 추천 (추정)
-- 글로벌 E-커머스: Drizly, ReserveBar, 한국 쿠팡·마켓컬리 파트너십 (추정)
-- 구독 프로그램: Woodford Reserve 연간 한정판 우선 구매권 (추정)
-- 연령 인증 강화: 디지털 광고 타겟팅 21세 이상 엄격 적용 (공식)
-
-**디지털 미디어 믹스 (추정)**
-
-| 채널 | 예산 비중 | 목적 |
-|------|----------|------|
-| 소셜 미디어 광고 (Meta, TikTok) | 35% | 인지·발견 |
-| 검색 광고 (Google, Naver) | 20% | 구매 의향 포착 |
-| 프로그래매틱 디스플레이 | 15% | 리타겟팅 |
-| 인플루언서 마케팅 | 20% | 신뢰·추천 |
-| 이메일/CRM | 10% | 충성도 유지 |
-
----
-
-### 3-4. 소셜 미디어 채널
-
-**플랫폼별 전략**
-
-| 플랫폼 | 주력 브랜드 | 콘텐츠 유형 | 게시 빈도 | 핵심 KPI |
-|--------|-----------|------------|----------|---------|
-| Instagram | Jack Daniel's, Woodford Reserve | 라이프스타일 비주얼, 테이스팅 노트, 리필스 | 주 4~5회 (추정) | 참여율, 저장수 |
-| TikTok | Jack Daniel's | 하이볼 레시피, 증류소 Behind-the-Scene | 주 3~4회 (추정) | 조회수, 공유수 |
-| Facebook | Jack Daniel's | 커뮤니티 이벤트, 헤리티지 스토리 | 주 3회 (추정) | 도달률, 이벤트 참여 |
-| YouTube | Woodford Reserve, Jack Daniel's | 증류소 다큐, 마스터클래스 | 월 2~4회 (추정) | 시청 완료율, 구독자 |
-| Pinterest | Woodford Reserve | 칵테일 레시피, 선물 가이드 | 주 2~3회 (추정) | 저장수, 외부 링크 클릭 |
-| X (Twitter) | 기업(BF.B) | IR 공지, 브랜드 이슈 대응 | 필요시 (추정) | 언급량, 위기 대응 속도 |
-| 네이버 블로그/카페 | Jack Daniel's KR | 한국어 콘텐츠, 위스키 문화 교육 | 주 1~2회 (추정) | 방문자수, 댓글 참여 |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 3-5. 증류소 투어 & 실험적 마케팅
+## 4. Channel-Specific Prohibitions
 
-**목표**: 브랜드 몰입 경험 제공, 최고 충성도 소비자 전환
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**주요 프로그램**
-- Jack Daniel's Distillery (린치버그, TN): 연간 방문객 30만+ 명 (공식)
-  - "Frank Sinatra Suite" 프리미엄 투어 (공식)
-  - Barrel 각인 서비스: 개인 배럴 구매·숙성 프로그램 (추정)
-- Woodford Reserve Distillery (Versailles, KY): 켄터키 버번 트레일 공식 스톱 (공식)
-  - 마스터 디스틸러 프라이빗 테이스팅 (추정)
-  - 켄터키 더비 시즌 특별 이벤트 (공식)
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**팝업 & 브랜드 액티베이션**
-- 음악 페스티벌 (Bonnaroo, 국내 그랜드민트페스티벌 등) 파트너십 (추정)
-- Formula 1 경기장 Woodford Reserve 바 설치: 글로벌 프리미엄 스포츠 연계 (공식)
-- 공항 면세 팝업: 여행자 대상 증류소 경험 미리보기 콘셉트 (추정)
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
----
-
-## 4. 한국 시장 채널 특화 전략
-
-| 채널 | 현황 | 기회 | 위협 |
-|------|------|------|------|
-| 편의점 RTD | GS25·CU·세븐일레븐 Jack Daniel's & Coke 캔 (공식) | 하이볼 트렌드 타고 신규 플레이버 확장 | 하이트진로·롯데주류 자국 RTD 강화 |
-| 백화점·프리미엄 리테일 | 현대·신세계 주류 코너 Woodford Reserve 입점 (추정) | 선물 세트 큐레이션 강화 | 발렌타인·조니워커의 기존 선물 문화 점유 |
-| 하이볼 바 문화 | 서울·부산 하이볼 전문 바 파트너십 (추정) | 바텐더 교육 프로그램 한국화 | 산토리 하이볼 캔의 강력한 브랜드 인식 |
-| 온라인 커머스 | 쿠팡·마켓컬리 (추정) | 정기 구독 서비스, 테이스팅 키트 | 주류 온라인 판매 규제 변동 리스크 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 5. 채널 성과 측정 프레임워크
+## 5. Crisis Response Protocol
 
-| 단계 | 지표 | 채널 |
-|------|------|------|
-| 인지 (Awareness) | 브랜드 검색량, 소셜 도달수, 광고 인지율 | 소셜, 검색, OOH |
-| 고려 (Consideration) | 웹사이트 방문, 콘텐츠 참여율, 바텐더 추천율 | 디지털, 온프레미스 |
-| 전환 (Conversion) | 판매량, 전환율, 선반 점유율 | E-커머스, 오프프레미스 |
-| 충성 (Loyalty) | 재구매율, NPS, 투어 방문 후 구매율 | CRM, 증류소 |
-| 옹호 (Advocacy) | UGC 생성량, 자발적 소셜 언급, 리뷰 점수 | 소셜 미디어 전체 |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 6. Steal Sheet — 채널 플레이북 계층
+## 6. Steal Sheet — 3 Transferable Principles
 
-### Layer 1: 채널 전략 한 줄 요약
-> 온프레미스 경험 → 오프프레미스 볼륨 → 디지털 관계 → 증류소 몰입의 4단계 충성도 퍼널이 BF.B 채널 전략의 핵심 엔진이다.
+**1. Align channel formality with audience expectations.**
+Brown–Forman's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-### Layer 2: 채널 경쟁 우위
-- 린치버그·베르사유 증류소 투어: 경쟁사가 복제할 수 없는 물리적 브랜드 자산 (공식)
-- Jack Daniel's & Coca-Cola RTD 글로벌 출시: 코카콜라 유통망 활용한 즉각적 채널 확장 (공식)
-- 켄터키 버번 트레일 참여: 관광 인프라와 연계된 무료 브랜드 노출 (공식)
+**2. Use financial communications as a credibility asset.**
+Brown–Forman's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
-### Layer 3: 채널 취약점 & 개선 기회
-- 자사 D2C 플랫폼 데이터 활용 미흡 — 경쟁사 대비 퍼스트파티 데이터 전략 후발 (추정)
-- 한국·동남아 온라인 채널 현지 파트너십 부족 — 로컬 플랫폼 통합 가속 필요 (추정)
-- 증류소 투어 대기 수요 대비 디지털 가상 투어 콘텐츠로 경험 확장 미개척 (추정)
+**3. Build a cross-channel sequence, not parallel silos.**
+Brown–Forman's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

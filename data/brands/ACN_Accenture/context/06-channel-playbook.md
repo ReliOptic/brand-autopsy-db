@@ -1,154 +1,298 @@
-# 06. 채널 플레이북 — Accenture (ACN)
+> **Disclaimer**: This analysis is based on publicly available information as of April 2026, including observed website content, publicly available platform data, official communications, and SEC filings. It constitutes brand strategy analysis only and does not represent investment, legal, or financial advice. Channel performance estimates and operational details are labeled (estimated) or (T4_INFERRED) throughout.
 
-## 채널 전략 개요
+# Accenture — Layer 06: Channel Playbook
 
-Accenture의 채널 전략은 "고객이 있는 곳에서 Thought Leadership으로 만난다"는 원칙으로 설계된다(추정). B2C 브랜드와 달리 구매 전환이 SNS 클릭 한 번으로 이루어지지 않는다. 평균 계약까지 수개월-수년의 관계 구축이 필요하므로, 모든 채널은 "즉각 전환"이 아닌 "장기 신뢰 축적"을 목표로 최적화된다.
+## Channel Strategy Overview
 
----
+Accenture's channel architecture reflects the reality of enterprise B2B purchasing: no single channel converts a C-suite buyer in a single interaction. The average enterprise consulting engagement involves 12–36 months of relationship-building before contract execution (estimated). Every channel in Accenture's model is therefore optimized for **trust accumulation over time** rather than immediate conversion (T4_INFERRED from observed content strategy patterns).
 
-## 채널별 플레이북
+The model has three structural tiers:
 
-### 채널 1: accenture.com (자사 웹사이트)
-
-**역할**: 모든 채널의 허브. Thought Leadership 콘텐츠의 원천 배포지.
-
-**핵심 섹션**
-- **Insights**: 리포트·논문·블로그 집합소. SEO 트래픽의 주요 랜딩 포인트.
-- **Services**: 19개 서비스 카테고리별 솔루션 페이지.
-- **Industries**: 19개 산업별 전문 페이지.
-- **Case Studies**: 고객 성공 사례 아카이브.
-- **About / Careers**: 브랜드 가치·DE&I·지속가능성 메시지.
-
-**콘텐츠 믹스**
-- 리포트/논문: 40%
-- 케이스 스터디: 25%
-- 블로그/오피니언: 20%
-- 서비스·솔루션 소개: 15%
-
-**KPI (추정)**
-- 월간 순방문자 수 (Organic 비중 목표)
-- 리포트 다운로드 수 (리드 생성 지표)
-- "Contact Us" 폼 완료 수
-
-**운영 원칙**
-- 모든 리포트에는 게이팅(이메일 등록 후 다운로드) 또는 비게이팅 선택이 전략적으로 결정된다. 인지도 목표 콘텐츠는 비게이팅, 리드 생성 목표 콘텐츠는 게이팅(추정).
-- 페이지 로드 속도·모바일 최적화는 글로벌 표준 유지.
+1. **Reach channels** — create awareness at scale (accenture.com, PR/media, LinkedIn)
+2. **Depth channels** — build decision-maker relationships (events, executive roundtables, direct account management)
+3. **Expansion channels** — penetrate existing client ecosystems (alliance/partner networks, managed services continuity)
 
 ---
 
-### 채널 2: LinkedIn
+## Channel Matrix
 
-**역할**: C-Suite·시니어 전문가와의 Thought Leadership 배포 주채널.
-
-**계정 구조**
-- Accenture 공식 법인 페이지 (팔로워 1,000만+ 추정)
-- Accenture 임원·파트너 개인 계정 (Employee Advocacy 프로그램 운영)
-- 산업별 특화 페이지 (Accenture Health, Accenture Federal 등)
-
-**콘텐츠 유형별 빈도 (추정)**
-| 콘텐츠 유형 | 주당 빈도 | 목적 |
-|------------|----------|------|
-| 리포트 론칭 알림 | 2-3회 | 리드 생성·인지도 |
-| 케이스 스터디 하이라이트 | 3-4회 | 신뢰 구축 |
-| 임원 오피니언 기사 | 2-3회 | 개인 브랜딩·권위 |
-| 채용 공고·문화 콘텐츠 | 2-3회 | 인재 유치 |
-| 이벤트 홍보 | 1-2회 | 직접 접점 |
-
-**LinkedIn 카피 패턴**
-- 첫 줄에 숫자 또는 도발적 질문 배치: "74% of CEOs say AI adoption is their #1 priority. Is yours ready to scale?"
-- 3-5개 불릿 포인트로 핵심 인사이트 요약
-- 리포트 링크 또는 이벤트 등록 CTA로 마무리
-- 해시태그: 3-5개, #AccentureAI #TotalEnterpriseReinvention #LetThereBeChange 등
+| Channel | Reach | Trust contribution | Lead generation | Relationship depth | Priority tier |
+|---|---|---|---|---|---|
+| accenture.com | High | High | High | Low | 1 |
+| LinkedIn | High | Medium | Medium | Low | 2 |
+| Events and conferences | Low | Very High | High | Very High | 2 |
+| PR / media relations | Very High | Very High | Low | Low | 3 |
+| Alliance / partner channels | Medium | High | High | Medium | 2 |
+| Executive direct engagement | Very Low | Maximum | Maximum | Maximum | 1 |
+| Twitter/X | Medium | Low | Low | Low | 4 |
+| YouTube / video | Medium | Medium | Low | Low | 3 |
 
 ---
 
-### 채널 3: 이벤트 & 컨퍼런스
+## Channel 1: accenture.com
 
-**역할**: C-Suite 직접 접점. 관계의 질을 높이는 채널.
+**Role:** Central hub for all content distribution. The canonical source for all thought leadership, case studies, service information, and talent acquisition (observed on website).
 
-**이벤트 유형**
-| 유형 | 규모 | 빈도 | 목적 |
-|------|------|------|------|
-| 글로벌 스폰서십 (다보스·WEF 등) | 수천 명 | 연 2-4회 | CEO 레벨 인지도·관계 |
-| Accenture 주최 Summit | 수백 명 | 연 10-20회(추정) | 업계 의제 주도 |
-| 클라이언트 워크샵 | 10-30명 | 상시 | 맞춤 솔루션 공동 설계 |
-| 임원 라운드테이블 | 5-15명 | 월 4-8회(추정) | 깊은 신뢰 관계 구축 |
+**Architecture (observed on website):**
+- **Insights** — research reports, blog posts, industry perspectives; primary SEO traffic landing destination
+- **Services** — 5+ service line pages (Strategy & Consulting, Technology, Operations, Song, Industry X)
+- **Industries** — 19+ industry-specific landing pages
+- **Case Studies** — client success story archive; gated and ungated versions
+- **Careers** — talent acquisition; DE&I and culture content
+- **About / Investor Relations** — corporate, ESG, and financial communications
 
-**이벤트 콘텐츠 원칙**
-- 키노트: Accenture 임원 + 외부 저명 게스트(클라이언트 CEO 등) 공동 발표
-- 데이터 퍼스트: 새로운 리서치 데이터를 이벤트에서 최초 공개해 언론 보도 유발
-- 실행 가능한 3가지 (Three Takeaways): 참석자가 다음 날 바로 적용할 수 있는 액션 아이템 제공
+**Content mix (estimated):**
+| Content type | Proportion |
+|---|---|
+| Research reports and insights | 40% |
+| Case studies | 25% |
+| Blog and opinion pieces | 20% |
+| Service and solution descriptions | 15% |
 
----
+**Lead generation mechanics (T4_INFERRED):**
+- High-value research reports may be gated (email registration required) or ungated depending on awareness vs. lead generation objective
+- "Contact our experts" forms appear on service and insight pages
+- Event registration drives direct contact data capture
 
-### 채널 4: PR / 미디어 관계
+**KPIs (estimated):**
+- Monthly unique visitors and organic search share
+- Report download volume (lead signal for gated content)
+- "Contact us" form completion rate
+- Time-on-page for insight content (engagement signal)
 
-**역할**: 제3자 신뢰 증폭. CEO의 레이더에 Accenture 이름을 올리는 채널.
-
-**타깃 미디어 (추정)**
-- **1순위**: Financial Times, Wall Street Journal, Harvard Business Review — CEO·CFO 독자층
-- **2순위**: MIT Technology Review, Wired, TechCrunch — CIO·CTO·CDO 독자층
-- **3순위**: 산업별 전문지 (Banking Technology, Healthcare IT News 등)
-- **국내**: 매일경제, 한국경제, 조선비즈, 디지털타임스
-
-**PR 트리거 (추정)**
-- 연간 리포트 발행 → 글로벌 미디어 동시 엠바고 해제
-- 대형 계약 발표 (클라이언트 동의 하)
-- Accenture 임원 인터뷰 기고
-- ESG·다양성 이니셔티브 발표
+**Tone:** Institutional, authoritative, data-forward. Copy assumes a reader with domain knowledge. No colloquialisms (observed on website).
 
 ---
 
-### 채널 5: 파트너 & 얼라이언스 채널
+## Channel 2: LinkedIn
 
-**역할**: 기존 플랫폼 벤더 고객을 자연스럽게 Accenture 오디언스로 전환.
+**Role:** Primary channel for thought leadership distribution to professional audiences; secondary channel for talent acquisition and employer branding (observed on website).
 
-**핵심 Alliance 파트너 (공식)**
-| 파트너 | Accenture 역할 | 공동 채널 활동 |
-|--------|---------------|---------------|
-| Microsoft | Gold Partner / 최상위 SI | 공동 케이스 스터디, Microsoft Ignite 공동 발표 |
-| SAP | Global Strategic Partner | SAP Sapphire 키노트, 공동 리포트 |
-| AWS | Premier Partner | AWS re:Invent 발표, 공동 고객 사례 |
-| Salesforce | Platinum Partner | Dreamforce 공동 세션 |
-| Google Cloud | Partner | Google Cloud Next 공동 발표 |
+**Account structure (observed):**
+- Accenture corporate page — primary distribution (estimated 10M+ followers)
+- Accenture sub-brand pages — Accenture Song, Accenture Federal Services, regional pages
+- Executive and partner individual accounts — Employee Advocacy distribution layer (T4_INFERRED)
 
-**Alliance 채널 콘텐츠 원칙**
-- 공동 케이스 스터디: Accenture + 파트너 + 클라이언트 세 주체의 로고 공동 표기
-- 파트너 마켓플레이스에 Accenture 솔루션 등재 (AWS Marketplace, SAP Store 등)
-- 파트너 이벤트에서의 "구현 전문가" 포지셔닝 — 파트너는 플랫폼, Accenture는 실행
+**Content frequency (estimated):**
+| Content type | Weekly frequency |
+|---|---|
+| Research report launch announcements | 2–3 per week |
+| Case study highlights | 3–4 per week |
+| Executive opinion / attributed perspective | 2–3 per week |
+| Talent and culture content | 2–3 per week |
+| Event promotion | 1–2 per week |
 
----
+**LinkedIn copy formula (T4_INFERRED from observed patterns):**
+```
+Line 1:    Data point or diagnostic question (stops the scroll)
+Lines 2–4: 3–5 bullet points summarizing the key insight
+Line 5:    CTA — link to full report, event registration, or contact
+Hashtags:  3–5 tags from approved set
+```
 
-## 채널 우선순위 매트릭스
+**Example structure:**
+> "74% of CEOs name AI adoption their top strategic priority this year.
+> Yet only 1 in 3 has a plan to scale beyond the pilot stage.
+> Here's what the leaders are doing differently:
+> - Building data infrastructure before deploying models
+> - Treating AI as a workforce redesign, not a technology add-on
+> - Measuring business outcomes, not model accuracy
+> Read the full research: [link]
+> #AccentureAI #TotalEnterpriseReinvention #LetThereBeChange" (T4_INFERRED structural example)
 
-| 채널 | 도달 범위 | 신뢰도 기여 | 리드 생성 | 관계 깊이 | 우선순위 |
-|------|-----------|-------------|-----------|-----------|---------|
-| accenture.com | 높음 | 높음 | 높음 | 낮음 | 1순위 |
-| LinkedIn | 높음 | 중간 | 중간 | 낮음 | 2순위 |
-| 이벤트/컨퍼런스 | 낮음 | 매우 높음 | 높음 | 매우 높음 | 2순위 |
-| PR/미디어 | 매우 높음 | 매우 높음 | 낮음 | 낮음 | 3순위 |
-| 파트너 채널 | 중간 | 높음 | 높음 | 중간 | 2순위 |
-| Twitter/X | 중간 | 낮음 | 낮음 | 낮음 | 4순위 |
-
----
-
-## 채널별 금지어 리스트
-- **LinkedIn 과잉 자랑 포스팅**: "우리가 최고입니다" 류 자기 홍보 — 인사이트 공유로 대체.
-- **이벤트 세일즈 피치**: 이벤트 키노트를 영업 프레젠테이션으로 만드는 것 — 교육·인사이트 우선.
-- **PR 보도자료 과장**: "역대 최대", "게임체인저" — 구체적 수치와 사실로 대체.
-
-## 채널별 필수어 리스트
-- **accenture.com**: "Download the Report", "Explore our Insights", "Contact our Experts" — 명확한 CTA.
-- **LinkedIn**: "#LetThereBeChange", "#AccentureAI", "New research shows…" — 데이터 퍼스트 도입.
-- **이벤트**: "Join us at…", "Hear from…", "Register now" — 참여 유도 동사.
-- **PR**: "According to Accenture research…", "Accenture's [Name] states…" — 권위 있는 출처 표현.
+**Tone:** Professional but accessible. Shorter sentences than website content. First-person when executive-attributed (T4_INFERRED).
 
 ---
 
-### Steal Sheet — 3가지
+## Channel 3: Events and Conferences
 
-1. **"직원 앰버서더"로 LinkedIn 도달 범위 10배 확장** — Accenture 임원·파트너들은 법인 페이지 콘텐츠를 개인 계정에서 재공유하는 Employee Advocacy 프로그램을 운영한다(추정). 74만 명 중 시니어 레벨 1%만 참여해도 수천 개의 추가 게시물이 된다. 훔칠 구조: 사내 핵심 인재 20-50명을 "LinkedIn 앰버서더"로 지정하고, 월 2-4회 공유 가능한 템플릿 콘텐츠를 사전 제작해 배포.
+**Role:** The highest-depth channel for C-suite relationship building. Events convert existing brand awareness into active engagement and, ultimately, into vendor consideration (T4_INFERRED).
 
-2. **이벤트에서 "데이터 최초 공개"로 미디어를 끌어들이기** — Accenture Technology Vision 발표 행사는 항상 새로운 설문 데이터를 최초 공개하는 자리가 된다. 이 데이터가 뉴스 가치를 만들고, 기자들이 자발적으로 취재한다. 훔칠 방법: 자사 이벤트 전에 자체 설문·분석 데이터를 준비하고, "이 자리에서 최초 공개"라는 보도자료를 미리 엠바고 발송. 이벤트 당일 데이터 공개와 동시에 기사가 나온다.
+**Event typology:**
 
-3. **파트너 마켓플레이스를 "수동 리드 채널"로 전환** — AWS Marketplace, SAP App Center에 Accenture 솔루션을 등재하면, 해당 플랫폼을 이미 사용 중인 기업들이 자연스럽게 Accenture를 발견한다. 훔칠 방법: 자사 솔루션과 연동되는 주요 SaaS 플랫폼(예: Salesforce AppExchange, HubSpot Marketplace)에 파트너 등록하고, 그 마켓플레이스 내 SEO(앱 설명·리뷰)를 최적화해 수동 인바운드 리드를 생성.
+| Type | Scale | Frequency | Primary purpose |
+|---|---|---|---|
+| Global sponsorships (World Economic Forum, Davos) | Thousands of attendees | 2–4 annually (estimated) | CEO-level awareness and relationship |
+| Accenture-hosted summits (Industry X, AI Summit, Federal Forum) | 200–1,000 attendees (estimated) | 10–20 annually (estimated) | Industry agenda-setting, lead generation |
+| Client workshops and co-creation sessions | 10–30 participants | Ongoing | Bespoke solution co-design |
+| Executive roundtables | 5–15 participants | 4–8 monthly (estimated) | Deep trust building with target accounts |
+| Alliance partner events (AWS re:Invent, SAP Sapphire, Salesforce Dreamforce) | Thousands of attendees | Major annual cycles | Alliance channel activation |
+
+**Event content principles (T4_INFERRED):**
+- Keynotes feature Accenture executive + external guest (client CEO or recognized domain expert) — bilateral credibility
+- Research data released at the event for the first time creates news value and attracts media coverage without media spend
+- Participant action items: every session closes with three concrete actions attendees can take within 30 days — prevents the "interesting but so what" response
+
+**Event tone:** Slightly more dynamic and accessible than website copy. Presentational. First-person from named speaker (T4_INFERRED).
+
+---
+
+## Channel 4: PR and Media Relations
+
+**Role:** Third-party trust amplification. Accenture appearing in the Financial Times carries a different credibility signal than Accenture publishing on its own website. PR extends brand reach to C-suite audiences who read tier-1 business media but may not follow Accenture directly (T4_INFERRED).
+
+**Tier 1 target media (T4_INFERRED from observed Accenture media citations):**
+- Financial Times, Wall Street Journal, The Economist — CFO/CEO audience
+- Harvard Business Review — executive strategy audience
+- MIT Technology Review, Wired — CIO/CTO/CDO audience
+- Bloomberg Technology — technology leadership and investor audience
+
+**Tier 2 target media (estimated):**
+- Industry-vertical publications: Banking Technology, Healthcare IT News, Government Technology
+- Regional business press for non-US market presence
+
+**PR triggers (T4_INFERRED):**
+- Annual research report release — global media embargo lift coordinated with report publication
+- Major contract announcements — with client approval; quantified impact stated
+- Executive appointment or thought leadership positioning
+- ESG and sustainability milestone announcements
+- Regulatory or industry response commentary from named executives
+
+**Tone:** Institutional, spokesperson-attributed, factual. All claims are cited to Accenture research or publicly available data. No speculative language (T4_INFERRED).
+
+---
+
+## Channel 5: Alliance and Partner Channels
+
+**Role:** Convert existing platform vendor customer bases into Accenture referrals and co-selling opportunities. Partner channels function as a passive lead generation layer that scales without proportional Accenture investment (T4_INFERRED).
+
+**Strategic alliances (official, per Accenture public communications):**
+
+| Partner | Accenture status | Joint channel activity |
+|---|---|---|
+| Microsoft | Strategic Alliance Partner | Co-authored case studies, Microsoft Ignite keynote participation, joint solution marketplaces |
+| SAP | Global Strategic Partner | SAP Sapphire keynote presentations, joint industry solution packaging, SAP App Center listings |
+| AWS | Premier Partner | AWS re:Invent presentations, AWS Marketplace solution listings, joint customer case studies |
+| Salesforce | Platinum Partner | Salesforce Dreamforce co-sessions, AppExchange presence, joint client success stories |
+| Google Cloud | Partner | Google Cloud Next participation, joint generative AI solution development |
+
+**Alliance content mechanics (T4_INFERRED):**
+- Joint case studies carry three logos: Accenture + platform partner + client
+- Platform marketplace listings (AWS Marketplace, SAP Store) create passive discovery by existing platform users
+- Alliance partner events provide access to pre-qualified technology buyers without cold outreach
+
+**Tone on partner channels:** Collaborative; positions Accenture as the implementation and strategy layer while the partner provides the platform. Avoids competitive framing against the partner's own professional services arms (T4_INFERRED).
+
+---
+
+## Channel 6: Executive Direct Engagement
+
+**Role:** The highest-conversion channel; the final mile in a multi-month or multi-year relationship. Executive Briefing Centers (EBCs) and direct account management relationships operate at the individual decision-maker level (T4_INFERRED).
+
+**Formats:**
+- Executive Briefing Center sessions — curated, customized presentations for named target accounts
+- CEO/Managing Director direct calls — senior Accenture leadership to client C-suite
+- Bespoke insight delivery — custom versions of published research tailored to client industry
+
+**Tone:** Highly personalized, consultative, peer-to-peer. References client-specific context. Not broadcast-style (T4_INFERRED).
+
+---
+
+## Tone Variations by Channel
+
+| Channel | Formality | Voice | Sentence length | Data density |
+|---|---|---|---|---|
+| accenture.com long-form | Formal | Institutional | Long-form; structured paragraphs | High |
+| LinkedIn post | Semi-formal | Accessible, insight-forward | Short; 1–2 sentences per paragraph | Medium |
+| Event keynote | Semi-formal | Dynamic, speaker-attributed | Variable; punchy key lines | Medium |
+| PR statement | Formal | Spokesperson-attributed | Declarative; factual | High |
+| Executive briefing | Informal | Consultative, peer-level | Conversational with structured evidence | Very High |
+| Alliance co-marketing | Semi-formal | Collaborative | Standard B2B | Medium |
+
+---
+
+## Channel Synergy Routes
+
+### Synergy Route 1: Research → PR → LinkedIn → Website → Lead
+1. Accenture publishes annual research report (e.g., Technology Vision)
+2. Coordinated PR embargo lift drives tier-1 media coverage (Financial Times, WSJ)
+3. LinkedIn posts summarize key findings with link to full report on accenture.com
+4. Report page captures email/contact data via gated download or "speak with an expert" CTA
+5. Lead enters account management pipeline
+
+**Effectiveness:** This route reaches CEOs via media they already read, without requiring them to seek out Accenture directly (T4_INFERRED).
+
+---
+
+### Synergy Route 2: Alliance Partner Event → Joint Case Study → Platform Marketplace
+1. Accenture presents at AWS re:Invent or Salesforce Dreamforce alongside the platform partner
+2. Post-event joint case study published on both Accenture and partner websites
+3. Joint solution listed on AWS Marketplace or AppExchange for passive discovery
+4. Platform's existing customers discover Accenture as the recommended implementation partner
+
+**Effectiveness:** Converts the partner's customer base into Accenture referrals via the partner's existing distribution infrastructure (T4_INFERRED).
+
+---
+
+### Synergy Route 3: Event → Executive Roundtable → Direct Engagement
+1. Accenture-hosted industry summit creates initial contact with target account executives
+2. Select attendees are invited to a smaller executive roundtable (5–15 people)
+3. Roundtable generates bespoke insight delivery and direct executive relationship
+4. Account management team converts relationship to RFP invitation
+
+**Effectiveness:** Events function as a qualification filter; the roundtable converts awareness into relationship; the RFP is the result of trust accumulated across both steps (T4_INFERRED).
+
+---
+
+## Crisis Protocol
+
+### Scenario 1: Client Data Breach Involving Accenture Systems
+
+**Immediate response (0–4 hours):**
+- Designated Accenture spokesperson issues factual statement acknowledging awareness of the incident
+- Statement contains: what is known, what is being investigated, commitment to transparency
+- All social media channels held; no new content published during active crisis window
+
+**Sustained response (4–72 hours):**
+- Regular updates via official channels as facts become available
+- No speculation about root cause or attributing responsibility beyond confirmed facts
+- Legal and communications teams co-review all external statements
+
+**Channel use:** Press release on accenture.com; direct communication to affected client; no social media amplification of crisis content (T4_INFERRED)
+
+---
+
+### Scenario 2: Executive Misconduct Allegation
+
+**Response protocol (T4_INFERRED):**
+- Designated corporate communications spokesperson responds; the implicated individual does not speak publicly
+- Statement acknowledges receipt of allegation and states that Accenture takes such matters seriously
+- No admission or denial of specific facts until internal review is complete
+- HR and legal communications are handled through formal counsel channels, not social media
+
+**Tone:** Measured, institutional, non-defensive. Avoids language that could be characterized as dismissive of the allegation.
+
+---
+
+### Scenario 3: Large-Scale Project Failure or Client Dispute Becoming Public
+
+**Response protocol (T4_INFERRED):**
+- Accenture does not engage in public dispute with clients; all dispute resolution through contract mechanisms or formal legal process
+- If media inquires, response confirms the existence of a commercial relationship and states that Accenture does not comment on client-specific matters
+- Internal communications to account teams establish a single approved narrative
+- Proactive case study publication featuring other successful clients in the same domain, to maintain category credibility without referencing the dispute
+
+---
+
+## Channel Prohibitions
+
+| Prohibited behavior | Channel | Reason |
+|---|---|---|
+| Self-promotional claims without specific metric basis | All channels | Conflicts with data-forward brand positioning |
+| Named competitive comparison content | All external channels | Not Accenture's observed content posture (T4_INFERRED) |
+| Sales pitch framing in event keynotes | Events | Converts a trust-building channel into a sales channel, damaging credibility |
+| Speculation or editorializing in PR statements | PR | Creates legal and reputational exposure |
+| Unattributed claims in media responses | PR | All claims require named spokesperson or cited Accenture research |
+| Posting during active crisis window without communications approval | Social media | Amplifies crisis instead of containing it |
+
+---
+
+## Steal Sheet — Channel Playbook
+
+**What works and why:**
+
+1. **Employee advocacy as LinkedIn multiplier** — Accenture's ~799,000 employees (SEC 10-K) represent a potential distribution network of significant scale. If 1% of senior-level employees share one piece of content monthly, that is approximately 8,000 additional distributions per month on LinkedIn alone (estimated). The structural lesson: select 20–50 senior advocates, provide monthly pre-approved content templates, and measure their reach incrementally. The program cost is low; the distribution impact is compounding (T4_INFERRED).
+
+2. **Data first-release at events as earned media strategy** — Accenture Technology Vision events are structured so that research data is released publicly for the first time at the keynote. This creates news value that media outlets cover without paid placement. The structural lesson: hold your best annual data for a live event; the "embargo lift" moment generates press coverage that reaches audiences the event itself cannot reach (T4_INFERRED).
+
+3. **Platform marketplace as passive inbound channel** — AWS Marketplace and SAP Store listings allow Accenture to be discoverable by organizations already using those platforms, without active outreach. The structural lesson: identify the two or three platforms your target clients already use, and establish a presence in their native discovery environment. Platform SEO (app descriptions, reviews, categorization) creates lead flow without campaign spend (T4_INFERRED).

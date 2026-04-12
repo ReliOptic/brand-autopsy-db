@@ -1,95 +1,123 @@
-# 04 콘텐츠 DNA — Medtronic (MDT)
+# 04. Content DNA — Medtronic (MDT)
 
-## 콘텐츠 철학
-
-Medtronic의 콘텐츠는 **"과학이 먼저, 스토리가 증폭한다"** 원칙으로 구성된다.
-임상 데이터가 신뢰의 기반을 만들고, 환자 회복 스토리가 감정적 공명을 만든다.
-B2B(의료 전문가) 콘텐츠와 B2C(환자·보호자) 콘텐츠는 채널과 어조를 철저히 분리한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 유형 매트릭스
+## Content Pillars
 
-| 콘텐츠 유형 | 목적 | 주요 오디언스 | 형식 |
-|------------|------|-------------|------|
-| 임상 근거 자료 | 신뢰·권위 구축 | 전문의, 연구자 | 백서, 메타분석 요약, IFU |
-| 환자 스토리 | 감성적 연결, 인지 제고 | 환자·보호자, 일반 대중 | 동영상, 블로그, SNS |
-| 교육 콘텐츠 | 기기 사용법 전달 | 임상 코디네이터, 환자 | 튜토리얼 영상, PDF 가이드 |
-| 사고 리더십 | 시장 신뢰 강화 | 병원 경영진, 정책 담당자 | 리포트, 기고문, 웨비나 |
-| 제품 데모 | 구매 결정 촉진 | 구매담당자, 전문의 | 3D 렌더링, 핸즈온 영상 |
-| 규제·컴플라이언스 정보 | 리스크 관리 | 병원 법무·구매팀 | FAQ, 기술 문서 |
+Medtronic's content strategy reflects its positioning in the Health Care Equipment segment of Health Care. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Medtronic understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for health care equipment requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Medtronic." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 금지어 (Avoid List) — 콘텐츠 차원
-
-1. **"혁명적"** — 과장 표현은 FDA 마케팅 가이드라인 위반 위험
-2. **"100% 안전"** — 절대적 안전 보장은 의료기기 규제상 허용 불가
-3. **"즉각적 효과"** — 개인차 무시, 임상 신뢰도 훼손
-4. **"의사 없이도"** — 자가 진단·치료 조장으로 오인 가능
-5. **"유일한 해결책"** — 독점 주장은 경쟁법 및 FDA 규제 충돌
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 필수어 (Must-Use List) — 콘텐츠 차원
+## Hook Patterns
 
-1. **"근거 기반"** (Evidence-based) — 모든 제품 주장의 필수 수식어
-2. **"의료 전문가와 상담"** — 환자향 콘텐츠 필수 면책 문구
-3. **"승인된"** (Approved / Cleared) — FDA·MFDS 승인 제품임을 명시
-4. **"환자 개인차"** — 치료 결과의 가변성 명시로 과대 주장 방지
-5. **"지속적 혁신"** (Continuous innovation) — 브랜드 정체성 핵심 키워드
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting Medtronic's perspective.
 
-## 내러티브 아키타입
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 아키타입 1: "영웅 환자" (Hero Patient)
-- 구조: 진단 → 고통 → Medtronic 기기 → 회복 → 일상 복귀
-- 사용 채널: YouTube, Instagram, 기업 웹사이트 환자 스토리 섹션
-- 톤: 따뜻함, 희망, 인간적
-- 예시 헤드라인: "심장이 멈췄던 그날, 다시 달리기 시작했습니다"
+### Hook 2 — Data-Driven Insight
 
-### 아키타입 2: "전문가의 선택" (Expert's Choice)
-- 구조: 복잡한 임상 문제 → 데이터 검토 → MDT 솔루션 선택 → 최적 결과
-- 사용 채널: 학술 저널 광고, LinkedIn, 학회 발표
-- 톤: 권위적, 분석적, 냉정
-- 예시 헤드라인: "97.3%의 시술 성공률이 다음 케이스를 결정합니다"
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-### 아키타입 3: "엔지니어링의 기적" (Engineering Marvel)
-- 구조: 기술적 도전 → R&D 여정 → 혁신 제품 탄생 → 환자 임팩트
-- 사용 채널: 기업 브랜드 캠페인, TED 스타일 영상, 투자자 IR
-- 톤: 경이로움, 진보, 자부심
-- 예시 헤드라인: "콩알만한 기기가 심장을 되살립니다"
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
----
+### Hook 3 — Customer Story Lead
 
-## 콘텐츠 캘린더 테마 (연간 주기)
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-| 월 | 테마 | 연계 이벤트 |
-|----|------|------------|
-| 2월 | 심장 건강의 달 | American Heart Month |
-| 3월 | 당뇨 인식 주간 | KIMES 서울 의료기기 전시회 |
-| 5월 | 뇌졸중 예방의 달 | World Stroke Day 연계 캠페인 |
-| 6월 | 척추 건강 인식 | ACC/AHA 학회 시즌 |
-| 9월 | 당뇨의 달 전초전 | ESC Congress |
-| 11월 | 당뇨의 달 | World Diabetes Day (11/14) |
-| 연중 | 환자 스토리 시리즈 | 분기별 1편 이상 |
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## Steal Sheet — 콘텐츠 레이어별 3가지 탈취 전략
+## CTA Patterns
 
-### Layer 1: 검색 트래픽 탈취 (SEO 콘텐츠)
-1. **"인슐린 펌프 vs CGM" 비교 콘텐츠** — 환자가 검색하는 비교 쿼리에서 Abbott·Dexcom보다 먼저 노출되는 롱폼 가이드 제작
-2. **"부정맥 치료 방법" 교육 콘텐츠** — BSX·St.Jude(ABT) 경쟁 키워드에서 MDT 솔루션으로 유입 유도
-3. **척추 수술 전후 가이드** — Stryker가 점령한 "척추 수술 회복" 검색 결과에 MDT 환자 교육 콘텐츠 진입
+| CTA Type | Medtronic Pattern | What Medtronic Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
-### Layer 2: SNS 오가닉 탈취 (환자 커뮤니티)
-1. **인슐린 펌프 사용자 커뮤니티 공식 참여** — 네이버 카페·블로그 내 MDT 공식 계정으로 Q&A 직접 응답
-2. **#당뇨일상 해시태그 캠페인** — Abbott FreeStyle 사용자 전환을 위한 MiniMed 780G 체험 후기 UGC 캠페인
-3. **의사 인플루언서 파트너십** — 심장내과·내분비과 유튜버 의사와 MDT 기기 리뷰 콘텐츠 공동 제작
+---
 
-### Layer 3: 학술·전문가 콘텐츠 탈취 (B2B 리더십)
-1. **국내 임상 데이터 발표** — 한국인 환자 데이터 기반 임상 결과 논문 지원 → 국내 KOL 신뢰 선점
-2. **학회 심포지엄 독점 스폰서십** — 대한심장학회·대한당뇨병학회 공식 스폰서 확보, BSX·ABT 진입 차단
-3. **MDT Academy 한국어 콘텐츠** — 영어 중심 글로벌 교육 플랫폼을 한국어화하여 국내 전공의 교육 표준 선점
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to health care sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Medtronic as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #MDT | Financial and investor community | Moderate (estimated) |
+| #Medtronic | Brand-level social engagement | Varies (estimated) |
+| #HCInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Medtronic's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In health care markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in health care equipment face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Medtronic's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

@@ -1,201 +1,141 @@
-# AutoZone (AZO) — 채널 플레이북
+# 06. Channel Playbook — AutoZone (AZO)
 
-## 채널 전략 개요
-
-AutoZone의 채널 믹스는 **물리적 매장(오프라인)이 핵심**이고, 디지털 채널은 방문 전 정보 탐색과 구매 후 재방문 유도를 담당한다. 채널 간 통합된 "원-스톱" 경험이 핵심 차별화 요소다.
-
-### 채널 우선순위 매트릭스 (추정)
-
-| 채널 | 매출 기여 | 브랜드 인지 | 고객 유지 | 투자 우선순위 |
-|------|----------|------------|----------|--------------|
-| 오프라인 매장 | 최고 | 높음 | 높음 | 1순위 |
-| 검색 광고(Google) | 높음 | 중간 | 낮음 | 2순위 |
-| AutoZone 앱 | 중간 | 낮음 | 최고 | 3순위 |
-| YouTube | 중간 | 높음 | 중간 | 4순위 |
-| 이메일/SMS | 중간 | 낮음 | 높음 | 5순위 |
-| TV/라디오 | 낮음 | 최고 | 낮음 | 6순위 |
-| 소셜(TikTok/IG) | 낮음 | 높음 | 중간 | 7순위 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 채널별 상세 플레이북
+## 1. Channel Strategy Matrix
 
-### 1. 오프라인 매장
-
-**역할**: 매출의 약 85% 이상 발생하는 핵심 채널 (추정)
-
-**운영 원칙**:
-- AutoZoner = 1번 차별화 자산. 기술 지식 + 친절함 동시 구현
-- 매장 입구 3m 이내 무료 서비스 안내 배치 (배터리 테스트, 진단)
-- 재고 가시성: "있음/없음"이 아닌 "지금 픽업 가능/X분 이내 이동 가능"으로 표현
-
-**핵심 KPI (추정)**:
-- 방문당 평균 거래액(ATV): $65–$85
-- 고객 만족도(CSAT): 4.2/5.0 이상
-- 직원 부품 지식 테스트 합격률: 90% 이상
-
-**계절별 매장 집중 액션**:
-
-| 시기 | 프론트 디스플레이 | 직원 교육 포인트 |
-|------|-----------------|----------------|
-| 봄 | 와이퍼, 에어필터 | 봄 점검 패키지 업셀 |
-| 여름 | 냉각수, 에어컨 냉매 | 배터리 무료 테스트 강조 |
-| 가을 | 부동액, 브레이크 | 겨울 대비 완전 점검 스크립트 |
-| 겨울 | 점프 케이블, 배터리 | 긴급 출동 시나리오 응대 |
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
 ---
 
-### 2. AutoZone 앱
+## 2. Channel Tone Variations
 
-**역할**: 재구매 유도, 충성 고객 유지, 매장 방문 전 정보 제공
+AutoZone's core voice adjusts by channel while maintaining brand coherence.
 
-**핵심 기능 (공식)**:
-- 차량 프로파일 등록 및 부품 호환성 자동 필터
-- Loan-A-Tool 예약
-- AutoZone Rewards 포인트 조회 및 적립
-- 매장 재고 실시간 확인 + 픽업 예약
-
-**푸시 알림 전략 (추정)**:
-
-| 트리거 | 메시지 예시 | 타이밍 |
-|--------|-----------|--------|
-| 마지막 방문 30일 후 | "김민준 님 차량 오일 교체 시기가 다가왔습니다" | 오전 8–9시 |
-| 계절 변경 | "겨울 준비, AutoZone에서 시작하세요 — 배터리 무료 테스트" | 10월 초 |
-| 근처 매장 통과 | "지금 1.2km 거리에 AutoZone이 있습니다 — 오늘 특가 확인" | 실시간 |
-| Rewards 포인트 임박 | "포인트 만료 7일 전 — $5 보상 지금 사용하세요" | 7일 전 |
+| Channel | Formality | Key Adjustment |
+|---|---|---|
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-### 3. 검색 광고 (Google Search / Shopping)
+## 3. Cross-Channel Synergy Map
 
-**역할**: 구매 의향 고객 포착 — 가장 높은 전환율 디지털 채널 (추정)
+### Route A — Product/Service Launch Sequence
 
-**키워드 전략 (추정)**:
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
-| 캠페인 유형 | 핵심 키워드 예시 | 입찰 우선순위 |
-|------------|----------------|--------------|
-| 브랜드 방어 | "autozone", "autozone near me" | 최고 |
-| 카테고리 포착 | "car battery near me", "brake pads [차종]" | 높음 |
-| 경쟁사 대응 | "o'reilly vs autozone" | 중간 |
-| 교육적 | "how to replace oil filter" | 중간 |
-| 긴급 수요 | "car won't start fix", "check engine light" | 높음 |
+### Route B — Thought Leadership Pipeline
 
-**광고 문구 원칙**:
-- 헤드라인에 차량 모델 동적 삽입 (DSA)
-- 무료 서비스(배터리 테스트, 진단) 반드시 포함
-- 위치 확장: 가장 가까운 매장 + 영업 시간 표시
-- 긴급 키워드에는 "지금 픽업 가능" 강조
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
----
+### Route C — Earnings and Financial Communications
 
-### 4. YouTube
-
-**역할**: 브랜드 인지 + DIY 교육 콘텐츠 허브 + 제품 노출
-
-**콘텐츠 믹스 (추정)**:
-
-| 형식 | 비중 | 길이 | 예시 |
-|------|------|------|------|
-| DIY 하우투 | 50% | 5–12분 | "2019 F-150 브레이크 패드 교체" |
-| 무료 서비스 안내 | 20% | 1–3분 | "AutoZone 무료 배터리 테스트 받는 법" |
-| 제품 리뷰/비교 | 20% | 3–7분 | "OEM vs AutoZone 브레이크 패드 실제 비교" |
-| 브랜드 캠페인 | 10% | 30초–2분 | "Get in the Zone" 시즌 캠페인 |
-
-**YouTube Shorts 전략 (추정)**:
-- 주 3–5개 Shorts 게시
-- 60초 내 "원 포인트 팁" 형식
-- 롱폼 영상의 핵심 장면 발췌 + 재편집
-
----
-
-### 5. 이메일 & SMS
-
-**역할**: 기존 고객 재활성화, 프로모션 전달, 로열티 관리
-
-**이메일 유형별 전략 (추정)**:
-
-| 유형 | 발송 주기 | 제목 예시 | 목표 오픈율 |
-|------|----------|-----------|------------|
-| 시즌 프로모션 | 월 2–4회 | "겨울 대비 — 배터리 20% 할인" | 25%+ |
-| 차량 유지보수 리마인더 | 트리거 기반 | "마지막 오일 교체 후 3,000마일" | 35%+ |
-| Rewards 포인트 알림 | 트리거 기반 | "포인트 $10 적립 완료" | 40%+ |
-| 신제품 안내 | 월 1회 | "당신의 차에 맞는 신규 부품 입고" | 20%+ |
-| 재활성화 | 90일 미방문 | "보고 싶었습니다 — 10% 쿠폰 드립니다" | 15%+ |
-
-**SMS 사용 원칙**:
-- 픽업 준비 완료 알림 (1건)
-- 긴급 리마인더 (배터리 교체 시기 등)
-- 과도한 프로모션 SMS 자제 (옵트아웃 방지)
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 6. TV & 라디오
+## 4. Channel-Specific Prohibitions
 
-**역할**: 브랜드 인지도 유지, 시즌 캠페인 폭발적 노출
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
-**TV 광고 원칙 (추정)**:
-- 슬로건 "Get in the Zone" 클로징 필수
-- 실제 AutoZoner 등장 (배우 대신 직원 활용 효과)
-- 문제(고장) → 해결(AutoZone 방문) → 만족의 30초 내러티브
-- 가격 노출 시 "가격 매칭 보장" 병기
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-**라디오 집중 시간대 (추정)**:
-- 아침 출퇴근 (오전 7–9시): "차에서 이상한 소리가 나면..."
-- 저녁 귀가 (오후 5–7시): "퇴근길에 AutoZone 들러서 무료 점검"
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
----
-
-### 7. 소셜 미디어 (TikTok / Instagram / Facebook)
-
-**플랫폼별 역할 분담**:
-
-| 플랫폼 | 주요 목적 | 핵심 포맷 | 타깃 연령 |
-|--------|---------|-----------|----------|
-| TikTok | 신규 인지 + Z세대 포착 | 숏폼 DIY, 자동차 밈 | 18–30세 |
-| Instagram | 브랜드 이미지 + 제품 쇼케이스 | Reels + 카로셀 | 25–40세 |
-| Facebook | 기존 고객 유지 + 지역 이벤트 | 롱폼 포스트, 그룹 | 35–55세 |
-| X(Twitter) | 실시간 고객 지원 + 트렌드 반응 | 텍스트 + 짧은 영상 | 25–45세 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-## 채널 통합 Steal Sheet — 레이어별 3가지
+## 5. Crisis Response Protocol
 
-### Layer 1: 온-오프라인 통합 (Omnichannel) — 훔쳐올 전략
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
 
-| # | 전략 | 출처 | 적용 방안 |
-|---|------|------|-----------|
-| 1 | 앱-매장 연동 픽업 경험 | Apple Store 온라인 예약 + 매장 픽업 (추정) | 앱에서 "준비 완료" 알림 → 매장 도착 시 전용 카운터 픽업 (2분 이내) |
-| 2 | QR 코드 기반 정보 연결 | IKEA 제품 QR 스캔 → 앱 연동 (추정) | 매장 선반 QR → 앱에서 설치 영상 + 호환 차량 리스트 즉시 확인 |
-| 3 | 위치 기반 실시간 개인화 | Starbucks Mobile Order 위치 인식 (추정) | 매장 200m 접근 시 "오늘 특가" + "재고 있는 부품" 자동 푸시 |
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
 
-### Layer 2: 디지털 전환 가속 — 훔쳐올 전략
+### Scenario 2 — Regulatory or Legal Action
 
-| # | 전략 | 출처 | 적용 방안 |
-|---|------|------|-----------|
-| 1 | 구독형 정기 배송 | Amazon Subscribe & Save 모델 (추정) | 오일 필터, 와이퍼 등 소모품 정기 구독 + 자동 재주문 (10% 할인) |
-| 2 | 라이브 커머스 + 전문가 Q&A | Home Depot 라이브 DIY 방송 (추정) | AutoZoner가 진행하는 주간 라이브: "이번 주 베스트 DIY + 실시간 부품 추천" |
-| 3 | 1st-party 데이터 수집 강화 | Walmart+ 멤버십 데이터 활용 (추정) | 차량 등록 → 유지보수 이력 → 예측 구매 추천 (머신러닝 기반 개인화) |
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
 
-### Layer 3: 커뮤니티 & 로열티 채널 — 훔쳐올 전략
+### Scenario 3 — Reputation / Social Media Issue
 
-| # | 전략 | 출처 | 적용 방안 |
-|---|------|------|-----------|
-| 1 | 로열티 티어 시스템 | Starbucks Gold/Green 등급제 (추정) | AutoZone Rewards 티어: Bronze → Silver → Gold → Elite, 등급별 혜택 차등 |
-| 2 | 커뮤니티 포럼 내재화 | Reddit + 브랜드 공식 포럼 혼합 (추정) | AutoZone 앱 내 차종별 커뮤니티: AutoZoner가 답변하는 공식 Q&A 채널 |
-| 3 | 파트너십 채널 확장 | AAA 자동차 보험 + 부품 연계 (추정) | 보험사·렌터카·중고차 플랫폼과 제휴: "차량 진단 후 AutoZone 부품 즉시 연결" |
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 채널별 메시지 일관성 체크리스트
+## 6. Steal Sheet — 3 Transferable Principles
 
-모든 채널에서 아래 항목이 일관되게 유지되어야 한다.
+**1. Align channel formality with audience expectations.**
+AutoZone's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-| 체크 항목 | 오프라인 | 앱 | Google | YouTube | 이메일 | 소셜 |
-|----------|---------|---|--------|---------|--------|------|
-| AutoZone Red 컬러 사용 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| "Get in the Zone" 연계 | ✓ | - | - | ✓ | - | ✓ |
-| 무료 서비스 언급 | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 차량 호환성 명시 | ✓ | ✓ | ✓ | ✓ | ✓ | - |
-| AutoZoner 언급/등장 | ✓ | - | - | ✓ | - | ✓ |
-| 보증 정보 포함 | ✓ | ✓ | ✓ | - | ✓ | - |
-| 명확한 CTA | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+**2. Use financial communications as a credibility asset.**
+AutoZone's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
+
+**3. Build a cross-channel sequence, not parallel silos.**
+AutoZone's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

@@ -1,131 +1,84 @@
-# 02 오디언스 맵 — Ford Motor Company (F)
+# 02. Audience Map — Ford Motor Company (F)
 
-## 오디언스 세그멘테이션 프레임
-
-Ford의 타깃 오디언스는 **직업적 정체성 × 라이프스타일 × EV 수용도** 3축으로 분류된다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1차 세그먼트 개요
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 규모 비중 (추정) | 핵심 니즈 | 주요 모델 |
-|----------|----------------|-----------|-----------|
-| 워킹 프로 (Working Pro) | 35% | 견인력, 내구성, 플릿 관리 | F-150, Super Duty, Transit |
-| 미국 패밀리 (American Family) | 28% | 안전성, 공간, 가성비 | Explorer, Expedition, Escape |
-| 머슬/헤리티지 팬 (Heritage Fan) | 15% | 퍼포먼스, 감성, 브랜드 유산 | Mustang, Bronco |
-| 얼리 어답터 EV (EV Pioneer) | 12% | 기술 혁신, 지속가능성, TCO | Mustang Mach-E, F-150 Lightning |
-| 상업 플릿 고객 (Fleet B2B) | 10% | 유지보수 비용, 납기, 관리 플랫폼 | Ford Pro 전 라인업 |
-
----
-
-## 페르소나
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in automobile manufacturers. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Ford Motor Company's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Ford Motor Company's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 1: 마이크 — 현장의 워킹 히어로
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 |
-| 직업 | 건설 현장 감독관 (텍사스 주) |
-| 소득 | 연 $85,000 (추정) |
-| 보유 차량 | F-150 XLT (2021년식) |
-| 가족 | 배우자, 자녀 2명 |
+### Persona 1 — Enterprise Decision-Maker
 
-**심리 프로파일**
-- 브랜드 충성도가 매우 높음. "아버지도 포드를 탔다"는 세대 계승 의식
-- 기술 스펙보다 실제 현장 내구성을 중시
-- 소셜 미디어는 YouTube 위주, 픽업 트럭 커뮤니티 활동
-- EV에 관심은 있으나 충전 인프라 불안감으로 관망 중
-
-**핵심 메시지 접점**
-- TV 광고 (스포츠, 컨트리 음악 이벤트)
-- YouTube 트럭 리뷰 채널 스폰서십
-- Ford Pro 딜러 현장 시승 이벤트
-
-**구매 트리거**
-- 현재 차량 주행거리 15만 마일 초과
-- 현장 업그레이드 세금 공제 혜택 확인 시
-
-**브랜드와의 관계**
-> "포드는 그냥 차가 아니야. 내 일을 가능하게 해주는 도구야."
+- **Age / Occupation**: 42, VP-level or director in a Ford Motor Company customer organization
+- **Core pain**: Needs reliable automobile manufacturers solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Ford Motor Company selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 2: 제니 — 교외의 실용적 엄마
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 36세 |
-| 직업 | 초등학교 교사 (오하이오 주) |
-| 소득 | 가구 연 $110,000 (추정) |
-| 보유 차량 | Ford Explorer (2020년식) |
-| 가족 | 배우자, 자녀 3명 |
-
-**심리 프로파일**
-- 안전 등급과 신뢰성이 최우선 구매 기준
-- SUV를 실질적 생활 공간의 연장으로 인식
-- 인스타그램·핀터레스트 사용, 또래 엄마 커뮤니티 영향 큼
-- 부분적 EV 관심 — 하이브리드를 현실적 대안으로 고려
-
-**핵심 메시지 접점**
-- 디지털 광고 (육아·가족 콘텐츠 타기팅)
-- Ford 공식 사이트 빌드&프라이스 도구
-- 딜러 가족 이벤트 및 시승 프로그램
-
-**구매 트리거**
-- 자녀 추가 (3번째 카시트 필요 시점)
-- 금리 인하 또는 Ford Credit 0% 프로모션
-
-**브랜드와의 관계**
-> "아이들을 태우는 차니까 믿을 수 있어야 해요. 포드는 그 기준을 충족했어요."
+- **Age / Occupation**: 35, technical professional who interacts with Ford Motor Company's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Ford Motor Company selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-### 페르소나 3: 다니엘 — 테크 얼리 어답터 EV 전환자
+### Persona 3 — Consumer / Retail Customer
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 31세 |
-| 직업 | 소프트웨어 엔지니어 (캘리포니아 주) |
-| 소득 | 연 $165,000 (추정) |
-| 보유 차량 | Mustang Mach-E GT (2023년식) |
-| 가족 | 동거인, 반려견 1마리 |
-
-**심리 프로파일**
-- EV 퍼포먼스와 소프트웨어 OTA 업데이트에 민감
-- Tesla와 비교 경험 있음 — Ford 선택 이유: "미국 유산 + 실용적 가격"
-- Reddit, Twitter/X 기술 커뮤니티 활동
-- Ford의 EV 로드맵 진행 속도에 불만 보유 (추정)
-
-**핵심 메시지 접점**
-- Ford.com 테크 스펙 페이지
-- EV 리뷰 유튜버 협업 콘텐츠
-- Reddit r/MachE, r/electricvehicles 커뮤니티
-
-**구매 트리거**
-- 소프트웨어 메이저 업데이트 출시
-- 연방 EV 세액공제 마감 임박 공지
-
-**브랜드와의 관계**
-> "포드가 EV를 제대로 만들면 테슬라 대안이 될 수 있어. 아직 증명 중이지만."
+- **Age / Occupation**: 38, consumer who interacts with Ford Motor Company's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Ford Motor Company selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 오디언스 여정 지도 (Audience Journey)
+## Purchase Journey — AARRR Framework
 
-| 단계 | 인식 | 고려 | 구매 | 사용 | 옹호 |
-|------|------|------|------|------|------|
-| 워킹 프로 | TV/유튜브 광고 | 딜러 방문, 스펙 비교 | 딜러 협상 | 플릿 관리 앱 | 직장 동료 추천 |
-| 패밀리 | SNS 타기팅 광고 | 안전 등급 리서치 | Ford Credit 할부 | 서비스 센터 | 학부모 커뮤니티 |
-| EV 얼리 어답터 | 온라인 리뷰 | OTA/스펙 비교 | 온라인 직구매 | 앱 연동 | 커뮤니티 포럼 |
+| Stage | Ford Motor Company's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Ford Motor Company total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 비구매자 분석 (Anti-Audience)
+## Anti-Persona — Who Ford Motor Company Is Not For
 
-| 유형 | 이탈 이유 | Ford의 현재 대응 |
-|------|-----------|----------------|
-| 럭셔리 지향 소비자 | Ford 브랜드 = 대중 이미지 | Lincoln으로 분기 |
-| 순수 EV 열성 지지자 | Tesla 대비 소프트웨어 열위 (추정) | Model e 사업부 독립으로 대응 중 |
-| 소형차 선호 도심 소비자 | 라인업 대형화 편중 | Escape·Maverick으로 커버 시도 |
+| Type | Characteristics | Why Ford Motor Company Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Ford Motor Company's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Ford Motor Company's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Ford Motor Company's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Ford Motor Company's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Ford Motor Company's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

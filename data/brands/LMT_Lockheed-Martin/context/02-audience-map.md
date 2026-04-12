@@ -1,80 +1,84 @@
-# 02 오디언스 맵 — Lockheed Martin (LMT)
+# 02. Audience Map — Lockheed Martin (LMT)
 
-## 오디언스 계층 구조
-
-```
-1차 (의사결정권자)
-  └─ 정부·국방부 조달 담당자
-  └─ 의회·국방위원회 의원
-  └─ NATO·동맹국 국방부
-
-2차 (영향력 행사자)
-  └─ 방산 애널리스트·싱크탱크
-  └─ 기관 투자자 (ESG 포함)
-  └─ 군 작전 지휘관
-
-3차 (간접 청중)
-  └─ 엔지니어·STEM 인재풀
-  └─ 일반 대중·미디어
-  └─ 협력사·서플라이 체인
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 상세
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 마이클 헤이스 — 국방부 조달 국장
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 52세 |
-| 직책 | 미 국방부 획득·기술·군수 차관보실 선임 프로그램 관리자 |
-| 학력 | 미국 육군사관학교 학사 + 조지워싱턴대 MBA (추정) |
-| 경력 | 군 25년 복무 후 민간 조달로 전환 (추정) |
-| 핵심 KPI | 예산 내 납기 준수율, 운용 가용성(Operational Availability), 수명주기 비용 |
-| 페인 포인트 | 의회 예산 삭감 압박 / 납기 지연 리스크 / 기술 이전 규정 준수 |
-| 브랜드 기대 | 검증된 실적 데이터, 투명한 비용 구조, 강력한 AS 네트워크 |
-| 정보 소비 채널 | Defense News, Breaking Defense, 내부 브리핑 자료 |
-| 구매 트리거 | 의회 예산 승인 사이클, 동맹국 공동 조달 기회 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in aerospace & defense and adjacent industries. (T4_INFERRED from Lockheed Martin's segment structure) |
+| **Occupation segments** | Operations managers, facility directors, procurement officers, engineers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Lockheed Martin's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 소피아 찬 — 방산 섹터 기관 투자자
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직책 | 대형 자산운용사 방산·항공우주 섹터 포트폴리오 매니저 |
-| 학력 | MIT 항공공학 학사 + CFA 자격증 (추정) |
-| 관심사 | FCF 전환율, 배당 성장성, 수주잔고(Backlog) 가시성 |
-| 페인 포인트 | 지정학 리스크로 인한 수익 변동성 / ESG 스크리닝 압박 / 수출 규제 불확실성 |
-| 브랜드 기대 | 명확한 수주잔고 공시, IR 데이터 품질, 지속가능성 보고서 |
-| 정보 소비 채널 | 실적 발표 콜, SEC 공시, Bloomberg, 애널리스트 리포트 |
-| 투자 트리거 | 대형 계약 발표, 지정학 긴장 고조, 국방 예산 증액 뉴스 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Lockheed Martin customer organization
+- **Core pain**: Needs reliable aerospace & defense solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Lockheed Martin selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 제이슨 박 — 항공우주 엔지니어링 신입 지원자
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 26세 |
-| 직책 | 항공공학 석사 졸업 예정, 방산 취업 준비 중 |
-| 학력 | 퍼듀대 항공공학 석사 (추정) |
-| 관심사 | 최첨단 기술 프로젝트 참여, 커리어 성장, 보안 허가 취득 |
-| 페인 포인트 | 방산 기업 문화 불투명성 / 보안 허가 취득 기간 / 경직된 조직 이미지 |
-| 브랜드 기대 | 혁신적 프로젝트 노출, 교육·인증 지원, 사명감 있는 업무 환경 |
-| 정보 소비 채널 | LinkedIn, Glassdoor, 대학 취업박람회, YouTube 기술 채널 |
-| 지원 트리거 | 신규 프로그램 발표, 인재 채용 캠페인, 멘토십 프로그램 홍보 |
+- **Age / Occupation**: 35, technical professional who interacts with Lockheed Martin's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Lockheed Martin selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스 니즈 매트릭스
+### Persona 3 — Financial Stakeholder / Investor
 
-| 오디언스 | 핵심 니즈 | 두려움 | 성공 지표 |
-|----------|----------|--------|----------|
-| 조달 담당자 | 납기·비용·성능 3축 충족 | 프로그램 실패·의회 비판 | 운용 가용성 95%+ |
-| 기관 투자자 | 예측 가능한 FCF·배당 성장 | 수주잔고 감소·규제 리스크 | 주가 수익률·배당수익률 |
-| 엔지니어 지원자 | 의미있는 기술 도전 기회 | 커리어 정체·관료주의 | 프로젝트 리드 기회 |
-| 동맹국 국방부 | 상호운용성·기술 이전 | 미국 수출 규제 제한 | 공동 작전 역량 |
-| 의회 의원 | 지역구 일자리·경제 효과 | 납세자 예산 낭비 비판 | 지역구 계약 규모 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Industrials
+- **Core pain**: Needs to evaluate Lockheed Martin's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Lockheed Martin selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Lockheed Martin's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Lockheed Martin total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Lockheed Martin Is Not For
+
+| Type | Characteristics | Why Lockheed Martin Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Lockheed Martin's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Lockheed Martin's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Lockheed Martin's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Lockheed Martin's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Lockheed Martin's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In industrials markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

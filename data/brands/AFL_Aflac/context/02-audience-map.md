@@ -1,101 +1,129 @@
-# 02. 오디언스 맵 — Aflac (AFL)
+# 02. Audience Map — Aflac Incorporated (AFL)
 
-## 오디언스 구조 개요
-
-Aflac의 오디언스는 크게 **B2C (개인 가입자)** 와 **B2B (고용주/브로커)** 두 레이어로 나뉜다. 실제 구매 결정은 고용주(HR 담당자)가 단체 플랜을 선택하는 B2B 채널에서 이루어지지만, 최종 가입 동기는 개인 가입자의 인식에 달려 있다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나 1 — 중간관리자 직장인
+## Ideal Customer Profile (ICP)
 
-### 페르소나: 이준혁 (미국 기준: Jason Lee)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 |
-| 직업 | 중견기업 IT 프로젝트 매니저 |
-| 소득 | 연 $72,000 (추정) |
-| 가족 | 배우자 + 자녀 2명 |
-| 거주지 | 조지아주 교외 |
-| 보험 현황 | 고용주 제공 기본 건강보험 보유, 공제금액 $3,500 |
-
-**핵심 고통점:**
-- 작년 맹장 수술로 $4,200 자기부담금 발생 → 비상금 전액 소진 경험
-- 배우자 출산 예정으로 추가 의료비 발생 불안
-- 기본 건강보험만으로는 "진짜 위기"를 커버할 수 없다는 막연한 두려움
-
-**구매 트리거:**
-- HR 오픈 인롤먼트 시즌에 Aflac 브로셔 접함
-- 동료가 암 진단 후 Aflac 지급금으로 생활비 해결한 사례 청취
-
-**메시지 공명 포인트:**
-> "아플 때 병원비 말고 집세도 걱정해야 한다면, 진짜 보험이 아닙니다."
-
-**채널 선호도:** 직장 내 HR 포털, LinkedIn, 유튜브 (금융 교육 콘텐츠)
+| Dimension | Description |
+|-----------|-------------|
+| **Industry** | Cross-industry — supplemental insurance is employer-sponsored and purchased across all sectors. Highest penetration in mid-market employers (100–5,000 employees) with established benefits programs. (T4_INFERRED) |
+| **Company Size (B2B)** | Mid-market employers. Large enterprises often self-insure supplemental benefits; very small businesses may not offer voluntary benefits. The sweet spot is companies large enough to have HR/benefits infrastructure but not large enough to self-insure. (T4_INFERRED) |
+| **Decision Maker (B2B)** | VP of HR, Director of Benefits, Benefits Broker/Consultant. The broker channel is critical — brokers recommend Aflac to employer clients and influence which voluntary benefits appear on the enrollment platform. (SEC 10-K FY2023) |
+| **End Consumer (B2C)** | Working adults aged 25-55, enrolled through employer voluntary benefit programs. Dual-income households where a health event disrupts both income and creates out-of-pocket expenses. (T4_INFERRED) |
+| **Geography** | United States (Aflac U.S. segment, ~30% of revenue) and Japan (Aflac Japan segment, ~70% of revenue). Japan operations are the largest by revenue. (SEC 10-K FY2023) |
 
 ---
 
-## 페르소나 2 — HR 담당자 (B2B 의사결정자)
+## Persona 1: The Benefits Broker
 
-### 페르소나: 김수진 (미국 기준: Sarah Kim)
+**Name**: "Broker Brian"
+**Role**: Independent insurance broker specializing in group and voluntary benefits for mid-market employers
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 44세 |
-| 직업 | 중소기업 HR 매니저 (직원 150명 규모) |
-| 소득 | 연 $68,000 (추정) |
-| 주요 KPI | 직원 만족도, 복리후생 참여율, 이직률 |
-| 구매 권한 | 복리후생 벤더 선정 최종 결정권 |
+**Demographics**: 35-55, licensed insurance professional, manages a book of 50-200 employer clients. Earns commission on policies enrolled through employer groups. (T4_INFERRED)
 
-**핵심 고통점:**
-- 직원 복리후생 예산은 제한적인데 경쟁사 대비 매력적인 패키지 구성 필요
-- 보험 상품 설명 복잡 → 직원들이 가입 안 함 → 참여율 저조로 평가 불이익
-- 직원 건강 관련 생산성 저하 및 결근 증가 우려
+**Pain Points**:
+- Pressure from employer clients to offer competitive, low-cost voluntary benefits without adding administrative complexity
+- Too many carriers competing for the same voluntary benefits shelf space — needs to recommend carriers that employees will actually enroll in
+- Compliance burden — must ensure all recommended products meet state insurance regulations and employer ERISA requirements
+- Commission compression from digital enrollment platforms that reduce broker influence
 
-**구매 트리거:**
-- Aflac 브로커가 그룹 미팅 요청, 직원 교육 지원 제공 약속
-- 타 회사 HR 컨퍼런스에서 Aflac 도입 성공 사례 발표 청취
+**Gain Points**:
+- A carrier with 90%+ brand recognition that practically sells itself during open enrollment — employees already know the Aflac name
+- Strong enrollment support: Aflac provides dedicated enrollment coordinators who handle employee education and sign-up, reducing the broker's workload
+- Competitive commission structure and long-term renewal commissions that reward relationship maintenance
+- Simple product portfolio (accident, critical illness, hospital indemnity, short-term disability) that does not require extensive employee education
 
-**메시지 공명 포인트:**
-> "직원이 아프면 회사도 아픕니다. Aflac은 HR 팀의 부담을 줄이는 파트너입니다."
-
-**채널 선호도:** SHRM 컨퍼런스, 업계 뉴스레터, LinkedIn B2B 광고, 브로커 소개
-
----
-
-## 페르소나 3 — 자영업자/프리랜서
-
-### 페르소나: 박민지 (미국 기준: Mia Park)
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 31세 |
-| 직업 | 프리랜서 그래픽 디자이너 |
-| 소득 | 연 $48,000 (불규칙, 추정) |
-| 보험 현황 | ACA 마켓플레이스 기본 플랜만 보유 |
-| 재정 특성 | 비상금 2개월치 미만, 소득 불규칙 |
-
-**핵심 고통점:**
-- 직장 건강보험 없음 → 아프면 수입 즉시 끊김
-- 입원하면 임대료, 공과금, 클라이언트 납기 모두 동시에 무너짐
-- 보험료 지출에 민감하나 리스크는 크게 인식
-
-**구매 트리거:**
-- 인스타그램/틱톡에서 "병원비 말고 생활비도 나온다" 광고 접함
-- 프리랜서 커뮤니티에서 추천 받음
-
-**메시지 공명 포인트:**
-> "프리랜서에게 병원은 수입이 멈추는 날입니다. Aflac은 그 빈자리를 채웁니다."
-
-**채널 선호도:** 인스타그램, 틱톡, 유튜브 쇼츠, 프리랜서 포럼
+**Trigger Events**:
+- Employer client asks "what voluntary benefits should we add to our benefits package?"
+- Annual open enrollment season approaches (typically October-November in the U.S.)
+- A competitor carrier raises rates or reduces commission, creating an opportunity for Aflac to replace them
+- New employer client onboarding — broker selects initial voluntary benefits carrier
 
 ---
 
-## 오디언스 레이어 매트릭스
+## Persona 2: The Working Parent
 
-| 레이어 | 세그먼트 | 인지 단계 | 전환 장벽 | 우선 채널 |
-|--------|----------|-----------|-----------|-----------|
-| 1차 (핵심) | 직장인 35-50세, 가족 부양 | 인지 → 고려 | "이미 보험 있음" 인식 | HR 오픈 인롤먼트 |
-| 2차 (B2B) | HR 담당자, 브로커 | 고려 → 결정 | 도입 복잡성 우려 | 브로커 채널, SHRM |
-| 3차 (신규) | MZ 자영업자, 긱워커 | 인식 미형성 | 보험 자체에 대한 거부감 | 소셜 미디어 |
-| 4차 (일본) | 일본 직장인, 고령화 대응층 | 높은 인지도 | 경쟁 심화 | TV, 다이렉트 메일 |
+**Name**: "Protection Parent"
+**Role**: Dual-income household, employed at a company that offers Aflac through its benefits program
+
+**Demographics**: 30-50, household income $50K-$120K, 1-3 children, carries employer-sponsored major medical insurance but has a deductible of $2,000-$8,000. (T4_INFERRED)
+
+**Pain Points**:
+- Major medical deductible creates a financial gap — a hospital visit costs $2,000-$5,000 out-of-pocket before insurance kicks in
+- Living paycheck-to-paycheck or with limited savings — an unexpected medical event would require credit card debt or borrowing
+- Confusing benefits enrollment process with too many options and not enough information to make informed decisions
+- Fear of the unknown: "what happens financially if I get diagnosed with cancer?"
+
+**Gain Points**:
+- Cash benefit paid directly to them, not to the hospital — money they can use for any purpose (mortgage, childcare, groceries, transportation to treatments)
+- Affordable payroll deduction — supplemental coverage for $20-$60/month (estimated) feels manageable compared to major medical premiums
+- "One Day Pay" claims speed — when a crisis happens, the money arrives fast
+- Emotional reassurance: "at least I have something in place" reduces financial anxiety
+
+**Trigger Events**:
+- Open enrollment email arrives from HR with benefits options
+- A friend or family member has a medical event and faces crushing out-of-pocket costs
+- Having a child — parenthood triggers protective insurance purchasing behavior
+- Seeing an Aflac commercial and realizing "I don't have supplemental coverage"
+
+---
+
+## Persona 3: The Japanese Consumer
+
+**Name**: "Security-Conscious Sato"
+**Role**: Salaried worker at a Japanese corporation, age 30-60
+
+**Demographics**: Middle-class Japanese household. Japan has universal healthcare (NHI) but out-of-pocket costs for cancer treatment, hospitalization, and advanced procedures create a gap similar to U.S. deductibles. Supplemental insurance culture is deeply embedded in Japan. (T4_INFERRED, SEC 10-K FY2023)
+
+**Pain Points**:
+- Japan's aging population creates rising healthcare costs and concern about long-term care expenses
+- Cancer is the leading cause of death in Japan — cancer insurance is not a luxury but a cultural expectation
+- NHI covers 70% of approved treatments, but the 30% copay for extended cancer treatment can be financially devastating
+- Complexity of insurance product landscape — dozens of carriers offer supplemental products in Japan
+
+**Gain Points**:
+- Aflac is the largest supplemental insurance provider in Japan — one in four Japanese households has an Aflac policy (estimated, based on public Aflac Japan market data)
+- Cancer-specific insurance products designed for the Japanese regulatory and healthcare context
+- Distribution through Japan Post and major banking channels — available at 20,000+ locations (official, Aflac Japan)
+- Trusted brand with 50+ years in the Japanese market — Aflac entered Japan in 1974
+
+**Trigger Events**:
+- Annual health checkup reveals a concerning result
+- Family member diagnosed with cancer — triggers protective purchasing
+- Life stage transition: marriage, birth of child, approaching retirement
+- Renewal period for existing policy — opportunity to review and upgrade coverage
+
+---
+
+## AARRR Purchase Journey
+
+| Stage | U.S. Path | Japan Path |
+|-------|-----------|------------|
+| **Acquisition** | Employer benefits enrollment (primary). Aflac Duck TV/digital advertising creates awareness; broker recommendation drives employer adoption; HR benefits platform presents Aflac during open enrollment. (SEC 10-K FY2023, T4_INFERRED) | Japan Post counters, bank branch sales, direct response advertising, corporate benefits enrollment. Multi-channel distribution leverages Japan's dense retail banking and postal network. (SEC 10-K FY2023) |
+| **Activation** | Employee selects Aflac during open enrollment. Payroll deduction begins. First premium payment confirms coverage. Welcome packet and digital account access delivered. (T4_INFERRED) | Consumer purchases policy at Japan Post counter or through employer. First premium payment confirms coverage. Policy document and Aflac customer portal access provided. (T4_INFERRED) |
+| **Retention** | Automatic payroll deduction creates structural retention — the policy persists unless the employee actively cancels. Annual open enrollment is both a retention risk (employee may switch) and an upsell opportunity. Job change is the primary churn driver. (T4_INFERRED) | Policy renewal is largely automatic. Japan's cultural commitment to insurance coverage drives high persistency rates. Aflac Japan's persistency ratio exceeds 90% (estimated, based on SEC 10-K commentary). |
+| **Revenue** | Cross-sell additional policies: accident + critical illness + hospital indemnity. Premium increases with age and coverage upgrades. Spouse and dependent coverage additions. (T4_INFERRED) | Product upgrades at renewal. Addition of new policy types (cancer + medical + life). Family coverage expansion. (T4_INFERRED) |
+| **Referral** | Employee mentions Aflac to spouse or friends at other companies. Broker recommends Aflac to additional employer clients. Aflac Duck brand awareness creates organic word-of-mouth. (T4_INFERRED) | Family recommendation is strong in Japan. Cultural norm of discussing insurance within extended family. Japan Post and banking channel staff serve as trusted advisors. (T4_INFERRED) |
+
+---
+
+## Anti-Persona
+
+**"The Self-Insured Millennial"**: A single, high-income ($150K+) individual in their late 20s with no dependents, a $50K+ emergency fund, and a high-deductible health plan paired with a maxed-out HSA. This person can absorb the financial impact of a health event without supplemental insurance and views the payroll deduction as an unnecessary expense.
+
+**Why they are the anti-persona**: Aflac's value proposition is the gap between what major medical covers and what the policyholder can afford out-of-pocket. When that gap does not create financial hardship — because the individual has sufficient savings and no dependents — the product solves a problem that does not exist for this buyer. Marketing spend directed at this persona generates awareness but not enrollment. (T4_INFERRED)
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Sell through the channel that already has the trust relationship.**
+Aflac's primary distribution is through employers and brokers — intermediaries who already have the employee's trust on benefits decisions. Aflac does not need to build a direct consumer trust relationship from scratch; it borrows the employer's and broker's trust. Transferable structure: identify the intermediary your target customer already trusts for decisions in your category and build your distribution through that channel.
+
+**2. Make the product invisible through payroll deduction.**
+Once enrolled, Aflac's payroll deduction model creates structural retention. The customer does not receive a monthly bill, does not log in to make a payment, and does not experience a recurring decision point to cancel. Transferable insight: if your product can be embedded into a system the customer already uses (payroll, rent, subscription bundle), the absence of a visible payment decision dramatically reduces churn.
+
+**3. The Japan lesson — go where the culture fits your product.**
+Aflac's decision to enter Japan in 1974 was based on the insight that Japanese culture's emphasis on financial security and family protection created natural demand for supplemental insurance. Today, Japan generates ~70% of Aflac's revenue. Transferable insight: look for markets where cultural values align with your product's core emotional promise, not just markets where the economic opportunity is largest.

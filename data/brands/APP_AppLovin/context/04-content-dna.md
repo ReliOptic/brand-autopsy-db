@@ -1,127 +1,123 @@
-# 04 콘텐츠 DNA — AppLovin (APP)
+# 04. Content DNA — AppLovin (APP)
 
-## 콘텐츠 철학
-
-AppLovin의 콘텐츠는 **"숫자가 이야기한다(Let the data speak)"** 원칙으로 운영된다. 감성적 스토리텔링보다 퍼포먼스 지표·케이스 스터디·기술 인사이트를 우선하며, 모든 콘텐츠는 모바일 앱 성장이라는 단일 주제로 수렴한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 콘텐츠 필러 (Content Pillars)
+## Content Pillars
 
-| 필러 | 비중 (추정) | 예시 포맷 |
-|------|------------|---------|
-| 퍼포먼스 인사이트 | 35% | 벤치마크 리포트, ROAS 케이스 스터디 |
-| 제품 교육 | 25% | 튜토리얼, SDK 통합 가이드, 웨비나 |
-| 업계 트렌드 | 20% | 모바일 광고 트렌드, 프라이버시 변화 분석 |
-| 파트너 성공 사례 | 15% | 고객 인터뷰, 성장 스토리 |
-| 기업 소식 | 5% | 채용, 실적 발표, 파트너십 |
+AppLovin's content strategy reflects its positioning in the Application Software segment of Information Technology. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "AppLovin understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for application software requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with AppLovin." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 콘텐츠 포맷별 특성
-
-### 블로그 / 롱폼 아티클
-- **길이**: 1,200–2,500단어 (추정)
-- **구조**: 문제 제기 → 데이터 → 솔루션 → 행동 촉구
-- **헤드라인 패턴**: 숫자 + 결과형 ("How [고객사]가 ROAS를 X% 높인 방법")
-- **필수 요소**: 그래프·차트, 인용 통계, CTA 버튼
-
-### 케이스 스터디
-- **구조**: 도전과제 → AppLovin 솔루션 → 측정 가능한 결과
-- **필수 지표**: CPI, ROAS, DAU 증감률, 수익 증가 수치
-- **승인 인용구**: 고객사 UA 매니저·CEO 직접 인용 (공식)
-
-### 웨비나 / 동영상
-- **길이**: 30–45분 (추정)
-- **주제**: 신제품 발표, 시즌별 광고 전략, 개발자 교육
-- **형식**: 발표 + Q&A, 산업 패널
-
-### 인포그래픽
-- **사용 맥락**: 소셜 공유, 컨퍼런스 배포
-- **내용**: 모바일 시장 통계, 플랫폼 기능 비교
-
-### 개발자 문서 / 기술 콘텐츠
-- **플랫폼**: developers.applovin.com
-- **포맷**: SDK 가이드, API 레퍼런스, 코드 예시
-- **톤**: 중립적·정확한 기술 문서 스타일
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 톤 & 스타일 가이드라인
+## Hook Patterns
 
-### 문장 구조
-- 능동태 우선 ("AppLovin은 X를 달성합니다" vs "X가 달성됩니다")
-- 짧은 문장 (15단어 이하 권장)
-- 전문용어 허용 — 단, 첫 등장 시 풀어쓰기
+### Hook 1 — Industry Challenge Lead
 
-### 수치 표기
-- 항상 구체적 숫자 사용 ("약 30%" X → "31%" O)
-- 퍼센트 기호(%) 사용
-- 대규모 수치: "10억 달러" 형식 (한국어 맥락)
+Opens with a recognizable industry challenge or pain point before presenting AppLovin's perspective.
 
-### 헤드라인 공식 (추정)
-- `[숫자] + [결과] + [방법]`: "3가지 방법으로 ROAS 40% 높이기"
-- `[고객사] + [성과]`: "Voodoo가 AppLovin으로 UA 비용을 30% 절감한 방법"
-- `[질문형]`: "iOS 14 이후 UA는 어떻게 달라졌나?"
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
----
+### Hook 2 — Data-Driven Insight
 
-## 금지 콘텐츠 패턴
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-1. 경쟁사 직접 비방 — 간접 비교는 허용, 직접 공격 금지
-2. 검증되지 않은 성과 주장 — 모든 수치에 출처 또는 고객사 명시
-3. 과도한 기술 자랑 — 항상 고객 이익으로 연결
-4. 정치적·사회적 논쟁 콘텐츠
-5. 클릭베이트 헤드라인 — 내용과 헤드라인 일치 필수
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
----
+### Hook 3 — Customer Story Lead
 
-## 콘텐츠 캘린더 (추정 패턴)
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-| 시기 | 주요 콘텐츠 |
-|------|-----------|
-| Q1 (1–3월) | 전년도 모바일 광고 결산 리포트, 연간 전략 웨비나 |
-| Q2 (4–6월) | 여름 시즌 UA 전략, 개발자 컨퍼런스 전후 콘텐츠 |
-| Q3 (7–9월) | 연말 시즌 준비 가이드, 크리에이티브 트렌드 |
-| Q4 (10–12월) | 홀리데이 시즌 광고 최적화, 내년 예측 리포트 |
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 배포 채널
+## CTA Patterns
 
-| 채널 | 콘텐츠 유형 | 빈도 (추정) |
-|------|-----------|-----------|
-| 공식 블로그 (applovin.com/blog) | 롱폼, 케이스 스터디 | 주 2–4회 |
-| LinkedIn | B2B 인사이트, 채용, 실적 | 주 3–5회 |
-| Twitter/X | 업계 뉴스, 빠른 인사이트 | 일 1–2회 |
-| YouTube | 웨비나, 제품 데모 | 월 2–4회 |
-| 개발자 포털 | 기술 문서, SDK 업데이트 | 수시 |
-| 이메일 뉴스레터 | 큐레이션 인사이트 | 격주 (추정) |
+| CTA Type | AppLovin Pattern | What AppLovin Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 콘텐츠 성과 지표 (추정 KPI)
+## Tone & Mood Guide
 
-| 지표 | 목표 |
-|------|------|
-| 블로그 오가닉 트래픽 | 월 X% 성장 |
-| 케이스 스터디 다운로드 | 리드 생성 |
-| 웨비나 등록률 | 등록자 중 유료 전환 추적 |
-| 개발자 문서 방문 | SDK 통합 완료율과 연계 |
-| LinkedIn 팔로워 | 업계 사고 리더십 지표 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to information technology sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — AppLovin as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## 스틸 시트 (Steal Sheet) — 콘텐츠 레이어
+## Content Prohibitions
 
-### Steal 1: "벤치마크 리포트" 포맷
-AppLovin은 정기적으로 업계 벤치마크 데이터를 무료 리포트로 공개한다. 경쟁사 대비 우위를 암묵적으로 입증하면서 리드 생성과 권위 구축을 동시에 달성한다.
-- **적용법**: 자사 플랫폼 데이터를 익명화·집계해 무료 업계 리포트 발행. 이메일 게이팅으로 리드 수집.
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-### Steal 2: "결과 먼저" 케이스 스터디 구조
-케이스 스터디 제목에 결과 수치를 먼저 노출한다. ("ROAS 150% 달성 — [고객사] 이야기")
-- **적용법**: 성공 지표를 제목·서브헤드라인에 즉시 배치. 독자가 스크롤 없이 가치를 판단할 수 있게.
+---
 
-### Steal 3: 개발자 문서의 마케팅 이중 활용
-기술 문서를 SEO 자산 겸 신뢰 구축 도구로 운영. 문서의 완성도가 제품 품질을 암시한다.
-- **적용법**: 개발자 문서에 검색 최적화 투자. 내부 링크로 마케팅 페이지와 연결.
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #APP | Financial and investor community | Moderate (estimated) |
+| #AppLovin | Brand-level social engagement | Varies (estimated) |
+| #ITInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+AppLovin's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In information technology markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in application software face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+AppLovin's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

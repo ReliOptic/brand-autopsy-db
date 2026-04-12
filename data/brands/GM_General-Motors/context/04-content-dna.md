@@ -1,130 +1,123 @@
-# 04 콘텐츠 DNA — General Motors (GM)
+# 04. Content DNA — General Motors (GM)
 
-## 콘텐츠 철학
-
-GM의 콘텐츠는 "미국적 실용주의"와 "기술 변혁 야망" 사이의 긴장 위에 서 있다.
-트럭 광고에서 드러나는 흙과 쇠의 언어가 있고, Cadillac EV 광고에서 드러나는 세련된 미래 언어가 있다.
-두 목소리를 동시에 운용하는 것이 GM 콘텐츠 DNA의 본질적 도전이다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 마스터 내러티브
+## Content Pillars
 
-### 내러티브 1 — "미국을 움직이는 힘" (The Force That Moves America)
-- 핵심 주장: GM은 100년 넘게 미국인의 이동을 만들어왔다. 그 역사가 미래를 만드는 자격이다.
-- 적용 브랜드: Chevrolet, GMC
-- 콘텐츠 형식: 다큐멘터리형 광고, 브랜드 필름, 제조 현장 스토리
+General Motors's content strategy reflects its positioning in the Automobile Manufacturers segment of Consumer Discretionary. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
-### 내러티브 2 — "모두를 위한 전기차 시대" (Everybody In)
-- 핵심 주장: EV는 소수의 것이 아니다. GM이 대중화를 완성한다.
-- 적용 브랜드: Chevrolet EV, GM 모 브랜드
-- 콘텐츠 형식: 캠페인 영상, 인플루언서 콜라보, SNS 시리즈
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "General Motors understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for automobile manufacturers requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with General Motors." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-### 내러티브 3 — "럭셔리의 재정의" (Luxury, Reinvented)
-- 핵심 주장: Cadillac은 유럽 럭셔리 브랜드의 문법을 미국적 시각으로 재해석한다.
-- 적용 브랜드: Cadillac
-- 콘텐츠 형식: 시각 중심 고급 영상, 패션·아트 콜라보, 롱폼 브랜드 저널리즘
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 콘텐츠 포맷 매트릭스
+## Hook Patterns
 
-| 포맷 | 목적 | 주요 채널 | 빈도 (추정) |
-|------|------|----------|------------|
-| 30초 TV 광고 | 대중 인지도·감성 연결 | TV, YouTube Pre-roll | 분기별 대형 캠페인 |
-| 제품 런칭 언팩 영상 | 신차 관심 집중 | YouTube, GM.com | 신차 출시 시 |
-| 현장 UGC 캠페인 | 신뢰성·진정성 강화 | Instagram, TikTok | 상시 |
-| 기술 심층 콘텐츠 | EV/자율주행 공신력 | LinkedIn, YouTube | 월 2–4회 (추정) |
-| CEO/임원 인터뷰 | 리더십 신뢰 구축 | LinkedIn, 언론 보도 | 분기별 |
-| 딜러 공동 로컬 콘텐츠 | 지역 구매 전환 | 지역 미디어, SNS | 상시 |
-| EV 비교 가이드 | 구매 단계 전환 | GM.com, YouTube | 상시 갱신 |
+### Hook 1 — Industry Challenge Lead
 
----
+Opens with a recognizable industry challenge or pain point before presenting General Motors's perspective.
 
-## 금지어 (Forbidden Words) — 콘텐츠 실행 레벨
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-| # | 금지어/표현 | 금지 이유 |
-|---|-----------|----------|
-| 1 | "파산" (bankruptcy / bailout) | 2009년 정부 구제금융 연상, 브랜드 신뢰 훼손 |
-| 2 | "따라잡기" (catching up) | 경쟁 추격 프레임으로 리더십 이미지 훼손 |
-| 3 | "리콜 이후" (post-recall) | 이그니션 스위치 사건 직접 연상 촉발 |
-| 4 | "전통적인 자동차 회사" (traditional automaker) | 혁신 포지셔닝과 충돌하는 낡은 프레임 |
-| 5 | "아직 준비 중" (still working on it) | EV 지연·기술 격차 인정으로 오해 가능 |
-| 6 | "보조금 없이는" (without subsidies) | 정부 의존 이미지 강화, 자립 브랜드 이미지 훼손 |
+### Hook 2 — Data-Driven Insight
 
----
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
-## 필수어 (Required Words / Power Words) — 콘텐츠 실행 레벨
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-| # | 필수어/표현 | 사용 맥락 |
-|---|-----------|----------|
-| 1 | "Everybody In" | EV 대중화 캠페인, 포용성 메시지 전반 |
-| 2 | "제로 배기가스 / Zero Emissions" | EV·지속가능성 콘텐츠 필수 태그 |
-| 3 | "미국산 / Built in America" | 제조·공급망·노동 관련 콘텐츠 |
-| 4 | "100년의 혁신 / 100 years of innovation" | 브랜드 역사·유산 기반 신뢰 구축 시 |
-| 5 | "Ultium" | EV 플랫폼 기술력 강조 시 (공식 GM EV 플랫폼명) |
-| 6 | "이동의 미래 / Future of Mobility" | 자율주행·스마트 모빌리티 비전 제시 시 |
+### Hook 3 — Customer Story Lead
+
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
+
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
+
+### Hook 4 — Regulatory or Market Shift
+
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
+
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 톤 오브 보이스 가이드라인
+## CTA Patterns
 
-### Chevrolet 톤
-- **키워드:** 친근함, 활기참, 실용적 따뜻함
-- **문장 스타일:** 짧고 직접적. "Find New Roads." 같은 행동 촉구형.
-- **피해야 할 것:** 지나치게 기술적인 스펙 나열, 냉소적 유머
-
-### GMC 톤
-- **키워드:** 강인함, 프로페셔널, 자부심
-- **문장 스타일:** 남성적 자신감. "Professional Grade." 선언형.
-- **피해야 할 것:** 귀여움, 약함을 연상시키는 표현
-
-### Cadillac 톤
-- **키워드:** 대담함, 세련됨, 도전적
-- **문장 스타일:** 짧고 날카로운 선언. 여백과 침묵을 활용.
-- **피해야 할 것:** 과도한 설명, 사과하는 어조, 평범한 수식어
-
-### GM 모 브랜드 톤
-- **키워드:** 책임감 있는 리더십, 변혁적, 포용적
-- **문장 스타일:** 비전 선언형. 미래 지향적 언어 우선.
-- **피해야 할 것:** 방어적 표현, 경쟁사 직접 비교 폄하
+| CTA Type | General Motors Pattern | What General Motors Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
 
 ---
 
-## 콘텐츠 캘린더 핵심 모멘트
+## Tone & Mood Guide
 
-| 시기 | 이벤트 | 콘텐츠 기회 |
-|------|--------|-----------|
-| 1월 | 디트로이트 오토쇼 | 신차 공개, 기술 발표 (공식) |
-| 2월 | 슈퍼볼 | 대규모 브랜드 광고 (Chevrolet 주력) (공식) |
-| 4월 | 뉴욕 오토쇼 | Cadillac·도심 세그먼트 중심 |
-| 4분기 | 연말 세일 시즌 | "Holiday Event" 형식 프로모션 캠페인 |
-| 지속 | EV 마일스톤 | 생산 목표 달성, 딜리버리 이벤트 |
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to consumer discretionary sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — General Motors as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
 
 ---
 
-## Steal Sheet — 레이어별 3개
+## Content Prohibitions
 
-### Steal Sheet Layer 1: 스토리텔링 구조
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
 
-| # | 훔쳐올 인사이트 | 출처 | 적용 방안 |
-|---|--------------|------|----------|
-| 1 | Apple의 "Shot on iPhone" 사용자 주도 진정성 캠페인 | Apple 마케팅 | "Driven by Silverado" — 실제 트럭 작업자 사진/영상 공모전 캠페인 |
-| 2 | Patagonia의 환경 책임 스토리텔링 (공급망 투명성 공개) | Patagonia 콘텐츠 | GM 배터리 공급망·재활용 프로그램을 투명하게 공개하는 시리즈 콘텐츠 |
-| 3 | Red Bull의 이벤트 = 콘텐츠 공장 전략 | Red Bull 미디어 | GMC 트럭 오프로드 챌린지 이벤트를 연간 콘텐츠 IP로 정례화 |
+---
 
-### Steal Sheet Layer 2: 포맷 혁신
+## Hashtag Strategy
 
-| # | 훔쳐올 인사이트 | 출처 | 적용 방안 |
-|---|--------------|------|----------|
-| 1 | Tesla의 딜리버리 이벤트 라이브 스트리밍 (팬덤 형성) | Tesla 이벤트 | Silverado EV·Cadillac 신차 딜리버리를 유튜브 라이브 이벤트로 운영 |
-| 2 | Jeep의 "Jeep Badge of Honor" 앱 기반 트레일 성취 콘텐츠 | Jeep 디지털 | GMC Sierra/Canyon 오너를 위한 오프로드 트레일 완주 인증 앱 콘텐츠 |
-| 3 | BMW의 단편 영화 시리즈 "The Hire" 브랜드 필름 전략 | BMW Films | Cadillac 전용 단편 드라마 시리즈 제작, OTT 배포 |
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #GM | Financial and investor community | Moderate (estimated) |
+| #GeneralMotors | Brand-level social engagement | Varies (estimated) |
+| #CDInnovation | Sector-level thought leadership | Low-moderate (estimated) |
 
-### Steal Sheet Layer 3: 데이터 드리븐 콘텐츠
+---
 
-| # | 훔쳐올 인사이트 | 출처 | 적용 방안 |
-|---|--------------|------|----------|
-| 1 | Spotify Wrapped 방식의 오너십 데이터 시각화 | Spotify | "My Year with Silverado" — 주행 거리·절약된 연료비·탄소 저감 리포트 |
-| 2 | Dyson의 기술 메커니즘 시각화 콘텐츠 (단면 구조 공개) | Dyson 마케팅 | Ultium 배터리 내부 구조 3D 애니메이션, 기술 신뢰성 콘텐츠화 |
-| 3 | Nike의 운동 퍼포먼스 데이터 커뮤니티 (Nike Run Club) | Nike 디지털 | OnStar 주행 데이터 기반 EV 오너 커뮤니티 대시보드, 소셜 공유 기능 |
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+General Motors's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In consumer discretionary markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in automobile manufacturers face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+General Motors's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

@@ -1,161 +1,84 @@
-# 02 오디언스 맵 — The Home Depot (HD)
+# 02. Audience Map — Home Depot (The) (HD)
 
-## 타깃 세그먼트 개요
-
-홈디포는 크게 두 개의 메인 세그먼트로 시장을 분류한다: **DIY(Do-It-Yourself)** 소비자와 **Pro(전문 시공업자)** 고객. 2022년 기준 Pro 매출 비중이 전체의 약 45~50%에 달하는 것으로 추정된다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 세그먼트 매트릭스
+## Ideal Customer Profile (ICP)
 
-| 세그먼트 | 비중(추정) | 객단가(추정) | 방문빈도 | 주요 니즈 |
-|----------|-----------|------------|--------|-----------|
-| DIY 홈오너 | ~50% | $80~200 | 월 1~2회 | 편의성, 교육, 가격 |
-| Pro 시공업자 | ~45% | $500~5,000+ | 주 2~5회 | 재고 안정성, 속도, 계정 혜택 |
-| DIFM(전문가 위탁) | ~5% | $1,000~10,000 | 비정기 | 설치 서비스, 견적 |
-
----
-
-## ### 페르소나 1: "주말 DIY어" 마이클
-
-**인구통계**
-- 나이: 38세
-- 직업: 중간 관리자 (IT 회사)
-- 거주: 교외 단독주택 (구매 4년차)
-- 연소득: 9만~12만 달러 (추정)
-- 가족: 배우자 + 자녀 2명
-
-**심리통계**
-- 집에 투자하는 것이 가장 현명한 재테크라고 믿음
-- 유튜브 홈 임프루브먼트 채널 구독 5~8개 보유
-- 프로젝트 완수 후 SNS 공유에서 성취감 얻음
-- 예산 초과를 두려워하나, 싼 재료가 나중에 더 비싸진다는 것을 알고 있음
-
-**행동 패턴**
-- 매장 방문 전 온라인 리서치 1~2시간
-- 리뷰 4.0 이상 제품만 구매
-- 직원에게 질문하기를 주저하지 않음
-- 앱 쇼핑 리스트 기능 적극 활용
-
-**페인 포인트**
-- 재고가 없어 프로젝트가 중단될 때
-- 온라인 가격과 매장 가격 불일치
-- 프로젝트 범위가 예상보다 커질 때의 당혹감
-
-**브랜드 관계**
-- HD 프로 엑스트라 멤버 (추정)
-- 연간 홈디포 지출: $2,000~4,000 (추정)
-- Lowe's 계정도 보유—가격 비교 후 선택
-
-**핵심 메시지 공명 포인트**
-> "이번 주말에 욕실 타일 작업 끝낼 수 있어요—저희가 도와드릴게요."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in home improvement retail. B2C: End consumers of consumer discretionary products and services. (T4_INFERRED from Home Depot (The)'s segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Home Depot (The)'s 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: "전문 시공업자" 카를로스
+## Core Personas
 
-**인구통계**
-- 나이: 45세
-- 직업: 독립 계약 시공업자 (배관·일반 시공)
-- 거주: 도심 근교
-- 연소득: 7만~10만 달러 (추정)
-- 팀 규모: 본인 포함 3~5명
+### Persona 1 — Enterprise Decision-Maker
 
-**심리통계**
-- 시간 = 돈이라는 철학 강함
-- 브랜드보다 재고 안정성과 속도 우선
-- 가격보다 신뢰성(제품 불량률) 중시
-- 거래처 관계에서 상호 존중을 매우 중요하게 여김
-
-**행동 패턴**
-- 매장을 하루 1~2회 방문하는 경우도 있음
-- Pro 데스크(전용 계산대) 적극 이용
-- 대량 구매 할인 및 계정 청구(Account Billing) 활용
-- 앱으로 재고 실시간 확인 후 방문
-
-**페인 포인트**
-- 재고 부족으로 현장 작업 지연
-- Pro 할인이 경쟁사(Lowe's Pro, Fastenal) 대비 불충분할 때
-- 반품·교환 프로세스가 느릴 때
-- 일반 고객과 동일 대기 줄에서 시간 낭비
-
-**브랜드 관계**
-- Pro Xtra 골드 이상 멤버 (추정)
-- 연간 홈디포 지출: $30,000~100,000 (추정)
-- 로열티 높지만 대안(Fastenal, 도매상)과 병행
-
-**핵심 메시지 공명 포인트**
-> "Pro 데스크에서 5분 안에 처리—현장 복귀하세요."
+- **Age / Occupation**: 42, VP-level or director in a Home Depot (The) customer organization
+- **Core pain**: Needs reliable home improvement retail solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Home Depot (The) selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: "리노베이션 기획자" 사라
+### Persona 2 — Technical Specialist / End User
 
-**인구통계**
-- 나이: 52세
-- 직업: 부동산 에이전트 겸 투자자
-- 거주: 도심 콘도 + 투자용 부동산 3채 보유
-- 연소득: 15만~20만 달러 (추정)
-- 가족: 성인 자녀 독립
-
-**심리통계**
-- 집을 수익 창출 자산으로 바라봄
-- 미적 트렌드에 민감—Pinterest, Houzz 헤비 유저
-- DIY보다 DIFM(전문가 위탁) 선호—하지만 재료는 직접 소싱
-- 가격보다 디자인 일관성과 내구성 중시
-
-**행동 패턴**
-- 온라인으로 디자인 플래너 도구 사용
-- 대형 구매(캐비넷, 조명, 바닥재)는 매장 쇼룸 직접 방문
-- 홈디포 인스톨레이션 서비스 이용
-- 영수증 보관—세금 신고용
-
-**페인 포인트**
-- 트렌디한 색상/디자인 재고 부족
-- 설치 서비스 스케줄링이 느리고 불투명
-- 프리미엄 라인(브랜드 가구급) 품목 부족—때때로 웨이페어로 이탈
-
-**브랜드 관계**
-- HD 크레딧 카드 보유 (추정)
-- 연간 홈디포 지출: $15,000~40,000 (추정)
-- 홈디포 vs 웨이페어 vs 로우스 삼각 경쟁 구도에서 선택
-
-**핵심 메시지 공명 포인트**
-> "투자 수익률을 높이는 리노베이션—홈디포 디자인 센터에서 시작하세요."
+- **Age / Occupation**: 35, technical professional who interacts with Home Depot (The)'s products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Home Depot (The) selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 고객 여정 지도 (Customer Journey Map)
+### Persona 3 — Consumer / Retail Customer
 
-### DIY 홈오너 (마이클) 기준
-
-| 단계 | 트리거 | 채널 | 홈디포 터치포인트 | 감정 상태 |
-|------|--------|------|-------------------|-----------|
-| 인식 | 집 문제 발생 (누수, 낡은 바닥 등) | 검색, 유튜브 | SEO 콘텐츠, 유튜브 How-to | 불안·해결 의지 |
-| 탐색 | 해결책 리서치 | 앱, 웹사이트 | 제품 페이지, 프로젝트 가이드 | 호기심·학습 욕구 |
-| 평가 | 가격·브랜드 비교 | 가격 비교 사이트 | 가격 매칭 정책, 리뷰 시스템 | 신중·비교 분석 |
-| 구매 | 구매 결정 | 매장 / 앱 | Pro 데스크, 자가 계산대, 앱 결제 | 흥분·결의 |
-| 사용 | 프로젝트 실행 | 매장 워크숍, 유튜브 | 제품 QR 가이드, How-to 영상 | 도전·성취감 |
-| 로열티 | 완성 후 공유 | SNS, 리뷰 | 리뷰 유도 이메일, 다음 프로젝트 추천 | 자부심·재방문 의향 |
+- **Age / Occupation**: 38, consumer who interacts with Home Depot (The)'s products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Home Depot (The) selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 타깃 오디언스 지역 분포 (추정)
+## Purchase Journey — AARRR Framework
 
-| 지역 | 비중 | 특이사항 |
-|------|------|---------|
-| 미국 남부 | ~30% | 신규 주택 건설 활발, Pro 수요 높음 |
-| 미국 서부 | ~25% | 산불 복구 수요, 친환경 제품 선호 |
-| 미국 중서부 | ~20% | 노후 주택 리노베이션 중심 |
-| 미국 북동부 | ~18% | 도시 콘도 리노베이션, 프리미엄 선호 |
-| 캐나다 | ~7% | 별도 운영, 현지화 전략 적용 (공식) |
+| Stage | Home Depot (The)'s Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Home Depot (The) total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 레이어
+## Anti-Persona — Who Home Depot (The) Is Not For
 
-| # | 인사이트 | 활용 방안 |
-|---|---------|-----------|
-| 1 | Pro 고객은 전체 고객의 절반 미만이지만 매출의 절반 이상—Pro 로열티가 비즈니스의 핵심 | 경쟁 브랜드는 Pro 전용 혜택(신용한도, 전용 데스크, 재고 예약)을 강화하면 홈디포 Core를 공략 가능 |
-| 2 | 사라(페르소나 3) 같은 DIFM 고객은 재료를 직접 소싱하고 설치만 위탁—재료 소싱 결정권이 크다 | 디자인 지향 콘텐츠(핀터레스트, 인스타그램) 강화 시 DIFM 세그먼트 흡수 가능 |
-| 3 | 마이클(페르소나 1)은 Lowe's와 병행 사용—차별화 포인트가 약하면 가격으로만 경쟁 | 교육 콘텐츠와 커뮤니티 형성으로 전환 비용(switching cost) 높이는 것이 핵심 방어 전략 |
+| Type | Characteristics | Why Home Depot (The) Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Home Depot (The)'s pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Home Depot (The)'s value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Home Depot (The)'s full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Home Depot (The)'s customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Home Depot (The)'s operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer discretionary markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

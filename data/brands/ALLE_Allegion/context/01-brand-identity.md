@@ -1,77 +1,92 @@
-# 01 브랜드 아이덴티티 — Allegion (ALLE)
+# 01. Brand Identity Autopsy — Allegion plc (ALLE)
 
-## 기본 정보
-
-| 항목 | 내용 |
-|------|------|
-| 공식 브랜드명 | Allegion plc (공식) |
-| 티커 | ALLE / NYSE |
-| 섹터 | 산업재 — 보안 제품 |
-| 본사 | 더블린, 아일랜드 (공식) / 운영 본부: 인디애나폴리스, 인디애나, 미국 (공식) |
-| 설립 | 2013년 (Ingersoll Rand 분사) (공식) |
-| 핵심 자회사 브랜드 | Schlage, Von Duprin, LCN, CISA, Interflex, Steelcraft, Briton (공식) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 브랜드 에센스
+## Raison d'Etre — Why This Brand Exists
 
-> **"우리는 문을 잠그는 것이 아니라, 사람들이 안전하게 이동할 수 있도록 한다."**
+> "The conviction that security should be seamless — that the locks, access controls, and electronic credentials protecting people and property should work so reliably that they become invisible, enabling the free movement of people through safe spaces."
 
-Allegion의 브랜드 에센스는 **"Seamless Security"** — 물리적 보안과 디지털 접근 제어의 경계를 허물고, 건물 안에서 사람의 흐름을 끊김 없이 보호하는 것이다. (추정)
-
----
-
-## 브랜드 미션·비전·가치
-
-| 구분 | 내용 |
-|------|------|
-| 미션 | 혁신적인 보안 솔루션으로 더 안전한 세상을 만든다 (공식) |
-| 비전 | 물리적·디지털 보안의 융합을 선도하는 글로벌 리더 (추정) |
-| 핵심 가치 | 안전(Safety), 보안(Security), 지속가능성(Sustainability), 신뢰(Integrity) (공식) |
+Allegion is a global provider of security products and solutions, including mechanical and electronic locks, access control systems, and door closers. As stated in the 10-K: "We are a leading global provider of security products and solutions that keep people and places safe and secure where they live, work, and visit." (SEC 10-K FY2024) The company's portfolio includes Schlage, LCN, Von Duprin, and other established brands. Allegion was spun off from Ingersoll Rand in 2013. (official, SEC filings)
 
 ---
 
-## 브랜드 포지셔닝
+## Brand Promise
 
-- **포지셔닝 한 줄 요약**: "기업·기관·주거 고객이 신뢰하는 물리적 접근 제어의 글로벌 기준" (추정)
-- **가격 포지셔닝**: 프리미엄~하이엔드 (Schlage 브랜드는 주거용 프리미엄, 상업용은 사양 주도 입찰 시장) (추정)
-- **시장 포지셔닝**: 북미 시장 점유율 1위 잠금·레버 하드웨어, 전자 접근 제어 성장 포트폴리오 (추정)
+> "Security products and solutions that keep people safe and enable seamless access — from residential deadbolts to enterprise-grade electronic access control."
 
----
-
-## 보이스 매트릭스
-
-| 차원 | 점수 (X/10) | 설명 |
-|------|-------------|------|
-| 권위(Authority) | 9/10 | 100년 이상의 Schlage 유산, 규범·코드 준수를 선도 |
-| 신뢰(Trust) | 9/10 | 안전·보안이 핵심이므로 신뢰 톤이 절대적 |
-| 기술성(Technical) | 8/10 | B2B 채널에서 사양서·UL인증·ANSI등급 중심 커뮤니케이션 |
-| 혁신(Innovation) | 7/10 | IoT·스마트홈 확장으로 혁신 강조 증가 추세 |
-| 접근성(Approachability) | 6/10 | Schlage 소비자 채널에서 온기 있는 톤 사용, B2B는 낮음 |
-| 감성(Emotional) | 5/10 | "가족을 지킨다" 서사는 있지만 주로 기능 중심 |
-| 유머(Humor) | 2/10 | 보안 카테고리 특성상 거의 사용 안 함 |
-| 도발성(Provocative) | 3/10 | 경쟁사 직접 공격은 드묾, 업계 트렌드 선도 방식 선호 |
+1. **Reliability**: Schlage locks have been protecting homes for over 100 years. (official, schlage.com)
+2. **Innovation**: Electronic access control, mobile credentials, and cloud-based management platforms. (official, allegion.com)
+3. **Breadth**: Products span residential, commercial, and institutional markets. (SEC 10-K FY2024)
 
 ---
 
-## 금지어 목록 (사용 금지)
+## Positioning Statement
 
-1. **"저렴한"** / "cheap" — 프리미엄 포지셔닝 훼손
-2. **"단순히 잠금장치"** — 브랜드 영역을 물리 하드웨어로 축소
-3. **"해킹 가능"** / "취약한" — 보안 브랜드 이미지 직격
-4. **"복잡한 설치"** — 사용 편의성 약속 위반
-5. **"임시방편"** — 내구성·영속성 브랜드 자산 훼손
-6. **"중국산 대체재"** — 출처 관련 법적·외교적 리스크 (추정)
-7. **"구식"** — 디지털 전환 내러티브와 충돌
+> "For building owners, facility managers, and homeowners who need security that works without friction, Allegion is the security solutions company whose portfolio of trusted brands — led by Schlage — delivers mechanical and electronic access control at every scale, from a single front door to a multi-site enterprise."
+
+Allegion's positioning is built on **brand portfolio breadth** rather than single-brand identity. The corporate brand (Allegion) serves B2B and investor audiences while product brands (Schlage, Von Duprin, LCN) serve end users and specifiers. (T4_INFERRED)
 
 ---
 
-## 필수어 목록 (우선 사용)
+## Brand Archetype
 
-1. **"접근 제어(Access Control)"** — 카테고리 소유 키워드
-2. **"통합 보안(Integrated Security)"** — 포트폴리오 전체 연결 서사
-3. **"인증된(Certified)"** / "UL Listed" — 신뢰·규정 준수 강조
-4. **"스마트(Smart)"** — 전자·IoT 제품 라인 강조
-5. **"내구성(Durable)"** / "등급(Grade 1/2)" — ANSI 등급 신뢰 신호
-6. **"원활한 경험(Seamless Experience)"** — 사용자 흐름 강조
-7. **"미래 대비(Future-Ready)"** — 디지털 전환 투자 정당화 언어
+| Type | Archetype | Behavioral Mandate |
+|------|-----------|-------------------|
+| **Primary** | **Guardian** | "We protect what matters." Security is the foundational promise — physical safety and access control. (observed on allegion.com) |
+| **Secondary** | **Creator/Builder** | Innovation in electronic access, mobile credentials, and smart lock technology positions Allegion as a builder of the future of access. (official, allegion.com/innovation) |
+| **Shadow** | **Rigid Authority** | Risk of being perceived as legacy/traditional in a market where smart home and proptech startups move faster on consumer UX. (T4_INFERRED) |
+
+---
+
+## Voice Matrix
+
+| Axis | Range | Allegion Position | Source Example |
+|------|-------|------------------|----------------|
+| **Formal ↔ Casual** | 1–10 | **4 / 10** | Corporate, professional. "Allegion creates peace of mind by pioneering safety and security." (observed on allegion.com) |
+| **Authoritative ↔ Peer** | 1–10 | **3 / 10** | Industry authority built on 100+ year brand heritage (Schlage). (official) |
+| **Emotional ↔ Rational** | 1–10 | **5 / 10** | Balanced — emotional appeals to safety combined with technical specifications for specifiers. |
+| **Understated ↔ Hyperbolic** | 1–10 | **3 / 10** | Understated. Security products speak through reliability, not superlatives. (T4_INFERRED) |
+
+---
+
+## Banned Words
+
+1. **"Unbreakable" / "Impenetrable"** — No physical security product can make absolute claims. (T4_INFERRED)
+2. **"Cheap" / "Budget"** — Allegion brands occupy the mid-to-premium tier. (T4_INFERRED)
+3. **"Smart home gadget"** — Schlage Encode is a security product, not a gadget. (T4_INFERRED)
+4. **"Fear" / "Break-in" (in marketing headlines)** — Security is positioned as empowerment, not fear. (T4_INFERRED)
+
+---
+
+## Required Words
+
+1. **"Security" / "Safe" / "Secure"** — Core category language. (official, allegion.com)
+2. **"Access"** — The transition from locks to access control. (official, SEC 10-K FY2024)
+3. **"Seamless"** — Frictionless access is the product ideal. (observed on allegion.com)
+4. **"Trusted"** — Heritage brands earn trust language. (observed on allegion.com)
+5. **"Schlage"** — The flagship consumer brand. (official)
+
+---
+
+## Slogans & Taglines
+
+| Context | Line |
+|---------|------|
+| Corporate | "Safety and security for people and places." (official, allegion.com) |
+| Schlage consumer | "Schlage. Securing what matters most." (observed on schlage.com) |
+| Heritage | Schlage founded in 1920 — over 100 years of security. (official) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Use a portfolio of product brands to serve different audiences from one corporate entity.**
+Allegion (corporate/B2B) → Schlage (consumer/residential) → Von Duprin (commercial/institutional). Each brand speaks to its audience with appropriate voice and positioning. Transferable: if you serve multiple segments, consider whether a single brand or a portfolio architecture better serves each audience.
+
+**2. Bridge heritage and innovation explicitly.**
+Schlage's "100+ years of security" heritage coexists with Schlage Encode smart locks. The bridge is explicit: "The same trust, now with smart technology." Transferable: if your brand has heritage, make the innovation story an extension, not a contradiction.
+
+**3. Sell to the specifier, not just the buyer.**
+In commercial construction, architects and security consultants specify lock and access control brands. Allegion invests in specifier relationships through AIA-accredited continuing education. Transferable: identify who specifies your product (not just who pays) and build your brand with them.

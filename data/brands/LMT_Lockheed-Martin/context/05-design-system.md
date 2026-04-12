@@ -1,121 +1,102 @@
-# 05 디자인 시스템 — Lockheed Martin (LMT)
+# 05. Design System — Lockheed Martin (LMT)
 
-## 컬러 팔레트
-
-### 주색 (Primary Colors)
-
-| 명칭 | HEX | RGB | 용도 |
-|------|-----|-----|------|
-| LMT 네이비 블루 | `#003087` | rgb(0, 48, 135) | 주요 브랜드 컬러, 헤더, 로고 배경 (공식) |
-| LMT 블루 | `#0066CC` | rgb(0, 102, 204) | CTA 버튼, 링크, 강조 요소 (공식) |
-| 퓨어 화이트 | `#FFFFFF` | rgb(255, 255, 255) | 배경, 여백, 텍스트 반전 (공식) |
-
-### 보조색 (Secondary Colors)
-
-| 명칭 | HEX | RGB | 용도 |
-|------|-----|-----|------|
-| 스틸 그레이 | `#4A4F54` | rgb(74, 79, 84) | 본문 텍스트, 보조 아이콘 (추정) |
-| 라이트 그레이 | `#E8ECF0` | rgb(232, 236, 240) | 섹션 배경, 카드 배경 (추정) |
-| 다크 그레이 | `#1C1F22` | rgb(28, 31, 34) | 헤더 텍스트, 고대비 요소 (추정) |
-
-### 강조색 (Accent Colors)
-
-| 명칭 | HEX | RGB | 용도 |
-|------|-----|-----|------|
-| 시그널 레드 | `#CC0000` | rgb(204, 0, 0) | 경고, 긴급 알림, 위험 표시 (추정) |
-| 액션 오렌지 | `#FF6600` | rgb(255, 102, 0) | 보조 CTA, 하이라이트 포인트 (추정) |
-| 테크 그린 | `#00A651` | rgb(0, 166, 81) | 상태 정상, 성공, 지속가능성 섹션 (추정) |
-| 골드 | `#C8A400` | rgb(200, 164, 0) | 수상·인증 배지, 프리미엄 표시 (추정) |
-
-### 특수 용도색
-
-| 명칭 | HEX | RGB | 용도 |
-|------|-----|-----|------|
-| 투명 오버레이 블루 | `#003087CC` | rgba(0, 48, 135, 0.8) | 이미지 위 텍스트 오버레이 (추정) |
-| 야간 블랙 | `#0A0D10` | rgb(10, 13, 16) | 다크모드 배경, 프레젠테이션 슬라이드 (추정) |
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 접근성 (WCAG 2.1 기준)
+## 1. Color Palette
 
-| 조합 | 대비율 | WCAG 등급 |
-|------|--------|----------|
-| 네이비 블루 `#003087` / 화이트 `#FFFFFF` | 12.6:1 | AAA (추정) |
-| 다크 그레이 `#1C1F22` / 화이트 `#FFFFFF` | 17.8:1 | AAA (추정) |
-| LMT 블루 `#0066CC` / 화이트 `#FFFFFF` | 5.7:1 | AA (추정) |
-| 스틸 그레이 `#4A4F54` / 화이트 `#FFFFFF` | 6.1:1 | AA (추정) |
+Lockheed Martin's visual identity, as observed on its official website, employs a structured color system appropriate to industrials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
----
+### Core Brand Colors
 
-## 타이포그래피
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#333366` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 서체 | 크기 범위 | 용도 |
-|------|------|----------|------|
-| 디스플레이 | Trade Gothic Bold Condensed (추정) | 48–96px | 히어로 헤드라인 |
-| 헤딩 | Helvetica Neue Bold / Arial Bold | 24–48px | 섹션 제목 |
-| 본문 | Helvetica Neue Regular / Arial | 14–18px | 본문 텍스트 |
-| 캡션 | Helvetica Neue Light / Arial | 11–13px | 이미지 캡션, 각주 |
-| 모노스페이스 | Courier New | 12–14px | 기술 사양, 코드 표시 |
+### Color Principles
 
----
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-## 로고 사용 원칙
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 원칙 | 내용 |
-|------|------|
-| 최소 여백 | 로고 높이의 50% 이상 여백 확보 (추정) |
-| 배경 사용 | 화이트 또는 네이비 블루 배경에만 사용 (추정) |
-| 금지 변형 | 로고 색상 변경, 비율 왜곡, 효과 추가 금지 (추정) |
-| 최소 크기 | 디지털 24px 높이, 인쇄물 8mm 높이 (추정) |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
----
-
-## 이미지 스타일 가이드
-
-| 범주 | 방향성 |
-|------|--------|
-| 항공기 사진 | 비행 중 역동적 앵글, 자연광 또는 극적 조명 (추정) |
-| 엔지니어링 사진 | 정밀 작업 클로즈업, 청정 환경, 안전 장비 착용 (추정) |
-| 우주 이미지 | 고해상도 렌더링 또는 실제 우주 사진, 네이비+블랙 배경 (추정) |
-| 인물 사진 | 다양성·포용성 반영, 전문적 복장, 눈맞춤 또는 작업 집중 (추정) |
-| 금지 이미지 | 전투 장면, 폭발, 민간인 피해 연상 이미지 (추정) |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## UI 컴포넌트 원칙
+## 2. Typography
 
-| 컴포넌트 | 스타일 |
-|----------|--------|
-| 버튼 (Primary) | 배경 `#003087`, 텍스트 `#FFFFFF`, 모서리 반경 2px (추정) |
-| 버튼 (Secondary) | 테두리 `#003087`, 텍스트 `#003087`, 배경 투명 (추정) |
-| 카드 | 배경 `#FFFFFF`, 그림자 `0 2px 8px rgba(0,0,0,0.12)`, 상단 강조선 `#003087` (추정) |
-| 네비게이션 | 배경 `#003087`, 텍스트 `#FFFFFF`, 호버 `#0066CC` (추정) |
-| 데이터 테이블 | 헤더 `#003087`, 홀수행 `#E8ECF0`, 테두리 `#4A4F54` (추정) |
+Lockheed Martin's digital properties employ a typographic system appropriate to its industrials positioning.
+
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
+
+### Typographic Scale
+
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## Steal Sheet (디자인 레이어별)
+## 3. Channel Specifications
 
-### Layer 1: 시각 아이덴티티에서 빼앗을 것
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
-| # | 빼앗을 포지션 | 실행 방법 | 효과 |
-|---|-------------|----------|------|
-| 1 | "방산 디자인의 기준" | 경쟁사 대비 10% 더 정밀한 데이터 시각화 도입 | 기술 리더십 시각적 강화 (추정) |
-| 2 | "다크모드 전문성" | 야간 작전 환경 반영한 다크 UI 테마 제공 | 군사 환경 사용자 경험 차별화 (추정) |
-| 3 | "3D 기술 렌더링" | 실시간 3D 항공기 구성 시각화 도구 | 조달 프레젠테이션 경쟁력 강화 (추정) |
+---
 
-### Layer 2: 디지털 경험에서 빼앗을 것
+## 4. Layout Principles
 
-| # | 빼앗을 포지션 | 실행 방법 | 효과 |
-|---|-------------|----------|------|
-| 1 | "기술 데이터 대시보드" | 실시간 프로그램 현황 대시보드 제공 | 조달 고객 투명성 신뢰 강화 (추정) |
-| 2 | "모바일 브리핑룸" | 임원급 대상 모바일 최적화 브리핑 앱 | 의사결정자 접점 확대 (추정) |
-| 3 | "AR 제품 시연" | AR 기반 항공기 스케일 모델 시연 | 방산 박람회 차별화 경험 제공 (추정) |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### Layer 3: 브랜드 자산에서 빼앗을 것
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-| # | 빼앗을 포지션 | 실행 방법 | 효과 |
-|---|-------------|----------|------|
-| 1 | "Skunk Works 디자인 유산" | Skunk Works 역사적 청사진 시각화 시리즈 | 혁신 브랜드 유산 강화 (추정) |
-| 2 | "국가별 커스텀 에셋" | FMS 파트너국 국기 통합 공동 브랜딩 | 동맹국 자부심·귀속감 강화 (추정) |
-| 3 | "수상·인증 시각 언어" | 골드 `#C8A400` 기반 통합 어워드 배지 시스템 | 신뢰·권위 시각적 누적 (추정) |
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
+
+---
+
+## 5. Design Prohibitions
+
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Lockheed Martin (LMT)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

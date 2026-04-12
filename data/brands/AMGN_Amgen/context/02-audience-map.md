@@ -1,125 +1,84 @@
-# 02. 오디언스 맵 — Amgen (AMGN)
+# 02. Audience Map — Amgen (AMGN)
 
-> 섹터: Health Care - Biotechnology | 분석일: 2026-04-12
-
----
-
-## 1. 오디언스 레이어 구조
-
-```
-Primary (직접 구매·처방 결정)
-├── 의료 전문가 (HCP: Healthcare Professionals)
-│   ├── 전문의 (류마티스, 종양, 심장, 피부)
-│   ├── 일반의 / 가정의학과
-│   └── 병원 약사 / 의약품 위원회
-├── 기관 구매자
-│   ├── 병원 조달팀 (GPO)
-│   └── PBM / 보험사 약가 협상팀
-Secondary (영향력 행사)
-├── 환자 및 보호자
-├── 환자 단체 / 옹호 그룹
-└── 규제 당국 (FDA, EMA, PMDA)
-Tertiary (인식·평판)
-├── 투자자 / 애널리스트 (IR 오디언스)
-├── 언론 / 의학 저널리스트
-└── 학계 / KOL (Key Opinion Leaders)
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 정의
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: Dr. 이진아 — 류마티스 전문의
-
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 44세 / 여성 |
-| 소속 | 서울 대형 3차 병원 류마티스내과 |
-| 경력 | 전문의 15년, 연간 처방 규모 상위 10% |
-| 핵심 목표 | TNF 억제제 치료 반응 불충분 환자에게 최선의 대안 제공 |
-| 정보 채널 | ACR 학술대회, PubMed, 의학 학술지, MR(의약품 영업대표) |
-| 페인 포인트 | 바이오시밀러 전환 압력 속 오리지널 효능 데이터 재검증 부담 |
-| Amgen 접점 | Enbrel 처방 경험 10년+, Repatha 최근 도입 |
-| 의사결정 트리거 | Head-to-head 임상 데이터 > KOL 추천 > 환자 부담 비용 |
-| 금기 메시지 | 마케팅 수사 없는 순수 세일즈 피치 |
-
-**커뮤니케이션 전략:** 동료 심사 논문 리프린트 + 학술 심포지엄 스폰서십. 환자 케이스 스터디를 데이터 뒤에 배치.
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in biotechnology. B2C: End consumers of health care products and services. (T4_INFERRED from Amgen's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Amgen's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 박민준 — 기관 약가 협상 담당자 (PBM 시니어 매니저)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 38세 / 남성 |
-| 소속 | 대형 민간보험사 약가관리팀 |
-| 경력 | 의약품 경제성 평가 7년 |
-| 핵심 목표 | 포뮬러리 최적화 — 효능 대비 비용 최소화 |
-| 정보 채널 | ICER 보고서, 제약사 헬스이코노믹스 자료, 내부 클레임 데이터 |
-| 페인 포인트 | 바이오의약품 고가 정당화 근거 요구 증가, 바이오시밀러 채택 압력 |
-| Amgen 접점 | Repatha·Prolia 리베이트 협상, Amgen 바이오시밀러 포트폴리오 평가 |
-| 의사결정 트리거 | QALY 당 비용 < 임계값 | 경쟁사 대비 리베이트 우위 | 환자 순응도 데이터 |
-| 금기 메시지 | 임상 효능만 강조, 경제성 자료 미제공 |
+### Persona 1 — Enterprise Decision-Maker
 
-**커뮤니케이션 전략:** 헬스이코노믹스 백서(HEOR) 중심. 총 치료비용(total cost of care) 프레이밍. ROI 계산기 제공.
+- **Age / Occupation**: 42, VP-level or director in a Amgen customer organization
+- **Core pain**: Needs reliable biotechnology solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Amgen selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 최수연 — 골다공증 환자 (중기 치료 단계)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 / 성별 | 67세 / 여성 |
-| 상황 | 폐경 후 골다공증, Prolia 주사 2년차 |
-| 정보 채널 | 주치의 상담, 환자 커뮤니티 카페, 가족 추천 |
-| 핵심 목표 | 골절 없이 활동적 노후 유지, 투약 부담 최소화 |
-| 페인 포인트 | 6개월 주사 일정 관리 어려움, 투약 중단 시 반동 골절 불안 |
-| Amgen 접점 | Prolia 환자 지원 프로그램, 리마인더 서비스 |
-| 의사결정 트리거 | 의사 신뢰 > 부작용 정보 > 보험 급여 여부 |
-| 금기 메시지 | 과도한 의학 전문용어, 공포 마케팅 |
-
-**커뮤니케이션 전략:** 쉬운 언어의 환자 교육 자료 + 디지털 리마인더 앱. 치료 지속 지원 프로그램(adherence support) 강조.
+- **Age / Occupation**: 35, technical professional who interacts with Amgen's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Amgen selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 매트릭스 (관여도 × 영향력)
+### Persona 3 — Consumer / Retail Customer
 
-```
-높은 영향력
-    │
-    │  [규제 당국]        [KOL/전문의]
-    │  FDA·EMA            류마티스·종양 전문의
-    │
-    │  [투자자·애널]      [기관 구매자]
-    │  기관투자자          PBM·GPO
-    │
-    │  [환자 단체]        [환자/보호자]
-    │  옹호 그룹           직접 사용자
-    │
-낮은 영향력
-    └─────────────────────────────────
-      낮은 관여도              높은 관여도
-```
+- **Age / Occupation**: 38, consumer who interacts with Amgen's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Amgen selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 채널별 오디언스 매핑
+## Purchase Journey — AARRR Framework
 
-| 채널 | 주요 오디언스 | 콘텐츠 유형 | 톤 |
-|------|-------------|------------|-----|
-| 학술 저널 광고 | 전문의 | 임상 데이터 요약 | 과학적·권위적 |
-| 의약품 영업대표 | 전문의·병원 약사 | 디테일링 자료, 샘플 | 컨설팅형 |
-| HEOR 자료 | PBM·보험사 | 경제성 분석 보고서 | 분석적·수치 기반 |
-| 환자 지원 웹사이트 | 환자·보호자 | 질환 교육, 지원 프로그램 안내 | 공감적·쉬운 언어 |
-| IR 자료 / 연간보고서 | 투자자·애널리스트 | 파이프라인·재무 성과 | 전략적·데이터 중심 |
-| 학술대회 심포지엄 | KOL·전문의 | 연구 발표, 위성 심포지엄 | 동료 학자형 |
+| Stage | Amgen's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Amgen total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## Steal Sheet — 오디언스 맵 레이어
+## Anti-Persona — Who Amgen Is Not For
 
-| # | 전략 | 실행 포인트 | 적용 가능 맥락 |
-|---|------|------------|---------------|
-| 1 | **이중 고객 구조 명시화** | Amgen은 처방하는 의사와 비용을 지불하는 보험사를 완전히 다른 오디언스로 취급. 동일 제품에 대해 임상 메시지와 경제성 메시지를 분리 운영 | B2B2C 구조를 가진 모든 기업의 세그먼트 전략 |
-| 2 | **환자 페르소나의 치료 단계별 분화** | 진단 초기 / 치료 중기 / 장기 유지 각 단계마다 다른 페인 포인트와 메시지 필요. Adherence 지원은 중기~장기 환자 전용 전략 | SaaS 온보딩, 금융 상품 고객 생애주기 관리 |
-| 3 | **KOL을 채널이 아닌 공동 저자로** | Amgen은 KOL을 광고 모델이 아닌 연구 파트너로 포지셔닝. 동료 심사 논문 공저·학술대회 발표를 통해 신뢰를 구축함 | 전문가 신뢰가 중요한 B2B 브랜드의 인플루언서 전략 |
+| Type | Characteristics | Why Amgen Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Amgen's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Amgen's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Amgen's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Amgen's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Amgen's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

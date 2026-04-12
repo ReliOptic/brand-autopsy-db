@@ -1,150 +1,141 @@
-# 06. 채널 플레이북 — AT&T (T)
-> 섹터: Communication Services / Telecom | 티커: T (NYSE)
+# 06. Channel Playbook — AT&T (T)
+
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 1. 채널 전략 개요
+## 1. Channel Strategy Matrix
 
-AT&T의 채널 믹스는 **대규모 도달(Reach) + 정밀 타겟팅(Precision)** 이중 구조다. TV/OOH로 인지도를 쌓고, 디지털 퍼포먼스 채널로 전환을 완성하며, 오프라인 리테일로 계약을 클로징한다.
+| Channel | Primary Role | Audience Segment | Tone Register | Posting Frequency | Core Content Type |
+|---|---|---|---|---|---|
+| **Company Website** | Conversion hub; brand canon; product/service information | All segments | Precise, professional — baseline brand voice | Continuous (event/launch-driven cadence) | Product pages, solution descriptions, investor relations, careers (observed on company website) |
+| **LinkedIn** | Professional credibility; thought leadership; talent acquisition | Enterprise decision-makers, investors, recruits | Professional, insight-forward — 6/10 formality | ~3-8 posts/week (estimated) | Thought leadership, corporate news, job postings, industry commentary (observed) |
+| **Twitter / X** | Real-time announcements; industry engagement; media amplification | Industry professionals, media, analysts | Concise, timely — 4/10 formality | Event-driven; moderate regular cadence (estimated) | News announcements, event promotion, industry commentary (observed) |
+| **YouTube** | Product demonstrations; thought leadership video; corporate storytelling | Broad audience; technical and general | Narrative, educational — 5/10 formality | ~2-6 videos/month (estimated) | Product videos, webinars, corporate films, event recordings (estimated) |
+| **Investor Relations (IR)** | SEC compliance; financial communications; shareholder engagement | Institutional investors, analysts, regulators | Formal, factual — 9/10 formality | Quarterly earnings-driven; continuous SEC filings | Earnings releases, 10-K/10-Q filings, proxy statements, presentations (official, SEC EDGAR) |
+| **Email / Newsletter** | Customer engagement; lead nurturing; product updates | Existing customers, prospects, subscribers | Helpful, personalized — 5/10 formality | ~2-4 per month (estimated) | Product updates, industry insights, event invitations (estimated) |
 
-| 채널 레이어 | 역할 | 주요 지표 |
+---
+
+## 2. Channel Tone Variations
+
+AT&T's core voice adjusts by channel while maintaining brand coherence.
+
+| Channel | Formality | Key Adjustment |
 |---|---|---|
-| 브랜드 빌딩 | 인지도·호감도 구축 | 브랜드 인지율, NPS |
-| 퍼포먼스 | 리드·전환 유도 | CPA, 전환율, ROAS |
-| 리텐션 | 이탈 방지·업셀 | 해지율(Churn Rate), ARPU |
-| 커뮤니티 | 옹호자 육성 | NPS, 리퍼럴 수 |
+| **Website** | Baseline (5/10) | Full brand voice; all content types represented |
+| **LinkedIn** | Professional (6/10) | Slightly elevated formality; thought leadership emphasis |
+| **Twitter / X** | Conversational (4/10) | Shorter, more direct; industry engagement permitted |
+| **YouTube** | Educational (5/10) | Narrative pacing; visual storytelling supplements text voice |
+| **IR / SEC filings** | Maximum formal (9/10) | Zero marketing language; factual, attributable statements only |
+| **Email** | Personalized (5/10) | Direct address; solution-oriented; clear CTAs |
 
 ---
 
-## 2. 채널별 상세 플레이북
+## 3. Cross-Channel Synergy Map
 
-### 2-1. TV / CTV (Connected TV)
+### Route A — Product/Service Launch Sequence
 
-| 항목 | 내용 |
-|---|---|
-| 역할 | 브랜드 인지도 최상위 구축, 감성 연결 |
-| 포맷 | 30초 브랜드 CF, 15초 제품 강조, 6초 범퍼 |
-| 타겟 | 25~54세 가구 결정권자, 스포츠·프라임타임 시청자 |
-| 핵심 메시지 | 가족 연결, Fiber 신뢰성, 5G 라이프스타일 |
-| 시즌 피크 | 슈퍼볼 주간, 블랙프라이데이, 신학기(8~9월) |
-| 스폰서십 | NFL(달라스 카우보이스 홈구장 AT&T Stadium) (공식), NCAA, MLB |
-| KPI | GRP, 브랜드 인지율 상승폭, 광고 호감도 |
+```
+[Company Announcement (Website + Newsroom)]
+        |
+        v
+[LinkedIn — Thought leadership context]    [Email — Direct to existing customers]
+        |                                          |
+        v                                          v
+[Twitter/X — Amplification + media engagement]   [YouTube — Demo/explainer video]
+        |
+        v
+[Sales team — Direct outreach with launch context]
+```
 
----
+### Route B — Thought Leadership Pipeline
 
-### 2-2. 디지털 검색 (Paid Search / SEO)
+```
+[Research / White Paper (Website)]
+        |
+        v
+[LinkedIn — Key findings + executive commentary]
+        |
+        v
+[Webinar (YouTube / Platform)]  →  [Email — Attendee follow-up with report link]
+        |
+        v
+[Sales enablement — Research as conversation starter]
+```
 
-| 항목 | 내용 |
-|---|---|
-| 역할 | 구매 의도 포착 → 직접 전환 |
-| 핵심 키워드 (추정) | "internet near me", "AT&T Fiber", "unlimited plan", "5G phone deals" |
-| 랜딩 페이지 전략 | ZIP 코드 기반 동적 랜딩 — 서비스 가용 여부 즉시 확인 |
-| SEO 우선 콘텐츠 | "Fiber vs Cable 비교", "5G 커버리지 맵", "요금제 추천 가이드" |
-| 경쟁 키워드 전략 | Xfinity, T-Mobile 브랜드 키워드 방어 입찰 (추정) |
-| KPI | CPC, CVR, Quality Score, 오가닉 랭킹 |
+### Route C — Earnings and Financial Communications
 
----
-
-### 2-3. 소셜 미디어
-
-#### Facebook / Instagram
-| 항목 | 내용 |
-|---|---|
-| 주 타겟 | 30~55세, 가족 구성원, 홈오너 |
-| 포맷 | 캐러셀(요금제 비교), 릴스(Fiber 설치 스토리), 스토리 CTA |
-| 콘텐츠 믹스 | 브랜드 40% / 제품 40% / 커뮤니티 20% |
-| 게시 빈도 | 주 4~5회 (추정) |
-| 핵심 전술 | 리타겟팅(웹사이트 방문자), 루크어라이크(기존 Fiber 가입자) |
-
-#### Twitter / X
-| 항목 | 내용 |
-|---|---|
-| 주 역할 | 위기 대응, 고객 서비스, 실시간 이벤트 연계 |
-| 톤 | 빠른 응답, 공감, 간결 |
-| 콘텐츠 | 서비스 업데이트, 스포츠 스폰서십 연계, 기술 발표 |
-| 리스크 | 고객 불만 집중 채널 — 24시간 모니터링 필수 |
-
-#### LinkedIn
-| 항목 | 내용 |
-|---|---|
-| 주 타겟 | IT 의사결정권자, HR, 중소기업 대표 |
-| 콘텐츠 | AT&T Business 케이스 스터디, FirstNet 공공안전 사례, 채용 브랜딩 |
-| 포맷 | 아티클, 인포그래픽, 임원 사고 리더십 |
-| KPI | 팔로워 성장, 콘텐츠 참여율, 리드 폼 전환 |
-
-#### YouTube
-| 항목 | 내용 |
-|---|---|
-| 포맷 | 15/30초 TrueView 광고, 2~5분 기술 설명 영상, 고객 스토리 시리즈 |
-| 타겟 | 기기 업그레이드 탐색자, 인터넷 서비스 비교 검색자 |
-| 채널 전략 | AT&T 공식 채널 + AT&T Business 서브채널 분리 운영 (공식) |
+```
+[SEC Filing (EDGAR) + IR Press Release]
+        |
+        v
+[Earnings Call (Webcast)]  →  [IR Website — Transcript + slides posted]
+        |
+        v
+[LinkedIn — CEO/executive commentary post]
+        |
+        v
+[Media pickup → Analyst reports → Investor sentiment cycle]
+```
 
 ---
 
-### 2-4. 이메일 & CRM
+## 4. Channel-Specific Prohibitions
 
-| 항목 | 내용 |
-|---|---|
-| 세그먼트 | 신규 가입자 / 장기 가입자 / 이탈 위험군 / 업셀 후보 |
-| 온보딩 시리즈 | 설치 후 Day 1, 7, 30 — 기기 설정 팁, 요금제 최적화 안내 |
-| 리텐션 트리거 | 계약 만료 90/60/30일 전 — 갱신 혜택 오퍼 |
-| 업셀 시리즈 | 데이터 사용량 80% 초과 시 무제한 업그레이드 제안 |
-| 해지 방어 | 해지 신청 후 보류 고객 대상 — 특별 리텐션 오퍼 (추정) |
-| KPI | 오픈율, CTR, 전환율, 이탈 방지율 |
+### Company Website
+- **No promotional pricing as hero content.** Product value proposition leads; pricing is secondary. (T4_INFERRED)
+- **No unverified third-party endorsements.** Customer quotes require documented attribution. (T4_INFERRED)
 
----
+### LinkedIn
+- **No consumer-casual tone.** LinkedIn content maintains professional register. (T4_INFERRED)
+- **No political or socially divisive content from the brand account.** Corporate communications remain commercially focused. (T4_INFERRED)
 
-### 2-5. 오프라인 리테일 & 매장
+### Twitter / X
+- **No engagement with trolling or bad-faith criticism.** Brand account maintains professional distance from adversarial interactions. (T4_INFERRED)
 
-| 항목 | 내용 |
-|---|---|
-| 매장 수 | 약 5,000개 이상 직영·대리점 (공식) |
-| 매장 역할 | 체험(5G 단말기 직접 시연), 계약 클로징, 복잡한 요금제 상담 |
-| 매장 내 디자인 | AT&T Blue 주조, 디지털 사이니지, 체험존(AR/5G 데모) |
-| 직원 교육 | 제품 지식 + 판매 스크립트 + 이탈 방어 대화 가이드 (추정) |
-| 파트너 채널 | 월마트, 베스트바이 내 AT&T 코너 운영 |
+### IR / SEC
+- **No marketing language in financial communications.** Earnings releases and SEC filings are factual, auditor-reviewed, and free of promotional content. (T1_OFFICIAL, SEC requirements)
+- **No forward-looking statements without safe harbor disclaimers.** (T1_OFFICIAL, SEC requirements)
 
 ---
 
-### 2-6. OOH (옥외광고)
+## 5. Crisis Response Protocol
 
-| 항목 | 내용 |
-|---|---|
-| 포맷 | 빌보드, 버스정류장, 공항, 지하철 디지털 사이니지 |
-| 지역 전략 | Fiber 신규 서비스 지역 집중 출시 광고, 5G 도심 커버리지 강조 |
-| 메시지 | 초단형 — "AT&T Fiber. 지금 바로." / "5G 여기서도." |
-| DOOH 활용 | 날씨·시간대 연동 동적 메시지 (추정) |
+### Scenario 1 — Operational Incident (Product Safety / Service Disruption)
+
+**Response sequence:**
+1. Internal assessment and scoping (T+0 to T+24h)
+2. Official statement on company website / newsroom (T+24h)
+3. Direct customer notification via email (T+24-48h)
+4. Remedy program implementation
+5. Ongoing status updates until resolution
+
+### Scenario 2 — Regulatory or Legal Action
+
+**Response sequence:**
+1. Legal review of public statement content (T+0 to T+48h)
+2. Official statement on company website acknowledging the proceeding
+3. SEC filing disclosure as required (8-K if material)
+4. Ongoing compliance communications through appropriate channels
+
+### Scenario 3 — Reputation / Social Media Issue
+
+**Response sequence:**
+1. Monitor and assess severity (T+0 to T+72h)
+2. If media pickup exceeds threshold: factual clarification on website
+3. If social-only: studied silence as default; response only if factual correction is required
+4. Resolution through operational action, not communications alone
 
 ---
 
-## 3. 채널 믹스 예산 배분 (추정)
+## 6. Steal Sheet — 3 Transferable Principles
 
-| 채널 | 비중 | 비고 |
-|---|---|---|
-| TV / CTV | 35% | 브랜드 빌딩 핵심 |
-| 디지털 퍼포먼스 (검색+소셜) | 30% | 전환 효율 최우선 |
-| OOH | 10% | 지역 인지도 강화 |
-| 이메일/CRM | 10% | 리텐션·업셀 ROI 최고 |
-| 오프라인 리테일 프로모션 | 10% | 클로징 지원 |
-| 스폰서십/이벤트 | 5% | 브랜드 연상 구축 |
+**1. Align channel formality with audience expectations.**
+AT&T's channel strategy matches tone to platform convention — professional on LinkedIn, factual for IR, accessible for consumer touchpoints. Transferable structure: map your channels by formality level and ensure content production matches each channel's expectations.
 
-> 예산 배분은 공개 정보 및 업계 벤치마크 기반 추정 (추정)
+**2. Use financial communications as a credibility asset.**
+AT&T's IR communications are the most authoritative brand content produced. Transferable structure: treat earnings releases and SEC filings as brand-building opportunities, not just compliance obligations. The precision and factual rigor of financial communications can elevate the perceived credibility of all brand content.
 
----
-
-## 4. 채널별 Steal Sheet — 3가지 (레이어별)
-
-### Steal Sheet A: 브랜드 레이어 (스폰서십 활용)
-**무엇을:** 스포츠 스폰서십을 "네트워크 신뢰성 증명 무대"로 재정의 — 경기장 내 5G 실사용 속도를 실시간 대형 전광판에 표시
-**왜 효과적:** "경기장 5만 명 동시 접속에도 끊기지 않는 AT&T 5G" — 스트레스 테스트 통과 증거를 브랜드 쇼케이스로 전환
-**어떻게 훔칠 수 있나:** 경기 중 실시간 Speedtest 수치 전광판 표시 → 소셜 클립화 → "경기장에서도 #ATT5G" 해시태그 캠페인
-
-### Steal Sheet B: 제품 레이어 (CRM 정밀도)
-**무엇을:** "Fiber 이웃 알림" 이메일/SMS — 가입자 주소 인근 신규 Fiber 개통 시 자동 업그레이드 안내 발송
-**왜 효과적:** 기존 DSL/케이블 가입자를 Fiber로 자연스럽게 업셀 — 이탈 없이 ARPU 상승
-**어떻게 훔칠 수 있나:** GIS 기반 커버리지 확장 이벤트 트리거 → 개인화 이메일("고객님 주소에 Fiber 개통됐습니다") → 설치 예약 원클릭 CTA
-
-### Steal Sheet C: 퍼포먼스 레이어 (리테일 전환)
-**무엇을:** 매장 방문 → 미설치 고객 대상 "설치 날짜 즉석 예약 + 할인 잠금" 디지털 컨트랙트 시스템
-**왜 효과적:** 구두 약속이 아닌 디지털 확정으로 취소율 감소, 현장 클로징률 상승
-**어떻게 훔칠 수 있나:** 매장 POS 태블릿에서 고객 앞 실시간 설치일 선택 → 이메일/SMS 즉시 확인서 발송 → 설치 당일까지 리마인더 자동화
+**3. Build a cross-channel sequence, not parallel silos.**
+AT&T's channels feed each other in a predictable sequence. Transferable structure: map content flow across channels so each post references or builds on content from other channels, creating a coherent narrative rather than isolated channel-specific posts.

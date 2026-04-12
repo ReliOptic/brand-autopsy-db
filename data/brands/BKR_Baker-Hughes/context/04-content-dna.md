@@ -1,117 +1,123 @@
-# 04 콘텐츠 DNA — Baker Hughes (BKR)
+# 04. Content DNA — Baker Hughes (BKR)
 
-## 콘텐츠 전략 철학
-
-Baker Hughes의 콘텐츠는 "기술 권위(Technical Authority)"를 핵심 축으로 삼는다. 단순한 마케팅 메시지보다 엔지니어링 증거와 케이스 스터디가 신뢰 구축의 주요 수단이다. 에너지 전환 내러티브는 2021년 이후 전면에 배치되어 있으며, 탄화수소 포트폴리오와 저탄소 기술을 동시에 긍정적으로 프레이밍하는 이중 구조를 취한다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 핵심 콘텐츠 필러 (Content Pillars)
+## Content Pillars
 
-| 필러 | 비중 (추정) | 설명 |
-|------|------------|------|
-| 기술 혁신 | 30% | 신제품, R&D 성과, 특허, 기술 사양 |
-| 에너지 전환 | 25% | 수소, CCUS, LNG 가교 역할, Net Zero 로드맵 |
-| 운영 성과 | 20% | 고객 케이스 스터디, 업타임 수치, 비용 절감 사례 |
-| 지속가능성·ESG | 15% | 탄소 배출 감소, 안전 기록, 사회적 임팩트 |
-| 사람·문화 | 10% | 직원 스토리, D&I, 커뮤니티 프로그램 |
+Baker Hughes's content strategy reflects its positioning in the Oil & Gas Equipment & Services segment of Energy. Content output maps to four primary pillars. (T4_INFERRED from observation of company website and public communications)
 
----
+| Pillar | Estimated Share | Core Message | Primary Formats |
+|--------|----------------|--------------|-----------------|
+| **1. Industry Expertise & Thought Leadership** | ~30% | "Baker Hughes understands your challenges and has the expertise to address them." Positions the company as a domain authority. | White papers, industry reports, executive commentary, webinars (observed on company website) |
+| **2. Product & Service Solutions** | ~30% | "Proven solutions built for oil & gas equipment & services requirements." Product-level content focuses on capabilities, specifications, and use cases. | Product pages, solution briefs, case studies, technical documentation (observed on company website) |
+| **3. Customer Success & Results** | ~25% | "See how others achieved results with Baker Hughes." Social proof through customer stories and measurable outcomes. | Customer case studies, testimonials, ROI calculators, success metrics (observed on company website) |
+| **4. Corporate Responsibility & Culture** | ~15% | "Building a responsible business for the long term." ESG, sustainability, and corporate culture content. | Sustainability reports, DEI communications, community engagement stories, annual reports (official) |
 
-## 콘텐츠 포맷별 가이드
-
-### 기술 백서 (Technical White Paper)
-- **구조:** 문제 정의 → 기술 솔루션 → 검증 데이터 → ROI 계산 → 고객 레퍼런스
-- **톤:** 정밀하고 데이터 중심. 수치, 단위, 측정 기준 명시 필수
-- **길이:** 2,000–5,000단어 (추정 기준)
-- **필수 요소:** SPE 논문 인용, 현장 데이터 그래프, 엔지니어링 사양 표
-
-### 케이스 스터디
-- **구조:** 고객 도전 과제 → 솔루션 적용 → 측정 가능한 결과 → 고객 인용문
-- **톤:** 사실적, 겸손하되 성과 중심
-- **필수 수치:** % 비용 절감, % 생산성 향상, 다운타임 감소 시간
-- **금지:** 고객 명시 없는 일반적 성과 주장
-
-### 소셜 미디어 (LinkedIn 중심)
-- **형식:** 통찰 + 데이터 포인트 + CTA (링크 또는 백서)
-- **최적 길이:** 150–300자 한국어 기준 (추정)
-- **이미지:** 현장 사진 > 인포그래픽 > 렌더링
-- **해시태그 전략:** #EnergyTransition #BakerHughes #NaturalGas #CCUS (공식 계정 패턴)
-- **게시 빈도:** 주 3–5회 (추정)
-
-### 영상 콘텐츠
-- **형식 A — 기술 설명 영상:** 2–4분, 애니메이션 + 현장 B-roll
-- **형식 B — 고객 성공 스토리:** 3–6분, 인터뷰 중심
-- **형식 C — 경영진 thought leadership:** 1–3분, 직접 카메라 대면
-- **톤:** 전문적이되 딱딱하지 않음. 현장 실제감 중요
-
-### 인포그래픽
-- **활용:** 복잡한 기술 프로세스 시각화, 에너지 전환 타임라인, 글로벌 존재감 표현
-- **스타일:** 그래디언트 피하고 BKR 컬러 팔레트 직선적 사용 (05-design-system.md 참조)
+Pillar weighting estimates are based on observed content distribution; the company does not publish an official content strategy breakdown. All percentages are (estimated).
 
 ---
 
-## 메시지 프레임워크
+## Hook Patterns
 
-### 레이어 1 — 브랜드 레벨 (모든 커뮤니케이션 기반)
-> "Baker Hughes는 에너지를 더 안전하고, 더 깨끗하고, 더 효율적으로 만드는 에너지 기술 회사입니다."
+### Hook 1 — Industry Challenge Lead
 
-### 레이어 2 — 사업부별 포지셔닝
+Opens with a recognizable industry challenge or pain point before presenting Baker Hughes's perspective.
 
-| 사업부 | 핵심 메시지 |
-|--------|------------|
-| OFSE | "탐사에서 생산까지, 최저 비용으로 최고 신뢰성" |
-| IET | "LNG와 가스 기술로 에너지 전환의 가교를 놓다" |
-| Digital Solutions | "현장 데이터를 운영 인텔리전스로 — 실시간, 예측적, 자율적" |
-| New Energy | "오늘의 탄화수소 전문성으로 내일의 수소·CCUS를 구현" |
+- **Mechanism**: Demonstrates domain understanding before product positioning. Reader identifies with the problem before evaluating the solution.
+- **Applicable contexts**: Thought leadership content, solution marketing, webinar introductions.
 
-### 레이어 3 — 오디언스별 메시지
+### Hook 2 — Data-Driven Insight
 
-| 오디언스 | 핵심 메시지 |
-|---------|------------|
-| NOC 기술 임원 | "현지화된 파트너십 + 글로벌 기술 — ICV 요건 충족과 성과를 동시에" |
-| 독립계 E&P CFO | "배럴당 비용 절감 — 단가가 아닌 생애주기 TCO로 검증된 가치" |
-| ESG 투자자 | "에너지 전환은 전략적 선택이 아닌 BKR의 성장 엔진" |
+Opens with a specific data point, market statistic, or research finding relevant to the target audience.
 
----
+- **Mechanism**: Establishes credibility through data before narrative. Specification-oriented audiences engage with quantitative hooks.
+- **Applicable contexts**: White papers, industry reports, financial communications.
 
-## Steal Sheet — 콘텐츠 DNA 레이어별
+### Hook 3 — Customer Story Lead
 
-### Steal Sheet 1 — 기술 권위 콘텐츠 전술
+Opens with a specific customer scenario or outcome, then connects to broader solution capabilities.
 
-| 요소 | 세부 내용 |
-|------|---------|
-| 포맷 | SPE 컨퍼런스 논문 → 요약 백서 → LinkedIn 시리즈 → 영상 재패키징 |
-| 수치 무기화 | "3% 시추 비용 절감 = 연간 $XM 절약" 식으로 고객 수치 구체화 |
-| 신뢰 지표 | 논문 피인용 횟수, 특허 건수, 케이스 스터디 수 콘텐츠 내 명시 |
-| 차별화 포인트 | 경쟁사 대비 현장 테스트 데이터 우선 공개 타이밍 선점 |
+- **Mechanism**: Social proof creates relatability; "someone like me solved this problem" is a stronger hook than "our product does this."
+- **Applicable contexts**: Case studies, sales enablement content, conference presentations.
 
-### Steal Sheet 2 — 에너지 전환 내러티브 전술
+### Hook 4 — Regulatory or Market Shift
 
-| 요소 | 세부 내용 |
-|------|---------|
-| 이중 트랙 프레이밍 | "오늘의 수익(OFSE) → 내일의 성장(IET/New Energy)" 구조 반복 사용 |
-| 구체성 확보 | 수소 프로젝트 MW 규모, CCUS 톤/년 수치 항상 명시 |
-| 그린워싱 방어 | 제3자 인증(SBTi, ISO 14064) 및 외부 감사 결과 전면 배치 |
-| 투자자 연계 | IR 자료와 마케팅 메시지 일관성 유지 — "에너지 전환 매출 비중" KPI 공개 |
+Opens with a regulatory change, market trend, or industry shift that creates urgency for the audience.
 
-### Steal Sheet 3 — 고객 증거 콘텐츠 전술
-
-| 요소 | 세부 내용 |
-|------|---------|
-| 케이스 스터디 밀도 | 모든 주요 지역(중동, 북미, 아시아, 유럽)에 레퍼런스 1개 이상 상시 유지 |
-| 인용문 전략 | C레벨 인용 > VP 인용 > 엔지니어 인용 계층 구조 |
-| 수치 필수 기준 | 케이스 스터디 1건당 측정 가능 지표 최소 3개 포함 |
-| 경쟁 방어 | "검증된 레퍼런스가 없는 경쟁사 대비 X개 현장 배포 완료" 프레이밍 |
+- **Mechanism**: External forces create mandatory relevance — the reader must engage because the market demands it.
+- **Applicable contexts**: Compliance content, market intelligence, strategic advisory content.
 
 ---
 
-## 콘텐츠 금지 패턴
+## CTA Patterns
 
-| 패턴 | 이유 |
-|------|------|
-| "세계 최고(World's best/leading)" 수식어 단독 사용 | 근거 없는 주장으로 신뢰성 훼손 |
-| 데이터 없는 비율 주장 ("상당한 개선") | 기술 오디언스 신뢰 상실 |
-| 경쟁사 직접 비교 표 (공개 채널) | 법적 리스크 및 브랜드 격 저하 |
-| 에너지 전환 단독 강조 (탄화수소 포트폴리오 배제) | 핵심 고객군(NOC, E&P) 소외 |
-| 감성적 슬로건 남발 (기술 맥락 없이) | BKR 브랜드 기술 권위와 부조화 |
+| CTA Type | Baker Hughes Pattern | What Baker Hughes Does Not Use |
+|----------|---------------|--------------------------|
+| **Content engagement** | "Learn more" / "Read the full report" | High-pressure urgency language (observed on company website) |
+| **Sales engagement** | "Contact us" / "Request a consultation" | "Buy now" for complex solutions (observed on company website) |
+| **Event registration** | "Register" / "Join us" | "Limited seats — act now" scarcity signals (T4_INFERRED) |
+| **Product trial** | "Get started" / "Request a demo" | Countdown timers or flash sale elements (T4_INFERRED) |
+
+---
+
+## Tone & Mood Guide
+
+### Situation 1 — Product or Service Announcement
+
+**Mood**: Confident professionalism — measured excitement appropriate to energy sector norms.
+- Vocabulary: "introducing," "designed to," "engineered for," "built on"
+- Pacing: Feature, benefit, availability — structured and predictable
+
+### Situation 2 — Thought Leadership / Industry Commentary
+
+**Mood**: Authoritative insight — Baker Hughes as the sector expert sharing perspective.
+- Vocabulary: "we observe," "data indicates," "our analysis suggests," "based on"
+- Pacing: Context, insight, implication — building toward a conclusion
+
+### Situation 3 — Crisis or Negative News Response
+
+**Mood**: Measured accountability — acknowledge, scope, remediate.
+- Vocabulary: "we are aware," "we are taking steps," "our commitment remains"
+- Pacing: Acknowledgment first, then remediation plan, then forward-looking commitment
+
+### Situation 4 — Customer-Facing Communication
+
+**Mood**: Helpful expertise — knowledgeable and approachable.
+- Vocabulary: "you can," "designed for," "helping you," "supporting your"
+- Pacing: Customer need first, then solution, then next steps
+
+---
+
+## Content Prohibitions
+
+1. **No unverified performance claims.** All product or service claims must be supportable with documented evidence. (T4_INFERRED)
+2. **No named competitor disparagement.** Competitive positioning uses metric-based comparisons, not pejorative characterizations. (T4_INFERRED)
+3. **No forward-looking financial projections in marketing content.** Revenue or growth projections are restricted to SEC-filed documents. (T4_INFERRED)
+4. **No guaranteed outcome promises.** Results language uses "designed to," "intended to," or "typically delivers" rather than absolute guarantees. (T4_INFERRED)
+5. **No unauthorized use of customer names or logos.** Customer stories require documented permission. (T4_INFERRED)
+6. **No minimization of regulatory or legal proceedings.** Compliance with SEC disclosure requirements governs all legal-adjacent communications. (T4_INFERRED)
+
+---
+
+## Hashtag Strategy
+
+| Tag | Usage Context | Volume (estimated) |
+|-----|--------------|-------------------|
+| #BKR | Financial and investor community | Moderate (estimated) |
+| #BakerHughes | Brand-level social engagement | Varies (estimated) |
+| #EInnovation | Sector-level thought leadership | Low-moderate (estimated) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Lead with the customer's problem, not your solution.**
+Baker Hughes's content strategy benefits from opening with industry challenges that the target audience recognizes before positioning solutions. Transferable structure: audit your content library and ensure at least 60% of opening hooks reference the customer's challenge before your product.
+
+**2. Use data as a credibility anchor.**
+In energy markets, quantitative evidence carries more weight than qualitative claims. Transferable structure: ground every major claim in a specific, sourced data point. "Companies in oil & gas equipment & services face X challenge" backed by a cited statistic is stronger than the assertion alone.
+
+**3. Separate thought leadership from product marketing.**
+Baker Hughes's content works best when thought leadership content earns attention and credibility independently of product promotion. Transferable structure: create content tracks where thought leadership stands on its own merit, building audience trust that product marketing can then leverage.

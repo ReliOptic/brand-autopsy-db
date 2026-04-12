@@ -1,124 +1,84 @@
-# 02 오디언스 맵 — Synopsys (SNPS)
+# 02. Audience Map — Synopsys (SNPS)
 
-## 핵심 타겟 세그먼트 개요
-
-Synopsys의 구매 의사결정은 기술·비즈니스·보안 세 축이 교차하는 복잡한 B2B 구조다. 단일 담당자가 아닌 구매위원회(Buying Committee) 형태로 의사결정이 이루어진다.
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## ### 페르소나 1: 반도체 설계 수석 엔지니어 "이준형"
+## Ideal Customer Profile (ICP)
 
-**기본 프로필**
-- 나이: 42세 (추정)
-- 직책: Principal IC Design Engineer / 설계 수석 (추정)
-- 소속: 삼성전자, SK하이닉스, TSMC 협력사 등 대형 팹리스 (추정)
-- 경력: 15년 이상 반도체 설계 경력
-- 교육: 전기전자공학 석·박사
-
-**일상과 고충**
-- 매일 수천 만 게이트 규모의 SoC 설계 프로젝트를 관리
-- 설계 사이클 단축 압박 vs. 테이프아웃 실패 리스크 사이에서 상시 긴장
-- 툴 라이선스 비용 정당화를 경영진에게 설명해야 하는 내부 정치 부담
-- 레거시 툴과의 호환성 및 팀 러닝커브 우려
-
-**주요 목표**
-- PPA(Power, Performance, Area) 최적화
-- 테이프아웃 일정 준수 (Non-negotiable)
-- 설계 재사용율 극대화
-
-**정보 소비 채널**
-- DAC, ICCAD 등 학술 컨퍼런스 (공식)
-- Synopsys SolvNet 기술 포럼 (공식)
-- 업계 동료 네트워크 슬랙·이메일 (추정)
-- IEEE Spectrum, EE Times (추정)
-
-**구매 결정 기준**
-1. 툴 검증 정확도와 시뮬레이션 속도
-2. 기존 설계 플로우와의 통합 용이성
-3. 글로벌 기술 지원 품질
-
-**핵심 메시지 훅**
-> "설계 초기에 오류를 잡으면, 테이프아웃 비용의 10배를 절약한다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in application software and adjacent industries. (T4_INFERRED from Synopsys's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Synopsys's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## ### 페르소나 2: CISO / 소프트웨어 보안 담당 임원 "박소연"
+## Core Personas
 
-**기본 프로필**
-- 나이: 47세 (추정)
-- 직책: CISO 또는 VP of Application Security (추정)
-- 소속: 금융, 자동차, 방산 분야 대기업 (추정)
-- 경력: 보안 엔지니어링 20년, 최근 5년 임원직
-- 교육: 컴퓨터공학 학사 + CISSP / CISM 자격
+### Persona 1 — Enterprise Decision-Maker
 
-**일상과 고충**
-- 오픈소스 취약점(CVE)이 공급망에서 어디서 들어오는지 실시간 파악 불가
-- 규제 준수(SOC2, PCI-DSS, ISO 27001) 감사 준비에 분기당 수백 시간 소모
-- 개발팀과 보안팀 간의 문화 충돌 — "보안은 개발 속도를 죽인다"는 인식
-- 이사회에 보안 ROI를 숫자로 보여줘야 하는 의무
-
-**주요 목표**
-- SBOM(소프트웨어 부품 명세서) 자동 생성 및 관리
-- DevSecOps 파이프라인 통합
-- 제로데이 노출 시간(MTTD/MTTR) 단축
-
-**정보 소비 채널**
-- Gartner Magic Quadrant 보고서 (추정)
-- RSA Conference, Black Hat 발표 (추정)
-- Synopsys Software Integrity Group 블로그 (공식)
-- LinkedIn 임원 네트워크 (추정)
-
-**구매 결정 기준**
-1. SAST/SCA 도구의 오탐율(False Positive Rate)
-2. CI/CD 파이프라인 통합 속도
-3. 규정 준수 리포트 자동화 수준
-
-**핵심 메시지 훅**
-> "코드가 배포되기 전에 취약점을 막는 것이, 사고 후 대응보다 100배 저렴하다."
+- **Age / Occupation**: 42, VP-level or director in a Synopsys customer organization
+- **Core pain**: Needs reliable application software solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Synopsys selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-## ### 페르소나 3: 반도체 IP 전략 담당 임원 "David Chen"
+### Persona 2 — Technical Specialist / End User
 
-**기본 프로필**
-- 나이: 51세 (추정)
-- 직책: VP of Technology Strategy / CTO 직속 IP 전략팀장 (추정)
-- 소속: 애플, 퀄컴, 미디어텍 등 대형 팹리스 (추정)
-- 경력: 25년 반도체 업계, 설계→아키텍처→전략 이동
-- 교육: EE PhD + MBA
-
-**일상과 고충**
-- PCIe, USB, DDR 등 인터페이스 IP를 직접 개발할지 라이선스할지 상시 판단
-- IP 검증 기간이 전체 설계 일정의 30~40%를 잡아먹는 구조적 문제
-- 경쟁사 대비 시장 출시 속도(TTM) 압박
-- 지식재산권(IP) 분쟁 리스크 관리
-
-**주요 목표**
-- 검증된 3rd-party IP 도입으로 설계 리소스 집중
-- DesignWare IP 라이선스 ROI 최대화
-- 차세대 표준(UCIe, CXL 등) 대응 IP 선제 확보
-
-**정보 소비 채널**
-- Hot Chips, ISSCC 컨퍼런스 (공식)
-- Synopsys DesignWare IP 포트폴리오 카탈로그 (공식)
-- IHS Markit / Gartner 반도체 분석 보고서 (추정)
-- 전략적 파트너사 CTO 미팅 (추정)
-
-**구매 결정 기준**
-1. IP 검증 완성도 (silicon-proven 여부)
-2. 최신 공정 노드(3nm, 2nm) 지원 여부
-3. 장기 유지보수 및 업그레이드 경로
-
-**핵심 메시지 훅**
-> "검증된 IP 하나가, 자체 개발 실패 한 번을 막는다."
+- **Age / Occupation**: 35, technical professional who interacts with Synopsys's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Synopsys selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 구매 여정 단계별 콘텐츠 매핑
+### Persona 3 — Financial Stakeholder / Investor
 
-| 단계 | 페르소나 1 (엔지니어) | 페르소나 2 (CISO) | 페르소나 3 (IP 전략) |
-|------|----------------------|-------------------|---------------------|
-| 인지 | 컨퍼런스 기술 발표 | 업계 보안 리포트 | 산업 분석 보고서 |
-| 검토 | 툴 벤치마크 / 무료 평가판 | POC 및 파일럿 | IP 카탈로그 / 데이터시트 |
-| 결정 | 기술 지원 품질 확인 | 규정 준수 인증 | silicon-proven 레퍼런스 |
-| 유지 | SolvNet 지원 구독 | 연간 보안 업데이트 | IP 라이선스 갱신 |
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Synopsys's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Synopsys selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Synopsys's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Synopsys total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Synopsys Is Not For
+
+| Type | Characteristics | Why Synopsys Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Synopsys's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Synopsys's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Synopsys's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Synopsys's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Synopsys's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

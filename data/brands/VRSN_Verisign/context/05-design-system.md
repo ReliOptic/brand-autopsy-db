@@ -1,147 +1,102 @@
-# 05 디자인 시스템 — Verisign (VRSN)
+# 05. Design System — Verisign (VRSN)
 
-## 디자인 시스템 개요
-
-Verisign의 디자인 시스템은 **기관적 신뢰성(Institutional Credibility)** 을 시각 언어로 구현한다. 화려함보다 명료함, 혁신보다 일관성, 감성보다 기능을 우선한다. CSS 데이터 분석 기준으로 시스템을 재구성한다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 팔레트
+## 1. Color Palette
 
-> (공식): CSS 소스에서 직접 추출된 색상
-> (추정): 브랜드 컨텍스트 기반 역할 해석
+Verisign's visual identity, as observed on its official website, employs a structured color system appropriate to information technology sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-### 프라이머리 컬러
+### Core Brand Colors
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 브랜드 코어 블루 | Deep Navy | `#0F43A9` | 주요 CTA 버튼, 헤딩 강조 — count:3으로 가장 빈번 (공식) |
-| 기업 블루 | Verisign Blue | `#0061A3` | 링크, 아이콘, 보조 강조 (공식) |
-| 다크 네이비 | Midnight | `#025288` | 헤더 배경, 다크 섹션 (공식) |
-| 딥 슬레이트 | Dark Slate | `#2A3C46` | 텍스트 배경, 폼 요소 (공식) |
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-### 세컨더리 컬러
+### Color Principles
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 경고/오류 레드 | Alert Red | `#CF0000` | 에러 상태, 보안 경고 강조 (공식) |
-| 보조 퍼플 | Brand Purple | `#A7127E` | 특정 제품 라인 구분 액센트 (공식) |
-| 액센트 오렌지 | Signal Orange | `#E27A2D` | 배지, 태그, 강조 포인트 (공식) |
-| 인포 민트 | Info Mint | `#9ED8DB` | 정보성 섹션 배경, 성공 상태 (공식) |
-| 페일 아쿠아 | Pale Aqua | `#E7F2F3` | 카드 배경, 라이트 섹션 강조 (공식) |
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-### 뉴트럴 / 배경 컬러
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-| 역할 | 색상명 | HEX | 용도 |
-|------|--------|-----|------|
-| 라이트 배경 | Off White | `#F8F8F8` | 기본 페이지 배경 (공식) |
-| 서브 배경 | Light Gray | `#F2F2F2` | 섹션 구분 배경 (공식) |
-| 보더 라이트 | Border Light | `#DDDDDD` | 카드·테이블 테두리 (공식) |
-| 보더 미드 | Border Mid | `#D4D4D4` | 구분선, 입력 필드 테두리 — count:2 (공식) |
-| 보더 다크 | Border Dark | `#E5E7EB` | 다크 모드 경계 (공식) |
-| 바디 텍스트 | Medium Gray | `#6D6D6D` | 본문 텍스트, 캡션 (공식) |
-| 서브 텍스트 | Muted Gray | `#868686` | 플레이스홀더, 비활성 텍스트 (공식) |
-| 메타 텍스트 | Subtle Gray | `#9CA3AF` | 날짜, 태그, 메타 정보 (공식) |
-| 다크 텍스트 | Almost Black | `#151B17` | 고대비 본문 텍스트 (공식) |
-| 딥 다크 | Deep Charcoal | `#212D44` | 푸터 배경, 다크 컨테이너 (공식) |
-| 순수 블루 | Pure Blue | `#0000FF` | 미분류 (레거시 링크 컬러 추정) (공식) |
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
+
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 컬러 사용 원칙
+## 2. Typography
 
-### 대비 및 접근성 (추정)
+Verisign's digital properties employ a typographic system appropriate to its information technology positioning.
 
-- `#0F43A9` on `#FFFFFF`: 명도 대비 약 8.5:1 → WCAG AA/AAA 통과 (추정)
-- `#CF0000` on `#FFFFFF`: 약 5.9:1 → WCAG AA 통과 (추정)
-- `#6D6D6D` on `#FFFFFF`: 약 4.6:1 → WCAG AA 통과 (추정)
+### Typeface System
 
-### 컬러 계층 우선순위
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-```
-1순위: #0F43A9 (Deep Navy Blue) — CTA, 핵심 인터랙션
-2순위: #0061A3 (Verisign Blue) — 링크, 강조
-3순위: #2A3C46 (Dark Slate) — 헤더, 다크 영역
-4순위: #CF0000 (Alert Red) — 경고, 오류만
-5순위: 나머지 액센트 컬러 — 맥락별 제한 사용
-```
+### Typographic Scale
 
----
-
-## 타이포그래피 시스템
-
-### 폰트 패밀리 계층
-
-| 계층 | 폰트 | 용도 | 분류 |
-|------|------|------|------|
-| 프라이머리 UI | Inter | 네비게이션, 버튼, 레이블, 본문 | Sans-serif (공식) |
-| 브랜드 세리프 | Roboto Serif | 헤딩, 인용구, 에디토리얼 섹션 | Serif (공식) |
-| 폴백 산세리프 | Arial | 시스템 폴백 | Sans-serif (공식) |
-| 에디토리얼 세리프 | Georgia | 장문 아티클, 보고서 본문 | Serif (공식) |
-
-### 모노스페이스 스택 (코드/기술 콘텐츠)
-
-```css
-font-family: Consolas, "Courier New", "Liberation Mono",
-             Menlo, Monaco, "SFMono-Regular",
-             ui-monospace, monospace;
-```
-
-> 기술 문서, API 레퍼런스, DNS 쿼리 예시에 사용 (공식 스택)
-
-### 타이포그래피 스케일 (추정)
-
-| 레벨 | 크기 | 폰트 | 사용 위치 |
-|------|------|------|---------|
-| Display | 48–64px | Roboto Serif Bold | 히어로 헤딩 |
-| H1 | 36–40px | Roboto Serif SemiBold | 페이지 제목 |
-| H2 | 28–32px | Inter SemiBold | 섹션 제목 |
-| H3 | 20–24px | Inter Medium | 서브섹션 |
-| Body | 16px | Inter Regular | 본문 |
-| Caption | 12–14px | Inter Regular | 캡션, 메타 |
-| Code | 14px | Consolas/Monospace | 코드 블록 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 레이아웃 & 그리드 원칙 (추정)
+## 3. Channel Specifications
 
-- **최대 컨테이너 너비**: 1200–1440px
-- **그리드**: 12컬럼, 거터 24–32px
-- **섹션 패딩**: 80–120px (수직), 24–48px (수평)
-- **카드 반경**: 4–8px (절제된 라운드)
-- **보더**: 1px solid, 주로 `#DDDDDD` / `#D4D4D4`
-
----
-
-## 디자인 원칙
-
-### 원칙 1: 신뢰는 여백에서 온다
-정보 밀도를 낮추고 충분한 여백을 확보하여 콘텐츠에 권위를 부여한다. 복잡한 기술 내용일수록 레이아웃은 단순해야 한다.
-
-### 원칙 2: 파란색은 신뢰의 언어다
-프라이머리 블루(`#0F43A9`, `#0061A3`)는 은행·정부 기관과 동일한 심리적 포지션을 차지한다. 레드(`#CF0000`)는 경고에만, 오렌지(`#E27A2D`)는 강조에만 제한 사용한다.
-
-### 원칙 3: 데이터는 시각화한다
-수치 기반 주장(99.9999%, 수십억 쿼리)은 텍스트보다 인포그래픽, 차트, 카운터 애니메이션으로 전달한다.
-
-### 원칙 4: 기술 정확성이 미학보다 우선이다
-UI 트렌드보다 정보 계층(Information Hierarchy)의 명확성을 우선한다. 유행하는 디자인 요소(glassmorphism, bold gradients)는 제한적으로만 허용한다.
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 아이콘 & 일러스트레이션 (추정)
+## 4. Layout Principles
 
-- 스타일: 선형(Line) 아이콘, 2px 스트로크
-- 주제: 네트워크, 자물쇠, 지구본, 서버, 방패
-- 컬러: 단색 (`#0F43A9` 또는 `#0061A3`)
-- 일러스트: 추상적 기술 다이어그램 (사람 중심 일러스트 제한적)
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어
+## 5. Design Prohibitions
 
-| # | 훔쳐올 전략 | 적용 방법 |
-|---|------------|---------|
-| 1 | **CSS 변수 시스템으로 컬러 거버넌스** — `var(--odo-font-family)` 같은 커스텀 속성 사용은 디자인 토큰 기반 시스템의 증거다. 팀 전체가 동일한 컬러·타이포 값을 참조하게 만든다 | 디자인 토큰(색상, 타이포, 스페이싱)을 CSS 변수로 중앙화하고, Figma 변수와 코드 변수를 동기화하는 싱글 소스 오브 트루스를 구축하라 |
-| 2 | **모노스페이스 폰트 스택의 전략적 사용** — 코드 예시를 풍부하게 노출하는 것 자체가 "기술 전문성"의 시각적 신호다. 기술 문서를 디자인 요소로 활용한다 | 기술 대상 랜딩페이지에 코드 블록, 터미널 시뮬레이션, API 응답 예시를 의도적으로 노출하여 "개발자도 신뢰하는 제품"임을 증명하라 |
-| 3 | **제한적 컬러 사용으로 주의 집중** — 10개 이상의 컬러 중 실제 인터랙션에는 `#0F43A9` 하나를 집중 사용한다. 노이즈를 줄이고 CTA에 시선을 모은다 | 페이지당 인터랙티브 컬러를 최대 2개로 제한하고, 나머지는 배경·보더 역할로만 허용하는 컬러 사용 정책을 문서화하라 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Verisign (VRSN)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

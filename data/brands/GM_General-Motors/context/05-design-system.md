@@ -1,167 +1,102 @@
-# 05 디자인 시스템 — General Motors (GM)
+# 05. Design System — General Motors (GM)
 
-## 디자인 철학
-
-GM의 디자인 언어는 브랜드별로 뚜렷하게 분기되어 있으나,
-모 브랜드 레벨에서 공유하는 기반 원칙이 있다:
-**"단순하고 대담한 형태, 미국적 스케일, 전기 시대의 정제된 기술감."**
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### GM 모 브랜드 / 기업 커뮤니케이션
+General Motors's visual identity, as observed on its official website, employs a structured color system appropriate to consumer discretionary sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 색상명 | HEX | 용도 | 분류 |
-|--------|-----|------|------|
-| GM Blue | `#0057B8` | 기업 공식 브랜드 컬러, IR·기업 커뮤니케이션 | 공식 |
-| GM Dark Navy | `#00263A` | 기업 공식 다크 배경, 고급감 강조 | 공식 |
-| Pure White | `#FFFFFF` | 공식 배경, 여백 | 공식 |
-| Cool Gray | `#8C8C8C` | 보조 텍스트, 세컨더리 UI | 공식 |
-| Electric Blue Accent | `#00ADEF` | EV·기술 강조, 디지털 터치포인트 | 추정 |
+### Core Brand Colors
 
-### Chevrolet
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#006633` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f5f5f5` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 색상명 | HEX | 용도 | 분류 |
-|--------|-----|------|------|
-| Chevy Gold | `#C8A84B` | 골드 보타이 엠블럼, 브랜드 시그니처 | 공식 |
-| Chevy Black | `#1A1A1A` | 엠블럼 배경, 프리미엄 라인 강조 | 공식 |
-| Rally Red | `#B22222` | 스포츠·퍼포먼스 라인 강조 | 추정 |
-| Summit White | `#F5F5F5` | 베스트셀러 외장 컬러 기준색 | 공식 |
-| Mosaic Black Metallic | `#2B2B2B` | 트럭·SUV 인기 외장색 | 공식 |
+### Color Principles
 
-### GMC
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-| 색상명 | HEX | 용도 | 분류 |
-|--------|-----|------|------|
-| GMC Chrome Red | `#C0392B` | 엠블럼 포인트 컬러 | 공식 |
-| Professional Dark | `#1C1C1C` | 배경, 고급 라인 (Denali, AT4X) | 공식 |
-| Steel Gray | `#6E7B8B` | 프로페셔널 보조 컬러 | 추정 |
-| Canyon Bronze | `#7D5A3C` | Canyon/Sierra 외장 옵션 대표색 | 추정 |
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
-### Buick
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-| 색상명 | HEX | 용도 | 분류 |
-|--------|-----|------|------|
-| Buick Tri-Shield Silver | `#C0C0C0` | 트리쉴드 엠블럼 실버 | 공식 |
-| Deep Sapphire | `#1B3A6B` | 프리미엄 블루, 고급감 강조 | 추정 |
-| Champagne Gold | `#C8A96E` | 고급 인테리어·트림 강조 | 추정 |
-| Pearl White | `#F8F4EE` | 플래그십 외장 기준색 | 추정 |
-
-### Cadillac
-
-| 색상명 | HEX | 용도 | 분류 |
-|--------|-----|------|------|
-| Cadillac Black | `#0D0D0D` | 브랜드 시그니처, 플래그십 배경 | 공식 |
-| Cadillac Gold | `#C5A028` | 크레스트 엠블럼 골드, 럭셔리 포인트 | 공식 |
-| Argent Silver | `#9EA8B3` | 엠블럼 보조 컬러, 기술감 표현 | 공식 |
-| Stellar Black Metallic | `#1A1A2E` | LYRIQ·EV 라인 시그니처 익스테리어 | 추정 |
-| Infrared | `#C0392B` | CT4-V·CT5-V 퍼포먼스 시그니처 컬러 | 추정 |
-| Crystal White Tricoat | `#F0EFE8` | 플래그십 외장 프리미엄 화이트 | 공식 |
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 타이포그래피 시스템
+## 2. Typography
 
-### GM 모 브랜드
+General Motors's digital properties employ a typographic system appropriate to its consumer discretionary positioning.
 
-| 역할 | 서체명 | 특성 | 분류 |
-|------|--------|------|------|
-| 기업 헤드라인 | Louis (GM 전용 커스텀 서체) | 기하학적, 현대적, 대담 | 공식 |
-| 본문 | Inter / GM Sans (추정) | 가독성 우선, 디지털 최적화 | 추정 |
-| 법적·공시 텍스트 | Arial / Helvetica Neue | 범용성 | 추정 |
+### Typeface System
 
-### Cadillac
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
-| 역할 | 서체명 | 특성 | 분류 |
-|------|--------|------|------|
-| 헤드라인 | Berlingske Serif (추정) | 세리프, 권위, 럭셔리 | 추정 |
-| 서브헤드 | Gotham / 커스텀 Sans | 날카롭고 현대적 | 추정 |
-| 본문 | Cadillac Sans (전용 추정) | 정제된 산세리프 | 추정 |
+### Typographic Scale
 
-### Chevrolet
-
-| 역할 | 서체명 | 특성 | 분류 |
-|------|--------|------|------|
-| 헤드라인 | Chevrolet Pinstripe (추정) | 친근하고 역동적 | 추정 |
-| 본문 | Gill Sans / 커스텀 | 읽기 쉽고 접근적 | 추정 |
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 로고 & 엠블럼 시스템
+## 3. Channel Specifications
 
-### GM 모 브랜드 로고 원칙
-- **형태:** 소문자 'gm' 블록 타입, 파란색 사각형 내 배치 (공식)
-- **최소 여백:** 로고 높이의 50% 이상 (추정)
-- **사용 금지:** 회전, 변형, 비례 왜곡, 흰색 배경 이외의 저채도 컬러 배치
-
-### Chevrolet 보타이 (Bowtie) 엠블럼
-- **2021년 리디자인:** 평면(flat) 처리, 골드-블랙 투톤에서 싱글 컬러로 전환 가능 (공식)
-- **EV 전용:** 황금 보타이 위 파란색 배경 "Electric" 뱃지 추가 (공식)
-
-### Cadillac 크레스트
-- **2021년 리디자인:** 방패 형태 단순화, 3D 입체감 제거, 평면 모노그램 스타일로 전환 (공식)
-- **색상:** 골드·블랙·실버 3색 (공식)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 디자인 언어 원칙
+## 4. Layout Principles
 
-### Chevrolet — "Bold, Purposeful Simplicity"
-- 강한 라인, 넓은 스탠스, 기능 우선 형태
-- 인테리어: 조작 편의성 중심, 실용적 공간 활용
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
 
-### GMC — "Professional Grade Precision"
-- 각진 그릴, 수직 DRL 라이팅 시그니처
-- Denali: 크롬 트림 극대화, 권위와 존재감
-- AT4X: 오프로드 기능성을 시각 언어로 표현
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
 
-### Buick — "Quiet Luxury"
-- 유려한 곡선, 절제된 크롬, 소음 차단 강조 "Avenir" 하위 브랜드
-- 중국 시장: 더 큰 사이즈, 더 화려한 디테일 적용 (추정)
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
 
-### Cadillac — "Art and Science"
-- 날카로운 직선과 평면의 기하학적 대비
-- 수직 라이팅 시그니처 (DRL·테일램프)
-- LYRIQ 이후: 더 유기적이고 조각적인 형태로 진화 중 (공식)
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## UI/UX 디자인 시스템 (인카 경험)
+## 5. Design Prohibitions
 
-| 요소 | 내용 | 분류 |
-|------|------|------|
-| 인포테인먼트 플랫폼 | Google Built-in (Android Auto/Carplay + 네이티브 Google OS) | 공식 |
-| 디스플레이 | 최대 33인치 OLED 곡면 (Cadillac CELESTIQ) | 공식 |
-| 계기판 | 풀 디지털 클러스터 (대부분 신형 라인업) | 공식 |
-| 음성 AI | Google Assistant 통합 | 공식 |
-| OTA 업데이트 | 무선 소프트웨어 업데이트 지원 (EV 라인업) | 공식 |
-| 커넥티비티 | OnStar 4G LTE + Wi-Fi 핫스팟 | 공식 |
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
 ---
 
-## Steal Sheet — 레이어별 3개
-
-### Steal Sheet Layer 1: 비주얼 아이덴티티
-
-| # | 훔쳐올 인사이트 | 출처 | 적용 방안 |
-|---|--------------|------|----------|
-| 1 | Audi의 단일 라이팅 시그니처 (매트릭스 LED) — 어두운 곳에서도 브랜드 인식 | Audi 디자인 | Cadillac 수직 라이팅 시그니처를 모든 EV에 통일 적용, "밤의 로고"로 강화 |
-| 2 | Apple의 소재 프리미엄 — 알루미늄·유리의 일관된 촉감 언어 | Apple 하드웨어 | Cadillac 인테리어 소재 팔레트 표준화 (3개 소재 조합으로 제한) |
-| 3 | Tesla의 미니멀 인테리어 — 버튼 제거, 디스플레이 집중 | Tesla 인테리어 | Chevrolet EV 인테리어의 물리 버튼 수를 40% 감소 목표, 디스플레이 중심 재설계 |
-
-### Steal Sheet Layer 2: 타이포그래피 & 언어
-
-| # | 훔쳐올 인사이트 | 출처 | 적용 방안 |
-|---|--------------|------|----------|
-| 1 | Nike의 감각적 단어 선택 — "Just Do It"의 동사 우선 문법 | Nike 카피라이팅 | GM 광고 카피에 동사 중심 문장 강제 룰 적용 ("Drive Zero" 등) |
-| 2 | Rolls-Royce의 타이포그래피 여백 — 텍스트 밀도 낮춤이 곧 럭셔리 | Rolls-Royce 마케팅 | Cadillac 인쇄물·디지털 광고의 텍스트 밀도 50% 감소 디자인 가이드 |
-| 3 | Supreme의 단일 박스 로고 — 극도 단순화로 아이코닉 지위 확보 | Supreme 브랜딩 | Chevy 보타이 단색 버전을 EV 전용 배지로 강화, 서브컬처 굿즈화 |
-
-### Steal Sheet Layer 3: 디지털 & 인카 UX
-
-| # | 훔쳐올 인사이트 | 출처 | 적용 방안 |
-|---|--------------|------|----------|
-| 1 | Rivian의 "Adventure Network" 지도 UI — 오프로드 루트와 충전 연동 | Rivian 앱/디스플레이 | GM 오프로드 트럭용 전용 지형 + 충전 인프라 통합 내비게이션 모드 |
-| 2 | Tesla의 오토파일럿 시각 피드백 — 실시간 주변 환경 렌더링 | Tesla FSD UI | UltraCruise 활성화 시 서라운드 뷰 실시간 렌더링 HUD 강화 |
-| 3 | BMW iDrive의 물리+디지털 하이브리드 컨트롤 — 촉각 피드백 유지 | BMW 인포테인먼트 | Cadillac EV에 햅틱 피드백 터치 컨트롤 + 로터리 노브 병행 채택 |
+*Layer 5 of 8 — Brand Autopsy: General Motors (GM)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

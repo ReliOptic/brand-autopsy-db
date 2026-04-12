@@ -1,79 +1,84 @@
-# 02. 오디언스 맵 — 엔비디아 (NVIDIA)
+# 02. Audience Map — Nvidia (NVDA)
 
-## ICP (Ideal Customer Profile)
-
-| 항목 | 내용 |
-|------|------|
-| 세그먼트 | 엔터프라이즈 AI 인프라 구축 기관 |
-| 규모 | 연매출 5억 달러 이상 또는 AI R&D 예산 5,000만 달러 이상 |
-| 직무 | CTO, VP of Engineering, Head of AI/ML Infrastructure |
-| 지역 | 북미·유럽·동아시아 (데이터센터 집중 지역) |
-| 핵심 문제 | 급증하는 AI 학습·추론 워크로드를 기존 CPU 인프라로 감당 불가 |
-| 구매 동기 | 경쟁사 대비 AI 모델 배포 속도 선점, TCO 절감, CUDA 생태계 활용 |
-| 구매 장벽 | 단가, 전력 소비, 공급망 대기시간 (수개월) |
-| 핵심 KPI | 학습 처리량(tokens/sec), 추론 지연(latency ms), 에너지 효율(TFLOPS/W) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 다니엘 김 (AI 인프라 리드, 빅테크)
-
-- **나이 / 직책**: 38세, Senior Infrastructure Engineer @ 대형 클라우드 기업
-- **목표**: H100/H200 클러스터를 최단 시간에 프로덕션 안정화, CUDA 커널 최적화로 학습 비용 20% 절감
-- **좌절**: 드라이버 업데이트 후 재현 불가한 버그, NVLink 토폴로지 이슈, NVIDIA 공급 대기 리드타임
-- **정보 소비**: arXiv 논문, NVIDIA 개발자 블로그, GTC 세션 영상, GitHub 이슈 트래커
-- **결정 방식**: 벤치마크 수치 직접 재현 후 구매 권고. 영업 PT는 신뢰하지 않음.
-- **NVIDIA 접점**: CUDA 포럼, NGC 컨테이너, NIM 마이크로서비스, GTC On-Demand
-
-### 페르소나 2 — 사라 펠드만 (CTO, AI 스타트업)
-
-- **나이 / 직책**: 44세, CTO @ 시리즈 B AI SaaS 스타트업 (직원 120명)
-- **목표**: GPU 클라우드 비용을 월 $80만 이하로 유지하면서 GPT-4급 추론 서비스 제공
-- **좌절**: H100 온프레미스 구매 불가 (예산 한계), AWS/GCP GPU 인스턴스 가용성 불안정
-- **정보 소비**: a16z 블로그, SemiAnalysis 뉴스레터, LinkedIn 업계 리더 피드
-- **결정 방식**: ROI 계산 후 CFO 설득 자료 제작. 총소유비용(TCO) 시뮬레이션 우선.
-- **NVIDIA 접점**: NVIDIA AI Enterprise 라이선스, DGX Cloud, 파트너 리셀러 채널
-
-### 페르소나 3 — 이준혁 (게이밍 콘텐츠 크리에이터)
-
-- **나이 / 직책**: 26세, 풀타임 유튜버 / 스트리머 (구독자 45만)
-- **목표**: 4K 120fps 게임 플레이 + AI 기반 영상 편집으로 콘텐츠 퀄리티 극대화
-- **좌절**: RTX 5090 가격 부담, VRAM 한계로 AI 영상 생성 속도 저하
-- **정보 소비**: YouTube 테크 리뷰 채널, Reddit r/hardware, Twitch 스트리머 커뮤니티
-- **결정 방식**: 유튜버 벤치마크 영상 시청 후 구매. 게임별 FPS 수치와 DLSS 품질이 핵심.
-- **NVIDIA 접점**: GeForce 공식 채널, DLSS/RTX 기능 마케팅, 게임 번들 프로모션
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers, procurement managers, and technical specialists in semiconductors and adjacent industries. (T4_INFERRED from Nvidia's segment structure) |
+| **Occupation segments** | IT directors, CIOs, software engineers, technology procurement managers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Nvidia's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-## AARRR 퍼널
+## Core Personas
 
-| 단계 | 핵심 지표 | NVIDIA 전술 |
-|------|-----------|-------------|
-| Acquisition (획득) | GTC 등록자 수, CUDA 다운로드 수 | GTC 무료 공개, CUDA 무료 배포, 학술 GPU 지원 프로그램 |
-| Activation (활성화) | NGC 컨테이너 첫 실행, NIM API 첫 호출 | 사전 최적화 모델 컨테이너 제공, 5분 내 추론 환경 구성 가이드 |
-| Retention (유지) | CUDA 버전 의존 코드베이스 누적량 | CUDA 하위 호환성 유지, 개발자 포럼 활성화, 인증 프로그램 |
-| Revenue (수익) | GPU 판매 단가 × 대수, AI Enterprise 라이선스 ARR | 엔터프라이즈 번들, DGX Cloud 구독, 파트너 생태계 리셀러 |
-| Referral (추천) | 논문 인용 횟수, 유튜버 자발적 언급 | GTC 스피커 프로그램, 학술 공동 연구 후원, 인플루언서 Early Access |
+### Persona 1 — Enterprise Decision-Maker
 
----
-
-## Anti-Persona — 이 고객은 우리가 원하지 않는다
-
-| 항목 | 내용 |
-|------|------|
-| 유형 | 단가 기반 조달 담당자 (Price-only Procurement) |
-| 특징 | 기술 이해 없이 CPU 대비 가격만 비교, AMD MI300X와 스펙시트만으로 선택 |
-| 문제 | 소프트웨어 스택 통합 비용을 무시, 도입 후 CUDA 생태계 활용 실패 → 불만족 사례 생성 |
-| 브랜드 리스크 | "비싸기만 하고 복잡하다" 라는 부정적 레퍼런스를 업계에 유포 |
-| 대응 | TCO 계산기 제공으로 전체 비용 프레임 전환, 기술 검증팀(POC) 동반 영업 필수 |
+- **Age / Occupation**: 42, VP-level or director in a Nvidia customer organization
+- **Core pain**: Needs reliable semiconductors solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Nvidia selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### Steal Sheet — 마케터가 훔쳐갈 3가지
+### Persona 2 — Technical Specialist / End User
 
-1. **"개발자를 먼저 포섭하면 예산 결정권자는 따라온다."** NVIDIA의 CUDA 무료 배포 전략은 20년 뒤 조달 부서가 "우리 팀이 CUDA에서 못 나간다"는 말을 하게 만들었다. → 마케터 적용: B2B 판매 전에 실무자(개발자·디자이너·분석가)가 무료로 의존하게 만드는 도구를 먼저 배포하라.
+- **Age / Occupation**: 35, technical professional who interacts with Nvidia's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Nvidia selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
-2. **"페르소나별 기술 깊이를 다르게 하라."** 다니엘(엔지니어)에게는 CUDA 커널 최적화 가이드를, 사라(CTO)에게는 TCO 시뮬레이터를, 이준혁(크리에이터)에게는 FPS 벤치마크 영상을 준다. 같은 제품, 다른 언어. → 적용: 동일 제품의 콘텐츠를 직무·기술수준별로 최소 3종으로 분기하라.
+---
 
-3. **"Anti-Persona를 정의하면 영업 에너지 낭비를 막는다."** 가격 조달 담당자를 상대하는 데 쓰는 영업 자원을 기술 챔피언 육성에 재배분하면 전환율이 높아진다. → 적용: CRM에 Anti-Persona 태그를 만들고, 해당 리드는 별도 TCO 교육 트랙으로 분리하라.
+### Persona 3 — Financial Stakeholder / Investor
+
+- **Age / Occupation**: 50, institutional investor or analyst covering Information Technology
+- **Core pain**: Needs to evaluate Nvidia's financial performance, competitive positioning, and risk factors for investment decisions.
+- **Nvidia selection rationale**: Financial metrics, market positioning, management quality, and sector dynamics as disclosed in SEC filings. (T4_INFERRED)
+- **Churn risk**: Driven by financial performance relative to sector benchmarks.
+- **Media touchpoints**: SEC filings, earnings calls, analyst reports, financial media (Bloomberg, Reuters)
+
+---
+
+## Purchase Journey — AARRR Framework
+
+| Stage | Nvidia's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Nvidia total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Nvidia Is Not For
+
+| Type | Characteristics | Why Nvidia Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Nvidia's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Nvidia's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Nvidia's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Nvidia's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Nvidia's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In information technology markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

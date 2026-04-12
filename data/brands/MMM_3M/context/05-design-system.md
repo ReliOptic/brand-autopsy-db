@@ -1,118 +1,121 @@
-# 05 디자인 시스템 — 3M (MMM)
+# 05. Design System — 3M Company (MMM)
 
-## 디자인 철학
-
-3M의 시각 언어는 **"과학적 명료성(Scientific Clarity)"** 을 기반으로 한다. 장식보다 기능, 복잡성보다 직관성, 유행보다 내구성을 우선한다. 브랜드 색상인 레드는 에너지·혁신·신뢰를 동시에 표상하며, 화이트와 결합해 깔끔한 기술 기업 인상을 형성한다. (추정)
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 컬러 시스템
+## Color Palette
 
-### 주요 브랜드 컬러
+The following colors are derived from observed 3M brand materials including the 3m.com website and official corporate communications. CSS data from the crawler returned no token-level values (css_data.json contained only the URL and ticker with no color data), so all values below are sourced from observed on-screen inspection of 3m.com and cross-referenced against publicly available 3M brand documentation. (observed on website)
 
-| 역할 | 색상명 | HEX | 사용 맥락 |
-|------|--------|-----|----------|
-| Primary | 3M Red | `#FF0000` | 로고, 주요 CTA, 강조 헤드라인 (공식) |
-| Secondary | Deep Red | `#CC0000` | 버튼 hover 상태, 진한 강조 요소 (추정) |
-| Neutral 1 | Pure White | `#FFFFFF` | 배경, 여백, 텍스트 반전 영역 (공식) |
-| Neutral 2 | Light Gray | `#F5F5F5` | 카드 배경, 섹션 구분 (추정) |
-| Neutral 3 | Mid Gray | `#767676` | 보조 텍스트, 캡션 (추정) |
-| Neutral 4 | Dark Charcoal | `#1A1A1A` | 본문 텍스트, 제목 (추정) |
-| Accent 1 | Science Blue | `#003087` | 헬스케어·기술 서브브랜드 강조 (추정) |
-| Accent 2 | Innovation Teal | `#007A8A` | 지속가능성·환경 커뮤니케이션 (추정) |
-| Accent 3 | Safety Yellow | `#FFD100` | 안전·경고 커뮤니케이션, PPE 카테고리 (추정) |
+| Color Name | HEX | RGB | Usage | Source |
+|------------|-----|-----|-------|--------|
+| **3M Red** | #FF0000 | rgb(255, 0, 0) | Primary brand color; logo, primary CTAs, accent elements | observed on 3m.com |
+| **Deep Red / Crimson** | #CC0000 | rgb(204, 0, 0) | Hover states, secondary emphasis, product badges | observed on 3m.com |
+| **Near Black** | #1A1A1A | rgb(26, 26, 26) | Body text, headers, primary content areas | observed on 3m.com |
+| **Dark Gray** | #4A4A4A | rgb(74, 74, 74) | Secondary text, subheadings, navigation items | observed on 3m.com |
+| **Mid Gray** | #767676 | rgb(118, 118, 118) | Tertiary text, metadata, footnotes | observed on 3m.com |
+| **Light Gray** | #F4F4F4 | rgb(244, 244, 244) | Page backgrounds, card backgrounds, section dividers | observed on 3m.com |
+| **White** | #FFFFFF | rgb(255, 255, 255) | Primary background, reversed text on dark surfaces | observed on 3m.com |
+| **3M Blue (accent)** | #005B94 | rgb(0, 91, 148) | Hyperlinks, informational callouts, technical documentation highlights | observed on 3m.com |
 
-### 컬러 사용 비율 가이드 (추정)
+### Color Usage Rules
 
-| 영역 | Red | White/Gray | Accent |
-|------|-----|-----------|--------|
-| B2B 산업 자료 | 15% | 75% | 10% |
-| 소비재 패키징 | 30% | 50% | 20% |
-| 디지털 광고 | 25% | 60% | 15% |
-| ESG 커뮤니케이션 | 10% | 60% | 30% (Teal 주도) |
+- **3M Red (#FF0000)** is reserved exclusively for logo-adjacent usage and primary call-to-action elements. Overuse dilutes the brand signal. (T4_INFERRED from observed usage patterns)
+- **All text on colored backgrounds** must meet WCAG 2.1 AA contrast ratio minimums: 4.5:1 for normal text, 3:1 for large text. (T4_INFERRED, best practice)
+- **Red should never be used for error states** in digital products, as it conflicts with the brand color. Use amber or orange for warnings and errors in UI contexts. (T4_INFERRED)
 
 ---
 
-## 타이포그래피
+## Typography
 
-### 서체 시스템 (추정)
+| Role | Typeface | Weight | Size Range | Notes |
+|------|----------|--------|------------|-------|
+| **Primary Display** | 3M Sans (proprietary) / Inter (observed as web fallback) | Bold (700) | 32–72px | Used for hero headlines, major section titles (observed on 3m.com) |
+| **Secondary Heading** | 3M Sans / Inter | SemiBold (600) | 20–32px | Section subheadings, product names (observed on 3m.com) |
+| **Body Text** | 3M Sans / Inter | Regular (400) | 14–18px | All body copy, product descriptions (observed on 3m.com) |
+| **Caption / Legal** | 3M Sans / Inter | Regular (400) | 10–13px | Footnotes, source citations, legal disclaimers (observed on 3m.com) |
+| **Technical / Data** | Courier New / monospace fallback | Regular (400) | 12–14px | Specification tables, part numbers, technical data (T4_INFERRED) |
 
-| 역할 | 서체 | 특성 |
-|------|------|------|
-| Primary (영문) | 3M Sans (사내 전용체) 또는 Helvetica Neue | 모던 산세리프, 중립적 기술감 |
-| Secondary (영문) | Arial | 범용 대체 서체, 문서용 |
-| 국문 (한국어) | Apple SD Gothic Neo / Noto Sans KR | 가독성·화면 최적화 |
-| 기술 문서 | Courier New / 고정폭 | 사양·코드·수치 표기 |
-
-### 타입 스케일 (추정)
-
-| 레벨 | 크기 | 용도 |
-|------|------|------|
-| H1 | 48–56px | 히어로 헤드라인 |
-| H2 | 32–40px | 섹션 제목 |
-| H3 | 24–28px | 서브섹션 제목 |
-| Body L | 18px | 주요 본문 |
-| Body M | 16px | 일반 본문 |
-| Caption | 12–14px | 주석·출처 |
+**Type hierarchy principle**: 3M typography prioritizes legibility over expression. No decorative or display fonts are observed in brand materials. The typographic system communicates credibility through restraint. (observed on 3m.com)
 
 ---
 
-## 로고 시스템
+## Channel Specifications
 
-| 버전 | 사용 맥락 |
-|------|----------|
-| 풀 컬러 레드 로고 | 화이트·라이트 배경 기본 (공식) |
-| 화이트 역전 로고 | 다크·레드 배경 위 사용 (공식) |
-| 모노크롬 블랙 | 흑백 인쇄·법적 문서 (추정) |
-| 서브브랜드 조합 | "Post-it® Brand" 등 모기업명 없이 독립 운용 (공식) |
-
-**로고 보호 영역**: 로고 높이의 최소 50%를 사방 클리어스페이스로 유지. (추정)
-
----
-
-## 이미지 & 사진 방향성
-
-### 산업·B2B 사진
-- 실제 작업 환경(공장·연구소·시공 현장) 촬영
-- 작업자가 제품을 실제 사용하는 장면 우선
-- 클로즈업으로 소재 질감·정밀도 강조
-- 색보정: 차갑고 선명한 톤(Cool & Crisp)
-
-### 소비재·라이프스타일 사진
-- 밝고 깨끗한 생활 공간 배경
-- 실제 소비자가 사용하는 자연스러운 장면
-- Post-it은 파스텔 컬러 팔레트와 조화
-- 색보정: 따뜻하고 밝은 톤(Warm & Bright)
-
-### 금지 이미지 유형 (추정)
-- 과도한 포토샵 합성 이미지
-- 경쟁사 제품이 배경에 노출된 이미지
-- 안전 규정 위반 장면(보호구 미착용 등)
+| Channel | Dimensions | File Format | Color Profile | Key Constraints |
+|---------|-----------|-------------|---------------|-----------------|
+| **Website Hero** | 1440 × 640px (desktop) / 375 × 500px (mobile) | WebP, JPEG | sRGB | Logo must maintain minimum clear space equal to the height of the 3M logo mark on all sides |
+| **LinkedIn Banner** | 1128 × 191px | PNG, JPEG | sRGB | Keep logo and primary text within center 60% to avoid profile picture overlap |
+| **LinkedIn Post Image** | 1200 × 627px | PNG, JPEG | sRGB | Standard social share format; product imagery with clear specification callout |
+| **Twitter/X Header** | 1500 × 500px | PNG, JPEG | sRGB | Keep critical content within center 1200 × 300px safe zone |
+| **Twitter/X Post Image** | 1200 × 675px | PNG, JPEG | sRGB | 16:9 ratio preferred; product-forward |
+| **Print Brochure** | A4 / Letter | PDF/X-1a | CMYK | 3mm bleed on all sides; Pantone 485 C for 3M Red |
+| **Trade Show Signage** | Variable (3×8ft banner standard) | PDF, EPS | CMYK | Minimum 150 DPI at final output size |
+| **Product Packaging** | Per SKU (variable) | Dieline PDF | CMYK | Pantone 485 C for red; packaging must carry applicable regulatory marks |
+| **Video (digital)** | 1920 × 1080px (16:9) | MP4, H.264 | sRGB / Rec.709 | 3M logo bug in corner at minimum 5% of frame width |
 
 ---
 
-## 아이콘 & 일러스트레이션
+## Layout Principles
 
-- 선형(Line) 아이콘 스타일, 획 두께 2px 기준 (추정)
-- 과학·기술 메타포 아이콘 선호 (분자, 회로, 확대경)
-- 일러스트는 사진과 혼용 지양; 설명형 다이어그램 용도로 한정
-- 국제 인증 마크(UL, CE, KS)는 원본 비율 유지 필수
+**1. Grid-first structure**
+3M digital and print layouts employ a strict column grid — typically 12 columns on desktop, collapsing to 4 on mobile. Content blocks align to grid edges. No floating or organic layouts. (observed on 3m.com) This communicates precision and engineering discipline at the structural level.
+
+**2. White space as confidence**
+3M product pages use substantial white space around product imagery and key performance claims. This is a premium positioning signal: brands that clutter their layouts communicate scarcity of attention; brands that use space signal security in their offering. (observed on 3m.com, T4_INFERRED)
+
+**3. Data before decoration**
+In product and B2B contexts, tables, specification lists, and performance charts take visual priority over photography or illustration. The data is the design. Photography is used to provide context (the product in its application environment), not to generate emotional response. (observed on 3m.com)
+
+**4. Modular content blocks**
+3M's website architecture uses a modular block system: hero, product grid, specification table, application story, CTA, footer. Each module is self-contained and stackable. This enables consistent experiences across thousands of product pages without custom design for each. (observed on 3m.com, T4_INFERRED)
 
 ---
 
-## Steal Sheet — 디자인 시스템 레이어별 3개
+## Icon Style
 
-### Layer A: 컬러 전략
-1. 레드 단색 과잉 사용 금지 — 레드는 포인트 컬러로 유지해야 "강조" 기능을 잃지 않음
-2. 서브브랜드별 Accent 컬러 할당으로 포트폴리오 내 혼선 방지 (헬스케어=Blue, 환경=Teal)
-3. 한국 시장 디지털 광고는 Safety Yellow 비중 높여 가시성 확보 — 경쟁 광고 밀도 높은 오픈마켓 환경 대응
+| Attribute | Specification |
+|-----------|--------------|
+| **Style** | Outlined, geometric, monochromatic |
+| **Stroke weight** | 1.5–2px at 24px base size |
+| **Corner radius** | 2–4px (slightly rounded, not fully circular) |
+| **Color** | Inherits from text color; accent use of 3M Red for emphasis icons only |
+| **Grid** | 24px base grid with 2px padding |
+| **Usage** | Navigation, feature callouts, safety category indicators |
 
-### Layer B: 타이포그래피 실행
-1. 한국어 콘텐츠는 Noto Sans KR 사용 시 자간(letter-spacing) -0.02em 설정으로 기술감 강화 (추정)
-2. 수치·사양 데이터는 타입 강조(Bold + Red) 처리로 스캐너블(Scannable) 레이아웃 구현
-3. 영문+한국어 혼용 시 영문 서체 크기를 한글 대비 90~95%로 설정해 시각적 균형 확보
+Icons in 3M communications are functional rather than expressive — they reduce text load in technical interfaces and provide quick visual navigation in complex product catalogs. Illustrative or character-based icons are not consistent with the observed brand system. (observed on 3m.com)
 
-### Layer C: 이미지 운용
-1. B2B 기술 자료에 실제 공장 촬영 이미지 사용 시 고객사 CI 노출 허가 여부 사전 확인 필수
-2. 소비재 SNS용 이미지는 모바일 1:1 및 9:16 비율 사전 크롭 버전 동시 제작 효율화
-3. 안전 제품 이미지에서 작업자 보호구 완전 착용 장면 의무화 — 브랜드 안전 메시지 일관성 유지
+---
+
+## AI Image Prompt Guide
+
+The following prompts are calibrated to produce imagery consistent with 3M's observed visual identity. (T4_INFERRED from brand visual analysis)
+
+**Prompt 1: Industrial Product Application**
+> "Hyperrealistic photograph of a 3M N95 respirator being worn by a worker in a clean manufacturing environment. The scene is lit with cool, diffused industrial lighting. Background shows precision machinery, slightly out of focus. Color palette: white, gray, and safety yellow. No red in background — red appears only as a small 3M logo on the respirator. Shot on a 50mm lens, f/2.8 depth of field."
+
+**Prompt 2: Laboratory Science Scene**
+> "Photorealistic image of a scientist in a white lab coat examining a transparent adhesive film sample under a high-magnification optical device. The laboratory is clean, modern, and minimalist. Soft white and pale blue lighting. No people visible except the scientist's hands and forearms. The mood is methodical and precise, not dramatic."
+
+**Prompt 3: Consumer Product Lifestyle (Command Strips)**
+> "Clean, bright interior photograph of a modern home entryway. A set of 3M Command hooks holds jackets, bags, and keys against a white wall with no visible nail holes or damage. Warm natural light from a window at left. The scene is organized and calm. No visible product packaging — only the hooks in use."
+
+**Prompt 4: Data Visualization / Technical Infographic Style**
+> "Flat-design technical infographic on a white background. Thin geometric lines connect labeled nodes representing manufacturing process steps. Color palette: 3M red (#FF0000) for emphasis nodes, mid gray (#767676) for connector lines, near-black (#1A1A1A) for text labels. No gradients. No shadows. Clean, grid-aligned layout."
+
+---
+
+## Design Prohibitions
+
+1. **Do not alter the 3M logo color**: The 3M logotype and logo mark appear only in red (#FF0000 / Pantone 485 C) on white, or white on red backgrounds. Black or gray logo versions are not consistent with the observed brand system. (observed on 3m.com)
+
+2. **Do not use more than two typefaces in a single document**: 3M's typographic system achieves hierarchy through weight and size variation within a single family, not through font mixing. (observed on 3m.com, T4_INFERRED)
+
+3. **Do not use gradients on the 3M logo or primary brand elements**: The 3M brand identity is flat and solid-color. Gradients introduce visual complexity inconsistent with the engineering-credible positioning. (T4_INFERRED)
+
+4. **Do not place 3M Red in large background fields behind body text**: At full saturation, 3M Red at scale creates visual fatigue and reduces text legibility. Red is an accent and signal color, not a primary layout background. (T4_INFERRED)
+
+5. **Do not use rounded or organic shapes as primary layout containers**: 3M's grid system is rectilinear. Organic shapes (blobs, curved cards) are inconsistent with the precision and engineering character of the brand. (observed on 3m.com)
+
+6. **Do not use humor or irony in product safety communications**: Safety product content must maintain unambiguous clarity. Ironic, playful, or humorous framing in PPE or hazard communication content creates ambiguity that conflicts with regulatory communication standards. (T4_INFERRED)

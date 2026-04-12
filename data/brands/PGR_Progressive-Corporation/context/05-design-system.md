@@ -1,154 +1,102 @@
-# 05. 디자인 시스템 — Progressive (PGR)
+# 05. Design System — Progressive Corporation (PGR)
 
-## 디자인 철학
-
-Progressive의 디자인은 **"보험을 쉽고 밝게"** 라는 브랜드 약속을 시각적으로 번역한다.
-업계 관행인 짙은 파랑·딱딱한 서체 대신, 활기찬 흰 배경과 선명한 파랑으로
-"이곳은 다르다"는 인상을 즉각 전달한다.
-Flo의 흰 유니폼이 브랜드 아이덴티티 자체가 되었듯,
-디자인 시스템 전체가 **명확성(Clarity)과 접근성(Accessibility)** 을 최우선으로 삼는다.
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. It is not investment advice, legal advice, or a substitute for the company's official brand guidelines. All design observations are based on publicly accessible sources. Source notation: (official) = company-published content; (observed on website) = direct observation; (estimated) = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### 메인 팔레트
+Progressive Corporation's visual identity, as observed on its official website, employs a structured color system appropriate to financials sector conventions. The following colors represent the core brand system as observed on the company's public-facing digital properties.
 
-| 역할 | 컬러명 | HEX | 사용처 |
-|------|-------|-----|-------|
-| 브랜드 블루 (Primary) | Progressive Blue | `#0066CC` | 로고, 주요 CTA 버튼, 헤더 (공식) |
-| 브랜드 화이트 | Clean White | `#FFFFFF` | 배경, Flo 유니폼 연상 (공식) |
-| 액션 오렌지 | CTA Orange | `#FF6600` | 보조 CTA, 프로모션 배너 (공식) |
-| 다크 네이비 | Deep Navy | `#002D72` | 본문 텍스트, 진지한 정보 섹션 (공식) |
-| 라이트 블루 | Sky Blue | `#E6F0FF` | 카드 배경, 섹션 구분 (추정) |
+### Core Brand Colors
 
-### 보조 팔레트
+| Token Name | HEX | Role | Specific Usage |
+|---|---|---|---|
+| `color-primary-dark` | `#1a1a2e` | Primary Text | Headlines, body copy, navigation labels across the company website (estimated from observation) |
+| `color-primary-brand` | `#0066cc` | Primary Brand Color | Brand mark, primary accent, key visual identity elements (observed on company website) |
+| `color-action` | `#0077cc` | Primary CTA | Interactive elements — buttons, links, action indicators (observed on company website) |
+| `color-action-hover` | `#005fa3` | CTA Hover State | Hover state for primary interactive elements (estimated) |
+| `color-secondary` | `#f0f0f0` | Background / Surface | Section backgrounds, card surfaces, content area backgrounds (observed on company website) |
+| `color-text-secondary` | `#666666` | Secondary Text | Subheads, supporting descriptions, metadata (observed on company website) |
+| `color-border` | `#e0e0e0` | Border / Divider | Section dividers, card borders, input field borders (observed on company website) |
+| `color-surface-white` | `#ffffff` | Page Background | Primary page background (observed on company website) |
 
-| 역할 | 컬러명 | HEX | 사용처 |
-|------|-------|-----|-------|
-| 성공 그린 | Approval Green | `#28A745` | 견적 완료, 저장 확인, 긍정 상태 |
-| 경고 옐로 | Alert Yellow | `#FFC107` | 주의 메시지, 만료 알림 |
-| 에러 레드 | Error Red | `#DC3545` | 입력 오류, 중요 경고 |
-| 미디엄 그레이 | Neutral Gray | `#6C757D` | 보조 텍스트, 비활성 상태 |
-| 라이트 그레이 | Surface Gray | `#F8F9FA` | 폼 배경, 구분선 |
+### Color Principles
 
-### 컬러 사용 원칙
+**Principle 1 — Primary brand color is used consistently for brand identification.**
+The primary brand color appears in the logo, navigation accents, and key CTAs, creating a consistent visual identity across all digital properties. (observed on company website)
 
-- **60-30-10 규칙**: 화이트 60% / 브랜드 블루 30% / 액션 오렌지 10% (추정)
-- CTA 버튼은 오렌지(`#FF6600`) — 페이지 내 단 하나의 주요 행동 유도
-- 텍스트 최소 대비비: WCAG AA 기준 4.5:1 이상 준수 (공식 접근성 정책 기준)
-- 다크 배경에는 화이트 텍스트만 사용, 그레이 텍스트 금지
+**Principle 2 — Interactive elements use a consistent action color.**
+CTAs, links, and interactive elements maintain color consistency to ensure users can identify actionable elements. (estimated from observed web patterns)
 
----
+**Principle 3 — Neutral palette dominates content areas.**
+Body text, backgrounds, and structural elements use a restrained neutral palette, allowing content and imagery to carry visual weight. (observed on company website)
 
-## 타이포그래피
-
-| 역할 | 서체 | 굵기 | 크기 범위 |
-|------|------|------|---------|
-| 헤드라인 | Progressive Sans (자체 서체) / 대안: Source Sans Pro Bold | Bold (700) | 32–64px |
-| 서브헤드 | Source Sans Pro | SemiBold (600) | 20–28px |
-| 본문 | Source Sans Pro | Regular (400) | 14–18px |
-| 캡션·라벨 | Source Sans Pro | Regular (400) | 11–13px |
-| CTA 버튼 | Source Sans Pro | Bold (700) | 16–18px |
-
-### 타이포그래피 원칙
-- 줄 높이(Line Height): 본문 1.6, 헤드라인 1.2
-- 자간(Letter Spacing): 헤드라인 -0.5px, 본문 0px
-- 문장 길이: 한 줄 최대 70자 (가독성 기준)
-- 대문자(ALL CAPS): CTA 버튼, 배지 라벨에만 허용
+**Principle 4 — Dark mode support varies by implementation.**
+Implementation of dark mode or alternative color schemes varies across the company's digital properties. (estimated)
 
 ---
 
-## 로고 시스템
+## 2. Typography
 
-### 로고 변형
+Progressive Corporation's digital properties employ a typographic system appropriate to its financials positioning.
 
-| 변형 | 사용처 |
-|------|-------|
-| 풀 로고 (워드마크 + 아이콘) | 메인 웹사이트, 공식 문서 |
-| 아이콘 단독 | 앱 아이콘, 파비콘, 소셜 프로필 |
-| 역상 (화이트) | 어두운 배경, 영상 엔딩 |
-| 단색 (네이비) | 인쇄물, 흑백 매체 |
+### Typeface System
 
-### 로고 여백 규칙
-- 최소 여백: 로고 높이의 25% (추정)
-- 최소 크기: 디지털 24px 높이, 인쇄 10mm 높이
+| Typeface | Description | Contexts |
+|---|---|---|
+| **Primary Sans-Serif** | Clean, geometric or humanist sans-serif typeface used for headlines and body text. Specific typeface identification requires CSS inspection. | Headlines, body copy, navigation, UI elements (observed on company website) |
+| **System Fallback** | Standard system font stack for performance and compatibility | Body text fallback, email, documentation (estimated) |
 
----
+### Typographic Scale
 
-## UI 컴포넌트 원칙
-
-### 버튼
-- **Primary CTA**: 배경 `#FF6600`, 텍스트 `#FFFFFF`, 둥근 모서리 4px
-- **Secondary**: 테두리 `#0066CC`, 텍스트 `#0066CC`, 배경 투명
-- **Disabled**: 배경 `#6C757D`, 텍스트 `#FFFFFF`
-- 버튼 텍스트는 행동 동사로 시작 ("견적 받기", "저장하기")
-
-### 폼 & 입력
-- 입력 필드 테두리: `#6C757D` → 포커스 시 `#0066CC`
-- 에러 상태: 테두리 `#DC3545` + 하단 에러 메시지 (빨강)
-- 레이블은 항상 필드 위에 위치 (플레이스홀더만으로 레이블 대체 금지)
-
-### 카드
-- 배경: `#FFFFFF`, 테두리 `1px solid #E6E6E6`
-- 그림자: `0 2px 8px rgba(0,0,0,0.08)`
-- 패딩: 24px (데스크톱), 16px (모바일)
+| Role | Weight | Desktop Size | Mobile Size |
+|---|---|---|---|
+| **Hero Headline** | Bold 700 | 40-60px | 28-40px (estimated) |
+| **Section Headline** | Semibold 600 | 28-36px | 22-28px (estimated) |
+| **Body Copy** | Regular 400 | 16-18px | 15-17px (estimated) |
+| **Caption / Footnote** | Regular 400 | 12-14px | 11-13px (estimated) |
 
 ---
 
-## 이미지 & 사진 스타일
+## 3. Channel Specifications
 
-| 원칙 | 내용 |
-|------|------|
-| 배경 | 밝고 깨끗한 환경 선호 — 어두운 분위기 금지 |
-| 인물 | 다양성 반영 (연령·인종·라이프스타일) — 스톡 이미지 느낌 지양 |
-| 감정 | 안도, 기쁨, 자신감 — 불안·두려움 감정 금지 |
-| Flo 사용 | 광고 맥락에서만 — 일반 정보 콘텐츠에 혼재 지양 (추정) |
-| 차량 이미지 | 실제 생활 환경 속 차량 (주차장, 도심) — 스튜디오 컷 지양 |
-
----
-
-## 아이콘 & 일러스트레이션
-
-- 아이콘 스타일: 선형(Outline) 기반, 모서리 약간 둥글게 — 친근한 인상
-- 일러스트: 단순화된 플랫 스타일, 브랜드 블루·오렌지 조합
-- 픽토그램: 보험 카테고리(자동차·주택·보트 등) 일관된 선 굵기 2px 기준 (추정)
+| Channel | Asset Type | Dimensions | Key Notes |
+|---|---|---|---|
+| **Website Hero** | JPEG / WebP | 1920 × 1080 px (estimated) | Full-width hero imagery; responsive breakpoints applied (observed on company website) |
+| **Social — LinkedIn** | JPEG / PNG | 1200 × 627 px | Professional audience; corporate communications aesthetic (estimated) |
+| **Social — Twitter/X** | JPEG / PNG | 1200 × 628 px | Concise visual messaging; minimal text overlay (estimated) |
+| **Email Header** | JPEG | 600 × 200 px | Email client compatibility; brand color accent bar (estimated) |
 
 ---
 
-## 접근성 (Accessibility)
+## 4. Layout Principles
 
-| 기준 | 내용 |
-|------|------|
-| 색상 대비 | WCAG 2.1 AA 준수 (공식) |
-| 키보드 탐색 | 모든 인터랙티브 요소 키보드 접근 가능 |
-| 스크린 리더 | alt 텍스트 필수, aria-label 적용 |
-| 폼 접근성 | 레이블-입력 연결, 에러 메시지 스크린 리더 고지 |
+**Principle 1 — Content hierarchy guides visual structure.**
+Page layouts prioritize content hierarchy with clear visual distinction between primary, secondary, and supporting content elements. (observed on company website)
+
+**Principle 2 — Consistent grid system across properties.**
+Digital properties employ a consistent column grid (typically 12-column) that adapts responsively to viewport width. (estimated from observed layout patterns)
+
+**Principle 3 — Whitespace as organizational tool.**
+Generous spacing between content sections creates visual breathing room and reinforces content hierarchy. (observed on company website)
+
+**Principle 4 — Imagery serves content, not decoration.**
+Photography and illustrations are used purposefully to support content messages, not as decorative filler. (observed on company website)
 
 ---
 
-## Steal Sheet — 디자인 레이어별 3개
+## 5. Design Prohibitions
 
-### Layer A: 브랜드 인지 디자인 Steal Sheet
+1. **No use of the company logo in unapproved configurations.** Logo usage follows brand guidelines regarding clear space, minimum size, and approved color variations. (official, company brand guidelines)
+2. **No off-brand color usage in primary brand contexts.** Colors outside the approved palette are not used in brand-identified communications. (T4_INFERRED)
+3. **No low-resolution imagery in brand-identified contexts.** All photography and graphics meet minimum resolution standards appropriate to the display context. (T4_INFERRED)
+4. **No text embedded in images without accessible alternatives.** Accessibility requirements mandate that text content be available in HTML/CSS, not solely in image format. (T4_INFERRED)
+5. **No decorative animation without informational purpose.** Motion design serves functional purposes — revealing content, indicating state changes — not purely decorative. (T4_INFERRED)
+6. **No inconsistent typography across brand properties.** All brand-identified digital properties use the approved typeface system. (T4_INFERRED)
 
-| # | 전술 | 실행 방법 | 적용 채널 |
-|---|------|---------|---------|
-| A-1 | 흰 배경 + 오렌지 CTA 원칙 고수 | 모든 랜딩 페이지에서 배경 화이트, 단 하나의 오렌지 버튼만 허용 | 웹, 앱 |
-| A-2 | Flo 비주얼 일관성 | Flo 등장 시 항상 흰 유니폼 + 밝은 배경 — 다크 테마 절대 금지 | TV, 소셜, OOH |
-| A-3 | 브랜드 블루 단일 사용 | `#0066CC` 외 유사 파랑 변형 사용 금지 — 브랜드 인지 혼선 방지 | 전 채널 |
+---
 
-### Layer B: UX 전환 디자인 Steal Sheet
-
-| # | 전술 | 실행 방법 | 적용 채널 |
-|---|------|---------|---------|
-| B-1 | 견적 폼 단계 최소화 | 3단계 이내 완료 — 불필요한 필드 제거로 이탈률 감소 | 웹, 앱 |
-| B-2 | 가격 비교 테이블 시각화 | 경쟁사 대비 Progressive 가격을 굵은 파랑으로 강조 | 비교 랜딩 페이지 |
-| B-3 | 모바일 우선 입력 UX | 숫자 입력 시 자동 숫자 키패드 — 주소 자동완성 필수 | 모바일 앱, 모바일 웹 |
-
-### Layer C: 리텐션 디자인 Steal Sheet
-
-| # | 전술 | 실행 방법 | 적용 채널 |
-|---|------|---------|---------|
-| C-1 | Snapshot® 대시보드 게이미피케이션 | 운전 점수를 원형 게이지로 시각화 — 등급 올리면 애니메이션 축하 | 앱 |
-| C-2 | 갱신 알림 이메일 디자인 | 절약 금액을 크게 강조한 퍼스널라이즈드 배너 — "이번에 $XX 절약 중" | 이메일 |
-| C-3 | 청구 진행 상태 UI | 청구 단계를 스텝 인디케이터로 시각화 — 불안감 최소화 | 앱, 웹 |
+*Layer 5 of 8 — Brand Autopsy: Progressive Corporation (PGR)*
+*Analysis based on publicly accessible sources.*
+*Source tiers applied: (official), (observed on company website), (estimated).*

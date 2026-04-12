@@ -1,96 +1,84 @@
-# 02 오디언스 맵 — Medtronic (MDT)
+# 02. Audience Map — Medtronic (MDT)
 
-## 오디언스 계층 구조
-
-```
-Primary (의사결정권자)
-├── 심장내과·흉부외과 전문의
-├── 병원 구매위원회 (Value Analysis Committee)
-└── IDN/GPO 조달 담당자
-
-Secondary (영향력 행사자)
-├── 임상 코디네이터·PA/NP
-├── 의료기기 유통사 및 딜러
-└── 의료보험사 급여 담당
-
-Tertiary (최종 수혜자)
-├── 심부전·부정맥 환자
-├── 제2형 당뇨 인슐린 의존 환자
-└── 척추·만성통증 환자
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 페르소나
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1 — 심장전문의 박준호 (45세)
-
-| 항목 | 내용 |
-|------|------|
-| 직책 | 상급종합병원 심장내과 부교수 |
-| 위치 | 서울 / 수도권 |
-| 전문 분야 | 부정맥, 심부전, ICD 이식 |
-| 연간 시술 건수 | ICD/CRT-D 약 80건 (추정) |
-| 핵심 Pain Point | 리드 파손·감염 재수술 리스크, 급여 삭감 압박 |
-| 정보 수집 채널 | ESC/ACC 학회, PubMed, Medtronic 담당 MR |
-| 구매 영향력 | 기기 브랜드 최종 결정권 보유 |
-| 브랜드 기대 | 임상 근거 최신화, 24h 기술 지원, 펠로우십 교육 프로그램 |
-| MDT 제품 접점 | Micra AV 무선 박동기, LINQ II 원격 모니터링 |
-
-**핵심 메시지:** "세계 최다 이식 데이터가 당신의 다음 수술을 보호합니다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in health care equipment. B2C: End consumers of health care products and services. (T4_INFERRED from Medtronic's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Medtronic's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2 — 병원 구매담당 이수진 (38세)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 직책 | 대형 의료원 의료기기 구매팀 차장 |
-| 위치 | 부산 |
-| 책임 범위 | 연간 의료기기 예산 약 120억 원 관리 (추정) |
-| 핵심 Pain Point | 단가 협상, 재고 회전율, 공급망 리드타임 |
-| 정보 수집 채널 | KIMES 전시회, 조달청 나라장터, 벤더 제안서 |
-| 구매 영향력 | 계약 조건·공급업체 선정 실질 권한 |
-| 브랜드 기대 | 가격 투명성, 신속 A/S, 국내 재고 보유 |
-| MDT 제품 접점 | 수술용 에너지 기기, 척추 임플란트 세트 |
+### Persona 1 — Enterprise Decision-Maker
 
-**핵심 메시지:** "Medtronic 공급망은 수술 스케줄을 멈추지 않습니다."
+- **Age / Occupation**: 42, VP-level or director in a Medtronic customer organization
+- **Core pain**: Needs reliable health care equipment solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Medtronic selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3 — 당뇨 환자 김민서 (29세)
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 배경 | 제1형 당뇨 진단 12년차, 직장인 |
-| 위치 | 서울 |
-| 현재 사용 기기 | MiniMed 770G 인슐린 펌프 + Guardian 3 센서 |
-| 핵심 Pain Point | 센서 부착 불편, 알람 피로, 보험 급여 한계 |
-| 정보 수집 채널 | 당뇨 커뮤니티 카페, 유튜브 환자 리뷰, 내분비과 의사 |
-| 구매 영향력 | 의사 처방 후 본인 동의 필수 — 브랜드 선호 강함 |
-| 브랜드 기대 | 앱 UX 개선, 배터리 수명, 국내 A/S 속도 |
-| MDT 제품 접점 | MiniMed 780G, Guardian 4 센서, CareLink 앱 |
-
-**핵심 메시지:** "당신의 일상을 멈추지 않는 자동 인슐린 시스템."
+- **Age / Occupation**: 35, technical professional who interacts with Medtronic's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Medtronic selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 오디언스별 콘텐츠 니즈 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 오디언스 | 관심 주제 | 선호 포맷 | 구매 주기 |
-|---------|----------|----------|----------|
-| 심장전문의 | 임상 데이터, 합병증 비율, 학술 발표 | 백서, 학술지 논문, 학회 심포지엄 | 2~5년 (기기 교체 주기) |
-| 구매담당자 | 총소유비용(TCO), 공급 안정성, 계약 조건 | RFP 자료, ROI 계산기, 케이스 스터디 | 연간 계약 갱신 |
-| 당뇨 환자 | 혈당 제어 효과, 사용 편의성, 보험 적용 | 동영상 튜토리얼, 사용자 후기, SNS | 4~5년 (펌프 교체) + 소모품 월정기 |
-| 병원 임상 코디네이터 | 기기 교육, 환자 온보딩 프로토콜 | 교육 자료, 웨비나, 핸즈온 트레이닝 | 지속 교육 |
+- **Age / Occupation**: 38, consumer who interacts with Medtronic's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Medtronic selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 지역별 오디언스 우선순위 (한국 시장 기준)
+## Purchase Journey — AARRR Framework
 
-| 지역 | 주요 고객 유형 | 특이사항 |
-|------|-------------|---------|
-| 서울·수도권 | 상급종합병원 심장·척추 전문의 | 국내 매출의 약 55% 집중 (추정) |
-| 부산·경남 | 지역거점병원 구매팀 | KIMES 부산 참가 후 계약 증가 패턴 |
-| 대구·경북 | 당뇨 전문 클리닉, 내분비과 | MiniMed 처방 밀도 높음 (추정) |
-| 광주·전남 | 의과대학병원 연구팀 | 임상시험 파트너십 잠재 |
+| Stage | Medtronic's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Medtronic total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
+
+---
+
+## Anti-Persona — Who Medtronic Is Not For
+
+| Type | Characteristics | Why Medtronic Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Medtronic's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Medtronic's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Medtronic's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Medtronic's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Medtronic's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

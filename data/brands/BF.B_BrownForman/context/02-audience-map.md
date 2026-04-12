@@ -1,137 +1,84 @@
-# 02. 오디언스 맵 — Brown-Forman (BF.B)
+# 02. Audience Map — Brown–Forman (BF.B)
 
-> 섹터: 소비재 스테이플즈 — 증류주 | 티커: BF.B
-
----
-
-## 1. 오디언스 세그먼트 개요
-
-| 세그먼트 | 연령대 | 지역 비중 | 브랜드 접점 | 가치 지수 (LTV) |
-|----------|--------|----------|------------|----------------|
-| 헤리티지 충성층 | 45~65세 | 미국 남부·중서부 집중 | Jack Daniel's Old No. 7 | 높음 (공식) |
-| 프리미엄 탐색층 | 30~45세 | 도시 거점 글로벌 | Woodford Reserve | 매우 높음 (추정) |
-| 진입 밀레니얼 | 25~35세 | 북미·서유럽·한국·일본 | JD Tennessee Honey/Apple | 중간 (추정) |
-| 글로벌 위스키 팬 | 28~50세 | 아시아·호주·남미 | Jack Daniel's Single Barrel | 높음 (추정) |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 프로필
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 마커스 (Marcus) — 헤리티지 충성층
-
-**기본 정보**
-- 나이: 52세 | 직업: 제조업 현장 감독 | 거주지: 테네시 주 내슈빌 교외
-- 소득: 연 $75,000 | 학력: 전문대 졸업
-
-**심리 프로필**
-- 가치관: 충성심, 신뢰, 진정성, "Made in America" 자부심
-- 불안 요소: 브랜드가 "대기업화"되어 뿌리를 잃을까 봐 걱정
-- 동기: 금요일 퇴근 후 친구들과 나누는 Jack & Coke 의식(ritual)
-
-**소비 행태**
-- 주 구매처: 로컬 리커 스토어, 월마트
-- 월 지출: 위스키 $60~80 (공식 데이터 없음, 추정)
-- 브랜드 전환율: 매우 낮음 — 10년 이상 Jack Daniel's 고수 (추정)
-
-**미디어 소비**
-- TV: NFL, NASCAR 중계
-- 소셜: Facebook (일 1회 이상)
-- 라디오: 컨트리 음악 스테이션
-
-**브랜드와의 관계**
-> "Jack은 내 아버지가 마시던 술이고, 나도 마시고, 내 아들도 마실 술이다. 바꿀 이유가 없다."
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in distillers & vintners. B2C: End consumers of consumer staples products and services. (T4_INFERRED from Brown–Forman's segment structure) |
+| **Occupation segments** | Marketing directors, brand managers, consumers, retail buyers |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Brown–Forman's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 지수 (Jisu) — 프리미엄 탐색층
+## Core Personas
 
-**기본 정보**
-- 나이: 36세 | 직업: 테크 기업 마케팅 매니저 | 거주지: 서울 마포구
-- 소득: 연 8,500만 원 | 학력: 대학교 졸업 (경영학)
+### Persona 1 — Enterprise Decision-Maker
 
-**심리 프로필**
-- 가치관: 큐레이션, 스토리텔링, 경험 소비, 소셜 자본
-- 불안 요소: "아는 척 못 하면 어쩌지" — 위스키 지식 부족에 대한 자의식
-- 동기: 비즈니스 접대 및 개인 컬렉션으로서 Woodford Reserve 선물 세트 구매
-
-**소비 행태**
-- 주 구매처: 백화점 주류 코너, 현대식품관, 쿠팡 로켓와우 (추정)
-- 월 지출: 프리미엄 주류 15만~25만 원 (추정)
-- 구매 계기: Instagram 테이스팅 콘텐츠, 바텐더 추천
-
-**미디어 소비**
-- 소셜: Instagram (일 2~3회), YouTube 위스키 리뷰 채널
-- 팟캐스트: 비즈니스·라이프스타일
-- 커뮤니티: 위스키 갤러리, 네이버 카페 "버번 러버스" (추정)
-
-**브랜드와의 관계**
-> "Woodford Reserve를 테이블에 올려두면 그것만으로 내가 어떤 사람인지 설명된다."
+- **Age / Occupation**: 42, VP-level or director in a Brown–Forman customer organization
+- **Core pain**: Needs reliable distillers & vintners solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Brown–Forman selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 카를로스 (Carlos) — 글로벌 위스키 팬
+### Persona 2 — Technical Specialist / End User
 
-**기본 정보**
-- 나이: 41세 | 직업: 멕시코시티 건축 사무소 공동창업자 | 거주지: 멕시코시티 폴란코
-- 소득: 연 MXN 2,800,000 (~$165,000) | 학력: 대학원 (건축학)
-
-**심리 프로필**
-- 가치관: 글로벌 감각, 장인 공예에 대한 심미안, 컬렉터 기질
-- 불안 요소: 로컬 테킬라 문화와 글로벌 위스키 취향 사이의 정체성 갈등
-- 동기: Jack Daniel's Single Barrel로 미국 위스키 입문, 수집 및 바 홈셋업
-
-**소비 행태**
-- 주 구매처: 고급 와인&스피릿 전문점, 공항 면세점
-- 연 지출: 위스키 컬렉션 $2,000~4,000 (추정)
-- 브랜드 탐색: Herradura(BF.B 테킬라)와 Jack Daniel's를 동시에 소비
-
-**미디어 소비**
-- 소셜: Instagram, TikTok (스피릿 콘텐츠 팔로우)
-- YouTube: 영어·스페인어 위스키 리뷰 병행 시청
-- 이벤트: 연 1회 이상 증류소 방문 투어 (켄터키, 테네시)
-
-**브랜드와의 관계**
-> "Jack Daniel's Single Barrel은 내 홈 바의 아메리카나 앵커다. 테킬라 옆에 두면 두 세계를 연결하는 느낌."
+- **Age / Occupation**: 35, technical professional who interacts with Brown–Forman's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Brown–Forman selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 매핑 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-```
-                    감성적 연결 (낮음) ←————————→ (높음)
-                              |
-    이성적         헤리티지 충성층          프리미엄 탐색층
-    구매 동기        (Marcus)                (Jisu)
-    (높음)              |                       |
-         —————————————————————————————————————————
-    감성적         진입 밀레니얼           글로벌 위스키 팬
-    구매 동기        (신규 진입)              (Carlos)
-    (높음)
-```
+- **Age / Occupation**: 38, consumer who interacts with Brown–Forman's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Brown–Forman selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 오디언스별 메시지 프레임
+## Purchase Journey — AARRR Framework
 
-| 페르소나 | 핵심 메시지 | 회피 메시지 |
-|----------|------------|------------|
-| Marcus | "변하지 않는 것의 가치" — 전통과 의식 | 트렌드·혁신·뉴 플레이버 강조 |
-| Jisu | "당신의 안목이 옳았다" — 큐레이션 확신 | 대중성·가성비 언급 |
-| Carlos | "두 세계를 잇는 브리지" — 글로벌 장인 | 미국 중심주의적 내셔널리즘 |
+| Stage | Brown–Forman's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Brand advertising, retail distribution, digital marketing, social media presence | (T4_INFERRED) |
+| **Activation** | First product purchase and use; account creation; service enrollment | Activation metrics not publicly disclosed |
+| **Retention** | Repeat purchase; subscription renewal; loyalty programs; product ecosystem integration | Retention metrics not publicly disclosed |
+| **Referral** | Word-of-mouth; social media sharing; online reviews; community advocacy | (T4_INFERRED) |
+| **Revenue** | Brown–Forman total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. Steal Sheet — 오디언스 맵 계층
+## Anti-Persona — Who Brown–Forman Is Not For
 
-### Layer 1: 가장 가치 있는 오디언스 한 줄 요약
-> 프리미엄 탐색층 (30~45세, 도시 거주, 글로벌) — LTV 최고, 브랜드 전도사 가능성 최대
+| Type | Characteristics | Why Brown–Forman Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Brown–Forman's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Brown–Forman's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Brown–Forman's full value is realized through deeper operational integration and sustained partnership. |
 
-### Layer 2: 오디언스 확장 기회
-- 한국·일본 MZ세대: 위스키 하이볼 트렌드 타고 Jack Daniel's 진입 가속 (추정)
-- 여성 소비자: 전체 프리미엄 스피릿 구매자 중 38% 증가세, BF.B 타겟팅 미흡 (추정)
-- Gen Z (21~26세): RTD(Ready-to-Drink) 라인으로 첫 접점 형성 후 코어 브랜드로 업셀링 (추정)
+---
 
-### Layer 3: 오디언스 이탈 위험 신호
-- Marcus 세그먼트: Jack Daniel's 가격 인상 시 버번 카테고리 내 다른 브랜드로 전환 (추정)
-- Jisu 세그먼트: 닛카, 야마자키 등 일본 위스키 프리미엄 포지셔닝에 빼앗길 위험 (추정)
-- Carlos 세그먼트: Don Julio(디아지오), Clase Azul 등 울트라 프리미엄 테킬라 부상으로 스피릿 지갑 분산 (추정)
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Brown–Forman's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Brown–Forman's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In consumer staples markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

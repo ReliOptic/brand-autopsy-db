@@ -1,120 +1,62 @@
-# 05 디자인 시스템 — Allegion (ALLE)
+# 05. Design System Spec — Allegion plc (ALLE)
 
-## 디자인 철학
-
-Allegion의 디자인 언어는 **"기능적 신뢰(Functional Trust)"** 를 시각적으로 구현한다. 불필요한 장식을 배제하고, 명확한 위계(Hierarchy), 내구성을 연상시키는 소재감(Material Cue), 전문성을 전달하는 색채 체계를 사용한다. 자회사 브랜드(Schlage, Von Duprin 등)는 각자의 서브 아이덴티티를 유지하면서 Allegion 기업 우산 아래 일관된 품질 신호를 공유한다. (추정)
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes only. Source notation: `(official)` = Allegion-published; `(observed)` = direct observation; `(estimated)` = project inference.
 
 ---
 
-## 컬러 시스템
+## 1. Color Palette
 
-### Allegion 기업 컬러
+| Token Name | HEX | Role | Usage |
+|---|---|---|---|
+| `color-allegion-red` | `#E31937` | Primary Brand Red | Allegion corporate logo, primary accent (observed on allegion.com) |
+| `color-schlage-blue` | `#003DA5` | Schlage Brand Blue | Schlage product brand identity (observed on schlage.com) |
+| `color-dark` | `#1A1A1A` | Dark Text / Backgrounds | Primary text, dark hero sections (observed on allegion.com) |
+| `color-white` | `#FFFFFF` | Background | Page backgrounds (observed) |
+| `color-light-grey` | `#F2F2F2` | Section Background | Alternating sections (observed on allegion.com) |
+| `color-mid-grey` | `#666666` | Secondary Text | Body copy, captions (estimated) |
+| `color-accent-gold` | `#C5A355` | Premium Accent | Product finish indicator; premium product tier (estimated) |
 
-| 컬러 역할 | 컬러명 | HEX | 용도 |
-|----------|--------|-----|------|
-| 프라이머리 | Allegion Blue | `#003DA5` | 기업 로고, 헤더, CTA 버튼 (추정) |
-| 세컨더리 | Steel Gray | `#4A4F55` | 본문 텍스트, 아이콘, 보조 요소 (추정) |
-| 액센트 | Safety Orange | `#E8621A` | Von Duprin 계열, 경고·생명 안전 강조 (추정) |
-| 뉴트럴 라이트 | Warm White | `#F5F4F0` | 배경, 카드 배경 (추정) |
-| 뉴트럴 다크 | Charcoal | `#1C1C1C` | 제목 텍스트, 다크 배경 (추정) |
-| 보조 그린 | Compliance Green | `#2E7D32` | 인증·규정 준수 배지 (추정) |
+### Color Principles
 
-### Schlage 서브브랜드 컬러
+**Principle 1 — Red for corporate Allegion; Blue for consumer Schlage.** Brand colors are segmented by audience. (observed)
 
-| 컬러 역할 | 컬러명 | HEX | 용도 |
-|----------|--------|-----|------|
-| 프라이머리 | Schlage Red | `#C8102E` | Schlage 로고, 패키징 메인 컬러 (공식) |
-| 세컨더리 | Gunmetal | `#3B3B3B` | 제품 사진 배경, 하드웨어 피니시 참조 (추정) |
-| 액센트 | Bright Silver | `#C0C0C0` | 크롬 피니시 제품 강조 (추정) |
-| 보조 골드 | Satin Brass | `#B8860B` | 황동 피니시 제품 강조 (추정) |
+**Principle 2 — Product finishes drive accent palette.** Lock finishes (satin nickel, matte black, aged bronze) influence product photography color context more than brand palette. (observed on schlage.com)
 
-### Von Duprin 서브브랜드 컬러
-
-| 컬러 역할 | 컬러명 | HEX | 용도 |
-|----------|--------|-----|------|
-| 프라이머리 | Von Duprin Orange | `#E8621A` | 로고, 출구 장치 생명 안전 강조 (추정) |
-| 세컨더리 | Industrial Gray | `#5C6670` | 제품 상세, 기술 문서 (추정) |
-
-### LCN 서브브랜드 컬러
-
-| 컬러 역할 | 컬러명 | HEX | 용도 |
-|----------|--------|-----|------|
-| 프라이머리 | LCN Navy | `#1B3A6B` | 로고, 기업용 마케팅 자료 (추정) |
-| 세컨더리 | Warm Gray | `#7A7A7A` | 서포트 그래픽 (추정) |
+**Principle 3 — Clean, professional backgrounds for product photography.** Products photographed on white or neutral backgrounds with precise lighting. (observed on schlage.com)
 
 ---
 
-## 타이포그래피 시스템 (추정)
+## 2. Typography
 
-| 용도 | 서체 | 굵기 | 크기 범위 |
-|------|------|------|----------|
-| 디스플레이 제목 | Gotham / Montserrat (추정) | Bold (700) | 32~64px |
-| 섹션 헤딩 | Gotham / Montserrat (추정) | SemiBold (600) | 20~32px |
-| 본문 텍스트 | Open Sans / Source Sans Pro (추정) | Regular (400) | 14~18px |
-| 캡션·라벨 | Open Sans / Source Sans Pro (추정) | Regular (400) | 11~13px |
-| 기술 사양서 | Times New Roman / Georgia (추정) | Regular | 10~12pt |
-
-- 모든 디지털 환경에서 최소 본문 폰트 크기 14px 이상 유지 (WCAG AA 접근성) (추정)
-- 한국어·다국어 배포 시 Noto Sans 패밀리 사용 권장 (추정)
+| Role | Typeface | Weight | Size | Notes |
+|---|---|---|---|---|
+| **Headlines** | Helvetica Neue / system sans-serif | Bold 700 | 28–42px | Clean, professional (estimated) |
+| **Body** | System sans-serif | Regular 400 | 16–18px | Readable, no-frills (estimated) |
+| **Technical specs** | Monospace or tabular numerals | Regular 400 | 14px | Product specification tables (estimated) |
 
 ---
 
-## 아이콘·일러스트레이션 스타일
+## 3. Layout Principles
 
-- **아이콘 스타일**: 라인 아이콘 (2px 스트로크), 둥근 모서리(2~4px radius), 피그마 Material Icons 호환 (추정)
-- **일러스트레이션**: 사진 실사 중심, 추상 일러스트는 기술 다이어그램 용도로만 사용 (추정)
-- **제품 사진**: 흰색 또는 연회색 배경, 45도 앵글 또는 정면 앵글, 반사 없는 매트 배경 선호 (추정)
-- **사람 사진**: 실제 현장 사용 장면(병원, 학교, 오피스), 다양성 반영 (추정)
+**Principle 1 — Product photography is hero.** Lock and access hardware photography is the primary visual element. (observed on schlage.com)
 
----
+**Principle 2 — Dual-track navigation.** Allegion.com separates residential and commercial audiences into distinct navigation paths. (observed on allegion.com)
 
-## 레이아웃·그리드 시스템 (추정)
+**Principle 3 — Specification-ready product pages.** Commercial product pages include downloadable BIM files, specification sheets, and compliance certifications. (observed on allegion.com)
 
-| 환경 | 그리드 | 컬럼 | 거터 |
-|------|--------|------|------|
-| 웹 (데스크톱) | 12컬럼 | 1440px max-width | 24px |
-| 웹 (모바일) | 4컬럼 | 360px | 16px |
-| 인쇄 (사양서) | 2컬럼 | A4/Letter | 10mm |
-| 전시회 배너 | 자유 배치 | — | — |
+**Principle 4 — Comparison tools support purchase decisions.** Schlage.com features lock comparison tools for residential buyers. (observed on schlage.com)
 
 ---
 
-## 피니시·소재 참조 팔레트 (제품 하드웨어)
+## 4. Design Prohibitions
 
-| 피니시명 | 코드 | HEX 근사값 | 설명 |
-|---------|------|-----------|------|
-| Satin Chrome | US26D | `#C9C9C9` | 가장 범용적인 상업용 피니시 (공식) |
-| Polished Brass | US3 | `#B8860B` | 고급 주거·호텔 (공식) |
-| Satin Brass | US4 | `#C9A84C` | 클래식 주거용 (공식) |
-| Oil-Rubbed Bronze | US10B | `#4A3728` | 전통적·고급 주거 (공식) |
-| Matte Black | US19 | `#1C1C1C` | 현대적 인테리어 (공식) |
-| Stainless Steel | US32D | `#A9A9A9` | 의료·위생 시설 (공식) |
+1. **No mixing of Allegion red and Schlage blue in the same layout.** Brand colors are segmented by audience. (T4_INFERRED)
+2. **No lifestyle photography that implies fear or vulnerability.** Security products are shown as empowering, not reactive. (T4_INFERRED)
+3. **No design elements that conflict with product finish aesthetics.** The physical product design language (minimalist, architectural) should inform digital design choices. (T4_INFERRED)
+4. **No consumer-casual styling on commercial/professional pages.** Maintain professional tone appropriate to specifier audience. (T4_INFERRED)
+5. **No cluttered product comparison pages.** Clean, scannable layouts for specification data. (T4_INFERRED)
+6. **No generic "smart home" stock imagery.** Product photography should feature actual Schlage/Allegion hardware. (T4_INFERRED)
 
 ---
 
-## 접근성 기준 (추정)
-
-- 텍스트-배경 대비율: WCAG 2.1 AA 이상 (4.5:1 본문, 3:1 대형 텍스트)
-- `#003DA5` 위 흰색 텍스트 대비율: ~7.5:1 (AA 통과)
-- `#C8102E` 위 흰색 텍스트 대비율: ~4.6:1 (AA 통과)
-- `#E8621A` 위 흰색 텍스트: ~3.1:1 — 대형 텍스트(18pt+)에만 사용 권장
-
----
-
-## Steal Sheet — 디자인 시스템 레이어별 인사이트
-
-### Steal Sheet A: 컬러 활용 기회
-
-- Safety Orange(`#E8621A`)는 Von Duprin의 생명 안전 포지셔닝을 시각적으로 강화하는 강력한 신호 — 경쟁사 대비 즉각적 카테고리 소유 가능. (추정)
-- Matte Black(`#1C1C1C`) 피니시는 현대 인테리어 트렌드와 맞물려 Schlage 프리미엄 라인의 소셜 미디어 시각적 퍼포먼스 향상에 활용 가능. (추정)
-- Compliance Green(`#2E7D32`)을 인증 배지 전용 색상으로 일관 사용하면 규정 준수 신뢰 신호의 즉각적 인식 강화. (추정)
-
-### Steal Sheet B: 타이포그래피·레이아웃 갭
-
-- 기술 사양서의 serif 폰트 사용은 디지털 네이티브 사양 설계사(35세 이하)에게 구식으로 인식될 수 있음 — sans-serif 전환 고려. (추정)
-- 모바일 최적화 사양서 PDF는 현장 기사(태블릿·스마트폰 사용)의 접근성 대폭 개선 가능. (추정)
-
-### Steal Sheet C: 브랜드 일관성 리스크
-
-- 서브브랜드별 컬러 분산(빨강·주황·남색)은 Allegion 기업 브랜드 인지도 희석 — 기업 커뮤니케이션에서 Allegion Blue를 앵커로 일관 사용 필요. (추정)
-- 제품 사진 배경 불일치(일부 그레이, 일부 화이트)는 이커머스·카탈로그에서 비전문적 인상 — 표준화 지침 강화 필요. (추정)
+*Layer 5 of 8 — Brand Autopsy: Allegion plc (ALLE)*

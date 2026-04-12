@@ -1,120 +1,84 @@
-# 02. 오디언스 맵 — Johnson & Johnson (JNJ)
+# 02. Audience Map — Johnson & Johnson (JNJ)
 
-> 섹터: Health Care — Pharma & MedTech  
-> 상태 표기: (공식) = 공개 자료 확인 / (추정) = 분석·추론 기반
-
----
-
-## 1. 오디언스 계층 구조
-
-```
-Primary (핵심 의사결정자)
-├── 의료 전문가 (HCP: Healthcare Professionals)
-│   ├── 전문의 (종양, 면역, 신경, 정형외과)
-│   ├── 외과의 (로봇수술, 내시경)
-│   └── 안과의·검안사
-└── 병원·의료기관 구매 위원회 (Institutional Buyers)
-
-Secondary (영향력 행사자)
-├── 환자 및 가족·간병인
-├── 의료보험사·PBM (Pharmacy Benefit Manager)
-├── 정부·규제기관 (FDA, EMA, MFDS)
-└── KOL (Key Opinion Leaders) / 의학 학회
-
-Tertiary (브랜드 앰배서더·에코시스템)
-├── 투자자·애널리스트
-├── 의대·약대 학생·레지던트
-└── 미디어·헬스케어 저널리스트
-```
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 2. 페르소나 프로파일
+## Ideal Customer Profile (ICP)
 
-### 페르소나 1: 김민준 — 종양내과 전문의
-
-| 항목 | 내용 |
-|------|------|
-| 나이 | 42세 (추정) |
-| 직책 | 상급종합병원 혈액종양내과 교수 |
-| 학력 | 의학박사, 해외 펠로우십 이수 |
-| 소득 | 연 2억 원 이상 (추정) |
-| 위치 | 서울 대형 병원 (추정) |
-| **핵심 목표** | 환자 생존율 개선, 최신 치료 프로토콜 도입, 논문 실적 |
-| **주요 고통점** | 급여 제한으로 처방 제약, 부작용 모니터링 부담, 과중한 환자 수 |
-| **정보 채널** | ASCO·ESMO 학회, PubMed, Janssen 메디컬 심포지엄, MSD Connect |
-| **JNJ 접점** | Darzalex·Imbruvica 처방 경험, Janssen 학술 행사 참여 |
-| **핵심 메시지** | "임상 데이터가 뒷받침하는 치료 옵션" |
-| **구매 동인** | OS/PFS 개선 데이터, 부작용 프로파일, 급여 등재 여부 |
+| Dimension | Profile |
+|-----------|---------|
+| **Core Demographics** | B2B: Decision-makers and procurement professionals in pharmaceuticals. B2C: End consumers of health care products and services. (T4_INFERRED from Johnson & Johnson's segment structure) |
+| **Occupation segments** | Healthcare administrators, physicians, clinical procurement, hospital systems |
+| **Psychographic profile** | Values reliability and proven performance; evaluates vendors on track record and institutional credibility; risk-aware in vendor selection. (T4_INFERRED) |
+| **Purchase triggers** | Contract renewal cycles, regulatory compliance requirements, capacity expansion, competitive pressure, technology refresh cycles. (T4_INFERRED) |
+| **Geography** | Global operations with revenue distribution as disclosed in Johnson & Johnson's 10-K geographic segment reporting. (SEC 10-K) |
 
 ---
 
-### 페르소나 2: 이수진 — 류마티스 환자 (면역 질환)
+## Core Personas
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 38세 (추정) |
-| 직업 | 프리랜서 디자이너, 두 아이 어머니 |
-| 진단 | 류마티스 관절염 (RA) 5년 차 |
-| 소득 | 연 4,500만 원 (추정) |
-| 위치 | 수도권 거주 (추정) |
-| **핵심 목표** | 통증 없이 일상 유지, 자녀 양육 병행, 경제적 부담 최소화 |
-| **주요 고통점** | 고가 생물학적 제제 부담, 치료 효과 불확실성, 직장·가정 병행 어려움 |
-| **정보 채널** | 네이버 카페 (류마 환우회), 유튜브 의학 채널, 담당의 상담 |
-| **JNJ 접점** | Stelara·Tremfya 처방 환자, 환자 지원 프로그램 이용 (추정) |
-| **핵심 메시지** | "당신의 일상을 되찾아 드리는 치료" |
-| **구매 동인** | 복약 편의성 (주사 횟수), 부작용 최소화, 환자 지원 프로그램 |
+### Persona 1 — Enterprise Decision-Maker
+
+- **Age / Occupation**: 42, VP-level or director in a Johnson & Johnson customer organization
+- **Core pain**: Needs reliable pharmaceuticals solutions from vendors with proven track records. Vendor failure carries career risk and operational disruption.
+- **Johnson & Johnson selection rationale**: Institutional credibility, established support infrastructure, and sector expertise reduce procurement risk. (T4_INFERRED)
+- **Brand relationship**: Evaluative and professional; vendor selection based on performance data, reference customers, and total cost of ownership analysis. (T4_INFERRED)
+- **Churn risk**: Moderate — tied to contract cycles and competitive alternatives. Switching costs include operational integration, retraining, and transition risk.
+- **Media touchpoints**: Industry trade publications, conferences, analyst reports, LinkedIn, vendor briefings
 
 ---
 
-### 페르소나 3: 박성철 — 병원 의료기기 구매 담당자
+### Persona 2 — Technical Specialist / End User
 
-| 항목 | 내용 |
-|------|------|
-| 나이 | 48세 (추정) |
-| 직책 | 300병상 이상 지역거점병원 구매팀장 |
-| 배경 | 보건행정학 전공, 의료기기 구매 경력 15년 |
-| 소득 | 연 6,500만 원 (추정) |
-| 위치 | 부산·경남 권역 (추정) |
-| **핵심 목표** | 비용 효율적 기기 도입, 수술 성과 지표 개선, 규제 컴플라이언스 |
-| **주요 고통점** | 고가 로봇수술·봉합재 예산 압박, 다수 부서 이해관계 조율, A/S·소모품 공급 안정성 |
-| **정보 채널** | KIMES(의료기기 전시회), 병원협회 세미나, DePuy·Ethicon 영업 대표 |
-| **JNJ 접점** | Ethicon 봉합재, DePuy Synthes 정형외과 임플란트 구매 (추정) |
-| **핵심 메시지** | "검증된 임상 성과와 전방위 애프터서비스" |
-| **구매 동인** | TCO(총소유비용), 임상 성과 데이터, 국내 A/S 네트워크 |
+- **Age / Occupation**: 35, technical professional who interacts with Johnson & Johnson's products daily
+- **Core pain**: Needs tools and solutions that perform consistently and integrate with existing workflows. Technical downtime is directly measurable in lost productivity.
+- **Johnson & Johnson selection rationale**: Product reliability, technical documentation quality, and support responsiveness. (T4_INFERRED)
+- **Brand relationship**: Functional and specification-driven; loyalty is earned through product performance, not brand sentiment.
+- **Churn risk**: Low during active use; vulnerability during technology refresh or platform migration cycles.
+- **Media touchpoints**: Technical documentation, product forums, industry webinars, peer recommendations
 
 ---
 
-## 3. 오디언스 세그먼트 매트릭스
+### Persona 3 — Consumer / Retail Customer
 
-| 세그먼트 | 관여도 | 구매 권한 | 주요 채널 | 우선순위 |
-|----------|--------|-----------|-----------|----------|
-| 전문의 (HCP) | 최고 | 처방 권한 | 학술 심포지엄, 디테일링 | 1순위 |
-| 병원 구매위원회 | 높음 | 기기·소모품 계약 | 영업 대표, KIMES | 1순위 |
-| 환자·간병인 | 중간 | 치료 선택 참여 | 디지털, 환우회 | 2순위 |
-| 보험사·PBM | 높음 | 급여 결정 | 정책 로비, HEOR 데이터 | 1순위 |
-| 투자자 | 낮음 | 없음 | IR, 연간 보고서 | 3순위 |
-| 규제기관 | 최고 | 승인 권한 | 공식 제출 문서 | 1순위 |
+- **Age / Occupation**: 38, consumer who interacts with Johnson & Johnson's products or services
+- **Core pain**: Needs quality products or services that deliver value for money and meet personal or household needs.
+- **Johnson & Johnson selection rationale**: Brand recognition, product quality, availability, and value proposition relative to alternatives. (T4_INFERRED)
+- **Churn risk**: Moderate — driven by competitive alternatives and price sensitivity.
+- **Media touchpoints**: Retail channels, online reviews, social media, brand advertising
 
 ---
 
-## 4. 고객 여정 맵 (HCP 기준)
+## Purchase Journey — AARRR Framework
 
-```
-인식 → 고려 → 처방 결정 → 처방 지속 → 옹호
-  ↓        ↓         ↓            ↓          ↓
-학회    임상 데이터   MSL 미팅    환자 결과   KOL 발표
-저널    동료 처방    약가·급여    지원 프로   학술 논문
-광고    웨비나       디테일링    Safety 모니  심포지엄 발표
-```
+| Stage | Johnson & Johnson's Mechanism | Key Indicators |
+|-------|-------------------|----------------|
+| **Acquisition** | Enterprise sales force, distributor partnerships, trade shows, industry relationships, RFP responses | (T4_INFERRED) |
+| **Activation** | Contract signing; implementation and onboarding; first deployment; technical integration | Activation metrics not publicly disclosed |
+| **Retention** | Contract renewals; expanded deployment; upsell to additional products; operational dependency deepening | Retention metrics not publicly disclosed |
+| **Referral** | Industry references; case studies; professional network recommendations; analyst endorsement | (T4_INFERRED) |
+| **Revenue** | Johnson & Johnson total revenue as disclosed in most recent 10-K filing. Revenue breakdown by segment and geography available in SEC filings. (SEC 10-K) | Revenue by segment disclosed in 10-K |
 
 ---
 
-## 5. 세그먼트별 핵심 가치 제안
+## Anti-Persona — Who Johnson & Johnson Is Not For
 
-| 세그먼트 | 핵심 가치 제안 |
-|----------|---------------|
-| 종양전문의 | "최신 임상 근거로 뒷받침된 치료 선택지 — 생존율 데이터 투명 공개" |
-| 면역 환자 | "일상을 되찾는 치료 — 편리한 투여, 검증된 안전성" |
-| 의료기기 구매 | "수술 성과와 비용 효율의 균형 — 국내 최대 MedTech 지원망" |
-| 보험사 | "HEOR 근거 기반 급여 가치 — 장기 비용 절감 데이터 제공" |
+| Type | Characteristics | Why Johnson & Johnson Is Not the Match |
+|------|----------------|---------------------------|
+| **Pure price buyer** | Selects exclusively on lowest unit cost with no consideration for quality, support, or reliability | Johnson & Johnson's pricing reflects operational scale, R&D investment, and service infrastructure. Commodity alternatives serve this buyer. |
+| **Bleeding-edge adopter** | Requires the newest, most experimental solutions regardless of proven track record | Johnson & Johnson's value proposition emphasizes proven reliability over experimental innovation. |
+| **Minimal-commitment buyer** | Seeks short-term, low-integration solutions with no vendor relationship investment | Johnson & Johnson's full value is realized through deeper operational integration and sustained partnership. |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Segment your audience by risk tolerance, not just demographics.**
+Johnson & Johnson's customer base includes risk-averse enterprise buyers and more experimental early adopters. Transferable structure: create distinct engagement paths for customers at different risk tolerance levels, rather than a one-size-fits-all approach.
+
+**2. Make switching costs visible to the customer as value, not lock-in.**
+Johnson & Johnson's operational integration creates natural switching costs. Transferable structure: frame the depth of integration as accumulated value rather than vendor lock-in. "You've built X years of data and workflow optimization" is retention language, not lock-in language.
+
+**3. Invest in technical documentation as a customer retention tool.**
+In health care markets, the quality of technical documentation and support directly correlates with customer retention. Transferable structure: treat documentation as a first-class product, not an afterthought.

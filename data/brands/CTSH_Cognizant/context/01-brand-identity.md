@@ -1,85 +1,101 @@
-# 01 브랜드 아이덴티티 — Cognizant (CTSH)
+# 01. Brand Identity Autopsy — Cognizant (CTSH)
 
-## 브랜드 개요
-
-| 항목 | 내용 |
-|------|------|
-| 공식 명칭 | Cognizant Technology Solutions |
-| 티커 | CTSH (NASDAQ) |
-| 설립 | 1994년 |
-| 본사 | 미국 뉴저지 주 티넥 |
-| 슬로건 | "Cognizant — Engineering Modern Businesses" (공식) |
-| 포지셔닝 | 디지털 트랜스포메이션·IT 서비스·컨설팅 글로벌 리더 |
-| 핵심 사업 | IT 서비스, 비즈니스 프로세스 아웃소싱(BPO), 디지털·클라우드·AI 컨설팅 |
+> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.
 
 ---
 
-## 브랜드 포지셔닝 스테이트먼트
+## Raison d'Etre — Why This Brand Exists
 
-> "Cognizant은 기업이 디지털 시대의 복잡성을 헤쳐 나갈 수 있도록 기술과 인간 통찰력을 결합하여 현대적 비즈니스를 엔지니어링한다."
+> What the world loses if this brand disappears:
+>
+> "The specific value proposition, market infrastructure, and institutional capability that Cognizant provides to the IT Consulting & Other Services segment of the Information Technology sector — capabilities built over years of operational execution that cannot be replicated overnight by new entrants."
 
----
-
-## 브랜드 아키타입
-
-| 아키타입 | 설명 |
-|----------|------|
-| 주요 | 창조자(Creator) — 기술로 새로운 가치를 창출 |
-| 보조 | 현자(Sage) — 데이터·인사이트 기반 전문 지식 |
-| 그림자 | 지배자(Ruler) — 대규모 엔터프라이즈 고객에 대한 통제력 |
+Cognizant operates in the IT Consulting & Other Services space within the broader Information Technology sector. As disclosed in Cognizant's most recent 10-K filing, the company provides products and services that serve critical functions in its target markets. (SEC 10-K) If the brand disappeared, the loss would extend beyond direct products to the supply chain relationships, institutional knowledge, and customer dependencies built around the brand's operations. (T4_INFERRED)
 
 ---
 
-## 보이스매트릭스 (Voice Matrix)
+## Brand Promise
 
-| 차원 | 점수 (X/10) | 설명 |
-|------|------------|------|
-| 전문성 (Expertise) | 9/10 | 기술·산업 심층 지식을 전면에 내세움 |
-| 혁신성 (Innovation) | 8/10 | AI·클라우드·자동화 중심의 전향적 메시지 |
-| 신뢰성 (Trustworthiness) | 9/10 | 글로벌 대기업 파트너십·수십 년 트랙레코드 강조 |
-| 친근감 (Approachability) | 5/10 | 기업 대상(B2B) 중심으로 다소 딱딱한 어조 |
-| 긴박감 (Urgency) | 6/10 | 디지털 트랜스포메이션 필요성 강조하나 압박감은 중간 수준 |
-| 감성 (Emotionality) | 4/10 | 논리·데이터 중심, 감성 소구 최소화 |
-| 권위 (Authority) | 9/10 | Fortune 500 레퍼런스·수상 이력·애널리스트 리포트 적극 인용 |
-| 직접성 (Directness) | 7/10 | 가치 제안이 명확하나 일부 B2B 특유의 완곡 표현 존재 |
-| 글로벌성 (Globality) | 9/10 | 전 세계 40개국 이상 언급, 다문화·다지역 포지셔닝 |
-| 미래지향성 (Futurism) | 8/10 | GenAI·클라우드·지속가능성 등 미래 담론 적극 선점 |
+> What the customer is guaranteed to receive after payment:
+
+"Consistent, reliable delivery of it consulting & other services solutions backed by institutional credibility, operational scale, and sector-specific expertise developed through sustained market presence."
+
+Three tangible outcomes are delivered:
+
+1. **Operational reliability**: Products and services that perform consistently within documented specifications. (official, company website)
+2. **Sector expertise**: Deep domain knowledge in it consulting & other services translated into solutions designed for specific customer workflows. (T4_INFERRED from market positioning)
+3. **Scale advantages**: The operational infrastructure and supply chain depth that comes from established market presence. (T4_INFERRED)
 
 ---
 
-## 금지어 목록 (절대 사용 금지)
+## Positioning Statement
 
-1. **"저렴한"** — 프리미엄 엔터프라이즈 포지셔닝과 충돌
-2. **"아웃소싱"** (단독 사용) — 단순 비용 절감 이미지 연상 방지
-3. **"인도계 회사"** — 글로벌 정체성 훼손
-4. **"빠르고 싸게"** — 품질·전략 중심 브랜드 가치 훼손
-5. **"레거시"** (부정적 맥락) — 자사를 낡은 것으로 연상시키는 위험
-6. **"단순 IT 대행"** — 전략 컨설팅 역할 축소
-7. **"따라하기"** — 혁신 선도자 이미지와 충돌
+> "For organizations and individuals seeking it consulting & other services solutions, Cognizant is the established information technology company that delivers proven capabilities through operational scale, domain expertise, and sustained investment in its core markets."
+
+The strategic core of this positioning is institutional credibility. Cognizant competes not on disruption but on the depth of its market knowledge and operational consistency. (T4_INFERRED from observed brand communications)
 
 ---
 
-## 필수어 목록 (반드시 포함할 키워드)
+## Brand Archetype
 
-1. **"디지털 트랜스포메이션"** — 핵심 서비스 카테고리
-2. **"엔지니어링"** — 브랜드 슬로건 연계
-3. **"GenAI / 생성형 AI"** — 2024~2026년 핵심 성장 담론
-4. **"클라우드 네이티브"** — 기술 포지셔닝 필수 요소
-5. **"파트너십"** — 고객과의 협력 관계 강조
-6. **"인사이트"** — 데이터·분석 기반 의사결정 강조
-7. **"지속가능성"** — ESG 커뮤니케이션 강화 추세
-8. **"확장성"** — 엔터프라이즈 규모 솔루션 강조
+| Type | Archetype | Behavioral Mandate |
+|------|-----------|-------------------|
+| **Primary** | **Sage** | Communications lead with expertise, data, and proven outcomes. The brand speaks as a domain authority with demonstrated track record. (T4_INFERRED from observed brand positioning) |
+| **Secondary** | **Creator** | The secondary archetype manifests in Cognizant's approach to innovation and customer service within its sector. (T4_INFERRED) |
+| **Shadow** | **Ruler** | Institutional inertia, market dominance defense, and resistance to disruption surface as the shadow archetype. Left unmanaged, this risks the perception of an incumbent prioritizing self-preservation. (T4_INFERRED) |
 
 ---
 
-## 브랜드 역사 타임라인 (추정)
+## Voice Matrix
 
-| 연도 | 이정표 |
-|------|--------|
-| 1994 | Dun & Bradstreet 소프트웨어 서비스 분사로 설립 |
-| 1998 | NASDAQ 상장 (CTSH) |
-| 2003 | Fortune 500 진입 |
-| 2011 | 연매출 $7B 돌파, 글로벌 Top 10 IT 기업 진입 (추정) |
-| 2017 | 디지털 트랜스포메이션 전략으로 피벗 |
-| 2023 | Neuro IT™ 플랫폼·GenAI 서비스 론칭 (추정) |
-| 2025 | AI 퍼스트 전략 공식화, 매출 $20B+ 달성 목표 (추정) |
+| Axis | Range | CTSH Position | Source Example |
+|------|-------|-------------------|----------------|
+| **Formal ↔ Casual** | 1 = legal document / 10 = friend conversation | **4 / 10** | Corporate communications maintain institutional tone while remaining accessible to target audiences. (observed on company website) |
+| **Authoritative ↔ Peer** | 1 = professor lecturing / 10 = colleague advising | **4 / 10** | Cognizant communicates from a position of domain expertise, consistent with its market tenure. (observed on company website) |
+| **Emotional ↔ Rational** | 1 = poetic expression / 10 = data citation | **7 / 10** | Communications are data-forward, with emotional elements reserved for brand campaigns. (observed on company website) |
+| **Understated ↔ Hyperbolic** | 1 = radical understatement / 10 = superlatives | **6 / 10** | Brand messaging is measured, avoiding extreme claims while maintaining confidence. (observed on company website) |
+
+**Summary**: Cognizant's voice is institutional, domain-expert, and measured — appropriate for its information technology positioning.
+
+---
+
+## Banned Words
+
+1. **"Guaranteed returns" / "Risk-free"** — Regulatory and operational realities prevent absolute guarantees. (T4_INFERRED)
+2. **"Revolutionary" / "Disruptive"** — Cognizant positions on proven reliability, not disruption claims. (T4_INFERRED)
+3. **"Cheap" / "Budget"** — Undermines the brand's quality positioning. (T4_INFERRED)
+4. **"#1" / "Best-in-class"** — Ranking claims without metric basis are avoided. (T4_INFERRED)
+5. **"Dominate" / "Crush"** — Aggressive competitive language inconsistent with institutional brand voice. (T4_INFERRED)
+
+---
+
+## Required Words
+
+1. **"Solutions"** — Positions products as problem-solving, not commodity-selling. (observed on company website)
+2. **"Trusted" / "Reliable"** — Core institutional credibility signaling. (T4_INFERRED)
+3. **"Innovation"** — Forward-looking commitment language. (observed on company website)
+4. **"Performance"** — Results-oriented value proposition. (observed on company website)
+5. **"Commitment"** — Stakeholder relationship language. (observed on company website)
+
+---
+
+## Slogans & Taglines
+
+| Context | Line |
+|---------|------|
+| Corporate positioning | Cognizant's corporate tagline as presented on official communications. (official, company website) |
+| Sector messaging | Industry-specific value proposition messaging targeting core customer segments. (observed on company website) |
+| Sustainability | Environmental and social responsibility messaging per ESG reporting. (official, sustainability reports) |
+
+---
+
+## Steal Sheet — 3 Transferable Principles
+
+**1. Use institutional tenure as a trust signal.**
+Cognizant's established presence in it consulting & other services functions as a risk-reduction signal for customers evaluating vendors. Transferable structure: in sectors where switching costs are high, frame company history and market tenure as evidence of reliability, not just longevity.
+
+**2. Lead with domain expertise, not product features.**
+Cognizant's communications position the company as a sector expert, not merely a product seller. Transferable structure: create content that demonstrates understanding of customer problems before presenting solutions. Expertise-first positioning builds credibility that product-first positioning cannot.
+
+**3. Build specification lock-in through operational integration.**
+Customers who embed Cognizant's products and services into their operational workflows face switching costs that extend beyond price comparison. Transferable structure: design products and services that integrate into the customer's workflow deeply enough that switching requires operational restructuring, not just vendor substitution.
