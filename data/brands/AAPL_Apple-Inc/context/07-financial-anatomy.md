@@ -1,280 +1,385 @@
-# 07. 재무 해부 — Apple Inc. (AAPL)
+# 07. Financial Anatomy — Apple Inc. (AAPL)
 
-> **면책 고지**: 이 문서의 모든 재무 데이터는 SEC 공시 자료(10-K, 10-Q, DEF 14A)에서 직접 추출한 것이다. 각 수치 옆에 출처 링크를 명시하며, "추정" 표기가 없는 수치는 공시 원문에서 확인 가능하다. 투자 조언이 아닌 브랜드 전략 분석 목적의 문서이다.
-
----
-
-## 공시 원문 링크 (Primary Sources)
-
-| 문서 | 회계연도 | 직접 링크 |
-|------|---------|----------|
-| 10-K (연간보고서) | FY2024 (9월 결산) | [SEC EDGAR — AAPL 10-K FY2024](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10) |
-| 10-Q (분기보고서) | Q1 FY2025 | [SEC EDGAR — AAPL 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10) |
-| DEF 14A (위임장) | FY2024 | [SEC EDGAR — AAPL DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=DEF+14A&dateb=&owner=include&count=10) |
-| Earnings Call Transcript | Q4 FY2024 | [Apple IR — Press Releases](https://investor.apple.com/sec-filings/default.aspx) |
-| Annual Report (주주서한) | FY2024 | [Apple Investor Relations](https://investor.apple.com/) |
-
-> **CIK 번호**: 0000320193 — SEC EDGAR 전체 공시 검색: [EDGAR Full Filing Search](https://efts.sec.gov/LATEST/search-index?q=%22Apple+Inc%22&dateRange=custom&startdt=2024-01-01&enddt=2025-12-31&forms=10-K,10-Q)
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from Apple Inc.'s SEC filings (10-K, 10-Q, DEF 14A) and Apple's official Investor
+> Relations disclosures unless explicitly marked "(estimated)". This analysis reflects publicly
+> available information as of the document preparation date. Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
-## 1. 수익 구조 해부 (Revenue Anatomy)
+## 1. Filing Source Links
 
-### 1.1 연결 매출 추이
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2024 (Sep 28, 2024) | [SEC EDGAR — AAPL 10-K FY2024](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Q1 FY2025) | Dec 28, 2024 | [SEC EDGAR — AAPL 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2024 | [SEC EDGAR — AAPL DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — AAPL 8-K Filings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=20) |
+| Apple IR Press Releases | FY2024 | [Apple Investor Relations](https://investor.apple.com/sec-filings/default.aspx) |
+| EDGAR Full-Text Search | FY2024 | [EDGAR EFTS — Apple Inc.](https://efts.sec.gov/LATEST/search-index?q=%22Apple+Inc%22&forms=10-K,10-Q&dateRange=custom&startdt=2024-01-01&enddt=2025-06-30) |
 
-| 회계연도 | 매출 ($B) | YoY 성장률 | 순이익 ($B) | 순이익률 | 출처 |
-|---------|----------|-----------|------------|---------|------|
-| FY2024 (Sep) | $391.0 | +2.0% | $93.7 | 24.0% | [10-K FY2024, p.26](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10) |
-| FY2023 | $383.3 | −2.8% | $97.0 | 25.3% | 10-K FY2023 |
-| FY2022 | $394.3 | +7.8% | $99.8 | 25.3% | 10-K FY2022 |
-| FY2021 | $365.8 | +33.3% | $94.7 | 25.9% | 10-K FY2021 |
-| FY2020 | $274.5 | +5.5% | $57.4 | 20.9% | 10-K FY2020 |
-
-> **5년 CAGR**: 매출 +9.3%, 순이익 +13.0% — 이익 성장이 매출 성장을 앞서는 구조 (공시 데이터 기반 계산).
-
-### 1.2 세그먼트별 매출 (FY2024)
-
-| 세그먼트 | 매출 ($B) | 비중 | YoY | 전략적 의미 |
-|---------|----------|------|-----|-----------|
-| **iPhone** | $201.2 | 51.5% | +0.3% | 성숙기 진입. 교체 주기 연장 → ASP 상승 전략으로 전환 |
-| **Mac** | $29.9 | 7.6% | +2.5% | M-시리즈 칩 전환 완료. Pro 라인 ASP 상승 |
-| **iPad** | $26.7 | 6.8% | −5.6% | 가장 긴 교체 주기(~5년). M-칩 iPad Pro로 프리미엄 전환 시도 |
-| **Wearables, Home & Acc.** | $37.0 | 9.5% | −6.9% | AirPods·Watch 성숙. Vision Pro ($3,499) 포함, 아직 매출 기여 미미 (추정) |
-| **Services** | $96.2 | 24.6% | +12.9% | **핵심 성장 엔진**. 구독 수익, 고마진(~70% 추정), 설치 기반 20억+ 디바이스 레버리지 |
-
-> **출처**: [10-K FY2024 — Products and Services Performance](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10), Note 참조.
-
-**브랜드 전략 시사점**: 하드웨어 매출 비중이 75%이지만, **이익 기여도**는 Services가 더 높다(추정). "제품 판매 기업"에서 "설치 기반 위의 서비스 플랫폼"으로 전환 중. 이 전환이 완성되면 브랜드 포지셔닝도 "Creator의 도구"에서 "Creator의 생태계"로 진화해야 한다.
-
-### 1.3 지역별 매출 (FY2024)
-
-| 지역 | 매출 ($B) | 비중 | YoY | 전략적 의미 |
-|------|----------|------|-----|-----------|
-| Americas | $167.0 | 42.7% | +3.2% | 핵심 시장. 프리미엄 포지셔닝 완벽 작동 |
-| Europe | $101.3 | 25.9% | +7.3% | EU 규제 (DMA, USB-C) 대응 비용 증가. 그러나 성장세 |
-| Greater China | $67.0 | 17.1% | −8.0% | Huawei 부활, 민족주의 소비 트렌드. 최대 리스크 지역 |
-| Japan | $25.0 | 6.4% | +4.5% | 안정적 프리미엄 시장 |
-| Rest of Asia Pacific | $30.7 | 7.9% | +3.8% | 인도 성장 잠재력 (Foxconn 현지 공장 가동, 공식) |
-
-> **출처**: [10-K FY2024 — Segment Information](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10)
-
-**중국 리스크**: FY2023 대비 −8% 하락은 Huawei Mate 60 Pro 출시(2023.08)와 시기적으로 일치. 브랜드 관점에서 "미국 프리미엄 테크" 포지셔닝이 중국에서 양날의 검이 됨.
+**CIK**: 0000320193  
+**Fiscal Year End**: Last Saturday of September  
+**Exchange**: NASDAQ (AAPL)
 
 ---
 
-## 2. 수익성 해부 (Profitability Anatomy)
+## 2. Revenue Anatomy
 
-### 2.1 마진 구조
+### 2.1 Five-Year Revenue Trend
 
-| 지표 | FY2024 | FY2023 | FY2022 | 의미 |
-|------|--------|--------|--------|------|
-| 매출총이익률 (Gross Margin) | 46.2% | 44.1% | 43.3% | 3년 연속 상승 — Services 비중 확대 효과 |
-| 영업이익률 (Operating Margin) | 31.5% | 29.8% | 30.3% | R&D 투자 증가에도 불구하고 안정적 |
-| 순이익률 (Net Margin) | 24.0% | 25.3% | 25.3% | FY2024 세금 일회성 비용으로 소폭 하락 (추정) |
-| FCF Margin | 26.5% | 26.9% | 27.3% | $100B+ 연간 Free Cash Flow 창출 |
+| Fiscal Year | Total Revenue | YoY Change | Source |
+|-------------|---------------|------------|--------|
+| FY2020 | $274.5B | +5.5% | (SEC 10-K FY2020) |
+| FY2021 | $365.8B | +33.3% | (SEC 10-K FY2021) |
+| FY2022 | $394.3B | +7.8% | (SEC 10-K FY2022) |
+| FY2023 | $383.3B | -2.8% | (SEC 10-K FY2023) |
+| FY2024 | $391.0B | +2.0% | (SEC 10-K FY2024) |
 
-> **출처**: [10-K FY2024 — Consolidated Statements of Operations](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10)
+The FY2021 revenue spike (+33.3%) coincides with the post-pandemic consumer electronics upgrade
+cycle and the global rollout of 5G-capable iPhone 12 series, as noted in Apple's FY2021 10-K
+discussion of segment results. FY2023 represented a modest contraction, which Apple's management
+attributed in part to foreign exchange headwinds during the earnings call (T2_PRIMARY_RELIABLE).
+FY2024 returned to growth at +2.0%, indicating stabilization.
 
-### 2.2 제품 vs. 서비스 마진
+### 2.2 Segment Revenue Breakdown (FY2024)
 
-| 구분 | 매출총이익률 | 추세 | 출처 |
-|------|-------------|------|------|
-| Products | ~36.8% | 안정 | 10-K FY2024 |
-| Services | ~74.0% | 상승 | 10-K FY2024 |
+| Segment | Revenue | % of Total | YoY Change | Source |
+|---------|---------|-----------|------------|--------|
+| iPhone | $201.2B | 51.5% | -0.2% | (SEC 10-K FY2024) |
+| Services | $96.2B | 24.6% | +12.9% | (SEC 10-K FY2024) |
+| Mac | $29.9B | 7.6% | +2.1% | (SEC 10-K FY2024) |
+| iPad | $26.7B | 6.8% | -5.6% | (SEC 10-K FY2024) |
+| Wearables, Home & Accessories | $37.0B | 9.5% | -7.2% | (SEC 10-K FY2024) |
+| **Total** | **$391.0B** | **100%** | **+2.0%** | (SEC 10-K FY2024) |
 
-> **브랜드 전략 시사점**: Services 마진이 Products의 **2배**. App Store 30% 수수료, Apple Music/TV+ 구독, iCloud+ 저장소, Apple Care — 모두 설치 기반(installed base)에 대한 '세금'과 같은 구조. 이 마진 구조가 Apple이 하드웨어 가격을 유지하면서도 Trade-In/할부를 공격적으로 운영할 수 있는 이유다.
+Key observations based on public filings:
+- iPhone remains the revenue anchor at over half of total revenue, though its share has declined
+  from ~54% in FY2022 as Services grows.
+- Services revenue grew at 12.9% YoY in FY2024, the fastest-growing segment, suggesting (T4_INFERRED)
+  an ongoing strategic shift toward recurring revenue streams.
+- Wearables & iPad combined declined approximately 6–7% YoY, which Apple's 10-K attributes in
+  part to product cycle timing.
 
----
+### 2.3 Geographic Revenue Breakdown (FY2024)
 
-## 3. 투자 구조 (Investment Anatomy)
+| Region | Revenue | % of Total | Source |
+|--------|---------|-----------|--------|
+| Americas | $167.0B | 42.7% | (SEC 10-K FY2024) |
+| Europe | $101.3B | 25.9% | (SEC 10-K FY2024) |
+| Greater China | $66.9B | 17.1% | (SEC 10-K FY2024) |
+| Japan | $25.1B | 6.4% | (SEC 10-K FY2024) |
+| Rest of Asia Pacific | $30.7B | 7.9% | (SEC 10-K FY2024) |
 
-### 3.1 R&D 지출
-
-| 회계연도 | R&D ($B) | 매출 대비 | YoY 증가 | 출처 |
-|---------|---------|----------|---------|------|
-| FY2024 | $31.4 | 8.0% | +7.2% | 10-K FY2024 |
-| FY2023 | $29.9 | 7.8% | +14.0% | 10-K FY2023 |
-| FY2022 | $26.3 | 6.7% | +19.5% | 10-K FY2022 |
-| FY2021 | $21.9 | 6.0% | +17.0% | 10-K FY2021 |
-
-> **비교**: 삼성 R&D ~$22B (6~7%), Google ~$45B (13~14%), Meta ~$40B (27~30%). Apple은 매출 대비 가장 효율적 R&D 투자. 특허당 매출도 업계 최고 수준 (추정).
-
-**브랜드 전략 시사점**: Apple Intelligence (온디바이스 AI), Vision Pro (공간 컴퓨팅), M-시리즈 칩 확장이 R&D 비용 증가의 주요 동인 (추정). R&D 대비 매출 효율이 높다는 것은 브랜드 프리미엄이 기술 투자를 효율적으로 수익화하고 있다는 증거.
-
-### 3.2 마케팅 & 판관비 (SG&A)
-
-| 회계연도 | SG&A ($B) | 매출 대비 | 추세 |
-|---------|----------|----------|------|
-| FY2024 | $26.1 | 6.7% | 안정 |
-| FY2023 | $24.9 | 6.5% | 안정 |
-| FY2022 | $25.1 | 6.4% | 안정 |
-
-> **출처**: [10-K FY2024 — Consolidated Statements of Operations](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10)
-
-> **주의**: SEC 공시에서 Apple은 광고/마케팅 비용을 별도 분리 공시하지 않는다. SG&A에 통합 포함. 글로벌 광고 지출은 연간 ~$5~7B로 추정(Ad Age, Kantar 등 외부 추정치).
-
-**브랜드 전략 시사점**: SG&A 6.7%는 동종 테크 기업 대비 극도로 낮다 (Samsung ~14%, Google ~13%). Apple Retail Store 네트워크(520+ 매장)가 광고와 판매를 동시에 수행하기 때문에 별도 마케팅 비용이 억제된다. **브랜드 자체가 마케팅 비용을 줄이는 자산**이라는 구조적 증거.
-
-### 3.3 CapEx & 감가상각
-
-| 항목 | FY2024 | 비고 |
-|------|--------|------|
-| CapEx | $9.96B | 데이터센터(Apple Intelligence), 툴링, 리테일 |
-| 감가상각 | $8.81B | 장비 교체 주기 안정적 |
-| Free Cash Flow | $103.6B | 매출의 26.5% — S&P 500 최대 FCF 기업 중 하나 |
-
-> **출처**: 10-K FY2024 — Consolidated Statements of Cash Flows
+Greater China revenue of $66.9B represents a decline from $72.6B in FY2023 (-7.8%), which Apple's
+management discussed on the Q4 FY2024 earnings call, citing intensified local competition
+(T2_PRIMARY_RELIABLE). The Americas region accounts for the largest share, indicating continued
+dependence on North American consumer spending.
 
 ---
 
-## 4. 자본 배분 전략 (Capital Allocation)
+## 3. Profitability Anatomy
 
-### 4.1 주주환원
+### 3.1 Consolidated Margin Structure (FY2024)
 
-| 항목 | FY2024 | FY2023 | 누적 (2012~2024) |
-|------|--------|--------|-----------------|
-| 자사주 매입 | $94.9B | $77.6B | ~$700B+ (추정) |
-| 배당금 | $15.0B | $15.0B | ~$150B+ (추정) |
-| **총 환원** | **$109.9B** | **$92.6B** | **~$850B+** |
+| Metric | Amount | % of Revenue | Source |
+|--------|--------|-------------|--------|
+| Revenue | $391.0B | 100.0% | (SEC 10-K FY2024) |
+| Cost of Sales | $210.4B | 53.8% | (SEC 10-K FY2024) |
+| **Gross Profit** | **$180.6B** | **46.2%** | (SEC 10-K FY2024) |
+| Operating Expenses (R&D + SG&A) | $57.5B | 14.7% | (SEC 10-K FY2024) |
+| **Operating Income** | **$123.2B** | **31.5%** | (SEC 10-K FY2024) |
+| Net Income | $93.7B | 24.0% | (SEC 10-K FY2024) |
 
-> **출처**: [10-K FY2024 — Financing Activities](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10)
+Apple's consolidated gross margin of 46.2% in FY2024 represents an increase from 44.1% in FY2023,
+as disclosed in the 10-K. This improvement is consistent with the growing proportion of
+higher-margin Services revenue.
 
-**브랜드 전략 시사점**: Apple은 2012년부터 **$850B+**를 주주에게 환원했다. 이는 세계 기업 역사상 가장 큰 자본 환원 프로그램이다 (공시 기반). 공격적 자사주 매입은 EPS 성장을 인위적으로 높이며, 이것이 "매출 정체에도 주가 상승"의 재무적 메커니즘이다.
+### 3.2 Segment Margin Comparison (FY2024)
 
-### 4.2 M&A 전략
+| Segment | Gross Margin | Basis | Source |
+|---------|-------------|-------|--------|
+| Products (blended) | ~36.8% | (estimated) | Based on 10-K segment disclosures |
+| Services | ~74.0% | (estimated) | Based on 10-K segment disclosures |
 
-Apple은 대형 M&A를 거의 하지 않는다. 연간 10~20개의 소규모 인수($50M~$200M 규모)를 통해 기술/인재를 흡수한다 (추정, Apple은 인수 금액을 별도 공시하지 않음).
+Apple does not separately disclose exact gross margin percentages for each hardware product line in
+its 10-K filings (T4_INFERRED). The estimates above are derived from the company's reported
+Products and Services gross profit figures disclosed in Note 11 (Segment Information) of the
+FY2024 10-K. The ~74% Services margin estimate is consistent with industry analyst estimates
+reported by Bloomberg and the Financial Times (T3_SECONDARY_RELIABLE).
 
-| 최근 주요 인수 (공개 확인) | 분야 | 브랜드 전략 연관성 |
-|--------------------------|------|-------------------|
-| Beats Electronics (2014, $3B) | 오디오/스트리밍 | Apple Music 기반. 유일한 "브랜드 유지" 인수 |
-| Intel 모뎀 사업부 (2019, $1B) | 통신칩 | 자체 5G 모뎀 개발 → 수직 통합 강화 |
-| 다수 AI 스타트업 (2023~24) | 온디바이스 AI | Apple Intelligence 기반 기술 확보 |
+The structural divergence between Products (~37%) and Services (~74%) margins suggests
+(T4_INFERRED) that each incremental dollar of Services growth contributes disproportionately
+to consolidated profitability, a dynamic Apple management has referenced in earnings calls.
 
-> **출처**: Apple이 SEC 공시에서 인수를 별도 항목으로 공시하는 경우는 드물다. 위 정보는 Apple 공식 보도자료 + SEC 공시 주석(Notes) 교차 확인.
+### 3.3 Net Income Trend
 
----
-
-## 5. 재무 건전성 (Financial Health)
-
-### 5.1 대차대조표 핵심
-
-| 항목 | FY2024 | 의미 |
-|------|--------|------|
-| 총자산 | $364.9B | |
-| 현금 + 유가증권 | $140.6B | 전 세계 기업 중 최대 현금 보유 수준 |
-| 총부채 | $101.3B | 저금리 시기 발행 채권 위주 |
-| 순현금 (Cash − Debt) | ~$39.3B | "Net Cash Neutral" 목표 향해 축소 중 (공식, Earnings Call) |
-| 자기자본 | $56.9B | 자사주 매입으로 지속 축소 |
-
-> **출처**: [10-K FY2024 — Consolidated Balance Sheets](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10)
-
-### 5.2 신용등급
-
-| 기관 | 등급 | 전망 | 의미 |
-|------|------|------|------|
-| Moody's | Aaa | Stable | 최고 등급 — 미국 국채와 동급 |
-| S&P | AA+ | Stable | 미국 국가 신용등급과 동일 |
-
-> Apple의 신용등급은 대부분의 국가 정부보다 높다. 이는 브랜드 자산이 재무적 안정성의 핵심 기반임을 의미한다.
+| FY | Net Income | Net Margin | Source |
+|----|-----------|-----------|--------|
+| FY2020 | $57.4B | 20.9% | (SEC 10-K FY2020) |
+| FY2021 | $94.7B | 25.9% | (SEC 10-K FY2021) |
+| FY2022 | $99.8B | 25.3% | (SEC 10-K FY2022) |
+| FY2023 | $97.0B | 25.3% | (SEC 10-K FY2023) |
+| FY2024 | $93.7B | 24.0% | (SEC 10-K FY2024) |
 
 ---
 
-## 6. 브랜드 가치 평가 (Brand Valuation)
+## 4. Investment Structure
 
-### 6.1 외부 기관 평가
+### 4.1 Research & Development
 
-| 기관 | 평가액 | 연도 | 순위 | 출처 유형 |
-|------|--------|------|------|----------|
-| Interbrand Best Global Brands | $502.7B | 2024 | #1 (12년 연속) | 외부 추정 |
-| Brand Finance Global 500 | $516.6B | 2025 | #1 | 외부 추정 |
-| Kantar BrandZ | $1,015.9B | 2024 | #1 | 외부 추정 |
-| Forbes | $241.2B | 2024 | #1 | 외부 추정 |
+| Metric | FY2024 | FY2023 | Source |
+|--------|--------|--------|--------|
+| R&D Expense | $31.4B | $29.9B | (SEC 10-K FY2024) |
+| R&D as % of Revenue | 8.0% | 7.8% | (SEC 10-K FY2024) |
+| YoY Change | +5.1% | — | (SEC 10-K FY2024) |
 
-> **주의**: 브랜드 가치 평가 방법론이 기관마다 다르므로 절대 수치보다 **상대 순위와 추세**가 유의미하다. 모든 기관에서 12년+ 연속 1위라는 사실 자체가 핵심 데이터.
+Apple does not itemize R&D spending by product category or project in its public filings.
+The company's 10-K describes R&D as encompassing software engineering, hardware engineering,
+and technology development across all product and service lines (T1_OFFICIAL).
 
-### 6.2 브랜드 프리미엄 정량화
+At $31.4B, Apple's R&D spend is substantial in absolute terms. As a percentage of revenue (8.0%),
+it is lower than some peers in the semiconductor and software sectors, reflecting Apple's
+vertically integrated model where hardware and software co-development yields efficiency
+gains (T4_INFERRED based on industry benchmarking).
 
-| 지표 | Apple | 업계 평균 | 프리미엄 | 의미 |
-|------|-------|----------|---------|------|
-| P/E Ratio (FY2024) | ~33x | S&P 500 ~22x | +50% | 시장이 Apple에 부여하는 성장/브랜드 프리미엄 |
-| iPhone ASP | ~$940 | Android 평균 ~$300 (추정) | +213% | 동일 기능 대비 3배+ 가격 수용. 이것이 "브랜드" |
-| 고객 유지율 | ~93% (추정) | Android ~85% (추정) | +8pp | 생태계 종속 + 브랜드 충성도 |
-| Net Promoter Score | ~72 (추정) | 테크 업계 ~40 (추정) | +32 | 브랜드 옹호자 비율 압도적 |
+### 4.2 Sales, General & Administrative (SG&A)
 
----
+| Metric | FY2024 | FY2023 | Source |
+|--------|--------|--------|--------|
+| SG&A Expense | $26.1B | $24.9B | (SEC 10-K FY2024) |
+| SG&A as % of Revenue | 6.7% | 6.5% | (SEC 10-K FY2024) |
 
-## 7. 재무 리스크 매트릭스 (Financial Risk)
+### 4.3 Capital Expenditures
 
-### SEC 10-K Risk Factors 기반
-
-Apple 10-K에는 [Part I, Item 1A — Risk Factors](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10)에 다음 리스크가 공시되어 있다:
-
-| 리스크 카테고리 | 핵심 내용 | 브랜드 전략 영향 |
-|---------------|----------|----------------|
-| **중국 의존도** | 공급망(Foxconn/Pegatron) + 매출 17% | 지정학 리스크가 브랜드 인식에 직접 영향. "Made in China" vs. "Designed in California" 내러티브 |
-| **환율 리스크** | 매출 58% 해외. 강달러 시 역풍 | 가격 정책 지역별 차등 → 브랜드 일관성 저하 위험 |
-| **규제 리스크 (EU DMA)** | 사이드로딩 강제, App Store 수수료 제한 | Services 마진 하락 가능성. 생태계 "walled garden" 포지셔닝 약화 |
-| **공급망 집중** | TSMC 단일 소스 (선단 공정) | 반도체 공급 차질 시 신제품 출시 지연 → 브랜드 모멘텀 상실 |
-| **AI 경쟁 지연** | Google/Microsoft 대비 생성형 AI 늦은 진입 | "혁신 리더" 이미지 훼손 리스크 |
-| **소송 비용** | Epic Games, EU 과징금, DOJ 반독점 소송 | 연간 법적 비용 수십억 달러 (추정) |
-
-> **원문 확인**: 10-K Risk Factors는 기업이 스스로 인정한 리스크이므로 가장 보수적이고 신뢰할 수 있는 리스크 평가 자료다.
+Apple's capital expenditures (CapEx) in FY2024 totaled approximately $9.4B (estimated, based
+on cash flow statement disclosures in the FY2024 10-K). This includes property, plant, and
+equipment purchases as well as internal-use software capitalization. The relatively low CapEx
+ratio relative to revenue reflects Apple's asset-light manufacturing model, where production
+is primarily outsourced to contract manufacturers including Foxconn (Hon Hai Precision) and
+Pegatron, as referenced in Apple's 10-K supplier disclosures (T1_OFFICIAL).
 
 ---
 
-## 8. 브랜드-재무 연결 인사이트 (Brand × Finance Nexus)
+## 5. Capital Allocation
 
-### 8.1 재무 데이터가 말하는 브랜드 전략
+### 5.1 Shareholder Returns (FY2024)
 
-| 재무 시그널 | 브랜드 전략 해석 |
-|------------|-----------------|
-| iPhone ASP 상승 + 판매량 정체 | "더 비싼 경험을 더 적게 파는" 럭셔리 전략으로 전환 중 |
-| Services 매출총이익률 74% | 브랜드 충성도(lock-in)가 직접 이익으로 전환되는 구조 |
-| SG&A 6.7% (업계 최저) | 브랜드 자체가 마케팅 비용을 대체하는 자산. "Apple"이라는 이름이 $20B+ 마케팅 절감 효과 (추정) |
-| R&D 8% 대비 마진 46% | 기술 투자가 프리미엄 가격으로 회수되는 효율. 브랜드가 기술의 가격 탄력성을 낮춤 |
-| 중국 매출 −8% | 브랜드가 지정학 리스크를 완전히 방어하지 못하는 한계 존재 |
-| 자사주 매입 $95B/년 | 매출 성장이 둔화되어도 EPS 성장을 유지 → 주가 상승 → "성공하는 기업" 내러티브 지속 |
+| Mechanism | FY2024 Amount | Source |
+|-----------|---------------|--------|
+| Share Buybacks | $94.9B | (SEC 10-K FY2024) |
+| Dividends Paid | $15.0B | (SEC 10-K FY2024) |
+| **Total Returned** | **$109.9B** | (SEC 10-K FY2024) |
 
-### 8.2 마케팅 ROI 프레임
+Apple's capital return program, as disclosed in its FY2024 10-K and press releases, has
+returned over $700B to shareholders cumulatively since 2012 (T1_OFFICIAL, Apple IR).
+The $94.9B in buybacks in FY2024 represents one of the largest corporate repurchase programs
+globally in that period.
+
+Free Cash Flow (FCF) of $103.6B in FY2024 (SEC 10-K FY2024, cash flow statement) provided
+the funding base for these distributions while preserving balance sheet liquidity.
+
+### 5.2 Dividend History
+
+Apple reinstated its dividend in 2012. The company has increased its dividend annually since
+then (T1_OFFICIAL, Apple IR press releases). The FY2024 quarterly dividend was raised to $0.25
+per share, as announced via 8-K on May 2, 2024 (T1_OFFICIAL).
+
+### 5.3 Mergers & Acquisitions
+
+Apple does not disclose a comprehensive acquisition pipeline in its filings. The 10-K notes
+that the company makes acquisitions of "smaller technology companies" periodically to acquire
+technology or talent (T1_OFFICIAL). Based on publicly reported transactions (T3_SECONDARY_RELIABLE,
+Bloomberg/Reuters), Apple's acquisitions tend to be bolt-on technology purchases rather than
+transformative mergers. Notable acquisitions include Intel's smartphone modem business (2019,
+~$1B, T3_SECONDARY_RELIABLE) and various AI/ML startups in recent years.
+
+---
+
+## 6. Financial Health
+
+### 6.1 Balance Sheet Summary (FY2024, Sep 28, 2024)
+
+| Item | Amount | Source |
+|------|--------|--------|
+| Cash & Short-Term Investments | $153.0B | (SEC 10-K FY2024) |
+| Total Assets | $364.9B | (SEC 10-K FY2024) |
+| Total Liabilities | $308.0B | (SEC 10-K FY2024) |
+| Total Equity (Deficit) | $56.9B | (SEC 10-K FY2024) |
+| Long-Term Debt | $85.8B | (SEC 10-K FY2024) |
+
+Apple carries a shareholder equity figure that has been reduced over time by the scale of its
+buyback program, as disclosed in the Statement of Shareholders' Equity in the 10-K. The company's
+financial position is assessed by credit rating agencies as indicated by the ratings below.
+
+### 6.2 Credit Ratings
+
+| Agency | Rating | Outlook | Source |
+|--------|--------|---------|--------|
+| Moody's | Aaa | Stable | (official, Moody's public rating) |
+| S&P Global | AA+ | Stable | (official, S&P public rating) |
+
+Apple holds the highest possible rating from Moody's (Aaa) and the second-highest from S&P
+(AA+). These ratings reflect the agencies' assessments of Apple's financial strength based on
+publicly available information. Ratings are subject to change; refer to current agency
+publications for latest information.
+
+---
+
+## 7. Brand Valuation
+
+### 7.1 External Agency Valuations
+
+| Agency | Brand Value (2024) | Rank | Methodology | Source |
+|--------|-------------------|------|-------------|--------|
+| Interbrand Best Global Brands | $488.9B | #1 | Interbrand royalty relief + financial analysis | (official, Interbrand 2024) |
+| Brand Finance Global 500 | $516.6B | #1 | Royalty relief method | (official, Brand Finance 2024) |
+| Forbes World's Most Valuable Brands | ~$241.2B | #1 | (estimated, Forbes methodology) | (T3_SECONDARY_RELIABLE) |
+
+Brand valuation methodologies differ across agencies and involve assumptions that may not
+reflect actual market transactions. These figures are presented for comparative reference only
+and do not represent audited financial values.
+
+### 7.2 Brand Premium Quantification
+
+Apple's premium pricing relative to category averages indicates a brand premium that can be
+observed in public pricing data (T4_INFERRED):
+
+- iPhone average selling price (ASP): approximately $800–$900 (estimated, based on dividing
+  iPhone revenue by estimated unit shipments from IDC/Counterpoint, T3_SECONDARY_RELIABLE).
+  This compares to Android category ASPs significantly below $400 in most markets.
+- Mac ASPs: Apple does not disclose unit volumes in its 10-K. Based on IDC market share data
+  and revenue figures, Mac ASPs are estimated to be 2–3x the Windows PC category average
+  (estimated, T3_SECONDARY_RELIABLE).
+
+These price differentials suggest (T4_INFERRED) a measurable brand premium, though the exact
+portion attributable to brand versus product specifications cannot be precisely isolated from
+public data alone.
+
+---
+
+## 8. Financial Risk Matrix
+
+The following risks are disclosed in Apple's FY2024 10-K, Part I, Item 1A (Risk Factors).
+Descriptions below summarize publicly disclosed risk language. Direct quotations are from the
+10-K (T1_OFFICIAL).
+
+| # | Risk Category | Disclosed Risk Summary | Severity (estimated) |
+|---|---------------|------------------------|----------------------|
+| 1 | **Geographic Concentration** | Apple's significant operations and revenue in Greater China expose results to regulatory, geopolitical, and competitive risks in that market. The 10-K specifically identifies China risk as a key factor. | High |
+| 2 | **iPhone Revenue Concentration** | At 51.5% of total revenue, iPhone performance disproportionately affects consolidated results. Any disruption to iPhone demand, supply, or competitive positioning carries outsized risk. | High |
+| 3 | **Regulatory & Legal Environment** | Ongoing antitrust investigations and proceedings in the U.S. (DOJ), EU (DMA enforcement), and other jurisdictions could require changes to business practices, result in fines, or impose restrictions. | High |
+| 4 | **Supply Chain Concentration** | Apple's 10-K discloses reliance on single-source or limited-source suppliers for certain components. Manufacturing concentration in China creates geopolitical and operational risk. | Medium-High |
+| 5 | **Services Revenue Regulatory Risk** | App Store business model is subject to regulatory and legal challenges globally (EU DMA, Epic v. Apple, various national legislation). Court or regulatory-mandated changes could affect Services revenue and margin. | High |
+| 6 | **Macroeconomic Sensitivity** | Consumer discretionary spending on premium electronics is sensitive to economic downturns, inflation, and currency fluctuations, as noted in Apple's risk disclosures. | Medium |
+| 7 | **Intellectual Property** | Apple's 10-K identifies IP litigation as a material risk, including both offensive and defensive IP proceedings. The Masimo patent dispute is one example of active litigation involving IP claims. | Medium |
+| 8 | **Privacy & Data Regulation** | Evolving global privacy regulations (GDPR, CCPA, and emerging frameworks) could increase compliance costs or restrict data-based Services revenue models. | Medium |
+
+---
+
+## 9. Brand-Finance Nexus
+
+The following signals, based on public filings and observable market data, indicate the
+relationship between Apple's brand strength and financial performance (T4_INFERRED where noted):
+
+### 9.1 Five Brand-Finance Signals
+
+**Signal 1 — Premium Pricing Power**
+Apple's iPhone ASPs remain above category averages despite competitive alternatives, suggesting
+(T4_INFERRED) that brand equity sustains pricing power that directly supports gross margin.
+
+**Signal 2 — Services Ecosystem Lock-In**
+Services revenue of $96.2B at ~74% gross margin (estimated) is structurally tied to the installed
+base of Apple hardware users. Brand loyalty that drives hardware retention also drives Services
+revenue retention, creating a compounding financial effect (T4_INFERRED).
+
+**Signal 3 — Buyback Sustainability**
+$94.9B in FY2024 buybacks is funded by $103.6B in FCF — a ratio that indicates operating
+cash generation sufficient to sustain the program without debt-funded dilution. This sustainability
+is enabled in part by pricing power attributable to brand strength (T4_INFERRED).
+
+**Signal 4 — Geographic Brand Resilience**
+Despite headwinds in Greater China (revenue -7.8% YoY), Apple maintained positive global
+revenue growth (+2.0%), indicating that brand strength in the Americas and Europe partially
+offset regional weaknesses (T4_INFERRED based on geographic segment data, T1_OFFICIAL).
+
+**Signal 5 — R&D Leverage**
+At 8.0% of revenue, Apple's R&D ratio is lower than many software/semiconductor peers. This
+indicates (T4_INFERRED) that Apple's vertically integrated brand-product model generates
+higher output per R&D dollar — a financial advantage enabled by brand positioning that allows
+hardware and software integration without requiring open licensing.
+
+### 9.2 Brand-Finance Virtuous Cycle (ASCII Diagram)
 
 ```
-              ┌────────────────────────────────────────┐
-              │     Apple 브랜드-재무 선순환 구조        │
-              │                                        │
-              │   브랜드 프리미엄 (ASP +213%)           │
-              │           │                            │
-              │           ▼                            │
-              │   고마진 하드웨어 (37%)                  │
-              │           │                            │
-              │           ▼                            │
-              │   설치 기반 20억+ 디바이스               │
-              │           │                            │
-              │           ▼                            │
-              │   Services 수익 (마진 74%)              │
-              │           │                            │
-              │           ▼                            │
-              │   FCF $104B → 자사주 매입               │
-              │           │                            │
-              │           ▼                            │
-              │   EPS 성장 → 주가 상승                  │
-              │           │                            │
-              │           ▼                            │
-              │   "가장 가치 있는 브랜드" → 프리미엄 강화 │
-              │           │                            │
-              │           └──────────── (반복) ─────────┘
-              └────────────────────────────────────────┘
+        +------------------+
+        |  BRAND STRENGTH  |
+        |  (Trust, Premium)|
+        +--------+---------+
+                 |
+                 v
+        +--------+---------+
+        |  PRICING POWER   |<----------+
+        |  ASP > Category  |           |
+        +--------+---------+           |
+                 |                     |
+                 v                     |
+        +--------+---------+           |
+        |  HIGH GROSS      |           |
+        |  MARGIN (46.2%)  |           |
+        +--------+---------+           |
+                 |                     |
+                 v                     |
+        +--------+---------+           |
+        |  STRONG FCF      |           |
+        |  ($103.6B FY2024)|           |
+        +--------+---------+           |
+                 |                     |
+         +-------+--------+            |
+         |                |            |
+         v                v            |
++--------+------+  +------+--------+  |
+| BUYBACKS      |  | R&D / PRODUCT |  |
+| ($94.9B)      |  | INVESTMENT    +--+
+| EPS Accretion |  | ($31.4B R&D)  |
++---------------+  +---------------+
+         |
+         v
++--------+---------+
+|  SERVICES        |
+|  ECOSYSTEM GROWTH|
+|  (+12.9% FY2024) |
++--------+---------+
+         |
+         +---> INSTALLED BASE EXPANSION
+                      |
+                      v
+              BRAND STRENGTH (loop)
 ```
+
+*Diagram is a conceptual representation based on T1_OFFICIAL financial data.
+Causal relationships are T4_INFERRED; they represent this project's analytical
+interpretation, not claims made by Apple Inc.*
 
 ---
 
-## EDGAR 빠른 참조 (Quick Reference)
+## 10. EDGAR Quick Reference
 
-모든 수치를 직접 검증하려면:
+| Query | Direct URL |
+|-------|-----------|
+| All AAPL filings (EDGAR) | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=&dateb=&owner=include&count=40 |
+| 10-K filings only | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10 |
+| 10-Q filings only | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-Q&dateb=&owner=include&count=10 |
+| 8-K filings (material events) | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=20 |
+| DEF 14A (Proxy) | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=DEF+14A&dateb=&owner=include&count=10 |
+| EDGAR Full-Text Search | https://efts.sec.gov/LATEST/search-index?q=%22Apple+Inc%22&forms=10-K |
+| Apple IR (Investor Relations) | https://investor.apple.com/ |
+| Apple IR SEC Filings | https://investor.apple.com/sec-filings/default.aspx |
 
-1. **SEC EDGAR AAPL 전체 공시**: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=&dateb=&owner=include&count=40
-2. **EDGAR Full-Text Search**: https://efts.sec.gov/LATEST/search-index?q=%220000320193%22&forms=10-K,10-Q,DEF+14A
-3. **Apple Investor Relations**: https://investor.apple.com/sec-filings/default.aspx
-4. **XBRL Interactive Viewer** (기계 판독 가능 재무제표): https://www.sec.gov/cgi-bin/viewer?action=view&cik=320193&type=10-K
+---
 
-> **데이터 신선도**: 이 문서는 FY2024 (2024년 9월 결산) 10-K 기준으로 작성되었다. 분기별 10-Q 발행 시 업데이트 필요.
+*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*  
+*Source tier system: T1_OFFICIAL (SEC filings/official) | T2_PRIMARY_RELIABLE | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis) | T5_LLM_DRAFT*  
+*All T4_INFERRED interpretations represent this project's analytical conclusions, not statements of fact about Apple Inc.'s intentions or strategies.*

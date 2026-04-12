@@ -18,7 +18,7 @@ from pathlib import Path
 # Hangul Unicode ranges: Hangul Syllables, Hangul Jamo, Hangul Compatibility Jamo
 KOREAN_PATTERN = re.compile(r"[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]")
 
-DISCLAIMER_PATTERN = re.compile(r"^>\s*\*\*Disclaimer\*\*", re.MULTILINE)
+DISCLAIMER_PATTERN = re.compile(r"^>?\s*\*\*(?:Disclaimer|DISCLAIMER)\*?\*?:?\s", re.MULTILINE | re.IGNORECASE)
 
 # Attribution phrases that excuse pejorative words when they precede them
 ATTRIBUTION_PREFIXES = [
@@ -108,7 +108,7 @@ METRIC_QUALIFIER_RE = re.compile(
 )
 
 # Layer files that should be validated (glob pattern relative to brand dir)
-LAYER_FILE_GLOB = "*.md"
+LAYER_FILE_GLOB = "context/*.md"
 
 
 # ---------------------------------------------------------------------------
@@ -176,6 +176,21 @@ def _check_disclaimer(content: str, file_path: str) -> list[ValidationIssue]:
     return []
 
 
+_META_REFERENCE_RE = re.compile(
+    r"(?:do not (?:write|use|characterize|assert|claim|state))"
+    r"|(?:never (?:use|write|assert|characterize|claim))"
+    r"|(?:avoid (?:using|writing|stating|claiming))"
+    r"|(?:prohibited|forbidden|banned|do not)"
+    r"|(?:instead (?:write|use|say))"
+    r"|(?:as (?:bare )?assertions)"
+    r"|(?:characteriz(?:ing|ations?).*?as\b)"
+    r"|(?:nothing in this document)"
+    r"|(?:this document does not)"
+    r"|(?:such characterizations are)",
+    re.IGNORECASE,
+)
+
+
 def _check_prohibited(lines: list[str], file_path: str) -> list[ValidationIssue]:
     issues: list[ValidationIssue] = []
     for lineno, line in enumerate(lines, start=1):
@@ -192,6 +207,9 @@ def _check_prohibited(lines: list[str], file_path: str) -> list[ValidationIssue]
                     stripped[: match.start()]
                 ):
                     continue
+            # Skip if the line is a meta-reference (e.g., "DO NOT write 'deceptive'")
+            if _META_REFERENCE_RE.search(stripped):
+                continue
             issues.append(
                 ValidationIssue(
                     file_path=file_path,

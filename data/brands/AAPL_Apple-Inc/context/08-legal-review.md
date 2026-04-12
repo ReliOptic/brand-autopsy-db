@@ -1,176 +1,462 @@
-# 08. 법적 요소 검토 — Apple Inc. (AAPL)
+# 08. Legal Review — Apple Inc. (AAPL)
 
-> **면책 고지**: 이 문서는 법률 자문이 아니며, 브랜드 분석 프로젝트의 법적 리스크 인식 목적으로 작성되었다. 모든 소송·규제 정보는 SEC 공시(10-K Risk Factors, 8-K) 및 공개 법원 기록에서 확인 가능하다.
-
----
-
-## 공시·판례 원문 링크 (Primary Sources)
-
-| 문서 | 직접 링크 |
-|------|----------|
-| 10-K Risk Factors (법적 리스크) | [SEC EDGAR — AAPL 10-K, Part I Item 1A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10) |
-| 소송 공시 (Legal Proceedings) | 10-K Part I, Item 3 — Legal Proceedings |
-| 8-K (중요 사건 공시) | [SEC EDGAR — AAPL 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=20) |
-| USPTO 상표 검색 | [USPTO TESS — "Apple" 상표](https://tmsearch.uspto.gov/) |
-| EU 판결/과징금 | [European Commission — Apple Cases](https://ec.europa.eu/competition/elojade/isef/index.cfm) |
+> **DISCLAIMER**: This document is prepared solely for brand strategy analysis purposes and does
+> NOT constitute legal advice, legal opinion, or investment guidance. All litigation and regulatory
+> information is sourced from publicly available records: SEC filings (10-K Part I Item 3, 8-K),
+> official court dockets, regulatory agency press releases, and reputable journalism. This layer
+> exists primarily to protect the Brand Autopsy DB project from legal exposure by mapping Apple's
+> IP landscape, litigation posture, and the specific language risks our analysis must navigate.
+> Nothing in this document characterizes any party's conduct as unlawful, fraudulent, or
+> intentionally harmful — such characterizations are reserved exclusively for direct citations
+> from regulators and courts. Source tier codes follow the T1–T5 system in CLAUDE.md.
 
 ---
 
-## 1. 지적재산권 (IP Portfolio)
+## 1. Filing & Legal Record Sources
 
-### 1.1 상표권 (Trademarks)
-
-| 상표 | 등록 지역 | 상태 | 전략적 의미 |
-|------|----------|------|-----------|
-| Apple (워드마크) | 글로벌 (180+ 국가, 추정) | 활성 | 핵심 하우스 브랜드. Nice 분류 9, 35, 38, 42류 등 다수 |
-|  (애플 로고) | 글로벌 | 활성 | 가장 인지도 높은 기업 로고 중 하나. 형상 상표 |
-| iPhone / iPad / Mac | 글로벌 | 활성 | 제품 라인 상표. "i" 접두사 패밀리 |
-| Apple Intelligence | 미국 + 주요국 | 출원/등록 중 (추정) | AI 브랜딩 전략. 경쟁사 "AI" 일반 용어 vs. Apple 고유명사화 |
-| AirPods / AirTag | 글로벌 | 활성 | "Air" 접두사 제품군 확장 |
-| Vision Pro | 미국 + 주요국 | 활성 | 공간 컴퓨팅 카테고리 선점 |
-
-> **검증**: [USPTO TESS](https://tmsearch.uspto.gov/)에서 "Apple Inc" 소유자 검색 시 수백 건의 등록 상표 확인 가능.
-
-**브랜드 전략 시사점**: Apple은 제품명을 일반 명사화하지 않도록 적극 방어한다 ("아이폰"이 일반 명사가 되면 상표 효력 상실 위험). 공식 스타일 가이드에서 "iPhone"을 항상 대문자 I로 표기하도록 강제하는 것이 이 전략의 일부.
-
-### 1.2 특허 (Patents)
-
-| 항목 | 수치 | 출처 |
-|------|------|------|
-| 미국 특허 보유 수 | ~80,000+ (추정) | USPTO 검색 기반 외부 추정 |
-| 연간 특허 출원 수 | ~3,000+ (추정) | 2023년 기준 |
-| 주요 분야 | 반도체 설계, 디스플레이, 카메라, AI/ML, UI/UX, 건강 센서 | |
-
-> **참고**: Apple은 특허 보유 수를 공식 공시하지 않는다. 위 수치는 USPTO/WIPO 공개 데이터 기반 외부 추정치.
-
-### 1.3 영업비밀 & 트레이드 드레스
-
-- **트레이드 드레스**: Apple Store 디자인(유리 외벽, 미니멀 테이블 레이아웃), 제품 패키징의 "언박싱 경험"이 트레이드 드레스로 보호받는다 (Apple vs. Samsung 판례, 2012).
-- **영업비밀**: 제품 출시 전 보안(코드명 운영, 공급망 NDA)이 업계에서 가장 엄격하다는 것이 널리 알려져 있음.
+| Document | Coverage | Direct Link |
+|----------|----------|-------------|
+| 10-K FY2024 — Part I, Item 1A (Risk Factors) | Legal & regulatory risks | [SEC EDGAR AAPL 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K&dateb=&owner=include&count=10) |
+| 10-K FY2024 — Part I, Item 3 (Legal Proceedings) | Active litigation disclosures | Same 10-K, Item 3 |
+| 8-K Filings (material legal events) | Settlement disclosures, regulatory orders | [SEC EDGAR AAPL 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=20) |
+| USPTO Trademark Database | Apple trademark registrations | [USPTO TESS](https://tmsearch.uspto.gov/) |
+| USPTO Patent Full-Text Database | Apple patent filings | [USPTO Patent Search](https://patents.google.com/?assignee=Apple+Inc.) |
+| EU Commission — Apple Cases | DMA enforcement, antitrust decisions | [EC Competition Cases](https://ec.europa.eu/competition/elojade/isef/index.cfm) |
+| PACER (Federal Court Records) | Epic v. Apple, DOJ v. Apple dockets | [PACER](https://pacer.uscourts.gov/) |
+| Apple Legal (official) | Developer terms, privacy policy | [Apple Legal](https://www.apple.com/legal/) |
 
 ---
 
-## 2. 주요 소송 & 규제 이슈
+## 2. IP Portfolio
 
-### 2.1 현재 진행 중인 주요 소송
+### 2.1 Trademark Portfolio (Selected — T1_OFFICIAL, USPTO)
 
-| 소송/규제 | 상대 | 상태 | 잠재 영향 ($) | 브랜드 영향 | 출처 |
-|----------|------|------|-------------|-----------|------|
-| **DOJ 반독점 소송** | 미국 법무부 | 진행 중 (2024.03~) | 미정 (구조적 시정명령 가능) | 생태계 개방 강제 시 "walled garden" 포지셔닝 붕괴 위험 | [10-K FY2024 Legal Proceedings](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=10-K) |
-| **Epic Games v. Apple** | Epic Games | 항소심 완료, 일부 시정 | App Store 외부 결제 링크 허용 | 개발자 관계 악화 → 앱 생태계 품질 장기 리스크 | 공개 법원 기록 |
-| **EU DMA 준수** | European Commission | 규제 시행 중 (2024.03~) | 과징금 매출 10%까지 (최대 ~$39B) | 사이드로딩·기본앱 선택 강제 → "Apple 경험" 일관성 훼손 | [EC Digital Markets Act](https://ec.europa.eu/) |
-| **EU 과징금 (음악 스트리밍)** | European Commission | €1.84B 부과 (2024.03) | $2.0B | Spotify 대비 불공정 경쟁 이미지 | EC 공식 결정 |
-| **Masimo v. Apple (혈중산소)** | Masimo Corp. | ITC 수입금지 + 소송 진행 | Apple Watch 혈중산소 기능 제거 | 건강 기능 핵심 차별점 상실. Watch 브랜드 가치 저하 | ITC 공개 결정 |
-| **프랑스 iPhone 12 방사선** | ANFR (프랑스 통신규제) | 소프트웨어 업데이트로 해결 (2023) | 미미 | "안전한 제품" 이미지에 단기 타격 | 공개 보도 |
+Apple Inc. maintains an extensive global trademark portfolio. The following marks are registered
+or applied for in the United States and/or internationally, as publicly searchable via USPTO TESS
+and equivalent international registries:
 
-> **확인**: 10-K Part I, Item 3 "Legal Proceedings" 및 Notes to Financial Statements의 "Contingencies" 참조.
+| Mark | Class(es) | Status (as of filing date) | Notes |
+|------|-----------|---------------------------|-------|
+| APPLE | IC 9, 38, 42 (computers, telecom, software) | Registered (USPTO) | Core house mark; defended aggressively in opposition proceedings |
+| iPhone | IC 9 | Registered (USPTO) | Product-level mark; also registered in 100+ jurisdictions (estimated) |
+| iPad | IC 9 | Registered (USPTO) | Product-level mark; licensing disputes noted historically |
+| Mac | IC 9 | Registered (USPTO) | Long-standing mark; predates Apple's computer business expansion |
+| Apple Watch | IC 14 (watches), IC 9 | Registered (USPTO) | Subject of ITC/patent proceedings related to Masimo dispute (see §3) |
+| AirPods | IC 9 | Registered (USPTO) | Wearables segment; trade dress also asserted for distinctive design |
+| Siri | IC 9, 42 | Registered (USPTO) | Voice assistant mark; also the subject of third-party claims historically |
+| App Store | IC 35, 42 | Registered (USPTO) | Subject to descriptiveness challenges in EU proceedings |
+| iOS | IC 9 | Registered (USPTO) | Operating system mark |
+| macOS | IC 9 | Registered (USPTO) | Desktop OS mark |
 
-### 2.2 과거 주요 판례 (브랜드 전략 관련)
+Apple has historically opposed third-party trademark applications containing the word "apple"
+or the apple logo in technology-adjacent categories, as evidenced by public USPTO TTAB
+(Trademark Trial and Appeal Board) proceedings (T1_OFFICIAL, public TTAB records).
 
-| 판례 | 연도 | 결과 | 브랜드 전략 교훈 |
-|------|------|------|----------------|
-| Apple v. Samsung (디자인 특허) | 2012~2018 | Apple 승소 ($539M 배상) | 디자인 IP가 수억 달러의 가치를 가진다는 법적 선례 |
-| Apple v. Qualcomm (특허 로열티) | 2017~2019 | 합의 (다년 라이센스) | 핵심 부품 공급사와의 법적 분쟁이 제품 출시에 영향 |
-| FBI v. Apple (San Bernardino) | 2016 | Apple 거부 → FBI 자체 해결 | **"개인정보 수호자"** 브랜드 포지셔닝의 결정적 순간 |
+### 2.2 Patent Portfolio
 
----
+Apple's patent portfolio is extensive and spans hardware design, software algorithms, semiconductor
+architecture (Apple Silicon), display technology, and user interface innovations. Apple does not
+publicly disclose total patent count in its 10-K, but based on USPTO grant records (T1_OFFICIAL,
+publicly searchable), Apple receives thousands of patents annually. Apple Silicon chips (A-series,
+M-series) are central to Apple's competitive differentiation and are protected by a combination
+of utility patents, design patents, and trade secrets.
 
-## 3. 규제 환경 (Regulatory Landscape)
+Key patent areas relevant to competitive moat (T4_INFERRED from patent portfolio structure):
+- Custom silicon architecture (A-series, M-series processors)
+- Face ID / biometric authentication methods
+- Display technology (ProMotion, OLED)
+- Health sensing technology (blood oxygen, ECG — relevant to Masimo dispute)
+- Spatial computing (Vision Pro related filings)
 
-### 3.1 지역별 규제 리스크
+### 2.3 Trade Dress
 
-| 지역 | 핵심 규제 | 영향 | 상태 |
-|------|----------|------|------|
-| **EU** | Digital Markets Act (DMA) | 사이드로딩, 기본앱 선택, 결제 개방 강제 | 시행 중 |
-| **EU** | Digital Services Act (DSA) | App Store 콘텐츠 모더레이션 투명성 | 시행 중 |
-| **미국** | DOJ 반독점 소송 | 스마트폰 독점 혐의 | 소송 중 |
-| **중국** | 데이터 보안법 + 개인정보보호법 | 중국 사용자 데이터 현지 저장 의무 (GCBD) | 시행 중 |
-| **인도** | CCI 반독점 조사 | App Store 수수료 관행 | 조사 중 |
-| **일본** | 앱스토어 규제법 | 사이드로딩 허용 의무화 | 법안 통과 (2024) |
-| **한국** | 전기통신사업법 개정 | 인앱 결제 강제 금지 | 시행 중 |
+Apple asserts trade dress protection over the distinctive visual appearance of its products,
+including (T1_OFFICIAL, Apple v. Samsung litigation records):
+- iPhone rounded-corner rectangular form factor and icon grid layout (litigated vs. Samsung)
+- Apple Store interior design (registered trade dress, USPTO)
+- Retail packaging design (minimalist white box aesthetic)
 
-### 3.2 개인정보 보호 규제
-
-| 규제 | 지역 | Apple 대응 | 브랜드 영향 |
-|------|------|-----------|-----------|
-| GDPR | EU | 준수 + ATT (App Tracking Transparency) | 규제를 **브랜드 차별화** 기회로 전환한 대표 사례 |
-| CCPA/CPRA | 미국 캘리포니아 | 준수 | |
-| PIPL | 중국 | iCloud 중국 데이터 GCBD로 이전 | "개인정보 수호자" 내러티브에 모순 발생 |
-
-> **브랜드 전략 시사점**: Apple은 GDPR/ATT를 경쟁 무기로 전환한 유일한 빅테크 기업이다. "What happens on your iPhone, stays on your iPhone" 캠페인이 규제 환경을 브랜드 포지셔닝으로 변환한 교과서적 사례. 단, 중국 PIPL 대응(현지 데이터 저장)은 이 내러티브와 충돌하며, 이 모순이 확대되면 브랜드 신뢰 리스크가 된다.
-
----
-
-## 4. 본 프로젝트 법적 리스크 (Brand Autopsy DB)
-
-### 4.1 데이터 수집 적법성
-
-| 수집 대상 | 법적 근거 | 리스크 수준 | 대응 |
-|----------|----------|-----------|------|
-| SEC 공시 (10-K, 10-Q) | 공공 기록 (Public Record) | **없음** | EDGAR API 자유 이용 가능 |
-| 공식 웹사이트 CSS/카피 | robots.txt 준수 + Fair Use | **낮음** | robots.txt 확인 필수. 분석/논평 목적 = fair use |
-| 브랜드 가이드라인 (공개) | 공개 배포 문서 | **낮음** | 출처 명시 + 분석 목적 |
-| SNS 공개 포스트 | 플랫폼 ToS 확인 필요 | **중간** | Instagram/LinkedIn ToS에서 스크래핑 금지 조항 존재. API 사용 권장 |
-| 브랜드 로고/이미지 사용 | 상표권·저작권 | **중간** | 분석/논평 목적 fair use. 상업적 이용 시 허가 필요 |
-| 재무 데이터 (제3자 추정치) | 출처 명시 의무 | **낮음** | Interbrand, Brand Finance 등 인용 시 반드시 출처 표기 |
-
-### 4.2 Fair Use 4요소 분석 (본 프로젝트)
-
-| 요소 | 평가 | 근거 |
-|------|------|------|
-| 1. 사용 목적·성격 | **유리** | 변형적 사용 (Transformative) — 원본 데이터를 분석·논평·연구 목적으로 재구성 |
-| 2. 원저작물의 성격 | **유리** | 사실적 데이터(재무 공시, CSS 코드)는 저작권 보호 약함 |
-| 3. 사용 분량 | **유리** | 전체 웹사이트가 아닌 CSS 토큰·컬러값 등 최소한의 기술적 데이터만 추출 |
-| 4. 시장 영향 | **유리** | 원본 웹사이트의 시장 가치를 대체하지 않음. 오히려 브랜드 노출 증가 |
-
-> **결론**: 본 프로젝트의 데이터 수집·분석 활동은 Fair Use 4요소 모두에서 유리한 위치. 단, 상업화 단계에서 재검토 필요.
-
-### 4.3 권장 사항
-
-1. **SEC 공시 데이터 우선**: 가장 법적 리스크가 없는 데이터 소스. EDGAR API 적극 활용.
-2. **robots.txt 자동 검사**: 크롤링 전 각 사이트 robots.txt 파싱 → 차단 시 스킵.
-3. **"공식"/"추정" 라벨링 유지**: 현재 프레임워크의 출처 표기 규칙이 법적 보호에도 기여.
-4. **SNS 데이터**: 공식 API 경유만 허용. 직접 스크래핑 지양.
-5. **상업화 시**: 법률 자문 필수. 특히 브랜드 로고 사용, 데이터 재판매 부분.
+Apple's trade dress strategy has been litigated internationally. The Apple v. Samsung litigation,
+which concluded in multiple rounds of proceedings in the U.S. District Court for the Northern
+District of California, resulted in substantial jury awards to Apple on certain trade dress and
+design patent claims, though outcomes varied by jurisdiction (T1_OFFICIAL, public court records).
 
 ---
 
-## 5. ESG & 컴플라이언스 (브랜드 관련)
+## 3. Major Litigation
 
-### 5.1 환경 (Environmental)
+> All descriptions below are factual summaries of publicly disclosed legal proceedings.
+> This document does not characterize any party's conduct beyond what is stated in official
+> filings, court orders, or regulatory agency press releases.
 
-| 항목 | Apple 공식 입장 | 출처 |
-|------|---------------|------|
-| 탄소중립 | 2030년까지 전체 공급망 탄소중립 목표 | [Apple Environmental Progress Report 2024](https://www.apple.com/environment/) |
-| 재활용 | iPhone 100% 재활용 코발트 사용 (FY2024부터) | 공식 |
-| 포장재 | 2025년까지 플라스틱 포장 완전 제거 목표 | 공식 |
+### 3.1 United States v. Apple Inc. (DOJ Antitrust, 2024)
 
-### 5.2 공급망 노동 (Social)
+**Filed**: March 21, 2024  
+**Forum**: U.S. District Court, District of New Jersey  
+**Regulator/Plaintiff**: U.S. Department of Justice, joined by 16 state and district attorneys general  
+**Nature of Action**: Civil antitrust complaint alleging Apple maintains an illegal monopoly in
+the smartphone market through various practices affecting the iPhone ecosystem.  
+**Apple's Position**: Apple has publicly stated it will vigorously defend against the lawsuit and
+denies the allegations (T3_SECONDARY_RELIABLE, Apple press statement, Reuters).  
+**Status as of document date**: Litigation pending; no final judgment issued.  
+**10-K Disclosure**: Apple disclosed this proceeding in its FY2024 10-K, Part I, Item 3
+(T1_OFFICIAL).  
+**Source**: DOJ press release March 21, 2024; Apple 10-K FY2024.
 
-| 이슈 | 상태 | 브랜드 리스크 |
-|------|------|-------------|
-| Foxconn 노동 환경 | 연례 Supplier Responsibility Report 발행 | 주기적 미디어 리스크. "프리미엄 가격 vs. 저임금 생산" 모순 |
-| 콩고 코발트 채굴 | 재활용 코발트 전환으로 대응 중 | ESG 투자자·소비자 감시 대상 |
-| 위구르 강제노동 우려 | 공급업체 감사 강화 공시 | 지정학 + 인권 리스크 교차점 |
+### 3.2 European Commission — Digital Markets Act (DMA) Enforcement
 
-> **출처**: [Apple Supplier Responsibility](https://www.apple.com/supplier-responsibility/)
+**Regulator**: European Commission (Directorate-General for Competition)  
+**Legal Framework**: EU Regulation 2022/1925 (Digital Markets Act), effective March 2024  
+**Designation**: Apple has been designated a "gatekeeper" under DMA for multiple core platform
+services including the App Store, iOS, and Safari (T1_OFFICIAL, EC press releases).  
+**Proceedings**: The European Commission opened formal non-compliance proceedings against Apple
+in March 2024 regarding App Store practices under DMA Article 5(4) (alternative app store
+access) and Article 6(3) (interoperability of iOS). The EC also opened proceedings regarding
+Apple's Core Technology Fee structure.  
+**Potential Penalty**: DMA provides for fines of up to 10% of global annual turnover for
+non-compliance; up to 20% for repeated infringements (T1_OFFICIAL, DMA Article 26).  
+**Status**: Proceedings ongoing as of document date.  
+**Source**: European Commission press releases, March–September 2024 (T1_OFFICIAL).
+
+### 3.3 Epic Games, Inc. v. Apple Inc.
+
+**Filed**: August 2020  
+**Forum**: U.S. District Court for the Northern District of California; appealed to Ninth Circuit  
+**Nature of Action**: Epic challenged Apple's App Store commission structure (30%) and
+prohibition on alternative payment systems as anticompetitive under federal and state antitrust law.  
+**District Court Ruling (Judge Yvonne Gonzalez Rogers, September 2021)**: The court ruled largely
+in Apple's favor on federal antitrust claims (finding Apple not a monopolist under federal
+standards), but issued a permanent injunction under California's Unfair Competition Law requiring
+Apple to allow developers to include links to external payment options within apps.  
+**Ninth Circuit Ruling (April 2023)**: The Ninth Circuit affirmed the district court's ruling
+on antitrust claims and the anti-steering injunction.  
+**Supreme Court**: Apple's request to delay the anti-steering injunction was denied in January 2024
+(T3_SECONDARY_RELIABLE, Reuters).  
+**Current Status**: Apple has implemented anti-steering link changes in compliance with the
+court order; ongoing monitoring. Epic has filed additional enforcement motions regarding
+Apple's implementation.  
+**10-K Disclosure**: Apple disclosed this proceeding in FY2024 10-K, Part I, Item 3 (T1_OFFICIAL).
+
+### 3.4 Masimo Corporation v. Apple Inc. (Patent & Trade Secret)
+
+**Forum**: International Trade Commission (ITC); U.S. District Court for the Central District of California  
+**Nature of Action**: Masimo Corporation and Cercacor Laboratories alleged Apple infringed
+patents relating to blood-oxygen monitoring technology (pulse oximetry) incorporated in Apple Watch.  
+**ITC Initial Determination (October 2023)**: The ITC's Administrative Law Judge found that
+Apple Watch Series 9 and Ultra 2 infringed Masimo's patents (T3_SECONDARY_RELIABLE, Reuters, Bloomberg).  
+**Presidential Review & Import Ban**: The ITC issued an exclusion order; the Biden Administration
+declined to veto the order in December 2023. Apple responded by temporarily removing blood oxygen
+sensing from certain Apple Watch models sold in the U.S.  
+**Apple's Redesign**: Apple implemented a software-based modification to Apple Watch to address
+the ITC order; the Federal Circuit Court of Appeals stayed the exclusion order in January 2024
+pending Apple's appeal (T3_SECONDARY_RELIABLE, Bloomberg).  
+**Status**: Appeals and district court proceedings ongoing.  
+**10-K Disclosure**: Apple disclosed this proceeding in FY2024 10-K, Part I, Item 3 (T1_OFFICIAL).
+
+### 3.5 Other Notable Proceedings
+
+- **EU State Aid — Ireland**: The European Commission's 2016 ruling that Apple received illegal
+  state aid from Ireland (~€13B) was overturned by the EU General Court in 2020. The ECJ (Court
+  of Justice of the EU) reversed the General Court in September 2024, reinstating the
+  approximately €13B recovery order (T1_OFFICIAL, ECJ press release, September 10, 2024).
+- **Wiley et al. v. Apple — App Store class actions**: Multiple class action lawsuits regarding
+  App Store pricing and developer commissions are ongoing in various U.S. jurisdictions
+  (T1_OFFICIAL, Apple 10-K disclosure).
+- **Employee/labor matters**: Apple's 10-K notes the company faces various employment-related
+  claims (T1_OFFICIAL).
 
 ---
 
-## 요약: 법적 리스크 히트맵
+## 4. Regulatory Landscape
+
+### 4.1 United States
+
+| Regulator | Area | Current Status |
+|-----------|------|----------------|
+| DOJ Antitrust Division | Smartphone market monopoly | Active litigation (filed 2024) |
+| FTC | App Store, privacy practices | Monitoring; no active formal complaint as of FY2024 10-K |
+| NLRB | Labor relations, employee organizing | Various proceedings reported (T3_SECONDARY_RELIABLE) |
+| FCC | Device certification | Standard regulatory compliance |
+| CPSC | Product safety | Standard compliance |
+
+### 4.2 European Union
+
+| Regulator | Area | Current Status |
+|-----------|------|----------------|
+| European Commission (DG COMP) | DMA gatekeeper obligations | Active non-compliance investigations (2024) |
+| European Commission | GDPR enforcement (via national DPAs) | Ongoing; Irish DPC is lead supervisory authority |
+| EU General Court / ECJ | Ireland State Aid recovery | ECJ reinstated ~€13B order (September 2024) |
+| National Competition Authorities | Various national proceedings | Italy (AGCM), Germany (Bundeskartellamt), others |
+
+### 4.3 Other Jurisdictions
+
+| Region | Regulator | Area |
+|--------|-----------|------|
+| China | SAMR (State Administration for Market Regulation) | App Store, data localization requirements |
+| South Korea | KFTC | App Store payment alternatives (mandated by law, 2021) |
+| Japan | JFTC | App Store third-party payment access (consent order, 2021) |
+| UK | CMA (Competition and Markets Authority) | Mobile browser and cloud gaming investigation |
+| India | CCI (Competition Commission of India) | App Store practices investigation |
+
+### 4.4 Privacy Regulation Risk
+
+Apple's business model involves significant user data flows through iCloud, the App Store,
+Siri, and advertising services. Key regulatory frameworks that apply or may apply include:
+
+- **GDPR** (EU): Applies to EU user data. The Irish Data Protection Commission (DPC) is Apple's
+  lead EU supervisory authority given Apple's European headquarters in Cork, Ireland.
+- **CCPA/CPRA** (California): Applies to California residents; Apple's App Tracking Transparency
+  (ATT) framework was designed in part to address these requirements (T4_INFERRED).
+- **China PIPL** (Personal Information Protection Law): Requires data localization for certain
+  categories; Apple has stated it stores Chinese iCloud data on servers operated by GCBD
+  (Guizhou-Cloud Big Data) in China (T1_OFFICIAL, Apple press statement).
+- **Emerging frameworks**: India DPDPA, Brazil LGPD, and other national data protection laws
+  create ongoing compliance obligations.
+
+---
+
+## 5. Project Risk Assessment — Brand Autopsy DB
+
+> This section assesses the legal risk specifically for the Brand Autopsy DB project when
+> writing about Apple Inc. It is the primary operational purpose of this layer.
+
+### 5.1 Apple's Litigation Posture
+
+**Assessment**: AGGRESSIVE (T4_INFERRED based on public record)
+
+Basis for this assessment:
+- Apple has engaged in extensive, multi-jurisdictional IP litigation over multiple decades,
+  including the prolonged Apple v. Samsung design patent/trade dress litigation across 40+ countries
+  (T3_SECONDARY_RELIABLE, public court records).
+- Apple regularly files trademark opposition proceedings against third parties using apple-related
+  marks in technology-adjacent categories (T1_OFFICIAL, TTAB records).
+- Apple's legal team has historically sent cease-and-desist letters to fan sites, journalists,
+  and analysts for unauthorized use of Apple trademarks or pre-release product imagery
+  (T3_SECONDARY_RELIABLE, press reports).
+- However: Apple has not, based on publicly available records, pursued defamation actions
+  against brand analysts, financial researchers, or journalistic institutions for factual
+  reporting based on public sources. The litigation posture is primarily IP-focused, not
+  defamation-focused.
+
+**Implication for this project**: Our primary risks are (a) trademark misuse, (b) false factual
+assertions that could constitute defamation, and (c) disclosure of non-public information.
+The risk of Apple pursuing litigation against this project for properly hedged, publicly-sourced
+brand analysis is assessed as LOW (T4_INFERRED), provided our content discipline is maintained.
+
+### 5.2 Data Collection Legality Assessment
+
+| Data Type | Our Collection Method | Legal Assessment |
+|-----------|----------------------|-----------------|
+| SEC filing data (10-K, 10-Q) | Direct EDGAR download | PERMITTED — public government records |
+| Apple official website content (brand, IR) | Web observation | PERMITTED — publicly accessible; cite with timestamp |
+| Apple product pricing (apple.com) | Direct observation | PERMITTED — public pricing; cite as "observed on apple.com" |
+| Apple trademark data (USPTO) | USPTO TESS database | PERMITTED — public government records |
+| Court filings (PACER) | Public docket access | PERMITTED — public court records |
+| News coverage (WSJ, Bloomberg, Reuters) | Licensed reading or fair use summary | PERMITTED as secondary source; do not reproduce verbatim beyond fair use |
+| Apple's CSS/design tokens (observed) | Browser DevTools observation | PERMITTED — publicly transmitted data; cite as "observed" with date |
+| Internal Apple communications | NOT accessible | DO NOT ATTEMPT — would constitute misappropriation |
+| Non-public financial data | NOT accessible | DO NOT ATTEMPT |
+
+### 5.3 Fair Use 4-Factor Analysis (17 U.S.C. § 107)
+
+The Brand Autopsy DB project's use of Apple-related content is assessed against the four
+statutory fair use factors:
+
+**Factor 1 — Purpose and Character of Use**
+- Our use is analytical and educational, not commercial publishing of Apple's creative works.
+- Content is transformative: we analyze, synthesize, and comment on publicly available information
+  rather than reproducing Apple's original creative expression.
+- Assessment: FAVORS FAIR USE
+
+**Factor 2 — Nature of the Copyrighted Work**
+- We are primarily working with factual data (financial figures, regulatory records, product
+  specifications) rather than Apple's creative works.
+- Factual works receive thinner copyright protection than creative works.
+- Assessment: FAVORS FAIR USE
+
+**Factor 3 — Amount and Substantiality**
+- We do not reproduce Apple's marketing copy, advertising scripts, or product documentation
+  verbatim in substantial portions.
+- We cite and summarize; we do not duplicate.
+- Assessment: FAVORS FAIR USE (provided we maintain citation-and-summary discipline)
+
+**Factor 4 — Effect on the Market**
+- Our analysis does not substitute for Apple's products, investor relations materials, or
+  any commercial offering Apple provides.
+- Assessment: FAVORS FAIR USE
+
+**Overall Assessment**: The project's data collection and analysis activities, as currently
+scoped, appear defensible under fair use doctrine (T4_INFERRED; this is not legal advice —
+consult qualified IP counsel for formal opinion).
+
+---
+
+### 5.4 Writing Risk Guide — Apple Inc.
+
+> This is the most operationally critical section for day-to-day content creation.
+> Follow these guidelines for every sentence written about Apple in this project.
+
+#### SAFE TO WRITE (with proper sourcing)
+
+- Revenue, net income, margin figures from Apple's SEC filings, cited as "(SEC 10-K FY20XX)"
+- Segment breakdowns and geographic revenue cited to the 10-K
+- Descriptions of Apple's products and services based on apple.com or press releases
+- Summaries of litigation and regulatory proceedings citing specific regulators, courts, and
+  official press releases
+- Descriptions of Apple's trademarks and patents citing USPTO records
+- Historical stock performance and credit ratings citing public market data and agency publications
+- Quotations from Apple's own SEC filings, earnings calls, or press releases, with attribution
+- Descriptions of Apple's publicly stated business strategies from 10-K or earnings calls
+- Comparison of Apple's financial metrics to industry averages using cited, public data
+- Brand valuation figures from Interbrand, Brand Finance, or Forbes, with agency attribution
+
+#### REQUIRES CAREFUL HEDGING
+
+| Topic | Required Hedging Approach |
+|-------|--------------------------|
+| Apple's strategic intent | "Apple's 10-K states..." or "Management indicated on the earnings call..." — NEVER "Apple's strategy is to..." as bare assertion |
+| Services margin estimates | Always tag as "(estimated)" and cite the derivation method |
+| Consumer behavior and loyalty | Use "suggests", "indicates", "based on available data" — never assert as fact |
+| Competitive comparisons | Use specific metrics ("Apple's gross margin of 46.2% compares to...") — never "superior" or "inferior" as bare claim |
+| Regulatory outcome predictions | "Proceedings are ongoing" — never predict outcomes |
+| Apple's motivations in litigation | Describe actions only; do not attribute motive |
+| China operations and geopolitics | State facts from 10-K disclosures; avoid geopolitical editorializing |
+| App Store economics | Use data from court records and regulatory findings; hedge interpretations |
+| Privacy practices | Describe stated practices from Apple's privacy policy; do not characterize intent |
+
+#### DO NOT WRITE (High Legal / Project Integrity Risk)
+
+- Any assertion that Apple engaged in fraud, deception, or criminal conduct without direct citation from a court judgment or regulatory final order using those specific terms
+- Characterizing Apple's business practices as "manipulative", "exploitative", or "predatory" as bare assertions — these are our words, not regulatory findings
+- Claiming knowledge of Apple's internal deliberations, strategy sessions, or executive intent not disclosed in public filings
+- Reproducing substantial portions of Apple's copyrighted marketing copy or product documentation
+- Publishing or referencing non-public information, pre-release product details, or leaked internal documents
+- Asserting that any ongoing legal proceeding has a predetermined outcome
+- Making claims about Apple employee conduct not based on official filings or final court judgments
+- Using Apple's logo, apple graphic mark, or product imagery in our database without transformative purpose and clear editorial context
+- Asserting Apple is guilty of any violation in a proceeding that has not yet reached final judgment
+- Repeating unverified social media claims or anonymous forum posts as factual statements
+
+#### Recommended Phrasings Table (Apple-Specific)
+
+| Topic | AVOID | USE INSTEAD |
+|-------|-------|-------------|
+| App Store commission | "Apple overcharges developers" | "Apple's standard App Store commission is 30% (15% for small developers), as disclosed in its developer terms (official, apple.com). Regulatory proceedings in multiple jurisdictions have raised questions about this structure." |
+| China data practices | "Apple surrenders user data to the Chinese government" | "Apple has disclosed in official statements that iCloud data for Chinese users is stored on servers operated by GCBD in China, in compliance with Chinese law (T1_OFFICIAL, Apple press statement)." |
+| Privacy / ATT | "Apple uses ATT to crush competitors and monopolize advertising" | "Apple introduced App Tracking Transparency (ATT) in iOS 14.5; the impact on third-party advertising revenue has been discussed in regulatory contexts, including EU DMA proceedings (T2_PRIMARY_RELIABLE, EC)." |
+| Antitrust proceedings | "Apple is a monopolist" | "The U.S. Department of Justice filed a civil antitrust complaint against Apple in March 2024 alleging monopolization of the smartphone market. Apple has denied the allegations and stated it will defend the lawsuit. The case is pending." |
+| Masimo / health data | "Apple stole Masimo's technology" | "The ITC found in October 2023 that certain Apple Watch models infringed Masimo's blood oxygen monitoring patents (ITC, public order). Apple is appealing the decision; proceedings are ongoing." |
+| Services margins | "Apple exploits its ecosystem for near-monopoly profits" | "Apple's Services segment generated approximately 74% gross margins in FY2024 (estimated, based on 10-K segment disclosures), reflecting the economics of software and digital content distribution on an established installed base." |
+| Brand premium | "Apple gouges consumers with luxury pricing" | "Apple's iPhone average selling prices suggest a premium relative to Android category averages, based on publicly reported shipment and revenue data (estimated, T3_SECONDARY_RELIABLE). This differential is consistent with Apple's premium positioning strategy as described in its brand and marketing communications." |
+| EU State Aid | "Apple committed tax fraud in Ireland" | "The Court of Justice of the EU ruled in September 2024, reversing a lower court decision, that Ireland granted Apple unlawful state aid. The ECJ ordered recovery of approximately €13 billion. Apple and Ireland had challenged the original European Commission decision." |
+
+---
+
+## 6. ESG & Compliance
+
+### 6.1 Environmental Commitments
+
+Apple publishes an annual Environmental Progress Report (T1_OFFICIAL, apple.com/environment).
+Key publicly stated commitments as of FY2024:
+- Carbon neutrality across entire supply chain and product lifecycle by 2030 (stated goal, T1_OFFICIAL)
+- Apple Watch Ultra 2 and Apple Watch Series 9 described as the first carbon-neutral Apple products
+  (T1_OFFICIAL, Apple press release, September 2023)
+- 100% renewable electricity for Apple facilities globally (T1_OFFICIAL, Environmental Report)
+
+These are Apple's stated commitments and reported achievements. Independent verification of
+supply chain carbon neutrality claims is ongoing; regulatory scrutiny of corporate climate
+claims has increased globally (T3_SECONDARY_RELIABLE, FTC Green Guides context).
+
+### 6.2 Labor & Supply Chain
+
+Apple's Supplier Responsibility Report (T1_OFFICIAL, apple.com) discloses supplier audit
+findings. Apple's 10-K identifies supply chain labor practices as a reputational and operational
+risk factor. Ongoing reporting by investigative journalism outlets has covered labor conditions
+at contract manufacturing facilities; Apple's 10-K Risk Factors acknowledge reputational risks
+from supplier conduct (T1_OFFICIAL).
+
+For this project: when discussing supply chain, cite Apple's official disclosures and
+distinguish from third-party investigative reports, tagging the latter as T3_SECONDARY_RELIABLE.
+
+### 6.3 Governance
+
+Apple's DEF 14A (Proxy Statement) discloses executive compensation, board composition, and
+shareholder voting results (T1_OFFICIAL). Key governance metrics:
+- Board independence, audit committee composition: disclosed in DEF 14A
+- CEO Tim Cook's compensation: disclosed in DEF 14A Summary Compensation Table
+- Political spending and lobbying: Apple discloses lobbying expenditures per federal disclosure
+  requirements (T1_OFFICIAL, Senate lobbying database)
+
+---
+
+## 7. Legal Risk Heatmap (ASCII 4-Quadrant)
+
+The following maps key legal risk areas for Apple by Likelihood and Potential Impact,
+based on disclosed proceedings and regulatory environment as of FY2024.
 
 ```
-            [브랜드 영향: 높음]
-                    │
-     DOJ 반독점     │    EU DMA
-     소송           │    사이드로딩
-                    │
-[재무 영향: 낮음] ──┼── [재무 영향: 높음]
-                    │
-     Masimo 특허    │    App Store
-     (Watch)        │    수수료 규제
-                    │
-            [브랜드 영향: 낮음]
+HIGH IMPACT
+    |
+    |  [EU DMA Fines]       [DOJ Antitrust]
+    |  Up to 10% revenue    Smartphone monopoly
+    |  (EC, ongoing)        (pending, filed 2024)
+    |                                            |
+    |  [EU State Aid]       [App Store          |
+    |  ~€13B recovery       Class Actions]      |
+    |  (ECJ Sept 2024)      (multiple courts)   |
+    |                                            |
+----+--------------------------------------------+----
+LOW |  [Masimo Patent]      [NLRB / Labor]      | HIGH
+LIKELIHOOD  IP/product design  Employee matters  | LIKELIHOOD
+    |  (ITC, Fed. Cir.)     (various)           |
+    |                                            |
+    |  [GDPR/DPC]           [Privacy            |
+    |  Ireland DPA          Regulation          |
+    |  proceedings          (CCPA/PIPL)]        |
+    |  (possible)           (compliance cost)   |
+    |                                            |
+    +--------------------------------------------+
+LOW IMPACT
+
+KEY:
+  Upper-right quadrant: CRITICAL WATCH (High Likelihood + High Impact)
+  Upper-left quadrant:  MONITOR (High Impact, Lower Likelihood)
+  Lower-right quadrant: MANAGE (High Likelihood, Lower Impact)
+  Lower-left quadrant:  LOW PRIORITY (Low Both)
+
+Placement is T4_INFERRED based on regulatory activity and disclosed proceedings.
+"Likelihood" reflects current proceeding status, not probability of adverse outcome.
 ```
 
-**최대 리스크**: EU DMA + DOJ 반독점의 동시 진행. 둘 다 Apple의 핵심 비즈니스 모델("통제된 생태계")을 직접 공격하며, 브랜드 포지셔닝("seamless experience")의 전제 조건을 약화시킬 수 있다.
+---
+
+## 8. Project Writing Risk Level Assessment
+
+| Category | Risk Level | Rationale |
+|----------|-----------|-----------|
+| Financial data analysis (10-K sourced) | LOW | Public government records; factual, verifiable |
+| Litigation summaries (citing courts/regulators) | LOW-MEDIUM | Requires precise citation; avoid outcome predictions |
+| Brand strategy interpretation (T4_INFERRED) | MEDIUM | Hedged language required; clearly labeled as inference |
+| Competitive comparisons | MEDIUM | Metric-based only; no pejorative characterizations |
+| Privacy / China operations | MEDIUM-HIGH | Politically sensitive; cite official disclosures only |
+| Supply chain / labor conditions | MEDIUM-HIGH | Reputational claims require T1/T2 sourcing; avoid generalizations |
+| App Store economics / antitrust | HIGH | Active litigation context; cite regulatory language only |
+| Trade dress / product design description | LOW | Descriptive observation is permissible |
+| Reproducing Apple marketing copy | HIGH | Copyright risk; summarize, do not reproduce |
+
+**Overall Project Risk Level for Apple Content: MEDIUM-HIGH**
+
+Apple's aggressive IP posture, active multi-jurisdictional antitrust litigation, and high
+public profile mean that content discipline is non-negotiable. The risk is manageable
+with strict adherence to the hedging protocols in §5.4. The primary risk to this project
+is not defamation action from Apple (which is not Apple's demonstrated litigation pattern
+against analysts) but rather IP misuse and factual inaccuracy. Maintain source discipline,
+and this layer's guidelines will be sufficient protection (T4_INFERRED; consult legal
+counsel before any public commercial distribution of this analysis).
+
+---
+
+*Layer 8 — Legal Review | Brand Autopsy DB Project*  
+*Source tier system: T1_OFFICIAL (SEC filings / official) | T2_PRIMARY_RELIABLE | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis) | T5_LLM_DRAFT*  
+*This document does not constitute legal advice. For formal legal opinion on any matter
+described herein, consult qualified legal counsel admitted in the relevant jurisdiction.*

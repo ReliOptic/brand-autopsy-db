@@ -1,152 +1,419 @@
-# 05. 디자인 시스템 명세 — Apple Inc. (AAPL)
+# 05. Design System Spec — Apple Inc. (AAPL)
 
-> Apple은 자체 디자인 시스템 **HIG(Human Interface Guidelines)**를 공개 운영 (developer.apple.com/design, 공식). 본 문서는 공식 HIG + CSS 데이터 분석 + 추정 기반.
+---
 
-## 컬러 팔레트
+> **Disclaimer**: This document is brand strategy analysis for educational and research purposes
+> only. It is not investment advice, legal advice, or a substitute for Apple's official brand
+> guidelines. All design observations are based on publicly accessible sources: apple.com,
+> Apple's Human Interface Guidelines (developer.apple.com/design), CSS extraction from
+apple.com, and official marketing materials. Color codes, spacing values, and typographic
+specifications are observed or estimated from public-facing assets and do not constitute
+Apple's internal style guide. Source notation: `(official)` = Apple-published content;
+`(observed on apple.com)` = direct page observation; `(CSS extraction)` = values parsed
+from publicly accessible stylesheets; `(estimated)` = project inference from observable
+patterns. All estimates are labeled as such.
 
-### 핵심 브랜드 컬러 (CSS 데이터 기반)
+---
 
-| 용도 | 색상명 | HEX | 빈도 | 사용처 |
-|------|--------|-----|------|--------|
-| **Primary Text** | **Apple Dark** | **#1D1D1F** | 핵심 | 모든 주요 헤드라인·본문 텍스트 (공식, apple.com) |
-| **Primary Dark Alt** | Near Black | #161617 | 보조 | 다크 배경 섹션 기본 텍스트 |
-| **Primary CTA** | **Apple Blue** | **#0071E3** | 높음 (6회) | 모든 클릭 가능한 링크·CTA 버튼 (공식, CSS 데이터) |
-| **CTA Hover** | Blue Hover | #0077ED | 보조 | Apple Blue 호버 상태 (CSS 데이터) |
-| **CTA Active** | Blue Active | #006EDB | 보조 | Apple Blue 클릭 상태 (CSS 데이터) |
-| **CTA Dark** | Deep Blue | #0066CC | 보조 | 다크 배경 위 CTA (CSS 데이터) |
-| **Accent Blue** | Bright Blue | #2997FF | 강조 | 다크 배경 위 링크 강조 (CSS 데이터) |
-| **Secondary Text** | Mid Grey | #6E6E73 | 높음 (6회) | 부제목·보조 설명 텍스트 (공식, apple.com) |
-| **Caption Text** | Light Grey | #86868B | 중간 (5회) | 캡션·주석·법적 고지 텍스트 (공식, apple.com) |
-| **Divider/Border** | Pale Grey | #E8E8ED | 높음 (8회) | 구분선·카드 테두리·비활성 상태 (공식, apple.com) |
-| **Background** | Off White | #F4F8FB | 섹션 배경 | 제품 섹션 배경 (CSS 데이터) |
-| **Surface Light** | Near White | #FAFAFC | 카드 배경 | 카드·팝업 배경 (CSS 데이터) |
-| **Body Dark** | Charcoal | #333336 | 매우 높음 (13회) | 다크 모드 본문·UI 컴포넌트 (CSS 데이터) |
+## 1. Color Palette
 
-### 제품 액센트 컬러 (공식, Product Page)
+Apple's color system is built on a near-monochrome foundation with a single high-chroma
+action color. The observed palette on apple.com applies a deliberate reduction strategy:
+the fewer the colors, the stronger the brand signal (observed on apple.com). As of Q1 2025,
+approximately 20 colors were extracted from apple.com CSS (estimated); the 13 documented
+below represent the core brand system.
 
-| 색상명 | HEX | 사용처 |
-|--------|-----|--------|
-| Product Blue | #9FC6F4 | iPhone·iPad 제품 컬러 옵션 배경 |
-| Product Purple | #7424B5 | iPhone 제품 컬러·Apple Watch 밴드 |
-| Product Orange | #EC893C | iPhone 제품 컬러·AirPods 케이스 |
-| Product Pink | #EA33C0 | iPhone 제품 컬러 |
-| Product Teal | #485B5E | iPhone·MacBook 제품 컬러 |
-| Product Brown | #604630 | Apple Watch 밴드 |
-| Google-ref Blue | #3397D4 | 앱 내 링크·인터렉티브 요소 |
+### Core Brand Colors
 
-### 컬러 원칙 (공식 HIG 기반)
-- **Apple Blue(#0071E3)는 CTA 전용** — 배너·장식·일러스트에 파란색 사용 금지. 사용자가 "눌러도 되는 곳"을 즉시 인식하게 함 (공식 HIG).
-- **순검정(#000000) 사용 금지** — 눈의 피로 감소를 위해 #1D1D1F(Apple Dark)가 최대 대비 텍스트 색상 (공식, apple.com 실측).
-- **배경은 흰색~아이보리 계열** — 제품이 주인공. 배경은 무조건 뒤로 물러남.
-- **다크 모드 완전 지원** — #1D1D1F ↔ #FFFFFF 반전 구조. 모든 색상 토큰은 라이트/다크 쌍으로 존재 (공식 HIG).
-- **그라데이션은 제품 사진에만** — UI 요소에 그라데이션 금지. 제품 이미지 배경의 미묘한 그라데이션만 허용.
+| Token Name | HEX | Frequency | Role | Specific Usage |
+|---|---|---|---|---|
+| `color-apple-dark` | `#1d1d1f` | Very high | Primary Text | All primary headlines, body copy, navigation labels, footer text across apple.com (CSS extraction) |
+| `color-near-black` | `#161617` | Moderate | Dark Surface Text | Text rendered on dark-background sections; default text on black hero panels (CSS extraction) |
+| `color-action-blue` | `#0071e3` | High (6× observed) | Primary CTA | All interactive links, primary CTA buttons ("Buy", "Learn more") across apple.com (CSS extraction) |
+| `color-action-blue-hover` | `#0077ed` | Supporting | CTA Hover State | `:hover` state applied to `#0071e3` buttons (CSS extraction) |
+| `color-action-blue-active` | `#006edb` | Supporting | CTA Active/Pressed | `:active` state on primary CTA buttons (CSS extraction) |
+| `color-action-blue-dark` | `#0066cc` | Supporting | CTA on Dark BG | CTA buttons placed over black or near-black section backgrounds (CSS extraction) |
+| `color-accent-blue` | `#2997ff` | Accent | Link Emphasis on Dark | Hyperlinks and emphasis text on dark-mode or black background sections (CSS extraction) |
+| `color-mid-grey` | `#6e6e73` | High (6× observed) | Secondary Text | Subheads, supporting descriptions, metadata labels (CSS extraction) |
+| `color-caption-grey` | `#86868b` | Moderate (5× observed) | Caption / Legal | Footnotes, legal copy, availability text, disclaimer rows (CSS extraction) |
+| `color-divider` | `#e8e8ed` | High (8× observed) | Border / Divider | Horizontal rules, card strokes, input field borders, inactive states (CSS extraction) |
+| `color-surface-light` | `#f4f8fb` | Section background | Page Surface | Alternating section backgrounds on product pages (CSS extraction) |
+| `color-card-surface` | `#fafafc` | Card / popup | Card Background | Modal backgrounds, floating card surfaces, popover panels (CSS extraction) |
+| `color-charcoal` | `#333336` | Very high (13× observed) | Dark Mode Body | Dark mode body text and UI components; used extensively in dark-mode partials (CSS extraction) |
 
-## 타이포그래피
+### Product Accent Colors (Official Product Pages)
 
-| 용도 | 폰트 | Weight | 사이즈 규칙 |
-|------|------|--------|-------------|
-| **디스플레이 헤드 (키노트·히어로)** | **SF Pro Display** | Bold / Semibold (700/600) | 웹: 48~96px; 모바일: 32~56px |
-| **헤드라인 H1** | SF Pro Display | Semibold (600) | 웹: 32~48px; 앱: 28~34px |
-| **헤드라인 H2** | SF Pro Display | Regular (400) | 웹: 24~32px; 앱: 22~28px |
-| **본문 Body** | **SF Pro Text** | Regular (400) | 웹: 17px / 앱: 17px, 행간 1.5 (공식 HIG) |
-| **캡션/법적 고지** | SF Pro Text | Regular (400) | 12~13px, #86868B |
-| **UI 라벨/버튼** | SF Pro Text | Medium / Semibold (500/600) | 15~17px |
-| **숫자 강조 (가격·스펙)** | SF Pro Display Numeric | Bold (700) | 본문보다 +4~8px |
-| **한국어 본문** | SF Pro KR | Regular (400) | 한글 기준 17px, 행간 1.6 (공식, CSS 데이터 SF Pro KR 확인) |
-| **한국어 헤드** | SF Pro KR | Bold (700) | 28~48px |
+Product finish colors appear exclusively within photography and product selectors. They
+are not part of the UI chrome system and do not bleed into layout, typography, or
+interactive elements (observed on apple.com).
 
-### 타이포 원칙 (공식 HIG)
-- **SF Pro 폰트 패밀리 독점** — San Francisco(SF Pro)는 Apple이 자체 제작한 시스템 폰트. iOS·macOS·watchOS 전 플랫폼 통일 (공식).
-- **한국어는 SF Pro KR** — CSS 데이터에서 SF Pro KR 확인. 기존 HY Dotum·HY Gulim·MalgunGothic은 레거시 폴백용 (CSS 데이터).
-- **자간(Letter-spacing) 극도 조절** — 대형 헤드라인(-0.5px~-1px), 본문(0), 캡션(+0.2px). 헤드라인을 꽉 채워 중량감 표현.
-- **Dynamic Type 필수 지원** — 사용자 텍스트 크기 설정을 앱이 존중해야 함 (공식 HIG 접근성 요건).
-- **Bold는 강조에만** — 전체 텍스트 Bold 처리 금지. 핵심 단어·수치만 Bold.
+| Color Name | HEX | Context |
+|---|---|---|
+| Product Blue | `#9fc6f4` | iPhone / iPad finish selector background |
+| Product Purple | `#7424b5` | iPhone finish / Apple Watch band color indicator |
+| Product Orange | `#ec893c` | iPhone finish / AirPods case color indicator |
+| Product Pink | `#ea33c0` | iPhone finish color selector |
+| Product Teal | `#485b5e` | iPhone / MacBook finish indicator |
+| Product Brown | `#604630` | Apple Watch band color indicator |
 
-## 채널별 규격
+---
 
-| 채널 | 사이즈 | 안전 영역 | 비고 |
-|------|--------|----------|------|
-| **Apple.com 히어로 배너** | 1440px 기준 (반응형) | 좌우 192px (컨텐츠 영역 1056px) | 단 한 문장·단 하나의 CTA 원칙 (공식) |
-| **iPhone 앱 (iOS)** | 390×844 (iPhone 14 기준) | Safe Area: 상단 59px, 하단 34px | HIG 기준 (공식) |
-| **iPad 앱** | 1024×1366 기준 | Safe Area: 상하좌우 20px | Split View 지원 필수 |
-| **Apple Watch 앱** | 198×242 (Series 9) | 모든 엣지 8px | 단일 정보, 하나의 탭 동작 |
-| **App Store 스크린샷** | iPhone: 1290×2796 (최대) | 콘텐츠 상하 80px | 텍스트 오버레이 허용, 실제 UI 스크린샷 필수 (공식) |
-| **키노트 슬라이드** | 3840×2160 (4K) | 상하좌우 200px | 텍스트 최소화, 단일 이미지·단어 원칙 |
-| **YouTube (제품 영상)** | 3840×2160 (4K) / 썸네일 1280×720 | 썸네일 텍스트 5단어 이내 | 사운드 디자인 중요 (무음 시청 대비 자막 필수) |
-| **Instagram 피드** | 1080×1350 (4:5 세로) | 상하좌우 60px | 제품 단독 또는 생활 장면, 캡션 최소화 |
-| **Instagram 릴스** | 1080×1920 | 하단 260px (UI 오버레이) | Shot on iPhone 자막 우하단 (공식 캠페인 패턴) |
-| **OG 이미지 (공유 썸네일)** | 1200×630 | 좌우 60px | 제품명 + 제품 이미지 + Apple 로고 |
+## 2. Color Principles
 
-## 레이아웃 원칙
+**Principle 1 — Apple Blue (#0071e3) is reserved exclusively for interactive elements.**
+This color appears only on links and buttons — never on decorative elements, illustration
+fills, or background panels. The result is that any blue element on an apple.com page is
+immediately understood as tappable or clickable, without requiring a hover state or label
+(official, Apple Human Interface Guidelines; observed on apple.com). Applying `#0071e3`
+to non-interactive contexts would degrade the signal clarity of the entire action system.
 
-### 1. 단일 초점 원칙 (Single Hero Focus)
-한 화면·한 섹션에 하나의 제품·하나의 메시지·하나의 CTA. apple.com 제품 페이지의 모든 섹션은 이 원칙으로 구성 (공식, apple.com 실측).
+**Principle 2 — Pure black (#000000) is not used for body text; #1d1d1f is the maximum
+contrast text color.**
+This distinction reduces eye strain on white backgrounds while maintaining WCAG AA contrast
+ratios. The practical difference is subtle at standard viewing distances but is maintained
+with engineering precision across apple.com (official, observed on apple.com CSS analysis).
 
-### 2. 여백이 브랜드다 (Whitespace as Brand)
-컨텐츠를 감싸는 여백의 양이 프리미엄 포지셔닝을 결정한다. apple.com 히어로 섹션의 텍스트 행 간격·여백은 경쟁사 대비 1.5~2배 (추정). "비어있는 공간이 말한다."
+**Principle 3 — Dark mode is architecturally first-class, not a visual override.**
+Apple's operating systems enforce dark mode at the OS level (official, Apple HIG). Apple.com
+implements `@media (prefers-color-scheme: dark)` to invert surface tokens: `#f4f8fb` and
+`#fafafc` resolve to near-black equivalents; `#1d1d1f` inverts to near-white. Critically,
+the near-monochrome aesthetic is preserved in both modes — the brand identity does not shift
+when the color scheme switches (CSS extraction).
 
-### 3. 타이포그래피가 레이아웃이다 (Type as Layout)
-이미지 없이 텍스트만으로 한 섹션을 구성할 때, 폰트 크기 대비 차이로 시각적 계층을 만든다. "iPhone 16 Pro" (96px Bold) + "Hello, Apple Intelligence." (28px Regular) 조합이 이미지 없이도 완결된 레이아웃.
+**Principle 4 — Gradients are confined to product photography; UI chrome is flat.**
+Subtle vignettes may appear in product image staging backgrounds (a very soft off-white to
+mid-grey gradient under a hardware product). However, UI elements — buttons, cards, nav bars,
+section backgrounds — are never rendered with gradient fills (observed on apple.com).
 
-### 4. 스크롤 내러티브 (Scroll Narrative)
-apple.com 제품 페이지는 스크롤이 곧 스토리다. 위에서 아래로: 감성 훅 → 디자인 → 성능 → 카메라 → 소프트웨어 → 가격·CTA. 사용자가 설득되는 순서를 레이아웃이 결정한다 (공식, apple.com 구조 분석).
+---
 
-### 5. 색상보다 형태 (Form over Color)
-레이아웃의 계층은 색상이 아닌 크기·위치·여백으로 표현한다. 중요한 것을 크게, 덜 중요한 것을 작게. 색상은 CTA에만 사용.
+## 3. Typography
 
-## AI 이미지 생성 프롬프트 가이드
+Apple employs proprietary typefaces created and owned by Apple Inc., not available for
+external licensing (official, Apple Legal). All specifications below are derived from
+publicly observable rendering on apple.com and Apple's published Human Interface Guidelines.
 
+### Typeface System
+
+| Typeface | Description | Contexts |
+|---|---|---|
+| **SF Pro Display** | Optical size ≥ 20pt; designed for large-format rendering; tight default tracking at headline sizes | Hero headlines, keynote titles, product page section headers, large-format OOH advertising (official, Apple HIG) |
+| **SF Pro Text** | Optical size < 20pt; optimized for reading at body sizes; slightly wider letter shapes than Display | Body copy, captions, navigation labels, UI button labels, legal footnotes (official, Apple HIG) |
+| **SF Mono** | Monospaced variant; consistent character width for code alignment | Developer documentation, code samples, terminal interfaces, API references (official, Apple HIG) |
+| **New York** | Serif companion typeface; editorial warmth | Apple Books, Apple News+ longform articles, select editorial marketing (official, Apple HIG) |
+| **SF Pro KR** | Korean-optimized variant of SF Pro; confirmed present in apple.com/kr CSS | Korean-locale body and headline text on apple.com/kr (CSS extraction, observed on apple.com/kr) |
+
+### Role-Based Typographic Scale
+
+| Role | Typeface | Weight | Desktop Size | Mobile Size | Line Height | Letter Spacing |
+|---|---|---|---|---|---|---|
+| **Hero / Display Headline** | SF Pro Display | Bold 700 | 56–96px | 32–56px | 1.05 | −0.01em (estimated) |
+| **Section Headline (H1)** | SF Pro Display | Semibold 600 | 40–56px | 28–40px | 1.10 | −0.005em (estimated) |
+| **Section Subhead (H2)** | SF Pro Display | Regular 400 | 24–32px | 19–28px | 1.20 | 0em (estimated) |
+| **Body Copy** | SF Pro Text | Regular 400 | 17px | 15–17px | 1.47 | 0em (observed on apple.com) |
+| **UI Label / Button** | SF Pro Text | Medium 500 / Semibold 600 | 15–17px | 13–15px | 1.0 | 0em (observed on apple.com) |
+| **Caption / Footnote** | SF Pro Text | Regular 400 | 12–13px | 11–12px | 1.38 | 0em (observed on apple.com) |
+| **Price / Numeric Emphasis** | SF Pro Display Numeric | Bold 700 | Body +4–8px | Body +2–4px | 1.0 | 0em (estimated) |
+| **Nav Label** | SF Pro Text | Regular 400 | 12px | 12px | 1.0 | 0em (CSS extraction) |
+
+### CJK Fallback Stack
+
+When SF Pro is unavailable in CJK rendering contexts, apple.com applies the following
+font stack (CSS extraction; confirmed on apple.com, apple.co.jp, apple.com/kr):
+
+**Simplified Chinese:**
 ```
-스타일 키워드: Apple-like, minimal, ultra-clean, product photography,
-               studio lighting, white or near-black background only
-톤: Premium, restrained, emotionally warm but visually cold,
-    high contrast between subject and background
-컬러 제약: background #FFFFFF or #1D1D1F only,
-           accent #0071E3 for interactive elements only,
-           product colors exactly as specified
-타이포 처리: SF Pro Display style, tight letter-spacing on headlines,
-             never use decorative or serif fonts
-금지 요소: gradients on UI elements, stock photo humans,
-           busy backgrounds, text shadows or glows,
-           clip art, cartoon mascots, rainbow effects,
-           lens flare, over-saturated colors
-선호 요소: single product centered on pure white/black,
-           shallow depth of field for context shots,
-           real human hands (no faces) using product,
-           environmental context (desk, outdoor, studio),
-           motion blur for speed/performance messaging
-인물 처리: Real-looking diverse humans, candid emotional expressions,
-           hands-only shots for UI/product interaction,
-           never stock photo expressions (forced smiles)
-해상도: minimum 3000×3000 for print, 1920×1080 minimum for digital
+font-family: "SF Pro Display", "PingFang SC", "Hiragino Sans GB",
+             "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
 ```
 
-## 디자인 금지사항
+**Japanese:**
+```
+font-family: "SF Pro Display", "Hiragino Kaku Gothic ProN",
+             "Noto Sans CJK JP", "Yu Gothic", sans-serif;
+```
 
-### 절대 금지 (공식 HIG·브랜드 가이드라인 기반)
-- **Apple Blue(#0071E3)를 CTA 외 영역에 사용** — 링크·버튼 외 장식·배너·배경에 파란색 절대 금지
-- **순검정(#000000) 텍스트** — #1D1D1F 또는 #1D1D1F에 opacity 조절로 대체
-- **SF Pro 외 폰트 혼용** — 한국어는 SF Pro KR, 영문은 SF Pro. Helvetica Neue는 레거시 폴백만 허용 (CSS 데이터 확인)
-- **Apple 로고 색상 변경** — 흰색 또는 검정 단색만 허용. 무지개 로고는 Heritage 맥락에서만
-- **제품 이미지 배경 합성** — 실제 제품 사진에 배경 합성 엄격히 제한. 공식 제공 제품 이미지 사용 필수
+**Korean:**
+```
+font-family: "SF Pro KR", "Apple SD Gothic Neo", "Noto Sans KR",
+             "Malgun Gothic", sans-serif;
+```
 
-### 강력 권고 금지 (추정, 브랜드 일관성 기반)
-- 3색 이상의 UI 동시 사용 (Blue + Grey scale + 1 semantic color 원칙)
-- 그라데이션 배경 (제품 사진 배경의 미묘한 vignette 제외)
-- 텍스트 그림자·테두리·네온·발광 효과
-- 사실적인 사람 얼굴 클로즈업 (손·실루엣 선호)
-- 버튼 직각 모서리 (HIG 기준 radius 10~12px)
-- 아이콘 스타일 혼용 (SF Symbols 외 아이콘 세트 혼용 금지)
-- 정보 과부하 화면 (한 화면 = 한 의사결정 원칙)
-- 스톡 포토 삽화 및 클립아트
+### Typographic Rules
 
-## Apple 디자인을 한 줄로
-> **"흰 배경, SF Pro, Apple Blue CTA, 충분한 여백. 이 네 가지만 지키면 Apple처럼 보인다."**
+1. **SF Pro is the only permissible display face in Apple-branded contexts.** Substituting
+   with Helvetica Neue, Inter, or any third-party geometric sans-serif introduces optical
+   weight and spacing inconsistencies immediately detectable against genuine Apple layouts.
+2. **Headline hierarchy is weight-based, not size-only.** A 40px Semibold section header
+   reads as clearly subordinate to a 56px Bold hero even at matching optical scale.
+3. **Minimum body size is 17px on desktop.** This is enforced consistently across apple.com
+   as an accessibility baseline (observed on apple.com).
+4. **Bold weight is reserved for emphasis within a text block, not for all-over application.**
+   Rendering an entire body paragraph in Bold is not consistent with the observed Apple
+   typographic system (observed on apple.com).
+5. **Dynamic Type must be respected in app contexts.** User-level text size preferences are
+   system-level requirements on iOS and macOS (official, Apple HIG Accessibility).
 
-## Steal Sheet
+---
 
-1. **"여백을 깎지 말고 채우지 마라"** — Apple 디자인의 가장 쉬운 모방법은 현재 레이아웃의 패딩을 두 배로 늘리는 것이다. 대부분의 한국 웹사이트는 정보를 꽉 채우려는 본능으로 여백을 최소화한다. Apple은 반대로 한다. 섹션 상하 패딩을 80px에서 160px로 늘리기만 해도 즉시 프리미엄 느낌이 온다. 비용 제로의 리디자인.
+## 4. Channel Specifications
 
-2. **"단일 CTA, 단일 색상" 원칙 즉시 적용** — Apple Blue(#0071E3)처럼, 브랜드의 CTA 버튼 색상을 딱 하나로 고정하고 그 색을 전체 사이트·앱에서 CTA에만 쓴다. 현재 사이트에서 파란색·초록색·주황색 버튼이 혼재하고 있다면, 오늘 당장 하나로 통일하라. 클릭률과 함께 브랜드 신뢰도가 올라간다.
+Pixel dimensions are based on observed Apple creative assets, Apple Newsroom imagery, Apple
+social channel inspection, and platform publishing specifications as of Q1 2025. Values noted
+as `(estimated)` represent project inference where Apple has not published explicit specs.
 
-3. **"SF Symbols 스타일 아이콘" 채택** — Apple의 SF Symbols(공개 라이브러리, 6,000개+, 공식)는 무게감 조절(Ultralight~Black)이 가능한 선형 아이콘 시스템이다. 이 스타일을 한국 웹/앱 디자인에 적용하면 즉시 Apple 무드가 생긴다. Phosphor Icons, Lucide, Heroicons 등 유사 오픈소스 세트를 활용하면 된다. 아이콘 스타일 통일만으로 전체 UI 일관성이 30% 이상 향상된다(추정).
+| Channel | Asset Type | Dimensions (W × H) | Safe Zone | Key Notes |
+|---|---|---|---|---|
+| **apple.com — Hero (Desktop)** | Full-bleed JPEG / WebP | 2880 × 1620 px | Center 1440 × 900 px active content area | Retina 2× delivery via Apple CDN; max file ~400 KB (observed on apple.com) |
+| **apple.com — Hero (Mobile)** | Full-bleed JPEG / WebP | 750 × 1334 px | Center 375 × 667 px active | @2× srcset; served via Apple CDN; mobile-first breakpoint (observed on apple.com) |
+| **apple.com — Product Card** | PNG with transparency | 640 × 640 px | 560 × 560 px usable | Product on white; ambient reflection only; no added drop shadow (observed on apple.com) |
+| **apple.com — Nav Bar Logo Area** | SVG / PNG | 48 × 48 px | 40 × 40 px | Apple logo in system black or white only (observed on apple.com) |
+| **Instagram — Feed Square** | JPEG / PNG | 1080 × 1080 px | 900 × 900 px | No text overlay within 90px of edge (observed on @apple Instagram) |
+| **Instagram — Feed Portrait (4:5)** | JPEG / PNG | 1080 × 1350 px | 960 × 1200 px | Preferred ratio for feed; fills more screen real estate (observed on @apple Instagram) |
+| **Instagram — Stories / Reels** | MP4 / JPEG | 1080 × 1920 px | 1080 × 1420 px (avoid top/bottom 250px for UI overlay) | 9:16 ratio; "Shot on iPhone" credit lower-right in white SF Pro style (official campaign pattern) |
+| **YouTube — Thumbnail** | JPEG | 1280 × 720 px | Center 1100 × 620 px | 16:9; headline text ≥ 72px weight 700 equivalent; near-black or white background (observed on Apple YouTube) |
+| **YouTube — Channel Art** | JPEG | 2560 × 1440 px | Safe across all devices: 1546 × 423 px center | Logo centered in safe zone; no product photography bleeding into unsafe zones (observed on Apple YouTube) |
+| **YouTube — Pre-roll (16:9)** | MP4 | 1920 × 1080 px min | Full frame | Brand signal in first 2 seconds; no spoken CTA until after 5-second skip point (estimated) |
+| **Twitter / X — Card Image** | JPEG / PNG | 1200 × 628 px | Center 1100 × 540 px | Minimal text; product on neutral background; no hashtag clutter (observed on @Apple Twitter/X) |
+| **LinkedIn — Sponsored Content** | JPEG / PNG | 1200 × 627 px | Center 1100 × 540 px | Corporate / developer audience; slightly higher copy density permissible (observed on Apple LinkedIn) |
+| **Apple TV+ — Key Art (Landscape)** | JPEG | 3840 × 2160 px | Per-title specification | 4K delivery; Apple wordmark must not overlap with title logo (observed on Apple TV+) |
+| **Apple Newsroom — Header Image** | JPEG | 2048 × 1024 px | Center 1800 × 900 px | Factual product or event photography; no marketing headlines embedded (observed on newsroom.apple.com) |
+| **Email Newsletter — Header Banner** | JPEG | 1200 × 400 px | Center 960 × 340 px | Max 600px container width in email clients; text must not be image-only for accessibility (estimated) |
+| **OOH / Digital Billboard** | TIFF / EPS vector | 3:1 or 16:9 (variable) | Headline only; no body copy | Minimum 72pt SF Pro Display equivalent at final output resolution (estimated) |
+| **Keynote Slide (Presentation)** | Keynote / PNG export | 3840 × 2160 px (4K) | Safe margins 200px all sides | Single image + single message per slide; text minimized to ≤ 7 words per headline (observed on Apple keynote videos, official) |
+| **App Store Screenshot — iPhone** | PNG | 1290 × 2796 px (max, iPhone 15 Pro Max) | Content: top/bottom 80px clear | Real UI screenshots required; text overlays permitted; no staged non-existent UI (official, App Store guidelines) |
+
+---
+
+## 5. Layout Principles
+
+**Principle 1 — Whitespace is the primary design element, not a side effect.**
+Apple's product page layouts consistently allocate an estimated 40–60% of vertical scroll
+height to negative space (estimated, based on apple.com DOM analysis). This is not unused
+capacity; it is the mechanism that delivers each content block with undivided visual
+attention before the next block enters the viewport. Reducing padding to fit more content
+is the single most common error in Apple-adjacent design work.
+
+**Principle 2 — One idea per viewport (the 100vh rule).**
+Each full-viewport section on apple.com product pages communicates exactly one product
+benefit or feature. The structure is consistently: one headline (≤ 7 words), one supporting
+sentence, one visual element, one optional CTA. Stacking two messages in a single viewport
+section is not observed in primary product pages (observed on apple.com). This constraint
+forces creative prioritization — the team must decide what matters most, not present
+everything simultaneously.
+
+**Principle 3 — Product photography sets the composition; the grid conforms to the object.**
+Rather than placing products into a predefined column-based grid, apple.com product pages
+use the physical silhouette and proportions of the hardware as the compositional anchor. The
+grid adapts to the product, not the reverse. This requires bespoke art direction per product
+SKU rather than template-fill execution (observed on apple.com).
+
+**Principle 4 — Animation serves information revelation, not decoration.**
+Scroll-triggered animations on apple.com (implemented via `IntersectionObserver` + CSS
+`transform` transitions) reveal product details that would require deliberate user interaction
+to discover: rotating a device to show its profile depth, zooming into a chip die photograph,
+separating material layers to show engineering construction. Every animation on apple.com
+corresponds to a product claim being demonstrated (observed on apple.com, JavaScript
+inspection). Animations without informational payloads are not used.
+
+**Principle 5 — Asymmetry is introduced selectively, for editorial emphasis only.**
+The default compositional mode is centered symmetry. Asymmetric layouts (image left / text
+right; full-bleed photography with text overlay) are deployed selectively to signal that a
+section carries higher emotional or narrative weight — typically brand philosophy segments,
+environmental commitment storytelling, or privacy messaging (observed on apple.com).
+
+**Principle 6 — Responsive design expands from single-column; it does not collapse from
+multi-column.**
+Apple's observed responsive breakpoints include: 320px (iPhone SE), 375px, 390px (iPhone 16),
+428px (Plus / Max), 768px (iPad), 1024px (iPad Pro), 1280px, 1440px, and 2560px (estimated,
+CSS extraction). Sections are designed mobile-first as single-column units and expanded for
+wider viewports. This prevents the reflow inconsistencies common in desktop-first grids
+collapsing to mobile.
+
+**Principle 7 — Typography functions as layout on text-only sections.**
+When a section contains no photography or illustration, typographic scale contrast alone
+creates visual hierarchy. A 96px Bold headline ("iPhone 16 Pro") paired with a 28px Regular
+subhead ("Hello, Apple Intelligence.") forms a compositionally complete section without
+additional visual elements (observed on apple.com). Size ratio of approximately 3:1 to 4:1
+between display and body creates sufficient vertical tension.
+
+---
+
+## 6. Icon & Illustration Style
+
+### Icon System: SF Symbols
+
+SF Symbols is Apple's proprietary icon library of over 5,000 glyphs engineered to integrate
+with SF Pro at matching optical weight and metrics (official, Apple SF Symbols documentation,
+developer.apple.com/sf-symbols).
+
+Key observed characteristics:
+- **Variable weight axes:** Icons share weight axes with SF Pro (Ultralight through Black),
+  enabling icon and adjacent text to be optically matched at any size (official).
+- **Optical size variants:** Icons are redrawn at small (< 20px), medium, and large optical
+  sizes — not simply scaled. This prevents stroke-weight distortion at display sizes (official,
+  Apple HIG).
+- **Stroke-based rendering in marketing contexts:** Most SF Symbol usage in apple.com marketing
+  is thin-stroke outline on transparent or white backgrounds, consistent with the brand's
+  restraint preference over visual density (observed on apple.com).
+- **Multicolor and hierarchical color variants available:** SF Symbols supports palette
+  color, hierarchical color, and multicolor rendering modes — but Apple's marketing contexts
+  primarily use monochrome (official, SF Symbols documentation).
+
+Third-party icon libraries (Font Awesome, Heroicons, Phosphor, Lucide) are incompatible
+with the Apple brand aesthetic due to optical weight mismatches, differing stroke termination
+styles, and inconsistent grid alignment with SF Pro text (estimated).
+
+### Illustration Style
+
+Apple rarely uses illustrated graphics as primary marketing elements on apple.com or in
+campaigns. When illustration does appear, the following patterns are consistently observed:
+
+- **Flat vector with limited palette:** 2–4 colors maximum, drawn from the core brand palette.
+  No shading, no drop shadows, no textured fills (observed on Apple Education and Apple
+  Fitness+ marketing assets).
+- **No gradient fills on icon or illustration shapes:** Gradients are reserved for product
+  photography staging and video frame backgrounds (observed on apple.com).
+- **Human figures are abstract, silhouetted, or represented by hands only.** Realistic
+  illustrated facial features are not observed in Apple's privacy campaign or general
+  marketing illustration work — a choice that may reflect the brand's privacy positioning
+  (observed on Apple Privacy campaign assets; note: this analysis does not assert intent).
+- **Data visualizations** (as seen in Health app marketing, Apple Intelligence explanations)
+  use iOS chart aesthetics: rounded bar graphs, smooth line charts, `#0071e3` as primary
+  data-series color, generous whitespace between data elements (observed on
+  apple.com/apple-intelligence).
+
+---
+
+## 7. AI Image Generation Prompt Guide
+
+The following structured prompts are designed to produce visual outputs consistent with
+Apple's publicly observed aesthetic. These are creative reference tools for this project;
+they are not Apple-endorsed prompts and do not reproduce copyrighted Apple assets.
+
+### Hero Product Shot (Studio)
+```
+Studio product photography of [PRODUCT NAME], floating on pure white (#ffffff) background,
+single directional soft key light from upper-left at 45 degrees, no harsh cast shadows,
+subtle ambient fill from right, ultra-sharp focus across full product surface, no props,
+no human hands, no text overlays, no reflective table surface, minimalist Apple aesthetic,
+Hasselblad medium-format rendering quality, 8K resolution
+```
+
+### Lifestyle Human Shot (Authentic Use)
+```
+Candid documentary photography, [AGE RANGE] [ETHNICITY] person using [PRODUCT] while
+[ACTIVITY: composing music, sketching, outdoor hiking, working in minimal studio],
+natural window light or overcast daylight, shallow depth of field f/2.0 equivalent,
+neutral color grade (slight desaturation -10, lifted shadows +5), authentic focused
+expression — not a posed smile, no visible non-Apple brand logos, Shot on iPhone 16 Pro
+aesthetic, film grain at ISO 400 level
+```
+
+### Material / Texture Close-up
+```
+Extreme macro photography of [MATERIAL: titanium, ceramic glass, brushed aluminum,
+polished stainless steel], 1:1 aspect ratio, flat matte black (#000000) or flat white
+(#ffffff) background, no artificial sheen or specular highlight, no lens flare,
+industrial precision rendering, engineering aesthetic, ISO 64 equivalent noise floor,
+Apple material design reference
+```
+
+### Social Story Format (9:16 Vertical)
+```
+Vertical 9:16 format, [PRODUCT] centered on pure black (#000000) background with
+generous negative space above and below the product, single clean sans-serif headline
+at top in weight-700 equivalent (simulate SF Pro Display Bold), headline text in white
+(#ffffff), one word or phrase in Apple blue (#0071e3) for emphasis, no border, no frame,
+no watermark, no background texture
+```
+
+### Environmental Campaign (Sustainability)
+```
+Wide-angle environmental landscape photography, [LOCATION: renewable energy facility,
+reforested area, ocean coastline, urban green space], golden hour or blue hour lighting,
+no people, Apple hardware product placed in foreground as small compositional element,
+emphasis on scale of natural environment versus device, photojournalistic quality,
+muted earth tones, no saturated color grading
+```
+
+---
+
+## 8. Design Prohibitions
+
+The following practices are explicitly inconsistent with Apple's publicly observed design
+system. These prohibitions apply to Apple-adjacent and Apple-referencing creative work
+produced under this project.
+
+1. **No gradient fills on text elements.** Gradient-fill headlines (gold-to-silver,
+   rainbow, iridescent) are not present anywhere in Apple's primary marketing typography.
+   All text is rendered in solid `#1d1d1f`, `#000000`, `#ffffff`, `#0071e3`, or neutral
+   greys. Text gradients are visually inconsistent with the brand system (observed on
+   apple.com).
+
+2. **No post-production drop shadows on hardware product imagery.** Apple product images
+   are staged with ambient surface reflection only. Hard or soft drop shadows added in
+   post-production are not present in apple.com product photography (observed on apple.com
+   product pages).
+
+3. **No third-party typefaces in Apple-branded or Apple-adjacent creative.** Substituting
+   SF Pro with Helvetica Neue, Inter, Gill Sans, or any geometric sans-serif introduces
+   letter-spacing, optical weight, and x-height inconsistencies that are detectable against
+   genuine Apple layouts (estimated, based on optical comparison).
+
+4. **No busy or textured backgrounds behind product hardware shots.** Photographic
+   environments, geometric patterns, gradient color fields, or textured paper surfaces
+   as product shot backgrounds are not observed in Apple's hero-level hardware photography.
+   Products appear on white, near-black, or a single-tone soft gradient (observed on
+   apple.com).
+
+5. **No use of red (#ff3b30 or adjacent) outside product-finish and alert-state contexts.**
+   System red is reserved for PRODUCT(RED) edition marketing and iOS UI error states. Using
+   red as a decorative accent color in layouts, as an emphasis highlight, or in
+   non-alert contexts is inconsistent with the observed Apple color system (CSS extraction).
+
+6. **No all-capitals (ALL CAPS) in headlines.** Apple product headlines consistently use
+   title case or sentence case. ALL CAPS is not observed in any primary Apple marketing
+   typography, even for short emphasis phrases (observed on apple.com). This is a direct
+   contrast with many competitor brands that use all-caps for premium signaling.
+
+7. **No mixing of typographic weights within a single headline string.** A headline
+   is rendered in a single weight. Mixing Bold and Regular within the same headline element
+   (e.g., bolding only the product name while the descriptor remains regular) is not
+   observed in Apple headline typography (observed on apple.com).
+
+8. **No more than one chromatic accent color per viewport section.** Beyond the neutral
+   base color (`#f4f8fb` or `#000000`) and primary text (`#1d1d1f` or `#ffffff`), a
+   maximum of one accent color appears per section. Two competing accent colors in the
+   same viewport is not consistent with the observed Apple layout system (observed on
+   apple.com).
+
+9. **No ambient looping animations without informational content.** Decorative motion —
+   looping particle effects, floating object animations, parallax backgrounds with no
+   product-information payoff — is not present on apple.com. Apple's animation timing
+   observed is approximately `transition: 0.3s ease` for UI transitions and up to
+   `0.5–0.8s` for scroll-reveal sequences (CSS extraction).
+
+10. **No use of the Apple logo () as a decorative or composited design element.** The
+    Apple logo is a registered trademark (official, USPTO). It may not be recolored,
+    distorted, used as a bullet point, applied as a watermark in third-party creative,
+    or embedded in derivative works without explicit written authorization from Apple Inc.
+    (official, Apple Legal guidelines). This project cites the logo only in descriptive
+    analysis contexts.
+
+11. **No stock photography for human subjects.** All human figures in Apple advertising
+    are real users, professional models cast through official channels, or hands-only shots.
+    Stock photo expressions (forced smiles, generic corporate postures) are visually
+    inconsistent with the observational, documentary aesthetic Apple uses for people in
+    its marketing (observed on Apple campaigns).
+
+12. **No CTA button with sharp rectangular corners.** Apple's HIG specifies corner radius
+    of 10–12px for standard buttons on iOS and equivalent rounding in web contexts. Fully
+    rectangular buttons are inconsistent with the Apple UI system (official, Apple HIG).
+
+---
+
+*Layer 5 of 8 — Brand Autopsy: Apple Inc. (AAPL)*
+*Analysis based on publicly accessible sources as of Q1 2025.*
+*This is not Apple's official Brand Identity Guidelines document.*
+*Source tiers applied throughout: (official), (observed on apple.com), (CSS extraction), (estimated).*
