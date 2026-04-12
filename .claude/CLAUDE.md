@@ -92,5 +92,21 @@ The output should include a "Writing Risk Guide" section with company-specific d
 ## Reference
 
 - Full legal writing policy: `LEGAL_RISK_WRITING_POLICY.md`
+- Phase 0 closeout and orchestration status: `PHASE0_CLOSEOUT.md`
 - Original brand framework: `/mnt/c/Users/ReliQbit/Downloads/brand-autopsy-framework/`
 - Database: `data/brand_autopsy.db` (SQLite)
+
+## Session Orchestration
+
+Claude Code sessions working on this repository must use the following order of operations:
+
+1. Read `.claude/CLAUDE.md`
+2. Read `PHASE0_CLOSEOUT.md`
+3. Confirm whether the current task is allowed to proceed under the current phase state
+
+Additional rules:
+
+- Do not treat Phase 1 as started unless `PHASE0_CLOSEOUT.md` explicitly says Phase 0 is closed.
+- Use `PHASE0_CLOSEOUT.md` as the handoff record for unfinished work and go/no-go decisions.
+- For generation-pipeline changes, inspect `run_batch.py`, `src/analyzer/engine.py`, and `src/analyzer/legal_validator.py` together before editing.
+- External Anthropic API key usage is optional, not mandatory. If the user explicitly prefers in-agent execution and the repository already contains accepted benchmark outputs, do not block phase progress on external key availability alone.

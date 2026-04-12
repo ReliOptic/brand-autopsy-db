@@ -1,17 +1,18 @@
 """
 Brand Autopsy LLM Analysis Engine.
-Chains 6 layers sequentially with Claude API, using few-shot examples.
+Chains 8 layers sequentially with Claude API, using few-shot examples.
 """
 
 import json
 import time
 import os
 import sys
+import re
 from pathlib import Path
 from datetime import date
 
 from .prompts.system import SYSTEM_PROMPT, FEW_SHOT_INSTRUCTION
-from .validator import validate_and_report
+from .legal_validator import validate_markdown
 
 # Lazy import — only needed when actually running analysis
 anthropic = None
@@ -36,6 +37,11 @@ for _n, (_f, _mod_name) in LAYER_MODULES.items():
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 FEW_SHOT_DIR = Path("/mnt/c/Users/ReliQbit/Downloads/brand-autopsy-framework/"
                      "brand-autopsy-framework/brands")
+LOCAL_FEW_SHOT_BRANDS = [
+    "AAPL_Apple-Inc",
+    "ADBE_Adobe-Inc",
+    "ACN_Accenture",
+]
 
 
 def _load_anthropic():
@@ -50,17 +56,48 @@ def _get_few_shot_examples(layer_num: int, count: int = 2) -> str:
     filename = LAYER_MODULES[layer_num][0]
     examples = []
 
-    # Pick diverse examples
-    preferred = ["01-gentle-monster", "02-toss", "03-notion", "06-aesop", "10-figma"]
-    for brand_dir_name in preferred:
+    # Prefer the external framework when available, but fall back to checked-in repo examples.
+    candidate_roots = []
+    if FEW_SHOT_DIR.exists():
+        candidate_roots.append((
+            FEW_SHOT_DIR,
+            ["01-gentle-monster", "02-toss", "03-notion", "06-aesop", "10-figma"],
+        ))
+    candidate_roots.append((DATA_DIR / "brands", LOCAL_FEW_SHOT_BRANDS))
+
+    for root, preferred in candidate_roots:
+        for brand_dir_name in preferred:
+            if len(examples) >= count:
+                break
+            filepath = root / brand_dir_name / "context" / filename
+            if filepath.exists():
+                content = filepath.read_text(encoding="utf-8")
+                examples.append(f"### Example: {brand_dir_name}\n\n{content}")
         if len(examples) >= count:
             break
-        filepath = FEW_SHOT_DIR / brand_dir_name / "context" / filename
-        if filepath.exists():
-            content = filepath.read_text(encoding="utf-8")
-            examples.append(f"### Example: {brand_dir_name}\n\n{content}")
 
     return "\n\n---\n\n".join(examples)
+
+
+def _slugify_brand_name(name: str) -> str:
+    """Convert a company name to a directory-safe slug."""
+    slug = re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-")
+    slug = re.sub(r"-{2,}", "-", slug)
+    return slug or "Unknown-Brand"
+
+
+def _brand_dir(ticker: str, name: str) -> Path:
+    """Resolve the canonical brand directory, preferring existing ticker-prefixed paths."""
+    brands_root = DATA_DIR / "brands"
+    exact = brands_root / f"{ticker}_{_slugify_brand_name(name)}"
+    if exact.exists():
+        return exact
+
+    for existing in brands_root.iterdir():
+        if existing.is_dir() and existing.name.startswith(f"{ticker}_"):
+            return existing
+
+    return exact
 
 
 def _load_css_data(ticker: str) -> str:
@@ -141,7 +178,7 @@ def _get_sector_companies(ticker: str, sector: str) -> str:
 
 
 class AnalysisEngine:
-    """Run 6-layer brand analysis using Claude API."""
+    """Run 8-layer brand analysis using Claude API."""
 
     def __init__(self, model: str = "claude-sonnet-4-20250514", max_retries: int = 3):
         _load_anthropic()
@@ -186,7 +223,7 @@ class AnalysisEngine:
 
     def analyze_brand(self, ticker: str, name: str, sector: str = "",
                       industry: str = "") -> dict[int, str]:
-        """Run full 6-layer analysis for a brand."""
+        """Run full 8-layer analysis for a brand."""
         print(f"\n{'='*50}")
         print(f"Analyzing: {name} ({ticker})")
         print(f"{'='*50}")
@@ -277,9 +314,22 @@ class AnalysisEngine:
 
         return results
 
-    def save_results(self, ticker: str, results: dict[int, str]):
+    def validate_results(self, ticker: str, name: str, results: dict[int, str]):
+        """Validate generated layer content before final save."""
+        reports = []
+        for layer_num, content in sorted(results.items()):
+            filename = LAYER_MODULES[layer_num][0]
+            file_label = str(_brand_dir(ticker, name) / "context" / filename)
+            reports.append(validate_markdown(content, file_path=file_label))
+        return reports
+
+    def get_brand_dir(self, ticker: str, name: str) -> Path:
+        """Public helper for runner code that needs the canonical output path."""
+        return _brand_dir(ticker, name)
+
+    def save_results(self, ticker: str, name: str, results: dict[int, str]):
         """Save analysis results as markdown files."""
-        out_dir = DATA_DIR / "brands" / ticker / "context"
+        out_dir = _brand_dir(ticker, name) / "context"
         out_dir.mkdir(parents=True, exist_ok=True)
 
         filenames = {
@@ -317,6 +367,7 @@ def main():
     """CLI: analyze a single brand or batch."""
     import argparse
     import csv
+    from src.analyzer.legal_validator import validate_brand, validate_all, print_report
 
     parser = argparse.ArgumentParser(description="Run Brand Autopsy analysis")
     parser.add_argument("--ticker", type=str, help="Single ticker to analyze")
@@ -330,19 +381,20 @@ def main():
     if args.validate_only:
         # Validate existing analyses
         brands_dir = DATA_DIR / "brands"
-        for brand_dir in sorted(brands_dir.iterdir()):
-            if not brand_dir.is_dir():
-                continue
-            context_dir = brand_dir / "context"
-            if not context_dir.exists():
-                continue
-            layers = {}
-            for num, (filename, _) in LAYER_MODULES.items():
-                filepath = context_dir / filename
-                if filepath.exists():
-                    layers[num] = filepath.read_text(encoding="utf-8")
-            if layers:
-                validate_and_report(layers, brand_dir.name)
+        if args.ticker:
+            target_dir = _brand_dir(args.ticker, args.ticker)
+            for brand_dir in sorted(brands_dir.iterdir()):
+                if brand_dir.is_dir() and brand_dir.name.startswith(f"{args.ticker}_"):
+                    target_dir = brand_dir
+                    break
+            print_report(validate_brand(str(target_dir)), verbose=True)
+        else:
+            summary = validate_all(str(brands_dir))
+            print(
+                f"Summary: {summary['total_files']} files — {summary['passed']} passed, "
+                f"{summary['failed']} failed, {summary['total_errors']} errors, "
+                f"{summary['total_warnings']} warnings"
+            )
         return
 
     engine = AnalysisEngine(model=args.model)
@@ -382,7 +434,7 @@ def main():
         industry = comp["industry"]
 
         # Skip if already analyzed
-        existing = DATA_DIR / "brands" / ticker / "context" / "01-brand-identity.md"
+        existing = _brand_dir(ticker, name) / "context" / "01-brand-identity.md"
         if existing.exists():
             print(f"[{i}/{len(targets)}] {ticker} — already analyzed, skipping")
             continue
@@ -390,15 +442,16 @@ def main():
         try:
             print(f"\n[{i}/{len(targets)}] {ticker} — {name}")
             results = engine.analyze_brand(ticker, name, sector, industry)
-            engine.save_results(ticker, results)
-
-            # Validate
-            valid = validate_and_report(results, name)
-            if valid:
-                success += 1
-            else:
-                success += 1  # Still count as success, just with warnings
-                print("  (validation issues — may need manual review)")
+            reports = engine.validate_results(ticker, name, results)
+            passed = all(report.passed for report in reports)
+            for report in reports:
+                print(f"  {report.summary()}")
+            if not passed:
+                failed += 1
+                print("  FAILED: legal validator rejected generated output before final save")
+                continue
+            engine.save_results(ticker, name, results)
+            success += 1
 
         except Exception as e:
             failed += 1

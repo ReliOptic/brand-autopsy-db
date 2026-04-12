@@ -16,7 +16,7 @@ Usage:
   python run_batch.py --all --limit 50
 
   # Validate existing results only
-  python run_batch.py --validate
+  python run_batch.py --validate-only
 
   # Re-crawl CSS for failed companies
   python run_batch.py --recrawl
@@ -31,6 +31,7 @@ Prerequisites:
 import argparse
 import csv
 import json
+import re
 import shutil
 import sys
 import asyncio
@@ -39,6 +40,31 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 DATA_DIR = Path(__file__).parent / "data"
+
+
+def _slugify_brand_name(name: str) -> str:
+    """Convert a company name to a directory-safe slug."""
+    slug = re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-")
+    slug = re.sub(r"-{2,}", "-", slug)
+    return slug or "Unknown-Brand"
+
+
+def resolve_brand_dir(ticker: str, company_name: str | None = None) -> Path:
+    """Resolve the canonical brand directory, preferring existing ticker-prefixed paths."""
+    brands_root = DATA_DIR / "brands"
+
+    if company_name:
+        exact = brands_root / f"{ticker}_{_slugify_brand_name(company_name)}"
+        if exact.exists():
+            return exact
+
+    for existing in brands_root.iterdir():
+        if existing.is_dir() and existing.name.startswith(f"{ticker}_"):
+            return existing
+
+    if company_name:
+        return brands_root / f"{ticker}_{_slugify_brand_name(company_name)}"
+    return brands_root / ticker
 
 
 def show_status():
@@ -76,13 +102,7 @@ def show_status():
                 css_fail += 1
 
             # Analysis — check both ticker/ and TICKER_Company-Name/ folder formats
-            identity = brands_dir / ticker / "context" / "01-brand-identity.md"
-            if not identity.exists() and brands_dir.exists():
-                # Look for TICKER_* prefixed folder
-                for d in brands_dir.iterdir():
-                    if d.is_dir() and d.name.startswith(f"{ticker}_"):
-                        identity = d / "context" / "01-brand-identity.md"
-                        break
+            identity = resolve_brand_dir(ticker) / "context" / "01-brand-identity.md"
             if identity.exists():
                 analyzed += 1
                 sectors[sector]["analyzed"] += 1
@@ -134,10 +154,11 @@ def recrawl_failed():
     asyncio.run(batch_crawl())
 
 
-def _archive_old_analysis(ticker):
+def _archive_old_analysis(ticker, company_name):
     """Archive existing analysis before regeneration."""
-    brand_dir = DATA_DIR / "brands" / ticker / "context"
-    archive_dir = DATA_DIR / "brands" / ticker / "archive" / "v1-ko"
+    brand_root = resolve_brand_dir(ticker, company_name)
+    brand_dir = brand_root / "context"
+    archive_dir = brand_root / "archive" / "v1-ko"
     if brand_dir.exists() and not archive_dir.exists():
         archive_dir.parent.mkdir(parents=True, exist_ok=True)
         shutil.copytree(brand_dir, archive_dir)
@@ -176,11 +197,12 @@ def run_analysis(ticker=None, sector=None, limit=None, all_companies=False, forc
     # Skip already analyzed (or archive and re-run if --force)
     remaining = []
     for t in targets:
-        existing = DATA_DIR / "brands" / t["ticker"] / "context" / "01-brand-identity.md"
+        existing = resolve_brand_dir(t["ticker"], t["name"]) / "context" / "01-brand-identity.md"
         if existing.exists():
             if force:
-                _archive_old_analysis(t["ticker"])
+                _archive_old_analysis(t["ticker"], t["name"])
                 remaining.append(t)
+                continue
             continue
         remaining.append(t)
 
@@ -198,12 +220,23 @@ def run_analysis(ticker=None, sector=None, limit=None, all_companies=False, forc
                 comp["ticker"], comp["name"],
                 comp["sector"], comp["industry"],
             )
-            engine.save_results(comp["ticker"], results)
+
+            reports = engine.validate_results(comp["ticker"], comp["name"], results)
+            passed = all(report.passed for report in reports)
+            for report in reports:
+                print(f"  {report.summary()}")
+
+            if not passed:
+                failed += 1
+                print("  FAILED: legal validator rejected generated output before final save")
+                continue
+
+            engine.save_results(comp["ticker"], comp["name"], results)
 
             # Load into DB
             from src.db.loader import load_brand
             from src.db.models import get_session
-            brand_dir = DATA_DIR / "brands" / comp["ticker"]
+            brand_dir = engine.get_brand_dir(comp["ticker"], comp["name"])
             Session = get_session("sqlite:///data/brand_autopsy.db")
             load_brand(brand_dir, Session)
 
@@ -220,8 +253,38 @@ def run_analysis(ticker=None, sector=None, limit=None, all_companies=False, forc
     engine.report_costs()
 
 
-def run_validate():
-    """Validate all existing analyses."""
+def run_validate_legal(ticker=None, verbose=False):
+    """Validate existing analyses with the legal compliance validator."""
+    from src.analyzer.legal_validator import validate_brand, validate_all, print_report
+
+    brands_dir = DATA_DIR / "brands"
+    if not brands_dir.exists():
+        print("No analyses found.")
+        return
+
+    if ticker:
+        brand_dir = resolve_brand_dir(ticker)
+        if not brand_dir.exists():
+            print(f"No brand directory found for ticker {ticker}")
+            return
+        reports = validate_brand(str(brand_dir))
+        print_report(reports, verbose=verbose)
+        return
+
+    summary = validate_all(str(brands_dir))
+    total_files = summary["total_files"]
+    passed = summary["passed"]
+    failed = summary["failed"]
+    errors = summary["total_errors"]
+    warnings = summary["total_warnings"]
+    print(
+        f"Summary: {total_files} files — {passed} passed, {failed} failed, "
+        f"{errors} errors, {warnings} warnings"
+    )
+
+
+def run_validate_legacy():
+    """Legacy structure validator retained for comparison/debugging only."""
     from src.analyzer.validator import validate_and_report
 
     brands_dir = DATA_DIR / "brands"
@@ -263,15 +326,20 @@ def main():
     parser.add_argument("--all", action="store_true", help="Analyze all companies")
     parser.add_argument("--limit", type=int, help="Limit number of companies")
     parser.add_argument("--status", action="store_true", help="Show status dashboard")
-    parser.add_argument("--validate", action="store_true", help="Validate existing")
+    parser.add_argument("--validate-only", action="store_true", help="Validate existing files with legal validator")
+    parser.add_argument("--validate", action="store_true", help="Alias for --validate-only")
+    parser.add_argument("--legacy-validate", action="store_true", help="Run legacy structure validator")
     parser.add_argument("--recrawl", action="store_true", help="Re-crawl failed CSS")
     parser.add_argument("--force", action="store_true", help="Force regeneration of already-analyzed brands")
+    parser.add_argument("--verbose-validation", action="store_true", help="Show detailed validation issues")
     args = parser.parse_args()
 
     if args.status:
         show_status()
-    elif args.validate:
-        run_validate()
+    elif args.validate_only or args.validate:
+        run_validate_legal(ticker=args.ticker, verbose=args.verbose_validation)
+    elif args.legacy_validate:
+        run_validate_legacy()
     elif args.recrawl:
         recrawl_failed()
     else:

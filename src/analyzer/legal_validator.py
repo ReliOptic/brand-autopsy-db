@@ -273,6 +273,21 @@ def _check_comparisons(lines: list[str], file_path: str) -> list[ValidationIssue
 # ---------------------------------------------------------------------------
 
 
+def validate_markdown(content: str, file_path: str = "<memory>") -> ValidationReport:
+    """Validate markdown content that has not yet been written to disk."""
+    lines = content.splitlines(keepends=True)
+
+    issues: list[ValidationIssue] = []
+    issues.extend(_check_korean(lines, file_path))
+    issues.extend(_check_disclaimer(content, file_path))
+    issues.extend(_check_prohibited(lines, file_path))
+    issues.extend(_check_sources(content, file_path))
+    issues.extend(_check_comparisons(lines, file_path))
+
+    passed = all(i.severity != "error" for i in issues)
+    return ValidationReport(file_path=file_path, passed=passed, issues=issues)
+
+
 def validate_file(file_path: str) -> ValidationReport:
     """Validate a single markdown file for legal compliance."""
     path = Path(file_path)
@@ -294,17 +309,7 @@ def validate_file(file_path: str) -> ValidationReport:
         )
 
     content = path.read_text(encoding="utf-8", errors="replace")
-    lines = content.splitlines(keepends=True)
-
-    issues: list[ValidationIssue] = []
-    issues.extend(_check_korean(lines, file_path))
-    issues.extend(_check_disclaimer(content, file_path))
-    issues.extend(_check_prohibited(lines, file_path))
-    issues.extend(_check_sources(content, file_path))
-    issues.extend(_check_comparisons(lines, file_path))
-
-    passed = all(i.severity != "error" for i in issues)
-    return ValidationReport(file_path=file_path, passed=passed, issues=issues)
+    return validate_markdown(content, file_path=file_path)
 
 
 def validate_brand(brand_dir: str) -> list[ValidationReport]:
