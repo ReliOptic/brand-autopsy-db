@@ -140,9 +140,17 @@ This is the core research phase — the primary output is a complete open-source
   continue
 - [x] Add `--sec-fetch` mode to `run_batch.py` with parity flags
   (`--ticker`, `--sector`, `--all`, `--limit`, `--force`, `--skip-facts`)
+- [x] Bypass for blocked-egress environments (`--sec-ingest`,
+  `2026-04-27`):
+  - Raw-EDGAR drop (`submissions.json` + `company_facts.json` under
+    `<inbox>/{ticker}/`) → T1_OFFICIAL summary
+  - Manifest drop (`manifest.json`) for WebSearch / manual extraction
+    → T3_SECONDARY_RELIABLE summary with `_provenance_warning`
+  - Validated end-to-end with AAPL FY2025 manifest and a synthetic
+    raw-EDGAR fixture
 - [ ] Live verification against EDGAR for AAPL (blocked in current
   in-agent sandbox by outbound HTTPS 403 — must run in a network-enabled
-  environment)
+  environment, or ingest the raw JSONs via the bypass above)
 - [ ] Risk Factors / Legal Proceedings text extraction from primary
   document URL (deferred; metadata + headline metrics first)
 - [ ] 20-F support for foreign private issuers (deferred)

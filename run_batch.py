@@ -306,6 +306,13 @@ def run_sec_fetch(ticker=None, sector=None, all_companies=False, limit=None,
     )
 
 
+def run_sec_ingest(inbox_dir, ticker=None, force=False):
+    """Bypass network: build SEC summaries from files dropped in inbox_dir."""
+    from src.crawler.sec_fetcher import ingest_batch
+
+    ingest_batch(Path(inbox_dir), ticker=ticker, force=force)
+
+
 def run_validate_legacy():
     """Legacy structure validator retained for comparison/debugging only."""
     from src.analyzer.validator import validate_and_report
@@ -357,6 +364,10 @@ def main():
                         help="Fetch latest SEC EDGAR filings + XBRL facts into data/raw/{ticker}/")
     parser.add_argument("--skip-facts", action="store_true",
                         help="With --sec-fetch: skip XBRL company-facts download (submissions only)")
+    parser.add_argument("--sec-ingest", type=str, metavar="INBOX_DIR",
+                        help=("Bypass network: ingest pre-fetched files from "
+                              "INBOX_DIR/{ticker}/ (submissions+company_facts JSON for T1, "
+                              "or manifest.json for T3). Pair with --ticker to scope."))
     parser.add_argument("--force", action="store_true", help="Force regeneration of already-analyzed brands")
     parser.add_argument("--verbose-validation", action="store_true", help="Show detailed validation issues")
     args = parser.parse_args()
@@ -378,6 +389,8 @@ def main():
             force=args.force,
             skip_facts=args.skip_facts,
         )
+    elif args.sec_ingest:
+        run_sec_ingest(args.sec_ingest, ticker=args.ticker, force=args.force)
     else:
         run_analysis(args.ticker, args.sector, args.limit, args.all, force=args.force)
 

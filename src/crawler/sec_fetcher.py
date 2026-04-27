@@ -219,8 +219,88 @@ def build_summary(
         "latest_def14a": _latest_filing_metadata(submissions, "DEF 14A"),
         "headline_metrics": headline_metrics,
         "source_tier": "T1_OFFICIAL",
+        "source_provenance": "direct_edgar",
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "fetcher_version": "0.1.0",
+    }
+
+
+def build_summary_from_manifest(
+    ticker: str,
+    company_name: str,
+    manifest: dict[str, Any],
+) -> dict[str, Any]:
+    """Build a summary from a thin manifest dict.
+
+    Use this when the operator only has summarized facts (e.g. WebSearch
+    snippets, manual extraction) rather than the raw EDGAR JSON. The
+    returned summary is force-tagged ``source_tier: T3_SECONDARY_RELIABLE``
+    and ``source_provenance: manifest_ingest`` so downstream prompt
+    assembly never silently treats it as T1_OFFICIAL.
+
+    Manifest schema (all fields optional unless marked):
+        {
+          "cik":            "0000320193",        # required
+          "entity_name":    "Apple Inc.",
+          "sic":            "3571",
+          "sic_description": "Electronic Computers",
+          "fiscal_year_end":"0928",
+          "tickers":        ["AAPL"],
+          "exchanges":      ["Nasdaq"],
+          "latest_10k": {
+              "form": "10-K",
+              "accession_number": "0000320193-25-000079",
+              "filing_date": "2025-10-31",
+              "report_date": "2025-09-27",
+              "primary_document": "aapl-20250927.htm",
+              "primary_document_url": "https://...",
+          },
+          "latest_10q": {...}, "latest_8k": {...}, "latest_def14a": {...},
+          "headline_metrics": {
+              "Revenues": {
+                  "value": 416161000000, "unit": "USD",
+                  "period_end": "2025-09-27", "fiscal_year": 2025,
+                  "fiscal_period": "FY", "form": "10-K",
+                  "accession_number": "0000320193-25-000079",
+                  "source_url": "https://...",
+              },
+              ...
+          },
+          "source_notes": ["WebSearch snippet 2026-04-27: ..."]
+        }
+    """
+    cik = manifest.get("cik")
+    if not cik:
+        raise ValueError("manifest must include 'cik'")
+    cik_padded = _pad_cik(cik)
+
+    return {
+        "ticker": ticker,
+        "company_name": company_name,
+        "cik": cik_padded,
+        "entity_name": manifest.get("entity_name"),
+        "sic": manifest.get("sic"),
+        "sic_description": manifest.get("sic_description"),
+        "fiscal_year_end": manifest.get("fiscal_year_end"),
+        "tickers": manifest.get("tickers"),
+        "exchanges": manifest.get("exchanges"),
+        "latest_10k": manifest.get("latest_10k"),
+        "latest_10q": manifest.get("latest_10q"),
+        "latest_8k": manifest.get("latest_8k"),
+        "latest_def14a": manifest.get("latest_def14a"),
+        "headline_metrics": manifest.get("headline_metrics", {}),
+        "source_tier": "T3_SECONDARY_RELIABLE",
+        "source_provenance": "manifest_ingest",
+        "source_notes": manifest.get("source_notes", []),
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "fetcher_version": "0.1.0",
+        "_provenance_warning": (
+            "Source tier is T3_SECONDARY_RELIABLE because this summary was "
+            "built from a manifest (WebSearch snippets or manual extraction), "
+            "not the raw EDGAR endpoint. All values must be re-verified "
+            "against the primary_document_url before use in published "
+            "analysis under LEGAL_RISK_WRITING_POLICY.md."
+        ),
     }
 
 
@@ -295,6 +375,143 @@ def fetch_one(
     _write_json(summary_path, summary)
     result.summary = True
     return result
+
+
+def ingest_local(
+    ticker: str,
+    company_name: str,
+    inbox_dir: Path,
+    *,
+    force: bool = False,
+) -> FetchResult:
+    """Build SEC artifacts from pre-fetched files dropped into ``inbox_dir``.
+
+    This is the bypass for environments where outbound HTTPS to SEC EDGAR
+    is blocked. The operator (or another agent step) places files into
+    ``{inbox_dir}/{ticker}/`` and this function produces the same outputs
+    as ``fetch_one`` would have — but tagged with the right provenance.
+
+    Recognized inputs (under ``{inbox_dir}/{ticker}/``):
+    - ``submissions.json`` and ``company_facts.json``  → T1_OFFICIAL
+      (raw EDGAR responses copied verbatim from a network-enabled host)
+    - ``manifest.json``                                → T3_SECONDARY_RELIABLE
+      (thin manifest produced from WebSearch snippets or manual notes;
+       see ``build_summary_from_manifest`` for the schema)
+
+    Manifest mode is mutually exclusive with raw mode for a given ticker.
+    Raw mode wins if both are present.
+    """
+    src_dir = inbox_dir / ticker
+    if not src_dir.exists():
+        return FetchResult(ticker=ticker, cik=None, error=f"inbox not found: {src_dir}")
+
+    out_dir = RAW_DIR / ticker
+    submissions_path = out_dir / "sec_submissions.json"
+    facts_path = out_dir / "sec_company_facts.json"
+    summary_path = out_dir / "sec_filings_summary.json"
+
+    if not force and summary_path.exists():
+        return FetchResult(
+            ticker=ticker, cik=None, submissions=True, company_facts=True, summary=True
+        )
+
+    raw_subs = src_dir / "submissions.json"
+    raw_facts = src_dir / "company_facts.json"
+    manifest_path = src_dir / "manifest.json"
+
+    if raw_subs.exists():
+        with open(raw_subs, encoding="utf-8") as f:
+            submissions = json.load(f)
+        cik_padded = _pad_cik(str(submissions.get("cik", "")))
+        _write_json(submissions_path, submissions)
+
+        headline_facts: dict[str, Any] = {"facts": {"us-gaap": {}}}
+        if raw_facts.exists():
+            with open(raw_facts, encoding="utf-8") as f:
+                company_facts = json.load(f)
+            headline_facts = filter_headline_facts(company_facts)
+            _write_json(facts_path, headline_facts)
+
+        summary = build_summary(ticker, company_name, cik_padded, submissions, headline_facts)
+        summary["source_provenance"] = "local_ingest_edgar"
+        _write_json(summary_path, summary)
+        return FetchResult(
+            ticker=ticker,
+            cik=cik_padded,
+            submissions=True,
+            company_facts=raw_facts.exists(),
+            summary=True,
+        )
+
+    if manifest_path.exists():
+        with open(manifest_path, encoding="utf-8") as f:
+            manifest = json.load(f)
+        summary = build_summary_from_manifest(ticker, company_name, manifest)
+        _write_json(summary_path, summary)
+        return FetchResult(
+            ticker=ticker,
+            cik=summary["cik"],
+            submissions=False,
+            company_facts=False,
+            summary=True,
+        )
+
+    return FetchResult(
+        ticker=ticker,
+        cik=None,
+        error=(
+            f"no recognized inputs in {src_dir} (expected submissions.json + "
+            "company_facts.json, or manifest.json)"
+        ),
+    )
+
+
+def ingest_batch(
+    inbox_dir: Path,
+    *,
+    ticker: str | None = None,
+    force: bool = False,
+) -> dict[str, Any]:
+    """Run ``ingest_local`` for one ticker or every ticker subdir in inbox."""
+    if not inbox_dir.exists():
+        print(f"Inbox does not exist: {inbox_dir}")
+        return {"success": 0, "failed": 0, "results": []}
+
+    name_by_ticker: dict[str, str] = {}
+    with open(CSV_PATH, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            name_by_ticker[row["ticker"]] = row["name"]
+
+    if ticker:
+        tickers = [ticker]
+    else:
+        tickers = sorted(p.name for p in inbox_dir.iterdir() if p.is_dir())
+
+    if not tickers:
+        print(f"No ticker subdirectories under {inbox_dir}")
+        return {"success": 0, "failed": 0, "results": []}
+
+    print(f"Ingesting SEC data from {inbox_dir} for {len(tickers)} ticker(s)")
+    success = 0
+    failed = 0
+    results: list[FetchResult] = []
+    for t in tickers:
+        company_name = name_by_ticker.get(t, t)
+        result = ingest_local(t, company_name, inbox_dir, force=force)
+        results.append(result)
+        if result.error:
+            failed += 1
+            print(f"  FAIL {t}: {result.error}")
+        else:
+            success += 1
+            print(f"  OK   {t} (summary written)")
+
+    print(f"\nDone: {success} ingested, {failed} failed out of {len(tickers)}")
+    return {
+        "success": success,
+        "failed": failed,
+        "results": [r.__dict__ for r in results],
+    }
 
 
 def _load_targets(
@@ -381,10 +598,23 @@ def main() -> None:
         action="store_true",
         help="Skip XBRL company-facts download (submissions + summary only)",
     )
+    parser.add_argument(
+        "--ingest",
+        type=str,
+        metavar="INBOX_DIR",
+        help=(
+            "Bypass network: ingest pre-fetched files from INBOX_DIR/{ticker}/ "
+            "(submissions.json+company_facts.json for T1, or manifest.json for T3)"
+        ),
+    )
     args = parser.parse_args()
 
+    if args.ingest:
+        ingest_batch(Path(args.ingest), ticker=args.ticker, force=args.force)
+        return
+
     if not (args.ticker or args.sector or args.all):
-        parser.error("specify --ticker, --sector, or --all")
+        parser.error("specify --ticker, --sector, --all, or --ingest")
 
     fetch_batch(
         ticker=args.ticker,

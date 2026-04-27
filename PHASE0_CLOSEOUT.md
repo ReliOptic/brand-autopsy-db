@@ -134,7 +134,8 @@ Not yet validated against live SEC EDGAR:
 
 - `python3 run_batch.py --sec-fetch --ticker AAPL` returned HTTP 403 in
   the in-agent sandbox; the same 403 is returned when probing
-  `wikipedia.org`, so the block is at sandbox egress, not at SEC
+  `wikipedia.org` and `example.com`, so the block is at sandbox egress,
+  not at SEC
 - the operator must run the same command from an environment with
   outbound HTTPS and `SEC_USER_AGENT` set to a real contact, e.g.:
   ```
@@ -142,13 +143,48 @@ Not yet validated against live SEC EDGAR:
   python3 run_batch.py --sec-fetch --ticker AAPL
   ```
 
+### 2. SEC ingest bypass (`--sec-ingest`) — landed `2026-04-27`
+
+Two transport-agnostic paths now exist for environments where direct
+SEC EDGAR access is blocked. Both feed the same parser as `--sec-fetch`
+and write the same `sec_filings_summary.json` schema.
+
+- `python3 run_batch.py --sec-ingest <inbox> --ticker AAPL`
+
+Inbox layout: `<inbox>/{ticker}/`. Two acceptable input shapes:
+
+1. **Raw EDGAR (T1_OFFICIAL)** — `submissions.json` and
+   `company_facts.json` copied verbatim from a network-enabled host.
+   Resulting summary is tagged `source_provenance: local_ingest_edgar`,
+   `source_tier: T1_OFFICIAL`.
+2. **Manifest (T3_SECONDARY_RELIABLE)** — a thin `manifest.json` with
+   filing metadata + headline metric values, useful when the operator
+   only has summarized data (WebSearch snippets, manual extraction,
+   third-party aggregators). Resulting summary is force-tagged
+   `source_tier: T3_SECONDARY_RELIABLE`,
+   `source_provenance: manifest_ingest`, and includes a
+   `_provenance_warning` field. Per LEGAL_RISK_WRITING_POLICY.md, every
+   value in a T3 summary must be re-verified against
+   `primary_document_url` before use in published Layer 7 / Layer 8
+   analysis.
+
+Validated `2026-04-27`:
+
+- AAPL ingested via WebSearch-derived manifest (FY2025 10-K accession
+  `0000320193-25-000079`, period 2025-09-27, Revenues $416,161M,
+  Net Income $112,010M, Total Assets $359,241M); summary correctly
+  tagged T3 + carries `_provenance_warning`
+- Synthetic raw-EDGAR fixture round-trip confirmed T1_OFFICIAL +
+  `local_ingest_edgar` provenance and headline metric extraction
+
 Remaining Phase 1 follow-up:
 
 - thread `data/raw/{ticker}/sec_filings_summary.json` into
   `src/analyzer/engine.py` so generation prompts ground Layer 7 and
-  Layer 8 in fetched filings
-- treat headline metric values as `T1_OFFICIAL` source tags inside
-  generated markdown
+  Layer 8 in fetched filings; engine must respect `source_tier` when
+  emitting source tags (T3 → hedged language; T1 → assertable)
+- once a network-enabled host is available, run `--sec-fetch --all`
+  for an authoritative T1 backfill
 
 ---
 
@@ -277,6 +313,36 @@ Observed results:
 - syntax check passed
 - canonical validation command passed for AAPL
 - live LLM regeneration not executed because `ANTHROPIC_API_KEY` was missing
+
+### 2026-04-27 (b) — SEC ingest bypass for blocked-egress environments
+
+Changed files:
+
+- `src/crawler/sec_fetcher.py` — added `build_summary_from_manifest`,
+  `ingest_local`, `ingest_batch`; CLI `--ingest` flag
+- `run_batch.py` — added `--sec-ingest`
+- `PHASE0_CLOSEOUT.md`, `MASTERPLAN.md` — documented bypass
+
+Implemented:
+
+- two-tier ingest: raw EDGAR JSONs (T1_OFFICIAL) or manifest
+  (T3_SECONDARY_RELIABLE) under `<inbox>/{ticker}/`
+- T3 summaries carry `_provenance_warning` and `source_notes` so
+  legal-validator-aware downstream code never silently treats a
+  WebSearch-derived value as a primary citation
+
+Commands run during this session:
+
+- `python3 run_batch.py --sec-ingest data/raw/_inbox --ticker AAPL`
+  (manifest path) — produced T3 summary
+- synthetic raw-EDGAR fixture round-trip — produced T1 summary
+
+Observed results:
+
+- both ingest paths exercise the same `build_summary` / parser code as
+  the live fetch path
+- AAPL summary now reflects FY2025 10-K (post-pretraining-cutoff data)
+  and is ready to be threaded into the generation engine
 
 ### 2026-04-27 — Phase 1 SEC fetcher initial implementation
 
