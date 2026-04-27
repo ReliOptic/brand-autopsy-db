@@ -91,8 +91,8 @@ _Investment data not separately disclosed in EDGAR XBRL._
 | Item | Value | Source |
 |------|-------|--------|
 | Total Assets | $3,875.4B | (SEC 10-K FY2025) |
-| Cash & Equivalents | $361.7B | (SEC 10-K FY2018) |
-| Long-Term Debt | $249.0B | (SEC 10-K FY2013) |
+| Cash & Equivalents | $23.4B | (SEC 10-K FY2025) |
+| Long-Term Debt | $401.4B | (SEC 10-K FY2025) |
 | Shareholders' Equity | $327.9B | (SEC 10-K FY2025) |
 
 > **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
@@ -106,13 +106,13 @@ _Investment data not separately disclosed in EDGAR XBRL._
 The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
 > . Risk Factors. 
- The following discussion sets forth the material risk factors that could affect JPMorganChase’s financial condition and operations. Readers should not consider any descriptions of these factors to be a complete set of all potential risks that could affect the Firm. Any of the risk factors discussed below could by itself, or combined with other factors, materially and adversely affect JPMorganChase’s business, results of operations, financial condition, capital position, liquidity, competitive position or reputation, including by materially increasing expenses or decreasing revenues, which could result in material losses or a decrease in earnings. 
- Summary 
- The principal risk factors include: 
- • Legal and Regulatory risks, including the impact of extensive supervision and regulation, as well as changes to or in the application, interpretation or enforcement of applicable law or executive branch actions, on JPMorganChase’s business and operations; the ways in which differences in regulatory implementation in different jurisdictions or with respect to certain competitors could negatively impact JPMorganChase’s business; the ways in which governmental policies that discourage or penalize business relationships with certain industries, or require specific business practices, could negatively affect JPMorganChase's businesses; the penalties and other repercussions that JPMorganChase could face when resolving litigation or investigations by governmental authorities; the ways in which less predictable legal and regulatory frameworks in certain jurisdictions could negatively impact JPMorganChase’s operations and financial results; and the losses that security holders and other unsecured creditors will absorb if JPMorganChase were to enter into a resolution. 
- • Political risks, including the potential negative effects on JPMorganChase’s businesses due to economic uncertainty resulting from political developments. 
- • Market risks, including the effects that unfavorable economic and market events and conditions, political developments, changes in interest rates and credit spreads, and market fluctuations could have on JPMorganChase’s businesses, investments and market-making positions, as well as on its earnings and liquidity and capital levels. 
- • Credit risks, including the effects from adverse changes in the financial condition of clients, customers, counterparties, central counterparties and other market participants; the potential for loss
+>  The following discussion sets forth the material risk factors that could affect JPMorganChase’s financial condition and operations. Readers should not consider any descriptions of these factors to be a complete set of all potential risks that could affect the Firm. Any of the risk factors discussed below could by itself, or combined with other factors, materially and adversely affect JPMorganChase’s business, results of operations, financial condition, capital position, liquidity, competitive position or reputation, including by materially increasing expenses or decreasing revenues, which could result in material losses or a decrease in earnings. 
+>  Summary 
+>  The principal risk factors include: 
+>  • Legal and Regulatory risks, including the impact of extensive supervision and regulation, as well as changes to or in the application, interpretation or enforcement of applicable law or executive branch actions, on JPMorganChase’s business and operations; the ways in which differences in regulatory implementation in different jurisdictions or with respect to certain competitors could negatively impact JPMorganChase’s business; the ways in which governmental policies that discourage or penalize business relationships with certain industries, or require specific business practices, could negatively affect JPMorganChase's businesses; the penalties and other repercussions that JPMorganChase could face when resolving litigation or investigations by governmental authorities; the ways in which less predictable legal and regulatory frameworks in certain jurisdictions could negatively impact JPMorganChase’s operations and financial results; and the losses that security holders and other unsecured creditors will absorb if JPMorganChase were to enter into a resolution. 
+>  • Political risks, including the potential negative effects on JPMorganChase’s businesses due to economic uncertainty resulting from political developments. 
+>  • Market risks, including the effects that unfavorable economic and market events and conditions, political developments, changes in interest rates and credit spreads, and market fluctuations could have on JPMorganChase’s businesses, investments and market-making positions, as well as on its earnings and liquidity and capital levels. 
+>  • Credit risks, including the effects from adverse changes in the financial condition of clients, customers, counterparties, central counterparties and other market participants; the potential for loss
 
 > *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
 

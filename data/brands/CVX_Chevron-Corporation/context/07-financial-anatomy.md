@@ -107,8 +107,8 @@ Based on public SEC filings, Chevron Corporation operates in the **Integrated Oi
 | Item | Value | Source |
 |------|-------|--------|
 | Total Assets | $256.9B | (SEC 10-K FY2025) |
-| Cash & Equivalents | $5.6B | (SEC 10-K FY2023) |
-| Long-Term Debt | $25.7B | (SEC 10-K FY2021) |
+| Cash & Equivalents | $5.6B (FY2023; FY2024–2025 not available in XBRL) | (SEC 10-K FY2023) |
+| Long-Term Debt | $25.7B (FY2021; most recent available in XBRL) | (SEC 10-K FY2021) |
 | Shareholders' Equity | $152.3B | (SEC 10-K FY2025) |
 
 > **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).

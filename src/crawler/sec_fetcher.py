@@ -44,6 +44,7 @@ _XBRL_CONCEPTS: dict[str, list[str]] = {
     "shareholders_equity": [
         "StockholdersEquity",
         "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+        "CommonStockholdersEquity",
     ],
     "rd_expense": ["ResearchAndDevelopmentExpense"],
     "sga_expense": [
@@ -53,8 +54,15 @@ _XBRL_CONCEPTS: dict[str, list[str]] = {
     ],
     "capex": ["PaymentsToAcquirePropertyPlantAndEquipment"],
     "eps_diluted": ["EarningsPerShareDiluted"],
-    "long_term_debt": ["LongTermDebt", "LongTermDebtNoncurrent"],
+    "long_term_debt": [
+        "LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+        "LongTermDebtNoncurrent",
+        "LongTermDebt",
+        "LongTermDebtAndCapitalLeaseObligations",
+    ],
     "cash": [
+        "CashAndDueFromBanks",
+        "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
         "CashAndCashEquivalentsAtCarryingValue",
         "CashCashEquivalentsAndShortTermInvestments",
     ],
@@ -107,6 +115,8 @@ def _extract_section(text: str, item_id: str, max_chars: int = 3000, min_chars: 
 
 def _extract_annual_xbrl(facts: dict, concepts: list[str]) -> list[dict[str, Any]]:
     usgaap = facts.get("us-gaap", {})
+    best_result: list[dict[str, Any]] = []
+    best_max_year: int = 0
     for concept in concepts:
         if concept not in usgaap:
             continue
@@ -120,9 +130,14 @@ def _extract_annual_xbrl(facts: dict, concepts: list[str]) -> list[dict[str, Any
             fy = e.get("fy")
             if fy and (fy not in by_year or e["filed"] > by_year[fy]["filed"]):
                 by_year[fy] = e
-        top = sorted(by_year, reverse=True)[:7]
-        return [{"year": yr, "value": by_year[yr]["val"], "unit": unit_key} for yr in top]
-    return []
+        if not by_year:
+            continue
+        max_year = max(by_year)
+        if max_year > best_max_year:
+            best_max_year = max_year
+            top = sorted(by_year, reverse=True)[:7]
+            best_result = [{"year": yr, "value": by_year[yr]["val"], "unit": unit_key} for yr in top]
+    return best_result
 
 
 def _build_financials(facts: dict) -> dict[str, list[dict[str, Any]]]:

@@ -113,28 +113,28 @@ Based on public SEC filings, EOG Resources operates in the **Oil &amp; Gas Explo
 The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
 > . Risk Factors 
- 
- 
- Our business and operations are subject to many risks. The risks described below may not be the only risks we face, as our business and operations may also be subject to risks that we do not yet know of, or that we currently believe are immaterial. If any of the events or circumstances described below actually occurs, our business, financial condition, results of operations and/or cash flows could be materially and adversely affected and the trading price of our common stock could decline. The following risk factors should be read in conjunction with the other information contained herein, including the consolidated financial statements and the related notes. Unless the context requires otherwise, "we," "us," "our" and "EOG" refer to EOG Resources, Inc. and its subsidiaries. 
- 
- 
- Risks Related to our Financial Condition, Results of Operations and Cash Flows 
- 
- 
- Crude oil, NGLs and natural gas prices are volatile, and a substantial and extended decline in commodity prices can have a material and adverse effect on us. 
- 
- 
- Prices for crude oil and natural gas (including prices for natural gas liquids (NGLs) and condensate) fluctuate widely. Among the interrelated factors that can or could cause these price fluctuations are: 
- 
- 
- • domestic and worldwide supplies of, and consumer and industrial/commercial demand for, crude oil, NGLs and natural gas; 
- • domestic and international drilling activity; 
- • the actions of crude oil producing and exporting nations, including the Organization of Petroleum Exporting Countries; 
- • worldwide economic conditions, geopolitical factors and political conditions, including, but not limited to, tariffs; trade policies, trade agreements and trade restrictions; other economic sanctions or barriers; and political instability or armed conflicts in oil and gas producing regions; 
- • the availability, proximity and capacity of appropriate gathering, processing, compression, storage, transportation, refining, liquefaction and export facilities; 
- • the price and availability of, and demand for, competing energy sources, including alternative energy sources; 
- • the effect of worldwide energy conservation measures, alternative fuel requirements and climate change-related legislation, policies, initiatives and developments; 
- • technological advances and consumer and industrial/commercial behavior, preferences and attitudes, in each case affecting energy generation, transmission, storage and consumption;
+>  
+>  
+>  Our business and operations are subject to many risks. The risks described below may not be the only risks we face, as our business and operations may also be subject to risks that we do not yet know of, or that we currently believe are immaterial. If any of the events or circumstances described below actually occurs, our business, financial condition, results of operations and/or cash flows could be materially and adversely affected and the trading price of our common stock could decline. The following risk factors should be read in conjunction with the other information contained herein, including the consolidated financial statements and the related notes. Unless the context requires otherwise, "we," "us," "our" and "EOG" refer to EOG Resources, Inc. and its subsidiaries. 
+>  
+>  
+>  Risks Related to our Financial Condition, Results of Operations and Cash Flows 
+>  
+>  
+>  Crude oil, NGLs and natural gas prices are volatile, and a substantial and extended decline in commodity prices can have a material and adverse effect on us. 
+>  
+>  
+>  Prices for crude oil and natural gas (including prices for natural gas liquids (NGLs) and condensate) fluctuate widely. Among the interrelated factors that can or could cause these price fluctuations are: 
+>  
+>  
+>  • domestic and worldwide supplies of, and consumer and industrial/commercial demand for, crude oil, NGLs and natural gas; 
+>  • domestic and international drilling activity; 
+>  • the actions of crude oil producing and exporting nations, including the Organization of Petroleum Exporting Countries; 
+>  • worldwide economic conditions, geopolitical factors and political conditions, including, but not limited to, tariffs; trade policies, trade agreements and trade restrictions; other economic sanctions or barriers; and political instability or armed conflicts in oil and gas producing regions; 
+>  • the availability, proximity and capacity of appropriate gathering, processing, compression, storage, transportation, refining, liquefaction and export facilities; 
+>  • the price and availability of, and demand for, competing energy sources, including alternative energy sources; 
+>  • the effect of worldwide energy conservation measures, alternative fuel requirements and climate change-related legislation, policies, initiatives and developments; 
+>  • technological advances and consumer and industrial/commercial behavior, preferences and attitudes, in each case affecting energy generation, transmission, storage and consumption;
 
 > *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
 
@@ -145,9 +145,9 @@ The following is an excerpt from Item 1A (Risk Factors) of the company's most re
 ### From SEC 10-K Item 3 (T1_OFFICIAL)
 
 > Legal Proceedings 
- 
- 
- See the information set forth under the "Contingencies" caption in Note 8 of the Notes to Consolidated Financial Statements, which is incorporated by reference herein.
+>  
+>  
+>  See the information set forth under the "Contingencies" caption in Note 8 of the Notes to Consolidated Financial Statements, which is incorporated by reference herein.
 
 
 ---
@@ -158,8 +158,11 @@ The following is an excerpt from Item 1A (Risk Factors) of the company's most re
 
 | Financial Signal | Observed Data | Brand Strategy Implication |
 |-----------------|---------------|---------------------------|
-| Revenue Trend | -5.9% YoY (FY2025) | Revenue contraction may signal brand strategy re-evaluation |
-| Net Income (FY2025) | $7.6B | Positive net income provides headroom for brand and marketing investment |
+| Revenue Trend | -5.9% YoY (FY2025 vs FY2024: $24.2B vs $25.7B) | Revenue contraction in a commodity-price-sensitive business may signal emphasis on cost discipline and capital-return brand positioning rather than growth narratives (T4_INFERRED) |
+| Free Cash Flow Yield | Operating CF $10.0B minus Investing CF outflows of $10.9B (FY2025); Operating CF averaged $10.8B over FY2021–FY2025 | Consistent operating cash flow generation supports a capital-return brand identity built on dividends and buybacks, signaling financial durability to institutional investors (T4_INFERRED) |
+| Capital Return Signal | Share repurchases $1.0B (FY2025) + cash balance $7.1B vs $5.3B (FY2024); financing outflows averaged $4.3B/yr over FY2021–FY2025 | Sustained shareholder return activity indicates an "investor-first" brand posture consistent with EOG's premium-independent positioning in the E&P sector (T4_INFERRED) |
+| Financial Conservatism | Long-term debt $7.9B (FY2025) vs total assets $43.9B (debt-to-assets ~18%); operating income margin ~39.7% (FY2025) | Low leverage relative to asset base and strong operating margins reinforce a brand narrative of operational discipline and balance-sheet strength versus leveraged peers (T4_INFERRED) |
+| Asset Quality / Scale | Total assets grew from $38.2B (FY2023) to $43.9B (FY2025); net income sustained above $4.6B across all three years | Consistent asset base expansion alongside sustained profitability supports brand signals around reserve quality and long-term production capacity (T4_INFERRED) |
 
 > **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 

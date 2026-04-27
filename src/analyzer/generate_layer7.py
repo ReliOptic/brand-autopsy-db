@@ -116,21 +116,15 @@ def _balance_sheet_table(financials: dict[str, list[dict]]) -> str:
     debt = financials.get("long_term_debt", [])
     equity = financials.get("shareholders_equity", [])
 
-    latest_year = None
-    for group in [assets, cash, debt, equity]:
-        if group:
-            y = group[0]["year"]
-            if latest_year is None or y > latest_year:
-                latest_year = y
-
-    if latest_year is None:
+    has_any = any([assets, cash, debt, equity])
+    if not has_any:
         return "_Balance sheet XBRL data not available for this company._"
 
     rows = ["| Item | Value | Source |", "|------|-------|--------|"]
     for label, group in [("Total Assets", assets), ("Cash & Equivalents", cash),
                           ("Long-Term Debt", debt), ("Shareholders' Equity", equity)]:
-        yr_data = next((e for e in group if e["year"] == latest_year), group[0] if group else None)
-        if yr_data:
+        if group:
+            yr_data = max(group, key=lambda e: e["year"])
             rows.append(f"| {label} | {_fmt_value(yr_data['value'], yr_data['unit'])} | (SEC 10-K FY{yr_data['year']}) |")
     return "\n".join(rows)
 

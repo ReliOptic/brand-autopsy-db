@@ -92,9 +92,9 @@ _EPS data not available in EDGAR XBRL._
 | Item | Value | Source |
 |------|-------|--------|
 | Total Assets | $94.5B | (SEC 10-K FY2025) |
-| Cash & Equivalents | $12.0B | (SEC 10-K FY2025) |
-| Long-Term Debt | $24.1B | (SEC 10-K FY2021) |
-| Shareholders' Equity | $25.0B | (SEC 10-K FY2011) |
+| Cash & Equivalents | $20.4B | (SEC 10-K FY2025) |
+| Long-Term Debt | $20.8B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $35.6B | (SEC 10-K FY2025) |
 
 > **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
@@ -107,11 +107,11 @@ _EPS data not available in EDGAR XBRL._
 The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
 > .    Risk Factors 
- Regulatory Risks 
- We are subject to complex and evolving global regulations that could harm our business and financial results. 
- As a global payments technology company, we are subject to complex and evolving regulations that govern our operations. Such regulations may increase in quantity, complexity and scope in response to heightened geopolitical tensions. See Item 1 — Government Regulation for more information on the most significant areas of regulation that affect our business. The impact of these regulations on us, our clients, and other third parties could limit our ability to enforce our payments system rules; require us to adopt new rules or change existing rules; affect our existing contractual arrangements; and increase our compliance costs. As discussed in more detail below, we may face differing rules and regulations in matters like interchange reimbursement rates, preferred routing, domestic processing and localization requirements, currency conversion, point-of-sale transaction rules and practices, privacy, data use and protection, licensing requirements and associated product technology. As a result, the Visa operating rules and our other contractual commitments may differ from country to country, state to state, or product to product. Complying with these and other regulations increases our costs and operational complexity, and reduces our revenue opportunities. 
- If widely varying regulations come into existence worldwide, we may have difficulty rapidly adjusting our products, services, fees and other important aspects of our business to comply with the regulations. Our compliance programs and policies are designed to support our compliance with a wide array of regulations and laws, such as regulations regarding anti-money laundering, anti-corruption, competition, money transfer services, privacy and sanctions, and we continually adjust our compliance programs as regulations evolve. However, we cannot guarantee that our practices will be deemed compliant by all applicable regulatory authorities. In the event our controls should fail or we are found to be out of compliance for other reasons, we could be subject to monetary damages, civil and criminal penalties, litigation, investigations and proceedings, and damage to our global brands and reputation. 
- Increased scrutiny and regulation of the global payments industry, including with respect to interchange reimbursement fees, merchant discount rates, operating rules,
+>  Regulatory Risks 
+>  We are subject to complex and evolving global regulations that could harm our business and financial results. 
+>  As a global payments technology company, we are subject to complex and evolving regulations that govern our operations. Such regulations may increase in quantity, complexity and scope in response to heightened geopolitical tensions. See Item 1 — Government Regulation for more information on the most significant areas of regulation that affect our business. The impact of these regulations on us, our clients, and other third parties could limit our ability to enforce our payments system rules; require us to adopt new rules or change existing rules; affect our existing contractual arrangements; and increase our compliance costs. As discussed in more detail below, we may face differing rules and regulations in matters like interchange reimbursement rates, preferred routing, domestic processing and localization requirements, currency conversion, point-of-sale transaction rules and practices, privacy, data use and protection, licensing requirements and associated product technology. As a result, the Visa operating rules and our other contractual commitments may differ from country to country, state to state, or product to product. Complying with these and other regulations increases our costs and operational complexity, and reduces our revenue opportunities. 
+>  If widely varying regulations come into existence worldwide, we may have difficulty rapidly adjusting our products, services, fees and other important aspects of our business to comply with the regulations. Our compliance programs and policies are designed to support our compliance with a wide array of regulations and laws, such as regulations regarding anti-money laundering, anti-corruption, competition, money transfer services, privacy and sanctions, and we continually adjust our compliance programs as regulations evolve. However, we cannot guarantee that our practices will be deemed compliant by all applicable regulatory authorities. In the event our controls should fail or we are found to be out of compliance for other reasons, we could be subject to monetary damages, civil and criminal penalties, litigation, investigations and proceedings, and damage to our global brands and reputation. 
+>  Increased scrutiny and regulation of the global payments industry, including with respect to interchange reimbursement fees, merchant discount rates, operating rules,
 
 > *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
 
@@ -122,7 +122,7 @@ The following is an excerpt from Item 1A (Risk Factors) of the company's most re
 ### From SEC 10-K Item 3 (T1_OFFICIAL)
 
 > Legal Proceedings 
- Refer to Note 20—Legal Matters to our consolidated financial statements included in Item 8 of this report.
+>  Refer to Note 20—Legal Matters to our consolidated financial statements included in Item 8 of this report.
 
 
 ---

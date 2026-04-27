@@ -109,7 +109,7 @@ Based on public SEC filings, UnitedHealth Group operates in the **Managed Health
 | Total Assets | $273.7B | (SEC 10-K FY2025) |
 | Cash & Equivalents | $25.3B | (SEC 10-K FY2025) |
 | Long-Term Debt | $72.4B | (SEC 10-K FY2025) |
-| Shareholders' Equity | $28.3B | (SEC 10-K FY2014) |
+| Shareholders' Equity | N/A (XBRL tag mismatch — see EDGAR balance sheet) | (SEC 10-K FY2025) |
 
 > **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
@@ -146,12 +146,25 @@ The following is an excerpt from Item 1A (Risk Factors) of the company's most re
 
 ### 9.1 Financial Signal → Brand Strategy Interpretation
 
-| Financial Signal | Observed Data | Brand Strategy Implication |
-|-----------------|---------------|---------------------------|
-| Revenue Trend | +14.6% YoY (FY2025) | Growth momentum supports brand investment |
-| Net Income (FY2025) | $22.4B | Positive net income provides headroom for brand and marketing investment |
+The signals below map observable financial metrics to potential brand strategy implications. All interpretations are **T4_INFERRED** — they are this project's analytical observations based on publicly disclosed financial data, not statements of company intent or strategy.
 
-> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
+| Signal | Observed Data | Brand Strategy Implication |
+|--------|---------------|---------------------------|
+| **Revenue Compound Growth** | FY2019→FY2025 CAGR ~11% ($201B→$372B, T1_OFFICIAL, SEC 10-K) | Sustained double-digit top-line expansion suggests the dual-brand architecture (UnitedHealthcare + Optum) may be generating compounding cross-sell momentum; brand coherence appears to support rather than hinder growth (T4_INFERRED) |
+| **Operating Margin Stability** | 8.3%→8.7% (FY2023→FY2025, T1_OFFICIAL, SEC 10-K) | Margins held within a narrow band (~8–9%) through a high-medical-cost environment, which may indicate that Optum's services mix is providing margin buffer against UnitedHealthcare's medical cost pressure (T4_INFERRED) |
+| **SG&A as % of Revenue (Efficiency Signal)** | FY2022: 16.2% → FY2023: 14.8% → FY2024: 14.7% → FY2025: 14.7% (T1_OFFICIAL, SEC 10-K) | The ~150 bps decline from FY2022 to FY2023 and subsequent stabilization suggests potential operating leverage in customer acquisition and administration, which may reflect digital channel investment reducing per-member brand interaction costs (T4_INFERRED) |
+| **Net Income Scale vs. SG&A** | Net income $22.4B vs. SG&A $54.6B (FY2025, T1_OFFICIAL) | SG&A exceeds net income by ~2.4×, indicating that a large share of the cost base sits in selling and administrative functions. For a dual-brand portfolio, this ratio may reflect the cost of maintaining two distinct go-to-market identities (UnitedHealthcare consumer-facing and Optum B2B-facing) simultaneously (T4_INFERRED) |
+| **Operating Income Growth Rate** | +13.8% YoY (FY2024→FY2025: $28.4B→$32.4B, T1_OFFICIAL, SEC 10-K) | Operating income growing faster than revenue (+13.8% vs. +14.6%) by a narrow margin suggests modest operating leverage; at this scale, brand spend efficiency gains appear to be translating into retained earnings rather than eroding into cost (T4_INFERRED) |
+| **CapEx Trajectory (Infrastructure Investment Signal)** | FY2023: $2.5B → FY2024: $2.8B → FY2025: $3.4B (T1_OFFICIAL, SEC 10-K) | Rising capital expenditure — up ~36% over two years — may indicate ongoing platform and technology investment within the Optum brand ecosystem, which public filings describe as a health services and technology business (T4_INFERRED) |
+| **Segment Brand Weight (UnitedHealthcare vs. Optum)** | Per SEC 10-K segment disclosures, UNH reports two primary segments: UnitedHealthcare (health benefits) and Optum (health services/technology). Exact revenue split by segment is disclosed in the 10-K Notes to Financial Statements (T1_OFFICIAL). Per company IR materials, Optum revenues have grown as a share of total over multiple years | The growing relative weight of the Optum segment may suggest that the company's brand investment mix is shifting toward B2B health technology positioning, potentially reducing dependence on consumer health insurance brand equity (T4_INFERRED) |
+
+### 9.2 Medical Cost Ratio (MCR) as a UnitedHealthcare Brand Signal
+
+UNH does not directly disclose a single consolidated Medical Cost Ratio in its XBRL EDGAR data. Per the company's 10-K and investor communications (T1_OFFICIAL), UnitedHealthcare's medical care ratio (MCR) is a key operating metric disclosed in segment results. Industry context: managed care MCR typically targets the 82–86% range.
+
+**Brand implication (T4_INFERRED)**: When MCR rises toward or above the upper bound of a company's target range, it may indicate pricing pressure in the insurance market, which in turn could signal challenges in sustaining the premium brand positioning that supports member retention. Conversely, MCR stability or improvement may indicate effective actuarial pricing — a functional brand trust signal in the employer benefits market. Investors and analysts treat MCR as a leading indicator of UnitedHealthcare brand health in competitive bidding contexts. *This is an analytical inference; UNH has not characterized MCR as a brand metric in public filings.*
+
+> **Note**: All financial-to-brand inferences in Section 9 are **T4_INFERRED** interpretations based on publicly available SEC financial data. They represent this project's analytical observations only — not statements of company strategy, intent, or management guidance. Refer to UNH's official 10-K and investor presentations for company-disclosed segment detail.
 
 ---
 

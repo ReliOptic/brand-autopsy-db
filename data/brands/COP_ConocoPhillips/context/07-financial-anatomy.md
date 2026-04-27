@@ -109,7 +109,7 @@ Based on public SEC filings, ConocoPhillips operates in the **Oil &amp; Gas Expl
 |------|-------|--------|
 | Total Assets | $95.9B | (SEC 10-K FY2025) |
 | Cash & Equivalents | $5.6B | (SEC 10-K FY2025) |
-| Long-Term Debt | $22.4B | (SEC 10-K FY2018) |
+| Long-Term Debt | $22.4B (FY2018; most recent available in XBRL) | (SEC 10-K FY2018) |
 | Shareholders' Equity | $48.0B | (SEC 10-K FY2025) |
 
 > **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).

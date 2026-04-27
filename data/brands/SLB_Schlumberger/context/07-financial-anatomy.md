@@ -115,8 +115,8 @@ Based on public SEC filings, Schlumberger operates in the **Oil &amp; Gas Equipm
 | Item | Value | Source |
 |------|-------|--------|
 | Total Assets | $48.0B | (SEC 10-K FY2025) |
-| Cash & Equivalents | $1.7B | (SEC 10-K FY2014) |
-| Long-Term Debt | 5,000,000,000.00 | (SEC 10-K FY2020) |
+| Cash & Equivalents | N/A — not available in recent XBRL filings | (XBRL data gap; see EDGAR 10-K balance sheet) |
+| Long-Term Debt | €5.0B (FY2020, EUR-denominated notes) | (SEC 10-K FY2020) |
 | Shareholders' Equity | $21.1B | (SEC 10-K FY2025) |
 
 > **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
