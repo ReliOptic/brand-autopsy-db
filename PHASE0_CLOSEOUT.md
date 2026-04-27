@@ -109,18 +109,46 @@ Implemented behavior:
 
 These items are not part of Phase 0 closure anymore, but remain follow-up work for Phase 1.
 
-### 1. SEC fetch pipeline is not built
+### 1. SEC fetch pipeline — initial implementation landed (live run pending)
 
-Missing:
+Implemented on `2026-04-27`:
 
-- `src/crawler/sec_fetcher.py`
-- `run_batch.py --sec-fetch`
-- `data/raw/{ticker}/sec_10k.json` generation workflow
+- `src/crawler/sec_fetcher.py` — fetches EDGAR submissions index and a curated
+  subset of XBRL company facts (T1_OFFICIAL) per ticker
+- `run_batch.py --sec-fetch` — CLI entry, supports `--ticker`, `--sector`,
+  `--all`, `--limit`, `--force`, `--skip-facts`
+- `data/raw/{ticker}/sec_submissions.json`
+- `data/raw/{ticker}/sec_company_facts.json`
+- `data/raw/{ticker}/sec_filings_summary.json` — condensed view with
+  latest 10-K / 10-Q / 8-K / DEF 14A metadata, headline GAAP metrics,
+  source tier, and `fetched_at` timestamp
 
-Impact:
+Validated:
 
-- this is the first major Phase 1 implementation task
-- Layer 7 and Layer 8 at scale still lack the intended structured SEC ingestion path
+- `python3 -m py_compile run_batch.py src/crawler/sec_fetcher.py` passes
+- offline smoke test exercises `filter_headline_facts`,
+  `_latest_filing_metadata`, `build_summary`, and the missing-CIK edge
+  case against a synthetic EDGAR payload (parser correctness)
+
+Not yet validated against live SEC EDGAR:
+
+- `python3 run_batch.py --sec-fetch --ticker AAPL` returned HTTP 403 in
+  the in-agent sandbox; the same 403 is returned when probing
+  `wikipedia.org`, so the block is at sandbox egress, not at SEC
+- the operator must run the same command from an environment with
+  outbound HTTPS and `SEC_USER_AGENT` set to a real contact, e.g.:
+  ```
+  export SEC_USER_AGENT="<Your Name> <contact@example.com>"
+  python3 run_batch.py --sec-fetch --ticker AAPL
+  ```
+
+Remaining Phase 1 follow-up:
+
+- thread `data/raw/{ticker}/sec_filings_summary.json` into
+  `src/analyzer/engine.py` so generation prompts ground Layer 7 and
+  Layer 8 in fetched filings
+- treat headline metric values as `T1_OFFICIAL` source tags inside
+  generated markdown
 
 ---
 
@@ -203,9 +231,16 @@ If a session ends with blockers, record:
 
 ## Immediate Next Task
 
-The next approved engineering task is:
+The next approved engineering tasks are:
 
-`Begin Phase 1 implementation, starting with SEC fetch pipeline design and runner integration.`
+1. Run `python3 run_batch.py --sec-fetch --ticker AAPL` from an environment
+   with outbound HTTPS and a real `SEC_USER_AGENT`, then inspect
+   `data/raw/AAPL/sec_filings_summary.json` for correctness.
+2. Wire `data/raw/{ticker}/sec_filings_summary.json` into
+   `src/analyzer/engine.py` so Layer 7 (Financial Anatomy) and Layer 8
+   (Legal Review) prompts inject the latest 10-K / 10-Q metadata and
+   headline GAAP figures as `T1_OFFICIAL` source citations.
+3. Backfill `--sec-fetch --all` once (1) is verified for AAPL.
 
 ---
 
@@ -242,6 +277,41 @@ Observed results:
 - syntax check passed
 - canonical validation command passed for AAPL
 - live LLM regeneration not executed because `ANTHROPIC_API_KEY` was missing
+
+### 2026-04-27 — Phase 1 SEC fetcher initial implementation
+
+Changed files:
+
+- `src/crawler/sec_fetcher.py` (new)
+- `run_batch.py` (added `--sec-fetch`, `--skip-facts`, header doc)
+- `PHASE0_CLOSEOUT.md`
+- `MASTERPLAN.md`
+
+Implemented:
+
+- SEC EDGAR submissions + XBRL company facts fetcher (stdlib-only)
+- curated headline GAAP concept filter (Revenues, NetIncomeLoss,
+  Assets, Liabilities, StockholdersEquity, OperatingIncomeLoss,
+  CashAndCashEquivalentsAtCarryingValue, ResearchAndDevelopmentExpense,
+  GrossProfit, EarningsPerShareDiluted, RevenueFromContractWith…)
+- per-ticker condensed `sec_filings_summary.json` schema with
+  `fetched_at`, `source_tier: T1_OFFICIAL`, and primary document URLs
+- `--ticker` / `--sector` / `--all` / `--limit` / `--force` /
+  `--skip-facts` parity with the rest of the runner
+- self-throttling at ~5 req/sec; `SEC_USER_AGENT` env override
+
+Commands run during this session:
+
+- `python3 -m py_compile run_batch.py src/crawler/sec_fetcher.py`
+- `python3 run_batch.py --help`
+- offline smoke test (synthetic EDGAR payload) — passed
+
+Observed results:
+
+- syntax check passed
+- offline parser/summary checks passed
+- live `--sec-fetch --ticker AAPL` blocked by sandbox egress (HTTP 403);
+  must be re-run from an environment with outbound HTTPS
 
 ### 2026-04-13 — Phase 0 closure decision
 

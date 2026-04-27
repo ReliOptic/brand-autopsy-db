@@ -21,11 +21,16 @@ Usage:
   # Re-crawl CSS for failed companies
   python run_batch.py --recrawl
 
+  # Fetch latest SEC EDGAR filings + XBRL facts for all tickers
+  python run_batch.py --sec-fetch --all
+  python run_batch.py --sec-fetch --ticker AAPL
+
   # Show status dashboard
   python run_batch.py --status
 
 Prerequisites:
-  export ANTHROPIC_API_KEY=sk-ant-...
+  export ANTHROPIC_API_KEY=sk-ant-...        # required only for LLM analysis
+  export SEC_USER_AGENT="Your Name contact@example.com"  # recommended for --sec-fetch
 """
 
 import argparse
@@ -283,6 +288,24 @@ def run_validate_legal(ticker=None, verbose=False):
     )
 
 
+def run_sec_fetch(ticker=None, sector=None, all_companies=False, limit=None,
+                  force=False, skip_facts=False):
+    """Pull the latest SEC EDGAR filings + XBRL facts into data/raw/."""
+    from src.crawler.sec_fetcher import fetch_batch
+
+    if not (ticker or sector or all_companies):
+        print("Specify --ticker, --sector, or --all with --sec-fetch")
+        sys.exit(1)
+
+    fetch_batch(
+        ticker=ticker,
+        sector=sector,
+        limit=limit,
+        force=force,
+        skip_facts=skip_facts,
+    )
+
+
 def run_validate_legacy():
     """Legacy structure validator retained for comparison/debugging only."""
     from src.analyzer.validator import validate_and_report
@@ -330,6 +353,10 @@ def main():
     parser.add_argument("--validate", action="store_true", help="Alias for --validate-only")
     parser.add_argument("--legacy-validate", action="store_true", help="Run legacy structure validator")
     parser.add_argument("--recrawl", action="store_true", help="Re-crawl failed CSS")
+    parser.add_argument("--sec-fetch", action="store_true",
+                        help="Fetch latest SEC EDGAR filings + XBRL facts into data/raw/{ticker}/")
+    parser.add_argument("--skip-facts", action="store_true",
+                        help="With --sec-fetch: skip XBRL company-facts download (submissions only)")
     parser.add_argument("--force", action="store_true", help="Force regeneration of already-analyzed brands")
     parser.add_argument("--verbose-validation", action="store_true", help="Show detailed validation issues")
     args = parser.parse_args()
@@ -342,6 +369,15 @@ def main():
         run_validate_legacy()
     elif args.recrawl:
         recrawl_failed()
+    elif args.sec_fetch:
+        run_sec_fetch(
+            ticker=args.ticker,
+            sector=args.sector,
+            all_companies=args.all,
+            limit=args.limit,
+            force=args.force,
+            skip_facts=args.skip_facts,
+        )
     else:
         run_analysis(args.ticker, args.sector, args.limit, args.all, force=args.force)
 

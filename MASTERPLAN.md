@@ -123,17 +123,31 @@ legally defensible English markdown documents.
 This is the core research phase — the primary output is a complete open-source document archive.
 
 ### 1.1 SEC EDGAR Data Fetcher
-- [ ] Build `src/crawler/sec_fetcher.py`:
-  - Use EDGAR full-text search API (efts.sec.gov — public, no auth required)
-  - Fetch latest 10-K (or 20-F for foreign issuers) for each ticker
-  - Extract: Risk Factors (Item 1A), Legal Proceedings (Item 3), Financial Statements
-  - Parse XBRL for structured financial data (revenue, margins, segments)
-  - Store in `data/raw/{ticker}/sec_10k.json` with metadata (filing_date, cik, form_type)
-- [ ] Rate limit: respect SEC EDGAR 10 req/sec limit, add User-Agent header per SEC policy
-- [ ] Handle edge cases: foreign private issuers (20-F), recent IPOs (limited history), delistings
-- [ ] Add `--sec-fetch` mode to `run_batch.py`
+- [x] Build `src/crawler/sec_fetcher.py` (initial pass, 2026-04-27):
+  - Pulls EDGAR submissions index (`data.sec.gov/submissions/CIK{cik}.json`)
+  - Pulls XBRL company facts (`data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json`),
+    filtered to a curated set of headline GAAP concepts
+  - Identifies most recent 10-K, 10-Q, 8-K, DEF 14A from submissions index
+  - Stores raw payloads in `data/raw/{ticker}/sec_submissions.json` and
+    `data/raw/{ticker}/sec_company_facts.json`
+  - Stores condensed view in `data/raw/{ticker}/sec_filings_summary.json`
+    with `fetched_at`, `source_tier: T1_OFFICIAL`, primary document URLs,
+    and headline metric values (revenues, net income, etc.)
+- [x] Rate limit: ~5 req/sec self-throttle; descriptive `User-Agent` via
+  `SEC_USER_AGENT` env (SEC policy requires a real contact)
+- [x] Handle edge cases: missing CIK, 404 on company-facts (recent IPO /
+  foreign issuer); failures are reported, not raised, so batch runs
+  continue
+- [x] Add `--sec-fetch` mode to `run_batch.py` with parity flags
+  (`--ticker`, `--sector`, `--all`, `--limit`, `--force`, `--skip-facts`)
+- [ ] Live verification against EDGAR for AAPL (blocked in current
+  in-agent sandbox by outbound HTTPS 403 — must run in a network-enabled
+  environment)
+- [ ] Risk Factors / Legal Proceedings text extraction from primary
+  document URL (deferred; metadata + headline metrics first)
+- [ ] 20-F support for foreign private issuers (deferred)
 
-**Files**: new `src/crawler/sec_fetcher.py`, `run_batch.py`
+**Files**: `src/crawler/sec_fetcher.py`, `run_batch.py`
 
 **SEC EDGAR API endpoints**:
 - Company search: `https://efts.sec.gov/LATEST/search-index?q={company}&forms=10-K`
