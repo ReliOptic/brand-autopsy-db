@@ -245,7 +245,7 @@ The U.S. Food and Drug Administration regulates PepsiCo's products under multipl
 
 ### FTC Regulatory Framework for PepsiCo Advertising
 
-The Federal Trade Commission regulates advertising claims under Section 5 of the FTC Act (prohibiting unfair or deceptive acts or practices) and through specific guidance documents.
+The Federal Trade Commission regulates advertising claims under Section 5 of the FTC Act (the general prohibition on unfair acts or practices) and through specific guidance documents.
 
 **FTC Endorsement and Testimonial Guides (16 CFR Part 255)**: Regulate athlete and celebrity endorsements. PepsiCo's extensive use of athlete and celebrity endorsers requires compliance with:
 - Material connection disclosure (the endorser's paid relationship must be disclosed)
@@ -262,7 +262,7 @@ The Federal Trade Commission regulates advertising claims under Section 5 of the
 
 Beyond federal oversight, PepsiCo operates in a complex state-level regulatory environment that has become increasingly active:
 
-**California Proposition 65 (Safe Drinking Water and Toxic Enforcement Act)**: Requires businesses to provide clear warnings before knowingly and intentionally exposing any individual to chemicals on the state's Prop 65 list. Several food and beverage industry chemicals (acrylamide in potato chips; certain artificial colorings) have been subjects of Prop 65 notice letters and litigation. PepsiCo's Frito-Lay products have been among those subject to Prop 65 acrylamide attention, given that the high-temperature cooking of starches produces acrylamide as a byproduct. (T3_SECONDARY_RELIABLE: California OEHHA Prop 65 enforcement database; legal news coverage)
+**California Proposition 65 (Safe Drinking Water and Toxic Enforcement Act)**: Requires businesses to provide clear and reasonable warnings before exposing any individual to chemicals on the state's Prop 65 list. Several food and beverage industry chemicals (acrylamide in potato chips; certain artificial colorings) have been subjects of Prop 65 notice letters and litigation. PepsiCo's Frito-Lay products have been among those subject to Prop 65 acrylamide attention, given that the high-temperature cooking of starches produces acrylamide as a byproduct. (T3_SECONDARY_RELIABLE: California OEHHA Prop 65 enforcement database; legal news coverage)
 
 **Writing risk**: Mentioning Prop 65 in relation to PepsiCo products requires careful framing. The presence of a Prop 65 chemical in a food product does not mean the product is illegal or inherently unsafe — the law requires warning, not prohibition. The appropriate formulation: "Certain PepsiCo snack products have been subject to Proposition 65 notice letters in California regarding acrylamide, a chemical formed during high-temperature cooking of starches. Acrylamide appears on California's Prop 65 list. PepsiCo has not been found to have violated Prop 65 requirements in final adjudicated proceedings as of the most recent available information." (T4_INFERRED from standard Prop 65 legal analysis approach)
 
@@ -334,7 +334,7 @@ The December 2023 Quaker Salmonella recall provides a case study in regulated cr
 **Frito-Lay's Market Position Under Competition Law Scrutiny**
 
 Frito-Lay's estimated 40%+ US salty snack market share is below the threshold that typically triggers antitrust presumptions of monopoly (generally 70%+ sustained market share under US antitrust precedent). However, market power analysis in antitrust law examines multiple factors including:
-- Whether market share is maintained through pro-competitive means (innovation, DSD service quality) or anti-competitive conduct (exclusive dealing, predatory pricing)
+- Whether market share is maintained through pro-competitive means (innovation, DSD service quality) or anti-competitive conduct (exclusive dealing, aggressive below-cost pricing practices)
 - Whether the relevant market is defined narrowly (salty chips only) or broadly (all snacks)
 - The presence or absence of entry barriers beyond DSD capital costs
 

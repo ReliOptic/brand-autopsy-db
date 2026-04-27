@@ -69,12 +69,12 @@ UNSOURCED_PATTERNS: list[tuple[str, str]] = [
 ]
 
 # All prohibited expression groups combined
-PROHIBITED_PATTERNS: list[tuple[str, str, bool]] = (
-    # (pattern, message, requires_attribution_check)
-    [(p, m, False) for p, m in INTENT_ATTRIBUTION_PATTERNS]
-    + [(p, m, True) for p, m in PEJORATIVE_PATTERNS]
-    + [(p, m, False) for p, m in HIDDEN_MOTIVE_PATTERNS]
-    + [(p, m, False) for p, m in UNSOURCED_PATTERNS]
+PROHIBITED_PATTERNS: list[tuple[str, str, bool, re.Pattern]] = (
+    # (pattern, message, requires_attribution_check, compiled)
+    [(p, m, False, re.compile(p, re.IGNORECASE)) for p, m in INTENT_ATTRIBUTION_PATTERNS]
+    + [(p, m, True, re.compile(p, re.IGNORECASE)) for p, m in PEJORATIVE_PATTERNS]
+    + [(p, m, False, re.compile(p, re.IGNORECASE)) for p, m in HIDDEN_MOTIVE_PATTERNS]
+    + [(p, m, False, re.compile(p, re.IGNORECASE)) for p, m in UNSOURCED_PATTERNS]
 )
 
 # Source citation patterns
@@ -94,11 +94,13 @@ SOURCE_CITATION_RE = re.compile(
 )
 
 # Unhedged comparison patterns — flagged unless followed by a metric qualifier
-COMPARISON_PATTERNS: list[tuple[str, str]] = [
-    (r"\bbetter than\b", "unhedged comparison: 'better than'"),
-    (r"\bworse than\b", "unhedged comparison: 'worse than'"),
-    (r"\bsuperior to\b", "unhedged comparison: 'superior to'"),
-    (r"\binferior to\b", "unhedged comparison: 'inferior to'"),
+COMPARISON_PATTERNS: list[tuple[str, str, re.Pattern]] = [
+    (p, m, re.compile(p, re.IGNORECASE)) for p, m in [
+        (r"\bbetter than\b", "unhedged comparison: 'better than'"),
+        (r"\bworse than\b", "unhedged comparison: 'worse than'"),
+        (r"\bsuperior to\b", "unhedged comparison: 'superior to'"),
+        (r"\binferior to\b", "unhedged comparison: 'inferior to'"),
+    ]
 ]
 # A metric qualifier immediately follows the comparison phrase (same clause)
 METRIC_QUALIFIER_RE = re.compile(
@@ -195,8 +197,10 @@ def _check_prohibited(lines: list[str], file_path: str) -> list[ValidationIssue]
     issues: list[ValidationIssue] = []
     for lineno, line in enumerate(lines, start=1):
         stripped = line.rstrip("\n")
-        for raw_pattern, message, check_attribution in PROHIBITED_PATTERNS:
-            compiled = re.compile(raw_pattern, re.IGNORECASE)
+        # Skip blockquoted lines — these are verbatim T1_OFFICIAL (SEC) source quotes
+        if stripped.lstrip().startswith(">"):
+            continue
+        for raw_pattern, message, check_attribution, compiled in PROHIBITED_PATTERNS:
             if not compiled.search(stripped):
                 continue
             # If attribution check required, skip if an attribution phrase exists
@@ -246,8 +250,7 @@ def _check_comparisons(lines: list[str], file_path: str) -> list[ValidationIssue
     issues: list[ValidationIssue] = []
     for lineno, line in enumerate(lines, start=1):
         stripped = line.rstrip("\n")
-        for raw_pattern, message in COMPARISON_PATTERNS:
-            compiled = re.compile(raw_pattern, re.IGNORECASE)
+        for raw_pattern, message, compiled in COMPARISON_PATTERNS:
             match = compiled.search(stripped)
             if not match:
                 continue

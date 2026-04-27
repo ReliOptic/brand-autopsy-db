@@ -31,7 +31,7 @@ As of the fiscal year ended February 3, 2024 (FY2023), Target operated approxima
 | **General merchandise (full-size)** | 130,000–175,000 sq ft | ~1,900+ | Suburban/exurban primary format; full assortment including grocery |
 | **Target small-format** | 15,000–40,000 sq ft | ~60+ | Urban, college-adjacent markets (Manhattan, Chicago downtown, near universities); limited assortment, grocery-light |
 
-Target has deliberately expanded its small-format footprint in urban and college markets, recognizing that the college student (Persona 3) and urban millennial (Persona 2) segments are underserved by the full suburban format. (official, Target press releases; T3_SECONDARY_RELIABLE)
+Target has expanded its small-format footprint in urban and college markets, recognizing that the college student (Persona 3) and urban millennial (Persona 2) segments are underserved by the full suburban format. (official, Target press releases; T3_SECONDARY_RELIABLE)
 
 **Store as fulfillment center**: In FY2023, approximately 97% of Target's total revenue was fulfilled from or via a physical store. This includes:
 - In-store purchases (traditional retail)

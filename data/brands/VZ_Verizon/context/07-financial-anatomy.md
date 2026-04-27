@@ -1,132 +1,169 @@
 # 07. Financial Anatomy — Verizon (VZ)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — VZ](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verizon&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — VZ 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verizon&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — VZ DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verizon&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — VZ 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verizon&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — VZ 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — VZ 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — VZ DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — VZ 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Verizon.
+**CIK**: 0000732712
+**Period**: 2025-12-31 | **Filed**: 2026-02-17 | **Form**: 10-K
+**Accession**: 0000732712-26-000007
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Verizon's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $134.0B | -2.1% | (SEC 10-K FY2025) |
+| FY2024 | $136.8B | +2.4% | (SEC 10-K FY2024) |
+| FY2023 | $133.6B | +4.1% | (SEC 10-K FY2023) |
+| FY2022 | $128.3B | -2.7% | (SEC 10-K FY2022) |
+| FY2021 | $131.9B | +0.8% | (SEC 10-K FY2021) |
+| FY2020 | $130.9B | +3.8% | (SEC 10-K FY2020) |
+| FY2019 | $126.0B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000732712](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Verizon's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Integrated Telecommunication Services. (SEC 10-K)
+Based on public SEC filings, Verizon operates in the **Integrated Telecommunication Services** segment within the **Communication Services** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Verizon's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 17.1% | 22.3% | 24.3% | (SEC 10-K) |
+| Net Margin | 8.7% | 15.5% | 16.5% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in integrated telecommunication services. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $2.75 | (SEC 10-K FY2025) |
+| FY2024 | $5.06 | (SEC 10-K FY2024) |
+| FY2023 | $5.32 | (SEC 10-K FY2023) |
+| FY2022 | $4.30 | (SEC 10-K FY2022) |
+| FY2021 | $4.65 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Verizon's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $32.7B | 24.4% | (SEC 10-K FY2025) |
+| FY2024 | $30.1B | 22.0% | (SEC 10-K FY2024) |
+| FY2023 | $28.7B | 21.4% | (SEC 10-K FY2023) |
+| FY2022 | $31.6B | 24.6% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | N/A | N/A | N/A | (SEC 10-K) |
+| Dividends Paid | $11.0B | $10.8B | $10.4B | (SEC 10-K) |
 
-Verizon's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Verizon's M&A strategy reflects its approach to growth in Integrated Telecommunication Services. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Verizon's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Verizon's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $384.7B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $4.2B | (SEC 10-K FY2025) |
+| Long-Term Debt | $51.5B | (SEC 10-K FY2013) |
+| Shareholders' Equity | $93.8B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Verizon's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in integrated telecommunication services affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> .    Risk Factors 
+ The following discussion of "Risk Factors" identifies factors that may adversely affect our business, operations, financial condition or future performance. This information should be read in conjunction with "Management’s Discussion and Analysis of Financial Condition and Result of Operations" and the consolidated financial statements and related notes. The following discussion of risks is not all-inclusive but is designed to highlight what we believe are the material factors to consider when evaluating our business and expectations. These factors could cause our future results to differ materially from our historical results and from expectations reflected in forward-looking statements. 
+ 
+ 
+ 
+ 
+ 
+ Economic and Strategic Risks 
+ We face significant competition that may negatively affect our operating results. 
+ We face significant competition in our industries. The rapid development of new technologies, services and products has eliminated many of the traditional distinctions among wireless, cable, internet and other communication services and brought new competitors to our markets, including other telecommunications companies, cable companies, wireless service providers, satellite providers, and others. While these changes have enabled us to offer new types of products and services, they have also allowed other providers to broaden the scope of their own competitive offerings. If we are unable to successfully differentiate our services and products from our competitors, it could adversely affect our competitive position and market share. 
+ 
+ 
+ Our competitors commonly offer aggressive pricing, promotions, premium content options and other incentives – in some cases specifically targeting our customers and putting pressure on our pricing and margins. In addition, we expect the wireless industry’s customer growth rate to continue to moderate over time in comparison to historical growth rates, leading to increased competition for customers. Our ability to compete effectively will depend on, among other things, the pricing of our products and services and our value proposition, our competitors' promotional strategies, the quality of our customer service, our network 
+
+ 11 
+
+ Table of Contents 
+ reliability, speed, capacity and coverage, our ability to market our products and services effectively, our development of new and enhanced products and services, our capital resources, and the reach and quality of our sales and distribution chann
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ In the ordinary course of business, Verizon is involved in various litigation and regulatory proceedings at the state and federal level. As of the date of this report, we do not believe that any pending legal proceedings to which we or our subsidiaries are subject are required to be disclosed as material legal proceedings pursuant to this item. We apply a threshold of $1.0 million for purposes of disclosing administrative and judicial environmental proceedings involving a governmental authority, if any, pursuant to Item 103(c)(3)(iii) of Regulation S-K. For a discussion of our litigation risks, refer to Item 1A Risk Factors.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Verizon's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -2.1% YoY (FY2025) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2025) | $11.6B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Verizon's position in integrated telecommunication services reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All VZ Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000732712&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=732712&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=732712&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-17. Update required when next annual filing is submitted to EDGAR.

@@ -1,132 +1,175 @@
-# 07. Financial Anatomy — Procter & Gamble (PG)
+# 07. Financial Anatomy — Procter &amp; Gamble (PG)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — PG](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Procter+&+Gamble&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — PG 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Procter+&+Gamble&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — PG DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Procter+&+Gamble&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — PG 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Procter+&+Gamble&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — PG 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — PG 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — PG DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — PG 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Procter & Gamble.
+**CIK**: 0000080424
+**Period**: 2025-06-30 | **Filed**: 2025-08-04 | **Form**: 10-K
+**Accession**: 0000080424-25-000076
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Procter & Gamble's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $82.0B | +2.3% | (SEC 10-K FY2025) |
+| FY2024 | $80.2B | +5.3% | (SEC 10-K FY2024) |
+| FY2023 | $76.1B | +7.3% | (SEC 10-K FY2023) |
+| FY2022 | $71.0B | +4.8% | (SEC 10-K FY2022) |
+| FY2021 | $67.7B | +1.3% | (SEC 10-K FY2021) |
+| FY2020 | $66.8B | +2.7% | (SEC 10-K FY2020) |
+| FY2019 | $65.1B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000080424](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Procter & Gamble's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Personal Care Products. (SEC 10-K)
+Based on public SEC filings, Procter &amp; Gamble operates in the **Personal Care Products** segment within the **Consumer Staples** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Procter & Gamble's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 22.1% | 22.2% | 23.6% | (SEC 10-K) |
+| Net Margin | 17.9% | 18.4% | 18.8% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in personal care products. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $5.90 | (SEC 10-K FY2025) |
+| FY2024 | $5.81 | (SEC 10-K FY2024) |
+| FY2023 | $5.50 | (SEC 10-K FY2023) |
+| FY2022 | $4.96 | (SEC 10-K FY2022) |
+| FY2021 | $1.43 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Procter & Gamble's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $2.0B | 2.4% | (SEC 10-K FY2025) |
+| FY2024 | $2.0B | 2.5% | (SEC 10-K FY2024) |
+| FY2023 | $1.9B | 2.5% | (SEC 10-K FY2023) |
+| FY2022 | $1.8B | 2.5% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $21.1B | 25.7% | (SEC 10-K FY2025) |
+| FY2024 | $20.2B | 25.2% | (SEC 10-K FY2024) |
+| FY2023 | $21.0B | 27.6% | (SEC 10-K FY2023) |
+| FY2022 | $20.0B | 28.2% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $3.1B | (SEC 10-K FY2025) |
+| FY2024 | $3.2B | (SEC 10-K FY2024) |
+| FY2023 | $2.8B | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $7.4B | $10.0B | $11.0B | (SEC 10-K) |
+| Dividends Paid | $9.0B | $8.8B | $8.3B | (SEC 10-K) |
 
-Procter & Gamble's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Procter & Gamble's M&A strategy reflects its approach to growth in Personal Care Products. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Procter & Gamble's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Procter & Gamble's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $122.4B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $8.1B | (SEC 10-K FY2019) |
+| Long-Term Debt | $26.4B | (SEC 10-K FY2015) |
+| Shareholders' Equity | $46.9B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Procter & Gamble's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in personal care products affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors. 
+ We discuss our expectations regarding future performance, events and outcomes, such as our business outlook and objectives in this Form 10-K, as well as in our quarterly and annual reports, current reports on Form 8-K, press releases and other written and oral communications. All statements, except for historical and present factual information, are “forward-looking statements” and are based on financial data and business plans available only as of the time the statements are made, which may become outdated or incomplete. We assume no obligation to update any forward-looking statements as a result of new information, future events or other factors, except to the extent required by law. Forward-looking statements are inherently uncertain, and investors must recognize that events could significantly differ from our expectations. 
+ The following discussion of “risk factors” identifies significant factors that may adversely affect our business, operations, financial position or future financial performance. This information should be read in conjunction with Management's Discussion and Analysis and the Consolidated Financial Statements and related Notes incorporated in this report. The following discussion of risks is not all inclusive but is designed to highlight what we believe are important factors to consider when evaluating our expectations. These and other factors could cause our future results to differ from those in the forward-looking statements and from historical trends, perhaps materially. 
+ MACROECONOMIC CONDITIONS AND RELATED FINANCIAL RISKS 
+ Our business is subject to numerous risks as a result of having significant operations and sales in international markets, including foreign currency fluctuations, currency exchange or pricing controls. 
+ We are a global company, with operations in about 70 countries and products sold in about 180 countries and territories around the world. We hold assets, incur liabilities, generate sales and pay expenses in a variety of currencies other than the U.S. dollar, and our operations outside the U.S. generate more than 50% of our annual net sales. Fluctuations in exchange rates for foreign currencies have and could continue to reduce the U.S. dollar value of sales, earnings and cash flows we receive from non-U.S. markets, increase our supply costs (as measured in U.S. dollars) in those markets, negatively impact our competitiveness in those markets or otherwise adversely impact our business res
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings. 
+ The Company is subject, from time to time, to certain legal proceedings and claims arising out of our business, which cover a wide range of matters, including antitrust and trade regulation, product liability, advertising, contracts, environmental issues, patent and trademark matters, labor and employment matters and tax. In addition, SEC regulations require that we disclose certain environmental proceedings arising under Federal, State or local law when a governmental authority is a party and such proceeding involves potential monetary sanctions that the Company reasonably believes will exceed a certain threshold ($1 million or more). 
+ On November 22, 2023, Procter & Gamble UK (“P&G UK”), a United Kingdom based wholly owned subsidiary of the Company, received notification from the U.K. Environment Agency of its intent to assess an unspecified civil penalty for P&G UK’s prior inadvertent failure to secure a required permit for its London-based manufacturing site under the European Union’s and United Kingdom’s Emission Trading Systems. Among other requirements, these Emissions Trading Systems require registration of the site and accounting of and payment for certain past greenhouse gas emissions. The site has been properly registered since March 2021, and P&G UK proactively notified the U.K. Environment Agency after learning of the prior issue. In July 2025, the U.K. Environmental Agency notified P&G UK of its intent to impose a civil penalty of less than
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Procter & Gamble's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +2.3% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $14.7B | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 2.4% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Procter & Gamble's position in personal care products reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All PG Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000080424&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=80424&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=80424&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-08-04. Update required when next annual filing is submitted to EDGAR.

@@ -1,132 +1,146 @@
 # 07. Financial Anatomy — Atmos Energy (ATO)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — ATO](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Atmos+Energy&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — ATO 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Atmos+Energy&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — ATO DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Atmos+Energy&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — ATO 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Atmos+Energy&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — ATO 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — ATO 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — ATO DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — ATO 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Atmos Energy.
+**CIK**: 0000731802
+**Period**: 2025-09-30 | **Filed**: 2025-11-14 | **Form**: 10-K
+**Accession**: 0000731802-25-000056
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Atmos Energy's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $4.3B | +1.8% | (SEC 10-K FY2025) |
+| FY2024 | $4.2B | +23.3% | (SEC 10-K FY2024) |
+| FY2023 | $3.4B | +20.8% | (SEC 10-K FY2023) |
+| FY2022 | $2.8B | -2.8% | (SEC 10-K FY2022) |
+| FY2021 | $2.9B | -6.9% | (SEC 10-K FY2021) |
+| FY2020 | $3.1B | +12.9% | (SEC 10-K FY2020) |
+| FY2019 | $2.8B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000731802](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Atmos Energy's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Gas Utilities. (SEC 10-K)
+Based on public SEC filings, Atmos Energy operates in the **Gas Utilities** segment within the **Utilities** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Atmos Energy's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | N/A | N/A | N/A | (SEC 10-K) |
+| Operating Margin | 25.0% | 21.9% | 26.6% | (SEC 10-K) |
+| Net Margin | 20.7% | 18.4% | 19.5% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in gas utilities. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2010 | $1.99 | (SEC 10-K FY2010) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+_Investment data not separately disclosed in EDGAR XBRL._
 
-Atmos Energy's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
-
-### 4.2 SG&A
-
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Dividends Paid | $430M | $376M | $324M | (SEC 10-K) |
 
-Atmos Energy's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Atmos Energy's M&A strategy reflects its approach to growth in Gas Utilities. (SEC 10-K, 8-K filings)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 6. Financial Health
+## 6. Balance Sheet Highlights (Latest FY)
 
-### 6.1 Balance Sheet Summary
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $25.2B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $307M | (SEC 10-K FY2025) |
+| Long-Term Debt | $2.5B | (SEC 10-K FY2019) |
+| Shareholders' Equity | $9.4B | (SEC 10-K FY2025) |
 
-Atmos Energy's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Atmos Energy's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
-
----
-
-## 7. Brand Valuation
-
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Atmos Energy's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in gas utilities affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors. 
+ Our financial and operating results are subject to a number of risk factors, many of which are not within our control. Investors should carefully consider the following discussion of risk factors as well as other information appearing in this report. These factors include the following, which are organized by category: 
+ Regulatory and Legislative Risks 
+ We are subject to federal, state, and local regulations that affect our operations and financial results. 
+ We are subject to safety and financial regulatory oversight from various federal, state, and local regulatory authorities in the eight states that we serve. Therefore, our returns are continuously monitored and are subject to challenge for their reasonableness by the appropriate regulatory authorities or other third-party intervenors. In the normal course of business, as a regulated entity, we often need to place assets in service and establish historical test periods before rate cases that seek to adjust our allowed returns to recover that investment can be filed. Further, the regulatory review process can be lengthy in the context of traditional ratemaking. Because of this process, we could suffer the negative financial effects of having placed assets in service without the benefit of rate relief, which is commonly referred to as “regulatory lag.” 
+ Regulatory authorities in the states we serve have approved various infrastructure and annual rate adjustment mechanisms to effectively reduce the regulatory lag inherent in the ratemaking process. Regulatory lag could significantly increase if the regulatory authorities modify or terminate these rate mechanisms. The regulatory process also involves the risk that regulatory authorities may (i) review our purchases of natural gas and adjust the amount of our gas costs that we pass through to our customers or (ii) limit or disallow the costs we may have incurred from our cost of service that can be recovered from customers. 
+ We are also subject to laws, regulations, and other legal requirements enacted or adopted by federal, state, and local governmental authorities relating to protection of the environment and health and safety matters, including those that govern discharges of substances into the air and water, the management and disposal of hazardous substances and waste, the clean-up of contaminated sites, groundwater quality and availability, plant and wildlife protection, as well as work practices related to employee health and s
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings. 
+ See Note 14 to the consolidated financial statements, which is incorporated in this Item 3 by reference.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Atmos Energy's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +1.8% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $886M | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Atmos Energy's position in gas utilities reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All ATO Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000731802&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=731802&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=731802&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000731802.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000731802.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-11-14. Update required when next annual filing is submitted to EDGAR.

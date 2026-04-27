@@ -1,132 +1,178 @@
 # 07. Financial Anatomy — Cigna (CI)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — CI](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cigna&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — CI 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cigna&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — CI DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cigna&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — CI 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cigna&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — CI 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — CI 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — CI DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — CI 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Cigna.
+**CIK**: 0001739940
+**Period**: 2025-12-31 | **Filed**: 2026-02-26 | **Form**: 10-K
+**Accession**: 0001739940-26-000006
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Cigna's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $195.3B | +8.2% | (SEC 10-K FY2025) |
+| FY2024 | $180.5B | +3.7% | (SEC 10-K FY2024) |
+| FY2023 | $174.1B | +8.5% | (SEC 10-K FY2023) |
+| FY2022 | $160.4B | +4.5% | (SEC 10-K FY2022) |
+| FY2021 | $153.6B | +215.7% | (SEC 10-K FY2021) |
+| FY2020 | $48.6B | +16.4% | (SEC 10-K FY2020) |
+| FY2019 | $41.8B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001739940](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Cigna's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Health Care Services. (SEC 10-K)
+Based on public SEC filings, Cigna operates in the **Health Care Services** segment within the **Health Care** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Cigna's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 4.4% | 4.7% | 4.6% | (SEC 10-K) |
+| Net Margin | 2.6% | N/A | N/A | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in health care services. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $17.39 | (SEC 10-K FY2025) |
+| FY2024 | $21.41 | (SEC 10-K FY2024) |
+| FY2023 | $15.75 | (SEC 10-K FY2023) |
+| FY2022 | $22.96 | (SEC 10-K FY2022) |
+| FY2021 | $13.44 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Cigna's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $14.8B | 7.6% | (SEC 10-K FY2025) |
+| FY2024 | $13.2B | 7.3% | (SEC 10-K FY2024) |
+| FY2023 | $13.0B | 7.5% | (SEC 10-K FY2023) |
+| FY2022 | $14.1B | 8.8% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**Capital Expenditure**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2019 | $471M | (SEC 10-K FY2019) |
+| FY2018 | $461M | (SEC 10-K FY2018) |
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $2.3B | $7.6B | $7.7B | (SEC 10-K) |
+| Dividends Paid | $368M | $357M | $345M | (SEC 10-K) |
 
-Cigna's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Cigna's M&A strategy reflects its approach to growth in Health Care Services. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Cigna's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Cigna's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $155.9B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $7.5B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $41.0B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Cigna's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in health care services affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ 
+ 
+ As a large global health company operating in a complex industry, we encounter a variety of risks and uncertainties, which could have a material adverse effect on our business, liquidity, results of operations, financial condition or the trading price of our securities. You should carefully consider each of the risks and uncertainties discussed below, together with other information 
+
+ 18 
+
+ 
+ 
+ contained in this Form 10-K, including the MD&A. These risks and uncertainties are not the only ones we face. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also adversely affect us. The following risk factors have been organized by category for ease of use; however, many of the risks may have impacts in more than one category. These categories, therefore, should be viewed as a starting point for understanding the significant risks facing us and not as a limitation on the potential impact of the matters discussed. Risk factors are not necessarily listed in order of importance. 
+ 
+ 
+ Risks Related to Our Business as a Health Company 
+ 
+ 
+ We must predict, price for and manage health care costs appropriately. We face price competition and other pressures that could compress our margins or result in premiums that are insufficient to cover the cost of services delivered to our customers. 
+ 
+ 
+ Our profitability depends in part on our ability to accurately predict, price for and effectively manage future health care costs. Relatively small differences between predicted and actual medical costs or utilization rates as a percentage of revenue can result in significant changes in our financial results. In addition to appropriately pricing health care costs, we must accurately manage costs through medical management, product design, negotiation of favorable provider contracts and underwriting criteria. Our health care costs are also affected by external events that we cannot forecast or project and over which we have little or no control, including changes in laws and regulations, costly new treatments, new treatment guidelines, provider billing practices, inflation and changes in customers' health care utilization patterns, pandemics, natural disasters, and other large-scale medical emergencies. If we do not accurately price our health care costs, our business, cash flows, financial condition and results of operations could be materially adversely impacted. 
+ 
+ 
+ While we compete on the ba
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ The information contained under "Legal and Regulatory Matters" in Note 22 to the Consolidated Financial Statements of this Form 10-K is incorporated herein by reference.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Cigna's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +8.2% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $5.2B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Cigna's position in health care services reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All CI Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001739940&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1739940&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1739940&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001739940.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001739940.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-26. Update required when next annual filing is submitted to EDGAR.

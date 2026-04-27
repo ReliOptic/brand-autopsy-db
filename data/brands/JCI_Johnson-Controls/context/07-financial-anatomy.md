@@ -1,132 +1,198 @@
 # 07. Financial Anatomy — Johnson Controls (JCI)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — JCI](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Johnson+Controls&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — JCI 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Johnson+Controls&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — JCI DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Johnson+Controls&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — JCI 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Johnson+Controls&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — JCI 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — JCI 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — JCI DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — JCI 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Johnson Controls.
+**CIK**: 0000833444
+**Period**: 2025-09-30 | **Filed**: 2025-11-14 | **Form**: 10-K
+**Accession**: 0000833444-25-000097
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Johnson Controls's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $22.3B | +8.2% | (SEC 10-K FY2025) |
+| FY2024 | $20.6B | -12.8% | (SEC 10-K FY2024) |
+| FY2023 | $23.7B | +6.1% | (SEC 10-K FY2023) |
+| FY2022 | $22.3B | -6.9% | (SEC 10-K FY2022) |
+| FY2021 | $24.0B | +2.4% | (SEC 10-K FY2021) |
+| FY2020 | $23.4B | +2.5% | (SEC 10-K FY2020) |
+| FY2019 | $22.8B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000833444](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Johnson Controls's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Building Products. (SEC 10-K)
+Based on public SEC filings, Johnson Controls operates in the **Building Products** segment within the **Industrials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Johnson Controls's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 34.9% | 34.4% | 34.1% | (SEC 10-K) |
+| Operating Margin | N/A | N/A | N/A | (SEC 10-K) |
+| Net Margin | 8.3% | 7.4% | 6.9% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in building products. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $2.69 | (SEC 10-K FY2025) |
+| FY2024 | $2.19 | (SEC 10-K FY2024) |
+| FY2023 | $2.27 | (SEC 10-K FY2023) |
+| FY2022 | $0.84 | (SEC 10-K FY2022) |
+| FY2021 | $6.49 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Johnson Controls's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $251M | 1.1% | (SEC 10-K FY2025) |
+| FY2024 | $236M | 1.1% | (SEC 10-K FY2024) |
+| FY2023 | $275M | 1.2% | (SEC 10-K FY2023) |
+| FY2022 | $274M | 1.2% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $5.4B | 24.1% | (SEC 10-K FY2025) |
+| FY2024 | $5.1B | 24.6% | (SEC 10-K FY2024) |
+| FY2023 | $5.3B | 22.2% | (SEC 10-K FY2023) |
+| FY2022 | $5.7B | 25.4% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $625M | $1.4B | $1.3B | (SEC 10-K) |
+| Dividends Paid | N/A | N/A | N/A | (SEC 10-K) |
 
-Johnson Controls's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Johnson Controls's M&A strategy reflects its approach to growth in Building Products. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Johnson Controls's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Johnson Controls's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $42.7B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $828M | (SEC 10-K FY2025) |
+| Long-Term Debt | $8.6B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $16.1B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Johnson Controls's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in building products affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> RISK FACTORS 
+ 
+ 
+ Provided below is a cautionary discussion of what we believe to be the most important risk factors applicable to the Company. Discussion of these factors is incorporated by reference into and considered an integral part of Part II, Item 7, “Management’s Discussion and Analysis of Financial Conditions and Results of Operations.” The disclosure of a risk should not be interpreted to imply that such risk has not already materialized. Additional risks not currently known to the Company or that the Company currently believes are immaterial may also impair the Company’s business, financial condition, results of operations and cash flows. 
+ 
+ 
+ Risks Related to Our Business Operations 
+ 
+ 
+ Our future growth is dependent upon our ability to develop or acquire new products, services and technologies that achieve market acceptance with acceptable margins. 
+ 
+ 
+ Our future success depends on our ability to develop or acquire, manufacture and bring competitive, and increasingly complex, products and services to market quickly and cost-effectively. Our ability to develop or acquire new products, services and technologies requires the investment of significant resources. These acquisitions and development efforts divert resources from other potential investments in our businesses, and they may not lead to the development of new technologies, products or services on a timely basis. Further, we must continue to effectively adapt our products and services to a changing technological and regulatory environment to drive growth and defend against disruption caused by competitors, regulators or other external forces impacting our business and operations. If we are unable to be agile and responsive to disruption in the development of new products, services and technologies, including capabilities such as energy efficiency, cooling technology (including liquid 
+
+ 11 
+
+ 
+ 
+ cooling), artificial intelligence and machine learning, our business, financial condition, results of operations and cash flows could be adversely affected. 
+ 
+ 
+ Even after introduction, new or enhanced products may not satisfy customer preferences and product failures may cause customers to reject our products. Further, as we integrate emerging and rapidly evolving technologies, including artificial intelligence and machine learning into our products and services, we may not be able to anticipate or identify vulnerabilities, design flaws or security threats resulting from the use of such
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ 
+ 
+ Gumm v. Molinaroli, et al. 
+ 
+ 
+ In May 2024, stockholders of Johnson Controls, Inc., filed a putative class action Complaint against Johnson Controls, Inc., certain former officers and directors of Johnson Controls, Inc., and two related entities (Jagara Merger Sub LLC and Johnson Controls International plc) in Wisconsin state court relating to the 2016 merger of Johnson Controls and Tyco (Gumm et al. v. Molinaroli et al., Case No. 30106, filed May 23, 2024 in the Circuit Court for Milwaukee County, Wisconsin). The filing of the state court Complaint follows the dismissal of a related lawsuit originally filed in federal court in 2016, which dismissal was 
+
+ 27 
+
+ 
+ 
+ affirmed on appeal in November 2023. On March 28, 2025, the Court dismissed the complaint in its entirety. Plaintiffs have appealed the decision, though the timing of the decision by the court is currently unknown. 
+ 
+ 
+ Refer to Note 20, "Commitments and Contingencies," of the notes to consolidated financial statements for discussion of environmental, asbestos, self-insured liabilities and other litigation matters, which is incorporated by reference herein and is considered an integral part of Part I, Item 3, "Legal Proceedings."
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Johnson Controls's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +8.2% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $1.8B | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 1.1% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Johnson Controls's position in building products reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All JCI Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000833444&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=833444&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=833444&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000833444.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000833444.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-11-14. Update required when next annual filing is submitted to EDGAR.

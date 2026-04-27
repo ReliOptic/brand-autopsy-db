@@ -87,7 +87,7 @@ conflict-of-interest policies in 10-K disclosures).
 | **Emotional ↔ Rational** | 1 = poetic / 10 = pure data | **8 / 10** | Claims are consistently rooted in survey data, model outputs, and analyst methodology. Emotional appeals are rare in primary research content. (observed on gartner.com) |
 | **Understated ↔ Hyperbolic** | 1 = radical understatement / 10 = superlatives | **3 / 10** | Gartner avoids superlatives in research contexts; uses specific, hedged prediction language ("Gartner predicts...", "By [year]..."). (observed on gartner.com) |
 
-**Summary**: Gartner's voice is formal, authoritative, data-grounded, and deliberately
+**Summary**: Gartner's voice is formal, authoritative, data-grounded, and consistently
 non-hyperbolic — matching the expectations of CxO-level decision-makers who distrust
 vendor marketing excess.
 
@@ -113,7 +113,7 @@ All color values above are `(estimated)` from visual observation; CSS extraction
 1. **"Guaranteed" / "Certain"** — Gartner's forecasting methodology uses probabilistic language
    ("Gartner predicts," "by [year]"). Certainty claims would contradict the research methodology's
    hedged structure. (T4_INFERRED from observed Gartner research language conventions)
-2. **"Best" (as unqualified superlative)** — The Magic Quadrant deliberately avoids ranking
+2. **"Best" (as unqualified superlative)** — The Magic Quadrant avoids ranking
    vendors as "best" — it places them in quadrants based on execution and vision axes. Unqualified
    "best" claims are methodologically inconsistent. (official, Gartner Magic Quadrant methodology)
 3. **"Disruption" (as praise)** — Gartner's Hype Cycle framework critically contextualizes

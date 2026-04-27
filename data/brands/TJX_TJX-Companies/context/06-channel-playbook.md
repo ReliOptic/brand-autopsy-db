@@ -9,7 +9,7 @@
 | Channel | Role | Tone | Key Format | Priority |
 |---------|------|------|-----------|----------|
 | **Physical stores** | Primary revenue and experience channel. The treasure hunt is inseparable from the physical environment. | Energetic, discovery-oriented | In-store signage, rack layout, price tag display | Critical — model depends on in-store visit |
-| **TJ Maxx / Marshalls / HomeGoods websites** | Browse inspiration and limited e-commerce. TJX has intentionally limited online selection to protect the in-store drive. (SEC 10-K FY2024) | Consistent with in-store tone | Product grids, price-forward layout | Supporting |
+| **TJ Maxx / Marshalls / HomeGoods websites** | Browse inspiration and limited e-commerce. TJX has limited online selection to protect the in-store drive. (SEC 10-K FY2024) | Consistent with in-store tone | Product grids, price-forward layout | Supporting |
 | **Email marketing** | Existing customer retention and visit-frequency driver | Deal-focused, warm | Weekly deals, seasonal guides, new arrivals | High for retention |
 | **Instagram** | Brand aspiration and user-generated content amplification | Casual, authentic | Product photography, haul reposts, home décor (HomeGoods) | High organic reach |
 | **TikTok** | Discovery and new customer acquisition, particularly younger demographics | Very casual, unpolished, authentic | Haul videos, "look what I found" format | High growth channel |

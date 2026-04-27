@@ -1,55 +1,77 @@
 # 07. Financial Anatomy — Ingersoll Rand (IR)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from Ingersoll Rand's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". This analysis reflects publicly available
+> information as of the document preparation date. Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — IR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ingersoll+Rand&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — IR 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ingersoll+Rand&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — IR DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ingersoll+Rand&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — IR 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Ingersoll+Rand&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 (Dec 31, 2025) | [SEC EDGAR — IR 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — IR 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — IR DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — IR 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Ingersoll Rand.
+**CIK**: 0001699150
+**Fiscal Year End**: December 31
+**Exchange**: NYSE (IR)
+**Sector**: Industrials — Industrial Machinery & Supplies & Components
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Five-Year Revenue Trend
 
-Ingersoll Rand's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Total Revenue | YoY Change | Net Income | Net Margin | Source |
+|-------------|---------------|------------|-----------|-----------|--------|
+| FY2021 | $2.02B | — | $159.1M | 7.9% | (SEC 10-K FY2021) |
+| FY2022 | $3.97B | +96.9% | -$33.3M | N/M | (SEC 10-K FY2022) |
+| FY2023 | $5.15B | +29.9% | $562.5M | 10.9% | (SEC 10-K FY2023) |
+| FY2024 | $5.92B | +14.8% | $604.7M | 10.2% | (SEC 10-K FY2024) |
+| FY2025 | $6.88B | +16.2% | $778.7M | 11.3% | (SEC 10-K FY2025) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **5-Year Revenue CAGR (FY2021–FY2025)**: approximately +35.8% (estimated; heavily influenced by the near-doubling in FY2022 which reflects integration of acquired businesses). (T4_INFERRED)
 
-### 2.2 Revenue Trend
+The FY2022 net loss reflects acquisition-related charges and integration costs as disclosed in the 10-K. The FY2023–FY2025 trend indicates consistent profitability growth as the company scales its combined platform. (T4_INFERRED from XBRL trend)
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
+### 2.2 Geographic Revenue
 
-### 2.3 Segment and Geographic Mix
-
-Ingersoll Rand's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Industrial Machinery & Supplies & Components. (SEC 10-K)
+Based on the FY2025 10-K, 58% of revenues were from customers outside the United States, with manufacturing in Germany, the United Kingdom, China, Italy, and India. (T1_OFFICIAL, SEC 10-K FY2025) This international exposure creates material sensitivity to EUR, GBP, and CNY exchange rates.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Gross Profit Trend
 
-Ingersoll Rand's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Fiscal Year | Gross Profit | Gross Margin | Source |
+|-------------|-------------|-------------|--------|
+| FY2021 | $778.3M | 38.6% | (SEC 10-K FY2021) |
+| FY2022 | $1,404.9M | 35.4% | (SEC 10-K FY2022) |
+| FY2023 | $1,988.5M | 38.6% | (SEC 10-K FY2023) |
+| FY2024 | $2,325.6M | 39.3% | (SEC 10-K FY2024) |
+| FY2025 | $2,882.2M | 41.9% | (SEC 10-K FY2025) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in industrial machinery & supplies & components. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+Gross margins expanded from 35.4% in FY2022 to 41.9% in FY2025, a 6.5 percentage point improvement, suggesting (T4_INFERRED) meaningful pricing power and cost synergy realization from the post-acquisition integration period.
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 Operating Income Trend
+
+| Fiscal Year | Operating Income | Operating Margin | Source |
+|-------------|-----------------|-----------------|--------|
+| FY2021 | $194.1M | 9.6% | (SEC 10-K FY2021) |
+| FY2022 | $59.6M | 1.5% | (SEC 10-K FY2022) |
+| FY2023 | $565.7M | 11.0% | (SEC 10-K FY2023) |
+| FY2024 | $817.3M | 13.8% | (SEC 10-K FY2024) |
+| FY2025 | $1,164.3M | 16.9% | (SEC 10-K FY2025) |
+
+The operating margin trajectory from 1.5% (FY2022) to 16.9% (FY2025) indicates substantial operational leverage achieved post-integration. (T4_INFERRED)
 
 ---
 
@@ -57,76 +79,112 @@ Margin trends can be analyzed using historical 10-K filings available on SEC EDG
 
 ### 4.1 Research & Development
 
-Ingersoll Rand's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D Expense | % of Revenue | YoY Change | Source |
+|-------------|------------|-------------|------------|--------|
+| FY2021 | $22.0M | 1.1% | — | (SEC 10-K FY2021) |
+| FY2022 | $58.0M | 1.5% | +163.6% | (SEC 10-K FY2022) |
+| FY2023 | $74.0M | 1.4% | +27.6% | (SEC 10-K FY2023) |
+| FY2024 | $91.3M | 1.5% | +23.4% | (SEC 10-K FY2024) |
+| FY2025 | $108.2M | 1.6% | +18.5% | (SEC 10-K FY2025) |
 
-### 4.2 SG&A
+R&D at 1.1–1.6% of revenue is consistent with an industrial machinery company whose competitive differentiation rests on manufacturing excellence and application engineering rather than breakthrough research. (T4_INFERRED)
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+### 4.2 SG&A Expense
 
-### 4.3 Capital Expenditures
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2021 | $409.6M | 20.3% | (SEC 10-K FY2021) |
+| FY2022 | $789.3M | 19.9% | (SEC 10-K FY2022) |
+| FY2023 | $1,028.0M | 20.0% | (SEC 10-K FY2023) |
+| FY2024 | $1,095.8M | 18.5% | (SEC 10-K FY2024) |
+| FY2025 | $1,272.7M | 18.5% | (SEC 10-K FY2025) |
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+SG&A as a percentage of revenue declined from ~20% to ~18.5%, indicating developing scale efficiency. (T4_INFERRED)
 
 ---
 
-## 5. Capital Allocation
+## 5. Capital Allocation Strategy
 
 ### 5.1 Shareholder Returns
 
-Ingersoll Rand's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
+| Item | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 | Source |
+|------|--------|--------|--------|--------|--------|--------|
+| Share Repurchases | $263.0M | $261.1M | $736.8M | $2.1M | $18.6M | (SEC 10-K, Financing Activities) |
+| Dividends Paid | $32.4M | $32.4M | $8.2M | $0 | $0 | (SEC 10-K, Financing Activities) |
+| **Total Returns** | **$295.4M** | **$293.5M** | **$745.0M** | **$2.1M** | **$18.6M** | — |
 
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Ingersoll Rand's M&A strategy reflects its approach to growth in Industrial Machinery & Supplies & Components. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Ingersoll Rand's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Ingersoll Rand's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+Ingersoll Rand initiated dividends in FY2023. The FY2023 buyback of $736.8M suggests (T4_INFERRED) opportunistic repurchases; the normalization to ~$260M in FY2024–2025 reflects more measured capital return.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|--------|--------|--------|--------|
+| Total Assets | $18.01B | $15.56B | $14.77B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $1,541.2M | $1,595.5M | $1,613.0M | (SEC 10-K FY2025) |
+| Long-Term Debt | EUR-denominated; USD equivalent requires direct 10-K reference | — | — | (SEC 10-K FY2025) |
+| Shareholders' Equity | $10,179.0M | $9,783.8M | $9,195.8M | (SEC 10-K FY2025) |
 
----
+> **Note**: Long-term debt XBRL is reported in EUR (€590.6M for FY2021). Current USD-equivalent figures require direct reference to the 10-K balance sheet. (data not disclosed in EDGAR XBRL in USD for recent years)
 
-## 8. Financial Risk Matrix
-
-Risk factors are disclosed in Ingersoll Rand's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
-
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in industrial machinery & supplies & components affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
-
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+Ingersoll Rand maintains a strong equity base ($10.2B) and substantial cash ($1.54B), supporting financial flexibility for acquisitions and shareholder returns. (T4_INFERRED)
 
 ---
 
-## 9. Brand-Finance Nexus
+## 7. Financial Risk Matrix
 
-The relationship between Ingersoll Rand's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### Based on SEC 10-K FY2025 Risk Factors (Item 1A)
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Risk Category | Key Content (T1_OFFICIAL) | Brand Strategy Impact |
+|--------------|--------------------------|----------------------|
+| **Global Economic Sensitivity** | Financial performance depends on conditions in served markets; sustained demand weakness could adversely impact revenues and profitability | As a B2B industrial brand, economic downturns in manufacturing, construction, or energy sectors directly reduce demand for compressed air and industrial systems |
+| **International Exposure (58% of revenues)** | Operations subject to political instability, IP protection challenges, credit risks, currency fluctuations, and tariff changes across 50+ countries | Brand consistency across diverse international markets is inherently challenging; regulatory divergence creates localized compliance costs |
+| **Currency Risk** | EUR, GBP, and CNY fluctuations impact reported results; manufacturing in Germany, UK, and China adds cost-side exposure | FX volatility creates uncertainty in brand investment budgeting and customer pricing across geographies |
+| **Cyclical End-Market Risk** | Products sold across cyclical industries; cyclical weakness reduces demand and profitability | Cyclicality complicates sustained brand-building investment; industrial brands must maintain presence even in low-revenue periods |
+| **Integration & Acquisition Risk** | Past acquisitions presented integration challenges; future acquisitions carry similar risks around managing diverse product lines | Brand integration from multiple acquired companies creates identity coherence challenges under the unified "Ingersoll Rand" umbrella |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Ingersoll Rand's position in industrial machinery & supplies & components reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Source**: [IR 10-K Risk Factors — SEC EDGAR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=10-K&dateb=&owner=include&count=10)
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## 8. Brand-Finance Nexus
+
+### 8.1 What Financial Data Reveals About Brand Strategy
+
+| Financial Signal | Brand Strategy Interpretation |
+|-----------------|------------------------------|
+| Revenue doubled from FY2021 to FY2023 through acquisition-driven expansion | (T4_INFERRED) Ingersoll Rand's growth is primarily an M&A story; the brand functions as an integrating umbrella for diverse industrial product lines rather than a single-product identity |
+| Gross margins expanded from 35.4% to 41.9% (FY2022–FY2025) | (T4_INFERRED) Margin expansion suggests pricing discipline and cost synergy realization; premium positioning in industrial segments appears sustainable |
+| R&D consistently below 2% of revenue | (T4_INFERRED) Differentiation rests on application expertise, service breadth, and installed-base relationships rather than R&D intensity — classic industrial brand moats |
+| Cash position stable at ~$1.5–1.6B across FY2023–2025 | (T4_INFERRED) Conservative cash management signals financial discipline; enables self-funded organic growth and dividend commitments |
+| Share buybacks were $737M in FY2023 vs. $263M in FY2025 | (T4_INFERRED) Opportunistic capital return orientation complements the B2B industrial brand identity focused on long-term value creation |
+
+### 8.2 Brand-Finance Value Cycle
+
+```
+Industrial M&A (Gardner Denver + acquired businesses)
+        |
+        v
+Scale & Diversification --> Cross-Selling Opportunities --> Revenue Growth
+        |
+        v
+Operational Synergies --> Margin Expansion (35% --> 42% gross) --> Cash Generation
+        |
+        v
+Reinvestment: R&D ($108M) + Buybacks ($263M) + Dividends ($32M)
+        |
+        v
+Brand Credibility ("Trusted Industrial Partner") --> Pricing Power --> Cycle Repeats
+```
+
+---
+
+## EDGAR Quick Reference
+
+1. **Full EDGAR Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=10-K&dateb=&owner=include&count=10](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001699150&type=10-K&dateb=&owner=include&count=10)
+2. **EDGAR Full-Text Search**: [https://efts.sec.gov/LATEST/search-index?q=%22Ingersoll+Rand%22&forms=10-K,10-Q](https://efts.sec.gov/LATEST/search-index?q=%22Ingersoll+Rand%22&forms=10-K,10-Q)
+3. **IR Page**: [https://investor.irco.com](https://investor.irco.com)
+4. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1699150&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1699150&type=10-K)
+
+> **Data Freshness**: This document is based on the FY2025 10-K (filed 2026-02-17). Update required when the next quarterly 10-Q is filed.

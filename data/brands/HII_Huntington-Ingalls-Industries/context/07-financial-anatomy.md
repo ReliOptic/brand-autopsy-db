@@ -1,132 +1,187 @@
 # 07. Financial Anatomy — Huntington Ingalls Industries (HII)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — HII](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Huntington+Ingalls+Industries&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — HII 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Huntington+Ingalls+Industries&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — HII DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Huntington+Ingalls+Industries&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — HII 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Huntington+Ingalls+Industries&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — HII 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — HII 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — HII DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — HII 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Huntington Ingalls Industries.
+**CIK**: 0001501585
+**Period**: 2025-12-31 | **Filed**: 2026-02-05 | **Form**: 10-K
+**Accession**: 0001501585-26-000006
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Huntington Ingalls Industries's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $11.5B | +7.3% | (SEC 10-K FY2025) |
+| FY2024 | $10.7B | +12.1% | (SEC 10-K FY2024) |
+| FY2023 | $9.5B | +1.7% | (SEC 10-K FY2023) |
+| FY2022 | $9.4B | +5.2% | (SEC 10-K FY2022) |
+| FY2021 | $8.9B | +8.8% | (SEC 10-K FY2021) |
+| FY2020 | $8.2B | +9.9% | (SEC 10-K FY2020) |
+| FY2019 | $7.4B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001501585](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Huntington Ingalls Industries's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Aerospace & Defense. (SEC 10-K)
+Based on public SEC filings, Huntington Ingalls Industries operates in the **Aerospace &amp; Defense** segment within the **Industrials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Huntington Ingalls Industries's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 6.8% | 5.3% | 5.4% | (SEC 10-K) |
+| Net Margin | 5.9% | 5.4% | 5.7% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in aerospace & defense. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $17.07 | (SEC 10-K FY2025) |
+| FY2024 | $14.44 | (SEC 10-K FY2024) |
+| FY2023 | $13.50 | (SEC 10-K FY2023) |
+| FY2022 | $17.14 | (SEC 10-K FY2022) |
+| FY2021 | $13.26 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Huntington Ingalls Industries's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $35M | 0.3% | (SEC 10-K FY2025) |
+| FY2024 | $40M | 0.4% | (SEC 10-K FY2024) |
+| FY2023 | $34M | 0.4% | (SEC 10-K FY2023) |
+| FY2022 | $31M | 0.3% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $1.0B | 8.9% | (SEC 10-K FY2025) |
+| FY2024 | $924M | 8.7% | (SEC 10-K FY2024) |
+| FY2023 | $898M | 9.4% | (SEC 10-K FY2023) |
+| FY2022 | $904M | 9.7% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $292M | (SEC 10-K FY2025) |
+| FY2024 | $284M | (SEC 10-K FY2024) |
+| FY2023 | $331M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $75M | $52M | $101M | (SEC 10-K) |
+| Dividends Paid | N/A | N/A | N/A | (SEC 10-K) |
 
-Huntington Ingalls Industries's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Huntington Ingalls Industries's M&A strategy reflects its approach to growth in Aerospace & Defense. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Huntington Ingalls Industries's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Huntington Ingalls Industries's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $12.1B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $240M | (SEC 10-K FY2021) |
+| Long-Term Debt | $3.3B | (SEC 10-K FY2022) |
+| Shareholders' Equity | $3.5B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Huntington Ingalls Industries's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in aerospace & defense affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors 
+ 
+ 
+ Our consolidated financial position, results of operations and cash flows are subject to various risks, many of which are not exclusively within our control, that may cause actual performance to differ materially from historical or projected future performance. We encourage you to consider carefully the risk factors described below when evaluating the information contained in this report as the outcome of one or more of these risks could have a material adverse effect on our financial position, results of operations and/or cash flows. 
+ 
+ 
+ 
+ Industry and Economic Risk Factors 
+ 
+ 
+ We depend on the U.S. Government for substantially all of our business. Changes in the U.S. Government's priorities, strategies, spending, or other risks associated with conducting business with the U.S. Government could have a material adverse effect on our financial position, results of operations, or cash flows. 
+ 
+ 
+ We conduct most of our business with the U.S. Government, primarily the Department. Substantially all of our revenues in 2025 was derived from products and services sold to the U.S. Government. We expect this to continue for the foreseeable future. Our U.S. Government contracts are subject to various risks. We cannot predict the impact on our existing or future contracts due to changes in the global geopolitical and economic environment, including inflationary pressures, defense spending levels and priorities, government efficiency and other budgetary priorities, customer procurement practices and processes, and other factors that may impact our customer’s short- and long-term plans and priorities or our ability to compete, capture, and perform successfully on such contracts. Any of these factors could materially adversely affect our business with the U.S. Government and our financial position, results of operations, or cash flows. 
+ 
+ 
+ The U.S. Government generally has the ability to terminate contracts, in whole or in part, with little or no prior notice, for convenience or for default based upon performance. In the event of termination for convenience, a contractor generally is able to recover costs incurred and profit on costs up to the amount authorized under the contract, but not the profit that would have been earned had the contract been completed. However, the U.S. Government may assert that it is not required to provide additional funding for such costs if sufficient funding has not been appropriated to cover them. Any terminatio
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ 
+ 
+ For information regarding legal proceedings, see Note 14: Investigations, Claims, and Litigation in Item 8. Consistent with the requirements of SEC Regulation S-K, Item 103, our threshold for disclosing any environmental legal proceeding involving a governmental authority is potential monetary sanctions that our management believes will exceed $1 million.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Huntington Ingalls Industries's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +7.3% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $681M | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 0.3% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Huntington Ingalls Industries's position in aerospace & defense reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All HII Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001501585&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1501585&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1501585&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001501585.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001501585.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-05. Update required when next annual filing is submitted to EDGAR.

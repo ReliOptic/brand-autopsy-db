@@ -6,7 +6,6 @@ Saves results to data/raw/{ticker}/css_data.json
 import asyncio
 import json
 import csv
-import time
 import sys
 from pathlib import Path
 
@@ -217,7 +216,17 @@ async def crawl_one(client: httpx.AsyncClient, ticker: str, url: str,
             return {"ticker": ticker, "url": url, "error": str(e)[:200]}
 
 
-async def batch_crawl(sector: str | None = None, limit: int | None = None):
+def _has_good_css(path: Path) -> bool:
+    if not path.exists():
+        return False
+    try:
+        import json as _json
+        return "error" not in _json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return False
+
+
+async def batch_crawl(sector: str | None = None, limit: int | None = None, skip_existing: bool = True):
     """Crawl all companies, optionally filtered by sector."""
     # Load company list
     companies = []
@@ -229,6 +238,13 @@ async def batch_crawl(sector: str | None = None, limit: int | None = None):
 
     if limit:
         companies = companies[:limit]
+
+    if skip_existing:
+        raw_dir = RAW_DIR
+        companies = [
+            c for c in companies
+            if not _has_good_css(raw_dir / c["ticker"] / "css_data.json")
+        ]
 
     print(f"Crawling {len(companies)} companies...")
 

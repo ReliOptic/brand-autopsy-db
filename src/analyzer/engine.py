@@ -9,7 +9,6 @@ import os
 import sys
 import re
 from pathlib import Path
-from datetime import date
 
 from .prompts.system import SYSTEM_PROMPT, FEW_SHOT_INSTRUCTION
 from .legal_validator import validate_markdown
@@ -29,12 +28,15 @@ LAYER_MODULES = {
 }
 
 # Import prompt modules dynamically to avoid naming issues
-import importlib
+import importlib  # noqa: E402
 LAYER_PROMPT_MODULES = {}
 for _n, (_f, _mod_name) in LAYER_MODULES.items():
     LAYER_PROMPT_MODULES[_n] = importlib.import_module(f".prompts.{_mod_name}", package="src.analyzer")
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
+
+_FEW_SHOT_CACHE: dict[int, str] = {}
+_BRAND_DIR_CACHE: dict[str, Path] = {}
 FEW_SHOT_DIR = Path("/mnt/c/Users/ReliQbit/Downloads/brand-autopsy-framework/"
                      "brand-autopsy-framework/brands")
 LOCAL_FEW_SHOT_BRANDS = [
@@ -53,6 +55,9 @@ def _load_anthropic():
 
 def _get_few_shot_examples(layer_num: int, count: int = 2) -> str:
     """Load few-shot examples from existing analyzed brands."""
+    if layer_num in _FEW_SHOT_CACHE:
+        return _FEW_SHOT_CACHE[layer_num]
+
     filename = LAYER_MODULES[layer_num][0]
     examples = []
 
@@ -76,7 +81,9 @@ def _get_few_shot_examples(layer_num: int, count: int = 2) -> str:
         if len(examples) >= count:
             break
 
-    return "\n\n---\n\n".join(examples)
+    result = "\n\n---\n\n".join(examples)
+    _FEW_SHOT_CACHE[layer_num] = result
+    return result
 
 
 def _slugify_brand_name(name: str) -> str:
@@ -88,15 +95,22 @@ def _slugify_brand_name(name: str) -> str:
 
 def _brand_dir(ticker: str, name: str) -> Path:
     """Resolve the canonical brand directory, preferring existing ticker-prefixed paths."""
+    cache_key = f"{ticker}:{name}"
+    if cache_key in _BRAND_DIR_CACHE:
+        return _BRAND_DIR_CACHE[cache_key]
+
     brands_root = DATA_DIR / "brands"
     exact = brands_root / f"{ticker}_{_slugify_brand_name(name)}"
     if exact.exists():
+        _BRAND_DIR_CACHE[cache_key] = exact
         return exact
 
     for existing in brands_root.iterdir():
         if existing.is_dir() and existing.name.startswith(f"{ticker}_"):
+            _BRAND_DIR_CACHE[cache_key] = existing
             return existing
 
+    _BRAND_DIR_CACHE[cache_key] = exact
     return exact
 
 
@@ -132,12 +146,19 @@ def _load_collected_data(ticker: str) -> str:
     parts.append("### CSS Extraction Data")
     parts.append(_load_css_data(ticker))
 
-    # SEC data (if exists)
+    # SEC filing metadata hint (layers 7/8 receive full sec_data separately)
     sec_path = raw_dir / "sec_10k.json"
     if sec_path.exists():
-        with open(sec_path, encoding="utf-8") as f:
-            sec = json.load(f)
-        parts.append(f"\n### SEC 10-K Data\n{json.dumps(sec, indent=2, ensure_ascii=False)[:3000]}")
+        try:
+            sec = json.loads(sec_path.read_text(encoding="utf-8"))
+            if not sec.get("error"):
+                parts.append(
+                    f"\n### SEC Filing Reference\n"
+                    f"CIK: {sec.get('cik', '?')} | Form: {sec.get('form_type', '?')} | "
+                    f"Period: {sec.get('period_of_report', '?')} | Filed: {sec.get('filing_date', '?')}"
+                )
+        except Exception:
+            pass
 
     # Social data (if exists)
     social_path = raw_dir / "social_data.json"
@@ -150,7 +171,7 @@ def _load_collected_data(ticker: str) -> str:
 
 
 def _load_sec_data(ticker: str) -> str:
-    """Load SEC filing data for a company."""
+    """Load and format SEC filing data for Layer 07/08 prompts."""
     sec_path = DATA_DIR / "raw" / ticker / "sec_10k.json"
     if not sec_path.exists():
         return (
@@ -162,7 +183,39 @@ def _load_sec_data(ticker: str) -> str:
     with open(sec_path, encoding="utf-8") as f:
         sec = json.load(f)
 
-    return json.dumps(sec, indent=2, ensure_ascii=False)[:5000]
+    if sec.get("error"):
+        return f"SEC fetch error: {sec['error']}"
+
+    lines: list[str] = []
+    lines.append(f"**Filing**: {sec.get('form_type', '?')} | Period: {sec.get('period_of_report', '?')} | Filed: {sec.get('filing_date', '?')}")
+    lines.append(f"**CIK**: {sec.get('cik', '?')} | Accession: {sec.get('accession_number', '?')}")
+    lines.append("")
+
+    financials = sec.get("financials", {})
+    if financials:
+        lines.append("### XBRL Financial Data")
+        for metric, entries in financials.items():
+            if not entries:
+                continue
+            rows = " | ".join(
+                f"{e['year']}: {e['value']:,.0f} {e['unit']}" if isinstance(e['value'], (int, float)) else f"{e['year']}: {e['value']}"
+                for e in entries[:5]
+            )
+            lines.append(f"- **{metric}**: {rows}")
+        lines.append("")
+
+    risk = sec.get("risk_factors_excerpt", "")
+    if risk:
+        lines.append("### Risk Factors Excerpt (Item 1A)")
+        lines.append(risk[:3000])
+        lines.append("")
+
+    legal = sec.get("legal_proceedings_excerpt", "")
+    if legal:
+        lines.append("### Legal Proceedings Excerpt (Item 3)")
+        lines.append(legal[:2000])
+
+    return "\n".join(lines)
 
 
 def _get_sector_companies(ticker: str, sector: str) -> str:
@@ -356,7 +409,7 @@ class AnalysisEngine:
         input_cost = ct["input_tokens"] / 1_000_000 * 3
         output_cost = ct["output_tokens"] / 1_000_000 * 15
         total = input_cost + output_cost
-        print(f"\nAPI Cost Summary:")
+        print("\nAPI Cost Summary:")
         print(f"  Calls: {ct['calls']}")
         print(f"  Input:  {ct['input_tokens']:,} tokens (${input_cost:.3f})")
         print(f"  Output: {ct['output_tokens']:,} tokens (${output_cost:.3f})")

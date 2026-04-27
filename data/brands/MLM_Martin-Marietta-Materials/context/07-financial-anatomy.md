@@ -1,132 +1,172 @@
 # 07. Financial Anatomy — Martin Marietta Materials (MLM)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — MLM](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Martin+Marietta+Materials&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — MLM 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Martin+Marietta+Materials&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — MLM DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Martin+Marietta+Materials&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — MLM 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Martin+Marietta+Materials&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — MLM 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — MLM 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — MLM DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — MLM 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Martin Marietta Materials.
+**CIK**: 0000916076
+**Period**: 2025-12-31 | **Filed**: 2026-02-19 | **Form**: 10-K
+**Accession**: 0001193125-26-059193
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Martin Marietta Materials's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $5.9B | -5.0% | (SEC 10-K FY2025) |
+| FY2024 | $6.2B | +13.8% | (SEC 10-K FY2024) |
+| FY2023 | $5.4B | +14.5% | (SEC 10-K FY2023) |
+| FY2022 | $4.7B | -0.2% | (SEC 10-K FY2022) |
+| FY2021 | $4.7B | +11.7% | (SEC 10-K FY2021) |
+| FY2020 | $4.2B | +7.0% | (SEC 10-K FY2020) |
+| FY2019 | $4.0B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000916076](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Martin Marietta Materials's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Construction Materials. (SEC 10-K)
+Based on public SEC filings, Martin Marietta Materials operates in the **Construction Materials** segment within the **Materials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Martin Marietta Materials's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 29.8% | 23.1% | 24.9% | (SEC 10-K) |
+| Operating Margin | 22.8% | 19.6% | 18.0% | (SEC 10-K) |
+| Net Margin | 20.0% | 14.1% | 13.0% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in construction materials. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $18.82 | (SEC 10-K FY2025) |
+| FY2024 | $13.87 | (SEC 10-K FY2024) |
+| FY2023 | $11.22 | (SEC 10-K FY2023) |
+| FY2022 | $11.54 | (SEC 10-K FY2022) |
+| FY2021 | $9.74 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Martin Marietta Materials's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2010 | $1M | N/A | (SEC 10-K FY2010) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $425M | 7.3% | (SEC 10-K FY2025) |
+| FY2024 | $397M | 6.4% | (SEC 10-K FY2024) |
+| FY2023 | $351M | 6.5% | (SEC 10-K FY2023) |
+| FY2022 | $306M | 6.5% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $650M | (SEC 10-K FY2025) |
+| FY2024 | $482M | (SEC 10-K FY2024) |
+| FY2023 | $423M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $150M | $150M | $0M | (SEC 10-K) |
+| Dividends Paid | $174M | $160M | $148M | (SEC 10-K) |
 
-Martin Marietta Materials's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Martin Marietta Materials's M&A strategy reflects its approach to growth in Construction Materials. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Martin Marietta Materials's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Martin Marietta Materials's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $18.2B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $1.3B | (SEC 10-K FY2025) |
+| Long-Term Debt | $5.4B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $9.5B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Martin Marietta Materials's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in construction materials affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> – RISK FACTORS 
+ An investment in Martin Marietta common stock or debt securities involves risks and uncertainties. You should consider the following factors carefully, in addition to the other information contained in this Form 10-K, before deciding to purchase or otherwise trade the Company’s securities. 
+ This Form 10-K and other written reports and oral statements made from time to time by the Company contain statements that, to the extent they are not recitations of historical fact, constitute forward-looking statements within the meaning of federal securities law. Investors are cautioned that all forward-looking statements involve risks and uncertainties, and are based on assumptions that the Company believes in good faith are reasonable, but which may be materially different from actual results. Investors can identify these statements by the fact that they do not relate only to historic or current facts. The words “may,” “will,” “could,” “should,” “anticipate,” “believe,” “estimate,” “expect,” “forecast,” “intend,” “outlook,” “plan,” “project,” “scheduled,” and similar expressions in connection with future events or future operating or financial performance are intended to identify forward-looking statements. Any or all of the Company’s forward-looking statements in this Form 10‑K and in other publications may turn out to be wrong. 
+ Statements and assumptions on future revenues, income and cash flows, performance, economic trends, the outcome of litigation, regulatory compliance, and environmental remediation cost estimates are examples of forward-looking statements. Numerous factors, including potentially the risk factors described in this section, could affect the Company's forward-looking statements and actual performance. 
+ Investors are also cautioned that it is not possible to predict or identify all such factors. Consequently, the reader should not consider any such list to be a complete statement of all potential risks or uncertainties. Other factors besides those listed may also adversely affect the Company and may be material to the Company. The Company has listed the known material risks it considers relevant in evaluating the Company and its operations. The forward-looking statements in this document are intended to be subject to the safe harbor protection provided by Section 27A of the Securities Act of 1933 and Section 21E of the Exchange Act. These forward-looking statements are made as of the date hereof based on management’s curren
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> – LEGAL PROCEEDINGS 
+ From time to time, claims of various types are asserted against the Company arising out of its operations in the normal course of business, including claims relating to land use and permits, safety, health, and environmental matters (such as noise abatement, blasting, vibrations, air emissions and water discharges). Such matters are subject to many uncertainties, and it is not possible to determine the probable outcome of, or the amount of liability, if any, from these matters. In the opinion of management of the Company (which opinion is based in part upon consideration of the opinion of counsel), based upon currently-available facts, it is remote that the ultimate outcome of any litigation and other proceedings will have a material adverse effect on the overall results of the Company's operations, its cash flows or its financial condition. However, management cannot assure that an adverse outcome in any of such litigation would not have a material adverse effect on the Company or its operating segments. 
+ The Company was not required to pay any penalties in 2025 for failure to disclose certain “reportable transactions” under Section 6707A of the Internal Revenue Code. 
+ See also Note N: Commitments and Contingencies of the Notes to Financial Statements of the Company’s consolidated financial statements included under Item 8, Financial Statements and Supplemental Data of this Form 10-K and the Environmental Regulation and Litigation section included und
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Martin Marietta Materials's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -5.0% YoY (FY2025) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2025) | $1.2B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Martin Marietta Materials's position in construction materials reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All MLM Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000916076&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=916076&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=916076&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000916076.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000916076.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-19. Update required when next annual filing is submitted to EDGAR.

@@ -258,8 +258,7 @@ referencing Ford Motor Company.
 - Consumer sentiment generalizations without cited survey data ("Ford customers are unhappy")
 - Assertions that Ford's EV scaling adjustments represent a failure without hedged language
   ("Ford indicated it was adjusting timelines" vs. "Ford's EV program failed")
-- Any characterization of Ford's business practices using words from the prohibited list:
-  deceptive, fraudulent, manipulative, predatory, exploitative, intentionally, deliberately
+- Any characterization of Ford's business practices using words from the prohibited list: deceptive, fraudulent, manipulative, predatory, exploitative, intentionally, deliberately
 
 ---
 

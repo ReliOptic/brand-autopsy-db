@@ -1,132 +1,176 @@
 # 07. Financial Anatomy — Leidos (LDOS)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — LDOS](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Leidos&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — LDOS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Leidos&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — LDOS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Leidos&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — LDOS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Leidos&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — LDOS 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — LDOS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — LDOS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — LDOS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Leidos.
+**CIK**: 0001336920
+**Period**: 2026-01-02 | **Filed**: 2026-02-17 | **Form**: 10-K
+**Accession**: 0001336920-26-000030
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Leidos's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $15.3B | +7.4% | (SEC 10-K FY2025) |
+| FY2024 | $14.3B | +4.9% | (SEC 10-K FY2024) |
+| FY2023 | $13.6B | +11.6% | (SEC 10-K FY2023) |
+| FY2022 | $12.2B | +11.1% | (SEC 10-K FY2022) |
+| FY2021 | $11.0B | +7.7% | (SEC 10-K FY2021) |
+| FY2020 | $10.2B | +0.0% | (SEC 10-K FY2020) |
+| FY2019 | $10.2B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001336920](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Leidos's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Diversified Support Services. (SEC 10-K)
+Based on public SEC filings, Leidos operates in the **Diversified Support Services** segment within the **Industrials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Leidos's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 4.0% | 7.6% | 8.5% | (SEC 10-K) |
+| Net Margin | 1.3% | 4.8% | 5.5% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in diversified support services. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $1.44 | (SEC 10-K FY2025) |
+| FY2024 | $4.96 | (SEC 10-K FY2024) |
+| FY2023 | $5.27 | (SEC 10-K FY2023) |
+| FY2022 | $4.36 | (SEC 10-K FY2022) |
+| FY2021 | $4.60 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Leidos's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $128M | 0.8% | (SEC 10-K FY2025) |
+| FY2024 | $116M | 0.8% | (SEC 10-K FY2024) |
+| FY2023 | $109M | 0.8% | (SEC 10-K FY2023) |
+| FY2022 | $73M | 0.6% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $942M | 6.1% | (SEC 10-K FY2025) |
+| FY2024 | $951M | 6.7% | (SEC 10-K FY2024) |
+| FY2023 | $851M | 6.2% | (SEC 10-K FY2023) |
+| FY2022 | $770M | 6.3% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2019 | $81M | (SEC 10-K FY2019) |
+| FY2018 | $29M | (SEC 10-K FY2018) |
+| FY2017 | $27M | (SEC 10-K FY2017) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $225M | $0M | $237M | (SEC 10-K) |
+| Dividends Paid | N/A | N/A | N/A | (SEC 10-K) |
 
-Leidos's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Leidos's M&A strategy reflects its approach to growth in Diversified Support Services. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Leidos's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Leidos's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $13.0B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $641M | (SEC 10-K FY2025) |
+| Long-Term Debt | $1.3B | (SEC 10-K FY2013) |
+| Shareholders' Equity | $4.4B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Leidos's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in diversified support services affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors 
+ In your evaluation of our company and business, you should carefully consider the risks and uncertainties described below, together with information disclosed elsewhere in this Annual Report on Form 10-K, including our consolidated financial statements and the related notes and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II of this Annual Report, and other documents we file with the SEC. The risks and uncertainties described below are those that we have identified as material but are not the only risks and uncertainties facing us. If any of these risks or uncertainties actually occurs, our business, financial condition or operating results could be materially harmed, and our stock price could decline. Our business is also subject to general risks and uncertainties that affect many other companies, such as our ability to collect receivables, overall U.S. and global economic and industry conditions, geopolitical events, changes in laws or accounting rules, fluctuations in interest, exchange rates and inflation, terrorism, international conflicts, major health concerns, climate change or other disruptions of expected economic and business conditions. Additional risks and uncertainties not currently known to us or that we currently believe are immaterial also may materially harm our business, financial condition or operating results. In that event, the trading price of our stock could decline, and you could lose part or all of your investment. 
+ SUMMARY OF RISK FACTORS 
+ This risk factor summary contains a high-level summary of risks associated with our business. It does not contain all of the information that may be important to you, and you should read this risk factor summary together with the more detailed discussion of risks and uncertainties set forth following this summary. A summary of our risks includes, but is not limited to, the following: 
+ u We depend on government agencies as our primary customers and if our reputation or relationships with these agencies were harmed, our future revenues and growth prospects could be adversely affected. 
+ u A decline in the U.S. government budget, changes in spending or budgetary priorities or delays in contract awards may significantly and adversely affect our future revenues and limit our growth prospects. 
+ u Because we depend on U.S. government contracts, a delay in the completion of the U.S. government’s budget and appropriations process co
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ We have provided information about legal proceedings in which we are involved in “Note 21—Commitments and Contingencies” of the notes to the consolidated financial statements contained within this Annual Report on Form 10-K. 
+ In addition, we are routinely subject to investigations and reviews relating to compliance with various laws and regulations. Additional information regarding such investigations and reviews is set forth in “Note 21—Commitments and Contingencies” of the notes to the consolidated financial statements contained within this Annual Report on Form 10-K.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Leidos's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +7.4% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $199M | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 0.8% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Leidos's position in diversified support services reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All LDOS Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001336920&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1336920&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1336920&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001336920.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001336920.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-17. Update required when next annual filing is submitted to EDGAR.

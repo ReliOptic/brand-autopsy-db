@@ -44,7 +44,7 @@ The strategic core of this positioning is the separation of "pizza quality" from
 
 | Type | Archetype | Behavioral Mandate |
 |------|-----------|-------------------|
-| **Primary** | **Everyman** | "This is for everyone." Domino's never signals exclusivity. Price points, advertising, and store design are deliberately accessible. The brand's most celebrated campaign admitted the product was flawed — a move only an Everyman brand can survive. (T4_INFERRED from brand behavior analysis) |
+| **Primary** | **Everyman** | "This is for everyone." Domino's never signals exclusivity. Price points, advertising, and store design are structured for broad accessibility. The brand's most celebrated campaign admitted the product was flawed — a move only an Everyman brand can survive. (T4_INFERRED from brand behavior analysis) |
 | **Secondary** | **Magician** | Technology as transformation. The Domino's Tracker, AnyWare ordering, GPS delivery tracking (Domino's GPS Driver Tracker, launched 2019), and the Domino's Carside Delivery innovation create a sense that logistics magic has been performed on the customer's behalf. (official, company press releases) |
 | **Shadow** | **Outlaw** | The 1988 "30 minutes or it's free" guarantee — discontinued in 1993 after litigation related to delivery driver accidents — represents the brand's outlaw shadow. The brand remains associated with speed above all else, and this legacy creates residual pressure on franchisee operations regarding driver safety and compensation. (T3_SECONDARY_RELIABLE, press reporting on guarantee discontinuation) |
 

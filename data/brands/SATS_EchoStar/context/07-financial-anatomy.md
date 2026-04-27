@@ -1,132 +1,182 @@
 # 07. Financial Anatomy — EchoStar (SATS)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — SATS](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=EchoStar&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — SATS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=EchoStar&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — SATS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=EchoStar&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — SATS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=EchoStar&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — SATS 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — SATS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — SATS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — SATS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for EchoStar.
+**CIK**: 0001415404
+**Period**: 2025-12-31 | **Filed**: 2026-03-02 | **Form**: 10-K
+**Accession**: 0001104659-26-021817
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-EchoStar's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $17.0B | -8.7% | (SEC 10-K FY2025) |
+| FY2024 | $18.6B | -6.0% | (SEC 10-K FY2024) |
+| FY2023 | $19.8B | +949.8% | (SEC 10-K FY2023) |
+| FY2022 | $1.9B | +0.1% | (SEC 10-K FY2022) |
+| FY2021 | $1.9B | +7.0% | (SEC 10-K FY2021) |
+| FY2020 | $1.8B | +15.6% | (SEC 10-K FY2020) |
+| FY2019 | $1.5B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001415404](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-EchoStar's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Wireless Telecommunication Services. (SEC 10-K)
+Based on public SEC filings, EchoStar operates in the **Wireless Telecommunication Services** segment within the **Communication Services** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-EchoStar's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | -1.6% | 12.0% | 17.3% | (SEC 10-K) |
+| Net Margin | -10.0% | N/A | N/A | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in wireless telecommunication services. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $-6.28 | (SEC 10-K FY2025) |
+| FY2024 | $8.05 | (SEC 10-K FY2024) |
+| FY2023 | $7.94 | (SEC 10-K FY2023) |
+| FY2022 | $-0.41 | (SEC 10-K FY2022) |
+| FY2021 | $-0.65 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-EchoStar's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $110M | 0.6% | (SEC 10-K FY2025) |
+| FY2024 | $110M | 0.6% | (SEC 10-K FY2024) |
+| FY2023 | $91M | 0.5% | (SEC 10-K FY2023) |
+| FY2022 | $29M | 1.6% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $3.0B | 17.6% | (SEC 10-K FY2025) |
+| FY2024 | $3.0B | 16.2% | (SEC 10-K FY2024) |
+| FY2023 | $2.7B | 13.6% | (SEC 10-K FY2023) |
+| FY2022 | $475M | 25.2% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $3.1B | (SEC 10-K FY2025) |
+| FY2024 | $3.1B | (SEC 10-K FY2024) |
+| FY2023 | $1.6B | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $49M | $89M | $261M | (SEC 10-K) |
 
-EchoStar's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. EchoStar's M&A strategy reflects its approach to growth in Wireless Telecommunication Services. (SEC 10-K, 8-K filings)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 6. Financial Health
+## 6. Balance Sheet Highlights (Latest FY)
 
-### 6.1 Balance Sheet Summary
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $60.9B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $4.3B | (SEC 10-K FY2025) |
+| Long-Term Debt | $951M | (SEC 10-K FY2023) |
+| Shareholders' Equity | $20.2B | (SEC 10-K FY2025) |
 
-EchoStar's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of EchoStar's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
-
----
-
-## 7. Brand Valuation
-
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in EchoStar's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in wireless telecommunication services affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ ​ 
+The risks and uncertainties described below are not the only ones facing us. If any of the following events occur or evolve in a way different than expected, our business, financial condition, or results of operations could be materially and adversely affected. 
+ ​ 
+ Risks Relating to Pending Transactions 
+ ​ 
+ The timing and closing of the AT&T Transactions and SpaceX Transactions are not certain, and are subject to certain conditions, some of which we cannot control, which could result in the AT&T Transactions or SpaceX Transactions, respectively, not being completed or being completed later than we expect, which could have a material adverse impact on our expected leverage and available cash-on-hand, as well as costs and revenues, or otherwise reduce the anticipated benefits of the AT&T Transactions and SpaceX Transactions, respectively. 
+ ​ 
+The transaction agreements governing the AT&T Transactions and SpaceX Transactions (together, the “Transaction Agreements”) are subject to certain closing conditions including the satisfaction of certain antitrust, FCC and other regulatory approvals, none of which have been satisfied yet. Governmental agencies might not approve the AT&T Transactions and/or the SpaceX Transactions or may impose conditions to any such approval or require changes to the terms of such transactions. Any such condition or change could have the effect of delaying completion of the AT&T Transactions and/or SpaceX Transactions, imposing costs on or otherwise reduce the anticipated benefits of the transactions. Furthermore, under the Transaction Agreements, each party’s obligation to consummate the transactions are also subject to the accuracy of the representations and warranties of the other party (subject to certain qualifications and exceptions) and the performance in all material respects of the other party’s covenants under the Transaction Agreements. 
+ ​ 
+As a result of these conditions, among other factors, we cannot provide assurance that the AT&T Transactions and/or SpaceX Transactions will be completed on the terms or timeline currently contemplated, or at all. If such conditions are not fulfilled by the deadlines in the applicable Transaction Agreements (including applicable extensions provided under the Transaction Agreements), the Transaction Agreements may be terminated and the AT&T Transactions and/or SpaceX Transactions may not be completed. 
+ ​ 
+ Because each of the AT&T Transactions and the SpaceX Trans
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ ​ 
+See Note 15 in the Notes to our Consolidated Financial Statements in this Annual Report on Form 10-K for information regarding certain legal proceedings in which we are involved. 
+ ​
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between EchoStar's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -8.7% YoY (FY2025) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2025) | $-1.7B | Net loss environment limits discretionary brand spend |
+| R&D Intensity (FY2025) | 0.6% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: EchoStar's position in wireless telecommunication services reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All SATS Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001415404&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1415404&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1415404&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001415404.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001415404.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-03-02. Update required when next annual filing is submitted to EDGAR.

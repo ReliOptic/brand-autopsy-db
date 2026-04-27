@@ -1,132 +1,174 @@
 # 07. Financial Anatomy — Jabil (JBL)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — JBL](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Jabil&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — JBL 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Jabil&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — JBL DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Jabil&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — JBL 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Jabil&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — JBL 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — JBL 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — JBL DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — JBL 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Jabil.
+**CIK**: 0000898293
+**Period**: 2025-08-31 | **Filed**: 2025-10-17 | **Form**: 10-K
+**Accession**: 0001628280-25-045293
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Jabil's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $34.7B | +3.7% | (SEC 10-K FY2025) |
+| FY2024 | $33.5B | +14.3% | (SEC 10-K FY2024) |
+| FY2023 | $29.3B | +7.4% | (SEC 10-K FY2023) |
+| FY2022 | $27.3B | +7.8% | (SEC 10-K FY2022) |
+| FY2021 | $25.3B | +14.4% | (SEC 10-K FY2021) |
+| FY2020 | $22.1B | -12.6% | (SEC 10-K FY2020) |
+| FY2019 | $25.3B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000898293](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Jabil's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Electronic Manufacturing Services. (SEC 10-K)
+Based on public SEC filings, Jabil operates in the **Electronic Manufacturing Services** segment within the **Information Technology** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Jabil's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 8.3% | 7.9% | 8.1% | (SEC 10-K) |
+| Operating Margin | 4.4% | 4.2% | 3.6% | (SEC 10-K) |
+| Net Margin | 2.4% | 3.0% | 2.4% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in electronic manufacturing services. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $6.02 | (SEC 10-K FY2025) |
+| FY2024 | $6.90 | (SEC 10-K FY2024) |
+| FY2023 | $4.58 | (SEC 10-K FY2023) |
+| FY2022 | $0.35 | (SEC 10-K FY2022) |
+| FY2021 | $1.81 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Jabil's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $34M | 0.1% | (SEC 10-K FY2025) |
+| FY2024 | $33M | 0.1% | (SEC 10-K FY2024) |
+| FY2023 | $34M | 0.1% | (SEC 10-K FY2023) |
+| FY2022 | $43M | 0.2% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $1.2B | 3.5% | (SEC 10-K FY2025) |
+| FY2024 | $1.2B | 3.4% | (SEC 10-K FY2024) |
+| FY2023 | $1.2B | 4.1% | (SEC 10-K FY2023) |
+| FY2022 | $1.2B | 4.3% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $1.0B | (SEC 10-K FY2025) |
+| FY2024 | $1.4B | (SEC 10-K FY2024) |
+| FY2023 | $1.2B | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $487M | $696M | $428M | (SEC 10-K) |
+| Dividends Paid | $45M | $48M | $50M | (SEC 10-K) |
 
-Jabil's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Jabil's M&A strategy reflects its approach to growth in Electronic Manufacturing Services. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Jabil's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Jabil's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $17.4B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $2.2B | (SEC 10-K FY2025) |
+| Long-Term Debt | $2.9B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $1.7B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Jabil's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in electronic manufacturing services affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors 
+ Business and Operational Risks 
+ Our ability to schedule production, manage capital expenditures, and maximize the efficiency of our manufacturing capacity is highly dependent on the actions of our customers, who generally do not commit to long-term production schedules and cancel orders, change production quantities, delay production, and/or change sourcing strategy. 
+ Most of our customers do not commit to firm production schedules for more than one quarter. We make significant decisions, including determining the levels of business that we will seek and accept, production schedules and locations, component procurement commitments, personnel needs, and other resource requirements, based on our estimate of customer requirements. Our inability to forecast the level of customer orders with certainty makes it difficult to schedule production and maximize utilization of our manufacturing capacity and supply chain capabilities. 
+ Many factors outside of our control impact our customers and their ordering behavior, including recession in end markets, changing technology and industry standards, commercial acceptance for products and shifting market demand, product obsolescence, global pandemics, and loss of business. Customers have canceled their orders, changed production quantities or designs, delayed production, changed their sourcing strategy, and terminated their relationships with us. We cannot assure you that present or future customers will not terminate their service arrangements with us or significantly change, reduce, cancel, or delay the amount of services ordered. Such changes, delays, and cancellations have led to, and may lead in the future to, a decline in our production and our possession of excess or obsolete inventory that we may not be able to sell to customers or third parties. This has, and may again, result in write downs of inventories, reduction in the number of products that we sell, delays in payment for inventory that we purchased, and reductions in the use of our manufacturing facilities. As many of our costs and operating expenses are relatively fixed, a reduction in customer demand, particularly a reduction in demand for a product that represents a significant amount of revenue, can harm our gross profit margins and results of operations. In the past, we have also been required to increase staffing and other expenses in order to meet anticipated demand. On occasion, customers have required rapid increases in produc
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ See the discussio n in Note 19 – “Commitments and Contingencies” to the Consolidat ed Financial Statements.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Jabil's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +3.7% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $818M | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 0.1% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Jabil's position in electronic manufacturing services reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All JBL Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000898293&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=898293&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=898293&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000898293.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000898293.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-10-17. Update required when next annual filing is submitted to EDGAR.

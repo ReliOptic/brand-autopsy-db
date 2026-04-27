@@ -1,132 +1,159 @@
 # 07. Financial Anatomy — Walmart (WMT)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — WMT](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Walmart&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — WMT 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Walmart&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — WMT DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Walmart&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — WMT 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Walmart&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2026 | [SEC EDGAR — WMT 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — WMT 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2026 | [SEC EDGAR — WMT DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — WMT 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Walmart.
+**CIK**: 0000104169
+**Period**: 2026-01-31 | **Filed**: 2026-03-13 | **Form**: 10-K
+**Accession**: 0000104169-26-000055
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Walmart's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2026 | $642.6B | +6.1% | (SEC 10-K FY2026) |
+| FY2025 | $605.9B | +6.7% | (SEC 10-K FY2025) |
+| FY2024 | $567.8B | +2.3% | (SEC 10-K FY2024) |
+| FY2023 | $555.2B | +6.8% | (SEC 10-K FY2023) |
+| FY2022 | $519.9B | +1.9% | (SEC 10-K FY2022) |
+| FY2021 | $510.3B | +2.9% | (SEC 10-K FY2021) |
+| FY2020 | $495.8B | — | (SEC 10-K FY2020) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000104169](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Walmart's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Consumer Staples Merchandise Retail. (SEC 10-K)
+Based on public SEC filings, Walmart operates in the **Consumer Staples Merchandise Retail** segment within the **Consumer Staples** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Walmart's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2026 | FY2025 | FY2024 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 4.2% | 3.4% | 4.6% | (SEC 10-K) |
+| Net Margin | 2.4% | 1.9% | 2.4% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in consumer staples merchandise retail. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+_EPS data not available in EDGAR XBRL._
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Walmart's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2026 | $131.0B | 20.4% | (SEC 10-K FY2026) |
+| FY2025 | $127.1B | 21.0% | (SEC 10-K FY2025) |
+| FY2024 | $117.8B | 20.8% | (SEC 10-K FY2024) |
+| FY2023 | $116.3B | 20.9% | (SEC 10-K FY2023) |
 
-### 4.2 SG&A
+**Capital Expenditure**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2026 | $20.6B | (SEC 10-K FY2026) |
+| FY2025 | $16.9B | (SEC 10-K FY2025) |
+| FY2024 | $13.1B | (SEC 10-K FY2024) |
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2026 | FY2025 | FY2024 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $2.8B | $9.9B | $9.8B | (SEC 10-K) |
+| Dividends Paid | N/A | N/A | N/A | (SEC 10-K) |
 
-Walmart's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Walmart's M&A strategy reflects its approach to growth in Consumer Staples Merchandise Retail. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Walmart's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Walmart's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $252.4B | (SEC 10-K FY2026) |
+| Cash & Equivalents | $9.0B | (SEC 10-K FY2026) |
+| Long-Term Debt | $36.0B | (SEC 10-K FY2026) |
+| Shareholders' Equity | $91.0B | (SEC 10-K FY2026) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Walmart's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in consumer staples merchandise retail affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ The risks described below could, in ways we may or may not be able to accurately predict, materially and adversely affect our business, results of operations, financial position and liquidity. Our business operations could also be affected by additional factors that apply to all companies operating in the U.S. and globally. The following risk factors do not identify all risks that we may face. The disclosures below reflect our beliefs and opinions as to risk factors that could materially and adversely affect our business operations and our securities in the future. References to past events are provided by way of example only and are not intended to be a complete listing or a representation as to whether or not such risk factors have occurred in the past or their likelihood of occurring in the future. 
+ Strategic Risks 
+ Failure to successfully execute our omnichannel strategy and the cost of our investments in eCommerce and technology may materially adversely affect our market position, net sales and financial performance. 
+ The retail business continues to rapidly evolve with consumers embracing the digital shopping experience and expecting a robust online marketplace of goods available for purchase and delivery. As a result, the portion of total consumer expenditures with retailers and wholesale clubs occurring through digital platforms is increasing and the pace of this increase could continue to accelerate. 
+ Our strategy, which includes investments in eCommerce, technology, AI, talent, supply chain automation and enhancements, advertising, acquisitions, joint ventures, new store and club openings and remodels and other customer initiatives, may not adequately or effectively allow us to continue to grow our omnichannel business offerings, increase comparable sales or maintain or grow our overall market position. The success of this strategy will depend in large measure on our ability to continue building and delivering a seamless omnichannel shopping experience and interconnected ecosystem for our customers that deepens and maintains our relationships with our customers across our various businesses and partnerships. Customers are using digital means, including websites, captive and third-party digital applications, social media, and emerging agentic platforms to shop with us and our competitors and to do comparison shopping, and we use these digital means along with digital advertising, text messages and email to interact with our cu
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ I. SUPPLEMENTAL INFORMATION: The Company is involved in legal proceedings arising in the normal course of its business, including litigation, arbitration and other claims, and investigations, inspections, subpoenas, audits, claims, inquiries and similar actions by governmental authorities. We discuss certain legal proceedings in Note 9 to our Consolidated Financial Statements included in " Item 8. Financial Statements and Supplementary Data ," which is captioned "Contingencies," under the sub-caption "Legal Proceedings." We refer you to that discussion for important information concerning those legal proceedings, including the basis for such actions and, where known, the relief sought. We provide the following additional information concerning those legal proceedings, including the name of the lawsuit, the court in which the lawsuit is pending, and the date on which the petition commencing the lawsuit or appeal was filed, in addition to disclosure of certain other legal matters. 
+ Opioid-Related Litigation: In re National Prescription Opiate Litigation (MDL No. 2804) (the "MDL") is pending in the U.S. District Court for the Northern District of Ohio and includes approximately 230 cases with claims against the Company as of March 6, 2026. In addition, the following 13 other opioid-related cases against the Company and its subsidiaries were pending in U.S. state and federal courts and Canadian courts as of March 6, 2026: Baby Doe 1, et al. v. Allergan Financ
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Walmart's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +6.1% YoY (FY2026) | Growth momentum supports brand investment |
+| Net Income (FY2026) | $15.5B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Walmart's position in consumer staples merchandise retail reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All WMT Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000104169&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=104169&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=104169&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json)
+
+> **Data Freshness**: Based on FY2026 10-K filed 2026-03-13. Update required when next annual filing is submitted to EDGAR.

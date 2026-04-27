@@ -1,132 +1,169 @@
 # 07. Financial Anatomy — F5, Inc. (FFIV)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from F5, Inc.'s SEC filings (10-K) and official Investor Relations disclosures unless
+> explicitly marked "(estimated)". This analysis reflects publicly available information as of the
+> document preparation date. Source tier codes follow the project's T1–T5 classification system
+> defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — FFIV](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=F5,+Inc.&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — FFIV 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=F5,+Inc.&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — FFIV DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=F5,+Inc.&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — FFIV 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=F5,+Inc.&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 (Sep 30, 2025) | [SEC EDGAR — FFIV 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Reports) | Rolling | [SEC EDGAR — FFIV 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — FFIV DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — FFIV 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for F5, Inc..
+**CIK**: 0001048695
+**Fiscal Year End**: September 30
+**Exchange**: NASDAQ (FFIV)
+**Most Recent 10-K Accession**: 0001048695-25-000157 (filed 2025-11-25)
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Five-Year Revenue Trend
 
-F5, Inc.'s revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Total Revenue | YoY Change | Source |
+|-------------|---------------|------------|--------|
+| FY2021 | $2,242.4M | — | (SEC 10-K FY2021) |
+| FY2022 | $2,350.8M | +4.8% | (SEC 10-K FY2022) |
+| FY2023 | $2,603.4M | +10.7% | (SEC 10-K FY2023) |
+| FY2024 | $2,695.8M | +3.6% | (SEC 10-K FY2024) |
+| FY2025 | $2,813.2M | +4.4% | (SEC 10-K FY2025) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+F5 has delivered consistent revenue growth across the five-year period, with FY2023 representing the strongest growth year at +10.7%. The company operates across application delivery, security, and global services segments. As disclosed in Item 1 of its 10-K filings, F5 serves enterprise and service provider customers globally. The compound growth from FY2021 to FY2025 indicates sustained demand for multi-cloud application delivery and security services. (T4_INFERRED based on publicly disclosed segment trends)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Segment Note
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-F5, Inc.'s business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Communications Equipment. (SEC 10-K)
+F5's 10-K filings disclose product (systems and software) and global services revenue components. Detailed sub-segment breakdowns are available in the full 10-K MD&A section at the EDGAR link above. (T1_OFFICIAL)
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Consolidated Margin Structure
 
-F5, Inc.'s margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 | Source |
+|--------|--------|--------|--------|--------|--------|--------|
+| Revenue | $2,813.2M | $2,695.8M | $2,603.4M | $2,350.8M | $2,242.4M | (SEC 10-K) |
+| Gross Profit | $2,219.9M | $2,156.2M | $2,110.3M | $1,942.9M | $1,885.9M | (SEC 10-K) |
+| Gross Margin | 78.9% | 80.0% | 81.1% | 82.7% | 84.1% | (SEC 10-K, calculated) |
+| Operating Income | $472.6M | $403.8M | $394.0M | $392.3M | $518.5M | (SEC 10-K) |
+| Operating Margin | 16.8% | 15.0% | 15.1% | 16.7% | 23.1% | (SEC 10-K, calculated) |
+| Net Income | $394.9M | $322.2M | $331.2M | $307.4M | $427.7M | (SEC 10-K) |
+| Net Margin | 14.0% | 12.0% | 12.7% | 13.1% | 19.1% | (SEC 10-K, calculated) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in communications equipment. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
-
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+F5's gross margin declined from 84.1% in FY2021 to 78.9% in FY2025, which may reflect a shift in product mix toward lower-margin systems or subscription transitions. (T4_INFERRED) Operating margin recovered to 16.8% in FY2025 from a mid-period trough, suggesting improving cost management. The FY2021 operating margin of 23.1% was notably higher and may reflect a pre-investment baseline.
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+### 4.1 R&D and SG&A Expenditure
 
-F5, Inc.'s R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D Expense | R&D % Revenue | SG&A Expense | SG&A % Revenue | Source |
+|-------------|-------------|--------------|--------------|----------------|--------|
+| FY2021 | $408.1M | 18.2% | $748.6M | 33.4% | (SEC 10-K FY2021) |
+| FY2022 | $441.3M | 18.8% | $843.2M | 35.9% | (SEC 10-K FY2022) |
+| FY2023 | $512.6M | 19.7% | $930.0M | 35.7% | (SEC 10-K FY2023) |
+| FY2024 | $543.4M | 20.2% | $926.6M | 34.4% | (SEC 10-K FY2024) |
+| FY2025 | $540.3M | 19.2% | $878.2M | 31.2% | (SEC 10-K FY2025) |
 
-### 4.2 SG&A
+F5 maintained R&D investment above 19% of revenue across all five years, indicating sustained commitment to product development in its application delivery and security portfolio. The FY2025 SG&A as a percentage of revenue (31.2%) declined from the FY2023 peak (35.7%), suggesting improved sales and marketing efficiency. (T4_INFERRED)
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+### 4.2 Capital Expenditure
 
-### 4.3 Capital Expenditures
+| Fiscal Year | CapEx | CapEx % Revenue | Source |
+|-------------|-------|----------------|--------|
+| FY2021 | $103.5M | 4.6% | (SEC 10-K FY2021) |
+| FY2022 | $59.9M | 2.5% | (SEC 10-K FY2022) |
+| FY2023 | $30.7M | 1.2% | (SEC 10-K FY2023) |
+| FY2024 | $33.6M | 1.2% | (SEC 10-K FY2024) |
+| FY2025 | $54.2M | 1.9% | (SEC 10-K FY2025) |
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+CapEx has remained low relative to revenue, consistent with F5's software-centric and asset-light model. The significant reduction from FY2021 to FY2023 may reflect completion of prior infrastructure investments. (T4_INFERRED)
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+### 5.1 Share Repurchases
 
-F5, Inc.'s capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
+| Fiscal Year | Buybacks | Source |
+|-------------|---------|--------|
+| FY2021 | $201.0M | (SEC 10-K FY2021) |
+| FY2022 | $100.0M | (SEC 10-K FY2022) |
+| FY2023 | $500.0M | (SEC 10-K FY2023) |
+| FY2024 | $500.0M | (SEC 10-K FY2024) |
+| FY2025 | $350.0M | (SEC 10-K FY2025) |
 
-### 5.2 Mergers & Acquisitions
+F5 has been an active share repurchaser, deploying $1.65B in buybacks across FY2023–FY2025. This acceleration indicates management's approach to returning capital to shareholders in the absence of a disclosed regular dividend program. (T4_INFERRED)
 
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. F5, Inc.'s M&A strategy reflects its approach to growth in Communications Equipment. (SEC 10-K, 8-K filings)
+### 5.2 Dividends
 
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-F5, Inc.'s balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of F5, Inc.'s credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+Dividend payment data is not present in EDGAR XBRL for FY2021–FY2025. Based on publicly available information, F5 has historically prioritized share repurchases over cash dividends. Investors should confirm current dividend policy via the most recent 10-K or proxy statement at the EDGAR link above. (T1_OFFICIAL — confirm via filing)
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Snapshot
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Metric | FY2025 | FY2024 | FY2023 | FY2022 | FY2021 | Source |
+|--------|--------|--------|--------|--------|--------|--------|
+| Total Assets | $5,613.0M | $5,248.3M | $5,276.2M | $4,997.3M | $4,677.9M | (SEC 10-K) |
+| Cash & Equivalents | $1,074.6M | $797.2M | $758.0M | $581.0M | $849.6M | (SEC 10-K) |
+| Long-Term Debt | (not in EDGAR XBRL FY2023–FY2025) | — | — | $349.8M | $369.0M | (SEC 10-K FY2021–FY2022) |
+| Shareholders' Equity | $2,469.0M | $2,360.2M | $2,232.3M | $1,761.5M | $1,285.5M | (SEC 10-K) |
 
----
-
-## 8. Financial Risk Matrix
-
-Risk factors are disclosed in F5, Inc.'s 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
-
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in communications equipment affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
-
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+Shareholders' equity grew from $1,285.5M in FY2021 to $2,469.0M in FY2025, reflecting retained earnings accumulation. Cash increased substantially to $1,074.6M in FY2025 from $797.2M in FY2024. Long-term debt data for FY2023–FY2025 is not available in the EDGAR XBRL extract; consult the full balance sheet in the 10-K filing for current debt levels. (T1_OFFICIAL)
 
 ---
 
-## 9. Brand-Finance Nexus
+## 7. Financial Risk Matrix
 
-The relationship between F5, Inc.'s brand strength and financial performance can be observed through several signals (T4_INFERRED):
+Based on risk factors disclosed in F5's FY2025 10-K (Item 1A):
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Risk Category | Specific Risk | Source |
+|---------------|--------------|--------|
+| Cybersecurity Incident | "The Cyber Incident has had and may continue to have an adverse effect on our business, reputation, customer, employee and partner relations, results of operations, financial condition and cash flows" | (SEC 10-K FY2025, Item 1A) |
+| Cloud/SaaS Transition | "Cloud-based and SaaS computing trends present competitive and execution risks" | (SEC 10-K FY2025, Item 1A) |
+| Key Personnel | "Our success depends on our key personnel and our ability to hire, retain and motivate qualified executives, sales and marketing, operations, product development and professional services personnel" | (SEC 10-K FY2025, Item 1A) |
+| Supply Chain | "Our business may be harmed if our contract manufacturers are not able to provide us with adequate supplies of our products or if a single source of hardware assembly is lost or impaired" | (SEC 10-K FY2025, Item 1A) |
+| Revenue Visibility | "It is difficult to predict our future operating results because we have an unpredictable sales cycle" | (SEC 10-K FY2025, Item 1A) |
+| AI Regulatory Risk | "Issues related to the development and use of artificial intelligence could give rise to legal and/or regulatory action, damage our reputation or otherwise materially harm our business" | (SEC 10-K FY2025, Item 1A) |
+| International Exposure | "Our operating results are exposed to risks associated with international commerce" | (SEC 10-K FY2025, Item 1A) |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: F5, Inc.'s position in communications equipment reflects accumulated brand equity and market credibility. (T4_INFERRED)
+**Writing Risk Note for This Project**: The Cyber Incident is a named material risk in F5's 10-K. Any analysis of this event must cite the 10-K language directly and avoid characterizing the incident beyond what F5 has officially disclosed. Do not assert causation, severity, or scope beyond disclosed filings.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## 8. Brand-Finance Nexus
+
+Based on publicly available financial data and F5's disclosed business model (T4_INFERRED where noted):
+
+**Software Transition Signal**: Sustained R&D above 19% of revenue combined with CapEx intensity declining from 4.6% (FY2021) to ~1.2–1.9% (FY2023–FY2025) indicates a business shifting toward software-delivered value. This is consistent with F5's publicly stated strategy of transitioning customers to software and SaaS-based application delivery and security offerings.
+
+**Buyback-Centric Capital Return**: $1.65B+ in buybacks across three years, with no confirmed dividend program, positions F5 as a growth-oriented technology company that returns capital through equity reduction. This is a common capital allocation pattern for enterprise software and security platforms.
+
+**Operational Leverage**: Operating margin improvement from 15.0% (FY2024) to 16.8% (FY2025) on $117M of incremental revenue demonstrates that incremental revenue converted to operating profit at rates above the underlying cost structure — a signal of scale benefits in the application software model. (T4_INFERRED from disclosed financials)
+
+**Brand Resilience**: Net income recovery to $394.9M in FY2025 from $322.2M in FY2024, achieved while a named cybersecurity incident remained an active disclosed risk, suggests that customer relationships and revenue generation have remained intact. (T4_INFERRED)
+
+---
+
+## EDGAR Quick Reference
+
+| Resource | URL |
+|----------|-----|
+| All FFIV 10-K Filings | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=10-K&dateb=&owner=include&count=10 |
+| All FFIV 10-Q Filings | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=10-Q&dateb=&owner=include&count=10 |
+| All FFIV 8-K Filings | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=8-K&dateb=&owner=include&count=20 |
+| FFIV DEF 14A (Proxy) | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001048695&type=DEF+14A&dateb=&owner=include&count=10 |
+| EDGAR Full-Text Search | https://efts.sec.gov/LATEST/search-index?q=%22F5+Inc%22&forms=10-K,10-Q |
+
+*Document prepared for brand strategy analysis. Not investment advice. All figures from SEC EDGAR public filings unless marked (estimated).*

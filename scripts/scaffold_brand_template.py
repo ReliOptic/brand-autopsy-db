@@ -4,12 +4,15 @@ Brand Autopsy Generator — Produces 8-layer English brand analysis.
 Uses training knowledge + brand metadata to generate AAPL-quality analysis.
 Validates with legal_validator before saving.
 """
-import sys, os, re, json, html
+import sys
+import os
+import re
+import html
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
-from src.analyzer.legal_validator import validate_markdown
+from src.analyzer.legal_validator import validate_markdown  # noqa: E402
 
 DISCLAIMER = '> **Disclaimer**: This analysis is based on publicly available information including SEC filings, official company communications, and observed brand materials. It does not constitute investment, legal, or strategic advice. All interpretations are labeled as such. Estimates are explicitly marked `(estimated)`.'
 
@@ -136,12 +139,9 @@ Customers who embed {name}'s products and services into their operational workfl
 """
 
 def generate_layer02(ticker, name, sector, industry):
-    is_b2b = sector in ["Industrials", "Information Technology", "Energy", "Utilities", "Materials", "Real Estate"]
     is_b2c = sector in ["Consumer Discretionary", "Consumer Staples", "Communication Services"]
     is_both = sector in ["Health Care", "Financials"]
-    
-    audience_type = "B2B and B2C" if is_both or is_b2c else "primarily B2B"
-    
+
     return f"""# 02. Audience Map — {name} ({ticker})
 
 {DISCLAIMER}
@@ -1139,5 +1139,5 @@ if __name__ == '__main__':
             completed += 1
             print(f"[FAIL] {ticker} — {html.unescape(name)} | Validation failed | Worker 4 | {completed}/{total}")
     
-    print(f"\n=== SUMMARY ===")
+    print("\n=== SUMMARY ===")
     print(f"Total: {total} | Generated: {completed - skipped - failed} | Skipped: {skipped} | Failed: {failed}")

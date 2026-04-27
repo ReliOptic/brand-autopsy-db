@@ -177,7 +177,7 @@ positioning:
 | Brand Identity Dimension | The Home Depot | Lowe's | Menards |
 |--------------------------|---------------|--------|---------|
 | **Primary archetype** | Hero / Everyman (empowerment + accessibility) | Everyman / Caregiver (lifestyle + home aspiration) | Ruler (price leadership, Midwest authority) |
-| **Core customer** | DIY + Pro (dual audience, intentionally) | DIY-primary, Pro-secondary | DIY-primary, price-sensitive |
+| **Core customer** | DIY + Pro (dual audience by stated strategy) | DIY-primary, Pro-secondary | DIY-primary, price-sensitive |
 | **Brand anchor** | Orange Apron expertise culture | Store environment / lifestyle aspiration | "11% off everything" pricing events |
 | **Tagline register** | Action verb-forward ("More doing") | Outcome-oriented ("Do it right for less") | Price-forward ("Save Big Money") |
 | **Emotional territory** | Competence and accomplishment | Home comfort and aspiration | Value satisfaction |

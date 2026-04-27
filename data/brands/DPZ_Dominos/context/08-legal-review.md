@@ -192,7 +192,7 @@ The guarantee was discontinued in 1993 following settlements related to delivery
 | Prohibited Statement | Risk |
 |---------------------|------|
 | "Domino's exploits its delivery drivers." | Pejorative characterization without regulatory citation; defamation risk |
-| "Domino's is deceptive / manipulative in its franchise practices." | Defamation; requires regulatory adjudication to assert |
+| "Domino's engages in dishonest or coercive franchise practices." | Defamation; requires regulatory adjudication — do not assert without named regulatory finding |
 | "Domino's regularly violates wage laws." | Assertion of legal violation without final judgment |
 | "Domino's is responsible for the India data breach." | Factually inaccurate (master franchisee operated the systems); defamation risk |
 | "Domino's pizza is unhealthy / unsafe." | Health claim without documented regulatory action |

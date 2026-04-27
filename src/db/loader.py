@@ -318,7 +318,7 @@ def main():
     db_url = args.db_url or "sqlite:///data/brand_autopsy.db"
     print(f"DB: {db_url}")
 
-    engine = init_db(db_url)
+    init_db(db_url)
     Session = get_session(db_url)
 
     brand_dirs = sorted(d for d in brands_dir.iterdir() if d.is_dir())

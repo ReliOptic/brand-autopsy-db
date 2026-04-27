@@ -1,132 +1,159 @@
 # 07. Financial Anatomy — Chubb Limited (CB)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — CB](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Chubb+Limited&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — CB 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Chubb+Limited&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — CB DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Chubb+Limited&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — CB 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Chubb+Limited&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — CB 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — CB 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — CB DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — CB 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Chubb Limited.
+**CIK**: 0000896159
+**Period**: 2025-12-31 | **Filed**: 2026-02-27 | **Form**: 10-K
+**Accession**: 0000896159-26-000005
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Chubb Limited's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $49.7B | +15.4% | (SEC 10-K FY2025) |
+| FY2024 | $43.1B | +5.5% | (SEC 10-K FY2024) |
+| FY2023 | $40.9B | +13.5% | (SEC 10-K FY2023) |
+| FY2022 | $36.0B | +5.3% | (SEC 10-K FY2022) |
+| FY2021 | $34.2B | +4.5% | (SEC 10-K FY2021) |
+| FY2020 | $32.7B | +1.5% | (SEC 10-K FY2020) |
+| FY2019 | $32.2B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000896159](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Chubb Limited's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Property & Casualty Insurance. (SEC 10-K)
+Based on public SEC filings, Chubb Limited operates in the **Property &amp; Casualty Insurance** segment within the **Financials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Chubb Limited's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Net Margin | 18.2% | 12.2% | 20.9% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in property & casualty insurance. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $21.80 | (SEC 10-K FY2025) |
+| FY2024 | $12.39 | (SEC 10-K FY2024) |
+| FY2023 | $19.24 | (SEC 10-K FY2023) |
+| FY2022 | $7.79 | (SEC 10-K FY2022) |
+| FY2021 | $9.71 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Chubb Limited's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $4.0B | 8.1% | (SEC 10-K FY2025) |
+| FY2024 | $3.4B | 7.9% | (SEC 10-K FY2024) |
+| FY2023 | $3.1B | 7.7% | (SEC 10-K FY2023) |
+| FY2022 | $3.0B | 8.3% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $2.4B | $2.9B | $4.9B | (SEC 10-K) |
+| Dividends Paid | $1.4B | $1.4B | $1.4B | (SEC 10-K) |
 
-Chubb Limited's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Chubb Limited's M&A strategy reflects its approach to growth in Property & Casualty Insurance. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Chubb Limited's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Chubb Limited's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $246.5B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $1.7B | (SEC 10-K FY2022) |
+| Long-Term Debt | $14.4B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $64.0B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Chubb Limited's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in property & casualty insurance affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors 
+ Factors that could have a material impact on our results of operations or financial condition are outlined below. Additional risks not presently known to us or that we currently deem insignificant may also impair our business or results of operations as they become known or as facts and circumstances change. Any of the risks described below could result in a material adverse effect on our results of operations or financial condition. 
+ 
+ 
+ Insurance 
+ 
+ 
+ Our results of operations or financial condition could be adversely affected by the occurrence of natural and man-made disasters. 
+ We have substantial exposure to losses resulting from natural disasters, man-made catastrophes, such as terrorism or cyber-attack, and other catastrophic events. This could impact a variety of our businesses, including our commercial and personal lines, and life and accident and health (A&H) products. Catastrophes can be caused by various events, including hurricanes, typhoons, earthquakes, hailstorms, droughts, explosions, severe winter weather, fires, war, acts of terrorism, nuclear accidents, political instability, and other natural or man-made disasters, including a global or other wide-impact pandemic or a significant cyber-attack. The incidence and severity of catastrophes are inherently unpredictable and our losses from catastrophes could be substantial. In addition, climate change and resulting changes in global temperatures, weather patterns, and sea levels may both increase the frequency and severity of natural catastrophes and the resulting losses in the future and impact our risk modeling assumptions. We cannot predict the impact that changing climate conditions, if any, may have on our results of operations or our financial condition. We cannot predict how legal, regulatory or social responses to concerns around global climate change and the resulting impact on various sectors of the economy may impact our business. In addition, exposure to cyber risk is increasing systematically due to greater digital dependence, which may increase possible losses due to a catastrophic cyber event. Cyber catastrophic scenarios are not bound by time or geographic limitations and cyber catastrophic perils do not have well-established definitions or fundamental physical properties. Rather, cyber risks are engineered by human actors and thus are continuously evolving, often in ways that are engineered specifically to evade established loss mitigation controls. The o
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ The information required with respect to Item 3 is included in Note 14 j) to the Consolidated Financial Statements, under Item 8, which is hereby incorporated herein by reference.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Chubb Limited's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +15.4% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $9.0B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Chubb Limited's position in property & casualty insurance reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All CB Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000896159&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=896159&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=896159&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000896159.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000896159.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-27. Update required when next annual filing is submitted to EDGAR.

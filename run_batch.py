@@ -71,7 +71,6 @@ def show_status():
     """Show current progress dashboard."""
     csv_path = DATA_DIR / "sp500_list.csv"
     raw_dir = DATA_DIR / "raw"
-    brands_dir = DATA_DIR / "brands"
 
     # Count by status
     total = 0
@@ -108,7 +107,7 @@ def show_status():
                 sectors[sector]["analyzed"] += 1
 
     print(f"\n{'='*60}")
-    print(f"S&P 500 Brand Autopsy — Status Dashboard")
+    print("S&P 500 Brand Autopsy — Status Dashboard")
     print(f"{'='*60}")
     print(f"\n  Total companies:     {total}")
     print(f"  CSS crawled (OK):    {css_ok} ({100*css_ok//total}%)")
@@ -150,8 +149,7 @@ def recrawl_failed():
                 failed_tickers.add(ticker)
 
     print(f"Re-crawling {len(failed_tickers)} failed companies...")
-    # For now just re-run the full batch — it will skip those with good data
-    asyncio.run(batch_crawl())
+    asyncio.run(batch_crawl(skip_existing=True))
 
 
 def _archive_old_analysis(ticker, company_name):
@@ -212,6 +210,10 @@ def run_analysis(ticker=None, sector=None, limit=None, all_companies=False, forc
         print("All targets already analyzed!")
         return
 
+    from src.db.loader import load_brand
+    from src.db.models import get_session
+    Session = get_session("sqlite:///data/brand_autopsy.db")
+
     success, failed = 0, 0
     for i, comp in enumerate(remaining, 1):
         try:
@@ -234,10 +236,7 @@ def run_analysis(ticker=None, sector=None, limit=None, all_companies=False, forc
             engine.save_results(comp["ticker"], comp["name"], results)
 
             # Load into DB
-            from src.db.loader import load_brand
-            from src.db.models import get_session
             brand_dir = engine.get_brand_dir(comp["ticker"], comp["name"])
-            Session = get_session("sqlite:///data/brand_autopsy.db")
             load_brand(brand_dir, Session)
 
             success += 1
@@ -319,6 +318,18 @@ def run_validate_legacy():
     print(f"\nSummary: {total_pass} pass, {total_fail} with issues")
 
 
+def run_sec_fetch(ticker=None, sector=None, force=False):
+    """Fetch SEC EDGAR data (10-K metadata, XBRL financials, text sections)."""
+    from src.crawler.sec_fetcher import batch_fetch
+    asyncio.run(batch_fetch(ticker=ticker, sector=sector, force=force))
+
+
+def run_xbrl_enrich(ticker=None, sector=None):
+    """Re-fetch XBRL only for companies with empty financials."""
+    from src.crawler.sec_fetcher import batch_enrich_xbrl
+    asyncio.run(batch_enrich_xbrl(ticker=ticker, sector=sector))
+
+
 def main():
     parser = argparse.ArgumentParser(description="S&P 500 Brand Autopsy Runner")
     parser.add_argument("--ticker", type=str, help="Analyze single ticker")
@@ -330,7 +341,9 @@ def main():
     parser.add_argument("--validate", action="store_true", help="Alias for --validate-only")
     parser.add_argument("--legacy-validate", action="store_true", help="Run legacy structure validator")
     parser.add_argument("--recrawl", action="store_true", help="Re-crawl failed CSS")
-    parser.add_argument("--force", action="store_true", help="Force regeneration of already-analyzed brands")
+    parser.add_argument("--sec-fetch", action="store_true", help="Fetch SEC EDGAR data for all companies")
+    parser.add_argument("--xbrl-enrich", action="store_true", help="Re-fetch XBRL only for companies with empty financials")
+    parser.add_argument("--force", action="store_true", help="Force regeneration / re-fetch of already-done items")
     parser.add_argument("--verbose-validation", action="store_true", help="Show detailed validation issues")
     args = parser.parse_args()
 
@@ -342,6 +355,10 @@ def main():
         run_validate_legacy()
     elif args.recrawl:
         recrawl_failed()
+    elif args.sec_fetch:
+        run_sec_fetch(ticker=args.ticker, sector=args.sector, force=args.force)
+    elif args.xbrl_enrich:
+        run_xbrl_enrich(ticker=args.ticker, sector=args.sector)
     else:
         run_analysis(args.ticker, args.sector, args.limit, args.all, force=args.force)
 

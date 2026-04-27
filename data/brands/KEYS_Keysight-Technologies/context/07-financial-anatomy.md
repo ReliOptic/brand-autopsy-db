@@ -1,132 +1,169 @@
 # 07. Financial Anatomy — Keysight Technologies (KEYS)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — KEYS](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keysight+Technologies&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — KEYS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keysight+Technologies&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — KEYS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keysight+Technologies&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — KEYS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keysight+Technologies&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — KEYS 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — KEYS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — KEYS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — KEYS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Keysight Technologies.
+**CIK**: 0001601046
+**Period**: 2025-10-31 | **Filed**: 2025-12-17 | **Form**: 10-K
+**Accession**: 0001601046-25-000127
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Keysight Technologies's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+_XBRL revenue data not available for this company._
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001601046](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Keysight Technologies's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Electronic Equipment & Instruments. (SEC 10-K)
+Based on public SEC filings, Keysight Technologies operates in the **Electronic Equipment &amp; Instruments** segment within the **Information Technology** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Keysight Technologies's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+_Margin data requires revenue XBRL figures; not available for this company._
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in electronic equipment & instruments. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $5.91 | (SEC 10-K FY2025) |
+| FY2024 | $6.18 | (SEC 10-K FY2024) |
+| FY2023 | $4.78 | (SEC 10-K FY2023) |
+| FY2022 | $3.31 | (SEC 10-K FY2022) |
+| FY2021 | $3.25 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Keysight Technologies's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $882M | N/A | (SEC 10-K FY2025) |
+| FY2024 | $841M | N/A | (SEC 10-K FY2024) |
+| FY2023 | $811M | N/A | (SEC 10-K FY2023) |
+| FY2022 | $715M | N/A | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $1.3B | N/A | (SEC 10-K FY2025) |
+| FY2024 | $1.3B | N/A | (SEC 10-K FY2024) |
+| FY2023 | $1.2B | N/A | (SEC 10-K FY2023) |
+| FY2022 | $1.1B | N/A | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $197M | (SEC 10-K FY2025) |
+| FY2024 | $185M | (SEC 10-K FY2024) |
+| FY2023 | $174M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $702M | $849M | $673M | (SEC 10-K) |
 
-Keysight Technologies's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Keysight Technologies's M&A strategy reflects its approach to growth in Electronic Equipment & Instruments. (SEC 10-K, 8-K filings)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 6. Financial Health
+## 6. Balance Sheet Highlights (Latest FY)
 
-### 6.1 Balance Sheet Summary
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $9.3B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $1.8B | (SEC 10-K FY2025) |
+| Long-Term Debt | $1.8B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $5.1B | (SEC 10-K FY2025) |
 
-Keysight Technologies's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Keysight Technologies's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
-
----
-
-## 7. Brand Valuation
-
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Keysight Technologies's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in electronic equipment & instruments affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> .  Risk Factors 
+ Risks, Uncertainties and Other Factors That May Affect Future Results 
+ Risks Related to Our Business 
+ Volatility and uncertainty in general economic conditions may adversely affect our operating results and financial condition. 
+ Our business is sensitive to negative changes in general economic conditions, both inside and outside the U.S. Global and regional economic volatility and uncertainty, inflation and potential recession has and may continue to impact our business, resulting in: 
+ • increased cost to manufacture products or deliver solutions; 
+ • reduced customer purchasing power; 
+ • reduced demand for our solutions and services and reduced, delayed or canceled orders; 
+ • increased risk of excess and obsolete inventory; 
+ • increased risk of supply chain shortages; 
+ • increased price pressure on our solutions and services; and 
+ • greater risk of impairment to the value, and a detriment to the liquidity, of our future investment portfolio. 
+ In addition, global and regional macroeconomic developments, such as uncertainty related to future economic activity, increased tariff rates and reciprocal tariffs, volatility in financial and capital markets, reduced access to credit, changing interest rates, decreased liquidity, uncertain or destabilizing national elections and reactions to national election results, political violence and unrest in the U.S., the U.K., Europe, and Asia, and negative changes or volatility in general economic conditions in those regions could negatively affect our ability to conduct business in those territories. Financial difficulties experienced by our suppliers and customers due to economic volatility could result in product delays, reduced purchasing power, delays in payment or inability to pay us, and inventory issues. Economic risks related to accounts receivable could result in delays in collection and greater bad debt expense. 
+ Economic, political, and other risks associated with international sales and operations could adversely affect our results of operations. 
+ Because we operate our businesses and sell our solutions worldwide, our businesses are subject to risks associated with doing business internationally. We anticipate that revenue from international operations will continue to represent a majority of our total revenue. However, there can be no assurances that our international sales will continue at existing levels or grow in accordance with our effort to increase foreign market penetrat
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ On January 1, 2022, Centripetal Networks filed a lawsuit in Federal District Court in Virginia, alleging that certain Keysight products infringe certain of Centripetal’s patents. We challenged the validity of claims of eight of these patents at the U.S. Patent and Trademark Office, with all or most claims being found invalid in each patent. Centripetal is appealing seven of these results. In addition, in February 2022 Centripetal filed complaints in Germany alleging infringement of three of Centripetal’s German patents. Keysight challenged the validity of the claims of these patents in German nullity or European Patent Office (“EPO”) opposition procedures. Two of the three patents were invalidated, and the appeals process has ended. The third patent had all but one claim invalidated at trial and is under appeal. In April 2022, Centripetal filed a complaint with the International Trade Commission (“ITC”) requesting that they investigate whether Keysight violated Section 337 of the Tariff Act (“Section 337”) and should be enjoined from importing certain products that are manufactured outside of the U.S. and which are alleged to infringe Centripetal patents. On December 5, 2023, the ITC issued its Notice of Determination that Keysight did not unfairly import products in violation of Section 337 and the investigation was terminated. Centripetal has appealed this determination. The lawsuit in Federal District Court in Virginia is stayed pending the finalization
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Keysight Technologies's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Net Income (FY2025) | $1.1B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Keysight Technologies's position in electronic equipment & instruments reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All KEYS Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601046&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1601046&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1601046&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001601046.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001601046.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-12-17. Update required when next annual filing is submitted to EDGAR.

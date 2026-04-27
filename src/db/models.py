@@ -3,7 +3,7 @@
 from datetime import datetime, date
 from sqlalchemy import (
     create_engine, Column, Integer, String, Text, SmallInteger, Date,
-    DateTime, Numeric, ForeignKey, CheckConstraint, Index, event,
+    DateTime, Numeric, ForeignKey, CheckConstraint, Index,
 )
 from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 import os

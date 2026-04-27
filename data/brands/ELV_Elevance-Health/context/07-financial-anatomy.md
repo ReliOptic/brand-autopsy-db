@@ -1,132 +1,164 @@
 # 07. Financial Anatomy — Elevance Health (ELV)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — ELV](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Elevance+Health&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — ELV 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Elevance+Health&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — ELV DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Elevance+Health&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — ELV 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Elevance+Health&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — ELV 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — ELV 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — ELV DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — ELV 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Elevance Health.
+**CIK**: 0001156039
+**Period**: 2025-12-31 | **Filed**: 2026-02-06 | **Form**: 10-K
+**Accession**: 0001156039-26-000013
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Elevance Health's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $171.3B | +9.4% | (SEC 10-K FY2025) |
+| FY2024 | $156.6B | +13.0% | (SEC 10-K FY2024) |
+| FY2023 | $138.6B | +13.8% | (SEC 10-K FY2023) |
+| FY2022 | $121.9B | +16.9% | (SEC 10-K FY2022) |
+| FY2021 | $104.2B | +13.1% | (SEC 10-K FY2021) |
+| FY2020 | $92.1B | +2.3% | (SEC 10-K FY2020) |
+| FY2019 | $90.0B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001156039](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Elevance Health's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Managed Health Care. (SEC 10-K)
+Based on public SEC filings, Elevance Health operates in the **Managed Health Care** segment within the **Health Care** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Elevance Health's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 5.0% | 5.3% | 5.5% | (SEC 10-K) |
+| Net Margin | 3.5% | 3.8% | 4.4% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in managed health care. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $25.22 | (SEC 10-K FY2025) |
+| FY2024 | $24.28 | (SEC 10-K FY2024) |
+| FY2023 | $24.95 | (SEC 10-K FY2023) |
+| FY2022 | $17.98 | (SEC 10-K FY2022) |
+| FY2021 | $18.47 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Elevance Health's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $20.1B | 11.7% | (SEC 10-K FY2025) |
+| FY2024 | $17.7B | 11.3% | (SEC 10-K FY2024) |
+| FY2023 | $15.9B | 11.5% | (SEC 10-K FY2023) |
+| FY2022 | $17.4B | 14.3% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**Capital Expenditure**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $1.3B | (SEC 10-K FY2025) |
+| FY2024 | $1.2B | (SEC 10-K FY2024) |
+| FY2023 | $1.1B | (SEC 10-K FY2023) |
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $2.7B | $2.3B | $1.9B | (SEC 10-K) |
+| Dividends Paid | $1.4B | $1.2B | $1.1B | (SEC 10-K) |
 
-Elevance Health's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Elevance Health's M&A strategy reflects its approach to growth in Managed Health Care. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Elevance Health's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Elevance Health's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $116.9B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $8.3B | (SEC 10-K FY2025) |
+| Long-Term Debt | $30.9B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $41.3B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Elevance Health's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in managed health care affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS. 
+ In evaluating our business, the risks described below, as well as the other information contained in this Annual Report on Form 10-K, should be carefully considered. Any one or more of such risks could materially and adversely affect our business, financial condition, results of operations and stock price and could cause our actual results of operations and financial condition to vary materially from past or anticipated future results of operations and financial condition. Additional risks and uncertainties not presently known to us or that we currently believe to be immaterial may also materially and adversely affect us. 
+ BUSINESS RISKS 
+ If we fail to appropriately predict, price for and manage healthcare costs, the profitability of our products and services could decline, which could adversely affect our business, cash flows, financial condition and results of operations. 
+ Our profitability depends on our ability to appropriately predict and price for healthcare costs. It also depends on our ability to manage future healthcare costs through medical management, product design, negotiation of favorable provider contracts and underwriting criteria. Total healthcare costs are affected by the type, number and unit cost of individual services rendered. Numerous factors affecting healthcare costs may adversely affect our ability to predict and manage such costs, and could adversely impact our business, cash flows, financial condition and results of operations. These factors include, among others: changes in healthcare practices; healthcare utilization patterns; demographic characteristics including the aging population; previously uninsured members entering the healthcare system; short and long-term risks associated with our members' lifestyle decisions; medical cost inflation; increased labor costs; provider and member fraud; evolution of new technologies, drugs and treatments; increased cost of individual services; increased number and cost of prescription drugs; direct-to-consumer marketing by drug manufacturers; clusters of high cost cases; increased use of services, including resulting from pandemics, large-scale medical emergencies, natural disasters, geopolitical instability and other public health crises; and new mandated benefits and treatment guidelines and changes to other regulations impacting our business. 
+ Our estimates of future benefit cost projections involve extensive judgment and are subject to considerable inherent vari
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS. 
+ For information regarding our legal proceedings, see Note 14, “Commitments and Contingencies – Litigation and Regulatory Proceedings ,” of the Notes to Consolidated Financial Statements included in Part II, Item 8 of this Annual Report on Form 10-K, which information is incorporated herein by reference.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Elevance Health's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +9.4% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $6.0B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Elevance Health's position in managed health care reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All ELV Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001156039&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1156039&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1156039&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001156039.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001156039.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-06. Update required when next annual filing is submitted to EDGAR.

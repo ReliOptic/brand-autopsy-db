@@ -113,7 +113,9 @@ async def fetch_and_extract(url: str) -> dict:
 
 
 if __name__ == "__main__":
-    import asyncio, sys, json
+    import asyncio
+    import sys
+    import json
     url = sys.argv[1] if len(sys.argv) > 1 else "https://www.notion.so"
     result = asyncio.run(fetch_and_extract(url))
     print(json.dumps(result, indent=2, ensure_ascii=False))

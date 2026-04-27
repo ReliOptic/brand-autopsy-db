@@ -1,132 +1,174 @@
 # 07. Financial Anatomy — Palo Alto Networks (PANW)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — PANW](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Palo+Alto+Networks&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — PANW 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Palo+Alto+Networks&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — PANW DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Palo+Alto+Networks&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — PANW 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Palo+Alto+Networks&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — PANW 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — PANW 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — PANW DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — PANW 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Palo Alto Networks.
+**CIK**: 0001327567
+**Period**: 2025-07-31 | **Filed**: 2025-08-29 | **Form**: 10-K
+**Accession**: 0001327567-25-000027
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Palo Alto Networks's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $6.9B | +25.3% | (SEC 10-K FY2025) |
+| FY2024 | $5.5B | +29.3% | (SEC 10-K FY2024) |
+| FY2023 | $4.3B | +24.9% | (SEC 10-K FY2023) |
+| FY2022 | $3.4B | +17.5% | (SEC 10-K FY2022) |
+| FY2021 | $2.9B | +27.5% | (SEC 10-K FY2021) |
+| FY2020 | $2.3B | +29.5% | (SEC 10-K FY2020) |
+| FY2019 | $1.8B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001327567](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Palo Alto Networks's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Systems Software. (SEC 10-K)
+Based on public SEC filings, Palo Alto Networks operates in the **Systems Software** segment within the **Information Technology** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Palo Alto Networks's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 72.3% | 68.8% | 70.0% | (SEC 10-K) |
+| Operating Margin | 5.6% | -3.4% | -7.1% | (SEC 10-K) |
+| Net Margin | 6.4% | -4.9% | -11.7% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in systems software. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $0.64 | (SEC 10-K FY2025) |
+| FY2024 | $-0.90 | (SEC 10-K FY2024) |
+| FY2023 | $-1.73 | (SEC 10-K FY2023) |
+| FY2022 | $-2.76 | (SEC 10-K FY2022) |
+| FY2021 | $-0.87 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Palo Alto Networks's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $1.6B | 23.3% | (SEC 10-K FY2025) |
+| FY2024 | $1.4B | 25.8% | (SEC 10-K FY2024) |
+| FY2023 | $1.1B | 26.8% | (SEC 10-K FY2023) |
+| FY2022 | $768M | 22.5% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $2.5B | 36.9% | (SEC 10-K FY2025) |
+| FY2024 | $2.1B | 39.1% | (SEC 10-K FY2024) |
+| FY2023 | $1.8B | 41.2% | (SEC 10-K FY2023) |
+| FY2022 | $1.5B | 44.6% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $273M | $892M | $1.2B | (SEC 10-K) |
 
-Palo Alto Networks's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Palo Alto Networks's M&A strategy reflects its approach to growth in Systems Software. (SEC 10-K, 8-K filings)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 6. Financial Health
+## 6. Balance Sheet Highlights (Latest FY)
 
-### 6.1 Balance Sheet Summary
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $20.0B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $1.1B | (SEC 10-K FY2025) |
+| Long-Term Debt | $3.7B | (SEC 10-K FY2023) |
+| Shareholders' Equity | $210M | (SEC 10-K FY2025) |
 
-Palo Alto Networks's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Palo Alto Networks's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
-
----
-
-## 7. Brand Valuation
-
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Palo Alto Networks's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in systems software affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors 
+ Our operations and financial results are subject to various risks and uncertainties including those described below. The risks and uncertainties described below are not the only ones we face. Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, also may become important factors that affect us. If any of the following risks or others not specified below materialize, our business, financial condition, and operating results could be materially adversely affected, and the market price of our common stock could decline. In addition, the impacts of any worsening of the economic environment may exacerbate the risks described below, any of which could have a material impact on us. 
+ Risk Factor Summary 
+ Our business is subject to numerous risks and uncertainties. These risks include, but are not limited to, the following: 
+ • Our operating results may be adversely affected by unfavorable economic and market conditions and the uncertain geopolitical environment. 
+ • Our business and operations have experienced growth in recent periods, and if we do not effectively manage any future growth or are unable to improve our systems, processes, and controls, our operating results could be adversely affected. 
+ • Our revenue growth rate in recent periods may not be indicative of our future performance, and we may not be able to maintain profitability, which could cause our business, financial condition, and operating results to suffer. 
+ • Our operating results may vary significantly from period to period, which makes our results difficult to predict and could cause our results to fall short of expectations, and such results may not be indicative of future performance. 
+ • Seasonality may cause fluctuations in our revenue. 
+ • If we are unable to sell new and additional product, subscription, and support offerings to our end-customers, especially to large enterprise customers, our future revenue and operating results will be harmed. 
+ • If we are unable to attract new customers, our future results of operations could be harmed. 
+ • We rely on revenue from subscription and support offerings, and because we recognize revenue from subscription and support over the term of the relevant service period, downturns or upturns in sales or renewals of these subscription and support offerings are not immediately reflected in full in our operating results. 
+ • The sales prices of our products, subscriptions, and sup
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ The information set forth under the “Litigation” subheading in Note 13. Commitments and Contingencies in Part II, Item 8 of this Annual Report on Form 10-K is incorporated herein by reference.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Palo Alto Networks's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +25.3% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $440M | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 23.3% of revenue | High R&D ratio indicates innovation-led brand positioning |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Palo Alto Networks's position in systems software reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All PANW Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1327567&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1327567&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001327567.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001327567.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-08-29. Update required when next annual filing is submitted to EDGAR.

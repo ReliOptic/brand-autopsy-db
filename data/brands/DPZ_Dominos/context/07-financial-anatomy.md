@@ -230,7 +230,7 @@ Strong FCF generation relative to reported net income reflects the low CapEx nat
 
 | # | Risk Category | Disclosed Risk Summary | Severity (estimated) |
 |---|---------------|------------------------|---------------------|
-| 1 | **Leverage / Interest Rate** | ~$5.1–5.2B in long-term debt (estimated) creates significant interest expense. Rising interest rates increase refinancing cost. The leverage was taken intentionally for buyback funding; it remains a structural financial risk. | High |
+| 1 | **Leverage / Interest Rate** | ~$5.1–5.2B in long-term debt (estimated) creates significant interest expense. Rising interest rates increase refinancing cost. The leverage was accumulated in conjunction with share repurchase activity, as disclosed in SEC filings; it remains a structural financial risk. | High |
 | 2 | **Franchisee Health** | DPZ's revenue depends on franchisee store performance. If franchisees face profitability pressure (from rising food costs, minimum wage increases, driver labor costs), they may reduce store investment or close stores, reducing royalty flows. | High |
 | 3 | **Same-Store Sales Stagnation** | FY2022 negative comp (−0.8%) demonstrated that delivery driver availability and labor market conditions can directly impact comp growth. Any sustained comp deceleration directly reduces royalty revenue. | High |
 | 4 | **Third-Party Platform Competition** | DoorDash, Uber Eats, and Grubhub compete for the "what to order" decision moment. Habitual platform users may not default to Domino's. The Uber Eats partnership (2023) is a tactical response to this structural risk. | Medium-High |

@@ -1,132 +1,165 @@
 # 07. Financial Anatomy — Tapestry, Inc. (TPR)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — TPR](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tapestry,+Inc.&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — TPR 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tapestry,+Inc.&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — TPR DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tapestry,+Inc.&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — TPR 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Tapestry,+Inc.&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — TPR 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — TPR 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — TPR DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — TPR 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Tapestry, Inc..
+**CIK**: 0001116132
+**Period**: 2025-06-28 | **Filed**: 2025-08-14 | **Form**: 10-K
+**Accession**: 0001116132-25-000019
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Tapestry, Inc.'s revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $6.7B | -0.4% | (SEC 10-K FY2025) |
+| FY2024 | $6.7B | +16.3% | (SEC 10-K FY2024) |
+| FY2023 | $5.7B | +15.8% | (SEC 10-K FY2023) |
+| FY2022 | $5.0B | +259.2% | (SEC 10-K FY2022) |
+| FY2021 | $1.4B | +7.2% | (SEC 10-K FY2021) |
+| FY2020 | $1.3B | +24.2% | (SEC 10-K FY2020) |
+| FY2019 | $1.0B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001116132](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Tapestry, Inc.'s business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Apparel, Accessories & Luxury Goods. (SEC 10-K)
+Based on public SEC filings, Tapestry, Inc. operates in the **Apparel, Accessories &amp; Luxury Goods** segment within the **Consumer Discretionary** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Tapestry, Inc.'s margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 70.8% | 69.6% | 71.0% | (SEC 10-K) |
+| Operating Margin | 17.6% | 17.6% | 16.8% | (SEC 10-K) |
+| Net Margin | 14.1% | 12.8% | 14.5% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in apparel, accessories & luxury goods. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $3.88 | (SEC 10-K FY2025) |
+| FY2024 | $3.17 | (SEC 10-K FY2024) |
+| FY2023 | $2.95 | (SEC 10-K FY2023) |
+| FY2022 | $-2.34 | (SEC 10-K FY2022) |
+| FY2021 | $0.42 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Tapestry, Inc.'s R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $3.5B | 53.2% | (SEC 10-K FY2025) |
+| FY2024 | $3.5B | 52.0% | (SEC 10-K FY2024) |
+| FY2023 | $3.1B | 54.2% | (SEC 10-K FY2023) |
+| FY2020 | $3.2B | 250.9% | (SEC 10-K FY2020) |
 
-### 4.2 SG&A
+**Capital Expenditure**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $184M | (SEC 10-K FY2025) |
+| FY2024 | $94M | (SEC 10-K FY2024) |
+| FY2023 | $116M | (SEC 10-K FY2023) |
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $704M | $1.6B | $0M | (SEC 10-K) |
+| Dividends Paid | $283M | $264M | $0M | (SEC 10-K) |
 
-Tapestry, Inc.'s capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Tapestry, Inc.'s M&A strategy reflects its approach to growth in Apparel, Accessories & Luxury Goods. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Tapestry, Inc.'s balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Tapestry, Inc.'s credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $7.1B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $6.1B | (SEC 10-K FY2025) |
+| Long-Term Debt | $6.9B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $2.3B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Tapestry, Inc.'s 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in apparel, accessories & luxury goods affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ You should consider carefully all of the information set forth or incorporated by reference in this document and, in particular, the following risk factors associated with the business of the Company and forward-looking information in this document. Please also see “Special Note on Forward-Looking Information” at the beginning of this report. The risks described below are not the only ones we face. Additional risks not presently known to us or that we currently deem immaterial may also have an adverse effect on us. If any of the risks below actually occur, our business, results of operations, cash flows or financial condition could suffer. 
+ Risks Related to Macroeconomic Conditions 
+ We face risks associated with potential changes to international trade agreements and the imposition of additional tariffs on importing our products. 
+ Most of our imported products are subject to tariffs, indirect taxes, quotas and non-tariff trade barriers that may limit the quantity of products that we may import into the U.S. and other countries or may impact the cost of such products. To maximize opportunities, we rely on free trade agreements and other supply chain initiatives and, as a result, we are subject to government regulations and restrictions with respect to our cross-border activity. Additionally, we are subject to government regulations relating to importation activities, including related to U.S. Customs and Border Protection ("CBP") enforcement actions. The imposition of taxes, duties and quotas, the withdrawal from or material modification to trade agreements, and/or the detention of our goods by CBP for any reason, could have a material adverse effect on our business, results of operations and financial condition. 
+ There has been significant reform in U.S. trade policy following the change in U.S. presidential administration in January 2025. International trade disputes as well as changes and uncertainty regarding international trade and trade policies, including the imposition or threat of the imposition of new or increased tariffs or other trade restrictions on goods from the countries where our manufacturers are located, could result in a materially adverse impact to our business. During fiscal 2025, the primary manufacturers of Coach products were located in Vietnam, Cambodia, the Philippines and India, and the primary manufacturers of Kate Spade products were located in Vietnam, Cambodia, mainland China, and the Philippines. Increas
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ See discussion of legal proceedings in Note 13, "Commitments and Contingencies," in the accompanying consolidated financial statements.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Tapestry, Inc.'s brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -0.4% YoY (FY2025) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2025) | $936M | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Tapestry, Inc.'s position in apparel, accessories & luxury goods reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All TPR Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001116132&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1116132&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1116132&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001116132.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001116132.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-08-14. Update required when next annual filing is submitted to EDGAR.

@@ -1,132 +1,190 @@
 # 07. Financial Anatomy — Cooper Companies (The) (COO)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — COO](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cooper+Companies+(The)&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — COO 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cooper+Companies+(The)&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — COO DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cooper+Companies+(The)&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — COO 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Cooper+Companies+(The)&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — COO 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — COO 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — COO DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — COO 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Cooper Companies (The).
+**CIK**: 0000711404
+**Period**: 2025-10-31 | **Filed**: 2025-12-05 | **Form**: 10-K
+**Accession**: 0001628280-25-055615
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Cooper Companies (The)'s revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $3.6B | +8.6% | (SEC 10-K FY2025) |
+| FY2024 | $3.3B | +13.2% | (SEC 10-K FY2024) |
+| FY2023 | $2.9B | +20.2% | (SEC 10-K FY2023) |
+| FY2022 | $2.4B | -8.4% | (SEC 10-K FY2022) |
+| FY2021 | $2.7B | +4.8% | (SEC 10-K FY2021) |
+| FY2020 | $2.5B | +18.4% | (SEC 10-K FY2020) |
+| FY2019 | $2.1B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000711404](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Cooper Companies (The)'s business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Health Care Supplies. (SEC 10-K)
+Based on public SEC filings, Cooper Companies (The) operates in the **Health Care Supplies** segment within the **Health Care** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Cooper Companies (The)'s margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 65.6% | 64.7% | 66.9% | (SEC 10-K) |
+| Operating Margin | 14.8% | 15.3% | 17.3% | (SEC 10-K) |
+| Net Margin | 8.2% | 11.7% | 100.8% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in health care supplies. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $1.48 | (SEC 10-K FY2025) |
+| FY2024 | $1.94 | (SEC 10-K FY2024) |
+| FY2023 | $59.16 | (SEC 10-K FY2023) |
+| FY2022 | $4.81 | (SEC 10-K FY2022) |
+| FY2021 | $9.33 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Cooper Companies (The)'s R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $137M | 3.8% | (SEC 10-K FY2025) |
+| FY2024 | $110M | 3.3% | (SEC 10-K FY2024) |
+| FY2023 | $93M | 3.2% | (SEC 10-K FY2023) |
+| FY2022 | $93M | 3.8% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $1.5B | 41.8% | (SEC 10-K FY2025) |
+| FY2024 | $1.3B | 40.6% | (SEC 10-K FY2024) |
+| FY2023 | $1.2B | 41.4% | (SEC 10-K FY2023) |
+| FY2022 | $992M | 40.8% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $392M | (SEC 10-K FY2025) |
+| FY2024 | $242M | (SEC 10-K FY2024) |
+| FY2023 | $214M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $0M | $78M | $25M | (SEC 10-K) |
+| Dividends Paid | $3M | $3M | $3M | (SEC 10-K) |
 
-Cooper Companies (The)'s capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Cooper Companies (The)'s M&A strategy reflects its approach to growth in Health Care Supplies. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Cooper Companies (The)'s balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Cooper Companies (The)'s credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $11.7B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $121M | (SEC 10-K FY2025) |
+| Long-Term Debt | $2.5B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $8.1B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Cooper Companies (The)'s 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in health care supplies affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors. 
+ 
+ 
+ Our business faces significant risks. These risks include those described below and may include additional risks and uncertainties not presently known to us or that we currently deem immaterial. Our business, financial condition and results of operations could be materially adversely affected by any of these risks, and the trading prices of our common stock could decline by virtue of these risks. These risks should be read in conjunction with the other information in this report. 
+ 
+ 
+ Risks Relating to Our Business 
+ 
+ 
+ Current market conditions and recessionary pressures in one or more of our markets could impact our ability to grow our business. 
+ 
+ 
+ Over the last few years in the United States and globally, market and economic conditions have been challenging. The United States and foreign countries have experienced recessionary pressures and face continued concerns about the systemic impacts of adverse economic conditions and geopolitical issues. Any negative impact on economic conditions and international markets, continued volatility or deterioration in the debt and equity capital markets, inflation, deflation or other adverse economic conditions may adversely affect our liquidity and financial condition. It may limit our ability to replace maturing liabilities and to access the capital markets to meet liquidity needs, which could have a material adverse effect on our business. 
+ 
+ 
+ Ongoing uncertain economic and financial market conditions may also adversely affect the financial condition of our customers, suppliers and other business partners. When our customers’ financial conditions are adversely affected, customers may reduce their purchases of our products or we may not be able to collect accounts receivable, each of which could have a material adverse impact on our business. Our global business has been negatively affected by local economic conditions, including inflation, increasing labor costs, recession, and currency exchange rate fluctuations, which has adversely affected our cost to manufacture and provide our products and services and revenues generated through sales of such products and services. We cannot guarantee that we will be able to fully absorb any such additional costs or revenue declines in the prices for our products and services. 
+ 
+ 
+ CooperVision and CooperSurgical are encountering consolidation in their customer bases and emergence of more centralized large customer groups and retail chains. Due t
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings. 
+ 
+ 
+ Information regarding legal proceedings is included in Note 11. Contingencies of the Consolidated Financial Statements.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Cooper Companies (The)'s brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +8.6% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $294M | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 3.8% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Cooper Companies (The)'s position in health care supplies reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All COO Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000711404&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=711404&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=711404&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000711404.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000711404.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-12-05. Update required when next annual filing is submitted to EDGAR.

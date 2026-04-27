@@ -1,132 +1,176 @@
 # 07. Financial Anatomy — AES Corporation (AES)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — AES](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AES+Corporation&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — AES 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AES+Corporation&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — AES DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AES+Corporation&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — AES 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=AES+Corporation&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — AES 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — AES 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — AES DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — AES 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for AES Corporation.
+**CIK**: 0000874761
+**Period**: 2025-12-31 | **Filed**: 2026-03-02 | **Form**: 10-K
+**Accession**: 0000874761-26-000063
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-AES Corporation's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $12.7B | +0.4% | (SEC 10-K FY2025) |
+| FY2024 | $12.6B | +13.2% | (SEC 10-K FY2024) |
+| FY2023 | $11.1B | +15.3% | (SEC 10-K FY2023) |
+| FY2022 | $9.7B | -5.2% | (SEC 10-K FY2022) |
+| FY2021 | $10.2B | -5.1% | (SEC 10-K FY2021) |
+| FY2020 | $10.7B | +2.0% | (SEC 10-K FY2020) |
+| FY2019 | $10.5B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000874761](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-AES Corporation's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Independent Power Producers & Energy Traders. (SEC 10-K)
+Based on public SEC filings, AES Corporation operates in the **Independent Power Producers &amp; Energy Traders** segment within the **Utilities** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-AES Corporation's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 19.8% | 20.2% | 24.3% | (SEC 10-K) |
+| Net Margin | 2.0% | -4.3% | -3.7% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in independent power producers & energy traders. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $0.35 | (SEC 10-K FY2025) |
+| FY2024 | $-0.82 | (SEC 10-K FY2024) |
+| FY2023 | $-0.61 | (SEC 10-K FY2023) |
+| FY2022 | $0.07 | (SEC 10-K FY2022) |
+| FY2021 | $0.45 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-AES Corporation's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $255M | 2.0% | (SEC 10-K FY2025) |
+| FY2024 | $207M | 1.6% | (SEC 10-K FY2024) |
+| FY2023 | $166M | 1.5% | (SEC 10-K FY2023) |
+| FY2022 | $165M | 1.7% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**Capital Expenditure**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $7.7B | (SEC 10-K FY2025) |
+| FY2024 | $4.6B | (SEC 10-K FY2024) |
+| FY2023 | $2.1B | (SEC 10-K FY2023) |
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | N/A | N/A | N/A | (SEC 10-K) |
+| Dividends Paid | $444M | $422M | $401M | (SEC 10-K) |
 
-AES Corporation's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. AES Corporation's M&A strategy reflects its approach to growth in Independent Power Producers & Energy Traders. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-AES Corporation's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of AES Corporation's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $44.8B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $1.5B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $3.6B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in AES Corporation's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in independent power producers & energy traders affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+>  You should consider carefully the following risks, along with the other information contained in or incorporated by reference in this Form 10-K. Additional risks and uncertainties also may adversely affect our business and operations. We routinely encounter and address risks, some of which may cause our future results to be materially different than we presently anticipate. The categories of risk we have identified in Item 1A.— Risk Factors include risks associated with our operations, governmental regulation and laws, our indebtedness and financial condition. These risk factors should be read in conjunction with Item 7 .— Management's Discussion and Analysis of Financial Condition and Results of Operations in this Form 10-K and the Consolidated Financial Statements and related notes included elsewhere in this Form 10-K. If any of the following events actually occur, our business, financial results and financial condition could be materially adversely affected . 
+> 
+>  
+>  
+> 
+>  
+>  
+>  
+>  52 | 2025 Annual Report 
+>  
+>  
+>  Risks Associated with our Operations 
+>  The operation of power generation, distribution and transmission facilities involves significant risks. 
+>  We are in the business of generating and distributing electricity, which involves certain risks that can adversely affect financial and operating performance, including: 
+>  • changes in the availability of our generation facilities or distribution systems due to increases in scheduled and unscheduled plant outages, equipment failure, failure of transmission systems, labor disputes, disruptions in fuel supply, poor hydrologic and wind conditions, inability to comply with regulatory or permit requirements, or catastrophic events such as fires, floods, storms, hurricanes, earthquakes, dam failures, tsunamis, explosions, terrorist acts, vandalism, cyber-attacks or other similar occurrences; and 
+>  • changes in our operating cost structure, including, but not limited to, increases in costs relating to gas, coal, oil, and other fuel; fuel transportation; purchased electricity; operations, maintenance, and repair; environmental compliance, including the cost of purchasing emissions offsets and capital expenditures to install environmental emission equipment; transmission access; and insurance. 
+>  Our businesses require reliable transportation sources (including related infrastructure such as roads, ports, and rail), power sources and water sources to access and conduct operations. The availability and cost
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+>  The Company is involved in certain claims, suits, and legal proceedings in the normal course of business. The Company has accrued for litigation and claims when it is probable that a liability has been incurred and the amount of loss can be reasonably estimated. The Company believes, based upon information it currently possesses and taking into account established reserves for estimated liabilities and its insurance coverage, that the ultimate outcome of these proceedings and actions is unlikely to have a material adverse effect on the Company's consolidated financial statements. It is reasonably possible, however, that some matters could be decided unfavorably to the Company and could require the Company to pay damages or make expenditures in amounts that could be material, but cannot be estimated as of December 31, 2025. Pursuant to SEC amendments Item 103 of SEC Regulation S-K, AES’ policy is to disclose environmental legal proceedings to which a government authority is a party if such proceedings are reasonably expected to result in monetary sanctions of greater than or equal to $1 million. 
+>  In December 2001, Grid Corporation of Odisha (“GRIDCO”) served a notice to arbitrate pursuant to the Indian Arbitration and Conciliation Act of 1996 on the Company, AES Orissa Distribution Private Limited (“AES ODPL”), and Jyoti Structures (“Jyoti”) pursuant to the terms of the shareholders agreement between GRIDCO, the Company, AES ODPL, Jyoti and the Central Ele
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between AES Corporation's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +0.4% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $249M | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: AES Corporation's position in independent power producers & energy traders reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All AES Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874761&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=874761&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=874761&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000874761.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000874761.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-03-02. Update required when next annual filing is submitted to EDGAR.

@@ -26,7 +26,7 @@ Target's visual content language is among the most recognizable in US retail. Th
 
 - **Color**: Saturated red (#CC0000) used as accent against clean white and light grey fields. The red is confident but not aggressive — it signals energy without alarm. (observed on target.com; CSS data directly observed)
 - **Photography style**: Bright, high-key lighting; real-looking (not aspirationally unattainable) models and environments; racially and body-type diverse casting; styled but not sterile. The home photography shows rooms that look like people actually live in them. (observed on target.com and @target Instagram)
-- **Grid composition**: On Instagram, Target maintains a bright, consistent grid with product-forward and lifestyle imagery alternating. Color and white space are used deliberately to create visual rhythm. (observed on @target, Instagram)
+- **Grid composition**: On Instagram, Target maintains a bright, consistent grid with product-forward and lifestyle imagery alternating. Color and white space are used to create visual rhythm. (observed on @target, Instagram)
 - **Animation and video**: Short-form social video uses quick cuts, upbeat music (often licensed pop or indie pop), and satisfying product reveal or "haul" structure. The Drive Up campaign video uses a single-take continuous shot format to demonstrate the frictionless experience. (observed on @target TikTok and YouTube)
 
 ---
@@ -38,7 +38,7 @@ Target's visual content language is among the most recognizable in US retail. Th
 Opens with the cultural moment, not the product. Invites the guest into a shared experience before presenting the sell.
 
 - **Canonical example**: "The most wonderful time of the year starts right now. Shop Target's holiday collection." — not "Target's holiday collection is now available." (observed, Target holiday campaign)
-- **Mechanism**: Shared cultural context (everyone knows it's holiday season) creates immediate emotional resonance. The brand positions as the enabler of the moment, not a vendor of products.
+- **Mechanism**: Shared cultural context (the holiday season is a widely observed cultural moment) creates immediate emotional resonance. The brand positions as the enabler of the moment, not a vendor of products.
 - **Applicable contexts**: Holiday, back-to-school, spring refresh, graduation, Valentine's Day.
 
 ### Hook 2 — The Find/Discovery Reveal

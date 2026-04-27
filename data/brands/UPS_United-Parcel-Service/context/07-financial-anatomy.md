@@ -1,40 +1,61 @@
 # 07. Financial Anatomy — United Parcel Service (UPS)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from UPS's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations disclosures
+> unless explicitly marked "(estimated)". This analysis reflects publicly available information as
+> of the document preparation date. Source tier codes follow the project's T1–T5 classification
+> system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — UPS](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=United+Parcel+Service&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — UPS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=United+Parcel+Service&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — UPS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=United+Parcel+Service&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — UPS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=United+Parcel+Service&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 (Dec 31, 2025) | [SEC EDGAR — UPS 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — UPS 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — UPS DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — UPS 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for United Parcel Service.
+**CIK**: 0001090727
+**Fiscal Year End**: December 31
+**Exchange**: NYSE (UPS)
+**Accession (FY2025 10-K)**: 0001628280-26-008432
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Five-Year Revenue Trend
 
-United Parcel Service's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Net Income | Net Margin | Source |
+|-------------|---------|------------|------------|------------|--------|
+| FY2021 | $74.09B | — | $4.44B | 6.0% | (SEC 10-K FY2021) |
+| FY2022 | $84.63B | +14.2% | $1.34B | 1.6% | (SEC 10-K FY2022) |
+| FY2023 | $97.29B | +15.0% | $12.89B | 13.2% | (SEC 10-K FY2023) |
+| FY2024 | $100.34B | +3.1% | $11.55B | 11.5% | (SEC 10-K FY2024) |
+| FY2025 | $90.96B | -9.4% | $6.71B | 7.4% | (SEC 10-K FY2025) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Five-Year Observation**: Revenue grew strongly through FY2024 but contracted 9.4% in FY2025, indicating meaningful volume and pricing pressure in the parcel delivery market. FY2022 net income was suppressed by restructuring charges as disclosed in the 10-K. The five-year pattern suggests a maturing volume cycle with ongoing margin recalibration. (T4_INFERRED from publicly observable trend)
 
-### 2.2 Revenue Trend
+### 2.2 Operating Income Trend
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
+| Fiscal Year | Operating Income | Operating Margin | Source |
+|-------------|-----------------|-----------------|--------|
+| FY2021 | $7.80B | 10.5% | (SEC 10-K FY2021) |
+| FY2022 | $7.68B | 9.1% | (SEC 10-K FY2022) |
+| FY2023 | $12.81B | 13.2% | (SEC 10-K FY2023) |
+| FY2024 | $13.09B | 13.0% | (SEC 10-K FY2024) |
+| FY2025 | $9.14B | 10.1% | (SEC 10-K FY2025) |
 
-### 2.3 Segment and Geographic Mix
+> Operating margin compressed from 13.0% (FY2024) to 10.1% (FY2025), consistent with publicly disclosed labor cost increases following the 2023 Teamsters contract and volume headwinds. (T4_INFERRED)
 
-United Parcel Service's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Air Freight & Logistics. (SEC 10-K)
+### 2.3 Segment Revenue
+
+UPS operates through U.S. Domestic Package, International Package, and Supply Chain Solutions segments as disclosed in its 10-K. Segment-level XBRL data at this granularity is not available in the loaded dataset; refer to 10-K Segment Information notes for detail.
+
+> **Source**: [10-K — Segment Information](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K&dateb=&owner=include&count=10)
 
 ---
 
@@ -42,91 +63,143 @@ United Parcel Service's business segment and geographic revenue distribution are
 
 ### 3.1 Margin Structure
 
-United Parcel Service's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Interpretation |
+|--------|--------|--------|--------|---------------|
+| Operating Margin | 10.1% | 13.0% | 13.2% | Compression in FY2025; cost base outpacing revenue |
+| Net Margin | 7.4% | 11.5% | 13.2% | Declining — labor and fuel cost pressure (T4_INFERRED) |
+| Gross Margin | (data not disclosed in EDGAR XBRL) | — | — | — |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in air freight & logistics. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: [10-K — Consolidated Statements of Income](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K&dateb=&owner=include&count=10)
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend (Diluted)
+
+| Fiscal Year | EPS (Diluted) | Source |
+|-------------|---------------|--------|
+| FY2021 | $5.00 | (SEC 10-K FY2021) |
+| FY2022 | $2.00 | (SEC 10-K FY2022) |
+| FY2023 | $15.00 | (SEC 10-K FY2023) |
+| FY2024 | $13.00 | (SEC 10-K FY2024) |
+| FY2025 | $8.00 | (SEC 10-K FY2025) |
+
+> **Note**: XBRL EPS values are rounded to whole dollars as stored in the EDGAR dataset. Refer to the 10-K income statement for precise per-share figures.
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+### 4.1 Capital Expenditures
 
-United Parcel Service's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | CapEx | % of Revenue | Source |
+|-------------|-------|-------------|--------|
+| FY2021 | $6.38B | 8.6% | (SEC 10-K FY2021) |
+| FY2022 | $5.41B | 6.4% | (SEC 10-K FY2022) |
+| FY2023 | $4.19B | 4.3% | (SEC 10-K FY2023) |
+| FY2024 | $4.77B | 4.8% | (SEC 10-K FY2024) |
+| FY2025 | $5.16B | 5.7% | (SEC 10-K FY2025) |
 
-### 4.2 SG&A
+> CapEx intensity moderated from the FY2021 peak, suggesting (T4_INFERRED) a shift from network expansion toward optimization. The FY2025 increase may reflect targeted infrastructure investments as discussed in management's commentary.
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+### 4.2 R&D and SG&A
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+- **R&D Expense**: (data not disclosed in EDGAR XBRL) — UPS does not separately report R&D as a distinct XBRL-tagged line item.
+- **SG&A Expense**: (data not disclosed in EDGAR XBRL) — Operating costs are presented by function (compensation, purchased transportation, fuel, etc.) rather than as a consolidated SG&A figure.
 
 ---
 
-## 5. Capital Allocation
+## 5. Capital Allocation Strategy
 
 ### 5.1 Shareholder Returns
 
-United Parcel Service's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
+| Item | FY2025 | FY2024 | FY2023 | FY2022 |
+|------|--------|--------|--------|--------|
+| Share Repurchases | $2.25B | $3.50B | $0.50B | $0.22B |
+| Dividends Paid | $5.37B | $5.11B | $3.44B | $3.37B |
+| **Total Returns** | **$7.62B** | **$8.61B** | **$3.94B** | **$3.60B** |
 
-### 5.2 Mergers & Acquisitions
+> **Source**: (SEC 10-K FY2025 — Financing Activities)
 
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. United Parcel Service's M&A strategy reflects its approach to growth in Air Freight & Logistics. (SEC 10-K, 8-K filings)
+Total shareholder returns of $7.62B in FY2025 against net income of $6.71B indicates (T4_INFERRED) that the company returned more capital than it earned in the period, drawing on balance sheet resources. This signals management confidence in long-term earnings recovery.
 
----
+### 5.2 M&A Activity
 
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-United Parcel Service's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of United Parcel Service's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+Acquisitions are disclosed in 8-K and 10-K filings as they occur. Refer to the 10-K Business section for confirmed transaction history. No specific acquisition amounts are included here without direct XBRL sourcing.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Health
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+### 6.1 Balance Sheet Highlights
 
----
+| Item | FY2025 | FY2024 | FY2023 | Interpretation |
+|------|--------|--------|--------|---------------|
+| Total Assets | $70.07B | $71.12B | $69.41B | Stable asset base with slight compression |
+| Cash & Equivalents | $6.11B | $3.21B | $5.60B | Meaningful cash increase in FY2025 |
+| Long-Term Debt | $23.59B | $21.03B | $22.00B | Modest leverage increase |
+| Shareholders' Equity | $16.72B | $17.31B | $19.79B | Declining, driven by shareholder returns exceeding earnings |
+| Net Debt (estimated) | ~$17.47B | ~$17.82B | ~$16.40B | (estimated — LT Debt minus Cash) |
 
-## 8. Financial Risk Matrix
+> **Source**: (SEC 10-K FY2025 — Consolidated Balance Sheets)
 
-Risk factors are disclosed in United Parcel Service's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### 6.2 Credit Profile
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in air freight & logistics affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
-
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+Credit ratings are not included in XBRL data. UPS carries investment-grade ratings as publicly reported by major agencies; refer to the 10-K liquidity discussion for current standing.
 
 ---
 
-## 9. Brand-Finance Nexus
+## 7. Financial Risk Matrix
 
-The relationship between United Parcel Service's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### Based on SEC 10-K FY2025 Risk Factors (Item 1A)
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Risk Category | Key Content | Brand Strategy Impact |
+|--------------|-------------|----------------------|
+| Labor Cost Risk | Operations depend heavily on unionized labor (Teamsters); wage and benefit increases directly affect operating margins | Higher unit costs pressure service pricing; brand positioning as premium carrier must justify rate increases to retain B2B customers |
+| Volume Cyclicality | Parcel volumes are sensitive to macroeconomic conditions and e-commerce trends; revenue declined 9.4% in FY2025 | Volume softness reduces network utilization; investments in healthcare and B2B segments may provide cycle insulation |
+| Competitive Pressure | FedEx, Amazon Logistics, USPS, and regional carriers compete directly on price and service | Brand premium depends on reliability differentiation; price competition erodes positioning if service quality is not maintained |
+| Fuel Price Exposure | Jet fuel and diesel represent significant variable costs; fuel surcharges provide partial offset | Fuel cost spikes compress margins; environmental commitments (EVs, alternative fuels) carry long-term cost and reputation implications |
+| Regulatory and Trade Risk | Cross-border shipping subject to customs, tariff, and trade policy changes | International segment brand value is linked to seamless customs capabilities — regulatory disruptions directly impair service promise |
+| Technology and Cybersecurity Risk | Logistics operations depend on proprietary technology systems; disruptions could impair delivery service | A technology failure or breach would directly undermine the brand's core reliability promise |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: United Parcel Service's position in air freight & logistics reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Source**: [10-K Risk Factors — Item 1A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K&dateb=&owner=include&count=10)
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## 8. Brand-Finance Nexus
+
+### 8.1 What Financial Data Reveals About Brand Strategy
+
+| Financial Signal | Brand Strategy Interpretation |
+|-----------------|------------------------------|
+| Revenue contraction (-9.4% FY2025) | Suggests (T4_INFERRED) volume/pricing pressure; brand must reinforce value-over-cost positioning to defend rate premium against lower-cost alternatives |
+| CapEx moderation ($4.2B–$5.2B range over 5 years) | Indicates network optimization over expansion; consistent with a brand narrative shift toward smart, reliable logistics rather than sheer scale |
+| Dividend commitment ($5.37B FY2025) | Signals financial confidence to institutional investors; dividend consistency reinforces identity as a stable, mature industrial leader |
+| Shareholder returns exceeding net income | Management prioritizes capital return over reinvestment; implies constrained discretionary spending relative to tech-native logistics entrants |
+| Operating margin compression (13% → 10%) | Labor cost inflation post-2023 Teamsters contract is visible in margins; automation investment is needed to restore margin trajectory |
+| Long-term debt increase to $23.6B | Leverage supports capital returns; brand resilience depends on maintaining investment-grade credit to sustain network investment capacity |
+
+### 8.2 Brand-Finance Virtuous Cycle
+
+```
+Service Reliability Premium
+         |
+         v
+Higher Revenue per Package --> Stronger Operating Cash Flow
+         |                              |
+         v                             v
+Network CapEx Investment       Shareholder Returns (Dividend + Buyback)
+         |
+         v
+Faster / More Reliable Delivery --> Customer Retention --> Brand Premium
+```
+
+> When volume declines, this cycle risks running in reverse: lower revenue per package → constrained CapEx → service quality risk → brand erosion. UPS's FY2025 financials indicate active management of this risk through targeted cost restructuring.
+
+---
+
+## EDGAR Quick Reference
+
+1. **Full EDGAR Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K&dateb=&owner=include&count=10](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001090727&type=10-K&dateb=&owner=include&count=10)
+2. **EDGAR Full-Text Search**: [https://efts.sec.gov/LATEST/search-index?q=%22United+Parcel+Service%22&forms=10-K,10-Q](https://efts.sec.gov/LATEST/search-index?q=%22United+Parcel+Service%22&forms=10-K,10-Q)
+3. **UPS IR Page**: [https://ir.ups.com](https://ir.ups.com)
+4. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1090727&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1090727&type=10-K)
+
+> **Data Freshness**: This document is based on the FY2025 10-K (period ending December 31, 2025, filed February 17, 2026). Update required when next 10-K or material 10-Q is filed.

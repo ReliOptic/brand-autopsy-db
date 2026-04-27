@@ -1,132 +1,182 @@
 # 07. Financial Anatomy — NRG Energy (NRG)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — NRG](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NRG+Energy&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — NRG 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NRG+Energy&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — NRG DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NRG+Energy&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — NRG 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=NRG+Energy&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — NRG 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — NRG 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — NRG DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — NRG 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for NRG Energy.
+**CIK**: 0001013871
+**Period**: 2025-12-31 | **Filed**: 2026-02-24 | **Form**: 10-K
+**Accession**: 0001013871-26-000004
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-NRG Energy's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $28.3B | -10.3% | (SEC 10-K FY2025) |
+| FY2024 | $31.5B | +17.6% | (SEC 10-K FY2024) |
+| FY2023 | $26.8B | +208.1% | (SEC 10-K FY2023) |
+| FY2022 | $8.7B | +8.7% | (SEC 10-K FY2022) |
+| FY2021 | $8.0B | -1.9% | (SEC 10-K FY2021) |
+| FY2020 | $8.1B | +0.0% | (SEC 10-K FY2020) |
+| FY2019 | $8.1B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001013871](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-NRG Energy's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Independent Power Producers & Energy Traders. (SEC 10-K)
+Based on public SEC filings, NRG Energy operates in the **Independent Power Producers &amp; Energy Traders** segment within the **Utilities** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-NRG Energy's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 1.4% | 6.4% | 12.5% | (SEC 10-K) |
+| Net Margin | -0.7% | 3.9% | 8.2% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in independent power producers & energy traders. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $-1.12 | (SEC 10-K FY2025) |
+| FY2024 | $5.17 | (SEC 10-K FY2024) |
+| FY2023 | $8.93 | (SEC 10-K FY2023) |
+| FY2022 | $2.07 | (SEC 10-K FY2022) |
+| FY2021 | $16.81 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-NRG Energy's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2020 | $11M | 0.1% | (SEC 10-K FY2020) |
+| FY2019 | $22M | 0.3% | (SEC 10-K FY2019) |
+| FY2018 | $48M | N/A | (SEC 10-K FY2018) |
+| FY2017 | $154M | N/A | (SEC 10-K FY2017) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $2.1B | 7.4% | (SEC 10-K FY2025) |
+| FY2024 | $1.1B | 3.6% | (SEC 10-K FY2024) |
+| FY2023 | $1.3B | 4.8% | (SEC 10-K FY2023) |
+| FY2022 | $810M | 9.3% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $598M | (SEC 10-K FY2025) |
+| FY2024 | $367M | (SEC 10-K FY2024) |
+| FY2023 | $269M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $1.1B | $600M | $48M | (SEC 10-K) |
+| Dividends Paid | $381M | $332M | $319M | (SEC 10-K) |
 
-NRG Energy's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. NRG Energy's M&A strategy reflects its approach to growth in Independent Power Producers & Energy Traders. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-NRG Energy's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of NRG Energy's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $24.0B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $541M | (SEC 10-K FY2025) |
+| Long-Term Debt | $10.9B | (SEC 10-K FY2024) |
+| Shareholders' Equity | $3.8B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in NRG Energy's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in independent power producers & energy traders affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> — Risk Factors 
+ NRG's risk factors are grouped into the following categories: (i) Risks Related to the Acquisition of the LSP Portfolio; (ii) Risks Related to the Operation of NRG's Business; (iii) Risks Related to Governmental Regulation and Laws; and (iv) Risks Related to Economic and Financial Market Conditions and the Company's Indebtedness. 
+ Risks Related to the Acquisition of the LSP Portfolio 
+ The integration of NRG and the LSP Portfolio may disrupt or have a negative impact on the Company’s business. 
+ The LSP Portfolio is comprised of 13 GW of natural gas-fired generation and dual fuel assets and a demand response platform. The acquisition significantly increases NRG’s owned generation capacity and operational footprint. The acquisition is large and complex, and the Company will need to devote significant time and resources to integrating the plants, equipment, personnel, operations, and fuel arrangements with NRG’s existing generation, retail and commercial businesses. Any difficulties encountered in the transition and integration process could adversely affect the Company’s business, results of operations and financial condition. 
+ Risks that could impact the Company negatively include: 
+ • the difficulty of managing and integrating the LSP Portfolio and its plants, pipelines, interconnection, operations, fuel contracts, and hedging arrangements; 
+ • the potential disruption of the ongoing businesses and distraction of management; 
+ • difficulties in implementing and maintaining uniform processes, systems, standards, controls, procedures, practices, and policies pertaining to commercial, operational, financial, legal, regulatory, and/or accounting matters; 
+ • risks associated with the assumption of power purchase agreements, tolling arrangements, O&M contracts and demand response agreements; 
+ • the inability to timely implement and enact effective internal control over financial reporting for the acquired assets, including harmonizing the LSP Portfolio’s accounting policies and internal controls with the Company’s; 
+ • unanticipated issues in integrating information technology, communications, and other systems; 
+ • the potential impairment of relationships with employees and partners, including the potential loss of valuable employees and difficulty in retaining and integrating personnel; 
+ • unforeseen expenses, unknown liabilities, or adverse changes arising from events, conditions, or actions occurring prior to or in connection with the
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> — Legal Proceedings 
+ See Item 15 — Note 22, Commitments and Contingencies and Note 23, Regulatory Matters to the Consolidated Financial Statements for discussion of the material legal proceedings to which NRG is a party.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between NRG Energy's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -10.3% YoY (FY2025) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2025) | $-202M | Net loss environment limits discretionary brand spend |
+| R&D Intensity (FY2020) | 0.1% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: NRG Energy's position in independent power producers & energy traders reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All NRG Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001013871&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1013871&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1013871&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001013871.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001013871.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-24. Update required when next annual filing is submitted to EDGAR.

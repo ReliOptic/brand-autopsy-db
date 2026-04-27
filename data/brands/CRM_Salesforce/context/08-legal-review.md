@@ -303,7 +303,7 @@ This use is consistent with:
 
 ### DO NOT WRITE (Prohibited in all project content)
 
-1. Any assertion that Salesforce's financial disclosures, acquisition-period statements, or investor communications were inaccurate, misleading, or fraudulent — without a concluded regulatory finding establishing this fact.
+1. Any assertion that Salesforce's financial disclosures, acquisition-period statements, or investor communications were inaccurate, misleading, or improper — without a concluded regulatory finding establishing this fact. (Do not use "fraudulent" or similar terms unless directly quoting a regulatory or court determination.)
 
 2. Any characterization that Salesforce's workplace practices constitute illegal discrimination — employment litigation in this area is active and contested; no concluded determination has been made.
 

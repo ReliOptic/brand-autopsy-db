@@ -7,7 +7,7 @@
 > journalism. This layer exists primarily to protect the Brand Autopsy DB project from legal
 > exposure by mapping The Home Depot's IP landscape, litigation posture, and the specific
 > language risks our analysis must navigate. Nothing in this document characterizes any
-> party's conduct as unlawful, fraudulent, or intentionally harmful — such characterizations
+> party's conduct as unlawful or harmful — such characterizations
 > are reserved exclusively for direct citations from regulators and courts. Source tier codes
 > follow the T1–T5 system in CLAUDE.md.
 
@@ -188,7 +188,7 @@ exposure:
 | **PCI DSS** (Payment Card Industry Data Security Standard) | Industry standard (card network mandate) | Direct applicability to all payment card processing; 2014 breach established consequences of non-compliance |
 | **CCPA/CPRA** (California Consumer Privacy Act) | California | Applies to California customer data; largest single-state consumer market |
 | **State privacy laws** (Virginia, Colorado, Connecticut, others) | Multiple U.S. states | Growing patchwork of state-level privacy obligations |
-| **FTC Act Section 5** | Federal | FTC authority over "unfair or deceptive" data practices |
+| **FTC Act Section 5** | Federal | FTC statutory authority over unfair or harmful data practices (15 U.S.C. § 45) |
 | **Canadian PIPEDA / Quebec Law 25** | Canada | Applies to Canadian store customer data |
 
 The 2014 breach settlement with state AGs included cybersecurity program requirements as
@@ -345,7 +345,7 @@ consult qualified IP counsel for formal opinion).
 | 2014 data breach | "Home Depot negligently exposed 56 million card records" | "The Home Depot disclosed in September 2014 that its payment card systems had been compromised, affecting approximately 56 million payment card records per public reporting. The company subsequently reached settlements with payment card networks, state attorneys general, and consumer class action plaintiffs, with publicly disclosed settlement amounts totaling multiple tens of millions of dollars." |
 | Pro segment size | "Home Depot earns half its revenue from professionals" | "The Home Depot has indicated in investor communications that the Pro customer segment accounts for approximately 50% of sales (estimated; the company has not separately disclosed this figure in its 10-K segment reporting)." |
 | SRS acquisition | "Home Depot overpaid for SRS Distribution" | "The Home Depot completed the acquisition of SRS Distribution for approximately $18.25 billion in June 2024, as disclosed via 8-K. The acquisition was the largest in the company's history. Management has described the strategic rationale as expanding the Pro customer supply platform into specialty trade distribution." |
-| Competitive position | "Home Depot is far better than Lowe's" | "The Home Depot's FY2024 net sales of approximately $159.5B compared to Lowe's approximately $83.7B (Lowe's FY2024 10-K). Revenue per store was approximately $68M for The Home Depot vs. approximately $47M for Lowe's (both estimated from revenue/store count, FY2024)." |
+| Competitive position | "Home Depot dominates and outclasses Lowe's" | "The Home Depot's FY2024 net sales of approximately $159.5B compared to Lowe's approximately $83.7B (Lowe's FY2024 10-K). Revenue per store was approximately $68M for The Home Depot vs. approximately $47M for Lowe's (both estimated from revenue/store count, FY2024)." |
 | Associate compensation | "Home Depot underpays its workers" | "The Home Depot's 10-K identifies labor costs and labor availability as key risk factors. Minimum wage rates and labor market conditions are disclosed as components of the company's SG&A and operational risk profile (T1_OFFICIAL, SEC 10-K FY2024)." |
 | Housing market impact | "Home Depot is struggling due to the housing market" | "The Home Depot's management attributed the FY2023 comparable sales decline of -3.5% primarily to housing market headwinds including elevated mortgage rates and reduced housing turnover, as stated in FY2023 earnings communications (T2_PRIMARY_RELIABLE)." |
 | Orange color | "Home Depot copied the color from..." | "The Home Depot's primary brand color, approximately #F96302 (observed), has been the company's identifying color since its founding in 1978. No major home improvement retail competitor uses orange as a primary brand color (observed, competitive brand analysis)." |

@@ -1,132 +1,180 @@
 # 07. Financial Anatomy — Diamondback Energy (FANG)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — FANG](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Diamondback+Energy&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — FANG 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Diamondback+Energy&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — FANG DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Diamondback+Energy&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — FANG 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Diamondback+Energy&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2022 | [SEC EDGAR — FANG 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — FANG 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2022 | [SEC EDGAR — FANG DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — FANG 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Diamondback Energy.
+**CIK**: 0001539838
+**Period**: 2025-12-31 | **Filed**: 2026-02-25 | **Form**: 10-K
+**Accession**: 0001539838-26-000010
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Diamondback Energy's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2022 | $2.8B | -29.1% | (SEC 10-K FY2022) |
+| FY2021 | $3.9B | +82.5% | (SEC 10-K FY2021) |
+| FY2020 | $2.1B | — | (SEC 10-K FY2020) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001539838](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Diamondback Energy's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Oil & Gas Exploration & Production. (SEC 10-K)
+Based on public SEC filings, Diamondback Energy operates in the **Oil &amp; Gas Exploration &amp; Production** segment within the **Energy** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Diamondback Energy's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2022 | FY2021 | FY2020 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | -198.7% | 17.9% | 47.5% | (SEC 10-K) |
+| Net Margin | -163.9% | 6.2% | 39.7% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in oil & gas exploration & production. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $17.34 | (SEC 10-K FY2025) |
+| FY2024 | $24.61 | (SEC 10-K FY2024) |
+| FY2023 | $12.24 | (SEC 10-K FY2023) |
+| FY2022 | $-28.61 | (SEC 10-K FY2022) |
+| FY2021 | $1.47 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Diamondback Energy's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $150M | N/A | (SEC 10-K FY2025) |
+| FY2024 | $144M | N/A | (SEC 10-K FY2024) |
+| FY2023 | $146M | N/A | (SEC 10-K FY2023) |
+| FY2022 | $88M | 3.2% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | N/A | $1.1B | $431M | (SEC 10-K) |
+| Dividends Paid | $1.4B | $1.6B | $312M | (SEC 10-K) |
 
-Diamondback Energy's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Diamondback Energy's M&A strategy reflects its approach to growth in Oil & Gas Exploration & Production. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Diamondback Energy's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Diamondback Energy's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $67.3B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $161M | (SEC 10-K FY2025) |
+| Long-Term Debt | $12.1B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $37.7B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Diamondback Energy's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in oil & gas exploration & production affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ 
+ 
+ The nature of our business activities subjects us to certain hazards and risks. The following is a summary of the material risks relating to our business activities. We could also face additional risks and uncertainties not currently known to us or that we currently deem to be immaterial. If any of these risks actually occurs, it could materially harm our business, financial condition or results of operations and the trading price of our shares could decline. 
+ 
+ 
+
+ 21 
+
+ Table of Contents 
+ The following is a summary of the principal risks that could adversely affect our business, operations and financial results: 
+ 
+ 
+ Risks Related to the Oil and Natural Gas Industry and Our Business 
+ 
+ 
+ • Geopolitics and market conditions, and particularly volatility in prices for oil and natural gas, may adversely affect our revenue, cash flows, profitability, growth, production and the present value of our estimated reserves. 
+ • Our commodity price derivatives could result in financial losses, may fail to protect us from declines in commodity prices, prevent us from fully benefiting from commodity price increases and may expose us to other risks, including counterparty credit risk. 
+ • Changes in U.S. trade policy and the impact of tariffs may have a material adverse impact on our business and results of operations. 
+ • Risks relating to the transition to a low carbon economy could impose new costs on our operations that may have a material and adverse effect on us. 
+ • Changing political and social perspectives on climate change and other environmental, social and governance factors 
+ may create risks and uncertainties impacting our business. 
+ • Our targets related to sustainability and emissions reduction initiatives, including our public statements and disclosures regarding them, may expose us to numerous risks. 
+ • Our success depends on developing our existing leasehold acreage and finding, developing or acquiring additional reserves. 
+ • We may be unable to obtain needed capital or financing on satisfactory terms or at all to fund our acquisitions, exploration or development activities. 
+ • Our failure to successfully identify, complete and integrate pending and future acquisitions of properties or businesses could reduce our earnings. 
+ • Our identified potential drilling locations are susceptible to uncertainties that could materially alter the occurrence or timing of their drilling. 
+ • We may fail to meet our obligations to deliver
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ 
+ 
+ Diamondback has elected to use a $1 million threshold for disclosing certain environmental proceedings to which a federal, state or local governmental authority is a party. 
+ 
+ 
+ We are a party to various routine legal proceedings, disputes and claims arising in the ordinary course of our business, including those that arise from interpretation of federal and state laws and regulations affecting the natural gas and crude oil industry, personal injury claims, title disputes, royalty disputes, contract claims, employment claims, claims alleging violations of antitrust laws, contamination claims relating to oil and natural gas exploration and development and environmental claims, including claims involving assets previously sold to third parties and no longer part of our current operations. While the ultimate outcome of the pending proceedings, disputes or claims, and any resulting impact on us, cannot be predicted with certainty, we believe that none of these matters, if ultimately decided adversely, will have a material adverse effect on our financial condition, results of operations or cash flows. For additional information regarding environmental matters, see Note 15— Commitments and Contingencies in Item 8. Financial Statements and Supplementary Data of this report.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Diamondback Energy's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -29.1% YoY (FY2022) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2025) | $3.1B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Diamondback Energy's position in oil & gas exploration & production reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All FANG Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539838&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1539838&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1539838&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001539838.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001539838.json)
+
+> **Data Freshness**: Based on FY2022 10-K filed 2026-02-25. Update required when next annual filing is submitted to EDGAR.

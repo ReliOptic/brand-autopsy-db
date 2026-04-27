@@ -1,132 +1,174 @@
 # 07. Financial Anatomy — Raymond James Financial (RJF)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — RJF](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Raymond+James+Financial&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — RJF 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Raymond+James+Financial&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — RJF DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Raymond+James+Financial&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — RJF 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Raymond+James+Financial&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — RJF 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — RJF 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — RJF DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — RJF 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Raymond James Financial.
+**CIK**: 0000720005
+**Period**: 2025-09-30 | **Filed**: 2025-11-25 | **Form**: 10-K
+**Accession**: 0000720005-25-000093
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Raymond James Financial's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $13.0B | +14.9% | (SEC 10-K FY2025) |
+| FY2024 | $11.3B | +14.1% | (SEC 10-K FY2024) |
+| FY2023 | $9.9B | +21.3% | (SEC 10-K FY2023) |
+| FY2022 | $8.2B | +1.8% | (SEC 10-K FY2022) |
+| FY2021 | $8.0B | +7.3% | (SEC 10-K FY2021) |
+| FY2020 | $7.5B | +14.6% | (SEC 10-K FY2020) |
+| FY2019 | $6.5B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000720005](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Raymond James Financial's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Investment Banking & Brokerage. (SEC 10-K)
+Based on public SEC filings, Raymond James Financial operates in the **Investment Banking &amp; Brokerage** segment within the **Financials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Raymond James Financial's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Net Margin | 13.4% | 13.3% | 14.2% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in investment banking & brokerage. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $7.97 | (SEC 10-K FY2025) |
+| FY2024 | $6.98 | (SEC 10-K FY2024) |
+| FY2023 | $6.63 | (SEC 10-K FY2023) |
+| FY2022 | $3.88 | (SEC 10-K FY2022) |
+| FY2021 | $4.78 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**Capital Expenditure**
 
-Raymond James Financial's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $173M | (SEC 10-K FY2025) |
+| FY2024 | $91M | (SEC 10-K FY2024) |
+| FY2023 | $74M | (SEC 10-K FY2023) |
 
-### 4.2 SG&A
-
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
-
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2021 | FY2020 | FY2019 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $778M | $62M | $34M | (SEC 10-K) |
+| Dividends Paid | $191M | $151M | $127M | (SEC 10-K) |
 
-Raymond James Financial's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Raymond James Financial's M&A strategy reflects its approach to growth in Investment Banking & Brokerage. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Raymond James Financial's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Raymond James Financial's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $83.0B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $9.3B | (SEC 10-K FY2025) |
+| Long-Term Debt | $1.2B | (SEC 10-K FY2014) |
+| Shareholders' Equity | $11.7B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Raymond James Financial's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in investment banking & brokerage affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ 
+ 
+ Our operations and financial results are subject to various risks and uncertainties, including those described in the following sections, which could adversely affect our business, financial condition, results of operations, liquidity and the trading price of our common and preferred stock. The list of risk factors provided in the following sections is not exhaustive; there may be other factors that adversely impact our results of operations, harm our reputation or inhibit our ability to generate new business prospects. The following sections should be read in conjunction with “Item 1C - Cybersecurity,” “Item 7 - Management’s Discussion and Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and accompanying notes in “Item 8 - Financial Statements and Supplementary Data” of this Annual Report on Form 10-K. In particular, see “Item 1C - Cybersecurity” for additional information on how we assess, identify, and manage cybersecurity risks and “Item 7 - Management’s Discussion and Analysis of Financial Condition and Results of Operations - Risk management” for additional information on our exposure and how we monitor and manage our market, credit, liquidity, operational, model, and compliance, and certain other risks. 
+ 
+ 
+ 
+ RISKS RELATED TO OUR BUSINESS AND INDUSTRY 
+ 
+ 
+ 
+ Damage to our reputation could damage our businesses. 
+ 
+ 
+ Maintaining our reputation is critical to attracting and maintaining clients, investors, associates, and independent contractor financial advisors. If we fail to address, or appear to fail to address, issues that may give rise to reputational risk, we could significantly harm our business prospects. These issues may include, but are not limited to, any of the risks discussed in this Item 1A, including appropriately dealing with potential conflicts of interest, legal and regulatory requirements, fraud perpetrated against our clients, ethical issues, money laundering, cybersecurity, privacy, record-keeping, sales and trading practices, and associate misconduct. In addition, the failure to either sell securities we have underwritten at anticipated price levels or to properly identify and communicate the risks inherent in the products and services we offer could also give rise to reputational risk. A failure or perceived failure to maintain appropriate service and quality standards or to treat clients fairly can result in client dissatisfaction, litigation, and heig
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ 
+ 
+ In the normal course of our business, we have been named, from time to time, as a defendant in various legal actions, including arbitrations, class actions and other litigation, arising in connection with our activities as a diversified financial services institution. 
+ 
+ 
+ RJF and certain of its subsidiaries are subject to regular reviews and inspections by regulatory authorities and SROs. Reviews can result in the imposition of sanctions for regulatory violations, ranging from non-monetary censures to fines and, in serious cases, temporary or permanent suspension from conducting business, or limitations on certain business activities. In addition, regulatory agencies and SROs institute investigations from time to time into industry practices, among other things, which can also result in the imposition of such sanctions. 
+ 
+ 
+ We may contest liability and/or the amount of damages, as appropriate, in each pending matter. The level of litigation and investigatory activity (both formal and informal) by government and self-regulatory agencies in the financial services industry continues to be significant. There can be no assurance that material losses will not be incurred from claims that have not yet been asserted or are not yet determined to be material. 
+ 
+ 
+ For many legal and regulatory matters, we are unable to estimate a range of reasonably possible loss as we cannot predict if, how or when such proceedings or investigations will be resolved or wha
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Raymond James Financial's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +14.9% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $1.7B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Raymond James Financial's position in investment banking & brokerage reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All RJF Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720005&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=720005&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=720005&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000720005.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000720005.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2025-11-25. Update required when next annual filing is submitted to EDGAR.

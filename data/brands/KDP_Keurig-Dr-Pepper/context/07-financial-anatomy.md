@@ -1,132 +1,187 @@
 # 07. Financial Anatomy — Keurig Dr Pepper (KDP)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — KDP](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keurig+Dr+Pepper&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — KDP 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keurig+Dr+Pepper&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — KDP DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keurig+Dr+Pepper&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — KDP 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Keurig+Dr+Pepper&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — KDP 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — KDP 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — KDP DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — KDP 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Keurig Dr Pepper.
+**CIK**: 0001418135
+**Period**: 2025-12-31 | **Filed**: 2026-02-24 | **Form**: 10-K
+**Accession**: 0001418135-26-000016
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Keurig Dr Pepper's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $14.8B | +5.4% | (SEC 10-K FY2025) |
+| FY2024 | $14.1B | +10.8% | (SEC 10-K FY2024) |
+| FY2023 | $12.7B | +9.2% | (SEC 10-K FY2023) |
+| FY2022 | $11.6B | +4.5% | (SEC 10-K FY2022) |
+| FY2021 | $11.1B | +49.4% | (SEC 10-K FY2021) |
+| FY2020 | $7.4B | +74.3% | (SEC 10-K FY2020) |
+| FY2019 | $4.3B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001418135](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Keurig Dr Pepper's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Soft Drinks & Non-alcoholic Beverages. (SEC 10-K)
+Based on public SEC filings, Keurig Dr Pepper operates in the **Soft Drinks &amp; Non-alcoholic Beverages** segment within the **Consumer Staples** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Keurig Dr Pepper's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 54.5% | 52.1% | 55.0% | (SEC 10-K) |
+| Operating Margin | 21.5% | 18.5% | 22.8% | (SEC 10-K) |
+| Net Margin | 14.7% | 10.2% | 16.9% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in soft drinks & non-alcoholic beverages. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $1.55 | (SEC 10-K FY2025) |
+| FY2024 | $1.01 | (SEC 10-K FY2024) |
+| FY2023 | $1.50 | (SEC 10-K FY2023) |
+| FY2022 | $0.93 | (SEC 10-K FY2022) |
+| FY2021 | $0.88 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Keurig Dr Pepper's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $66M | 0.4% | (SEC 10-K FY2025) |
+| FY2024 | $65M | 0.5% | (SEC 10-K FY2024) |
+| FY2023 | $66M | 0.5% | (SEC 10-K FY2023) |
+| FY2022 | $69M | 0.6% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $4.9B | 33.2% | (SEC 10-K FY2025) |
+| FY2024 | $4.6B | 33.0% | (SEC 10-K FY2024) |
+| FY2023 | $4.2B | 32.7% | (SEC 10-K FY2023) |
+| FY2022 | $4.0B | 34.2% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $425M | (SEC 10-K FY2025) |
+| FY2024 | $353M | (SEC 10-K FY2024) |
+| FY2023 | $423M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $706M | $379M | $0M | (SEC 10-K) |
+| Dividends Paid | $1.1B | $1.1B | $955M | (SEC 10-K) |
 
-Keurig Dr Pepper's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Keurig Dr Pepper's M&A strategy reflects its approach to growth in Soft Drinks & Non-alcoholic Beverages. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Keurig Dr Pepper's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Keurig Dr Pepper's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $53.4B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $510M | (SEC 10-K FY2025) |
+| Long-Term Debt | $11.7B | (SEC 10-K FY2022) |
+| Shareholders' Equity | $25.1B | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Keurig Dr Pepper's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in soft drinks & non-alcoholic beverages affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . RISK FACTORS 
+ In addition to the other information set forth in this Annual Report, the following factors should be considered, which could materially affect our business, financial condition, and results of operations. The risks described below are not the only risks we face. Risks and uncertainties not currently known to us or that we currently deem to be immaterial also may have a material adverse affect on our business, financial condition, or results of operations. 
+ 
+ RISK FACTORS SUMMARY 
+ • Disruption of our manufacturing and distribution operations or supply chain, including increased input costs, may adversely affect our financial condition or results of operations. 
+ • We operate in highly competitive categories, and any inability to compete effectively could adversely impact our business. 
+ • We may not effectively respond to changing consumer preferences and shopping behavior, which could impact our financial results. 
+ • Concerns about the safety, quality, or health effects of our products could negatively affect our business. 
+ • Damage to our reputation or brand image can adversely affect our business. 
+ • If we do not successfully manage our acquisitions of and investments in new businesses or brands, our operating results may adversely be affected. 
+ • Failure to realize benefits or successfully manage the potential negative consequences of our productivity initiatives can adversely affect our financial performance. 
+ • Our facilities and operations may require substantial investment and upgrading, and such investments may not achieve the intended financial benefits. 
+ • We depend on key information systems, and our use of information technology exposes us to business disruptions that could adversely affect us. 
+ • Our intellectual property rights could be infringed or we could infringe the intellectual property rights of others, and adverse events regarding licensed intellectual property could harm our business. 
+ • Failure to attract, retain, develop, and motivate a highly skilled and diverse workforce, or failure to effectively manage changes in our workforce, could significantly impact our operations. 
+ • We may not be able to renew collective bargaining agreements on satisfactory terms, or we could experience union activity, including new unionization, labor disputes, or work stoppages. 
+ • Increases in our cost of employee benefits in the future could reduce our profitability. 
+ • We negotiate with our suppliers to optimize our t
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> LEGAL PROCEEDINGS 
+ We are occasionally subject to litigation or other legal proceedings relating to our business. Refer to Note 18 of the Notes to our Consolidated Financial Statements related to commitments and contingencies, which is incorporated herein by reference.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Keurig Dr Pepper's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +5.4% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $2.2B | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 0.4% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Keurig Dr Pepper's position in soft drinks & non-alcoholic beverages reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All KDP Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001418135&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1418135&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1418135&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001418135.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001418135.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-24. Update required when next annual filing is submitted to EDGAR.

@@ -1,132 +1,187 @@
 # 07. Financial Anatomy — Best Buy (BBY)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — BBY](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Best+Buy&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — BBY 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Best+Buy&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — BBY DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Best+Buy&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — BBY 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Best+Buy&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2026 | [SEC EDGAR — BBY 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — BBY 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2026 | [SEC EDGAR — BBY DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — BBY 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Best Buy.
+**CIK**: 0000764478
+**Period**: 2026-01-31 | **Filed**: 2026-03-18 | **Form**: 10-K
+**Accession**: 0000764478-26-000009
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Best Buy's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2026 | $43.5B | -6.1% | (SEC 10-K FY2026) |
+| FY2025 | $46.3B | -10.6% | (SEC 10-K FY2025) |
+| FY2024 | $51.8B | +9.5% | (SEC 10-K FY2024) |
+| FY2023 | $47.3B | +8.3% | (SEC 10-K FY2023) |
+| FY2022 | $43.6B | +1.8% | (SEC 10-K FY2022) |
+| FY2020 | $42.9B | +8.8% | (SEC 10-K FY2020) |
+| FY2019 | $39.4B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0000764478](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Best Buy's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Computer & Electronics Retail. (SEC 10-K)
+Based on public SEC filings, Best Buy operates in the **Computer &amp; Electronics Retail** segment within the **Consumer Discretionary** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Best Buy's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2026 | FY2025 | FY2024 | Source |
+|--------|------|------|------|--------|
+| Gross Margin | 22.1% | 21.4% | 22.5% | (SEC 10-K) |
+| Operating Margin | 3.6% | 3.9% | 5.9% | (SEC 10-K) |
+| Net Margin | 2.9% | 3.1% | 4.7% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in computer & electronics retail. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2026 | $5.68 | (SEC 10-K FY2026) |
+| FY2025 | $6.29 | (SEC 10-K FY2025) |
+| FY2024 | $9.84 | (SEC 10-K FY2024) |
+| FY2023 | $6.84 | (SEC 10-K FY2023) |
+| FY2022 | $5.75 | (SEC 10-K FY2022) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**SG&A Spending**
 
-Best Buy's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2026 | $7.9B | 18.1% | (SEC 10-K FY2026) |
+| FY2025 | $8.0B | 17.2% | (SEC 10-K FY2025) |
+| FY2024 | $8.6B | 16.7% | (SEC 10-K FY2024) |
+| FY2023 | $7.9B | 16.8% | (SEC 10-K FY2023) |
 
-### 4.2 SG&A
+**Capital Expenditure**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2026 | $795M | (SEC 10-K FY2026) |
+| FY2025 | $930M | (SEC 10-K FY2025) |
+| FY2024 | $737M | (SEC 10-K FY2024) |
 
-### 4.3 Capital Expenditures
-
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2026 | FY2025 | FY2024 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $340M | $1.0B | $3.5B | (SEC 10-K) |
+| Dividends Paid | $801M | $789M | $688M | (SEC 10-K) |
 
-Best Buy's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Best Buy's M&A strategy reflects its approach to growth in Computer & Electronics Retail. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Best Buy's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Best Buy's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $14.8B | (SEC 10-K FY2026) |
+| Cash & Equivalents | $1.4B | (SEC 10-K FY2026) |
+| Long-Term Debt | $1.2B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $2.8B | (SEC 10-K FY2026) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Best Buy's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in computer & electronics retail affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . Risk Factors. 
+ 
+ 
+ Described below are certain risks we believe apply to our business and the industry in which we operate. The risks are categorized using the following headings: external, strategic, operational, regulatory, compliance and legal, and financial and market. Each of the following risk factors should be carefully considered in conjunction with other information provided in this Annual Report on Form 10-K and in our other public disclosures. The risks described below highlight potential events, trends or other circumstances that could adversely affect our business, financial condition, results of operations, cash flows, liquidity or access to sources of financing and, consequently, the market value of our common stock and debt instruments. These risks could cause our future results to differ materially from historical results and from guidance we may provide regarding our expectations of future financial performance. The risks described below are not an exhaustive list of all the risks we face. There may be others that we have not identified or that we have deemed to be immaterial. All forward-looking statements made by us or on our behalf are qualified by the risks described below. 
+ 
+ 
+ 
+ External Risks 
+ 
+ 
+ Macroeconomic pressures may adversely affect consumer spending and our financial results. 
+ 
+ 
+ To varying degrees, our products and services are sensitive to changes in macroeconomic conditions. Consumer demand for the products and services that we offer could be, or could continue to be, affected by a number of factors, including: real GDP growth, inflation, recession, consumer confidence, employment levels, effects of government closures, cost of living, uncertainty over the availability of government benefits, tax rates, availability of consumer financing, interest rates, housing market conditions, foreign currency exchange rates, the price of oil, gas and other commodities and other macroeconomic trends. Additionally, the impact of these factors could be compounded with respect to discretionary purchases of consumer electronics. 
+ 
+ 
+ These macroeconomic conditions impact consumer behavior and spending in various ways, including: 
+ 
+ 
+ • whether consumers make a purchase; 
+ • how frequently consumers upgrade or replace their devices; 
+ • consumers' choice of brand, model or price-point; and 
+ • consumers' appetite for complementary services (for example, My Best Buy Plus™ or My Best Buy Total™ membership). 
+ 
+ 
+ Any decrease in
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings. 
+ 
+ 
+ For additional information regarding our legal proceedings, see Note 12, Contingencies and Commitments , of the Notes to Consolidated Financial Statements, included in Item 8, Financial Statements and Supplementary Data , of this Annual Report on Form 10-K.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Best Buy's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | -6.1% YoY (FY2026) | Revenue contraction may signal brand strategy re-evaluation |
+| Net Income (FY2026) | $1.2B | Positive net income provides headroom for brand and marketing investment |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Best Buy's position in computer & electronics retail reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All BBY Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764478&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=764478&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=764478&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0000764478.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000764478.json)
+
+> **Data Freshness**: Based on FY2026 10-K filed 2026-03-18. Update required when next annual filing is submitted to EDGAR.

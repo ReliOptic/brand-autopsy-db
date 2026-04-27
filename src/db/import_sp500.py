@@ -11,7 +11,7 @@ CSV_PATH = Path(__file__).parent.parent.parent / "data" / "sp500_list.csv"
 
 
 def import_sp500(csv_path: Path = CSV_PATH, db_url: str = "sqlite:///data/brand_autopsy.db"):
-    engine = init_db(db_url)
+    init_db(db_url)
     Session = get_session(db_url)
     session = Session()
 

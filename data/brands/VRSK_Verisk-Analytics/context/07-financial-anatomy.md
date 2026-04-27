@@ -1,132 +1,206 @@
 # 07. Financial Anatomy — Verisk Analytics (VRSK)
 
-> **Disclaimer**: This document is prepared for brand strategy analysis purposes only. It does not constitute investment advice, financial guidance, or legal counsel. All financial figures are sourced from the company's SEC filings (10-K, 10-Q) and official Investor Relations disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's T1-T5 classification system.
+> **DISCLAIMER**: This document is prepared for brand strategy analysis purposes only. It does not
+> constitute investment advice, financial guidance, or legal counsel. All financial figures are
+> sourced from the company's SEC filings (10-K, 10-Q, DEF 14A) and official Investor Relations
+> disclosures unless explicitly marked "(estimated)". Source tier codes follow the project's
+> T1–T5 classification system defined in CLAUDE.md.
 
 ---
 
 ## 1. Filing Source Links
 
-| Document | Coverage | Direct Link |
-|----------|----------|-------------|
-| 10-K (Annual Report) | Most recent fiscal year | [SEC EDGAR — VRSK](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verisk+Analytics&CIK=&type=10-K&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 10-Q (Quarterly) | Most recent quarters | [SEC EDGAR — VRSK 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verisk+Analytics&CIK=&type=10-Q&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| DEF 14A (Proxy Statement) | Most recent proxy | [SEC EDGAR — VRSK DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verisk+Analytics&CIK=&type=DEF+14A&dateb=&owner=include&count=10&search_text=&action=getcompany) |
-| 8-K (Material Events) | Rolling | [SEC EDGAR — VRSK 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=Verisk+Analytics&CIK=&type=8-K&dateb=&owner=include&count=20&search_text=&action=getcompany) |
+| Document | Fiscal Year | Direct Link |
+|----------|-------------|-------------|
+| 10-K (Annual Report) | FY2025 | [SEC EDGAR — VRSK 10-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-K&dateb=&owner=include&count=10) |
+| 10-Q (Quarterly Report) | Latest | [SEC EDGAR — VRSK 10-Q](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-Q&dateb=&owner=include&count=10) |
+| DEF 14A (Proxy Statement) | FY2025 | [SEC EDGAR — VRSK DEF 14A](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=DEF+14A&dateb=&owner=include&count=10) |
+| 8-K (Material Events) | Rolling | [SEC EDGAR — VRSK 8-K](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=8-K&dateb=&owner=include&count=20) |
 
-CIK number available via SEC EDGAR company search for Verisk Analytics.
+**CIK**: 0001442145
+**Period**: 2025-12-31 | **Filed**: 2026-02-18 | **Form**: 10-K
+**Accession**: 0001437749-26-004452
 
 ---
 
 ## 2. Revenue Anatomy
 
-### 2.1 Revenue Overview
+### 2.1 Revenue Trend (XBRL — T1_OFFICIAL)
 
-Verisk Analytics's revenue, segment structure, and geographic breakdown are disclosed in the company's most recent 10-K filing (SEC 10-K). Investors and analysts should reference the most recent filing for current figures.
+| Fiscal Year | Revenue | YoY Change | Source |
+|-------------|---------|------------|--------|
+| FY2025 | $2.7B | +7.4% | (SEC 10-K FY2025) |
+| FY2024 | $2.5B | +1.4% | (SEC 10-K FY2024) |
+| FY2023 | $2.5B | +8.5% | (SEC 10-K FY2023) |
+| FY2022 | $2.3B | -13.0% | (SEC 10-K FY2022) |
+| FY2021 | $2.6B | +8.9% | (SEC 10-K FY2021) |
+| FY2020 | $2.4B | +11.6% | (SEC 10-K FY2020) |
+| FY2019 | $2.1B | — | (SEC 10-K FY2019) |
 
-Key revenue characteristics based on most recent available SEC filings:
-- Total revenue figure as disclosed in the consolidated statements of income (SEC 10-K)
-- Segment revenue breakdown as disclosed in the segment information notes (SEC 10-K)
-- Geographic revenue breakdown as disclosed in the geographic information notes (SEC 10-K)
+> **Source**: SEC EDGAR XBRL companyfacts API — [CIK 0001442145](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-K&dateb=&owner=include&count=10)
 
-### 2.2 Revenue Trend
+### 2.2 Revenue Context
 
-Revenue trends over the most recent five fiscal years are available in the company's 10-K filings. Year-over-year growth rates can be calculated from these disclosed figures. (SEC 10-K, historical filings)
-
-### 2.3 Segment and Geographic Mix
-
-Verisk Analytics's business segment and geographic revenue distribution are disclosed in its 10-K filing under the segment information and geographic information notes. The specific segments and their relative contributions reflect the company's operational structure in Research & Consulting Services. (SEC 10-K)
+Based on public SEC filings, Verisk Analytics operates in the **Research &amp; Consulting Services** segment within the **Industrials** sector. Revenue composition details, including segment and geographic breakdowns, are disclosed in the company's 10-K filing under Notes to Financial Statements (T1_OFFICIAL). Refer to the EDGAR filing linked above for the most current segment disclosure.
 
 ---
 
 ## 3. Profitability Anatomy
 
-### 3.1 Margin Structure
+### 3.1 Margin Structure (XBRL — T1_OFFICIAL)
 
-Verisk Analytics's margin structure — including gross margin, operating margin, and net margin — is disclosed in the consolidated financial statements of the company's 10-K filing. (SEC 10-K)
+| Metric | FY2025 | FY2024 | FY2023 | Source |
+|--------|------|------|------|--------|
+| Operating Margin | 42.2% | 56.3% | 37.0% | (SEC 10-K) |
+| Net Margin | 22.9% | 38.2% | 27.1% | (SEC 10-K) |
 
-Key profitability characteristics:
-- Gross margin reflects the company's cost structure in research & consulting services. (SEC 10-K)
-- Operating margin reflects R&D, SG&A, and other operating expense levels. (SEC 10-K)
-- Net margin reflects the overall profitability after taxes and non-operating items. (SEC 10-K)
+> **Source**: Derived from XBRL gross_profit, operating_income, net_income, and revenue figures — SEC 10-K (T1_OFFICIAL).
 
-Margin trends can be analyzed using historical 10-K filings available on SEC EDGAR.
+### 3.2 EPS Trend
+
+| Fiscal Year | Diluted EPS | Source |
+|-------------|------------|--------|
+| FY2025 | $4.17 | (SEC 10-K FY2025) |
+| FY2024 | $6.00 | (SEC 10-K FY2024) |
+| FY2023 | $4.08 | (SEC 10-K FY2023) |
+| FY2022 | $4.31 | (SEC 10-K FY2022) |
+| FY2021 | $2.70 | (SEC 10-K FY2021) |
 
 ---
 
 ## 4. Investment Structure
 
-### 4.1 Research & Development
+**R&D Spending**
 
-Verisk Analytics's R&D expenditure is disclosed in its 10-K income statement and related notes. R&D intensity (R&D as a percentage of revenue) indicates the company's investment in innovation relative to its revenue base. (SEC 10-K)
+| Fiscal Year | R&D | % of Revenue | Source |
+|-------------|-----|-------------|--------|
+| FY2025 | $37M | 1.4% | (SEC 10-K FY2025) |
+| FY2024 | $43M | 1.7% | (SEC 10-K FY2024) |
+| FY2023 | $47M | 1.9% | (SEC 10-K FY2023) |
+| FY2022 | $45M | 2.0% | (SEC 10-K FY2022) |
 
-### 4.2 SG&A
+**SG&A Spending**
 
-Selling, general, and administrative expenses reflect the company's sales infrastructure, corporate overhead, and administrative costs. SG&A as a percentage of revenue is disclosed in the 10-K filing. (SEC 10-K)
+| Fiscal Year | SG&A | % of Revenue | Source |
+|-------------|------|-------------|--------|
+| FY2025 | $392M | 14.6% | (SEC 10-K FY2025) |
+| FY2024 | $382M | 15.3% | (SEC 10-K FY2024) |
+| FY2023 | $313M | 12.7% | (SEC 10-K FY2023) |
+| FY2022 | $308M | 13.6% | (SEC 10-K FY2022) |
 
-### 4.3 Capital Expenditures
+**Capital Expenditure**
 
-Capital expenditures are disclosed in the cash flow statement of the 10-K filing. CapEx levels relative to revenue indicate the company's capital intensity and investment in physical or technological infrastructure. (SEC 10-K)
+| Fiscal Year | CapEx | Source |
+|-------------|-------|--------|
+| FY2025 | $230M | (SEC 10-K FY2025) |
+| FY2024 | $275M | (SEC 10-K FY2024) |
+| FY2023 | $268M | (SEC 10-K FY2023) |
+
+> **Note**: R&D and SG&A figures are sourced from EDGAR XBRL. If a metric shows N/A, the company may report it under a different XBRL tag or disclose it as a combined line item.
 
 ---
 
 ## 5. Capital Allocation
 
-### 5.1 Shareholder Returns
+| Item | FY2025 | FY2024 | FY2023 | Source |
+|------|------|------|------|--------|
+| Share Buybacks | $2.8B | $1.7B | $475M | (SEC 10-K) |
+| Dividends Paid | $197M | $195M | $188M | (SEC 10-K) |
 
-Verisk Analytics's capital return program — including share buybacks and dividends — is disclosed in the 10-K filing, cash flow statement, and board authorization disclosures. (SEC 10-K)
-
-### 5.2 Mergers & Acquisitions
-
-Acquisition activity is disclosed in the 10-K notes (Business Combinations) and in 8-K filings for material transactions. Verisk Analytics's M&A strategy reflects its approach to growth in Research & Consulting Services. (SEC 10-K, 8-K filings)
-
----
-
-## 6. Financial Health
-
-### 6.1 Balance Sheet Summary
-
-Verisk Analytics's balance sheet — including total assets, total liabilities, shareholder equity, cash position, and debt levels — is disclosed in the 10-K filing. (SEC 10-K)
-
-### 6.2 Credit and Liquidity
-
-Credit ratings from major agencies (Moody's, S&P, Fitch) are publicly available and reflect independent assessments of Verisk Analytics's credit quality. Refer to current agency publications for latest ratings. (T3_SECONDARY_RELIABLE, rating agency publications)
+> **Source**: SEC 10-K — Consolidated Statements of Cash Flows (T1_OFFICIAL). Negative values per GAAP convention are presented as absolute values above.
 
 ---
 
-## 7. Brand Valuation
+## 6. Balance Sheet Highlights (Latest FY)
 
-Brand valuation estimates from third-party agencies (Interbrand, Brand Finance, Forbes) are available for companies that appear in their annual rankings. These valuations use proprietary methodologies and should be referenced with appropriate attribution. Brand valuation figures are not audited financial data. (T3_SECONDARY_RELIABLE)
+| Item | Value | Source |
+|------|-------|--------|
+| Total Assets | $4.3B | (SEC 10-K FY2025) |
+| Cash & Equivalents | $291M | (SEC 10-K FY2025) |
+| Long-Term Debt | $4.8B | (SEC 10-K FY2025) |
+| Shareholders' Equity | $100M | (SEC 10-K FY2025) |
+
+> **Source**: SEC 10-K — Consolidated Balance Sheets (T1_OFFICIAL).
 
 ---
 
-## 8. Financial Risk Matrix
+## 7. Financial Risk Factors
 
-Risk factors are disclosed in Verisk Analytics's 10-K, Part I, Item 1A (Risk Factors). Key categories typically include:
+### From SEC 10-K Item 1A (T1_OFFICIAL)
 
-| # | Risk Category | Summary | Source |
-|---|---------------|---------|--------|
-| 1 | **Competitive risk** | Competitive pressures in research & consulting services affecting market position and pricing | SEC 10-K, Item 1A |
-| 2 | **Regulatory risk** | Regulatory changes affecting operations, compliance costs, or business model | SEC 10-K, Item 1A |
-| 3 | **Macroeconomic risk** | Economic conditions affecting customer demand and operational costs | SEC 10-K, Item 1A |
-| 4 | **Operational risk** | Supply chain, technology, and execution risks | SEC 10-K, Item 1A |
-| 5 | **Financial risk** | Interest rate, currency, and liquidity risks | SEC 10-K, Item 1A |
+The following is an excerpt from Item 1A (Risk Factors) of the company's most recent 10-K filing (T1_OFFICIAL):
 
-Detailed risk factor descriptions are available in the most recent 10-K filing on SEC EDGAR.
+> . 
+ 
+ Risk Factors 
+ 
+
+ 
+ 
+ 
+  
+ 
+ You should carefully consider the following risks and all of the other information set forth in this annual report on Form 10-K before deciding to invest in any of our securities. If any of the following risks actually occurs, our business, financial condition or results of operations would likely suffer. In such case, the trading price of our securities, including our common stock, could decline due to any of these risks, and you may lose all or part of your investment.  
+ 
+  
+ 
+ Strategic and Operational Risks Related to Our Business 
+ 
+  
+ 
+ We are subject to competition in many of the markets in which we operate and we may not be able to compete effectively. 
+ 
+  
+ 
+Markets in which we operate or which we believe may provide growth opportunities for us are highly competitive, and are expected to remain highly competitive. We compete on the basis of quality, customer service, product and service selection, and pricing. Our competitive position in various market segments depends upon the relative strength of competitors in the segment and the resources devoted to competing in that segment. Certain competitors may be able to allocate greater resources to a particular market segment than we can. As a result, these competitors may be in a better position to anticipate and respond to changing customer preferences, emerging technologies and market trends. In addition, new competitors and alliances may emerge to take market share away, and as we enter into new lines of business, due to acquisition or otherwise, we face competition from new players with different competitive dynamics. We may be unable to maintain our competitive position in our market segments, especially against larger competitors. We may also invest further to upgrade our systems in order to compete. If we fail to successfully compete, our business, financial position and results of operations may be adversely affected.  
+ 
+  
+ 
+ We could lose our access to data from external sources, which could prevent us from providing our solutions. 
+ 
+  
+ 
+We depend upon data from external sources, including data received from customers and various government and public record services, for information used in our data repositories. In general, we do not own the information in these data repositories, and the participating organizations could discontinue or materially limit contributing information to the data repositories. Our data sources could withdraw or increase th
+
+> *(Excerpt continues — see full filing on EDGAR for complete risk factors)*
+
+---
+
+## 8. Legal Proceedings Summary
+
+### From SEC 10-K Item 3 (T1_OFFICIAL)
+
+> Legal Proceedings 
+ 
+
+ 
+ 
+ 
+  
+ 
+See Note 21 , Commitments and Contingencies, to the consolidated financial statements included in Item 8 Part II of this 10-K for information regarding certain legal proceedings in which we are involved.
+
 
 ---
 
 ## 9. Brand-Finance Nexus
 
-The relationship between Verisk Analytics's brand strength and financial performance can be observed through several signals (T4_INFERRED):
+### 9.1 Financial Signal → Brand Strategy Interpretation
 
-**Signal 1 — Pricing Power**: The company's ability to maintain margins in competitive markets suggests brand-supported pricing power. (T4_INFERRED from margin trends in SEC filings)
+| Financial Signal | Observed Data | Brand Strategy Implication |
+|-----------------|---------------|---------------------------|
+| Revenue Trend | +7.4% YoY (FY2025) | Growth momentum supports brand investment |
+| Net Income (FY2025) | $615M | Positive net income provides headroom for brand and marketing investment |
+| R&D Intensity (FY2025) | 1.4% of revenue | Moderate/low R&D ratio suggests brand competes on non-technology dimensions |
 
-**Signal 2 — Customer Retention**: Revenue stability or growth indicates customer retention driven in part by brand loyalty and switching costs. (T4_INFERRED)
-
-**Signal 3 — Market Position**: Verisk Analytics's position in research & consulting services reflects accumulated brand equity and market credibility. (T4_INFERRED)
+> **Note**: Financial-to-brand inferences above are T4_INFERRED interpretations based on publicly available financial data. They represent analytical observations, not statements of company strategy or intent.
 
 ---
 
-*Layer 7 — Financial Anatomy | Brand Autopsy DB Project*
-*Source tier system: T1_OFFICIAL (SEC filings/official) | T3_SECONDARY_RELIABLE | T4_INFERRED (project analysis)*
-*Financial data references the company's SEC filings. Refer to the most recent 10-K for current figures.*
+## EDGAR Quick Reference
+
+1. **All VRSK Filings**: [https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-K&dateb=&owner=include&count=40)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001442145&type=10-K&dateb=&owner=include&count=40)
+2. **XBRL Viewer**: [https://www.sec.gov/cgi-bin/viewer?action=view&cik=1442145&type=10-K](https://www.sec.gov/cgi-bin/viewer?action=view&cik=1442145&type=10-K)
+3. **Company Facts API**: [https://data.sec.gov/api/xbrl/companyfacts/CIK0001442145.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001442145.json)
+
+> **Data Freshness**: Based on FY2025 10-K filed 2026-02-18. Update required when next annual filing is submitted to EDGAR.

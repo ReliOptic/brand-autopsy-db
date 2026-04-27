@@ -68,7 +68,7 @@ corporate banking aesthetic inconsistent with PayPal's financial inclusion missi
 
 **Principle 2 — Yellow (#FFD140) is a selective conversion-focused accent, not a general
 decorative color.**
-The gold-yellow appears at approximately 19 instances in CSS — significant, but deliberately
+The gold-yellow appears at approximately 19 instances in CSS — significant, but
 contained. Its use is concentrated in CTA contexts, particularly "Pay Now" and "Checkout"
 button fills on dark-background layouts. Yellow CTAs on navy backgrounds create maximum
 contrast for conversion. Using yellow broadly as a decorative or typographic color would
@@ -314,7 +314,7 @@ The following practices are inconsistent with PayPal's publicly observed design 
 
 6. **No mixing of Venmo visual identity with PayPal visual identity in the same creative.**
    Venmo uses its own distinct color palette (Venmo green #008C50, teal, white) and tone
-   that is deliberately separate from PayPal's navy/blue/cream system. Combining both
+   that is separate from PayPal's navy/blue/cream system. Combining both
    visual identities in a single design conflates two brands with different audience
    positioning (T4_INFERRED from sub-brand architecture).
 
@@ -334,7 +334,7 @@ The following practices are inconsistent with PayPal's publicly observed design 
 
 10. **No aggressive, asymmetric, or disruptive layouts.** PayPal's layout system is orderly
     and predictable — alternating two-column sections, clear hierarchy, generous spacing.
-    Disruptive or intentionally asymmetric layout approaches conflict with the trust and
+    Disruptive or asymmetric layout approaches conflict with the trust and
     reliability signals the brand must maintain as a financial services company
     (T4_INFERRED from observed layout patterns).
 
