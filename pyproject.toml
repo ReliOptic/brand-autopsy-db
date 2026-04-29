@@ -29,3 +29,11 @@ ba-report = "src.report.generator:main"
 
 [tool.ruff]
 line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q --tb=short --strict-markers"
+markers = [
+    "integration: requires the full FastAPI app or filesystem fixtures",
+]
