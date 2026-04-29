@@ -135,9 +135,12 @@ def refresh_layer7(
 ) -> list[str]:
     """Regenerate Layer 07 (Financial Anatomy) for the supplied tickers.
 
-    Wired as a stub: tries to import the analyzer engine and call into it. If
-    the engine or its dependencies are unavailable (e.g. missing API key, the
-    module not yet exposing a layer-7-only entrypoint), logs and skips.
+    Reads cached SEC XBRL data from data/raw/<TICKER>/sec_10k.json and writes
+    the generated Markdown to data/brands/<TICKER>_<Brand>/context/07-financial-anatomy.md.
+    No external API key is required; all data is sourced from on-disk SEC cache.
+
+    Per-ticker exceptions are caught and logged so one failure does not abort
+    the full run. Gracefully degrades if the generator module cannot be imported.
     """
     if not tickers:
         logger.info("refresh_layer7 skipped | reason=no_tickers")
@@ -148,26 +151,29 @@ def refresh_layer7(
         return list(tickers)
 
     try:
-        from src.analyzer import engine as analyzer_engine  # noqa: F401
+        from src.analyzer.generate_layer7 import run as generate_layer7_run
     except ImportError as exc:
-        logger.warning("analyzer engine unavailable, skipping Layer 07 refresh: %s", exc)
+        logger.warning("generate_layer7 unavailable, skipping Layer 07 refresh: %s", exc)
         return []
     except Exception as exc:
-        logger.warning("analyzer engine import error: %s", exc)
+        logger.warning("generate_layer7 import error: %s", exc)
         return []
 
     refreshed: list[str] = []
     for ticker in tickers:
-        # Real wiring is intentionally deferred — call site stays a no-op stub
-        # so the cron pipeline runs end-to-end without an API key in CI.
-        logger.info(
-            "refresh_layer7 stub | ticker=%s | engine_present=%s",
-            ticker,
-            bool(analyzer_engine),
-        )
-        refreshed.append(ticker)
+        try:
+            generate_layer7_run(ticker=ticker, force=True)
+            logger.info("refresh_layer7 success | ticker=%s", ticker)
+            refreshed.append(ticker)
+        except Exception as exc:
+            logger.error(
+                "refresh_layer7 failed | ticker=%s | error_type=%s | error=%s",
+                ticker,
+                type(exc).__name__,
+                exc,
+            )
 
-    logger.info("refresh_layer7 complete | refreshed=%d", len(refreshed))
+    logger.info("refresh_layer7 complete | refreshed=%d | failed=%d", len(refreshed), len(tickers) - len(refreshed))
     return refreshed
 
 
