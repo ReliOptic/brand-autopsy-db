@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
 import { fetchBrands } from "@/lib/api";
+import { publicEnv } from "@/config/env";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bautopsy.com";
+  const BASE_URL = publicEnv.siteUrl;
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: new Date(), changeFrequency: "weekly", priority: 1.0 },

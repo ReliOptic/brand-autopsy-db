@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { getStripe, PLANS } from "@/lib/stripe";
+import { publicEnv } from "@/config/env";
 
 interface CheckoutPayload {
   planId: unknown;
@@ -22,7 +23,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
       );
     }
 
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+    const siteUrl = publicEnv.siteUrl;
 
     const stripe = getStripe();
     const session = await stripe.checkout.sessions.create({

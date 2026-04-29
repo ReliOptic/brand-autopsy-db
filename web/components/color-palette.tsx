@@ -4,7 +4,7 @@ interface ColorPaletteProps {
   colors: ColorEntry[];
 }
 
-export default function ColorPalette({ colors }: ColorPaletteProps) {
+export function ColorPalette({ colors }: ColorPaletteProps): JSX.Element | null {
   if (!colors.length) return null;
   return (
     <div className="flex flex-wrap gap-3">

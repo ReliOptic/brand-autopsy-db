@@ -21,6 +21,8 @@ import { NextResponse, type NextRequest } from "next/server";
 import { mkdir, readFile, writeFile } from "fs/promises";
 import { dirname, join } from "path";
 import { getStripe } from "@/lib/stripe";
+import { serverEnv } from "@/config/env";
+import { MissingEnvVarError } from "@/config/env";
 import type { Stripe } from "stripe";
 
 const SUBSCRIPTIONS_PATH = join(process.cwd(), "..", "data", "subscriptions.json");
@@ -127,12 +129,14 @@ async function handleSubscriptionDeleted(
 }
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
-  const secret = process.env.STRIPE_WEBHOOK_SECRET;
-  if (!secret) {
-    return NextResponse.json(
-      { error: "STRIPE_WEBHOOK_SECRET not configured" },
-      { status: 500 },
-    );
+  let secret: string;
+  try {
+    secret = serverEnv.stripeWebhookSecret();
+  } catch (err) {
+    if (err instanceof MissingEnvVarError) {
+      return NextResponse.json({ error: err.message }, { status: 500 });
+    }
+    throw err;
   }
 
   const signature = req.headers.get("stripe-signature");

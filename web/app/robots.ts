@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
+import { publicEnv } from "@/config/env";
 
 export default function robots(): MetadataRoute.Robots {
-  const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://bautopsy.com";
+  const BASE_URL = publicEnv.siteUrl;
   return {
     rules: [
       {

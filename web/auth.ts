@@ -11,16 +11,17 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 import Resend from "next-auth/providers/resend";
+import { serverEnv } from "@/config/env";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [
     Google({
-      clientId: process.env.AUTH_GOOGLE_ID,
-      clientSecret: process.env.AUTH_GOOGLE_SECRET,
+      clientId: serverEnv.authGoogleId,
+      clientSecret: serverEnv.authGoogleSecret,
     }),
     Resend({
-      apiKey: process.env.AUTH_RESEND_KEY,
-      from: process.env.AUTH_EMAIL_FROM ?? "noreply@bautopsy.com",
+      apiKey: serverEnv.authResendKey,
+      from: serverEnv.authEmailFrom,
     }),
   ],
   callbacks: {

@@ -1,8 +1,10 @@
 /**
  * Stripe client and plan definitions.
  * Requires: npm install stripe
- * Env vars: STRIPE_SECRET_KEY, NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+ * Env vars sourced from @/config/env.
  */
+
+import { serverEnv } from "@/config/env";
 
 export interface PricingPlanLimits {
   api_requests_per_day: number | null; // null = unlimited
@@ -54,7 +56,7 @@ export const PLANS: Record<string, PricingPlan> = {
     price: 299,
     currency: "usd",
     interval: "month",
-    stripePriceId: process.env.STRIPE_PRICE_ID_PRO ?? null,
+    stripePriceId: serverEnv.stripePriceIdPro ?? null,
     features: [
       "All 8 layers for all 513 brands",
       "10,000 API requests / day",
@@ -106,15 +108,11 @@ export const PLANS: Record<string, PricingPlan> = {
 let _stripe: import("stripe").Stripe | null = null;
 
 export function getStripe(): import("stripe").Stripe {
-  if (!process.env.STRIPE_SECRET_KEY) {
-    throw new Error("STRIPE_SECRET_KEY not configured");
-  }
+  const secret = serverEnv.stripeSecretKey();
   if (!_stripe) {
     // eslint-disable-next-line @typescript-eslint/no-var-requires
     const Stripe = require("stripe");
-    _stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-      apiVersion: "2024-06-20",
-    });
+    _stripe = new Stripe(secret, { apiVersion: "2024-06-20" });
   }
   if (!_stripe) {
     throw new Error("Stripe client failed to initialize");
