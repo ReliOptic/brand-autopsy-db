@@ -56,3 +56,29 @@ body {
 .markdown a { color: #818CF8; text-decoration: underline; }
 .markdown strong { color: #E2E8F0; font-weight: 600; }
 .markdown hr { border: none; border-top: 1px solid #1E1E2E; margin: 1.5rem 0; }
+
+/* Brand overview responsive grids */
+.ov-grid-voice     { display: grid; grid-template-columns: 380px 1fr; gap: 16px; margin-bottom: 16px; }
+.ov-grid-3col      { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.ov-grid-archetype { display: grid; grid-template-columns: 220px 1fr 240px; gap: 0; margin-bottom: 16px; }
+
+/* Brand hero / body layout */
+.brand-hero { padding: 52px 40px 44px; }
+.brand-body { padding: 20px 24px 40px; }
+
+/* Brand report view 3-col grid */
+.brand-report-grid { display: grid; grid-template-columns: 260px 1fr 280px; gap: 16px; }
+
+@media (max-width: 768px) {
+  .ov-grid-voice     { grid-template-columns: 1fr; }
+  .ov-grid-3col      { grid-template-columns: 1fr; }
+  .ov-grid-archetype { grid-template-columns: 1fr; }
+  .brand-hero        { padding: 32px 20px 28px; }
+  .brand-body        { padding: 12px 16px 32px; }
+  .brand-report-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .ov-grid-voice     { gap: 12px; }
+  .ov-grid-3col      { gap: 12px; }
+}

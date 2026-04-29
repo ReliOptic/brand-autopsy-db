@@ -335,6 +335,7 @@ export default async function BrandPage({
 
       {/* Hero — mesh gradient */}
       <div
+        className="brand-hero"
         style={{
           position: "relative",
           overflow: "hidden",
@@ -351,7 +352,6 @@ export default async function BrandPage({
                 `radial-gradient(ellipse 30% 50% at 50% 90%, ${brandTheme.accentDim}20 0%, transparent 55%)`,
                 brandTheme.bg,
               ].join(", "),
-          padding: "52px 40px 44px",
           borderBottom: `1px solid ${brandTheme.border}`,
         }}
       >
@@ -392,7 +392,7 @@ export default async function BrandPage({
             </div>
             <h1
               style={{
-                fontSize: 72,
+                fontSize: "clamp(40px, 6vw, 72px)",
                 fontWeight: 800,
                 color: heroText,
                 letterSpacing: "-0.03em",
@@ -531,7 +531,7 @@ export default async function BrandPage({
       </div>
 
       {/* Body */}
-      <div style={{ padding: "20px 24px 40px" }}>
+      <div className="brand-body">
         {view === "overview" && brief ? (
           <VisualOverview brief={brief} brand={brand} theme={brandTheme} />
         ) : view === "overview" && !brief ? (
@@ -548,13 +548,7 @@ export default async function BrandPage({
             BRIEF DATA NOT AVAILABLE — <Link href={`/brands/${tickerUp}?view=report`} style={{ color: T.accent }}>VIEW FULL REPORT</Link>
           </div>
         ) : (
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "260px 1fr 280px",
-              gap: 16,
-            }}
-          >
+          <div className="brand-report-grid">
             <BrandTabs
               ticker={brand.ticker}
               layers={brand.layers}

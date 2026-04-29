@@ -207,6 +207,8 @@ export interface BriefData {
   top_channels: string[];
   legal_risk_level: "LOW" | "MEDIUM" | "HIGH" | "UNKNOWN";
   financial_headline: string;
+  audience_segments: string[];
+  primary_persona: string;
 }
 
 export async function fetchBrief(ticker: string): Promise<BriefData> {

@@ -55,6 +55,8 @@ class BriefData(BaseModel):
     top_channels: list[str]
     legal_risk_level: str
     financial_headline: str
+    audience_segments: list[str] = []
+    primary_persona: str = ""
 
 
 def _extract_section_text(text: str, *headers: str) -> str:
@@ -127,6 +129,46 @@ def _extract_legal_risk(text: str) -> str:
     return "UNKNOWN"
 
 
+def _extract_audience_segments(text: str) -> list[str]:
+    """Extract persona names from Layer 02 Persona headings (## or ### level)."""
+    # Matches: "## Persona 1 — The Specialty Prescriber" or "### Persona 1 — Maya, Creative Freelancer"
+    # or "## Persona 1: The CIO Under Pressure"
+    matches = re.findall(
+        r'^#{2,3}\s+Persona\s+\d+\s*[—:\-]\s*(.+)',
+        text,
+        re.MULTILINE | re.IGNORECASE,
+    )
+    cleaned = [re.sub(r'\*+', '', m).split(',')[0].strip() for m in matches[:3]]
+    return [c for c in cleaned if c]
+
+
+def _extract_primary_persona(text: str) -> str:
+    """Extract a readable ICP summary from Layer 02.
+
+    Prefers a prose sentence over table markup. For table-format ICPs,
+    extracts the 'Occupation segments' row value. Falls back to empty string.
+    """
+    raw = _extract_section_text(
+        text,
+        "Ideal Customer Profile (ICP)",
+        "Ideal Customer Profile",
+        "Primary Persona",
+        "Core Customer",
+        "Audience Overview",
+    )
+    if raw and not raw.startswith("|"):
+        return raw[:150]
+    # Table-format ICP: pull the Occupation segments cell
+    m = re.search(
+        r'\|\s*\*{0,2}Occupation segments?\*{0,2}\s*\|\s*([^|]+)',
+        text,
+        re.IGNORECASE,
+    )
+    if m:
+        return m.group(1).strip()[:150]
+    return ""
+
+
 def _read_layer_text(ticker_upper: str, layer_num: int) -> str:
     from ..services.brand_reader import _scan_brands, _parse_ticker
     dirs = _scan_brands()
@@ -172,6 +214,7 @@ def get_brand_brief(ticker: str) -> BriefData:
         raise HTTPException(status_code=404, detail="Brand not found")
 
     layer01 = _read_layer_text(ticker_upper, 1)
+    layer02 = _read_layer_text(ticker_upper, 2)
     layer06 = _read_layer_text(ticker_upper, 6)
     layer07 = _read_layer_text(ticker_upper, 7)
     layer08 = _read_layer_text(ticker_upper, 8)
@@ -212,6 +255,8 @@ def get_brand_brief(ticker: str) -> BriefData:
         ),
         legal_risk_level=_extract_legal_risk(layer08),
         financial_headline=_extract_financial_headline(layer07),
+        audience_segments=_extract_audience_segments(layer02),
+        primary_persona=_extract_primary_persona(layer02),
     )
 
 

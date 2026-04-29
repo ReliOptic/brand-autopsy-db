@@ -59,6 +59,8 @@ def test_brief_returns_all_required_fields() -> None:
         "top_channels",
         "legal_risk_level",
         "financial_headline",
+        "audience_segments",
+        "primary_persona",
     }
     missing = required - data.keys()
     assert not missing, f"Response missing fields: {missing}"
@@ -135,3 +137,24 @@ def test_brief_404_for_unknown_ticker() -> None:
     assert response.status_code == 404, (
         f"Expected 404 for unknown ticker, got {response.status_code}"
     )
+
+
+@pytest.mark.integration
+def test_brief_audience_segments_populated() -> None:
+    """AAPL brief must contain at least one audience segment from Layer 02."""
+    data = _get_aapl_brief()
+    assert isinstance(data["audience_segments"], list), "audience_segments must be a list"
+    assert len(data["audience_segments"]) >= 1, (
+        f"audience_segments is empty; AAPL layer 02 has named personas"
+    )
+    for seg in data["audience_segments"]:
+        assert isinstance(seg, str) and seg, "each audience segment must be a non-empty string"
+
+
+@pytest.mark.integration
+def test_brief_primary_persona_is_string() -> None:
+    """primary_persona must be a string (empty string is acceptable for brands without Layer 02)."""
+    data = _get_aapl_brief()
+    assert isinstance(data["primary_persona"], str), "primary_persona must be a string"
+    # AAPL has a full Layer 02 — persona description should be non-empty
+    assert data["primary_persona"] != "", "primary_persona must not be empty for AAPL (Layer 02 present)"

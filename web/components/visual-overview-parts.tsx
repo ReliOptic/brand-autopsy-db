@@ -83,14 +83,11 @@ export function ArchetypePhilosophyBanner({
 
   return (
     <div
+      className="ov-grid-archetype"
       style={{
-        display: "grid",
-        gridTemplateColumns: "220px 1fr 240px",
-        gap: 0,
         background: theme.surface,
         borderRadius: theme.radius,
         boxShadow: cardShadow(theme.isLight),
-        marginBottom: 16,
         overflow: "hidden",
         borderTop: `3px solid ${theme.accent}`,
       }}
@@ -163,29 +160,58 @@ export function ArchetypePhilosophyBanner({
           <div style={{ fontFamily: T.sans, fontSize: 9, fontWeight: 700, color: theme.textMuted, letterSpacing: "0.1em", marginBottom: 6 }}>
             CORE AUDIENCE
           </div>
-          <div style={{ fontFamily: T.sans, fontSize: 13, color: theme.textSecondary, lineHeight: 1.45 }}>
-            {data.audience}
+          {brief.audience_segments.length > 0 ? (
+            <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+              {brief.audience_segments.map((seg) => (
+                <span
+                  key={seg}
+                  style={{
+                    padding: "3px 9px",
+                    borderRadius: Math.max(3, theme.radius / 3),
+                    background: theme.accentAlpha15,
+                    fontFamily: T.sans,
+                    fontSize: 11,
+                    fontWeight: 600,
+                    color: theme.accentBright,
+                    display: "inline-block",
+                    width: "fit-content",
+                  }}
+                >
+                  {seg}
+                </span>
+              ))}
+            </div>
+          ) : (
+            <div style={{ fontFamily: T.sans, fontSize: 13, color: theme.textSecondary, lineHeight: 1.45 }}>
+              {data.audience}
+            </div>
+          )}
+        </div>
+        {brief.primary_persona ? (
+          <div style={{ fontFamily: T.sans, fontSize: 11, color: theme.textMuted, lineHeight: 1.5, fontStyle: "italic" }}>
+            {brief.primary_persona}
           </div>
-        </div>
-        <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
-          {data.traits.map((trait) => (
-            <span
-              key={trait}
-              style={{
-                padding: "4px 10px",
-                borderRadius: Math.max(3, theme.radius / 3),
-                background: theme.accentAlpha15,
-                fontFamily: T.sans,
-                fontSize: 10,
-                fontWeight: 700,
-                color: theme.accentBright,
-                letterSpacing: "0.03em",
-              }}
-            >
-              {trait}
-            </span>
-          ))}
-        </div>
+        ) : (
+          <div style={{ display: "flex", gap: 5, flexWrap: "wrap" }}>
+            {data.traits.map((trait) => (
+              <span
+                key={trait}
+                style={{
+                  padding: "4px 10px",
+                  borderRadius: Math.max(3, theme.radius / 3),
+                  background: theme.accentAlpha15,
+                  fontFamily: T.sans,
+                  fontSize: 10,
+                  fontWeight: 700,
+                  color: theme.accentBright,
+                  letterSpacing: "0.03em",
+                }}
+              >
+                {trait}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -287,7 +313,7 @@ export function VoicePositioningGrid({
   const trackBg = theme.isLight ? "rgba(0,0,0,0.08)" : "rgba(255,255,255,0.08)";
 
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "380px 1fr", gap: 16, marginBottom: 16 }}>
+    <div className="ov-grid-voice">
       {/* Voice */}
       <div
         style={{
@@ -420,7 +446,7 @@ export function CoverageChannelsSource({
   const inactiveBg = theme.isLight ? "rgba(0,0,0,0.04)" : "rgba(255,255,255,0.03)";
 
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 16 }}>
+    <div className="ov-grid-3col">
       {/* Coverage */}
       <div style={{ background: theme.surface, borderRadius: r, padding: "20px", boxShadow: shadow }}>
         <div style={{ marginBottom: 14 }}>
