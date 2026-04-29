@@ -1,0 +1,5042 @@
+{
+  "A": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "A",
+    "voice_matrix_complete": true
+  },
+  "AAPL": {
+    "color_count": 22,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AAPL",
+    "voice_matrix_complete": true
+  },
+  "ABBV": {
+    "color_count": 26,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ABBV",
+    "voice_matrix_complete": true
+  },
+  "ABNB": {
+    "color_count": 19,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "ABNB",
+    "voice_matrix_complete": true
+  },
+  "ABT": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "ABT",
+    "voice_matrix_complete": true
+  },
+  "ACGL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ACGL",
+    "voice_matrix_complete": true
+  },
+  "ACN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "ACN",
+    "voice_matrix_complete": true
+  },
+  "ADBE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ADBE",
+    "voice_matrix_complete": true
+  },
+  "ADI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ADI",
+    "voice_matrix_complete": true
+  },
+  "ADM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ADM",
+    "voice_matrix_complete": true
+  },
+  "ADP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ADP",
+    "voice_matrix_complete": true
+  },
+  "ADSK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ADSK",
+    "voice_matrix_complete": true
+  },
+  "AEE": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AEE",
+    "voice_matrix_complete": true
+  },
+  "AEP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AEP",
+    "voice_matrix_complete": true
+  },
+  "AES": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AES",
+    "voice_matrix_complete": true
+  },
+  "AFL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AFL",
+    "voice_matrix_complete": true
+  },
+  "AIG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AIG",
+    "voice_matrix_complete": true
+  },
+  "AIZ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AIZ",
+    "voice_matrix_complete": true
+  },
+  "AJG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AJG",
+    "voice_matrix_complete": true
+  },
+  "AKAM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AKAM",
+    "voice_matrix_complete": true
+  },
+  "ALB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ALB",
+    "voice_matrix_complete": true
+  },
+  "ALGN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ALGN",
+    "voice_matrix_complete": true
+  },
+  "ALL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ALL",
+    "voice_matrix_complete": true
+  },
+  "ALLE": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "ALLE",
+    "voice_matrix_complete": true
+  },
+  "AMAT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMAT",
+    "voice_matrix_complete": true
+  },
+  "AMCR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMCR",
+    "voice_matrix_complete": true
+  },
+  "AMD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMD",
+    "voice_matrix_complete": true
+  },
+  "AME": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AME",
+    "voice_matrix_complete": true
+  },
+  "AMGN": {
+    "color_count": 10,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMGN",
+    "voice_matrix_complete": true
+  },
+  "AMP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMP",
+    "voice_matrix_complete": true
+  },
+  "AMT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMT",
+    "voice_matrix_complete": true
+  },
+  "AMZN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AMZN",
+    "voice_matrix_complete": true
+  },
+  "ANET": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ANET",
+    "voice_matrix_complete": true
+  },
+  "AON": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AON",
+    "voice_matrix_complete": true
+  },
+  "AOS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AOS",
+    "voice_matrix_complete": true
+  },
+  "APA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "APA",
+    "voice_matrix_complete": true
+  },
+  "APD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "APD",
+    "voice_matrix_complete": true
+  },
+  "APH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "APH",
+    "voice_matrix_complete": true
+  },
+  "APO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "APO",
+    "voice_matrix_complete": true
+  },
+  "APP": {
+    "color_count": 10,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "APP",
+    "voice_matrix_complete": true
+  },
+  "APTV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "APTV",
+    "voice_matrix_complete": true
+  },
+  "ARE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ARE",
+    "voice_matrix_complete": true
+  },
+  "ARES": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ARES",
+    "voice_matrix_complete": true
+  },
+  "ATO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ATO",
+    "voice_matrix_complete": true
+  },
+  "AVB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AVB",
+    "voice_matrix_complete": true
+  },
+  "AVGO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AVGO",
+    "voice_matrix_complete": true
+  },
+  "AVY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AVY",
+    "voice_matrix_complete": true
+  },
+  "AWK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AWK",
+    "voice_matrix_complete": true
+  },
+  "AXON": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AXON",
+    "voice_matrix_complete": true
+  },
+  "AXP": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "AXP",
+    "voice_matrix_complete": true
+  },
+  "AZO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "AZO",
+    "voice_matrix_complete": true
+  },
+  "BA": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "BA",
+    "voice_matrix_complete": true
+  },
+  "BAC": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "BAC",
+    "voice_matrix_complete": true
+  },
+  "BALL": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "BALL",
+    "voice_matrix_complete": true
+  },
+  "BAX": {
+    "color_count": 6,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BAX",
+    "voice_matrix_complete": true
+  },
+  "BBY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BBY",
+    "voice_matrix_complete": true
+  },
+  "BDX": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "BDX",
+    "voice_matrix_complete": true
+  },
+  "BEN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BEN",
+    "voice_matrix_complete": true
+  },
+  "BF.B": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BF.B",
+    "voice_matrix_complete": true
+  },
+  "BG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BG",
+    "voice_matrix_complete": true
+  },
+  "BIIB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "BIIB",
+    "voice_matrix_complete": true
+  },
+  "BK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BK",
+    "voice_matrix_complete": true
+  },
+  "BKNG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BKNG",
+    "voice_matrix_complete": true
+  },
+  "BKR": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "BKR",
+    "voice_matrix_complete": true
+  },
+  "BLDR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BLDR",
+    "voice_matrix_complete": true
+  },
+  "BLK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BLK",
+    "voice_matrix_complete": true
+  },
+  "BMY": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BMY",
+    "voice_matrix_complete": true
+  },
+  "BR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BR",
+    "voice_matrix_complete": true
+  },
+  "BRK.B": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BRK.B",
+    "voice_matrix_complete": true
+  },
+  "BRO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BRO",
+    "voice_matrix_complete": true
+  },
+  "BSX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BSX",
+    "voice_matrix_complete": true
+  },
+  "BX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BX",
+    "voice_matrix_complete": true
+  },
+  "BXP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "BXP",
+    "voice_matrix_complete": true
+  },
+  "C": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "C",
+    "voice_matrix_complete": true
+  },
+  "CAG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CAG",
+    "voice_matrix_complete": true
+  },
+  "CAH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CAH",
+    "voice_matrix_complete": true
+  },
+  "CARR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CARR",
+    "voice_matrix_complete": true
+  },
+  "CASY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CASY",
+    "voice_matrix_complete": true
+  },
+  "CAT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CAT",
+    "voice_matrix_complete": true
+  },
+  "CB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CB",
+    "voice_matrix_complete": true
+  },
+  "CBOE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CBOE",
+    "voice_matrix_complete": true
+  },
+  "CBRE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CBRE",
+    "voice_matrix_complete": true
+  },
+  "CCI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CCI",
+    "voice_matrix_complete": true
+  },
+  "CCL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CCL",
+    "voice_matrix_complete": true
+  },
+  "CDNS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CDNS",
+    "voice_matrix_complete": true
+  },
+  "CDW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CDW",
+    "voice_matrix_complete": true
+  },
+  "CEG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CEG",
+    "voice_matrix_complete": true
+  },
+  "CF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CF",
+    "voice_matrix_complete": true
+  },
+  "CFG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CFG",
+    "voice_matrix_complete": true
+  },
+  "CHD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CHD",
+    "voice_matrix_complete": true
+  },
+  "CHRW": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CHRW",
+    "voice_matrix_complete": true
+  },
+  "CHTR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CHTR",
+    "voice_matrix_complete": true
+  },
+  "CI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CI",
+    "voice_matrix_complete": true
+  },
+  "CIEN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CIEN",
+    "voice_matrix_complete": true
+  },
+  "CINF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CINF",
+    "voice_matrix_complete": true
+  },
+  "CL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CL",
+    "voice_matrix_complete": true
+  },
+  "CLX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CLX",
+    "voice_matrix_complete": true
+  },
+  "CMCSA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CMCSA",
+    "voice_matrix_complete": true
+  },
+  "CME": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CME",
+    "voice_matrix_complete": true
+  },
+  "CMG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CMG",
+    "voice_matrix_complete": true
+  },
+  "CMI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CMI",
+    "voice_matrix_complete": true
+  },
+  "CMS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CMS",
+    "voice_matrix_complete": true
+  },
+  "CNC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CNC",
+    "voice_matrix_complete": true
+  },
+  "CNP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CNP",
+    "voice_matrix_complete": true
+  },
+  "COF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COF",
+    "voice_matrix_complete": true
+  },
+  "COHR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COHR",
+    "voice_matrix_complete": true
+  },
+  "COIN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COIN",
+    "voice_matrix_complete": true
+  },
+  "COO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COO",
+    "voice_matrix_complete": true
+  },
+  "COP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COP",
+    "voice_matrix_complete": true
+  },
+  "COR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COR",
+    "voice_matrix_complete": true
+  },
+  "COST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "COST",
+    "voice_matrix_complete": true
+  },
+  "CPAY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CPAY",
+    "voice_matrix_complete": true
+  },
+  "CPB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CPB",
+    "voice_matrix_complete": true
+  },
+  "CPRT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CPRT",
+    "voice_matrix_complete": true
+  },
+  "CPT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CPT",
+    "voice_matrix_complete": true
+  },
+  "CRH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CRH",
+    "voice_matrix_complete": true
+  },
+  "CRL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CRL",
+    "voice_matrix_complete": true
+  },
+  "CRM": {
+    "color_count": 21,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": false,
+    "layer_count": 8,
+    "score": 94,
+    "ticker": "CRM",
+    "voice_matrix_complete": true
+  },
+  "CRWD": {
+    "color_count": 6,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "CRWD",
+    "voice_matrix_complete": true
+  },
+  "CSCO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CSCO",
+    "voice_matrix_complete": true
+  },
+  "CSGP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CSGP",
+    "voice_matrix_complete": true
+  },
+  "CSX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CSX",
+    "voice_matrix_complete": true
+  },
+  "CTAS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CTAS",
+    "voice_matrix_complete": true
+  },
+  "CTRA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CTRA",
+    "voice_matrix_complete": true
+  },
+  "CTSH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CTSH",
+    "voice_matrix_complete": true
+  },
+  "CTVA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CTVA",
+    "voice_matrix_complete": true
+  },
+  "CVNA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CVNA",
+    "voice_matrix_complete": true
+  },
+  "CVS": {
+    "color_count": 11,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CVS",
+    "voice_matrix_complete": true
+  },
+  "CVX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "CVX",
+    "voice_matrix_complete": true
+  },
+  "D": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "D",
+    "voice_matrix_complete": true
+  },
+  "DAL": {
+    "color_count": 6,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DAL",
+    "voice_matrix_complete": true
+  },
+  "DASH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DASH",
+    "voice_matrix_complete": true
+  },
+  "DD": {
+    "color_count": 14,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DD",
+    "voice_matrix_complete": true
+  },
+  "DDOG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DDOG",
+    "voice_matrix_complete": true
+  },
+  "DE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DE",
+    "voice_matrix_complete": true
+  },
+  "DECK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DECK",
+    "voice_matrix_complete": true
+  },
+  "DELL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DELL",
+    "voice_matrix_complete": true
+  },
+  "DG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DG",
+    "voice_matrix_complete": true
+  },
+  "DGX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DGX",
+    "voice_matrix_complete": true
+  },
+  "DHI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DHI",
+    "voice_matrix_complete": true
+  },
+  "DHR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DHR",
+    "voice_matrix_complete": true
+  },
+  "DIS": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DIS",
+    "voice_matrix_complete": true
+  },
+  "DLR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DLR",
+    "voice_matrix_complete": true
+  },
+  "DLTR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DLTR",
+    "voice_matrix_complete": true
+  },
+  "DOC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DOC",
+    "voice_matrix_complete": true
+  },
+  "DOV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DOV",
+    "voice_matrix_complete": true
+  },
+  "DOW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DOW",
+    "voice_matrix_complete": true
+  },
+  "DPZ": {
+    "color_count": 12,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "DPZ",
+    "voice_matrix_complete": true
+  },
+  "DRI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DRI",
+    "voice_matrix_complete": true
+  },
+  "DTE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DTE",
+    "voice_matrix_complete": true
+  },
+  "DUK": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DUK",
+    "voice_matrix_complete": true
+  },
+  "DVA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DVA",
+    "voice_matrix_complete": true
+  },
+  "DVN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DVN",
+    "voice_matrix_complete": true
+  },
+  "DXCM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "DXCM",
+    "voice_matrix_complete": true
+  },
+  "EA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EA",
+    "voice_matrix_complete": true
+  },
+  "EBAY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EBAY",
+    "voice_matrix_complete": true
+  },
+  "ECL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ECL",
+    "voice_matrix_complete": true
+  },
+  "ED": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ED",
+    "voice_matrix_complete": true
+  },
+  "EFX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EFX",
+    "voice_matrix_complete": true
+  },
+  "EG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EG",
+    "voice_matrix_complete": true
+  },
+  "EIX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EIX",
+    "voice_matrix_complete": true
+  },
+  "EL": {
+    "color_count": 14,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EL",
+    "voice_matrix_complete": true
+  },
+  "ELV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ELV",
+    "voice_matrix_complete": true
+  },
+  "EME": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EME",
+    "voice_matrix_complete": true
+  },
+  "EMR": {
+    "color_count": 7,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EMR",
+    "voice_matrix_complete": true
+  },
+  "EOG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EOG",
+    "voice_matrix_complete": true
+  },
+  "EPAM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EPAM",
+    "voice_matrix_complete": true
+  },
+  "EQIX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EQIX",
+    "voice_matrix_complete": true
+  },
+  "EQR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EQR",
+    "voice_matrix_complete": true
+  },
+  "EQT": {
+    "color_count": 8,
+    "has_financial_data": false,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 97,
+    "ticker": "EQT",
+    "voice_matrix_complete": true
+  },
+  "ERIE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ERIE",
+    "voice_matrix_complete": true
+  },
+  "ES": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ES",
+    "voice_matrix_complete": true
+  },
+  "ESS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ESS",
+    "voice_matrix_complete": true
+  },
+  "ETN": {
+    "color_count": 6,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ETN",
+    "voice_matrix_complete": true
+  },
+  "ETR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ETR",
+    "voice_matrix_complete": true
+  },
+  "EVRG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EVRG",
+    "voice_matrix_complete": true
+  },
+  "EW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EW",
+    "voice_matrix_complete": true
+  },
+  "EXC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EXC",
+    "voice_matrix_complete": true
+  },
+  "EXE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EXE",
+    "voice_matrix_complete": true
+  },
+  "EXPD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EXPD",
+    "voice_matrix_complete": true
+  },
+  "EXPE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EXPE",
+    "voice_matrix_complete": true
+  },
+  "EXR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "EXR",
+    "voice_matrix_complete": true
+  },
+  "F": {
+    "color_count": 11,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "F",
+    "voice_matrix_complete": true
+  },
+  "FANG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FANG",
+    "voice_matrix_complete": true
+  },
+  "FAST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FAST",
+    "voice_matrix_complete": true
+  },
+  "FCX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FCX",
+    "voice_matrix_complete": true
+  },
+  "FDS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FDS",
+    "voice_matrix_complete": true
+  },
+  "FDX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FDX",
+    "voice_matrix_complete": true
+  },
+  "FE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FE",
+    "voice_matrix_complete": true
+  },
+  "FFIV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FFIV",
+    "voice_matrix_complete": true
+  },
+  "FICO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FICO",
+    "voice_matrix_complete": true
+  },
+  "FIS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FIS",
+    "voice_matrix_complete": true
+  },
+  "FISV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FISV",
+    "voice_matrix_complete": true
+  },
+  "FITB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FITB",
+    "voice_matrix_complete": true
+  },
+  "FIX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FIX",
+    "voice_matrix_complete": true
+  },
+  "FOX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FOX",
+    "voice_matrix_complete": true
+  },
+  "FOXA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FOXA",
+    "voice_matrix_complete": true
+  },
+  "FRT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FRT",
+    "voice_matrix_complete": true
+  },
+  "FSLR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FSLR",
+    "voice_matrix_complete": true
+  },
+  "FTNT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FTNT",
+    "voice_matrix_complete": true
+  },
+  "FTV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "FTV",
+    "voice_matrix_complete": true
+  },
+  "GD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GD",
+    "voice_matrix_complete": true
+  },
+  "GDDY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GDDY",
+    "voice_matrix_complete": true
+  },
+  "GE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GE",
+    "voice_matrix_complete": true
+  },
+  "GEHC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GEHC",
+    "voice_matrix_complete": true
+  },
+  "GEN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GEN",
+    "voice_matrix_complete": true
+  },
+  "GEV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GEV",
+    "voice_matrix_complete": true
+  },
+  "GILD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GILD",
+    "voice_matrix_complete": true
+  },
+  "GIS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GIS",
+    "voice_matrix_complete": true
+  },
+  "GL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GL",
+    "voice_matrix_complete": true
+  },
+  "GLW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GLW",
+    "voice_matrix_complete": true
+  },
+  "GM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GM",
+    "voice_matrix_complete": true
+  },
+  "GNRC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GNRC",
+    "voice_matrix_complete": true
+  },
+  "GOOG": {
+    "color_count": 16,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "GOOG",
+    "voice_matrix_complete": true
+  },
+  "GOOGL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GOOGL",
+    "voice_matrix_complete": true
+  },
+  "GPC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GPC",
+    "voice_matrix_complete": true
+  },
+  "GPN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GPN",
+    "voice_matrix_complete": true
+  },
+  "GRMN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GRMN",
+    "voice_matrix_complete": true
+  },
+  "GS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GS",
+    "voice_matrix_complete": true
+  },
+  "GWW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "GWW",
+    "voice_matrix_complete": true
+  },
+  "HAL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HAL",
+    "voice_matrix_complete": true
+  },
+  "HAS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HAS",
+    "voice_matrix_complete": true
+  },
+  "HBAN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HBAN",
+    "voice_matrix_complete": true
+  },
+  "HCA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HCA",
+    "voice_matrix_complete": true
+  },
+  "HD": {
+    "color_count": 10,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HD",
+    "voice_matrix_complete": true
+  },
+  "HIG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HIG",
+    "voice_matrix_complete": true
+  },
+  "HII": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HII",
+    "voice_matrix_complete": true
+  },
+  "HLT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HLT",
+    "voice_matrix_complete": true
+  },
+  "HON": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HON",
+    "voice_matrix_complete": true
+  },
+  "HOOD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HOOD",
+    "voice_matrix_complete": true
+  },
+  "HPE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HPE",
+    "voice_matrix_complete": true
+  },
+  "HPQ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HPQ",
+    "voice_matrix_complete": true
+  },
+  "HRL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HRL",
+    "voice_matrix_complete": true
+  },
+  "HSIC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HSIC",
+    "voice_matrix_complete": true
+  },
+  "HST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HST",
+    "voice_matrix_complete": true
+  },
+  "HSY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HSY",
+    "voice_matrix_complete": true
+  },
+  "HUBB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HUBB",
+    "voice_matrix_complete": true
+  },
+  "HUM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HUM",
+    "voice_matrix_complete": true
+  },
+  "HWM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "HWM",
+    "voice_matrix_complete": true
+  },
+  "IBKR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IBKR",
+    "voice_matrix_complete": true
+  },
+  "IBM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IBM",
+    "voice_matrix_complete": true
+  },
+  "ICE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ICE",
+    "voice_matrix_complete": true
+  },
+  "IDXX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IDXX",
+    "voice_matrix_complete": true
+  },
+  "IEX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IEX",
+    "voice_matrix_complete": true
+  },
+  "IFF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IFF",
+    "voice_matrix_complete": true
+  },
+  "INCY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "INCY",
+    "voice_matrix_complete": true
+  },
+  "INTC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "INTC",
+    "voice_matrix_complete": true
+  },
+  "INTU": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "INTU",
+    "voice_matrix_complete": true
+  },
+  "INVH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "INVH",
+    "voice_matrix_complete": true
+  },
+  "IP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IP",
+    "voice_matrix_complete": true
+  },
+  "IQV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IQV",
+    "voice_matrix_complete": true
+  },
+  "IR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IR",
+    "voice_matrix_complete": true
+  },
+  "IRM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IRM",
+    "voice_matrix_complete": true
+  },
+  "ISRG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ISRG",
+    "voice_matrix_complete": true
+  },
+  "IT": {
+    "color_count": 12,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IT",
+    "voice_matrix_complete": true
+  },
+  "ITW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ITW",
+    "voice_matrix_complete": true
+  },
+  "IVZ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "IVZ",
+    "voice_matrix_complete": true
+  },
+  "J": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "J",
+    "voice_matrix_complete": true
+  },
+  "JBHT": {
+    "color_count": 8,
+    "has_financial_data": false,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 97,
+    "ticker": "JBHT",
+    "voice_matrix_complete": true
+  },
+  "JBL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "JBL",
+    "voice_matrix_complete": true
+  },
+  "JCI": {
+    "color_count": 0,
+    "has_financial_data": false,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": false,
+    "layer_count": 0,
+    "score": 0,
+    "ticker": "JCI",
+    "voice_matrix_complete": false
+  },
+  "JKHY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "JKHY",
+    "voice_matrix_complete": true
+  },
+  "JNJ": {
+    "color_count": 20,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "JNJ",
+    "voice_matrix_complete": true
+  },
+  "JPM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "JPM",
+    "voice_matrix_complete": true
+  },
+  "KDP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KDP",
+    "voice_matrix_complete": true
+  },
+  "KEY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KEY",
+    "voice_matrix_complete": true
+  },
+  "KEYS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KEYS",
+    "voice_matrix_complete": true
+  },
+  "KHC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KHC",
+    "voice_matrix_complete": true
+  },
+  "KIM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KIM",
+    "voice_matrix_complete": true
+  },
+  "KKR": {
+    "color_count": 8,
+    "has_financial_data": false,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 97,
+    "ticker": "KKR",
+    "voice_matrix_complete": true
+  },
+  "KLAC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KLAC",
+    "voice_matrix_complete": true
+  },
+  "KMB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KMB",
+    "voice_matrix_complete": true
+  },
+  "KMI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KMI",
+    "voice_matrix_complete": true
+  },
+  "KO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KO",
+    "voice_matrix_complete": true
+  },
+  "KR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KR",
+    "voice_matrix_complete": true
+  },
+  "KVUE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "KVUE",
+    "voice_matrix_complete": true
+  },
+  "L": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "L",
+    "voice_matrix_complete": true
+  },
+  "LDOS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LDOS",
+    "voice_matrix_complete": true
+  },
+  "LEN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LEN",
+    "voice_matrix_complete": true
+  },
+  "LH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LH",
+    "voice_matrix_complete": true
+  },
+  "LHX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LHX",
+    "voice_matrix_complete": true
+  },
+  "LII": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LII",
+    "voice_matrix_complete": true
+  },
+  "LIN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LIN",
+    "voice_matrix_complete": true
+  },
+  "LITE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LITE",
+    "voice_matrix_complete": true
+  },
+  "LLY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LLY",
+    "voice_matrix_complete": true
+  },
+  "LMT": {
+    "color_count": 10,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "LMT",
+    "voice_matrix_complete": true
+  },
+  "LNT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LNT",
+    "voice_matrix_complete": true
+  },
+  "LOW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LOW",
+    "voice_matrix_complete": true
+  },
+  "LRCX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LRCX",
+    "voice_matrix_complete": true
+  },
+  "LULU": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LULU",
+    "voice_matrix_complete": true
+  },
+  "LUV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LUV",
+    "voice_matrix_complete": true
+  },
+  "LVS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LVS",
+    "voice_matrix_complete": true
+  },
+  "LYB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LYB",
+    "voice_matrix_complete": true
+  },
+  "LYV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "LYV",
+    "voice_matrix_complete": true
+  },
+  "MA": {
+    "color_count": 9,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MA",
+    "voice_matrix_complete": true
+  },
+  "MAA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MAA",
+    "voice_matrix_complete": true
+  },
+  "MAR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MAR",
+    "voice_matrix_complete": true
+  },
+  "MAS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MAS",
+    "voice_matrix_complete": true
+  },
+  "MCD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MCD",
+    "voice_matrix_complete": true
+  },
+  "MCHP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MCHP",
+    "voice_matrix_complete": true
+  },
+  "MCK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MCK",
+    "voice_matrix_complete": true
+  },
+  "MCO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MCO",
+    "voice_matrix_complete": true
+  },
+  "MDLZ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MDLZ",
+    "voice_matrix_complete": true
+  },
+  "MDT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MDT",
+    "voice_matrix_complete": true
+  },
+  "MET": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MET",
+    "voice_matrix_complete": true
+  },
+  "META": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "META",
+    "voice_matrix_complete": true
+  },
+  "MGM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MGM",
+    "voice_matrix_complete": true
+  },
+  "MKC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MKC",
+    "voice_matrix_complete": true
+  },
+  "MLM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MLM",
+    "voice_matrix_complete": true
+  },
+  "MMM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MMM",
+    "voice_matrix_complete": true
+  },
+  "MNST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MNST",
+    "voice_matrix_complete": true
+  },
+  "MO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MO",
+    "voice_matrix_complete": true
+  },
+  "MOS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MOS",
+    "voice_matrix_complete": true
+  },
+  "MPC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MPC",
+    "voice_matrix_complete": true
+  },
+  "MPWR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MPWR",
+    "voice_matrix_complete": true
+  },
+  "MRK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MRK",
+    "voice_matrix_complete": true
+  },
+  "MRNA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MRNA",
+    "voice_matrix_complete": true
+  },
+  "MRSH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MRSH",
+    "voice_matrix_complete": true
+  },
+  "MS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MS",
+    "voice_matrix_complete": true
+  },
+  "MSCI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MSCI",
+    "voice_matrix_complete": true
+  },
+  "MSFT": {
+    "color_count": 26,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": false,
+    "layer_count": 8,
+    "score": 96,
+    "ticker": "MSFT",
+    "voice_matrix_complete": true
+  },
+  "MSI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MSI",
+    "voice_matrix_complete": true
+  },
+  "MTB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MTB",
+    "voice_matrix_complete": true
+  },
+  "MTD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MTD",
+    "voice_matrix_complete": true
+  },
+  "MU": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "MU",
+    "voice_matrix_complete": true
+  },
+  "NCLH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NCLH",
+    "voice_matrix_complete": true
+  },
+  "NDAQ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NDAQ",
+    "voice_matrix_complete": true
+  },
+  "NDSN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NDSN",
+    "voice_matrix_complete": true
+  },
+  "NEE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NEE",
+    "voice_matrix_complete": true
+  },
+  "NEM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NEM",
+    "voice_matrix_complete": true
+  },
+  "NFLX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NFLX",
+    "voice_matrix_complete": true
+  },
+  "NI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NI",
+    "voice_matrix_complete": true
+  },
+  "NKE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NKE",
+    "voice_matrix_complete": true
+  },
+  "NOC": {
+    "color_count": 9,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "NOC",
+    "voice_matrix_complete": true
+  },
+  "NOW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NOW",
+    "voice_matrix_complete": true
+  },
+  "NRG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NRG",
+    "voice_matrix_complete": true
+  },
+  "NSC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NSC",
+    "voice_matrix_complete": true
+  },
+  "NTAP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NTAP",
+    "voice_matrix_complete": true
+  },
+  "NTRS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NTRS",
+    "voice_matrix_complete": true
+  },
+  "NUE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NUE",
+    "voice_matrix_complete": true
+  },
+  "NVDA": {
+    "color_count": 15,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NVDA",
+    "voice_matrix_complete": true
+  },
+  "NVO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NVO",
+    "voice_matrix_complete": true
+  },
+  "NVR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NVR",
+    "voice_matrix_complete": true
+  },
+  "NWS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NWS",
+    "voice_matrix_complete": true
+  },
+  "NWSA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NWSA",
+    "voice_matrix_complete": true
+  },
+  "NXPI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "NXPI",
+    "voice_matrix_complete": true
+  },
+  "O": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "O",
+    "voice_matrix_complete": true
+  },
+  "ODFL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ODFL",
+    "voice_matrix_complete": true
+  },
+  "OKE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "OKE",
+    "voice_matrix_complete": true
+  },
+  "OMC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "OMC",
+    "voice_matrix_complete": true
+  },
+  "ON": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ON",
+    "voice_matrix_complete": true
+  },
+  "ORCL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ORCL",
+    "voice_matrix_complete": true
+  },
+  "ORLY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ORLY",
+    "voice_matrix_complete": true
+  },
+  "OTIS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "OTIS",
+    "voice_matrix_complete": true
+  },
+  "OXY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "OXY",
+    "voice_matrix_complete": true
+  },
+  "PANW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PANW",
+    "voice_matrix_complete": true
+  },
+  "PAYX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PAYX",
+    "voice_matrix_complete": true
+  },
+  "PCAR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PCAR",
+    "voice_matrix_complete": true
+  },
+  "PCG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PCG",
+    "voice_matrix_complete": true
+  },
+  "PEG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PEG",
+    "voice_matrix_complete": true
+  },
+  "PEP": {
+    "color_count": 18,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "PEP",
+    "voice_matrix_complete": true
+  },
+  "PFE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PFE",
+    "voice_matrix_complete": true
+  },
+  "PFG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PFG",
+    "voice_matrix_complete": true
+  },
+  "PG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PG",
+    "voice_matrix_complete": true
+  },
+  "PGR": {
+    "color_count": 10,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PGR",
+    "voice_matrix_complete": true
+  },
+  "PH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PH",
+    "voice_matrix_complete": true
+  },
+  "PHM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PHM",
+    "voice_matrix_complete": true
+  },
+  "PKG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PKG",
+    "voice_matrix_complete": true
+  },
+  "PLD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PLD",
+    "voice_matrix_complete": true
+  },
+  "PLTR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PLTR",
+    "voice_matrix_complete": true
+  },
+  "PM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PM",
+    "voice_matrix_complete": true
+  },
+  "PNC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PNC",
+    "voice_matrix_complete": true
+  },
+  "PNR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PNR",
+    "voice_matrix_complete": true
+  },
+  "PNW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PNW",
+    "voice_matrix_complete": true
+  },
+  "PODD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PODD",
+    "voice_matrix_complete": true
+  },
+  "POOL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "POOL",
+    "voice_matrix_complete": true
+  },
+  "PPG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PPG",
+    "voice_matrix_complete": true
+  },
+  "PPL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PPL",
+    "voice_matrix_complete": true
+  },
+  "PRU": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PRU",
+    "voice_matrix_complete": true
+  },
+  "PSA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PSA",
+    "voice_matrix_complete": true
+  },
+  "PSKY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PSKY",
+    "voice_matrix_complete": true
+  },
+  "PSX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PSX",
+    "voice_matrix_complete": true
+  },
+  "PTC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PTC",
+    "voice_matrix_complete": true
+  },
+  "PWR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PWR",
+    "voice_matrix_complete": true
+  },
+  "PYPL": {
+    "color_count": 24,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "PYPL",
+    "voice_matrix_complete": true
+  },
+  "Q": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "Q",
+    "voice_matrix_complete": true
+  },
+  "QCOM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "QCOM",
+    "voice_matrix_complete": true
+  },
+  "RCL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RCL",
+    "voice_matrix_complete": true
+  },
+  "REG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "REG",
+    "voice_matrix_complete": true
+  },
+  "REGN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "REGN",
+    "voice_matrix_complete": true
+  },
+  "RF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RF",
+    "voice_matrix_complete": true
+  },
+  "RJF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RJF",
+    "voice_matrix_complete": true
+  },
+  "RL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RL",
+    "voice_matrix_complete": true
+  },
+  "RMD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RMD",
+    "voice_matrix_complete": true
+  },
+  "ROK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ROK",
+    "voice_matrix_complete": true
+  },
+  "ROL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ROL",
+    "voice_matrix_complete": true
+  },
+  "ROP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ROP",
+    "voice_matrix_complete": true
+  },
+  "ROST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ROST",
+    "voice_matrix_complete": true
+  },
+  "RSG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RSG",
+    "voice_matrix_complete": true
+  },
+  "RTX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RTX",
+    "voice_matrix_complete": true
+  },
+  "RVTY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "RVTY",
+    "voice_matrix_complete": true
+  },
+  "SATS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SATS",
+    "voice_matrix_complete": true
+  },
+  "SBAC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SBAC",
+    "voice_matrix_complete": true
+  },
+  "SBUX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SBUX",
+    "voice_matrix_complete": true
+  },
+  "SCHW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SCHW",
+    "voice_matrix_complete": true
+  },
+  "SHW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SHW",
+    "voice_matrix_complete": true
+  },
+  "SJM": {
+    "color_count": 8,
+    "has_financial_data": false,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 97,
+    "ticker": "SJM",
+    "voice_matrix_complete": true
+  },
+  "SLB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SLB",
+    "voice_matrix_complete": true
+  },
+  "SMCI": {
+    "color_count": 8,
+    "has_financial_data": false,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 97,
+    "ticker": "SMCI",
+    "voice_matrix_complete": true
+  },
+  "SNA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SNA",
+    "voice_matrix_complete": true
+  },
+  "SNDK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SNDK",
+    "voice_matrix_complete": true
+  },
+  "SNPS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SNPS",
+    "voice_matrix_complete": true
+  },
+  "SO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SO",
+    "voice_matrix_complete": true
+  },
+  "SOLV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SOLV",
+    "voice_matrix_complete": true
+  },
+  "SPG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SPG",
+    "voice_matrix_complete": true
+  },
+  "SPGI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SPGI",
+    "voice_matrix_complete": true
+  },
+  "SRE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SRE",
+    "voice_matrix_complete": true
+  },
+  "STE": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "STE",
+    "voice_matrix_complete": true
+  },
+  "STLD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "STLD",
+    "voice_matrix_complete": true
+  },
+  "STT": {
+    "color_count": 8,
+    "has_financial_data": false,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 97,
+    "ticker": "STT",
+    "voice_matrix_complete": true
+  },
+  "STX": {
+    "color_count": 0,
+    "has_financial_data": false,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": false,
+    "layer_count": 0,
+    "score": 0,
+    "ticker": "STX",
+    "voice_matrix_complete": false
+  },
+  "STZ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "STZ",
+    "voice_matrix_complete": true
+  },
+  "SW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SW",
+    "voice_matrix_complete": true
+  },
+  "SWK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SWK",
+    "voice_matrix_complete": true
+  },
+  "SWKS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SWKS",
+    "voice_matrix_complete": true
+  },
+  "SYF": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SYF",
+    "voice_matrix_complete": true
+  },
+  "SYK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SYK",
+    "voice_matrix_complete": true
+  },
+  "SYY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "SYY",
+    "voice_matrix_complete": true
+  },
+  "T": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "T",
+    "voice_matrix_complete": true
+  },
+  "TAP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TAP",
+    "voice_matrix_complete": true
+  },
+  "TDG": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TDG",
+    "voice_matrix_complete": true
+  },
+  "TDY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TDY",
+    "voice_matrix_complete": true
+  },
+  "TECH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TECH",
+    "voice_matrix_complete": true
+  },
+  "TEL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TEL",
+    "voice_matrix_complete": true
+  },
+  "TER": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TER",
+    "voice_matrix_complete": true
+  },
+  "TFC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TFC",
+    "voice_matrix_complete": true
+  },
+  "TGT": {
+    "color_count": 17,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TGT",
+    "voice_matrix_complete": true
+  },
+  "TJX": {
+    "color_count": 9,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "TJX",
+    "voice_matrix_complete": true
+  },
+  "TKO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TKO",
+    "voice_matrix_complete": true
+  },
+  "TMO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TMO",
+    "voice_matrix_complete": true
+  },
+  "TMUS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TMUS",
+    "voice_matrix_complete": true
+  },
+  "TPL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TPL",
+    "voice_matrix_complete": true
+  },
+  "TPR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TPR",
+    "voice_matrix_complete": true
+  },
+  "TRGP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TRGP",
+    "voice_matrix_complete": true
+  },
+  "TRMB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TRMB",
+    "voice_matrix_complete": true
+  },
+  "TROW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TROW",
+    "voice_matrix_complete": true
+  },
+  "TRV": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TRV",
+    "voice_matrix_complete": true
+  },
+  "TSCO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TSCO",
+    "voice_matrix_complete": true
+  },
+  "TSLA": {
+    "color_count": 13,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TSLA",
+    "voice_matrix_complete": true
+  },
+  "TSN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TSN",
+    "voice_matrix_complete": true
+  },
+  "TT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TT",
+    "voice_matrix_complete": true
+  },
+  "TTD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TTD",
+    "voice_matrix_complete": true
+  },
+  "TTWO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TTWO",
+    "voice_matrix_complete": true
+  },
+  "TXN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TXN",
+    "voice_matrix_complete": true
+  },
+  "TXT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TXT",
+    "voice_matrix_complete": true
+  },
+  "TYL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "TYL",
+    "voice_matrix_complete": true
+  },
+  "UAL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UAL",
+    "voice_matrix_complete": true
+  },
+  "UBER": {
+    "color_count": 22,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UBER",
+    "voice_matrix_complete": true
+  },
+  "UDR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UDR",
+    "voice_matrix_complete": true
+  },
+  "UHS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UHS",
+    "voice_matrix_complete": true
+  },
+  "ULTA": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ULTA",
+    "voice_matrix_complete": true
+  },
+  "UNH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UNH",
+    "voice_matrix_complete": true
+  },
+  "UNP": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UNP",
+    "voice_matrix_complete": true
+  },
+  "UPS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "UPS",
+    "voice_matrix_complete": true
+  },
+  "URI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "URI",
+    "voice_matrix_complete": true
+  },
+  "USB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "USB",
+    "voice_matrix_complete": true
+  },
+  "V": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "V",
+    "voice_matrix_complete": true
+  },
+  "VICI": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VICI",
+    "voice_matrix_complete": true
+  },
+  "VLO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VLO",
+    "voice_matrix_complete": true
+  },
+  "VLTO": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VLTO",
+    "voice_matrix_complete": true
+  },
+  "VMC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VMC",
+    "voice_matrix_complete": true
+  },
+  "VRSK": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VRSK",
+    "voice_matrix_complete": true
+  },
+  "VRSN": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VRSN",
+    "voice_matrix_complete": true
+  },
+  "VRT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VRT",
+    "voice_matrix_complete": true
+  },
+  "VRTX": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VRTX",
+    "voice_matrix_complete": true
+  },
+  "VST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VST",
+    "voice_matrix_complete": true
+  },
+  "VTR": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VTR",
+    "voice_matrix_complete": true
+  },
+  "VTRS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VTRS",
+    "voice_matrix_complete": true
+  },
+  "VZ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "VZ",
+    "voice_matrix_complete": true
+  },
+  "WAB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WAB",
+    "voice_matrix_complete": true
+  },
+  "WAT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WAT",
+    "voice_matrix_complete": true
+  },
+  "WBD": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WBD",
+    "voice_matrix_complete": true
+  },
+  "WDAY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WDAY",
+    "voice_matrix_complete": true
+  },
+  "WDC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WDC",
+    "voice_matrix_complete": true
+  },
+  "WEC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WEC",
+    "voice_matrix_complete": true
+  },
+  "WELL": {
+    "color_count": 20,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 95,
+    "ticker": "WELL",
+    "voice_matrix_complete": false
+  },
+  "WFC": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WFC",
+    "voice_matrix_complete": true
+  },
+  "WM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WM",
+    "voice_matrix_complete": true
+  },
+  "WMB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WMB",
+    "voice_matrix_complete": true
+  },
+  "WMT": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WMT",
+    "voice_matrix_complete": true
+  },
+  "WRB": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WRB",
+    "voice_matrix_complete": true
+  },
+  "WSM": {
+    "color_count": 23,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 95,
+    "ticker": "WSM",
+    "voice_matrix_complete": false
+  },
+  "WST": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WST",
+    "voice_matrix_complete": true
+  },
+  "WTW": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WTW",
+    "voice_matrix_complete": true
+  },
+  "WY": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WY",
+    "voice_matrix_complete": true
+  },
+  "WYNN": {
+    "color_count": 19,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "WYNN",
+    "voice_matrix_complete": true
+  },
+  "XEL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "XEL",
+    "voice_matrix_complete": true
+  },
+  "XOM": {
+    "color_count": 10,
+    "has_financial_data": true,
+    "has_legal_risk_level": false,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 98,
+    "ticker": "XOM",
+    "voice_matrix_complete": true
+  },
+  "XYL": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "XYL",
+    "voice_matrix_complete": true
+  },
+  "XYZ": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "XYZ",
+    "voice_matrix_complete": true
+  },
+  "YUM": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "YUM",
+    "voice_matrix_complete": true
+  },
+  "ZBH": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ZBH",
+    "voice_matrix_complete": true
+  },
+  "ZBRA": {
+    "color_count": 21,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ZBRA",
+    "voice_matrix_complete": true
+  },
+  "ZTS": {
+    "color_count": 8,
+    "has_financial_data": true,
+    "has_legal_risk_level": true,
+    "has_positioning_statement": true,
+    "layer_count": 8,
+    "score": 100,
+    "ticker": "ZTS",
+    "voice_matrix_complete": true
+  }
+}

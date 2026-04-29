@@ -1,0 +1,4034 @@
+{
+  "A": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "A"
+  },
+  "AAPL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AAPL"
+  },
+  "ABBV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ABBV"
+  },
+  "ABNB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ABNB"
+  },
+  "ABT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ABT"
+  },
+  "ACGL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:30:09Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ACGL"
+  },
+  "ACN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ACN"
+  },
+  "ADBE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:18Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ADBE"
+  },
+  "ADI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:21Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ADI"
+  },
+  "ADM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:25Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ADM"
+  },
+  "ADP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ADP"
+  },
+  "ADSK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ADSK"
+  },
+  "AEE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AEE"
+  },
+  "AEP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AEP"
+  },
+  "AES": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:08Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AES"
+  },
+  "AFL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AFL"
+  },
+  "AIG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AIG"
+  },
+  "AIZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AIZ"
+  },
+  "AJG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AJG"
+  },
+  "AKAM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AKAM"
+  },
+  "ALB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ALB"
+  },
+  "ALGN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ALGN"
+  },
+  "ALL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ALL"
+  },
+  "ALLE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ALLE"
+  },
+  "AMAT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMAT"
+  },
+  "AMCR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMCR"
+  },
+  "AMD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMD"
+  },
+  "AME": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AME"
+  },
+  "AMGN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMGN"
+  },
+  "AMP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMP"
+  },
+  "AMT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMT"
+  },
+  "AMZN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:52:07Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AMZN"
+  },
+  "ANET": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ANET"
+  },
+  "AON": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AON"
+  },
+  "AOS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AOS"
+  },
+  "APA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "APA"
+  },
+  "APD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "APD"
+  },
+  "APH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "APH"
+  },
+  "APO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "APO"
+  },
+  "APP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "APP"
+  },
+  "APTV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "APTV"
+  },
+  "ARE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ARE"
+  },
+  "ARES": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ARES"
+  },
+  "ATO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ATO"
+  },
+  "AVB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AVB"
+  },
+  "AVGO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AVGO"
+  },
+  "AVY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AVY"
+  },
+  "AWK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AWK"
+  },
+  "AXON": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AXON"
+  },
+  "AXP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AXP"
+  },
+  "AZO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "AZO"
+  },
+  "BA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BA"
+  },
+  "BAC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:52:24Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BAC"
+  },
+  "BALL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BALL"
+  },
+  "BAX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BAX"
+  },
+  "BBY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BBY"
+  },
+  "BDX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BDX"
+  },
+  "BEN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BEN"
+  },
+  "BF.B": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:30:10Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BF.B"
+  },
+  "BG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:30:58Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BG"
+  },
+  "BIIB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BIIB"
+  },
+  "BK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:40Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BK"
+  },
+  "BKNG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:49Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BKNG"
+  },
+  "BKR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BKR"
+  },
+  "BLDR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:33Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BLDR"
+  },
+  "BLK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BLK"
+  },
+  "BMY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BMY"
+  },
+  "BR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:08Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BR"
+  },
+  "BRK.B": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BRK.B"
+  },
+  "BRO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BRO"
+  },
+  "BSX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BSX"
+  },
+  "BX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BX"
+  },
+  "BXP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "BXP"
+  },
+  "C": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "C"
+  },
+  "CAG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CAG"
+  },
+  "CAH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CAH"
+  },
+  "CARR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:08Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CARR"
+  },
+  "CASY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CASY"
+  },
+  "CAT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CAT"
+  },
+  "CB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CB"
+  },
+  "CBOE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CBOE"
+  },
+  "CBRE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CBRE"
+  },
+  "CCI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CCI"
+  },
+  "CCL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CCL"
+  },
+  "CDNS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CDNS"
+  },
+  "CDW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CDW"
+  },
+  "CEG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CEG"
+  },
+  "CF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CF"
+  },
+  "CFG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CFG"
+  },
+  "CHD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CHD"
+  },
+  "CHRW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CHRW"
+  },
+  "CHTR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CHTR"
+  },
+  "CI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CI"
+  },
+  "CIEN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CIEN"
+  },
+  "CINF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CINF"
+  },
+  "CL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CL"
+  },
+  "CLX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CLX"
+  },
+  "CMCSA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CMCSA"
+  },
+  "CME": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CME"
+  },
+  "CMG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:01Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CMG"
+  },
+  "CMI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CMI"
+  },
+  "CMS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CMS"
+  },
+  "CNC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CNC"
+  },
+  "CNP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CNP"
+  },
+  "COF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:27Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COF"
+  },
+  "COHR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:42Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COHR"
+  },
+  "COIN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COIN"
+  },
+  "COO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COO"
+  },
+  "COP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:01:55Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COP"
+  },
+  "COR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COR"
+  },
+  "COST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "COST"
+  },
+  "CPAY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CPAY"
+  },
+  "CPB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CPB"
+  },
+  "CPRT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CPRT"
+  },
+  "CPT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CPT"
+  },
+  "CRH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CRH"
+  },
+  "CRL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CRL"
+  },
+  "CRM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:05:42Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CRM"
+  },
+  "CRWD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CRWD"
+  },
+  "CSCO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CSCO"
+  },
+  "CSGP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CSGP"
+  },
+  "CSX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CSX"
+  },
+  "CTAS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CTAS"
+  },
+  "CTRA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CTRA"
+  },
+  "CTSH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CTSH"
+  },
+  "CTVA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:04Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CTVA"
+  },
+  "CVNA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:22Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CVNA"
+  },
+  "CVS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:34Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CVS"
+  },
+  "CVX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:01:53Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "CVX"
+  },
+  "D": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "D"
+  },
+  "DAL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DAL"
+  },
+  "DASH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DASH"
+  },
+  "DD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:08Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DD"
+  },
+  "DDOG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DDOG"
+  },
+  "DE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DE"
+  },
+  "DECK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DECK"
+  },
+  "DELL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DELL"
+  },
+  "DG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DG"
+  },
+  "DGX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DGX"
+  },
+  "DHI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DHI"
+  },
+  "DHR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DHR"
+  },
+  "DIS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DIS"
+  },
+  "DLR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DLR"
+  },
+  "DLTR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DLTR"
+  },
+  "DOC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DOC"
+  },
+  "DOV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DOV"
+  },
+  "DOW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DOW"
+  },
+  "DPZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:06:23Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DPZ"
+  },
+  "DRI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DRI"
+  },
+  "DTE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DTE"
+  },
+  "DUK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DUK"
+  },
+  "DVA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DVA"
+  },
+  "DVN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DVN"
+  },
+  "DXCM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "DXCM"
+  },
+  "EA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EA"
+  },
+  "EBAY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EBAY"
+  },
+  "ECL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ECL"
+  },
+  "ED": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ED"
+  },
+  "EFX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EFX"
+  },
+  "EG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:08Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EG"
+  },
+  "EIX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EIX"
+  },
+  "EL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EL"
+  },
+  "ELV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ELV"
+  },
+  "EME": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EME"
+  },
+  "EMR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:08Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EMR"
+  },
+  "EOG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:03:55Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EOG"
+  },
+  "EPAM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EPAM"
+  },
+  "EQIX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EQIX"
+  },
+  "EQR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:20Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EQR"
+  },
+  "EQT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EQT"
+  },
+  "ERIE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ERIE"
+  },
+  "ES": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ES"
+  },
+  "ESS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ESS"
+  },
+  "ETN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ETN"
+  },
+  "ETR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ETR"
+  },
+  "EVRG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EVRG"
+  },
+  "EW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EW"
+  },
+  "EXC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EXC"
+  },
+  "EXE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EXE"
+  },
+  "EXPD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EXPD"
+  },
+  "EXPE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EXPE"
+  },
+  "EXR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "EXR"
+  },
+  "F": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "F"
+  },
+  "FANG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FANG"
+  },
+  "FAST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FAST"
+  },
+  "FCX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FCX"
+  },
+  "FDS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FDS"
+  },
+  "FDX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FDX"
+  },
+  "FE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FE"
+  },
+  "FFIV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:21Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FFIV"
+  },
+  "FICO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:24Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FICO"
+  },
+  "FIS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:02Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FIS"
+  },
+  "FISV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:10Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FISV"
+  },
+  "FITB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FITB"
+  },
+  "FIX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FIX"
+  },
+  "FOX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FOX"
+  },
+  "FOXA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FOXA"
+  },
+  "FRT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FRT"
+  },
+  "FSLR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FSLR"
+  },
+  "FTNT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FTNT"
+  },
+  "FTV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "FTV"
+  },
+  "GD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GD"
+  },
+  "GDDY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GDDY"
+  },
+  "GE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GE"
+  },
+  "GEHC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GEHC"
+  },
+  "GEN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GEN"
+  },
+  "GEV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GEV"
+  },
+  "GILD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GILD"
+  },
+  "GIS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GIS"
+  },
+  "GL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GL"
+  },
+  "GLW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:45Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GLW"
+  },
+  "GM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GM"
+  },
+  "GNRC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GNRC"
+  },
+  "GOOG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GOOG"
+  },
+  "GOOGL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:53:37Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GOOGL"
+  },
+  "GPC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GPC"
+  },
+  "GPN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GPN"
+  },
+  "GRMN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GRMN"
+  },
+  "GS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:55:07Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GS"
+  },
+  "GWW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "GWW"
+  },
+  "HAL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HAL"
+  },
+  "HAS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HAS"
+  },
+  "HBAN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HBAN"
+  },
+  "HCA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HCA"
+  },
+  "HD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:07:02Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HD"
+  },
+  "HIG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HIG"
+  },
+  "HII": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HII"
+  },
+  "HLT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HLT"
+  },
+  "HON": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HON"
+  },
+  "HOOD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HOOD"
+  },
+  "HPE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HPE"
+  },
+  "HPQ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HPQ"
+  },
+  "HRL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:35:23Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HRL"
+  },
+  "HSIC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:35:23Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HSIC"
+  },
+  "HST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:37:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HST"
+  },
+  "HSY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:37:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HSY"
+  },
+  "HUBB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HUBB"
+  },
+  "HUM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HUM"
+  },
+  "HWM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "HWM"
+  },
+  "IBKR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IBKR"
+  },
+  "IBM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IBM"
+  },
+  "ICE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ICE"
+  },
+  "IDXX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IDXX"
+  },
+  "IEX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IEX"
+  },
+  "IFF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IFF"
+  },
+  "INCY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "INCY"
+  },
+  "INTC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "INTC"
+  },
+  "INTU": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "INTU"
+  },
+  "INVH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "INVH"
+  },
+  "IP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IP"
+  },
+  "IQV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IQV"
+  },
+  "IR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:35:04Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IR"
+  },
+  "IRM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:35:04Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IRM"
+  },
+  "ISRG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:37:54Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ISRG"
+  },
+  "IT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:06:07Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IT"
+  },
+  "ITW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:37:54Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ITW"
+  },
+  "IVZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:37:54Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "IVZ"
+  },
+  "J": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "J"
+  },
+  "JBHT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "JBHT"
+  },
+  "JBL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "JBL"
+  },
+  "JCI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "JCI"
+  },
+  "JKHY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "JKHY"
+  },
+  "JNJ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "JNJ"
+  },
+  "JPM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:12:01Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "JPM"
+  },
+  "KDP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KDP"
+  },
+  "KEY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KEY"
+  },
+  "KEYS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KEYS"
+  },
+  "KHC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KHC"
+  },
+  "KIM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KIM"
+  },
+  "KKR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KKR"
+  },
+  "KLAC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KLAC"
+  },
+  "KMB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KMB"
+  },
+  "KMI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KMI"
+  },
+  "KO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:06Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KO"
+  },
+  "KR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:00Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KR"
+  },
+  "KVUE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "KVUE"
+  },
+  "L": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "L"
+  },
+  "LDOS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LDOS"
+  },
+  "LEN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LEN"
+  },
+  "LH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LH"
+  },
+  "LHX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LHX"
+  },
+  "LII": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LII"
+  },
+  "LIN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LIN"
+  },
+  "LITE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LITE"
+  },
+  "LLY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LLY"
+  },
+  "LMT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LMT"
+  },
+  "LNT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LNT"
+  },
+  "LOW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LOW"
+  },
+  "LRCX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LRCX"
+  },
+  "LULU": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LULU"
+  },
+  "LUV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LUV"
+  },
+  "LVS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LVS"
+  },
+  "LYB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LYB"
+  },
+  "LYV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "LYV"
+  },
+  "MA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MA"
+  },
+  "MAA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:31:55Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MAA"
+  },
+  "MAR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MAR"
+  },
+  "MAS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MAS"
+  },
+  "MCD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MCD"
+  },
+  "MCHP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MCHP"
+  },
+  "MCK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MCK"
+  },
+  "MCO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MCO"
+  },
+  "MDLZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MDLZ"
+  },
+  "MDT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MDT"
+  },
+  "MET": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MET"
+  },
+  "META": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "META"
+  },
+  "MGM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MGM"
+  },
+  "MKC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MKC"
+  },
+  "MLM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MLM"
+  },
+  "MMM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MMM"
+  },
+  "MNST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MNST"
+  },
+  "MO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MO"
+  },
+  "MOS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MOS"
+  },
+  "MPC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MPC"
+  },
+  "MPWR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MPWR"
+  },
+  "MRK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:02:56Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MRK"
+  },
+  "MRNA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:48Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MRNA"
+  },
+  "MRSH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:49Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MRSH"
+  },
+  "MS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MS"
+  },
+  "MSCI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MSCI"
+  },
+  "MSFT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MSFT"
+  },
+  "MSI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MSI"
+  },
+  "MTB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MTB"
+  },
+  "MTD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MTD"
+  },
+  "MU": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "MU"
+  },
+  "NCLH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NCLH"
+  },
+  "NDAQ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NDAQ"
+  },
+  "NDSN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NDSN"
+  },
+  "NEE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NEE"
+  },
+  "NEM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NEM"
+  },
+  "NFLX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NFLX"
+  },
+  "NI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NI"
+  },
+  "NKE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NKE"
+  },
+  "NOC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NOC"
+  },
+  "NOW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NOW"
+  },
+  "NRG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NRG"
+  },
+  "NSC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NSC"
+  },
+  "NTAP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NTAP"
+  },
+  "NTRS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:40Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NTRS"
+  },
+  "NUE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NUE"
+  },
+  "NVDA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NVDA"
+  },
+  "NVO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NVO"
+  },
+  "NVR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NVR"
+  },
+  "NWS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NWS"
+  },
+  "NWSA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NWSA"
+  },
+  "NXPI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "NXPI"
+  },
+  "O": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "O"
+  },
+  "ODFL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ODFL"
+  },
+  "OKE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "OKE"
+  },
+  "OMC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "OMC"
+  },
+  "ON": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ON"
+  },
+  "ORCL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ORCL"
+  },
+  "ORLY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ORLY"
+  },
+  "OTIS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "OTIS"
+  },
+  "OXY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "OXY"
+  },
+  "PANW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PANW"
+  },
+  "PAYX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PAYX"
+  },
+  "PCAR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PCAR"
+  },
+  "PCG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PCG"
+  },
+  "PEG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PEG"
+  },
+  "PEP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:06:47Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PEP"
+  },
+  "PFE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:02:18Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PFE"
+  },
+  "PFG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:36Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PFG"
+  },
+  "PG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PG"
+  },
+  "PGR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PGR"
+  },
+  "PH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PH"
+  },
+  "PHM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PHM"
+  },
+  "PKG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PKG"
+  },
+  "PLD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PLD"
+  },
+  "PLTR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PLTR"
+  },
+  "PM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PM"
+  },
+  "PNC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PNC"
+  },
+  "PNR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PNR"
+  },
+  "PNW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PNW"
+  },
+  "PODD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PODD"
+  },
+  "POOL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "POOL"
+  },
+  "PPG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PPG"
+  },
+  "PPL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PPL"
+  },
+  "PRU": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PRU"
+  },
+  "PSA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PSA"
+  },
+  "PSKY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PSKY"
+  },
+  "PSX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:32:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PSX"
+  },
+  "PTC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PTC"
+  },
+  "PWR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PWR"
+  },
+  "PYPL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "PYPL"
+  },
+  "Q": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "Q"
+  },
+  "QCOM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "QCOM"
+  },
+  "RCL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RCL"
+  },
+  "REG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "REG"
+  },
+  "REGN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "REGN"
+  },
+  "RF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RF"
+  },
+  "RJF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RJF"
+  },
+  "RL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RL"
+  },
+  "RMD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RMD"
+  },
+  "ROK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ROK"
+  },
+  "ROL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ROL"
+  },
+  "ROP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ROP"
+  },
+  "ROST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "ROST"
+  },
+  "RSG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RSG"
+  },
+  "RTX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RTX"
+  },
+  "RVTY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "RVTY"
+  },
+  "SATS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SATS"
+  },
+  "SBAC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SBAC"
+  },
+  "SBUX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SBUX"
+  },
+  "SCHW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SCHW"
+  },
+  "SHW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SHW"
+  },
+  "SJM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SJM"
+  },
+  "SLB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:01:51Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SLB"
+  },
+  "SMCI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:14Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SMCI"
+  },
+  "SNA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SNA"
+  },
+  "SNDK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SNDK"
+  },
+  "SNPS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SNPS"
+  },
+  "SO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SO"
+  },
+  "SOLV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:14Z",
+    "status": "FRESH",
+    "ticker": "SOLV"
+  },
+  "SPG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SPG"
+  },
+  "SPGI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SPGI"
+  },
+  "SRE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SRE"
+  },
+  "STE": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "STE"
+  },
+  "STLD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "STLD"
+  },
+  "STT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "STT"
+  },
+  "STX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "STX"
+  },
+  "STZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "STZ"
+  },
+  "SW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SW"
+  },
+  "SWK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SWK"
+  },
+  "SWKS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SWKS"
+  },
+  "SYF": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SYF"
+  },
+  "SYK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SYK"
+  },
+  "SYY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "SYY"
+  },
+  "T": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "T"
+  },
+  "TAP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TAP"
+  },
+  "TDG": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TDG"
+  },
+  "TDY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TDY"
+  },
+  "TECH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TECH"
+  },
+  "TEL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TEL"
+  },
+  "TER": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TER"
+  },
+  "TFC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TFC"
+  },
+  "TGT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TGT"
+  },
+  "TJX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:06:19Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TJX"
+  },
+  "TKO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TKO"
+  },
+  "TMO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TMO"
+  },
+  "TMUS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TMUS"
+  },
+  "TPL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TPL"
+  },
+  "TPR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TPR"
+  },
+  "TRGP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:05Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TRGP"
+  },
+  "TRMB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:10Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TRMB"
+  },
+  "TROW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:35:20Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TROW"
+  },
+  "TRV": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:36:21Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TRV"
+  },
+  "TSCO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TSCO"
+  },
+  "TSLA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TSLA"
+  },
+  "TSN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TSN"
+  },
+  "TT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TT"
+  },
+  "TTD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TTD"
+  },
+  "TTWO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TTWO"
+  },
+  "TXN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TXN"
+  },
+  "TXT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TXT"
+  },
+  "TYL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "TYL"
+  },
+  "UAL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UAL"
+  },
+  "UBER": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UBER"
+  },
+  "UDR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UDR"
+  },
+  "UHS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UHS"
+  },
+  "ULTA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "ULTA"
+  },
+  "UNH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:02:31Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UNH"
+  },
+  "UNP": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UNP"
+  },
+  "UPS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:31Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "UPS"
+  },
+  "URI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "URI"
+  },
+  "USB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "USB"
+  },
+  "V": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T15:12:01Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "V"
+  },
+  "VICI": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VICI"
+  },
+  "VLO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VLO"
+  },
+  "VLTO": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VLTO"
+  },
+  "VMC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VMC"
+  },
+  "VRSK": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VRSK"
+  },
+  "VRSN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VRSN"
+  },
+  "VRT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VRT"
+  },
+  "VRTX": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VRTX"
+  },
+  "VST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VST"
+  },
+  "VTR": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VTR"
+  },
+  "VTRS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VTRS"
+  },
+  "VZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "VZ"
+  },
+  "WAB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WAB"
+  },
+  "WAT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WAT"
+  },
+  "WBD": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WBD"
+  },
+  "WDAY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WDAY"
+  },
+  "WDC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:33:53Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WDC"
+  },
+  "WEC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WEC"
+  },
+  "WELL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WELL"
+  },
+  "WFC": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WFC"
+  },
+  "WM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WM"
+  },
+  "WMB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WMB"
+  },
+  "WMT": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WMT"
+  },
+  "WRB": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WRB"
+  },
+  "WSM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WSM"
+  },
+  "WST": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WST"
+  },
+  "WTW": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WTW"
+  },
+  "WY": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WY"
+  },
+  "WYNN": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "WYNN"
+  },
+  "XEL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "XEL"
+  },
+  "XOM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "XOM"
+  },
+  "XYL": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "XYL"
+  },
+  "XYZ": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:12Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "XYZ"
+  },
+  "YUM": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T14:37:09Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "YUM"
+  },
+  "ZBH": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "ZBH"
+  },
+  "ZBRA": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T12:06:15Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "ZBRA"
+  },
+  "ZTS": {
+    "analysis_date": null,
+    "days_since_update": 1,
+    "newest_mtime": "2026-04-27T13:34:13Z",
+    "oldest_mtime": "2026-04-27T12:06:15Z",
+    "status": "FRESH",
+    "ticker": "ZTS"
+  }
+}

@@ -1,0 +1,7 @@
+# Auto-generated, committed
+# quality_scores.json — OK to commit
+# freshness.json — OK to commit
+
+# Logs — not committed
+logs/
+*.log
