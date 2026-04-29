@@ -18,6 +18,10 @@ export const metadata = {
   robots: { index: false, follow: false },
 };
 
+// Re-fetch quality + freshness summaries on each request so the admin view
+// reflects the latest cron output without requiring a redeploy.
+export const dynamic = "force-dynamic";
+
 interface InventoryFetchResult {
   brands: BrandSummary[];
   quality: QualitySummary;
