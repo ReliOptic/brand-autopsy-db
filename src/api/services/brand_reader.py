@@ -155,6 +155,27 @@ def _parse_name(brand_dir: Path) -> str:
     return parts[1].replace("-", " ") if len(parts) > 1 else brand_dir.name
 
 
+def _hex_to_rgb(hex_val: str) -> tuple[int, int, int]:
+    h = hex_val.lstrip("#")
+    if len(h) == 3:
+        h = "".join(c * 2 for c in h)
+    return int(h[0:2], 16), int(h[2:4], 16), int(h[4:6], 16)
+
+
+def _color_distance(a: str, b: str) -> float:
+    r1, g1, b1 = _hex_to_rgb(a)
+    r2, g2, b2 = _hex_to_rgb(b)
+    return ((r1 - r2) ** 2 + (g1 - g2) ** 2 + (b1 - b2) ** 2) ** 0.5
+
+
+def _deduplicate_colors(colors: list[ColorEntry], threshold: float = 30.0) -> list[ColorEntry]:
+    kept: list[ColorEntry] = []
+    for c in colors:
+        if all(_color_distance(c.hex, k.hex) >= threshold for k in kept):
+            kept.append(c)
+    return kept
+
+
 def _extract_colors(design_md: str) -> list[ColorEntry]:
     colors: list[ColorEntry] = []
     # Match table rows: | name | hex | ... | usage |
@@ -182,7 +203,7 @@ def _extract_colors(design_md: str) -> list[ColorEntry]:
             if name.lower() in ("hex", "color", "---", "") or not hex_val.startswith("#"):
                 continue
             colors.append(ColorEntry(role="brand", name=name, hex=hex_val))
-    return colors[:8]
+    return _deduplicate_colors(colors)[:6]
 
 
 def _extract_archetype(identity_md: str) -> tuple[str, str]:

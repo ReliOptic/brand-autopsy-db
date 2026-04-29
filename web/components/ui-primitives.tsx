@@ -211,11 +211,11 @@ export function SectionLabel({ children, color = T.textMuted, accent }: SectionL
         alignItems: "center",
         gap: 8,
         fontSize: 10,
-        fontFamily: T.mono,
+        fontFamily: T.sans,
         color,
         letterSpacing: "0.12em",
         textTransform: "uppercase",
-        fontWeight: 500,
+        fontWeight: 600,
       }}
     >
       {accent && (
@@ -362,7 +362,7 @@ export function VoiceRadar({
   });
   const polygon = points.map((p) => p.join(",")).join(" ");
   return (
-    <svg width={size} height={size} style={{ display: "block" }}>
+    <svg width={size} height={size} style={{ display: "block", overflow: "visible" }}>
       {[0.25, 0.5, 0.75, 1].map((s) => (
         <polygon
           key={s}
@@ -370,7 +370,8 @@ export function VoiceRadar({
             .map((a) => `${cx + Math.cos(a) * r * s},${cy + Math.sin(a) * r * s}`)
             .join(" ")}
           fill="none"
-          stroke={T.border}
+          stroke={color}
+          strokeOpacity={0.25}
           strokeWidth={1}
         />
       ))}
@@ -381,30 +382,34 @@ export function VoiceRadar({
           y1={cy}
           x2={cx + Math.cos(a) * r}
           y2={cy + Math.sin(a) * r}
-          stroke={T.border}
+          stroke={color}
+          strokeOpacity={0.25}
           strokeWidth={1}
         />
       ))}
       <polygon
         points={polygon}
-        fill={`${color}30`}
+        fill={color}
+        fillOpacity={0.28}
         stroke={color}
-        strokeWidth={1.5}
+        strokeWidth={2.5}
+        strokeLinejoin="round"
       />
       {points.map((p, i) => (
         <circle
           key={i}
           cx={p[0]}
           cy={p[1]}
-          r={3}
+          r={4}
           fill={color}
-          stroke={T.bg}
+          stroke="white"
+          strokeOpacity={0.6}
           strokeWidth={1.5}
         />
       ))}
       {showLabels &&
         angles.map((a, i) => {
-          const lr = r + 18;
+          const lr = r + 20;
           const x = cx + Math.cos(a) * lr;
           const y = cy + Math.sin(a) * lr;
           const anchor =
@@ -417,13 +422,14 @@ export function VoiceRadar({
               y={y + 3}
               textAnchor={anchor}
               style={{
-                fontFamily: T.mono,
-                fontSize: 9,
-                fill: T.textMuted,
-                letterSpacing: "0.04em",
+                fontFamily: T.sans,
+                fontSize: 8,
+                fill: color,
+                fillOpacity: 0.55,
+                letterSpacing: "0.03em",
               }}
             >
-              {label.toUpperCase()}
+              {label}
             </text>
           );
         })}

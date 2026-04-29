@@ -13,7 +13,7 @@ interface FetchResult {
 
 async function safeFetchBrands(): Promise<FetchResult> {
   try {
-    const data = await fetchBrands({ limit: 1000 });
+    const data = await fetchBrands({ limit: 600 });
     return { brands: data.brands, total: data.total };
   } catch {
     return { brands: [], total: 0 };

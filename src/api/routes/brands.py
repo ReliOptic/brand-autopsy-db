@@ -82,8 +82,15 @@ def _extract_taglines(text: str) -> list[str]:
 
 
 def _extract_channels_from_table(text: str) -> list[str]:
-    """Extract channel names from Channel Matrix table first column."""
-    m = re.search(r'##\s+Channel Matrix\s*\n+(.*?)(?=\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
+    """Extract channel names from a Channel Matrix/Strategy table first column.
+
+    Handles headings like '## Channel Matrix' and '## 1. Channel Strategy Matrix'.
+    """
+    m = re.search(
+        r'##[^#\n]*Channel[^#\n]*Matrix[^#\n]*\n+(.*?)(?=\n##|\Z)',
+        text,
+        re.DOTALL | re.IGNORECASE,
+    )
     if m:
         rows = re.findall(r'^\|\s*\*\*([^*|]+)\*\*', m.group(1), re.MULTILINE)
         if rows:
@@ -142,7 +149,7 @@ def brands_list(
     q: str = Query(default="", description="Search query"),
     sector: str = Query(default="", description="Sector filter"),
     archetype: str = Query(default="", description="Archetype filter"),
-    limit: int = Query(default=48, ge=1, le=200),
+    limit: int = Query(default=48, ge=1, le=600),
     offset: int = Query(default=0, ge=0),
 ) -> dict:
     brands, total = list_brands(q=q, sector=sector, archetype=archetype, limit=limit, offset=offset)
