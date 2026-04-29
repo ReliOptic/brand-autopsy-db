@@ -69,7 +69,7 @@ def fetch_sp500_from_wiki() -> list[dict]:
     return companies
 
 
-def save_csv(companies: list[dict], output: Path = OUTPUT):
+def save_csv(companies: list[dict], output: Path = OUTPUT) -> None:
     """Save company list to CSV."""
     output.parent.mkdir(parents=True, exist_ok=True)
     fields = ["ticker", "name", "sector", "industry", "hq", "date_added", "cik", "founded"]
@@ -80,7 +80,7 @@ def save_csv(companies: list[dict], output: Path = OUTPUT):
     print(f"Saved {len(companies)} companies to {output}")
 
 
-def main():
+def main() -> None:
     print("Fetching S&P 500 list from Wikipedia...")
     companies = fetch_sp500_from_wiki()
     if not companies:

@@ -46,7 +46,7 @@ LOCAL_FEW_SHOT_BRANDS = [
 ]
 
 
-def _load_anthropic():
+def _load_anthropic() -> None:
     global anthropic
     if anthropic is None:
         import anthropic as _anthropic
@@ -416,7 +416,7 @@ class AnalysisEngine:
         print(f"  Total:  ${total:.3f}")
 
 
-def main():
+def main() -> None:
     """CLI: analyze a single brand or batch."""
     import argparse
     import csv

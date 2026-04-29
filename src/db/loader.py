@@ -300,7 +300,7 @@ def load_brand(brand_dir: Path, session_cls) -> Brand | None:
         session.close()
 
 
-def main():
+def main() -> None:
     """CLI entry: migrate existing brands to DB."""
     import argparse
     parser = argparse.ArgumentParser(description="Load brand context files into DB")

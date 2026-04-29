@@ -287,7 +287,7 @@ async def batch_crawl(sector: str | None = None, limit: int | None = None, skip_
     return results
 
 
-def main():
+def main() -> None:
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--sector", type=str, default=None)

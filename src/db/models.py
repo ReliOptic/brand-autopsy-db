@@ -5,6 +5,7 @@ from sqlalchemy import (
     create_engine, Column, Integer, String, Text, SmallInteger, Date,
     DateTime, Numeric, ForeignKey, CheckConstraint, Index,
 )
+from sqlalchemy.engine import Engine
 from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 import os
 
@@ -174,16 +175,16 @@ Index("idx_brands_sector", Brand.sector)
 Index("idx_colors_hex", ColorPalette.hex)
 
 
-def get_engine(url: str | None = None):
+def get_engine(url: str | None = None) -> Engine:
     return create_engine(url or DB_URL, echo=False)
 
 
-def get_session(url: str | None = None):
+def get_session(url: str | None = None) -> sessionmaker:
     engine = get_engine(url)
     return sessionmaker(bind=engine)
 
 
-def init_db(url: str | None = None):
+def init_db(url: str | None = None) -> Engine:
     engine = get_engine(url)
     Base.metadata.create_all(engine)
     return engine

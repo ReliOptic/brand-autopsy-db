@@ -10,7 +10,7 @@ from .models import Brand, init_db, get_session
 CSV_PATH = Path(__file__).parent.parent.parent / "data" / "sp500_list.csv"
 
 
-def import_sp500(csv_path: Path = CSV_PATH, db_url: str = "sqlite:///data/brand_autopsy.db"):
+def import_sp500(csv_path: Path = CSV_PATH, db_url: str = "sqlite:///data/brand_autopsy.db") -> None:
     init_db(db_url)
     Session = get_session(db_url)
     session = Session()
