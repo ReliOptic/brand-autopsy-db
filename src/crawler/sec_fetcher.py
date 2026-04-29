@@ -114,6 +114,20 @@ def _extract_section(text: str, item_id: str, max_chars: int = 3000, min_chars: 
 
 
 def _extract_annual_xbrl(facts: dict, concepts: list[str]) -> list[dict[str, Any]]:
+    """Extract annual values keyed by reporting year (from `end` date).
+
+    The XBRL `fy` field is the FILING year, not the reporting year. A
+    single 10-K carries prior-year comparative facts under the same
+    `fy`, so grouping by `fy` silently maps comparatives to the wrong
+    year (e.g. an FY2021 net income mis-tagged as FY2023). This caller
+    instead uses the calendar year of the `end` date, and for duration
+    facts (income statement, cash flow) restricts to ~annual periods so
+    quarterly entries don't leak in. Instant facts (balance sheet) lack
+    `start` and are kept by `end` year directly.
+
+    On collision (rare: same year reported in multiple filings), the
+    most recently filed value wins.
+    """
     usgaap = facts.get("us-gaap", {})
     best_result: list[dict[str, Any]] = []
     best_max_year: int = 0
@@ -124,12 +138,30 @@ def _extract_annual_xbrl(facts: dict, concepts: list[str]) -> list[dict[str, Any
         unit_key = next(iter(units), None)
         if not unit_key:
             continue
-        annual = [e for e in units[unit_key] if e.get("form") == "10-K" and e.get("fp") == "FY"]
+        annual = [e for e in units[unit_key] if e.get("form") == "10-K"]
         by_year: dict[int, dict] = {}
         for e in annual:
-            fy = e.get("fy")
-            if fy and (fy not in by_year or e["filed"] > by_year[fy]["filed"]):
-                by_year[fy] = e
+            end_raw = e.get("end")
+            if not end_raw:
+                continue
+            try:
+                end_dt = datetime.strptime(end_raw, "%Y-%m-%d").date()
+            except (TypeError, ValueError):
+                continue
+            start_raw = e.get("start")
+            if start_raw:
+                # Duration fact (income statement, cash flow): require ~annual period
+                try:
+                    start_dt = datetime.strptime(start_raw, "%Y-%m-%d").date()
+                except (TypeError, ValueError):
+                    continue
+                duration_days = (end_dt - start_dt).days
+                if not 350 <= duration_days <= 380:
+                    continue
+            year = end_dt.year
+            existing = by_year.get(year)
+            if existing is None or e.get("filed", "") > existing.get("filed", ""):
+                by_year[year] = e
         if not by_year:
             continue
         max_year = max(by_year)
