@@ -1,0 +1,68 @@
+name: Weekly Brand Data Update
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'   # Sunday 02:00 UTC
+  workflow_dispatch:        # manual trigger
+    inputs:
+      dry_run:
+        description: 'Dry run (no file writes)'
+        required: false
+        default: 'false'
+        type: boolean
+      tickers:
+        description: 'Specific tickers (space-separated, leave empty for all)'
+        required: false
+        type: string
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run cron pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+          TICKER_FLAG=""
+          if [ -n "${{ inputs.tickers }}" ]; then
+            TICKER_FLAG="--tickers ${{ inputs.tickers }}"
+          fi
+          python scripts/cron_runner.py $DRY_RUN_FLAG $TICKER_FLAG
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cron-logs-${{ github.run_id }}
+          path: data/logs/
+          retention-days: 30
+
+      - name: Commit updated data files
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/quality_scores.json data/freshness.json data/logs/ || true
+          git diff --staged --quiet || git commit -m "chore(data): weekly automated update $(date -u +%Y-%m-%d)"
+          git push || true
