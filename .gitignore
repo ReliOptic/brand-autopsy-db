@@ -11,4 +11,5 @@ state/
 .omc/
 .omx/
 .claude/scheduled_tasks.lock
+.claude/worktrees/
 .DS_Store
