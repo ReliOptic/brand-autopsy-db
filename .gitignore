@@ -4,5 +4,11 @@ __pycache__/
 .env
 *.db
 data/raw/
+data/logs/
+data/api_keys.json
+data/subscriptions.json
+state/
 .omc/
+.omx/
+.claude/scheduled_tasks.lock
 .DS_Store
