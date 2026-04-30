@@ -1,207 +1,136 @@
 import type { CSSProperties } from "react";
-import type { BrandDetail, BriefData, ColorEntry } from "@/lib/api";
-import { T, VoiceRadar } from "@/components/ui-primitives";
-import { colorRoleLabel } from "./brief-helpers";
+import type { BrandDetail } from "@/lib/api";
+import { T } from "@/components/ui-primitives";
+import type { BriefSectionData } from "./brief-helpers";
 
-const sectionBox: CSSProperties = {
-  border: "1px solid #d2d2d7",
-  borderRadius: 4,
-  padding: "10px 12px",
-  background: "#fafafa",
-};
-
-export const ArrowLeft = (): JSX.Element => (
-  <svg width={12} height={12} viewBox="0 0 24 24" fill="none"
-    stroke="currentColor" strokeWidth={1.5} strokeLinecap="round"
-    strokeLinejoin="round" aria-hidden="true">
-    <path d="M19 12H5M12 19l-7-7 7-7" />
+// ── Icons ────────────────────────────────────────────────────────────────────
+const TargetIcon = (): JSX.Element => (
+  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" aria-hidden="true">
+    <circle cx={12} cy={12} r={10} /><circle cx={12} cy={12} r={4} /><line x1={12} y1={2} x2={12} y2={8} /><line x1={12} y1={16} x2={12} y2={22} />
+  </svg>
+);
+const PersonIcon = (): JSX.Element => (
+  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" aria-hidden="true">
+    <circle cx={12} cy={7} r={4} /><path d="M4 21v-1a8 8 0 0116 0v1" />
+  </svg>
+);
+const CubeIcon = (): JSX.Element => (
+  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
+  </svg>
+);
+const GridIcon = (): JSX.Element => (
+  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" aria-hidden="true">
+    <rect x={3} y={3} width={7} height={7} /><rect x={14} y={3} width={7} height={7} /><rect x={3} y={14} width={7} height={7} /><rect x={14} y={14} width={7} height={7} />
+  </svg>
+);
+const ChartIcon = (): JSX.Element => (
+  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <line x1={18} y1={20} x2={18} y2={10} /><line x1={12} y1={20} x2={12} y2={4} /><line x1={6} y1={20} x2={6} y2={14} /><line x1={2} y1={20} x2={22} y2={20} />
   </svg>
 );
 
-export function FieldLabel({ children, accent }: { children: string; accent: string }): JSX.Element {
+const ICON_MAP: Record<BriefSectionData["iconKey"], () => JSX.Element> = {
+  target: TargetIcon, person: PersonIcon, cube: CubeIcon, grid: GridIcon, chart: ChartIcon,
+};
+
+const divider: CSSProperties = { height: 1, background: "#e5e5e5", margin: 0 };
+const mono: CSSProperties = { fontFamily: T.mono };
+
+// ── Meta bar ─────────────────────────────────────────────────────────────────
+export function BriefMeta({ name, date }: { name: string; date: string }): JSX.Element {
   return (
-    <div style={{
-      fontFamily: T.mono, fontSize: 8, fontWeight: 600, letterSpacing: "0.12em",
-      color: accent, textTransform: "uppercase", marginBottom: 4,
-    }}>
-      {children}
+    <div style={{ display: "flex", justifyContent: "space-between", padding: "14px 32px 12px", borderBottom: "1px solid #e5e5e5" }}>
+      <span style={{ ...mono, fontSize: 9, fontWeight: 600, letterSpacing: "0.14em", color: "#888" }}>BRAND REPORT</span>
+      <span style={{ ...mono, fontSize: 9, fontWeight: 500, color: "#1d1d1f", letterSpacing: "0.04em" }}>{name}</span>
+      <span style={{ ...mono, fontSize: 9, color: "#888", letterSpacing: "0.06em" }}>{date}</span>
     </div>
   );
 }
 
-export function BriefHeader({ brand, archetype, analysisDate, accent }: {
-  brand: BrandDetail; archetype: string; analysisDate: string; accent: string;
+// ── Hero ─────────────────────────────────────────────────────────────────────
+export function RamsHero({ brand, headline, subtitle, accent }: {
+  brand: BrandDetail; headline: string; subtitle: string; accent: string;
 }): JSX.Element {
   return (
-    <div style={{
-      background: `linear-gradient(135deg, ${accent} 0%, ${accent}cc 60%, #f5f5f7 110%)`,
-      padding: "18px 24px 14px",
-      display: "flex", justifyContent: "space-between", alignItems: "flex-start",
-    }}>
-      <div>
-        <div style={{ fontFamily: T.mono, fontSize: 9, letterSpacing: "0.14em", color: "rgba(255,255,255,0.75)", marginBottom: 6 }}>
-          BRAND INTELLIGENCE BRIEF
+    <>
+      <div style={{ padding: "32px 32px 24px", display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+        <div style={{ flex: 1, paddingRight: 24 }}>
+          <div style={{ fontSize: 32, fontWeight: 700, color: "#1d1d1f", lineHeight: 1.15, letterSpacing: "-0.02em", marginBottom: 14 }}>
+            {headline}
+          </div>
+          {subtitle && (
+            <div style={{ fontSize: 12, color: "#6e6e73", lineHeight: 1.6, maxWidth: 520, fontStyle: "italic" }}>
+              {subtitle}
+            </div>
+          )}
         </div>
-        <div style={{ display: "flex", alignItems: "baseline", gap: 10, marginBottom: 4 }}>
-          <span style={{ fontFamily: T.mono, fontSize: 20, fontWeight: 700, color: "#ffffff", letterSpacing: "0.04em" }}>
-            {brand.ticker}
-          </span>
-          <span style={{ fontSize: 26, fontWeight: 700, color: "#ffffff", letterSpacing: "-0.02em" }}>
-            {brand.name}
-          </span>
-        </div>
-        <div style={{ fontFamily: T.mono, fontSize: 9, color: "rgba(255,255,255,0.75)", letterSpacing: "0.06em" }}>
-          {brand.sector.toUpperCase()} · {brand.industry.toUpperCase()}
-        </div>
-      </div>
-      <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 6 }}>
-        <span style={{
-          fontFamily: T.mono, fontSize: 10, fontWeight: 600, padding: "3px 9px", borderRadius: 3,
-          background: "rgba(255,255,255,0.2)", color: "#ffffff", letterSpacing: "0.06em",
+        {/* Ticker badge */}
+        <div style={{
+          width: 56, height: 56, borderRadius: 28, background: accent,
+          display: "flex", alignItems: "center", justifyContent: "center",
+          flexShrink: 0,
         }}>
-          {archetype.toUpperCase()}
-        </span>
-        {analysisDate !== "—" && (
-          <span style={{ fontFamily: T.mono, fontSize: 9, color: "rgba(255,255,255,0.7)", letterSpacing: "0.05em" }}>
-            {analysisDate}
+          <span style={{ ...mono, fontSize: 13, fontWeight: 700, color: "#fff", letterSpacing: "0.04em" }}>
+            {brand.ticker.slice(0, 3)}
           </span>
-        )}
+        </div>
       </div>
-    </div>
+      <div style={divider} />
+    </>
   );
 }
 
-export function BriefEssenceCard({ brief, accent, positioning }: {
-  brief: BriefData | null; accent: string; positioning: string;
+// ── Section row ───────────────────────────────────────────────────────────────
+export function RamsSection({ section, accent, isLast }: {
+  section: BriefSectionData; accent: string; isLast: boolean;
 }): JSX.Element {
-  const quoteStyle: CSSProperties = {
-    fontSize: 11, color: "#1d1d1f", lineHeight: 1.5, fontStyle: "italic",
-    paddingLeft: 10, borderLeft: `2px solid ${accent}`, margin: 0,
-  };
+  const Icon = ICON_MAP[section.iconKey];
   return (
-    <div style={sectionBox}>
-      <FieldLabel accent={accent}>Brand Essence</FieldLabel>
-      {positioning ? (
-        <p style={quoteStyle}>&ldquo;{positioning}&rdquo;</p>
-      ) : (
-        <p style={{ ...quoteStyle, color: "#86868b", fontStyle: "normal" }}>Positioning statement not available.</p>
-      )}
-      {brief?.audience_segments && brief.audience_segments.length > 0 && (
-        <div style={{ marginTop: 10 }}>
-          <FieldLabel accent={accent}>Core Audience</FieldLabel>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
-            {brief.audience_segments.slice(0, 4).map((seg, i) => (
-              <span key={i} style={{
-                fontFamily: T.sans, fontSize: 10, padding: "2px 7px", borderRadius: 2,
-                border: `1px solid ${accent}40`, background: `${accent}10`, color: "#1d1d1f",
-              }}>{seg}</span>
-            ))}
-          </div>
+    <>
+      <div style={{ display: "grid", gridTemplateColumns: "48px 24px 160px 1fr", gap: "0 12px", padding: "14px 32px", alignItems: "flex-start" }}>
+        {/* Number */}
+        <div style={{ ...mono, fontSize: 18, fontWeight: 700, color: accent, letterSpacing: "-0.01em", lineHeight: 1 }}>
+          {section.num}
         </div>
-      )}
-      {brief?.primary_persona && (
-        <div style={{ marginTop: 8 }}>
-          <FieldLabel accent={accent}>Primary Persona</FieldLabel>
-          <div style={{ fontFamily: T.sans, fontSize: 11, color: "#1d1d1f", lineHeight: 1.4 }}>
-            {brief.primary_persona}
-          </div>
+        {/* Icon */}
+        <div style={{ color: "#888", paddingTop: 2 }}>
+          <Icon />
         </div>
-      )}
-    </div>
-  );
-}
-
-export function BriefVoiceCard({ voiceArr, accent }: { voiceArr: number[]; accent: string }): JSX.Element {
-  return (
-    <div style={sectionBox}>
-      <FieldLabel accent={accent}>Voice Positioning</FieldLabel>
-      <div style={{ display: "flex", justifyContent: "center", marginTop: 4 }}>
-        <VoiceRadar voice={voiceArr} size={180} color={accent} showLabels={true} />
-      </div>
-      <div style={{ fontFamily: T.mono, fontSize: 8, color: "#86868b", textAlign: "center", letterSpacing: "0.06em", marginTop: 2 }}>
-        {`F:${voiceArr[0]} · A:${voiceArr[1]} · E:${voiceArr[2]} · B:${voiceArr[3]}`}
-      </div>
-    </div>
-  );
-}
-
-export function BriefPaletteRow({ colorList, accent }: { colorList: ColorEntry[]; accent: string }): JSX.Element {
-  return (
-    <div style={sectionBox}>
-      <FieldLabel accent={accent}>Color Palette</FieldLabel>
-      <div style={{ display: "flex", gap: 8, marginTop: 4, flexWrap: "wrap" }}>
-        {colorList.slice(0, 8).map((cc, i) => (
-          <div key={`${cc.hex}-${i}`} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 4 }}>
-            <div style={{
-              width: 36, height: 36, borderRadius: 18, background: cc.hex,
-              border: "1px solid #d2d2d7", boxShadow: "0 1px 4px rgba(0,0,0,0.10)",
-            }} />
-            <span style={{ fontFamily: T.mono, fontSize: 8, color: "#1d1d1f", letterSpacing: "0.04em" }}>
-              {cc.hex.toUpperCase()}
-            </span>
-            <span style={{ fontFamily: T.sans, fontSize: 8, color: "#86868b" }}>
-              {cc.role || colorRoleLabel(i)}
-            </span>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export function BriefMessagesSnapshot({ brief, accent }: { brief: BriefData; accent: string }): JSX.Element {
-  return (
-    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
-      {brief.key_messages.length > 0 && (
-        <div style={sectionBox}>
-          <FieldLabel accent={accent}>Key Messages</FieldLabel>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: 5 }}>
-            {brief.key_messages.slice(0, 5).map((m, i) => (
-              <li key={i} style={{ display: "flex", gap: 6, fontSize: 11, color: "#1d1d1f", lineHeight: 1.4 }}>
-                <span style={{ fontFamily: T.mono, fontSize: 9, color: accent, marginTop: 1, flexShrink: 0 }}>
-                  {String(i + 1).padStart(2, "0")}.
-                </span>
-                <span>{m}</span>
-              </li>
-            ))}
-          </ul>
+        {/* Title */}
+        <div style={{ fontSize: 12, fontWeight: 600, color: "#1d1d1f", letterSpacing: "0.01em", lineHeight: 1.4, paddingTop: 1 }}>
+          {section.title}
         </div>
-      )}
-      <div style={sectionBox}>
-        <FieldLabel accent={accent}>Snapshot</FieldLabel>
-        <div style={{ display: "flex", flexDirection: "column", gap: 5, marginTop: 4 }}>
-          {[
-            { k: "Revenue", v: brief.financial_headline || "—" },
-            { k: "Legal Risk", v: brief.legal_risk_level },
-            { k: "Confidence", v: brief.data_confidence },
-            { k: "Layers", v: `${brief.layer_count}/8` },
-            { k: "Top Channels", v: brief.top_channels.slice(0, 2).join(", ") || "—" },
-          ].map(({ k, v }) => (
-            <div key={k} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
-              <span style={{ fontFamily: T.sans, fontSize: 10, color: "#86868b" }}>{k}</span>
-              <span style={{ fontFamily: T.mono, fontSize: 10, color: "#1d1d1f", fontWeight: 500 }}>{v}</span>
+        {/* Content rows */}
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          {section.rows.map(({ label, value }) => (
+            <div key={label}>
+              <div style={{ ...mono, fontSize: 8, fontWeight: 600, letterSpacing: "0.10em", color: "#888", textTransform: "uppercase", marginBottom: 2 }}>
+                {label}
+              </div>
+              <div style={{ fontSize: 11, color: "#1d1d1f", lineHeight: 1.55 }}>
+                {value}
+              </div>
             </div>
           ))}
         </div>
       </div>
-    </div>
+      {!isLast && <div style={divider} />}
+    </>
   );
 }
 
+// ── Footer ────────────────────────────────────────────────────────────────────
 export function BriefFooter({ analysisDate }: { analysisDate: string }): JSX.Element {
   return (
     <div style={{
-      borderTop: "1px solid #d2d2d7", padding: "8px 24px",
-      display: "flex", justifyContent: "space-between", alignItems: "center", background: "#f5f5f7",
+      borderTop: "1px solid #e5e5e5", padding: "10px 32px",
+      display: "flex", justifyContent: "space-between", alignItems: "center",
     }}>
-      <span style={{ fontFamily: T.mono, fontSize: 8, color: "#86868b", letterSpacing: "0.08em" }}>
-        BRAND AUTOPSY DB · brand-autopsy.com
-      </span>
-      <span style={{ fontFamily: T.mono, fontSize: 8, color: "#86868b", letterSpacing: "0.06em" }}>
-        {analysisDate}
-      </span>
-      <span style={{ fontFamily: T.mono, fontSize: 8, color: "#c7c7cc", fontStyle: "italic" }}>
-        AI-assisted public-source intelligence. Not investment or legal advice.
+      <span style={{ ...mono, fontSize: 8, color: "#aaa", letterSpacing: "0.10em" }}>BRAND REPORT · INTERNAL</span>
+      <span style={{ ...mono, fontSize: 8, color: "#aaa", letterSpacing: "0.08em" }}>Confidential</span>
+      <span style={{ ...mono, fontSize: 8, color: "#aaa" }}>
+        {analysisDate} · Page 1/1
       </span>
     </div>
   );
