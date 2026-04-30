@@ -63,20 +63,31 @@ Server: `http://localhost:3001` (Next.js), `http://localhost:8000` (FastAPI)
 
 ---
 
+## 완료된 기능 (2026 로드맵)
+
+| 기능 | 경로 | 상태 |
+|------|------|------|
+| 브랜드 비교 모드 | `/brands/compare?a=AAPL&b=NFLX` | ✅ DualVoiceRadar 포함 |
+| Figma Variables 내보내기 | 브랜드 페이지 nav bar "Figma" 버튼 | ✅ Token Studio JSON |
+| 30초 스캔 ↔ 딥다이브 | `?density=scan\|deep` | ✅ URL param 토글 |
+| 브랜드 포트레이트 카드 | `/brands/AAPL/card` (Share 버튼) | ✅ 풀스크린 공유 카드 |
+| Layer 02 오디언스 추출 | `BriefData.audience_segments` | ✅ 실제 데이터 동적 반영 |
+| 모바일 반응형 | `globals.css` `.ov-grid-*` 클래스 | ✅ 768px 이하 1컬럼 |
+
 ## 현재 알려진 이슈 / 다음 세션 작업 후보
 
 ### 우선순위 HIGH
-- [ ] **Audience Layer 데이터 연동** — Layer 02 (Audience Map) 마크다운에서 실제 타겟 페르소나 추출해 `ArchetypePhilosophyBanner`에 동적 반영 (현재는 아키타입 정적 매핑)
-- [ ] **모바일 반응형** — `gridTemplateColumns: "380px 1fr"` 등 고정 px → 반응형
-
-### 우선순위 MEDIUM
-- [ ] **브랜드 Brief 1-pager PDF** — `/brands/AAPL/brief` 페이지 출력 최적화
-- [ ] **파이프라인 자동화** — `run_batch.py` 크론 설정 (`PHASE0_CLOSEOUT.md` 참조)
+- [ ] **브랜드 Brief 1-pager PDF** — `/brands/AAPL/brief` 페이지 출력 최적화 (인쇄 CSS, PDF 저장)
 - [ ] **sec_fetcher XBRL year-mapping 버그** — `_extract_annual_xbrl`이 `fy` 필드(잘못됨) 대신 `end` 날짜 연도를 써야 함 (GS, GOOGL 수동 패치됨, 전체 수정 필요)
 
-### 우선순위 LOW
+### 우선순위 MEDIUM
+- [ ] **파이프라인 자동화** — `run_batch.py` 크론 설정 (`PHASE0_CLOSEOUT.md` 참조)
+- [ ] **Compare 페이지 UI 개선** — 두 브랜드 ticker 변경 input, 더 많은 비교 지표
 - [ ] **Dashboard 필터 URL 동기화** — sector/archetype 필터가 URL에 반영은 되나 뒤로가기 시 초기화
+
+### 우선순위 LOW
 - [ ] **Similar Brands 알고리즘 개선** — 현재 archetype + sector 단순 매칭
+- [ ] **Figma Export 개선** — 타이포그래피 스케일 토큰 추가
 
 ---
 
