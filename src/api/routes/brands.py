@@ -57,6 +57,11 @@ class BriefData(BaseModel):
     financial_headline: str
     audience_segments: list[str] = []
     primary_persona: str = ""
+    thesis: str = ""
+    voice_summary: str = ""
+    audience_anti: list[str] = []
+    competitive_contrast: list[str] = []
+    shadow_risk: str = ""
 
 
 def _extract_section_text(text: str, *headers: str) -> str:
@@ -169,6 +174,59 @@ def _extract_primary_persona(text: str) -> str:
     return ""
 
 
+def _extract_thesis(text: str) -> str:
+    """Extract brand raison d'etre quote from Layer 01."""
+    m = re.search(r'##\s+Raison[^#\n]*\n+(.*?)(?=\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
+    if m:
+        q = re.search(r'>\s*"([^"]{30,})"', m.group(1))
+        if q:
+            return q.group(1).strip()[:300]
+    return ""
+
+
+def _extract_voice_summary(text: str) -> str:
+    """Extract voice summary line from Layer 01 Voice Matrix section."""
+    m = re.search(r'\*\*Summary\*\*:\s*(.+?)(?=\n\n|\n---|\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
+    if m:
+        summary = re.sub(r'\*+', '', m.group(1)).strip().split('\n')[0]
+        return summary[:200]
+    return ""
+
+
+def _extract_audience_anti(text: str) -> list[str]:
+    """Extract anti-persona types from Layer 02."""
+    m = re.search(r'##\s+Anti.Persona[^#\n]*\n+(.*?)(?=\n##|\Z)', text, re.DOTALL | re.IGNORECASE)
+    if m:
+        rows = re.findall(r'^\|\s*\*\*([^*|]+)\*\*', m.group(1), re.MULTILINE)
+        return [r.strip() for r in rows[:3] if r.strip()]
+    return []
+
+
+def _extract_competitive_contrast(text: str) -> list[str]:
+    """Extract competitive positioning sentences from Layer 03."""
+    results: list[str] = []
+    pos_m = re.search(
+        r"Apple['’]?s strategic position[^.]+\.[^.]+\.", text, re.IGNORECASE
+    )
+    if pos_m:
+        results.append(re.sub(r'\*+', '', pos_m.group(0)).strip())
+    contrasts = re.findall(
+        r'\b(?:Samsung|Google|Microsoft|Meta|Tesla|Amazon)\b[^.\n]{0,80}competes[^.\n]+\.',
+        text, re.IGNORECASE,
+    )
+    results.extend(re.sub(r'\*+', '', c).strip() for c in contrasts[:2])
+    return results[:3]
+
+
+def _extract_shadow_risk(text: str) -> str:
+    """Extract shadow archetype risk from Layer 01 archetype table."""
+    m = re.search(r'\|\s*\*\*Shadow\*\*\s*\|[^|]*\|\s*([^|]+)', text, re.IGNORECASE)
+    if m:
+        risk = re.sub(r'\*+|\([^)]+\)', '', m.group(1)).strip()
+        return risk.split('.')[0].strip()[:200]
+    return ""
+
+
 def _read_layer_text(ticker_upper: str, layer_num: int) -> str:
     from ..services.brand_reader import _scan_brands, _parse_ticker
     dirs = _scan_brands()
@@ -215,6 +273,7 @@ def get_brand_brief(ticker: str) -> BriefData:
 
     layer01 = _read_layer_text(ticker_upper, 1)
     layer02 = _read_layer_text(ticker_upper, 2)
+    layer03 = _read_layer_text(ticker_upper, 3)
     layer06 = _read_layer_text(ticker_upper, 6)
     layer07 = _read_layer_text(ticker_upper, 7)
     layer08 = _read_layer_text(ticker_upper, 8)
@@ -257,6 +316,11 @@ def get_brand_brief(ticker: str) -> BriefData:
         financial_headline=_extract_financial_headline(layer07),
         audience_segments=_extract_audience_segments(layer02),
         primary_persona=_extract_primary_persona(layer02),
+        thesis=_extract_thesis(layer01),
+        voice_summary=_extract_voice_summary(layer01),
+        audience_anti=_extract_audience_anti(layer02),
+        competitive_contrast=_extract_competitive_contrast(layer03),
+        shadow_risk=_extract_shadow_risk(layer01),
     )
 
 

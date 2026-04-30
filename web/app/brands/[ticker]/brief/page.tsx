@@ -44,11 +44,11 @@ export default async function BriefPage({ params }: Props): Promise<JSX.Element>
   const analysisDate = brand.analysis_date || brief?.analysis_date || "—";
   const sections = buildSections(brand, brief, colorList);
 
-  // Hero: tagline as the "why the brand exists" headline
-  const headline = brand.tagline || brand.slogan || brand.name;
+  // Hero: thesis (raison d'etre) is the strongest opening; tagline as fallback
+  const headline = brief?.thesis || brand.tagline || brand.slogan || brand.name;
   const subtitle = (() => {
     const pos = brief?.positioning_statement ?? "";
-    if (pos && pos !== headline) return pos.slice(0, 180);
+    if (pos && pos !== headline && pos.length > 30) return pos.slice(0, 200);
     return brief?.key_messages?.[0] ?? "";
   })();
 

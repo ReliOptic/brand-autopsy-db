@@ -89,46 +89,56 @@ export function buildSections(
 
   return [
     {
-      num: "01", iconKey: "target", title: "Brand Core",
+      num: "01", iconKey: "target", title: "Core Thesis",
       rows: [{
-        label: "One-liner",
-        value: brief?.positioning_statement?.slice(0, 160)
+        label: "Why this brand exists",
+        value: brief?.thesis
+          || brief?.positioning_statement?.slice(0, 200)
           || brand.tagline || brand.slogan
           || `${brand.archetype_primary} brand in ${brand.sector}.`,
       }],
     },
     {
-      num: "02", iconKey: "person", title: "User / Context",
+      num: "02", iconKey: "person", title: "User Logic",
       rows: [
-        brief?.audience_segments?.length
-          ? { label: "Core Users", value: brief.audience_segments.slice(0, 4).join(" · ") }
-          : { label: "Sector", value: `${brand.sector} · ${brand.industry}` },
-        ...(brief?.primary_persona
-          ? [{ label: "Context", value: brief.primary_persona.slice(0, 140) }]
+        {
+          label: "High fit",
+          value: brief?.audience_segments?.length
+            ? brief.audience_segments.slice(0, 3).join(" · ")
+            : `${brand.sector} professionals`,
+        },
+        ...(brief?.audience_anti?.length
+          ? [{ label: "Not for", value: brief.audience_anti.slice(0, 3).join(" · ") }]
           : []),
       ],
     },
     {
-      num: "03", iconKey: "cube", title: "Product Principles",
-      rows: brief?.key_messages?.length
-        ? [{ label: "Messages", value: brief.key_messages.slice(0, 3).join(" · ") }]
+      num: "03", iconKey: "cube", title: "Competitive Contrast",
+      rows: brief?.competitive_contrast?.length
+        ? brief.competitive_contrast.map((c) => ({ label: "vs. market", value: c }))
         : [{ label: "Archetype", value: [brand.archetype_primary, brand.archetype_secondary].filter(Boolean).join(" + ") }],
     },
     {
-      num: "04", iconKey: "grid", title: "Visual Language",
+      num: "04", iconKey: "grid", title: "Evidence",
       rows: [
-        ...(palette ? [{ label: "Palette", value: palette }] : []),
-        { label: "Tone", value: tones.join(" · ") },
-      ],
-    },
-    {
-      num: "05", iconKey: "chart", title: "Evidence & Signals",
-      rows: [
+        ...(brief?.key_messages?.length
+          ? [{ label: "Messages", value: brief.key_messages.slice(0, 3).join(" · ") }]
+          : []),
         ...(brief?.financial_headline ? [{ label: "Revenue", value: brief.financial_headline }] : []),
         ...(brief?.top_channels?.length
           ? [{ label: "Channels", value: brief.top_channels.slice(0, 3).join(", ") }]
           : []),
-        ...(brief ? [{ label: "Confidence", value: `${brief.data_confidence} · ${brief.layer_count}/8 layers` }] : []),
+        ...(brief?.voice_summary ? [{ label: "Voice", value: brief.voice_summary }] : [
+          { label: "Tone", value: tones.join(" · ") },
+        ]),
+        ...(palette ? [{ label: "Palette", value: palette }] : []),
+      ],
+    },
+    {
+      num: "05", iconKey: "chart", title: "Risk",
+      rows: [
+        ...(brief?.shadow_risk ? [{ label: "Shadow", value: brief.shadow_risk }] : []),
+        ...(brief ? [{ label: "Legal", value: `${brief.legal_risk_level} · ${brief.data_confidence} confidence` }] : []),
       ],
     },
   ];

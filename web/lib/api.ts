@@ -209,6 +209,11 @@ export interface BriefData {
   financial_headline: string;
   audience_segments: string[];
   primary_persona: string;
+  thesis: string;
+  voice_summary: string;
+  audience_anti: string[];
+  competitive_contrast: string[];
+  shadow_risk: string;
 }
 
 export async function fetchBrief(ticker: string): Promise<BriefData> {
