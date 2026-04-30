@@ -16,9 +16,11 @@ export interface VisualOverviewProps {
   brand: BrandDetail;
   onUnlockReport?: () => void;
   theme?: BrandTheme;
+  density?: "scan" | "deep";
 }
 
-export function VisualOverview({ brief, brand, onUnlockReport, theme = DEFAULT_THEME }: VisualOverviewProps): JSX.Element {
+export function VisualOverview({ brief, brand, onUnlockReport, theme = DEFAULT_THEME, density = "deep" }: VisualOverviewProps): JSX.Element {
+  const isScan = density === "scan";
   return (
     <div
       style={{
@@ -45,8 +47,8 @@ export function VisualOverview({ brief, brand, onUnlockReport, theme = DEFAULT_T
     >
       <ColorStrip brief={brief} brand={brand} theme={theme} />
       <ArchetypePhilosophyBanner brief={brief} brand={brand} theme={theme} />
-      <VoicePositioningGrid brief={brief} brand={brand} theme={theme} />
-      <CoverageChannelsSource brief={brief} brand={brand} theme={theme} />
+      {!isScan && <VoicePositioningGrid brief={brief} brand={brand} theme={theme} />}
+      {!isScan && <CoverageChannelsSource brief={brief} brand={brand} theme={theme} />}
       <CtaBar brief={brief} onUnlockReport={onUnlockReport} theme={theme} />
     </div>
   );

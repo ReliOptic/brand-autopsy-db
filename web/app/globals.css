@@ -82,3 +82,10 @@ body {
   .ov-grid-voice     { gap: 12px; }
   .ov-grid-3col      { gap: 12px; }
 }
+
+/* Compare page 2-column grid */
+.compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+@media (max-width: 640px) {
+  .compare-grid { grid-template-columns: 1fr; }
+}

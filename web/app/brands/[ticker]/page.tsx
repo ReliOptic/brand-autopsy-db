@@ -17,12 +17,13 @@ import {
 } from "@/components/ui-primitives";
 import { SimilarBrands } from "@/components/similar-brands";
 import { ExportButton } from "@/components/export-button";
+import { FigmaExportButton } from "@/components/figma-export-button";
 import { VisualOverview } from "@/components/visual-overview";
 import { BrandTabs } from "./brand-tabs";
 
 interface PageProps {
   params: Promise<{ ticker: string }>;
-  searchParams: Promise<{ layer?: string; view?: string }>;
+  searchParams: Promise<{ layer?: string; view?: string; density?: string }>;
 }
 
 export async function generateMetadata({
@@ -200,6 +201,22 @@ function viewTabStyle(active: boolean, theme: BrandTheme): CSSProperties {
   };
 }
 
+function densityTabStyle(active: boolean, theme: BrandTheme): CSSProperties {
+  return {
+    display: "inline-flex",
+    alignItems: "center",
+    padding: "4px 10px",
+    borderRadius: 4,
+    background: active ? theme.accentAlpha15 : "transparent",
+    color: active ? theme.accentBright : theme.textMuted,
+    fontFamily: T.sans,
+    fontSize: 10,
+    fontWeight: active ? 700 : 500,
+    textDecoration: "none",
+    letterSpacing: "0.04em",
+  };
+}
+
 export default async function BrandPage({
   params,
   searchParams,
@@ -209,6 +226,7 @@ export default async function BrandPage({
   const tickerUp = ticker.toUpperCase();
   const activeLayer = parseInt(sp.layer ?? "1", 10);
   const view = sp.view === "report" ? "report" : "overview";
+  const density = sp.density === "scan" ? "scan" : "deep";
 
   let brand: BrandDetail;
   try {
@@ -320,12 +338,34 @@ export default async function BrandPage({
           <Link href={`/brands/${tickerUp}?view=report`} style={viewTabStyle(view === "report", brandTheme)}>
             Full Report
           </Link>
+          {view === "overview" && (
+            <div style={{ display: "flex", gap: 4 }}>
+              <Link
+                href={`/brands/${tickerUp}?view=overview&density=scan`}
+                style={densityTabStyle(density === "scan", brandTheme)}
+              >
+                Scan
+              </Link>
+              <Link
+                href={`/brands/${tickerUp}?view=overview&density=deep`}
+                style={densityTabStyle(density === "deep", brandTheme)}
+              >
+                Deep
+              </Link>
+            </div>
+          )}
           <button type="button" style={btnSecondaryStyle} aria-label="Bookmark">
             <BookmarkIcon />
           </button>
-          <button type="button" style={btnSecondaryStyle} aria-label="Share">
+          <Link href={`/brands/${tickerUp}/card`} style={btnSecondaryStyle} aria-label="Share">
             <ShareIcon />
-          </button>
+          </Link>
+          <FigmaExportButton
+            ticker={tickerUp}
+            brandName={brand.name}
+            theme={brandTheme}
+            palette={swatchHexes}
+          />
           <ExportButton brand={brand} />
           <Link href={`/brands/${tickerUp}/brief`} style={btnPrimaryStyle(brandTheme)}>
             <PrintIcon /> VIEW BRIEF →
@@ -533,7 +573,7 @@ export default async function BrandPage({
       {/* Body */}
       <div className="brand-body">
         {view === "overview" && brief ? (
-          <VisualOverview brief={brief} brand={brand} theme={brandTheme} />
+          <VisualOverview brief={brief} brand={brand} theme={brandTheme} density={density} />
         ) : view === "overview" && !brief ? (
           <div
             style={{
