@@ -9,6 +9,7 @@ import type { BrandTheme } from "@/lib/brand-theme";
 import { SectionLabel, T, Ticker } from "@/components/ui-primitives";
 import { DualVoiceRadar } from "@/components/dual-voice-radar";
 import { CompareClient } from "./compare-client";
+import { CompareControls } from "./compare-controls";
 
 interface PageProps {
   searchParams: Promise<{ a?: string; b?: string }>;
@@ -215,6 +216,9 @@ export default async function BrandsComparePage({ searchParams }: PageProps): Pr
         </div>
         <CompareClient tickerA={tickerA} tickerB={tickerB} />
       </div>
+
+      {/* Ticker swap controls */}
+      <CompareControls tickerA={tickerA} tickerB={tickerB} />
 
       {/* Hero header */}
       <div
