@@ -1,0 +1,151 @@
+{
+  "ticker": "MMM",
+  "brand_name": "3M",
+  "version": "0.2.0",
+  "generated_at": "2026-05-09T00:00:00.000Z",
+  "source_confidence": "HIGH",
+  "storage_path": "data/brands/MMM_3M/design-md/design-md.json",
+  "is_product_design_md": false,
+  "awesome_design_md_reference": false,
+  "visual_theme": {
+    "summary": "3M communicates industrial trust: grid-first technical layouts, red as a controlled brand/action signal, neutral white and gray surfaces, product proof, specification tables, and safety-oriented clarity.",
+    "atmosphere_keywords": [
+      "industrial",
+      "technical",
+      "grid-first",
+      "safety",
+      "evidence-led",
+      "red signal",
+      "manufacturing trust"
+    ],
+    "density": "high",
+    "surface_model": "flat",
+    "color_temperature": "neutral"
+  },
+  "color_palette": [
+    {
+      "token": "3m-red",
+      "hex": "#FF0000",
+      "role": "primary",
+      "usage": "Logo-adjacent identity, primary CTAs, and selective emphasis; never flood full layouts.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "deep-red",
+      "hex": "#CC0000",
+      "role": "accent",
+      "usage": "Hover states, secondary emphasis, and product badges.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "near-black",
+      "hex": "#1A1A1A",
+      "role": "text",
+      "usage": "Body text, headings, and primary content areas.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "dark-gray",
+      "hex": "#4A4A4A",
+      "role": "secondary",
+      "usage": "Secondary text, subheadings, and navigation items.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "mid-gray",
+      "hex": "#767676",
+      "role": "secondary",
+      "usage": "Tertiary text, metadata, and footnotes.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "light-gray",
+      "hex": "#F4F4F4",
+      "role": "surface",
+      "usage": "Page backgrounds, card backgrounds, and section dividers.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "white",
+      "hex": "#FFFFFF",
+      "role": "surface",
+      "usage": "Primary background and reversed text contexts.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "3m-blue-accent",
+      "hex": "#005B94",
+      "role": "accent",
+      "usage": "Hyperlinks, informational callouts, and technical documentation highlights.",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "typography_rules": {
+    "heading": "3M Sans or Inter fallback; bold 32-72px primary display for industrial clarity and semibold 20-32px secondary headings.",
+    "body": "3M Sans or Inter regular 14-18px body copy optimized for product descriptions, safety information, and B2B readability.",
+    "mono": "Courier New or monospace fallback for specification tables, part numbers, technical data, and regulatory identifiers.",
+    "scale_notes": "Use clear industrial hierarchy: large bold heroes, practical section headings, readable body copy, compact captions, and table-first technical presentation.",
+    "weight_notes": "Rely on 400, 600, and 700 weights. Use bold for engineering confidence, not expressive personality. Keep captions and legal copy regular and precise."
+  },
+  "component_styling": {
+    "buttons": "Primary CTAs use controlled 3M Red with white text; secondary buttons use gray or blue link treatment. Keep corners modest and labels direct.",
+    "cards": "Rectilinear product cards with white or light-gray surfaces, grid alignment, thin borders, strong product/specification hierarchy, and minimal decorative effects.",
+    "navigation": "Utility-first navigation organized by industries, products, safety categories, and applications. Labels should be direct and scan-friendly.",
+    "inputs": "Functional B2B inputs with explicit labels, gray borders, clear validation, and no playful pill styling.",
+    "charts": "Technical charts and infographics should use white backgrounds, gray connector lines, red emphasis nodes, and data-first labeling."
+  },
+  "layout_principles": [
+    "Use strict grid alignment to communicate engineering discipline.",
+    "Put data, specifications, and product proof before decorative imagery.",
+    "Reserve red for brand/action emphasis so safety and technical content stays readable.",
+    "Use modular content blocks that can scale across thousands of product pages.",
+    "Keep whitespace functional around product imagery and performance claims.",
+    "Prefer technical photography, lab context, and application imagery over lifestyle mood."
+  ],
+  "depth_elevation": "Depth should be flat and practical: white/light-gray modules, thin borders, product photography, and specification tables. Avoid organic blobs, playful shadows, or gradients on core brand elements.",
+  "dos": [
+    "Use grid-first modular structures.",
+    "Use 3M Red as a controlled identity/action signal.",
+    "Prioritize technical data and product proof.",
+    "Keep typography legible and restrained.",
+    "Use industrial, lab, or application photography where imagery is needed."
+  ],
+  "donts": [
+    "Do not alter the red 3M identity signal.",
+    "Do not use red as a large body-text background.",
+    "Do not use playful humor in safety or regulated product contexts.",
+    "Do not use organic blob containers or decorative gradients.",
+    "Do not replace specifications with vague lifestyle claims."
+  ],
+  "responsive_behavior": "Collapse product grids into stacked specification modules, keeping product category, application, CTA, and safety/regulatory context visible. Tables may scroll horizontally if row labels and key specs remain accessible.",
+  "agent_prompt_guide": "Build a 3M-like industrial trust interface using a white/light-gray grid, bold practical headings, Inter/system typography, controlled red CTAs, thin gray borders, technical tables, and evidence-first product modules. Make the page feel engineered, regulated, and application-specific. Do not copy the 3M logo, proprietary packaging, safety certification marks, or protected product trade dress; use red only as an abstract identity/action signal.",
+  "market_visual_positioning": {
+    "quadrant_description": "Industrial Trust quadrant: high-density, neutral, flat, proof-led industrial communication with red as controlled identity signal.",
+    "closest_competitors": [
+      "HON",
+      "DOW",
+      "GE"
+    ],
+    "visual_differentiators": {
+      "HON": "Honeywell leans aerospace/control-system enterprise; 3M is more materials-science and application-product modular.",
+      "DOW": "Dow is chemical-corporate and sustainability-report oriented; 3M is more product-application and safety-signal oriented.",
+      "GE": "GE uses broader industrial heritage and infrastructure storytelling; 3M emphasizes everyday applied science and specification proof."
+    },
+    "archetype_market_context": "Industrial Trust fits 3M because credibility comes from technical evidence, safety clarity, and disciplined product modules rather than emotional lifestyle branding."
+  },
+  "legal_notice": "This Brand Autopsy design-md artifact is an informational design analysis generated from publicly observable brand signals and internal scoring rules. It is not a brand guideline issued by the company, does not imply endorsement, affiliation, or authorization, and must not be treated as legal advice. All trademarks, logos, product names, and trade dress remain the property of their respective owners. Use the output as a creative reference only, and verify any production use against applicable trademark, copyright, advertising, and platform policies.",
+  "legal_notice_addendum": "⚠️ Brand-Specific Risk Note: This brand has elevated litigation or trademark-enforcement risk. Avoid close imitation of protected logos, product interfaces, proprietary trade dress, distinctive packaging, advertising layouts, or other source-identifying assets. Route any production design inspired by this analysis through legal review before publication.",
+  "visual_archetype": "Industrial Trust",
+  "visual_archetype_confidence": "HIGH",
+  "design_readiness_score": 100,
+  "design_readiness_grade": "DESIGN_READY",
+  "score_breakdown": {
+    "color_completeness": 18,
+    "typography_specificity": 15,
+    "component_completeness": 20,
+    "layout_specificity": 15,
+    "do_dont_clarity": 10,
+    "agent_prompt_usability": 10,
+    "source_confidence_score": 10
+  }
+}

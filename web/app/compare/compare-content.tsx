@@ -3,8 +3,8 @@
 import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import type { CSSProperties } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { fetchBrand, fetchBrands } from "@/lib/api";
-import type { BrandDetail, BrandSummary } from "@/lib/api";
+import { fetchBrand, fetchBrands, fetchCompareDesignMd } from "@/lib/api";
+import type { BrandDetail, BrandSummary, CompareDesignMdEntry } from "@/lib/api";
 import {
   T,
   Ticker,
@@ -27,6 +27,7 @@ const VOICE_KEYS = [
 ] as const;
 
 type Slots = Array<BrandDetail | null>;
+type CompareMode = "voice" | "strategy" | "design" | "prompt";
 
 function voiceArray(brand: BrandDetail): number[] {
   return VOICE_KEYS.map((k) => brand.voice_matrix?.[k] ?? 5);
@@ -327,6 +328,8 @@ export function CompareContent({ brands }: CompareContentProps): JSX.Element {
   const [slots, setSlots] = useState<Slots>([null, null, null, null]);
   const [pickerSlot, setPickerSlot] = useState<number | null>(null);
   const [error, setError] = useState("");
+  const [compareMode, setCompareMode] = useState<CompareMode>("voice");
+  const [designComparison, setDesignComparison] = useState<Record<string, CompareDesignMdEntry>>({});
   const initialLoadRef = useRef(false);
 
   const updateUrl = useCallback((next: Slots) => {
@@ -418,6 +421,18 @@ export function CompareContent({ brands }: CompareContentProps): JSX.Element {
 
   const filled = useMemo(() => slots.filter((b): b is BrandDetail => b !== null), [slots]);
   const hasResults = filled.length >= 2;
+
+  useEffect(() => {
+    if (filled.length < 2) {
+      setDesignComparison({});
+      return;
+    }
+    let cancelled = false;
+    void fetchCompareDesignMd(filled[0].ticker, filled[1].ticker, filled[2]?.ticker, filled[3]?.ticker)
+      .then((data) => { if (!cancelled) setDesignComparison(data); })
+      .catch(() => { if (!cancelled) setDesignComparison({}); });
+    return () => { cancelled = true; };
+  }, [filled]);
 
   const insightLine = useMemo(() => {
     if (filled.length < 2) return null;
@@ -603,8 +618,24 @@ export function CompareContent({ brands }: CompareContentProps): JSX.Element {
               </button>
             </div>
 
-            <div style={{ display: "grid", gridTemplateColumns: "320px 1fr", gap: 16 }}>
-              <div
+
+            <div style={{ display: "flex", gap: 6, marginBottom: 12 }}>
+              {([
+                ["voice", "Voice Radar"],
+                ["strategy", "Strategy Table"],
+                ["design", "Design System"],
+                ["prompt", "Agent Prompt Diff"],
+              ] as const).map(([mode, label]) => (
+                <button key={mode} type="button" onClick={() => setCompareMode(mode)} style={{ background: compareMode === mode ? `${T.accent}18` : T.surface, border: `1px solid ${compareMode === mode ? T.accent : T.border}`, color: compareMode === mode ? T.accentBright : T.textMuted, borderRadius: 4, padding: "6px 10px", fontFamily: T.mono, fontSize: 10, cursor: "pointer" }}>
+                  {label.toUpperCase()}
+                </button>
+              ))}
+            </div>
+            {compareMode === "design" || compareMode === "prompt" ? (
+              <DesignSystemCompare brands={filled} designComparison={designComparison} promptMode={compareMode === "prompt"} />
+            ) : (
+            <div style={{ display: "grid", gridTemplateColumns: compareMode === "voice" ? "320px 1fr" : "1fr", gap: 16 }}>
+              {compareMode === "voice" && <div
                 style={{
                   background: T.surface,
                   border: `1px solid ${T.border}`,
@@ -659,10 +690,11 @@ export function CompareContent({ brands }: CompareContentProps): JSX.Element {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div>}
 
               <CompareTable brands={filled} onRemove={handleRemoveByTicker} />
             </div>
+            )}
           </>
         )}
       </div>
@@ -678,6 +710,46 @@ export function CompareContent({ brands }: CompareContentProps): JSX.Element {
           onClose={() => setPickerSlot(null)}
         />
       )}
+    </div>
+  );
+}
+
+
+interface DesignSystemCompareProps {
+  brands: BrandDetail[];
+  designComparison: Record<string, CompareDesignMdEntry>;
+  promptMode: boolean;
+}
+
+function DesignSystemCompare({ brands, designComparison, promptMode }: DesignSystemCompareProps): JSX.Element {
+  const cols = `170px repeat(${brands.length}, 1fr)`;
+  const rows: Array<[string, (entry: CompareDesignMdEntry | undefined) => JSX.Element | string]> = promptMode
+    ? [["Agent Prompt", (e) => e?.agent_prompt_guide || "N/A"]]
+    : [
+        ["Visual Archetype", (e) => e?.visual_archetype || "N/A"],
+        ["Color Temperature", (e) => e?.color_temperature || "N/A"],
+        ["Density", (e) => e?.density || "N/A"],
+        ["Surface Model", (e) => e?.surface_model || "N/A"],
+        ["Primary Color", (e) => e?.primary_color ? <><span style={{ width: 14, height: 14, background: e.primary_color, borderRadius: 2, display: "inline-block" }} /> {e.primary_color}</> : "N/A"],
+        ["Design Readiness", (e) => e?.has_design_md ? `${e.design_readiness_score} ${e.design_readiness_grade}` : "N/A"],
+      ];
+  const a = designComparison[brands[0]?.ticker ?? ""];
+  const b = designComparison[brands[1]?.ticker ?? ""];
+  const insight = a?.visual_archetype && b?.visual_archetype && a.visual_archetype !== b.visual_archetype
+    ? `${brands[0].ticker} opts for ${a.visual_archetype}, while ${brands[1].ticker} uses ${b.visual_archetype}.`
+    : "Compared brands share similar design-system authority signals or lack DESIGN.md coverage.";
+  return (
+    <div style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 6, overflow: "hidden" }}>
+      <div style={{ padding: 14, borderBottom: `1px solid ${T.border}`, background: T.bgDeep }}>
+        <SectionLabel accent={T.accent}>{promptMode ? "AGENT PROMPT DIFF" : "DESIGN SYSTEM COMPARISON"}</SectionLabel>
+        <p style={{ margin: "8px 0 0", color: T.textSecondary, fontSize: 12 }}>{insight}</p>
+      </div>
+      {rows.map(([label, render], i) => (
+        <div key={label} style={{ display: "grid", gridTemplateColumns: cols, gap: 10, padding: 12, borderBottom: `1px solid ${T.border}`, background: i % 2 ? T.bgDeep : "transparent", fontFamily: T.mono, fontSize: 11 }}>
+          <span style={{ color: T.textMuted }}>{label}</span>
+          {brands.map((brand) => <span key={brand.ticker} style={{ color: T.text, display: "inline-flex", gap: 6, alignItems: "flex-start", lineHeight: 1.5 }}>{render(designComparison[brand.ticker])}</span>)}
+        </div>
+      ))}
     </div>
   );
 }

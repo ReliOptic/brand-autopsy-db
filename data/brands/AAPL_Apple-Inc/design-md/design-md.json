@@ -1,0 +1,189 @@
+{
+  "ticker": "AAPL",
+  "brand_name": "Apple Inc.",
+  "version": "0.2.0",
+  "generated_at": "2026-05-09T00:00:00.000Z",
+  "source_confidence": "HIGH",
+  "storage_path": "data/brands/AAPL_Apple-Inc/design-md/design-md.json",
+  "is_product_design_md": false,
+  "awesome_design_md_reference": true,
+  "visual_theme": {
+    "summary": "Apple's visual system is a premium sparse product gallery: near-monochrome surfaces, photographic product focus, generous whitespace, restrained SF-style typography, and one blue action signal reserved for interaction.",
+    "atmosphere_keywords": [
+      "premium sparse",
+      "product gallery",
+      "near-monochrome",
+      "photography-first",
+      "quiet authority",
+      "high whitespace",
+      "single blue action"
+    ],
+    "density": "low",
+    "surface_model": "gallery",
+    "color_temperature": "monochrome"
+  },
+  "color_palette": [
+    {
+      "token": "color-apple-dark",
+      "hex": "#1d1d1f",
+      "role": "text",
+      "usage": "Primary headlines, body copy, navigation labels, and footer text across light surfaces.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-near-black",
+      "hex": "#161617",
+      "role": "surface",
+      "usage": "Dark surface text and black hero panels.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-action-blue",
+      "hex": "#0071e3",
+      "role": "primary",
+      "usage": "Primary CTA buttons and interactive links; avoid decorative use.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-action-blue-hover",
+      "hex": "#0077ed",
+      "role": "semantic",
+      "usage": "Hover state for primary CTA buttons and links.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-action-blue-active",
+      "hex": "#006edb",
+      "role": "semantic",
+      "usage": "Pressed state for primary CTAs.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-action-blue-dark",
+      "hex": "#0066cc",
+      "role": "primary",
+      "usage": "CTA blue used when placed over black or near-black backgrounds.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-accent-blue",
+      "hex": "#2997ff",
+      "role": "accent",
+      "usage": "Link emphasis and interactive text on dark surfaces.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-mid-grey",
+      "hex": "#6e6e73",
+      "role": "secondary",
+      "usage": "Subheads, supporting descriptions, and metadata labels.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-caption-grey",
+      "hex": "#86868b",
+      "role": "secondary",
+      "usage": "Footnotes, legal copy, availability text, and disclaimer rows.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-divider",
+      "hex": "#e8e8ed",
+      "role": "semantic",
+      "usage": "Horizontal rules, card strokes, input borders, and inactive states.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "color-surface-light",
+      "hex": "#f4f8fb",
+      "role": "surface",
+      "usage": "Alternating light product-page section backgrounds.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "token": "color-card-surface",
+      "hex": "#fafafc",
+      "role": "surface",
+      "usage": "Modal backgrounds, floating card surfaces, and popover panels.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "token": "color-charcoal",
+      "hex": "#333336",
+      "role": "text",
+      "usage": "Dark mode body text and supporting UI components.",
+      "confidence": "HIGH"
+    }
+  ],
+  "typography_rules": {
+    "heading": "SF Pro Display or system-ui fallback; semibold to bold display sizes, tight line-height around 1.05-1.10, and subtle negative tracking for the signature Apple headline cadence.",
+    "body": "SF Pro Text or system-ui fallback; 17px desktop body copy, regular weight, approximately 1.47 line-height, and highly readable quiet paragraphs.",
+    "mono": "SF Mono only for developer documentation, code samples, API references, and technical snippets; never use mono as the primary marketing voice.",
+    "scale_notes": "Use large display headlines with restrained word counts, 24-32px subheads, 17px body text, 12-14px captions, and strong vertical whitespace so typography becomes the composition rather than decoration.",
+    "weight_notes": "Favor 400 and 600 weights. Use 700 only for major display emphasis and 300 sparingly for airy lead copy. Avoid all-caps promotional shouting or heavy-weight body paragraphs."
+  },
+  "component_styling": {
+    "buttons": "button-primary:; backgroundColor: \"{colors.primary}\"; textColor: \"{colors.on-primary}\"; button-primary-focus:; backgroundColor: \"{colors.primary}\"; textColor: \"{colors.on-primary}\"; button-primary-active:; backgroundColor: \"{colors.primary}\"; textColor: \"{colors.on-primary}\"; button-secondary-pill:; backgroundColor: \"{colors.canvas}\"; textColor: \"{colors.primary}\"; button-dark-utility:; backgroundColor: \"{colors.ink}\"; textColor: \"{colors.on-dark}\"; typography: \"{typography.button-utility}\"; button-pearl-capsule:; backgroundColor: \"{colors.surface-pearl}\" (T3: awesome-design-md)",
+    "cards": "product-tile-light:; backgroundColor: \"{colors.canvas}\"; textColor: \"{colors.ink}\"; product-tile-parchment:; backgroundColor: \"{colors.canvas-parchment}\"; textColor: \"{colors.ink}\"; product-tile-dark:; backgroundColor: \"{colors.surface-tile-1}\"; textColor: \"{colors.on-dark}\"; product-tile-dark-2:; backgroundColor: \"{colors.surface-tile-2}\"; textColor: \"{colors.on-dark}\"; product-tile-dark-3:; backgroundColor: \"{colors.surface-tile-3}\"; textColor: \"{colors.on-dark}\"; store-utility-card:; backgroundColor: \"{colors.canvas}\"; textColor: \"{colors.ink}\" (T3: awesome-design-md)",
+    "navigation": "global-nav:; backgroundColor: \"{colors.surface-black}\"; textColor: \"{colors.on-dark}\"; typography: \"{typography.nav-link}\"; sub-nav-frosted:; backgroundColor: \"{colors.canvas-parchment}\"; textColor: \"{colors.ink}\"; floating-sticky-bar:; backgroundColor: \"{colors.canvas-parchment}\"; textColor: \"{colors.ink}\" (T3: awesome-design-md)",
+    "inputs": "configurator-option-chip:; backgroundColor: \"{colors.canvas}\"; textColor: \"{colors.ink}\"; configurator-option-chip-selected:; backgroundColor: \"{colors.canvas}\"; textColor: \"{colors.ink}\"; search-input:; backgroundColor: \"{colors.canvas}\"; textColor: \"{colors.ink}\" (T3: awesome-design-md)",
+    "charts": "typography: \"{typography.body}\"; typography: \"{typography.body}\"; typography: \"{typography.button-utility}\"; typography: \"{typography.caption}\"; typography: \"{typography.button-large}\"; typography: \"{typography.body}\"; typography: \"{typography.body}\"; typography: \"{typography.nav-link}\"; typography: \"{typography.tagline}\"; typography: \"{typography.display-lg}\"; typography: \"{typography.display-lg}\"; typography: \"{typography.display-lg}\"; typography: \"{typography.body-strong}\"; typography: \"{typography.caption}\"; typography: \"{typography.body}\"; typography: \"{typography.body}\"; typography: \"{typography.display-lg}\"; typography: \"{typography.fine-print}\" (T3: awesome-design-md)"
+  },
+  "layout_principles": [
+    "Whitespace is the primary design element; do not compress product or message density to fill empty space.",
+    "Use one idea per viewport: one headline, one supporting sentence, one product or evidence object, and one optional CTA pair.",
+    "Let product photography or object silhouette set the composition; the grid should adapt to the artifact, not dominate it.",
+    "Keep UI chrome nearly invisible so product, copy, and action blue carry the hierarchy.",
+    "Default to centered symmetry and introduce asymmetry only for editorial or narrative emphasis.",
+    "Design responsive layouts mobile-first as single-column stories that expand outward rather than desktop grids that collapse poorly.",
+    "Use typography as layout in text-only sections; display/body scale contrast must be strong enough without decoration."
+  ],
+  "depth_elevation": "Apple depth is almost flat: full-bleed tiles and navigation have no shadow, utility cards rely on hairline borders, sticky bars use backdrop blur, and the only substantial drop shadow belongs to product imagery resting on a surface.",
+  "dos": [
+    "Use generous negative space around each product or primary claim.",
+    "Reserve blue for interaction so every blue element reads as tappable or clickable.",
+    "Keep copy short, quiet, and output-focused; let the user's creation or product result be the proof.",
+    "Alternate light, parchment, and near-black surfaces to create rhythm without decorative separators.",
+    "Use restrained SF/system typography with precise spacing and semibold display hierarchy.",
+    "Place legal or availability copy in muted caption treatments rather than promotional voice."
+  ],
+  "donts": [
+    "Do not use gradients in UI chrome; keep gradients confined to photography or source imagery if present.",
+    "Do not apply blue to non-interactive decoration because it weakens the action signal.",
+    "Do not crowd multiple product messages into one viewport.",
+    "Do not imitate Apple logos, device UI, icon grids, packaging, or protected trade dress.",
+    "Do not use loud badges, heavy shadows, neon effects, or busy multi-color SaaS decoration.",
+    "Do not replace restrained Apple-like understatement with superlative-heavy marketing copy."
+  ],
+  "responsive_behavior": "Collapse into a single-column product story on mobile, preserving one idea per viewport, large whitespace, centered product imagery, compact blue CTAs, and readable 15-17px body copy. Wider screens may expand to product grids or side-by-side tiles only when each tile retains a clear independent message.",
+  "agent_prompt_guide": "Build an Apple-inspired product-gallery interface without copying protected assets. Use near-monochrome surfaces (#ffffff, #f5f5f7, #1d1d1f, #000000), SF/system typography, large whitespace, centered product or evidence objects, and one blue action color (#0071e3). Keep UI chrome nearly invisible: no decorative gradients, no heavy shadows, no noisy borders. Structure each section around one message and one action pair. Use product photography or neutral placeholders as the hero; do not reproduce Apple logos, device UI, packaging, icon grids, or proprietary marketing copy. If implementing in Brand Autopsy, translate the style into sparse product-gallery composition while keeping all brand-specific marks as analysis references only.",
+  "market_visual_positioning": {
+    "quadrant_description": "Premium Sparse / Product Gallery quadrant: high-price, experience-led, low-density visual language where restraint and product focus signal confidence.",
+    "closest_competitors": [
+      "MSFT",
+      "GOOGL",
+      "SSNLF"
+    ],
+    "visual_differentiators": {
+      "MSFT": "Microsoft is more modular, enterprise-productivity oriented, and UI-system visible; Apple is more gallery-like, emotional, and object-centered.",
+      "GOOGL": "Google is warmer, more colorful, and AI/service-led; Apple is more monochrome, premium, and hardware-experience-led.",
+      "SSNLF": "Samsung is more specification-forward and feature-dense; Apple removes specification noise and sells the experienced result."
+    },
+    "archetype_market_context": "Product Gallery is Apple's market advantage: products appear as cultural artifacts in a controlled museum-like sequence rather than as feature cards in a specification race."
+  },
+  "legal_notice": "This Brand Autopsy design-md artifact is an informational design analysis generated from publicly observable brand signals and internal scoring rules. It is not a brand guideline issued by the company, does not imply endorsement, affiliation, or authorization, and must not be treated as legal advice. All trademarks, logos, product names, and trade dress remain the property of their respective owners. Use the output as a creative reference only, and verify any production use against applicable trademark, copyright, advertising, and platform policies.",
+  "legal_notice_addendum": "⚠️ Brand-Specific Risk Note: This brand has elevated litigation or trademark-enforcement risk. Avoid close imitation of protected logos, product interfaces, proprietary trade dress, distinctive packaging, advertising layouts, or other source-identifying assets. Route any production design inspired by this analysis through legal review before publication.",
+  "visual_archetype": "Product Gallery",
+  "visual_archetype_confidence": "HIGH",
+  "design_readiness_score": 100,
+  "design_readiness_grade": "DESIGN_READY",
+  "score_breakdown": {
+    "color_completeness": 20,
+    "typography_specificity": 15,
+    "component_completeness": 20,
+    "layout_specificity": 15,
+    "do_dont_clarity": 10,
+    "agent_prompt_usability": 10,
+    "source_confidence_score": 10
+  }
+}

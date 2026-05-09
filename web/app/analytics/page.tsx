@@ -1,5 +1,5 @@
-import { fetchArchetypes, fetchBrands, fetchSectors } from "@/lib/api";
-import type { ArchetypeDistribution, BrandSummary, SectorStats } from "@/lib/api";
+import { fetchArchetypes, fetchBrands, fetchDesignSystemAnalytics, fetchSectors } from "@/lib/api";
+import type { ArchetypeDistribution, BrandSummary, DesignSystemAnalytics, SectorStats } from "@/lib/api";
 import { AnalyticsClient } from "./analytics-client";
 import { T } from "@/components/ui-primitives";
 import { Navigation } from "@/components/navigation";
@@ -12,15 +12,18 @@ export default async function AnalyticsPage(): Promise<JSX.Element> {
   let archetypes: ArchetypeDistribution | null = null;
   let sectors: SectorStats | null = null;
   let brands: BrandSummary[] = [];
+  let designSystems: DesignSystemAnalytics | null = null;
   try {
-    const [a, s, b] = await Promise.all([
+    const [a, s, b, ds] = await Promise.all([
       fetchArchetypes(),
       fetchSectors(),
       fetchBrands({ limit: 1000 }),
+      fetchDesignSystemAnalytics(),
     ]);
     archetypes = a;
     sectors = s;
     brands = b.brands;
+    designSystems = ds;
   } catch {
     // API may be offline
   }
@@ -57,6 +60,7 @@ export default async function AnalyticsPage(): Promise<JSX.Element> {
       brands={brands}
       archetypes={archetypes}
       sectors={sectors}
+      designSystems={designSystems}
     />
   );
 }

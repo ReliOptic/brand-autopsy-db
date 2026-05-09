@@ -32,6 +32,10 @@ interface NormalizedBrand {
   layers: number;
   confidence: ConfidenceLevel;
   date: string;
+  hasDesignMd: boolean;
+  visualArchetype: string;
+  designReadinessGrade: string;
+  designReadinessScore: number;
 }
 
 interface BrandWithExtras extends BrandSummary {
@@ -45,6 +49,10 @@ interface BrandWithExtras extends BrandSummary {
     restrained_bold: number | null;
   } | null;
   data_confidence?: ConfidenceLevel;
+  has_design_md?: boolean;
+  visual_archetype?: string;
+  design_readiness_grade?: "DESIGN_READY" | "PARTIAL" | "DRAFT" | "STUB";
+  design_readiness_score?: number;
 }
 
 function normalize(brand: BrandSummary): NormalizedBrand {
@@ -86,7 +94,28 @@ function normalize(brand: BrandSummary): NormalizedBrand {
     layers,
     confidence,
     date: b.analysis_date || "",
+    hasDesignMd: Boolean(b.has_design_md),
+    visualArchetype: b.visual_archetype || "Unclassified",
+    designReadinessGrade: b.design_readiness_grade || "STUB",
+    designReadinessScore: b.design_readiness_score || 0,
   };
+}
+
+
+function readinessColor(grade: string): string {
+  if (grade === "DESIGN_READY") return T.success;
+  if (grade === "PARTIAL") return T.warn;
+  return T.textMuted;
+}
+
+function DesignReadinessBadge({ grade }: { grade: string }): JSX.Element | null {
+  if (grade === "STUB" || !grade) return null;
+  const color = readinessColor(grade);
+  return (
+    <span style={{ fontFamily: T.mono, fontSize: 9, color, border: `1px solid ${color}55`, background: `${color}12`, borderRadius: 2, padding: "2px 5px", letterSpacing: "0.05em" }}>
+      {grade.replace("DESIGN_", "")}
+    </span>
+  );
 }
 
 // ───────────── Hybrid card (default grid) ─────────────
@@ -144,7 +173,8 @@ export function BrandCardHybrid({ brand, onClick }: BrandCardProps): JSX.Element
             {n.sector.split(" ")[0].toUpperCase()}
           </span>
         </div>
-        <div style={{ position: "absolute", top: 6, right: 8 }}>
+        <div style={{ position: "absolute", top: 6, right: 8, display: "flex", gap: 4 }}>
+          <DesignReadinessBadge grade={n.designReadinessGrade} />
           <ConfidenceBadge level={n.confidence} size="xs" />
         </div>
         <div
@@ -178,6 +208,11 @@ export function BrandCardHybrid({ brand, onClick }: BrandCardProps): JSX.Element
             {n.archetypeSecondary && n.archetypeSecondary !== "—" ? ` / ${n.archetypeSecondary}` : ""}
           </span>
         </div>
+        {n.visualArchetype !== "Unclassified" && (
+          <div style={{ fontFamily: T.mono, fontSize: 9, color: T.textDim, marginBottom: 8, letterSpacing: "0.05em" }}>
+            {n.visualArchetype.toLowerCase()} · {n.designReadinessScore}
+          </div>
+        )}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
           <VoiceMini voice={n.voice} color={T.accent} size="xs" />
           <ColorSwatches colors={n.swatches} max={4} size={10} />
@@ -214,7 +249,7 @@ export function BrandCardRow({ brand, onClick }: BrandCardProps): JSX.Element {
 
   const rowStyle: CSSProperties = {
     display: "grid",
-    gridTemplateColumns: "70px 1fr 130px 120px 90px 100px 80px",
+    gridTemplateColumns: "70px 1fr 130px 130px 120px 90px 100px 80px",
     alignItems: "center",
     gap: 10,
     padding: "8px 14px",
@@ -233,6 +268,7 @@ export function BrandCardRow({ brand, onClick }: BrandCardProps): JSX.Element {
       <span style={{ color: T.text, fontFamily: T.sans, fontSize: 12, fontWeight: 500 }}>{n.name}</span>
       <span style={{ color: T.textMuted, fontSize: 10 }}>{n.sector}</span>
       <span style={{ color: T.accentBright, fontSize: 10 }}>{n.archetypePrimary}</span>
+      <span style={{ color: T.textMuted, fontSize: 9 }}>{n.visualArchetype !== "Unclassified" ? n.visualArchetype : "—"}</span>
       <VoiceMini voice={n.voice} color={T.accent} size="xs" />
       <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
         <LayerPips count={n.layers} size="xs" />
@@ -285,13 +321,13 @@ export function BrandCardIdentity({ brand, onClick }: BrandCardProps): JSX.Eleme
           {n.ticker}
         </Ticker>
         <span style={{ fontFamily: T.mono, fontSize: 9, color: fgDim, letterSpacing: "0.06em" }}>
-          {n.sector.split(" ")[0].toUpperCase()} · {n.layers}/8
+          {n.designReadinessGrade !== "STUB" ? n.designReadinessGrade.replace("DESIGN_", "") : `${n.layers}/8`}
         </span>
       </div>
       <div>
         <div style={{ fontSize: 18, fontWeight: 600, color: fg, lineHeight: 1.1, marginBottom: 4 }}>{n.name}</div>
         <div style={{ fontFamily: T.mono, fontSize: 10, color: fgDim, letterSpacing: "0.04em" }}>
-          {n.archetypePrimary.toUpperCase()}
+          {(n.visualArchetype !== "Unclassified" ? n.visualArchetype : n.archetypePrimary).toUpperCase()}
           {n.archetypeSecondary && n.archetypeSecondary !== "—" ? ` · ${n.archetypeSecondary.toUpperCase()}` : ""}
         </div>
       </div>

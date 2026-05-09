@@ -1,4 +1,5 @@
 import { publicEnv } from "@/config/env";
+import type { BrandDesignMd } from "@/lib/design-md";
 
 const API_BASE = publicEnv.apiUrl;
 
@@ -31,6 +32,10 @@ export interface BrandSummary {
   status: string;
   layer_count?: number;
   analysis_date?: string;
+  has_design_md?: boolean;
+  visual_archetype?: string;
+  design_readiness_score?: number;
+  design_readiness_grade?: "DESIGN_READY" | "PARTIAL" | "DRAFT" | "STUB";
 }
 
 export interface BrandDetail extends BrandSummary {
@@ -56,6 +61,7 @@ export interface LayerResponse {
 
 export interface CompareResponse {
   brands: BrandDetail[];
+  design_comparison?: Record<string, CompareDesignMdEntry>;
 }
 
 async function apiFetch<T>(path: string): Promise<T> {
@@ -79,6 +85,9 @@ export async function fetchBrands(params: {
   archetype?: string;
   limit?: number;
   offset?: number;
+  has_design_md?: boolean;
+  design_readiness?: string;
+  visual_archetype?: string;
 }): Promise<BrandsResponse> {
   const sp = new URLSearchParams();
   if (params.q) sp.set("q", params.q);
@@ -86,8 +95,46 @@ export async function fetchBrands(params: {
   if (params.archetype) sp.set("archetype", params.archetype);
   if (params.limit) sp.set("limit", String(params.limit));
   if (params.offset) sp.set("offset", String(params.offset));
+  if (params.has_design_md !== undefined) sp.set("has_design_md", String(params.has_design_md));
+  if (params.design_readiness) sp.set("design_readiness", params.design_readiness);
+  if (params.visual_archetype) sp.set("visual_archetype", params.visual_archetype);
   const qs = sp.toString();
   return apiFetch<BrandsResponse>(`/api/brands${qs ? `?${qs}` : ""}`);
+}
+
+export interface DesignMdResponse {
+  ticker: string;
+  format: "markdown";
+  version: string;
+  generated_at: string;
+  markdown: string;
+  source_confidence: "HIGH" | "MEDIUM" | "LOW";
+  design_readiness_score: number;
+  design_readiness_grade: "DESIGN_READY" | "PARTIAL" | "DRAFT" | "STUB";
+}
+
+export interface DesignPreviewResponse {
+  ticker: string;
+  brand_name: string;
+  version: string;
+  visual_archetype: string;
+  design_readiness_score: number;
+  design_readiness_grade: string;
+  color_palette: BrandDesignMd["color_palette"];
+  typography_rules: BrandDesignMd["typography_rules"];
+  component_styling: BrandDesignMd["component_styling"];
+}
+
+export async function fetchDesignMd(ticker: string): Promise<DesignMdResponse> {
+  return apiFetch<DesignMdResponse>(`/api/brands/${ticker}/design-md`);
+}
+
+export async function fetchDesignMdJson(ticker: string): Promise<BrandDesignMd> {
+  return apiFetch<BrandDesignMd>(`/api/brands/${ticker}/design-md.json`);
+}
+
+export async function fetchDesignPreview(ticker: string): Promise<DesignPreviewResponse> {
+  return apiFetch<DesignPreviewResponse>(`/api/brands/${ticker}/design-preview`);
 }
 
 export async function fetchBrand(ticker: string): Promise<BrandDetail> {
@@ -103,6 +150,28 @@ export async function fetchCompare(a: string, b: string, c?: string, d?: string)
   if (c) sp.set("c", c);
   if (d) sp.set("d", d);
   return apiFetch<CompareResponse>(`/api/compare?${sp.toString()}`);
+}
+
+export interface CompareDesignMdEntry {
+  has_design_md: boolean;
+  visual_archetype?: string;
+  color_temperature?: string;
+  density?: string;
+  surface_model?: string;
+  primary_color?: string;
+  design_readiness_score?: number;
+  design_readiness_grade?: string;
+  agent_prompt_guide?: string;
+}
+
+export async function fetchCompareDesignMd(
+  a: string,
+  b: string,
+  c?: string,
+  d?: string,
+): Promise<Record<string, CompareDesignMdEntry>> {
+  const response = await fetchCompare(a, b, c, d);
+  return response.design_comparison ?? {};
 }
 
 export interface ArchetypeDistribution {
@@ -182,6 +251,31 @@ export async function fetchPositioning(sector: string): Promise<PositioningData>
   );
   if (!res.ok) throw new Error("positioning unavailable");
   return res.json();
+}
+
+export interface DesignSystemAnalytics {
+  coverage: {
+    total: number;
+    with_design_md: number;
+    without_design_md: number;
+    by_grade: Record<string, number>;
+  };
+  visual_archetypes: Array<{ archetype: string; count: number }>;
+  readiness_distribution: Array<{ grade: string; count: number }>;
+  sector_matrix: Array<{ sector: string; dominant_archetype: string; count: number }>;
+  readiness_leaderboard: Array<{
+    ticker: string;
+    brand_name: string;
+    score: number;
+    grade: string;
+    visual_archetype: string;
+    sector: string;
+  }>;
+  invalid_records: Array<{ ticker: string; error: string }>;
+}
+
+export async function fetchDesignSystemAnalytics(): Promise<DesignSystemAnalytics> {
+  return apiFetch<DesignSystemAnalytics>("/api/analytics/design-systems");
 }
 
 export interface BriefData {
