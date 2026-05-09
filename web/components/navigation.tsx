@@ -67,6 +67,22 @@ const BarChartIcon = (active: boolean): JSX.Element => (
   </svg>
 );
 
+const DesignIcon = (active: boolean): JSX.Element => (
+  <svg
+    width={13}
+    height={13}
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke={iconStroke(active)}
+    strokeWidth={1.5}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M4 5h16M4 12h16M4 19h10" />
+    <circle cx="18" cy="19" r="2" />
+  </svg>
+);
+
 const SettingsIcon = (active: boolean): JSX.Element => (
   <svg
     width={13}
@@ -134,6 +150,7 @@ export function Navigation({ brandCount }: NavigationProps = {}): JSX.Element | 
     { href: "/dashboard", label: "Dashboard", icon: GridIcon },
     { href: "/compare", label: "Compare", icon: CompareIcon },
     { href: "/analytics", label: "Analytics", icon: BarChartIcon },
+    { href: "/brands/AAPL/design-md", label: "Design.md", icon: DesignIcon },
   ];
 
   const isActive = (href: string): boolean =>
@@ -232,8 +249,8 @@ export function Navigation({ brandCount }: NavigationProps = {}): JSX.Element | 
       </div>
 
       <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-        <button
-          type="button"
+        <Link
+          href="/dashboard"
           style={{
             display: "flex",
             alignItems: "center",
@@ -246,6 +263,7 @@ export function Navigation({ brandCount }: NavigationProps = {}): JSX.Element | 
             color: T.textMuted,
             fontFamily: T.mono,
             fontSize: 11,
+            textDecoration: "none",
           }}
         >
           <SearchIcon />
@@ -263,7 +281,7 @@ export function Navigation({ brandCount }: NavigationProps = {}): JSX.Element | 
           >
             ⌘ K
           </span>
-        </button>
+        </Link>
         <Link
           href="/settings"
           title="Settings"

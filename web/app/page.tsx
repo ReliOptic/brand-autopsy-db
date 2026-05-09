@@ -254,9 +254,9 @@ export default async function LandingPage(): Promise<JSX.Element> {
             letterSpacing: "0.06em",
           }}
         >
-          <span>METHODOLOGY</span>
-          <span>PRICING</span>
-          <span>DOCS</span>
+          <Link href="/about" style={{ color: "inherit", textDecoration: "none" }}>METHODOLOGY</Link>
+          <Link href="/pricing" style={{ color: "inherit", textDecoration: "none" }}>PRICING</Link>
+          <Link href="/reports" style={{ color: "inherit", textDecoration: "none" }}>REPORTS</Link>
         </nav>
         <Link href="/dashboard" style={launchButtonStyle}>
           LAUNCH CONSOLE →
@@ -315,18 +315,53 @@ export default async function LandingPage(): Promise<JSX.Element> {
           <Link href="/dashboard" style={heroSolidCta}>
             OPEN CONSOLE →
           </Link>
-          <Link href="/dashboard" style={heroOutlineCta}>
-            VIEW SAMPLE BRIEF
+          <Link href="/brands/AAPL/design-md" style={heroOutlineCta}>
+            VIEW AAPL DESIGN.md
           </Link>
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 8,
+            flexWrap: "wrap",
+            marginTop: 18,
+          }}
+        >
+          {[
+            ["AAPL", "/brands/AAPL/design-md", "Product Gallery"],
+            ["MSFT", "/brands/MSFT/design-md", "Enterprise Carbon"],
+            ["MMM", "/brands/MMM/design-md", "Industrial Trust"],
+          ].map(([ticker, href, label]) => (
+            <Link
+              key={ticker}
+              href={href}
+              style={{
+                border: `1px solid ${T.border}`,
+                background: "rgba(15,15,23,0.72)",
+                color: T.textSecondary,
+                borderRadius: 999,
+                padding: "6px 10px",
+                textDecoration: "none",
+                fontFamily: T.mono,
+                fontSize: 10,
+                letterSpacing: "0.06em",
+              }}
+            >
+              <span style={{ color: T.accentBright }}>{ticker}</span> · {label}
+            </Link>
+          ))}
         </div>
 
         {/* Live ticker strip */}
         {brands.length > 0 && (
           <div style={tickerStripStyle}>
             {brands.map((b) => (
-              <div
+              <Link
+                href={`/brands/${b.ticker}`}
                 key={b.ticker}
-                style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}
+                style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0, color: "inherit", textDecoration: "none" }}
               >
                 <span
                   style={{
@@ -337,7 +372,7 @@ export default async function LandingPage(): Promise<JSX.Element> {
                 />
                 <Ticker size={11}>{b.ticker}</Ticker>
                 <Sparkline seed={b.ticker} width={40} height={14} color={T.accent} fill={false} />
-              </div>
+              </Link>
             ))}
           </div>
         )}

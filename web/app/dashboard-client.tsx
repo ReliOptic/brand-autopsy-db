@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useMemo, useState, type CSSProperties, type MouseEvent } from "react";
 import type { BrandSummary } from "@/lib/api";
@@ -563,6 +564,32 @@ export function DashboardClient({
                 Search, filter and dissect {totalBrands} S&P 500 brand strategies across 8 layers — Identity,
                 Audience, Competitive, Content DNA, Design System, Channels, Financials, Legal. DESIGN.md ready: {designReadyCount}.
               </p>
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 12 }}>
+                {[
+                  ["AAPL DESIGN.md", "/brands/AAPL/design-md"],
+                  ["MSFT DESIGN.md", "/brands/MSFT/design-md"],
+                  ["MMM DESIGN.md", "/brands/MMM/design-md"],
+                  ["Compare AAPL/MSFT", "/compare?a=AAPL&b=MSFT"],
+                ].map(([label, href]) => (
+                  <Link
+                    key={label}
+                    href={href}
+                    style={{
+                      border: `1px solid ${T.border}`,
+                      background: "rgba(7,7,11,0.42)",
+                      color: T.accentBright,
+                      borderRadius: 999,
+                      padding: "5px 9px",
+                      textDecoration: "none",
+                      fontFamily: T.mono,
+                      fontSize: 10,
+                      letterSpacing: "0.06em",
+                    }}
+                  >
+                    {label} →
+                  </Link>
+                ))}
+              </div>
             </div>
             <StatCards cards={stats} />
           </div>
