@@ -1,11 +1,21 @@
 """Brand routes."""
+from collections import Counter, defaultdict
 import json
 import re
 from typing import Optional
 from pathlib import Path
 from fastapi import APIRouter, HTTPException, Query
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
-from ..services.brand_reader import list_brands, get_brand, get_layer, _scan_brands, BRANDS_DIR, LAYER_FILES
+from ..services.brand_reader import (
+    list_brands,
+    get_brand,
+    get_layer,
+    _scan_brands,
+    _parse_ticker,
+    _SP500_META,
+    LAYER_FILES,
+)
 
 router = APIRouter(prefix="/api")
 
@@ -239,6 +249,217 @@ def _read_layer_text(ticker_upper: str, layer_num: int) -> str:
     return layer_path.read_text(encoding="utf-8", errors="replace")
 
 
+def _design_error(status_code: int, error: str, ticker: str | None = None) -> JSONResponse:
+    payload: dict[str, str] = {"error": error}
+    if ticker is not None:
+        payload["ticker"] = ticker
+    return JSONResponse(status_code=status_code, content=payload)
+
+
+def _find_brand_dir(ticker: str) -> Path | None:
+    ticker_upper = ticker.upper()
+    return next((d for d in _scan_brands() if _parse_ticker(d).upper() == ticker_upper), None)
+
+
+def _design_md_path_for_ticker(ticker: str) -> tuple[str, Path | None, Path | None]:
+    ticker_upper = ticker.upper()
+    brand_dir = _find_brand_dir(ticker_upper)
+    if brand_dir is None:
+        return ticker_upper, None, None
+    return ticker_upper, brand_dir, brand_dir / "design-md" / "design-md.json"
+
+
+def _load_design_md_response(ticker: str) -> tuple[dict | None, JSONResponse | None]:
+    ticker_upper, _brand_dir, design_path = _design_md_path_for_ticker(ticker)
+    if design_path is None:
+        return None, _design_error(404, "Brand not found", ticker_upper)
+    if not design_path.exists():
+        return None, _design_error(404, "DESIGN.md not yet generated", ticker_upper)
+    try:
+        with design_path.open(encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError as exc:
+        return None, _design_error(500, f"design-md.json malformed: {exc}", ticker_upper)
+    except OSError as exc:
+        return None, _design_error(500, f"Failed to read design-md.json: {exc}", ticker_upper)
+    if not isinstance(data, dict):
+        return None, _design_error(500, "design-md.json malformed", ticker_upper)
+    return data, None
+
+
+def _read_design_summary(ticker: str) -> dict:
+    ticker_upper, _brand_dir, design_path = _design_md_path_for_ticker(ticker)
+    if design_path is None or not design_path.exists():
+        return {
+            "has_design_md": False,
+            "visual_archetype": "Unclassified",
+            "design_readiness_grade": "STUB",
+            "design_readiness_score": 0,
+        }
+    try:
+        data = json.loads(design_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {
+            "has_design_md": False,
+            "visual_archetype": "Unclassified",
+            "design_readiness_grade": "STUB",
+            "design_readiness_score": 0,
+        }
+    if not isinstance(data, dict):
+        return {
+            "has_design_md": False,
+            "visual_archetype": "Unclassified",
+            "design_readiness_grade": "STUB",
+            "design_readiness_score": 0,
+        }
+    return {
+        "has_design_md": True,
+        "visual_archetype": data.get("visual_archetype", "Unclassified"),
+        "design_readiness_grade": data.get("design_readiness_grade", "STUB"),
+        "design_readiness_score": data.get("design_readiness_score", 0),
+    }
+
+
+def _fallback_text(value: object, fallback: str) -> str:
+    if isinstance(value, str) and value.strip():
+        return value.strip()
+    return fallback
+
+
+def _bullet_list(values: object, fallback: str) -> str:
+    if isinstance(values, list):
+        items = [str(v).strip() for v in values if str(v).strip()]
+        if items:
+            return "\n".join(f"- {item}" for item in items)
+    return fallback
+
+
+def _design_md_to_markdown(data: dict) -> str:
+    """Convert a BrandDesignMd dict into a 12-section DESIGN.md string."""
+    ticker = _fallback_text(data.get("ticker"), "UNKNOWN")
+    brand_name = _fallback_text(data.get("brand_name"), ticker)
+    theme = data.get("visual_theme") if isinstance(data.get("visual_theme"), dict) else {}
+    typography = data.get("typography_rules") if isinstance(data.get("typography_rules"), dict) else {}
+    components = data.get("component_styling") if isinstance(data.get("component_styling"), dict) else {}
+    market = data.get("market_visual_positioning") if isinstance(data.get("market_visual_positioning"), dict) else {}
+    score_breakdown = data.get("score_breakdown") if isinstance(data.get("score_breakdown"), dict) else {}
+    palette = data.get("color_palette") if isinstance(data.get("color_palette"), list) else []
+
+    color_rows = []
+    for color in palette:
+        if not isinstance(color, dict):
+            continue
+        color_rows.append(
+            "| {token} | {hex} | {role} | {usage} | {confidence} |".format(
+                token=_fallback_text(color.get("token"), "token"),
+                hex=_fallback_text(color.get("hex"), "#000000"),
+                role=_fallback_text(color.get("role"), "unknown"),
+                usage=_fallback_text(color.get("usage"), "No usage note provided."),
+                confidence=_fallback_text(color.get("confidence"), "LOW"),
+            )
+        )
+    color_table = "\n".join(color_rows) if color_rows else "| fallback | #000000 | surface | No palette available. | LOW |"
+
+    component_lines = "\n".join(
+        f"- **{key}**: {_fallback_text(components.get(key), 'No component guidance available.')}"
+        for key in ("buttons", "cards", "navigation", "inputs", "charts")
+    )
+
+    typography_lines = "\n".join(
+        f"- **{key}**: {_fallback_text(typography.get(key), 'No typography guidance available.')}"
+        for key in ("heading", "body", "mono", "scale_notes", "weight_notes")
+    )
+
+    differentiators = market.get("visual_differentiators") if isinstance(market.get("visual_differentiators"), dict) else {}
+    differentiator_lines = "\n".join(f"- **{k}**: {v}" for k, v in differentiators.items()) or "- No competitor differentiators available."
+
+    breakdown_lines = "\n".join(f"- `{k}`: {v}" for k, v in score_breakdown.items()) or "- No score breakdown available."
+
+    return f"""# {ticker} DESIGN.md — {brand_name}
+
+## 1. Metadata
+
+- Ticker: `{ticker}`
+- Brand: {brand_name}
+- Version: {_fallback_text(data.get("version"), "unknown")}
+- Generated at: {_fallback_text(data.get("generated_at"), "unknown")}
+- Source confidence: {_fallback_text(data.get("source_confidence"), "LOW")}
+- Storage path: `{_fallback_text(data.get("storage_path"), "unknown")}`
+- Product design-md: `{str(data.get("is_product_design_md", False)).lower()}`
+
+## 2. Visual Theme
+
+{_fallback_text(theme.get("summary"), "No visual theme summary available.")}
+
+- Density: `{_fallback_text(theme.get("density"), "unknown")}`
+- Surface model: `{_fallback_text(theme.get("surface_model"), "unknown")}`
+- Color temperature: `{_fallback_text(theme.get("color_temperature"), "unknown")}`
+- Keywords: {", ".join(theme.get("atmosphere_keywords", [])) if isinstance(theme.get("atmosphere_keywords"), list) else "No keywords available."}
+
+## 3. Color Palette
+
+| Token | Hex | Role | Usage | Confidence |
+|---|---:|---|---|---|
+{color_table}
+
+## 4. Typography Rules
+
+{typography_lines}
+
+## 5. Component Styling
+
+{component_lines}
+
+## 6. Layout Principles
+
+{_bullet_list(data.get("layout_principles"), "- No layout principles available.")}
+
+## 7. Depth & Elevation
+
+{_fallback_text(data.get("depth_elevation"), "No depth/elevation guidance available.")}
+
+## 8. Do
+
+{_bullet_list(data.get("dos"), "- No do-list available.")}
+
+## 9. Don't
+
+{_bullet_list(data.get("donts"), "- No don't-list available.")}
+
+## 10. Responsive Behavior
+
+{_fallback_text(data.get("responsive_behavior"), "No responsive guidance available.")}
+
+## 11. Market Visual Positioning
+
+{_fallback_text(market.get("quadrant_description"), "No market positioning available.")}
+
+- Closest competitors: {", ".join(market.get("closest_competitors", [])) if isinstance(market.get("closest_competitors"), list) else "None listed."}
+- Archetype context: {_fallback_text(market.get("archetype_market_context"), "No archetype market context available.")}
+
+{differentiator_lines}
+
+## 12. Legal & Usage Notice
+
+{_fallback_text(data.get("legal_notice"), "No legal notice available.")}
+
+{_fallback_text(data.get("legal_notice_addendum"), "")}
+
+## Agent Prompt Guide
+
+{_fallback_text(data.get("agent_prompt_guide"), "No agent prompt guide available.")}
+
+## Design Readiness
+
+- Archetype: `{_fallback_text(data.get("visual_archetype"), "Unclassified")}`
+- Archetype confidence: `{_fallback_text(data.get("visual_archetype_confidence"), "LOW")}`
+- Score: `{data.get("design_readiness_score", 0)}`
+- Grade: `{_fallback_text(data.get("design_readiness_grade"), "STUB")}`
+
+{breakdown_lines}
+"""
+
+
 @router.get("/health")
 def health() -> dict:
     return {"status": "ok", "brands_count": len(_scan_brands())}
@@ -251,9 +472,131 @@ def brands_list(
     archetype: str = Query(default="", description="Archetype filter"),
     limit: int = Query(default=48, ge=1, le=600),
     offset: int = Query(default=0, ge=0),
+    has_design_md: bool | None = Query(default=None),
+    design_readiness: str = Query(default=""),
+    visual_archetype: str = Query(default=""),
 ) -> dict:
-    brands, total = list_brands(q=q, sector=sector, archetype=archetype, limit=limit, offset=offset)
-    return {"brands": [b.model_dump() for b in brands], "total": total}
+    needs_design_filter = has_design_md is not None or bool(design_readiness) or bool(visual_archetype)
+    fetch_limit = 600 if needs_design_filter else limit
+    fetch_offset = 0 if needs_design_filter else offset
+    brands, total = list_brands(q=q, sector=sector, archetype=archetype, limit=fetch_limit, offset=fetch_offset)
+    rows = []
+    for b in brands:
+        row = b.model_dump()
+        row.update(_read_design_summary(row["ticker"]))
+        rows.append(row)
+
+    if has_design_md is not None:
+        rows = [r for r in rows if bool(r["has_design_md"]) is has_design_md]
+    if design_readiness:
+        allowed = {g.strip().upper() for g in design_readiness.split(",") if g.strip()}
+        rows = [r for r in rows if str(r["design_readiness_grade"]).upper() in allowed]
+    if visual_archetype:
+        rows = [r for r in rows if r["visual_archetype"] == visual_archetype]
+    if needs_design_filter:
+        total = len(rows)
+        rows = rows[offset: offset + limit]
+
+    return {"brands": rows, "total": total}
+
+
+def _design_compare_entry(ticker: str) -> dict:
+    data, error = _load_design_md_response(ticker)
+    if error is not None or data is None:
+        return {"has_design_md": False}
+    theme = data.get("visual_theme") if isinstance(data.get("visual_theme"), dict) else {}
+    palette = data.get("color_palette") if isinstance(data.get("color_palette"), list) else []
+    primary = next(
+        (c.get("hex") for c in palette if isinstance(c, dict) and c.get("role") == "primary"),
+        None,
+    )
+    if not primary and palette and isinstance(palette[0], dict):
+        primary = palette[0].get("hex")
+    return {
+        "has_design_md": True,
+        "visual_archetype": data.get("visual_archetype", "Unclassified"),
+        "color_temperature": theme.get("color_temperature", "neutral"),
+        "density": theme.get("density", "medium"),
+        "surface_model": theme.get("surface_model", "flat"),
+        "primary_color": primary or "#6366F1",
+        "design_readiness_score": data.get("design_readiness_score", 0),
+        "design_readiness_grade": data.get("design_readiness_grade", "STUB"),
+        "agent_prompt_guide": data.get("agent_prompt_guide", ""),
+    }
+
+
+@router.get("/brands/compare")
+def brands_compare_alias(
+    a: str = Query(...),
+    b: str = Query(...),
+    c: str | None = Query(default=None),
+    d: str | None = Query(default=None),
+) -> dict:
+    """Compare brands with an explicit /brands namespace alias."""
+    tickers = [a.upper(), b.upper()]
+    if c:
+        tickers.append(c.upper())
+    if d:
+        tickers.append(d.upper())
+    brands = []
+    for ticker in tickers:
+        brand = get_brand(ticker)
+        if not brand:
+            raise HTTPException(status_code=404, detail=f"Brand {ticker} not found")
+        brands.append(brand.model_dump())
+    return {
+        "brands": brands,
+        "design_comparison": {ticker: _design_compare_entry(ticker) for ticker in tickers},
+    }
+
+
+@router.get("/brands/{ticker}/design-md", response_model=None)
+def brand_design_md(ticker: str):
+    """Return a generated 12-section DESIGN.md markdown string for a brand."""
+    data, error = _load_design_md_response(ticker)
+    if error is not None:
+        return error
+    assert data is not None
+    return {
+        "ticker": data.get("ticker", ticker.upper()),
+        "format": "markdown",
+        "version": data.get("version", "0.1"),
+        "generated_at": data.get("generated_at", ""),
+        "markdown": _design_md_to_markdown(data),
+        "source_confidence": data.get("source_confidence", "LOW"),
+        "design_readiness_score": data.get("design_readiness_score", 0),
+        "design_readiness_grade": data.get("design_readiness_grade", "STUB"),
+    }
+
+
+@router.get("/brands/{ticker}/design-md.json", response_model=None)
+def brand_design_md_json(ticker: str):
+    """Return the raw BrandDesignMd JSON artifact for a brand."""
+    data, error = _load_design_md_response(ticker)
+    if error is not None:
+        return error
+    assert data is not None
+    return data
+
+
+@router.get("/brands/{ticker}/design-preview", response_model=None)
+def brand_design_preview(ticker: str):
+    """Return token/spec slices for preview catalog rendering."""
+    data, error = _load_design_md_response(ticker)
+    if error is not None:
+        return error
+    assert data is not None
+    return {
+        "ticker": data.get("ticker", ticker.upper()),
+        "brand_name": data.get("brand_name", ""),
+        "version": data.get("version", ""),
+        "visual_archetype": data.get("visual_archetype", "Unclassified"),
+        "design_readiness_score": data.get("design_readiness_score", 0),
+        "design_readiness_grade": data.get("design_readiness_grade", "STUB"),
+        "color_palette": data.get("color_palette", []),
+        "typography_rules": data.get("typography_rules", {}),
+        "component_styling": data.get("component_styling", {}),
+    }
 
 
 @router.get("/brands/{ticker}/layers/{num}")
@@ -371,4 +714,82 @@ def quality_summary() -> dict:
         "medium": medium,
         "low": low,
         "distribution": {"HIGH": high, "MEDIUM": medium, "LOW": low},
+    }
+
+
+@router.get("/analytics/design-systems")
+def design_systems_summary() -> dict:
+    """Return aggregate design-md readiness and archetype stats."""
+    total_brands = len(_scan_brands())
+    visual_archetypes: Counter[str] = Counter()
+    readiness_distribution: Counter[str] = Counter()
+    sector_archetypes: dict[str, Counter[str]] = defaultdict(Counter)
+    readiness_leaderboard: list[dict] = []
+    invalid_records: list[dict[str, str]] = []
+    with_design_md = 0
+
+    for brand_dir in _scan_brands():
+        design_path = brand_dir / "design-md" / "design-md.json"
+        if not design_path.exists():
+            continue
+        ticker = _parse_ticker(brand_dir)
+        try:
+            data = json.loads(design_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            invalid_records.append({"ticker": ticker, "error": str(exc)})
+            continue
+        if not isinstance(data, dict):
+            invalid_records.append({"ticker": ticker, "error": "design-md.json malformed"})
+            continue
+
+        with_design_md += 1
+        archetype = str(data.get("visual_archetype") or "Unclassified")
+        grade = str(data.get("design_readiness_grade") or "STUB")
+        score = int(data.get("design_readiness_score") or 0)
+        sector = _SP500_META.get(ticker, {}).get("sector", "Unknown") or "Unknown"
+
+        visual_archetypes[archetype] += 1
+        readiness_distribution[grade] += 1
+        sector_archetypes[sector][archetype] += 1
+        readiness_leaderboard.append({
+            "ticker": ticker,
+            "brand_name": data.get("brand_name", ticker),
+            "score": score,
+            "grade": grade,
+            "visual_archetype": archetype,
+            "sector": sector,
+        })
+
+    missing_count = max(total_brands - with_design_md, 0)
+    if missing_count:
+        visual_archetypes["Unclassified"] += missing_count
+        readiness_distribution["STUB"] += missing_count
+    readiness_leaderboard.sort(key=lambda row: int(row["score"]), reverse=True)
+
+    return {
+        "coverage": {
+            "total": total_brands,
+            "with_design_md": with_design_md,
+            "without_design_md": missing_count,
+            "by_grade": dict(readiness_distribution),
+        },
+        "visual_archetypes": [
+            {"archetype": archetype, "count": count}
+            for archetype, count in visual_archetypes.most_common()
+        ],
+        "readiness_distribution": [
+            {"grade": grade, "count": count}
+            for grade, count in readiness_distribution.most_common()
+        ],
+        "sector_matrix": [
+            {
+                "sector": sector,
+                "dominant_archetype": counter.most_common(1)[0][0],
+                "count": sum(counter.values()),
+            }
+            for sector, counter in sorted(sector_archetypes.items())
+            if counter
+        ],
+        "readiness_leaderboard": readiness_leaderboard[:10],
+        "invalid_records": invalid_records,
     }

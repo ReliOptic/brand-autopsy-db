@@ -67,6 +67,20 @@ export function BrandTabs({
       style={{ display: "contents" }}
     >
       <aside style={{ display: "flex", flexDirection: "column", gap: 22 }}>
+
+        <div>
+          <SectionLabel accent={T.accent}>PRODUCT TABS</SectionLabel>
+          <div style={{ marginTop: 10, display: "flex", flexDirection: "column", gap: 1 }}>
+            {["Overview", "Layers", "Visual System", "DESIGN.md", "Similar", "Exports"].map((name) => {
+              const href = name === "DESIGN.md" ? `/brands/${ticker}/design-md` : name === "Overview" ? `/brands/${ticker}` : `#brand-layer-panel`;
+              return (
+                <a key={name} href={href} style={{ padding: "7px 10px", color: name === "DESIGN.md" ? T.accentBright : T.textMuted, fontFamily: T.mono, fontSize: 10, textDecoration: "none", borderLeft: `2px solid ${name === "DESIGN.md" ? T.accent : T.border}` }}>
+                  {name.toUpperCase()}
+                </a>
+              );
+            })}
+          </div>
+        </div>
         <div>
           <SectionLabel accent={T.accent}>8-LAYER ANATOMY</SectionLabel>
           <div

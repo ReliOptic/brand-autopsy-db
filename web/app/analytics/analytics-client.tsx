@@ -11,6 +11,7 @@ import type {
   BrandSummary,
   PositioningPoint,
   SectorStats,
+  DesignSystemAnalytics,
 } from "@/lib/api";
 import { T, SectionLabel, Ticker } from "@/components/ui-primitives";
 import { Navigation } from "@/components/navigation";
@@ -20,6 +21,7 @@ interface AnalyticsClientProps {
   archetypes: ArchetypeDistribution;
   sectors: SectorStats;
   defaultSector?: string;
+  designSystems?: DesignSystemAnalytics | null;
 }
 
 const SCATTER_W = 560;
@@ -101,6 +103,7 @@ export function AnalyticsClient({
   archetypes,
   sectors,
   defaultSector,
+  designSystems,
 }: AnalyticsClientProps): JSX.Element {
   const router = useRouter();
   const sectorOptions = useMemo(
@@ -258,6 +261,8 @@ export function AnalyticsClient({
           sectorTopArchetypes={sectorTopArchetypes}
           onSelectSector={setSelectedSector}
         />
+
+        {designSystems && <DesignSystemsSection analytics={designSystems} />}
       </div>
     </div>
   );
@@ -688,6 +693,64 @@ function SectorOverviewCard({
             </button>
           );
         })}
+      </div>
+    </div>
+  );
+}
+
+
+function DesignSystemsSection({ analytics }: { analytics: DesignSystemAnalytics }): JSX.Element {
+  const max = Math.max(1, ...analytics.visual_archetypes.map((a) => a.count));
+  return (
+    <div style={{ marginTop: 16, background: T.surface, border: `1px solid ${T.border}`, borderRadius: 6, padding: 16 }}>
+      <SectionLabel accent={T.accent}>DESIGN SYSTEM INTELLIGENCE</SectionLabel>
+      <p style={{ color: T.textMuted, fontSize: 12, marginTop: 8 }}>
+        Coverage will grow as more brands are analyzed. Current DESIGN.md coverage: {analytics.coverage.with_design_md}/{analytics.coverage.total}.
+      </p>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginTop: 14 }}>
+        <div style={{ border: `1px solid ${T.border}`, borderRadius: 4, padding: 12, background: T.bg }}>
+          <SectionLabel accent={T.accent}>COVERAGE</SectionLabel>
+          <div style={{ marginTop: 10, display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 8 }}>
+            {Object.entries(analytics.coverage.by_grade).map(([grade, count]) => (
+              <div key={grade} style={{ border: `1px solid ${T.border}`, padding: 8 }}>
+                <div style={{ fontFamily: T.mono, color: T.textDim, fontSize: 9 }}>{grade}</div>
+                <div style={{ fontFamily: T.mono, color: T.textBright, fontSize: 20 }}>{count}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div style={{ border: `1px solid ${T.border}`, borderRadius: 4, padding: 12, background: T.bg }}>
+          <SectionLabel accent={T.accent}>VISUAL ARCHETYPES</SectionLabel>
+          <div style={{ marginTop: 10, display: "flex", flexDirection: "column", gap: 6 }}>
+            {analytics.visual_archetypes.map((a) => (
+              <div key={a.archetype} style={{ display: "grid", gridTemplateColumns: "140px 1fr 40px", gap: 8, alignItems: "center" }}>
+                <span style={{ fontFamily: T.mono, color: T.textMuted, fontSize: 10 }}>{a.archetype}</span>
+                <span style={{ height: 12, background: T.border, display: "block" }}><span style={{ display: "block", height: "100%", width: `${(a.count / max) * 100}%`, background: T.accent }} /></span>
+                <span style={{ fontFamily: T.mono, color: T.text, fontSize: 10, textAlign: "right" }}>{a.count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div style={{ border: `1px solid ${T.border}`, borderRadius: 4, padding: 12, background: T.bg }}>
+          <SectionLabel accent={T.accent}>READINESS LEADERBOARD</SectionLabel>
+          <div style={{ marginTop: 10, display: "flex", flexDirection: "column", gap: 6 }}>
+            {analytics.readiness_leaderboard.length ? analytics.readiness_leaderboard.map((r) => (
+              <div key={r.ticker} style={{ display: "grid", gridTemplateColumns: "52px 1fr 50px 92px", gap: 8, fontFamily: T.mono, fontSize: 10 }}>
+                <Ticker size={10}>{r.ticker}</Ticker><span style={{ color: T.textMuted }}>{r.visual_archetype}</span><span style={{ color: T.textBright }}>{r.score}</span><span style={{ color: T.accentBright }}>{r.grade}</span>
+              </div>
+            )) : <span style={{ color: T.textDim, fontFamily: T.mono, fontSize: 10 }}>No DESIGN.md records yet.</span>}
+          </div>
+        </div>
+        <div style={{ border: `1px solid ${T.border}`, borderRadius: 4, padding: 12, background: T.bg }}>
+          <SectionLabel accent={T.accent}>SECTOR DESIGN LANGUAGE</SectionLabel>
+          <div style={{ marginTop: 10, display: "flex", flexDirection: "column", gap: 6 }}>
+            {analytics.sector_matrix.length ? analytics.sector_matrix.map((r) => (
+              <div key={r.sector} style={{ display: "flex", justifyContent: "space-between", fontFamily: T.mono, fontSize: 10 }}>
+                <span style={{ color: T.textMuted }}>{r.sector}</span><span style={{ color: T.text }}>{r.dominant_archetype}</span>
+              </div>
+            )) : <span style={{ color: T.textDim, fontFamily: T.mono, fontSize: 10 }}>No sector matrix data yet.</span>}
+          </div>
+        </div>
       </div>
     </div>
   );

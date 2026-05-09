@@ -367,6 +367,9 @@ export default async function BrandPage({
             palette={swatchHexes}
           />
           <ExportButton brand={brand} />
+          <Link href={`/brands/${tickerUp}/design-md`} style={btnSecondaryStyle}>
+            DESIGN.md
+          </Link>
           <Link href={`/brands/${tickerUp}/brief`} style={btnPrimaryStyle(brandTheme)}>
             <PrintIcon /> VIEW BRIEF →
           </Link>

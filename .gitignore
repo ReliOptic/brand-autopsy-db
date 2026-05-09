@@ -7,6 +7,7 @@ data/raw/
 data/logs/
 data/api_keys.json
 data/subscriptions.json
+awesome-design-md/
 state/
 .omc/
 .omx/

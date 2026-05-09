@@ -1,0 +1,192 @@
+{
+  "ticker": "MSFT",
+  "brand_name": "Microsoft",
+  "version": "0.2.0",
+  "generated_at": "2026-05-09T00:00:00.000Z",
+  "source_confidence": "HIGH",
+  "storage_path": "data/brands/MSFT_Microsoft/design-md/design-md.json",
+  "is_product_design_md": false,
+  "awesome_design_md_reference": false,
+  "visual_theme": {
+    "summary": "Microsoft presents as a high-density, flat enterprise ecosystem: Fluent grids, cool blues, neutral gray surfaces, accessible component structure, and product-family modularity across Windows, Microsoft 365, Azure, and developer tooling.",
+    "atmosphere_keywords": [
+      "enterprise",
+      "Fluent",
+      "modular",
+      "cool blue",
+      "accessible",
+      "productivity",
+      "cloud platform"
+    ],
+    "density": "high",
+    "surface_model": "flat",
+    "color_temperature": "cool"
+  },
+  "color_palette": [
+    {
+      "token": "microsoft-blue",
+      "hex": "#0067B8",
+      "role": "primary",
+      "usage": "Primary CTAs, hyperlinks, and corporate blue identity across microsoft.com.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "azure-sky-blue",
+      "hex": "#3AA0FA",
+      "role": "accent",
+      "usage": "Azure secondary interaction, hover emphasis, cloud iconography, and data visualization.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "fluent-gray",
+      "hex": "#757575",
+      "role": "secondary",
+      "usage": "Secondary body text, icon fills, disabled states, and placeholders.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "light-gray",
+      "hex": "#D2D2D2",
+      "role": "semantic",
+      "usage": "Borders, dividers, and subtle background separation.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "microsoft-navy",
+      "hex": "#243A5E",
+      "role": "surface",
+      "usage": "Dark enterprise sections, Azure premium backgrounds, and high-trust panels.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "fluent-cyan",
+      "hex": "#50E6FF",
+      "role": "accent",
+      "usage": "Azure cloud accent, technical diagrams, and dark-background highlights.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "medium-gray",
+      "hex": "#505050",
+      "role": "text",
+      "usage": "Alternative body text and metadata where near-black is too heavy.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "near-white-gray",
+      "hex": "#E6E6E6",
+      "role": "surface",
+      "usage": "Card backgrounds, alternating table rows, and module fills.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "off-white",
+      "hex": "#F2F2F2",
+      "role": "surface",
+      "usage": "Long-scroll section alternation and neutral marketing backgrounds.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "near-black",
+      "hex": "#171717",
+      "role": "text",
+      "usage": "Primary body and heading text on light backgrounds.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "alert-red",
+      "hex": "#DC3545",
+      "role": "semantic",
+      "usage": "Error states and high-priority notification badges.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "caption-gray",
+      "hex": "#858585",
+      "role": "secondary",
+      "usage": "Caption text, timestamps, and fine print.",
+      "confidence": "HIGH"
+    },
+    {
+      "token": "warning-amber",
+      "hex": "#FFB900",
+      "role": "semantic",
+      "usage": "Warnings and Windows yellow product-mark overlap.",
+      "confidence": "MEDIUM"
+    },
+    {
+      "token": "error-orange-red",
+      "hex": "#D83B01",
+      "role": "semantic",
+      "usage": "Critical security alerts and destructive confirmations.",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "typography_rules": {
+    "heading": "Segoe UI or system-safe fallback; light to regular display weights at 48px+, semibold section headings, open humanist forms, and accessible spacing.",
+    "body": "Segoe UI regular 16-18px body text with strong readability, enterprise documentation clarity, and broad platform familiarity.",
+    "mono": "Consolas or Liberation Mono for code, terminal, Azure CLI snippets, developer documentation, and technical tables.",
+    "scale_notes": "Use a Fluent-like hierarchy: large but restrained hero headings, 24-36px section heads, 16-18px body copy, and compact 12-14px UI labels in dense product surfaces.",
+    "weight_notes": "Favor 300/400 for approachable marketing surfaces and 600 for UI labels or section headings. Avoid luxury thinness or playful heavy display weights."
+  },
+  "component_styling": {
+    "buttons": "Rectangular or lightly rounded Fluent buttons using Microsoft Blue for primary action, neutral borders for secondary action, clear focus rings, and accessible hover/pressed states.",
+    "cards": "Flat modular cards on white/off-white or navy surfaces, thin separators, low shadow, strong grid alignment, and consistent product-family modules.",
+    "navigation": "Structured global navigation with product-family grouping, small Segoe UI labels, enterprise dropdowns, and clear current-product context.",
+    "inputs": "Accessible rectangular inputs with visible labels, neutral borders, blue focus state, and predictable validation states.",
+    "charts": "Enterprise dashboards should use cool blue/cyan highlights, neutral axes, dense data labels, and semantic warning/error colors only when meaningful."
+  },
+  "layout_principles": [
+    "Use a modular grid that can hold many products without appearing chaotic.",
+    "Prioritize enterprise task completion: navigation, comparison, documentation, and CTA paths should remain obvious.",
+    "Keep flat surfaces and thin separators; avoid ornamental depth.",
+    "Use Microsoft Blue as a reliable action signal, not a decorative wash.",
+    "Group product families into coherent modules that preserve ecosystem breadth.",
+    "Balance marketing warmth with documentation-grade clarity."
+  ],
+  "depth_elevation": "Depth is restrained and flat: panels separate through gray surfaces, navy enterprise bands, 1px dividers, and accessible focus states rather than dramatic shadows or glossy effects.",
+  "dos": [
+    "Use Fluent-style modular grids.",
+    "Use Microsoft Blue for primary action clarity.",
+    "Keep enterprise surfaces accessible and predictable.",
+    "Use Consolas for developer and code contexts.",
+    "Separate product families with clear navigation and neutral surfaces."
+  ],
+  "donts": [
+    "Do not overuse the Windows four-color mark as a general UI palette.",
+    "Do not make Azure-style cyan dominate all Microsoft surfaces.",
+    "Do not replace enterprise clarity with playful consumer illustration.",
+    "Do not use heavy glossy shadows or skeuomorphic panels.",
+    "Do not collapse Microsoft 365, Windows, Azure, and developer surfaces into one undifferentiated style."
+  ],
+  "responsive_behavior": "Collapse modular grids into stacked product-family sections while preserving navigation context, primary action visibility, accessible text sizing, and dense-but-readable enterprise hierarchy.",
+  "agent_prompt_guide": "Build a Microsoft-like enterprise product surface with Fluent restraint: flat modular grids, Segoe/system typography, Microsoft Blue primary actions, cool Azure accents only for cloud/data contexts, neutral gray separators, accessible focus states, and documentation-grade clarity. Use high-density information modules without visual chaos. Do not copy Microsoft logos, Windows four-color marks, Copilot marks, proprietary icons, or protected product UI; translate the observed system into generic enterprise structure.",
+  "market_visual_positioning": {
+    "quadrant_description": "Enterprise Carbon quadrant: high-density, cool, flat, accessible, and modular enterprise platform language.",
+    "closest_competitors": [
+      "AAPL",
+      "GOOGL",
+      "AMZN"
+    ],
+    "visual_differentiators": {
+      "AAPL": "Apple is restrained, gallery-like, and object-centered; Microsoft is modular, system-visible, and enterprise-productivity oriented.",
+      "GOOGL": "Google uses warmer expressive color and AI/service playfulness; Microsoft is cooler, grayer, flatter, and more administrative.",
+      "AMZN": "Amazon is retail/cloud operational and conversion-heavy; Microsoft presents a more coherent productivity ecosystem."
+    },
+    "archetype_market_context": "Enterprise Carbon fits Microsoft because the brand translates broad product sprawl into an accessible enterprise control system."
+  },
+  "legal_notice": "This Brand Autopsy design-md artifact is an informational design analysis generated from publicly observable brand signals and internal scoring rules. It is not a brand guideline issued by the company, does not imply endorsement, affiliation, or authorization, and must not be treated as legal advice. All trademarks, logos, product names, and trade dress remain the property of their respective owners. Use the output as a creative reference only, and verify any production use against applicable trademark, copyright, advertising, and platform policies.",
+  "visual_archetype": "Enterprise Carbon",
+  "visual_archetype_confidence": "HIGH",
+  "design_readiness_score": 100,
+  "design_readiness_grade": "DESIGN_READY",
+  "score_breakdown": {
+    "color_completeness": 20,
+    "typography_specificity": 15,
+    "component_completeness": 20,
+    "layout_specificity": 15,
+    "do_dont_clarity": 10,
+    "agent_prompt_usability": 10,
+    "source_confidence_score": 10
+  }
+}

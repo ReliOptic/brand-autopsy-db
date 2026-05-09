@@ -34,6 +34,13 @@ interface FilterSidebarProps {
   selectedArchetype: string | null;
   onSelectSector: (s: string | null) => void;
   onSelectArchetype: (a: string | null) => void;
+  designReadyOnly: boolean;
+  designReadyStrict: boolean;
+  selectedVisualArchetype: string;
+  visualArchetypes: string[];
+  onToggleDesignReadyOnly: () => void;
+  onToggleDesignReadyStrict: () => void;
+  onSelectVisualArchetype: (a: string) => void;
 }
 
 const ChevronDown = (): JSX.Element => (
@@ -94,6 +101,13 @@ function FilterSidebar({
   selectedArchetype,
   onSelectSector,
   onSelectArchetype,
+  designReadyOnly,
+  designReadyStrict,
+  selectedVisualArchetype,
+  visualArchetypes,
+  onToggleDesignReadyOnly,
+  onToggleDesignReadyStrict,
+  onSelectVisualArchetype,
 }: FilterSidebarProps): JSX.Element {
   const itemBase: CSSProperties = {
     display: "flex",
@@ -211,7 +225,7 @@ function FilterSidebar({
         <div style={{ marginTop: 8, display: "flex", gap: 6, flexWrap: "wrap" }}>
           {selectedSector && chip(selectedSector, () => onSelectSector(null))}
           {selectedArchetype && chip(selectedArchetype, () => onSelectArchetype(null))}
-          {!selectedSector && !selectedArchetype && (
+          {!selectedSector && !selectedArchetype && !designReadyOnly && !designReadyStrict && !selectedVisualArchetype && (
             <span style={{ fontFamily: T.mono, fontSize: 10, color: T.textDim }}>No filters active</span>
           )}
         </div>
@@ -226,6 +240,25 @@ function FilterSidebar({
           {sortedSectors.map(([s, c]) =>
             renderItem(s, c, selectedSector === s, () => onSelectSector(selectedSector === s ? null : s)),
           )}
+        </div>
+      </div>
+
+      <div style={{ marginBottom: 18 }}>
+        <div style={sectionTitle}>
+          <span style={sectionTitleText}>DESIGN.md</span>
+          <ChevronDown />
+        </div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 4, padding: "0 8px" }}>
+          <label style={{ fontFamily: T.mono, fontSize: 10, color: T.textSecondary, display: "flex", gap: 6 }}>
+            <input type="checkbox" checked={designReadyOnly} onChange={onToggleDesignReadyOnly} /> DESIGN.md Ready only
+          </label>
+          <label style={{ fontFamily: T.mono, fontSize: 10, color: T.textSecondary, display: "flex", gap: 6 }}>
+            <input type="checkbox" checked={designReadyStrict} onChange={onToggleDesignReadyStrict} /> DESIGN_READY only
+          </label>
+          <select value={selectedVisualArchetype} onChange={(e) => onSelectVisualArchetype(e.target.value)} style={{ background: T.bg, color: T.text, border: `1px solid ${T.border}`, borderRadius: 3, padding: 6, fontFamily: T.mono, fontSize: 10 }}>
+            <option value="">All visual archetypes</option>
+            {visualArchetypes.map((a) => <option key={a} value={a}>{a}</option>)}
+          </select>
         </div>
       </div>
 
@@ -324,6 +357,9 @@ export function DashboardClient({
   const [selectedSector, setSelectedSector] = useState<string | null>(initialSector || null);
   const [selectedArchetype, setSelectedArchetype] = useState<string | null>(initialArchetype || null);
   const [cardVariant, setCardVariant] = useState<CardVariant>(normalizeView(initialView));
+  const [designReadyOnly, setDesignReadyOnly] = useState(false);
+  const [designReadyStrict, setDesignReadyStrict] = useState(false);
+  const [selectedVisualArchetype, setSelectedVisualArchetype] = useState("");
 
   // Derived: sector counts
   const sectorCounts = useMemo<Record<string, number>>(() => {
@@ -348,11 +384,17 @@ export function DashboardClient({
       .sort((a, b) => b.count - a.count);
   }, [brands]);
 
+  const visualArchetypes = useMemo(() => Array.from(new Set(brands.map((b) => b.visual_archetype).filter((v): v is string => Boolean(v) && v !== "Unclassified"))).sort(), [brands]);
+  const designReadyCount = useMemo(() => brands.filter((b) => b.design_readiness_grade === "DESIGN_READY" || b.design_readiness_grade === "PARTIAL").length, [brands]);
+
   // Derived: filtered list
   const filtered = useMemo<BrandSummary[]>(() => {
     let list = brands;
     if (selectedSector) list = list.filter((b) => b.sector === selectedSector);
     if (selectedArchetype) list = list.filter((b) => b.archetype_primary === selectedArchetype);
+    if (designReadyOnly) list = list.filter((b) => b.design_readiness_grade === "DESIGN_READY" || b.design_readiness_grade === "PARTIAL");
+    if (designReadyStrict) list = list.filter((b) => b.design_readiness_grade === "DESIGN_READY");
+    if (selectedVisualArchetype) list = list.filter((b) => b.visual_archetype === selectedVisualArchetype);
     if (searchQ) {
       const q = searchQ.toLowerCase();
       list = list.filter(
@@ -364,7 +406,7 @@ export function DashboardClient({
       );
     }
     return list;
-  }, [brands, selectedSector, selectedArchetype, searchQ]);
+  }, [brands, selectedSector, selectedArchetype, designReadyOnly, designReadyStrict, selectedVisualArchetype, searchQ]);
 
   const openBrand = useCallback(
     (ticker: string): void => {
@@ -377,6 +419,9 @@ export function DashboardClient({
     setSelectedSector(null);
     setSelectedArchetype(null);
     setSearchQ("");
+    setDesignReadyOnly(false);
+    setDesignReadyStrict(false);
+    setSelectedVisualArchetype("");
   }, []);
 
   const stats: StatCard[] = useMemo(
@@ -384,6 +429,7 @@ export function DashboardClient({
       { label: "BRANDS", value: String(totalBrands), delta: "+2 wk" },
       { label: "SECTORS", value: String(Object.keys(sectorCounts).length) },
       { label: "ARCHETYPES", value: String(archetypeCounts.length) },
+      { label: "DESIGN.md", value: String(designReadyCount) },
       {
         label: "AVG LAYERS",
         value: brands.length
@@ -393,7 +439,7 @@ export function DashboardClient({
           : "0.0",
       },
     ],
-    [totalBrands, sectorCounts, archetypeCounts.length, brands],
+    [totalBrands, sectorCounts, archetypeCounts.length, brands, designReadyCount],
   );
 
   const today = todayStamp();
@@ -458,6 +504,13 @@ export function DashboardClient({
           selectedArchetype={selectedArchetype}
           onSelectSector={setSelectedSector}
           onSelectArchetype={setSelectedArchetype}
+          designReadyOnly={designReadyOnly}
+          designReadyStrict={designReadyStrict}
+          selectedVisualArchetype={selectedVisualArchetype}
+          visualArchetypes={visualArchetypes}
+          onToggleDesignReadyOnly={() => setDesignReadyOnly((v) => !v)}
+          onToggleDesignReadyStrict={() => setDesignReadyStrict((v) => !v)}
+          onSelectVisualArchetype={setSelectedVisualArchetype}
         />
 
         <div style={{ flex: 1, padding: "20px 28px", overflow: "hidden", minWidth: 0 }}>
@@ -500,7 +553,7 @@ export function DashboardClient({
                 }}
               >
                 Search, filter and dissect {totalBrands} S&P 500 brand strategies across 8 layers — Identity,
-                Audience, Competitive, Content DNA, Design System, Channels, Financials, Legal.
+                Audience, Competitive, Content DNA, Design System, Channels, Financials, Legal. DESIGN.md ready: {designReadyCount}.
               </p>
             </div>
             <StatCards cards={stats} />
@@ -592,7 +645,7 @@ function RowList({ brands, onOpen }: RowListProps): JSX.Element {
 
   const headerStyle: CSSProperties = {
     display: "grid",
-    gridTemplateColumns: "70px 1fr 130px 120px 90px 100px 80px",
+    gridTemplateColumns: "70px 1fr 130px 120px 130px 90px 100px 80px",
     gap: 10,
     padding: "8px 14px",
     borderBottom: `1px solid ${T.border}`,
@@ -610,6 +663,7 @@ function RowList({ brands, onOpen }: RowListProps): JSX.Element {
         <span>NAME</span>
         <span>SECTOR</span>
         <span>ARCHETYPE</span>
+        <span>VISUAL</span>
         <span>VOICE</span>
         <span>LAYERS</span>
         <span>CONF.</span>
