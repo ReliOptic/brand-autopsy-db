@@ -9,7 +9,6 @@ import type {
   FreshnessSummary,
   QualitySummary,
 } from "@/lib/api";
-import { Navigation } from "@/components/navigation";
 import { T } from "@/components/ui-primitives";
 import { InventoryTable } from "./inventory-table";
 
@@ -106,7 +105,6 @@ export default async function AdminInventoryPage(): Promise<JSX.Element> {
     freshness.total_brands > 0 || Object.keys(freshness.records).length > 0;
 
   const pageStyle: CSSProperties = {
-    background: T.bg,
     color: T.text,
     fontFamily: T.sans,
     minHeight: "100vh",
@@ -144,8 +142,7 @@ export default async function AdminInventoryPage(): Promise<JSX.Element> {
     .map(([t]) => t);
 
   return (
-    <div style={pageStyle}>
-      <Navigation brandCount={brands.length} />
+    <div className="app-backdrop" style={pageStyle}>
       <div style={containerStyle}>
         <div style={warningStyle}>
           <span

@@ -2,7 +2,6 @@
 
 import type { CSSProperties, FormEvent } from "react";
 import { useState } from "react";
-import { Navigation } from "@/components/navigation";
 import { SectionLabel, T } from "@/components/ui-primitives";
 
 type SubmitStatus = "idle" | "submitting" | "success" | "error";
@@ -32,7 +31,6 @@ function WaitlistForm(): JSX.Element {
     width: "100%",
     height: 44,
     padding: "0 14px",
-    background: T.bg,
     border: `1px solid ${T.border}`,
     borderRadius: 4,
     color: T.text,
@@ -165,7 +163,6 @@ function WaitlistForm(): JSX.Element {
 
 export default function WaitlistPage(): JSX.Element {
   const pageStyle: CSSProperties = {
-    background: T.bg,
     color: T.text,
     fontFamily: T.sans,
     minHeight: "100vh",
@@ -178,8 +175,7 @@ export default function WaitlistPage(): JSX.Element {
   };
 
   return (
-    <div style={pageStyle}>
-      <Navigation />
+    <div className="app-backdrop" style={pageStyle}>
       <main style={containerStyle}>
         <div style={{ marginBottom: 20 }}>
           <SectionLabel accent={T.accent}>WAITLIST</SectionLabel>

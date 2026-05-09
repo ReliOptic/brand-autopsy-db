@@ -14,7 +14,6 @@ import type {
   DesignSystemAnalytics,
 } from "@/lib/api";
 import { T, SectionLabel, Ticker } from "@/components/ui-primitives";
-import { Navigation } from "@/components/navigation";
 
 interface AnalyticsClientProps {
   brands: BrandSummary[];
@@ -169,14 +168,15 @@ export function AnalyticsClient({
   }, [sectors]);
 
   return (
-    <div style={{ background: T.bg, color: T.text, fontFamily: T.sans, minHeight: "100vh" }}>
-      <Navigation />
-      <div style={{ padding: "20px 28px" }}>
+    <div className="app-backdrop" style={{ color: T.text, fontFamily: T.sans, minHeight: "calc(100vh - 48px)" }}>
+      <div style={{ padding: "22px 28px 44px", maxWidth: 1480, margin: "0 auto" }}>
         <div
+          className="terminal-panel"
           style={{
             marginBottom: 18,
-            paddingBottom: 16,
-            borderBottom: `1px solid ${T.border}`,
+            padding: "20px 22px",
+            borderRadius: 10,
+            borderTop: `2px solid ${T.accent}`,
           }}
         >
           <SectionLabel accent={T.accent}>ANALYTICS · MARKET INTELLIGENCE</SectionLabel>
@@ -194,7 +194,7 @@ export function AnalyticsClient({
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(5, 1fr)",
+              gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
               gap: 8,
               marginTop: 14,
             }}
@@ -203,9 +203,9 @@ export function AnalyticsClient({
               <div
                 key={s.key}
                 style={{
-                  background: T.surface,
-                  border: `1px solid ${T.border}`,
-                  borderRadius: 4,
+                  background: "rgba(7,7,11,0.58)",
+                  border: `1px solid ${T.borderBright}`,
+                  borderRadius: 7,
                   padding: "10px 14px",
                 }}
               >

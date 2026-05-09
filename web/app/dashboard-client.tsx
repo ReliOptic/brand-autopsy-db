@@ -190,9 +190,13 @@ function FilterSidebar({
     width: 240,
     flexShrink: 0,
     borderRight: `1px solid ${T.border}`,
-    background: T.bgDeep,
+    background: "rgba(5,5,8,0.86)",
+    backdropFilter: "blur(10px)",
     padding: "14px 8px",
     overflow: "auto",
+    position: "sticky",
+    top: 48,
+    height: "calc(100vh - 48px)",
   };
 
   const chip = (label: string, onClear: () => void): JSX.Element => (
@@ -292,11 +296,12 @@ function StatCards({ cards }: { cards: StatCard[] }): JSX.Element {
         <div
           key={s.label}
           style={{
-            border: `1px solid ${T.border}`,
-            borderRadius: 4,
+            border: `1px solid ${T.borderBright}`,
+            borderRadius: 7,
             padding: "8px 14px",
             minWidth: 90,
-            background: T.surface,
+            background: "rgba(7,7,11,0.54)",
+            boxShadow: "inset 0 1px 0 rgba(255,255,255,0.035)",
           }}
         >
           <div
@@ -445,7 +450,6 @@ export function DashboardClient({
   const today = todayStamp();
 
   const pageStyle: CSSProperties = {
-    background: T.bg,
     color: T.text,
     fontFamily: T.sans,
     minHeight: "calc(100vh - 48px)",
@@ -456,8 +460,12 @@ export function DashboardClient({
     justifyContent: "space-between",
     alignItems: "flex-end",
     marginBottom: 18,
-    paddingBottom: 16,
-    borderBottom: `1px solid ${T.border}`,
+    padding: "20px 22px",
+    border: `1px solid ${T.borderBright}`,
+    borderTop: `2px solid ${T.accent}`,
+    borderRadius: 10,
+    background: "linear-gradient(135deg, rgba(19,19,29,0.96), rgba(15,15,23,0.72))",
+    boxShadow: "0 22px 70px rgba(0,0,0,0.24)",
     gap: 16,
     flexWrap: "wrap",
   };
@@ -495,7 +503,7 @@ export function DashboardClient({
   const variants: CardVariant[] = ["hybrid", "row", "identity"];
 
   return (
-    <div style={pageStyle}>
+    <div className="app-backdrop" style={pageStyle}>
       <div style={{ display: "flex", minHeight: "calc(100vh - 48px)" }}>
         <FilterSidebar
           sectorCounts={sectorCounts}

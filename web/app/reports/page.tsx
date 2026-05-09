@@ -2,7 +2,6 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { fetchBrands } from "@/lib/api";
 import type { BrandSummary } from "@/lib/api";
-import { Navigation } from "@/components/navigation";
 import { T } from "@/components/ui-primitives";
 
 export const metadata = {
@@ -218,7 +217,6 @@ export default async function ReportsPage(): Promise<JSX.Element> {
   const entries = buildSectorEntries(brands);
 
   const pageStyle: CSSProperties = {
-    background: T.bg,
     color: T.text,
     fontFamily: T.sans,
     minHeight: "100vh",
@@ -243,8 +241,7 @@ export default async function ReportsPage(): Promise<JSX.Element> {
   };
 
   return (
-    <div style={pageStyle}>
-      <Navigation brandCount={brands.length} />
+    <div className="app-backdrop" style={pageStyle}>
       <div style={containerStyle}>
         <div style={headerStyle}>
           <div

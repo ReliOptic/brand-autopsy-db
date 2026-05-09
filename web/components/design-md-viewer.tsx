@@ -38,15 +38,16 @@ interface DesignMdViewerProps {
 
 export function DesignMdViewer({ data }: DesignMdViewerProps): JSX.Element {
   const cardStyle: CSSProperties = {
-    background: T.surface,
-    border: `1px solid ${T.border}`,
+    background: "linear-gradient(180deg, rgba(19,19,29,0.96), rgba(15,15,23,0.92))",
+    border: `1px solid ${T.borderBright}`,
     borderRadius: 6,
     overflow: "hidden",
+    boxShadow: "0 18px 60px rgba(0,0,0,0.22)",
   };
 
   return (
-    <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", gap: 16 }}>
-      <aside style={{ ...cardStyle, padding: 14, alignSelf: "start", position: "sticky", top: 16 }}>
+    <div className="design-md-layout">
+      <aside className="design-md-toc" style={{ ...cardStyle, padding: 14, alignSelf: "start", position: "sticky", top: 64 }}>
         <SectionLabel accent={T.accent}>DESIGN.md TOC</SectionLabel>
         <nav style={{ marginTop: 12, display: "flex", flexDirection: "column", gap: 4 }}>
           {SECTION_TITLES.map((title, i) => (
@@ -61,7 +62,8 @@ export function DesignMdViewer({ data }: DesignMdViewerProps): JSX.Element {
                 color: T.textMuted,
                 fontFamily: T.mono,
                 fontSize: 10,
-                padding: "5px 4px",
+                padding: "7px 8px",
+                borderRadius: 4,
                 borderLeft: `2px solid ${T.border}`,
               }}
             >
@@ -75,7 +77,7 @@ export function DesignMdViewer({ data }: DesignMdViewerProps): JSX.Element {
       <main style={cardStyle}>
         <div
           style={{
-            borderTop: `2px solid ${T.warn}`,
+            borderTop: `2px solid ${T.accentBright}`,
             borderBottom: `1px solid ${T.border}`,
             padding: "14px 18px",
             display: "flex",
@@ -125,10 +127,10 @@ export function DesignMdViewer({ data }: DesignMdViewerProps): JSX.Element {
 
         <article
           style={{
-            padding: "18px 24px 28px",
+            padding: "22px 28px 32px",
             color: T.text,
-            fontSize: 13,
-            lineHeight: 1.6,
+            fontSize: 14,
+            lineHeight: 1.68,
           }}
         >
           <ReactMarkdown

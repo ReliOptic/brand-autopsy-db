@@ -1,5 +1,4 @@
 import type { CSSProperties } from "react";
-import { Navigation } from "@/components/navigation";
 import { SectionLabel, T } from "@/components/ui-primitives";
 
 interface SourceTier {
@@ -106,7 +105,6 @@ const paragraphStyle: CSSProperties = {
 
 export default function AboutPage(): JSX.Element {
   const pageStyle: CSSProperties = {
-    background: T.bg,
     color: T.text,
     fontFamily: T.sans,
     minHeight: "100vh",
@@ -119,8 +117,7 @@ export default function AboutPage(): JSX.Element {
   };
 
   return (
-    <div style={pageStyle}>
-      <Navigation />
+    <div className="app-backdrop" style={pageStyle}>
       <main style={containerStyle}>
         {/* Header */}
         <header>

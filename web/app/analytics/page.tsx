@@ -2,7 +2,6 @@ import { fetchArchetypes, fetchBrands, fetchDesignSystemAnalytics, fetchSectors 
 import type { ArchetypeDistribution, BrandSummary, DesignSystemAnalytics, SectorStats } from "@/lib/api";
 import { AnalyticsClient } from "./analytics-client";
 import { T } from "@/components/ui-primitives";
-import { Navigation } from "@/components/navigation";
 
 export const metadata = {
   title: "S&P 500 Brand Strategy Pattern Analysis",
@@ -31,15 +30,14 @@ export default async function AnalyticsPage(): Promise<JSX.Element> {
   if (!archetypes || !sectors) {
     return (
       <div
+        className="app-backdrop"
         style={{
-          background: T.bg,
           color: T.text,
           fontFamily: T.sans,
-          minHeight: "100vh",
+          minHeight: "calc(100vh - 48px)",
         }}
       >
-        <Navigation />
-        <div
+          <div
           style={{
             padding: "60px 28px",
             textAlign: "center",

@@ -1,6 +1,5 @@
 import type { CSSProperties } from "react";
 import Link from "next/link";
-import { Navigation } from "@/components/navigation";
 import { SectionLabel, T } from "@/components/ui-primitives";
 import { PLANS, type PricingPlan } from "@/lib/stripe";
 import { PricingToggle } from "./pricing-toggle";
@@ -309,7 +308,6 @@ function PlanCard({ plan }: PlanCardProps): JSX.Element {
 
 export default function PricingPage(): JSX.Element {
   const pageStyle: CSSProperties = {
-    background: T.bg,
     color: T.text,
     fontFamily: T.sans,
     minHeight: "100vh",
@@ -372,8 +370,7 @@ export default function PricingPage(): JSX.Element {
   };
 
   return (
-    <div style={pageStyle}>
-      <Navigation />
+    <div className="app-backdrop" style={pageStyle}>
       <main style={containerStyle}>
         <header style={headerStyle}>
           <SectionLabel accent={T.accent}>PRICING</SectionLabel>

@@ -13,7 +13,6 @@ import {
   ConfidenceBadge,
 } from "@/components/ui-primitives";
 import type { ConfidenceLevel } from "@/components/ui-primitives";
-import { Navigation } from "@/components/navigation";
 import { TickerSelector } from "@/components/ticker-selector";
 import { CompareTable, exportCSV } from "@/components/compare-table";
 
@@ -444,14 +443,15 @@ export function CompareContent({ brands }: CompareContentProps): JSX.Element {
   }, [filled]);
 
   return (
-    <div style={{ background: T.bg, color: T.text, fontFamily: T.sans, minHeight: "100vh" }}>
-      <Navigation brandCount={brands.length} />
-      <div style={{ padding: "20px 28px" }}>
+    <div className="app-backdrop" style={{ color: T.text, fontFamily: T.sans, minHeight: "calc(100vh - 48px)" }}>
+      <div style={{ padding: "22px 28px 44px", maxWidth: 1480, margin: "0 auto" }}>
         <div
+          className="terminal-panel"
           style={{
             marginBottom: 16,
-            paddingBottom: 14,
-            borderBottom: `1px solid ${T.border}`,
+            padding: "20px 22px",
+            borderRadius: 10,
+            borderTop: `2px solid ${T.accent}`,
           }}
         >
           <SectionLabel accent={T.accent}>COMPARE · 2-4 BRANDS</SectionLabel>

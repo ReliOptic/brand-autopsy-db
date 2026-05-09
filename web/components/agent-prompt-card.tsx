@@ -34,7 +34,7 @@ export function AgentPromptCard({ designMd, markdownContent }: { designMd: Brand
     window.setTimeout(() => setCopied(false), 1500);
   };
   return (
-    <section style={{ background: T.surface, border: `1px solid ${T.border}`, borderRadius: 6, padding: 16 }}>
+    <section className="terminal-panel" style={{ borderRadius: 10, padding: 18 }}>
       <div style={{ display: "flex", justifyContent: "space-between", gap: 12, flexWrap: "wrap" }}>
         <div>
           <SectionLabel accent={T.accent}>AGENT PROMPT CARD</SectionLabel>
@@ -47,7 +47,7 @@ export function AgentPromptCard({ designMd, markdownContent }: { designMd: Brand
           <button key={item.type} type="button" onClick={() => setType(item.type)} style={buttonStyle(type === item.type)}>{item.label}</button>
         ))}
       </div>
-      <textarea readOnly value={prompt} style={{ width: "100%", minHeight: 220, marginTop: 12, background: T.bg, color: T.text, border: `1px solid ${T.border}`, borderRadius: 4, padding: 12, fontFamily: T.mono, fontSize: 11, lineHeight: 1.5 }} />
+      <textarea readOnly value={prompt} style={{ width: "100%", minHeight: 260, marginTop: 12, background: "rgba(5,5,8,0.82)", color: T.text, border: `1px solid ${T.borderBright}`, borderRadius: 6, padding: 14, fontFamily: T.mono, fontSize: 11, lineHeight: 1.55, boxShadow: "inset 0 1px 18px rgba(0,0,0,0.28)" }} />
       <div style={{ display: "flex", justifyContent: "space-between", marginTop: 8, fontFamily: T.mono, fontSize: 10 }}>
         <span style={{ color: T.warn }}>Do not copy logos, trademarks, or proprietary assets.</span>
         <span style={{ color: copied ? T.success : T.textDim }}>{copied ? "Copied!" : `${prompt.length.toLocaleString()} chars`}</span>
